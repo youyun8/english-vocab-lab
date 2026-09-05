@@ -1,0 +1,278 @@
+[
+  {
+    "id": "w_eliminate",
+    "lemma": "eliminate",
+    "slug": "eliminate",
+    "cefr": "B2",
+    "pronunciation": { "kk": "/ɪˈlɪməˌnet/", "syllables": "e·lim·i·nate", "stressNote": "重音在第二音節 -lim-。" },
+    "forms": { "past": "eliminated", "pastParticiple": "eliminated", "presentParticiple": "eliminating", "thirdPersonSingular": "eliminates" },
+    "senses": [
+      {
+        "id": "s_eliminate_1",
+        "partOfSpeech": "verb",
+        "register": ["neutral", "business", "technical"],
+        "definitionEn": "to completely remove or get rid of something that is unwanted",
+        "definitionZh": "徹底消除；根除；排除",
+        "usageExplanationZh": "eliminate 強調「徹底、完全地去掉」，讓某個問題、風險或多餘的東西不再存在。它比 remove 語氣更強：remove 只是把東西「拿走、搬走」，eliminate 則暗示「讓它從此不存在」。因此常用於 bug、風險、浪費、重複、瓶頸等抽象事物。",
+        "grammarPatterns": ["eliminate + noun", "eliminate the need for + noun"],
+        "collocations": [
+          { "text": "eliminate the need for", "meaningZh": "使……變得不必要", "example": { "en": "Caching eliminates the need for a second database query.", "zh": "快取讓第二次資料庫查詢變得不必要。", "highlight": "eliminates the need for" } },
+          { "text": "eliminate duplication", "meaningZh": "消除重複" },
+          { "text": "eliminate a risk", "meaningZh": "消除風險" },
+          { "text": "eliminate waste", "meaningZh": "消除浪費" },
+          { "text": "completely eliminate", "meaningZh": "完全消除" }
+        ],
+        "examples": [
+          { "en": "The refactor eliminated three hundred lines of duplicated code.", "zh": "這次重構消除了三百行重複的程式碼。", "highlight": "eliminated" },
+          { "en": "We cannot eliminate the risk entirely, but we can reduce it substantially.", "zh": "我們無法完全消除風險，但可以大幅降低它。", "highlight": "eliminate" },
+          { "en": "Automating the report eliminated several hours of manual work each week.", "zh": "將報表自動化，每週省去了好幾個小時的人工作業。", "highlight": "eliminated" }
+        ],
+        "usageNotes": [
+          "eliminate 的受詞通常是「不想要的東西」：waste、risk、bugs、duplication、bottlenecks。說 eliminate a feature 會顯得奇怪，除非你把該功能視為問題。",
+          "在體育或競賽語境中，be eliminated 表示「被淘汰」：The team was eliminated in the semifinal."
+        ],
+        "commonMistakes": [
+          { "incorrect": "We eliminated the file to the archive folder.", "correct": "We moved the file to the archive folder.", "explanationZh": "eliminate 沒有「搬移到某處」的意思，不能接表示目的地的介系詞片語。要表達搬移請用 move 或 relocate。" }
+        ]
+      }
+    ],
+    "synonyms": [
+      { "wordId": "w_preclude", "lemma": "preclude", "noteZh": "較正式，指「事先排除某種可能性」。" },
+      { "lemma": "eradicate", "noteZh": "語氣更強，多用於疾病、貧窮等根深柢固的問題。" }
+    ],
+    "antonyms": [{ "lemma": "introduce" }, { "wordId": "w_retain", "lemma": "retain" }],
+    "commonlyConfusedWith": [
+      { "lemma": "remove", "distinctionZh": "remove 只是把東西拿走或移走，東西仍可能存在於別處；eliminate 強調讓它徹底不存在。remove a file 是把檔案刪掉或搬走，eliminate duplication 是讓重複本身消失。" }
+    ],
+    "wordFamily": [
+      { "lemma": "elimination", "partOfSpeech": "noun", "meaningZh": "消除；淘汰" },
+      { "lemma": "eliminated", "partOfSpeech": "adjective", "meaningZh": "被淘汰的" }
+    ],
+    "tags": ["problem-solving", "engineering", "business"]
+  },
+  {
+    "id": "w_relevant",
+    "lemma": "relevant",
+    "slug": "relevant",
+    "cefr": "B2",
+    "pronunciation": { "kk": "/ˈrɛləvənt/", "syllables": "rel·e·vant", "stressNote": "重音在第一音節。" },
+    "senses": [
+      {
+        "id": "s_relevant_1",
+        "partOfSpeech": "adjective",
+        "register": ["neutral", "academic", "business"],
+        "definitionEn": "closely connected to the subject or situation being discussed, and therefore worth considering",
+        "definitionZh": "相關的；切題的；有參考價值的",
+        "usageExplanationZh": "relevant 不只是「有關係」，而是「與眼前的問題有關，因此值得納入考量」。它天生帶有「對某件事而言」的比較基準，所以最自然的句型是 relevant to + 名詞。學術與商務寫作中，relevant 常用來篩選資訊：relevant data、relevant experience、relevant section。",
+        "grammarPatterns": ["relevant to + noun", "be relevant + to + somebody/something"],
+        "collocations": [
+          { "text": "relevant to", "meaningZh": "與……相關", "example": { "en": "That objection is not relevant to the current design.", "zh": "那個反對意見與目前的設計無關。", "highlight": "relevant to" } },
+          { "text": "highly relevant", "meaningZh": "高度相關" },
+          { "text": "relevant experience", "meaningZh": "相關經驗" },
+          { "text": "relevant data", "meaningZh": "相關資料" },
+          { "text": "directly relevant", "meaningZh": "直接相關" }
+        ],
+        "examples": [
+          { "en": "Please attach any documents relevant to the incident.", "zh": "請附上任何與此事件相關的文件。", "highlight": "relevant to" },
+          { "en": "Her background in distributed systems is highly relevant to this role.", "zh": "她在分散式系統方面的背景與這個職位高度相關。", "highlight": "relevant" },
+          { "en": "The study is interesting, but it is not directly relevant to our problem.", "zh": "這份研究很有意思，但與我們的問題沒有直接關聯。", "highlight": "relevant" }
+        ],
+        "usageNotes": [
+          "當比較基準已由上下文清楚交代時，可以省略 to：Only the relevant sections were reviewed."
+        ],
+        "commonMistakes": [
+          { "incorrect": "The data is relevant with the experiment.", "correct": "The data is relevant to the experiment.", "explanationZh": "relevant 固定搭配介系詞 to，不用 with 或 for。" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "pertinent", "noteZh": "更正式，常見於學術與法律語境。" }, { "lemma": "applicable" }],
+    "antonyms": [{ "lemma": "irrelevant" }],
+    "wordFamily": [
+      { "lemma": "relevance", "partOfSpeech": "noun", "meaningZh": "相關性" },
+      { "lemma": "irrelevant", "partOfSpeech": "adjective", "meaningZh": "不相關的" },
+      { "lemma": "relevantly", "partOfSpeech": "adverb", "meaningZh": "切題地" }
+    ],
+    "tags": ["academic", "business", "analysis"]
+  },
+  {
+    "id": "w_substantial",
+    "lemma": "substantial",
+    "slug": "substantial",
+    "cefr": "B2",
+    "pronunciation": { "kk": "/səbˈstænʃəl/", "syllables": "sub·stan·tial", "stressNote": "重音在第二音節 -stan-。" },
+    "senses": [
+      {
+        "id": "s_substantial_1",
+        "partOfSpeech": "adjective",
+        "register": ["formal", "business", "academic"],
+        "definitionEn": "large enough in amount or degree to be important or to have a real effect",
+        "definitionZh": "大量的；可觀的；顯著的",
+        "usageExplanationZh": "substantial 用來描述「數量或程度大到足以造成實際影響」。它比 big 正式，也比 large 更強調「有分量、有實質意義」。常見於報告、財務與技術文件中：a substantial increase、substantial evidence、a substantial improvement。",
+        "grammarPatterns": ["a substantial + noun", "substantially + comparative adjective"],
+        "collocations": [
+          { "text": "a substantial increase", "meaningZh": "大幅增加" },
+          { "text": "substantial evidence", "meaningZh": "充分的證據" },
+          { "text": "a substantial improvement", "meaningZh": "顯著的改善" },
+          { "text": "a substantial portion", "meaningZh": "相當大的一部分" },
+          { "text": "substantial progress", "meaningZh": "顯著的進展" }
+        ],
+        "examples": [
+          { "en": "The migration required a substantial investment of engineering time.", "zh": "這次遷移需要投入大量的工程時間。", "highlight": "substantial" },
+          { "en": "There is substantial evidence that the outage was caused by a configuration change.", "zh": "有充分證據顯示，這次服務中斷是由設定變更所造成。", "highlight": "substantial" },
+          { "en": "A substantial portion of the budget goes to infrastructure.", "zh": "預算中相當大的一部分用於基礎設施。", "highlight": "substantial" }
+        ],
+        "usageNotes": [
+          "副詞 substantially 常與比較級連用：substantially faster、substantially lower。",
+          "substantial 也可以表示「結構堅固的」：a substantial building，但此用法在商務寫作中較少見。"
+        ],
+        "commonMistakes": [
+          { "incorrect": "We made a substantial of progress.", "correct": "We made substantial progress.", "explanationZh": "substantial 是形容詞，不能當名詞用。若要用名詞結構，請說 a substantial amount of progress。" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "considerable" }, { "lemma": "significant" }],
+    "antonyms": [{ "wordId": "w_negligible", "lemma": "negligible", "noteZh": "小到可以忽略的。" }, { "lemma": "marginal" }],
+    "commonlyConfusedWith": [
+      { "lemma": "substantive", "distinctionZh": "substantial 指「數量或程度大」；substantive 指「有實質內容的、非表面的」。a substantial change 是很大的改變，a substantive change 是觸及本質的改變。" }
+    ],
+    "wordFamily": [
+      { "lemma": "substantially", "partOfSpeech": "adverb", "meaningZh": "大幅地" },
+      { "lemma": "substance", "partOfSpeech": "noun", "meaningZh": "實質；物質" }
+    ],
+    "tags": ["business", "academic", "quantity"]
+  },
+  {
+    "id": "w_distinction",
+    "lemma": "distinction",
+    "slug": "distinction",
+    "cefr": "B2",
+    "pronunciation": { "kk": "/dɪˈstɪŋkʃən/", "syllables": "dis·tinc·tion", "stressNote": "重音在第二音節 -tinc-。" },
+    "forms": { "plural": "distinctions" },
+    "senses": [
+      {
+        "id": "s_distinction_1",
+        "partOfSpeech": "noun",
+        "register": ["formal", "academic"],
+        "definitionEn": "a clear difference between two similar things",
+        "definitionZh": "區別；差異",
+        "usageExplanationZh": "distinction 指「兩個相似事物之間的清楚分別」，重點在於「分辨」這個動作的結果。它常出現在分析性寫作中，用來提醒讀者不要混淆兩個概念。最重要的句型是 the distinction between A and B，以及動詞搭配 draw / make a distinction。",
+        "grammarPatterns": ["the distinction between A and B", "draw a distinction between A and B", "make a distinction between A and B"],
+        "collocations": [
+          { "text": "draw a distinction between", "meaningZh": "區分……與……", "example": { "en": "It is important to draw a distinction between correlation and causation.", "zh": "區分相關性與因果關係非常重要。", "highlight": "draw a distinction between" } },
+          { "text": "a clear distinction", "meaningZh": "明確的區別" },
+          { "text": "a subtle distinction", "meaningZh": "細微的差別" },
+          { "text": "blur the distinction", "meaningZh": "模糊界線" }
+        ],
+        "examples": [
+          { "en": "The paper draws a careful distinction between accuracy and precision.", "zh": "這篇論文仔細區分了準確度與精確度。", "highlight": "distinction" },
+          { "en": "In practice, the distinction between a library and a framework can be blurry.", "zh": "實務上，函式庫與框架之間的界線可能相當模糊。", "highlight": "distinction" },
+          { "en": "There is a subtle but important distinction between these two error codes.", "zh": "這兩個錯誤碼之間有一個細微但重要的差別。", "highlight": "distinction" }
+        ],
+        "usageNotes": [
+          "distinction 也可以表示「殊榮、優異」：She graduated with distinction.（她以優異成績畢業。）此為不可數用法。"
+        ],
+        "commonMistakes": [
+          { "incorrect": "the distinction of A and B", "correct": "the distinction between A and B", "explanationZh": "表示「兩者之間的差別」時要用 between，不用 of。" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "difference" }, { "lemma": "differentiation" }],
+    "wordFamily": [
+      { "lemma": "distinguish", "partOfSpeech": "verb", "meaningZh": "區分" },
+      { "lemma": "distinct", "partOfSpeech": "adjective", "meaningZh": "明顯不同的" },
+      { "lemma": "distinctive", "partOfSpeech": "adjective", "meaningZh": "有特色的" }
+    ],
+    "tags": ["academic", "analysis", "writing"]
+  },
+  {
+    "id": "w_retain",
+    "lemma": "retain",
+    "slug": "retain",
+    "cefr": "B2",
+    "pronunciation": { "kk": "/rɪˈten/", "syllables": "re·tain", "stressNote": "重音在第二音節。" },
+    "forms": { "past": "retained", "pastParticiple": "retained", "presentParticiple": "retaining", "thirdPersonSingular": "retains" },
+    "senses": [
+      {
+        "id": "s_retain_1",
+        "partOfSpeech": "verb",
+        "register": ["formal", "business", "technical"],
+        "definitionEn": "to keep something, especially when there is pressure or a reason to lose it",
+        "definitionZh": "保留；保持；留住",
+        "usageExplanationZh": "retain 是 keep 的正式對應詞，特別強調「在可能失去的情況下仍然保有」。技術文件常用它描述資料保存（retain logs for 30 days）；商務語境用來談留住人才或客戶（retain talent、retain customers）；也可以描述保留某種特質（retain its original meaning）。",
+        "grammarPatterns": ["retain + noun", "retain + noun + for + duration"],
+        "collocations": [
+          { "text": "retain data", "meaningZh": "保留資料" },
+          { "text": "retain control", "meaningZh": "保有控制權" },
+          { "text": "retain customers", "meaningZh": "留住客戶" },
+          { "text": "retain the right to", "meaningZh": "保留……的權利", "example": { "en": "We retain the right to revoke access at any time.", "zh": "我們保留隨時撤銷存取權限的權利。", "highlight": "retain the right to" } }
+        ],
+        "examples": [
+          { "en": "Audit logs are retained for ninety days and then deleted automatically.", "zh": "稽核紀錄會保留九十天，之後自動刪除。", "highlight": "retained" },
+          { "en": "The company struggled to retain senior engineers during the reorganization.", "zh": "重組期間，公司難以留住資深工程師。", "highlight": "retain" },
+          { "en": "The translation retains the tone of the original text.", "zh": "這個譯本保留了原文的語氣。", "highlight": "retains" }
+        ],
+        "usageNotes": [
+          "retain 是及物動詞，後面一定要接受詞，不能單獨使用。",
+          "日常口語中通常用 keep；retain 出現在合約、政策、技術規格等正式文件裡。"
+        ],
+        "commonMistakes": [
+          { "incorrect": "The system retains for 30 days.", "correct": "The system retains the data for 30 days.", "explanationZh": "retain 必須接受詞，不能省略被保留的東西。" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "keep", "noteZh": "日常用語，語氣較不正式。" }, { "lemma": "preserve" }],
+    "antonyms": [{ "wordId": "w_eliminate", "lemma": "eliminate" }, { "lemma": "discard" }],
+    "wordFamily": [
+      { "lemma": "retention", "partOfSpeech": "noun", "meaningZh": "保留；留存率" },
+      { "lemma": "retainer", "partOfSpeech": "noun", "meaningZh": "預聘費" }
+    ],
+    "tags": ["business", "engineering", "policy"]
+  },
+  {
+    "id": "w_reinforce",
+    "lemma": "reinforce",
+    "slug": "reinforce",
+    "cefr": "B2",
+    "pronunciation": { "kk": "/ˌriɪnˈfors/", "syllables": "re·in·force", "stressNote": "主重音在第三音節 -force，第一音節有次重音。" },
+    "forms": { "past": "reinforced", "pastParticiple": "reinforced", "presentParticiple": "reinforcing", "thirdPersonSingular": "reinforces" },
+    "senses": [
+      {
+        "id": "s_reinforce_1",
+        "partOfSpeech": "verb",
+        "register": ["neutral", "academic", "business"],
+        "definitionEn": "to make an idea, belief, or feeling stronger",
+        "definitionZh": "強化；加深（想法、印象、信念）",
+        "usageExplanationZh": "reinforce 在抽象語境中表示「讓某個既有的想法或印象變得更強」。注意它的前提是「那個東西本來就存在」，所以 reinforce 不能用來表示「創造」。學術寫作常說 the findings reinforce the view that...，意思是研究結果進一步支持既有觀點。",
+        "grammarPatterns": ["reinforce + noun", "reinforce the view/idea that + clause"],
+        "collocations": [
+          { "text": "reinforce a stereotype", "meaningZh": "強化刻板印象" },
+          { "text": "reinforce the message", "meaningZh": "強化訊息" },
+          { "text": "reinforce the impression", "meaningZh": "加深印象" },
+          { "text": "mutually reinforcing", "meaningZh": "相互強化的" }
+        ],
+        "examples": [
+          { "en": "The incident reinforced our belief that the deployment process needed automation.", "zh": "這起事件加深了我們的信念：部署流程需要自動化。", "highlight": "reinforced" },
+          { "en": "Repeating the same example in every chapter reinforces the concept.", "zh": "在每一章重複同一個例子，能夠強化這個概念。", "highlight": "reinforces" },
+          { "en": "Poor documentation and high turnover are mutually reinforcing problems.", "zh": "文件不足與人員高流動率是互相加劇的問題。", "highlight": "reinforcing" }
+        ]
+      },
+      {
+        "id": "s_reinforce_2",
+        "partOfSpeech": "verb",
+        "register": ["technical"],
+        "definitionEn": "to make a physical structure stronger by adding material to it",
+        "definitionZh": "加固；補強（實體結構）",
+        "usageExplanationZh": "在工程與建築語境中，reinforce 指用額外材料讓結構更堅固，最常見的是 reinforced concrete（鋼筋混凝土）。這個具體義是抽象義的來源，理解它有助於記住「本來就存在、再加強」的核心語感。",
+        "collocations": [{ "text": "reinforced concrete", "meaningZh": "鋼筋混凝土" }],
+        "examples": [
+          { "en": "The bridge deck was reinforced with additional steel beams.", "zh": "橋面以額外的鋼樑加以補強。", "highlight": "reinforced" },
+          { "en": "Reinforced concrete is used throughout the foundation.", "zh": "整個地基都使用鋼筋混凝土。", "highlight": "Reinforced" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "strengthen" }, { "lemma": "bolster", "noteZh": "較正式，常用於支持論點或信心。" }],
+    "antonyms": [{ "wordId": "w_undermine", "lemma": "undermine", "noteZh": "逐漸削弱，恰為反義。" }],
+    "wordFamily": [{ "lemma": "reinforcement", "partOfSpeech": "noun", "meaningZh": "強化；增援" }],
+    "tags": ["academic", "argument", "engineering"]
+  }
+]

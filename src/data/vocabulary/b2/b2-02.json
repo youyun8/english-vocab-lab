@@ -1,0 +1,244 @@
+[
+  {
+    "id": "w_conventional",
+    "lemma": "conventional",
+    "slug": "conventional",
+    "cefr": "B2",
+    "pronunciation": { "kk": "/kənˈvɛnʃənəl/", "syllables": "con·ven·tion·al", "stressNote": "重音在第二音節 -ven-。" },
+    "senses": [
+      {
+        "id": "s_conventional_1",
+        "partOfSpeech": "adjective",
+        "register": ["neutral", "academic", "technical"],
+        "definitionEn": "following the usual or traditional way of doing something rather than a new approach",
+        "definitionZh": "傳統的；常規的；一般做法的",
+        "usageExplanationZh": "conventional 描述「按照大家習慣的做法」，在技術寫作中常用來對比新方法：conventional approach vs. our proposed method。它本身是中性的，但在創新語境中往往帶一點「不夠新穎」的暗示。片語 conventional wisdom 指「一般人普遍相信的看法」，且常帶有「可能是錯的」意味。",
+        "grammarPatterns": ["conventional + noun", "unlike conventional + noun, ..."],
+        "collocations": [
+          { "text": "conventional wisdom", "meaningZh": "普遍看法；世俗智慧", "example": { "en": "Conventional wisdom says microservices scale better, but the data is mixed.", "zh": "一般看法認為微服務擴展性較好，但數據結果並不一致。", "highlight": "Conventional wisdom" } },
+          { "text": "a conventional approach", "meaningZh": "傳統做法" },
+          { "text": "conventional methods", "meaningZh": "常規方法" }
+        ],
+        "examples": [
+          { "en": "Unlike conventional databases, this engine stores data column by column.", "zh": "與傳統資料庫不同，這個引擎以欄為單位儲存資料。", "highlight": "conventional" },
+          { "en": "He gave a fairly conventional answer in the interview.", "zh": "他在面試中給了一個相當中規中矩的回答。", "highlight": "conventional" },
+          { "en": "Conventional testing would not have caught this race condition.", "zh": "傳統的測試方式抓不到這個競態條件。", "highlight": "Conventional" }
+        ],
+        "usageNotes": [
+          "注意 convention 有兩個常見意思：「慣例」與「大型會議」。conventional 只對應「慣例」這個意思。"
+        ],
+        "commonMistakes": [
+          { "incorrect": "a conventional of naming variables", "correct": "a convention for naming variables", "explanationZh": "指「慣例、約定」時要用名詞 convention；conventional 是形容詞。" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "traditional" }, { "lemma": "standard" }, { "lemma": "orthodox", "noteZh": "更正式，常帶「正統」意味。" }],
+    "antonyms": [{ "lemma": "unconventional" }, { "wordId": "w_idiosyncratic", "lemma": "idiosyncratic" }],
+    "wordFamily": [
+      { "lemma": "convention", "partOfSpeech": "noun", "meaningZh": "慣例；公約" },
+      { "lemma": "conventionally", "partOfSpeech": "adverb", "meaningZh": "按慣例地" }
+    ],
+    "tags": ["academic", "engineering", "comparison"]
+  },
+  {
+    "id": "w_preference",
+    "lemma": "preference",
+    "slug": "preference",
+    "cefr": "B2",
+    "pronunciation": { "kk": "/ˈprɛfərəns/", "syllables": "pref·er·ence", "stressNote": "重音在第一音節，注意不是 /prɪˈfɝ-/。" },
+    "forms": { "plural": "preferences" },
+    "senses": [
+      {
+        "id": "s_preference_1",
+        "partOfSpeech": "noun",
+        "register": ["neutral", "business"],
+        "definitionEn": "a greater liking for one thing or person than for another",
+        "definitionZh": "偏好；偏愛",
+        "usageExplanationZh": "preference 最關鍵的是介系詞：表示「偏好某物」時用 preference for，表示「勝過某物」時用 over 或 to。這是 B2 學習者最常出錯的地方。名詞形式常見於使用者介面（user preferences，指設定）與問卷調查中。",
+        "grammarPatterns": ["a preference for + noun", "a preference for A over B", "in preference to + noun"],
+        "collocations": [
+          { "text": "have a preference for", "meaningZh": "偏好……", "example": { "en": "Most reviewers have a preference for smaller pull requests.", "zh": "多數審查者偏好較小的 pull request。", "highlight": "have a preference for" } },
+          { "text": "express a preference", "meaningZh": "表達偏好" },
+          { "text": "a strong preference", "meaningZh": "強烈的偏好" },
+          { "text": "a personal preference", "meaningZh": "個人偏好" },
+          { "text": "in order of preference", "meaningZh": "依偏好排序" }
+        ],
+        "examples": [
+          { "en": "The team has a strong preference for explicit configuration over hidden defaults.", "zh": "團隊強烈偏好明確的設定，而不是隱藏的預設值。", "highlight": "preference for" },
+          { "en": "Please indicate your preference in the settings page.", "zh": "請在設定頁面中指出您的偏好。", "highlight": "preference" },
+          { "en": "She chose the smaller company in preference to a larger one.", "zh": "她選擇了較小的公司，而非規模較大的那家。", "highlight": "in preference to" }
+        ],
+        "usageNotes": [
+          "動詞 prefer 的句型不同：prefer A to B（不是 prefer A than B）。名詞 preference 則用 for 或 over。"
+        ],
+        "commonMistakes": [
+          { "incorrect": "I have a preference to coffee.", "correct": "I have a preference for coffee.", "explanationZh": "preference 後面接偏好的對象時用 for。to 只用在 in preference to 這個固定片語中。" },
+          { "incorrect": "I prefer coffee than tea.", "correct": "I prefer coffee to tea.", "explanationZh": "動詞 prefer 的標準句型是 prefer A to B，不能用 than。" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "inclination" }, { "lemma": "liking" }],
+    "wordFamily": [
+      { "lemma": "prefer", "partOfSpeech": "verb", "meaningZh": "偏好" },
+      { "lemma": "preferable", "partOfSpeech": "adjective", "meaningZh": "更可取的" },
+      { "lemma": "preferably", "partOfSpeech": "adverb", "meaningZh": "最好是" }
+    ],
+    "tags": ["business", "everyday", "grammar-pattern"]
+  },
+  {
+    "id": "w_constraint",
+    "lemma": "constraint",
+    "slug": "constraint",
+    "cefr": "B2",
+    "pronunciation": { "kk": "/kənˈstrent/", "syllables": "con·straint", "stressNote": "重音在第二音節。" },
+    "forms": { "plural": "constraints" },
+    "senses": [
+      {
+        "id": "s_constraint_1",
+        "partOfSpeech": "noun",
+        "register": ["formal", "technical", "business"],
+        "definitionEn": "something that limits what you are able to do",
+        "definitionZh": "限制；約束條件",
+        "usageExplanationZh": "constraint 指「限制可行範圍的因素」，在工程與專案管理中是核心詞彙：time constraints、budget constraints、resource constraints。它比 limitation 更中性——limitation 常暗示「缺陷」，constraint 則是「必須在其中運作的既定條件」。資料庫中的 constraint 則是「約束」這個技術術語。",
+        "grammarPatterns": ["under + constraint", "place a constraint on + noun", "subject to + constraint"],
+        "collocations": [
+          { "text": "time constraints", "meaningZh": "時間限制" },
+          { "text": "budget constraints", "meaningZh": "預算限制" },
+          { "text": "under tight constraints", "meaningZh": "在嚴格的限制之下", "example": { "en": "The prototype was built under tight time constraints.", "zh": "這個原型是在時間非常緊迫的限制下做出來的。", "highlight": "under tight time constraints" } },
+          { "text": "place constraints on", "meaningZh": "對……施加限制" }
+        ],
+        "examples": [
+          { "en": "Memory is the binding constraint on this workload, not CPU.", "zh": "這項工作負載的瓶頸限制是記憶體，而不是 CPU。", "highlight": "constraint" },
+          { "en": "Given our budget constraints, we decided to postpone the rewrite.", "zh": "考量到預算限制，我們決定延後重寫。", "highlight": "constraints" },
+          { "en": "A foreign key constraint prevents orphaned rows.", "zh": "外鍵約束可以避免出現孤立的資料列。", "highlight": "constraint" }
+        ],
+        "usageNotes": [
+          "constraint 是可數名詞，談具體限制時通常用複數：within these constraints。"
+        ],
+        "commonMistakes": [
+          { "incorrect": "We work under constrain of time.", "correct": "We work under time constraints.", "explanationZh": "constrain 是動詞，名詞是 constraint。另外要用複數 constraints 表示一般的限制條件。" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "limitation", "noteZh": "偏向「不足或缺陷」。" }, { "lemma": "restriction", "noteZh": "偏向「規定禁止」。" }],
+    "wordFamily": [
+      { "lemma": "constrain", "partOfSpeech": "verb", "meaningZh": "限制" },
+      { "lemma": "constrained", "partOfSpeech": "adjective", "meaningZh": "受限的" }
+    ],
+    "tags": ["engineering", "project-management", "business"]
+  },
+  {
+    "id": "w_subsequent",
+    "lemma": "subsequent",
+    "slug": "subsequent",
+    "cefr": "B2",
+    "pronunciation": { "kk": "/ˈsʌbsəˌkwɛnt/", "syllables": "sub·se·quent", "stressNote": "主重音在第一音節。" },
+    "senses": [
+      {
+        "id": "s_subsequent_1",
+        "partOfSpeech": "adjective",
+        "register": ["formal", "academic", "technical"],
+        "definitionEn": "happening or coming after something else",
+        "definitionZh": "隨後的；接下來的",
+        "usageExplanationZh": "subsequent 是正式書面語，用來標示時間順序上「在某事之後」的事物。它幾乎只放在名詞前面（attributive），不用在 be 動詞後面。若要說「在……之後」，用片語 subsequent to，但一般寫作中 after 更自然。副詞 subsequently 則非常好用，等於「後來、之後」。",
+        "grammarPatterns": ["subsequent + noun", "subsequent to + noun (formal)"],
+        "collocations": [
+          { "text": "subsequent versions", "meaningZh": "後續版本" },
+          { "text": "in subsequent years", "meaningZh": "在隨後幾年" },
+          { "text": "subsequent requests", "meaningZh": "後續的請求" }
+        ],
+        "examples": [
+          { "en": "The first request populates the cache; subsequent requests are served from memory.", "zh": "第一個請求會填入快取，後續的請求則直接從記憶體提供。", "highlight": "subsequent" },
+          { "en": "This behaviour was fixed in a subsequent release.", "zh": "這個行為在後續的版本中已修正。", "highlight": "subsequent" },
+          { "en": "She joined in 2019 and was subsequently promoted to team lead.", "zh": "她在 2019 年加入，後來升任團隊主管。", "highlight": "subsequently" }
+        ],
+        "usageNotes": [
+          "不要說 The release was subsequent.；subsequent 需要放在名詞前，或使用 subsequent to + 名詞。"
+        ],
+        "commonMistakes": [
+          { "incorrect": "Subsequent of the incident, we added monitoring.", "correct": "Subsequent to the incident, we added monitoring.", "explanationZh": "正式片語是 subsequent to，不是 subsequent of。日常寫作也可以直接用 After the incident。" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "following" }, { "lemma": "later" }],
+    "antonyms": [{ "wordId": "w_preliminary", "lemma": "preliminary" }, { "lemma": "prior" }],
+    "wordFamily": [{ "lemma": "subsequently", "partOfSpeech": "adverb", "meaningZh": "隨後；後來" }],
+    "tags": ["academic", "time", "writing"]
+  },
+  {
+    "id": "w_preliminary",
+    "lemma": "preliminary",
+    "slug": "preliminary",
+    "cefr": "B2",
+    "pronunciation": { "kk": "/prɪˈlɪməˌnɛrɪ/", "syllables": "pre·lim·i·nar·y", "stressNote": "主重音在第二音節 -lim-。" },
+    "senses": [
+      {
+        "id": "s_preliminary_1",
+        "partOfSpeech": "adjective",
+        "register": ["formal", "academic", "business"],
+        "definitionEn": "happening before a more important action or event, often to prepare for it; not yet final",
+        "definitionZh": "初步的；預備的；尚未定案的",
+        "usageExplanationZh": "preliminary 有兩個重點：一是「在正式的事情之前」，二是「結果尚未確定」。因此 preliminary results 意思是「初步結果，之後可能改變」，這在學術與事故報告中是很重要的免責語氣。使用它可以讓陳述保留修正空間。",
+        "grammarPatterns": ["preliminary + noun", "a preliminary + noun + suggests that + clause"],
+        "collocations": [
+          { "text": "preliminary results", "meaningZh": "初步結果", "example": { "en": "Preliminary results suggest a ten percent improvement.", "zh": "初步結果顯示大約有百分之十的改善。", "highlight": "Preliminary results" } },
+          { "text": "a preliminary analysis", "meaningZh": "初步分析" },
+          { "text": "a preliminary investigation", "meaningZh": "初步調查" },
+          { "text": "preliminary findings", "meaningZh": "初步發現" }
+        ],
+        "examples": [
+          { "en": "Our preliminary investigation points to a misconfigured load balancer.", "zh": "我們的初步調查指向一個設定錯誤的負載平衡器。", "highlight": "preliminary" },
+          { "en": "These numbers are preliminary and may change once the audit is complete.", "zh": "這些數字是初步的，稽核完成後可能會有變動。", "highlight": "preliminary" },
+          { "en": "The preliminary design review is scheduled for Thursday.", "zh": "初步設計審查安排在星期四。", "highlight": "preliminary" }
+        ],
+        "usageNotes": [
+          "preliminary 也可作名詞（複數 preliminaries），指「預賽」或「前置事項」，但形容詞用法遠為常見。"
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "initial" }, { "lemma": "provisional", "noteZh": "更強調「暫定、將被取代」。" }],
+    "antonyms": [{ "lemma": "final" }, { "wordId": "w_subsequent", "lemma": "subsequent" }],
+    "wordFamily": [{ "lemma": "preliminarily", "partOfSpeech": "adverb", "meaningZh": "初步地" }],
+    "tags": ["academic", "business", "time"]
+  },
+  {
+    "id": "w_consecutive",
+    "lemma": "consecutive",
+    "slug": "consecutive",
+    "cefr": "B2",
+    "pronunciation": { "kk": "/kənˈsɛkjətɪv/", "syllables": "con·sec·u·tive", "stressNote": "重音在第二音節 -sec-。" },
+    "senses": [
+      {
+        "id": "s_consecutive_1",
+        "partOfSpeech": "adjective",
+        "register": ["neutral", "technical"],
+        "definitionEn": "following one after another without any interruption",
+        "definitionZh": "連續的；接連的（中間沒有中斷）",
+        "usageExplanationZh": "consecutive 的核心是「中間沒有斷開」。它幾乎總是用來修飾可數的時間單位或次數：three consecutive days、five consecutive failures。要注意它和 continuous 的差別：consecutive 是「一個接一個的離散單位」，continuous 是「不間斷的連續狀態」。",
+        "grammarPatterns": ["number + consecutive + plural noun", "for the Nth consecutive + time unit"],
+        "collocations": [
+          { "text": "consecutive days", "meaningZh": "連續幾天" },
+          { "text": "three consecutive failures", "meaningZh": "連續三次失敗" },
+          { "text": "for the third consecutive year", "meaningZh": "連續第三年", "example": { "en": "Revenue grew for the third consecutive year.", "zh": "營收連續第三年成長。", "highlight": "for the third consecutive year" } }
+        ],
+        "examples": [
+          { "en": "The circuit breaker opens after five consecutive failures.", "zh": "斷路器會在連續五次失敗後開啟。", "highlight": "consecutive" },
+          { "en": "She worked twelve consecutive days without a break.", "zh": "她連續工作了十二天沒有休息。", "highlight": "consecutive" },
+          { "en": "The build has passed on ten consecutive commits.", "zh": "建置已在連續十次提交中通過。", "highlight": "consecutive" }
+        ],
+        "usageNotes": [
+          "consecutive 修飾的名詞必須是複數且可數：consecutive days（可以），consecutive time（不自然）。"
+        ],
+        "commonMistakes": [
+          { "incorrect": "The service was down for three consecutive hours of continuous errors.", "correct": "The service was down for three consecutive hours.", "explanationZh": "consecutive 和 continuous 語意重疊時會顯得贅字。描述「不間斷的狀態」用 continuous；描述「一個接一個的單位」用 consecutive。" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "successive" }, { "lemma": "back-to-back", "noteZh": "較口語。" }],
+    "commonlyConfusedWith": [
+      { "lemma": "continuous", "distinctionZh": "consecutive 描述「一個接一個的可數單位」，如 three consecutive days；continuous 描述「不中斷的持續狀態」，如 continuous integration、a continuous stream。" }
+    ],
+    "wordFamily": [{ "lemma": "consecutively", "partOfSpeech": "adverb", "meaningZh": "連續地" }],
+    "tags": ["engineering", "time", "quantity"]
+  }
+]

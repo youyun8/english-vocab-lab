@@ -1,0 +1,36 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "advanced-english-vocabulary",
+  "main": "src/worker/index.ts",
+  "compatibility_date": "2026-09-05",
+  "compatibility_flags": ["nodejs_compat"],
+
+  "observability": {
+    "enabled": true
+  },
+
+  "assets": {
+    "directory": "./dist/client",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"]
+  },
+
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "advanced-english-vocabulary",
+      // Replace with the id printed by:
+      //   npx wrangler d1 create advanced-english-vocabulary
+      "database_id": "00000000-0000-0000-0000-000000000000",
+      "migrations_dir": "migrations"
+    }
+  ],
+
+  "vars": {
+    // Non-secret defaults. Production values are supplied via
+    //   npx wrangler secret put <NAME>
+    // or via the "vars" of a deployment environment.
+    "APP_URL": "http://localhost:5173"
+  }
+}

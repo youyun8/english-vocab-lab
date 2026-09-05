@@ -1,0 +1,421 @@
+[
+  {
+    "id": "q_co_eliminate_need_01",
+    "type": "collocation",
+    "cefr": "B2",
+    "wordIds": ["w_eliminate"],
+    "prompt": "Which combination is the most natural?",
+    "options": [
+      { "id": "a", "text": "eliminate the need for a second query" },
+      { "id": "b", "text": "eliminate the requirement of a second query" },
+      { "id": "c", "text": "eliminate the necessity to a second query" },
+      { "id": "d", "text": "eliminate the demand about a second query" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "eliminate the need for X 是英文中極高頻的固定搭配。",
+    "distractorExplanations": {
+      "b": "語法上勉強成立，但 requirement of 遠不如 need for 自然，母語人士不會這樣說。",
+      "c": "necessity 不搭配 to 引出對象，介系詞錯誤。",
+      "d": "demand about 不是英文搭配；demand 通常用 demand for。"
+    },
+    "difficulty": 2,
+    "tags": ["collocation", "engineering"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_draw_distinction_01",
+    "type": "collocation",
+    "cefr": "B2",
+    "wordIds": ["w_distinction"],
+    "prompt": "Which verb collocates naturally with \"distinction\"?",
+    "context": "The paper ____ a careful distinction between correlation and causation.",
+    "options": [
+      { "id": "a", "text": "draws" },
+      { "id": "b", "text": "pulls" },
+      { "id": "c", "text": "opens" },
+      { "id": "d", "text": "builds" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "draw a distinction 是標準搭配（make a distinction 也可以）。",
+    "distractorExplanations": {
+      "b": "pull 雖然也是「拉」，但英文不說 pull a distinction。",
+      "c": "open 不與 distinction 搭配。",
+      "d": "build 用於建立具體或抽象的結構，但不與 distinction 連用。"
+    },
+    "difficulty": 2,
+    "tags": ["collocation", "academic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_meet_criteria_01",
+    "type": "collocation",
+    "cefr": "C1",
+    "wordIds": ["w_criterion"],
+    "prompt": "Which verb goes with \"criteria\"?",
+    "context": "Only three candidates ____ all the criteria.",
+    "options": [
+      { "id": "a", "text": "met" },
+      { "id": "b", "text": "reached" },
+      { "id": "c", "text": "arrived at" },
+      { "id": "d", "text": "achieved" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "meet the criteria 是固定搭配，表示「符合標準」。",
+    "distractorExplanations": {
+      "b": "reach 用於 reach a target 或 reach a conclusion，不與 criteria 搭配。",
+      "c": "arrive at 用於 arrive at a decision，語意是「達成」而非「符合」。",
+      "d": "achieve 用於目標或成果（achieve a goal），標準是被「符合」而非「達成」。"
+    },
+    "difficulty": 3,
+    "tags": ["collocation", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_compelling_case_01",
+    "type": "collocation",
+    "cefr": "C1",
+    "wordIds": ["w_compelling"],
+    "prompt": "Which combination is most natural in a business proposal?",
+    "options": [
+      { "id": "a", "text": "There is a compelling case for investing in test automation." },
+      { "id": "b", "text": "There is a compelling reason of investing in test automation." },
+      { "id": "c", "text": "There is a compelling matter to investing in test automation." },
+      { "id": "d", "text": "There is a compelling cause about investing in test automation." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "a compelling case for + 動名詞 是提案寫作的黃金句型。",
+    "distractorExplanations": {
+      "b": "reason 要搭配 for + 動名詞或 to + 原形，不能用 of。",
+      "c": "matter 不與 compelling 形成這種搭配，且 to investing 語法錯誤。",
+      "d": "cause 指「事業、起因」，與此處的「論據」意思不合，about 也不對。"
+    },
+    "difficulty": 3,
+    "tags": ["collocation", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_come_under_scrutiny_01",
+    "type": "collocation",
+    "cefr": "C1",
+    "wordIds": ["w_scrutiny"],
+    "prompt": "Which phrase is idiomatic?",
+    "context": "After the breach, the vendor's security claims ____ scrutiny.",
+    "options": [
+      { "id": "a", "text": "came under" },
+      { "id": "b", "text": "went into" },
+      { "id": "c", "text": "fell to" },
+      { "id": "d", "text": "took on" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "come under scrutiny 是固定片語，表示「受到嚴格檢視」。",
+    "distractorExplanations": {
+      "b": "go into 表示「深入探討」，主詞應該是檢視者，不是被檢視的對象。",
+      "c": "fall to 表示「落到某人身上（成為責任）」，語意不符。",
+      "d": "take on 表示「承擔、接受挑戰」，主詞同樣錯位。"
+    },
+    "difficulty": 4,
+    "tags": ["collocation", "idiom"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_time_constraints_01",
+    "type": "collocation",
+    "cefr": "B2",
+    "wordIds": ["w_constraint"],
+    "prompt": "Which phrase is the most natural?",
+    "options": [
+      { "id": "a", "text": "The prototype was built under tight time constraints." },
+      { "id": "b", "text": "The prototype was built in tight time constraints." },
+      { "id": "c", "text": "The prototype was built with tight time constrains." },
+      { "id": "d", "text": "The prototype was built on tight time constraints." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "under constraints 是標準搭配，形容詞 tight 也是 constraints 最常見的修飾語。",
+    "distractorExplanations": {
+      "b": "英文用 under 而非 in 來表達「在某種限制之下」。",
+      "c": "constrains 是動詞形，名詞應為 constraints。",
+      "d": "on 不與 constraints 形成這個意思的搭配。"
+    },
+    "difficulty": 2,
+    "tags": ["collocation", "project-management"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_substantial_increase_01",
+    "type": "collocation",
+    "cefr": "B2",
+    "wordIds": ["w_substantial"],
+    "prompt": "Which combination sounds most natural in a report?",
+    "options": [
+      { "id": "a", "text": "a substantial increase in latency" },
+      { "id": "b", "text": "a substantial tall increase in latency" },
+      { "id": "c", "text": "a substantial many increase in latency" },
+      { "id": "d", "text": "a substantial much increase in latency" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "substantial 直接修飾名詞 increase，而 increase in X 是標準搭配。",
+    "distractorExplanations": {
+      "b": "tall 只用於形容高度，不能形容數量的增加。",
+      "c": "many 是限定詞，不能與 a 和另一個形容詞這樣連用。",
+      "d": "much 同樣是限定詞，不能插在冠詞與名詞之間。"
+    },
+    "difficulty": 1,
+    "tags": ["collocation", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_mitigate_risk_01",
+    "type": "collocation",
+    "cefr": "C1",
+    "wordIds": ["w_mitigate"],
+    "prompt": "Which noun collocates best with \"mitigate\"?",
+    "options": [
+      { "id": "a", "text": "mitigate the risk" },
+      { "id": "b", "text": "mitigate the opportunity" },
+      { "id": "c", "text": "mitigate the benefit" },
+      { "id": "d", "text": "mitigate the improvement" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "mitigate 的受詞必須是負面的東西：risk、impact、damage、harm。",
+    "distractorExplanations": {
+      "b": "opportunity 是正面的，沒有人會想「減輕機會」。",
+      "c": "benefit 是正面的，與 mitigate 的語意衝突。",
+      "d": "improvement 同樣是正面結果，不會是被緩解的對象。"
+    },
+    "difficulty": 2,
+    "tags": ["collocation", "risk"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_validate_input_01",
+    "type": "collocation",
+    "cefr": "C1",
+    "wordIds": ["w_validate"],
+    "prompt": "Which phrase is standard in security guidance?",
+    "options": [
+      { "id": "a", "text": "Always validate input on the server." },
+      { "id": "b", "text": "Always verify input on the server." },
+      { "id": "c", "text": "Always confirm input on the server." },
+      { "id": "d", "text": "Always corroborate input on the server." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "input validation 是資安領域的固定術語，動詞搭配為 validate input。",
+    "distractorExplanations": {
+      "b": "verify 用於確認某物是否為真（verify a signature），不是檢查輸入格式是否符合規則。",
+      "c": "confirm 是「向對方確認」，用於溝通情境。",
+      "d": "corroborate 需要獨立的第二個證據來源，不適用於輸入檢查。"
+    },
+    "difficulty": 3,
+    "tags": ["collocation", "security"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_reinforce_belief_01",
+    "type": "collocation",
+    "cefr": "B2",
+    "wordIds": ["w_reinforce"],
+    "prompt": "Which noun collocates naturally with \"reinforce\"?",
+    "options": [
+      { "id": "a", "text": "reinforce a stereotype" },
+      { "id": "b", "text": "reinforce a deletion" },
+      { "id": "c", "text": "reinforce a shortage" },
+      { "id": "d", "text": "reinforce a departure" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "reinforce 的受詞通常是已存在的想法、印象或信念，stereotype 是最典型的搭配之一。",
+    "distractorExplanations": {
+      "b": "deletion 是一次性的動作，沒有「變得更強」的概念。",
+      "c": "shortage 是狀態，英文不說 reinforce a shortage（會說 worsen a shortage）。",
+      "d": "departure 是離開的事件，無法被「強化」。"
+    },
+    "difficulty": 2,
+    "tags": ["collocation", "academic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_negligible_overhead_01",
+    "type": "collocation",
+    "cefr": "C1",
+    "wordIds": ["w_negligible"],
+    "prompt": "Which phrase would an engineer most naturally write?",
+    "options": [
+      { "id": "a", "text": "The added logging introduces negligible overhead." },
+      { "id": "b", "text": "The added logging introduces negligible weight." },
+      { "id": "c", "text": "The added logging introduces negligible volume." },
+      { "id": "d", "text": "The added logging introduces negligible quantity." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "negligible overhead 是效能討論中的標準搭配，overhead 指額外的資源成本。",
+    "distractorExplanations": {
+      "b": "weight 用於實體重量，不用於程式的執行成本。",
+      "c": "volume 指數量或音量，無法表達「額外的執行成本」。",
+      "d": "quantity 太籠統，且沒有說明是什麼的數量。"
+    },
+    "difficulty": 3,
+    "tags": ["collocation", "engineering"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_cursory_glance_01",
+    "type": "collocation",
+    "cefr": "C2",
+    "wordIds": ["w_cursory"],
+    "prompt": "Which noun most commonly follows \"cursory\"?",
+    "options": [
+      { "id": "a", "text": "a cursory glance" },
+      { "id": "b", "text": "a cursory stare" },
+      { "id": "c", "text": "a cursory gaze" },
+      { "id": "d", "text": "a cursory vision" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "a cursory glance 是固定搭配，glance 本身就是「匆匆一瞥」，語意完全吻合。",
+    "distractorExplanations": {
+      "b": "stare 是「長時間盯著看」，與「草率快速」直接矛盾。",
+      "c": "gaze 是「凝視」，同樣暗示看得久而專注。",
+      "d": "vision 指視力或願景，不是一次看的動作。"
+    },
+    "difficulty": 4,
+    "tags": ["collocation", "academic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_paradigm_shift_01",
+    "type": "collocation",
+    "cefr": "C2",
+    "wordIds": ["w_paradigm"],
+    "prompt": "Which noun completes the well-known phrase?",
+    "context": "The move to cloud computing represented a genuine paradigm ____.",
+    "options": [
+      { "id": "a", "text": "shift" },
+      { "id": "b", "text": "move" },
+      { "id": "c", "text": "turn" },
+      { "id": "d", "text": "swap" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "paradigm shift 是源自科學哲學的固定術語，指根本典範的轉移。",
+    "distractorExplanations": {
+      "b": "move 太籠統，且 paradigm move 不是英文的固定搭配。",
+      "c": "turn 用於 a turn of events 等片語，不與 paradigm 連用。",
+      "d": "swap 指「互換」，暗示兩者對調，與典範轉移的意思不同。"
+    },
+    "difficulty": 3,
+    "tags": ["collocation", "academic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_leverage_infra_01",
+    "type": "collocation",
+    "cefr": "C1",
+    "wordIds": ["w_leverage"],
+    "prompt": "Which sentence uses \"leverage\" most appropriately?",
+    "options": [
+      { "id": "a", "text": "We leveraged our existing cache layer to halve the migration cost." },
+      { "id": "b", "text": "We leveraged the door open to enter the server room." },
+      { "id": "c", "text": "We leveraged a coffee before the meeting." },
+      { "id": "d", "text": "We leveraged slowly through the documentation." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "leverage 表示「用既有的東西撬動更大的成果」，這裡用既有快取層省下一半成本，正是典型用法。",
+    "distractorExplanations": {
+      "b": "撬開門要用 pry 或 lever，leverage 已經專指抽象的「借力」。",
+      "c": "leverage 不能用於日常的「喝一杯咖啡」，語域完全不合。",
+      "d": "leverage 是及物動詞，不能這樣接副詞當不及物用。"
+    },
+    "difficulty": 3,
+    "tags": ["collocation", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_ubiquitous_become_01",
+    "type": "collocation",
+    "cefr": "C2",
+    "wordIds": ["w_ubiquitous"],
+    "prompt": "Which verb collocates best with \"ubiquitous\"?",
+    "context": "Containerization has ____ ubiquitous in modern deployment pipelines.",
+    "options": [
+      { "id": "a", "text": "become" },
+      { "id": "b", "text": "turned" },
+      { "id": "c", "text": "made" },
+      { "id": "d", "text": "gone" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "become ubiquitous 是最常見的搭配，用來描述某事物逐漸變得無所不在。",
+    "distractorExplanations": {
+      "b": "turn 需要搭配 into 才能接名詞，直接接形容詞時多用於顏色或天氣。",
+      "c": "make 需要受詞（make something ubiquitous），這裡缺少受詞。",
+      "d": "go + 形容詞多用於負面變化（go bad、go wrong），語感不合。"
+    },
+    "difficulty": 3,
+    "tags": ["collocation", "technology"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_salient_points_01",
+    "type": "collocation",
+    "cefr": "C2",
+    "wordIds": ["w_salient"],
+    "prompt": "Which phrase is standard when summarizing?",
+    "options": [
+      { "id": "a", "text": "Let me summarize the salient points." },
+      { "id": "b", "text": "Let me summarize the salient pieces." },
+      { "id": "c", "text": "Let me summarize the salient parts." },
+      { "id": "d", "text": "Let me summarize the salient bits." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "the salient points 是簡報與摘要中的固定搭配，指「最值得注意的要點」。",
+    "distractorExplanations": {
+      "b": "pieces 指實體碎片或作品，不用於論述的要點。",
+      "c": "parts 語意可通但不是與 salient 的慣用搭配，正式程度也不匹配。",
+      "d": "bits 過於口語，與 salient 的正式語域衝突。"
+    },
+    "difficulty": 3,
+    "tags": ["collocation", "presentation"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_articulate_vision_01",
+    "type": "collocation",
+    "cefr": "C1",
+    "wordIds": ["w_articulate"],
+    "prompt": "Which noun collocates with the verb \"articulate\"?",
+    "options": [
+      { "id": "a", "text": "articulate a vision" },
+      { "id": "b", "text": "articulate a distance" },
+      { "id": "c", "text": "articulate a budget" },
+      { "id": "d", "text": "articulate a deadline" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "articulate 的受詞是需要被清楚表達出來的抽象想法，vision 是最典型的搭配。",
+    "distractorExplanations": {
+      "b": "distance 是可測量的數值，用 measure 而非 articulate。",
+      "c": "budget 通常用 set 或 approve，不用 articulate。",
+      "d": "deadline 通常用 set 或 agree on，不是被「闡述」的想法。"
+    },
+    "difficulty": 3,
+    "tags": ["collocation", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_retain_right_01",
+    "type": "collocation",
+    "cefr": "B2",
+    "wordIds": ["w_retain"],
+    "prompt": "Which phrase is standard legal English?",
+    "options": [
+      { "id": "a", "text": "We retain the right to revoke access at any time." },
+      { "id": "b", "text": "We retain the possibility to revoke access at any time." },
+      { "id": "c", "text": "We retain the chance to revoke access at any time." },
+      { "id": "d", "text": "We retain the option about revoking access at any time." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "retain the right to + 原形動詞 是條款與政策文件中的固定用語。",
+    "distractorExplanations": {
+      "b": "possibility 是「可能性」，法律文件中保留的是「權利」而非可能性。",
+      "c": "chance 過於口語，且指「機會、機率」，不適合條款用語。",
+      "d": "option 通常用 retain the option to，介系詞 about 也不正確。"
+    },
+    "difficulty": 2,
+    "tags": ["collocation", "legal"],
+    "source": "curated"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  // Browser-side tests: React components plus the pure domain/service modules.
+  // They need the DOM lib and Vite's client types (for `import.meta.glob`).
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "jsx": "react-jsx",
+    "types": ["node", "vite/client", "vitest/globals", "@testing-library/jest-dom"]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/test/setup.ts",
+    "src/test/render.tsx"
+  ],
+  "exclude": ["src/worker/**/*", "src/test/d1.ts"]
+}

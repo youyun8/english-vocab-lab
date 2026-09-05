@@ -1,0 +1,324 @@
+[
+  {
+    "id": "q_us_consolidate_01",
+    "type": "usage",
+    "cefr": "C1",
+    "wordIds": ["w_consolidate"],
+    "prompt": "Which sentence uses \"consolidate\" most naturally?",
+    "options": [
+      { "id": "a", "text": "We consolidated twelve dashboards into three." },
+      { "id": "b", "text": "We consolidated the file to the archive folder." },
+      { "id": "c", "text": "We consolidated a new engineer onto the team." },
+      { "id": "d", "text": "We consolidated the meeting until next Tuesday." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "consolidate 表示把多個東西合併成更少、更集中的整體，數量從十二減為三正是典型用法。",
+    "distractorExplanations": {
+      "b": "搬移檔案要用 move，consolidate 沒有「移到某處」的意思。",
+      "c": "加入新成員要用 add 或 onboard，consolidate 不用於人員加入。",
+      "d": "延後會議要用 postpone 或 push back。"
+    },
+    "difficulty": 3,
+    "tags": ["usage", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_us_ambiguous_01",
+    "type": "usage",
+    "cefr": "B2",
+    "wordIds": ["w_ambiguous"],
+    "prompt": "Which sentence uses \"ambiguous\" correctly?",
+    "options": [
+      { "id": "a", "text": "The requirement is ambiguous: it could mean either ascending or descending order." },
+      { "id": "b", "text": "I am ambiguous about whether to accept the offer." },
+      { "id": "c", "text": "The server was ambiguous and returned a 500 error." },
+      { "id": "d", "text": "She spoke ambiguous and nobody could hear her." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "ambiguous 描述「一段訊息可以有兩種以上合理解讀」，選項 A 正好舉出了兩種解讀。",
+    "distractorExplanations": {
+      "b": "人感到猶豫不決要用 uncertain 或 undecided，ambiguous 只形容訊息本身。",
+      "c": "伺服器故障不是「有歧義」，應該說 unreliable 或直接描述錯誤。",
+      "d": "此處需要副詞，且「聽不清楚」是音量問題，與歧義無關。"
+    },
+    "difficulty": 3,
+    "tags": ["usage", "engineering"],
+    "source": "curated"
+  },
+  {
+    "id": "q_us_mitigate_01",
+    "type": "usage",
+    "cefr": "C1",
+    "wordIds": ["w_mitigate"],
+    "prompt": "Which sentence uses \"mitigate\" correctly?",
+    "options": [
+      { "id": "a", "text": "Retries with exponential backoff mitigate the impact of transient network errors." },
+      { "id": "b", "text": "The patch mitigated the bug completely and it never occurred again." },
+      { "id": "c", "text": "We mitigated the new feature to production last Friday." },
+      { "id": "d", "text": "The team mitigated a substantial improvement in throughput." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "mitigate 表示「減輕負面影響但未根除」，重試機制無法阻止網路錯誤發生，只能降低衝擊。",
+    "distractorExplanations": {
+      "b": "mitigate 本身就含有「沒有完全解決」的意思，與 completely 矛盾；應該用 fixed 或 eliminated。",
+      "c": "部署功能要用 shipped、released 或 deployed。",
+      "d": "mitigate 的受詞必須是負面的東西，improvement 是正面成果。"
+    },
+    "difficulty": 3,
+    "tags": ["usage", "risk"],
+    "source": "curated"
+  },
+  {
+    "id": "q_us_preclude_01",
+    "type": "usage",
+    "cefr": "C2",
+    "wordIds": ["w_preclude"],
+    "prompt": "Which sentence uses \"preclude\" most naturally?",
+    "options": [
+      { "id": "a", "text": "Being pragmatic does not preclude being rigorous." },
+      { "id": "b", "text": "He precluded the meeting because he was ill." },
+      { "id": "c", "text": "She precluded her colleague on the design document." },
+      { "id": "d", "text": "The team precluded the release notes before shipping." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A does not preclude B 是最實用的句型，用來澄清「兩者可以並存」。",
+    "distractorExplanations": {
+      "b": "取消會議要用 cancelled；preclude 是「事先斷絕某種可能性」，不是取消已排定的活動。",
+      "c": "與同事合作要用 collaborated with。",
+      "d": "撰寫發行說明要用 wrote 或 prepared。"
+    },
+    "difficulty": 4,
+    "tags": ["usage", "formal"],
+    "source": "curated"
+  },
+  {
+    "id": "q_us_leverage_01",
+    "type": "usage",
+    "cefr": "C1",
+    "wordIds": ["w_leverage"],
+    "prompt": "Which sentence uses \"leverage\" in its standard business sense?",
+    "options": [
+      { "id": "a", "text": "Being the only supplier gave them considerable leverage in the negotiation." },
+      { "id": "b", "text": "He used a leverage to open the crate." },
+      { "id": "c", "text": "She has a lot of leverages over the schedule." },
+      { "id": "d", "text": "They leveraged that the deadline should move." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "作名詞時 leverage 指「談判籌碼」，是不可數名詞，have/give leverage in a negotiation 是標準用法。",
+    "distractorExplanations": {
+      "b": "撬開箱子的工具是 lever（槓桿），不是 leverage。",
+      "c": "leverage 作此義時不可數，不能加 s。",
+      "d": "leverage 是及物動詞，後面接名詞受詞，不能接 that 子句。"
+    },
+    "difficulty": 4,
+    "tags": ["usage", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_us_articulate_01",
+    "type": "usage",
+    "cefr": "C1",
+    "wordIds": ["w_articulate"],
+    "prompt": "Which sentence uses \"articulate\" correctly?",
+    "options": [
+      { "id": "a", "text": "I could sense the problem but struggled to articulate it." },
+      { "id": "b", "text": "I articulated the report to my manager by email." },
+      { "id": "c", "text": "The joint articulates the two pipes into one." },
+      { "id": "d", "text": "She articulated the meeting to Thursday." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "articulate 指「把腦中模糊的想法轉換成清楚的語言」，struggle to articulate 是極常見的搭配。",
+    "distractorExplanations": {
+      "b": "寄送報告要用 sent；articulate 的受詞是想法，不是文件。",
+      "c": "連接管線要用 connect 或 join。",
+      "d": "改期要用 moved 或 rescheduled。"
+    },
+    "difficulty": 3,
+    "tags": ["usage", "communication"],
+    "source": "curated"
+  },
+  {
+    "id": "q_us_respective_01",
+    "type": "usage",
+    "cefr": "B2",
+    "wordIds": ["w_respective"],
+    "prompt": "Which sentence uses \"respective\" correctly?",
+    "options": [
+      { "id": "a", "text": "Each team documented its respective part of the migration." },
+      { "id": "b", "text": "Please send the file to the respective person." },
+      { "id": "c", "text": "He was very respective to the senior engineers." },
+      { "id": "d", "text": "The respective of the two options is clear." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "respective 需要多個主體（Each team 隱含多個團隊），並將它們與各自對應的事物配對。",
+    "distractorExplanations": {
+      "b": "只有單一對象時不能用 respective，應該用 appropriate 或 relevant。",
+      "c": "形容態度恭敬要用 respectful。",
+      "d": "respective 是形容詞，不能當名詞使用。"
+    },
+    "difficulty": 3,
+    "tags": ["usage", "writing"],
+    "source": "curated"
+  },
+  {
+    "id": "q_us_negligible_01",
+    "type": "usage",
+    "cefr": "C1",
+    "wordIds": ["w_negligible"],
+    "prompt": "Which sentence uses \"negligible\" correctly?",
+    "options": [
+      { "id": "a", "text": "Compression cost is negligible compared with network latency." },
+      { "id": "b", "text": "The reviewer was negligible and missed the security flaw." },
+      { "id": "c", "text": "We should negligible this optimization for now." },
+      { "id": "d", "text": "Her contribution was negligible in size but she led the project." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "negligible 形容「小到在決策時可以直接忽略」，與 compared with 的比較結構完全吻合。",
+    "distractorExplanations": {
+      "b": "形容人疏忽失職要用 negligent。",
+      "c": "negligible 是形容詞，不能當動詞用；此處應該用 skip 或 deprioritize。",
+      "d": "句子自相矛盾：主導專案的貢獻不可能是微不足道的。"
+    },
+    "difficulty": 3,
+    "tags": ["usage", "engineering"],
+    "source": "curated"
+  },
+  {
+    "id": "q_us_conflate_01",
+    "type": "usage",
+    "cefr": "C2",
+    "wordIds": ["w_conflate"],
+    "prompt": "Which sentence uses \"conflate\" most naturally?",
+    "options": [
+      { "id": "a", "text": "Newcomers often conflate authentication with authorization." },
+      { "id": "b", "text": "We conflated the three repositories into a monorepo." },
+      { "id": "c", "text": "She conflated the balloon before the party." },
+      { "id": "d", "text": "The evidence conflates his account of the incident." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "conflate 指「錯誤地把兩個應該分開的概念混為一談」，身分驗證與授權正是最經典的例子。",
+    "distractorExplanations": {
+      "b": "刻意且正面的整合要用 consolidated 或 merged，conflate 永遠帶有批評意味。",
+      "c": "把氣球充氣是 inflate，拼字相近但意思完全不同。",
+      "d": "證據支持說法要用 corroborates。"
+    },
+    "difficulty": 4,
+    "tags": ["usage", "argument"],
+    "source": "curated"
+  },
+  {
+    "id": "q_us_subsequent_01",
+    "type": "usage",
+    "cefr": "B2",
+    "wordIds": ["w_subsequent"],
+    "prompt": "Which sentence uses \"subsequent\" correctly?",
+    "options": [
+      { "id": "a", "text": "The first request populates the cache; subsequent requests are served from memory." },
+      { "id": "b", "text": "The release was subsequent, so we waited." },
+      { "id": "c", "text": "We subsequent the migration to next month." },
+      { "id": "d", "text": "This bug is subsequent than the previous one." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "subsequent 是形容詞，放在名詞前表示「隨後的」，此處對比第一次與後續的請求。",
+    "distractorExplanations": {
+      "b": "subsequent 幾乎只用在名詞前面，不用在 be 動詞之後單獨使用。",
+      "c": "subsequent 不是動詞；延後要用 postponed。",
+      "d": "subsequent 沒有比較級形式，不能搭配 than。"
+    },
+    "difficulty": 3,
+    "tags": ["usage", "writing"],
+    "source": "curated"
+  },
+  {
+    "id": "q_us_scrutiny_01",
+    "type": "usage",
+    "cefr": "C1",
+    "wordIds": ["w_scrutiny"],
+    "prompt": "Which sentence uses \"scrutiny\" correctly?",
+    "options": [
+      { "id": "a", "text": "Every change to the payment code receives extra scrutiny in review." },
+      { "id": "b", "text": "We did a scrutiny of the code before merging." },
+      { "id": "c", "text": "He scrutiny the logs for two hours." },
+      { "id": "d", "text": "The scrutinies revealed three separate bugs." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "scrutiny 是不可數名詞，可以被 extra、close、careful 等形容詞修飾。",
+    "distractorExplanations": {
+      "b": "scrutiny 不可數，不能說 a scrutiny；應該說 We scrutinized the code。",
+      "c": "此處需要動詞，正確形式是 scrutinized。",
+      "d": "scrutiny 不可數，沒有複數形 scrutinies。"
+    },
+    "difficulty": 4,
+    "tags": ["usage", "academic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_us_ostensibly_01",
+    "type": "usage",
+    "cefr": "C2",
+    "wordIds": ["w_ostensibly"],
+    "prompt": "In which sentence is \"ostensibly\" used most appropriately?",
+    "options": [
+      { "id": "a", "text": "The change was ostensibly about performance, though most of us suspected otherwise." },
+      { "id": "b", "text": "The test passed ostensibly, and we confirmed it three times." },
+      { "id": "c", "text": "She was ostensibly the most qualified, and everyone agreed." },
+      { "id": "d", "text": "The build is ostensibly green, so we can ship with confidence." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "ostensibly 帶有「表面說法可能不是實情」的懷疑語氣，though most of us suspected otherwise 正好提供了這個轉折。",
+    "distractorExplanations": {
+      "b": "已經確認三次就沒有懷疑餘地，應該直接說 The test passed。",
+      "c": "everyone agreed 表示沒有異議，與 ostensibly 的懷疑語氣衝突。",
+      "d": "若真的有信心就不該用 ostensibly，這個字反而會讓讀者以為建置狀態有問題。"
+    },
+    "difficulty": 5,
+    "tags": ["usage", "nuance"],
+    "source": "curated"
+  },
+  {
+    "id": "q_us_inherent_01",
+    "type": "usage",
+    "cefr": "C1",
+    "wordIds": ["w_inherent"],
+    "prompt": "Which sentence uses \"inherent\" correctly?",
+    "options": [
+      { "id": "a", "text": "Ambiguity is inherent to natural language and cannot be engineered away." },
+      { "id": "b", "text": "She inherent a large sum from her aunt." },
+      { "id": "c", "text": "The bug was inherent last Tuesday during the deploy." },
+      { "id": "d", "text": "We added an inherent feature to the dashboard." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "inherent 表示「本質上就存在、無法移除」，後半句 cannot be engineered away 正好呼應。",
+    "distractorExplanations": {
+      "b": "繼承遺產是動詞 inherit，拼字相近但詞性與意思都不同。",
+      "c": "inherent 描述恆常的本質，不能用來描述某個特定時間發生的事件。",
+      "d": "新加上去的功能依定義就不是「與生俱來」的，語意矛盾。"
+    },
+    "difficulty": 3,
+    "tags": ["usage", "academic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_us_validate_verify_01",
+    "type": "usage",
+    "cefr": "C1",
+    "wordIds": ["w_validate"],
+    "prompt": "Which sentence uses \"validate\" in its standard technical sense?",
+    "options": [
+      { "id": "a", "text": "The endpoint validates the request body against a schema before processing it." },
+      { "id": "b", "text": "The endpoint validates the request to the database for storage." },
+      { "id": "c", "text": "We validated the server into three availability zones." },
+      { "id": "d", "text": "The team validated the meeting notes to everyone." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "validate 指「對照標準或規則檢查」，validate X against a schema 是標準搭配。",
+    "distractorExplanations": {
+      "b": "把資料存進資料庫要用 writes 或 persists。",
+      "c": "把伺服器分散部署要用 distributed 或 deployed across。",
+      "d": "分送會議記錄要用 circulated 或 shared。"
+    },
+    "difficulty": 3,
+    "tags": ["usage", "engineering"],
+    "source": "curated"
+  }
+]

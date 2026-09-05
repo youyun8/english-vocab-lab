@@ -1,0 +1,233 @@
+[
+  {
+    "id": "w_arbitrary",
+    "lemma": "arbitrary",
+    "slug": "arbitrary",
+    "cefr": "C1",
+    "pronunciation": { "kk": "/ˈɑrbəˌtrɛrɪ/", "syllables": "ar·bi·trar·y", "stressNote": "主重音在第一音節。" },
+    "senses": [
+      {
+        "id": "s_arbitrary_1",
+        "partOfSpeech": "adjective",
+        "register": ["formal", "academic", "technical"],
+        "definitionEn": "decided by personal choice or chance rather than by any reason or system",
+        "definitionZh": "任意的；武斷的；沒有依據的",
+        "usageExplanationZh": "arbitrary 在批評性語境中表示「沒有正當理由就這樣決定」，帶有負面評價：an arbitrary deadline 就是「隨便訂的期限」。但在技術語境中它是中性的，表示「任何一個都可以、不特定」：an arbitrary number of items 指「任意數量」。判斷語氣要看上下文。",
+        "grammarPatterns": ["an arbitrary + noun", "seem/appear arbitrary"],
+        "collocations": [
+          { "text": "an arbitrary decision", "meaningZh": "武斷的決定" },
+          { "text": "an arbitrary limit", "meaningZh": "隨意設定的上限" },
+          { "text": "an arbitrary number of", "meaningZh": "任意數量的", "example": { "en": "The function accepts an arbitrary number of arguments.", "zh": "這個函式接受任意數量的引數。", "highlight": "an arbitrary number of" } },
+          { "text": "purely arbitrary", "meaningZh": "純屬武斷" }
+        ],
+        "examples": [
+          { "en": "The 500-character limit feels arbitrary; where did it come from?", "zh": "五百字元的限制感覺很隨便，這是哪來的？", "highlight": "arbitrary" },
+          { "en": "Users can supply arbitrary text, so the input must be escaped.", "zh": "使用者可以輸入任意文字，因此輸入必須經過跳脫處理。", "highlight": "arbitrary" },
+          { "en": "The court ruled that the fee was arbitrary and unjustified.", "zh": "法院裁定這筆費用是武斷且缺乏正當理由的。", "highlight": "arbitrary" }
+        ],
+        "usageNotes": [
+          "資安語境中的 arbitrary code execution 是固定術語，指攻擊者可以執行任意程式碼。"
+        ],
+        "commonMistakes": [
+          { "incorrect": "You can choose arbitrary one.", "correct": "You can choose any one you like.", "explanationZh": "arbitrary 是形容詞，需要修飾名詞；口語中表示「隨便挑一個」用 any 更自然。" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "random", "noteZh": "強調機率上的隨機，arbitrary 強調缺乏理由。" }, { "lemma": "capricious", "noteZh": "更正式，強調反覆無常。" }],
+    "antonyms": [{ "lemma": "principled" }, { "lemma": "systematic" }],
+    "wordFamily": [{ "lemma": "arbitrarily", "partOfSpeech": "adverb", "meaningZh": "任意地；武斷地" }],
+    "tags": ["academic", "engineering", "argument"]
+  },
+  {
+    "id": "w_subtle",
+    "lemma": "subtle",
+    "slug": "subtle",
+    "cefr": "C1",
+    "pronunciation": { "kk": "/ˈsʌtəl/", "syllables": "sub·tle", "stressNote": "b 不發音，讀作 /ˈsʌtəl/。" },
+    "senses": [
+      {
+        "id": "s_subtle_1",
+        "partOfSpeech": "adjective",
+        "register": ["neutral", "academic", "technical"],
+        "definitionEn": "not obvious or easy to notice; small but important",
+        "definitionZh": "細微的；不易察覺的",
+        "usageExplanationZh": "subtle 指「小到容易被忽略，但確實存在且重要」。工程師最常用它形容難纏的 bug：a subtle bug 不是小 bug，而是「不容易發現」的 bug，往往比明顯的錯誤更危險。注意發音：b 不發音。",
+        "grammarPatterns": ["a subtle + noun", "subtle difference between A and B"],
+        "collocations": [
+          { "text": "a subtle difference", "meaningZh": "細微的差別" },
+          { "text": "a subtle bug", "meaningZh": "難以察覺的錯誤", "example": { "en": "The race condition introduced a subtle bug that only appeared under load.", "zh": "這個競態條件造成了一個只在高負載下才出現的細微錯誤。", "highlight": "a subtle bug" } },
+          { "text": "subtle changes", "meaningZh": "細微的變化" },
+          { "text": "too subtle to notice", "meaningZh": "細微到難以察覺" }
+        ],
+        "examples": [
+          { "en": "There is a subtle distinction between these two error codes.", "zh": "這兩個錯誤碼之間有一個細微的區別。", "highlight": "subtle" },
+          { "en": "The redesign made subtle improvements to readability.", "zh": "這次改版對可讀性做了細微的改善。", "highlight": "subtle" },
+          { "en": "He dropped a subtle hint that he was leaving.", "zh": "他不著痕跡地暗示自己要離開了。", "highlight": "subtle" }
+        ],
+        "usageNotes": [
+          "subtle 也可以正面地形容手法高明、不著痕跡：a subtle argument（高明而細膩的論證）。"
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "nuanced", "noteZh": "強調有多層次的細微差別。" }, { "lemma": "understated" }],
+    "antonyms": [{ "lemma": "obvious" }, { "lemma": "blatant" }],
+    "wordFamily": [
+      { "lemma": "subtlety", "partOfSpeech": "noun", "meaningZh": "微妙之處" },
+      { "lemma": "subtly", "partOfSpeech": "adverb", "meaningZh": "微妙地" }
+    ],
+    "tags": ["engineering", "academic", "description"]
+  },
+  {
+    "id": "w_coherent",
+    "lemma": "coherent",
+    "slug": "coherent",
+    "cefr": "C1",
+    "pronunciation": { "kk": "/koˈhɪrənt/", "syllables": "co·her·ent", "stressNote": "重音在第二音節 -her-。" },
+    "senses": [
+      {
+        "id": "s_coherent_1",
+        "partOfSpeech": "adjective",
+        "register": ["formal", "academic", "business"],
+        "definitionEn": "logically connected and consistent, so that all the parts fit together sensibly",
+        "definitionZh": "連貫的；前後一致的；有條理的",
+        "usageExplanationZh": "coherent 的重點是「各部分之間彼此吻合，構成一個講得通的整體」。它可以形容論述（a coherent argument）、策略（a coherent strategy）、也可以形容系統設計（a coherent API）。與 consistent 的差別在於：consistent 只要求「不互相矛盾」，coherent 還要求「合起來能說出一個道理」。",
+        "grammarPatterns": ["a coherent + noun", "form a coherent whole"],
+        "collocations": [
+          { "text": "a coherent argument", "meaningZh": "有條理的論證" },
+          { "text": "a coherent strategy", "meaningZh": "連貫的策略" },
+          { "text": "form a coherent whole", "meaningZh": "構成連貫的整體", "example": { "en": "The individual services are fine, but they do not form a coherent whole.", "zh": "個別服務都沒問題，但它們合起來並不構成一個連貫的整體。", "highlight": "form a coherent whole" } },
+          { "text": "internally coherent", "meaningZh": "內部自洽的" }
+        ],
+        "examples": [
+          { "en": "The proposal needs a more coherent narrative before we present it.", "zh": "在提案之前，我們需要一個更連貫的說法。", "highlight": "coherent" },
+          { "en": "Each endpoint follows a different convention, so the API is not coherent.", "zh": "每個端點的慣例都不同，所以這個 API 並不連貫。", "highlight": "coherent" },
+          { "en": "He was too tired to give a coherent explanation.", "zh": "他累到無法給出一個有條理的解釋。", "highlight": "coherent" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "consistent", "noteZh": "只要求不矛盾，要求較低。" }, { "lemma": "logical" }],
+    "antonyms": [{ "lemma": "incoherent" }, { "lemma": "disjointed" }],
+    "wordFamily": [
+      { "lemma": "coherence", "partOfSpeech": "noun", "meaningZh": "連貫性" },
+      { "lemma": "cohesive", "partOfSpeech": "adjective", "meaningZh": "有凝聚力的" }
+    ],
+    "tags": ["academic", "argument", "writing"]
+  },
+  {
+    "id": "w_robust",
+    "lemma": "robust",
+    "slug": "robust",
+    "cefr": "C1",
+    "pronunciation": { "kk": "/roˈbʌst/", "syllables": "ro·bust", "stressNote": "重音在第二音節。" },
+    "senses": [
+      {
+        "id": "s_robust_1",
+        "partOfSpeech": "adjective",
+        "register": ["formal", "technical", "business"],
+        "definitionEn": "able to continue working correctly even under difficult or unexpected conditions",
+        "definitionZh": "穩健的；強健的；耐得住考驗的",
+        "usageExplanationZh": "robust 的關鍵不是「快」或「功能多」，而是「遇到異常狀況仍然表現良好」。因此它常用來形容系統、流程、統計方法與論證。說 a robust system 是稱讚它抗得住錯誤輸入、網路故障或流量尖峰，而不是說它跑得快。",
+        "grammarPatterns": ["robust to/against + noun", "a robust + noun"],
+        "collocations": [
+          { "text": "a robust system", "meaningZh": "穩健的系統" },
+          { "text": "robust error handling", "meaningZh": "健全的錯誤處理" },
+          { "text": "robust against failure", "meaningZh": "能抵禦故障", "example": { "en": "The design is robust against a single node failure.", "zh": "這個設計能承受單一節點故障。", "highlight": "robust against" } },
+          { "text": "a robust debate", "meaningZh": "熱烈的辯論" }
+        ],
+        "examples": [
+          { "en": "We need more robust validation before accepting user uploads.", "zh": "在接受使用者上傳之前，我們需要更嚴謹的驗證。", "highlight": "robust" },
+          { "en": "The statistical method is robust to outliers.", "zh": "這個統計方法對離群值不敏感。", "highlight": "robust to" },
+          { "en": "Their conclusions rest on a fairly robust dataset.", "zh": "他們的結論建立在一份相當可靠的資料集上。", "highlight": "robust" }
+        ],
+        "usageNotes": [
+          "robust 在商務語境中偶爾被用來泛指「強大的」，例如 a robust feature set，但這種用法較空泛，正式寫作中建議保留給「抗壓性」的核心意思。"
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "resilient", "noteZh": "強調「受挫後能恢復」。" }, { "lemma": "sturdy" }],
+    "antonyms": [{ "lemma": "fragile" }, { "wordId": "w_tenuous", "lemma": "tenuous" }],
+    "commonlyConfusedWith": [
+      { "lemma": "resilient", "distinctionZh": "robust 是「不容易壞」，強調在壓力下維持正常；resilient 是「壞了也能快速復原」，強調恢復能力。分散式系統設計通常兩者都要。" }
+    ],
+    "wordFamily": [
+      { "lemma": "robustness", "partOfSpeech": "noun", "meaningZh": "穩健性" },
+      { "lemma": "robustly", "partOfSpeech": "adverb", "meaningZh": "穩健地" }
+    ],
+    "tags": ["engineering", "business", "quality"]
+  },
+  {
+    "id": "w_viable",
+    "lemma": "viable",
+    "slug": "viable",
+    "cefr": "C1",
+    "pronunciation": { "kk": "/ˈvaɪəbəl/", "syllables": "vi·a·ble", "stressNote": "重音在第一音節。" },
+    "senses": [
+      {
+        "id": "s_viable_1",
+        "partOfSpeech": "adjective",
+        "register": ["formal", "business", "technical"],
+        "definitionEn": "capable of working successfully and continuing to exist over time",
+        "definitionZh": "可行的；能持續運作的",
+        "usageExplanationZh": "viable 的字根與「生命」有關，因此核心意思是「活得下去」。它不只問「做不做得到」，而是問「做了之後能不能持續存活」。這就是它與 feasible 最關鍵的差別：一個方案可能技術上 feasible，但商業上不 viable，例如成本過高導致無法長期經營。",
+        "grammarPatterns": ["a viable + noun", "commercially/economically viable"],
+        "collocations": [
+          { "text": "a viable option", "meaningZh": "可行的選項" },
+          { "text": "commercially viable", "meaningZh": "商業上可行的", "example": { "en": "The technology works, but it is not yet commercially viable.", "zh": "這項技術行得通，但目前在商業上還無法持續運作。", "highlight": "commercially viable" } },
+          { "text": "a viable alternative", "meaningZh": "可行的替代方案" },
+          { "text": "long-term viability", "meaningZh": "長期存續能力" }
+        ],
+        "examples": [
+          { "en": "Rewriting the service is not a viable option this quarter.", "zh": "本季重寫這個服務並不是一個可行的選項。", "highlight": "viable" },
+          { "en": "We built a minimum viable product to test the assumption.", "zh": "我們做了一個最小可行產品來驗證這個假設。", "highlight": "viable" },
+          { "en": "Only two of the five proposals are financially viable.", "zh": "五個提案中只有兩個在財務上站得住腳。", "highlight": "viable" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "workable" }, { "lemma": "sustainable", "noteZh": "更強調長期不耗竭。" }],
+    "antonyms": [{ "lemma": "unviable" }, { "lemma": "impractical" }],
+    "commonlyConfusedWith": [
+      { "lemma": "feasible", "wordId": "w_feasible", "distinctionZh": "feasible 問「做得到嗎」，只看可行性；viable 問「做了之後撐得住嗎」，還要看能否長期存續。一個計畫可以 technically feasible but not commercially viable。" }
+    ],
+    "wordFamily": [{ "lemma": "viability", "partOfSpeech": "noun", "meaningZh": "可行性；存續能力" }],
+    "tags": ["business", "strategy", "engineering"]
+  },
+  {
+    "id": "w_feasible",
+    "lemma": "feasible",
+    "slug": "feasible",
+    "cefr": "C1",
+    "pronunciation": { "kk": "/ˈfizəbəl/", "syllables": "fea·si·ble", "stressNote": "重音在第一音節。" },
+    "senses": [
+      {
+        "id": "s_feasible_1",
+        "partOfSpeech": "adjective",
+        "register": ["formal", "technical", "business"],
+        "definitionEn": "possible to do or achieve with the resources and time available",
+        "definitionZh": "可行的；辦得到的",
+        "usageExplanationZh": "feasible 只回答一個問題：「在現有條件下做得到嗎？」它關心的是資源、時間與技術限制，不涉及是否值得做或能否長期維持。工程評估中常見 technically feasible（技術上可行），以及名詞 a feasibility study（可行性研究）。",
+        "grammarPatterns": ["it is feasible to + verb", "feasible within + time/budget"],
+        "collocations": [
+          { "text": "technically feasible", "meaningZh": "技術上可行的" },
+          { "text": "a feasibility study", "meaningZh": "可行性研究" },
+          { "text": "feasible within the timeline", "meaningZh": "在時程內可行", "example": { "en": "A full rewrite is not feasible within the timeline we have.", "zh": "在我們現有的時程內，完整重寫是辦不到的。", "highlight": "feasible within the timeline" } }
+        ],
+        "examples": [
+          { "en": "Is it feasible to ship this before the end of the quarter?", "zh": "在本季結束前交付這個，做得到嗎？", "highlight": "feasible" },
+          { "en": "The approach is technically feasible but would require two extra engineers.", "zh": "這個做法技術上可行，但需要額外兩名工程師。", "highlight": "feasible" },
+          { "en": "They commissioned a feasibility study before committing funds.", "zh": "他們在投入資金前委託了一份可行性研究。", "highlight": "feasibility" }
+        ],
+        "commonMistakes": [
+          { "incorrect": "It is feasible for us to finishing the work.", "correct": "It is feasible for us to finish the work.", "explanationZh": "feasible 後面接不定詞 to + 原形動詞，不接動名詞。" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "practicable" }, { "lemma": "achievable" }],
+    "antonyms": [{ "lemma": "infeasible" }, { "lemma": "impossible" }],
+    "commonlyConfusedWith": [
+      { "lemma": "viable", "wordId": "w_viable", "distinctionZh": "feasible 看「能不能做出來」；viable 看「做出來後能不能活下去」。可行性研究判斷 feasibility，商業計畫判斷 viability。" },
+      { "lemma": "plausible", "wordId": "w_plausible", "distinctionZh": "feasible 談「行動能否執行」；plausible 談「說法是否可信」。A feasible plan 是做得到的計畫，a plausible explanation 是聽起來合理的解釋。" }
+    ],
+    "wordFamily": [{ "lemma": "feasibility", "partOfSpeech": "noun", "meaningZh": "可行性" }],
+    "tags": ["business", "engineering", "planning"]
+  }
+]

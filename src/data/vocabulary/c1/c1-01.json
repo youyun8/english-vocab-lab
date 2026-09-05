@@ -1,0 +1,270 @@
+[
+  {
+    "id": "w_consolidate",
+    "lemma": "consolidate",
+    "slug": "consolidate",
+    "cefr": "C1",
+    "pronunciation": { "kk": "/kənˈsɑləˌdet/", "syllables": "con·sol·i·date", "stressNote": "主重音在第二音節 -sol-。" },
+    "forms": { "past": "consolidated", "pastParticiple": "consolidated", "presentParticiple": "consolidating", "thirdPersonSingular": "consolidates" },
+    "senses": [
+      {
+        "id": "s_consolidate_1",
+        "partOfSpeech": "verb",
+        "register": ["formal", "business", "technical"],
+        "definitionEn": "to combine several things into a single stronger or more effective whole",
+        "definitionZh": "整合；合併",
+        "usageExplanationZh": "consolidate 常表示把原本分散的資源、資訊、權力、系統或組織整合起來，使其形成更集中、更穩定或更有效率的整體。它與 merge 的差別在於：merge 只是「合而為一」，consolidate 額外帶有「因此變得更強、更精簡」的價值判斷。這也是它在企業與工程語境中特別受歡迎的原因。",
+        "grammarPatterns": ["consolidate A into B", "consolidate + noun"],
+        "collocations": [
+          { "text": "consolidate data", "meaningZh": "整合資料" },
+          { "text": "consolidate resources", "meaningZh": "整合資源" },
+          { "text": "consolidate operations", "meaningZh": "整併營運" },
+          { "text": "consolidate several tools into one", "meaningZh": "把數個工具整合成一個", "example": { "en": "We consolidated several internal tools into a single platform.", "zh": "我們將數個內部工具整合成一個平台。", "highlight": "consolidated" } }
+        ],
+        "examples": [
+          { "en": "The team consolidated twelve dashboards into three.", "zh": "團隊把十二個儀表板整合成三個。", "highlight": "consolidated" },
+          { "en": "Consolidating the logs made incident investigation far easier.", "zh": "整合日誌後，事故調查變得容易許多。", "highlight": "Consolidating" },
+          { "en": "The company consolidated its European offices to cut costs.", "zh": "公司整併了歐洲的辦公室以降低成本。", "highlight": "consolidated" }
+        ],
+        "usageNotes": [
+          "整合的方向用 into：consolidate A into B，B 是最終合成的那一個。"
+        ],
+        "commonMistakes": [
+          { "incorrect": "We consolidated the tools to one platform.", "correct": "We consolidated the tools into one platform.", "explanationZh": "consolidate 表示「合併成為某個整體」時要用 into，強調結果是一個新的整體。" }
+        ]
+      },
+      {
+        "id": "s_consolidate_2",
+        "partOfSpeech": "verb",
+        "register": ["formal", "business"],
+        "definitionEn": "to make a position, power, or advantage stronger and more secure",
+        "definitionZh": "鞏固（地位、權力、優勢）",
+        "usageExplanationZh": "這個意思沒有「合併」的成分，而是「讓已經取得的東西變得更穩固」。受詞通常是抽象的優勢：power、position、lead、gains。它暗示先前已有初步成果，現在要確保不會失去。",
+        "grammarPatterns": ["consolidate one's position/power/lead"],
+        "collocations": [
+          { "text": "consolidate power", "meaningZh": "鞏固權力" },
+          { "text": "consolidate gains", "meaningZh": "鞏固既有成果" },
+          { "text": "consolidate its lead", "meaningZh": "擴大並穩固領先" }
+        ],
+        "examples": [
+          { "en": "The startup used the funding round to consolidate its position in the market.", "zh": "這家新創利用這輪募資鞏固了它在市場上的地位。", "highlight": "consolidate" },
+          { "en": "After the initial win, they focused on consolidating their gains.", "zh": "初步勝利之後，他們把重心放在鞏固既有成果上。", "highlight": "consolidating" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "merge", "noteZh": "只描述合併動作，不含「變強」的意味。" }, { "lemma": "unify" }],
+    "antonyms": [{ "lemma": "fragment" }, { "lemma": "disperse" }],
+    "commonlyConfusedWith": [
+      { "lemma": "integrate", "distinctionZh": "integrate 強調「讓不同的部分協同運作」，各部分可以維持獨立身分（integrate a payment provider）；consolidate 強調「合併成更少、更集中的整體」，數量會減少。整合第三方服務用 integrate，把十個工具收斂成一個用 consolidate。" }
+    ],
+    "wordFamily": [
+      { "lemma": "consolidation", "partOfSpeech": "noun", "meaningZh": "整合；鞏固" },
+      { "lemma": "consolidated", "partOfSpeech": "adjective", "meaningZh": "合併的（如合併財報）" }
+    ],
+    "tags": ["business", "engineering", "strategy"]
+  },
+  {
+    "id": "w_reconcile",
+    "lemma": "reconcile",
+    "slug": "reconcile",
+    "cefr": "C1",
+    "pronunciation": { "kk": "/ˈrɛkənˌsaɪl/", "syllables": "rec·on·cile", "stressNote": "主重音在第一音節。" },
+    "forms": { "past": "reconciled", "pastParticiple": "reconciled", "presentParticiple": "reconciling", "thirdPersonSingular": "reconciles" },
+    "senses": [
+      {
+        "id": "s_reconcile_1",
+        "partOfSpeech": "verb",
+        "register": ["formal", "academic", "business"],
+        "definitionEn": "to find a way of making two different ideas, facts, or demands exist together without conflict",
+        "definitionZh": "調和；使一致（兩個看似衝突的事物）",
+        "usageExplanationZh": "reconcile 的核心是「兩個東西看起來互相矛盾，要想辦法讓它們並存」。句型是 reconcile A with B，或 reconcile A and B。分析性寫作中常用來處理表面矛盾的證據；工程語境則常說 reconcile two sources of truth。",
+        "grammarPatterns": ["reconcile A with B", "reconcile A and B", "be hard to reconcile with + noun"],
+        "collocations": [
+          { "text": "reconcile A with B", "meaningZh": "使 A 與 B 一致", "example": { "en": "It is hard to reconcile the survey results with the usage data.", "zh": "問卷結果很難與使用數據對得上。", "highlight": "reconcile" } },
+          { "text": "difficult to reconcile", "meaningZh": "難以調和" },
+          { "text": "reconcile differences", "meaningZh": "化解歧見" }
+        ],
+        "examples": [
+          { "en": "How do you reconcile the need for speed with the need for correctness?", "zh": "你如何在追求速度與確保正確性之間取得調和？", "highlight": "reconcile" },
+          { "en": "These two statements are difficult to reconcile.", "zh": "這兩項陳述很難自圓其說。", "highlight": "reconcile" }
+        ]
+      },
+      {
+        "id": "s_reconcile_2",
+        "partOfSpeech": "verb",
+        "register": ["business", "technical"],
+        "definitionEn": "to compare two sets of records and make sure they agree",
+        "definitionZh": "對帳；核對（兩份紀錄）",
+        "usageExplanationZh": "這是會計與資料工程的專門用法：把兩份應該相同的紀錄逐筆比對，找出並解釋差異。名詞 reconciliation 在金融系統中是固定術語，例如 a nightly reconciliation job。",
+        "collocations": [
+          { "text": "reconcile the accounts", "meaningZh": "對帳" },
+          { "text": "a reconciliation job", "meaningZh": "對帳作業" }
+        ],
+        "examples": [
+          { "en": "A nightly job reconciles our ledger against the payment provider's records.", "zh": "每晚有一個作業會將我們的帳本與金流商的紀錄進行對帳。", "highlight": "reconciles" },
+          { "en": "The two systems failed to reconcile because of a time-zone bug.", "zh": "由於時區的錯誤，這兩個系統無法對上帳。", "highlight": "reconcile" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "harmonize" }, { "lemma": "square", "noteZh": "口語：square A with B。" }],
+    "wordFamily": [{ "lemma": "reconciliation", "partOfSpeech": "noun", "meaningZh": "調和；對帳" }],
+    "tags": ["business", "data", "argument"]
+  },
+  {
+    "id": "w_infer",
+    "lemma": "infer",
+    "slug": "infer",
+    "cefr": "C1",
+    "pronunciation": { "kk": "/ɪnˈfɝ/", "syllables": "in·fer", "stressNote": "重音在第二音節。" },
+    "forms": { "past": "inferred", "pastParticiple": "inferred", "presentParticiple": "inferring", "thirdPersonSingular": "infers" },
+    "senses": [
+      {
+        "id": "s_infer_1",
+        "partOfSpeech": "verb",
+        "register": ["formal", "academic", "technical"],
+        "definitionEn": "to reach an opinion or conclusion from evidence rather than from being told directly",
+        "definitionZh": "推論；推斷",
+        "usageExplanationZh": "infer 的主詞是「接收訊息的人」：你根據證據，自己得出結論。這與 imply（說話者暗示）方向完全相反，是英文中最經典的一對混淆詞。在程式語言中 type inference（型別推論）就是這個意思：編譯器從程式碼推斷型別，而不是你明白寫出來。",
+        "grammarPatterns": ["infer A from B", "infer that + clause"],
+        "collocations": [
+          { "text": "infer from", "meaningZh": "從……推斷", "example": { "en": "We can infer from the logs that the retry loop never terminated.", "zh": "我們可以從日誌推斷出重試迴圈從未結束。", "highlight": "infer from" } },
+          { "text": "reasonably infer", "meaningZh": "合理推斷" },
+          { "text": "type inference", "meaningZh": "型別推論" }
+        ],
+        "examples": [
+          { "en": "From her tone, I inferred that she disagreed with the plan.", "zh": "從她的語氣，我推斷她不同意這個計畫。", "highlight": "inferred" },
+          { "en": "The compiler infers the return type automatically.", "zh": "編譯器會自動推論回傳型別。", "highlight": "infers" },
+          { "en": "You should not infer causation from this correlation alone.", "zh": "你不應該僅憑這個相關性就推論出因果關係。", "highlight": "infer" }
+        ],
+        "commonMistakes": [
+          { "incorrect": "Are you inferring that I made a mistake?", "correct": "Are you implying that I made a mistake?", "explanationZh": "說話者「暗示」用 imply；聽話者「推斷」才用 infer。這句要問對方是否在暗示，因此必須用 imply。" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "deduce", "noteZh": "更強調嚴謹的邏輯推導。" }, { "lemma": "conclude" }],
+    "commonlyConfusedWith": [
+      { "lemma": "imply", "wordId": "w_imply", "distinctionZh": "方向相反：說話者 imply（暗示），聽話者 infer（推斷）。The report implies that costs will rise. / I inferred from the report that costs will rise." }
+    ],
+    "wordFamily": [
+      { "lemma": "inference", "partOfSpeech": "noun", "meaningZh": "推論" },
+      { "lemma": "inferred", "partOfSpeech": "adjective", "meaningZh": "推論而得的" }
+    ],
+    "tags": ["academic", "logic", "engineering"]
+  },
+  {
+    "id": "w_imply",
+    "lemma": "imply",
+    "slug": "imply",
+    "cefr": "C1",
+    "pronunciation": { "kk": "/ɪmˈplaɪ/", "syllables": "im·ply", "stressNote": "重音在第二音節。" },
+    "forms": { "past": "implied", "pastParticiple": "implied", "presentParticiple": "implying", "thirdPersonSingular": "implies" },
+    "senses": [
+      {
+        "id": "s_imply_1",
+        "partOfSpeech": "verb",
+        "register": ["neutral", "academic"],
+        "definitionEn": "to suggest something indirectly without stating it openly",
+        "definitionZh": "暗示；意味著",
+        "usageExplanationZh": "imply 的主詞是「發出訊息的一方」——可以是人，也可以是文件、數據或事實。當主詞是人時，往往帶有「話中有話」的意味，語氣可能不太友善；當主詞是事物時，則只是中性地表示「邏輯上意味著」。數學與邏輯中的 A implies B 就是後者。",
+        "grammarPatterns": ["imply that + clause", "A implies B"],
+        "collocations": [
+          { "text": "imply that", "meaningZh": "暗示……" },
+          { "text": "strongly imply", "meaningZh": "強烈暗示" },
+          { "text": "an implied warranty", "meaningZh": "默示擔保（法律術語）" }
+        ],
+        "examples": [
+          { "en": "The wording implies that the feature is optional.", "zh": "這個措辭意味著該功能是選用的。", "highlight": "implies" },
+          { "en": "I did not mean to imply that your approach was wrong.", "zh": "我並不是要暗示你的做法有錯。", "highlight": "imply" },
+          { "en": "A 500 status code implies a server-side problem.", "zh": "500 狀態碼意味著伺服器端出了問題。", "highlight": "implies" }
+        ],
+        "usageNotes": [
+          "imply 後面接 that 子句，不接 to 不定詞：He implied that we were late.（不能說 He implied us to be late.）"
+        ]
+      }
+    ],
+    "commonlyConfusedWith": [
+      { "lemma": "infer", "wordId": "w_infer", "distinctionZh": "imply 是「送出暗示」（說話者、文件、數據）；infer 是「接收後推斷」（讀者、聽者）。同一件事只能由一方 imply，另一方 infer。" }
+    ],
+    "wordFamily": [
+      { "lemma": "implication", "partOfSpeech": "noun", "meaningZh": "暗示；影響" },
+      { "lemma": "implicit", "partOfSpeech": "adjective", "meaningZh": "隱含的" }
+    ],
+    "tags": ["academic", "logic", "communication"]
+  },
+  {
+    "id": "w_explicit",
+    "lemma": "explicit",
+    "slug": "explicit",
+    "cefr": "C1",
+    "pronunciation": { "kk": "/ɪkˈsplɪsɪt/", "syllables": "ex·plic·it", "stressNote": "重音在第二音節 -plic-。" },
+    "senses": [
+      {
+        "id": "s_explicit_1",
+        "partOfSpeech": "adjective",
+        "register": ["formal", "technical", "academic"],
+        "definitionEn": "stated clearly and directly, leaving no room for doubt",
+        "definitionZh": "明確的；清楚說明的",
+        "usageExplanationZh": "explicit 表示「白紙黑字說清楚了」，與 implicit（沒說出來但存在）相對。在軟體工程中這是核心價值之一：explicit dependencies、explicit configuration、an explicit return type，都是指「不靠猜測、不靠預設」。片語 make something explicit 意思是「把隱含的東西講明白」。",
+        "grammarPatterns": ["be explicit about + noun", "make + noun + explicit"],
+        "collocations": [
+          { "text": "be explicit about", "meaningZh": "明確說明……", "example": { "en": "The documentation should be explicit about which fields are required.", "zh": "文件應該明確說明哪些欄位是必填的。", "highlight": "explicit about" } },
+          { "text": "an explicit agreement", "meaningZh": "明確的協議" },
+          { "text": "make it explicit", "meaningZh": "把它講明白" },
+          { "text": "explicit consent", "meaningZh": "明示同意" }
+        ],
+        "examples": [
+          { "en": "We prefer explicit configuration over convention-based magic.", "zh": "我們偏好明確的設定，而不是靠慣例運作的魔法。", "highlight": "explicit" },
+          { "en": "She gave explicit instructions not to restart the service.", "zh": "她明確指示不要重啟該服務。", "highlight": "explicit" },
+          { "en": "The contract contains an explicit exclusion for consequential damages.", "zh": "合約中有一條明確排除間接損害的條款。", "highlight": "explicit" }
+        ],
+        "usageNotes": [
+          "explicit 在描述影片、歌詞時另有「露骨的」意思（explicit content），寫作時注意上下文避免誤讀。"
+        ]
+      }
+    ],
+    "antonyms": [{ "wordId": "w_implicit", "lemma": "implicit" }, { "wordId": "w_ambiguous", "lemma": "ambiguous" }],
+    "wordFamily": [
+      { "lemma": "explicitly", "partOfSpeech": "adverb", "meaningZh": "明確地" },
+      { "lemma": "explicitness", "partOfSpeech": "noun", "meaningZh": "明確性" }
+    ],
+    "tags": ["engineering", "academic", "communication"]
+  },
+  {
+    "id": "w_implicit",
+    "lemma": "implicit",
+    "slug": "implicit",
+    "cefr": "C1",
+    "pronunciation": { "kk": "/ɪmˈplɪsɪt/", "syllables": "im·plic·it", "stressNote": "重音在第二音節 -plic-。" },
+    "senses": [
+      {
+        "id": "s_implicit_1",
+        "partOfSpeech": "adjective",
+        "register": ["formal", "technical", "academic"],
+        "definitionEn": "suggested or understood without being directly stated",
+        "definitionZh": "隱含的；不言而喻的",
+        "usageExplanationZh": "implicit 指「雖然沒有明說，但確實存在」。它常搭配 in：an assumption implicit in the design（設計中隱含的假設）。在技術討論中，implicit 常帶有輕微的警告意味，因為隱含的假設一旦不成立就會造成 bug。",
+        "grammarPatterns": ["implicit in + noun", "an implicit + noun"],
+        "collocations": [
+          { "text": "implicit assumption", "meaningZh": "隱含假設" },
+          { "text": "implicit in", "meaningZh": "隱含於……之中", "example": { "en": "There is an assumption implicit in this design: that requests arrive in order.", "zh": "這個設計中隱含一個假設：請求會按順序抵達。", "highlight": "implicit in" } },
+          { "text": "implicit conversion", "meaningZh": "隱式轉換" },
+          { "text": "an implicit contract", "meaningZh": "隱含的約定" }
+        ],
+        "examples": [
+          { "en": "The API relies on an implicit ordering that is not documented anywhere.", "zh": "這個 API 依賴一個沒有任何文件記載的隱含順序。", "highlight": "implicit" },
+          { "en": "Her approval was implicit rather than stated.", "zh": "她的同意是默許的，而非明說。", "highlight": "implicit" },
+          { "en": "Implicit type conversion is a common source of subtle bugs.", "zh": "隱式型別轉換是細微錯誤的常見來源。", "highlight": "Implicit" }
+        ],
+        "usageNotes": [
+          "另有一個較少見的用法 implicit trust，意思是「毫無保留的信任」，此時 implicit 表示「絕對的」，與「隱含」無關。"
+        ]
+      }
+    ],
+    "antonyms": [{ "wordId": "w_explicit", "lemma": "explicit" }],
+    "commonlyConfusedWith": [
+      { "lemma": "implied", "distinctionZh": "implied 是動詞 imply 的過去分詞，描述某個具體訊息被暗示出來（the implied meaning）；implicit 是形容詞，描述某個東西本質上就內建在其中（implicit in the design）。implicit 更靜態、更結構性。" }
+    ],
+    "wordFamily": [{ "lemma": "implicitly", "partOfSpeech": "adverb", "meaningZh": "隱含地" }],
+    "tags": ["engineering", "academic", "communication"]
+  }
+]

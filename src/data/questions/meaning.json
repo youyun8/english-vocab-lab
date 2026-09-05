@@ -1,0 +1,284 @@
+[
+  {
+    "id": "q_me_consolidate_01",
+    "type": "meaning_en_to_zh",
+    "cefr": "C1",
+    "wordIds": ["w_consolidate"],
+    "prompt": "What does \"consolidate\" most nearly mean here?",
+    "context": "After the acquisition, the group consolidated its three logistics teams.",
+    "options": [
+      { "id": "a", "text": "整合、合併成更集中的整體" },
+      { "id": "b", "text": "拆分成多個獨立單位" },
+      { "id": "c", "text": "外包給第三方廠商" },
+      { "id": "d", "text": "暫時凍結不做調整" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "consolidate 表示把分散的單位合併成更集中、更有效率的整體。",
+    "distractorExplanations": {
+      "b": "拆分是 split 或 fragment，與 consolidate 相反。",
+      "c": "外包是 outsource，語意無關。",
+      "d": "凍結是 freeze 或 put on hold。"
+    },
+    "difficulty": 2,
+    "tags": ["meaning", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_me_undermine_01",
+    "type": "meaning_en_to_zh",
+    "cefr": "C1",
+    "wordIds": ["w_undermine"],
+    "prompt": "What does \"undermine\" mean in this sentence?",
+    "context": "Repeated outages steadily undermined users' confidence in the platform.",
+    "options": [
+      { "id": "a", "text": "逐漸削弱、從根本瓦解" },
+      { "id": "b", "text": "突然徹底摧毀" },
+      { "id": "c", "text": "公開反駁" },
+      { "id": "d", "text": "暗中支持" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "undermine 的字面意思是「在底下挖坑」，強調從基礎逐步瓦解，與 steadily 相符。",
+    "distractorExplanations": {
+      "b": "undermine 強調緩慢累積的過程，不是一次性的摧毀。",
+      "c": "公開反駁是 refute 或 contradict，undermine 不必然公開進行。",
+      "d": "暗中支持與 undermine 的削弱意涵完全相反。"
+    },
+    "difficulty": 2,
+    "tags": ["meaning", "academic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_me_zh_eliminate_01",
+    "type": "meaning_zh_to_en",
+    "cefr": "B2",
+    "wordIds": ["w_eliminate"],
+    "prompt": "哪一個英文單字最接近「徹底消除、根除」？",
+    "options": [
+      { "id": "a", "text": "eliminate" },
+      { "id": "b", "text": "relocate" },
+      { "id": "c", "text": "postpone" },
+      { "id": "d", "text": "duplicate" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "eliminate 強調「讓某個不想要的東西徹底不存在」。",
+    "distractorExplanations": {
+      "b": "relocate 是「遷移位置」，東西依然存在。",
+      "c": "postpone 是「延後」，與消除無關。",
+      "d": "duplicate 是「複製」，意思恰好相反。"
+    },
+    "difficulty": 1,
+    "tags": ["meaning", "basic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_me_zh_criterion_01",
+    "type": "meaning_zh_to_en",
+    "cefr": "C1",
+    "wordIds": ["w_criterion"],
+    "prompt": "哪一個英文單字最接近「判斷用的標準、判準」（單數形）？",
+    "options": [
+      { "id": "a", "text": "criterion" },
+      { "id": "b", "text": "criteria" },
+      { "id": "c", "text": "critique" },
+      { "id": "d", "text": "credential" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "criterion 是單數形的「標準」，複數才是 criteria。",
+    "distractorExplanations": {
+      "b": "criteria 是複數形，題目明確要求單數。",
+      "c": "critique 是「評論、批評文章」。",
+      "d": "credential 是「資格證明、憑證」。"
+    },
+    "difficulty": 2,
+    "tags": ["meaning", "academic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_me_zh_tenuous_01",
+    "type": "meaning_zh_to_en",
+    "cefr": "C2",
+    "wordIds": ["w_tenuous"],
+    "prompt": "哪一個英文單字最接近「薄弱的、站不住腳的」？",
+    "options": [
+      { "id": "a", "text": "tenuous" },
+      { "id": "b", "text": "tenacious" },
+      { "id": "c", "text": "tangible" },
+      { "id": "d", "text": "tentative" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "tenuous 形容關聯或立論細到快斷掉、經不起檢驗。",
+    "distractorExplanations": {
+      "b": "tenacious 是「頑強不放棄的」，語意相反。",
+      "c": "tangible 是「具體可觸的」。",
+      "d": "tentative 是「暫定的、試探性的」，描述確定程度而非強度。"
+    },
+    "difficulty": 4,
+    "tags": ["meaning", "academic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_me_negligible_01",
+    "type": "meaning_en_to_zh",
+    "cefr": "C1",
+    "wordIds": ["w_negligible"],
+    "prompt": "What does \"negligible\" mean here?",
+    "context": "The added logging introduces negligible overhead.",
+    "options": [
+      { "id": "a", "text": "小到可以忽略不計的" },
+      { "id": "b", "text": "疏忽失職的" },
+      { "id": "c", "text": "難以測量的" },
+      { "id": "d", "text": "無法接受的" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "negligible 表示「小到在決策時可以直接不予考慮」。",
+    "distractorExplanations": {
+      "b": "疏忽失職是 negligent，只差幾個字母但意思完全不同。",
+      "c": "negligible 的東西是可以測量的，只是量太小不重要。",
+      "d": "negligible 是正面或中性的評價，不表示無法接受。"
+    },
+    "difficulty": 3,
+    "tags": ["meaning", "engineering"],
+    "source": "curated"
+  },
+  {
+    "id": "q_me_salient_01",
+    "type": "meaning_en_to_zh",
+    "cefr": "C2",
+    "wordIds": ["w_salient"],
+    "prompt": "What does \"salient\" mean in this sentence?",
+    "context": "Let me summarize the salient points before we vote.",
+    "options": [
+      { "id": "a", "text": "最顯著、最值得注意的" },
+      { "id": "b", "text": "有爭議的" },
+      { "id": "c", "text": "尚未確認的" },
+      { "id": "d", "text": "技術性很強的" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "salient 指在眾多細節中最突出、最該注意的部分。",
+    "distractorExplanations": {
+      "b": "有爭議是 contentious 或 controversial。",
+      "c": "尚未確認是 unconfirmed 或 preliminary。",
+      "d": "技術性強是 technical，與「顯著」無關。"
+    },
+    "difficulty": 3,
+    "tags": ["meaning", "presentation"],
+    "source": "curated"
+  },
+  {
+    "id": "q_me_zh_plausible_01",
+    "type": "meaning_zh_to_en",
+    "cefr": "C1",
+    "wordIds": ["w_plausible"],
+    "prompt": "哪一個英文單字最接近「看似合理、說得通（但尚未證實）」？",
+    "options": [
+      { "id": "a", "text": "plausible" },
+      { "id": "b", "text": "feasible" },
+      { "id": "c", "text": "palpable" },
+      { "id": "d", "text": "permissible" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "plausible 專門用來評價「說法聽起來合理，但還沒被證實」。",
+    "distractorExplanations": {
+      "b": "feasible 評價的是「行動做不做得到」，不是說法可不可信。",
+      "c": "palpable 是「明顯可感受到的」，例如 palpable tension。",
+      "d": "permissible 是「被允許的」，屬於規範層面。"
+    },
+    "difficulty": 3,
+    "tags": ["meaning", "logic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_me_cursory_01",
+    "type": "meaning_en_to_zh",
+    "cefr": "C2",
+    "wordIds": ["w_cursory"],
+    "prompt": "What does \"cursory\" mean here?",
+    "context": "The pull request received only a cursory review before being merged.",
+    "options": [
+      { "id": "a", "text": "草率、不夠仔細的" },
+      { "id": "b", "text": "極為嚴格的" },
+      { "id": "c", "text": "由多人共同進行的" },
+      { "id": "d", "text": "自動化的" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "cursory 指「看過但沒認真看」，帶有明顯的批評意味。",
+    "distractorExplanations": {
+      "b": "嚴格的審查是 thorough 或 rigorous，與 cursory 相反。",
+      "c": "多人共同進行與審查是否仔細無關。",
+      "d": "自動化是 automated，cursory 描述的是人的態度。"
+    },
+    "difficulty": 3,
+    "tags": ["meaning", "engineering"],
+    "source": "curated"
+  },
+  {
+    "id": "q_me_zh_undermine_01",
+    "type": "meaning_zh_to_en",
+    "cefr": "C1",
+    "wordIds": ["w_undermine", "w_reinforce"],
+    "prompt": "哪一個英文單字最接近「逐漸削弱、從根基動搖」？",
+    "options": [
+      { "id": "a", "text": "undermine" },
+      { "id": "b", "text": "reinforce" },
+      { "id": "c", "text": "underline" },
+      { "id": "d", "text": "undertake" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "undermine 的字面意思是「在底下挖坑」，引申為從基礎逐步瓦解。",
+    "distractorExplanations": {
+      "b": "reinforce 是「強化」，意思恰好相反。",
+      "c": "underline 是「畫底線、強調」，同樣是加強而非削弱。",
+      "d": "undertake 是「著手進行」，語意無關。"
+    },
+    "difficulty": 2,
+    "tags": ["meaning", "academic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_me_prevalent_01",
+    "type": "meaning_en_to_zh",
+    "cefr": "C1",
+    "wordIds": ["w_prevalent"],
+    "prompt": "What does \"prevalent\" mean here?",
+    "context": "This anti-pattern has become increasingly prevalent in large codebases.",
+    "options": [
+      { "id": "a", "text": "普遍存在、發生頻率高的" },
+      { "id": "b", "text": "被明令禁止的" },
+      { "id": "c", "text": "難以偵測的" },
+      { "id": "d", "text": "逐漸消失的" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "prevalent 描述某現象在特定範圍內很常見。",
+    "distractorExplanations": {
+      "b": "被禁止是 prohibited 或 banned。",
+      "c": "難以偵測是 subtle 或 hard to detect。",
+      "d": "逐漸消失與 increasingly prevalent 的方向相反。"
+    },
+    "difficulty": 2,
+    "tags": ["meaning", "academic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_me_zh_inherent_01",
+    "type": "meaning_zh_to_en",
+    "cefr": "C1",
+    "wordIds": ["w_inherent"],
+    "prompt": "哪一個英文單字最接近「本質上就存在、無法移除的」？",
+    "options": [
+      { "id": "a", "text": "inherent" },
+      { "id": "b", "text": "incidental" },
+      { "id": "c", "text": "inherited" },
+      { "id": "d", "text": "imminent" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "inherent 表示某性質是事物本質的一部分，無法分割。",
+    "distractorExplanations": {
+      "b": "incidental 是「附帶的、偶然的」，暗示可以避免。",
+      "c": "inherited 是「繼承而來的」，來源在外部而非本質。",
+      "d": "imminent 是「即將發生的」，屬於時間概念。"
+    },
+    "difficulty": 3,
+    "tags": ["meaning", "academic"],
+    "source": "curated"
+  }
+]

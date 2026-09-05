@@ -1,0 +1,17 @@
+# Copy this file to `.dev.vars` for local development.
+# `.dev.vars` is git-ignored - never commit real credentials.
+
+# GitHub OAuth App credentials (create a SEPARATE OAuth App for local development).
+GITHUB_CLIENT_ID=Ov23liExampleLocalClientId
+GITHUB_CLIENT_SECRET=0000000000000000000000000000000000000000
+
+# Random high-entropy string used to sign/derive server-side values.
+# Generate with: openssl rand -hex 32
+SESSION_SECRET=change-me-to-a-64-character-hex-string-generated-with-openssl-rand
+
+# Public origin of the app. Must match the GitHub OAuth App's Homepage URL.
+APP_URL=http://localhost:5173
+
+# Set to "development" locally so that error responses include the real reason
+# (for example, which secret is missing) instead of a generic message.
+ENVIRONMENT=development
