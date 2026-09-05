@@ -1,0 +1,482 @@
+[
+  {
+    "id": "q_cl_consolidate_01",
+    "type": "cloze",
+    "cefr": "C1",
+    "wordIds": ["w_consolidate"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "The company decided to ____ several internal tools into one platform.",
+    "options": [
+      { "id": "a", "text": "consolidate" },
+      { "id": "b", "text": "elaborate" },
+      { "id": "c", "text": "designate" },
+      { "id": "d", "text": "circulate" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "把多個工具合併成一個平台，正是 consolidate A into B。",
+    "distractorExplanations": {
+      "b": "elaborate 是「詳細闡述」，與合併無關。",
+      "c": "designate 是「指定、指派」，不表示整合。",
+      "d": "circulate 是「傳閱、流通」，語意完全不同。"
+    },
+    "difficulty": 2,
+    "tags": ["cloze", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_undermine_01",
+    "type": "cloze",
+    "cefr": "C1",
+    "wordIds": ["w_undermine"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "A single well-documented counterexample can ____ an entire theory.",
+    "options": [
+      { "id": "a", "text": "undermine" },
+      { "id": "b", "text": "underline" },
+      { "id": "c", "text": "undertake" },
+      { "id": "d", "text": "underestimate" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "反例會從根本削弱一個理論，這是 undermine 的典型用法。",
+    "distractorExplanations": {
+      "b": "underline 是「強調」，意思恰好相反。",
+      "c": "undertake 是「著手進行」，受詞應該是任務而非理論。",
+      "d": "underestimate 是「低估」，主詞必須是判斷的人，不是反例。"
+    },
+    "difficulty": 3,
+    "tags": ["cloze", "academic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_inherent_01",
+    "type": "cloze",
+    "cefr": "C1",
+    "wordIds": ["w_inherent"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "There is an ____ trade-off between consistency and availability; no implementation can remove it.",
+    "options": [
+      { "id": "a", "text": "inherent" },
+      { "id": "b", "text": "incidental" },
+      { "id": "c", "text": "occasional" },
+      { "id": "d", "text": "external" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "後半句說「沒有任何實作能消除它」，正符合 inherent「本質上不可分割」的意思。",
+    "distractorExplanations": {
+      "b": "incidental 表示「附帶的、非必然的」，與「無法消除」矛盾。",
+      "c": "occasional 表示「偶爾發生的」，但這個取捨是恆常存在的。",
+      "d": "external 表示「外部的」，暗示可以隔離，同樣與句意衝突。"
+    },
+    "difficulty": 3,
+    "tags": ["cloze", "engineering"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_arbitrary_01",
+    "type": "cloze",
+    "cefr": "C1",
+    "wordIds": ["w_arbitrary"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "Users can supply ____ text, so every value must be escaped before rendering.",
+    "options": [
+      { "id": "a", "text": "arbitrary" },
+      { "id": "b", "text": "arbitrated" },
+      { "id": "c", "text": "arbitrarily" },
+      { "id": "d", "text": "arbitration" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "此處需要形容詞修飾 text，且技術語境中 arbitrary 表示「任意的、不特定的」，正是資安考量的前提。",
+    "distractorExplanations": {
+      "b": "arbitrated 是「經仲裁的」，語意不符。",
+      "c": "arbitrarily 是副詞，不能直接修飾名詞 text。",
+      "d": "arbitration 是名詞「仲裁」，不能修飾另一個名詞形成這個意思。"
+    },
+    "difficulty": 3,
+    "tags": ["cloze", "security"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_discrepancy_01",
+    "type": "cloze",
+    "cefr": "C1",
+    "wordIds": ["w_discrepancy"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "The nightly job flags any ____ larger than one cent between the two ledgers.",
+    "options": [
+      { "id": "a", "text": "discrepancy" },
+      { "id": "b", "text": "discretion" },
+      { "id": "c", "text": "discrimination" },
+      { "id": "d", "text": "disclosure" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "兩份本應相同的帳本之間的差異就是 discrepancy。",
+    "distractorExplanations": {
+      "b": "discretion 是「裁量權、審慎」，與數字差異無關。",
+      "c": "discrimination 是「歧視」或「辨別力」，不用於帳目。",
+      "d": "disclosure 是「揭露」，指公開資訊的行為。"
+    },
+    "difficulty": 3,
+    "tags": ["cloze", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_retrieve_01",
+    "type": "cloze",
+    "cefr": "B2",
+    "wordIds": ["w_retrieve"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "If the key exists in the cache, we ____ the value from memory instead of querying the database.",
+    "options": [
+      { "id": "a", "text": "retrieve" },
+      { "id": "b", "text": "retain" },
+      { "id": "c", "text": "retract" },
+      { "id": "d", "text": "retire" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "從儲存的地方把資料取出來，正是 retrieve。",
+    "distractorExplanations": {
+      "b": "retain 是「保留」，指東西留在原處不動，不是取出來。",
+      "c": "retract 是「收回（言論、聲明）」，語意完全不同。",
+      "d": "retire 是「退休、退役」，不用於資料存取。"
+    },
+    "difficulty": 2,
+    "tags": ["cloze", "engineering"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_preliminary_01",
+    "type": "cloze",
+    "cefr": "B2",
+    "wordIds": ["w_preliminary"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "These are ____ figures and may change once the audit is complete.",
+    "options": [
+      { "id": "a", "text": "preliminary" },
+      { "id": "b", "text": "preferable" },
+      { "id": "c", "text": "premature" },
+      { "id": "d", "text": "prevailing" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "「初步的、之後可能改變」正是 preliminary 的核心意思，與 may change 完全呼應。",
+    "distractorExplanations": {
+      "b": "preferable 是「較為可取的」，與時間先後或確定性無關。",
+      "c": "premature 是「過早的」，帶有負面判斷，指不該這麼早做。",
+      "d": "prevailing 是「當前盛行的」，不表示尚未定案。"
+    },
+    "difficulty": 3,
+    "tags": ["cloze", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_subtle_01",
+    "type": "cloze",
+    "cefr": "C1",
+    "wordIds": ["w_subtle"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "The race condition introduced a ____ bug that only appeared under heavy load.",
+    "options": [
+      { "id": "a", "text": "subtle" },
+      { "id": "b", "text": "blatant" },
+      { "id": "c", "text": "colossal" },
+      { "id": "d", "text": "explicit" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "只在特定條件下才浮現、不容易察覺的錯誤，正是 a subtle bug。",
+    "distractorExplanations": {
+      "b": "blatant 是「明目張膽、一眼就看得出來的」，與「只在高負載下才出現」矛盾。",
+      "c": "colossal 只描述規模巨大，沒有「難以察覺」的意思。",
+      "d": "explicit 是「明確說明的」，用來描述陳述而非錯誤的隱蔽性。"
+    },
+    "difficulty": 3,
+    "tags": ["cloze", "engineering"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_prevalent_01",
+    "type": "cloze",
+    "cefr": "C1",
+    "wordIds": ["w_prevalent"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "Burnout is particularly ____ among engineers who are frequently on call.",
+    "options": [
+      { "id": "a", "text": "prevalent" },
+      { "id": "b", "text": "prevented" },
+      { "id": "c", "text": "provident" },
+      { "id": "d", "text": "prominent" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "描述某現象在特定族群中很常見，用 prevalent among。",
+    "distractorExplanations": {
+      "b": "prevented 是「被阻止的」，語意與「很常見」相反。",
+      "c": "provident 是「有遠見、未雨綢繆的」，用來形容人的性格。",
+      "d": "prominent 是「顯眼、著名的」，指引人注目而非「發生率高」。"
+    },
+    "difficulty": 3,
+    "tags": ["cloze", "academic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_tenuous_01",
+    "type": "cloze",
+    "cefr": "C2",
+    "wordIds": ["w_tenuous"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "The link between the two incidents is ____ at best; they share no components.",
+    "options": [
+      { "id": "a", "text": "tenuous" },
+      { "id": "b", "text": "tangible" },
+      { "id": "c", "text": "tenacious" },
+      { "id": "d", "text": "tentative" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "後半句說兩者毫無共用元件，因此關聯非常薄弱，正是 tenuous。",
+    "distractorExplanations": {
+      "b": "tangible 是「具體可見的」，與「毫無共用元件」矛盾。",
+      "c": "tenacious 是「頑強不放棄的」，用來形容人的意志。",
+      "d": "tentative 是「暫定的、試探性的」，描述計畫的確定程度，不是關聯的強弱。"
+    },
+    "difficulty": 4,
+    "tags": ["cloze", "academic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_ostensibly_01",
+    "type": "cloze",
+    "cefr": "C2",
+    "wordIds": ["w_ostensibly"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "The meeting was called ____ to gather feedback, but the decision had already been made.",
+    "options": [
+      { "id": "a", "text": "ostensibly" },
+      { "id": "b", "text": "obviously" },
+      { "id": "c", "text": "invariably" },
+      { "id": "d", "text": "consequently" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "ostensibly 表示「名義上是這樣，但實情不同」，與 but 之後的轉折完全吻合。",
+    "distractorExplanations": {
+      "b": "obviously 表示「顯然如此」，與後半句揭穿真相的語氣衝突。",
+      "c": "invariably 表示「總是、無一例外」，與單一事件的敘述不合。",
+      "d": "consequently 表示因果關係，但這裡是轉折而非結果。"
+    },
+    "difficulty": 4,
+    "tags": ["cloze", "nuance"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_corroborate_01",
+    "type": "cloze",
+    "cefr": "C2",
+    "wordIds": ["w_corroborate"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "Two independent traces ____ the timeline given in the incident report.",
+    "options": [
+      { "id": "a", "text": "corroborate" },
+      { "id": "b", "text": "contemplate" },
+      { "id": "c", "text": "compensate" },
+      { "id": "d", "text": "consolidate" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "兩份「獨立」的追蹤紀錄支持同一份報告的說法，正是 corroborate 的核心：獨立證據佐證。",
+    "distractorExplanations": {
+      "b": "contemplate 是「思索、考慮」，主詞必須是人。",
+      "c": "compensate 是「補償、抵銷」，語意不符。",
+      "d": "consolidate 是「整合、合併」，但這裡不是把兩份紀錄合而為一。"
+    },
+    "difficulty": 4,
+    "tags": ["cloze", "evidence"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_criterion_01",
+    "type": "cloze",
+    "cefr": "C1",
+    "wordIds": ["w_criterion"],
+    "prompt": "Choose the form that best completes the sentence.",
+    "context": "The main ____ we use is whether the change can be reversed safely.",
+    "options": [
+      { "id": "a", "text": "criterion" },
+      { "id": "b", "text": "criteria" },
+      { "id": "c", "text": "criterions" },
+      { "id": "d", "text": "criterias" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The main ... is 需要單數，因此用單數形 criterion。",
+    "distractorExplanations": {
+      "b": "criteria 是複數形，與 The main ... is 的單數結構不符。",
+      "c": "criterion 的複數是 criteria，英文沒有 criterions 這個形式。",
+      "d": "criterias 是雙重複數，完全不成立。"
+    },
+    "difficulty": 2,
+    "tags": ["cloze", "grammar"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_robust_01",
+    "type": "cloze",
+    "cefr": "C1",
+    "wordIds": ["w_robust"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "The statistical method is ____ to outliers, so a few extreme values do not distort the result.",
+    "options": [
+      { "id": "a", "text": "robust" },
+      { "id": "b", "text": "vulnerable" },
+      { "id": "c", "text": "sensitive" },
+      { "id": "d", "text": "adjacent" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "後半句說少數極端值不會扭曲結果，也就是這個方法「經得起干擾」，正是 robust to。",
+    "distractorExplanations": {
+      "b": "vulnerable 表示「容易受害」，與後半句直接矛盾。",
+      "c": "sensitive 表示「容易受影響」，同樣與句意相反。",
+      "d": "adjacent 是「相鄰的」，是空間概念，與抗干擾無關。"
+    },
+    "difficulty": 3,
+    "tags": ["cloze", "academic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_eliminate_01",
+    "type": "cloze",
+    "cefr": "B2",
+    "wordIds": ["w_eliminate"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "Caching the result ____ the need for a second database query entirely.",
+    "options": [
+      { "id": "a", "text": "eliminates" },
+      { "id": "b", "text": "illuminates" },
+      { "id": "c", "text": "estimates" },
+      { "id": "d", "text": "escalates" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "eliminate the need for X 是固定搭配，且 entirely 呼應「徹底消除」的語氣。",
+    "distractorExplanations": {
+      "b": "illuminate 是「照亮、闡明」，與消除無關。",
+      "c": "estimate 是「估計」，語意不符。",
+      "d": "escalate 是「升高、上報」，意思恰好相反。"
+    },
+    "difficulty": 2,
+    "tags": ["cloze", "engineering"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_coherent_01",
+    "type": "cloze",
+    "cefr": "C1",
+    "wordIds": ["w_coherent"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "Each endpoint follows a different naming convention, so the API does not feel ____.",
+    "options": [
+      { "id": "a", "text": "coherent" },
+      { "id": "b", "text": "coincident" },
+      { "id": "c", "text": "cohesive" },
+      { "id": "d", "text": "compliant" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "各部分規則不一致，合起來說不出一個道理，正是「不 coherent」。",
+    "distractorExplanations": {
+      "b": "coincident 是「同時發生的」，與一致性無關。",
+      "c": "cohesive 偏向「凝聚、黏合在一起」，多用於團隊或群體，形容命名慣例的邏輯一致性時 coherent 更精準。",
+      "d": "compliant 是「符合規範的」，但句子並未提到任何外部規範。"
+    },
+    "difficulty": 4,
+    "tags": ["cloze", "engineering"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_scrutiny_01",
+    "type": "cloze",
+    "cefr": "C1",
+    "wordIds": ["w_scrutiny"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "The benchmark looks impressive, but it does not stand up to close ____.",
+    "options": [
+      { "id": "a", "text": "scrutiny" },
+      { "id": "b", "text": "scrutinize" },
+      { "id": "c", "text": "screening" },
+      { "id": "d", "text": "scrupulous" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "stand up to scrutiny 是固定片語，意思是「經得起推敲」。",
+    "distractorExplanations": {
+      "b": "scrutinize 是動詞，不能放在介系詞 to 之後當名詞用。",
+      "c": "screening 是「篩檢、初步過濾」，不含「仔細推敲」的意思。",
+      "d": "scrupulous 是形容詞（一絲不苟的），語法位置不對。"
+    },
+    "difficulty": 3,
+    "tags": ["cloze", "academic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_nuance_01",
+    "type": "cloze",
+    "cefr": "C2",
+    "wordIds": ["w_nuance"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "There is an important ____ between deprecating an API and removing it.",
+    "options": [
+      { "id": "a", "text": "nuance" },
+      { "id": "b", "text": "nuisance" },
+      { "id": "c", "text": "novelty" },
+      { "id": "d", "text": "notion" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "兩個相近做法之間的細微但重要差別，正是 nuance。",
+    "distractorExplanations": {
+      "b": "nuisance 是「麻煩、討厭的事物」，拼字相近但意思無關。",
+      "c": "novelty 是「新奇之處」，不表示差別。",
+      "d": "notion 是「概念、想法」，不能用來指兩者「之間」的差異。"
+    },
+    "difficulty": 4,
+    "tags": ["cloze", "language"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_simultaneous_01",
+    "type": "cloze",
+    "cefr": "B2",
+    "wordIds": ["w_simultaneous"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "Two ____ writes to the same row caused the deadlock.",
+    "options": [
+      { "id": "a", "text": "simultaneous" },
+      { "id": "b", "text": "consecutive" },
+      { "id": "c", "text": "subsequent" },
+      { "id": "d", "text": "spontaneous" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "死結是兩個寫入在同一時間互相等待造成的，因此需要 simultaneous。",
+    "distractorExplanations": {
+      "b": "consecutive 是「一個接一個」，先後發生就不會互相等待。",
+      "c": "subsequent 只表示「之後的」，同樣暗示先後而非同時。",
+      "d": "spontaneous 是「自發的」，與時間關係無關。"
+    },
+    "difficulty": 3,
+    "tags": ["cloze", "engineering"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_conventional_01",
+    "type": "cloze",
+    "cefr": "B2",
+    "wordIds": ["w_conventional"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "Unlike ____ databases, this engine stores data column by column.",
+    "options": [
+      { "id": "a", "text": "conventional" },
+      { "id": "b", "text": "convenient" },
+      { "id": "c", "text": "convincing" },
+      { "id": "d", "text": "converted" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Unlike 建立對比，需要一個表示「傳統做法」的形容詞，正是 conventional。",
+    "distractorExplanations": {
+      "b": "convenient 是「方便的」，無法與新做法形成對比。",
+      "c": "convincing 是「有說服力的」，不能形容資料庫的類型。",
+      "d": "converted 是「被轉換的」，語意不符。"
+    },
+    "difficulty": 2,
+    "tags": ["cloze", "engineering"],
+    "source": "curated"
+  }
+]

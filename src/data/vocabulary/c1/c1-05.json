@@ -1,0 +1,246 @@
+[
+  {
+    "id": "w_compelling",
+    "lemma": "compelling",
+    "slug": "compelling",
+    "cefr": "C1",
+    "pronunciation": { "kk": "/kəmˈpɛlɪŋ/", "syllables": "com·pel·ling", "stressNote": "重音在第二音節 -pel-。" },
+    "senses": [
+      {
+        "id": "s_compelling_1",
+        "partOfSpeech": "adjective",
+        "register": ["formal", "academic", "business"],
+        "definitionEn": "so strong or convincing that it makes you accept an idea or take action",
+        "definitionZh": "有說服力的；令人信服的",
+        "usageExplanationZh": "compelling 帶有「強到讓人非接受不可」的力道，比 convincing 更強。它常與 reason、evidence、argument、case 搭配。商務語境中 a compelling case for X 是提案時的黃金句型，意思是「支持 X 的有力理由」。",
+        "grammarPatterns": ["a compelling case for + noun", "compelling evidence that + clause"],
+        "collocations": [
+          { "text": "a compelling case for", "meaningZh": "支持……的有力理由", "example": { "en": "There is a compelling case for investing in test automation now.", "zh": "現在投資測試自動化，有非常充分的理由。", "highlight": "a compelling case for" } },
+          { "text": "compelling evidence", "meaningZh": "有力的證據" },
+          { "text": "a compelling reason", "meaningZh": "充分的理由" },
+          { "text": "particularly compelling", "meaningZh": "特別有說服力" }
+        ],
+        "examples": [
+          { "en": "Unless there is a compelling reason, we should not add another dependency.", "zh": "除非有充分的理由，否則我們不該再增加一個相依套件。", "highlight": "compelling" },
+          { "en": "The data presents a compelling argument for changing the default.", "zh": "這些數據為改變預設值提供了有力的論證。", "highlight": "compelling" },
+          { "en": "It was a compelling talk; nobody looked at their phone.", "zh": "那場演講非常引人入勝，沒有人低頭看手機。", "highlight": "compelling" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "persuasive" }, { "lemma": "convincing", "noteZh": "語氣稍弱。" }],
+    "antonyms": [{ "lemma": "unconvincing" }, { "wordId": "w_tenuous", "lemma": "tenuous" }],
+    "wordFamily": [
+      { "lemma": "compel", "partOfSpeech": "verb", "meaningZh": "迫使" },
+      { "lemma": "compellingly", "partOfSpeech": "adverb", "meaningZh": "令人信服地" }
+    ],
+    "tags": ["argument", "business", "academic"]
+  },
+  {
+    "id": "w_prevalent",
+    "lemma": "prevalent",
+    "slug": "prevalent",
+    "cefr": "C1",
+    "pronunciation": { "kk": "/ˈprɛvələnt/", "syllables": "prev·a·lent", "stressNote": "重音在第一音節。" },
+    "senses": [
+      {
+        "id": "s_prevalent_1",
+        "partOfSpeech": "adjective",
+        "register": ["formal", "academic"],
+        "definitionEn": "existing very commonly or happening frequently in a particular place or group",
+        "definitionZh": "普遍存在的；盛行的",
+        "usageExplanationZh": "prevalent 是描述「在某個群體或地區中很常見」的正式用語，常見於研究報告與流行病學。它通常搭配 among（在某群體中）或 in（在某地區）。要注意它多半用來描述問題或現象，較少用於正面事物。",
+        "grammarPatterns": ["prevalent among + group", "prevalent in + place", "become increasingly prevalent"],
+        "collocations": [
+          { "text": "increasingly prevalent", "meaningZh": "日益普遍", "example": { "en": "This anti-pattern has become increasingly prevalent in large codebases.", "zh": "這種反模式在大型程式庫中變得越來越普遍。", "highlight": "increasingly prevalent" } },
+          { "text": "prevalent among", "meaningZh": "在……族群中普遍" },
+          { "text": "widely prevalent", "meaningZh": "廣泛存在的" }
+        ],
+        "examples": [
+          { "en": "Burnout is particularly prevalent among on-call engineers.", "zh": "職業倦怠在需要輪值待命的工程師中特別普遍。", "highlight": "prevalent" },
+          { "en": "The misconception is still prevalent in introductory textbooks.", "zh": "這個誤解在入門教科書中仍然很常見。", "highlight": "prevalent" },
+          { "en": "Mobile usage is more prevalent than desktop in this market.", "zh": "在這個市場中，行動裝置的使用比桌機更為普遍。", "highlight": "prevalent" }
+        ]
+      }
+    ],
+    "synonyms": [{ "wordId": "w_ubiquitous", "lemma": "ubiquitous", "noteZh": "語氣更強，指「無所不在」。" }, { "lemma": "widespread" }],
+    "antonyms": [{ "lemma": "rare" }, { "lemma": "uncommon" }],
+    "wordFamily": [
+      { "lemma": "prevalence", "partOfSpeech": "noun", "meaningZh": "盛行率；普遍程度" },
+      { "lemma": "prevail", "partOfSpeech": "verb", "meaningZh": "盛行；佔上風" }
+    ],
+    "tags": ["academic", "research", "description"]
+  },
+  {
+    "id": "w_articulate",
+    "lemma": "articulate",
+    "slug": "articulate",
+    "cefr": "C1",
+    "pronunciation": { "kk": "/ɑrˈtɪkjəˌlet/（動詞）；/ɑrˈtɪkjəlɪt/（形容詞）", "syllables": "ar·tic·u·late", "stressNote": "動詞與形容詞拼字相同但字尾發音不同：動詞尾音為 /-let/，形容詞為 /-lɪt/。" },
+    "forms": { "past": "articulated", "pastParticiple": "articulated", "presentParticiple": "articulating", "thirdPersonSingular": "articulates" },
+    "senses": [
+      {
+        "id": "s_articulate_1",
+        "partOfSpeech": "verb",
+        "register": ["formal", "business", "academic"],
+        "definitionEn": "to express an idea or feeling clearly and in words",
+        "definitionZh": "清楚表達（想法、感受）",
+        "usageExplanationZh": "articulate 作動詞時，指「把腦中模糊的想法轉換成清楚的語言」。它的價值在於強調「表達的清晰度」，因此常用於 articulate a vision、articulate the problem。當你想說「我知道哪裡怪，但說不上來」時，正好可以說 I can't quite articulate it.",
+        "grammarPatterns": ["articulate + noun", "struggle to articulate + noun"],
+        "collocations": [
+          { "text": "articulate a vision", "meaningZh": "清楚闡述願景" },
+          { "text": "clearly articulate", "meaningZh": "清楚表達", "example": { "en": "A good design document clearly articulates the problem before proposing a solution.", "zh": "好的設計文件會在提出解法之前，先清楚闡述問題。", "highlight": "clearly articulates" } },
+          { "text": "struggle to articulate", "meaningZh": "難以言明" }
+        ],
+        "examples": [
+          { "en": "She articulated the trade-offs better than anyone else in the room.", "zh": "她把各項取捨闡述得比在場任何人都清楚。", "highlight": "articulated" },
+          { "en": "I could sense the problem but struggled to articulate it.", "zh": "我感覺得到問題所在，卻說不上來。", "highlight": "articulate" }
+        ]
+      },
+      {
+        "id": "s_articulate_2",
+        "partOfSpeech": "adjective",
+        "register": ["formal"],
+        "definitionEn": "able to express thoughts clearly and effectively in speech or writing",
+        "definitionZh": "口齒清晰的；擅長表達的",
+        "usageExplanationZh": "作形容詞時用來稱讚人「表達能力好」，是很高的評價。注意字尾發音變成 /-lɪt/。這個字常出現在推薦信與績效評語中：a highly articulate communicator。",
+        "collocations": [
+          { "text": "highly articulate", "meaningZh": "表達能力極佳的" },
+          { "text": "an articulate speaker", "meaningZh": "談吐清晰的講者" }
+        ],
+        "examples": [
+          { "en": "He is an unusually articulate engineer, which makes reviews easier.", "zh": "他是一位表達能力格外出色的工程師，這讓審查工作輕鬆許多。", "highlight": "articulate" },
+          { "en": "The candidate was articulate and well prepared.", "zh": "這位候選人談吐清晰且準備充分。", "highlight": "articulate" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "express" }, { "lemma": "eloquent", "noteZh": "形容詞，更強調文采與感染力。" }],
+    "antonyms": [{ "lemma": "inarticulate" }],
+    "wordFamily": [{ "lemma": "articulation", "partOfSpeech": "noun", "meaningZh": "表達；發音" }],
+    "tags": ["communication", "business", "skills"]
+  },
+  {
+    "id": "w_delegate",
+    "lemma": "delegate",
+    "slug": "delegate",
+    "cefr": "C1",
+    "pronunciation": { "kk": "/ˈdɛləˌget/（動詞）；/ˈdɛləgɪt/（名詞）", "syllables": "del·e·gate", "stressNote": "動詞字尾讀 /-get/，名詞字尾弱化為 /-gɪt/。" },
+    "forms": { "past": "delegated", "pastParticiple": "delegated", "presentParticiple": "delegating", "thirdPersonSingular": "delegates", "plural": "delegates" },
+    "senses": [
+      {
+        "id": "s_delegate_1",
+        "partOfSpeech": "verb",
+        "register": ["formal", "business", "technical"],
+        "definitionEn": "to give a task or responsibility to someone else, usually someone more junior",
+        "definitionZh": "授權；委派（任務或職責）",
+        "usageExplanationZh": "delegate 是管理的核心動詞：把任務連同必要的決定權一起交給別人。句型是 delegate something to someone。在程式設計中它也是常用術語，指「把工作轉交給另一個物件或函式處理」，例如 delegate rendering to a child component。",
+        "grammarPatterns": ["delegate A to B", "delegate responsibility for + noun"],
+        "collocations": [
+          { "text": "delegate responsibility", "meaningZh": "下放職責" },
+          { "text": "delegate a task to someone", "meaningZh": "把任務委派給某人", "example": { "en": "She delegated the migration to two senior engineers.", "zh": "她把遷移工作委派給兩位資深工程師。", "highlight": "delegated" } },
+          { "text": "delegate authority", "meaningZh": "授權" },
+          { "text": "learn to delegate", "meaningZh": "學會授權" }
+        ],
+        "examples": [
+          { "en": "New managers often find it hard to delegate.", "zh": "新任主管常常覺得難以授權。", "highlight": "delegate" },
+          { "en": "The controller delegates authentication to a dedicated middleware.", "zh": "控制器將驗證工作轉交給專責的中介層處理。", "highlight": "delegates" },
+          { "en": "Authority can be delegated, but accountability cannot.", "zh": "權限可以下放，但當責無法轉移。", "highlight": "delegated" }
+        ],
+        "commonMistakes": [
+          { "incorrect": "He delegated her the report.", "correct": "He delegated the report to her.", "explanationZh": "delegate 不能接雙受詞。正確語序是 delegate + 事情 + to + 人。" }
+        ]
+      },
+      {
+        "id": "s_delegate_2",
+        "partOfSpeech": "noun",
+        "register": ["formal", "business"],
+        "definitionEn": "a person chosen to represent a group at a meeting or conference",
+        "definitionZh": "代表；與會代表",
+        "usageExplanationZh": "作名詞時指「被推派代表某個團體出席的人」，注意字尾發音弱化為 /-gɪt/。常見於會議、工會與國際組織語境。",
+        "collocations": [
+          { "text": "a union delegate", "meaningZh": "工會代表" },
+          { "text": "conference delegates", "meaningZh": "與會代表" }
+        ],
+        "examples": [
+          { "en": "Each region sent two delegates to the annual meeting.", "zh": "每個區域派了兩名代表出席年會。", "highlight": "delegates" },
+          { "en": "The delegates voted unanimously to adopt the proposal.", "zh": "與會代表一致投票通過該提案。", "highlight": "delegates" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "assign" }, { "lemma": "entrust", "noteZh": "更強調信任地託付。" }],
+    "wordFamily": [{ "lemma": "delegation", "partOfSpeech": "noun", "meaningZh": "授權；代表團" }],
+    "tags": ["business", "management", "engineering"]
+  },
+  {
+    "id": "w_contingent",
+    "lemma": "contingent",
+    "slug": "contingent",
+    "cefr": "C1",
+    "pronunciation": { "kk": "/kənˈtɪndʒənt/", "syllables": "con·tin·gent", "stressNote": "重音在第二音節 -tin-。" },
+    "senses": [
+      {
+        "id": "s_contingent_1",
+        "partOfSpeech": "adjective",
+        "register": ["formal", "business", "academic"],
+        "definitionEn": "depending on something else that may or may not happen",
+        "definitionZh": "取決於……的；視情況而定的",
+        "usageExplanationZh": "contingent 表示「這件事成不成立，要看另一件事」。它的介系詞固定是 on（美式）或 upon（更正式）。合約與計畫書中很常見：Payment is contingent on delivery. 它比 depend on 更正式，也更強調「有不確定性」。",
+        "grammarPatterns": ["be contingent on/upon + noun", "a contingency plan"],
+        "collocations": [
+          { "text": "contingent on", "meaningZh": "取決於", "example": { "en": "The launch date is contingent on passing the security review.", "zh": "上線日期取決於能否通過安全審查。", "highlight": "contingent on" } },
+          { "text": "a contingency plan", "meaningZh": "應變計畫" },
+          { "text": "contingent liabilities", "meaningZh": "或有負債" }
+        ],
+        "examples": [
+          { "en": "Their offer is contingent upon a successful background check.", "zh": "他們的錄取通知取決於背景調查是否順利通過。", "highlight": "contingent upon" },
+          { "en": "Funding for phase two is contingent on the results of phase one.", "zh": "第二階段的經費取決於第一階段的成果。", "highlight": "contingent on" },
+          { "en": "Every deployment plan should have a contingency for rollback.", "zh": "每個部署計畫都應該有回復的應變方案。", "highlight": "contingency" }
+        ],
+        "commonMistakes": [
+          { "incorrect": "The result is contingent to the input.", "correct": "The result is contingent on the input.", "explanationZh": "contingent 固定搭配 on 或 upon，不用 to。" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "conditional" }, { "lemma": "dependent" }],
+    "wordFamily": [{ "lemma": "contingency", "partOfSpeech": "noun", "meaningZh": "突發狀況；應變措施" }],
+    "tags": ["business", "planning", "formal"]
+  },
+  {
+    "id": "w_plausible",
+    "lemma": "plausible",
+    "slug": "plausible",
+    "cefr": "C1",
+    "pronunciation": { "kk": "/ˈplɔzəbəl/", "syllables": "plau·si·ble", "stressNote": "重音在第一音節。" },
+    "senses": [
+      {
+        "id": "s_plausible_1",
+        "partOfSpeech": "adjective",
+        "register": ["formal", "academic"],
+        "definitionEn": "seeming reasonable or likely to be true, although not proven",
+        "definitionZh": "看似合理的；說得通的（但未經證實）",
+        "usageExplanationZh": "plausible 的重點是「聽起來合理」，而不是「已經證實為真」。這個保留讓它在除錯與研究討論中特別好用：a plausible explanation 表示「這是一個值得檢驗的假說」。它偶爾也帶有懷疑意味，暗示「表面說得通，實際上不一定」。",
+        "grammarPatterns": ["a plausible + noun", "it seems plausible that + clause"],
+        "collocations": [
+          { "text": "a plausible explanation", "meaningZh": "說得通的解釋", "example": { "en": "A clock skew between the two servers is the most plausible explanation.", "zh": "兩台伺服器之間的時鐘偏移是最說得通的解釋。", "highlight": "the most plausible explanation" } },
+          { "text": "highly plausible", "meaningZh": "極為可信的" },
+          { "text": "a plausible hypothesis", "meaningZh": "合理的假說" },
+          { "text": "sound plausible", "meaningZh": "聽起來合理" }
+        ],
+        "examples": [
+          { "en": "That is plausible, but we should confirm it with the logs.", "zh": "這說得通，但我們應該用日誌來確認。", "highlight": "plausible" },
+          { "en": "The distractors in a good quiz question must be plausible.", "zh": "好的測驗題目，其誘答選項必須具有合理性。", "highlight": "plausible" },
+          { "en": "His explanation sounded plausible until we checked the timestamps.", "zh": "他的解釋聽起來很合理，直到我們核對了時間戳記。", "highlight": "plausible" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "credible" }, { "lemma": "believable" }],
+    "antonyms": [{ "lemma": "implausible" }, { "lemma": "far-fetched" }],
+    "commonlyConfusedWith": [
+      { "lemma": "feasible", "wordId": "w_feasible", "distinctionZh": "plausible 評價「說法是否可信」；feasible 評價「行動是否做得到」。A plausible theory 是聽起來合理的理論，a feasible plan 是執行得起來的計畫。" }
+    ],
+    "wordFamily": [
+      { "lemma": "plausibility", "partOfSpeech": "noun", "meaningZh": "合理性" },
+      { "lemma": "plausibly", "partOfSpeech": "adverb", "meaningZh": "看似合理地" }
+    ],
+    "tags": ["academic", "logic", "argument"]
+  }
+]

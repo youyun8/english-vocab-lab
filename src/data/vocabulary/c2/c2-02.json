@@ -1,0 +1,213 @@
+[
+  {
+    "id": "w_conflate",
+    "lemma": "conflate",
+    "slug": "conflate",
+    "cefr": "C2",
+    "pronunciation": { "kk": "/kənˈflet/", "syllables": "con·flate", "stressNote": "重音在第二音節。" },
+    "forms": { "past": "conflated", "pastParticiple": "conflated", "presentParticiple": "conflating", "thirdPersonSingular": "conflates" },
+    "senses": [
+      {
+        "id": "s_conflate_1",
+        "partOfSpeech": "verb",
+        "register": ["formal", "academic"],
+        "definitionEn": "to combine two distinct ideas into one, wrongly treating them as if they were the same",
+        "definitionZh": "混為一談；錯誤地混同兩個概念",
+        "usageExplanationZh": "conflate 幾乎總是負面的：它指出對方把兩個應該分開的概念搞混了。這使它成為學術與技術辯論中極有力的一個字：You are conflating latency with throughput. 比 You are confusing... 更精準，因為它明確指出「兩個概念被合併了」。",
+        "grammarPatterns": ["conflate A with B", "conflate A and B"],
+        "collocations": [
+          { "text": "conflate A with B", "meaningZh": "把 A 與 B 混為一談", "example": { "en": "People often conflate correlation with causation.", "zh": "人們常把相關性與因果關係混為一談。", "highlight": "conflate" } },
+          { "text": "should not be conflated", "meaningZh": "不該被混為一談" },
+          { "text": "conflate two issues", "meaningZh": "把兩個議題混在一起" }
+        ],
+        "examples": [
+          { "en": "The proposal conflates two separate problems, which makes it hard to evaluate.", "zh": "這份提案把兩個獨立的問題混為一談，因此很難評估。", "highlight": "conflates" },
+          { "en": "Authentication and authorization are frequently conflated by newcomers.", "zh": "新手常把身分驗證與授權混為一談。", "highlight": "conflated" },
+          { "en": "We should not conflate popularity with quality.", "zh": "我們不該把受歡迎程度與品質混為一談。", "highlight": "conflate" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "confuse", "noteZh": "較口語，且不強調「合併成一個」。" }],
+    "antonyms": [{ "lemma": "distinguish" }, { "lemma": "differentiate" }],
+    "commonlyConfusedWith": [
+      { "lemma": "consolidate", "wordId": "w_consolidate", "distinctionZh": "consolidate 是刻意且正面的整合，讓東西變得更精簡強健；conflate 是錯誤地把兩個不同概念混在一起，永遠帶有批評意味。整合系統用 consolidate，指責對方搞混概念才用 conflate。" }
+    ],
+    "wordFamily": [{ "lemma": "conflation", "partOfSpeech": "noun", "meaningZh": "混同" }],
+    "tags": ["academic", "logic", "argument"]
+  },
+  {
+    "id": "w_preclude",
+    "lemma": "preclude",
+    "slug": "preclude",
+    "cefr": "C2",
+    "pronunciation": { "kk": "/prɪˈklud/", "syllables": "pre·clude", "stressNote": "重音在第二音節。" },
+    "forms": { "past": "precluded", "pastParticiple": "precluded", "presentParticiple": "precluding", "thirdPersonSingular": "precludes" },
+    "senses": [
+      {
+        "id": "s_preclude_1",
+        "partOfSpeech": "verb",
+        "register": ["formal", "academic", "technical"],
+        "definitionEn": "to make something impossible in advance, so that it can never happen",
+        "definitionZh": "排除（可能性）；使不可能發生",
+        "usageExplanationZh": "preclude 的主詞通常是「某個條件或決定」，而不是人：這個條件一旦成立，某件事就再也不可能發生。最實用的句型是 A does not preclude B，用來澄清「選了 A 不代表不能做 B」，這在技術討論中極為常見。",
+        "grammarPatterns": ["preclude + noun", "preclude + somebody + from + doing", "A does not preclude B"],
+        "collocations": [
+          { "text": "does not preclude", "meaningZh": "並不排除", "example": { "en": "Using a managed service does not preclude us from self-hosting later.", "zh": "使用託管服務並不排除我們日後自行架設的可能。", "highlight": "does not preclude" } },
+          { "text": "preclude the possibility of", "meaningZh": "排除……的可能性" },
+          { "text": "effectively preclude", "meaningZh": "實質上排除" }
+        ],
+        "examples": [
+          { "en": "The licence precludes commercial redistribution.", "zh": "這份授權條款排除了商業再散布的可能。", "highlight": "precludes" },
+          { "en": "Choosing this schema now would preclude sharding later.", "zh": "現在選用這個結構描述，將會使日後分片變得不可能。", "highlight": "preclude" },
+          { "en": "Being pragmatic does not preclude being rigorous.", "zh": "務實並不代表不能嚴謹。", "highlight": "preclude" }
+        ],
+        "commonMistakes": [
+          { "incorrect": "The rule precludes us to publish the data.", "correct": "The rule precludes us from publishing the data.", "explanationZh": "preclude somebody 之後要用 from + 動名詞，不能接不定詞。" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "prevent", "noteZh": "較日常，不強調「事先斷絕可能性」。" }, { "lemma": "rule out" }],
+    "antonyms": [{ "lemma": "permit" }, { "lemma": "enable" }],
+    "wordFamily": [{ "lemma": "preclusion", "partOfSpeech": "noun", "meaningZh": "排除" }],
+    "tags": ["academic", "engineering", "formal"]
+  },
+  {
+    "id": "w_nuance",
+    "lemma": "nuance",
+    "slug": "nuance",
+    "cefr": "C2",
+    "pronunciation": { "kk": "/ˈnuɑns/", "syllables": "nu·ance", "stressNote": "重音在第一音節。" },
+    "forms": { "plural": "nuances" },
+    "senses": [
+      {
+        "id": "s_nuance_1",
+        "partOfSpeech": "noun",
+        "register": ["formal", "academic", "literary"],
+        "definitionEn": "a very small difference in meaning, feeling, or quality that is easy to miss",
+        "definitionZh": "細微差別；微妙之處",
+        "usageExplanationZh": "nuance 專指「小到需要功力才分辨得出來」的差別，特別常用於語言、藝術與政策討論。形容詞 nuanced 是很高的讚美，表示「考慮周到、能分辨細微差異」：a nuanced argument 就是不流於非黑即白的論述。",
+        "grammarPatterns": ["the nuances of + noun", "miss the nuance", "a nuanced + noun"],
+        "collocations": [
+          { "text": "the nuances of", "meaningZh": "……的細微之處", "example": { "en": "Translation often loses the nuances of the original.", "zh": "翻譯常常會流失原文的細微之處。", "highlight": "the nuances of" } },
+          { "text": "a subtle nuance", "meaningZh": "細微的差別" },
+          { "text": "miss the nuance", "meaningZh": "沒抓到微妙之處" },
+          { "text": "a nuanced view", "meaningZh": "細膩周全的觀點" }
+        ],
+        "examples": [
+          { "en": "The summary is accurate but loses all the nuance of the discussion.", "zh": "這份摘要內容正確，但流失了討論中所有的細膩之處。", "highlight": "nuance" },
+          { "en": "She offered a more nuanced view than either side wanted to hear.", "zh": "她提出了一個比雙方都更細膩周全的觀點。", "highlight": "nuanced" },
+          { "en": "There is an important nuance between deprecating an API and removing it.", "zh": "「棄用 API」與「移除 API」之間有一個重要的微妙差別。", "highlight": "nuance" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "subtlety" }, { "lemma": "shade" }],
+    "wordFamily": [{ "lemma": "nuanced", "partOfSpeech": "adjective", "meaningZh": "細膩的；有層次的" }],
+    "tags": ["academic", "language", "writing"]
+  },
+  {
+    "id": "w_paradigm",
+    "lemma": "paradigm",
+    "slug": "paradigm",
+    "cefr": "C2",
+    "pronunciation": { "kk": "/ˈpærəˌdaɪm/", "syllables": "par·a·digm", "stressNote": "主重音在第一音節；字尾的 g 不發音。" },
+    "forms": { "plural": "paradigms" },
+    "senses": [
+      {
+        "id": "s_paradigm_1",
+        "partOfSpeech": "noun",
+        "register": ["formal", "academic", "technical"],
+        "definitionEn": "a typical pattern or model of thinking that shapes how a whole field approaches its problems",
+        "definitionZh": "典範；思維模式；範式",
+        "usageExplanationZh": "paradigm 指「整個領域共享的一套基本假設與做法」，來自 Kuhn 的科學哲學。程式設計中的 programming paradigm（如函數式、物件導向）就是這個意思。片語 a paradigm shift 指「根本典範的轉移」，語氣很重，不該用來形容小改版。注意字尾 g 不發音。",
+        "grammarPatterns": ["a paradigm shift", "within the + adjective + paradigm"],
+        "collocations": [
+          { "text": "a paradigm shift", "meaningZh": "典範轉移", "example": { "en": "Calling a minor UI update a paradigm shift is a stretch.", "zh": "把一次小幅介面更新說成典範轉移，實在有點誇大。", "highlight": "a paradigm shift" } },
+          { "text": "the dominant paradigm", "meaningZh": "主流典範" },
+          { "text": "a programming paradigm", "meaningZh": "程式設計典範" }
+        ],
+        "examples": [
+          { "en": "Functional programming is a paradigm, not a language feature.", "zh": "函數式程式設計是一種典範，而不是某個語言特性。", "highlight": "paradigm" },
+          { "en": "The move to cloud computing represented a genuine paradigm shift.", "zh": "轉向雲端運算代表了一次真正的典範轉移。", "highlight": "paradigm shift" },
+          { "en": "The paper challenges the dominant paradigm in the field.", "zh": "這篇論文挑戰了該領域的主流典範。", "highlight": "paradigm" }
+        ],
+        "usageNotes": [
+          "paradigm shift 在商務簡報中被嚴重濫用。若改變並未觸及根本假設，用 significant change 更誠實。"
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "model" }, { "lemma": "framework" }],
+    "wordFamily": [{ "lemma": "paradigmatic", "partOfSpeech": "adjective", "meaningZh": "典範性的" }],
+    "tags": ["academic", "engineering", "theory"]
+  },
+  {
+    "id": "w_idiosyncratic",
+    "lemma": "idiosyncratic",
+    "slug": "idiosyncratic",
+    "cefr": "C2",
+    "pronunciation": { "kk": "/ˌɪdɪosɪŋˈkrætɪk/", "syllables": "id·i·o·syn·crat·ic", "stressNote": "主重音在第五音節 -crat-。" },
+    "senses": [
+      {
+        "id": "s_idiosyncratic_1",
+        "partOfSpeech": "adjective",
+        "register": ["formal", "academic", "literary"],
+        "definitionEn": "unusual in a way that is particular to one person or thing and hard for others to predict",
+        "definitionZh": "獨特而異於常規的；有個人特色的",
+        "usageExplanationZh": "idiosyncratic 描述「只有這個人或這個東西才有的怪癖」。它比 unusual 更精準，因為它強調「這種特殊性是屬於個體的」。語氣可正可負：形容藝術風格時偏欣賞，形容程式碼或 API 時通常是委婉的批評——因為別人難以預測。",
+        "grammarPatterns": ["an idiosyncratic + noun", "idiosyncratic to + noun"],
+        "collocations": [
+          { "text": "an idiosyncratic style", "meaningZh": "獨樹一格的風格" },
+          { "text": "idiosyncratic behaviour", "meaningZh": "難以預測的特有行為", "example": { "en": "The library has idiosyncratic error handling that surprises new users.", "zh": "這個函式庫有一套獨特的錯誤處理方式，常讓新使用者措手不及。", "highlight": "idiosyncratic" } },
+          { "text": "highly idiosyncratic", "meaningZh": "極具個人色彩的" }
+        ],
+        "examples": [
+          { "en": "The codebase follows an idiosyncratic naming convention that is documented nowhere.", "zh": "這個程式庫遵循一套沒有任何文件記載的獨特命名慣例。", "highlight": "idiosyncratic" },
+          { "en": "His writing is idiosyncratic but consistently clear.", "zh": "他的文筆很有個人特色，但始終清晰。", "highlight": "idiosyncratic" },
+          { "en": "These failures are idiosyncratic to this particular hardware revision.", "zh": "這些故障是這個特定硬體版本才有的問題。", "highlight": "idiosyncratic to" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "quirky", "noteZh": "較口語親切。" }, { "lemma": "distinctive" }],
+    "antonyms": [{ "wordId": "w_conventional", "lemma": "conventional" }, { "lemma": "standard" }],
+    "wordFamily": [{ "lemma": "idiosyncrasy", "partOfSpeech": "noun", "meaningZh": "獨特的性格特質；癖性" }],
+    "tags": ["academic", "description", "engineering"]
+  },
+  {
+    "id": "w_corroborate",
+    "lemma": "corroborate",
+    "slug": "corroborate",
+    "cefr": "C2",
+    "pronunciation": { "kk": "/kəˈrɑbəˌret/", "syllables": "cor·rob·o·rate", "stressNote": "主重音在第二音節 -rob-。" },
+    "forms": { "past": "corroborated", "pastParticiple": "corroborated", "presentParticiple": "corroborating", "thirdPersonSingular": "corroborates" },
+    "senses": [
+      {
+        "id": "s_corroborate_1",
+        "partOfSpeech": "verb",
+        "register": ["formal", "academic", "technical"],
+        "definitionEn": "to support a statement or theory by providing independent evidence for it",
+        "definitionZh": "佐證；用獨立證據加以證實",
+        "usageExplanationZh": "corroborate 的關鍵是「獨立的第二個來源」。它不是自己說自己對，而是「另一份證據支持了原本的說法」。這個字在法律、新聞查證與事故調查中是專業術語：corroborating evidence 指足以相互印證的旁證。",
+        "grammarPatterns": ["corroborate + noun", "be corroborated by + source"],
+        "collocations": [
+          { "text": "corroborate a claim", "meaningZh": "佐證某項主張" },
+          { "text": "corroborating evidence", "meaningZh": "佐證的證據" },
+          { "text": "be corroborated by", "meaningZh": "獲得……的佐證", "example": { "en": "The user report was corroborated by the server logs.", "zh": "使用者的回報獲得了伺服器日誌的佐證。", "highlight": "corroborated by" } }
+        ],
+        "examples": [
+          { "en": "Two independent traces corroborate the timeline in the incident report.", "zh": "兩份獨立的追蹤紀錄佐證了事故報告中的時間軸。", "highlight": "corroborate" },
+          { "en": "Without corroborating evidence, the claim remains a hypothesis.", "zh": "缺乏佐證的話，這項主張仍然只是一個假說。", "highlight": "corroborating" },
+          { "en": "Her account was corroborated by three other witnesses.", "zh": "她的說法得到另外三名證人的印證。", "highlight": "corroborated" }
+        ],
+        "commonMistakes": [
+          { "incorrect": "I corroborated with my colleague on the report.", "correct": "I collaborated with my colleague on the report.", "explanationZh": "corroborate 是「用證據佐證」，collaborate 才是「合作」。兩者拼字相近但意思完全不同。" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "substantiate" }, { "lemma": "confirm" }],
+    "antonyms": [{ "lemma": "contradict" }, { "wordId": "w_undermine", "lemma": "undermine" }],
+    "commonlyConfusedWith": [
+      { "lemma": "collaborate", "distinctionZh": "corroborate 是「用獨立證據支持某個說法」；collaborate 是「與人合作」。兩字只差一個字母，但語意毫無關聯。" }
+    ],
+    "wordFamily": [{ "lemma": "corroboration", "partOfSpeech": "noun", "meaningZh": "佐證" }],
+    "tags": ["academic", "evidence", "research"]
+  }
+]

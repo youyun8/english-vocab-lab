@@ -1,0 +1,232 @@
+[
+  {
+    "id": "w_ambiguous",
+    "lemma": "ambiguous",
+    "slug": "ambiguous",
+    "cefr": "B2",
+    "pronunciation": { "kk": "/æmˈbɪgjuəs/", "syllables": "am·big·u·ous", "stressNote": "重音在第二音節 -big-。" },
+    "senses": [
+      {
+        "id": "s_ambiguous_1",
+        "partOfSpeech": "adjective",
+        "register": ["neutral", "academic", "technical"],
+        "definitionEn": "having more than one possible meaning, so that it is not clear which one is intended",
+        "definitionZh": "有歧義的；意思不明確的",
+        "usageExplanationZh": "ambiguous 的核心不是「難懂」，而是「可以有兩種以上合理解讀」。這一點對技術與法律寫作特別重要：一份 ambiguous 的規格書可能每個字都看得懂，但兩個工程師會實作出不同結果。若只是「不清楚、看不懂」，用 unclear 或 vague 更準確。",
+        "grammarPatterns": ["be ambiguous about + noun", "an ambiguous + noun"],
+        "collocations": [
+          { "text": "an ambiguous requirement", "meaningZh": "有歧義的需求" },
+          { "text": "deliberately ambiguous", "meaningZh": "刻意含糊的" },
+          { "text": "remain ambiguous", "meaningZh": "仍然模稜兩可" },
+          { "text": "resolve an ambiguity", "meaningZh": "消除歧義" }
+        ],
+        "examples": [
+          { "en": "The specification is ambiguous about what should happen when the list is empty.", "zh": "規格書對於清單為空時該如何處理，說法有歧義。", "highlight": "ambiguous" },
+          { "en": "His answer was deliberately ambiguous so that he could not be held to it.", "zh": "他的回答刻意模稜兩可，這樣就不會被追究。", "highlight": "ambiguous" },
+          { "en": "We renamed the flag because the original name was ambiguous.", "zh": "我們把這個旗標改名，因為原本的名稱有歧義。", "highlight": "ambiguous" }
+        ],
+        "usageNotes": [
+          "名詞 ambiguity 可數與不可數皆可：an ambiguity in the spec（一處歧義）、a source of ambiguity（歧義的來源）。"
+        ],
+        "commonMistakes": [
+          { "incorrect": "I am ambiguous about the deadline.", "correct": "I am uncertain about the deadline.", "explanationZh": "ambiguous 描述「訊息本身有歧義」，不是描述人的心理狀態。人感到不確定要用 uncertain 或 unsure。" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "equivocal", "noteZh": "更正式，常帶有刻意閃避的意味。" }, { "lemma": "vague", "noteZh": "指「模糊、不夠具體」，與「多重解讀」不同。" }],
+    "antonyms": [{ "wordId": "w_explicit", "lemma": "explicit" }, { "lemma": "unambiguous" }],
+    "commonlyConfusedWith": [
+      { "lemma": "vague", "distinctionZh": "ambiguous 是「可以解讀成 A 也可以解讀成 B」，兩種意思都清楚但互相衝突；vague 是「根本沒說清楚」，缺乏細節。an ambiguous rule 讓人選錯邊，a vague rule 讓人無從下手。" }
+    ],
+    "wordFamily": [
+      { "lemma": "ambiguity", "partOfSpeech": "noun", "meaningZh": "歧義" },
+      { "lemma": "unambiguous", "partOfSpeech": "adjective", "meaningZh": "毫無歧義的" }
+    ],
+    "tags": ["engineering", "academic", "communication"]
+  },
+  {
+    "id": "w_derive",
+    "lemma": "derive",
+    "slug": "derive",
+    "cefr": "B2",
+    "pronunciation": { "kk": "/dəˈraɪv/", "syllables": "de·rive", "stressNote": "重音在第二音節。" },
+    "forms": { "past": "derived", "pastParticiple": "derived", "presentParticiple": "deriving", "thirdPersonSingular": "derives" },
+    "senses": [
+      {
+        "id": "s_derive_1",
+        "partOfSpeech": "verb",
+        "register": ["formal", "academic", "technical"],
+        "definitionEn": "to obtain something from a particular source",
+        "definitionZh": "從……獲得；由……得出",
+        "usageExplanationZh": "derive 表示「從某個來源取得」，句型是 derive A from B。在技術語境中，derived data 指「由其他資料計算出來、而非獨立儲存的資料」，這是資料建模的重要概念。學術寫作則常用 derive a formula from first principles。",
+        "grammarPatterns": ["derive A from B", "be derived from + noun"],
+        "collocations": [
+          { "text": "derive from", "meaningZh": "源自於", "example": { "en": "The word derives from Latin.", "zh": "這個字源自拉丁文。", "highlight": "derives from" } },
+          { "text": "derive value from", "meaningZh": "從……中取得價值" },
+          { "text": "a derived value", "meaningZh": "衍生值" },
+          { "text": "derive a conclusion", "meaningZh": "得出結論" }
+        ],
+        "examples": [
+          { "en": "The total is a derived field; it is never stored in the database.", "zh": "總計是一個衍生欄位，從不儲存在資料庫中。", "highlight": "derived" },
+          { "en": "Most of our revenue is derived from enterprise contracts.", "zh": "我們大部分的營收來自企業合約。", "highlight": "derived from" },
+          { "en": "The authors derive the bound from a simple counting argument.", "zh": "作者從一個簡單的計數論證推導出這個上界。", "highlight": "derive" }
+        ],
+        "usageNotes": [
+          "derive from 也可以是不及物用法：The name derives from Greek.（不需要受詞。）"
+        ],
+        "commonMistakes": [
+          { "incorrect": "The result is derived by the raw data.", "correct": "The result is derived from the raw data.", "explanationZh": "表示來源時要用 from。by 只用來表示執行動作的人或方法。" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "obtain" }, { "lemma": "deduce", "noteZh": "強調邏輯推論。" }],
+    "wordFamily": [
+      { "lemma": "derivation", "partOfSpeech": "noun", "meaningZh": "推導；字源" },
+      { "lemma": "derivative", "partOfSpeech": "noun", "meaningZh": "衍生物；導數" }
+    ],
+    "tags": ["academic", "engineering", "data"]
+  },
+  {
+    "id": "w_notion",
+    "lemma": "notion",
+    "slug": "notion",
+    "cefr": "B2",
+    "pronunciation": { "kk": "/ˈnoʃən/", "syllables": "no·tion", "stressNote": "重音在第一音節。" },
+    "forms": { "plural": "notions" },
+    "senses": [
+      {
+        "id": "s_notion_1",
+        "partOfSpeech": "noun",
+        "register": ["formal", "academic"],
+        "definitionEn": "an idea or belief about something, especially a general or vague one",
+        "definitionZh": "概念；想法；觀念",
+        "usageExplanationZh": "notion 指「一個概念或想法」，語氣比 idea 正式。它有一個微妙之處：在 the notion that... 這個句型中，作者常常是要「檢視或反駁」這個想法，而不是支持它。因此在學術寫作中看到 reject the notion that... 是很常見的。若只是中性地介紹概念，用 concept 更安全。",
+        "grammarPatterns": ["the notion of + noun", "the notion that + clause", "reject/challenge the notion that + clause"],
+        "collocations": [
+          { "text": "the notion that", "meaningZh": "……這個觀念", "example": { "en": "The paper challenges the notion that more data always helps.", "zh": "這篇論文挑戰了「資料越多越好」這個觀念。", "highlight": "the notion that" } },
+          { "text": "reject the notion", "meaningZh": "駁斥這個想法" },
+          { "text": "have no notion of", "meaningZh": "完全不了解" },
+          { "text": "a vague notion", "meaningZh": "模糊的概念" }
+        ],
+        "examples": [
+          { "en": "We need a clear notion of what \"done\" means before we start.", "zh": "在開始之前，我們需要對「完成」有一個清楚的定義。", "highlight": "notion" },
+          { "en": "He rejected the notion that the outage was unavoidable.", "zh": "他駁斥了「這次中斷無可避免」的說法。", "highlight": "the notion that" },
+          { "en": "The notion of eventual consistency takes some time to internalize.", "zh": "最終一致性這個概念需要一段時間才能真正內化。", "highlight": "notion" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "concept", "noteZh": "更中性，適合正式定義。" }, { "lemma": "idea" }],
+    "wordFamily": [{ "lemma": "notional", "partOfSpeech": "adjective", "meaningZh": "概念上的；名義上的" }],
+    "tags": ["academic", "writing", "argument"]
+  },
+  {
+    "id": "w_retrieve",
+    "lemma": "retrieve",
+    "slug": "retrieve",
+    "cefr": "B2",
+    "pronunciation": { "kk": "/rɪˈtriv/", "syllables": "re·trieve", "stressNote": "重音在第二音節。" },
+    "forms": { "past": "retrieved", "pastParticiple": "retrieved", "presentParticiple": "retrieving", "thirdPersonSingular": "retrieves" },
+    "senses": [
+      {
+        "id": "s_retrieve_1",
+        "partOfSpeech": "verb",
+        "register": ["neutral", "technical"],
+        "definitionEn": "to get something back, especially from a place where it has been stored",
+        "definitionZh": "取回；擷取；檢索",
+        "usageExplanationZh": "retrieve 的核心是「從儲存的地方把東西拿回來」，因此它天生適合描述資料存取：retrieve a record、retrieve from cache。與 get 相比，retrieve 暗示「東西原本放在某處，需要去找出來」。日常語境中也可以說 retrieve your luggage。",
+        "grammarPatterns": ["retrieve + noun + from + source"],
+        "collocations": [
+          { "text": "retrieve data", "meaningZh": "擷取資料" },
+          { "text": "retrieve a record", "meaningZh": "取得一筆紀錄" },
+          { "text": "retrieve from cache", "meaningZh": "從快取取得", "example": { "en": "If the key exists, we retrieve the value from cache instead of querying the database.", "zh": "如果鍵存在，我們就從快取取值，而不查詢資料庫。", "highlight": "retrieve" } },
+          { "text": "difficult to retrieve", "meaningZh": "難以取回" }
+        ],
+        "examples": [
+          { "en": "The endpoint retrieves the user profile by ID.", "zh": "這個端點依 ID 取得使用者的個人資料。", "highlight": "retrieves" },
+          { "en": "Once the file is overwritten, it cannot be retrieved.", "zh": "檔案一旦被覆寫，就無法取回。", "highlight": "retrieved" },
+          { "en": "She went back to the office to retrieve her laptop.", "zh": "她回到辦公室去拿她的筆電。", "highlight": "retrieve" }
+        ],
+        "usageNotes": [
+          "在資訊檢索領域，information retrieval 是固定術語，指搜尋系統相關的技術。"
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "fetch", "noteZh": "技術語境中幾乎同義，語氣較口語。" }, { "lemma": "recover", "noteZh": "強調「失而復得」。" }],
+    "antonyms": [{ "lemma": "store" }, { "lemma": "discard" }],
+    "wordFamily": [{ "lemma": "retrieval", "partOfSpeech": "noun", "meaningZh": "取回；檢索" }],
+    "tags": ["engineering", "data", "everyday"]
+  },
+  {
+    "id": "w_respective",
+    "lemma": "respective",
+    "slug": "respective",
+    "cefr": "B2",
+    "pronunciation": { "kk": "/rɪˈspɛktɪv/", "syllables": "re·spec·tive", "stressNote": "重音在第二音節 -spec-。" },
+    "senses": [
+      {
+        "id": "s_respective_1",
+        "partOfSpeech": "adjective",
+        "register": ["formal", "academic", "business"],
+        "definitionEn": "belonging separately to each of the people or things already mentioned",
+        "definitionZh": "各自的；分別的",
+        "usageExplanationZh": "respective 用來把「先前提到的多個對象」與「各自對應的東西」配對起來，避免重複說明。它一定用在複數名詞前，而且句子前面必須已經出現多個主體，否則讀者不知道「各自」指誰。副詞 respectively 則放在句末，用來對應兩組並列項目的順序。",
+        "grammarPatterns": ["their respective + plural noun", "A and B are X and Y respectively"],
+        "collocations": [
+          { "text": "their respective roles", "meaningZh": "他們各自的角色" },
+          { "text": "in their respective fields", "meaningZh": "在各自的領域中" },
+          { "text": "respective owners", "meaningZh": "各自的所有人" }
+        ],
+        "examples": [
+          { "en": "All trademarks are the property of their respective owners.", "zh": "所有商標均為其各自所有人的財產。", "highlight": "respective" },
+          { "en": "The two services run on ports 8080 and 8081 respectively.", "zh": "這兩個服務分別在 8080 和 8081 連接埠上執行。", "highlight": "respectively" },
+          { "en": "Each team documented its respective part of the migration.", "zh": "每個團隊都記錄了自己負責的那部分遷移工作。", "highlight": "respective" }
+        ],
+        "usageNotes": [
+          "respective 與 respectful（有禮貌的）、respectable（體面的）完全不同，不要混用。"
+        ],
+        "commonMistakes": [
+          { "incorrect": "Please send the file to the respective person.", "correct": "Please send the file to the appropriate person.", "explanationZh": "只有單一對象時不能用 respective。要表達「對應的、適當的那一位」請用 appropriate 或 relevant。" }
+        ]
+      }
+    ],
+    "commonlyConfusedWith": [
+      { "lemma": "respectful", "distinctionZh": "respective 是「各自的」，用於多個對象的配對；respectful 是「尊敬的、有禮貌的」，描述態度。兩者拼字接近但意思毫無關聯。" }
+    ],
+    "wordFamily": [{ "lemma": "respectively", "partOfSpeech": "adverb", "meaningZh": "分別地" }],
+    "tags": ["academic", "business", "writing"]
+  },
+  {
+    "id": "w_simultaneous",
+    "lemma": "simultaneous",
+    "slug": "simultaneous",
+    "cefr": "B2",
+    "pronunciation": { "kk": "/ˌsaɪməlˈtenɪəs/", "syllables": "si·mul·ta·ne·ous", "stressNote": "主重音在第三音節 -ta-。" },
+    "senses": [
+      {
+        "id": "s_simultaneous_1",
+        "partOfSpeech": "adjective",
+        "register": ["formal", "technical"],
+        "definitionEn": "happening or done at exactly the same time",
+        "definitionZh": "同時發生的；同步的",
+        "usageExplanationZh": "simultaneous 強調「在同一時間點發生」。技術語境中最常見的是 simultaneous requests / connections / writes，用來討論並行問題。副詞 simultaneously 使用頻率其實比形容詞更高，因為它可以直接修飾動詞：Two jobs ran simultaneously.",
+        "grammarPatterns": ["simultaneous + plural noun", "simultaneous with + noun"],
+        "collocations": [
+          { "text": "simultaneous connections", "meaningZh": "同時連線數" },
+          { "text": "simultaneous translation", "meaningZh": "同步口譯" },
+          { "text": "run simultaneously", "meaningZh": "同時執行", "example": { "en": "The two migrations must not run simultaneously.", "zh": "這兩個遷移作業不能同時執行。", "highlight": "run simultaneously" } }
+        ],
+        "examples": [
+          { "en": "The server supports up to ten thousand simultaneous connections.", "zh": "這台伺服器最多支援一萬個同時連線。", "highlight": "simultaneous" },
+          { "en": "Two simultaneous writes to the same row caused the deadlock.", "zh": "對同一列資料的兩次同時寫入導致了死結。", "highlight": "simultaneous" },
+          { "en": "The announcement was released simultaneously in three languages.", "zh": "這則公告以三種語言同步發布。", "highlight": "simultaneously" }
+        ],
+        "usageNotes": [
+          "concurrent 在技術上略有不同：simultaneous 指「真的在同一瞬間」，concurrent 指「時間上重疊、交錯進行」。討論單核心 CPU 時這個差別很重要。"
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "concurrent", "noteZh": "技術上指「時間重疊」，不一定是同一瞬間。" }],
+    "wordFamily": [{ "lemma": "simultaneously", "partOfSpeech": "adverb", "meaningZh": "同時地" }],
+    "tags": ["engineering", "time", "technical"]
+  }
+]

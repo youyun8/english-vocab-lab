@@ -1,0 +1,248 @@
+[
+  {
+    "id": "w_rationale",
+    "lemma": "rationale",
+    "slug": "rationale",
+    "cefr": "C1",
+    "pronunciation": { "kk": "/ˌræʃəˈnæl/", "syllables": "ra·tio·nale", "stressNote": "主重音在最後一個音節，注意不要讀成 rational。" },
+    "senses": [
+      {
+        "id": "s_rationale_1",
+        "partOfSpeech": "noun",
+        "register": ["formal", "academic", "business"],
+        "definitionEn": "the set of reasons that explain why a particular decision or approach was chosen",
+        "definitionZh": "理由；論據；決策依據",
+        "usageExplanationZh": "rationale 不是單一個理由，而是「支撐某個決定的整套說法」。技術文件中最典型的用法是架構決策紀錄（ADR）裡的 rationale 一節，說明「為什麼選這個方案而不是其他方案」。注意它的重音與發音和形容詞 rational 完全不同。",
+        "grammarPatterns": ["the rationale for + noun", "the rationale behind + noun", "explain the rationale"],
+        "collocations": [
+          { "text": "the rationale behind", "meaningZh": "……背後的理由", "example": { "en": "Can you explain the rationale behind choosing this database?", "zh": "你能說明選擇這個資料庫背後的理由嗎？", "highlight": "the rationale behind" } },
+          { "text": "the rationale for", "meaningZh": "……的理由" },
+          { "text": "a clear rationale", "meaningZh": "清楚的論據" },
+          { "text": "provide a rationale", "meaningZh": "提出理由說明" }
+        ],
+        "examples": [
+          { "en": "The document records the rationale for each architectural decision.", "zh": "這份文件記錄了每項架構決策的理由。", "highlight": "rationale" },
+          { "en": "Without a stated rationale, the rule looks arbitrary.", "zh": "沒有說明理由的話，這條規則看起來就很武斷。", "highlight": "rationale" },
+          { "en": "Their rationale was that fewer moving parts means fewer failures.", "zh": "他們的理由是：可動的零件越少，故障就越少。", "highlight": "rationale" }
+        ],
+        "commonMistakes": [
+          { "incorrect": "His decision was not rationale.", "correct": "His decision was not rational.", "explanationZh": "rationale 是名詞（理由）；rational 才是形容詞（理性的）。兩者發音與重音也不同。" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "justification" }, { "lemma": "reasoning" }],
+    "commonlyConfusedWith": [
+      { "lemma": "rational", "distinctionZh": "rationale 是名詞，指「一套理由」，重音在最後：/ˌræʃəˈnæl/；rational 是形容詞，指「理性的」，重音在最前：/ˈræʃənəl/。" }
+    ],
+    "wordFamily": [
+      { "lemma": "rational", "partOfSpeech": "adjective", "meaningZh": "理性的" },
+      { "lemma": "rationalize", "partOfSpeech": "verb", "meaningZh": "合理化；精簡" }
+    ],
+    "tags": ["academic", "engineering", "argument"]
+  },
+  {
+    "id": "w_undermine",
+    "lemma": "undermine",
+    "slug": "undermine",
+    "cefr": "C1",
+    "pronunciation": { "kk": "/ˌʌndɚˈmaɪn/", "syllables": "un·der·mine", "stressNote": "主重音在第三音節 -mine。" },
+    "forms": { "past": "undermined", "pastParticiple": "undermined", "presentParticiple": "undermining", "thirdPersonSingular": "undermines" },
+    "senses": [
+      {
+        "id": "s_undermine_1",
+        "partOfSpeech": "verb",
+        "register": ["formal", "academic", "business"],
+        "definitionEn": "to gradually weaken something such as confidence, authority, or an argument",
+        "definitionZh": "逐漸削弱；暗中破壞",
+        "usageExplanationZh": "undermine 的字面意思是「在底下挖坑」，因此它強調「從基礎慢慢瓦解」，而不是一次性的破壞。受詞通常是抽象且需要長期建立的東西：trust、credibility、authority、an argument。它常帶有「非蓄意但後果嚴重」或「暗中進行」的意味。",
+        "grammarPatterns": ["undermine + noun", "undermine confidence in + noun"],
+        "collocations": [
+          { "text": "undermine confidence", "meaningZh": "削弱信心", "example": { "en": "Repeated outages undermine confidence in the platform.", "zh": "反覆的服務中斷會削弱大家對這個平台的信心。", "highlight": "undermine confidence" } },
+          { "text": "undermine trust", "meaningZh": "破壞信任" },
+          { "text": "undermine an argument", "meaningZh": "削弱論點" },
+          { "text": "seriously undermine", "meaningZh": "嚴重削弱" }
+        ],
+        "examples": [
+          { "en": "Shipping without tests undermines the quality standards we agreed on.", "zh": "不寫測試就交付，會侵蝕我們共同訂下的品質標準。", "highlight": "undermines" },
+          { "en": "This single counterexample undermines the entire claim.", "zh": "這個反例就足以動搖整個主張。", "highlight": "undermines" },
+          { "en": "He felt his authority was being undermined by the reorganization.", "zh": "他覺得自己的職權因為這次重組而被逐漸架空。", "highlight": "undermined" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "erode", "noteZh": "同樣強調緩慢消蝕。" }, { "lemma": "weaken" }],
+    "antonyms": [{ "wordId": "w_reinforce", "lemma": "reinforce" }, { "lemma": "bolster" }],
+    "wordFamily": [{ "lemma": "undermining", "partOfSpeech": "noun", "meaningZh": "削弱；破壞" }],
+    "tags": ["business", "argument", "academic"]
+  },
+  {
+    "id": "w_validate",
+    "lemma": "validate",
+    "slug": "validate",
+    "cefr": "C1",
+    "pronunciation": { "kk": "/ˈvæləˌdet/", "syllables": "val·i·date", "stressNote": "主重音在第一音節。" },
+    "forms": { "past": "validated", "pastParticiple": "validated", "presentParticiple": "validating", "thirdPersonSingular": "validates" },
+    "senses": [
+      {
+        "id": "s_validate_1",
+        "partOfSpeech": "verb",
+        "register": ["formal", "technical", "academic"],
+        "definitionEn": "to check that something is correct, acceptable, or meets required standards",
+        "definitionZh": "驗證；查核（是否符合規則）",
+        "usageExplanationZh": "validate 是「拿某個東西對照標準檢查」。在軟體中，validate input 指檢查輸入是否符合格式與規則，這是安全的第一道防線。要注意它與 verify 的分工：validate 問「這是不是我們要的東西」，verify 問「這是不是真的、是不是照規格做的」。",
+        "grammarPatterns": ["validate + noun", "validate that + clause", "validate + noun + against + standard"],
+        "collocations": [
+          { "text": "validate input", "meaningZh": "驗證輸入", "example": { "en": "Always validate input on the server, never only in the browser.", "zh": "永遠要在伺服器端驗證輸入，絕不能只靠瀏覽器。", "highlight": "validate input" } },
+          { "text": "validate an assumption", "meaningZh": "驗證假設" },
+          { "text": "validate against a schema", "meaningZh": "依結構描述驗證" },
+          { "text": "input validation", "meaningZh": "輸入驗證" }
+        ],
+        "examples": [
+          { "en": "The endpoint validates the request body against a schema before processing it.", "zh": "這個端點會先依結構描述驗證請求內容，再進行處理。", "highlight": "validates" },
+          { "en": "We built a prototype to validate the assumption early.", "zh": "我們做了一個原型，以便及早驗證這個假設。", "highlight": "validate" },
+          { "en": "Please validate your email address to activate the account.", "zh": "請驗證您的電子郵件地址以啟用帳號。", "highlight": "validate" }
+        ],
+        "usageNotes": [
+          "validate 另有「肯定某人的感受」的心理學用法：validate someone's feelings，語境完全不同。"
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "verify", "noteZh": "強調「確認為真」。" }, { "lemma": "check" }],
+    "antonyms": [{ "lemma": "invalidate" }],
+    "commonlyConfusedWith": [
+      { "lemma": "verify", "distinctionZh": "validate 檢查「是否符合規則或需求」（這份表單填得對嗎）；verify 檢查「是否為真、是否照規格實作」（這個簽章是真的嗎）。軟體工程常說：verification 是 building it right，validation 是 building the right thing。" }
+    ],
+    "wordFamily": [
+      { "lemma": "validation", "partOfSpeech": "noun", "meaningZh": "驗證" },
+      { "lemma": "valid", "partOfSpeech": "adjective", "meaningZh": "有效的" },
+      { "lemma": "invalidate", "partOfSpeech": "verb", "meaningZh": "使失效" }
+    ],
+    "tags": ["engineering", "security", "academic"]
+  },
+  {
+    "id": "w_mitigate",
+    "lemma": "mitigate",
+    "slug": "mitigate",
+    "cefr": "C1",
+    "pronunciation": { "kk": "/ˈmɪtəˌget/", "syllables": "mit·i·gate", "stressNote": "主重音在第一音節。" },
+    "forms": { "past": "mitigated", "pastParticiple": "mitigated", "presentParticiple": "mitigating", "thirdPersonSingular": "mitigates" },
+    "senses": [
+      {
+        "id": "s_mitigate_1",
+        "partOfSpeech": "verb",
+        "register": ["formal", "technical", "business"],
+        "definitionEn": "to make something bad less severe or harmful, without removing it entirely",
+        "definitionZh": "減輕；緩解（但無法根除）",
+        "usageExplanationZh": "mitigate 的關鍵是「降低嚴重程度，但問題仍然存在」。這正是它與 eliminate 的對比：風險管理中，能消除的用 eliminate，不能消除的就 mitigate。資安領域的 mitigation 指「緩解措施」，通常是暫時性的防護，而非根本修復。",
+        "grammarPatterns": ["mitigate + noun", "mitigate the risk of + noun"],
+        "collocations": [
+          { "text": "mitigate the risk", "meaningZh": "降低風險", "example": { "en": "We cannot eliminate the risk, but we can mitigate it with rate limiting.", "zh": "我們無法消除這個風險，但可以用速率限制來緩解它。", "highlight": "mitigate" } },
+          { "text": "mitigate the impact", "meaningZh": "減輕衝擊" },
+          { "text": "mitigating factors", "meaningZh": "減輕（責任）的因素" },
+          { "text": "a mitigation strategy", "meaningZh": "緩解策略" }
+        ],
+        "examples": [
+          { "en": "Retries with backoff mitigate the impact of transient network errors.", "zh": "搭配退避機制的重試可以減輕暫時性網路錯誤的衝擊。", "highlight": "mitigate" },
+          { "en": "The team deployed a temporary mitigation while working on a real fix.", "zh": "團隊在著手真正的修復之前，先部署了一個暫時的緩解措施。", "highlight": "mitigation" },
+          { "en": "Nothing can fully mitigate the cost of a schema change at this scale.", "zh": "在這個規模下，沒有任何辦法能完全抵銷變更結構描述的代價。", "highlight": "mitigate" }
+        ],
+        "commonMistakes": [
+          { "incorrect": "The patch mitigated the bug completely.", "correct": "The patch eliminated the bug completely.", "explanationZh": "mitigate 本身就含有「沒有完全解決」的意思，與 completely 矛盾。徹底解決要用 eliminate、fix 或 resolve。" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "alleviate" }, { "lemma": "reduce" }],
+    "antonyms": [{ "lemma": "aggravate" }, { "lemma": "exacerbate" }],
+    "commonlyConfusedWith": [
+      { "lemma": "eliminate", "wordId": "w_eliminate", "distinctionZh": "mitigate 是「讓它沒那麼糟」，問題依然存在；eliminate 是「讓它不再存在」。風險登記表中通常兩者並列，作為不同等級的應對方案。" }
+    ],
+    "wordFamily": [{ "lemma": "mitigation", "partOfSpeech": "noun", "meaningZh": "緩解措施" }],
+    "tags": ["engineering", "security", "risk"]
+  },
+  {
+    "id": "w_leverage",
+    "lemma": "leverage",
+    "slug": "leverage",
+    "cefr": "C1",
+    "pronunciation": { "kk": "/ˈlɛvərɪdʒ/", "syllables": "lev·er·age", "stressNote": "重音在第一音節；美式亦可讀 /ˈlivərɪdʒ/。" },
+    "forms": { "past": "leveraged", "pastParticiple": "leveraged", "presentParticiple": "leveraging", "thirdPersonSingular": "leverages" },
+    "senses": [
+      {
+        "id": "s_leverage_1",
+        "partOfSpeech": "verb",
+        "register": ["business", "technical"],
+        "definitionEn": "to use something you already have in order to gain a disproportionately large advantage",
+        "definitionZh": "善用；借力（以小博大）",
+        "usageExplanationZh": "leverage 來自槓桿原理，核心意思是「用既有的東西撬動更大的成果」。它比 use 多了「以小博大」的意涵，因此若只是普通地使用某物，用 use 更好。這個字在商務簡報中被過度使用到有點陳腐，寫作時值得斟酌。",
+        "grammarPatterns": ["leverage + noun + to + verb"],
+        "collocations": [
+          { "text": "leverage existing infrastructure", "meaningZh": "善用既有的基礎設施", "example": { "en": "We leveraged our existing cache layer to cut the migration cost in half.", "zh": "我們善用既有的快取層，把遷移成本砍了一半。", "highlight": "leveraged" } },
+          { "text": "leverage expertise", "meaningZh": "運用專業能力" },
+          { "text": "leverage economies of scale", "meaningZh": "善用規模經濟" }
+        ],
+        "examples": [
+          { "en": "The team leveraged open-source tooling instead of building from scratch.", "zh": "團隊善用開源工具，而不是從零開始打造。", "highlight": "leveraged" },
+          { "en": "Can we leverage the same pipeline for the new data source?", "zh": "我們能不能把同一條管線用在新的資料來源上？", "highlight": "leverage" }
+        ],
+        "usageNotes": [
+          "在正式寫作中，若沒有「以小博大」的意思，用 use 或 make use of 會更清楚，也較不像商務套話。"
+        ]
+      },
+      {
+        "id": "s_leverage_2",
+        "partOfSpeech": "noun",
+        "register": ["business", "formal"],
+        "definitionEn": "the power to influence a situation or a person to get what you want",
+        "definitionZh": "影響力；籌碼",
+        "usageExplanationZh": "作名詞時，leverage 指「談判中的籌碼」，是不可數名詞。常見句型是 have leverage over someone。金融語境中它另有「財務槓桿」（借貸比例）的專門意思。",
+        "grammarPatterns": ["have leverage over + noun", "gain leverage"],
+        "collocations": [
+          { "text": "have leverage over", "meaningZh": "對……握有籌碼" },
+          { "text": "gain leverage", "meaningZh": "取得談判優勢" },
+          { "text": "financial leverage", "meaningZh": "財務槓桿" }
+        ],
+        "examples": [
+          { "en": "Being the only supplier gave them considerable leverage in the negotiation.", "zh": "身為唯一的供應商，讓他們在談判中握有相當大的籌碼。", "highlight": "leverage" },
+          { "en": "We have very little leverage until the contract is renewed.", "zh": "在合約續約之前，我們幾乎沒有什麼籌碼。", "highlight": "leverage" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "utilize", "noteZh": "同樣正式，但沒有「以小博大」的意涵。" }],
+    "wordFamily": [{ "lemma": "lever", "partOfSpeech": "noun", "meaningZh": "槓桿" }],
+    "tags": ["business", "strategy", "engineering"]
+  },
+  {
+    "id": "w_scrutiny",
+    "lemma": "scrutiny",
+    "slug": "scrutiny",
+    "cefr": "C1",
+    "pronunciation": { "kk": "/ˈskrutənɪ/", "syllables": "scru·ti·ny", "stressNote": "重音在第一音節。" },
+    "senses": [
+      {
+        "id": "s_scrutiny_1",
+        "partOfSpeech": "noun",
+        "register": ["formal", "academic", "business"],
+        "definitionEn": "careful and detailed examination, especially in order to find problems",
+        "definitionZh": "仔細審查；嚴格檢視",
+        "usageExplanationZh": "scrutiny 是不可數名詞，指「細看到足以找出問題」的檢視。它常帶有壓力感：come under scrutiny 表示「被放大檢視」。一個非常有用的高階句型是 not stand up to scrutiny，意思是「經不起推敲」，用來評價論點或說法非常精準。",
+        "grammarPatterns": ["come under scrutiny", "stand up to scrutiny", "close/careful scrutiny"],
+        "collocations": [
+          { "text": "come under scrutiny", "meaningZh": "受到嚴格檢視", "example": { "en": "The vendor's security claims came under scrutiny after the breach.", "zh": "資料外洩事件後，這家廠商的安全宣稱受到了嚴格檢視。", "highlight": "came under scrutiny" } },
+          { "text": "close scrutiny", "meaningZh": "仔細的審查" },
+          { "text": "not stand up to scrutiny", "meaningZh": "經不起推敲" },
+          { "text": "public scrutiny", "meaningZh": "公眾檢視" }
+        ],
+        "examples": [
+          { "en": "The benchmark looks impressive, but it does not stand up to close scrutiny.", "zh": "這個效能測試看起來很亮眼，但經不起仔細推敲。", "highlight": "scrutiny" },
+          { "en": "Every change to the payment code receives extra scrutiny in review.", "zh": "付款程式碼的每一項變更在審查時都會受到額外的檢視。", "highlight": "scrutiny" },
+          { "en": "Under scrutiny, the two datasets turned out to measure different things.", "zh": "仔細檢視後發現，這兩份資料集其實量測的是不同的東西。", "highlight": "Under scrutiny" }
+        ],
+        "commonMistakes": [
+          { "incorrect": "We did a scrutiny of the code.", "correct": "We scrutinized the code.", "explanationZh": "scrutiny 是不可數名詞，不能說 a scrutiny。要表達動作請用動詞 scrutinize，或說 careful scrutiny of the code。" }
+        ]
+      }
+    ],
+    "synonyms": [{ "lemma": "examination" }, { "lemma": "inspection" }],
+    "wordFamily": [{ "lemma": "scrutinize", "partOfSpeech": "verb", "meaningZh": "仔細審查" }],
+    "tags": ["academic", "business", "evaluation"]
+  }
+]

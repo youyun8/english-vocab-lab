@@ -1,0 +1,17 @@
+{
+  // Worker tests run against the Workers runtime types, which redefine globals
+  // such as Request/Response and therefore cannot share a program with the DOM
+  // lib used by the browser-side tests.
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ES2023"],
+    "types": ["node", "@cloudflare/workers-types", "vitest/globals"]
+  },
+  "include": [
+    "src/worker/**/*.ts",
+    "src/shared/**/*.ts",
+    "src/domain/**/*.ts",
+    "src/services/progress-merge.ts",
+    "src/test/d1.ts"
+  ]
+}

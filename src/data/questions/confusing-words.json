@@ -1,0 +1,431 @@
+[
+  {
+    "id": "q_cw_eliminate_remove_01",
+    "type": "confusing_words",
+    "cefr": "B2",
+    "wordIds": ["w_eliminate"],
+    "prompt": "Which word fits the sentence most naturally?",
+    "context": "The goal of the refactor is to completely ____ duplicated logic from the codebase.",
+    "options": [
+      { "id": "a", "text": "eliminate" },
+      { "id": "b", "text": "remove" },
+      { "id": "c", "text": "relocate" },
+      { "id": "d", "text": "detach" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "「completely + 徹底根除某個問題」正是 eliminate 的核心語感。重複的邏輯是不想要的東西，目標是讓它從此不存在。",
+    "distractorExplanations": {
+      "b": "remove 只表示「拿走、移走」，語氣較弱，且與 completely 搭配時聽起來像是把東西搬到別處。",
+      "c": "relocate 是「遷移到另一個位置」，重複的邏輯並不是要搬家。",
+      "d": "detach 是「分離、卸下」，用於實體或元件的拆卸，不用於消除重複。"
+    },
+    "difficulty": 2,
+    "tags": ["semantics", "engineering"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw_infer_imply_01",
+    "type": "confusing_words",
+    "cefr": "C1",
+    "wordIds": ["w_infer", "w_imply"],
+    "prompt": "Which sentence uses infer and imply correctly?",
+    "options": [
+      { "id": "a", "text": "The report implies that costs will rise, and I inferred from it that we should act now." },
+      { "id": "b", "text": "The report infers that costs will rise, and I implied from it that we should act now." },
+      { "id": "c", "text": "The report inferred that costs will rise, so I inferred we should act now." },
+      { "id": "d", "text": "I implied from the report that costs will rise, so the report inferred we should act." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "訊息的來源（報告）imply（暗示），接收訊息的人（我）infer（推斷）。只有選項 A 的方向正確。",
+    "distractorExplanations": {
+      "b": "方向完全顛倒：報告不能 infer，人也不能從文件 imply。",
+      "c": "報告不能 infer，因為 infer 的主詞必須是進行推理的一方。",
+      "d": "人從報告得到結論應該用 infer；報告對讀者傳達訊息才用 imply。"
+    },
+    "difficulty": 3,
+    "tags": ["confusables", "logic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw_feasible_viable_01",
+    "type": "confusing_words",
+    "cefr": "C1",
+    "wordIds": ["w_feasible", "w_viable"],
+    "prompt": "Which word best completes the sentence?",
+    "context": "The technology works reliably in the lab, but at current production costs it is simply not commercially ____.",
+    "options": [
+      { "id": "a", "text": "viable" },
+      { "id": "b", "text": "feasible" },
+      { "id": "c", "text": "plausible" },
+      { "id": "d", "text": "coherent" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "句子已經說技術「做得到」，問題出在成本無法長期支撐，也就是「活不下去」，這正是 viable 的意思。commercially viable 也是固定搭配。",
+    "distractorExplanations": {
+      "b": "feasible 只問「做不做得到」，但句子已經確認技術可行，因此與 but 的轉折矛盾。",
+      "c": "plausible 用來評價「說法是否可信」，不能評價商業模式能否存續。",
+      "d": "coherent 指「前後連貫」，與成本或存續能力無關。"
+    },
+    "difficulty": 3,
+    "tags": ["confusables", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw_mitigate_eliminate_01",
+    "type": "confusing_words",
+    "cefr": "C1",
+    "wordIds": ["w_mitigate", "w_eliminate"],
+    "prompt": "Which word fits the logic of the sentence?",
+    "context": "We can never remove this risk entirely, but rate limiting will ____ it considerably.",
+    "options": [
+      { "id": "a", "text": "mitigate" },
+      { "id": "b", "text": "eliminate" },
+      { "id": "c", "text": "preclude" },
+      { "id": "d", "text": "validate" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "前半句已明說風險無法完全移除，因此後半句需要一個「降低嚴重程度但問題仍在」的動詞，正是 mitigate。",
+    "distractorExplanations": {
+      "b": "eliminate 表示徹底消除，與前半句 never remove this risk entirely 直接矛盾。",
+      "c": "preclude 是事先排除某種可能性，語意上等於徹底阻止，同樣與前半句衝突。",
+      "d": "validate 是驗證是否符合規則，與降低風險無關。"
+    },
+    "difficulty": 3,
+    "tags": ["confusables", "risk"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw_consolidate_integrate_01",
+    "type": "confusing_words",
+    "cefr": "C1",
+    "wordIds": ["w_consolidate"],
+    "prompt": "Which word is more appropriate here?",
+    "context": "Rather than maintaining twelve separate dashboards, we decided to ____ them into three.",
+    "options": [
+      { "id": "a", "text": "consolidate" },
+      { "id": "b", "text": "integrate" },
+      { "id": "c", "text": "reconcile" },
+      { "id": "d", "text": "juxtapose" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "重點是「數量從十二減為三」，也就是合併成更少、更集中的整體，這正是 consolidate。介系詞 into 也符合 consolidate A into B 的句型。",
+    "distractorExplanations": {
+      "b": "integrate 強調讓不同的部分協同運作，各部分仍保有獨立身分，不必然減少數量。",
+      "c": "reconcile 是讓兩份應相同的紀錄對得起來，或調和兩個衝突的想法，不是合併數量。",
+      "d": "juxtapose 是把兩者並排以凸顯對比，與合併恰好相反。"
+    },
+    "difficulty": 3,
+    "tags": ["confusables", "engineering"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw_ambiguous_vague_01",
+    "type": "confusing_words",
+    "cefr": "B2",
+    "wordIds": ["w_ambiguous"],
+    "prompt": "Which word best describes the problem below?",
+    "context": "The spec says \"the list should be sorted\", which two engineers read as ascending and descending respectively.",
+    "options": [
+      { "id": "a", "text": "ambiguous" },
+      { "id": "b", "text": "vague" },
+      { "id": "c", "text": "incoherent" },
+      { "id": "d", "text": "cursory" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "同一句話產生兩種都說得通、卻互相衝突的解讀，這正是 ambiguous（有歧義）的定義。",
+    "distractorExplanations": {
+      "b": "vague 是「根本沒說清楚、缺乏細節」；這裡的句子很具體，只是可以解讀成兩種意思。",
+      "c": "incoherent 指前後不連貫、講不通，但這句話本身完全講得通。",
+      "d": "cursory 形容「做得草率」，是在描述行為，不是描述文字本身的性質。"
+    },
+    "difficulty": 3,
+    "tags": ["confusables", "engineering"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw_conflate_01",
+    "type": "confusing_words",
+    "cefr": "C2",
+    "wordIds": ["w_conflate"],
+    "prompt": "Which word fits the critical tone of the sentence?",
+    "context": "The argument ____ popularity with quality, as if the two always went together.",
+    "options": [
+      { "id": "a", "text": "conflates" },
+      { "id": "b", "text": "consolidates" },
+      { "id": "c", "text": "corroborates" },
+      { "id": "d", "text": "reconciles" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "把兩個應該分開的概念錯誤地當成同一件事，正是 conflate，而且它天生帶有批評意味，符合 as if 的語氣。",
+    "distractorExplanations": {
+      "b": "consolidate 是刻意且正面的整合，不含「搞混」的批評。",
+      "c": "corroborate 是用獨立證據佐證某項說法，與混淆概念無關。",
+      "d": "reconcile 是設法讓兩個看似衝突的事物並存，是建設性的動作，語氣與此處的批評不符。"
+    },
+    "difficulty": 4,
+    "tags": ["confusables", "argument"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw_explicit_implicit_01",
+    "type": "confusing_words",
+    "cefr": "C1",
+    "wordIds": ["w_explicit", "w_implicit"],
+    "prompt": "Which word completes the sentence correctly?",
+    "context": "Nothing in the documentation says so, but there is an ____ assumption that requests arrive in order.",
+    "options": [
+      { "id": "a", "text": "implicit" },
+      { "id": "b", "text": "explicit" },
+      { "id": "c", "text": "arbitrary" },
+      { "id": "d", "text": "inherent" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "前半句說「文件中完全沒提到」，因此這個假設是沒有明說卻確實存在的，即 implicit。",
+    "distractorExplanations": {
+      "b": "explicit 表示白紙黑字寫清楚，與 Nothing in the documentation says so 直接矛盾。",
+      "c": "arbitrary 是「沒有理由、隨意決定的」，句子並未評論這個假設是否合理。",
+      "d": "inherent 指「本質上不可分割」，但請求依序抵達並不是系統的本質特性，而是一個未明說的預設。"
+    },
+    "difficulty": 3,
+    "tags": ["confusables", "engineering"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw_criteria_criterion_01",
+    "type": "confusing_words",
+    "cefr": "C1",
+    "wordIds": ["w_criterion"],
+    "prompt": "Which sentence is grammatically correct?",
+    "options": [
+      { "id": "a", "text": "The main criterion is whether the change can be reversed." },
+      { "id": "b", "text": "The main criteria is whether the change can be reversed." },
+      { "id": "c", "text": "The main criterions are whether the change can be reversed." },
+      { "id": "d", "text": "A criteria is whether the change can be reversed." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "criterion 是單數，criteria 是複數。句中 The main ... is 需要單數主詞，因此 criterion 正確。",
+    "distractorExplanations": {
+      "b": "criteria 是複數形，不能搭配單數動詞 is。",
+      "c": "criterion 的複數是 criteria，沒有 criterions 這個形式。",
+      "d": "criteria 是複數，不能加冠詞 a。"
+    },
+    "difficulty": 3,
+    "tags": ["confusables", "grammar"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw_corroborate_collaborate_01",
+    "type": "confusing_words",
+    "cefr": "C2",
+    "wordIds": ["w_corroborate"],
+    "prompt": "Which word completes the sentence?",
+    "context": "The user's account of the outage was later ____ by the server logs.",
+    "options": [
+      { "id": "a", "text": "corroborated" },
+      { "id": "b", "text": "collaborated" },
+      { "id": "c", "text": "consolidated" },
+      { "id": "d", "text": "conflated" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "伺服器日誌是獨立的第二個證據來源，用來支持使用者的說法，這正是 corroborate。",
+    "distractorExplanations": {
+      "b": "collaborate 是「與人合作」，不及物且不能用於「證據支持說法」。",
+      "c": "consolidate 是整合或鞏固，日誌並沒有把說法「合併」起來。",
+      "d": "conflate 是錯誤地混同兩個概念，語意與此處相反。"
+    },
+    "difficulty": 4,
+    "tags": ["confusables", "evidence"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw_discrepancy_difference_01",
+    "type": "confusing_words",
+    "cefr": "C1",
+    "wordIds": ["w_discrepancy"],
+    "prompt": "Which word signals that something has gone wrong?",
+    "context": "The invoice total and the payment record should match exactly, so this ____ needs to be explained.",
+    "options": [
+      { "id": "a", "text": "discrepancy" },
+      { "id": "b", "text": "difference" },
+      { "id": "c", "text": "distinction" },
+      { "id": "d", "text": "nuance" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "discrepancy 預設「兩者本應相同」，因此差異本身就是問題的訊號，正好對應 should match exactly 與 needs to be explained。",
+    "distractorExplanations": {
+      "b": "difference 是中性的「不同」，本身不暗示有錯，語氣不夠強。",
+      "c": "distinction 是刻意做出的概念區分，用於分析而非帳目對不上。",
+      "d": "nuance 指細微的意義差別，用於語言與論述，不用於數字不符。"
+    },
+    "difficulty": 3,
+    "tags": ["confusables", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw_consecutive_continuous_01",
+    "type": "confusing_words",
+    "cefr": "B2",
+    "wordIds": ["w_consecutive"],
+    "prompt": "Which word fits the sentence?",
+    "context": "The circuit breaker opens only after five ____ failures.",
+    "options": [
+      { "id": "a", "text": "consecutive" },
+      { "id": "b", "text": "continuous" },
+      { "id": "c", "text": "simultaneous" },
+      { "id": "d", "text": "subsequent" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "五次失敗是可數的離散事件，且必須一個接一個中間不中斷，這是 consecutive 的定義。",
+    "distractorExplanations": {
+      "b": "continuous 描述「不間斷的持續狀態」，不能修飾可數的失敗次數。",
+      "c": "simultaneous 表示同時發生，但斷路器計算的是接連發生的次數，不是同時發生。",
+      "d": "subsequent 只表示「之後的」，沒有「連續不中斷」的意思，也不能接數字。"
+    },
+    "difficulty": 3,
+    "tags": ["confusables", "engineering"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw_negligible_negligent_01",
+    "type": "confusing_words",
+    "cefr": "C1",
+    "wordIds": ["w_negligible"],
+    "prompt": "Which sentence uses the words correctly?",
+    "options": [
+      { "id": "a", "text": "The overhead is negligible, but the reviewer was negligent in checking it." },
+      { "id": "b", "text": "The overhead is negligent, but the reviewer was negligible in checking it." },
+      { "id": "c", "text": "The overhead is negligible, but the reviewer was negligible in checking it." },
+      { "id": "d", "text": "The overhead is negligent, but the reviewer was negligent in checking it." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "negligible 描述「小到可忽略的數量或影響」；negligent 描述「人的疏忽失職」。只有 A 兩者都用對。",
+    "distractorExplanations": {
+      "b": "兩個字完全對調了：開銷不會「疏忽」，人也不會「小到可忽略」。",
+      "c": "後半句錯誤：形容審查者失職要用 negligent。",
+      "d": "前半句錯誤：形容開銷小要用 negligible。"
+    },
+    "difficulty": 4,
+    "tags": ["confusables", "vocabulary"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw_rationale_rational_01",
+    "type": "confusing_words",
+    "cefr": "C1",
+    "wordIds": ["w_rationale"],
+    "prompt": "Which word completes the sentence?",
+    "context": "The design document records the ____ behind every major decision.",
+    "options": [
+      { "id": "a", "text": "rationale" },
+      { "id": "b", "text": "rational" },
+      { "id": "c", "text": "rationality" },
+      { "id": "d", "text": "ration" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "此處需要一個名詞，表示「支撐決策的整套理由」，正是 rationale，且 the rationale behind 是固定搭配。",
+    "distractorExplanations": {
+      "b": "rational 是形容詞（理性的），不能當 records 的受詞。",
+      "c": "rationality 是抽象名詞「理性」這個性質，不是「某項決策的理由」。",
+      "d": "ration 是「配給量」，與理由無關。"
+    },
+    "difficulty": 3,
+    "tags": ["confusables", "writing"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw_respective_respectful_01",
+    "type": "confusing_words",
+    "cefr": "B2",
+    "wordIds": ["w_respective"],
+    "prompt": "Which word completes the sentence?",
+    "context": "All trademarks are the property of their ____ owners.",
+    "options": [
+      { "id": "a", "text": "respective" },
+      { "id": "b", "text": "respectful" },
+      { "id": "c", "text": "respectable" },
+      { "id": "d", "text": "respected" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "這是固定的法律用語，意思是「各自對應的所有人」，必須用 respective。",
+    "distractorExplanations": {
+      "b": "respectful 是「有禮貌的、恭敬的」，描述態度。",
+      "c": "respectable 是「體面的、值得尊敬的」，描述社會評價。",
+      "d": "respected 是「受人敬重的」，同樣描述聲望，而非「各自對應」。"
+    },
+    "difficulty": 2,
+    "tags": ["confusables", "legal"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw_robust_resilient_01",
+    "type": "confusing_words",
+    "cefr": "C1",
+    "wordIds": ["w_robust"],
+    "prompt": "Which word best fits the emphasis of the sentence?",
+    "context": "The service does not fall over when it receives malformed input; its validation layer is very ____.",
+    "options": [
+      { "id": "a", "text": "robust" },
+      { "id": "b", "text": "resilient" },
+      { "id": "c", "text": "coherent" },
+      { "id": "d", "text": "prevalent" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "重點是「遇到異常輸入仍然不出錯」，也就是在壓力下維持正常運作，這是 robust 的核心意思。",
+    "distractorExplanations": {
+      "b": "resilient 強調「壞掉之後能快速復原」，但句子說的是它根本沒有壞掉。",
+      "c": "coherent 是「前後連貫、講得通」，用來描述論述或設計，不是抗壓能力。",
+      "d": "prevalent 是「普遍存在的」，與品質或抗壓性無關。"
+    },
+    "difficulty": 4,
+    "tags": ["confusables", "engineering"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw_plausible_feasible_01",
+    "type": "confusing_words",
+    "cefr": "C1",
+    "wordIds": ["w_plausible", "w_feasible"],
+    "prompt": "Which word fits the sentence?",
+    "context": "A clock skew between the two servers is the most ____ explanation, though we have not confirmed it yet.",
+    "options": [
+      { "id": "a", "text": "plausible" },
+      { "id": "b", "text": "feasible" },
+      { "id": "c", "text": "compelling" },
+      { "id": "d", "text": "salient" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "評價一個「說法聽起來合理但尚未證實」時用 plausible，這也正好呼應 though we have not confirmed it yet。",
+    "distractorExplanations": {
+      "b": "feasible 評價「行動是否做得到」，但 explanation 是一種說法，不是要執行的行動。",
+      "c": "compelling 表示「強到令人不得不接受」，與後半句「尚未確認」的保留語氣衝突。",
+      "d": "salient 是「最顯著、最值得注意的」，描述重要性而非可信度。"
+    },
+    "difficulty": 4,
+    "tags": ["confusables", "logic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw_undermine_reinforce_01",
+    "type": "confusing_words",
+    "cefr": "C1",
+    "wordIds": ["w_undermine", "w_reinforce"],
+    "prompt": "Which word completes the sentence?",
+    "context": "Repeated outages steadily ____ users' confidence in the platform.",
+    "options": [
+      { "id": "a", "text": "undermine" },
+      { "id": "b", "text": "reinforce" },
+      { "id": "c", "text": "corroborate" },
+      { "id": "d", "text": "consolidate" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "undermine 表示「從基礎慢慢瓦解」，與 steadily 及負面事件（反覆中斷）完全吻合，且 undermine confidence 是固定搭配。",
+    "distractorExplanations": {
+      "b": "reinforce 是「使更強」，與反覆的服務中斷造成的效果相反。",
+      "c": "corroborate 是用證據佐證某項說法，受詞不會是 confidence。",
+      "d": "consolidate 是鞏固或整合，語意上同樣是加強而非削弱。"
+    },
+    "difficulty": 2,
+    "tags": ["confusables", "business"],
+    "source": "curated"
+  }
+]
