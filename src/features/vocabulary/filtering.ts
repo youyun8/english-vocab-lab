@@ -33,7 +33,6 @@ export interface WordFilters {
   statuses: LearningStatus[];
   bookmarkedOnly: boolean;
   difficultOnly: boolean;
-  masteredOnly: boolean;
   sort: SortKey;
 }
 
@@ -45,7 +44,6 @@ export const DEFAULT_FILTERS: WordFilters = {
   statuses: [],
   bookmarkedOnly: false,
   difficultOnly: false,
-  masteredOnly: false,
   sort: 'alphabetical',
 };
 
@@ -94,7 +92,6 @@ export function filterEntries({
     }
     if (filters.bookmarkedOnly && !progress?.bookmarked) return false;
     if (filters.difficultOnly && !progress?.difficult) return false;
-    if (filters.masteredOnly && progress?.status !== 'mastered') return false;
 
     return true;
   });

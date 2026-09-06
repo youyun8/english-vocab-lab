@@ -47,7 +47,7 @@ export function WordBankPage() {
         <div>
           <h1 className="text-2xl font-semibold tracking-tight text-ink-900">字彙庫</h1>
           <p className="mt-1 text-sm text-ink-500">
-            共 {entries.length} 個字彙，可用 toefl／gre 標籤篩選考試字彙；等級標示「估」者為詞頻估計。
+            共 {entries.length} 個字彙，可用 toefl／gre 標籤篩選考試字彙；字典擴充詞條的 CEFR 等級為詞頻估計。
           </p>
         </div>
 

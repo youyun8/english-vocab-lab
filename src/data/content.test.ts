@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 
 import { quizQuestionSchema, questionTypes, OPTIONS_PER_QUESTION } from '@/domain/quiz';
 import { vocabularyEntrySchema } from '@/domain/vocabulary';
+import { GENERATED_TYPES } from '@/services/question-generator';
 import { loadCuratedQuestions, loadVocabulary } from './index';
 
 /**
@@ -14,6 +15,11 @@ const entries = await loadVocabulary();
 const questions = await loadCuratedQuestions();
 const curatedEntries = entries.filter((entry) => !entry.dictionarySource);
 const dictionaryEntries = entries.filter((entry) => entry.dictionarySource);
+/**
+ * Recognition questions are generated from the corpus for every entry, so the
+ * curated files only have to carry the types a generator cannot judge.
+ */
+const handWrittenTypes = questionTypes.filter((type) => !GENERATED_TYPES.includes(type));
 
 describe('vocabulary corpus', () => {
   it('loads a non-trivial number of entries', () => {
@@ -158,16 +164,33 @@ describe('curated question bank', () => {
     expect(questions.length).toBeGreaterThanOrEqual(170);
   });
 
-  it('gives every question type meaningful coverage', () => {
-    for (const type of questionTypes) {
+  it('gives every hand-written question type meaningful coverage', () => {
+    for (const type of handWrittenTypes) {
       const count = questions.filter((question) => question.type === type).length;
       expect(count, `${type} has too few questions`).toBeGreaterThanOrEqual(8);
     }
   });
 
-  it('covers every supported question type', () => {
+  it('gives the imported exam corpus hand-written questions of every nuanced type', () => {
+    // Generation can only produce recognition questions, so usage, collocation,
+    // grammar, cloze and confusables for the exam words have to be written.
+    const dictionaryIds = new Set(dictionaryEntries.map((entry) => entry.id));
+    const examQuestions = questions.filter(
+      (question) =>
+        handWrittenTypes.includes(question.type) &&
+        question.wordIds.some((id) => dictionaryIds.has(id)),
+    );
+    expect(examQuestions.length).toBeGreaterThanOrEqual(70);
+
+    const covered = new Set(examQuestions.map((question) => question.type));
+    for (const type of handWrittenTypes) {
+      expect(covered.has(type), `exam vocabulary has no ${type} question`).toBe(true);
+    }
+  });
+
+  it('covers every question type that cannot be generated', () => {
     const covered = new Set(questions.map((question) => question.type));
-    for (const type of questionTypes) {
+    for (const type of handWrittenTypes) {
       expect(covered.has(type), `missing questions of type ${type}`).toBe(true);
     }
   });

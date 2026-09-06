@@ -65,9 +65,13 @@ login).
 
 **Practice**
 
-- Seven quiz types: `meaning_en_to_zh`, `meaning_zh_to_en`, `cloze`, `usage`, `collocation`,
-  `grammar`, `confusing_words`.
-- 174 hand-written questions with explanations, plus recognition questions generated from the corpus.
+- Eight quiz types: `meaning_en_to_zh`, `meaning_zh_to_en`, `definition_to_word`, `cloze`, `usage`,
+  `collocation`, `grammar`, `confusing_words`.
+- 251 hand-written questions with explanations — including cloze, usage, collocation, grammar and
+  confusable-word questions written for the imported TOEFL/GRE vocabulary — plus recognition
+  questions generated from the corpus, so the question bank covers **every** word that ships.
+- A browsable question bank whose options are always visible and whose answers stay hidden until you
+  pick one or ask for the answer, so browsing it is practice rather than reading a solutions sheet.
 - Quiz modes: random, weak words, mistake review, due review, bookmarked, difficult.
 - Answer feedback that explains why the right answer is right *and* why the important distractors are wrong.
 - Keyboard shortcuts (`1`–`4`, `Enter`, `Space`, `B`) that never fire while a form control has focus.
@@ -222,6 +226,7 @@ src/
     vocabulary/b2|c1|c2/    curated lessons, ~6 entries per file
     vocabulary/exam/        dictionary entries, 50 entries per file
     questions/              curated question bank, one file per question type
+                            (`exam-*.json` cover the imported TOEFL/GRE words)
 
   repositories/
     vocabulary-repository.ts
@@ -230,7 +235,7 @@ src/
     cloud-progress-repository.ts      Worker API
 
   services/
-    search.ts  quiz-engine.ts  question-generator.ts
+    search.ts  quiz-engine.ts  question-generator.ts  question-bank.ts
     progress-merge.ts  stats.ts  pronunciation.ts  api-client.ts
 
   features/
@@ -621,8 +626,8 @@ Defined in `src/domain/quiz.ts`.
 
 ```ts
 type QuestionType =
-  | 'meaning_en_to_zh' | 'meaning_zh_to_en' | 'cloze' | 'usage'
-  | 'collocation' | 'grammar' | 'confusing_words';
+  | 'meaning_en_to_zh' | 'meaning_zh_to_en' | 'definition_to_word'
+  | 'cloze' | 'usage' | 'collocation' | 'grammar' | 'confusing_words';
 
 interface QuizQuestion {
   id: string;                   // "q_cw_infer_imply_01"
@@ -648,13 +653,29 @@ freely without corrupting the answer key.
 
 - **Curated** questions are hand-written and live in `src/data/questions/`. Everything that depends
   on nuance — usage, collocation, grammar, confusing words, and any non-trivial cloze — is curated,
-  because a generator cannot guarantee that exactly one option is defensible.
-- **Generated** questions are derived from the corpus at runtime, and only for the two simple
-  recognition types (`meaning_en_to_zh`, `meaning_zh_to_en`). Distractors prefer matching parts
+  because a generator cannot guarantee that exactly one option is defensible. The `exam-*.json`
+  files carry these nuanced types for the imported TOEFL/GRE words, which ship with dictionary
+  definitions but no example sentences, collocations or usage notes of their own.
+- **Generated** questions are derived from the corpus at runtime, and only for the three simple
+  recognition types (`meaning_en_to_zh`, `meaning_zh_to_en`, `definition_to_word`). Every one of
+  them reads fields the schema guarantees on *every* entry — headword, Chinese gloss, English
+  definition — so imported dictionary words get practice too. Distractors prefer matching parts
   of speech. Synonym links in either direction, shared Chinese gloss components and identical
   English definitions exclude potentially ambiguous distractors. These checks reduce ambiguity
   but cannot prove that all dictionary meanings are distinct. Ids are derived from `entry.id` + type, so duplicates are
   impossible. See `src/services/question-generator.test.ts`.
+- `definition_to_word` shows the English definition and asks for the word. Any form of the headword
+  inside that definition is masked to `___`, and an entry whose masked definition no longer
+  identifies a single word (an imported stub such as "become brisk") simply gets no definition
+  question — so this type covers most of the corpus rather than all of it.
+
+### The browsable bank
+
+`src/services/question-bank.ts` assembles what `/question-bank` shows: the curated questions plus
+generated questions for every entry, ordered so a word's questions sit together, curated first.
+Generation there uses a **fixed seed** instead of `Math.random`, so a word's options are the same on
+every render, page turn and reload — a bank that reshuffled under the reader would be unstudyable.
+Answers are per-card state that resets whenever a filter changes or the page turns.
 
 ---
 
@@ -731,7 +752,9 @@ something, so it cannot silently clobber curated content.
 
 ## 15. How to add a quiz question
 
-1. Pick the file matching the type: `src/data/questions/{cloze,collocation,confusing-words,grammar,meaning,usage}.json`.
+1. Pick the file matching the type: `src/data/questions/{cloze,collocation,confusing-words,grammar,meaning,usage}.json`
+   for the curated lessons, or the matching `exam-*.json` file when the question is about an imported
+   TOEFL/GRE word. Numbered suffixes (`-2`) are just size splits; the loader globs the directory.
 2. Add an object:
 
 ```json
@@ -789,19 +812,22 @@ Example output:
 
 ```text
 ✓ Content validation passed
-  vocabulary entries : 120
-      B2   36
-      C1   60
-      C2   24
-  curated questions  : 174
-      cloze              36
-      collocation        32
-      confusing_words    34
-      grammar            28
+  vocabulary entries : 2120
+      B2   974
+      C1   863
+      C2   283
+  curated questions  : 251
+      cloze              52
+      collocation        48
+      confusing_words    50
+      grammar            43
       meaning_en_to_zh   10
       meaning_zh_to_en   10
-      usage              24
+      usage              38
 ```
+
+The counts above are the *curated* questions only — the questions kept in git. The bank the app
+shows also contains the recognition questions generated from all 2,120 entries.
 
 ---
 

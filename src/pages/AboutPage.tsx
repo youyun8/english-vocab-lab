@@ -28,7 +28,7 @@ export function AboutPage() {
           （<a className="underline" href="/licenses/ECDICT-MIT.txt">MIT 授權</a>），
           繁體中文經 OpenCC 自動轉換，尚未逐條人工校訂。擴充詞條目前提供字義辨識與複習，
           尚未附上人工例句與用法解析。考試標籤來自來源字典，並非官方必考清單；
-          標示「估」的 CEFR 等級為依詞頻估計的學習分組。
+          其 CEFR 等級為依詞頻估計的學習分組。
         </p>
       </Card>
 

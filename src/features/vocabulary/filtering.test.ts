@@ -87,7 +87,7 @@ describe('filterEntries', () => {
     expect(news.length).toBe(entries.length - 1);
   });
 
-  it('filters bookmarked, difficult and mastered flags', () => {
+  it('filters the bookmarked and difficult flags', () => {
     const progress = [
       progressFor('w_consolidate', { bookmarked: true }),
       progressFor('w_infer', { difficult: true }),
@@ -95,7 +95,7 @@ describe('filterEntries', () => {
     ];
     expect(run({ bookmarkedOnly: true }, progress)).toEqual(['consolidate']);
     expect(run({ difficultOnly: true }, progress)).toEqual(['infer']);
-    expect(run({ masteredOnly: true }, progress)).toEqual(['imply']);
+    expect(run({ statuses: ['mastered'] }, progress)).toEqual(['imply']);
   });
 
   it('searches by keyword and keeps relevance order by default', () => {
