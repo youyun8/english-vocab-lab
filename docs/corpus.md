@@ -1,8 +1,9 @@
-# TOEFL / GRE corpus
+# TOEFL / GRE / IELTS corpus
 
-The corpus contains **2,120 distinct headwords**: the original 120 curated lessons and
-2,000 dictionary entries for recognition practice. There are 174 curated questions;
-the two recognition question types are also generated from the vocabulary at runtime.
+The corpus contains **4,120 distinct headwords**: the original 120 curated lessons and
+4,000 dictionary entries for recognition practice. There are 251 curated questions;
+the three recognition question types are also generated from the vocabulary at runtime,
+so the browsable question bank covers every headword that ships.
 
 ## Content depth
 
@@ -13,8 +14,9 @@ hand-written examples, usage guidance, synonyms or verified CEFR ratings.
 
 The word detail page identifies dictionary entries and hides absent lesson sections.
 They participate in search, bookmarks, progress, review and generated recognition quizzes.
-The existing tag filter supports `toefl`, `gre` and `dictionary`. The word bank displays
-50 results per page, with filtering and sorting applied to the entire corpus first.
+The tag filter supports `toefl`, `gre`, `ielts` and `dictionary`. The word bank displays
+50 results per page, with filtering and sorting applied to the entire corpus first, and each
+filter value carries the number of words it would leave.
 
 ## Sources and selection
 
@@ -29,10 +31,21 @@ The existing tag filter supports `toefl`, `gre` and `dictionary`. The word bank 
 - Script conversion: the locked `opencc-js` development dependency (`cn` → `twp`).
   Conversion runs at import time; no conversion library or source CSV ships in the app.
 
-Selection uses ECDICT's `toefl` and `gre` labels. These are third-party study labels,
-**not an ETS-endorsed or guaranteed exam list**. The import takes 1,000 entries tagged
-for both exams, 500 additional TOEFL entries and 500 additional GRE entries. Thus each
-exam tag covers 1,500 of the new words. Existing lesson tags are preserved.
+Selection uses ECDICT's `toefl`, `gre` and `ielts` labels. These are third-party study
+labels, **not an ETS- or IELTS-endorsed or guaranteed exam list**. Existing lesson tags are
+preserved.
+
+The importer selects in two passes. **Pass 1** is the original 2,000-word TOEFL/GRE
+selection, unchanged in inputs, ordering and quotas: 1,000 entries tagged for both exams,
+500 additional TOEFL entries and 500 additional GRE entries. Keeping it fixed is what lets
+every word it picked keep its id, so curated questions and saved learner progress still
+point at real words after a re-import.
+
+**Pass 2** adds 2,000 more from what pass 1 left behind: 1,200 TOEFL/GRE words ranked
+inside the top 12,000 by frequency, 500 advanced GRE words (rank 12,000 or worse, with an
+academic shape), and 300 IELTS words ranked 3,500 or worse — below that threshold the
+IELTS list is largely B1 revision, which this corpus is not for. Tag coverage across the
+4,000 imported words: 2,791 `toefl`, 2,593 `gre`, 2,186 `ielts`.
 
 The selection balances frequency ranges and gives priority to the independently chosen
 headwords in `scripts/data/exam-priorities.txt`. Advanced GRE selection favors verbs,
@@ -50,7 +63,7 @@ senses (for example, *aberration* as a departure from what is normal).
 
 ## Limitations
 
-The new entries are dictionary imports, not 2,000 fully edited lessons. English and Chinese
+The new entries are dictionary imports, not 4,000 fully edited lessons. English and Chinese
 senses are grouped by part of speech; they are not asserted to align one-to-one. Some source
 glosses may be dated or broader than their English definitions. Traditional Chinese has been
 automatically converted and has not received exhaustive human language review. No placeholder
@@ -58,9 +71,9 @@ sentences or fabricated usage notes are added to satisfy the lesson schema.
 
 ECDICT provides no CEFR rating. Imported entries use the smaller positive BNC/FRQ rank as a
 rough **sorting estimate**: up to 5,000 → B2, up to 12,000 → C1, otherwise C2. Missing ranks
-sort as 100,000. Frequency is not a CEFR assessment. Imported ratings appear with `（估）`
-in the word bank and detail page; filters and statistics include these estimated bands.
-Current totals including original lessons: 974 B2, 863 C1, 283 C2.
+sort as 100,000. Frequency is not a CEFR assessment. The word detail page says so for every
+imported entry; filters and statistics include these estimated bands.
+Current totals including original lessons: 1,907 B2, 1,429 C1, 784 C2.
 
 Generated quizzes exclude declared synonyms in either direction, shared Chinese gloss
 components across all senses, and identical English definitions. This reduces ambiguity;
@@ -80,7 +93,8 @@ npm run verify
 ```
 
 The importer checks the source checksum before parsing or writing, validates all selected
-entries, and deterministically writes 40 chunks of 50 words to `src/data/vocabulary/exam`.
+entries, clears the previous chunks, and deterministically writes 80 chunks of 50 words to
+`src/data/vocabulary/exam`.
 It never writes the original `b2`, `c1` or `c2` directories or the curated question bank.
 The source CSV is about 66 MB and is intentionally not committed. Generated JSON is checked
 in, so normal builds, tests and app usage require neither the source download nor network

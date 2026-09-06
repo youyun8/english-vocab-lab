@@ -102,7 +102,7 @@ export function WordDetailPage() {
         <Card className="p-4 text-sm leading-7 text-ink-600">
           <p>字典擴充詞條：適合字義辨識與複習，尚未附上人工編寫的例句與用法解析。
             中英文釋義依詞性彙整，各義項不一定逐一對應。</p>
-          <p>TOEFL／GRE 標籤來自來源字典，並非官方必考清單；CEFR 為依詞頻估計的學習分組。</p>
+          <p>TOEFL／GRE／IELTS 標籤來自來源字典，並非官方必考清單；CEFR 為依詞頻估計的學習分組。</p>
           <p>釋義來源：<a className="underline" href={`https://github.com/skywind3000/ECDICT/tree/${entry.dictionarySource.revision}`}>ECDICT</a>
             {' · '}<a className="underline" href="/licenses/ECDICT-MIT.txt">MIT 授權</a>。繁體中文經自動轉換，尚未逐條人工校訂。</p>
         </Card>

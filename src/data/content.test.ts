@@ -135,9 +135,9 @@ describe('vocabulary corpus', () => {
 describe('dictionary expansion', () => {
   it('preserves the original detailed lessons and adds distinct exam headwords', () => {
     expect(curatedEntries.length).toBeGreaterThanOrEqual(120);
-    expect(dictionaryEntries.length).toBeGreaterThanOrEqual(1880);
+    expect(dictionaryEntries.length).toBeGreaterThanOrEqual(3880);
     expect(new Set(entries.map((entry) => entry.lemma.toLowerCase())).size).toBe(entries.length);
-    for (const exam of ['toefl', 'gre']) {
+    for (const exam of ['toefl', 'gre', 'ielts']) {
       expect(dictionaryEntries.filter((entry) => entry.tags.includes(exam)).length).toBeGreaterThanOrEqual(1000);
     }
   });
@@ -145,7 +145,7 @@ describe('dictionary expansion', () => {
   it('keeps source attribution and estimated levels on imported entries', () => {
     for (const entry of dictionaryEntries) {
       expect(entry.dictionarySource).toMatchObject({ name: 'ECDICT', license: 'MIT', cefrEstimated: true });
-      expect(entry.tags.some((tag) => tag === 'toefl' || tag === 'gre')).toBe(true);
+      expect(entry.tags.some((tag) => tag === 'toefl' || tag === 'gre' || tag === 'ielts')).toBe(true);
       for (const sense of entry.senses) {
         expect(sense.definitionEn).not.toMatch(/\\n|undefined|<[^>]*>/);
         expect(sense.definitionZh).toMatch(/[\u3400-\u9fff]/);
