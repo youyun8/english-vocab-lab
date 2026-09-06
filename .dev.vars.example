@@ -9,8 +9,11 @@ GITHUB_CLIENT_SECRET=0000000000000000000000000000000000000000
 # Generate with: openssl rand -hex 32
 SESSION_SECRET=change-me-to-a-64-character-hex-string-generated-with-openssl-rand
 
-# Public origin of the app. Must match the GitHub OAuth App's Homepage URL.
-APP_URL=http://localhost:5173
+# Optional. The OAuth redirect URI is derived from the request origin when this
+# is unset, which is what you want locally (http://localhost:5173) and on
+# Cloudflare alike. Set it only to pin a canonical origin - and then register
+# APP_URL + /api/auth/github/callback as the OAuth App's callback URL.
+# APP_URL=http://localhost:5173
 
 # Set to "development" locally so that error responses include the real reason
 # (for example, which secret is missing) instead of a generic message.

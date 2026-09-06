@@ -128,7 +128,7 @@ Browser
         +-- Cloudflare Worker (Hono)
               |
               +-- GitHub OAuth        /api/auth/github, /api/auth/github/callback
-              +-- Sessions            /api/auth/me, /api/auth/logout
+              +-- Sessions            /api/auth/me, /api/auth/logout, /api/auth/github/config
               +-- Progress API        /api/progress
               +-- Quiz API            /api/quiz
               +-- Review API          /api/review
@@ -290,7 +290,10 @@ production. There is no second process to start.
 ### How OAuth works locally
 
 The Worker runs on the same origin as the SPA (`http://localhost:5173`), so the local callback URL
-is `http://localhost:5173/api/auth/github/callback`.
+is `http://localhost:5173/api/auth/github/callback`. That URL is not configured anywhere: the Worker
+derives the OAuth `redirect_uri` from the origin of the incoming request, so the same build works on
+localhost, on `*.workers.dev` and on a custom domain. `GET /api/auth/github/config` prints the exact
+value the running deployment will send to GitHub — the value to register as the callback URL.
 
 **Create a separate GitHub OAuth App for local development.** A GitHub OAuth App has exactly one
 callback URL, so sharing one app between localhost and production is not possible. Two apps also
@@ -310,7 +313,7 @@ With `ENVIRONMENT=development` in `.dev.vars`:
 | `GITHUB_CLIENT_ID` | GitHub OAuth App client id | Not strictly — see below |
 | `GITHUB_CLIENT_SECRET` | GitHub OAuth App client secret | **Yes** |
 | `SESSION_SECRET` | Key used to sign the OAuth state cookie | **Yes** |
-| `APP_URL` | Public origin, e.g. `https://vocab.example.com` | No |
+| `APP_URL` | Optional override for the public origin, e.g. `https://vocab.example.com` | No |
 | `ENVIRONMENT` | `development` locally; anything else means production | No |
 
 **On `GITHUB_CLIENT_ID`:** a client id is not a credential — it is sent to the browser as a query
@@ -328,9 +331,17 @@ fresh deployment needs one extra `secret put` before login works.
 GITHUB_CLIENT_ID=Ov23liYourLocalClientId
 GITHUB_CLIENT_SECRET=your-local-client-secret
 SESSION_SECRET=<openssl rand -hex 32>
-APP_URL=http://localhost:5173
 ENVIRONMENT=development
 ```
+
+**`APP_URL` is optional.** Leave it unset and the redirect URI follows the origin the app is served
+on. Set it only to pin a canonical origin (a reverse proxy, or a custom domain that should own the
+login flow even when the app is also reachable at `*.workers.dev`) — and then register
+`APP_URL + /api/auth/github/callback` as the OAuth App callback URL, exactly.
+
+Never put `APP_URL` in the `vars` block of `wrangler.jsonc`: `vars` are re-uploaded on every
+`wrangler deploy` and overwrite a secret of the same name, which silently resets a deployed origin
+back to whatever the file says.
 
 ### Production
 
@@ -338,7 +349,8 @@ ENVIRONMENT=development
 npx wrangler secret put GITHUB_CLIENT_ID
 npx wrangler secret put GITHUB_CLIENT_SECRET
 npx wrangler secret put SESSION_SECRET
-npx wrangler secret put APP_URL
+# Optional — only to pin a canonical origin:
+# npx wrangler secret put APP_URL
 ```
 
 Generate a session secret with:
@@ -380,8 +392,11 @@ Authorization callback URL:  https://YOUR_WORKER_OR_CUSTOM_DOMAIN/api/auth/githu
 **Do not confuse these two URLs:**
 
 - The **authorization callback URL** is registered with GitHub. GitHub redirects the browser here
-  with `?code=…&state=…`. It must match `APP_URL + /api/auth/github/callback` exactly, or GitHub
-  refuses the request.
+  with `?code=…&state=…`. It must equal the `redirect_uri` the Worker sends — the origin the app is
+  served on plus `/api/auth/github/callback`, or `APP_URL + /api/auth/github/callback` when
+  `APP_URL` is set — exactly, or GitHub refuses the request with *"The redirect_uri is not
+  associated with this application"*. Open `https://YOUR_DEPLOYMENT/api/auth/github/config` to read
+  the exact value back from the running app.
 - The **post-login application redirect** is where *this app* sends the user once the session cookie
   is set. It is never taken from the query string — it is chosen from a fixed allowlist in
   `src/worker/services/github-oauth.ts`, which is what makes an open redirect impossible.
@@ -987,9 +1002,10 @@ npx wrangler d1 migrations apply advanced-english-vocabulary --remote
 
 See [section 8](#8-github-oauth-app-setup). You need the production app's client id and secret next.
 
-On a first deployment you will not yet know the `workers.dev` URL. Deploy once with a placeholder
-`APP_URL`, note the URL Wrangler prints, then set `APP_URL` and the OAuth App's callback URL to it
-and redeploy (step 11).
+On a first deployment you will not yet know the `workers.dev` URL. Deploy first, note the URL
+Wrangler prints (or read `https://YOUR_DEPLOYMENT/api/auth/github/config`), then register that
+callback URL with the OAuth App — no redeploy is needed, because the redirect URI follows the origin
+the app is served on.
 
 ### Step 7 — Set the production secrets
 
@@ -997,8 +1013,9 @@ and redeploy (step 11).
 npx wrangler secret put GITHUB_CLIENT_ID
 npx wrangler secret put GITHUB_CLIENT_SECRET
 npx wrangler secret put SESSION_SECRET
-npx wrangler secret put APP_URL
 ```
+
+`APP_URL` is deliberately not in that list — see [section 7](#7-environment-variables-and-secrets).
 
 ### Step 8 — Validate the project
 
@@ -1042,16 +1059,25 @@ Visit the `*.workers.dev` URL Wrangler printed and check:
 - [ ] logout works, and the old session is rejected afterwards
 - [ ] anonymous mode still works in a private window
 
-### Step 11 — Update the OAuth configuration if the URL changed
+### Step 11 — Register the deployed URL with the OAuth App
 
-If this was a first deployment, update **both**:
+If this was a first deployment, point the GitHub OAuth App's Homepage URL and Authorization callback
+URL at the deployed origin:
 
-```bash
-npx wrangler secret put APP_URL     # https://your-worker.workers.dev
+```text
+Homepage URL:                https://your-worker.workers.dev
+Authorization callback URL:  https://your-worker.workers.dev/api/auth/github/callback
 ```
 
-and the GitHub OAuth App's Homepage URL and Authorization callback URL. Then `npx wrangler deploy`
-again. A mismatch here is the single most common cause of `redirect_uri_mismatch`.
+Confirm the second value against the running app:
+
+```bash
+curl https://your-worker.workers.dev/api/auth/github/config
+```
+
+A mismatch here is the single most common cause of *"The redirect_uri is not associated with this
+application"*. Only set `APP_URL` if you want to pin a canonical origin — and remember that a
+stale `APP_URL` produces exactly that error too.
 
 ### Step 12 — Optional custom domain
 
@@ -1065,22 +1091,24 @@ See the next section.
    at Cloudflare.
 2. Dashboard → **Workers & Pages** → your Worker → **Settings** → **Domains & Routes** → **Add** →
    **Custom domain**. Cloudflare provisions the certificate automatically.
-3. Update `APP_URL`:
-
-```bash
-npx wrangler secret put APP_URL     # https://vocab.example.com
-```
-
-4. Update the GitHub OAuth App:
+3. Update the GitHub OAuth App:
 
 ```text
 Homepage URL:                https://vocab.example.com
 Authorization callback URL:  https://vocab.example.com/api/auth/github/callback
 ```
 
-5. Redeploy: `npx wrangler deploy`.
+4. Optional — pin the custom domain so that a login started at the old `*.workers.dev` URL still
+   lands on it:
 
-All four must agree: the custom domain, `APP_URL`, the OAuth Homepage URL, and the OAuth callback URL.
+```bash
+npx wrangler secret put APP_URL     # https://vocab.example.com
+npx wrangler deploy
+```
+
+The custom domain, the OAuth Homepage URL and the OAuth callback URL must agree; `APP_URL`, when
+set, must agree with them too. If you delete it (`npx wrangler secret delete APP_URL`), the redirect
+URI follows whichever of the two origins the browser used.
 
 ---
 
@@ -1130,9 +1158,19 @@ Known limitations are listed in [troubleshooting](#24-troubleshooting) and
 
 ## 24. Troubleshooting
 
-**`redirect_uri_mismatch` from GitHub**
-The OAuth App's callback URL must exactly equal `APP_URL + /api/auth/github/callback`, including
-scheme, host, port and no trailing slash. Check `npx wrangler secret list` and the OAuth App settings.
+**`redirect_uri_mismatch`, or "The redirect_uri is not associated with this application"**
+The OAuth App's callback URL must exactly equal the `redirect_uri` the Worker sends, including
+scheme, host, port and no trailing slash. Read that value straight from the deployment:
+
+```bash
+curl https://YOUR_DEPLOYMENT/api/auth/github/config
+```
+
+`appUrlSource: "request"` means it follows the origin you called; `appUrlSource: "APP_URL"` means a
+configured `APP_URL` is overriding it — if that value is stale (for instance `http://localhost:5173`
+left over on a production deployment) either update it or remove it with
+`npx wrangler secret delete APP_URL`. Also make sure `APP_URL` is not declared under `vars` in
+`wrangler.jsonc`: `vars` overwrite the secret of the same name on every deploy.
 
 **Redirected to `/?login=failed&reason=invalid_state`**
 The state cookie was missing or did not match. Usually one of: cookies blocked; more than 10 minutes
@@ -1149,7 +1187,7 @@ callback URL.
 
 **`/api/*` returns 500 right after deploying**
 A secret is missing. `npx wrangler secret list`, then set whichever of `GITHUB_CLIENT_ID`,
-`GITHUB_CLIENT_SECRET`, `SESSION_SECRET`, `APP_URL` is absent.
+`GITHUB_CLIENT_SECRET`, `SESSION_SECRET` is absent.
 
 **`D1_ERROR: no such table: users`**
 Migrations were not applied to the remote database:

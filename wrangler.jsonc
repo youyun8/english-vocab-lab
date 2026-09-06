@@ -25,12 +25,15 @@
       "database_id": "00000000-0000-0000-0000-000000000000",
       "migrations_dir": "migrations"
     }
-  ],
+  ]
 
-  "vars": {
-    // Non-secret defaults. Production values are supplied via
-    //   npx wrangler secret put <NAME>
-    // or via the "vars" of a deployment environment.
-    "APP_URL": "http://localhost:5173"
-  }
+  // No "vars" block on purpose. A name listed here is re-uploaded on every
+  // `wrangler deploy` and overwrites the secret of the same name, so an
+  // "APP_URL": "http://localhost:5173" default would silently reset a deployed
+  // origin back to localhost and make GitHub answer the login with
+  // "The redirect_uri is not associated with this application".
+  //
+  // APP_URL is optional: when it is unset the Worker derives the OAuth redirect
+  // URI from the origin of the incoming request. Set it (with
+  // `npx wrangler secret put APP_URL`) only to pin a canonical origin.
 }
