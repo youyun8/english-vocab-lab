@@ -57,7 +57,7 @@ export function WordListRow({ entry, progress }: WordRowProps) {
         {pos.map((p) => partOfSpeechLabelZh[p]).join('、')}
       </td>
       <td className="py-3 pr-4 align-top">
-        <Badge tone="neutral">{entry.cefr}</Badge>
+        <Badge tone="neutral">{entry.cefr}{entry.dictionarySource ? '（估）' : ''}</Badge>
       </td>
       <td className="py-3 pr-4 align-top text-sm text-ink-600">{shortMeaningZh(entry)}</td>
       <td className="py-3 align-top">
@@ -93,7 +93,7 @@ export function WordCard({ entry, progress }: WordRowProps) {
             <Phonetic kk={entry.pronunciation.kk} className="text-xs" />
           </div>
         </div>
-        <Badge tone="neutral">{entry.cefr}</Badge>
+        <Badge tone="neutral">{entry.cefr}{entry.dictionarySource ? '（估）' : ''}</Badge>
       </div>
 
       <p className="mt-2 text-xs text-ink-400">

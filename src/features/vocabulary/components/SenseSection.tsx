@@ -45,7 +45,7 @@ export function SenseSection({
         <p className="mt-1 text-base font-medium text-ink-700">{sense.definitionZh}</p>
       ) : null}
 
-      {showChinese ? (
+      {showChinese && sense.usageExplanationZh ? (
         <div className="mt-4 rounded-md bg-ink-100/70 px-4 py-3">
           <h4 className="text-xs font-semibold tracking-wide text-ink-500 uppercase">用法解析</h4>
           <p className="mt-1.5 text-sm leading-7 text-ink-700">{sense.usageExplanationZh}</p>
@@ -66,7 +66,7 @@ export function SenseSection({
         </div>
       ) : null}
 
-      <div className="mt-5">
+      {sense.examples.length > 0 ? <div className="mt-5">
         <SectionHeading>例句 · Examples</SectionHeading>
         <ul className="space-y-3">
           {sense.examples.map((example) => (
@@ -77,7 +77,7 @@ export function SenseSection({
             />
           ))}
         </ul>
-      </div>
+      </div> : null}
 
       {sense.usageNotes && sense.usageNotes.length > 0 ? (
         <div className="mt-5">

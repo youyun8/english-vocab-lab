@@ -1,10 +1,13 @@
 # English Vocabulary Lab
 
-An interactive **B2–C2 English vocabulary learning platform** built for Traditional Chinese
-(`zh-TW`) speakers. It is designed for long-term daily study rather than as a demo: every word
-comes with KK phonetics, English *and* Traditional Chinese definitions, a written explanation of
-how the word actually behaves, collocations, grammar patterns, common learner mistakes, and
-comparisons against words it is easily confused with.
+An interactive English vocabulary platform for Traditional Chinese (`zh-TW`) speakers preparing
+for TOEFL or GRE. The corpus contains **2,120 words**: 120 detailed B2–C2 lessons and 2,000
+attributed dictionary entries for recognition and review. Every entry has KK phonetics and
+English/Traditional Chinese definitions. The curated lessons additionally explain usage,
+collocations, grammar patterns, common mistakes and confusing words.
+
+Dictionary entries are clearly identified; their CEFR bands are frequency-based estimates.
+See [corpus sources, content depth and import instructions](docs/corpus.md).
 
 Progress works signed-out (in the browser) and signed-in (synchronised to Cloudflare D1 via GitHub
 login).
@@ -45,17 +48,19 @@ login).
 
 **Vocabulary**
 
-- 120 curated B2–C2 entries (36 B2 / 60 C1 / 24 C2) aimed at professional, software-engineering,
-  academic and analytical English.
+- 2,120 distinct entries: 120 curated lessons plus 2,000 TOEFL/GRE dictionary entries.
+  Each exam tag covers 1,500 imported words; use the tag filter to find them.
+- 974 B2 / 863 C1 / 283 C2, including estimated bands on dictionary entries.
+- Paginated word browsing (50 results per page), with search and filters over the full corpus.
 - KK phonetic transcription (American English) for every headword, **machine-verified against the
   CMU Pronouncing Dictionary** (see [KK verification](#17-kk-phonetic-verification)), in a font
   stack chosen for IPA coverage.
 - Multiple parts of speech and multiple senses per entry.
-- Per sense: English definition, Traditional Chinese definition, a written Chinese usage explanation,
+- Per curated sense: English definition, Traditional Chinese definition, a written Chinese usage explanation,
   grammar patterns, collocations, 2–4 natural example sentences with translations, usage notes and
   common learner mistakes.
 - Word families, synonyms, antonyms, and a confusing-word comparison table — present on **every**
-  entry — that links to the other entry when it is in the corpus.
+  curated entry — that links to the other entry when it is in the corpus.
 - Browser speech synthesis for pronunciation (an audio convenience — the KK transcription is the authority).
 
 **Practice**
@@ -164,7 +169,10 @@ code path.
 
 The corpus is loaded through a **lazy** `import.meta.glob`, so each JSON file becomes its own chunk
 fetched on demand, and routes below the dashboard are code-split. This is what lets the corpus grow
-from 120 to several thousand entries without the initial download growing with it.
+to thousands of entries without embedding all definitions in the initial JavaScript bundle.
+All vocabulary chunks are fetched on first corpus use; pagination limits rendering, not downloading.
+
+Historical measurements before the 2,000-word expansion:
 
 ```text
 initial JS bundle   224 kB  (71 kB gzipped)
@@ -199,7 +207,8 @@ src/
 
   data/
     index.ts                lazy, validated content loader
-    vocabulary/b2|c1|c2/    the corpus, ~6 entries per file
+    vocabulary/b2|c1|c2/    curated lessons, ~6 entries per file
+    vocabulary/exam/        dictionary entries, 50 entries per file
     questions/              curated question bank, one file per question type
 
   repositories/
@@ -551,6 +560,9 @@ interface VocabularyEntry {
   commonlyConfusedWith?: ConfusedWord[];
   wordFamily?: WordFamilyItem[];
   tags: string[];
+  dictionarySource?: {
+    name: 'ECDICT'; revision: string; license: 'MIT'; cefrEstimated: true;
+  };
 }
 
 interface VocabularySense {
@@ -560,11 +572,11 @@ interface VocabularySense {
 
   definitionEn: string;
   definitionZh: string;
-  usageExplanationZh: string;         // the "用法解析" block
+  usageExplanationZh?: string;        // required for curated lessons
 
   grammarPatterns?: string[];
   collocations?: Collocation[];
-  examples: ExampleSentence[];        // at least one
+  examples: ExampleSentence[];        // at least one for curated lessons
   usageNotes?: string[];
   commonMistakes?: CommonMistake[];
 }
@@ -621,15 +633,18 @@ freely without corrupting the answer key.
   on nuance — usage, collocation, grammar, confusing words, and any non-trivial cloze — is curated,
   because a generator cannot guarantee that exactly one option is defensible.
 - **Generated** questions are derived from the corpus at runtime, and only for the two simple
-  recognition types (`meaning_en_to_zh`, `meaning_zh_to_en`). Two safeguards keep them fair:
-  distractors are drawn from entries with a matching part of speech, and any entry that is a
-  declared synonym of the target — or whose gloss matches the target's — is excluded, so a question
-  can never have two defensible answers. Ids are derived from `entry.id` + type, so duplicates are
+  recognition types (`meaning_en_to_zh`, `meaning_zh_to_en`). Distractors prefer matching parts
+  of speech. Synonym links in either direction, shared Chinese gloss components and identical
+  English definitions exclude potentially ambiguous distractors. These checks reduce ambiguity
+  but cannot prove that all dictionary meanings are distinct. Ids are derived from `entry.id` + type, so duplicates are
   impossible. See `src/services/question-generator.test.ts`.
 
 ---
 
 ## 14. How to add a vocabulary entry
+
+For dictionary batch imports, see [the reproducible exam corpus workflow](docs/corpus.md).
+The steps below create a full curated lesson; its example and usage requirements remain enforced.
 
 1. Pick the right file: `src/data/vocabulary/<b2|c1|c2>/`. Files hold roughly 6 entries each; create
    a new file whenever one grows unwieldy — the loader globs the directory, so no code changes.

@@ -114,10 +114,10 @@ export const vocabularySenseSchema = z.object({
   register: z.array(registerSchema).nonempty().optional(),
   definitionEn: nonEmpty('sense.definitionEn'),
   definitionZh: nonEmpty('sense.definitionZh'),
-  usageExplanationZh: nonEmpty('sense.usageExplanationZh'),
+  usageExplanationZh: nonEmpty('sense.usageExplanationZh').optional(),
   grammarPatterns: z.array(nonEmpty('grammarPattern')).optional(),
   collocations: z.array(collocationSchema).optional(),
-  examples: z.array(exampleSentenceSchema).min(1, 'sense must have at least one example'),
+  examples: z.array(exampleSentenceSchema),
   usageNotes: z.array(nonEmpty('usageNote')).optional(),
   commonMistakes: z.array(commonMistakeSchema).optional(),
 });
@@ -165,6 +165,23 @@ export const vocabularyEntrySchema = z.object({
   commonlyConfusedWith: z.array(confusedWordSchema).optional(),
   wordFamily: z.array(wordFamilyItemSchema).optional(),
   tags: z.array(nonEmpty('tag')),
+  /** Dictionary entries support recognition; curated lessons retain richer requirements. */
+  dictionarySource: z.object({
+    name: z.literal('ECDICT'),
+    revision: z.string().regex(/^[a-f0-9]{40}$/),
+    license: z.literal('MIT'),
+    cefrEstimated: z.literal(true),
+  }).optional(),
+}).superRefine((entry, ctx) => {
+  if (entry.dictionarySource) return;
+  entry.senses.forEach((sense, index) => {
+    if (!sense.usageExplanationZh) {
+      ctx.addIssue({ code: 'custom', path: ['senses', index, 'usageExplanationZh'], message: 'curated senses require usage guidance' });
+    }
+    if (sense.examples.length === 0) {
+      ctx.addIssue({ code: 'custom', path: ['senses', index, 'examples'], message: 'curated senses require a translated example' });
+    }
+  });
 });
 export type VocabularyEntry = z.infer<typeof vocabularyEntrySchema>;
 
