@@ -255,8 +255,12 @@ export function Toggle({
         <span
           aria-hidden="true"
           className={cn(
-            'absolute top-0.5 h-5 w-5 rounded-full bg-white transition-transform',
-            checked ? 'translate-x-5.5' : 'translate-x-0.5',
+            // `left` must be explicit: without it the knob is placed at its
+            // static position, which a button's centred text alignment puts in
+            // the middle of the track - and the translate then pushes it clean
+            // off the right edge.
+            'absolute top-0.5 left-0.5 h-5 w-5 rounded-full bg-white transition-transform',
+            checked ? 'translate-x-5' : 'translate-x-0',
           )}
         />
       </button>
