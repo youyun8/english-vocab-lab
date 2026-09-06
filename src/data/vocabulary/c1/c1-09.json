@@ -1,0 +1,657 @@
+[
+  {
+    "id": "w_obsolete",
+    "lemma": "obsolete",
+    "slug": "obsolete",
+    "cefr": "C1",
+    "pronunciation": {
+      "kk": "/ˈɑbsəˌlit/",
+      "syllables": "ob·so·lete",
+      "stressNote": "主重音在第一音節，第三音節有次重音；亦可讀 /ˌɑbsəˈlit/。"
+    },
+    "senses": [
+      {
+        "id": "s_obsolete_1",
+        "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "technical",
+          "business"
+        ],
+        "definitionEn": "no longer used or useful, because something better has replaced it",
+        "definitionZh": "過時的；已被取代的",
+        "usageExplanationZh": "obsolete 不只是「舊」，而是「因為有更好的東西出現而不再被使用」。這個因果關係是重點：一個技術可以很舊卻不 obsolete（例如 SQL）。技術文件中它與 deprecated 有明確分工：deprecated 是「官方宣告不建議使用、但還能用」，obsolete 則是「實際上已無人使用」。",
+        "grammarPatterns": [
+          "become obsolete",
+          "render something obsolete"
+        ],
+        "collocations": [
+          {
+            "text": "become obsolete",
+            "meaningZh": "變得過時"
+          },
+          {
+            "text": "render obsolete",
+            "meaningZh": "使……被淘汰",
+            "example": {
+              "en": "Managed databases have rendered much of that tooling obsolete.",
+              "zh": "託管資料庫讓當年許多工具都被淘汰了。",
+              "highlight": "rendered"
+            }
+          },
+          {
+            "text": "technically obsolete",
+            "meaningZh": "技術上已過時的"
+          }
+        ],
+        "examples": [
+          {
+            "en": "The script is obsolete; the platform does this natively now.",
+            "zh": "這個腳本已經沒用了，平台現在原生就支援。",
+            "highlight": "obsolete"
+          },
+          {
+            "en": "Documentation goes obsolete faster than code does.",
+            "zh": "文件過時的速度比程式碼還快。",
+            "highlight": "obsolete"
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "outdated"
+      },
+      {
+        "wordId": "w_supersede",
+        "lemma": "superseded"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "current"
+      },
+      {
+        "lemma": "state-of-the-art"
+      }
+    ],
+    "commonlyConfusedWith": [
+      {
+        "lemma": "deprecated",
+        "distinctionZh": "deprecated 是「官方標示為不建議使用，但仍可運作」，是一種正式的警告；obsolete 是「實際上已經沒人用了」。API 通常先 deprecated，過一段時間才真正 obsolete。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "obsolescence",
+        "partOfSpeech": "noun",
+        "meaningZh": "淘汰；過時"
+      }
+    ],
+    "tags": [
+      "engineering",
+      "technology",
+      "description"
+    ]
+  },
+  {
+    "id": "w_optimal",
+    "lemma": "optimal",
+    "slug": "optimal",
+    "cefr": "C1",
+    "pronunciation": {
+      "kk": "/ˈɑptəməl/",
+      "syllables": "op·ti·mal",
+      "stressNote": "重音在第一音節。"
+    },
+    "senses": [
+      {
+        "id": "s_optimal_1",
+        "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "technical",
+          "academic"
+        ],
+        "definitionEn": "the best possible, given the constraints that apply",
+        "definitionZh": "最佳的（在給定條件下）",
+        "usageExplanationZh": "optimal 是個強字：它宣稱「在這些條件下不可能更好了」，而不只是「很好」。因此嚴謹的技術寫作會說 optimal for what，因為換個目標函數，最佳解就不同了。若只是想說「不錯」，用 good 或 effective 才誠實。片語 sub-optimal 是委婉批評的常用語。",
+        "grammarPatterns": [
+          "optimal for + noun",
+          "the optimal + noun",
+          "sub-optimal"
+        ],
+        "collocations": [
+          {
+            "text": "the optimal solution",
+            "meaningZh": "最佳解"
+          },
+          {
+            "text": "optimal for",
+            "meaningZh": "對……而言最佳",
+            "example": {
+              "en": "This layout is optimal for reads and poor for writes.",
+              "zh": "這種配置對讀取而言是最佳的，對寫入則很差。",
+              "highlight": "optimal for"
+            }
+          },
+          {
+            "text": "sub-optimal",
+            "meaningZh": "不夠理想的"
+          },
+          {
+            "text": "near-optimal",
+            "meaningZh": "接近最佳的"
+          }
+        ],
+        "examples": [
+          {
+            "en": "There is no optimal cache size; it depends on the access pattern.",
+            "zh": "並不存在最佳的快取大小，一切取決於存取模式。",
+            "highlight": "optimal"
+          },
+          {
+            "en": "The current arrangement is workable but clearly sub-optimal.",
+            "zh": "目前的安排行得通，但顯然不夠理想。",
+            "highlight": "sub-optimal"
+          }
+        ],
+        "usageNotes": [
+          "optimal 在嚴格意義上沒有比較級：某個方案要嘛是最佳，要嘛不是。more optimal 在技術寫作中會被視為用語不嚴謹，建議改用 better。"
+        ],
+        "commonMistakes": [
+          {
+            "incorrect": "This approach is more optimal than the old one.",
+            "correct": "This approach is better than the old one.",
+            "explanationZh": "optimal 本身已是最高級的概念，不應再加比較級。要比較請用 better。"
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "ideal"
+      },
+      {
+        "lemma": "best"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "sub-optimal"
+      }
+    ],
+    "commonlyConfusedWith": [
+      {
+        "lemma": "optimum",
+        "distinctionZh": "optimal 是形容詞（the optimal size），optimum 主要作名詞，指「最佳點」本身（find the optimum）。optimum 偶爾也作形容詞，但在技術寫作中用 optimal 較穩妥。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "optimize",
+        "partOfSpeech": "verb",
+        "meaningZh": "最佳化"
+      },
+      {
+        "lemma": "optimization",
+        "partOfSpeech": "noun",
+        "meaningZh": "最佳化"
+      },
+      {
+        "lemma": "optimally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "以最佳方式"
+      }
+    ],
+    "tags": [
+      "engineering",
+      "academic",
+      "evaluation"
+    ]
+  },
+  {
+    "id": "w_pragmatic",
+    "lemma": "pragmatic",
+    "slug": "pragmatic",
+    "cefr": "C1",
+    "pronunciation": {
+      "kk": "/prægˈmætɪk/",
+      "syllables": "prag·mat·ic",
+      "stressNote": "重音在第二音節 -mat-。"
+    },
+    "senses": [
+      {
+        "id": "s_pragmatic_1",
+        "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "business",
+          "technical"
+        ],
+        "definitionEn": "dealing with things in a practical way, based on what actually works rather than on theory or principle",
+        "definitionZh": "務實的；以實際效果為準的",
+        "usageExplanationZh": "pragmatic 是正面的評價，指「以能不能行得通為判準」，而不是死守原則或理論。工程文化中常說 be pragmatic about X，意思是接受一個不完美但夠用的做法。要注意它不等於「隨便」——務實仍需理由，只是理由來自實務效果。",
+        "grammarPatterns": [
+          "a pragmatic + noun",
+          "be pragmatic about + noun",
+          "take a pragmatic approach"
+        ],
+        "collocations": [
+          {
+            "text": "a pragmatic approach",
+            "meaningZh": "務實的做法",
+            "example": {
+              "en": "We took a pragmatic approach: fix the symptom now, the cause next quarter.",
+              "zh": "我們採取務實的做法：先處理症狀，根本原因留到下一季。",
+              "highlight": "a pragmatic approach"
+            }
+          },
+          {
+            "text": "pragmatic about",
+            "meaningZh": "對……採取務實態度"
+          },
+          {
+            "text": "a pragmatic compromise",
+            "meaningZh": "務實的折衷"
+          }
+        ],
+        "examples": [
+          {
+            "en": "Being pragmatic does not mean lowering the bar for correctness.",
+            "zh": "務實並不代表降低對正確性的要求。",
+            "highlight": "pragmatic"
+          },
+          {
+            "en": "The most pragmatic option is to ship behind a feature flag.",
+            "zh": "最務實的選項是把功能藏在旗標後面先上線。",
+            "highlight": "pragmatic"
+          }
+        ],
+        "usageNotes": [
+          "名詞 pragmatics 在語言學中另有專門意義（語用學），研究語境如何影響意義，與「務實」的日常義無關。"
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "practical"
+      },
+      {
+        "lemma": "realistic"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "dogmatic"
+      },
+      {
+        "lemma": "idealistic"
+      }
+    ],
+    "commonlyConfusedWith": [
+      {
+        "lemma": "practical",
+        "distinctionZh": "practical 描述「實際可行、好用」，可以形容工具（a practical tool）；pragmatic 描述「判斷取捨時以效果為準」，通常形容人、態度或做法，帶有「願意妥協」的意味。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "pragmatism",
+        "partOfSpeech": "noun",
+        "meaningZh": "務實主義"
+      },
+      {
+        "lemma": "pragmatically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "務實地"
+      }
+    ],
+    "tags": [
+      "business",
+      "engineering",
+      "attitude"
+    ]
+  },
+  {
+    "id": "w_precedent",
+    "lemma": "precedent",
+    "slug": "precedent",
+    "cefr": "C1",
+    "pronunciation": {
+      "kk": "/ˈprɛsɪdənt/",
+      "syllables": "prec·e·dent",
+      "stressNote": "重音在第一音節；注意與 president /ˈprɛzɪdənt/ 發音不同。"
+    },
+    "forms": {
+      "plural": "precedents"
+    },
+    "senses": [
+      {
+        "id": "s_precedent_1",
+        "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business",
+          "academic"
+        ],
+        "definitionEn": "an earlier decision or event that is used as an example or justification for later ones",
+        "definitionZh": "先例；前例",
+        "usageExplanationZh": "precedent 的重點是「這件事之後會被拿來當作依據」。因此職場中說 I don't want to set a precedent，意思是擔心這次的例外以後會變成常規。片語 set a precedent（開先例）與 without precedent（史無前例）都是高頻用法。",
+        "grammarPatterns": [
+          "set a precedent",
+          "there is no precedent for + noun",
+          "without precedent"
+        ],
+        "collocations": [
+          {
+            "text": "set a precedent",
+            "meaningZh": "開先例",
+            "example": {
+              "en": "Approving this exception would set a precedent we cannot maintain.",
+              "zh": "核准這次例外會開一個我們維持不下去的先例。",
+              "highlight": "set a precedent"
+            }
+          },
+          {
+            "text": "follow precedent",
+            "meaningZh": "依循前例"
+          },
+          {
+            "text": "no precedent for",
+            "meaningZh": "沒有……的前例"
+          },
+          {
+            "text": "a dangerous precedent",
+            "meaningZh": "危險的先例"
+          }
+        ],
+        "examples": [
+          {
+            "en": "There is precedent for shipping without a full security review.",
+            "zh": "未經完整資安審查就上線，這是有前例的。",
+            "highlight": "precedent"
+          },
+          {
+            "en": "The decision was unusual but not without precedent.",
+            "zh": "這個決定並不尋常，但並非史無前例。",
+            "highlight": "precedent"
+          }
+        ],
+        "commonMistakes": [
+          {
+            "incorrect": "This sets a president for future requests.",
+            "correct": "This sets a precedent for future requests.",
+            "explanationZh": "precedent（先例）與 president（總統）拼字相近但完全不同，是拼寫檢查抓不到的典型錯誤。"
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "prior example"
+      }
+    ],
+    "antonyms": [
+      {
+        "wordId": "w_unprecedented",
+        "lemma": "unprecedented"
+      }
+    ],
+    "commonlyConfusedWith": [
+      {
+        "lemma": "president",
+        "distinctionZh": "precedent /ˈprɛsɪdənt/ 是「先例」，president /ˈprɛzɪdənt/ 是「總統、總裁」。第二個音節的 s 與 z 是關鍵差異。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "unprecedented",
+        "partOfSpeech": "adjective",
+        "meaningZh": "史無前例的"
+      },
+      {
+        "lemma": "precede",
+        "partOfSpeech": "verb",
+        "meaningZh": "先於"
+      }
+    ],
+    "tags": [
+      "business",
+      "legal",
+      "argument"
+    ]
+  },
+  {
+    "id": "w_premise",
+    "lemma": "premise",
+    "slug": "premise",
+    "cefr": "C1",
+    "pronunciation": {
+      "kk": "/ˈprɛmɪs/",
+      "syllables": "prem·ise",
+      "stressNote": "重音在第一音節。"
+    },
+    "forms": {
+      "plural": "premises"
+    },
+    "senses": [
+      {
+        "id": "s_premise_1",
+        "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
+        "definitionEn": "a statement that an argument starts from and treats as true",
+        "definitionZh": "前提（論證的出發點）",
+        "usageExplanationZh": "premise 是邏輯與論證的術語：論證從前提出發，推導出結論。它與 assumption 的差別在於明示程度——premise 通常是寫出來、可供檢視的。批評一個論證最有力的方式往往不是質疑推論，而是質疑前提：the argument rests on a false premise。",
+        "grammarPatterns": [
+          "on the premise that + clause",
+          "the premise of + noun",
+          "a false premise"
+        ],
+        "collocations": [
+          {
+            "text": "on the premise that",
+            "meaningZh": "基於……的前提",
+            "example": {
+              "en": "The design proceeds on the premise that writes are rare.",
+              "zh": "這個設計是基於「寫入很少見」這個前提展開的。",
+              "highlight": "on the premise that"
+            }
+          },
+          {
+            "text": "a false premise",
+            "meaningZh": "錯誤的前提"
+          },
+          {
+            "text": "the basic premise",
+            "meaningZh": "基本前提"
+          },
+          {
+            "text": "question the premise",
+            "meaningZh": "質疑前提"
+          }
+        ],
+        "examples": [
+          {
+            "en": "The whole plan rests on a premise nobody has checked.",
+            "zh": "整個計畫建立在一個沒有人驗證過的前提上。",
+            "highlight": "premise"
+          },
+          {
+            "en": "I accept the conclusion but reject the premise.",
+            "zh": "我接受這個結論，但不接受它的前提。",
+            "highlight": "premise"
+          }
+        ],
+        "usageNotes": [
+          "複數 premises 另有一個完全不同的意思：「（公司或建築的）場所、房舍」，如 on the premises（在場內）。兩者僅在複數時同形。"
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "wordId": "w_assumption",
+        "lemma": "assumption",
+        "noteZh": "偏向未明說的假設。"
+      },
+      {
+        "lemma": "postulate"
+      }
+    ],
+    "commonlyConfusedWith": [
+      {
+        "lemma": "assumption",
+        "wordId": "w_assumption",
+        "distinctionZh": "premise 是「明白列出、作為論證起點」的陳述；assumption 可能是無意識、沒說出口的。學術論證談 premises，除錯時挖出來的則是 hidden assumptions。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "premised",
+        "partOfSpeech": "adjective",
+        "meaningZh": "以……為前提的"
+      }
+    ],
+    "tags": [
+      "academic",
+      "logic",
+      "argument"
+    ]
+  },
+  {
+    "id": "w_redundant",
+    "lemma": "redundant",
+    "slug": "redundant",
+    "cefr": "C1",
+    "pronunciation": {
+      "kk": "/rɪˈdʌndənt/",
+      "syllables": "re·dun·dant",
+      "stressNote": "重音在第二音節 -dun-。"
+    },
+    "senses": [
+      {
+        "id": "s_redundant_1",
+        "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "technical"
+        ],
+        "definitionEn": "unnecessary because it repeats something that is already there",
+        "definitionZh": "多餘的；重複而不必要的",
+        "usageExplanationZh": "redundant 在寫作與程式碼審查中都是負面評價：這段內容重複了，可以刪掉。要注意 redundancy 在系統設計中卻是正面的——備援副本正是刻意的重複，用來提高可靠性。同一個字在兩個語境中一褒一貶，要靠上下文判斷。",
+        "grammarPatterns": [
+          "a redundant + noun",
+          "make something redundant"
+        ],
+        "collocations": [
+          {
+            "text": "redundant code",
+            "meaningZh": "多餘的程式碼"
+          },
+          {
+            "text": "become redundant",
+            "meaningZh": "變得多餘"
+          },
+          {
+            "text": "redundant checks",
+            "meaningZh": "重複的檢查",
+            "example": {
+              "en": "Two layers perform the same validation, so one set of checks is redundant.",
+              "zh": "兩層都做了同樣的驗證，所以其中一組檢查是多餘的。",
+              "highlight": "redundant"
+            }
+          }
+        ],
+        "examples": [
+          {
+            "en": "The comment is redundant: it just restates the function name.",
+            "zh": "這則註解是多餘的，它只是把函式名稱再說了一遍。",
+            "highlight": "redundant"
+          },
+          {
+            "en": "Once the gateway validates the token, the check downstream is redundant.",
+            "zh": "既然閘道已經驗證過權杖，下游的檢查就是多餘的。",
+            "highlight": "redundant"
+          }
+        ]
+      },
+      {
+        "id": "s_redundant_2",
+        "partOfSpeech": "adjective",
+        "register": [
+          "technical"
+        ],
+        "definitionEn": "duplicated on purpose, so that the system keeps working if one copy fails",
+        "definitionZh": "備援的（刻意重複以提高可靠性）",
+        "usageExplanationZh": "在系統設計語境中，redundancy 是設計目標而非缺點：多準備一份，是為了在其中一份故障時仍能運作。RAID 中的 R 就是 redundant。判斷褒貶的關鍵是問：這個重複是無意的浪費，還是刻意的保險？",
+        "collocations": [
+          {
+            "text": "a redundant power supply",
+            "meaningZh": "備援電源"
+          },
+          {
+            "text": "build in redundancy",
+            "meaningZh": "建立備援機制"
+          }
+        ],
+        "examples": [
+          {
+            "en": "Every critical path has a redundant instance in another region.",
+            "zh": "每一條關鍵路徑在另一個區域都有備援的執行個體。",
+            "highlight": "redundant"
+          },
+          {
+            "en": "Redundancy costs money; downtime costs more.",
+            "zh": "備援要花錢，但停機的代價更高。",
+            "highlight": "Redundancy"
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "superfluous",
+        "noteZh": "更正式，僅有「多餘」義。"
+      },
+      {
+        "lemma": "unnecessary"
+      }
+    ],
+    "antonyms": [
+      {
+        "wordId": "w_indispensable",
+        "lemma": "indispensable"
+      },
+      {
+        "wordId": "w_concise",
+        "lemma": "concise"
+      }
+    ],
+    "commonlyConfusedWith": [
+      {
+        "lemma": "duplicate",
+        "distinctionZh": "duplicate 只是中性地陳述「有兩份一樣的」；redundant 加上了判斷——因為重複，所以其中一份不必要（或在系統設計中，刻意保留以備援）。找出 duplicates 是觀察，判定 redundant 是結論。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "redundancy",
+        "partOfSpeech": "noun",
+        "meaningZh": "冗餘；備援"
+      },
+      {
+        "lemma": "redundantly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "多餘地"
+      }
+    ],
+    "tags": [
+      "engineering",
+      "writing",
+      "reliability"
+    ]
+  }
+]

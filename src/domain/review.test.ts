@@ -3,10 +3,12 @@ import { describe, expect, it } from 'vitest';
 import { createEmptyProgress, accuracy, type WordProgress } from './progress';
 import {
   DAY_MS,
+  DEFAULT_REVIEW_INTERVALS_DAYS,
   applyReviewOutcome,
   dueForReview,
   intervalDaysForStreak,
   markSeen,
+  masteryStreak,
   overdueDays,
   rankByWeakness,
   weaknessScore,
@@ -35,6 +37,73 @@ describe('intervalDaysForStreak', () => {
   it('clamps rather than overflowing for very long streaks', () => {
     expect(intervalDaysForStreak(99)).toBe(30);
     expect(intervalDaysForStreak(-5)).toBe(1);
+  });
+});
+
+describe('configurable review ladders', () => {
+  const intensive = [1, 2, 4, 8, 16];
+  const short = [3, 10];
+
+  it('reads the interval from the ladder it is given', () => {
+    expect(intervalDaysForStreak(0, intensive)).toBe(1);
+    expect(intervalDaysForStreak(2, intensive)).toBe(4);
+    expect(intervalDaysForStreak(4, intensive)).toBe(16);
+    expect(intervalDaysForStreak(9, intensive)).toBe(16);
+  });
+
+  it('defaults to the standard ladder when none is given', () => {
+    expect(intervalDaysForStreak(1)).toBe(3);
+    expect(DEFAULT_REVIEW_INTERVALS_DAYS).toEqual([1, 3, 7, 14, 30]);
+  });
+
+  it('falls back to the standard ladder rather than crashing on an empty one', () => {
+    expect(intervalDaysForStreak(1, [])).toBe(3);
+  });
+
+  it('schedules using the learner’s ladder', () => {
+    const after = applyReviewOutcome({
+      progress: base(),
+      correct: true,
+      now: NOW,
+      intervals: intensive,
+    });
+    expect(daysBetween(NOW, after.nextReviewAt)).toBe(2);
+  });
+
+  it('uses the learner’s ladder for a mistake too', () => {
+    const after = applyReviewOutcome({
+      progress: base({ reviewStreak: 3 }),
+      correct: false,
+      now: NOW,
+      intervals: [5, 12, 30],
+    });
+    expect(daysBetween(NOW, after.nextReviewAt)).toBe(5);
+  });
+
+  it('derives the mastery streak from the ladder length', () => {
+    expect(masteryStreak()).toBe(4);
+    expect(masteryStreak(intensive)).toBe(4);
+    expect(masteryStreak(short)).toBe(1);
+    expect(masteryStreak([7])).toBe(1);
+  });
+
+  it('reaches mastery sooner on a shorter ladder', () => {
+    let progress = base();
+    for (let i = 0; i < 2; i += 1) {
+      progress = applyReviewOutcome({ progress, correct: true, now: NOW, intervals: short });
+    }
+    expect(progress.status).toBe('mastered');
+
+    // The same two correct answers on the default ladder are not enough.
+    let onDefault = base();
+    for (let i = 0; i < 2; i += 1) {
+      onDefault = applyReviewOutcome({ progress: onDefault, correct: true, now: NOW });
+    }
+    expect(onDefault.status).toBe('reviewing');
+  });
+
+  it('uses the ladder when scheduling a first sighting', () => {
+    expect(daysBetween(NOW, markSeen(base(), NOW, [4, 9]).nextReviewAt)).toBe(4);
   });
 });
 

@@ -1,0 +1,190 @@
+[
+  {
+    "id": "q_me_assumption_01",
+    "type": "meaning_en_to_zh",
+    "cefr": "B2",
+    "wordIds": ["w_assumption"],
+    "prompt": "What does \"assumption\" mean here?",
+    "context": "The design rests on the assumption that requests arrive in order.",
+    "options": [
+      { "id": "a", "text": "未經證明就當作真的前提" },
+      { "id": "b", "text": "經過實驗驗證的結論" },
+      { "id": "c", "text": "正式簽署的協議" },
+      { "id": "d", "text": "系統的技術規格" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "assumption 指「沒有證明就接受、並據以推論的前提」。",
+    "distractorExplanations": {
+      "b": "已驗證的結論是 conclusion 或 finding，與未經證明的前提相反。",
+      "c": "正式協議是 agreement 或 contract。",
+      "d": "技術規格是 specification。"
+    },
+    "difficulty": 2,
+    "tags": ["meaning", "engineering"],
+    "source": "curated"
+  },
+  {
+    "id": "q_me_pragmatic_01",
+    "type": "meaning_en_to_zh",
+    "cefr": "C1",
+    "wordIds": ["w_pragmatic"],
+    "prompt": "What does \"pragmatic\" mean here?",
+    "context": "We took a pragmatic approach: fix the symptom now, the cause next quarter.",
+    "options": [
+      { "id": "a", "text": "務實的，以實際效果為判準" },
+      { "id": "b", "text": "固守原則、不願妥協的" },
+      { "id": "c", "text": "追求完美、不計成本的" },
+      { "id": "d", "text": "草率而缺乏規劃的" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "pragmatic 指以「行不行得通」為判準，願意接受不完美但夠用的做法。",
+    "distractorExplanations": {
+      "b": "固守原則是 dogmatic，正是 pragmatic 的反面。",
+      "c": "不計成本追求完美與務實相反。",
+      "d": "pragmatic 是正面評價，不等於草率——務實仍需理由。"
+    },
+    "difficulty": 3,
+    "tags": ["meaning", "attitude"],
+    "source": "curated"
+  },
+  {
+    "id": "q_me_tacit_01",
+    "type": "meaning_en_to_zh",
+    "cefr": "C2",
+    "wordIds": ["w_tacit"],
+    "prompt": "What does \"tacit\" mean in this sentence?",
+    "context": "Silence in a code review is often read as tacit approval.",
+    "options": [
+      { "id": "a", "text": "未明說卻心照不宣的" },
+      { "id": "b", "text": "以書面正式記載的" },
+      { "id": "c", "text": "勉強而不情願的" },
+      { "id": "d", "text": "暫時而可隨時撤回的" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "tacit 指「沒有說出口，但雙方都明白」的共識或許可。",
+    "distractorExplanations": {
+      "b": "書面正式記載正是 explicit，與 tacit 相反。",
+      "c": "勉強不情願是 reluctant，與是否說出口無關。",
+      "d": "暫時可撤回是 provisional 或 revocable。"
+    },
+    "difficulty": 4,
+    "tags": ["meaning", "workplace"],
+    "source": "curated"
+  },
+  {
+    "id": "q_me_untenable_01",
+    "type": "meaning_en_to_zh",
+    "cefr": "C2",
+    "wordIds": ["w_untenable"],
+    "prompt": "What does \"untenable\" mean here?",
+    "context": "Maintaining four release branches with three engineers proved untenable.",
+    "options": [
+      { "id": "a", "text": "難以為繼、守不住的" },
+      { "id": "b", "text": "史無前例、從未發生過的" },
+      { "id": "c", "text": "極為昂貴但仍可行的" },
+      { "id": "d", "text": "技術上不可能實作的" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "untenable 指「立場或處境無法維持下去」，這裡是人力撐不住四條分支。",
+    "distractorExplanations": {
+      "b": "史無前例是 unprecedented。",
+      "c": "untenable 的重點正是「撐不下去」，不是「仍可行」。",
+      "d": "技術上做不到是 infeasible；這件事做得到，只是維持不了。"
+    },
+    "difficulty": 4,
+    "tags": ["meaning", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_me_zh_facilitate_01",
+    "type": "meaning_zh_to_en",
+    "cefr": "C1",
+    "wordIds": ["w_facilitate"],
+    "prompt": "哪一個英文單字最接近「促進、使某個過程更容易進行」？",
+    "options": [
+      { "id": "a", "text": "facilitate" },
+      { "id": "b", "text": "fabricate" },
+      { "id": "c", "text": "fluctuate" },
+      { "id": "d", "text": "formulate" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "facilitate 指「讓某個過程進行得更順利」，自己不是主角。",
+    "distractorExplanations": {
+      "b": "fabricate 是「捏造、製造」。",
+      "c": "fluctuate 是「波動起伏」。",
+      "d": "formulate 是「明確表述、擬定」。"
+    },
+    "difficulty": 3,
+    "tags": ["meaning", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_me_zh_threshold_01",
+    "type": "meaning_zh_to_en",
+    "cefr": "C1",
+    "wordIds": ["w_threshold"],
+    "prompt": "哪一個英文單字最接近「跨過去就會觸發某事的臨界值」？",
+    "options": [
+      { "id": "a", "text": "threshold" },
+      { "id": "b", "text": "thoroughfare" },
+      { "id": "c", "text": "throughput" },
+      { "id": "d", "text": "thermostat" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "threshold 就是「臨界點」，越過即觸發後續行為。",
+    "distractorExplanations": {
+      "b": "thoroughfare 是「大道、通行道路」。",
+      "c": "throughput 是「吞吐量」，指單位時間的處理量。",
+      "d": "thermostat 是「恆溫器」。"
+    },
+    "difficulty": 3,
+    "tags": ["meaning", "monitoring"],
+    "source": "curated"
+  },
+  {
+    "id": "q_me_zh_obsolete_01",
+    "type": "meaning_zh_to_en",
+    "cefr": "C1",
+    "wordIds": ["w_obsolete"],
+    "prompt": "哪一個英文單字最接近「因為被更好的東西取代而不再使用的」？",
+    "options": [
+      { "id": "a", "text": "obsolete" },
+      { "id": "b", "text": "obscure" },
+      { "id": "c", "text": "obsessive" },
+      { "id": "d", "text": "obedient" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "obsolete 的核心是「有更好的替代品出現，因此被淘汰」。",
+    "distractorExplanations": {
+      "b": "obscure 是「晦澀的、不為人知的」。",
+      "c": "obsessive 是「執著到近乎偏執的」。",
+      "d": "obedient 是「服從的」。"
+    },
+    "difficulty": 3,
+    "tags": ["meaning", "technology"],
+    "source": "curated"
+  },
+  {
+    "id": "q_me_zh_cogent_01",
+    "type": "meaning_zh_to_en",
+    "cefr": "C2",
+    "wordIds": ["w_cogent"],
+    "prompt": "哪一個英文單字最接近「論理嚴密因而令人信服的」？",
+    "options": [
+      { "id": "a", "text": "cogent" },
+      { "id": "b", "text": "cogitate" },
+      { "id": "c", "text": "coherent" },
+      { "id": "d", "text": "congruent" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "cogent 專指「因推理嚴謹而具說服力」，幾乎只修飾 argument、case、reason。",
+    "distractorExplanations": {
+      "b": "cogitate 是動詞「沉思」。",
+      "c": "coherent 只要求「前後連貫、講得通」，不保證有說服力。",
+      "d": "congruent 是「一致的、全等的」，多用於數學或形式對應。"
+    },
+    "difficulty": 5,
+    "tags": ["meaning", "argument"],
+    "source": "curated"
+  }
+]

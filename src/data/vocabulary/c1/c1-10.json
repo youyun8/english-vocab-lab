@@ -1,0 +1,606 @@
+[
+  {
+    "id": "w_refute",
+    "lemma": "refute",
+    "slug": "refute",
+    "cefr": "C1",
+    "pronunciation": {
+      "kk": "/rɪˈfjut/",
+      "syllables": "re·fute",
+      "stressNote": "重音在第二音節。"
+    },
+    "forms": {
+      "past": "refuted",
+      "pastParticiple": "refuted",
+      "presentParticiple": "refuting",
+      "thirdPersonSingular": "refutes"
+    },
+    "senses": [
+      {
+        "id": "s_refute_1",
+        "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
+        "definitionEn": "to prove that a statement or theory is wrong, by giving evidence or argument",
+        "definitionZh": "駁倒；以證據推翻",
+        "usageExplanationZh": "refute 是很強的字：它宣稱「已經證明對方錯了」，而不只是「不同意」。這是它與 deny（否認）和 dispute（有異議）最重要的差別。若手上沒有證據就說 I refute that，在正式寫作中會被視為用字過當——那種情況應該用 dispute 或 reject。",
+        "grammarPatterns": [
+          "refute a claim",
+          "refute the argument that + clause"
+        ],
+        "collocations": [
+          {
+            "text": "refute a claim",
+            "meaningZh": "駁倒某項主張",
+            "example": {
+              "en": "A single reproducible counterexample refutes the claim.",
+              "zh": "一個可重現的反例就足以推翻這項主張。",
+              "highlight": "refutes the claim"
+            }
+          },
+          {
+            "text": "conclusively refute",
+            "meaningZh": "確鑿地駁倒"
+          },
+          {
+            "text": "difficult to refute",
+            "meaningZh": "難以反駁的"
+          }
+        ],
+        "examples": [
+          {
+            "en": "The benchmark refutes the assumption that the cache was the bottleneck.",
+            "zh": "這項效能測試推翻了「快取是瓶頸」這個假設。",
+            "highlight": "refutes"
+          },
+          {
+            "en": "Their argument is difficult to refute without better data.",
+            "zh": "在沒有更好的數據之前，他們的論點很難反駁。",
+            "highlight": "refute"
+          }
+        ],
+        "commonMistakes": [
+          {
+            "incorrect": "I refute your claim, but I have no evidence.",
+            "correct": "I dispute your claim, but I have no evidence.",
+            "explanationZh": "refute 意味著「已用證據證明對方錯誤」。只是不同意而沒有證據時，應該用 dispute 或 disagree with。"
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "disprove"
+      },
+      {
+        "lemma": "rebut",
+        "noteZh": "指提出反駁論點，不保證成功。"
+      }
+    ],
+    "antonyms": [
+      {
+        "wordId": "w_corroborate",
+        "lemma": "corroborate"
+      },
+      {
+        "lemma": "substantiate"
+      }
+    ],
+    "commonlyConfusedWith": [
+      {
+        "lemma": "deny",
+        "distinctionZh": "deny 只是「說那不是真的」，不提供證據；refute 是「用證據證明那不是真的」。政治人物 deny 指控，科學家 refute 假說。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "refutation",
+        "partOfSpeech": "noun",
+        "meaningZh": "駁斥"
+      },
+      {
+        "lemma": "irrefutable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "無可辯駁的"
+      }
+    ],
+    "tags": [
+      "academic",
+      "argument",
+      "logic"
+    ]
+  },
+  {
+    "id": "w_resilient",
+    "lemma": "resilient",
+    "slug": "resilient",
+    "cefr": "C1",
+    "pronunciation": {
+      "kk": "/rɪˈzɪljənt/",
+      "syllables": "re·sil·ient",
+      "stressNote": "重音在第二音節 -sil-。"
+    },
+    "senses": [
+      {
+        "id": "s_resilient_1",
+        "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "technical",
+          "business"
+        ],
+        "definitionEn": "able to recover quickly after something goes wrong",
+        "definitionZh": "有韌性的；能快速復原的",
+        "usageExplanationZh": "resilient 的重點是「復原」，不是「不壞」。這與 robust 形成一組重要的對照：robust 系統不容易出錯，resilient 系統出錯後能迅速恢復。分散式系統設計通常兩者都要，因為在足夠大的規模下，故障是必然而非例外。介系詞用 to。",
+        "grammarPatterns": [
+          "resilient to + noun",
+          "build resilience into + noun"
+        ],
+        "collocations": [
+          {
+            "text": "resilient to failure",
+            "meaningZh": "能承受故障並復原",
+            "example": {
+              "en": "The queue makes the pipeline resilient to downstream outages.",
+              "zh": "這個佇列讓整條管線在下游中斷時仍能復原。",
+              "highlight": "resilient to"
+            }
+          },
+          {
+            "text": "a resilient system",
+            "meaningZh": "有韌性的系統"
+          },
+          {
+            "text": "build resilience",
+            "meaningZh": "建立韌性"
+          }
+        ],
+        "examples": [
+          {
+            "en": "We cannot prevent every failure, so the system must be resilient.",
+            "zh": "我們無法防止每一次故障，因此系統必須具備韌性。",
+            "highlight": "resilient"
+          },
+          {
+            "en": "Retries with backoff make the client resilient to brief network blips.",
+            "zh": "搭配退避的重試讓用戶端能承受短暫的網路抖動。",
+            "highlight": "resilient to"
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "wordId": "w_robust",
+        "lemma": "robust",
+        "noteZh": "強調不易損壞，而非復原。"
+      },
+      {
+        "lemma": "adaptable"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "fragile"
+      },
+      {
+        "wordId": "w_precarious",
+        "lemma": "precarious"
+      }
+    ],
+    "commonlyConfusedWith": [
+      {
+        "lemma": "robust",
+        "wordId": "w_robust",
+        "distinctionZh": "robust 是「不容易壞」，resilient 是「壞了也能很快站起來」。一個 robust 的服務擋得住異常輸入；一個 resilient 的服務在節點掛掉後幾秒內自動恢復。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "resilience",
+        "partOfSpeech": "noun",
+        "meaningZh": "韌性；復原力"
+      }
+    ],
+    "tags": [
+      "engineering",
+      "reliability",
+      "business"
+    ]
+  },
+  {
+    "id": "w_streamline",
+    "lemma": "streamline",
+    "slug": "streamline",
+    "cefr": "C1",
+    "pronunciation": {
+      "kk": "/ˈstrimˌlaɪn/",
+      "syllables": "stream·line",
+      "stressNote": "主重音在第一音節；複合字，第二音節有次重音。"
+    },
+    "forms": {
+      "past": "streamlined",
+      "pastParticiple": "streamlined",
+      "presentParticiple": "streamlining",
+      "thirdPersonSingular": "streamlines"
+    },
+    "senses": [
+      {
+        "id": "s_streamline_1",
+        "partOfSpeech": "verb",
+        "register": [
+          "business",
+          "technical"
+        ],
+        "definitionEn": "to make a process simpler and more efficient by removing unnecessary steps",
+        "definitionZh": "簡化流程；使更有效率",
+        "usageExplanationZh": "streamline 的具體來源是空氣力學中的「流線型」，因此它的核心意象是「去掉阻力」。受詞通常是流程而非物品：streamline the approval process。它與 consolidate 的差別在於：consolidate 是把多個合併成一個，streamline 是把一個流程中的贅步驟拿掉。",
+        "grammarPatterns": [
+          "streamline a process",
+          "streamlined + noun"
+        ],
+        "collocations": [
+          {
+            "text": "streamline the process",
+            "meaningZh": "簡化流程",
+            "example": {
+              "en": "We streamlined the release process from nine steps to three.",
+              "zh": "我們把發布流程從九個步驟簡化成三個。",
+              "highlight": "streamlined the release process"
+            }
+          },
+          {
+            "text": "streamline operations",
+            "meaningZh": "精簡營運"
+          },
+          {
+            "text": "a streamlined workflow",
+            "meaningZh": "精簡過的工作流程"
+          }
+        ],
+        "examples": [
+          {
+            "en": "Automating the checks streamlined review without lowering standards.",
+            "zh": "把檢查自動化簡化了審查流程，卻沒有降低標準。",
+            "highlight": "streamlined"
+          },
+          {
+            "en": "Before adding tooling, ask whether the process itself can be streamlined.",
+            "zh": "在增加工具之前，先問問流程本身能不能精簡。",
+            "highlight": "streamlined"
+          }
+        ],
+        "usageNotes": [
+          "商務語境中 streamline 有時是裁員的委婉說法（streamline the organisation），使用時要留意語氣。"
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "simplify"
+      },
+      {
+        "lemma": "rationalize",
+        "noteZh": "商務用語，常暗示裁減。"
+      }
+    ],
+    "commonlyConfusedWith": [
+      {
+        "lemma": "consolidate",
+        "wordId": "w_consolidate",
+        "distinctionZh": "consolidate 是把「多個東西合併成較少的整體」，數量減少；streamline 是把「一個流程中多餘的步驟拿掉」，讓它跑得更順。十個儀表板變三個是 consolidate，九步審查變三步是 streamline。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "streamlined",
+        "partOfSpeech": "adjective",
+        "meaningZh": "精簡的；流線型的"
+      }
+    ],
+    "tags": [
+      "business",
+      "process",
+      "engineering"
+    ]
+  },
+  {
+    "id": "w_supersede",
+    "lemma": "supersede",
+    "slug": "supersede",
+    "cefr": "C1",
+    "pronunciation": {
+      "kk": "/ˌsupɚˈsid/",
+      "syllables": "su·per·sede",
+      "stressNote": "主重音在第三音節 -sede，第一音節有次重音。"
+    },
+    "forms": {
+      "past": "superseded",
+      "pastParticiple": "superseded",
+      "presentParticiple": "superseding",
+      "thirdPersonSingular": "supersedes"
+    },
+    "senses": [
+      {
+        "id": "s_supersede_1",
+        "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical",
+          "business"
+        ],
+        "definitionEn": "to take the place of something older, which then stops being used or valid",
+        "definitionZh": "取代（使舊者失效）",
+        "usageExplanationZh": "supersede 表示新的東西正式取代了舊的，舊的自此失效。它常出現在文件與規範中：This document supersedes the 2024 version。要注意拼字——它是少數以 -sede 結尾的英文字（不是 -cede），是常見的拼寫錯誤來源。",
+        "grammarPatterns": [
+          "A supersedes B",
+          "be superseded by + noun"
+        ],
+        "collocations": [
+          {
+            "text": "supersede the previous version",
+            "meaningZh": "取代前一版本",
+            "example": {
+              "en": "This RFC supersedes the previous version and takes effect immediately.",
+              "zh": "本 RFC 取代前一版本，並即刻生效。",
+              "highlight": "supersedes the previous version"
+            }
+          },
+          {
+            "text": "be superseded by",
+            "meaningZh": "被……取代"
+          },
+          {
+            "text": "now superseded",
+            "meaningZh": "現已作廢"
+          }
+        ],
+        "examples": [
+          {
+            "en": "The v2 endpoint supersedes v1, which will be removed in June.",
+            "zh": "v2 端點取代了 v1，後者將在六月移除。",
+            "highlight": "supersedes"
+          },
+          {
+            "en": "That guidance has been superseded; check the current handbook.",
+            "zh": "那份指引已經作廢，請查閱最新的手冊。",
+            "highlight": "superseded"
+          }
+        ],
+        "usageNotes": [
+          "拼字要點：supersede 而非 supercede。它源自拉丁文 sedere（坐），與 precede、concede 的 -cede 詞源不同。"
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "replace",
+        "noteZh": "中性，不必然使舊者失效。"
+      },
+      {
+        "lemma": "displace"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "precede"
+      }
+    ],
+    "commonlyConfusedWith": [
+      {
+        "lemma": "replace",
+        "distinctionZh": "replace 只是「換成另一個」，兩者可以並存；supersede 帶有「舊的正式失效」的權威意味，常用於文件、規範與版本。換掉一顆硬碟是 replace，新版規格作廢舊版是 supersede。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "superseded",
+        "partOfSpeech": "adjective",
+        "meaningZh": "已被取代的"
+      }
+    ],
+    "tags": [
+      "business",
+      "engineering",
+      "documentation"
+    ]
+  },
+  {
+    "id": "w_threshold",
+    "lemma": "threshold",
+    "slug": "threshold",
+    "cefr": "C1",
+    "pronunciation": {
+      "kk": "/ˈθrɛˌʃold/",
+      "syllables": "thresh·old",
+      "stressNote": "主重音在第一音節；字首為 /θr/ 連音。"
+    },
+    "forms": {
+      "plural": "thresholds"
+    },
+    "senses": [
+      {
+        "id": "s_threshold_1",
+        "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical",
+          "academic"
+        ],
+        "definitionEn": "the level or point at which something starts to happen or to have an effect",
+        "definitionZh": "門檻；臨界值",
+        "usageExplanationZh": "threshold 指「跨過去就會發生某事」的那個點，因此它天生與監控、警報和判定規則有關。技術語境中極為高頻：alert threshold、error threshold。動詞搭配為 cross / exceed / set a threshold。抽象用法如 a low threshold for X 表示「對 X 的容忍度低」。",
+        "grammarPatterns": [
+          "cross/exceed a threshold",
+          "set a threshold at + value",
+          "a threshold for + noun"
+        ],
+        "collocations": [
+          {
+            "text": "exceed a threshold",
+            "meaningZh": "超過門檻",
+            "example": {
+              "en": "The alert fires when the error rate exceeds the threshold for two minutes.",
+              "zh": "當錯誤率連續兩分鐘超過門檻時，警報就會觸發。",
+              "highlight": "exceeds the threshold"
+            }
+          },
+          {
+            "text": "set a threshold",
+            "meaningZh": "設定門檻"
+          },
+          {
+            "text": "a low threshold for",
+            "meaningZh": "對……容忍度低"
+          },
+          {
+            "text": "below the threshold",
+            "meaningZh": "低於門檻"
+          }
+        ],
+        "examples": [
+          {
+            "en": "Set the threshold too low and everyone learns to ignore the alerts.",
+            "zh": "門檻設得太低，大家就會學會忽略警報。",
+            "highlight": "threshold"
+          },
+          {
+            "en": "The team has a low threshold for flaky tests.",
+            "zh": "團隊對不穩定的測試容忍度很低。",
+            "highlight": "threshold"
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "cut-off"
+      },
+      {
+        "lemma": "limit",
+        "noteZh": "偏向「上限」，不含「跨過即觸發」之意。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "ceiling",
+        "noteZh": "指上限，與 threshold 的「觸發點」概念不同。"
+      }
+    ],
+    "commonlyConfusedWith": [
+      {
+        "lemma": "limit",
+        "distinctionZh": "limit 是「不可超過的上限」，越過就違規；threshold 是「跨過就會觸發某事」的臨界點，越過不一定是錯的。速率上限是 rate limit，警報臨界值是 alert threshold。"
+      }
+    ],
+    "wordFamily": [],
+    "tags": [
+      "engineering",
+      "data",
+      "monitoring"
+    ]
+  },
+  {
+    "id": "w_unprecedented",
+    "lemma": "unprecedented",
+    "slug": "unprecedented",
+    "cefr": "C1",
+    "pronunciation": {
+      "kk": "/ənˈprɛsɪˌdɛntɪd/",
+      "syllables": "un·prec·e·dent·ed",
+      "stressNote": "主重音在第二音節 -prec-。"
+    },
+    "senses": [
+      {
+        "id": "s_unprecedented_1",
+        "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "business",
+          "academic"
+        ],
+        "definitionEn": "never having happened before, so that there is no earlier case to compare with",
+        "definitionZh": "史無前例的；前所未有的",
+        "usageExplanationZh": "unprecedented 的字面意思是「沒有 precedent（先例）」，因此它是很強的宣稱：真的一次都沒發生過。這個字在新聞與商務簡報中被大量濫用，正式寫作中若不確定是否真的空前，用 exceptional 或 rare 會更可信。",
+        "grammarPatterns": [
+          "unprecedented + noun",
+          "on an unprecedented scale"
+        ],
+        "collocations": [
+          {
+            "text": "unprecedented growth",
+            "meaningZh": "前所未有的成長"
+          },
+          {
+            "text": "on an unprecedented scale",
+            "meaningZh": "以空前的規模"
+          },
+          {
+            "text": "an unprecedented level of",
+            "meaningZh": "前所未有的……程度",
+            "example": {
+              "en": "The launch produced an unprecedented level of traffic for us.",
+              "zh": "這次上線為我們帶來了前所未有的流量。",
+              "highlight": "an unprecedented level of"
+            }
+          }
+        ],
+        "examples": [
+          {
+            "en": "The outage was unprecedented: no runbook covered this failure mode.",
+            "zh": "這次中斷是前所未有的，沒有任何操作手冊涵蓋這種故障模式。",
+            "highlight": "unprecedented"
+          },
+          {
+            "en": "Calling every busy quarter unprecedented drains the word of meaning.",
+            "zh": "把每一個忙碌的季度都說成前所未有，只會讓這個字失去意義。",
+            "highlight": "unprecedented"
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "unparalleled"
+      },
+      {
+        "lemma": "exceptional",
+        "noteZh": "語氣較弱、較安全。"
+      }
+    ],
+    "antonyms": [
+      {
+        "wordId": "w_conventional",
+        "lemma": "conventional"
+      },
+      {
+        "lemma": "routine"
+      }
+    ],
+    "commonlyConfusedWith": [
+      {
+        "lemma": "unparalleled",
+        "distinctionZh": "unprecedented 是時間上的宣稱——以前從未發生過；unparalleled 是品質上的宣稱——無人能及。第一次遇到的故障模式是 unprecedented，做得最好的產品才是 unparalleled。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "precedent",
+        "partOfSpeech": "noun",
+        "meaningZh": "先例"
+      },
+      {
+        "lemma": "unprecedentedly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "空前地"
+      }
+    ],
+    "tags": [
+      "business",
+      "academic",
+      "description"
+    ]
+  }
+]

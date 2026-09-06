@@ -18,7 +18,11 @@
     "cf-typegen": "wrangler types",
     "db:migrate:local": "wrangler d1 migrations apply advanced-english-vocabulary --local",
     "db:migrate:remote": "wrangler d1 migrations apply advanced-english-vocabulary --remote",
-    "verify": "npm run typecheck && npm run lint && npm run test && npm run validate:data && npm run build"
+    "verify": "npm run typecheck && npm run lint && npm run test && npm run validate:data && npm run verify:kk && npm run build",
+    "verify:kk": "tsx scripts/verify-kk.ts",
+    "verify:kk:report": "tsx scripts/verify-kk.ts --verbose",
+    "kk": "tsx scripts/kk.ts",
+    "merge:vocab": "tsx scripts/merge-vocabulary-fields.ts"
   },
   "dependencies": {
     "hono": "^4.13.7",
@@ -41,6 +45,7 @@
     "@types/react-dom": "^19.2.7",
     "@vitejs/plugin-react": "^6.1.1",
     "@vitest/coverage-v8": "^5.0.0",
+    "cmu-pronouncing-dictionary": "^3.0.0",
     "eslint": "^10.10.0",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.6",

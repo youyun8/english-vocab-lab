@@ -4,213 +4,659 @@
     "lemma": "negligible",
     "slug": "negligible",
     "cefr": "C1",
-    "pronunciation": { "kk": "/ˈnɛglɪdʒəbəl/", "syllables": "neg·li·gi·ble", "stressNote": "重音在第一音節。" },
+    "pronunciation": {
+      "kk": "/ˈnɛglɪdʒəbəl/",
+      "syllables": "neg·li·gi·ble",
+      "stressNote": "重音在第一音節。"
+    },
     "senses": [
       {
         "id": "s_negligible_1",
         "partOfSpeech": "adjective",
-        "register": ["formal", "technical", "academic"],
+        "register": [
+          "formal",
+          "technical",
+          "academic"
+        ],
         "definitionEn": "so small or unimportant that it can reasonably be ignored",
         "definitionZh": "微不足道的；可忽略不計的",
         "usageExplanationZh": "negligible 不只是「小」，而是「小到在做決策時可以直接不予考慮」。這是它與 small 的關鍵差別：它已經包含了一個判斷。效能分析中很常用：The overhead is negligible. 意思是「這點開銷不值得為它做最佳化」。",
-        "grammarPatterns": ["be negligible", "have a negligible effect on + noun"],
+        "grammarPatterns": [
+          "be negligible",
+          "have a negligible effect on + noun"
+        ],
         "collocations": [
-          { "text": "a negligible effect", "meaningZh": "微乎其微的影響" },
-          { "text": "negligible overhead", "meaningZh": "可忽略的額外開銷", "example": { "en": "The added logging introduces negligible overhead.", "zh": "新增的日誌記錄只帶來可忽略的額外開銷。", "highlight": "negligible overhead" } },
-          { "text": "virtually negligible", "meaningZh": "幾乎可以忽略" },
-          { "text": "a negligible risk", "meaningZh": "極低的風險" }
+          {
+            "text": "a negligible effect",
+            "meaningZh": "微乎其微的影響"
+          },
+          {
+            "text": "negligible overhead",
+            "meaningZh": "可忽略的額外開銷",
+            "example": {
+              "en": "The added logging introduces negligible overhead.",
+              "zh": "新增的日誌記錄只帶來可忽略的額外開銷。",
+              "highlight": "negligible overhead"
+            }
+          },
+          {
+            "text": "virtually negligible",
+            "meaningZh": "幾乎可以忽略"
+          },
+          {
+            "text": "a negligible risk",
+            "meaningZh": "極低的風險"
+          }
         ],
         "examples": [
-          { "en": "The difference between the two algorithms is negligible at this scale.", "zh": "在這個規模下，兩個演算法之間的差異可以忽略不計。", "highlight": "negligible" },
-          { "en": "Compression cost is negligible compared with network latency.", "zh": "與網路延遲相比，壓縮的成本微不足道。", "highlight": "negligible" },
-          { "en": "The policy change had a negligible effect on retention.", "zh": "這項政策變更對留存率的影響微乎其微。", "highlight": "negligible" }
+          {
+            "en": "The difference between the two algorithms is negligible at this scale.",
+            "zh": "在這個規模下，兩個演算法之間的差異可以忽略不計。",
+            "highlight": "negligible"
+          },
+          {
+            "en": "Compression cost is negligible compared with network latency.",
+            "zh": "與網路延遲相比，壓縮的成本微不足道。",
+            "highlight": "negligible"
+          },
+          {
+            "en": "The policy change had a negligible effect on retention.",
+            "zh": "這項政策變更對留存率的影響微乎其微。",
+            "highlight": "negligible"
+          }
         ],
         "usageNotes": [
           "negligible 與 negligent 只差幾個字母但意思完全不同：negligent 是「疏忽的、失職的」，用於責任與過失。"
         ],
         "commonMistakes": [
-          { "incorrect": "The engineer was negligible in reviewing the code.", "correct": "The engineer was negligent in reviewing the code.", "explanationZh": "描述人的疏忽失職要用 negligent；negligible 只用來描述「數量或影響小到可忽略」。" }
+          {
+            "incorrect": "The engineer was negligible in reviewing the code.",
+            "correct": "The engineer was negligent in reviewing the code.",
+            "explanationZh": "描述人的疏忽失職要用 negligent；negligible 只用來描述「數量或影響小到可忽略」。"
+          }
         ]
       }
     ],
-    "synonyms": [{ "lemma": "insignificant" }, { "lemma": "trivial" }],
-    "antonyms": [{ "wordId": "w_substantial", "lemma": "substantial" }, { "lemma": "significant" }],
-    "wordFamily": [{ "lemma": "negligibly", "partOfSpeech": "adverb", "meaningZh": "微不足道地" }],
-    "tags": ["engineering", "academic", "quantity"]
+    "synonyms": [
+      {
+        "lemma": "insignificant"
+      },
+      {
+        "lemma": "trivial"
+      }
+    ],
+    "antonyms": [
+      {
+        "wordId": "w_substantial",
+        "lemma": "substantial"
+      },
+      {
+        "lemma": "significant"
+      }
+    ],
+    "commonlyConfusedWith": [
+      {
+        "lemma": "trivial",
+        "distinctionZh": "negligible 說的是「量小到可忽略」；trivial 說的是「簡單或不重要」，可以指難度。一個 trivial fix 是很容易修的，一個 negligible difference 是小到不必在意的。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "negligibly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "微不足道地"
+      }
+    ],
+    "tags": [
+      "engineering",
+      "academic",
+      "quantity"
+    ]
   },
   {
     "id": "w_counterpart",
     "lemma": "counterpart",
     "slug": "counterpart",
     "cefr": "C1",
-    "pronunciation": { "kk": "/ˈkaʊntɚˌpɑrt/", "syllables": "coun·ter·part", "stressNote": "主重音在第一音節。" },
-    "forms": { "plural": "counterparts" },
+    "pronunciation": {
+      "kk": "/ˈkaʊntɚˌpɑrt/",
+      "syllables": "coun·ter·part",
+      "stressNote": "主重音在第一音節。"
+    },
+    "forms": {
+      "plural": "counterparts"
+    },
     "senses": [
       {
         "id": "s_counterpart_1",
         "partOfSpeech": "noun",
-        "register": ["formal", "business", "academic"],
+        "register": [
+          "formal",
+          "business",
+          "academic"
+        ],
         "definitionEn": "a person or thing that has the same role or position in a different organization, system, or place",
         "definitionZh": "對應的人或物；相對應者",
         "usageExplanationZh": "counterpart 指「在另一個體系中扮演同樣角色的人或物」。用它可以避免重複冗長的說明：與其說 the person who does the same job at the other company，直接說 their counterpart 即可。技術寫作中也常用來對比兩個系統中對應的元件。",
-        "grammarPatterns": ["one's counterpart at/in + organization", "the + adjective + counterpart of + noun"],
+        "grammarPatterns": [
+          "one's counterpart at/in + organization",
+          "the + adjective + counterpart of + noun"
+        ],
         "collocations": [
-          { "text": "their European counterparts", "meaningZh": "他們的歐洲同行" },
-          { "text": "a direct counterpart", "meaningZh": "直接對應者" },
-          { "text": "have no counterpart", "meaningZh": "沒有對應的東西", "example": { "en": "This construct has no direct counterpart in JavaScript.", "zh": "這個結構在 JavaScript 中沒有直接對應的東西。", "highlight": "no direct counterpart" } }
+          {
+            "text": "their European counterparts",
+            "meaningZh": "他們的歐洲同行"
+          },
+          {
+            "text": "a direct counterpart",
+            "meaningZh": "直接對應者"
+          },
+          {
+            "text": "have no counterpart",
+            "meaningZh": "沒有對應的東西",
+            "example": {
+              "en": "This construct has no direct counterpart in JavaScript.",
+              "zh": "這個結構在 JavaScript 中沒有直接對應的東西。",
+              "highlight": "no direct counterpart"
+            }
+          }
         ],
         "examples": [
-          { "en": "She met her counterpart at the partner company to align on the roadmap.", "zh": "她與合作公司中職務相當的人會面，以協調產品藍圖。", "highlight": "counterpart" },
-          { "en": "The synchronous version is slower than its asynchronous counterpart.", "zh": "同步版本比它對應的非同步版本慢。", "highlight": "counterpart" },
-          { "en": "Japanese engineers earn less than their American counterparts on average.", "zh": "日本工程師的平均薪資低於美國的同職者。", "highlight": "counterparts" }
+          {
+            "en": "She met her counterpart at the partner company to align on the roadmap.",
+            "zh": "她與合作公司中職務相當的人會面，以協調產品藍圖。",
+            "highlight": "counterpart"
+          },
+          {
+            "en": "The synchronous version is slower than its asynchronous counterpart.",
+            "zh": "同步版本比它對應的非同步版本慢。",
+            "highlight": "counterpart"
+          },
+          {
+            "en": "Japanese engineers earn less than their American counterparts on average.",
+            "zh": "日本工程師的平均薪資低於美國的同職者。",
+            "highlight": "counterparts"
+          }
+        ],
+        "usageNotes": [
+          "counterpart 幾乎總是搭配所有格：their counterparts、its asynchronous counterpart。單獨使用會顯得突兀。"
+        ],
+        "commonMistakes": [
+          {
+            "incorrect": "She met the counterpart at the partner company.",
+            "correct": "She met her counterpart at the partner company.",
+            "explanationZh": "counterpart 幾乎總是需要所有格來說明「誰的對應者」。"
+          }
         ]
       }
     ],
-    "synonyms": [{ "lemma": "equivalent" }, { "lemma": "peer", "noteZh": "強調地位相當的同儕。" }],
-    "tags": ["business", "comparison", "academic"]
+    "synonyms": [
+      {
+        "lemma": "equivalent"
+      },
+      {
+        "lemma": "peer",
+        "noteZh": "強調地位相當的同儕。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "opposite"
+      }
+    ],
+    "commonlyConfusedWith": [
+      {
+        "lemma": "equivalent",
+        "distinctionZh": "counterpart 強調「在另一個體系中扮演同樣角色」，重點是體系的對應；equivalent 強調「價值或功能相等」，不必然來自另一個體系。對方公司的同職者是 counterpart，功能相同的另一個函式是 equivalent。"
+      }
+    ],
+    "tags": [
+      "business",
+      "comparison",
+      "academic"
+    ]
   },
   {
     "id": "w_criterion",
     "lemma": "criterion",
     "slug": "criterion",
     "cefr": "C1",
-    "pronunciation": { "kk": "/kraɪˈtɪrɪən/", "syllables": "cri·te·ri·on", "stressNote": "重音在第二音節 -te-。" },
-    "forms": { "plural": "criteria" },
+    "pronunciation": {
+      "kk": "/kraɪˈtɪrɪən/",
+      "syllables": "cri·te·ri·on",
+      "stressNote": "重音在第二音節 -te-。"
+    },
+    "forms": {
+      "plural": "criteria"
+    },
     "senses": [
       {
         "id": "s_criterion_1",
         "partOfSpeech": "noun",
-        "register": ["formal", "academic", "business"],
+        "register": [
+          "formal",
+          "academic",
+          "business"
+        ],
         "definitionEn": "a standard by which something is judged or a decision is made",
         "definitionZh": "標準；判準；評斷依據",
         "usageExplanationZh": "criterion 是「用來判斷的標準」，最大的難點是它的複數：criteria。這是希臘語來源的不規則變化，也是母語人士都常寫錯的地方。單數用 criterion，複數用 criteria，而且 criteria 要搭配複數動詞。軟體開發中的 acceptance criteria（驗收標準）是最常見的固定用法。",
-        "grammarPatterns": ["meet the criteria", "the criteria for + noun", "on the basis of + criterion"],
+        "grammarPatterns": [
+          "meet the criteria",
+          "the criteria for + noun",
+          "on the basis of + criterion"
+        ],
         "collocations": [
-          { "text": "meet the criteria", "meaningZh": "符合標準", "example": { "en": "Only three candidates met all the criteria.", "zh": "只有三位候選人符合所有標準。", "highlight": "met all the criteria" } },
-          { "text": "acceptance criteria", "meaningZh": "驗收標準" },
-          { "text": "selection criteria", "meaningZh": "篩選標準" },
-          { "text": "the main criterion", "meaningZh": "主要判準" }
+          {
+            "text": "meet the criteria",
+            "meaningZh": "符合標準",
+            "example": {
+              "en": "Only three candidates met all the criteria.",
+              "zh": "只有三位候選人符合所有標準。",
+              "highlight": "met all the criteria"
+            }
+          },
+          {
+            "text": "acceptance criteria",
+            "meaningZh": "驗收標準"
+          },
+          {
+            "text": "selection criteria",
+            "meaningZh": "篩選標準"
+          },
+          {
+            "text": "the main criterion",
+            "meaningZh": "主要判準"
+          }
         ],
         "examples": [
-          { "en": "The main criterion is whether the change is reversible.", "zh": "主要的判準是這項變更能否回復。", "highlight": "criterion" },
-          { "en": "Each user story must have clear acceptance criteria.", "zh": "每個使用者故事都必須有明確的驗收標準。", "highlight": "acceptance criteria" },
-          { "en": "These criteria are too vague to be applied consistently.", "zh": "這些標準太模糊，無法一致地套用。", "highlight": "criteria" }
+          {
+            "en": "The main criterion is whether the change is reversible.",
+            "zh": "主要的判準是這項變更能否回復。",
+            "highlight": "criterion"
+          },
+          {
+            "en": "Each user story must have clear acceptance criteria.",
+            "zh": "每個使用者故事都必須有明確的驗收標準。",
+            "highlight": "acceptance criteria"
+          },
+          {
+            "en": "These criteria are too vague to be applied consistently.",
+            "zh": "這些標準太模糊，無法一致地套用。",
+            "highlight": "criteria"
+          }
+        ],
+        "usageNotes": [
+          "其他同樣來自希臘文的不規則複數：phenomenon→phenomena、analysis→analyses。"
         ],
         "commonMistakes": [
-          { "incorrect": "This criteria is too strict.", "correct": "This criterion is too strict.", "explanationZh": "criteria 是複數形。指單一標準時要用 criterion，並搭配單數動詞。" },
-          { "incorrect": "All the criteria was met.", "correct": "All the criteria were met.", "explanationZh": "criteria 是複數，動詞要用 were。" }
+          {
+            "incorrect": "This criteria is too strict.",
+            "correct": "This criterion is too strict.",
+            "explanationZh": "criteria 是複數形。指單一標準時要用 criterion，並搭配單數動詞。"
+          },
+          {
+            "incorrect": "All the criteria was met.",
+            "correct": "All the criteria were met.",
+            "explanationZh": "criteria 是複數，動詞要用 were。"
+          }
         ]
       }
     ],
-    "synonyms": [{ "lemma": "standard" }, { "lemma": "benchmark" }],
-    "wordFamily": [{ "lemma": "criterion-referenced", "partOfSpeech": "adjective", "meaningZh": "標準參照的" }],
-    "tags": ["academic", "business", "evaluation"]
+    "synonyms": [
+      {
+        "lemma": "standard"
+      },
+      {
+        "lemma": "benchmark"
+      }
+    ],
+    "commonlyConfusedWith": [
+      {
+        "lemma": "benchmark",
+        "distinctionZh": "criterion 是「用來判斷合不合格的標準」；benchmark 是「用來比較的參考點或測試」。驗收標準是 acceptance criteria，效能測試是 a benchmark。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "criterion-referenced",
+        "partOfSpeech": "adjective",
+        "meaningZh": "標準參照的"
+      }
+    ],
+    "tags": [
+      "academic",
+      "business",
+      "evaluation"
+    ]
   },
   {
     "id": "w_discrepancy",
     "lemma": "discrepancy",
     "slug": "discrepancy",
     "cefr": "C1",
-    "pronunciation": { "kk": "/dɪˈskrɛpənsɪ/", "syllables": "dis·crep·an·cy", "stressNote": "重音在第二音節 -crep-。" },
-    "forms": { "plural": "discrepancies" },
+    "pronunciation": {
+      "kk": "/dɪˈskrɛpənsɪ/",
+      "syllables": "dis·crep·an·cy",
+      "stressNote": "重音在第二音節 -crep-。"
+    },
+    "forms": {
+      "plural": "discrepancies"
+    },
     "senses": [
       {
         "id": "s_discrepancy_1",
         "partOfSpeech": "noun",
-        "register": ["formal", "technical", "business"],
+        "register": [
+          "formal",
+          "technical",
+          "business"
+        ],
         "definitionEn": "a difference between two things that should be the same",
         "definitionZh": "不一致；差異（本應相同卻不同）",
         "usageExplanationZh": "discrepancy 的關鍵前提是「這兩者本來應該一樣」，因此差異本身就是問題的訊號。這與中性的 difference 不同：兩個功能不同叫 difference，兩份應該一致的報表對不起來才叫 discrepancy。資料工程與會計中極常用。",
-        "grammarPatterns": ["a discrepancy between A and B", "account for a discrepancy"],
+        "grammarPatterns": [
+          "a discrepancy between A and B",
+          "account for a discrepancy"
+        ],
         "collocations": [
-          { "text": "a discrepancy between", "meaningZh": "……之間的不一致", "example": { "en": "There is a discrepancy between the invoice total and the payment record.", "zh": "發票總額與付款紀錄之間有出入。", "highlight": "a discrepancy between" } },
-          { "text": "account for the discrepancy", "meaningZh": "解釋這個差異" },
-          { "text": "a significant discrepancy", "meaningZh": "顯著的落差" },
-          { "text": "resolve discrepancies", "meaningZh": "解決不一致" }
+          {
+            "text": "a discrepancy between",
+            "meaningZh": "……之間的不一致",
+            "example": {
+              "en": "There is a discrepancy between the invoice total and the payment record.",
+              "zh": "發票總額與付款紀錄之間有出入。",
+              "highlight": "a discrepancy between"
+            }
+          },
+          {
+            "text": "account for the discrepancy",
+            "meaningZh": "解釋這個差異"
+          },
+          {
+            "text": "a significant discrepancy",
+            "meaningZh": "顯著的落差"
+          },
+          {
+            "text": "resolve discrepancies",
+            "meaningZh": "解決不一致"
+          }
         ],
         "examples": [
-          { "en": "The nightly job flags any discrepancy larger than one cent.", "zh": "夜間作業會標記任何超過一分錢的差異。", "highlight": "discrepancy" },
-          { "en": "Can anyone account for the discrepancy in these two reports?", "zh": "有人能解釋這兩份報告之間的落差嗎？", "highlight": "discrepancy" },
-          { "en": "We found a discrepancy between what the docs promise and what the API returns.", "zh": "我們發現文件的說明與 API 實際回傳的內容不一致。", "highlight": "discrepancy" }
+          {
+            "en": "The nightly job flags any discrepancy larger than one cent.",
+            "zh": "夜間作業會標記任何超過一分錢的差異。",
+            "highlight": "discrepancy"
+          },
+          {
+            "en": "Can anyone account for the discrepancy in these two reports?",
+            "zh": "有人能解釋這兩份報告之間的落差嗎？",
+            "highlight": "discrepancy"
+          },
+          {
+            "en": "We found a discrepancy between what the docs promise and what the API returns.",
+            "zh": "我們發現文件的說明與 API 實際回傳的內容不一致。",
+            "highlight": "discrepancy"
+          }
+        ],
+        "commonMistakes": [
+          {
+            "incorrect": "There is a discrepancy of the two reports.",
+            "correct": "There is a discrepancy between the two reports.",
+            "explanationZh": "表示「兩者之間的落差」要用 between，不用 of。"
+          }
         ]
       }
     ],
-    "synonyms": [{ "lemma": "inconsistency" }, { "lemma": "mismatch" }],
-    "commonlyConfusedWith": [
-      { "lemma": "difference", "distinctionZh": "difference 是中性的「不同」，沒有對錯；discrepancy 預設「兩者應該相同」，因此差異本身代表出了問題，需要解釋或修正。" }
+    "synonyms": [
+      {
+        "lemma": "inconsistency"
+      },
+      {
+        "lemma": "mismatch"
+      }
     ],
-    "wordFamily": [{ "lemma": "discrepant", "partOfSpeech": "adjective", "meaningZh": "不一致的" }],
-    "tags": ["data", "business", "engineering"]
+    "commonlyConfusedWith": [
+      {
+        "lemma": "difference",
+        "distinctionZh": "difference 是中性的「不同」，沒有對錯；discrepancy 預設「兩者應該相同」，因此差異本身代表出了問題，需要解釋或修正。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "discrepant",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不一致的"
+      }
+    ],
+    "tags": [
+      "data",
+      "business",
+      "engineering"
+    ]
   },
   {
     "id": "w_inherent",
     "lemma": "inherent",
     "slug": "inherent",
     "cefr": "C1",
-    "pronunciation": { "kk": "/ɪnˈhɪrənt/", "syllables": "in·her·ent", "stressNote": "重音在第二音節 -her-。" },
+    "pronunciation": {
+      "kk": "/ɪnˈhɪrənt/",
+      "syllables": "in·her·ent",
+      "stressNote": "重音在第二音節 -her-。"
+    },
     "senses": [
       {
         "id": "s_inherent_1",
         "partOfSpeech": "adjective",
-        "register": ["formal", "academic", "technical"],
+        "register": [
+          "formal",
+          "academic",
+          "technical"
+        ],
         "definitionEn": "existing as a natural, permanent, and inseparable part of something",
         "definitionZh": "固有的；與生俱來的；本質上就存在的",
         "usageExplanationZh": "inherent 表示「這個性質是本質的一部分，拿不掉」。這在技術討論中是很有力的說法：如果說某個風險是 inherent to distributed systems，意思是你無法藉由更好的實作把它消除，只能設法管理。句型固定為 inherent in 或 inherent to。",
-        "grammarPatterns": ["inherent in + noun", "inherent to + noun", "an inherent + noun"],
+        "grammarPatterns": [
+          "inherent in + noun",
+          "inherent to + noun",
+          "an inherent + noun"
+        ],
         "collocations": [
-          { "text": "inherent risk", "meaningZh": "固有風險" },
-          { "text": "inherent in", "meaningZh": "……所固有的", "example": { "en": "Some latency is inherent in any network call.", "zh": "任何網路呼叫都必然帶有一定的延遲。", "highlight": "inherent in" } },
-          { "text": "an inherent limitation", "meaningZh": "本質上的限制" },
-          { "text": "inherent complexity", "meaningZh": "本質複雜度" }
+          {
+            "text": "inherent risk",
+            "meaningZh": "固有風險"
+          },
+          {
+            "text": "inherent in",
+            "meaningZh": "……所固有的",
+            "example": {
+              "en": "Some latency is inherent in any network call.",
+              "zh": "任何網路呼叫都必然帶有一定的延遲。",
+              "highlight": "inherent in"
+            }
+          },
+          {
+            "text": "an inherent limitation",
+            "meaningZh": "本質上的限制"
+          },
+          {
+            "text": "inherent complexity",
+            "meaningZh": "本質複雜度"
+          }
         ],
         "examples": [
-          { "en": "There is an inherent trade-off between consistency and availability.", "zh": "一致性與可用性之間存在本質上的取捨。", "highlight": "inherent" },
-          { "en": "The inherent complexity of the domain cannot be removed, only managed.", "zh": "這個領域的本質複雜度無法消除，只能加以管理。", "highlight": "inherent" },
-          { "en": "Ambiguity is inherent to natural language.", "zh": "歧義是自然語言與生俱來的特性。", "highlight": "inherent to" }
+          {
+            "en": "There is an inherent trade-off between consistency and availability.",
+            "zh": "一致性與可用性之間存在本質上的取捨。",
+            "highlight": "inherent"
+          },
+          {
+            "en": "The inherent complexity of the domain cannot be removed, only managed.",
+            "zh": "這個領域的本質複雜度無法消除，只能加以管理。",
+            "highlight": "inherent"
+          },
+          {
+            "en": "Ambiguity is inherent to natural language.",
+            "zh": "歧義是自然語言與生俱來的特性。",
+            "highlight": "inherent to"
+          }
+        ],
+        "commonMistakes": [
+          {
+            "incorrect": "This risk is inherent of distributed systems.",
+            "correct": "This risk is inherent in distributed systems.",
+            "explanationZh": "inherent 搭配 in 或 to，不搭配 of。"
+          }
         ]
       }
     ],
-    "synonyms": [{ "lemma": "intrinsic", "noteZh": "幾乎同義，更常用於學術與哲學語境。" }, { "lemma": "innate", "noteZh": "多用於人的天生特質。" }],
-    "antonyms": [{ "lemma": "acquired" }, { "lemma": "incidental" }],
-    "wordFamily": [{ "lemma": "inherently", "partOfSpeech": "adverb", "meaningZh": "本質上" }],
-    "tags": ["academic", "engineering", "analysis"]
+    "synonyms": [
+      {
+        "lemma": "intrinsic",
+        "noteZh": "幾乎同義，更常用於學術與哲學語境。"
+      },
+      {
+        "lemma": "innate",
+        "noteZh": "多用於人的天生特質。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "acquired"
+      },
+      {
+        "lemma": "incidental"
+      }
+    ],
+    "commonlyConfusedWith": [
+      {
+        "lemma": "intrinsic",
+        "distinctionZh": "兩者幾乎同義，都指「本質上就有」。習慣上 inherent 常搭配 in/to 描述「無法移除的性質」（inherent risk）；intrinsic 則常談「本身固有的價值」（intrinsic motivation、intrinsic value）。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "inherently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "本質上"
+      }
+    ],
+    "tags": [
+      "academic",
+      "engineering",
+      "analysis"
+    ]
   },
   {
     "id": "w_proficiency",
     "lemma": "proficiency",
     "slug": "proficiency",
     "cefr": "C1",
-    "pronunciation": { "kk": "/prəˈfɪʃənsɪ/", "syllables": "pro·fi·cien·cy", "stressNote": "重音在第二音節 -fi-。" },
+    "pronunciation": {
+      "kk": "/prəˈfɪʃənsɪ/",
+      "syllables": "pro·fi·cien·cy",
+      "stressNote": "重音在第二音節 -fi-。"
+    },
     "senses": [
       {
         "id": "s_proficiency_1",
         "partOfSpeech": "noun",
-        "register": ["formal", "academic", "business"],
+        "register": [
+          "formal",
+          "academic",
+          "business"
+        ],
         "definitionEn": "a good standard of ability and skill, usually gained through training and practice",
         "definitionZh": "熟練度；精通程度",
         "usageExplanationZh": "proficiency 指「經過訓練後達到的良好能力水準」，常用於語言能力與專業技能的正式評估。它比 skill 更強調「可被衡量的水準」，因此常與 level 搭配：a high level of proficiency。介系詞用 in。",
-        "grammarPatterns": ["proficiency in + noun", "a level of proficiency"],
+        "grammarPatterns": [
+          "proficiency in + noun",
+          "a level of proficiency"
+        ],
         "collocations": [
-          { "text": "proficiency in", "meaningZh": "在……方面的熟練度", "example": { "en": "The role requires proficiency in at least one systems language.", "zh": "這個職位要求至少熟練一種系統程式語言。", "highlight": "proficiency in" } },
-          { "text": "language proficiency", "meaningZh": "語言能力" },
-          { "text": "a high level of proficiency", "meaningZh": "高度的熟練程度" },
-          { "text": "demonstrate proficiency", "meaningZh": "展現熟練能力" }
+          {
+            "text": "proficiency in",
+            "meaningZh": "在……方面的熟練度",
+            "example": {
+              "en": "The role requires proficiency in at least one systems language.",
+              "zh": "這個職位要求至少熟練一種系統程式語言。",
+              "highlight": "proficiency in"
+            }
+          },
+          {
+            "text": "language proficiency",
+            "meaningZh": "語言能力"
+          },
+          {
+            "text": "a high level of proficiency",
+            "meaningZh": "高度的熟練程度"
+          },
+          {
+            "text": "demonstrate proficiency",
+            "meaningZh": "展現熟練能力"
+          }
         ],
         "examples": [
-          { "en": "Her proficiency in written English improved noticeably over the year.", "zh": "她的英文寫作能力在這一年間有明顯進步。", "highlight": "proficiency" },
-          { "en": "The certificate demonstrates proficiency at the C1 level.", "zh": "這張證書證明持有者達到 C1 等級的能力。", "highlight": "proficiency" },
-          { "en": "Technical proficiency alone is not enough for a senior role.", "zh": "光有技術熟練度，並不足以勝任資深職位。", "highlight": "proficiency" }
+          {
+            "en": "Her proficiency in written English improved noticeably over the year.",
+            "zh": "她的英文寫作能力在這一年間有明顯進步。",
+            "highlight": "proficiency"
+          },
+          {
+            "en": "The certificate demonstrates proficiency at the C1 level.",
+            "zh": "這張證書證明持有者達到 C1 等級的能力。",
+            "highlight": "proficiency"
+          },
+          {
+            "en": "Technical proficiency alone is not enough for a senior role.",
+            "zh": "光有技術熟練度，並不足以勝任資深職位。",
+            "highlight": "proficiency"
+          }
+        ],
+        "usageNotes": [
+          "履歷上常見 proficient in Python，注意形容詞同樣搭配 in。"
         ],
         "commonMistakes": [
-          { "incorrect": "proficiency of English", "correct": "proficiency in English", "explanationZh": "proficiency 後面接能力領域時固定用 in。" }
+          {
+            "incorrect": "proficiency of English",
+            "correct": "proficiency in English",
+            "explanationZh": "proficiency 後面接能力領域時固定用 in。"
+          }
         ]
       }
     ],
-    "synonyms": [{ "lemma": "competence" }, { "lemma": "mastery", "noteZh": "程度更高，指幾近完全掌握。" }],
-    "wordFamily": [
-      { "lemma": "proficient", "partOfSpeech": "adjective", "meaningZh": "熟練的" },
-      { "lemma": "proficiently", "partOfSpeech": "adverb", "meaningZh": "熟練地" }
+    "synonyms": [
+      {
+        "lemma": "competence"
+      },
+      {
+        "lemma": "mastery",
+        "noteZh": "程度更高，指幾近完全掌握。"
+      }
     ],
-    "tags": ["academic", "business", "skills"]
+    "commonlyConfusedWith": [
+      {
+        "lemma": "fluency",
+        "distinctionZh": "fluency 只描述「流暢度」，是語言能力的其中一面；proficiency 是整體能力水準，涵蓋準確度、詞彙量與適切性。一個人可以說得很 fluent 卻用字不精準，因此 proficiency 未必高。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "proficient",
+        "partOfSpeech": "adjective",
+        "meaningZh": "熟練的"
+      },
+      {
+        "lemma": "proficiently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "熟練地"
+      }
+    ],
+    "tags": [
+      "academic",
+      "business",
+      "skills"
+    ]
   }
 ]
