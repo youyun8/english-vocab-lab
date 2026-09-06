@@ -131,12 +131,6 @@ export function WordFiltersPanel({
           >
             ⚑ 困難
           </FilterChip>
-          <FilterChip
-            active={filters.masteredOnly}
-            onClick={() => set({ masteredOnly: !filters.masteredOnly })}
-          >
-            ✓ 已精熟
-          </FilterChip>
         </div>
       </fieldset>
 

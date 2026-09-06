@@ -12,6 +12,7 @@ import { cefrLevelSchema, type CefrLevel } from './vocabulary';
 export const questionTypes = [
   'meaning_en_to_zh',
   'meaning_zh_to_en',
+  'definition_to_word',
   'cloze',
   'usage',
   'collocation',
@@ -24,6 +25,7 @@ export type QuestionType = z.infer<typeof questionTypeSchema>;
 export const questionTypeLabelZh: Record<QuestionType, string> = {
   meaning_en_to_zh: '英譯中',
   meaning_zh_to_en: '中譯英',
+  definition_to_word: '英文釋義',
   cloze: '克漏字',
   usage: '用法判斷',
   collocation: '搭配詞',

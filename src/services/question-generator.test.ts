@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 
 import { loadVocabulary } from '@/data';
-import { quizQuestionSchema, OPTIONS_PER_QUESTION } from '@/domain/quiz';
+import { quizQuestionSchema, OPTIONS_PER_QUESTION, type QuestionType } from '@/domain/quiz';
 import { shortMeaningZh, type VocabularyEntry } from '@/domain/vocabulary';
 import { createRng } from '@/utils/random';
 import { GENERATED_TYPES, generateQuestions } from './question-generator';
@@ -12,14 +12,82 @@ const rng = () => createRng(42);
 describe('generateQuestions', () => {
   it('produces one question per entry per requested type', () => {
     const sample = entries.slice(0, 10);
-    const generated = generateQuestions(sample, { rng: rng(), pool: entries });
-    expect(generated).toHaveLength(sample.length * GENERATED_TYPES.length);
+    const types: QuestionType[] = ['meaning_en_to_zh', 'meaning_zh_to_en'];
+    const generated = generateQuestions(sample, { rng: rng(), types, pool: entries });
+    expect(generated).toHaveLength(sample.length * types.length);
   });
 
   it('provides recognition practice for every imported word', () => {
     const imported = entries.filter((entry) => entry.dictionarySource);
     const generated = generateQuestions(imported, { rng: rng(), pool: entries });
-    expect(generated).toHaveLength(imported.length * GENERATED_TYPES.length);
+    const typesByWord = new Map<string, Set<string>>();
+    for (const question of generated) {
+      const wordId = question.wordIds[0]!;
+      typesByWord.set(wordId, (typesByWord.get(wordId) ?? new Set()).add(question.type));
+    }
+    for (const entry of imported) {
+      const types = typesByWord.get(entry.id) ?? new Set();
+      expect(types.has('meaning_en_to_zh'), entry.lemma).toBe(true);
+      expect(types.has('meaning_zh_to_en'), entry.lemma).toBe(true);
+    }
+  });
+
+  it('adds an English-definition question for nearly every entry', () => {
+    const generated = generateQuestions(entries, { rng: rng(), pool: entries });
+    const definitionQuestions = generated.filter(
+      (question) => question.type === 'definition_to_word',
+    );
+    // Entries whose imported definition is a stub ("become brisk") are skipped
+    // on purpose, so this is a large majority rather than the whole corpus.
+    expect(definitionQuestions.length).toBeGreaterThan(entries.length * 0.9);
+    expect(definitionQuestions.length).toBeLessThanOrEqual(entries.length);
+  });
+
+  it('trims listed dictionary glosses down to a readable option', () => {
+    const generated = generateQuestions(entries, { rng: rng(), pool: entries });
+    for (const question of generated) {
+      if (question.type !== 'meaning_en_to_zh') continue;
+      for (const option of question.options) {
+        expect(option.text.split(/[；;]/).length, question.id).toBeLessThanOrEqual(3);
+      }
+    }
+  });
+
+  it('never shows the headword inside a definition prompt', () => {
+    const byId = new Map(entries.map((entry) => [entry.id, entry]));
+    const generated = generateQuestions(entries, { rng: rng(), pool: entries });
+
+    for (const question of generated) {
+      if (question.type !== 'definition_to_word') continue;
+      const lemma = byId.get(question.wordIds[0]!)!.lemma.toLowerCase();
+      const context = (question.context ?? '').toLowerCase();
+      // The headword must not appear as a word — derived forms included.
+      const tokens = context.match(/[a-z]+/g) ?? [];
+      expect(tokens.some((token) => token.startsWith(lemma)), question.id).toBe(false);
+      // What survives masking still has to identify a word on its own.
+      const words = context.split(/\s+/).filter((word) => word && word !== '___');
+      expect(words.length, question.id).toBeGreaterThanOrEqual(3);
+    }
+  });
+
+  it('skips the definition question when masking leaves nothing to go on', () => {
+    const base = entries.find((entry) => entry.lemma === 'eliminate') ?? entries[0]!;
+    const stub = (lemma: string, definitionEn: string, gloss: string) => ({
+      ...base, id: `w_${lemma}`, lemma, slug: lemma, synonyms: [],
+      senses: [{ ...base.senses[0]!, definitionEn, definitionZh: gloss }],
+    });
+    const target = stub('brisk', 'become brisk', '輕快的');
+    const pool = [
+      target,
+      stub('alpha', 'a definition with plenty of words in it', '甲'),
+      stub('beta', 'another definition with plenty of words', '乙'),
+      stub('gamma', 'a third definition with plenty of words', '丙'),
+    ];
+    const generated = generateQuestions([target], { rng: rng(), pool });
+    expect(generated.map((question) => question.type)).toEqual([
+      'meaning_en_to_zh',
+      'meaning_zh_to_en',
+    ]);
   });
 
   it('excludes partial gloss overlap, secondary senses, and reverse synonym links', () => {
@@ -45,7 +113,7 @@ describe('generateQuestions', () => {
     }
   });
 
-  it('only generates the two simple recognition types' , () => {
+  it('only generates the simple recognition types' , () => {
     const generated = generateQuestions(entries.slice(0, 5), { rng: rng(), pool: entries });
     for (const question of generated) {
       expect(GENERATED_TYPES).toContain(question.type);
