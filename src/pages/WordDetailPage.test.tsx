@@ -22,7 +22,7 @@ describe('word content tiers', () => {
     expect(await screen.findByRole('heading', { name: 'hypothesis' })).toBeInTheDocument();
     expect(screen.getByText(/字典擴充詞條/)).toBeInTheDocument();
     expect(screen.getByRole('link', { name: 'MIT 授權' })).toHaveAttribute('href', '/licenses/ECDICT-MIT.txt');
-    expect(screen.getByText(/B2（估）/)).toBeInTheDocument();
+    expect(screen.getByText('B2')).toBeInTheDocument();
     expect(screen.queryByText('例句 · Examples')).not.toBeInTheDocument();
     expect(screen.queryByText('用法解析')).not.toBeInTheDocument();
   });
