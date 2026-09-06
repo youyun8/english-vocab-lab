@@ -1189,6 +1189,13 @@ callback URL.
 A secret is missing. `npx wrangler secret list`, then set whichever of `GITHUB_CLIENT_ID`,
 `GITHUB_CLIENT_SECRET`, `SESSION_SECRET` is absent.
 
+**`Binding name 'APP_URL' already in use` (API error 10053) from `wrangler secret put`**
+The deployed Worker still carries `APP_URL` as a plain-text var, uploaded by an older
+`wrangler.jsonc` that declared it under `vars`; a secret cannot share a name with an existing
+binding. Deploy the current configuration first — `npm run deploy` drops the var, and existing
+secrets survive a deploy — then set the secret if you still want one. Usually you do not: with no
+`APP_URL` at all, the redirect URI follows the origin the app is served on.
+
 **`D1_ERROR: no such table: users`**
 Migrations were not applied to the remote database:
 `npx wrangler d1 migrations apply advanced-english-vocabulary --remote`.
