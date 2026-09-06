@@ -2,7 +2,7 @@ import { Hono } from 'hono';
 
 import type { User } from '@/domain/user';
 import { API_ERROR_CODES } from '@/shared/api';
-import { requireOAuthConfig, isProduction } from '../env';
+import { requireOAuthConfig, resolveAppUrl, isProduction } from '../env';
 import { errorBody } from '../middleware/error-handler';
 import { resolveUser } from '../middleware/auth';
 import { SessionRepository } from '../repositories/session-repository';
@@ -41,11 +41,29 @@ export function callbackUrl(appUrl: string): string {
   return `${appUrl}/api/auth/github/callback`;
 }
 
+/**
+ * Warns when a configured `APP_URL` does not match the origin the request
+ * actually arrived on. GitHub answers such a mismatch with "The redirect_uri is
+ * not associated with this application", on its own page, where the app can no
+ * longer explain anything - so the explanation is logged here instead.
+ */
+function warnOnOriginMismatch(requestUrl: string, appUrl: string): void {
+  const requestOrigin = new URL(requestUrl).origin;
+  if (requestOrigin === appUrl) return;
+  console.warn(
+    `APP_URL (${appUrl}) does not match the request origin (${requestOrigin}); ` +
+      `GitHub will be sent redirect_uri=${callbackUrl(appUrl)}. ` +
+      'Register exactly that URL as the OAuth App callback URL, or unset APP_URL ' +
+      'to derive it from the request.',
+  );
+}
+
 const auth = new Hono<AppEnv>();
 
 /** Step 1: mint a single-use state and hand the browser off to GitHub. */
 auth.get('/github', async (c) => {
-  const { clientId, appUrl } = requireOAuthConfig(c.env);
+  const { clientId, appUrl, appUrlSource } = requireOAuthConfig(c.env, c.req.raw);
+  if (appUrlSource === 'APP_URL') warnOnOriginMismatch(c.req.url, appUrl);
   const now = new Date();
 
   const sessions = new SessionRepository(c.env.DB);
@@ -64,7 +82,9 @@ auth.get('/github', async (c) => {
 
 /** Step 2: validate state, exchange the code, create an app-owned session. */
 auth.get('/github/callback', async (c) => {
-  const { clientId, clientSecret, appUrl } = requireOAuthConfig(c.env);
+  // The token exchange must repeat the same redirect_uri the authorize step
+  // sent, so it is resolved the same way here.
+  const { clientId, clientSecret, appUrl } = requireOAuthConfig(c.env, c.req.raw);
   const now = new Date();
 
   const url = new URL(c.req.url);
@@ -128,6 +148,21 @@ auth.get('/github/callback', async (c) => {
     console.error('OAuth callback failed', error);
     return fail('unexpected_error');
   }
+});
+
+/**
+ * Reports the redirect URI this deployment will send to GitHub, so the value to
+ * register as the OAuth App callback URL can be read off the running app rather
+ * than guessed. Everything here is already public: the redirect URI travels in
+ * the authorize URL, and the client id is a public identifier.
+ */
+auth.get('/github/config', (c) => {
+  const { appUrl, source } = resolveAppUrl(c.env, c.req.raw);
+  return c.json({
+    redirectUri: callbackUrl(appUrl),
+    appUrlSource: source,
+    clientIdConfigured: Boolean(c.env.GITHUB_CLIENT_ID),
+  });
 });
 
 auth.get('/me', async (c) => {
