@@ -80,6 +80,17 @@ login).
 - A statistics page with status distribution, accuracy by CEFR level and question type, a 14-day
   activity chart and a learning streak — all drawn with CSS/SVG, no chart library.
 
+**Appearance**
+
+- A theme, text-size and content-width picker in the header, applied live to the page you are
+  reading and repeated on the settings page.
+- Themes: light, dark, or follow the system. The stored choice is applied by a small inline script
+  before the first paint, so a dark-theme reader never sees a white flash.
+- Text size (15/16/18 px root) and content width (56/72/88 rem) — everything else is expressed in
+  `rem` and in `--app-max-width`, so both scale the whole app.
+- These preferences are per browser, not per account: the right theme and line length depend on the
+  screen, not on who is signed in.
+
 **Accounts and data**
 
 - GitHub OAuth implemented directly in the Cloudflare Worker; opaque, server-side sessions.
@@ -193,7 +204,7 @@ src/
   app/
     App.tsx                 application root
     router.tsx              routes; code-splits everything below the dashboard
-    providers.tsx           auth → settings → vocabulary → progress
+    providers.tsx           appearance → auth → settings → vocabulary → progress
     RouteErrorBoundary.tsx
 
   components/
@@ -202,6 +213,7 @@ src/
 
   domain/                   types + Zod schemas + pure rules (no I/O)
     vocabulary.ts  quiz.ts  progress.ts  review.ts  settings.ts  stats.ts  user.ts
+    appearance.ts           theme, text size and content width (per browser)
 
   shared/api.ts             wire contract shared by browser and Worker
 
@@ -222,7 +234,7 @@ src/
     progress-merge.ts  stats.ts  pronunciation.ts  api-client.ts
 
   features/
-    auth/  vocabulary/  quiz/  review/  stats/  settings/  progress/
+    auth/  vocabulary/  quiz/  review/  stats/  settings/  progress/  appearance/
 
   pages/                    one component per route
 
@@ -236,9 +248,14 @@ src/
   test/                     D1 adapter, jsdom setup, render helpers
   utils/  styles/
 
+public/                   favicon.ico, icon.svg, apple-touch-icon.png, site.webmanifest
 scripts/validate-vocabulary.ts
 migrations/0001_initial.sql
 ```
+
+The app icon is authored once as `public/icon.svg`; the PNG sizes and `favicon.ico` are rendered
+from it, so the bookmark bar, the browser tab, an iOS home screen and an installed PWA all show the
+same mark.
 
 ---
 

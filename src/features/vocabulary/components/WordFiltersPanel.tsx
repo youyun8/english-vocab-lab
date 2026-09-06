@@ -34,7 +34,7 @@ function FilterChip({
         'rounded-full border px-2.5 py-1 text-xs font-medium transition-colors',
         active
           ? 'border-ink-900 bg-ink-900 text-white'
-          : 'border-ink-300 bg-white text-ink-600 hover:border-ink-400',
+          : 'border-ink-300 bg-surface text-ink-600 hover:border-ink-400',
       )}
     >
       {children}
@@ -67,7 +67,7 @@ export function WordFiltersPanel({
           value={filters.query}
           onChange={(event) => set({ query: event.target.value })}
           placeholder="搜尋英文、中文、搭配詞、標籤…"
-          className="w-full rounded-md border border-ink-300 bg-white px-3 py-2 text-sm placeholder:text-ink-400 focus:border-accent-500"
+          className="w-full rounded-md border border-ink-300 bg-surface px-3 py-2 text-sm placeholder:text-ink-400 focus:border-accent-500"
         />
       </div>
 
@@ -170,7 +170,7 @@ export function WordFiltersPanel({
           id="word-sort"
           value={filters.sort}
           onChange={(event) => set({ sort: event.target.value as SortKey })}
-          className="w-full rounded-md border border-ink-300 bg-white px-3 py-2 text-sm"
+          className="w-full rounded-md border border-ink-300 bg-surface px-3 py-2 text-sm"
         >
           {(Object.keys(sortLabelZh) as SortKey[]).map((key) => (
             <option key={key} value={key}>

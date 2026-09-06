@@ -7,8 +7,46 @@
       name="description"
       content="English Vocabulary Lab — 專為中文母語者設計的 B2–C2 英語進階字彙學習平台，提供 KK 音標、繁體中文用法解析、搭配詞、文法句型、測驗與間隔複習。"
     />
-    <meta name="theme-color" content="#1c1917" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- The .ico is what bookmark lists and older tabs read; the SVG is used
+         wherever it is supported, and stays sharp at every size. -->
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
     <title>English Vocabulary Lab — B2–C2 進階英語字彙</title>
+
+    <script>
+      // Applies the stored appearance preferences before the first paint, so a
+      // dark-theme reader never gets a white flash. `AppearanceProvider` sets
+      // exactly the same attributes once React takes over.
+      (function () {
+        try {
+          var stored = JSON.parse(localStorage.getItem('evl.appearance.v1') || '{}');
+          var root = document.documentElement;
+          var prefersDark =
+            window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var theme =
+            stored.theme === 'light' || stored.theme === 'dark'
+              ? stored.theme
+              : prefersDark
+                ? 'dark'
+                : 'light';
+
+          root.dataset.theme = theme;
+          if (stored.fontSize) root.dataset.fontSize = stored.fontSize;
+          if (stored.contentWidth) root.dataset.width = stored.contentWidth;
+          root.style.colorScheme = theme;
+
+          var meta = document.querySelector('meta[name="theme-color"]');
+          if (meta) meta.setAttribute('content', theme === 'dark' ? '#201f1d' : '#ffffff');
+        } catch (error) {
+          /* The default light theme is already correct. */
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

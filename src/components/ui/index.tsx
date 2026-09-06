@@ -12,7 +12,7 @@ const buttonVariants: Record<ButtonVariant, string> = {
   primary:
     'bg-ink-900 text-white hover:bg-ink-800 disabled:bg-ink-300 disabled:text-ink-500',
   secondary:
-    'bg-white text-ink-800 ring-1 ring-ink-300 hover:bg-ink-100 disabled:text-ink-400',
+    'bg-surface text-ink-800 ring-1 ring-ink-300 hover:bg-ink-100 disabled:text-ink-400',
   ghost: 'text-ink-700 hover:bg-ink-100 disabled:text-ink-400',
   danger: 'bg-red-600 text-white hover:bg-red-700 disabled:bg-red-300',
 };
@@ -88,7 +88,7 @@ export function LinkButton({
 export function Card({ className, ...props }: HTMLAttributes<HTMLDivElement>) {
   return (
     <div
-      className={cn('rounded-lg border border-ink-200 bg-white', className)}
+      className={cn('rounded-lg border border-ink-200 bg-surface', className)}
       {...props}
     />
   );
@@ -156,7 +156,7 @@ export function EmptyState({
   action?: ReactNode;
 }) {
   return (
-    <div className="rounded-lg border border-dashed border-ink-300 bg-white px-6 py-10 text-center">
+    <div className="rounded-lg border border-dashed border-ink-300 bg-surface px-6 py-10 text-center">
       <p className="text-sm font-medium text-ink-800">{title}</p>
       {description ? <p className="mt-1 text-sm text-ink-500">{description}</p> : null}
       {action ? <div className="mt-4 flex justify-center">{action}</div> : null}
@@ -255,8 +255,12 @@ export function Toggle({
         <span
           aria-hidden="true"
           className={cn(
-            'absolute top-0.5 h-5 w-5 rounded-full bg-white transition-transform',
-            checked ? 'translate-x-5.5' : 'translate-x-0.5',
+            // `left` must be explicit: without it the knob is placed at its
+            // static position, which a button's centred text alignment puts in
+            // the middle of the track - and the translate then pushes it clean
+            // off the right edge.
+            'absolute top-0.5 left-0.5 h-5 w-5 rounded-full bg-knob transition-transform',
+            checked ? 'translate-x-5' : 'translate-x-0',
           )}
         />
       </button>

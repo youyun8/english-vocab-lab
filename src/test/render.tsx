@@ -2,6 +2,7 @@ import { render, type RenderOptions } from '@testing-library/react';
 import type { ReactElement, ReactNode } from 'react';
 import { MemoryRouter } from 'react-router-dom';
 
+import { AppearanceProvider } from '@/features/appearance/appearance-context';
 import { AuthProvider } from '@/features/auth/auth-context';
 import { ProgressProvider } from '@/features/progress/progress-context';
 import { SettingsProvider } from '@/features/settings/settings-context';
@@ -15,13 +16,15 @@ export function renderWithProviders(
   function Wrapper({ children }: { children: ReactNode }) {
     return (
       <MemoryRouter initialEntries={[route]}>
-        <AuthProvider>
-          <SettingsProvider>
-            <VocabularyProvider>
-              <ProgressProvider>{children}</ProgressProvider>
-            </VocabularyProvider>
-          </SettingsProvider>
-        </AuthProvider>
+        <AppearanceProvider>
+          <AuthProvider>
+            <SettingsProvider>
+              <VocabularyProvider>
+                <ProgressProvider>{children}</ProgressProvider>
+              </VocabularyProvider>
+            </SettingsProvider>
+          </AuthProvider>
+        </AppearanceProvider>
       </MemoryRouter>
     );
   }

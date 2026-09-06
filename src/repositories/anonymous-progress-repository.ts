@@ -16,6 +16,8 @@ export const STORAGE_KEYS = {
   localDatasetId: 'evl.localDatasetId.v1',
   /** Records which account already imported this dataset. */
   importedInto: 'evl.importedInto.v1',
+  /** Theme, text size and content width - per browser, never synced. */
+  appearance: 'evl.appearance.v1',
 } as const;
 
 function readJson(key: string): unknown {
