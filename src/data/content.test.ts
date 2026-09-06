@@ -171,6 +171,23 @@ describe('curated question bank', () => {
     }
   });
 
+  it('gives the imported exam corpus hand-written questions of every nuanced type', () => {
+    // Generation can only produce recognition questions, so usage, collocation,
+    // grammar, cloze and confusables for the exam words have to be written.
+    const dictionaryIds = new Set(dictionaryEntries.map((entry) => entry.id));
+    const examQuestions = questions.filter(
+      (question) =>
+        handWrittenTypes.includes(question.type) &&
+        question.wordIds.some((id) => dictionaryIds.has(id)),
+    );
+    expect(examQuestions.length).toBeGreaterThanOrEqual(70);
+
+    const covered = new Set(examQuestions.map((question) => question.type));
+    for (const type of handWrittenTypes) {
+      expect(covered.has(type), `exam vocabulary has no ${type} question`).toBe(true);
+    }
+  });
+
   it('covers every question type that cannot be generated', () => {
     const covered = new Set(questions.map((question) => question.type));
     for (const type of handWrittenTypes) {
