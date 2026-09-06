@@ -100,11 +100,15 @@ export function QuestionBankCard({ question }: { question: QuizQuestion }) {
           {question.distractorExplanations ? (
             <ul className="mt-2 space-y-1">
               {Object.entries(question.distractorExplanations).map(([optionId, note]) => {
-                const option = question.options.find((item) => item.id === optionId);
-                if (!option) return null;
+                // Options are on screen directly above, so the letter identifies
+                // them without repeating a whole sentence of option text.
+                const index = question.options.findIndex((item) => item.id === optionId);
+                if (index < 0) return null;
                 return (
                   <li key={optionId} className="text-xs text-ink-600">
-                    <span className="font-medium text-ink-800">{option.text}</span>
+                    <span className="font-medium text-ink-800">
+                      選項 {String.fromCharCode(65 + index)}
+                    </span>
                     <span className="mx-1.5 text-ink-300">—</span>
                     {note}
                   </li>
