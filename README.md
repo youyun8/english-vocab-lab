@@ -52,6 +52,9 @@ login).
   (2,791 `toefl`, 2,593 `gre`, 2,186 `ielts`); use the exam filter to study one list at a time.
 - 1,907 B2 / 1,429 C1 / 784 C2, including estimated bands on dictionary entries.
 - Paginated word browsing (50 results per page), with search and filters over the full corpus.
+- A filter rail that counts what each option would leave, keeps applied filters visible as
+  removable chips, collapses the sections you are done with, and scrolls independently of the
+  results.
 - KK phonetic transcription (American English) for every headword, **machine-verified against the
   CMU Pronouncing Dictionary** (see [KK verification](#17-kk-phonetic-verification)), in a font
   stack chosen for IPA coverage.

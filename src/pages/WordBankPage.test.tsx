@@ -23,6 +23,11 @@ async function renderPage() {
   await screen.findByRole('heading', { level: 1, name: '字彙庫' });
 }
 
+/** Filter chips carry their facet count, so match the label as a prefix. */
+function levelChip(level: 'B2' | 'C1' | 'C2') {
+  return screen.getByRole('button', { name: new RegExp(`^${level}(?![0-9A-Za-z])`), pressed: false });
+}
+
 function resultCount(): number {
   const rows = screen.queryAllByRole('row');
   // Subtract the header row.
@@ -65,7 +70,7 @@ describe('WordBankPage', () => {
     const user = userEvent.setup();
     await renderPage();
 
-    await user.click(screen.getByRole('button', { name: 'C2', pressed: false }));
+    await user.click(levelChip('C2'));
 
     await waitFor(() => expect(resultCount()).toBe(Math.min(countAtLevel('C2'), WORDS_PER_PAGE)));
   });
@@ -74,10 +79,10 @@ describe('WordBankPage', () => {
     const user = userEvent.setup();
     await renderPage();
 
-    await user.click(screen.getByRole('button', { name: 'C2', pressed: false }));
+    await user.click(levelChip('C2'));
     const before = countAtLevel('C2');
 
-    await user.click(screen.getByRole('button', { name: '動詞', pressed: false }));
+    await user.click(screen.getByRole('button', { name: /^動詞/, pressed: false }));
 
     const expected = entries.filter((entry) => entry.cefr === 'C2' && entry.senses.some((sense) => sense.partOfSpeech === 'verb')).length;
     expect(expected).toBeLessThan(before);
@@ -101,7 +106,7 @@ describe('WordBankPage', () => {
     const user = userEvent.setup();
     await renderPage();
 
-    await user.click(screen.getByRole('button', { name: 'B2', pressed: false }));
+    await user.click(levelChip('B2'));
     await waitFor(() => expect(resultCount()).toBe(Math.min(countAtLevel('B2'), WORDS_PER_PAGE)));
 
     await user.click(screen.getByRole('button', { name: '清除篩選' }));

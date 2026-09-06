@@ -98,24 +98,93 @@ function haystack(question: QuizQuestion, byId: Map<string, VocabularyEntry>): s
     .toLowerCase();
 }
 
+/** Filter groups a facet count may ignore, one per chip row. */
+type QuestionFilterGroup = 'types' | 'levels' | 'difficulties' | 'sources' | 'tag';
+
+function matchesFilters(
+  question: QuizQuestion,
+  filters: QuestionBankFilters,
+  byId: Map<string, VocabularyEntry>,
+  query: string,
+  skip?: QuestionFilterGroup,
+): boolean {
+  if (skip !== 'types' && filters.types.length > 0 && !filters.types.includes(question.type)) {
+    return false;
+  }
+  if (skip !== 'levels' && filters.levels.length > 0 && !filters.levels.includes(question.cefr)) {
+    return false;
+  }
+  if (skip !== 'difficulties' && filters.difficulties.length > 0
+    && !filters.difficulties.includes(question.difficulty)) {
+    return false;
+  }
+  if (skip !== 'sources' && filters.sources.length > 0
+    && !filters.sources.includes(question.source)) {
+    return false;
+  }
+  if (skip !== 'tag' && filters.tag && !question.tags.includes(filters.tag)) return false;
+  if (query && !haystack(question, byId).includes(query)) return false;
+  return true;
+}
+
 export function filterQuestionBank(
   questions: QuizQuestion[],
   filters: QuestionBankFilters,
   byId: Map<string, VocabularyEntry>,
 ): QuizQuestion[] {
   const query = filters.query.trim().toLowerCase();
+  return questions.filter((question) => matchesFilters(question, filters, byId, query));
+}
 
-  return questions.filter((question) => {
-    if (filters.types.length > 0 && !filters.types.includes(question.type)) return false;
-    if (filters.levels.length > 0 && !filters.levels.includes(question.cefr)) return false;
-    if (filters.difficulties.length > 0 && !filters.difficulties.includes(question.difficulty)) {
-      return false;
+export interface QuestionFacetCounts {
+  types: Map<QuestionType, number>;
+  levels: Map<CefrLevel, number>;
+  difficulties: Map<Difficulty, number>;
+  sources: Map<QuestionSource, number>;
+  tags: Map<string, number>;
+}
+
+/** How many questions each filter value would leave, ignoring its own group. */
+export function questionFacetCounts(
+  questions: QuizQuestion[],
+  filters: QuestionBankFilters,
+  byId: Map<string, VocabularyEntry>,
+): QuestionFacetCounts {
+  const counts: QuestionFacetCounts = {
+    types: new Map(),
+    levels: new Map(),
+    difficulties: new Map(),
+    sources: new Map(),
+    tags: new Map(),
+  };
+  const bump = <T>(map: Map<T, number>, key: T) => map.set(key, (map.get(key) ?? 0) + 1);
+  const query = filters.query.trim().toLowerCase();
+
+  for (const question of questions) {
+    if (matchesFilters(question, filters, byId, query, 'types')) bump(counts.types, question.type);
+    if (matchesFilters(question, filters, byId, query, 'levels')) bump(counts.levels, question.cefr);
+    if (matchesFilters(question, filters, byId, query, 'difficulties')) {
+      bump(counts.difficulties, question.difficulty);
     }
-    if (filters.sources.length > 0 && !filters.sources.includes(question.source)) return false;
-    if (filters.tag && !question.tags.includes(filters.tag)) return false;
-    if (query && !haystack(question, byId).includes(query)) return false;
-    return true;
-  });
+    if (matchesFilters(question, filters, byId, query, 'sources')) {
+      bump(counts.sources, question.source);
+    }
+    if (matchesFilters(question, filters, byId, query, 'tag')) {
+      for (const tag of question.tags) bump(counts.tags, tag);
+    }
+  }
+
+  return counts;
+}
+
+/** How many filters are applied, for the "N applied" badge and clear button. */
+export function countActiveQuestionFilters(filters: QuestionBankFilters): number {
+  return filters.types.length
+    + filters.levels.length
+    + filters.difficulties.length
+    + filters.sources.length
+    + (filters.tag ? 1 : 0)
+    + (filters.query.trim() ? 1 : 0);
 }
 
 export interface QuestionBankSummary {

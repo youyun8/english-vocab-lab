@@ -2,7 +2,15 @@ import { describe, expect, it } from 'vitest';
 
 import { loadVocabulary } from '@/data';
 import { createEmptyProgress, type WordProgress } from '@/domain/progress';
-import { DEFAULT_FILTERS, collectTags, filterEntries, type WordFilters } from './filtering';
+import {
+  DEFAULT_FILTERS,
+  collectTags,
+  countActiveFilters,
+  facetCounts,
+  filterEntries,
+  partitionTags,
+  type WordFilters,
+} from './filtering';
 
 const entries = await loadVocabulary();
 const NOW = new Date('2026-03-01T00:00:00.000Z');
@@ -165,5 +173,77 @@ describe('collectTags', () => {
     const tags = collectTags(entries);
     expect(new Set(tags).size).toBe(tags.length);
     expect(tags).toEqual([...tags].sort((a, b) => a.localeCompare(b)));
+  });
+});
+
+describe('facetCounts', () => {
+  const counts = (overrides: Partial<WordFilters>, progress: WordProgress[] = []) =>
+    facetCounts({
+      entries,
+      progressByWordId: new Map(progress.map((item) => [item.wordId, item])),
+      filters: { ...DEFAULT_FILTERS, ...overrides },
+    });
+
+  it('counts every level when nothing is filtered', () => {
+    const all = counts({});
+    for (const level of ['B2', 'C1', 'C2'] as const) {
+      expect(all.cefrLevels.get(level)).toBe(
+        entries.filter((entry) => entry.cefr === level).length,
+      );
+    }
+  });
+
+  it('ignores a value\'s own group, so its siblings stay selectable', () => {
+    const withC2 = counts({ cefrLevels: ['C2'] });
+    // C1's count is what picking it *as well* would add, not zero.
+    expect(withC2.cefrLevels.get('C1')).toBe(entries.filter((e) => e.cefr === 'C1').length);
+    expect(withC2.cefrLevels.get('C2')).toBe(entries.filter((e) => e.cefr === 'C2').length);
+  });
+
+  it('narrows other groups by the filters that are applied', () => {
+    const all = counts({});
+    const withC2 = counts({ cefrLevels: ['C2'] });
+    const verbsAll = all.partsOfSpeech.get('verb') ?? 0;
+    const verbsC2 = withC2.partsOfSpeech.get('verb') ?? 0;
+    expect(verbsC2).toBeGreaterThan(0);
+    expect(verbsC2).toBeLessThan(verbsAll);
+  });
+
+  it('counts the bookmarked and difficult flags from progress', () => {
+    const progress = [
+      progressFor('w_consolidate', { bookmarked: true }),
+      progressFor('w_infer', { difficult: true }),
+    ];
+    const flagged = counts({}, progress);
+    expect(flagged.bookmarked).toBe(1);
+    expect(flagged.difficult).toBe(1);
+  });
+});
+
+describe('countActiveFilters', () => {
+  it('counts nothing for the defaults', () => {
+    expect(countActiveFilters(DEFAULT_FILTERS)).toBe(0);
+  });
+
+  it('counts every applied value, the query and a non-default sort', () => {
+    expect(
+      countActiveFilters({
+        ...DEFAULT_FILTERS,
+        query: ' consolidate ',
+        cefrLevels: ['B2', 'C1'],
+        tags: ['toefl'],
+        bookmarkedOnly: true,
+        sort: 'weakest',
+      }),
+    ).toBe(6);
+  });
+});
+
+describe('partitionTags', () => {
+  it('separates the exam lists from editorial topics', () => {
+    const { exam, topic } = partitionTags(collectTags(entries));
+    expect(exam).toEqual(['toefl', 'gre', 'ielts', 'dictionary']);
+    expect(topic).not.toContain('toefl');
+    expect(topic.length).toBeGreaterThan(0);
   });
 });
