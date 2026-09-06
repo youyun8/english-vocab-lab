@@ -2,6 +2,7 @@ import { NavLink, Outlet } from 'react-router-dom';
 import { Suspense, useState } from 'react';
 
 import { Button, Spinner } from '@/components/ui';
+import { AppearanceMenu } from '@/features/appearance/components/AppearanceMenu';
 import { useAuth } from '@/features/auth/auth-context';
 import { useProgress } from '@/features/progress/progress-context';
 import { cn } from '@/utils/cn';
@@ -73,8 +74,8 @@ export function AppShell() {
         跳到主要內容
       </a>
 
-      <header className="sticky top-0 z-40 border-b border-ink-200 bg-white/95 backdrop-blur">
-        <div className="mx-auto flex max-w-6xl items-center gap-4 px-4 py-3">
+      <header className="sticky top-0 z-40 border-b border-ink-200 bg-surface/95 backdrop-blur">
+        <div className="app-container flex items-center gap-4 px-4 py-3">
           <NavLink to="/" className="shrink-0 text-sm font-semibold tracking-tight text-ink-900">
             English Vocabulary Lab
           </NavLink>
@@ -88,6 +89,7 @@ export function AppShell() {
           </nav>
 
           <div className="ml-auto flex items-center gap-2">
+            <AppearanceMenu />
             <AccountControls />
             <Button
               size="sm"
@@ -128,14 +130,14 @@ export function AppShell() {
 
       {mergePrompt ? <MergePromptBanner prompt={mergePrompt} /> : null}
 
-      <main id="main" className="mx-auto max-w-6xl px-4 py-6 md:py-8">
+      <main id="main" className="app-container px-4 py-6 md:py-8">
         {/* Covers the code-split route chunks declared in `router.tsx`. */}
         <Suspense fallback={<Spinner label="載入頁面" />}>
           <Outlet />
         </Suspense>
       </main>
 
-      <footer className="mx-auto max-w-6xl px-4 pb-10 text-xs text-ink-400">
+      <footer className="app-container px-4 pb-10 text-xs text-ink-400">
         <p>
           KK 音標為美式發音標註；瀏覽器語音僅供參考，並非發音權威。
           <span className="mx-2">·</span>

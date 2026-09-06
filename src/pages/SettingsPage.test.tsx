@@ -63,6 +63,24 @@ describe('SettingsPage', () => {
     await waitFor(() => expect(toggle).toHaveAttribute('aria-checked', 'false'));
   });
 
+  it('keeps the toggle knob anchored inside its track', async () => {
+    const user = userEvent.setup();
+    await renderPage();
+
+    const toggle = screen.getByRole('switch', { name: '啟用發音功能' });
+    const knob = toggle.querySelector('span[aria-hidden="true"]');
+
+    // Without an explicit `left`, the knob falls back to its static position -
+    // centred by the button's default text alignment - and the translate then
+    // moves it outside the track entirely, leaving a blank pill on screen.
+    expect(knob).toHaveClass('left-0.5');
+    expect(knob).toHaveClass('translate-x-5');
+
+    await user.click(toggle);
+    await waitFor(() => expect(knob).toHaveClass('translate-x-0'));
+    expect(knob).toHaveClass('left-0.5');
+  });
+
   it('refuses to leave the CEFR range empty', async () => {
     const user = userEvent.setup();
     await renderPage();

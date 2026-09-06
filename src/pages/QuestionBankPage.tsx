@@ -33,7 +33,7 @@ function Chip({
         'rounded-full border px-2.5 py-1 text-xs font-medium transition-colors',
         active
           ? 'border-ink-900 bg-ink-900 text-white'
-          : 'border-ink-300 bg-white text-ink-600 hover:border-ink-400',
+          : 'border-ink-300 bg-surface text-ink-600 hover:border-ink-400',
       )}
     >
       {children}
@@ -167,7 +167,7 @@ export function QuestionBankPage() {
               id="qb-word"
               value={wordId}
               onChange={(event) => setWordId(event.target.value)}
-              className="w-full rounded-md border border-ink-300 bg-white px-3 py-2 text-sm"
+              className="w-full rounded-md border border-ink-300 bg-surface px-3 py-2 text-sm"
             >
               <option value="">全部字彙</option>
               {entries.map((entry) => (
@@ -185,7 +185,7 @@ export function QuestionBankPage() {
               id="qb-tag"
               value={tag}
               onChange={(event) => setTag(event.target.value)}
-              className="w-full rounded-md border border-ink-300 bg-white px-3 py-2 text-sm"
+              className="w-full rounded-md border border-ink-300 bg-surface px-3 py-2 text-sm"
             >
               <option value="">全部標籤</option>
               {allTags.map((item) => (
