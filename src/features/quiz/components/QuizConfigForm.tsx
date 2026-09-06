@@ -32,7 +32,7 @@ function Chip({
         'rounded-full border px-3 py-1.5 text-sm font-medium transition-colors disabled:opacity-50',
         active
           ? 'border-ink-900 bg-ink-900 text-white'
-          : 'border-ink-300 bg-white text-ink-600 hover:border-ink-400',
+          : 'border-ink-300 bg-surface text-ink-600 hover:border-ink-400',
       )}
     >
       {children}

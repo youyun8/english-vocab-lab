@@ -36,14 +36,101 @@
   --color-accent-500: #3b6bd6;
   --color-accent-600: #2f56ae;
   --color-accent-700: #274787;
+
+  /*
+   * Surfaces are a token rather than `white` so that a card, the header and an
+   * input all follow the theme; `knob` stays light in both themes because it
+   * always sits on a coloured track.
+   */
+  --color-surface: #ffffff;
+  --color-knob: #ffffff;
 }
 
 :root {
   color-scheme: light;
+
+  /* Both are driven by the appearance preferences on <html>. */
+  --app-font-size: 16px;
+  --app-max-width: 72rem;
+}
+
+/*
+ * Dark theme. Only the palette is redefined - every utility already reads
+ * these variables, so no component needs a `dark:` variant. The ink scale is
+ * inverted (50 is the page, 900 is the text), and `white` follows it so that
+ * `bg-ink-900 text-white` stays a legible inverse button in both themes.
+ */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  --color-white: #17161a;
+  --color-surface: #201f1d;
+  --color-knob: #e8e4de;
+
+  --color-ink-50: #161514;
+  --color-ink-100: #1f1e1c;
+  --color-ink-200: #2c2a27;
+  --color-ink-300: #3d3a36;
+  --color-ink-400: #6b6660;
+  --color-ink-500: #97918a;
+  --color-ink-600: #b5afa7;
+  --color-ink-700: #d2ccc4;
+  --color-ink-800: #e8e4de;
+  --color-ink-900: #f7f5f2;
+
+  --color-accent-50: #1b2740;
+  --color-accent-100: #26375a;
+  --color-accent-500: #5b8def;
+  --color-accent-600: #8ab0ff;
+  --color-accent-700: #b6cdff;
+
+  /* Status colours: the tinted backgrounds darken, the text steps lighten. */
+  --color-red-50: #2a1a1a;
+  --color-red-100: #3a2222;
+  --color-red-200: #4a2b2b;
+  --color-red-300: #7f1d1d;
+  --color-red-600: #f87171;
+  --color-red-700: #fca5a5;
+  --color-red-800: #fecaca;
+
+  --color-emerald-50: #14251d;
+  --color-emerald-100: #1c3329;
+  --color-emerald-200: #2b4b3c;
+  --color-emerald-700: #6ee7b7;
+  --color-emerald-800: #a7f3d0;
+
+  --color-amber-50: #2a2113;
+  --color-amber-100: #3a2d18;
+  --color-amber-200: #4d3c1f;
+  --color-amber-700: #fcd34d;
+  --color-amber-800: #fde68a;
+}
+
+/* Text size: everything else is expressed in rem, so this scales the app. */
+:root[data-font-size='small'] {
+  --app-font-size: 15px;
+}
+:root[data-font-size='large'] {
+  --app-font-size: 18px;
+}
+
+:root[data-width='narrow'] {
+  --app-max-width: 56rem;
+}
+:root[data-width='wide'] {
+  --app-max-width: 88rem;
 }
 
 html {
   -webkit-text-size-adjust: 100%;
+  font-size: var(--app-font-size);
+}
+
+/* The shell's centred column, whose width the appearance settings control. */
+.app-container {
+  margin-inline: auto;
+  width: 100%;
+  max-width: var(--app-max-width);
 }
 
 body {

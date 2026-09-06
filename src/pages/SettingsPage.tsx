@@ -2,6 +2,7 @@ import { useRef, useState } from 'react';
 
 import { Button, Card, ErrorNotice, SectionHeading, Toggle } from '@/components/ui';
 import { cefrLevels, type CefrLevel } from '@/domain/vocabulary';
+import { AppearanceControls } from '@/features/appearance/components/AppearanceControls';
 import { useAuth } from '@/features/auth/auth-context';
 import { useProgress } from '@/features/progress/progress-context';
 import { useSettings } from '@/features/settings/settings-context';
@@ -115,7 +116,7 @@ export function SettingsPage() {
                   'rounded-full border px-3 py-1.5 text-sm font-medium transition-colors',
                   settings.questionsPerQuiz === count
                     ? 'border-ink-900 bg-ink-900 text-white'
-                    : 'border-ink-300 bg-white text-ink-600 hover:border-ink-400',
+                    : 'border-ink-300 bg-surface text-ink-600 hover:border-ink-400',
                 )}
               >
                 {count}
@@ -138,7 +139,7 @@ export function SettingsPage() {
                   'rounded-full border px-3 py-1.5 text-sm font-medium transition-colors',
                   settings.cefrLevels.includes(level)
                     ? 'border-ink-900 bg-ink-900 text-white'
-                    : 'border-ink-300 bg-white text-ink-600 hover:border-ink-400',
+                    : 'border-ink-300 bg-surface text-ink-600 hover:border-ink-400',
                 )}
               >
                 {level}
@@ -163,6 +164,11 @@ export function SettingsPage() {
             description="1–4 選擇答案、Enter 下一題、Space 發音、B 收藏。"
           />
         </div>
+      </Card>
+
+      <Card className="p-5">
+        <SectionHeading hint="只儲存在這個瀏覽器，不會同步到帳號。">外觀</SectionHeading>
+        <AppearanceControls className="mt-3" />
       </Card>
 
       <Card className="p-5">
@@ -201,7 +207,7 @@ export function SettingsPage() {
               onChange={(event) =>
                 void update({ wordBankView: event.target.value === 'card' ? 'card' : 'list' })
               }
-              className="rounded-md border border-ink-300 bg-white px-3 py-1.5 text-sm"
+              className="rounded-md border border-ink-300 bg-surface px-3 py-1.5 text-sm"
             >
               <option value="list">列表</option>
               <option value="card">卡片</option>

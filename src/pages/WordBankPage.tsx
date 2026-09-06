@@ -42,7 +42,7 @@ export function WordBankPage() {
 
         <div className="flex gap-2">
           <div
-            className="inline-flex rounded-md border border-ink-300 bg-white p-0.5"
+            className="inline-flex rounded-md border border-ink-300 bg-surface p-0.5"
             role="group"
             aria-label="檢視方式"
           >
