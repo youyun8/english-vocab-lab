@@ -70,7 +70,7 @@ export function ReviewIntervalsField({
               'rounded-full border px-3 py-1.5 text-sm font-medium transition-colors',
               activePreset === preset.id
                 ? 'border-ink-900 bg-ink-900 text-white'
-                : 'border-ink-300 bg-white text-ink-600 hover:border-ink-400',
+                : 'border-ink-300 bg-surface text-ink-600 hover:border-ink-400',
             )}
           >
             {preset.labelZh}
@@ -99,7 +99,7 @@ export function ReviewIntervalsField({
             aria-invalid={error != null}
             aria-describedby={error ? 'review-intervals-error' : 'review-intervals-hint'}
             placeholder="1, 3, 7, 14, 30"
-            className="w-full rounded-md border border-ink-300 bg-white px-3 py-2 text-sm tabular-nums"
+            className="w-full rounded-md border border-ink-300 bg-surface px-3 py-2 text-sm tabular-nums"
           />
           <p id="review-intervals-hint" className="mt-1 text-xs text-ink-400">
             以逗號分隔的天數，需由小到大遞增；每個值 1–365 天，最多 10 個階段。

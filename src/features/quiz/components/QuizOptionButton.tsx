@@ -4,7 +4,7 @@ import { cn } from '@/utils/cn';
 export type OptionState = 'idle' | 'correct' | 'incorrect' | 'revealed-correct';
 
 const stateClasses: Record<OptionState, string> = {
-  idle: 'border-ink-300 bg-white hover:border-ink-500',
+  idle: 'border-ink-300 bg-surface hover:border-ink-500',
   correct: 'border-emerald-500 bg-emerald-50',
   incorrect: 'border-red-500 bg-red-50',
   'revealed-correct': 'border-emerald-400 bg-emerald-50/60',
