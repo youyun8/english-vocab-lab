@@ -1,4 +1,4 @@
-import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 
 import { createEmptyProgress, type WordProgress } from '@/domain/progress';
 import { DEFAULT_SETTINGS } from '@/domain/settings';
@@ -471,6 +471,57 @@ describe('OAuth state handling', () => {
     expect(setCookie).toContain('evl_oauth_state=');
     expect(setCookie).toContain('HttpOnly');
     expect(setCookie).toContain(state!);
+  });
+});
+
+describe('OAuth redirect URI', () => {
+  const authorizeAt = (origin: string) =>
+    app.fetch(new Request(`${origin}/api/auth/github`), env);
+
+  const redirectUriOf = async (response: Response) =>
+    new URL(response.headers.get('Location')!).searchParams.get('redirect_uri');
+
+  it('derives the redirect URI from the request origin when APP_URL is unset', async () => {
+    delete env.APP_URL;
+    const response = await authorizeAt('https://vocab.workers.dev');
+    expect(await redirectUriOf(response)).toBe(
+      'https://vocab.workers.dev/api/auth/github/callback',
+    );
+  });
+
+  it('follows the origin the app is actually served on', async () => {
+    delete env.APP_URL;
+    const response = await authorizeAt('http://localhost:5173');
+    expect(await redirectUriOf(response)).toBe(
+      'http://localhost:5173/api/auth/github/callback',
+    );
+  });
+
+  it('still honours APP_URL when one is configured', async () => {
+    const warn = vi.spyOn(console, 'warn').mockImplementation(() => {});
+    env.APP_URL = 'https://vocab.example.com/';
+    const response = await authorizeAt('https://vocab.workers.dev');
+    expect(await redirectUriOf(response)).toBe(
+      'https://vocab.example.com/api/auth/github/callback',
+    );
+    // A mismatch is what GitHub reports as an unassociated redirect_uri, so it
+    // is spelled out in the logs where the cause is still known.
+    expect(warn).toHaveBeenCalledWith(expect.stringContaining('does not match the request origin'));
+    warn.mockRestore();
+  });
+
+  it('reports the redirect URI to register with GitHub', async () => {
+    delete env.APP_URL;
+    const response = await app.fetch(
+      new Request('https://vocab.workers.dev/api/auth/github/config'),
+      env,
+    );
+    expect(response.status).toBe(200);
+    expect(await response.json()).toEqual({
+      redirectUri: 'https://vocab.workers.dev/api/auth/github/callback',
+      appUrlSource: 'request',
+      clientIdConfigured: true,
+    });
   });
 });
 
