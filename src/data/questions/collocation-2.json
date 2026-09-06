@@ -1,0 +1,327 @@
+[
+  {
+    "id": "q_co_assess_impact_01",
+    "type": "collocation",
+    "cefr": "B2",
+    "wordIds": ["w_assess"],
+    "prompt": "Which combination is the most natural?",
+    "options": [
+      { "id": "a", "text": "assess the impact of the change" },
+      { "id": "b", "text": "assess the weight of the change" },
+      { "id": "c", "text": "assess the volume of the change" },
+      { "id": "d", "text": "assess the height of the change" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "assess the impact 是商務與工程寫作中最高頻的搭配之一。",
+    "distractorExplanations": {
+      "b": "weight 指實體重量，不用來衡量變更的效應。",
+      "c": "volume 指數量或音量，與變更造成的影響無關。",
+      "d": "height 是高度，完全不適用於抽象的變更。"
+    },
+    "difficulty": 2,
+    "tags": ["collocation", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_emphasis_on_01",
+    "type": "collocation",
+    "cefr": "B2",
+    "wordIds": ["w_emphasis"],
+    "prompt": "Which phrase is correct?",
+    "options": [
+      { "id": "a", "text": "place emphasis on code quality" },
+      { "id": "b", "text": "place emphasis in code quality" },
+      { "id": "c", "text": "place emphasis to code quality" },
+      { "id": "d", "text": "place emphasis for code quality" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "emphasis 固定搭配介系詞 on：place / put emphasis on something。",
+    "distractorExplanations": {
+      "b": "in 不與 emphasis 搭配。",
+      "c": "to 不與 emphasis 搭配。",
+      "d": "for 不與 emphasis 搭配。"
+    },
+    "difficulty": 2,
+    "tags": ["collocation", "preposition"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_set_precedent_01",
+    "type": "collocation",
+    "cefr": "C1",
+    "wordIds": ["w_precedent"],
+    "prompt": "Which verb goes with \"precedent\"?",
+    "context": "Approving this exception would ____ a precedent.",
+    "options": [
+      { "id": "a", "text": "set" },
+      { "id": "b", "text": "make" },
+      { "id": "c", "text": "build" },
+      { "id": "d", "text": "place" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "set a precedent 是固定搭配，意思是「開先例」。",
+    "distractorExplanations": {
+      "b": "make 不與 precedent 形成慣用搭配。",
+      "c": "build 用於建造具體或抽象結構，不用於先例。",
+      "d": "place 用於 place emphasis，不用於 precedent。"
+    },
+    "difficulty": 3,
+    "tags": ["collocation", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_cross_threshold_01",
+    "type": "collocation",
+    "cefr": "C1",
+    "wordIds": ["w_threshold"],
+    "prompt": "Which verb collocates with \"threshold\"?",
+    "context": "The alert fires when the error rate ____ the threshold.",
+    "options": [
+      { "id": "a", "text": "exceeds" },
+      { "id": "b", "text": "overtakes" },
+      { "id": "c", "text": "overcomes" },
+      { "id": "d", "text": "outgrows" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "exceed / cross a threshold 是監控語境中的標準搭配。",
+    "distractorExplanations": {
+      "b": "overtake 是「超車、趕過（某人）」，用於競爭對象而非數值門檻。",
+      "c": "overcome 是「克服（困難）」，門檻不是要被克服的對象。",
+      "d": "outgrow 是「長大到不再適合」，語意不符。"
+    },
+    "difficulty": 3,
+    "tags": ["collocation", "monitoring"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_empirical_evidence_01",
+    "type": "collocation",
+    "cefr": "C1",
+    "wordIds": ["w_empirical"],
+    "prompt": "Which combination is standard in research writing?",
+    "options": [
+      { "id": "a", "text": "empirical evidence" },
+      { "id": "b", "text": "empirical opinion" },
+      { "id": "c", "text": "empirical belief" },
+      { "id": "d", "text": "empirical guess" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "empirical evidence（實證證據）是學術寫作中的固定搭配，指來自觀測或量測的證據。",
+    "distractorExplanations": {
+      "b": "opinion 是個人看法，依定義就不是實證得來的。",
+      "c": "belief 是信念，與觀測資料相對。",
+      "d": "guess 是猜測，與 empirical 的嚴謹意涵矛盾。"
+    },
+    "difficulty": 3,
+    "tags": ["collocation", "research"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_pragmatic_approach_01",
+    "type": "collocation",
+    "cefr": "C1",
+    "wordIds": ["w_pragmatic"],
+    "prompt": "Which phrase is idiomatic?",
+    "options": [
+      { "id": "a", "text": "take a pragmatic approach" },
+      { "id": "b", "text": "make a pragmatic approach" },
+      { "id": "c", "text": "do a pragmatic approach" },
+      { "id": "d", "text": "hold a pragmatic approach" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "take an approach 是固定搭配，pragmatic 只是修飾語。",
+    "distractorExplanations": {
+      "b": "英文不說 make an approach（除非指靠近某物的動作）。",
+      "c": "do an approach 不是英文搭配。",
+      "d": "hold 用於 hold a view / hold a position，不用於 approach。"
+    },
+    "difficulty": 3,
+    "tags": ["collocation", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_facilitate_discussion_01",
+    "type": "collocation",
+    "cefr": "C1",
+    "wordIds": ["w_facilitate"],
+    "prompt": "Which noun collocates with \"facilitate\"?",
+    "options": [
+      { "id": "a", "text": "facilitate discussion" },
+      { "id": "b", "text": "facilitate the manager" },
+      { "id": "c", "text": "facilitate a laptop" },
+      { "id": "d", "text": "facilitate a deadline" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "facilitate 的受詞必須是過程或活動；discussion 是最典型的搭配。",
+    "distractorExplanations": {
+      "b": "facilitate 的受詞不能是人。要說「使某人能夠做某事」請用 enable somebody to do。",
+      "c": "laptop 是實體物品，不是可以被促進的過程。",
+      "d": "deadline 通常用 set 或 meet，不會被 facilitate。"
+    },
+    "difficulty": 3,
+    "tags": ["collocation", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_bias_towards_01",
+    "type": "collocation",
+    "cefr": "C1",
+    "wordIds": ["w_bias"],
+    "prompt": "Which preposition follows \"bias\" here?",
+    "context": "Our sample has a clear bias ____ power users.",
+    "options": [
+      { "id": "a", "text": "towards" },
+      { "id": "b", "text": "onto" },
+      { "id": "c", "text": "into" },
+      { "id": "d", "text": "over" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "bias 搭配 towards（偏向）或 against（不利於），此處是偏向重度使用者。",
+    "distractorExplanations": {
+      "b": "onto 表示移動到某表面，與偏誤方向無關。",
+      "c": "into 表示進入，不與 bias 搭配。",
+      "d": "over 用於 preference over，不用於 bias。"
+    },
+    "difficulty": 3,
+    "tags": ["collocation", "preposition"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_legitimate_concern_01",
+    "type": "collocation",
+    "cefr": "C1",
+    "wordIds": ["w_legitimate"],
+    "prompt": "Which phrase would you use to acknowledge someone's point politely?",
+    "options": [
+      { "id": "a", "text": "That is a legitimate concern." },
+      { "id": "b", "text": "That is a legitimate complaint." },
+      { "id": "c", "text": "That is a legitimate accusation." },
+      { "id": "d", "text": "That is a legitimate objection to reject." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "a legitimate concern 是職場中承認對方顧慮合情合理的標準說法，語氣得體。",
+    "distractorExplanations": {
+      "b": "complaint 帶有抱怨的意味，語氣不如 concern 中性。",
+      "c": "accusation 是「指控」，語氣過重，會讓討論升溫。",
+      "d": "句子自相矛盾：既承認正當又說要駁回。"
+    },
+    "difficulty": 4,
+    "tags": ["collocation", "workplace"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_untenable_position_01",
+    "type": "collocation",
+    "cefr": "C2",
+    "wordIds": ["w_untenable"],
+    "prompt": "Which noun most commonly follows \"untenable\"?",
+    "options": [
+      { "id": "a", "text": "an untenable position" },
+      { "id": "b", "text": "an untenable location" },
+      { "id": "c", "text": "an untenable direction" },
+      { "id": "d", "text": "an untenable distance" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "an untenable position 是固定搭配，指「守不住的立場或處境」。",
+    "distractorExplanations": {
+      "b": "location 是實際地點，untenable 的抽象義不適用。",
+      "c": "direction 指方向，不與 untenable 搭配。",
+      "d": "distance 是距離，語意不符。"
+    },
+    "difficulty": 4,
+    "tags": ["collocation", "argument"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_tacit_agreement_01",
+    "type": "collocation",
+    "cefr": "C2",
+    "wordIds": ["w_tacit"],
+    "prompt": "Which combination is standard?",
+    "options": [
+      { "id": "a", "text": "a tacit agreement" },
+      { "id": "b", "text": "a tacit contract" },
+      { "id": "c", "text": "a tacit signature" },
+      { "id": "d", "text": "a tacit announcement" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "tacit agreement（默契）是固定搭配，指未明說卻共同遵守的共識。",
+    "distractorExplanations": {
+      "b": "contract 依定義需要明示條款，與 tacit 矛盾。",
+      "c": "signature 是具體的簽名動作，不可能是默示的。",
+      "d": "announcement 是公開宣告，與「未說出口」直接衝突。"
+    },
+    "difficulty": 4,
+    "tags": ["collocation", "workplace"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_spurious_correlation_01",
+    "type": "collocation",
+    "cefr": "C2",
+    "wordIds": ["w_spurious"],
+    "prompt": "Which phrase is the standard statistical term?",
+    "options": [
+      { "id": "a", "text": "a spurious correlation" },
+      { "id": "b", "text": "a spurious coincidence" },
+      { "id": "c", "text": "a spurious connection" },
+      { "id": "d", "text": "a spurious comparison" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "a spurious correlation（偽相關）是統計學的固定術語，指看似相關實則由第三因素造成。",
+    "distractorExplanations": {
+      "b": "coincidence 本身就是「巧合」，加上 spurious 便顯得贅餘。",
+      "c": "connection 語意可通，但不是統計學的標準術語。",
+      "d": "comparison 是「比較」，不是統計關聯的名稱。"
+    },
+    "difficulty": 4,
+    "tags": ["collocation", "statistics"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_seemingly_innocuous_01",
+    "type": "collocation",
+    "cefr": "C2",
+    "wordIds": ["w_innocuous"],
+    "prompt": "Which adverb most naturally precedes \"innocuous\" in an incident report?",
+    "options": [
+      { "id": "a", "text": "seemingly innocuous" },
+      { "id": "b", "text": "extremely innocuous" },
+      { "id": "c", "text": "densely innocuous" },
+      { "id": "d", "text": "roughly innocuous" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "seemingly innocuous 是事故敘述的經典開場，預告「看似無害的事其實闖了大禍」。",
+    "distractorExplanations": {
+      "b": "extremely 與 innocuous 搭配很不自然，也失去了伏筆效果。",
+      "c": "densely 用於密度，不能修飾 innocuous。",
+      "d": "roughly 表示「大約」，語意不符。"
+    },
+    "difficulty": 4,
+    "tags": ["collocation", "engineering"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co_cogent_argument_01",
+    "type": "collocation",
+    "cefr": "C2",
+    "wordIds": ["w_cogent"],
+    "prompt": "Which noun does \"cogent\" most naturally modify?",
+    "options": [
+      { "id": "a", "text": "a cogent argument" },
+      { "id": "b", "text": "a cogent colour" },
+      { "id": "c", "text": "a cogent distance" },
+      { "id": "d", "text": "a cogent appetite" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "cogent 專門稱讚推理的品質，因此幾乎只修飾 argument、case、reason 這類名詞。",
+    "distractorExplanations": {
+      "b": "colour 沒有推理可言，無法被評價為論理嚴密。",
+      "c": "distance 是量度，與說服力無關。",
+      "d": "appetite 是食慾，語意完全不符。"
+    },
+    "difficulty": 4,
+    "tags": ["collocation", "argument"],
+    "source": "curated"
+  }
+]

@@ -29,13 +29,15 @@ login).
 14. [How to add a vocabulary entry](#14-how-to-add-a-vocabulary-entry)
 15. [How to add a quiz question](#15-how-to-add-a-quiz-question)
 16. [Data validation](#16-data-validation)
-17. [Anonymous vs signed-in progress](#17-anonymous-vs-signed-in-progress)
-18. [Progress merge rules](#18-progress-merge-rules)
-19. [Deployment with Wrangler](#19-deployment-with-wrangler)
-20. [Custom domain](#20-custom-domain)
-21. [Security notes](#21-security-notes)
-22. [Troubleshooting](#22-troubleshooting)
-23. [Future architecture](#23-future-architecture)
+17. [KK phonetic verification](#17-kk-phonetic-verification)
+18. [Anonymous vs signed-in progress](#18-anonymous-vs-signed-in-progress)
+19. [Progress merge rules](#19-progress-merge-rules)
+20. [Spaced-repetition settings](#20-spaced-repetition-settings)
+21. [Deployment with Wrangler](#21-deployment-with-wrangler)
+22. [Custom domain](#22-custom-domain)
+23. [Security notes](#23-security-notes)
+24. [Troubleshooting](#24-troubleshooting)
+25. [Future architecture](#25-future-architecture)
 
 ---
 
@@ -43,27 +45,32 @@ login).
 
 **Vocabulary**
 
-- 60 curated B2–C2 entries aimed at professional, software-engineering, academic and analytical English.
-- KK phonetic transcription (American English) for every headword, in a font stack chosen for IPA coverage.
+- 120 curated B2–C2 entries (36 B2 / 60 C1 / 24 C2) aimed at professional, software-engineering,
+  academic and analytical English.
+- KK phonetic transcription (American English) for every headword, **machine-verified against the
+  CMU Pronouncing Dictionary** (see [KK verification](#17-kk-phonetic-verification)), in a font
+  stack chosen for IPA coverage.
 - Multiple parts of speech and multiple senses per entry.
 - Per sense: English definition, Traditional Chinese definition, a written Chinese usage explanation,
   grammar patterns, collocations, 2–4 natural example sentences with translations, usage notes and
   common learner mistakes.
-- Word families, synonyms, antonyms, and a confusing-word comparison table that links to the other entry.
+- Word families, synonyms, antonyms, and a confusing-word comparison table — present on **every**
+  entry — that links to the other entry when it is in the corpus.
 - Browser speech synthesis for pronunciation (an audio convenience — the KK transcription is the authority).
 
 **Practice**
 
 - Seven quiz types: `meaning_en_to_zh`, `meaning_zh_to_en`, `cloze`, `usage`, `collocation`,
   `grammar`, `confusing_words`.
-- 98 hand-written questions with explanations, plus recognition questions generated from the corpus.
+- 174 hand-written questions with explanations, plus recognition questions generated from the corpus.
 - Quiz modes: random, weak words, mistake review, due review, bookmarked, difficult.
 - Answer feedback that explains why the right answer is right *and* why the important distractors are wrong.
 - Keyboard shortcuts (`1`–`4`, `Enter`, `Space`, `B`) that never fire while a form control has focus.
 
 **Review and analytics**
 
-- Lightweight spaced repetition (1 → 3 → 7 → 14 → 30 days) with a documented, unit-tested scheduler.
+- Lightweight spaced repetition with a documented, unit-tested scheduler. The interval ladder is a
+  **user setting** (default 1 → 3 → 7 → 14 → 30 days), editable by preset or by hand.
 - Deterministic weak-word scoring, driving both `/review` and the weak-word quiz mode.
 - A statistics page with status distribution, accuracy by CEFR level and question type, a 14-day
   activity chart and a learning streak — all drawn with CSS/SVG, no chart library.
@@ -157,13 +164,17 @@ code path.
 
 The corpus is loaded through a **lazy** `import.meta.glob`, so each JSON file becomes its own chunk
 fetched on demand, and routes below the dashboard are code-split. This is what lets the corpus grow
-from 60 to several thousand entries without the initial download growing with it.
+from 120 to several thousand entries without the initial download growing with it.
 
 ```text
-initial JS bundle   221 kB  (70 kB gzipped)
+initial JS bundle   224 kB  (71 kB gzipped)
 per data file        ~15 kB  (~6 kB gzipped, loaded in parallel on first use)
 per route chunk    2–15 kB
 ```
+
+The design has been measured against exactly this: doubling the corpus (60 → 120 entries,
+98 → 174 questions) grew the initial bundle by **2 kB**, because the new content landed in new
+chunks that are only fetched when a page needs them.
 
 ---
 
@@ -268,7 +279,11 @@ production. There is no second process to start.
 | `npm test` | Vitest (all suites, once) |
 | `npm run test:watch` | Vitest in watch mode |
 | `npm run validate:data` | Validate the vocabulary and question corpus |
-| `npm run verify` | Everything above, in the order CI should run it |
+| `npm run verify:kk` | Check every KK transcription against the CMU Pronouncing Dictionary |
+| `npm run verify:kk:report` | The same check, listing conventions, variants and exceptions |
+| `npm run kk -- <word…>` | Propose a KK transcription for a headword you are about to add |
+| `npm run merge:vocab -- <patch.json>` | Merge extra fields into existing entries (never overwrites) |
+| `npm run verify` | Typecheck, lint, test, validate data, verify KK, build — the CI order |
 | `npm run db:migrate:local` | Apply migrations to the local D1 database |
 | `npm run db:migrate:remote` | Apply migrations to the production D1 database |
 
@@ -461,10 +476,11 @@ npm test            # once
 npm run test:watch  # watch mode
 ```
 
-322 tests across 19 files, in two Vitest projects: `unit` (Node) and `ui` (jsdom).
+405 tests across 21 files, in two Vitest projects: `unit` (Node) and `ui` (jsdom).
 
 **Unit tests** cover the spaced-repetition scheduler (mistake, first correct, repeated correct,
-reset after a mistake, mastery, overdue), weak-word ranking, progress arithmetic, search behaviour,
+reset after a mistake, mastery, overdue, and custom interval ladders), the ARPABET↔KK conversion
+(including a 5,000-word round trip against CMUdict), weak-word ranking, progress arithmetic, search behaviour,
 quiz assembly and answer evaluation, generated-question ambiguity protection, the local↔cloud merge
 (including commutativity and idempotence), session token hashing, OAuth state and redirect helpers,
 import validation, and the shipped corpus itself.
@@ -547,7 +563,8 @@ interface ConfusedWord    { lemma: string; wordId?: string; distinctionZh: strin
 ```
 
 `pronunciation` is an object rather than a bare string so that IPA, UK pronunciation or audio files
-can be added later without a data migration. Only KK is required today.
+can be added later without a data migration. Only KK is required today — and it is checked against a
+real pronunciation database, not taken on trust; see [section 17](#17-kk-phonetic-verification).
 
 Optional fields should be **absent when they are not pedagogically useful**. Do not invent a
 collocation or a "common mistake" to fill a field.
@@ -601,7 +618,14 @@ freely without corrupting the answer key.
 
 1. Pick the right file: `src/data/vocabulary/<b2|c1|c2>/`. Files hold roughly 6 entries each; create
    a new file whenever one grows unwieldy — the loader globs the directory, so no code changes.
-2. Add an object to the JSON array:
+2. Get the KK transcription from the pronunciation database rather than writing it from memory:
+
+   ```bash
+   npm run kk -- scrutinize
+   # scrutinize   /ˈskrutnˌaɪz/   3 syl  skru·tn·aɪz
+   ```
+
+3. Add an object to the JSON array:
 
 ```json
 {
@@ -633,11 +657,28 @@ freely without corrupting the answer key.
 }
 ```
 
-3. Run `npm run validate:data`.
+4. Run `npm run validate:data` **and** `npm run verify:kk`.
 
 Rules the validator enforces: unique `id`, `slug` and sense id; kebab-case slug; KK wrapped in
 slashes; at least one sense with at least one example; every `highlight` must actually occur in its
 English sentence; and every `wordId` cross-reference must resolve (and not point at itself).
+`verify:kk` separately checks the transcription itself against CMUdict — see
+[section 17](#17-kk-phonetic-verification).
+
+Two quality bars are enforced by tests rather than the validator: at least 90 % of entries carry a
+confusing-word comparison, and at least 60 % carry a usage note or a common mistake. New entries are
+expected to hold that line.
+
+### Enriching entries in bulk
+
+To add fields to many existing entries at once, write a patch keyed by entry id and run:
+
+```bash
+npm run merge:vocab -- patch.json
+```
+
+The tool refuses to overwrite any field that already exists and exits non-zero if it had to skip
+something, so it cannot silently clobber curated content.
 
 ---
 
@@ -694,29 +735,111 @@ links; malformed questions; duplicate question ids; duplicate option ids or opti
 `correctOptionId` that is not among the options; the wrong option count; a `distractorExplanations`
 key that is not an option id or that describes the correct answer; questions referencing unknown
 word ids; and correct options more than three times longer than every distractor (which would give
-the answer away by shape alone).
+the answer away by shape alone). It does **not** check the phonetics themselves — that is
+`npm run verify:kk`, described in [section 17](#17-kk-phonetic-verification).
 
 Example output:
 
 ```text
 ✓ Content validation passed
-  vocabulary entries : 60
-      B2   18
-      C1   30
-      C2   12
-  curated questions  : 98
-      cloze              20
-      collocation        18
-      confusing_words    18
-      grammar            16
-      meaning_en_to_zh   6
-      meaning_zh_to_en   6
-      usage              14
+  vocabulary entries : 120
+      B2   36
+      C1   60
+      C2   24
+  curated questions  : 174
+      cloze              36
+      collocation        32
+      confusing_words    34
+      grammar            28
+      meaning_en_to_zh   10
+      meaning_zh_to_en   10
+      usage              24
 ```
 
 ---
 
-## 17. Anonymous vs signed-in progress
+## 17. KK phonetic verification
+
+Every KK transcription in the corpus is checked against the **CMU Pronouncing Dictionary** (135,000
+entries of ARPABET derived from real American English pronunciation data), not hand-checked and
+hoped for.
+
+```bash
+npm run verify:kk           # fails the build on a genuine disagreement
+npm run verify:kk:report    # also lists conventions, variants and exceptions
+```
+
+```text
+✓ KK verification passed
+  checked      : 120
+  exact match  : 89
+  convention   : 17
+  variant      : 12
+  exception    : 2 (of 2 declared)
+  unverifiable : 0
+  mismatch     : 0
+```
+
+### How it works
+
+`scripts/lib/kk.ts` converts ARPABET to KK, syllabifies by the maximal onset principle in order to
+place stress marks, and compares the result with the transcription in the corpus. Three
+normalisations stop it reporting differences that are purely notational:
+
+- `ɚ` is expanded to `ə` + `r`, so `/kəˈrɑbəˌret/` and `/kɚˈɑbɚˌret/` — the same sounds,
+  syllabified differently — compare equal;
+- `n` before `k`/`g` becomes `ŋ`, because CMUdict writes the unassimilated form and dictionaries
+  write the assimilated one;
+- stress is compared as *which syllable* carries it, not as raw character position.
+
+### The four outcomes
+
+| Outcome | Meaning | Build |
+| --- | --- | --- |
+| **match** | Segments and stress agree exactly. | passes |
+| **convention** | Differs only by the house convention: unstressed `/i/` is written `/ɪ/`, as KK is taught in Taiwan (`/dɪˈskrɛpənsɪ/`, not `/dɪˈskrɛpənsi/`). | passes |
+| **variant** | Differs only in an unstressed vowel that reputable dictionaries also disagree about (the weak-vowel merger: `ə` ~ `ɪ` ~ `i`), or in a secondary stress mark. | passes |
+| **exception** | A declared, reasoned departure from CMUdict — see below. | passes |
+| **mismatch** | A real disagreement: wrong vowel, wrong consonant, missing phoneme, or stress on the wrong syllable. | **fails** |
+
+### Declared exceptions
+
+CMUdict stores one pronunciation per word, and it is occasionally a less common variant than the one
+every learner dictionary prints. Where that happens, `scripts/lib/kk-exceptions.ts` records the
+departure with the **exact** transcription it licenses and a reason, so an exception can never
+silently cover a later, different change:
+
+- **undermine** `/ˌʌndɚˈmaɪn/` — CMUdict records initial stress, but Merriam-Webster, Cambridge and
+  Longman all give final-syllable stress for the verb, which is the only part of speech this entry
+  teaches.
+- **tenuous** `/ˈtɛnjuəs/` — CMUdict writes the glide explicitly (`/ˈtɛnjəwəs/`); the American
+  Heritage and Cambridge form denotes the same sequence and is far easier for a learner to read.
+
+A test asserts that every declared exception still genuinely disagrees with CMUdict, so a stale
+exception fails the build rather than rotting.
+
+### Adding a word
+
+```bash
+npm run kk -- scrutinize elucidate
+```
+
+```text
+scrutinize         /ˈskrutnˌaɪz/               3 syl  skru·tn·aɪz
+elucidate          /ɪˈlusəˌdet/                4 syl  ɪ·lu·sə·det
+```
+
+Paste the suggestion into the JSON, then run `npm run verify:kk`. Treat the output as a proposal:
+if your entry teaches a part of speech with different stress (`attribute` the verb vs the noun),
+list both transcriptions — the checker passes an entry if **any** of them matches.
+
+This pass found and fixed three genuine errors in the original corpus: `reinforce` (`/o/` → `/ɔ/`
+before `r`), `paradigm` (`/æ/` → `/ɛ/`, the Mary–marry–merry merger) and `subsequent`
+(`/ˌkwɛnt/` → `/kwənt/`, an unstressed final syllable).
+
+---
+
+## 18. Anonymous vs signed-in progress
 
 The site is fully usable without an account.
 
@@ -750,7 +873,7 @@ storage rather than failing.
 
 ---
 
-## 18. Progress merge rules
+## 19. Progress merge rules
 
 When you sign in for the first time on a browser that already has anonymous progress, a banner
 offers to merge it. **Nothing is merged without an explicit click, and neither side is ever silently
@@ -785,7 +908,47 @@ A retried or duplicated request therefore cannot double-count anything. See
 
 ---
 
-## 19. Deployment with Wrangler
+## 20. Spaced-repetition settings
+
+The review ladder is the list of intervals, in days, to wait after each consecutive correct answer.
+Index 0 applies to a word with no streak (a fresh mistake), index 1 after one correct answer, and so
+on; the last entry repeats for ever. A mistake resets the streak to 0.
+
+The default is `[1, 3, 7, 14, 30]`. Learners can change it on `/settings`, by preset or by typing an
+exact ladder:
+
+| Preset | Ladder |
+| --- | --- |
+| 密集 (intensive) | 1, 2, 4, 8, 16 |
+| 標準 (standard) | 1, 3, 7, 14, 30 |
+| 寬鬆 (relaxed) | 2, 5, 12, 30, 60 |
+
+A custom ladder must be strictly increasing (a schedule that shrinks as you improve would review
+mastered words more often than new ones), with 1–10 stages each between 1 and 365 days. Input is
+validated before it is applied, so a half-typed value never reaches the scheduler.
+
+### Where it lives
+
+`reviewIntervalsDays` is part of `UserSettings`, so it syncs to D1 like every other preference. The
+domain layer stays pure: `intervalDaysForStreak`, `applyReviewOutcome` and `markSeen` all take the
+ladder as an argument and default to the standard one, and `ProgressProvider` passes the learner's
+choice in.
+
+The Zod field carries `.default([1, 3, 7, 14, 30])`, so settings saved — or exported — before the
+ladder existed still parse: they simply pick up the standard schedule. No export version bump is
+needed.
+
+### Mastery
+
+Mastery is **derived** from the ladder rather than hard-coded: a word counts as mastered once its
+streak reaches the longest interval (`intervals.length - 1`) *and* its overall accuracy is at least
+80 %. That keeps the definition meaningful — "you have got this right often enough to wait the
+maximum gap" — whichever ladder the learner picks. For the default ladder this is a streak of 4,
+exactly matching the original hard-coded constant.
+
+---
+
+## 21. Deployment with Wrangler
 
 ### Step 1 — Install dependencies
 
@@ -844,6 +1007,7 @@ npm run typecheck
 npm run lint
 npm test
 npm run validate:data
+npm run verify:kk
 npm run build
 ```
 
@@ -862,7 +1026,7 @@ npx wrangler deploy
 Visit the `*.workers.dev` URL Wrangler printed and check:
 
 - [ ] `/` loads
-- [ ] `/words` loads and lists 60 entries
+- [ ] `/words` loads and lists the whole corpus
 - [ ] `/words/consolidate` works by direct navigation
 - [ ] refreshing a deep route still works (SPA fallback)
 - [ ] browser back/forward navigation works
@@ -895,7 +1059,7 @@ See the next section.
 
 ---
 
-## 20. Custom domain
+## 22. Custom domain
 
 1. Add your domain to Cloudflare (Cloudflare dashboard → **Add a site**) and point its nameservers
    at Cloudflare.
@@ -920,7 +1084,7 @@ All four must agree: the custom domain, `APP_URL`, the OAuth Homepage URL, and t
 
 ---
 
-## 21. Security notes
+## 23. Security notes
 
 Reviewed and covered by tests:
 
@@ -959,12 +1123,12 @@ Reviewed and covered by tests:
 - **Secrets.** `.dev.vars` is git-ignored, and no response includes the client secret or session
   secret (asserted in tests).
 
-Known limitations are listed in [troubleshooting](#22-troubleshooting) and
-[future architecture](#23-future-architecture).
+Known limitations are listed in [troubleshooting](#24-troubleshooting) and
+[future architecture](#25-future-architecture).
 
 ---
 
-## 22. Troubleshooting
+## 24. Troubleshooting
 
 **`redirect_uri_mismatch` from GitHub**
 The OAuth App's callback URL must exactly equal `APP_URL + /api/auth/github/callback`, including
@@ -1019,7 +1183,7 @@ Run `npx wrangler d1 migrations apply advanced-english-vocabulary --local` first
 
 ---
 
-## 23. Future architecture
+## 25. Future architecture
 
 The codebase is structured so these can be added without a rewrite. None are implemented.
 
@@ -1027,9 +1191,9 @@ The codebase is structured so these can be added without a rewrite. None are imp
 | --- | --- |
 | Multiple decks / custom user vocabulary | `VocabularyRepository` already abstracts the corpus; add a deck id to `word_progress`. |
 | AI-generated questions or explanations | `question-generator.ts` already separates curated from generated; add a new generator behind the same `QuizQuestion` schema. |
-| Pronunciation audio, IPA, UK accents | `pronunciation` is an object, not a string — add `ipa`, `uk`, `audioUrl` fields. |
+| Pronunciation audio, IPA, UK accents | `pronunciation` is an object, not a string — add `ipa`, `uk`, `audioUrl` fields. The ARPABET→KK converter in `scripts/lib/kk.ts` already has the phoneme inventory an IPA renderer would need. |
 | User notes | New D1 table keyed `(user_id, word_id)`, plus a repository beside `ProgressRepository`. |
-| Custom repetition intervals | `REVIEW_INTERVALS_DAYS` in `domain/review.ts` is the single source; move it into `UserSettings`. |
+| Per-word interval overrides | The ladder is already a `UserSettings` field threaded through the domain layer; a per-word override would key off `word_progress` instead. |
 | CSV / Anki import-export | Reuse `import-export.ts`; add a format adapter that produces the same validated shape. |
 | PWA / offline mode | The corpus is already static, hash-named chunks; add a service worker and cache `/api/progress` optimistically. |
 | Admin content editor | The validator (`scripts/validate-vocabulary.ts`) is the contract any editor must satisfy. |

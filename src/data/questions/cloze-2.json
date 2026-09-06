@@ -1,0 +1,386 @@
+[
+  {
+    "id": "q_cl_acknowledge_01",
+    "type": "cloze",
+    "cefr": "B2",
+    "wordIds": ["w_acknowledge"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "The report ____ that the original estimate was far too optimistic.",
+    "options": [
+      { "id": "a", "text": "acknowledges" },
+      { "id": "b", "text": "announces" },
+      { "id": "c", "text": "abandons" },
+      { "id": "d", "text": "accumulates" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "承認一件對自己不太有利的事實，正是 acknowledge 的核心用法。",
+    "distractorExplanations": {
+      "b": "announce 是「公開宣布」，語氣是主動發布消息，而非承認。",
+      "c": "abandon 是「放棄」，受詞不會是 that 子句。",
+      "d": "accumulate 是「累積」，語意不符。"
+    },
+    "difficulty": 2,
+    "tags": ["cloze", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_anticipate_01",
+    "type": "cloze",
+    "cefr": "B2",
+    "wordIds": ["w_anticipate"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "A good design ____ the failures that will appear under heavy load.",
+    "options": [
+      { "id": "a", "text": "anticipates" },
+      { "id": "b", "text": "appreciates" },
+      { "id": "c", "text": "accelerates" },
+      { "id": "d", "text": "approximates" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "anticipate 表示「預料到並事先因應」，正好描述好的設計會為高負載故障做準備。",
+    "distractorExplanations": {
+      "b": "appreciate 是「理解、感激」，不含「事先準備」的意思。",
+      "c": "accelerate 是「加速」，語意不符。",
+      "d": "approximate 是「近似」，與預期無關。"
+    },
+    "difficulty": 3,
+    "tags": ["cloze", "engineering"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_allocate_01",
+    "type": "cloze",
+    "cefr": "B2",
+    "wordIds": ["w_allocate"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "We ____ two sprints to paying down technical debt.",
+    "options": [
+      { "id": "a", "text": "allocated" },
+      { "id": "b", "text": "alleviated" },
+      { "id": "c", "text": "advocated" },
+      { "id": "d", "text": "aggregated" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "把有限資源（兩個衝刺週期）撥給特定用途，正是 allocate A to B。",
+    "distractorExplanations": {
+      "b": "alleviate 是「減輕」，受詞應是痛苦或問題。",
+      "c": "advocate 是「倡議」，句型與意思都不符。",
+      "d": "aggregate 是「彙總」，語意不符。"
+    },
+    "difficulty": 2,
+    "tags": ["cloze", "project-management"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_assumption_01",
+    "type": "cloze",
+    "cefr": "B2",
+    "wordIds": ["w_assumption"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "The whole design rests on one ____: that writes are rare.",
+    "options": [
+      { "id": "a", "text": "assumption" },
+      { "id": "b", "text": "assertion" },
+      { "id": "c", "text": "assessment" },
+      { "id": "d", "text": "assignment" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "未經證明就被當成真、並據以推論的前提，正是 assumption。",
+    "distractorExplanations": {
+      "b": "assertion 是「主張」，強調有人明確聲稱，而非設計默默依賴的前提。",
+      "c": "assessment 是「評估」，指判斷的過程或結果。",
+      "d": "assignment 是「指派、作業」，語意無關。"
+    },
+    "difficulty": 3,
+    "tags": ["cloze", "engineering"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_implement_01",
+    "type": "cloze",
+    "cefr": "B2",
+    "wordIds": ["w_implement"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "Callers should never depend on ____ details that may change without notice.",
+    "options": [
+      { "id": "a", "text": "implementation" },
+      { "id": "b", "text": "implication" },
+      { "id": "c", "text": "impression" },
+      { "id": "d", "text": "improvement" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "implementation detail（實作細節）是技術寫作中的固定用語，指不屬於對外承諾的內部細節。",
+    "distractorExplanations": {
+      "b": "implication 是「言外之意、影響」，不構成這個固定搭配。",
+      "c": "impression 是「印象」，語意不符。",
+      "d": "improvement 是「改善」，不會是呼叫端「依賴」的對象。"
+    },
+    "difficulty": 3,
+    "tags": ["cloze", "engineering"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_maintain_01",
+    "type": "cloze",
+    "cefr": "B2",
+    "wordIds": ["w_maintain"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "Clever code is quick to write and expensive to ____.",
+    "options": [
+      { "id": "a", "text": "maintain" },
+      { "id": "b", "text": "obtain" },
+      { "id": "c", "text": "contain" },
+      { "id": "d", "text": "entertain" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "maintain 指持續照顧與修改既有系統，是軟體工程中最重要的長期成本。",
+    "distractorExplanations": {
+      "b": "obtain 是「取得」，語意不符。",
+      "c": "contain 是「包含、抑制」，語意不符。",
+      "d": "entertain 是「娛樂」，語意不符。"
+    },
+    "difficulty": 2,
+    "tags": ["cloze", "engineering"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_comply_01",
+    "type": "cloze",
+    "cefr": "C1",
+    "wordIds": ["w_comply"],
+    "prompt": "Choose the phrase that best completes the sentence.",
+    "context": "Every endpoint must ____ the authentication policy before it goes live.",
+    "options": [
+      { "id": "a", "text": "comply with" },
+      { "id": "b", "text": "comply to" },
+      { "id": "c", "text": "conform with" },
+      { "id": "d", "text": "adhere" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "comply 是不及物動詞，固定搭配 with 才能接受詞。",
+    "distractorExplanations": {
+      "b": "comply 不搭配 to，這是最常見的介系詞錯誤。",
+      "c": "conform 的標準搭配是 to，不是 with。",
+      "d": "adhere 也需要介系詞：adhere to the policy。"
+    },
+    "difficulty": 3,
+    "tags": ["cloze", "preposition"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_exacerbate_01",
+    "type": "cloze",
+    "cefr": "C1",
+    "wordIds": ["w_exacerbate"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "Adding more workers ____ the contention instead of relieving it.",
+    "options": [
+      { "id": "a", "text": "exacerbated" },
+      { "id": "b", "text": "exaggerated" },
+      { "id": "c", "text": "extracted" },
+      { "id": "d", "text": "exempted" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "exacerbate 表示「讓本來就存在的問題更嚴重」，與 instead of relieving it 形成清楚對比。",
+    "distractorExplanations": {
+      "b": "exaggerate 是「誇大」，指言語上放大，而非實際加劇。",
+      "c": "extract 是「抽取」，語意不符。",
+      "d": "exempt 是「豁免」，語意不符。"
+    },
+    "difficulty": 4,
+    "tags": ["cloze", "engineering"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_obsolete_01",
+    "type": "cloze",
+    "cefr": "C1",
+    "wordIds": ["w_obsolete"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "The helper script is ____; the platform now does this natively.",
+    "options": [
+      { "id": "a", "text": "obsolete" },
+      { "id": "b", "text": "obscure" },
+      { "id": "c", "text": "obstinate" },
+      { "id": "d", "text": "obligatory" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "因為有更好的東西取代而不再被使用，正是 obsolete。後半句說明了取代的原因。",
+    "distractorExplanations": {
+      "b": "obscure 是「晦澀、不為人知的」，不含「被取代」的因果。",
+      "c": "obstinate 是「固執的」，用於形容人。",
+      "d": "obligatory 是「強制的」，語意相反。"
+    },
+    "difficulty": 3,
+    "tags": ["cloze", "technology"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_precedent_01",
+    "type": "cloze",
+    "cefr": "C1",
+    "wordIds": ["w_precedent"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "The decision was unusual, but not without ____.",
+    "options": [
+      { "id": "a", "text": "precedent" },
+      { "id": "b", "text": "prejudice" },
+      { "id": "c", "text": "precision" },
+      { "id": "d", "text": "preference" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "without precedent 是固定片語，意思是「史無前例」；加上 not 則表示「並非沒有前例」。",
+    "distractorExplanations": {
+      "b": "without prejudice 是法律片語，意思是「不影響其他權利」，語境完全不同。",
+      "c": "precision 是「精確度」，與前例無關。",
+      "d": "preference 是「偏好」，語意不符。"
+    },
+    "difficulty": 4,
+    "tags": ["cloze", "idiom"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_redundant_01",
+    "type": "cloze",
+    "cefr": "C1",
+    "wordIds": ["w_redundant"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "Once the gateway validates the token, the downstream check becomes ____.",
+    "options": [
+      { "id": "a", "text": "redundant" },
+      { "id": "b", "text": "resilient" },
+      { "id": "c", "text": "reluctant" },
+      { "id": "d", "text": "relevant" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "因為上游已經做過同樣的驗證，下游的檢查就成了重複而不必要的，即 redundant。",
+    "distractorExplanations": {
+      "b": "resilient 是「有韌性的」，與重複無關。",
+      "c": "reluctant 是「不情願的」，用於形容人。",
+      "d": "relevant 是「相關的」，語意與句子的因果相反。"
+    },
+    "difficulty": 3,
+    "tags": ["cloze", "engineering"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_streamline_01",
+    "type": "cloze",
+    "cefr": "C1",
+    "wordIds": ["w_streamline"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "We ____ the release process from nine steps down to three.",
+    "options": [
+      { "id": "a", "text": "streamlined" },
+      { "id": "b", "text": "strengthened" },
+      { "id": "c", "text": "stipulated" },
+      { "id": "d", "text": "stratified" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "把流程中多餘的步驟拿掉，使其更有效率，正是 streamline。",
+    "distractorExplanations": {
+      "b": "strengthen 是「加強」，並不意味著步驟變少。",
+      "c": "stipulate 是「明文規定」，語意不符。",
+      "d": "stratify 是「分層」，語意不符。"
+    },
+    "difficulty": 3,
+    "tags": ["cloze", "process"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_discern_01",
+    "type": "cloze",
+    "cefr": "C1",
+    "wordIds": ["w_discern"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "No clear pattern can be ____ from only three days of data.",
+    "options": [
+      { "id": "a", "text": "discerned" },
+      { "id": "b", "text": "discarded" },
+      { "id": "c", "text": "dispatched" },
+      { "id": "d", "text": "disclosed" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "discern 指「辨識出不明顯的事物」，用於否定句時正好誠實表達「看不出明確規律」。",
+    "distractorExplanations": {
+      "b": "discard 是「捨棄」，語意不符。",
+      "c": "dispatch 是「派送」，語意不符。",
+      "d": "disclose 是「揭露」，主詞應該是揭露資訊的一方。"
+    },
+    "difficulty": 4,
+    "tags": ["cloze", "data"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_elucidate_01",
+    "type": "cloze",
+    "cefr": "C2",
+    "wordIds": ["w_elucidate"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "The diagram ____ a control flow that the prose only obscures.",
+    "options": [
+      { "id": "a", "text": "elucidates" },
+      { "id": "b", "text": "elicits" },
+      { "id": "c", "text": "eludes" },
+      { "id": "d", "text": "elevates" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "elucidate 是「把複雜難懂之處講清楚」，與後半句的 obscures 形成清楚對比。",
+    "distractorExplanations": {
+      "b": "elicit 是「引出回應或資訊」，受詞應是 response 或 information。",
+      "c": "elude 是「逃避、使人想不起來」，語意相反。",
+      "d": "elevate 是「提升」，語意不符。"
+    },
+    "difficulty": 4,
+    "tags": ["cloze", "writing"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_precarious_01",
+    "type": "cloze",
+    "cefr": "C2",
+    "wordIds": ["w_precarious"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "Depending on one engineer who understands the system is a ____ arrangement.",
+    "options": [
+      { "id": "a", "text": "precarious" },
+      { "id": "b", "text": "precocious" },
+      { "id": "c", "text": "preliminary" },
+      { "id": "d", "text": "precise" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "precarious 形容「現在還撐著，但隨時可能崩塌」的處境，正好描述單點依賴的風險。",
+    "distractorExplanations": {
+      "b": "precocious 是「早熟的」，拼字接近但意思毫無關聯。",
+      "c": "preliminary 是「初步的」，與風險無關。",
+      "d": "precise 是「精確的」，語意不符。"
+    },
+    "difficulty": 4,
+    "tags": ["cloze", "risk"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cl_tangential_01",
+    "type": "cloze",
+    "cefr": "C2",
+    "wordIds": ["w_tangential"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "That is an interesting point, but it is ____ to the decision we must make today.",
+    "options": [
+      { "id": "a", "text": "tangential" },
+      { "id": "b", "text": "tangible" },
+      { "id": "c", "text": "tentative" },
+      { "id": "d", "text": "temporal" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "tangential to 表示「只沾到邊、不在重點上」，是會議中禮貌拉回主題的說法。",
+    "distractorExplanations": {
+      "b": "tangible 是「具體可觸的」，語意不符。",
+      "c": "tentative 是「暫定的」，描述確定程度而非相關性。",
+      "d": "temporal 是「時間上的」，語意不符。"
+    },
+    "difficulty": 4,
+    "tags": ["cloze", "communication"],
+    "source": "curated"
+  }
+]

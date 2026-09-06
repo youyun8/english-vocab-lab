@@ -1,4 +1,4 @@
-import { screen, waitFor } from '@testing-library/react';
+import { screen, waitFor, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
@@ -105,8 +105,12 @@ describe('QuizRunner', () => {
     const { session, onAnswer } = setup();
     const question = session.questions[0]!;
 
-    await user.click(screen.getByText(question.options[0]!.text));
-    await user.click(screen.getByText(question.options[1]!.text));
+    // Scope to the option group: after answering, the same texts also appear in
+    // the feedback panel, so a bare getByText would be ambiguous.
+    const options = () => within(screen.getByRole('group', { name: '答案選項' }));
+
+    await user.click(options().getByText(question.options[0]!.text));
+    await user.click(options().getByText(question.options[1]!.text));
 
     expect(onAnswer).toHaveBeenCalledTimes(1);
   });

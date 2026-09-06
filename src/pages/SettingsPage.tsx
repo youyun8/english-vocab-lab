@@ -11,6 +11,7 @@ import {
   parseImport,
   serializeExport,
 } from '@/features/settings/import-export';
+import { ReviewIntervalsField } from '@/features/settings/components/ReviewIntervalsField';
 import { apiFetch } from '@/services/api-client';
 import { cn } from '@/utils/cn';
 
@@ -162,6 +163,14 @@ export function SettingsPage() {
             description="1–4 選擇答案、Enter 下一題、Space 發音、B 收藏。"
           />
         </div>
+      </Card>
+
+      <Card className="p-5">
+        <SectionHeading>複習排程</SectionHeading>
+        <ReviewIntervalsField
+          value={settings.reviewIntervalsDays}
+          onChange={(days) => void update({ reviewIntervalsDays: days })}
+        />
       </Card>
 
       <Card className="p-5">

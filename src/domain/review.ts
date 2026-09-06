@@ -12,34 +12,68 @@ import { accuracy, type LearningStatus, type WordProgress } from './progress';
 export const DAY_MS = 24 * 60 * 60 * 1000;
 
 /**
- * Interval in days by review streak (consecutive correct answers).
+ * A review ladder: the interval in days to wait after each consecutive correct
+ * answer. Index 0 applies to a word with no streak (a fresh mistake), index 1
+ * after one correct answer, and so on; the last entry repeats for ever.
+ *
+ * The ladder is a *setting*, not a constant — see `UserSettings.reviewIntervalsDays`.
+ * Every function here takes it as an argument so that the domain layer stays
+ * pure and the learner's choice flows through explicitly.
+ */
+export type ReviewIntervals = readonly number[];
+
+/**
+ * The ladder used when the learner has expressed no preference:
  * streak 0 -> tomorrow, 1 -> 3d, 2 -> 7d, 3 -> 14d, 4+ -> 30d.
  */
-export const REVIEW_INTERVALS_DAYS = [1, 3, 7, 14, 30] as const;
+export const DEFAULT_REVIEW_INTERVALS_DAYS: ReviewIntervals = [1, 3, 7, 14, 30];
 
-export function intervalDaysForStreak(streak: number): number {
-  const index = Math.min(Math.max(streak, 0), REVIEW_INTERVALS_DAYS.length - 1);
-  return REVIEW_INTERVALS_DAYS[index] as number;
+/** Guards against an empty ladder reaching the scheduler. */
+function safeIntervals(intervals: ReviewIntervals): ReviewIntervals {
+  return intervals.length > 0 ? intervals : DEFAULT_REVIEW_INTERVALS_DAYS;
+}
+
+export function intervalDaysForStreak(
+  streak: number,
+  intervals: ReviewIntervals = DEFAULT_REVIEW_INTERVALS_DAYS,
+): number {
+  const ladder = safeIntervals(intervals);
+  const index = Math.min(Math.max(streak, 0), ladder.length - 1);
+  return ladder[index] as number;
 }
 
 export function addDays(from: Date, days: number): Date {
   return new Date(from.getTime() + days * DAY_MS);
 }
 
-/**
- * A word is considered mastered once it has been answered correctly at least
- * `MASTERY_STREAK` times in a row and its overall accuracy is healthy.
- */
-export const MASTERY_STREAK = 4;
 export const MASTERY_MIN_ACCURACY = 0.8;
 
-function nextStatus(progress: WordProgress, wasCorrect: boolean): LearningStatus {
+/**
+ * The streak at which a word counts as mastered: the point at which it has
+ * reached the longest interval on the ladder. Deriving it keeps the definition
+ * meaningful ("you have got this right often enough to wait the maximum gap")
+ * whatever ladder the learner chooses, instead of hard-coding a number that a
+ * custom ladder would render arbitrary.
+ *
+ * For the default ladder this is 4, matching the original constant.
+ */
+export function masteryStreak(
+  intervals: ReviewIntervals = DEFAULT_REVIEW_INTERVALS_DAYS,
+): number {
+  return Math.max(1, safeIntervals(intervals).length - 1);
+}
+
+function nextStatus(
+  progress: WordProgress,
+  wasCorrect: boolean,
+  intervals: ReviewIntervals,
+): LearningStatus {
   if (!wasCorrect) {
     // A mistake always pulls a word back into active learning.
     return 'learning';
   }
   if (
-    progress.reviewStreak >= MASTERY_STREAK &&
+    progress.reviewStreak >= masteryStreak(intervals) &&
     accuracy(progress) >= MASTERY_MIN_ACCURACY
   ) {
     return 'mastered';
@@ -51,6 +85,8 @@ export interface ReviewOutcomeInput {
   progress: WordProgress;
   correct: boolean;
   now: Date;
+  /** The learner's ladder; defaults to the standard one. */
+  intervals?: ReviewIntervals;
 }
 
 /**
@@ -61,7 +97,12 @@ export interface ReviewOutcomeInput {
  *
  * The function is pure: it returns a new record and never mutates its input.
  */
-export function applyReviewOutcome({ progress, correct, now }: ReviewOutcomeInput): WordProgress {
+export function applyReviewOutcome({
+  progress,
+  correct,
+  now,
+  intervals = DEFAULT_REVIEW_INTERVALS_DAYS,
+}: ReviewOutcomeInput): WordProgress {
   const reviewStreak = correct ? progress.reviewStreak + 1 : 0;
 
   const updated: WordProgress = {
@@ -72,11 +113,11 @@ export function applyReviewOutcome({ progress, correct, now }: ReviewOutcomeInpu
     mistakeCount: progress.mistakeCount + (correct ? 0 : 1),
     reviewStreak,
     lastReviewedAt: now.toISOString(),
-    nextReviewAt: addDays(now, intervalDaysForStreak(reviewStreak)).toISOString(),
+    nextReviewAt: addDays(now, intervalDaysForStreak(reviewStreak, intervals)).toISOString(),
     updatedAt: now.toISOString(),
   };
 
-  updated.status = nextStatus(updated, correct);
+  updated.status = nextStatus(updated, correct, intervals);
   if (!correct) {
     // Repeatedly missed words are surfaced as "difficult" automatically.
     updated.difficult = updated.difficult || updated.mistakeCount >= 3;
@@ -85,13 +126,17 @@ export function applyReviewOutcome({ progress, correct, now }: ReviewOutcomeInpu
 }
 
 /** Marks a word as seen (e.g. its detail page was opened) without grading it. */
-export function markSeen(progress: WordProgress, now: Date): WordProgress {
+export function markSeen(
+  progress: WordProgress,
+  now: Date,
+  intervals: ReviewIntervals = DEFAULT_REVIEW_INTERVALS_DAYS,
+): WordProgress {
   return {
     ...progress,
     timesSeen: progress.timesSeen + 1,
     status: progress.status === 'new' ? 'learning' : progress.status,
     nextReviewAt:
-      progress.nextReviewAt ?? addDays(now, intervalDaysForStreak(0)).toISOString(),
+      progress.nextReviewAt ?? addDays(now, intervalDaysForStreak(0, intervals)).toISOString(),
     updatedAt: now.toISOString(),
   };
 }

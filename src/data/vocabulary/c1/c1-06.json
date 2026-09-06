@@ -1,0 +1,674 @@
+[
+  {
+    "id": "w_attribute",
+    "lemma": "attribute",
+    "slug": "attribute",
+    "cefr": "C1",
+    "pronunciation": {
+      "kk": "/əˈtrɪbjut/（動詞）；/ˈætrəˌbjut/（名詞）",
+      "syllables": "at·trib·ute",
+      "stressNote": "動詞重音在第二音節，名詞重音在第一音節——這是英文名動同形字的典型重音轉移。"
+    },
+    "forms": {
+      "past": "attributed",
+      "pastParticiple": "attributed",
+      "presentParticiple": "attributing",
+      "thirdPersonSingular": "attributes",
+      "plural": "attributes"
+    },
+    "senses": [
+      {
+        "id": "s_attribute_1",
+        "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic",
+          "technical"
+        ],
+        "definitionEn": "to say that something was caused by, or belongs to, a particular thing or person",
+        "definitionZh": "把……歸因於；認為出自",
+        "usageExplanationZh": "attribute A to B 表示「認為 A 是由 B 造成或出自 B」。它的價值在於保留了判斷的餘地：說 we attribute the slowdown to the new index，等於承認這是我們的歸因，而不是鐵證。事故分析與學術寫作都靠這種分寸。",
+        "grammarPatterns": [
+          "attribute A to B",
+          "be attributed to + noun"
+        ],
+        "collocations": [
+          {
+            "text": "attribute A to B",
+            "meaningZh": "把 A 歸因於 B",
+            "example": {
+              "en": "We attribute the slowdown to the new index, though we have not proved it.",
+              "zh": "我們把速度變慢歸因於新的索引，不過尚未證實。",
+              "highlight": "attribute"
+            }
+          },
+          {
+            "text": "widely attributed to",
+            "meaningZh": "普遍認為出自……"
+          },
+          {
+            "text": "wrongly attributed",
+            "meaningZh": "誤植；錯誤歸屬"
+          }
+        ],
+        "examples": [
+          {
+            "en": "Most of the improvement can be attributed to caching, not to the rewrite.",
+            "zh": "多數的效能改善應歸功於快取，而不是那次重寫。",
+            "highlight": "attributed to"
+          },
+          {
+            "en": "The quotation is often attributed to Knuth.",
+            "zh": "這句引言常被認為出自 Knuth。",
+            "highlight": "attributed to"
+          }
+        ],
+        "commonMistakes": [
+          {
+            "incorrect": "The outage was attributed by a bad config.",
+            "correct": "The outage was attributed to a bad config.",
+            "explanationZh": "attribute 的句型固定為 attribute A to B，被動態同樣用 to，不用 by。"
+          }
+        ]
+      },
+      {
+        "id": "s_attribute_2",
+        "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "formal"
+        ],
+        "definitionEn": "a quality or feature that something has",
+        "definitionZh": "屬性；特質",
+        "usageExplanationZh": "名詞的 attribute 指「某事物具備的性質」，重音移到第一音節。在資料建模與 HTML 中它是標準術語，指附屬於物件或標籤的具名值。",
+        "collocations": [
+          {
+            "text": "an HTML attribute",
+            "meaningZh": "HTML 屬性"
+          },
+          {
+            "text": "a key attribute",
+            "meaningZh": "關鍵特質"
+          }
+        ],
+        "examples": [
+          {
+            "en": "Patience is the attribute I look for most in a reviewer.",
+            "zh": "耐心是我在審查者身上最看重的特質。",
+            "highlight": "attribute"
+          },
+          {
+            "en": "Every attribute on this element must be escaped.",
+            "zh": "這個元素上的每個屬性都必須經過跳脫處理。",
+            "highlight": "attribute"
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "ascribe",
+        "noteZh": "更正式，用法與 attribute 相同。"
+      },
+      {
+        "lemma": "credit",
+        "noteZh": "歸功（正面）。"
+      }
+    ],
+    "commonlyConfusedWith": [
+      {
+        "lemma": "contribute",
+        "distinctionZh": "方向相反：attribute A to B 是「認為 A 出自 B」（由果推因）；contribute to B 是「對 B 有所貢獻」（由因指果）。We attribute the outage to the config change. / The config change contributed to the outage."
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "attribution",
+        "partOfSpeech": "noun",
+        "meaningZh": "歸因；出處標示"
+      },
+      {
+        "lemma": "attributable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可歸因於……的"
+      }
+    ],
+    "tags": [
+      "academic",
+      "engineering",
+      "analysis"
+    ]
+  },
+  {
+    "id": "w_anomaly",
+    "lemma": "anomaly",
+    "slug": "anomaly",
+    "cefr": "C1",
+    "pronunciation": {
+      "kk": "/əˈnɑməlɪ/",
+      "syllables": "a·nom·a·ly",
+      "stressNote": "重音在第二音節 -nom-。"
+    },
+    "forms": {
+      "plural": "anomalies"
+    },
+    "senses": [
+      {
+        "id": "s_anomaly_1",
+        "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic",
+          "technical"
+        ],
+        "definitionEn": "something that differs from what is normal or expected, and therefore needs explaining",
+        "definitionZh": "異常；反常現象",
+        "usageExplanationZh": "anomaly 的關鍵是「與預期不符，因此需要解釋」。它比 problem 中性——異常未必是壞事，但一定值得追查。監控系統中的 anomaly detection（異常偵測）就是找出偏離常態的資料點。與 discrepancy 不同：discrepancy 是兩份紀錄對不起來，anomaly 是單一觀測值偏離常態。",
+        "grammarPatterns": [
+          "an anomaly in + noun",
+          "account for an anomaly"
+        ],
+        "collocations": [
+          {
+            "text": "anomaly detection",
+            "meaningZh": "異常偵測"
+          },
+          {
+            "text": "a statistical anomaly",
+            "meaningZh": "統計上的異常"
+          },
+          {
+            "text": "explain the anomaly",
+            "meaningZh": "解釋這個異常",
+            "example": {
+              "en": "Nobody could explain the anomaly until we checked the time zone.",
+              "zh": "在我們檢查時區之前，沒有人能解釋這個異常。",
+              "highlight": "explain the anomaly"
+            }
+          }
+        ],
+        "examples": [
+          {
+            "en": "One node shows an anomaly in memory usage every Sunday night.",
+            "zh": "有一個節點每週日晚上的記憶體使用量都出現異常。",
+            "highlight": "anomaly"
+          },
+          {
+            "en": "Treat the anomaly as a signal, not as noise to be filtered out.",
+            "zh": "把這個異常當成訊號，而不是要濾掉的雜訊。",
+            "highlight": "anomaly"
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "irregularity"
+      },
+      {
+        "lemma": "outlier",
+        "noteZh": "統計術語，指離群值。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "norm"
+      }
+    ],
+    "commonlyConfusedWith": [
+      {
+        "lemma": "discrepancy",
+        "wordId": "w_discrepancy",
+        "distinctionZh": "anomaly 是「單一觀測偏離常態」，需要解釋；discrepancy 是「兩份本應相同的紀錄對不起來」，需要對帳。伺服器負載突然飆高是 anomaly，兩份報表數字不符是 discrepancy。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "anomalous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "反常的"
+      }
+    ],
+    "tags": [
+      "engineering",
+      "data",
+      "research"
+    ]
+  },
+  {
+    "id": "w_bias",
+    "lemma": "bias",
+    "slug": "bias",
+    "cefr": "C1",
+    "pronunciation": {
+      "kk": "/ˈbaɪəs/",
+      "syllables": "bi·as",
+      "stressNote": "重音在第一音節。"
+    },
+    "forms": {
+      "plural": "biases"
+    },
+    "senses": [
+      {
+        "id": "s_bias_1",
+        "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic",
+          "technical"
+        ],
+        "definitionEn": "an unfair or systematic tendency to favour one thing over another, often without realising it",
+        "definitionZh": "偏誤；偏見；系統性偏差",
+        "usageExplanationZh": "bias 有兩層用法。日常語境中指「不公平的成見」，帶有道德批評；統計與機器學習語境中則是中性的技術詞，指「系統性偏離真值」。這個區別很重要：說一個模型 has bias 未必是指控它有偏見，可能只是在描述它的誤差結構。介系詞用 towards 或 against。",
+        "grammarPatterns": [
+          "bias towards/against + noun",
+          "a bias in + noun"
+        ],
+        "collocations": [
+          {
+            "text": "confirmation bias",
+            "meaningZh": "確認偏誤"
+          },
+          {
+            "text": "selection bias",
+            "meaningZh": "選樣偏誤"
+          },
+          {
+            "text": "a bias towards",
+            "meaningZh": "偏向……",
+            "example": {
+              "en": "Our sample has a bias towards power users.",
+              "zh": "我們的樣本偏向重度使用者。",
+              "highlight": "a bias towards"
+            }
+          },
+          {
+            "text": "guard against bias",
+            "meaningZh": "防範偏誤"
+          }
+        ],
+        "examples": [
+          {
+            "en": "Confirmation bias makes us notice the logs that fit our theory.",
+            "zh": "確認偏誤會讓我們只注意到符合自己假設的日誌。",
+            "highlight": "bias"
+          },
+          {
+            "en": "Anonymising the reviews removed an obvious source of bias.",
+            "zh": "將評審匿名化，消除了一個明顯的偏誤來源。",
+            "highlight": "bias"
+          }
+        ],
+        "usageNotes": [
+          "動詞用法為 bias somebody/something：a poorly worded question biases the answers.",
+          "形容詞是 biased（有偏誤的），不是 bias：the sample is biased，不能說 the sample is bias。"
+        ],
+        "commonMistakes": [
+          {
+            "incorrect": "The results are bias.",
+            "correct": "The results are biased.",
+            "explanationZh": "bias 是名詞，形容詞要用 biased。"
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "prejudice",
+        "noteZh": "只有負面的「成見」義，沒有中性的統計義。"
+      },
+      {
+        "lemma": "skew"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "impartiality"
+      }
+    ],
+    "commonlyConfusedWith": [
+      {
+        "lemma": "skew",
+        "distinctionZh": "skew 描述分布形狀不對稱，是純粹的統計描述；bias 描述系統性偏離真值，含有「量錯了」的判斷。資料分布 skewed 未必是問題，量測方法 biased 就是問題。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "biased",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有偏誤的"
+      },
+      {
+        "lemma": "unbiased",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不偏不倚的"
+      }
+    ],
+    "tags": [
+      "academic",
+      "data",
+      "research"
+    ]
+  },
+  {
+    "id": "w_comply",
+    "lemma": "comply",
+    "slug": "comply",
+    "cefr": "C1",
+    "pronunciation": {
+      "kk": "/kəmˈplaɪ/",
+      "syllables": "com·ply",
+      "stressNote": "重音在第二音節。"
+    },
+    "forms": {
+      "past": "complied",
+      "pastParticiple": "complied",
+      "presentParticiple": "complying",
+      "thirdPersonSingular": "complies"
+    },
+    "senses": [
+      {
+        "id": "s_comply_1",
+        "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business",
+          "technical"
+        ],
+        "definitionEn": "to act in accordance with a rule, standard, or request",
+        "definitionZh": "遵守；符合（規範）",
+        "usageExplanationZh": "comply 是不及物動詞，一定要接 with：comply with the standard。它用於規則、法規與技術標準，語氣正式且帶有義務性。名詞 compliance 在企業與資安語境中是核心詞彙，指「合規」這整件事。",
+        "grammarPatterns": [
+          "comply with + noun",
+          "in compliance with + noun"
+        ],
+        "collocations": [
+          {
+            "text": "comply with a standard",
+            "meaningZh": "符合標準",
+            "example": {
+              "en": "The library complies with the specification but not with our style guide.",
+              "zh": "這個函式庫符合規格，卻不符合我們的程式風格指南。",
+              "highlight": "complies with"
+            }
+          },
+          {
+            "text": "comply with regulations",
+            "meaningZh": "遵守法規"
+          },
+          {
+            "text": "fail to comply",
+            "meaningZh": "未能遵守"
+          },
+          {
+            "text": "in compliance with",
+            "meaningZh": "依照……的規定"
+          }
+        ],
+        "examples": [
+          {
+            "en": "Every endpoint must comply with the authentication policy.",
+            "zh": "每個端點都必須遵守身分驗證政策。",
+            "highlight": "comply with"
+          },
+          {
+            "en": "Systems that fail to comply are blocked at the gateway.",
+            "zh": "不符合規範的系統會在閘道被阻擋。",
+            "highlight": "fail to comply"
+          }
+        ],
+        "commonMistakes": [
+          {
+            "incorrect": "The service complies the standard.",
+            "correct": "The service complies with the standard.",
+            "explanationZh": "comply 是不及物動詞，必須加 with 才能接受詞。"
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "conform",
+        "noteZh": "搭配 to：conform to a standard。"
+      },
+      {
+        "lemma": "abide by"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "violate"
+      }
+    ],
+    "commonlyConfusedWith": [
+      {
+        "lemma": "conform",
+        "distinctionZh": "兩者意思接近，但介系詞不同：comply with 與 conform to。此外 comply 偏向「服從規定」，conform 偏向「與某個型態一致」，也可用於社會壓力下的從眾。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "compliance",
+        "partOfSpeech": "noun",
+        "meaningZh": "合規；遵從"
+      },
+      {
+        "lemma": "compliant",
+        "partOfSpeech": "adjective",
+        "meaningZh": "符合規範的"
+      }
+    ],
+    "tags": [
+      "business",
+      "security",
+      "policy"
+    ]
+  },
+  {
+    "id": "w_comprise",
+    "lemma": "comprise",
+    "slug": "comprise",
+    "cefr": "C1",
+    "pronunciation": {
+      "kk": "/kəmˈpraɪz/",
+      "syllables": "com·prise",
+      "stressNote": "重音在第二音節。"
+    },
+    "forms": {
+      "past": "comprised",
+      "pastParticiple": "comprised",
+      "presentParticiple": "comprising",
+      "thirdPersonSingular": "comprises"
+    },
+    "senses": [
+      {
+        "id": "s_comprise_1",
+        "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic",
+          "technical"
+        ],
+        "definitionEn": "to consist of, or be made up of, a number of parts",
+        "definitionZh": "由……組成；包含（各部分）",
+        "usageExplanationZh": "comprise 的方向是「整體 comprise 各部分」：The system comprises three services。這一點最容易出錯——很多人誤寫成 is comprised of，語言學家與編輯普遍視之為錯誤，正式寫作應避免。要用被動語態請改用 be composed of 或 consist of。",
+        "grammarPatterns": [
+          "A comprises B, C and D",
+          "be composed of + parts (alternative)"
+        ],
+        "collocations": [
+          {
+            "text": "comprise three parts",
+            "meaningZh": "由三個部分構成",
+            "example": {
+              "en": "The pipeline comprises three stages: ingest, transform and load.",
+              "zh": "這條管線由三個階段構成：擷取、轉換與載入。",
+              "highlight": "comprises"
+            }
+          },
+          {
+            "text": "collectively comprise",
+            "meaningZh": "共同構成"
+          }
+        ],
+        "examples": [
+          {
+            "en": "The platform comprises a gateway, six services and a job runner.",
+            "zh": "這個平台由一個閘道、六個服務與一個工作排程器構成。",
+            "highlight": "comprises"
+          },
+          {
+            "en": "These four teams comprise the whole of the infrastructure group.",
+            "zh": "這四個團隊構成了整個基礎設施部門。",
+            "highlight": "comprise"
+          }
+        ],
+        "usageNotes": [
+          "雖然 is comprised of 在口語中很常見，但多數編輯手冊仍視之為錯誤。正式寫作用 comprises 或 is composed of 最安全。"
+        ],
+        "commonMistakes": [
+          {
+            "incorrect": "The system is comprised of three services.",
+            "correct": "The system comprises three services.",
+            "explanationZh": "comprise 本身已含「由……組成」之意，不需要被動語態。若偏好被動形式，請用 is composed of。"
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "consist of",
+        "noteZh": "同義且更常見，句型為 consist of + 各部分。"
+      },
+      {
+        "lemma": "be composed of"
+      }
+    ],
+    "commonlyConfusedWith": [
+      {
+        "lemma": "compose",
+        "distinctionZh": "方向相反：整體 comprises 部分，部分 compose 整體。The system comprises three services. / Three services compose the system.（或 The system is composed of three services.）"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "comprising",
+        "partOfSpeech": "other",
+        "meaningZh": "包含（分詞用法）"
+      }
+    ],
+    "tags": [
+      "academic",
+      "engineering",
+      "common-error"
+    ]
+  },
+  {
+    "id": "w_concise",
+    "lemma": "concise",
+    "slug": "concise",
+    "cefr": "C1",
+    "pronunciation": {
+      "kk": "/kənˈsaɪs/",
+      "syllables": "con·cise",
+      "stressNote": "重音在第二音節。"
+    },
+    "senses": [
+      {
+        "id": "s_concise_1",
+        "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic",
+          "business"
+        ],
+        "definitionEn": "expressing something in few words, without losing anything important",
+        "definitionZh": "簡潔的（言簡意賅）",
+        "usageExplanationZh": "concise 是正面的評價：短，而且該說的都說了。這與 brief（只是短）和 terse（短到近乎不客氣）不同。技術寫作中被稱讚 concise 是很高的評價，因為它意味著作者刪掉了贅字卻沒有犧牲清晰度。",
+        "grammarPatterns": [
+          "a concise + noun",
+          "keep something concise"
+        ],
+        "collocations": [
+          {
+            "text": "clear and concise",
+            "meaningZh": "清楚而簡潔",
+            "example": {
+              "en": "Write commit messages that are clear and concise.",
+              "zh": "提交訊息要寫得清楚而簡潔。",
+              "highlight": "clear and concise"
+            }
+          },
+          {
+            "text": "a concise summary",
+            "meaningZh": "精簡的摘要"
+          },
+          {
+            "text": "keep it concise",
+            "meaningZh": "保持精簡"
+          }
+        ],
+        "examples": [
+          {
+            "en": "The abstract is admirably concise: four sentences, no filler.",
+            "zh": "這段摘要簡潔得令人佩服：四個句子，沒有一句廢話。",
+            "highlight": "concise"
+          },
+          {
+            "en": "Being concise is harder than being complete.",
+            "zh": "做到簡潔，比做到完整更難。",
+            "highlight": "concise"
+          }
+        ],
+        "commonMistakes": [
+          {
+            "incorrect": "Please make your answer more concise and add more detail.",
+            "correct": "Please make your answer more concise.",
+            "explanationZh": "concise 意味著在不損失重點的前提下精簡，與「增加更多細節」的要求互相矛盾。"
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "succinct",
+        "noteZh": "幾乎完全同義，語域更正式。"
+      },
+      {
+        "lemma": "terse",
+        "noteZh": "短到略顯生硬，常帶負面。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "verbose"
+      },
+      {
+        "lemma": "long-winded"
+      }
+    ],
+    "commonlyConfusedWith": [
+      {
+        "lemma": "brief",
+        "distinctionZh": "brief 只說「短」，不評價內容是否完整；concise 則保證「短而且沒有漏掉重點」。一份 brief report 可能草率，一份 concise report 一定是精煉過的。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "concisely",
+        "partOfSpeech": "adverb",
+        "meaningZh": "簡潔地"
+      },
+      {
+        "lemma": "concision",
+        "partOfSpeech": "noun",
+        "meaningZh": "簡潔（性）"
+      }
+    ],
+    "tags": [
+      "writing",
+      "communication",
+      "academic"
+    ]
+  }
+]

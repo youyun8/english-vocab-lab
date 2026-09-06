@@ -174,4 +174,55 @@ describe('SettingsPage', () => {
     await renderPage();
     expect(screen.queryByRole('button', { name: '清除雲端進度' })).not.toBeInTheDocument();
   });
+
+  it('applies a review-interval preset', async () => {
+    const user = userEvent.setup();
+    await renderPage();
+
+    await user.click(screen.getByRole('button', { name: /密集/ }));
+
+    await waitFor(() => {
+      const stored = JSON.parse(localStorage.getItem(STORAGE_KEYS.settings) ?? '{}') as {
+        reviewIntervalsDays: number[];
+      };
+      expect(stored.reviewIntervalsDays).toEqual([1, 2, 4, 8, 16]);
+    });
+  });
+
+  it('accepts a valid custom review ladder', async () => {
+    const user = userEvent.setup();
+    await renderPage();
+
+    const input = screen.getByLabelText('自訂複習間隔（天數，以逗號分隔）');
+    await user.clear(input);
+    await user.type(input, '2, 6, 20');
+    await user.click(screen.getByRole('button', { name: '套用' }));
+
+    await waitFor(() => {
+      const stored = JSON.parse(localStorage.getItem(STORAGE_KEYS.settings) ?? '{}') as {
+        reviewIntervalsDays: number[];
+      };
+      expect(stored.reviewIntervalsDays).toEqual([2, 6, 20]);
+    });
+  });
+
+  it('rejects a non-increasing ladder without changing the setting', async () => {
+    const user = userEvent.setup();
+    await renderPage();
+
+    const input = screen.getByLabelText('自訂複習間隔（天數，以逗號分隔）');
+    await user.clear(input);
+    await user.type(input, '10, 3');
+    await user.click(screen.getByRole('button', { name: '套用' }));
+
+    expect(await screen.findByRole('alert')).toHaveTextContent(/遞增/);
+    expect(input).toHaveAttribute('aria-invalid', 'true');
+
+    const stored = JSON.parse(localStorage.getItem(STORAGE_KEYS.settings) ?? 'null') as {
+      reviewIntervalsDays?: number[];
+    } | null;
+    expect(stored?.reviewIntervalsDays ?? DEFAULT_SETTINGS.reviewIntervalsDays).toEqual([
+      1, 3, 7, 14, 30,
+    ]);
+  });
 });

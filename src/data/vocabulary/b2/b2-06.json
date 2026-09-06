@@ -1,0 +1,639 @@
+[
+  {
+    "id": "w_indicate",
+    "lemma": "indicate",
+    "slug": "indicate",
+    "cefr": "B2",
+    "pronunciation": {
+      "kk": "/ˈɪndəˌket/",
+      "syllables": "in·di·cate",
+      "stressNote": "主重音在第一音節，第三音節有次重音。"
+    },
+    "forms": {
+      "past": "indicated",
+      "pastParticiple": "indicated",
+      "presentParticiple": "indicating",
+      "thirdPersonSingular": "indicates"
+    },
+    "senses": [
+      {
+        "id": "s_indicate_1",
+        "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic",
+          "technical"
+        ],
+        "definitionEn": "to show that something is probably true, without proving it",
+        "definitionZh": "顯示；表明（但未證實）",
+        "usageExplanationZh": "indicate 是學術寫作中控制語氣強度的關鍵字：它表示「證據指向這個方向」，但保留了修正空間。當數據還不夠強時，寫 the results indicate 遠比 the results prove 誠實。主詞通常是證據本身（data、logs、results），而不是人。",
+        "grammarPatterns": [
+          "indicate that + clause",
+          "indicate + noun"
+        ],
+        "collocations": [
+          {
+            "text": "the data indicate",
+            "meaningZh": "數據顯示",
+            "example": {
+              "en": "Early data indicate that the cache is helping, but the sample is small.",
+              "zh": "初步數據顯示快取確實有幫助，但樣本數還很少。",
+              "highlight": "indicate that"
+            }
+          },
+          {
+            "text": "strongly indicate",
+            "meaningZh": "強烈顯示"
+          },
+          {
+            "text": "as indicated above",
+            "meaningZh": "如上所述"
+          }
+        ],
+        "examples": [
+          {
+            "en": "The logs indicate a timeout, but they do not explain why.",
+            "zh": "日誌顯示發生了逾時，但沒有說明原因。",
+            "highlight": "indicate"
+          },
+          {
+            "en": "Please indicate your preference in the form.",
+            "zh": "請在表單中表明您的偏好。",
+            "highlight": "indicate"
+          }
+        ],
+        "usageNotes": [
+          "當主詞是證據時，動詞常用複數：the data indicate（data 在正式寫作中視為複數）。"
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "suggest",
+        "noteZh": "語氣更弱。"
+      },
+      {
+        "lemma": "signal"
+      }
+    ],
+    "commonlyConfusedWith": [
+      {
+        "lemma": "demonstrate",
+        "wordId": "w_demonstrate",
+        "distinctionZh": "indicate 表示「證據指向某個結論」，仍有其他可能；demonstrate 表示「證據足以確立結論」。宣稱強度依序為 suggest < indicate < demonstrate < prove。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "indication",
+        "partOfSpeech": "noun",
+        "meaningZh": "跡象"
+      },
+      {
+        "lemma": "indicator",
+        "partOfSpeech": "noun",
+        "meaningZh": "指標"
+      },
+      {
+        "lemma": "indicative",
+        "partOfSpeech": "adjective",
+        "meaningZh": "表明……的"
+      }
+    ],
+    "tags": [
+      "academic",
+      "argument",
+      "data"
+    ]
+  },
+  {
+    "id": "w_maintain",
+    "lemma": "maintain",
+    "slug": "maintain",
+    "cefr": "B2",
+    "pronunciation": {
+      "kk": "/menˈten/",
+      "syllables": "main·tain",
+      "stressNote": "重音在第二音節。"
+    },
+    "forms": {
+      "past": "maintained",
+      "pastParticiple": "maintained",
+      "presentParticiple": "maintaining",
+      "thirdPersonSingular": "maintains"
+    },
+    "senses": [
+      {
+        "id": "s_maintain_1",
+        "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "technical",
+          "business"
+        ],
+        "definitionEn": "to keep something in its existing state or at its existing level",
+        "definitionZh": "維持；維護",
+        "usageExplanationZh": "maintain 表示「讓某個狀態持續下去」，因此它預設那個狀態已經存在。技術語境中同時涵蓋兩種意思：維持某個性質（maintain consistency）與持續照顧某個系統（maintain a codebase）。名詞 maintenance 是軟體工程中最重要的成本概念之一。",
+        "grammarPatterns": [
+          "maintain + noun",
+          "maintain that + clause (= claim)"
+        ],
+        "collocations": [
+          {
+            "text": "maintain consistency",
+            "meaningZh": "維持一致性"
+          },
+          {
+            "text": "maintain a codebase",
+            "meaningZh": "維護程式庫",
+            "example": {
+              "en": "Three people maintain a codebase that twelve people write to.",
+              "zh": "十二個人在寫的程式庫，卻只有三個人在維護。",
+              "highlight": "maintain a codebase"
+            }
+          },
+          {
+            "text": "maintain momentum",
+            "meaningZh": "維持動能"
+          },
+          {
+            "text": "difficult to maintain",
+            "meaningZh": "難以維護的"
+          }
+        ],
+        "examples": [
+          {
+            "en": "The index must be maintained whenever a row is inserted.",
+            "zh": "每當插入資料列時，索引都必須同步維護。",
+            "highlight": "maintained"
+          },
+          {
+            "en": "Clever code is fast to write and expensive to maintain.",
+            "zh": "炫技的程式碼寫起來快，維護起來昂貴。",
+            "highlight": "maintain"
+          }
+        ],
+        "usageNotes": [
+          "另有一個正式用法表示「堅稱」：He maintains that the design is sound.（他堅稱這個設計沒有問題。）此時後接 that 子句。"
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "wordId": "w_retain",
+        "lemma": "retain",
+        "noteZh": "偏向「保有不失去」。"
+      },
+      {
+        "lemma": "sustain"
+      }
+    ],
+    "commonlyConfusedWith": [
+      {
+        "lemma": "sustain",
+        "distinctionZh": "maintain 是「讓現狀持續」，中性；sustain 多了「在壓力下仍撐得住」的意味，常用於長期負荷（sustain growth）。維護程式庫用 maintain，維持成長速度用 sustain。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "maintenance",
+        "partOfSpeech": "noun",
+        "meaningZh": "維護；保養"
+      },
+      {
+        "lemma": "maintainable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "易於維護的"
+      }
+    ],
+    "tags": [
+      "engineering",
+      "business",
+      "process"
+    ]
+  },
+  {
+    "id": "w_outcome",
+    "lemma": "outcome",
+    "slug": "outcome",
+    "cefr": "B2",
+    "pronunciation": {
+      "kk": "/ˈaʊtˌkʌm/",
+      "syllables": "out·come",
+      "stressNote": "主重音在第一音節；複合字，第二音節有次重音。"
+    },
+    "forms": {
+      "plural": "outcomes"
+    },
+    "senses": [
+      {
+        "id": "s_outcome_1",
+        "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic",
+          "business"
+        ],
+        "definitionEn": "the final result of a process, especially one that was uncertain",
+        "definitionZh": "結果；最終結局",
+        "usageExplanationZh": "outcome 指「一連串過程走完後的最終結果」，且通常帶有「事前不確定」的前提。它與 output 的差別在管理與產品語境中很關鍵：output 是產出的東西（做了幾份報告），outcome 是那些東西造成的實際改變（決策品質是否提升）。",
+        "grammarPatterns": [
+          "the outcome of + noun",
+          "a positive/negative outcome"
+        ],
+        "collocations": [
+          {
+            "text": "the outcome of",
+            "meaningZh": "……的結果"
+          },
+          {
+            "text": "a desirable outcome",
+            "meaningZh": "理想的結果"
+          },
+          {
+            "text": "outcomes rather than outputs",
+            "meaningZh": "重結果而非產出",
+            "example": {
+              "en": "Good teams measure outcomes rather than outputs.",
+              "zh": "好的團隊衡量的是成果，而不是產出量。",
+              "highlight": "outcomes rather than outputs"
+            }
+          },
+          {
+            "text": "an uncertain outcome",
+            "meaningZh": "難以預料的結果"
+          }
+        ],
+        "examples": [
+          {
+            "en": "The outcome of the experiment surprised everyone involved.",
+            "zh": "這個實驗的結果讓所有參與者都感到意外。",
+            "highlight": "outcome"
+          },
+          {
+            "en": "Shipping ten features is an output; reducing churn is an outcome.",
+            "zh": "交付十項功能是產出，降低流失率才是成果。",
+            "highlight": "outcome"
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "result"
+      },
+      {
+        "lemma": "consequence",
+        "noteZh": "偏向「後果」，常帶負面。"
+      }
+    ],
+    "commonlyConfusedWith": [
+      {
+        "lemma": "output",
+        "distinctionZh": "output 是「產出的東西」，可以直接計數；outcome 是「那些產出造成的改變」，才是真正的目的。寫了十份文件是 output，讀者因此做出更好的決策才是 outcome。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "income",
+        "partOfSpeech": "noun",
+        "meaningZh": "收入（同構詞，語意無關）"
+      }
+    ],
+    "tags": [
+      "business",
+      "academic",
+      "evaluation"
+    ]
+  },
+  {
+    "id": "w_priority",
+    "lemma": "priority",
+    "slug": "priority",
+    "cefr": "B2",
+    "pronunciation": {
+      "kk": "/praɪˈɔrətɪ/",
+      "syllables": "pri·or·i·ty",
+      "stressNote": "重音在第二音節 -or-。"
+    },
+    "forms": {
+      "plural": "priorities"
+    },
+    "senses": [
+      {
+        "id": "s_priority_1",
+        "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
+        "definitionEn": "something that is treated as more important than other things and dealt with first",
+        "definitionZh": "優先事項；優先順序",
+        "usageExplanationZh": "priority 的關鍵在於「相對」：說某件事是 priority，就等於說別的事要往後排。因此如果所有事都是 top priority，這個詞就失去意義了——這也是英文管理語彙中常被點出的矛盾。動詞是 prioritize，介系詞用 over 表示凌駕。",
+        "grammarPatterns": [
+          "take priority over + noun",
+          "give priority to + noun",
+          "a top priority"
+        ],
+        "collocations": [
+          {
+            "text": "take priority over",
+            "meaningZh": "優先於……",
+            "example": {
+              "en": "Correctness takes priority over speed in this module.",
+              "zh": "在這個模組中，正確性優先於速度。",
+              "highlight": "takes priority over"
+            }
+          },
+          {
+            "text": "a top priority",
+            "meaningZh": "最優先事項"
+          },
+          {
+            "text": "set priorities",
+            "meaningZh": "訂定優先順序"
+          },
+          {
+            "text": "competing priorities",
+            "meaningZh": "互相衝突的優先事項"
+          }
+        ],
+        "examples": [
+          {
+            "en": "Our priority this quarter is cutting the deployment time.",
+            "zh": "我們這一季的優先事項是縮短部署時間。",
+            "highlight": "priority"
+          },
+          {
+            "en": "If everything is a priority, nothing is.",
+            "zh": "如果每件事都是優先，那就等於沒有優先。",
+            "highlight": "priority"
+          }
+        ],
+        "commonMistakes": [
+          {
+            "incorrect": "Security has priority than performance.",
+            "correct": "Security takes priority over performance.",
+            "explanationZh": "表示「優先於」要用 take priority over，不能用 than。"
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "precedence",
+        "noteZh": "更正式，常用於 take precedence over。"
+      }
+    ],
+    "commonlyConfusedWith": [
+      {
+        "lemma": "urgency",
+        "distinctionZh": "priority 是「重要性排序」，urgency 是「時間急迫性」。兩者常被混為一談，但一件事可以很急卻不重要。有效的排序要同時考慮 importance 與 urgency，而不是只看誰在催。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "prioritize",
+        "partOfSpeech": "verb",
+        "meaningZh": "排定優先順序"
+      },
+      {
+        "lemma": "prior",
+        "partOfSpeech": "adjective",
+        "meaningZh": "先前的"
+      }
+    ],
+    "tags": [
+      "business",
+      "project-management",
+      "everyday"
+    ]
+  },
+  {
+    "id": "w_sufficient",
+    "lemma": "sufficient",
+    "slug": "sufficient",
+    "cefr": "B2",
+    "pronunciation": {
+      "kk": "/səˈfɪʃənt/",
+      "syllables": "suf·fi·cient",
+      "stressNote": "重音在第二音節 -fi-。"
+    },
+    "senses": [
+      {
+        "id": "s_sufficient_1",
+        "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic",
+          "technical"
+        ],
+        "definitionEn": "as much as is needed for a particular purpose",
+        "definitionZh": "足夠的（數量上）",
+        "usageExplanationZh": "sufficient 是 enough 的正式對應詞，純粹陳述數量足夠，不帶品質判斷。邏輯與數學中的 a sufficient condition（充分條件）是重要術語：滿足它就一定成立，但不滿足也未必不成立——那是 necessary condition（必要條件）。",
+        "grammarPatterns": [
+          "sufficient for + noun",
+          "sufficient to + verb",
+          "be sufficient that + clause"
+        ],
+        "collocations": [
+          {
+            "text": "sufficient evidence",
+            "meaningZh": "充分的證據"
+          },
+          {
+            "text": "sufficient to + verb",
+            "meaningZh": "足以……",
+            "example": {
+              "en": "One replica is not sufficient to survive a region failure.",
+              "zh": "只有一個副本，不足以承受整個區域故障。",
+              "highlight": "sufficient to"
+            }
+          },
+          {
+            "text": "a necessary and sufficient condition",
+            "meaningZh": "充分必要條件"
+          }
+        ],
+        "examples": [
+          {
+            "en": "We have sufficient logging to diagnose this class of failure.",
+            "zh": "我們的日誌足以診斷這一類的故障。",
+            "highlight": "sufficient"
+          },
+          {
+            "en": "Passing the tests is necessary but not sufficient for a release.",
+            "zh": "通過測試是發布的必要條件，但不是充分條件。",
+            "highlight": "sufficient"
+          }
+        ],
+        "usageNotes": [
+          "sufficient 放在名詞前，不能像 enough 一樣放在名詞後：enough time 與 time enough 都可以，但只能說 sufficient time。"
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "enough",
+        "noteZh": "日常用語。"
+      },
+      {
+        "wordId": "w_adequate",
+        "lemma": "adequate"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "insufficient"
+      }
+    ],
+    "commonlyConfusedWith": [
+      {
+        "lemma": "adequate",
+        "wordId": "w_adequate",
+        "distinctionZh": "sufficient 只講數量夠不夠；adequate 還隱含品質評價，常暗示「達標但普通」。說證據 sufficient 是中性的，說表現 adequate 則有保留。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "sufficiently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "充分地"
+      },
+      {
+        "lemma": "suffice",
+        "partOfSpeech": "verb",
+        "meaningZh": "足夠"
+      }
+    ],
+    "tags": [
+      "academic",
+      "logic",
+      "quantity"
+    ]
+  },
+  {
+    "id": "w_trigger",
+    "lemma": "trigger",
+    "slug": "trigger",
+    "cefr": "B2",
+    "pronunciation": {
+      "kk": "/ˈtrɪgɚ/",
+      "syllables": "trig·ger",
+      "stressNote": "重音在第一音節。"
+    },
+    "forms": {
+      "past": "triggered",
+      "pastParticiple": "triggered",
+      "presentParticiple": "triggering",
+      "thirdPersonSingular": "triggers",
+      "plural": "triggers"
+    },
+    "senses": [
+      {
+        "id": "s_trigger_1",
+        "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "technical"
+        ],
+        "definitionEn": "to cause something to start happening, especially suddenly",
+        "definitionZh": "觸發；引發",
+        "usageExplanationZh": "trigger 強調「一個小動作啟動了一連串後果」，因此特別適合描述自動化流程與連鎖反應。技術語境中它幾乎是標準動詞：a push triggers the build。它的語感是「按下扳機」，所以受詞通常是隨之展開的過程，而不是靜態狀態。",
+        "grammarPatterns": [
+          "trigger + noun",
+          "be triggered by + noun"
+        ],
+        "collocations": [
+          {
+            "text": "trigger a build",
+            "meaningZh": "觸發建置",
+            "example": {
+              "en": "Every push to main triggers a build and a full test run.",
+              "zh": "每次推送到主分支都會觸發建置與完整測試。",
+              "highlight": "triggers a build"
+            }
+          },
+          {
+            "text": "trigger an alert",
+            "meaningZh": "觸發警報"
+          },
+          {
+            "text": "be triggered by",
+            "meaningZh": "由……觸發"
+          }
+        ],
+        "examples": [
+          {
+            "en": "A single malformed record triggered the outage.",
+            "zh": "一筆格式錯誤的資料就引發了這次服務中斷。",
+            "highlight": "triggered"
+          },
+          {
+            "en": "The alert is triggered when error rate exceeds one percent.",
+            "zh": "當錯誤率超過百分之一時就會觸發警報。",
+            "highlight": "triggered"
+          }
+        ]
+      },
+      {
+        "id": "s_trigger_2",
+        "partOfSpeech": "noun",
+        "register": [
+          "technical"
+        ],
+        "definitionEn": "the event or condition that causes an automated process to run",
+        "definitionZh": "觸發條件；觸發器",
+        "usageExplanationZh": "作名詞時指「使某個自動流程啟動的事件或條件」。資料庫中的 trigger 是專門術語，指在資料變動時自動執行的程序；CI/CD 中則指啟動流水線的事件。",
+        "collocations": [
+          {
+            "text": "a database trigger",
+            "meaningZh": "資料庫觸發器"
+          },
+          {
+            "text": "the trigger for",
+            "meaningZh": "……的觸發原因"
+          }
+        ],
+        "examples": [
+          {
+            "en": "The trigger for the rollback was a spike in 500 responses.",
+            "zh": "這次回滾的觸發原因是 500 錯誤數量暴增。",
+            "highlight": "trigger"
+          },
+          {
+            "en": "Avoid database triggers when the logic belongs in the application.",
+            "zh": "當邏輯應該屬於應用層時，就別使用資料庫觸發器。",
+            "highlight": "triggers"
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "prompt"
+      },
+      {
+        "lemma": "set off"
+      }
+    ],
+    "commonlyConfusedWith": [
+      {
+        "lemma": "cause",
+        "distinctionZh": "cause 指根本原因；trigger 只是「點燃引信的那一下」，背後往往另有更深的成因。事故報告中區分 trigger（觸發事件）與 root cause（根本原因）是基本功。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "triggered",
+        "partOfSpeech": "adjective",
+        "meaningZh": "被觸發的"
+      }
+    ],
+    "tags": [
+      "engineering",
+      "technology",
+      "process"
+    ]
+  }
+]

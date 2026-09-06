@@ -2,8 +2,16 @@ import { screen, waitFor, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { beforeEach, describe, expect, it } from 'vitest';
 
+import { loadVocabulary } from '@/data';
 import { ANONYMOUS_API, mockApi, renderWithProviders } from '@/test/render';
 import { WordBankPage } from './WordBankPage';
+
+// Counts are derived from the corpus so that adding vocabulary does not break
+// these tests; what they assert is the filtering behaviour, not the corpus size.
+const entries = await loadVocabulary();
+const TOTAL = entries.length;
+const countAtLevel = (level: 'B2' | 'C1' | 'C2') =>
+  entries.filter((entry) => entry.cefr === level).length;
 
 beforeEach(() => {
   mockApi(ANONYMOUS_API);
@@ -24,8 +32,8 @@ function resultCount(): number {
 describe('WordBankPage', () => {
   it('lists the whole corpus by default', async () => {
     await renderPage();
-    expect(resultCount()).toBe(60);
-    expect(screen.getByText('60 個結果')).toBeInTheDocument();
+    expect(resultCount()).toBe(TOTAL);
+    expect(screen.getByText(`${TOTAL} 個結果`)).toBeInTheDocument();
   });
 
   it('filters by keyword search', async () => {
@@ -34,8 +42,11 @@ describe('WordBankPage', () => {
 
     await user.type(screen.getByLabelText('搜尋字彙'), 'consolidate');
 
-    await waitFor(() => expect(resultCount()).toBe(1));
-    expect(screen.getByRole('link', { name: 'consolidate' })).toBeInTheDocument();
+    // "consolidate" also appears in other entries' comparison notes, so assert
+    // that the exact headword ranks first rather than that it is the only hit.
+    await waitFor(() => expect(resultCount()).toBeLessThan(TOTAL));
+    const firstRow = screen.getAllByRole('row')[1]!;
+    expect(within(firstRow).getByRole('link', { name: 'consolidate' })).toBeInTheDocument();
   });
 
   it('filters by CEFR level', async () => {
@@ -44,7 +55,7 @@ describe('WordBankPage', () => {
 
     await user.click(screen.getByRole('button', { name: 'C2', pressed: false }));
 
-    await waitFor(() => expect(resultCount()).toBe(12));
+    await waitFor(() => expect(resultCount()).toBe(countAtLevel('C2')));
   });
 
   it('combines a level filter with a part-of-speech filter', async () => {
@@ -69,7 +80,7 @@ describe('WordBankPage', () => {
 
     // Both the filter panel and the empty state offer a reset; either works.
     await user.click(screen.getAllByRole('button', { name: '清除篩選' })[0]!);
-    await waitFor(() => expect(resultCount()).toBe(60));
+    await waitFor(() => expect(resultCount()).toBe(TOTAL));
   });
 
   it('clears all filters at once', async () => {
@@ -77,10 +88,10 @@ describe('WordBankPage', () => {
     await renderPage();
 
     await user.click(screen.getByRole('button', { name: 'B2', pressed: false }));
-    await waitFor(() => expect(resultCount()).toBe(18));
+    await waitFor(() => expect(resultCount()).toBe(countAtLevel('B2')));
 
     await user.click(screen.getByRole('button', { name: '清除篩選' }));
-    await waitFor(() => expect(resultCount()).toBe(60));
+    await waitFor(() => expect(resultCount()).toBe(TOTAL));
   });
 
   it('switches between list and card views', async () => {

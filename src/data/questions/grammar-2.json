@@ -1,0 +1,284 @@
+[
+  {
+    "id": "q_gr_anticipate_gerund_01",
+    "type": "grammar",
+    "cefr": "B2",
+    "wordIds": ["w_anticipate"],
+    "prompt": "Which form follows \"anticipate\"?",
+    "context": "We anticipate ____ the migration next quarter.",
+    "options": [
+      { "id": "a", "text": "finishing" },
+      { "id": "b", "text": "to finish" },
+      { "id": "c", "text": "finish" },
+      { "id": "d", "text": "to finishing" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "anticipate 後面接動名詞，不接不定詞。要用不定詞請改用 expect to finish。",
+    "distractorExplanations": {
+      "b": "這是中文母語者最常見的錯誤：anticipate 不接 to + 原形。",
+      "c": "缺少任何動詞形式標記，語法不成立。",
+      "d": "to 與動名詞不能這樣並用。"
+    },
+    "difficulty": 3,
+    "tags": ["gerund", "pattern"],
+    "source": "curated"
+  },
+  {
+    "id": "q_gr_allocate_to_01",
+    "type": "grammar",
+    "cefr": "B2",
+    "wordIds": ["w_allocate"],
+    "prompt": "Which sentence uses the correct structure?",
+    "options": [
+      { "id": "a", "text": "We allocated three servers to the analytics team." },
+      { "id": "b", "text": "We allocated the analytics team with three servers." },
+      { "id": "c", "text": "We allocated for the analytics team three servers." },
+      { "id": "d", "text": "We allocated three servers of the analytics team." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "allocate 的句型是 allocate + 資源 + to + 接受者。",
+    "distractorExplanations": {
+      "b": "allocate 不搭配 with 引出資源，這是常見的誤用。",
+      "c": "語序錯誤，且 allocate 不接 for 引出接受者。",
+      "d": "of 表示所屬關係，無法表達分配動作。"
+    },
+    "difficulty": 3,
+    "tags": ["preposition", "pattern"],
+    "source": "curated"
+  },
+  {
+    "id": "q_gr_adequate_for_01",
+    "type": "grammar",
+    "cefr": "B2",
+    "wordIds": ["w_adequate"],
+    "prompt": "Which preposition follows \"adequate\" here?",
+    "context": "The current server is adequate ____ our traffic.",
+    "options": [
+      { "id": "a", "text": "for" },
+      { "id": "b", "text": "to" },
+      { "id": "c", "text": "with" },
+      { "id": "d", "text": "of" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "adequate 接名詞時用 for；接動詞時用 to + 原形（adequate to handle the load）。",
+    "distractorExplanations": {
+      "b": "to 只用於 adequate to + 原形動詞的結構，後面不能直接接名詞。",
+      "c": "with 不與 adequate 搭配。",
+      "d": "of 不與 adequate 搭配。"
+    },
+    "difficulty": 2,
+    "tags": ["preposition", "pattern"],
+    "source": "curated"
+  },
+  {
+    "id": "q_gr_ensure_that_01",
+    "type": "grammar",
+    "cefr": "B2",
+    "wordIds": ["w_ensure"],
+    "prompt": "Which sentence is correct?",
+    "options": [
+      { "id": "a", "text": "Ensure that every request carries a trace id." },
+      { "id": "b", "text": "Ensure every request to carry a trace id." },
+      { "id": "c", "text": "Ensure to every request a trace id." },
+      { "id": "d", "text": "Ensure about every request carrying a trace id." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "ensure 後面接 that 子句（that 可省略）或名詞，是標準的技術文件句型。",
+    "distractorExplanations": {
+      "b": "ensure 不接「受詞 + to 不定詞」的結構。",
+      "c": "語序錯誤，ensure 也不接雙受詞。",
+      "d": "ensure 不搭配 about。"
+    },
+    "difficulty": 2,
+    "tags": ["pattern", "clause"],
+    "source": "curated"
+  },
+  {
+    "id": "q_gr_emphases_plural_01",
+    "type": "grammar",
+    "cefr": "B2",
+    "wordIds": ["w_emphasis"],
+    "prompt": "Which sentence is grammatically correct?",
+    "options": [
+      { "id": "a", "text": "The two main emphases of the report are cost and risk." },
+      { "id": "b", "text": "The two main emphasis of the report are cost and risk." },
+      { "id": "c", "text": "The two main emphasises of the report are cost and risk." },
+      { "id": "d", "text": "The two main emphasis's of the report are cost and risk." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "emphasis 的複數是 emphases，與 analysis→analyses 同一種希臘語變化。",
+    "distractorExplanations": {
+      "b": "emphasis 是單數形，不能搭配 two 與 are。",
+      "c": "emphasises 是動詞 emphasise 的第三人稱單數形，不是名詞複數。",
+      "d": "撇號用於所有格，不用於構成複數。"
+    },
+    "difficulty": 3,
+    "tags": ["plural", "common-error"],
+    "source": "curated"
+  },
+  {
+    "id": "q_gr_comply_with_02",
+    "type": "grammar",
+    "cefr": "C1",
+    "wordIds": ["w_comply"],
+    "prompt": "Which preposition is required?",
+    "context": "All services must comply ____ the retention policy.",
+    "options": [
+      { "id": "a", "text": "with" },
+      { "id": "b", "text": "to" },
+      { "id": "c", "text": "for" },
+      { "id": "d", "text": "on" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "comply 是不及物動詞，固定搭配 with。相對地，conform 才搭配 to。",
+    "distractorExplanations": {
+      "b": "comply to 是常見錯誤；to 屬於 conform 的搭配。",
+      "c": "for 不與 comply 搭配。",
+      "d": "on 不與 comply 搭配。"
+    },
+    "difficulty": 3,
+    "tags": ["preposition", "common-error"],
+    "source": "curated"
+  },
+  {
+    "id": "q_gr_attribute_to_01",
+    "type": "grammar",
+    "cefr": "C1",
+    "wordIds": ["w_attribute"],
+    "prompt": "Which preposition completes the pattern?",
+    "context": "Most of the improvement can be attributed ____ caching.",
+    "options": [
+      { "id": "a", "text": "to" },
+      { "id": "b", "text": "by" },
+      { "id": "c", "text": "with" },
+      { "id": "d", "text": "from" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "attribute A to B 的句型在被動語態中同樣保留 to。",
+    "distractorExplanations": {
+      "b": "被動語態的 by 用來表示執行動作者，但這裡要表達的是歸因對象。",
+      "c": "with 不與 attribute 搭配。",
+      "d": "from 表示來源，屬於 derive 的搭配。"
+    },
+    "difficulty": 3,
+    "tags": ["preposition", "pattern"],
+    "source": "curated"
+  },
+  {
+    "id": "q_gr_indispensable_to_01",
+    "type": "grammar",
+    "cefr": "C1",
+    "wordIds": ["w_indispensable"],
+    "prompt": "Which preposition follows \"indispensable\"?",
+    "context": "Version control is indispensable ____ any team of more than one person.",
+    "options": [
+      { "id": "a", "text": "to" },
+      { "id": "b", "text": "of" },
+      { "id": "c", "text": "on" },
+      { "id": "d", "text": "in" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "indispensable 接名詞時用 to（或 for），表示「對……不可或缺」。",
+    "distractorExplanations": {
+      "b": "of 不與 indispensable 搭配。",
+      "c": "on 不與 indispensable 搭配。",
+      "d": "in 用於表示範圍，不表達「對某人不可或缺」。"
+    },
+    "difficulty": 3,
+    "tags": ["preposition", "pattern"],
+    "source": "curated"
+  },
+  {
+    "id": "q_gr_facilitate_object_01",
+    "type": "grammar",
+    "cefr": "C1",
+    "wordIds": ["w_facilitate"],
+    "prompt": "Which sentence is correct?",
+    "options": [
+      { "id": "a", "text": "The tool enables us to deploy faster." },
+      { "id": "b", "text": "The tool facilitates us to deploy faster." },
+      { "id": "c", "text": "The tool facilitates us deploying faster." },
+      { "id": "d", "text": "The tool facilitates for us to deploy faster." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "facilitate 不能接「人 + to do」。要表達「使某人能夠做某事」必須用 enable somebody to do。",
+    "distractorExplanations": {
+      "b": "這是 facilitate 最常見的誤用，其受詞只能是過程而非人。",
+      "c": "facilitate 同樣不接「人 + 動名詞」。",
+      "d": "facilitate 不搭配 for + 不定詞結構。"
+    },
+    "difficulty": 4,
+    "tags": ["pattern", "common-error"],
+    "source": "curated"
+  },
+  {
+    "id": "q_gr_deteriorate_intransitive_01",
+    "type": "grammar",
+    "cefr": "C1",
+    "wordIds": ["w_deteriorate"],
+    "prompt": "Which sentence is grammatically correct?",
+    "options": [
+      { "id": "a", "text": "Performance deteriorated after the release." },
+      { "id": "b", "text": "The release deteriorated performance." },
+      { "id": "c", "text": "The release was deteriorated the performance." },
+      { "id": "d", "text": "Performance was deteriorated by the release." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "deteriorate 是不及物動詞，主詞自己變差，不能帶受詞。",
+    "distractorExplanations": {
+      "b": "deteriorate 不能接受詞；要表達「使……變差」請用 degraded。",
+      "c": "語法錯誤：被動語態後面又接了受詞。",
+      "d": "不及物動詞沒有被動語態。"
+    },
+    "difficulty": 4,
+    "tags": ["transitivity", "verb"],
+    "source": "curated"
+  },
+  {
+    "id": "q_gr_tangential_to_01",
+    "type": "grammar",
+    "cefr": "C2",
+    "wordIds": ["w_tangential"],
+    "prompt": "Which preposition follows \"tangential\"?",
+    "context": "That concern is tangential ____ today's decision.",
+    "options": [
+      { "id": "a", "text": "to" },
+      { "id": "b", "text": "for" },
+      { "id": "c", "text": "with" },
+      { "id": "d", "text": "from" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "tangential 固定搭配 to，來自幾何學中「切線碰到曲線」的意象。",
+    "distractorExplanations": {
+      "b": "for 不與 tangential 搭配。",
+      "c": "with 不與 tangential 搭配。",
+      "d": "from 表示來源，語意不符。"
+    },
+    "difficulty": 4,
+    "tags": ["preposition", "academic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_gr_optimal_comparative_01",
+    "type": "grammar",
+    "cefr": "C1",
+    "wordIds": ["w_optimal"],
+    "prompt": "Which sentence is preferred in careful technical writing?",
+    "options": [
+      { "id": "a", "text": "This layout is better than the previous one." },
+      { "id": "b", "text": "This layout is more optimal than the previous one." },
+      { "id": "c", "text": "This layout is optimaler than the previous one." },
+      { "id": "d", "text": "This layout is most optimal than the previous one." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "optimal 本身就是「在給定條件下最好的」，沒有程度之分，因此比較時應改用 better。",
+    "distractorExplanations": {
+      "b": "more optimal 在技術寫作中會被視為用語不嚴謹。",
+      "c": "optimal 沒有 -er 比較級形式。",
+      "d": "最高級不能與 than 連用，語法也不成立。"
+    },
+    "difficulty": 4,
+    "tags": ["comparative", "precision"],
+    "source": "curated"
+  }
+]

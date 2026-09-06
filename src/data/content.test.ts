@@ -15,7 +15,14 @@ const questions = await loadCuratedQuestions();
 
 describe('vocabulary corpus', () => {
   it('loads a non-trivial number of entries', () => {
-    expect(entries.length).toBeGreaterThanOrEqual(60);
+    expect(entries.length).toBeGreaterThanOrEqual(120);
+  });
+
+  it('keeps every CEFR band substantially represented', () => {
+    for (const level of ['B2', 'C1', 'C2'] as const) {
+      const count = entries.filter((entry) => entry.cefr === level).length;
+      expect(count, `${level} is under-represented`).toBeGreaterThanOrEqual(20);
+    }
   });
 
   it('every entry satisfies the schema', () => {
@@ -87,6 +94,20 @@ describe('vocabulary corpus', () => {
     }
   });
 
+  it('gives almost every entry a confusing-word comparison', () => {
+    // The comparison table is the corpus's flagship teaching feature; new
+    // entries are expected to carry one unless the word has no near neighbour.
+    const withComparison = entries.filter((entry) => entry.commonlyConfusedWith?.length);
+    expect(withComparison.length / entries.length).toBeGreaterThanOrEqual(0.9);
+  });
+
+  it('gives a healthy share of entries usage notes or common mistakes', () => {
+    const withGuidance = entries.filter((entry) =>
+      entry.senses.some((sense) => sense.usageNotes?.length || sense.commonMistakes?.length),
+    );
+    expect(withGuidance.length / entries.length).toBeGreaterThanOrEqual(0.6);
+  });
+
   it('writes usage explanations in Traditional Chinese, never Simplified', () => {
     // A small set of characters that are Simplified-only and would signal that
     // the wrong script slipped into the corpus.
@@ -105,7 +126,14 @@ describe('vocabulary corpus', () => {
 
 describe('curated question bank', () => {
   it('ships a substantial number of questions', () => {
-    expect(questions.length).toBeGreaterThanOrEqual(80);
+    expect(questions.length).toBeGreaterThanOrEqual(170);
+  });
+
+  it('gives every question type meaningful coverage', () => {
+    for (const type of questionTypes) {
+      const count = questions.filter((question) => question.type === type).length;
+      expect(count, `${type} has too few questions`).toBeGreaterThanOrEqual(8);
+    }
   });
 
   it('covers every supported question type', () => {

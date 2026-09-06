@@ -4,6 +4,7 @@ import type { ReactNode } from 'react';
 import { createEmptyProgress, type WordProgress } from '@/domain/progress';
 import { applyReviewOutcome, markSeen } from '@/domain/review';
 import { useAuth } from '@/features/auth/auth-context';
+import { useSettings } from '@/features/settings/settings-context';
 import {
   AnonymousProgressRepository,
   importedAccounts,
@@ -54,6 +55,9 @@ const cloudRepo = new CloudProgressRepository();
 
 export function ProgressProvider({ children }: { children: ReactNode }) {
   const { status, user } = useAuth();
+  // The learner's spaced-repetition ladder; every scheduling call takes it.
+  const { settings } = useSettings();
+  const intervals = settings.reviewIntervalsDays;
   const [progress, setProgress] = useState<WordProgress[]>([]);
   const [ready, setReady] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -163,18 +167,23 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
 
   const recordSeen = useCallback(
     async (wordId: string) => {
-      await persist(markSeen(get(wordId), new Date()));
+      await persist(markSeen(get(wordId), new Date(), intervals));
     },
-    [get, persist],
+    [get, persist, intervals],
   );
 
   const recordOutcome = useCallback(
     async (wordId: string, correct: boolean) => {
-      const next = applyReviewOutcome({ progress: get(wordId), correct, now: new Date() });
+      const next = applyReviewOutcome({
+        progress: get(wordId),
+        correct,
+        now: new Date(),
+        intervals,
+      });
       await persist(next);
       return next;
     },
-    [get, persist],
+    [get, persist, intervals],
   );
 
   const resetAll = useCallback(async () => {
