@@ -78,7 +78,7 @@ export function WordDetailPage() {
                 {partOfSpeechLabelZh[p]}
               </Badge>
             ))}
-            <Badge tone="neutral">{entry.cefr}{entry.dictionarySource ? '（估）' : ''}</Badge>
+            <Badge tone="neutral">{entry.cefr}</Badge>
             <LearningStatusBadge progress={progress} />
             {progress.quizAttempts > 0 ? (
               <span className="text-xs text-ink-500 tabular-nums">
