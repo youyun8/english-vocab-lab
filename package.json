@@ -22,7 +22,8 @@
     "verify:kk": "tsx scripts/verify-kk.ts",
     "verify:kk:report": "tsx scripts/verify-kk.ts --verbose",
     "kk": "tsx scripts/kk.ts",
-    "merge:vocab": "tsx scripts/merge-vocabulary-fields.ts"
+    "merge:vocab": "tsx scripts/merge-vocabulary-fields.ts",
+    "import:exam": "tsx scripts/import-exam-vocabulary.ts"
   },
   "dependencies": {
     "hono": "^4.13.7",
@@ -46,11 +47,13 @@
     "@vitejs/plugin-react": "^6.1.1",
     "@vitest/coverage-v8": "^5.0.0",
     "cmu-pronouncing-dictionary": "^3.0.0",
+    "csv-parse": "^7.0.2",
     "eslint": "^10.10.0",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.6",
     "globals": "^17.12.0",
     "jsdom": "^30.0.1",
+    "opencc-js": "^1.4.2",
     "tailwindcss": "^4.3.3",
     "tsx": "^4.23.13",
     "typescript": "^6.0.3",

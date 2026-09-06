@@ -9,11 +9,14 @@ import { DEFAULT_FILTERS, collectTags, filterEntries } from '@/features/vocabula
 import { useVocabulary } from '@/features/vocabulary/vocabulary-context';
 import { createEmptyProgress } from '@/domain/progress';
 
+export const WORDS_PER_PAGE = 50;
+
 export function WordBankPage() {
   const { entries, ready, error } = useVocabulary();
   const { byWordId } = useProgress();
   const { settings, update } = useSettings();
   const [filters, setFilters] = useState({ ...DEFAULT_FILTERS });
+  const [page, setPage] = useState(1);
   const [filtersOpen, setFiltersOpen] = useState(false);
 
   const now = useMemo(() => new Date(), []);
@@ -23,6 +26,14 @@ export function WordBankPage() {
     () => filterEntries({ entries, progressByWordId: byWordId, filters, now }),
     [entries, byWordId, filters, now],
   );
+
+  const pageCount = Math.max(1, Math.ceil(results.length / WORDS_PER_PAGE));
+  const currentPage = Math.min(page, pageCount);
+  const visibleResults = results.slice((currentPage - 1) * WORDS_PER_PAGE, currentPage * WORDS_PER_PAGE);
+  const changeFilters = (next: typeof filters) => {
+    setFilters(next);
+    setPage(1);
+  };
 
   const emptyProgressFor = (wordId: string) =>
     byWordId.get(wordId) ?? createEmptyProgress(wordId, now.toISOString());
@@ -36,7 +47,7 @@ export function WordBankPage() {
         <div>
           <h1 className="text-2xl font-semibold tracking-tight text-ink-900">字彙庫</h1>
           <p className="mt-1 text-sm text-ink-500">
-            共 {entries.length} 個 B2–C2 字彙，可依等級、詞性、標籤與學習狀態篩選。
+            共 {entries.length} 個字彙，可用 toefl／gre 標籤篩選考試字彙；等級標示「估」者為詞頻估計。
           </p>
         </div>
 
@@ -83,7 +94,7 @@ export function WordBankPage() {
           <Card className="p-4 lg:sticky lg:top-20">
             <WordFiltersPanel
               filters={filters}
-              onChange={setFilters}
+              onChange={changeFilters}
               tags={tags}
               resultCount={results.length}
             />
@@ -96,14 +107,14 @@ export function WordBankPage() {
               title="沒有符合條件的字彙"
               description="試著放寬篩選條件，或清除關鍵字。"
               action={
-                <Button size="sm" onClick={() => setFilters({ ...DEFAULT_FILTERS })}>
+                <Button size="sm" onClick={() => changeFilters({ ...DEFAULT_FILTERS })}>
                   清除篩選
                 </Button>
               }
             />
           ) : settings.wordBankView === 'card' ? (
             <ul className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
-              {results.map((entry) => (
+              {visibleResults.map((entry) => (
                 <li key={entry.id}>
                   <WordCard entry={entry} progress={emptyProgressFor(entry.id)} />
                 </li>
@@ -133,7 +144,7 @@ export function WordBankPage() {
                   </tr>
                 </thead>
                 <tbody className="[&_th]:px-4 [&_th:not(:first-child)]:px-0">
-                  {results.map((entry) => (
+                  {visibleResults.map((entry) => (
                     <WordListRow
                       key={entry.id}
                       entry={entry}
@@ -144,6 +155,19 @@ export function WordBankPage() {
               </table>
             </Card>
           )}
+          {results.length > 0 ? (
+            <nav aria-label="字彙分頁" className="mt-4 flex flex-wrap items-center justify-between gap-3">
+              <p aria-live="polite" className="text-sm text-ink-500">
+                第 {currentPage} / {pageCount} 頁 · 共 {results.length} 個結果
+              </p>
+              <div className="flex gap-2">
+                <Button size="sm" variant="secondary" disabled={currentPage === 1}
+                  onClick={() => setPage(currentPage - 1)}>上一頁</Button>
+                <Button size="sm" variant="secondary" disabled={currentPage === pageCount}
+                  onClick={() => setPage(currentPage + 1)}>下一頁</Button>
+              </div>
+            </nav>
+          ) : null}
         </section>
       </div>
     </div>

@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 
 import { loadVocabulary } from '@/data';
 import { quizQuestionSchema, OPTIONS_PER_QUESTION } from '@/domain/quiz';
-import { shortMeaningZh } from '@/domain/vocabulary';
+import { shortMeaningZh, type VocabularyEntry } from '@/domain/vocabulary';
 import { createRng } from '@/utils/random';
 import { GENERATED_TYPES, generateQuestions } from './question-generator';
 
@@ -16,7 +16,36 @@ describe('generateQuestions', () => {
     expect(generated).toHaveLength(sample.length * GENERATED_TYPES.length);
   });
 
-  it('only generates the two simple recognition types', () => {
+  it('provides recognition practice for every imported word', () => {
+    const imported = entries.filter((entry) => entry.dictionarySource);
+    const generated = generateQuestions(imported, { rng: rng(), pool: entries });
+    expect(generated).toHaveLength(imported.length * GENERATED_TYPES.length);
+  });
+
+  it('excludes partial gloss overlap, secondary senses, and reverse synonym links', () => {
+    const base = entries[0]!;
+    const word = (lemma: string, gloss: string): VocabularyEntry => ({
+      ...base, id: `w_${lemma}`, lemma, slug: lemma, synonyms: [],
+      senses: [{ ...base.senses[0]!, definitionEn: `Definition for ${lemma}`, definitionZh: gloss }],
+    });
+    const target = word('target', '減少；緩和');
+    const overlap = word('overlap', '減少；縮小');
+    const secondary = word('secondary', '消失');
+    secondary.senses.push({ ...secondary.senses[0]!, definitionZh: '緩和' });
+    const reverse = { ...word('reverse', '削弱'), synonyms: [{ lemma: 'target' }] };
+    const distinct = [word('first', '增加'), word('second', '支持'), word('third', '預測')];
+    const generated = generateQuestions([target], { rng: rng(), pool: [target, overlap, secondary, reverse, ...distinct] });
+    expect(generated).toHaveLength(2);
+    for (const question of generated) {
+      const texts = question.options.map((option) => option.text);
+      for (const excluded of [overlap, secondary, reverse]) {
+        expect(texts).not.toContain(excluded.lemma);
+        expect(texts).not.toContain(shortMeaningZh(excluded));
+      }
+    }
+  });
+
+  it('only generates the two simple recognition types' , () => {
     const generated = generateQuestions(entries.slice(0, 5), { rng: rng(), pool: entries });
     for (const question of generated) {
       expect(GENERATED_TYPES).toContain(question.type);

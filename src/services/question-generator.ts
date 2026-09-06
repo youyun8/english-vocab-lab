@@ -30,36 +30,74 @@ function primaryPos(entry: VocabularyEntry): string {
   return entry.senses[0]?.partOfSpeech ?? 'other';
 }
 
-/** Entries usable as distractors for `target`, with ambiguity filtered out. */
-function candidateDistractors(
-  target: VocabularyEntry,
-  pool: VocabularyEntry[],
-): VocabularyEntry[] {
-  const targetGloss = shortMeaningZh(target).trim();
-  const targetPos = primaryPos(target);
+interface MeaningIndex {
+  glosses: Set<string>;
+  definitions: Set<string>;
+  synonyms: Set<string>;
+}
+const meaningCache = new WeakMap<VocabularyEntry, MeaningIndex>();
 
-  // Words explicitly flagged as synonyms would make a second option defensible.
-  const synonymLemmas = new Set(
-    (target.synonyms ?? []).map((related) => related.lemma.toLowerCase()),
-  );
+function meaningIndex(entry: VocabularyEntry): MeaningIndex {
+  const cached = meaningCache.get(entry);
+  if (cached) return cached;
+  const value = {
+    glosses: new Set(entry.senses.flatMap((sense) => sense.definitionZh
+      .replace(/[（(][^）)]*[）)]/g, '')
+      .split(/[；;，,、]/).map((gloss) => gloss.trim()).filter(Boolean))),
+    definitions: new Set(entry.senses.map((sense) => sense.definitionEn.trim().toLowerCase())),
+    synonyms: new Set((entry.synonyms ?? []).map((word) => word.lemma.toLowerCase())),
+  };
+  meaningCache.set(entry, value);
+  return value;
+}
 
-  const samePos = pool.filter(
-    (entry) =>
-      entry.id !== target.id &&
-      !synonymLemmas.has(entry.lemma.toLowerCase()) &&
-      shortMeaningZh(entry).trim() !== targetGloss &&
-      primaryPos(entry) === targetPos,
-  );
+interface DistractorIndex {
+  pool: VocabularyEntry[];
+  byPos: Map<string, VocabularyEntry[]>;
+  byLemma: Map<string, VocabularyEntry[]>;
+  byGloss: Map<string, VocabularyEntry[]>;
+  byDefinition: Map<string, VocabularyEntry[]>;
+  reverseSynonyms: Map<string, VocabularyEntry[]>;
+}
 
-  if (samePos.length >= DISTRACTOR_COUNT) return samePos;
+function indexDistractors(pool: VocabularyEntry[]): DistractorIndex {
+  const index: DistractorIndex = {
+    pool, byPos: new Map(), byLemma: new Map(), byGloss: new Map(),
+    byDefinition: new Map(), reverseSynonyms: new Map(),
+  };
+  const add = (map: Map<string, VocabularyEntry[]>, key: string, entry: VocabularyEntry) => {
+    const values = map.get(key) ?? [];
+    values.push(entry);
+    map.set(key, values);
+  };
+  for (const entry of pool) {
+    const meaning = meaningIndex(entry);
+    add(index.byPos, primaryPos(entry), entry);
+    add(index.byLemma, entry.lemma.toLowerCase(), entry);
+    for (const gloss of meaning.glosses) add(index.byGloss, gloss, entry);
+    for (const definition of meaning.definitions) add(index.byDefinition, definition, entry);
+    for (const synonym of meaning.synonyms) add(index.reverseSynonyms, synonym, entry);
+  }
+  return index;
+}
 
-  // Fall back to any part of speech rather than emitting a malformed question.
-  return pool.filter(
-    (entry) =>
-      entry.id !== target.id &&
-      !synonymLemmas.has(entry.lemma.toLowerCase()) &&
-      shortMeaningZh(entry).trim() !== targetGloss,
-  );
+/** Inverted gloss indexes avoid comparing every pair of definitions at corpus scale. */
+function candidateDistractors(target: VocabularyEntry, index: DistractorIndex): VocabularyEntry[] {
+  const forbidden = new Set([target.id]);
+  const exclude = (entries: VocabularyEntry[]) => entries.forEach((entry) => forbidden.add(entry.id));
+  const related = [target, ...(index.reverseSynonyms.get(target.lemma.toLowerCase()) ?? [])];
+  for (const lemma of meaningIndex(target).synonyms) {
+    related.push(...(index.byLemma.get(lemma) ?? []));
+  }
+  for (const entry of related) {
+    forbidden.add(entry.id);
+    const meaning = meaningIndex(entry);
+    for (const gloss of meaning.glosses) exclude(index.byGloss.get(gloss) ?? []);
+    for (const definition of meaning.definitions) exclude(index.byDefinition.get(definition) ?? []);
+  }
+  const eligible = (entries: VocabularyEntry[]) => entries.filter((entry) => !forbidden.has(entry.id));
+  const samePos = eligible(index.byPos.get(primaryPos(target)) ?? []);
+  return samePos.length >= DISTRACTOR_COUNT ? samePos : eligible(index.pool);
 }
 
 function buildOptions(texts: string[]): { id: string; text: string }[] {
@@ -68,18 +106,26 @@ function buildOptions(texts: string[]): { id: string; text: string }[] {
 
 interface GenerateOptions {
   rng: Rng;
-  pool: VocabularyEntry[];
+  candidates: VocabularyEntry[];
 }
 
 function generateForEntry(
   entry: VocabularyEntry,
   type: 'meaning_en_to_zh' | 'meaning_zh_to_en',
-  { rng, pool }: GenerateOptions,
+  { rng, candidates }: GenerateOptions,
 ): QuizQuestion | null {
-  const candidates = candidateDistractors(entry, pool);
   if (candidates.length < DISTRACTOR_COUNT) return null;
 
-  const distractors = shuffle(candidates, rng).slice(0, DISTRACTOR_COUNT);
+  const distractors: VocabularyEntry[] = [];
+  const usedTexts = new Set<string>();
+  for (const candidate of shuffle(candidates, rng)) {
+    const text = (type === 'meaning_en_to_zh' ? shortMeaningZh(candidate) : candidate.lemma).trim().toLowerCase();
+    if (usedTexts.has(text)) continue;
+    usedTexts.add(text);
+    distractors.push(candidate);
+    if (distractors.length === DISTRACTOR_COUNT) break;
+  }
+  if (distractors.length < DISTRACTOR_COUNT) return null;
 
   const answerText =
     type === 'meaning_en_to_zh' ? shortMeaningZh(entry) : entry.lemma;
@@ -138,10 +184,12 @@ export function generateQuestions(
 
   const pool = options.pool ?? entries;
   const generated: QuizQuestion[] = [];
+  const index = indexDistractors(pool);
 
   for (const entry of entries) {
+    const candidates = candidateDistractors(entry, index);
     for (const type of types) {
-      const question = generateForEntry(entry, type, { rng: options.rng, pool });
+      const question = generateForEntry(entry, type, { rng: options.rng, candidates });
       if (question) generated.push(question);
     }
   }

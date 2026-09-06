@@ -12,10 +12,12 @@ import { loadCuratedQuestions, loadVocabulary } from './index';
 
 const entries = await loadVocabulary();
 const questions = await loadCuratedQuestions();
+const curatedEntries = entries.filter((entry) => !entry.dictionarySource);
+const dictionaryEntries = entries.filter((entry) => entry.dictionarySource);
 
 describe('vocabulary corpus', () => {
   it('loads a non-trivial number of entries', () => {
-    expect(entries.length).toBeGreaterThanOrEqual(120);
+    expect(entries.length).toBeGreaterThanOrEqual(2000);
   });
 
   it('keeps every CEFR band substantially represented', () => {
@@ -54,8 +56,8 @@ describe('vocabulary corpus', () => {
     }
   });
 
-  it('gives every sense at least one example with a Chinese translation', () => {
-    for (const entry of entries) {
+  it('keeps translated examples on every curated sense', () => {
+    for (const entry of curatedEntries) {
       for (const sense of entry.senses) {
         expect(sense.examples.length, `${entry.lemma}/${sense.id}`).toBeGreaterThan(0);
         for (const example of sense.examples) {
@@ -97,15 +99,15 @@ describe('vocabulary corpus', () => {
   it('gives almost every entry a confusing-word comparison', () => {
     // The comparison table is the corpus's flagship teaching feature; new
     // entries are expected to carry one unless the word has no near neighbour.
-    const withComparison = entries.filter((entry) => entry.commonlyConfusedWith?.length);
-    expect(withComparison.length / entries.length).toBeGreaterThanOrEqual(0.9);
+    const withComparison = curatedEntries.filter((entry) => entry.commonlyConfusedWith?.length);
+    expect(withComparison.length / curatedEntries.length).toBeGreaterThanOrEqual(0.9);
   });
 
   it('gives a healthy share of entries usage notes or common mistakes', () => {
-    const withGuidance = entries.filter((entry) =>
+    const withGuidance = curatedEntries.filter((entry) =>
       entry.senses.some((sense) => sense.usageNotes?.length || sense.commonMistakes?.length),
     );
-    expect(withGuidance.length / entries.length).toBeGreaterThanOrEqual(0.6);
+    expect(withGuidance.length / curatedEntries.length).toBeGreaterThanOrEqual(0.6);
   });
 
   it('writes usage explanations in Traditional Chinese, never Simplified', () => {
@@ -116,11 +118,38 @@ describe('vocabulary corpus', () => {
 
     for (const entry of entries) {
       for (const sense of entry.senses) {
-        const text = sense.usageExplanationZh + sense.definitionZh;
+        const text = (sense.usageExplanationZh ?? '') + sense.definitionZh;
         if (alwaysAllowed.test(text)) continue;
         expect(simplifiedOnly.test(text), `${entry.lemma}: ${text.slice(0, 40)}`).toBe(false);
       }
     }
+  });
+});
+
+describe('dictionary expansion', () => {
+  it('preserves the original detailed lessons and adds distinct exam headwords', () => {
+    expect(curatedEntries.length).toBeGreaterThanOrEqual(120);
+    expect(dictionaryEntries.length).toBeGreaterThanOrEqual(1880);
+    expect(new Set(entries.map((entry) => entry.lemma.toLowerCase())).size).toBe(entries.length);
+    for (const exam of ['toefl', 'gre']) {
+      expect(dictionaryEntries.filter((entry) => entry.tags.includes(exam)).length).toBeGreaterThanOrEqual(1000);
+    }
+  });
+
+  it('keeps source attribution and estimated levels on imported entries', () => {
+    for (const entry of dictionaryEntries) {
+      expect(entry.dictionarySource).toMatchObject({ name: 'ECDICT', license: 'MIT', cefrEstimated: true });
+      expect(entry.tags.some((tag) => tag === 'toefl' || tag === 'gre')).toBe(true);
+      for (const sense of entry.senses) {
+        expect(sense.definitionEn).not.toMatch(/\\n|undefined|<[^>]*>/);
+        expect(sense.definitionZh).toMatch(/[\u3400-\u9fff]/);
+      }
+    }
+  });
+
+  it('does not allow unattributed entries to omit lesson content', () => {
+    const entry = dictionaryEntries[0]!;
+    expect(vocabularyEntrySchema.safeParse({ ...entry, dictionarySource: undefined }).success).toBe(false);
   });
 });
 

@@ -4,7 +4,7 @@ import { beforeEach, describe, expect, it } from 'vitest';
 
 import { loadVocabulary } from '@/data';
 import { ANONYMOUS_API, mockApi, renderWithProviders } from '@/test/render';
-import { WordBankPage } from './WordBankPage';
+import { WordBankPage, WORDS_PER_PAGE } from './WordBankPage';
 
 // Counts are derived from the corpus so that adding vocabulary does not break
 // these tests; what they assert is the filtering behaviour, not the corpus size.
@@ -30,13 +30,25 @@ function resultCount(): number {
 }
 
 describe('WordBankPage', () => {
-  it('lists the whole corpus by default', async () => {
+  it('paginates the corpus and displays its full result count', async () => {
     await renderPage();
-    expect(resultCount()).toBe(TOTAL);
+    expect(resultCount()).toBe(Math.min(TOTAL, WORDS_PER_PAGE));
     expect(screen.getByText(`${TOTAL} 個結果`)).toBeInTheDocument();
   });
 
-  it('filters by keyword search', async () => {
+  it('moves between pages and resets to the first page when filtering', async () => {
+    const user = userEvent.setup();
+    await renderPage();
+    expect(screen.getByRole('button', { name: '上一頁' })).toBeDisabled();
+    await user.click(screen.getByRole('button', { name: '下一頁' }));
+    const sorted = [...entries].sort((a, b) => a.lemma.localeCompare(b.lemma));
+    expect(screen.getByRole('link', { name: sorted[WORDS_PER_PAGE]!.lemma })).toBeInTheDocument();
+    await user.type(screen.getByLabelText('搜尋字彙'), 'hypothesis');
+    expect(screen.getByRole('button', { name: '上一頁' })).toBeDisabled();
+    expect(screen.getByRole('link', { name: 'hypothesis' })).toBeInTheDocument();
+  });
+
+  it('filters by keyword search' , async () => {
     const user = userEvent.setup();
     await renderPage();
 
@@ -55,7 +67,7 @@ describe('WordBankPage', () => {
 
     await user.click(screen.getByRole('button', { name: 'C2', pressed: false }));
 
-    await waitFor(() => expect(resultCount()).toBe(countAtLevel('C2')));
+    await waitFor(() => expect(resultCount()).toBe(Math.min(countAtLevel('C2'), WORDS_PER_PAGE)));
   });
 
   it('combines a level filter with a part-of-speech filter', async () => {
@@ -63,11 +75,13 @@ describe('WordBankPage', () => {
     await renderPage();
 
     await user.click(screen.getByRole('button', { name: 'C2', pressed: false }));
-    const before = resultCount();
+    const before = countAtLevel('C2');
 
     await user.click(screen.getByRole('button', { name: '動詞', pressed: false }));
 
-    await waitFor(() => expect(resultCount()).toBeLessThan(before));
+    const expected = entries.filter((entry) => entry.cefr === 'C2' && entry.senses.some((sense) => sense.partOfSpeech === 'verb')).length;
+    expect(expected).toBeLessThan(before);
+    await waitFor(() => expect(screen.getByText(`${expected} 個結果`)).toBeInTheDocument());
   });
 
   it('shows an empty state when nothing matches, with a way out', async () => {
@@ -80,7 +94,7 @@ describe('WordBankPage', () => {
 
     // Both the filter panel and the empty state offer a reset; either works.
     await user.click(screen.getAllByRole('button', { name: '清除篩選' })[0]!);
-    await waitFor(() => expect(resultCount()).toBe(TOTAL));
+    await waitFor(() => expect(resultCount()).toBe(Math.min(TOTAL, WORDS_PER_PAGE)));
   });
 
   it('clears all filters at once', async () => {
@@ -88,10 +102,10 @@ describe('WordBankPage', () => {
     await renderPage();
 
     await user.click(screen.getByRole('button', { name: 'B2', pressed: false }));
-    await waitFor(() => expect(resultCount()).toBe(countAtLevel('B2')));
+    await waitFor(() => expect(resultCount()).toBe(Math.min(countAtLevel('B2'), WORDS_PER_PAGE)));
 
     await user.click(screen.getByRole('button', { name: '清除篩選' }));
-    await waitFor(() => expect(resultCount()).toBe(TOTAL));
+    await waitFor(() => expect(resultCount()).toBe(Math.min(TOTAL, WORDS_PER_PAGE)));
   });
 
   it('switches between list and card views', async () => {
@@ -103,7 +117,7 @@ describe('WordBankPage', () => {
     await user.click(screen.getByRole('button', { name: '卡片' }));
 
     await waitFor(() => expect(screen.queryByRole('table')).not.toBeInTheDocument());
-    expect(screen.getByRole('link', { name: 'consolidate' })).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: [...entries].sort((a, b) => a.lemma.localeCompare(b.lemma))[0]!.lemma })).toBeInTheDocument();
   });
 
   it('sorts by CEFR level when asked', async () => {
@@ -115,12 +129,13 @@ describe('WordBankPage', () => {
     await waitFor(() => {
       const rows = screen.getAllByRole('row').slice(1);
       const firstRow = rows[0]!;
-      expect(within(firstRow).getByText('B2')).toBeInTheDocument();
+      expect(within(firstRow).getByText(/^B2/)).toBeInTheDocument();
     });
   });
 
   it('shows the KK transcription for each word', async () => {
     await renderPage();
-    expect(screen.getByLabelText('KK 音標 /kənˈsɑləˌdet/')).toBeInTheDocument();
+    const first = [...entries].sort((a, b) => a.lemma.localeCompare(b.lemma))[0]!;
+    expect(screen.getByLabelText(`KK 音標 ${first.pronunciation.kk}`)).toBeInTheDocument();
   });
 });
