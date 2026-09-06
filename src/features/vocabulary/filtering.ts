@@ -60,43 +60,137 @@ function statusOf(entry: VocabularyEntry, progress: Map<string, WordProgress>): 
   return progress.get(entry.id)?.status ?? 'new';
 }
 
+/** Groups that `matchesFilters` can be told to ignore, one per facet. */
+type FilterGroupKey = 'cefrLevels' | 'partsOfSpeech' | 'tags' | 'statuses' | 'flags';
+
+function matchesFilters(
+  entry: VocabularyEntry,
+  filters: WordFilters,
+  progressByWordId: Map<string, WordProgress>,
+  skip?: FilterGroupKey,
+): boolean {
+  if (skip !== 'cefrLevels' && filters.cefrLevels.length > 0
+    && !filters.cefrLevels.includes(entry.cefr)) {
+    return false;
+  }
+
+  if (skip !== 'partsOfSpeech' && filters.partsOfSpeech.length > 0) {
+    const pos = primaryPartsOfSpeech(entry);
+    if (!filters.partsOfSpeech.some((wanted) => pos.includes(wanted))) return false;
+  }
+
+  if (skip !== 'tags' && filters.tags.length > 0
+    && !filters.tags.some((tag) => entry.tags.includes(tag))) {
+    return false;
+  }
+
+  const progress = progressByWordId.get(entry.id);
+
+  if (skip !== 'statuses' && filters.statuses.length > 0
+    && !filters.statuses.includes(statusOf(entry, progressByWordId))) {
+    return false;
+  }
+  if (skip !== 'flags') {
+    if (filters.bookmarkedOnly && !progress?.bookmarked) return false;
+    if (filters.difficultOnly && !progress?.difficult) return false;
+  }
+
+  return true;
+}
+
+/**
+ * Search first: it produces a relevance order that the alphabetical sort would
+ * otherwise destroy, so the search order is preserved when sorting by the
+ * default key. Facet counts reuse the same base so a query is scored once.
+ */
+function searchBase(entries: VocabularyEntry[], query: string): VocabularyEntry[] {
+  return query.trim() ? searchVocabulary(entries, query).map((hit) => hit.entry) : entries;
+}
+
 export function filterEntries({
   entries,
   progressByWordId,
   filters,
   now,
 }: FilterInput): VocabularyEntry[] {
-  // Search first: it produces a relevance order that the alphabetical sort
-  // would otherwise destroy, so the search order is preserved when sorting by
-  // the default key.
-  const base = filters.query.trim()
-    ? searchVocabulary(entries, filters.query).map((hit) => hit.entry)
-    : entries;
-
-  const filtered = base.filter((entry) => {
-    if (filters.cefrLevels.length > 0 && !filters.cefrLevels.includes(entry.cefr)) return false;
-
-    if (filters.partsOfSpeech.length > 0) {
-      const pos = primaryPartsOfSpeech(entry);
-      if (!filters.partsOfSpeech.some((wanted) => pos.includes(wanted))) return false;
-    }
-
-    if (filters.tags.length > 0 && !filters.tags.some((tag) => entry.tags.includes(tag))) {
-      return false;
-    }
-
-    const progress = progressByWordId.get(entry.id);
-
-    if (filters.statuses.length > 0 && !filters.statuses.includes(statusOf(entry, progressByWordId))) {
-      return false;
-    }
-    if (filters.bookmarkedOnly && !progress?.bookmarked) return false;
-    if (filters.difficultOnly && !progress?.difficult) return false;
-
-    return true;
-  });
+  const filtered = searchBase(entries, filters.query).filter((entry) =>
+    matchesFilters(entry, filters, progressByWordId),
+  );
 
   return sortEntries(filtered, filters, progressByWordId, now, filters.query.trim().length > 0);
+}
+
+export interface FacetCounts {
+  cefrLevels: Map<CefrLevel, number>;
+  partsOfSpeech: Map<PartOfSpeech, number>;
+  statuses: Map<LearningStatus, number>;
+  tags: Map<string, number>;
+  bookmarked: number;
+  difficult: number;
+}
+
+/**
+ * How many words each filter value would leave, counted with that value's own
+ * group ignored — the standard faceting rule, so ticking a second level inside
+ * a group can only widen the result, never contradict the number shown.
+ */
+export function facetCounts({
+  entries,
+  progressByWordId,
+  filters,
+}: Omit<FilterInput, 'now'>): FacetCounts {
+  const counts: FacetCounts = {
+    cefrLevels: new Map(),
+    partsOfSpeech: new Map(),
+    statuses: new Map(),
+    tags: new Map(),
+    bookmarked: 0,
+    difficult: 0,
+  };
+  const bump = <T>(map: Map<T, number>, key: T) => map.set(key, (map.get(key) ?? 0) + 1);
+  const base = searchBase(entries, filters.query);
+
+  for (const entry of base) {
+    if (matchesFilters(entry, filters, progressByWordId, 'cefrLevels')) {
+      bump(counts.cefrLevels, entry.cefr);
+    }
+    if (matchesFilters(entry, filters, progressByWordId, 'partsOfSpeech')) {
+      for (const pos of primaryPartsOfSpeech(entry)) bump(counts.partsOfSpeech, pos);
+    }
+    if (matchesFilters(entry, filters, progressByWordId, 'tags')) {
+      for (const tag of entry.tags) bump(counts.tags, tag);
+    }
+    if (matchesFilters(entry, filters, progressByWordId, 'statuses')) {
+      bump(counts.statuses, statusOf(entry, progressByWordId));
+    }
+    if (matchesFilters(entry, filters, progressByWordId, 'flags')) {
+      const progress = progressByWordId.get(entry.id);
+      if (progress?.bookmarked) counts.bookmarked += 1;
+      if (progress?.difficult) counts.difficult += 1;
+    }
+  }
+
+  return counts;
+}
+
+/** How many filters are applied, for the "N applied" badge and clear button. */
+export function countActiveFilters(filters: WordFilters): number {
+  return filters.cefrLevels.length
+    + filters.partsOfSpeech.length
+    + filters.tags.length
+    + filters.statuses.length
+    + (filters.bookmarkedOnly ? 1 : 0)
+    + (filters.difficultOnly ? 1 : 0)
+    + (filters.query.trim() ? 1 : 0)
+    + (filters.sort === DEFAULT_FILTERS.sort ? 0 : 1);
+}
+
+/** Exam labels come from the source dictionary; the rest are editorial topics. */
+export const EXAM_TAGS = ['toefl', 'gre', 'ielts', 'dictionary'] as const;
+
+export function partitionTags(tags: string[]): { exam: string[]; topic: string[] } {
+  const exam = EXAM_TAGS.filter((tag) => tags.includes(tag));
+  return { exam, topic: tags.filter((tag) => !exam.includes(tag as (typeof EXAM_TAGS)[number])) };
 }
 
 function sortEntries(

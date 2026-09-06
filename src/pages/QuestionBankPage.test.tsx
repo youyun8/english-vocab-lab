@@ -10,11 +10,16 @@ beforeEach(() => {
   localStorage.clear();
 });
 
+// Loading and indexing the whole corpus takes longer than the default timeout.
+const CORPUS_TIMEOUT = 20_000;
+
 async function renderPage() {
   renderWithProviders(<QuestionBankPage />, { route: '/question-bank' });
-  await screen.findByRole('heading', { level: 1, name: '題庫' });
+  await screen.findByRole('heading', { level: 1, name: '題庫' }, { timeout: CORPUS_TIMEOUT });
   // The bank is built from the whole corpus, so wait for the first card.
-  await waitFor(() => expect(screen.getAllByLabelText('答案選項').length).toBeGreaterThan(0));
+  await waitFor(() => expect(screen.getAllByLabelText('答案選項').length).toBeGreaterThan(0), {
+    timeout: CORPUS_TIMEOUT,
+  });
 }
 
 function firstCard(): HTMLElement {
@@ -85,7 +90,8 @@ describe('QuestionBankPage', () => {
     const total = Number(/共 (\d+) 題/.exec(screen.getByText(/共 \d+ 題$/).textContent ?? '')?.[1]);
     expect(total).toBeGreaterThan(1000);
 
-    await user.click(screen.getByRole('button', { name: '英文釋義' }));
+    // The filter chip carries its facet count, so match the label as a prefix.
+    await user.click(screen.getByRole('button', { name: /^英文釋義/, pressed: false }));
 
     await waitFor(() => {
       const shown = Number(
