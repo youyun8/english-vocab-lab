@@ -1,8 +1,8 @@
 # English Vocabulary Lab
 
 An interactive English vocabulary platform for Traditional Chinese (`zh-TW`) speakers preparing
-for TOEFL or GRE. The corpus contains **2,120 words**: 120 detailed B2–C2 lessons and 2,000
-attributed dictionary entries for recognition and review. Every entry has KK phonetics and
+for TOEFL, GRE or IELTS. The corpus contains **4,120 words**: 120 detailed B2–C2 lessons and
+4,000 attributed dictionary entries for recognition and review. Every entry has KK phonetics and
 English/Traditional Chinese definitions. The curated lessons additionally explain usage,
 collocations, grammar patterns, common mistakes and confusing words.
 
@@ -48,9 +48,9 @@ login).
 
 **Vocabulary**
 
-- 2,120 distinct entries: 120 curated lessons plus 2,000 TOEFL/GRE dictionary entries.
-  Each exam tag covers 1,500 imported words; use the tag filter to find them.
-- 974 B2 / 863 C1 / 283 C2, including estimated bands on dictionary entries.
+- 4,120 distinct entries: 120 curated lessons plus 4,000 TOEFL/GRE/IELTS dictionary entries
+  (2,791 `toefl`, 2,593 `gre`, 2,186 `ielts`); use the exam filter to study one list at a time.
+- 1,907 B2 / 1,429 C1 / 784 C2, including estimated bands on dictionary entries.
 - Paginated word browsing (50 results per page), with search and filters over the full corpus.
 - KK phonetic transcription (American English) for every headword, **machine-verified against the
   CMU Pronouncing Dictionary** (see [KK verification](#17-kk-phonetic-verification)), in a font
@@ -213,6 +213,7 @@ src/
 
   components/
     ui/                     Button, Card, Badge, StatTile, Toggle, EmptyState, …
+    ui/filters.tsx          filter rail, collapsible groups, counted chips
     layout/AppShell.tsx     header, navigation, Suspense boundary, merge banner
 
   domain/                   types + Zod schemas + pure rules (no I/O)
@@ -224,7 +225,7 @@ src/
   data/
     index.ts                lazy, validated content loader
     vocabulary/b2|c1|c2/    curated lessons, ~6 entries per file
-    vocabulary/exam/        dictionary entries, 50 entries per file
+    vocabulary/exam/        dictionary entries, 50 per file (80 files)
     questions/              curated question bank, one file per question type
                             (`exam-*.json` cover the imported TOEFL/GRE words)
 
@@ -812,10 +813,10 @@ Example output:
 
 ```text
 ✓ Content validation passed
-  vocabulary entries : 2120
-      B2   974
-      C1   863
-      C2   283
+  vocabulary entries : 4120
+      B2   1907
+      C1   1429
+      C2   784
   curated questions  : 251
       cloze              52
       collocation        48
@@ -827,7 +828,7 @@ Example output:
 ```
 
 The counts above are the *curated* questions only — the questions kept in git. The bank the app
-shows also contains the recognition questions generated from all 2,120 entries.
+shows also contains the recognition questions generated from all 4,120 entries.
 
 ---
 

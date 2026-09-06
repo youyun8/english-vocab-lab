@@ -7,7 +7,7 @@ export function AboutPage() {
         <h1 className="text-2xl font-semibold tracking-tight text-ink-900">關於本站</h1>
         <p className="mt-2 text-sm text-ink-600">
           English Vocabulary Lab 是一個針對繁體中文母語者設計的 B2–C2 英語字彙學習工具，
-          提供 TOEFL／GRE 字義辨識練習，以及深入說明單字<strong>實際怎麼用</strong>的精選課程。
+          提供 TOEFL／GRE／IELTS 字義辨識練習，以及深入說明單字<strong>實際怎麼用</strong>的精選課程。
         </p>
       </header>
 
@@ -22,7 +22,7 @@ export function AboutPage() {
       </Card>
 
       <Card className="p-5">
-        <SectionHeading>TOEFL／GRE 擴充字彙</SectionHeading>
+        <SectionHeading>TOEFL／GRE／IELTS 擴充字彙</SectionHeading>
         <p className="text-sm leading-7 text-ink-700">
           字典擴充詞條取自 <a className="underline" href="https://github.com/skywind3000/ECDICT">ECDICT</a>
           （<a className="underline" href="/licenses/ECDICT-MIT.txt">MIT 授權</a>），

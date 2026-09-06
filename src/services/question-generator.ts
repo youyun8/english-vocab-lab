@@ -51,6 +51,8 @@ const MIN_DEFINITION_LENGTH = 12;
 const MIN_STEM_LENGTH = 4;
 /** Imported glosses list every sense; a whole list makes an unreadable option. */
 const MAX_GLOSS_SEGMENTS = 3;
+/** Random draws allowed before falling back to a scan of the candidate pool. */
+const DRAW_BUDGET = 32;
 
 function primaryPos(entry: VocabularyEntry): string {
   return entry.senses[0]?.partOfSpeech ?? 'other';
@@ -178,8 +180,18 @@ function indexDistractors(pool: VocabularyEntry[]): DistractorIndex {
   return index;
 }
 
-/** Inverted gloss indexes avoid comparing every pair of definitions at corpus scale. */
-function candidateDistractors(target: VocabularyEntry, index: DistractorIndex): VocabularyEntry[] {
+/** The entries a question may draw distractors from, and those it must not. */
+interface CandidatePool {
+  entries: VocabularyEntry[];
+  forbidden: Set<string>;
+}
+
+/**
+ * Inverted gloss indexes avoid comparing every pair of definitions at corpus
+ * scale. The forbidden ids are returned rather than filtered out, so no
+ * per-entry copy of the corpus is allocated while generating.
+ */
+function candidateDistractors(target: VocabularyEntry, index: DistractorIndex): CandidatePool {
   const forbidden = new Set([target.id]);
   const exclude = (entries: VocabularyEntry[]) => entries.forEach((entry) => forbidden.add(entry.id));
   const related = [target, ...(index.reverseSynonyms.get(target.lemma.toLowerCase()) ?? [])];
@@ -192,9 +204,11 @@ function candidateDistractors(target: VocabularyEntry, index: DistractorIndex): 
     for (const gloss of meaning.glosses) exclude(index.byGloss.get(gloss) ?? []);
     for (const definition of meaning.definitions) exclude(index.byDefinition.get(definition) ?? []);
   }
-  const eligible = (entries: VocabularyEntry[]) => entries.filter((entry) => !forbidden.has(entry.id));
-  const samePos = eligible(index.byPos.get(primaryPos(target)) ?? []);
-  return samePos.length >= DISTRACTOR_COUNT ? samePos : eligible(index.pool);
+  const samePos = index.byPos.get(primaryPos(target)) ?? [];
+  // Matching the part of speech is preferred, but only while it can still
+  // supply three usable distractors; otherwise the whole pool is fair game.
+  const entries = samePos.length - forbidden.size >= DISTRACTOR_COUNT ? samePos : index.pool;
+  return { entries, forbidden };
 }
 
 function buildOptions(texts: string[]): { id: string; text: string }[] {
@@ -248,7 +262,7 @@ const SPECS: Record<GeneratedType, RecognitionSpec> = {
 
 interface GenerateOptions {
   rng: Rng;
-  candidates: VocabularyEntry[];
+  candidates: CandidatePool;
 }
 
 function generateForEntry(
@@ -256,7 +270,8 @@ function generateForEntry(
   type: GeneratedType,
   { rng, candidates }: GenerateOptions,
 ): QuizQuestion | null {
-  if (candidates.length < DISTRACTOR_COUNT) return null;
+  const pool = candidates.entries;
+  if (pool.length < DISTRACTOR_COUNT) return null;
 
   const spec = SPECS[type];
   const answerText = spec.optionText(entry).trim();
@@ -265,14 +280,30 @@ function generateForEntry(
   const context = spec.context?.(entry).trim();
   if (spec.context && !context) return null;
 
+  // Random draws rather than a full shuffle: the candidate pool is the whole
+  // corpus for a part of speech, and shuffling it for every question made
+  // building the bank cost seconds rather than milliseconds.
   const distractors: VocabularyEntry[] = [];
   const usedTexts = new Set<string>([answerText.toLowerCase()]);
-  for (const candidate of shuffle(candidates, rng)) {
+  const tried = new Set<number>();
+  const accept = (index: number): boolean => {
+    if (tried.has(index)) return false;
+    tried.add(index);
+    const candidate = pool[index];
+    if (!candidate || candidates.forbidden.has(candidate.id)) return false;
     const text = spec.optionText(candidate).trim().toLowerCase();
-    if (!text || usedTexts.has(text)) continue;
+    if (!text || usedTexts.has(text)) return false;
     usedTexts.add(text);
     distractors.push(candidate);
-    if (distractors.length === DISTRACTOR_COUNT) break;
+    return true;
+  };
+
+  for (let attempt = 0; attempt < DRAW_BUDGET && distractors.length < DISTRACTOR_COUNT; attempt += 1) {
+    accept(Math.floor(rng() * pool.length));
+  }
+  // Small or highly duplicated pools may not yield three draws; finish by scan.
+  for (let index = 0; index < pool.length && distractors.length < DISTRACTOR_COUNT; index += 1) {
+    accept(index);
   }
   if (distractors.length < DISTRACTOR_COUNT) return null;
 
