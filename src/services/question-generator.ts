@@ -24,13 +24,19 @@ import { shuffle } from '@/utils/random';
  * imported dictionary words included — gets practice, not just the small
  * hand-written subset.
  *
- * Three safeguards keep generated questions fair:
+ * Four safeguards keep generated questions fair:
  *  1. distractors are drawn from entries whose part of speech matches, so the
  *     answer can never be found by grammar alone;
  *  2. any entry whose gloss collides with the answer's gloss is rejected, so a
  *     question can never have two correct options;
- *  3. an English definition that spells out its own headword is masked, so the
+ *  3. a gloss that *contains* the answer's gloss is rejected too — 走失的家畜
+ *     next to 家畜 is two defensible answers, not one;
+ *  4. an English definition that spells out its own headword is masked, so the
  *     prompt never contains the answer.
+ *
+ * They cannot prove that two dictionary meanings differ: near-synonyms worded
+ * differently in the source (驅逐 against 消滅) still get through. Generated
+ * questions are labelled as such throughout the app for that reason.
  */
 
 export type GeneratedType = GeneratedQuestionType;
@@ -154,13 +160,29 @@ interface DistractorIndex {
   byPos: Map<string, VocabularyEntry[]>;
   byLemma: Map<string, VocabularyEntry[]>;
   byGloss: Map<string, VocabularyEntry[]>;
+  /** Every substring of every gloss, to catch one gloss containing another. */
+  byGlossPart: Map<string, VocabularyEntry[]>;
   byDefinition: Map<string, VocabularyEntry[]>;
   reverseSynonyms: Map<string, VocabularyEntry[]>;
 }
 
+/** Shorter fragments match by coincidence rather than by meaning. */
+const MIN_GLOSS_FRAGMENT = 2;
+
+/** Every substring of a gloss segment that is long enough to mean something. */
+function glossFragments(gloss: string): string[] {
+  const fragments: string[] = [];
+  for (let start = 0; start < gloss.length; start += 1) {
+    for (let end = start + MIN_GLOSS_FRAGMENT; end <= gloss.length; end += 1) {
+      fragments.push(gloss.slice(start, end));
+    }
+  }
+  return fragments;
+}
+
 function indexDistractors(pool: VocabularyEntry[]): DistractorIndex {
   const index: DistractorIndex = {
-    pool, byPos: new Map(), byLemma: new Map(), byGloss: new Map(),
+    pool, byPos: new Map(), byLemma: new Map(), byGloss: new Map(), byGlossPart: new Map(),
     byDefinition: new Map(), reverseSynonyms: new Map(),
   };
   const add = (map: Map<string, VocabularyEntry[]>, key: string, entry: VocabularyEntry) => {
@@ -172,7 +194,12 @@ function indexDistractors(pool: VocabularyEntry[]): DistractorIndex {
     const meaning = meaningIndex(entry);
     add(index.byPos, primaryPos(entry), entry);
     add(index.byLemma, entry.lemma.toLowerCase(), entry);
-    for (const gloss of meaning.glosses) add(index.byGloss, gloss, entry);
+    for (const gloss of meaning.glosses) {
+      add(index.byGloss, gloss, entry);
+      for (const fragment of new Set(glossFragments(gloss))) {
+        add(index.byGlossPart, fragment, entry);
+      }
+    }
     for (const definition of meaning.definitions) add(index.byDefinition, definition, entry);
     for (const synonym of meaning.synonyms) add(index.reverseSynonyms, synonym, entry);
   }
@@ -200,7 +227,15 @@ function candidateDistractors(target: VocabularyEntry, index: DistractorIndex): 
   for (const entry of related) {
     forbidden.add(entry.id);
     const meaning = meaningIndex(entry);
-    for (const gloss of meaning.glosses) exclude(index.byGloss.get(gloss) ?? []);
+    for (const gloss of meaning.glosses) {
+      exclude(index.byGloss.get(gloss) ?? []);
+      // A gloss that spells out this one — 走失的家畜 for 家畜 — and a gloss
+      // this one spells out — 感激 for 感激之情 — are both defensible answers.
+      if (gloss.length >= MIN_GLOSS_FRAGMENT) exclude(index.byGlossPart.get(gloss) ?? []);
+      for (const fragment of new Set(glossFragments(gloss))) {
+        exclude(index.byGloss.get(fragment) ?? []);
+      }
+    }
     for (const definition of meaning.definitions) exclude(index.byDefinition.get(definition) ?? []);
   }
   const samePos = index.byPos.get(primaryPos(target)) ?? [];

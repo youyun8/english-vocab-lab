@@ -7,6 +7,7 @@ import { createRng } from '@/utils/random';
 import { GENERATED_TYPES, generateQuestions } from './question-generator';
 
 const entries = await loadVocabulary();
+const byId = new Map(entries.map((entry) => [entry.id, entry]));
 const rng = () => createRng(42);
 
 describe('generateQuestions', () => {
@@ -160,7 +161,6 @@ describe('generateQuestions', () => {
   });
 
   it('never uses a declared synonym as a distractor (ambiguity protection)', () => {
-    const byId = new Map(entries.map((entry) => [entry.id, entry]));
     const generated = generateQuestions(entries, { rng: rng(), pool: entries });
 
     for (const question of generated) {
@@ -178,6 +178,39 @@ describe('generateQuestions', () => {
         if (option.id === question.correctOptionId) continue;
         expect(synonymLemmas.has(option.text.toLowerCase()), question.id).toBe(false);
         expect(synonymGlosses.has(option.text), question.id).toBe(false);
+      }
+    }
+  });
+
+  it('never puts one gloss next to a gloss that spells it out', () => {
+    // 家畜 beside 走失的家畜, or 感激 beside 感激之情, is two defensible
+    // answers. Exact-match exclusion misses these; containment catches them.
+    const byLemma = new Map(entries.map((entry) => [entry.lemma, entry]));
+    const segments = (gloss: string) =>
+      gloss
+        .replace(/[（(][^）)]*[）)]/g, '')
+        .split(/[；;，,、]/)
+        .map((segment) => segment.trim())
+        .filter((segment) => segment.length >= 2);
+
+    const generated = generateQuestions(entries, { rng: rng(), pool: entries });
+    for (const question of generated) {
+      const target = byId.get(question.wordIds[0]!)!;
+      const answerSegments = target.senses.flatMap((sense) => segments(sense.definitionZh));
+
+      for (const option of question.options) {
+        if (option.id === question.correctOptionId) continue;
+        // Options are either a gloss or a headword; resolve both to an entry.
+        const other = byLemma.get(option.text)
+          ?? entries.find((entry) => shortMeaningZh(entry) === option.text);
+        if (!other) continue;
+        for (const segment of other.senses.flatMap((sense) => segments(sense.definitionZh))) {
+          for (const answerSegment of answerSegments) {
+            const overlaps = segment !== answerSegment
+              && (segment.includes(answerSegment) || answerSegment.includes(segment));
+            expect(overlaps, `${question.id}: ${answerSegment} vs ${segment}`).toBe(false);
+          }
+        }
       }
     }
   });

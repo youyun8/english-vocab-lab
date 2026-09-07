@@ -117,6 +117,12 @@ export function QuestionBankCard({ question }: { question: QuizQuestion }) {
             </ul>
           ) : null}
 
+          {question.source === 'generated' ? (
+            <p className="mt-2 text-xs text-ink-500">
+              自動生成題：釋義取自字典，未經逐題人工校訂。
+            </p>
+          ) : null}
+
           <div className="mt-3 flex items-center justify-between gap-3">
             <p className="text-xs text-ink-400">
               {question.tags.length > 0 ? question.tags.join('、') : null}

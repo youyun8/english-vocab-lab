@@ -700,11 +700,24 @@ freely without corrupting the answer key.
 - **Generated** questions are derived from the corpus at runtime, and only for the three simple
   recognition types (`meaning_en_to_zh`, `meaning_zh_to_en`, `definition_to_word`). Every one of
   them reads fields the schema guarantees on *every* entry — headword, Chinese gloss, English
-  definition — so imported dictionary words get practice too. Distractors prefer matching parts
-  of speech. Synonym links in either direction, shared Chinese gloss components and identical
-  English definitions exclude potentially ambiguous distractors. These checks reduce ambiguity
-  but cannot prove that all dictionary meanings are distinct. Ids are derived from `entry.id` + type, so duplicates are
-  impossible. See `src/services/question-generator.test.ts`.
+  definition — so imported dictionary words get practice too. Ids are derived from `entry.id` +
+  type, so duplicates are impossible.
+
+  Four rules keep a generated question fair, each of them a test in
+  `src/services/question-generator.test.ts` that runs over every question the corpus produces:
+
+  | Rule | What it prevents |
+  | --- | --- |
+  | Distractors prefer the answer's part of speech | Guessing from grammar alone |
+  | A declared synonym, in either direction, is never a distractor | Two defensible answers |
+  | A gloss identical to, **containing**, or contained by the answer's is never a distractor | 走失的家畜 next to 家畜 |
+  | An English definition that spells out its own headword is masked | The prompt giving the answer away |
+
+  What they cannot do is prove that two dictionary meanings differ. Near-synonyms worded
+  differently in the source — 驅逐 against 消滅 — still get through, and the imported glosses are
+  machine-converted rather than edited. Generated questions are labelled as such on the card, in
+  quiz feedback and in the bank's own filter, and the app says plainly that usage and nuance belong
+  to the hand-written questions.
 - `definition_to_word` shows the English definition and asks for the word. Any form of the headword
   inside that definition is masked to `___`, and an entry whose masked definition no longer
   identifies a single word (an imported stub such as "become brisk") simply gets no definition

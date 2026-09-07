@@ -43,6 +43,12 @@ export function QuizFeedback({
 
       <p className="mt-2 text-sm leading-relaxed text-ink-700">{question.explanation}</p>
 
+      {question.source === 'generated' ? (
+        <p className="mt-1.5 text-xs text-ink-500">
+          自動生成題：釋義取自字典，未經逐題人工校訂。
+        </p>
+      ) : null}
+
       {distractors.length > 0 ? (
         <details className="mt-3">
           <summary className="cursor-pointer text-xs font-medium text-ink-500 hover:text-ink-800">
