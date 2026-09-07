@@ -1,9 +1,12 @@
 import {
   OPTIONS_PER_QUESTION,
+  generatedQuestionTypes,
+  type Difficulty,
+  type GeneratedQuestionType,
   type QuizQuestion,
   type QuestionType,
 } from '@/domain/quiz';
-import { shortMeaningZh, type VocabularyEntry } from '@/domain/vocabulary';
+import { shortMeaningZh, type CefrLevel, type VocabularyEntry } from '@/domain/vocabulary';
 import type { Rng } from '@/utils/random';
 import { shuffle } from '@/utils/random';
 
@@ -30,13 +33,9 @@ import { shuffle } from '@/utils/random';
  *     prompt never contains the answer.
  */
 
-export const GENERATED_TYPES: QuestionType[] = [
-  'meaning_en_to_zh',
-  'meaning_zh_to_en',
-  'definition_to_word',
-];
+export type GeneratedType = GeneratedQuestionType;
 
-type GeneratedType = 'meaning_en_to_zh' | 'meaning_zh_to_en' | 'definition_to_word';
+export const GENERATED_TYPES: GeneratedType[] = [...generatedQuestionTypes];
 
 const DISTRACTOR_COUNT = OPTIONS_PER_QUESTION - 1;
 
@@ -260,6 +259,46 @@ const SPECS: Record<GeneratedType, RecognitionSpec> = {
   },
 };
 
+/** The identity of a generated question, derivable without generating it. */
+export interface GeneratedQuestionMeta {
+  id: string;
+  difficulty: Difficulty;
+  tags: string[];
+}
+
+/**
+ * Everything about a generated question except its options: id, difficulty and
+ * tags. The question bank derives these from index records so it can count,
+ * filter and order the whole bank without building any of it.
+ */
+export function generatedQuestionMeta(
+  word: { id: string; cefr: CefrLevel; tags: string[] },
+  type: GeneratedType,
+): GeneratedQuestionMeta {
+  const spec = SPECS[type];
+  return {
+    id: `q_gen_${word.id.replace(/^w_/, '')}_${spec.idSuffix}`,
+    difficulty: word.cefr === 'B2' ? 1 : word.cefr === 'C1' ? 2 : 3,
+    tags: ['generated', spec.tag, ...word.tags.slice(0, 2)],
+  };
+}
+
+/**
+ * Which types this entry can produce, ignoring the distractor pool.
+ *
+ * Both meaning types work from fields every entry has; the definition type
+ * needs a definition that still identifies the word once its own headword is
+ * masked out. The vocabulary index records the answer, so the question bank can
+ * count and order its questions without generating any of them.
+ */
+export function generatedTypesFor(entry: VocabularyEntry): GeneratedType[] {
+  return GENERATED_TYPES.filter((type) => {
+    const spec = SPECS[type];
+    if (!spec.optionText(entry).trim()) return false;
+    return spec.context ? spec.context(entry).trim().length > 0 : true;
+  });
+}
+
 interface GenerateOptions {
   rng: Rng;
   candidates: CandidatePool;
@@ -317,8 +356,9 @@ function generateForEntry(
   const correct = options.find((option) => option.text === answerText);
   if (!correct) return null;
 
+  const meta = generatedQuestionMeta(entry, type);
   return {
-    id: `q_gen_${entry.id.replace(/^w_/, '')}_${spec.idSuffix}`,
+    id: meta.id,
     type,
     cefr: entry.cefr,
     wordIds: [entry.id],
@@ -327,14 +367,14 @@ function generateForEntry(
     options,
     correctOptionId: correct.id,
     explanation: spec.explanation(entry),
-    difficulty: entry.cefr === 'B2' ? 1 : entry.cefr === 'C1' ? 2 : 3,
-    tags: ['generated', spec.tag, ...entry.tags.slice(0, 2)],
+    difficulty: meta.difficulty,
+    tags: meta.tags,
     source: 'generated',
   };
 }
 
 function isGeneratedType(type: QuestionType): type is GeneratedType {
-  return GENERATED_TYPES.includes(type);
+  return (GENERATED_TYPES as QuestionType[]).includes(type);
 }
 
 /**

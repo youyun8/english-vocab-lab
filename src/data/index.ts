@@ -1,4 +1,9 @@
-import { quizQuestionSchema, type QuizQuestion } from '@/domain/quiz';
+import {
+  generatedQuestionTypes,
+  quizQuestionSchema,
+  type GeneratedQuestionType,
+  type QuizQuestion,
+} from '@/domain/quiz';
 import {
   partOfSpeechSchema,
   vocabularyEntrySchema,
@@ -45,10 +50,12 @@ async function loadJson(modules: ModuleMap, key: string, label: string): Promise
 // ---------------------------------------------------------------------------
 
 /** Positional row, mirroring `INDEX_FIELDS` in `scripts/build-vocabulary-index.ts`. */
-type IndexRow = [string, string, string, string, string, string, string, string, string, number];
+type IndexRow = [
+  string, string, string, string, string, string, string, string, string, number, string,
+];
 
 function toSummary(row: IndexRow): VocabularySummary {
-  const [id, lemma, slug, cefr, kk, pos, meaningZh, tags, chunk, dictionary] = row;
+  const [id, lemma, slug, cefr, kk, pos, meaningZh, tags, chunk, dictionary, generated] = row;
   return vocabularySummarySchema.parse({
     id,
     lemma,
@@ -62,6 +69,11 @@ function toSummary(row: IndexRow): VocabularySummary {
     tags: tags.split(' ').filter(Boolean),
     chunk,
     dictionary: dictionary === 1,
+    // Positions into `generatedQuestionTypes`: the names repeat on every row,
+    // and at corpus scale that is a quarter of the index.
+    generatedTypes: [...generated]
+      .map((code) => generatedQuestionTypes[Number(code)])
+      .filter((type): type is GeneratedQuestionType => type != null),
   });
 }
 

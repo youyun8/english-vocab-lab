@@ -6,6 +6,7 @@ import {
   DEFAULT_QUIZ_CONFIG,
   OPTIONS_PER_QUESTION,
   quizModes,
+  type QuestionType,
   type QuizConfig,
   type QuizMode,
   type QuizQuestion,
@@ -94,7 +95,7 @@ export function QuizPage() {
     const { targetIds, poolIds } = selectQuizWords({ summaries, config, progress, now });
     if (targetIds.length + poolIds.length < OPTIONS_PER_QUESTION) return 0;
     const generatedTypes = config.questionTypes.filter((type) =>
-      GENERATED_TYPES.includes(type),
+      (GENERATED_TYPES as QuestionType[]).includes(type),
     ).length;
     const curatedMatches = questions.filter(
       (question) =>

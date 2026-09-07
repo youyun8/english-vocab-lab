@@ -10,15 +10,10 @@ import { vocabularyRepository } from '@/repositories/vocabulary-repository';
  *
  * What every page gets eagerly is the *index*: one row per word with the
  * fields lists, filters, search and links need. Full entries — senses,
- * examples, collocations — are fetched per word, and the whole corpus only for
- * the two pages that genuinely build questions across it. That is what keeps
- * the first paint independent of how many thousand words ship.
+ * examples, collocations — are fetched per word, from the one data file that
+ * holds them. No page loads the whole corpus, so the first paint is
+ * independent of how many thousand words ship.
  */
-
-interface FullCorpus {
-  entries: VocabularyEntry[];
-  questions: QuizQuestion[];
-}
 
 interface VocabularyContextValue {
   /** Every word, list-level fields only. */
@@ -35,8 +30,6 @@ interface VocabularyContextValue {
   loadEntries: (ids: string[]) => Promise<VocabularyEntry[]>;
   /** The curated question bank. Small, but still only loaded when needed. */
   loadQuestions: () => Promise<QuizQuestion[]>;
-  /** The whole corpus plus the curated questions, for quiz and question bank. */
-  loadFullCorpus: () => Promise<FullCorpus>;
 }
 
 const VocabularyContext = createContext<VocabularyContextValue | null>(null);
@@ -88,13 +81,6 @@ export function VocabularyProvider({ children }: { children: ReactNode }) {
   const requestSearchText = useCallback(() => setSearchRequested(true), []);
   const loadEntries = useCallback((ids: string[]) => vocabularyRepository.getEntries(ids), []);
   const loadQuestions = useCallback(() => vocabularyRepository.getQuestions(), []);
-  const loadFullCorpus = useCallback(async (): Promise<FullCorpus> => {
-    const [entries, questions] = await Promise.all([
-      vocabularyRepository.getAll(),
-      vocabularyRepository.getQuestions(),
-    ]);
-    return { entries, questions };
-  }, []);
 
   const value = useMemo<VocabularyContextValue>(
     () => ({
@@ -107,18 +93,8 @@ export function VocabularyProvider({ children }: { children: ReactNode }) {
       requestSearchText,
       loadEntries,
       loadQuestions,
-      loadFullCorpus,
     }),
-    [
-      summaries,
-      ready,
-      error,
-      searchText,
-      requestSearchText,
-      loadEntries,
-      loadQuestions,
-      loadFullCorpus,
-    ],
+    [summaries, ready, error, searchText, requestSearchText, loadEntries, loadQuestions],
   );
 
   return <VocabularyContext.Provider value={value}>{children}</VocabularyContext.Provider>;
@@ -166,33 +142,4 @@ export function useVocabularyEntry(slug: string | undefined): {
     loading: !ready || (summary != null && !resolved),
     missing: ready && (summary == null || (resolved && loaded?.entry == null)),
   };
-}
-
-/**
- * Loads the whole corpus for the pages that build questions across it. Returns
- * a loading state rather than blocking the router, so the page can say so.
- */
-export function useFullCorpus(): { corpus: FullCorpus | null; loading: boolean; error: string | null } {
-  const { loadFullCorpus } = useVocabulary();
-  const [corpus, setCorpus] = useState<FullCorpus | null>(null);
-  const [error, setError] = useState<string | null>(null);
-
-  useEffect(() => {
-    let cancelled = false;
-    void (async () => {
-      try {
-        const loaded = await loadFullCorpus();
-        if (!cancelled) setCorpus(loaded);
-      } catch (loadError) {
-        if (!cancelled) {
-          setError(loadError instanceof Error ? loadError.message : '字彙資料載入失敗。');
-        }
-      }
-    })();
-    return () => {
-      cancelled = true;
-    };
-  }, [loadFullCorpus]);
-
-  return { corpus, loading: corpus == null && error == null, error };
 }

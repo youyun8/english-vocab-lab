@@ -190,12 +190,13 @@ Two generated files (see [section 5](#5-source-directory-structure)) sit in fron
 
 | File | When it loads | Size at 4,120 words |
 | --- | --- | --- |
-| `vocabulary-index.json` | Once, on first corpus use | 592 kB raw, **147 kB gzipped** |
+| `vocabulary-index.json` | Once, on first corpus use | 617 kB raw, **148 kB gzipped** |
 | `vocabulary-search.json` | The first time a query is typed | 652 kB raw, 255 kB gzipped |
 | `vocabulary/**/*.json` | Only the chunks a page actually needs | ~30 kB per 50-word chunk |
 
-The index carries what a list needs — headword, KK, parts of speech, CEFR, gloss, tags, and the
-chunk holding the full entry. Everything else is fetched per use:
+The index carries what a list needs — headword, KK, parts of speech, CEFR, gloss, tags, the chunk
+holding the full entry, and which recognition questions the word can produce. Everything else is
+fetched per use:
 
 | Page | Vocabulary data files fetched |
 | --- | --- |
@@ -203,10 +204,25 @@ chunk holding the full entry. Everything else is fetched per use:
 | Word bank with a search query | 2 (index + search text) |
 | Word detail | 2 (index + the one chunk holding that word) |
 | Quiz | ~12 (index, curated questions, and the chunks of the words it picked) |
-| Question bank | all of them — it genuinely browses every question |
+| Question bank | ~12 (index, curated questions, and the chunks of the page in view) |
+
+**No page loads the whole corpus** — the repository deliberately offers no "give me everything".
 
 A quiz picks its words from the index *before* downloading anything, and picks them a chunk at a
 time: sampling words independently would scatter one quiz across most of the corpus's files.
+
+The question bank does the same for a different reason. The index records which recognition types
+each word supports, which is enough to know what the bank *contains* — 12,508 questions, their
+order, and what every filter would leave — so the page builds question **references** and turns
+only the twenty in view into real questions. Two consequences worth knowing:
+
+- A generated question's query matches its headword and gloss (which is what its prompt is written
+  from), not the option texts, which do not exist until the page is built. Curated questions are
+  matched in full.
+- A generated question's options are stable for a given page of the bank, because the distractor
+  pool is derived from that page's own words. Change the filter and the same question may draw
+  different distractors; the answer, and the rules that keep exactly one option defensible, never
+  vary.
 
 ```text
 initial JS bundle    234 kB  (75 kB gzipped)
@@ -243,7 +259,8 @@ src/
 
   data/
     index.ts                index loader, per-chunk loader, full-corpus loader
-    vocabulary-index.json   generated: one row per word, what lists need
+    vocabulary-index.json   generated: one row per word, what lists and the
+                            question bank need
     vocabulary-search.json  generated: the deeper searchable prose
     vocabulary/b2|c1|c2/    curated lessons, ~6 entries per file
     vocabulary/exam/        dictionary entries, 50 per file (80 files)
