@@ -1,18 +1,21 @@
 import { describe, expect, it } from 'vitest';
 
-import { loadVocabulary } from '@/data';
+import { loadSearchText, loadVocabularyIndex } from '@/data';
 import { searchVocabulary } from './search';
 
-const entries = await loadVocabulary();
+// Search runs over the index; the deeper prose is a second file the app only
+// downloads once a query is typed, so both are loaded here.
+const summaries = await loadVocabularyIndex();
+const deepText = await loadSearchText();
 
 function lemmas(query: string): string[] {
-  return searchVocabulary(entries, query).map((hit) => hit.entry.lemma);
+  return searchVocabulary(summaries, query, deepText).map((hit) => hit.summary.lemma);
 }
 
 describe('searchVocabulary', () => {
   it('returns nothing for an empty or whitespace query', () => {
-    expect(searchVocabulary(entries, '')).toEqual([]);
-    expect(searchVocabulary(entries, '   ')).toEqual([]);
+    expect(searchVocabulary(summaries, '', deepText)).toEqual([]);
+    expect(searchVocabulary(summaries, '   ', deepText)).toEqual([]);
   });
 
   it('is case-insensitive', () => {
@@ -69,19 +72,36 @@ describe('searchVocabulary', () => {
   });
 
   it('returns hits ordered by descending score', () => {
-    const hits = searchVocabulary(entries, 'in');
+    const hits = searchVocabulary(summaries, 'in', deepText);
     for (let i = 1; i < hits.length; i += 1) {
       expect(hits[i - 1]!.score).toBeGreaterThanOrEqual(hits[i]!.score);
     }
   });
 
   it('breaks score ties alphabetically for a stable order', () => {
-    const first = searchVocabulary(entries, 'academic').map((hit) => hit.entry.lemma);
-    const second = searchVocabulary(entries, 'academic').map((hit) => hit.entry.lemma);
+    const first = searchVocabulary(summaries, 'academic', deepText).map((hit) => hit.summary.lemma);
+    const second = searchVocabulary(summaries, 'academic', deepText).map((hit) => hit.summary.lemma);
     expect(first).toEqual(second);
   });
 
   it('returns an empty list when nothing matches', () => {
-    expect(searchVocabulary(entries, 'zzzzqqqqxxxx')).toEqual([]);
+    expect(searchVocabulary(summaries, 'zzzzqqqqxxxx', deepText)).toEqual([]);
+  });
+});
+
+describe('searchVocabulary without the deep text', () => {
+  it('still matches headwords, glosses and tags', () => {
+    const shallow = (query: string) =>
+      searchVocabulary(summaries, query).map((hit) => hit.summary.lemma);
+    expect(shallow('consolidate')).toContain('consolidate');
+    expect(shallow('整合')).toContain('consolidate');
+    expect(shallow('toefl').length).toBeGreaterThan(0);
+  });
+
+  it('finds deep matches only once the deep text is supplied', () => {
+    const query = 'eliminate the need for';
+    expect(searchVocabulary(summaries, query)).toEqual([]);
+    expect(searchVocabulary(summaries, query, deepText).map((hit) => hit.summary.lemma))
+      .toContain('eliminate');
   });
 });

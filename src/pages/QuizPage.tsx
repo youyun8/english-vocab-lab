@@ -1,12 +1,14 @@
-import { useCallback, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 
 import { ErrorNotice, Spinner } from '@/components/ui';
 import {
   DEFAULT_QUIZ_CONFIG,
+  OPTIONS_PER_QUESTION,
   quizModes,
   type QuizConfig,
   type QuizMode,
+  type QuizQuestion,
   type QuizSession,
 } from '@/domain/quiz';
 import { useAuth } from '@/features/auth/auth-context';
@@ -17,16 +19,26 @@ import { QuizRunner } from '@/features/quiz/components/QuizRunner';
 import { useSettings } from '@/features/settings/settings-context';
 import { useVocabulary } from '@/features/vocabulary/vocabulary-context';
 import { apiFetch } from '@/services/api-client';
-import { buildQuizSession } from '@/services/quiz-engine';
+import { buildQuizSession, selectQuizWords } from '@/services/quiz-engine';
+import { GENERATED_TYPES } from '@/services/question-generator';
 
 type Phase = 'configure' | 'running' | 'results';
+
+/** The configuration form only ever shows "plenty available" past this. */
+const PREVIEW_LIMIT = 50;
 
 function isQuizMode(value: string | null): value is QuizMode {
   return value != null && (quizModes as readonly string[]).includes(value);
 }
 
 export function QuizPage() {
-  const { entries, questions, ready, error } = useVocabulary();
+  const { summaries, ready: indexReady, error, loadEntries, loadQuestions } = useVocabulary();
+  // The curated bank is small and every quiz may draw on it; the vocabulary
+  // entries are not, so they are chosen from the index first and only the
+  // chunks holding the chosen words are downloaded when a quiz starts.
+  const [questions, setQuestions] = useState<QuizQuestion[] | null>(null);
+  const [building, setBuilding] = useState(false);
+  const ready = indexReady && questions != null;
   const { progress, recordOutcome } = useProgress();
   const { settings } = useSettings();
   const { status } = useAuth();
@@ -60,19 +72,43 @@ export function QuizPage() {
 
   const now = useMemo(() => new Date(), []);
 
+  useEffect(() => {
+    let cancelled = false;
+    void (async () => {
+      const loaded = await loadQuestions().catch(() => []);
+      if (!cancelled) setQuestions(loaded);
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [loadQuestions]);
+
+  /**
+   * How many questions this configuration could produce, counted from the
+   * index: every eligible word yields one question per generated type, plus the
+   * curated questions that match. Counting beats building a preview session,
+   * which would have to download the words first.
+   */
   const availableCount = useMemo(() => {
-    if (!ready) return 0;
-    const preview = buildQuizSession({
-      config: { ...config, questionCount: 50 },
-      entries,
-      curatedQuestions: questions,
-      progress,
-      now,
-    });
-    return preview.session.questions.length;
-  }, [ready, config, entries, questions, progress, now]);
+    if (!ready || !questions) return 0;
+    const { targetIds, poolIds } = selectQuizWords({ summaries, config, progress, now });
+    if (targetIds.length + poolIds.length < OPTIONS_PER_QUESTION) return 0;
+    const generatedTypes = config.questionTypes.filter((type) =>
+      GENERATED_TYPES.includes(type),
+    ).length;
+    const curatedMatches = questions.filter(
+      (question) =>
+        config.cefrLevels.includes(question.cefr)
+        && config.questionTypes.includes(question.type),
+    ).length;
+    return Math.min(PREVIEW_LIMIT, targetIds.length * generatedTypes + curatedMatches);
+  }, [ready, questions, summaries, config, progress, now]);
 
   const start = useCallback(async () => {
+    if (!questions) return;
+    setBuilding(true);
+    const selection = selectQuizWords({ summaries, config, progress, now: new Date() });
+    const entries = await loadEntries([...selection.targetIds, ...selection.poolIds]);
     const result = buildQuizSession({
       config,
       entries,
@@ -80,8 +116,9 @@ export function QuizPage() {
       progress,
       now: new Date(),
     });
+    setBuilding(false);
     setSession(result.session);
-    setRelaxed(result.relaxed);
+    setRelaxed(result.relaxed || selection.relaxed);
     setPhase('running');
     setAttemptId(null);
 
@@ -97,7 +134,7 @@ export function QuizPage() {
         setAttemptId(null);
       }
     }
-  }, [config, entries, questions, progress, status]);
+  }, [config, summaries, questions, progress, status, loadEntries]);
 
   const handleAnswer = useCallback(
     (questionId: string, optionId: string, correct: boolean) => {
@@ -154,6 +191,7 @@ export function QuizPage() {
 
   if (error) return <ErrorNotice>{error}</ErrorNotice>;
   if (!ready) return <Spinner label="準備測驗" />;
+  if (building) return <Spinner label="挑選題目" />;
 
   if (phase === 'running' && session) {
     return (

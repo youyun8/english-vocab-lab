@@ -10,7 +10,7 @@ import {
 } from '@/domain/quiz';
 import { cefrLevels, type CefrLevel } from '@/domain/vocabulary';
 import { QuestionBankCard } from '@/features/quiz/components/QuestionBankCard';
-import { useVocabulary } from '@/features/vocabulary/vocabulary-context';
+import { useFullCorpus, useVocabulary } from '@/features/vocabulary/vocabulary-context';
 import {
   DEFAULT_QUESTION_BANK_FILTERS,
   buildQuestionBank,
@@ -34,7 +34,13 @@ function toggle<T>(list: T[], value: T): T[] {
 }
 
 export function QuestionBankPage() {
-  const { entries, questions: curated, byId, ready, error } = useVocabulary();
+  const { byId } = useVocabulary();
+  // Generating a question for every word needs every entry, so the bank loads
+  // the corpus itself instead of the whole app carrying it.
+  const { corpus, error } = useFullCorpus();
+  const entries = useMemo(() => corpus?.entries ?? [], [corpus]);
+  const curated = useMemo(() => corpus?.questions ?? [], [corpus]);
+  const ready = corpus != null;
   const [filters, setFilters] = useState<QuestionBankFilters>({
     ...DEFAULT_QUESTION_BANK_FILTERS,
   });

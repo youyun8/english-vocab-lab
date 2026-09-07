@@ -12,15 +12,15 @@ import { useAuth } from '@/features/auth/auth-context';
 
 export function StatsPage() {
   const { stats, loading } = useLearningStats();
-  const { entries, ready } = useVocabulary();
+  const { summaries, ready } = useVocabulary();
   const { progress } = useProgress();
   const { status } = useAuth();
 
   if (!ready || loading) return <Spinner label="計算學習統計" />;
 
   const now = new Date();
-  const weak = weakWords(entries, progress, now, 8);
-  const strong = strongWords(entries, progress, 8);
+  const weak = weakWords(summaries, progress, now, 8);
+  const strong = strongWords(summaries, progress, 8);
 
   const typeRows = (Object.keys(stats.accuracyByQuestionType) as QuestionType[])
     .map((type) => ({ type, bucket: stats.accuracyByQuestionType[type] }))

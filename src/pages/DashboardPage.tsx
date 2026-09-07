@@ -52,13 +52,17 @@ function LoginFailureNotice() {
 }
 
 export function DashboardPage() {
-  const { entries, ready, error } = useVocabulary();
+  const { summaries, ready, error } = useVocabulary();
   const { progress, byWordId } = useProgress();
   const { stats } = useLearningStats();
   const { status, user } = useAuth();
 
   const now = useMemo(() => new Date(), []);
-  const weak = useMemo(() => weakWords(entries, progress, now, 6), [entries, progress, now]);
+  const byIdSummary = useMemo(
+    () => new Map(summaries.map((word) => [word.id, word])),
+    [summaries],
+  );
+  const weak = useMemo(() => weakWords(summaries, progress, now, 6), [summaries, progress, now]);
 
   const recentMistakes = useMemo(
     () =>
@@ -68,9 +72,9 @@ export function DashboardPage() {
           (a, b) => Date.parse(b.lastReviewedAt ?? '') - Date.parse(a.lastReviewedAt ?? ''),
         )
         .slice(0, 6)
-        .map((item) => entries.find((entry) => entry.id === item.wordId))
-        .filter((entry): entry is NonNullable<typeof entry> => entry != null),
-    [progress, entries],
+        .map((item) => byIdSummary.get(item.wordId))
+        .filter((word): word is NonNullable<typeof word> => word != null),
+    [progress, byIdSummary],
   );
 
   const recentActivity = useMemo(
@@ -85,16 +89,14 @@ export function DashboardPage() {
   );
 
   const lastStudied = recentActivity[0];
-  const lastStudiedEntry = lastStudied
-    ? entries.find((entry) => entry.id === lastStudied.wordId)
-    : undefined;
+  const lastStudiedEntry = lastStudied ? byIdSummary.get(lastStudied.wordId) : undefined;
 
   // A deterministic "next up" batch of unseen words, refreshed daily.
   const suggested = useMemo(() => {
-    const unseen = entries.filter((entry) => !byWordId.has(entry.id));
+    const unseen = summaries.filter((word) => !byWordId.has(word.id));
     const seed = Math.floor(now.getTime() / 86_400_000);
-    return pickStudyBatch(unseen.length > 0 ? unseen : entries, 5, createRng(seed));
-  }, [entries, byWordId, now]);
+    return pickStudyBatch(unseen.length > 0 ? unseen : summaries, 5, createRng(seed));
+  }, [summaries, byWordId, now]);
 
   if (error) return <ErrorNotice>{error}</ErrorNotice>;
   if (!ready) return <Spinner label="載入學習資料" />;
@@ -177,7 +179,7 @@ export function DashboardPage() {
                   >
                     {entry.lemma}
                   </Link>
-                  <Phonetic kk={entry.pronunciation.kk} className="ml-2 text-xs" />
+                  <Phonetic kk={entry.kk} className="ml-2 text-xs" />
                 </div>
                 <Badge tone="neutral">{entry.cefr}</Badge>
               </li>
@@ -248,7 +250,7 @@ export function DashboardPage() {
           ) : (
             <ul className="divide-y divide-ink-100">
               {recentActivity.map((item) => {
-                const entry = entries.find((candidate) => candidate.id === item.wordId);
+                const entry = byIdSummary.get(item.wordId);
                 if (!entry) return null;
                 return (
                   <li key={item.wordId} className="flex items-center justify-between gap-3 py-2">

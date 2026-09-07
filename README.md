@@ -183,24 +183,40 @@ Pages never touch `localStorage`, `fetch` or D1 directly. They call a repository
 implementation is chosen by auth state — which is what makes anonymous and signed-in mode the same
 code path.
 
-### Bundle strategy
+### Loading strategy
 
-The corpus is loaded through a **lazy** `import.meta.glob`, so each JSON file becomes its own chunk
-fetched on demand, and routes below the dashboard are code-split. This is what lets the corpus grow
-to thousands of entries without embedding all definitions in the initial JavaScript bundle.
-All vocabulary chunks are fetched on first corpus use; pagination limits rendering, not downloading.
+Routes below the dashboard are code-split, and the corpus is **never loaded whole** for browsing.
+Two generated files (see [section 5](#5-source-directory-structure)) sit in front of it:
 
-Historical measurements before the 2,000-word expansion:
+| File | When it loads | Size at 4,120 words |
+| --- | --- | --- |
+| `vocabulary-index.json` | Once, on first corpus use | 592 kB raw, **147 kB gzipped** |
+| `vocabulary-search.json` | The first time a query is typed | 652 kB raw, 255 kB gzipped |
+| `vocabulary/**/*.json` | Only the chunks a page actually needs | ~30 kB per 50-word chunk |
+
+The index carries what a list needs — headword, KK, parts of speech, CEFR, gloss, tags, and the
+chunk holding the full entry. Everything else is fetched per use:
+
+| Page | Vocabulary data files fetched |
+| --- | --- |
+| Dashboard, review, statistics, word bank | 1 (the index) |
+| Word bank with a search query | 2 (index + search text) |
+| Word detail | 2 (index + the one chunk holding that word) |
+| Quiz | ~12 (index, curated questions, and the chunks of the words it picked) |
+| Question bank | all of them — it genuinely browses every question |
+
+A quiz picks its words from the index *before* downloading anything, and picks them a chunk at a
+time: sampling words independently would scatter one quiz across most of the corpus's files.
 
 ```text
-initial JS bundle   224 kB  (71 kB gzipped)
-per data file        ~15 kB  (~6 kB gzipped, loaded in parallel on first use)
-per route chunk    2–15 kB
+initial JS bundle    234 kB  (75 kB gzipped)
+vocabulary index     592 kB  (147 kB gzipped, once)
+per data chunk       ~30 kB  (~7 kB gzipped, only when a word needs it)
+per route chunk     2–15 kB
 ```
 
-The design has been measured against exactly this: doubling the corpus (60 → 120 entries,
-98 → 174 questions) grew the initial bundle by **2 kB**, because the new content landed in new
-chunks that are only fetched when a page needs them.
+The point of this shape is that browsing cost tracks the number of *words*, not the depth of their
+lessons, and adding a curated lesson with twenty examples costs a browsing learner nothing.
 
 ---
 
@@ -226,7 +242,9 @@ src/
   shared/api.ts             wire contract shared by browser and Worker
 
   data/
-    index.ts                lazy, validated content loader
+    index.ts                index loader, per-chunk loader, full-corpus loader
+    vocabulary-index.json   generated: one row per word, what lists need
+    vocabulary-search.json  generated: the deeper searchable prose
     vocabulary/b2|c1|c2/    curated lessons, ~6 entries per file
     vocabulary/exam/        dictionary entries, 50 per file (80 files)
     questions/              curated question bank, one file per question type
@@ -259,6 +277,7 @@ src/
 
 public/                   favicon.ico, icon.svg, apple-touch-icon.png, site.webmanifest
 scripts/validate-vocabulary.ts
+scripts/build-vocabulary-index.ts
 migrations/0001_initial.sql
 ```
 
@@ -313,7 +332,8 @@ production. There is no second process to start.
 | `npm run lint` | ESLint |
 | `npm test` | Vitest (all suites, once) |
 | `npm run test:watch` | Vitest in watch mode |
-| `npm run validate:data` | Validate the vocabulary and question corpus |
+| `npm run validate:data` | Validate the corpus, and check the generated index is current |
+| `npm run build:index` | Regenerate `vocabulary-index.json` and `vocabulary-search.json` |
 | `npm run verify:kk` | Check every KK transcription against the CMU Pronouncing Dictionary |
 | `npm run verify:kk:report` | The same check, listing conventions, variants and exceptions |
 | `npm run kk -- <word…>` | Propose a KK transcription for a headword you are about to add |
@@ -729,7 +749,9 @@ The steps below create a full curated lesson; its example and usage requirements
 }
 ```
 
-4. Run `npm run validate:data` **and** `npm run verify:kk`.
+4. Run `npm run build:index` to regenerate the two index files, then
+   `npm run validate:data` **and** `npm run verify:kk`. (`validate:data` fails if you forget the
+   first step: the app reads the index, so a stale one would show the wrong list.)
 
 Rules the validator enforces: unique `id`, `slug` and sense id; kebab-case slug; KK wrapped in
 slashes; at least one sense with at least one example; every `highlight` must actually occur in its
@@ -809,7 +831,9 @@ links; malformed questions; duplicate question ids; duplicate option ids or opti
 `correctOptionId` that is not among the options; the wrong option count; a `distractorExplanations`
 key that is not an option id or that describes the correct answer; questions referencing unknown
 word ids; and correct options more than three times longer than every distractor (which would give
-the answer away by shape alone). It does **not** check the phonetics themselves — that is
+the answer away by shape alone). It also rebuilds `vocabulary-index.json` and
+`vocabulary-search.json` in memory and fails when the committed files differ, so a corpus change
+without `npm run build:index` cannot ship. It does **not** check the phonetics themselves — that is
 `npm run verify:kk`, described in [section 17](#17-kk-phonetic-verification).
 
 Example output:

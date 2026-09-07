@@ -2,13 +2,14 @@ import { screen, waitFor, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { beforeEach, describe, expect, it } from 'vitest';
 
-import { loadVocabulary } from '@/data';
+import { loadVocabularyIndex } from '@/data';
 import { ANONYMOUS_API, mockApi, renderWithProviders } from '@/test/render';
 import { WordBankPage, WORDS_PER_PAGE } from './WordBankPage';
 
 // Counts are derived from the corpus so that adding vocabulary does not break
 // these tests; what they assert is the filtering behaviour, not the corpus size.
-const entries = await loadVocabulary();
+// The page reads the index, not the corpus; the expectations follow it.
+const entries = await loadVocabularyIndex();
 const TOTAL = entries.length;
 const countAtLevel = (level: 'B2' | 'C1' | 'C2') =>
   entries.filter((entry) => entry.cefr === level).length;
@@ -84,7 +85,9 @@ describe('WordBankPage', () => {
 
     await user.click(screen.getByRole('button', { name: /^動詞/, pressed: false }));
 
-    const expected = entries.filter((entry) => entry.cefr === 'C2' && entry.senses.some((sense) => sense.partOfSpeech === 'verb')).length;
+    const expected = entries.filter(
+      (entry) => entry.cefr === 'C2' && entry.partsOfSpeech.includes('verb'),
+    ).length;
     expect(expected).toBeLessThan(before);
     await waitFor(() => expect(screen.getByText(`${expected} 個結果`)).toBeInTheDocument());
   });
@@ -141,6 +144,6 @@ describe('WordBankPage', () => {
   it('shows the KK transcription for each word', async () => {
     await renderPage();
     const first = [...entries].sort((a, b) => a.lemma.localeCompare(b.lemma))[0]!;
-    expect(screen.getByLabelText(`KK 音標 ${first.pronunciation.kk}`)).toBeInTheDocument();
+    expect(screen.getByLabelText(`KK 音標 ${first.kk}`)).toBeInTheDocument();
   });
 });
