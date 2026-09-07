@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 
 import { Button, Card, EmptyState, ErrorNotice, Spinner } from '@/components/ui';
 import { useProgress } from '@/features/progress/progress-context';
@@ -18,7 +18,7 @@ import { createEmptyProgress } from '@/domain/progress';
 export const WORDS_PER_PAGE = 50;
 
 export function WordBankPage() {
-  const { entries, ready, error } = useVocabulary();
+  const { summaries, ready, error, searchText, requestSearchText } = useVocabulary();
   const { byWordId } = useProgress();
   const { settings, update } = useSettings();
   const [filters, setFilters] = useState({ ...DEFAULT_FILTERS });
@@ -26,15 +26,21 @@ export function WordBankPage() {
   const [filtersOpen, setFiltersOpen] = useState(false);
 
   const now = useMemo(() => new Date(), []);
-  const tags = useMemo(() => collectTags(entries), [entries]);
+  const tags = useMemo(() => collectTags(summaries), [summaries]);
 
+  // Typing is what pays for the deeper search file; browsing never does.
+  useEffect(() => {
+    if (filters.query.trim()) requestSearchText();
+  }, [filters.query, requestSearchText]);
+
+  const deepText = searchText ?? undefined;
   const results = useMemo(
-    () => filterEntries({ entries, progressByWordId: byWordId, filters, now }),
-    [entries, byWordId, filters, now],
+    () => filterEntries({ entries: summaries, progressByWordId: byWordId, filters, now, deepText }),
+    [summaries, byWordId, filters, now, deepText],
   );
   const counts = useMemo(
-    () => facetCounts({ entries, progressByWordId: byWordId, filters }),
-    [entries, byWordId, filters],
+    () => facetCounts({ entries: summaries, progressByWordId: byWordId, filters, deepText }),
+    [summaries, byWordId, filters, deepText],
   );
   const activeCount = countActiveFilters(filters);
 
@@ -58,7 +64,7 @@ export function WordBankPage() {
         <div>
           <h1 className="text-2xl font-semibold tracking-tight text-ink-900">字彙庫</h1>
           <p className="mt-1 text-sm text-ink-500">
-            共 {entries.length} 個字彙，可依 toefl／gre／ielts 字表篩選；字典擴充詞條的 CEFR 等級為詞頻估計。
+            共 {summaries.length} 個字彙，可依 toefl／gre／ielts 字表篩選；字典擴充詞條的 CEFR 等級為詞頻估計。
           </p>
         </div>
 
@@ -127,9 +133,9 @@ export function WordBankPage() {
             />
           ) : settings.wordBankView === 'card' ? (
             <ul className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
-              {visibleResults.map((entry) => (
-                <li key={entry.id}>
-                  <WordCard entry={entry} progress={emptyProgressFor(entry.id)} />
+              {visibleResults.map((word) => (
+                <li key={word.id}>
+                  <WordCard word={word} progress={emptyProgressFor(word.id)} />
                 </li>
               ))}
             </ul>
@@ -157,11 +163,11 @@ export function WordBankPage() {
                   </tr>
                 </thead>
                 <tbody className="[&_th]:px-4 [&_th:not(:first-child)]:px-0">
-                  {visibleResults.map((entry) => (
+                  {visibleResults.map((word) => (
                     <WordListRow
-                      key={entry.id}
-                      entry={entry}
-                      progress={emptyProgressFor(entry.id)}
+                      key={word.id}
+                      word={word}
+                      progress={emptyProgressFor(word.id)}
                     />
                   ))}
                 </tbody>

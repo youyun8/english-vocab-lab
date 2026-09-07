@@ -7,9 +7,9 @@ import {
 } from '@/domain/quiz';
 import { accuracy, type WordProgress } from '@/domain/progress';
 import { rankByWeakness, weaknessScore } from '@/domain/review';
-import type { VocabularyEntry } from '@/domain/vocabulary';
+import type { VocabularyEntry, VocabularySummary } from '@/domain/vocabulary';
 import { generateQuestions } from '@/services/question-generator';
-import { createRng, sample, shuffle, type Rng } from '@/utils/random';
+import { createRng, defaultRng, sample, shuffle, type Rng } from '@/utils/random';
 
 /**
  * Assembles quiz sessions from the curated bank plus generated recognition
@@ -108,6 +108,103 @@ function orderCandidates(
     })
     .sort((a, b) => b.score - a.score)
     .map((item) => item.question);
+}
+
+/**
+ * Words a quiz will draw on, chosen from the index before any entry is loaded.
+ *
+ * A quiz needs a few dozen words to ask about and a few hundred more to draw
+ * distractors from — not the whole corpus. Choosing them from index records
+ * first is what lets the page load a handful of data files instead of all of
+ * them, and it keeps that cost flat as the corpus grows.
+ */
+export interface QuizWordSelection {
+  /** Words the questions will be about. */
+  targetIds: string[];
+  /** Extra words loaded only as distractor material. */
+  poolIds: string[];
+  /** True when the chosen mode had too little material and was widened. */
+  relaxed: boolean;
+}
+
+/** Extra words per question, so generation has room to reject a collision. */
+const TARGET_WORD_FACTOR = 3;
+const MIN_TARGET_WORDS = 60;
+/** Distractors only need a varied pool, not the corpus. */
+const POOL_CHUNKS = 4;
+/** Ceiling on data files a quiz opens, before the question-count floor. */
+const MAX_TARGET_CHUNKS = 8;
+
+function groupByChunk(summaries: VocabularySummary[]): Map<string, VocabularySummary[]> {
+  const groups = new Map<string, VocabularySummary[]>();
+  for (const summary of summaries) {
+    const group = groups.get(summary.chunk) ?? [];
+    group.push(summary);
+    groups.set(summary.chunk, group);
+  }
+  return groups;
+}
+
+/**
+ * Draws words a chunk at a time.
+ *
+ * Sampling words independently would scatter a quiz across most of the data
+ * files and defeat the point of chunking; taking the fullest chunks first keeps
+ * a quiz to a handful of downloads while still varying which chunks it uses.
+ */
+function sampleByChunk(
+  candidates: VocabularySummary[],
+  wanted: number,
+  floor: number,
+  rng: Rng,
+): VocabularySummary[] {
+  const groups = [...groupByChunk(candidates).values()];
+  const ordered = shuffle(groups, rng).sort((a, b) => b.length - a.length);
+
+  const picked: VocabularySummary[] = [];
+  for (const [used, group] of ordered.entries()) {
+    if (picked.length >= wanted) break;
+    if (used >= MAX_TARGET_CHUNKS && picked.length >= floor) break;
+    picked.push(...shuffle(group, rng).slice(0, wanted - picked.length));
+  }
+  return picked;
+}
+
+export function selectQuizWords({
+  summaries,
+  config,
+  progress,
+  now,
+  rng = defaultRng,
+}: {
+  summaries: VocabularySummary[];
+  config: QuizConfig;
+  progress: WordProgress[];
+  now: Date;
+  rng?: Rng;
+}): QuizWordSelection {
+  const byLevel = summaries.filter((summary) => config.cefrLevels.includes(summary.cefr));
+  const allowed = wordIdsForMode(config, progress, now);
+  const inMode = allowed ? byLevel.filter((summary) => allowed.has(summary.id)) : byLevel;
+
+  const wanted = Math.max(config.questionCount * TARGET_WORD_FACTOR, MIN_TARGET_WORDS);
+  // Too little material for the mode: widen to the whole level, as the session
+  // builder would, but decide it here so only the wider set gets downloaded.
+  const relaxed = allowed != null && inMode.length < config.questionCount;
+  const targets = sampleByChunk(relaxed ? byLevel : inMode, wanted, config.questionCount, rng);
+  const targetIds = new Set(targets.map((summary) => summary.id));
+
+  const targetChunks = new Set(targets.map((summary) => summary.chunk));
+  const poolGroups = shuffle(
+    [...groupByChunk(byLevel.filter((summary) => !targetChunks.has(summary.chunk))).values()],
+    rng,
+  ).slice(0, POOL_CHUNKS);
+  const poolIds = poolGroups
+    .flat()
+    .filter((summary) => !targetIds.has(summary.id))
+    .map((summary) => summary.id);
+
+  return { targetIds: [...targetIds], poolIds, relaxed };
 }
 
 export interface BuildQuizResult {
@@ -299,11 +396,10 @@ function tally(
   return [...map.values()].sort((a, b) => a.key.localeCompare(b.key));
 }
 
-/** Picks a random subset of entries, used by the "learn" flow on the dashboard. */
-export function pickStudyBatch(
-  entries: VocabularyEntry[],
-  count: number,
-  rng: Rng = createRng(1),
-): VocabularyEntry[] {
-  return sample(entries, count, rng);
+/**
+ * Picks a random subset, used by the "learn" flow on the dashboard. Index
+ * records are enough there: the dashboard only links to the words it suggests.
+ */
+export function pickStudyBatch<T>(items: T[], count: number, rng: Rng = createRng(1)): T[] {
+  return sample(items, count, rng);
 }

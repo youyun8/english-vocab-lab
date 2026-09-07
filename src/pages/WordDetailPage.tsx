@@ -18,17 +18,17 @@ import {
   LearningStatusBadge,
   WordStatusControls,
 } from '@/features/vocabulary/components/WordStatusControls';
-import { useVocabulary } from '@/features/vocabulary/vocabulary-context';
+import { useVocabularyEntry } from '@/features/vocabulary/vocabulary-context';
 import { useWordShortcuts } from '@/features/vocabulary/hooks/use-word-shortcuts';
 import { NotFoundPage } from './NotFoundPage';
 
 export function WordDetailPage() {
   const { slug = '' } = useParams();
-  const { bySlug, ready } = useVocabulary();
+  // The full entry lives in one chunk of the corpus, fetched on demand.
+  const { entry, loading, missing } = useVocabularyEntry(slug);
   const { get, recordSeen, toggleBookmark } = useProgress();
   const { settings } = useSettings();
 
-  const entry = bySlug.get(slug);
   const seenRef = useRef<string | null>(null);
 
   // Opening a word counts as studying it, but only once per mount per word.
@@ -48,8 +48,8 @@ export function WordDetailPage() {
 
   const forms = useMemo(() => Object.entries(entry?.forms ?? {}), [entry]);
 
-  if (!ready) return <Spinner label="載入字彙" />;
-  if (!entry) return <NotFoundPage />;
+  if (missing) return <NotFoundPage />;
+  if (loading || !entry) return <Spinner label="載入字彙" />;
 
   const progress = get(entry.id);
   const pos = primaryPartsOfSpeech(entry);

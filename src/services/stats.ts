@@ -6,7 +6,7 @@ import {
   type ActivityPoint,
   type LearningStats,
 } from '@/domain/stats';
-import type { CefrLevel, VocabularyEntry } from '@/domain/vocabulary';
+import type { CefrLevel, VocabularySummary } from '@/domain/vocabulary';
 import type { ServerStats } from '@/shared/api';
 
 /**
@@ -18,7 +18,7 @@ import type { ServerStats } from '@/shared/api';
 const emptyBucket = () => ({ attempts: 0, correct: 0 });
 
 export interface ComputeStatsInput {
-  entries: VocabularyEntry[];
+  entries: VocabularySummary[];
   progress: WordProgress[];
   serverStats?: ServerStats | null;
   now: Date;
@@ -177,14 +177,14 @@ function localActivity(progress: WordProgress[], now: Date): ActivityPoint[] {
 }
 
 export interface WeakWordRow {
-  entry: VocabularyEntry;
+  entry: VocabularySummary;
   progress: WordProgress;
   score: number;
 }
 
 /** Weakest words first, limited to those the learner has actually attempted. */
 export function weakWords(
-  entries: VocabularyEntry[],
+  entries: VocabularySummary[],
   progress: WordProgress[],
   now: Date,
   limit = 10,
@@ -202,7 +202,7 @@ export function weakWords(
 
 /** Strongest words: high accuracy and a healthy streak. */
 export function strongWords(
-  entries: VocabularyEntry[],
+  entries: VocabularySummary[],
   progress: WordProgress[],
   limit = 10,
 ): WeakWordRow[] {

@@ -14,6 +14,13 @@ hand-written examples, usage guidance, synonyms or verified CEFR ratings.
 
 The word detail page identifies dictionary entries and hides absent lesson sections.
 They participate in search, bookmarks, progress, review and generated recognition quizzes.
+
+The app does not download the corpus to browse it. `npm run build:index` generates
+`src/data/vocabulary-index.json` (one row per word: headword, KK, parts of speech, CEFR, gloss,
+tags, and the chunk holding the full entry) and `src/data/vocabulary-search.json` (the deeper
+searchable prose). Browsing, filtering, sorting, statistics and links read the index; a word's full
+entry is fetched from its chunk when the word is opened; the search file is fetched on the first
+query. `npm run validate:data` fails if either generated file is out of date.
 The tag filter supports `toefl`, `gre`, `ielts` and `dictionary`. The word bank displays
 50 results per page, with filtering and sorting applied to the entire corpus first, and each
 filter value carries the number of words it would leave.

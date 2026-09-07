@@ -1,10 +1,11 @@
 import { describe, expect, it } from 'vitest';
 
-import { loadVocabulary } from '@/data';
+import { loadVocabularyIndex } from '@/data';
 import { createEmptyProgress, type WordProgress } from '@/domain/progress';
 import { computeStats, computeStreakDays, strongWords, weakWords } from './stats';
 
-const entries = await loadVocabulary();
+// Statistics only ever read list-level fields, so they run off the index.
+const entries = await loadVocabularyIndex();
 const NOW = new Date('2026-03-10T12:00:00.000Z');
 const DAY = 86_400_000;
 

@@ -1,14 +1,13 @@
 import { accuracy, type LearningStatus, type WordProgress } from '@/domain/progress';
 import { weaknessScore } from '@/domain/review';
-import {
-  primaryPartsOfSpeech,
-  type CefrLevel,
-  type PartOfSpeech,
-  type VocabularyEntry,
-} from '@/domain/vocabulary';
+import type { CefrLevel, PartOfSpeech, VocabularySummary } from '@/domain/vocabulary';
 import { searchVocabulary } from '@/services/search';
 
-/** Pure filtering/sorting for the word bank, kept out of the page component. */
+/**
+ * Pure filtering/sorting for the word bank, kept out of the page component.
+ * Everything here works on index records: the word bank never needs a full
+ * entry, so it never downloads one.
+ */
 
 export type SortKey =
   | 'alphabetical'
@@ -50,13 +49,15 @@ export const DEFAULT_FILTERS: WordFilters = {
 const CEFR_ORDER: Record<CefrLevel, number> = { B2: 0, C1: 1, C2: 2 };
 
 export interface FilterInput {
-  entries: VocabularyEntry[];
+  entries: VocabularySummary[];
   progressByWordId: Map<string, WordProgress>;
   filters: WordFilters;
   now: Date;
+  /** Deep search text, once it has loaded; search works without it. */
+  deepText?: Map<string, string>;
 }
 
-function statusOf(entry: VocabularyEntry, progress: Map<string, WordProgress>): LearningStatus {
+function statusOf(entry: VocabularySummary, progress: Map<string, WordProgress>): LearningStatus {
   return progress.get(entry.id)?.status ?? 'new';
 }
 
@@ -64,7 +65,7 @@ function statusOf(entry: VocabularyEntry, progress: Map<string, WordProgress>): 
 type FilterGroupKey = 'cefrLevels' | 'partsOfSpeech' | 'tags' | 'statuses' | 'flags';
 
 function matchesFilters(
-  entry: VocabularyEntry,
+  entry: VocabularySummary,
   filters: WordFilters,
   progressByWordId: Map<string, WordProgress>,
   skip?: FilterGroupKey,
@@ -75,8 +76,7 @@ function matchesFilters(
   }
 
   if (skip !== 'partsOfSpeech' && filters.partsOfSpeech.length > 0) {
-    const pos = primaryPartsOfSpeech(entry);
-    if (!filters.partsOfSpeech.some((wanted) => pos.includes(wanted))) return false;
+    if (!filters.partsOfSpeech.some((wanted) => entry.partsOfSpeech.includes(wanted))) return false;
   }
 
   if (skip !== 'tags' && filters.tags.length > 0
@@ -103,8 +103,14 @@ function matchesFilters(
  * otherwise destroy, so the search order is preserved when sorting by the
  * default key. Facet counts reuse the same base so a query is scored once.
  */
-function searchBase(entries: VocabularyEntry[], query: string): VocabularyEntry[] {
-  return query.trim() ? searchVocabulary(entries, query).map((hit) => hit.entry) : entries;
+function searchBase(
+  entries: VocabularySummary[],
+  query: string,
+  deepText: Map<string, string> | undefined,
+): VocabularySummary[] {
+  return query.trim()
+    ? searchVocabulary(entries, query, deepText).map((hit) => hit.summary)
+    : entries;
 }
 
 export function filterEntries({
@@ -112,8 +118,9 @@ export function filterEntries({
   progressByWordId,
   filters,
   now,
-}: FilterInput): VocabularyEntry[] {
-  const filtered = searchBase(entries, filters.query).filter((entry) =>
+  deepText,
+}: FilterInput): VocabularySummary[] {
+  const filtered = searchBase(entries, filters.query, deepText).filter((entry) =>
     matchesFilters(entry, filters, progressByWordId),
   );
 
@@ -138,6 +145,7 @@ export function facetCounts({
   entries,
   progressByWordId,
   filters,
+  deepText,
 }: Omit<FilterInput, 'now'>): FacetCounts {
   const counts: FacetCounts = {
     cefrLevels: new Map(),
@@ -148,14 +156,14 @@ export function facetCounts({
     difficult: 0,
   };
   const bump = <T>(map: Map<T, number>, key: T) => map.set(key, (map.get(key) ?? 0) + 1);
-  const base = searchBase(entries, filters.query);
+  const base = searchBase(entries, filters.query, deepText);
 
   for (const entry of base) {
     if (matchesFilters(entry, filters, progressByWordId, 'cefrLevels')) {
       bump(counts.cefrLevels, entry.cefr);
     }
     if (matchesFilters(entry, filters, progressByWordId, 'partsOfSpeech')) {
-      for (const pos of primaryPartsOfSpeech(entry)) bump(counts.partsOfSpeech, pos);
+      for (const pos of entry.partsOfSpeech) bump(counts.partsOfSpeech, pos);
     }
     if (matchesFilters(entry, filters, progressByWordId, 'tags')) {
       for (const tag of entry.tags) bump(counts.tags, tag);
@@ -194,12 +202,12 @@ export function partitionTags(tags: string[]): { exam: string[]; topic: string[]
 }
 
 function sortEntries(
-  entries: VocabularyEntry[],
+  entries: VocabularySummary[],
   filters: WordFilters,
   progressByWordId: Map<string, WordProgress>,
   now: Date,
   relevanceOrdered: boolean,
-): VocabularyEntry[] {
+): VocabularySummary[] {
   if (relevanceOrdered && filters.sort === 'alphabetical') return entries;
 
   const sorted = [...entries];
@@ -259,6 +267,6 @@ function strengthFor(progress: WordProgress | undefined): number {
 }
 
 /** Every tag present in the corpus, alphabetically. */
-export function collectTags(entries: VocabularyEntry[]): string[] {
+export function collectTags(entries: VocabularySummary[]): string[] {
   return [...new Set(entries.flatMap((entry) => entry.tags))].sort((a, b) => a.localeCompare(b));
 }

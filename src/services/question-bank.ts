@@ -5,6 +5,12 @@ import {
   type QuizQuestion,
 } from '@/domain/quiz';
 import type { CefrLevel, VocabularyEntry } from '@/domain/vocabulary';
+
+/**
+ * Only the headword is needed to sort and search the bank, so either an index
+ * record or a full entry can be handed in.
+ */
+export type LemmaLookup = Map<string, { lemma: string }>;
 import { generateQuestions } from '@/services/question-generator';
 import { createRng } from '@/utils/random';
 
@@ -53,7 +59,7 @@ export const DEFAULT_QUESTION_BANK_FILTERS: QuestionBankFilters = {
 const TYPE_ORDER = new Map(questionTypes.map((type, index) => [type, index]));
 
 /** Groups a word's questions together, curated first, then by question type. */
-function sortKey(question: QuizQuestion, byId: Map<string, VocabularyEntry>): string {
+function sortKey(question: QuizQuestion, byId: LemmaLookup): string {
   const lemma = byId.get(question.wordIds[0] ?? '')?.lemma ?? '';
   const sourceRank = question.source === 'curated' ? '0' : '1';
   const typeRank = String(TYPE_ORDER.get(question.type) ?? 99).padStart(2, '0');
@@ -86,7 +92,7 @@ export function buildQuestionBank(
   return bank.sort((a, b) => sortKey(a, byId).localeCompare(sortKey(b, byId)));
 }
 
-function haystack(question: QuizQuestion, byId: Map<string, VocabularyEntry>): string {
+function haystack(question: QuizQuestion, byId: LemmaLookup): string {
   const lemmas = question.wordIds.map((id) => byId.get(id)?.lemma ?? '');
   return [
     ...lemmas,
@@ -104,7 +110,7 @@ type QuestionFilterGroup = 'types' | 'levels' | 'difficulties' | 'sources' | 'ta
 function matchesFilters(
   question: QuizQuestion,
   filters: QuestionBankFilters,
-  byId: Map<string, VocabularyEntry>,
+  byId: LemmaLookup,
   query: string,
   skip?: QuestionFilterGroup,
 ): boolean {
@@ -130,7 +136,7 @@ function matchesFilters(
 export function filterQuestionBank(
   questions: QuizQuestion[],
   filters: QuestionBankFilters,
-  byId: Map<string, VocabularyEntry>,
+  byId: LemmaLookup,
 ): QuizQuestion[] {
   const query = filters.query.trim().toLowerCase();
   return questions.filter((question) => matchesFilters(question, filters, byId, query));
@@ -148,7 +154,7 @@ export interface QuestionFacetCounts {
 export function questionFacetCounts(
   questions: QuizQuestion[],
   filters: QuestionBankFilters,
-  byId: Map<string, VocabularyEntry>,
+  byId: LemmaLookup,
 ): QuestionFacetCounts {
   const counts: QuestionFacetCounts = {
     types: new Map(),

@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
-import { loadVocabulary } from '@/data';
+import { loadSearchText, loadVocabularyIndex } from '@/data';
 import { createEmptyProgress, type WordProgress } from '@/domain/progress';
 import {
   DEFAULT_FILTERS,
@@ -12,7 +12,8 @@ import {
   type WordFilters,
 } from './filtering';
 
-const entries = await loadVocabulary();
+const entries = await loadVocabularyIndex();
+const deepText = await loadSearchText();
 const NOW = new Date('2026-03-01T00:00:00.000Z');
 
 function run(overrides: Partial<WordFilters>, progress: WordProgress[] = []): string[] {
@@ -21,6 +22,7 @@ function run(overrides: Partial<WordFilters>, progress: WordProgress[] = []): st
     progressByWordId: new Map(progress.map((item) => [item.wordId, item])),
     filters: { ...DEFAULT_FILTERS, ...overrides },
     now: NOW,
+    deepText,
   }).map((entry) => entry.lemma);
 }
 
@@ -53,7 +55,7 @@ describe('filterEntries', () => {
     });
     expect(verbs.length).toBeGreaterThan(0);
     expect(
-      verbs.every((entry) => entry.senses.some((sense) => sense.partOfSpeech === 'verb')),
+      verbs.every((entry) => entry.partsOfSpeech.includes('verb')),
     ).toBe(true);
   });
 
@@ -80,7 +82,7 @@ describe('filterEntries', () => {
     expect(
       both.every(
         (entry) =>
-          entry.cefr === 'C1' && entry.senses.some((sense) => sense.partOfSpeech === 'adjective'),
+          entry.cefr === 'C1' && entry.partsOfSpeech.includes('adjective'),
       ),
     ).toBe(true);
   });

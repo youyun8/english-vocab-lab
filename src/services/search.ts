@@ -1,15 +1,20 @@
-import type { VocabularyEntry } from '@/domain/vocabulary';
+import type { VocabularySummary } from '@/domain/vocabulary';
 
 /**
  * Client-side vocabulary search.
  *
  * A small inverted-index-free scorer is enough for a corpus of a few thousand
- * entries and avoids pulling in a full-text search dependency. Fields are
- * weighted so that a lemma match always outranks a match buried in an example.
+ * words and avoids pulling in a full-text search dependency.
+ *
+ * Scoring runs over the index records, which every page already has. The
+ * deeper prose — definitions, collocations, grammar patterns, synonyms — lives
+ * in a separate file that is only downloaded once a learner actually searches;
+ * pass it as `deepText` when it has arrived. Until then a query still matches
+ * headwords, glosses and tags, so typing is never blocked on a download.
  */
 
 export interface SearchHit {
-  entry: VocabularyEntry;
+  summary: VocabularySummary;
   score: number;
 }
 
@@ -17,66 +22,42 @@ const FIELD_WEIGHTS = {
   lemmaExact: 100,
   lemmaPrefix: 60,
   lemmaContains: 40,
-  wordFamily: 25,
-  definitionZh: 20,
-  definitionEn: 16,
-  synonym: 14,
+  meaningZh: 20,
   tag: 12,
-  collocation: 10,
-  grammarPattern: 8,
-  usageExplanation: 5,
+  /** Definitions, collocations, grammar patterns, synonyms, word families. */
+  deepText: 10,
 } as const;
 
 function normalize(value: string): string {
   return value.trim().toLowerCase();
 }
 
-/** Builds the searchable text of an entry once, then caches it on a WeakMap. */
-const haystackCache = new WeakMap<VocabularyEntry, EntryHaystack>();
-
-interface EntryHaystack {
+/** Lower-cased index fields, cached per summary object. */
+interface SummaryHaystack {
   lemma: string;
-  definitionsZh: string;
-  definitionsEn: string;
-  synonyms: string;
+  meaningZh: string;
   tags: string;
-  collocations: string;
-  grammarPatterns: string;
-  usageExplanations: string;
-  wordFamily: string;
 }
+const haystackCache = new WeakMap<VocabularySummary, SummaryHaystack>();
 
-function haystack(entry: VocabularyEntry): EntryHaystack {
-  const cached = haystackCache.get(entry);
+function haystack(summary: VocabularySummary): SummaryHaystack {
+  const cached = haystackCache.get(summary);
   if (cached) return cached;
-
-  const built: EntryHaystack = {
-    lemma: normalize(entry.lemma),
-    definitionsZh: entry.senses.map((s) => s.definitionZh).join(' ').toLowerCase(),
-    definitionsEn: entry.senses.map((s) => s.definitionEn).join(' ').toLowerCase(),
-    synonyms: [...(entry.synonyms ?? []), ...(entry.antonyms ?? [])]
-      .map((r) => r.lemma)
-      .join(' ')
-      .toLowerCase(),
-    tags: entry.tags.join(' ').toLowerCase(),
-    collocations: entry.senses
-      .flatMap((s) => s.collocations ?? [])
-      .map((c) => `${c.text} ${c.meaningZh ?? ''}`)
-      .join(' ')
-      .toLowerCase(),
-    grammarPatterns: entry.senses
-      .flatMap((s) => s.grammarPatterns ?? [])
-      .join(' ')
-      .toLowerCase(),
-    usageExplanations: entry.senses.map((s) => s.usageExplanationZh).join(' ').toLowerCase(),
-    wordFamily: (entry.wordFamily ?? []).map((w) => w.lemma).join(' ').toLowerCase(),
+  const built: SummaryHaystack = {
+    lemma: normalize(summary.lemma),
+    meaningZh: summary.meaningZh.toLowerCase(),
+    tags: summary.tags.join(' ').toLowerCase(),
   };
-  haystackCache.set(entry, built);
+  haystackCache.set(summary, built);
   return built;
 }
 
-function scoreEntry(entry: VocabularyEntry, query: string): number {
-  const hay = haystack(entry);
+function scoreSummary(
+  summary: VocabularySummary,
+  query: string,
+  deepText: Map<string, string> | undefined,
+): number {
+  const hay = haystack(summary);
   let score = 0;
 
   if (hay.lemma === query) {
@@ -87,14 +68,9 @@ function scoreEntry(entry: VocabularyEntry, query: string): number {
     score += FIELD_WEIGHTS.lemmaContains;
   }
 
-  if (hay.wordFamily.includes(query)) score += FIELD_WEIGHTS.wordFamily;
-  if (hay.definitionsZh.includes(query)) score += FIELD_WEIGHTS.definitionZh;
-  if (hay.definitionsEn.includes(query)) score += FIELD_WEIGHTS.definitionEn;
-  if (hay.synonyms.includes(query)) score += FIELD_WEIGHTS.synonym;
+  if (hay.meaningZh.includes(query)) score += FIELD_WEIGHTS.meaningZh;
   if (hay.tags.includes(query)) score += FIELD_WEIGHTS.tag;
-  if (hay.collocations.includes(query)) score += FIELD_WEIGHTS.collocation;
-  if (hay.grammarPatterns.includes(query)) score += FIELD_WEIGHTS.grammarPattern;
-  if (hay.usageExplanations.includes(query)) score += FIELD_WEIGHTS.usageExplanation;
+  if (deepText?.get(summary.id)?.includes(query)) score += FIELD_WEIGHTS.deepText;
 
   return score;
 }
@@ -103,18 +79,22 @@ function scoreEntry(entry: VocabularyEntry, query: string): number {
  * Ranked search. An empty query returns an empty result set so that callers can
  * distinguish "no query" from "no matches".
  */
-export function searchVocabulary(entries: VocabularyEntry[], rawQuery: string): SearchHit[] {
+export function searchVocabulary(
+  summaries: VocabularySummary[],
+  rawQuery: string,
+  deepText?: Map<string, string>,
+): SearchHit[] {
   const query = normalize(rawQuery);
   if (!query) return [];
 
   const hits: SearchHit[] = [];
-  for (const entry of entries) {
-    const score = scoreEntry(entry, query);
-    if (score > 0) hits.push({ entry, score });
+  for (const summary of summaries) {
+    const score = scoreSummary(summary, query, deepText);
+    if (score > 0) hits.push({ summary, score });
   }
 
   return hits.sort((a, b) => {
     if (b.score !== a.score) return b.score - a.score;
-    return a.entry.lemma.localeCompare(b.entry.lemma);
+    return a.summary.lemma.localeCompare(b.summary.lemma);
   });
 }

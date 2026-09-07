@@ -12,6 +12,13 @@ import { fileURLToPath } from 'node:url';
 
 import { quizQuestionSchema, type QuizQuestion } from '../src/domain/quiz';
 import { vocabularyEntrySchema, type VocabularyEntry } from '../src/domain/vocabulary';
+import {
+  INDEX_PATH,
+  SEARCH_PATH,
+  buildIndex,
+  serializeIndex,
+  serializeSearch,
+} from './build-vocabulary-index';
 
 const ROOT = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const VOCAB_DIR = join(ROOT, 'src/data/vocabulary');
@@ -210,6 +217,33 @@ for (const file of listJsonFiles(QUESTION_DIR)) {
     }
 
     questions.push(question);
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Generated index
+// ---------------------------------------------------------------------------
+
+// The app loads the index instead of the corpus, so a stale index is a bug the
+// tests would not otherwise see: every word would still validate while the app
+// showed the wrong list.
+if (problems.length === 0) {
+  const { index, search } = buildIndex();
+  const expected: [string, string][] = [
+    [INDEX_PATH, serializeIndex(index)],
+    [SEARCH_PATH, serializeSearch(search)],
+  ];
+  for (const [file, contents] of expected) {
+    const actual = (() => {
+      try {
+        return readFileSync(file, 'utf8');
+      } catch {
+        return null;
+      }
+    })();
+    if (actual !== contents) {
+      report(file, '-', 'file', 'generated file is out of date; run `npm run build:index`');
+    }
   }
 }
 
