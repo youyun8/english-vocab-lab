@@ -2,7 +2,6 @@ import {
   loadCuratedQuestions,
   loadEntriesByIds,
   loadSearchText,
-  loadVocabulary,
   loadVocabularyIndex,
 } from '@/data';
 import type { QuizQuestion } from '@/domain/quiz';
@@ -14,7 +13,8 @@ import type { VocabularyEntry, VocabularySummary } from '@/domain/vocabulary';
  * Pages never import JSON directly; they go through this interface so that the
  * corpus could later move to an API or a database without touching the UI. The
  * split between `getIndex` (every word, list-level fields) and `getEntries`
- * (full entries for named ids) is exactly the split such an API would have.
+ * (full entries for named ids) is exactly the split such an API would have —
+ * and there is deliberately no "give me everything": no page needs it.
  */
 export interface VocabularyRepository {
   /** Every word as an index record. One request, cached for the session. */
@@ -25,8 +25,6 @@ export interface VocabularyRepository {
   getBySlug(slug: string): Promise<VocabularyEntry | null>;
   /** The deeper search text, keyed by word id. Loaded on first search. */
   getSearchText(): Promise<Map<string, string>>;
-  /** The whole corpus. Only quiz assembly and the question bank need this. */
-  getAll(): Promise<VocabularyEntry[]>;
   getQuestions(): Promise<QuizQuestion[]>;
 }
 
@@ -59,10 +57,6 @@ class StaticVocabularyRepository implements VocabularyRepository {
 
   getSearchText(): Promise<Map<string, string>> {
     return loadSearchText();
-  }
-
-  getAll(): Promise<VocabularyEntry[]> {
-    return loadVocabulary();
   }
 
   getQuestions(): Promise<QuizQuestion[]> {

@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 
 import { searchTextOf, summarize } from '@/domain/vocabulary';
+import { generatedTypesFor } from '@/services/question-generator';
 import {
   loadChunk,
   loadEntriesByIds,
@@ -39,7 +40,16 @@ describe('vocabulary index', () => {
   it('describes each word exactly as its full entry does', () => {
     for (const summary of summaries) {
       const entry = byId.get(summary.id)!;
-      expect(summary, summary.id).toEqual(summarize(entry, summary.chunk));
+      expect(summary, summary.id).toEqual(
+        summarize(entry, summary.chunk, generatedTypesFor(entry)),
+      );
+    }
+  });
+
+  it('records the question types each word can generate', () => {
+    for (const summary of summaries) {
+      const entry = byId.get(summary.id)!;
+      expect(summary.generatedTypes, summary.id).toEqual(generatedTypesFor(entry));
     }
   });
 

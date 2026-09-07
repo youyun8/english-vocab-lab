@@ -21,6 +21,10 @@ tags, and the chunk holding the full entry) and `src/data/vocabulary-search.json
 searchable prose). Browsing, filtering, sorting, statistics and links read the index; a word's full
 entry is fetched from its chunk when the word is opened; the search file is fetched on the first
 query. `npm run validate:data` fails if either generated file is out of date.
+
+The index also records which recognition question types each word can produce, so the question bank
+can count, order and filter all 12,508 questions without generating any of them, and build only the
+twenty on the page in front of the reader.
 The tag filter supports `toefl`, `gre`, `ielts` and `dictionary`. The word bank displays
 50 results per page, with filtering and sorting applied to the entire corpus first, and each
 filter value carries the number of words it would leave.

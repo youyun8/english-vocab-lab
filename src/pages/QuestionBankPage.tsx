@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 
 import { Button, EmptyState, ErrorNotice, Spinner } from '@/components/ui';
 import { ActiveFilters, FilterGroup, FilterRail, ToggleChip } from '@/components/ui/filters';
@@ -7,16 +7,19 @@ import {
   questionTypes,
   type Difficulty,
   type QuestionType,
+  type QuizQuestion,
 } from '@/domain/quiz';
 import { cefrLevels, type CefrLevel } from '@/domain/vocabulary';
 import { QuestionBankCard } from '@/features/quiz/components/QuestionBankCard';
-import { useFullCorpus, useVocabulary } from '@/features/vocabulary/vocabulary-context';
+import { useVocabulary } from '@/features/vocabulary/vocabulary-context';
 import {
   DEFAULT_QUESTION_BANK_FILTERS,
-  buildQuestionBank,
+  buildQuestionRefs,
   collectQuestionTags,
   countActiveQuestionFilters,
-  filterQuestionBank,
+  filterQuestionRefs,
+  materializeQuestions,
+  pageWordIds,
   questionFacetCounts,
   questionSourceLabelZh,
   summarizeQuestionBank,
@@ -34,34 +37,69 @@ function toggle<T>(list: T[], value: T): T[] {
 }
 
 export function QuestionBankPage() {
-  const { byId } = useVocabulary();
-  // Generating a question for every word needs every entry, so the bank loads
-  // the corpus itself instead of the whole app carrying it.
-  const { corpus, error } = useFullCorpus();
-  const entries = useMemo(() => corpus?.entries ?? [], [corpus]);
-  const curated = useMemo(() => corpus?.questions ?? [], [corpus]);
-  const ready = corpus != null;
+  const { summaries, ready: indexReady, error, loadEntries, loadQuestions } = useVocabulary();
+  // The bank is browsed as references derived from the index; only the page in
+  // front of the reader is turned into real questions, and only its words load.
+  const [curated, setCurated] = useState<QuizQuestion[] | null>(null);
+  const [pageQuestions, setPageQuestions] = useState<QuizQuestion[]>([]);
+  const [buildingPage, setBuildingPage] = useState(false);
+  const ready = indexReady && curated != null;
   const [filters, setFilters] = useState<QuestionBankFilters>({
     ...DEFAULT_QUESTION_BANK_FILTERS,
   });
   const [page, setPage] = useState(1);
   const [filtersOpen, setFiltersOpen] = useState(false);
 
-  // Building the bank walks the whole corpus, so it happens once per corpus
-  // load and never per keystroke.
-  const bank = useMemo(() => buildQuestionBank(entries, curated), [entries, curated]);
+  const bank = useMemo(
+    () => (curated ? buildQuestionRefs(summaries, curated) : []),
+    [summaries, curated],
+  );
   const summary = useMemo(() => summarizeQuestionBank(bank), [bank]);
   const tags = useMemo(() => collectQuestionTags(bank), [bank]);
-  const results = useMemo(() => filterQuestionBank(bank, filters, byId), [bank, filters, byId]);
-  const counts = useMemo(() => questionFacetCounts(bank, filters, byId), [bank, filters, byId]);
+  const results = useMemo(() => filterQuestionRefs(bank, filters), [bank, filters]);
+  const counts = useMemo(() => questionFacetCounts(bank, filters), [bank, filters]);
   const activeCount = countActiveQuestionFilters(filters);
 
   const pageCount = Math.max(1, Math.ceil(results.length / QUESTIONS_PER_PAGE));
   const currentPage = Math.min(page, pageCount);
-  const visible = results.slice(
-    (currentPage - 1) * QUESTIONS_PER_PAGE,
-    currentPage * QUESTIONS_PER_PAGE,
+  const visibleRefs = useMemo(
+    () => results.slice((currentPage - 1) * QUESTIONS_PER_PAGE, currentPage * QUESTIONS_PER_PAGE),
+    [results, currentPage],
   );
+
+  useEffect(() => {
+    let cancelled = false;
+    void (async () => {
+      const { targetIds, poolIds } = pageWordIds(visibleRefs, summaries);
+      if (targetIds.length === 0) {
+        if (!cancelled) setPageQuestions(materializeQuestions(visibleRefs, [], []));
+        return;
+      }
+      setBuildingPage(true);
+      const poolEntries = await loadEntries(poolIds).catch(() => []);
+      const byEntryId = new Map(poolEntries.map((entry) => [entry.id, entry]));
+      const targets = targetIds
+        .map((id) => byEntryId.get(id))
+        .filter((entry): entry is NonNullable<typeof entry> => entry != null);
+      if (cancelled) return;
+      setPageQuestions(materializeQuestions(visibleRefs, targets, poolEntries));
+      setBuildingPage(false);
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [visibleRefs, summaries, loadEntries]);
+
+  useEffect(() => {
+    let cancelled = false;
+    void (async () => {
+      const loaded = await loadQuestions().catch(() => []);
+      if (!cancelled) setCurated(loaded);
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [loadQuestions]);
 
   const set = (patch: Partial<QuestionBankFilters>) => {
     setFilters({ ...filters, ...patch });
@@ -262,12 +300,13 @@ export function QuestionBankPage() {
               {/* Re-keying the list drops every card's revealed answer when the
                   reader turns the page or changes a filter. */}
               <ul key={`${currentPage}-${JSON.stringify(filters)}`} className="space-y-3">
-                {visible.map((question) => (
+                {pageQuestions.map((question) => (
                   <li key={question.id}>
                     <QuestionBankCard question={question} />
                   </li>
                 ))}
               </ul>
+              {buildingPage && pageQuestions.length === 0 ? <Spinner label="準備題目" /> : null}
 
               <nav
                 aria-label="題庫分頁"

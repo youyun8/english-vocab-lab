@@ -1,6 +1,11 @@
 import { describe, expect, it } from 'vitest';
 
-import { quizQuestionSchema, questionTypes, OPTIONS_PER_QUESTION } from '@/domain/quiz';
+import {
+  quizQuestionSchema,
+  questionTypes,
+  OPTIONS_PER_QUESTION,
+  type QuestionType,
+} from '@/domain/quiz';
 import { vocabularyEntrySchema } from '@/domain/vocabulary';
 import { GENERATED_TYPES } from '@/services/question-generator';
 import { loadCuratedQuestions, loadVocabulary } from './index';
@@ -19,7 +24,9 @@ const dictionaryEntries = entries.filter((entry) => entry.dictionarySource);
  * Recognition questions are generated from the corpus for every entry, so the
  * curated files only have to carry the types a generator cannot judge.
  */
-const handWrittenTypes = questionTypes.filter((type) => !GENERATED_TYPES.includes(type));
+const handWrittenTypes = questionTypes.filter(
+  (type) => !(GENERATED_TYPES as QuestionType[]).includes(type),
+);
 
 describe('vocabulary corpus', () => {
   it('loads a non-trivial number of entries', () => {

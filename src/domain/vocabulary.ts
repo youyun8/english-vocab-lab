@@ -1,5 +1,7 @@
 import { z } from 'zod';
 
+import { generatedQuestionTypeSchema, type GeneratedQuestionType } from './question-types';
+
 /**
  * Vocabulary domain model.
  *
@@ -208,11 +210,23 @@ export const vocabularySummarySchema = z.object({
   chunk: z.string().min(1),
   /** True for imported dictionary entries, which have no lesson content. */
   dictionary: z.boolean(),
+  /**
+   * Recognition question types this word can produce, recorded at build time so
+   * the question bank can count and order its questions without generating any.
+   */
+  generatedTypes: z.array(generatedQuestionTypeSchema),
 });
 export type VocabularySummary = z.infer<typeof vocabularySummarySchema>;
 
-/** Projects a full entry down to its index record. */
-export function summarize(entry: VocabularyEntry, chunk: string): VocabularySummary {
+/**
+ * Projects a full entry down to its index record. `generatedTypes` is supplied
+ * by the caller because deciding it belongs to question generation, not here.
+ */
+export function summarize(
+  entry: VocabularyEntry,
+  chunk: string,
+  generatedTypes: GeneratedQuestionType[] = [],
+): VocabularySummary {
   return {
     id: entry.id,
     lemma: entry.lemma,
@@ -224,6 +238,7 @@ export function summarize(entry: VocabularyEntry, chunk: string): VocabularySumm
     tags: entry.tags,
     chunk,
     dictionary: entry.dictionarySource != null,
+    generatedTypes,
   };
 }
 

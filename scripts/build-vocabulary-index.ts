@@ -28,6 +28,8 @@ import {
   vocabularyEntrySchema,
   type VocabularySummary,
 } from '../src/domain/vocabulary';
+import { generatedQuestionTypes } from '../src/domain/quiz';
+import { generatedTypesFor } from '../src/services/question-generator';
 
 const ROOT = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const VOCAB_DIR = join(ROOT, 'src/data/vocabulary');
@@ -46,6 +48,7 @@ export const INDEX_FIELDS = [
   'tags',
   'chunk',
   'dictionary',
+  'generatedTypes',
 ] as const;
 
 export type IndexRow = [
@@ -59,6 +62,7 @@ export type IndexRow = [
   string, // tags, space separated
   string, // chunk holding the full entry
   0 | 1, // dictionary entry
+  string, // generated question types, as positions in `generatedQuestionTypes`
 ];
 
 /** `[id, searchable prose]`, keyed by id so it cannot silently misalign. */
@@ -103,6 +107,7 @@ function toRow(summary: VocabularySummary): IndexRow {
     summary.tags.join(' '),
     summary.chunk,
     summary.dictionary ? 1 : 0,
+    summary.generatedTypes.map((type) => generatedQuestionTypes.indexOf(type)).join(''),
   ];
 }
 
@@ -115,7 +120,10 @@ export function buildIndex(): { index: VocabularyIndexFile; search: VocabularySe
     if (!Array.isArray(parsed)) throw new Error(`${file} must contain a JSON array`);
     for (const raw of parsed) {
       const entry = vocabularyEntrySchema.parse(raw);
-      records.push({ summary: summarize(entry, chunk), searchText: searchTextOf(entry) });
+      records.push({
+        summary: summarize(entry, chunk, generatedTypesFor(entry)),
+        searchText: searchTextOf(entry),
+      });
     }
   }
   // Alphabetical: the word bank's default order, so the common case needs no sort.
