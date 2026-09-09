@@ -7,7 +7,7 @@ import { overdueDays, weaknessScore } from '@/domain/review';
 import { useProgress } from '@/features/progress/progress-context';
 import { Phonetic } from '@/features/vocabulary/components/Phonetic';
 import { useVocabulary } from '@/features/vocabulary/vocabulary-context';
-import type { VocabularyEntry } from '@/domain/vocabulary';
+import type { VocabularySummary } from '@/domain/vocabulary';
 import { cn } from '@/utils/cn';
 
 type ReviewTab =
@@ -30,7 +30,7 @@ const TABS: { key: ReviewTab; label: string; hint: string }[] = [
 const RECENT_DAYS = 7;
 
 interface Row {
-  entry: VocabularyEntry;
+  entry: VocabularySummary;
   progress: WordProgress;
   score: number;
 }
@@ -81,7 +81,7 @@ function ReviewRow({ row, now }: { row: Row; now: Date }) {
           {row.entry.lemma}
         </Link>
         <div className="mt-0.5">
-          <Phonetic kk={row.entry.pronunciation.kk} className="text-xs" />
+          <Phonetic kk={row.entry.kk} className="text-xs" />
         </div>
       </th>
       <td className="py-3 pr-4 align-top">
@@ -114,13 +114,12 @@ function ReviewRow({ row, now }: { row: Row; now: Date }) {
 }
 
 export function ReviewPage() {
-  const { entries, ready } = useVocabulary();
+  const { byId, ready } = useVocabulary();
   const { progress } = useProgress();
   const [tab, setTab] = useState<ReviewTab>('due');
   const now = useMemo(() => new Date(), []);
 
   const rows = useMemo<Row[]>(() => {
-    const byId = new Map(entries.map((entry) => [entry.id, entry]));
     return progress
       .map((item) => {
         const entry = byId.get(item.wordId);
@@ -130,7 +129,7 @@ export function ReviewPage() {
       })
       .filter((row): row is Row => row !== null)
       .sort((a, b) => b.score - a.score || a.entry.lemma.localeCompare(b.entry.lemma));
-  }, [entries, progress, now]);
+  }, [byId, progress, now]);
 
   const visible = useMemo(() => selectRows(tab, rows, now), [tab, rows, now]);
   const activeTab = TABS.find((item) => item.key === tab);

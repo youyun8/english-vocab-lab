@@ -1,18 +1,24 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 
 import { Button, Card, EmptyState, ErrorNotice, Spinner } from '@/components/ui';
 import { useProgress } from '@/features/progress/progress-context';
 import { useSettings } from '@/features/settings/settings-context';
 import { WordFiltersPanel } from '@/features/vocabulary/components/WordFiltersPanel';
 import { WordCard, WordListRow } from '@/features/vocabulary/components/WordRow';
-import { DEFAULT_FILTERS, collectTags, filterEntries } from '@/features/vocabulary/filtering';
+import {
+  DEFAULT_FILTERS,
+  collectTags,
+  countActiveFilters,
+  facetCounts,
+  filterEntries,
+} from '@/features/vocabulary/filtering';
 import { useVocabulary } from '@/features/vocabulary/vocabulary-context';
 import { createEmptyProgress } from '@/domain/progress';
 
 export const WORDS_PER_PAGE = 50;
 
 export function WordBankPage() {
-  const { entries, ready, error } = useVocabulary();
+  const { summaries, ready, error, searchText, requestSearchText } = useVocabulary();
   const { byWordId } = useProgress();
   const { settings, update } = useSettings();
   const [filters, setFilters] = useState({ ...DEFAULT_FILTERS });
@@ -20,12 +26,23 @@ export function WordBankPage() {
   const [filtersOpen, setFiltersOpen] = useState(false);
 
   const now = useMemo(() => new Date(), []);
-  const tags = useMemo(() => collectTags(entries), [entries]);
+  const tags = useMemo(() => collectTags(summaries), [summaries]);
 
+  // Typing is what pays for the deeper search file; browsing never does.
+  useEffect(() => {
+    if (filters.query.trim()) requestSearchText();
+  }, [filters.query, requestSearchText]);
+
+  const deepText = searchText ?? undefined;
   const results = useMemo(
-    () => filterEntries({ entries, progressByWordId: byWordId, filters, now }),
-    [entries, byWordId, filters, now],
+    () => filterEntries({ entries: summaries, progressByWordId: byWordId, filters, now, deepText }),
+    [summaries, byWordId, filters, now, deepText],
   );
+  const counts = useMemo(
+    () => facetCounts({ entries: summaries, progressByWordId: byWordId, filters, deepText }),
+    [summaries, byWordId, filters, deepText],
+  );
+  const activeCount = countActiveFilters(filters);
 
   const pageCount = Math.max(1, Math.ceil(results.length / WORDS_PER_PAGE));
   const currentPage = Math.min(page, pageCount);
@@ -47,7 +64,7 @@ export function WordBankPage() {
         <div>
           <h1 className="text-2xl font-semibold tracking-tight text-ink-900">字彙庫</h1>
           <p className="mt-1 text-sm text-ink-500">
-            共 {entries.length} 個字彙，可用 toefl／gre 標籤篩選考試字彙；字典擴充詞條的 CEFR 等級為詞頻估計。
+            共 {summaries.length} 個字彙，可依 toefl／gre／ielts 字表篩選；字典擴充詞條的 CEFR 等級為詞頻估計。
           </p>
         </div>
 
@@ -76,32 +93,34 @@ export function WordBankPage() {
           </div>
           <Button
             size="sm"
-            variant="secondary"
+            variant={activeCount > 0 ? 'primary' : 'secondary'}
             className="lg:hidden"
             aria-expanded={filtersOpen}
             onClick={() => setFiltersOpen((open) => !open)}
           >
-            篩選
+            篩選{activeCount > 0 ? ` (${activeCount})` : ''}
           </Button>
         </div>
       </header>
 
       <div className="grid gap-5 lg:grid-cols-[16rem_1fr]">
         <aside
-          className={`${filtersOpen ? 'block' : 'hidden'} lg:block`}
+          className={`${filtersOpen ? 'block' : 'hidden'} min-w-0 lg:sticky lg:top-20 lg:block lg:self-start`}
           aria-label="字彙篩選"
         >
-          <Card className="p-4 lg:sticky lg:top-20">
-            <WordFiltersPanel
-              filters={filters}
-              onChange={changeFilters}
-              tags={tags}
-              resultCount={results.length}
-            />
-          </Card>
+          <WordFiltersPanel
+            filters={filters}
+            onChange={changeFilters}
+            tags={tags}
+            counts={counts}
+            resultCount={results.length}
+            activeCount={activeCount}
+          />
         </aside>
 
-        <section aria-label="字彙結果">
+        {/* `min-w-0` lets the wide results table scroll inside its own card
+            instead of stretching the grid column past the viewport. */}
+        <section aria-label="字彙結果" className="min-w-0">
           {results.length === 0 ? (
             <EmptyState
               title="沒有符合條件的字彙"
@@ -114,9 +133,9 @@ export function WordBankPage() {
             />
           ) : settings.wordBankView === 'card' ? (
             <ul className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
-              {visibleResults.map((entry) => (
-                <li key={entry.id}>
-                  <WordCard entry={entry} progress={emptyProgressFor(entry.id)} />
+              {visibleResults.map((word) => (
+                <li key={word.id}>
+                  <WordCard word={word} progress={emptyProgressFor(word.id)} />
                 </li>
               ))}
             </ul>
@@ -144,11 +163,11 @@ export function WordBankPage() {
                   </tr>
                 </thead>
                 <tbody className="[&_th]:px-4 [&_th:not(:first-child)]:px-0">
-                  {visibleResults.map((entry) => (
+                  {visibleResults.map((word) => (
                     <WordListRow
-                      key={entry.id}
-                      entry={entry}
-                      progress={emptyProgressFor(entry.id)}
+                      key={word.id}
+                      word={word}
+                      progress={emptyProgressFor(word.id)}
                     />
                   ))}
                 </tbody>

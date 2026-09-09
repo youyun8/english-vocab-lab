@@ -1,5 +1,7 @@
 import { z } from 'zod';
 
+import { generatedQuestionTypeSchema, type GeneratedQuestionType } from './question-types';
+
 /**
  * Vocabulary domain model.
  *
@@ -184,6 +186,88 @@ export const vocabularyEntrySchema = z.object({
   });
 });
 export type VocabularyEntry = z.infer<typeof vocabularyEntrySchema>;
+
+/**
+ * The list-level projection of an entry.
+ *
+ * Everything the word bank, the dashboard, review, statistics and in-app links
+ * need to render a word — but not the examples, collocations or usage notes
+ * that make a full entry large. The whole corpus ships as one index of these,
+ * so browsing thousands of words costs one small download; the full entry is
+ * fetched only for the word actually opened. The deeper searchable prose lives
+ * in its own file (see `searchTextOf`), fetched only when a query is typed.
+ */
+export const vocabularySummarySchema = z.object({
+  id: z.string().min(1),
+  lemma: z.string().min(1),
+  slug: slugSchema,
+  cefr: cefrLevelSchema,
+  kk: z.string().min(1),
+  partsOfSpeech: z.array(partOfSpeechSchema).nonempty(),
+  meaningZh: z.string().min(1),
+  tags: z.array(z.string().min(1)),
+  /** Data file holding the full entry, e.g. "exam/exam-07". */
+  chunk: z.string().min(1),
+  /** True for imported dictionary entries, which have no lesson content. */
+  dictionary: z.boolean(),
+  /**
+   * Recognition question types this word can produce, recorded at build time so
+   * the question bank can count and order its questions without generating any.
+   */
+  generatedTypes: z.array(generatedQuestionTypeSchema),
+});
+export type VocabularySummary = z.infer<typeof vocabularySummarySchema>;
+
+/**
+ * Projects a full entry down to its index record. `generatedTypes` is supplied
+ * by the caller because deciding it belongs to question generation, not here.
+ */
+export function summarize(
+  entry: VocabularyEntry,
+  chunk: string,
+  generatedTypes: GeneratedQuestionType[] = [],
+): VocabularySummary {
+  return {
+    id: entry.id,
+    lemma: entry.lemma,
+    slug: entry.slug,
+    cefr: entry.cefr,
+    kk: entry.pronunciation.kk,
+    partsOfSpeech: primaryPartsOfSpeech(entry) as [PartOfSpeech, ...PartOfSpeech[]],
+    meaningZh: shortMeaningZh(entry),
+    tags: entry.tags,
+    chunk,
+    dictionary: entry.dictionarySource != null,
+    generatedTypes,
+  };
+}
+
+/**
+ * The searchable prose an index row leaves out: everything except the headword
+ * and the primary gloss, which search already has from the index.
+ */
+export function searchTextOf(entry: VocabularyEntry): string {
+  const [primary, ...otherSenses] = entry.senses;
+  const searchParts = [
+    // The primary gloss is already in `meaningZh`; only the rest is stored.
+    primary?.definitionEn ?? '',
+    ...(primary?.usageExplanationZh ? [primary.usageExplanationZh] : []),
+    ...(primary?.grammarPatterns ?? []),
+    ...(primary?.collocations ?? []).map((item) => `${item.text} ${item.meaningZh ?? ''}`),
+    ...otherSenses.flatMap((sense) => [
+      sense.definitionZh,
+      sense.definitionEn,
+      sense.usageExplanationZh ?? '',
+      ...(sense.grammarPatterns ?? []),
+      ...(sense.collocations ?? []).map((item) => `${item.text} ${item.meaningZh ?? ''}`),
+    ]),
+    ...[...(entry.synonyms ?? []), ...(entry.antonyms ?? [])].map((item) => item.lemma),
+    ...(entry.wordFamily ?? []).map((item) => item.lemma),
+    ...(entry.commonlyConfusedWith ?? []).map((item) => item.lemma),
+  ];
+
+  return searchParts.join(' ').replace(/\s+/g, ' ').trim().toLowerCase();
+}
 
 /** Convenience accessors used by the UI and by question generation. */
 export function primaryPartsOfSpeech(entry: VocabularyEntry): PartOfSpeech[] {

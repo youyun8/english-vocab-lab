@@ -1,9 +1,12 @@
 import {
   OPTIONS_PER_QUESTION,
+  generatedQuestionTypes,
+  type Difficulty,
+  type GeneratedQuestionType,
   type QuizQuestion,
   type QuestionType,
 } from '@/domain/quiz';
-import { shortMeaningZh, type VocabularyEntry } from '@/domain/vocabulary';
+import { shortMeaningZh, type CefrLevel, type VocabularyEntry } from '@/domain/vocabulary';
 import type { Rng } from '@/utils/random';
 import { shuffle } from '@/utils/random';
 
@@ -21,22 +24,24 @@ import { shuffle } from '@/utils/random';
  * imported dictionary words included — gets practice, not just the small
  * hand-written subset.
  *
- * Three safeguards keep generated questions fair:
+ * Four safeguards keep generated questions fair:
  *  1. distractors are drawn from entries whose part of speech matches, so the
  *     answer can never be found by grammar alone;
  *  2. any entry whose gloss collides with the answer's gloss is rejected, so a
  *     question can never have two correct options;
- *  3. an English definition that spells out its own headword is masked, so the
+ *  3. a gloss that *contains* the answer's gloss is rejected too — 走失的家畜
+ *     next to 家畜 is two defensible answers, not one;
+ *  4. an English definition that spells out its own headword is masked, so the
  *     prompt never contains the answer.
+ *
+ * They cannot prove that two dictionary meanings differ: near-synonyms worded
+ * differently in the source (驅逐 against 消滅) still get through. Generated
+ * questions are labelled as such throughout the app for that reason.
  */
 
-export const GENERATED_TYPES: QuestionType[] = [
-  'meaning_en_to_zh',
-  'meaning_zh_to_en',
-  'definition_to_word',
-];
+export type GeneratedType = GeneratedQuestionType;
 
-type GeneratedType = 'meaning_en_to_zh' | 'meaning_zh_to_en' | 'definition_to_word';
+export const GENERATED_TYPES: GeneratedType[] = [...generatedQuestionTypes];
 
 const DISTRACTOR_COUNT = OPTIONS_PER_QUESTION - 1;
 
@@ -51,6 +56,8 @@ const MIN_DEFINITION_LENGTH = 12;
 const MIN_STEM_LENGTH = 4;
 /** Imported glosses list every sense; a whole list makes an unreadable option. */
 const MAX_GLOSS_SEGMENTS = 3;
+/** Random draws allowed before falling back to a scan of the candidate pool. */
+const DRAW_BUDGET = 32;
 
 function primaryPos(entry: VocabularyEntry): string {
   return entry.senses[0]?.partOfSpeech ?? 'other';
@@ -153,13 +160,29 @@ interface DistractorIndex {
   byPos: Map<string, VocabularyEntry[]>;
   byLemma: Map<string, VocabularyEntry[]>;
   byGloss: Map<string, VocabularyEntry[]>;
+  /** Every substring of every gloss, to catch one gloss containing another. */
+  byGlossPart: Map<string, VocabularyEntry[]>;
   byDefinition: Map<string, VocabularyEntry[]>;
   reverseSynonyms: Map<string, VocabularyEntry[]>;
 }
 
+/** Shorter fragments match by coincidence rather than by meaning. */
+const MIN_GLOSS_FRAGMENT = 2;
+
+/** Every substring of a gloss segment that is long enough to mean something. */
+function glossFragments(gloss: string): string[] {
+  const fragments: string[] = [];
+  for (let start = 0; start < gloss.length; start += 1) {
+    for (let end = start + MIN_GLOSS_FRAGMENT; end <= gloss.length; end += 1) {
+      fragments.push(gloss.slice(start, end));
+    }
+  }
+  return fragments;
+}
+
 function indexDistractors(pool: VocabularyEntry[]): DistractorIndex {
   const index: DistractorIndex = {
-    pool, byPos: new Map(), byLemma: new Map(), byGloss: new Map(),
+    pool, byPos: new Map(), byLemma: new Map(), byGloss: new Map(), byGlossPart: new Map(),
     byDefinition: new Map(), reverseSynonyms: new Map(),
   };
   const add = (map: Map<string, VocabularyEntry[]>, key: string, entry: VocabularyEntry) => {
@@ -171,15 +194,30 @@ function indexDistractors(pool: VocabularyEntry[]): DistractorIndex {
     const meaning = meaningIndex(entry);
     add(index.byPos, primaryPos(entry), entry);
     add(index.byLemma, entry.lemma.toLowerCase(), entry);
-    for (const gloss of meaning.glosses) add(index.byGloss, gloss, entry);
+    for (const gloss of meaning.glosses) {
+      add(index.byGloss, gloss, entry);
+      for (const fragment of new Set(glossFragments(gloss))) {
+        add(index.byGlossPart, fragment, entry);
+      }
+    }
     for (const definition of meaning.definitions) add(index.byDefinition, definition, entry);
     for (const synonym of meaning.synonyms) add(index.reverseSynonyms, synonym, entry);
   }
   return index;
 }
 
-/** Inverted gloss indexes avoid comparing every pair of definitions at corpus scale. */
-function candidateDistractors(target: VocabularyEntry, index: DistractorIndex): VocabularyEntry[] {
+/** The entries a question may draw distractors from, and those it must not. */
+interface CandidatePool {
+  entries: VocabularyEntry[];
+  forbidden: Set<string>;
+}
+
+/**
+ * Inverted gloss indexes avoid comparing every pair of definitions at corpus
+ * scale. The forbidden ids are returned rather than filtered out, so no
+ * per-entry copy of the corpus is allocated while generating.
+ */
+function candidateDistractors(target: VocabularyEntry, index: DistractorIndex): CandidatePool {
   const forbidden = new Set([target.id]);
   const exclude = (entries: VocabularyEntry[]) => entries.forEach((entry) => forbidden.add(entry.id));
   const related = [target, ...(index.reverseSynonyms.get(target.lemma.toLowerCase()) ?? [])];
@@ -189,12 +227,22 @@ function candidateDistractors(target: VocabularyEntry, index: DistractorIndex): 
   for (const entry of related) {
     forbidden.add(entry.id);
     const meaning = meaningIndex(entry);
-    for (const gloss of meaning.glosses) exclude(index.byGloss.get(gloss) ?? []);
+    for (const gloss of meaning.glosses) {
+      exclude(index.byGloss.get(gloss) ?? []);
+      // A gloss that spells out this one — 走失的家畜 for 家畜 — and a gloss
+      // this one spells out — 感激 for 感激之情 — are both defensible answers.
+      if (gloss.length >= MIN_GLOSS_FRAGMENT) exclude(index.byGlossPart.get(gloss) ?? []);
+      for (const fragment of new Set(glossFragments(gloss))) {
+        exclude(index.byGloss.get(fragment) ?? []);
+      }
+    }
     for (const definition of meaning.definitions) exclude(index.byDefinition.get(definition) ?? []);
   }
-  const eligible = (entries: VocabularyEntry[]) => entries.filter((entry) => !forbidden.has(entry.id));
-  const samePos = eligible(index.byPos.get(primaryPos(target)) ?? []);
-  return samePos.length >= DISTRACTOR_COUNT ? samePos : eligible(index.pool);
+  const samePos = index.byPos.get(primaryPos(target)) ?? [];
+  // Matching the part of speech is preferred, but only while it can still
+  // supply three usable distractors; otherwise the whole pool is fair game.
+  const entries = samePos.length - forbidden.size >= DISTRACTOR_COUNT ? samePos : index.pool;
+  return { entries, forbidden };
 }
 
 function buildOptions(texts: string[]): { id: string; text: string }[] {
@@ -246,9 +294,49 @@ const SPECS: Record<GeneratedType, RecognitionSpec> = {
   },
 };
 
+/** The identity of a generated question, derivable without generating it. */
+export interface GeneratedQuestionMeta {
+  id: string;
+  difficulty: Difficulty;
+  tags: string[];
+}
+
+/**
+ * Everything about a generated question except its options: id, difficulty and
+ * tags. The question bank derives these from index records so it can count,
+ * filter and order the whole bank without building any of it.
+ */
+export function generatedQuestionMeta(
+  word: { id: string; cefr: CefrLevel; tags: string[] },
+  type: GeneratedType,
+): GeneratedQuestionMeta {
+  const spec = SPECS[type];
+  return {
+    id: `q_gen_${word.id.replace(/^w_/, '')}_${spec.idSuffix}`,
+    difficulty: word.cefr === 'B2' ? 1 : word.cefr === 'C1' ? 2 : 3,
+    tags: ['generated', spec.tag, ...word.tags.slice(0, 2)],
+  };
+}
+
+/**
+ * Which types this entry can produce, ignoring the distractor pool.
+ *
+ * Both meaning types work from fields every entry has; the definition type
+ * needs a definition that still identifies the word once its own headword is
+ * masked out. The vocabulary index records the answer, so the question bank can
+ * count and order its questions without generating any of them.
+ */
+export function generatedTypesFor(entry: VocabularyEntry): GeneratedType[] {
+  return GENERATED_TYPES.filter((type) => {
+    const spec = SPECS[type];
+    if (!spec.optionText(entry).trim()) return false;
+    return spec.context ? spec.context(entry).trim().length > 0 : true;
+  });
+}
+
 interface GenerateOptions {
   rng: Rng;
-  candidates: VocabularyEntry[];
+  candidates: CandidatePool;
 }
 
 function generateForEntry(
@@ -256,7 +344,8 @@ function generateForEntry(
   type: GeneratedType,
   { rng, candidates }: GenerateOptions,
 ): QuizQuestion | null {
-  if (candidates.length < DISTRACTOR_COUNT) return null;
+  const pool = candidates.entries;
+  if (pool.length < DISTRACTOR_COUNT) return null;
 
   const spec = SPECS[type];
   const answerText = spec.optionText(entry).trim();
@@ -265,14 +354,30 @@ function generateForEntry(
   const context = spec.context?.(entry).trim();
   if (spec.context && !context) return null;
 
+  // Random draws rather than a full shuffle: the candidate pool is the whole
+  // corpus for a part of speech, and shuffling it for every question made
+  // building the bank cost seconds rather than milliseconds.
   const distractors: VocabularyEntry[] = [];
   const usedTexts = new Set<string>([answerText.toLowerCase()]);
-  for (const candidate of shuffle(candidates, rng)) {
+  const tried = new Set<number>();
+  const accept = (index: number): boolean => {
+    if (tried.has(index)) return false;
+    tried.add(index);
+    const candidate = pool[index];
+    if (!candidate || candidates.forbidden.has(candidate.id)) return false;
     const text = spec.optionText(candidate).trim().toLowerCase();
-    if (!text || usedTexts.has(text)) continue;
+    if (!text || usedTexts.has(text)) return false;
     usedTexts.add(text);
     distractors.push(candidate);
-    if (distractors.length === DISTRACTOR_COUNT) break;
+    return true;
+  };
+
+  for (let attempt = 0; attempt < DRAW_BUDGET && distractors.length < DISTRACTOR_COUNT; attempt += 1) {
+    accept(Math.floor(rng() * pool.length));
+  }
+  // Small or highly duplicated pools may not yield three draws; finish by scan.
+  for (let index = 0; index < pool.length && distractors.length < DISTRACTOR_COUNT; index += 1) {
+    accept(index);
   }
   if (distractors.length < DISTRACTOR_COUNT) return null;
 
@@ -286,8 +391,9 @@ function generateForEntry(
   const correct = options.find((option) => option.text === answerText);
   if (!correct) return null;
 
+  const meta = generatedQuestionMeta(entry, type);
   return {
-    id: `q_gen_${entry.id.replace(/^w_/, '')}_${spec.idSuffix}`,
+    id: meta.id,
     type,
     cefr: entry.cefr,
     wordIds: [entry.id],
@@ -296,14 +402,14 @@ function generateForEntry(
     options,
     correctOptionId: correct.id,
     explanation: spec.explanation(entry),
-    difficulty: entry.cefr === 'B2' ? 1 : entry.cefr === 'C1' ? 2 : 3,
-    tags: ['generated', spec.tag, ...entry.tags.slice(0, 2)],
+    difficulty: meta.difficulty,
+    tags: meta.tags,
     source: 'generated',
   };
 }
 
 function isGeneratedType(type: QuestionType): type is GeneratedType {
-  return GENERATED_TYPES.includes(type);
+  return (GENERATED_TYPES as QuestionType[]).includes(type);
 }
 
 /**

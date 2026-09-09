@@ -1,13 +1,25 @@
 import { describe, expect, it } from 'vitest';
 
-import { loadCuratedQuestions, loadVocabulary } from '@/data';
+import { loadCuratedQuestions, loadVocabulary, loadVocabularyIndex } from '@/data';
 import { DEFAULT_QUIZ_CONFIG, isCorrectAnswer, type QuizConfig } from '@/domain/quiz';
 import { createEmptyProgress, type WordProgress } from '@/domain/progress';
-import { answerQuestion, buildQuizSession, summarizeSession, wordIdsForMode } from './quiz-engine';
+import { createRng } from '@/utils/random';
+import {
+  answerQuestion,
+  buildQuizSession,
+  selectQuizWords,
+  summarizeSession,
+  wordIdsForMode,
+} from './quiz-engine';
 
 const entries = await loadVocabulary();
+const summaries = await loadVocabularyIndex();
 const curated = await loadCuratedQuestions();
 const NOW = new Date('2026-03-01T09:00:00.000Z');
+
+function progressFor(wordId: string, overrides: Partial<WordProgress> = {}): WordProgress {
+  return { ...createEmptyProgress(wordId, NOW.toISOString()), ...overrides };
+}
 
 function config(overrides: Partial<QuizConfig> = {}): QuizConfig {
   return { ...DEFAULT_QUIZ_CONFIG, ...overrides };
@@ -225,5 +237,71 @@ describe('answerQuestion and summarizeSession', () => {
     const summary = summarizeSession(session);
     expect(summary.percentage).toBe(0);
     expect(summary.total).toBe(0);
+  });
+});
+
+describe('selectQuizWords', () => {
+  const select = (overrides: Partial<QuizConfig> = {}, progress: WordProgress[] = []) =>
+    selectQuizWords({ summaries, config: config(overrides), progress, now: NOW, rng: createRng(7) });
+
+  it('picks far fewer words than the corpus holds', () => {
+    const { targetIds, poolIds } = select({ questionCount: 10 });
+    expect(targetIds.length).toBeLessThan(summaries.length / 4);
+    expect(targetIds.length + poolIds.length).toBeLessThan(summaries.length / 2);
+  });
+
+  it('keeps a quiz to a handful of data files', () => {
+    const byId = new Map(summaries.map((summary) => [summary.id, summary]));
+    const { targetIds, poolIds } = select({ questionCount: 20 });
+    const chunks = new Set(
+      [...targetIds, ...poolIds].map((id) => byId.get(id)?.chunk).filter(Boolean),
+    );
+    // Sampling words independently would touch most of the corpus's files.
+    expect(chunks.size).toBeLessThanOrEqual(16);
+  });
+
+  it('never puts the same word in both the targets and the pool', () => {
+    const { targetIds, poolIds } = select();
+    expect(new Set([...targetIds, ...poolIds]).size).toBe(targetIds.length + poolIds.length);
+  });
+
+  it('stays inside the requested CEFR levels', () => {
+    const byId = new Map(summaries.map((summary) => [summary.id, summary]));
+    const { targetIds, poolIds } = select({ cefrLevels: ['C2'] });
+    for (const id of [...targetIds, ...poolIds]) {
+      expect(byId.get(id)?.cefr, id).toBe('C2');
+    }
+  });
+
+  it('asks only about the words a mode allows', () => {
+    const bookmarked = [
+      progressFor('w_consolidate', { bookmarked: true }),
+      progressFor('w_infer', { bookmarked: true }),
+    ];
+    const { targetIds, relaxed } = select({ mode: 'bookmarked', questionCount: 2 }, bookmarked);
+    expect(relaxed).toBe(false);
+    expect(new Set(targetIds)).toEqual(new Set(['w_consolidate', 'w_infer']));
+  });
+
+  it('widens a mode that cannot fill the quiz, and says so', () => {
+    const single = [progressFor('w_consolidate', { bookmarked: true })];
+    const { targetIds, relaxed } = select({ mode: 'bookmarked', questionCount: 10 }, single);
+    expect(relaxed).toBe(true);
+    expect(targetIds.length).toBeGreaterThan(1);
+  });
+
+  it('feeds a session that can still be built from just those words', async () => {
+    const selection = select({ questionCount: 10 });
+    const chosen = new Set([...selection.targetIds, ...selection.poolIds]);
+    const subset = entries.filter((entry) => chosen.has(entry.id));
+    const { session } = buildQuizSession({
+      config: config({ questionCount: 10 }),
+      entries: subset,
+      curatedQuestions: curated,
+      progress: [],
+      now: NOW,
+      seed: 3,
+    });
+    expect(session.questions).toHaveLength(10);
   });
 });

@@ -73,7 +73,7 @@ export function dictionaryEntry(row: DictionaryRow, kk: string): VocabularyEntry
     // Sorting bands only: frequency cannot establish an official CEFR level.
     cefr: rank <= 5000 ? 'B2' : rank <= 12000 ? 'C1' : 'C2',
     pronunciation: { kk }, senses,
-    tags: ['dictionary', ...['toefl', 'gre'].filter((tag) => row.tag.split(' ').includes(tag))],
+    tags: ['dictionary', ...['toefl', 'gre', 'ielts'].filter((tag) => row.tag.split(' ').includes(tag))],
     dictionarySource: { name: 'ECDICT', revision: ECDICT_REVISION, license: 'MIT', cefrEstimated: true },
   };
 }

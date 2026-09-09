@@ -1,50 +1,62 @@
-import { loadCuratedQuestions, loadVocabulary } from '@/data';
+import {
+  loadCuratedQuestions,
+  loadEntriesByIds,
+  loadSearchText,
+  loadVocabularyIndex,
+} from '@/data';
 import type { QuizQuestion } from '@/domain/quiz';
-import type { VocabularyEntry } from '@/domain/vocabulary';
-import { searchVocabulary } from '@/services/search';
+import type { VocabularyEntry, VocabularySummary } from '@/domain/vocabulary';
 
 /**
  * Read-only access to the static corpus.
  *
  * Pages never import JSON directly; they go through this interface so that the
- * corpus could later move to an API or a database without touching the UI.
+ * corpus could later move to an API or a database without touching the UI. The
+ * split between `getIndex` (every word, list-level fields) and `getEntries`
+ * (full entries for named ids) is exactly the split such an API would have —
+ * and there is deliberately no "give me everything": no page needs it.
  */
 export interface VocabularyRepository {
-  getAll(): Promise<VocabularyEntry[]>;
+  /** Every word as an index record. One request, cached for the session. */
+  getIndex(): Promise<VocabularySummary[]>;
+  /** Full entries for the given ids, fetching only the chunks that hold them. */
+  getEntries(ids: string[]): Promise<VocabularyEntry[]>;
   getById(id: string): Promise<VocabularyEntry | null>;
   getBySlug(slug: string): Promise<VocabularyEntry | null>;
-  search(query: string): Promise<VocabularyEntry[]>;
+  /** The deeper search text, keyed by word id. Loaded on first search. */
+  getSearchText(): Promise<Map<string, string>>;
   getQuestions(): Promise<QuizQuestion[]>;
 }
 
 class StaticVocabularyRepository implements VocabularyRepository {
-  private indexPromise: Promise<{
-    byId: Map<string, VocabularyEntry>;
-    bySlug: Map<string, VocabularyEntry>;
-  }> | null = null;
+  private slugIndex: Promise<Map<string, VocabularySummary>> | null = null;
 
-  private indexes() {
-    this.indexPromise ??= loadVocabulary().then((entries) => ({
-      byId: new Map(entries.map((entry) => [entry.id, entry])),
-      bySlug: new Map(entries.map((entry) => [entry.slug, entry])),
-    }));
-    return this.indexPromise;
+  private bySlug() {
+    this.slugIndex ??= loadVocabularyIndex().then(
+      (summaries) => new Map(summaries.map((summary) => [summary.slug, summary])),
+    );
+    return this.slugIndex;
   }
 
-  getAll(): Promise<VocabularyEntry[]> {
-    return loadVocabulary();
+  getIndex(): Promise<VocabularySummary[]> {
+    return loadVocabularyIndex();
+  }
+
+  getEntries(ids: string[]): Promise<VocabularyEntry[]> {
+    return loadEntriesByIds(ids);
   }
 
   async getById(id: string): Promise<VocabularyEntry | null> {
-    return (await this.indexes()).byId.get(id) ?? null;
+    return (await loadEntriesByIds([id]))[0] ?? null;
   }
 
   async getBySlug(slug: string): Promise<VocabularyEntry | null> {
-    return (await this.indexes()).bySlug.get(slug) ?? null;
+    const summary = (await this.bySlug()).get(slug);
+    return summary ? this.getById(summary.id) : null;
   }
 
-  async search(query: string): Promise<VocabularyEntry[]> {
-    return searchVocabulary(await loadVocabulary(), query).map((hit) => hit.entry);
+  getSearchText(): Promise<Map<string, string>> {
+    return loadSearchText();
   }
 
   getQuestions(): Promise<QuizQuestion[]> {

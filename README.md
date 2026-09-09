@@ -1,8 +1,8 @@
 # English Vocabulary Lab
 
 An interactive English vocabulary platform for Traditional Chinese (`zh-TW`) speakers preparing
-for TOEFL or GRE. The corpus contains **2,120 words**: 120 detailed B2–C2 lessons and 2,000
-attributed dictionary entries for recognition and review. Every entry has KK phonetics and
+for TOEFL, GRE or IELTS. The corpus contains **4,120 words**: 120 detailed B2–C2 lessons and
+4,000 attributed dictionary entries for recognition and review. Every entry has KK phonetics and
 English/Traditional Chinese definitions. The curated lessons additionally explain usage,
 collocations, grammar patterns, common mistakes and confusing words.
 
@@ -48,10 +48,13 @@ login).
 
 **Vocabulary**
 
-- 2,120 distinct entries: 120 curated lessons plus 2,000 TOEFL/GRE dictionary entries.
-  Each exam tag covers 1,500 imported words; use the tag filter to find them.
-- 974 B2 / 863 C1 / 283 C2, including estimated bands on dictionary entries.
+- 4,120 distinct entries: 120 curated lessons plus 4,000 TOEFL/GRE/IELTS dictionary entries
+  (2,791 `toefl`, 2,593 `gre`, 2,186 `ielts`); use the exam filter to study one list at a time.
+- 1,907 B2 / 1,429 C1 / 784 C2, including estimated bands on dictionary entries.
 - Paginated word browsing (50 results per page), with search and filters over the full corpus.
+- A filter rail that counts what each option would leave, keeps applied filters visible as
+  removable chips, collapses the sections you are done with, and scrolls independently of the
+  results.
 - KK phonetic transcription (American English) for every headword, **machine-verified against the
   CMU Pronouncing Dictionary** (see [KK verification](#17-kk-phonetic-verification)), in a font
   stack chosen for IPA coverage.
@@ -180,24 +183,56 @@ Pages never touch `localStorage`, `fetch` or D1 directly. They call a repository
 implementation is chosen by auth state — which is what makes anonymous and signed-in mode the same
 code path.
 
-### Bundle strategy
+### Loading strategy
 
-The corpus is loaded through a **lazy** `import.meta.glob`, so each JSON file becomes its own chunk
-fetched on demand, and routes below the dashboard are code-split. This is what lets the corpus grow
-to thousands of entries without embedding all definitions in the initial JavaScript bundle.
-All vocabulary chunks are fetched on first corpus use; pagination limits rendering, not downloading.
+Routes below the dashboard are code-split, and the corpus is **never loaded whole** for browsing.
+Two generated files (see [section 5](#5-source-directory-structure)) sit in front of it:
 
-Historical measurements before the 2,000-word expansion:
+| File | When it loads | Size at 4,120 words |
+| --- | --- | --- |
+| `vocabulary-index.json` | Once, on first corpus use | 617 kB raw, **148 kB gzipped** |
+| `vocabulary-search.json` | The first time a query is typed | 652 kB raw, 255 kB gzipped |
+| `vocabulary/**/*.json` | Only the chunks a page actually needs | ~30 kB per 50-word chunk |
+
+The index carries what a list needs — headword, KK, parts of speech, CEFR, gloss, tags, the chunk
+holding the full entry, and which recognition questions the word can produce. Everything else is
+fetched per use:
+
+| Page | Vocabulary data files fetched |
+| --- | --- |
+| Dashboard, review, statistics, word bank | 1 (the index) |
+| Word bank with a search query | 2 (index + search text) |
+| Word detail | 2 (index + the one chunk holding that word) |
+| Quiz | ~12 (index, curated questions, and the chunks of the words it picked) |
+| Question bank | ~12 (index, curated questions, and the chunks of the page in view) |
+
+**No page loads the whole corpus** — the repository deliberately offers no "give me everything".
+
+A quiz picks its words from the index *before* downloading anything, and picks them a chunk at a
+time: sampling words independently would scatter one quiz across most of the corpus's files.
+
+The question bank does the same for a different reason. The index records which recognition types
+each word supports, which is enough to know what the bank *contains* — 12,508 questions, their
+order, and what every filter would leave — so the page builds question **references** and turns
+only the twenty in view into real questions. Two consequences worth knowing:
+
+- A generated question's query matches its headword and gloss (which is what its prompt is written
+  from), not the option texts, which do not exist until the page is built. Curated questions are
+  matched in full.
+- A generated question's options are stable for a given page of the bank, because the distractor
+  pool is derived from that page's own words. Change the filter and the same question may draw
+  different distractors; the answer, and the rules that keep exactly one option defensible, never
+  vary.
 
 ```text
-initial JS bundle   224 kB  (71 kB gzipped)
-per data file        ~15 kB  (~6 kB gzipped, loaded in parallel on first use)
-per route chunk    2–15 kB
+initial JS bundle    234 kB  (75 kB gzipped)
+vocabulary index     592 kB  (147 kB gzipped, once)
+per data chunk       ~30 kB  (~7 kB gzipped, only when a word needs it)
+per route chunk     2–15 kB
 ```
 
-The design has been measured against exactly this: doubling the corpus (60 → 120 entries,
-98 → 174 questions) grew the initial bundle by **2 kB**, because the new content landed in new
-chunks that are only fetched when a page needs them.
+The point of this shape is that browsing cost tracks the number of *words*, not the depth of their
+lessons, and adding a curated lesson with twenty examples costs a browsing learner nothing.
 
 ---
 
@@ -213,6 +248,7 @@ src/
 
   components/
     ui/                     Button, Card, Badge, StatTile, Toggle, EmptyState, …
+    ui/filters.tsx          filter rail, collapsible groups, counted chips
     layout/AppShell.tsx     header, navigation, Suspense boundary, merge banner
 
   domain/                   types + Zod schemas + pure rules (no I/O)
@@ -222,9 +258,12 @@ src/
   shared/api.ts             wire contract shared by browser and Worker
 
   data/
-    index.ts                lazy, validated content loader
+    index.ts                index loader, per-chunk loader, full-corpus loader
+    vocabulary-index.json   generated: one row per word, what lists and the
+                            question bank need
+    vocabulary-search.json  generated: the deeper searchable prose
     vocabulary/b2|c1|c2/    curated lessons, ~6 entries per file
-    vocabulary/exam/        dictionary entries, 50 entries per file
+    vocabulary/exam/        dictionary entries, 50 per file (80 files)
     questions/              curated question bank, one file per question type
                             (`exam-*.json` cover the imported TOEFL/GRE words)
 
@@ -255,6 +294,7 @@ src/
 
 public/                   favicon.ico, icon.svg, apple-touch-icon.png, site.webmanifest
 scripts/validate-vocabulary.ts
+scripts/build-vocabulary-index.ts
 migrations/0001_initial.sql
 ```
 
@@ -309,7 +349,8 @@ production. There is no second process to start.
 | `npm run lint` | ESLint |
 | `npm test` | Vitest (all suites, once) |
 | `npm run test:watch` | Vitest in watch mode |
-| `npm run validate:data` | Validate the vocabulary and question corpus |
+| `npm run validate:data` | Validate the corpus, and check the generated index is current |
+| `npm run build:index` | Regenerate `vocabulary-index.json` and `vocabulary-search.json` |
 | `npm run verify:kk` | Check every KK transcription against the CMU Pronouncing Dictionary |
 | `npm run verify:kk:report` | The same check, listing conventions, variants and exceptions |
 | `npm run kk -- <word…>` | Propose a KK transcription for a headword you are about to add |
@@ -659,11 +700,24 @@ freely without corrupting the answer key.
 - **Generated** questions are derived from the corpus at runtime, and only for the three simple
   recognition types (`meaning_en_to_zh`, `meaning_zh_to_en`, `definition_to_word`). Every one of
   them reads fields the schema guarantees on *every* entry — headword, Chinese gloss, English
-  definition — so imported dictionary words get practice too. Distractors prefer matching parts
-  of speech. Synonym links in either direction, shared Chinese gloss components and identical
-  English definitions exclude potentially ambiguous distractors. These checks reduce ambiguity
-  but cannot prove that all dictionary meanings are distinct. Ids are derived from `entry.id` + type, so duplicates are
-  impossible. See `src/services/question-generator.test.ts`.
+  definition — so imported dictionary words get practice too. Ids are derived from `entry.id` +
+  type, so duplicates are impossible.
+
+  Four rules keep a generated question fair, each of them a test in
+  `src/services/question-generator.test.ts` that runs over every question the corpus produces:
+
+  | Rule | What it prevents |
+  | --- | --- |
+  | Distractors prefer the answer's part of speech | Guessing from grammar alone |
+  | A declared synonym, in either direction, is never a distractor | Two defensible answers |
+  | A gloss identical to, **containing**, or contained by the answer's is never a distractor | 走失的家畜 next to 家畜 |
+  | An English definition that spells out its own headword is masked | The prompt giving the answer away |
+
+  What they cannot do is prove that two dictionary meanings differ. Near-synonyms worded
+  differently in the source — 驅逐 against 消滅 — still get through, and the imported glosses are
+  machine-converted rather than edited. Generated questions are labelled as such on the card, in
+  quiz feedback and in the bank's own filter, and the app says plainly that usage and nuance belong
+  to the hand-written questions.
 - `definition_to_word` shows the English definition and asks for the word. Any form of the headword
   inside that definition is masked to `___`, and an entry whose masked definition no longer
   identifies a single word (an imported stub such as "become brisk") simply gets no definition
@@ -725,7 +779,9 @@ The steps below create a full curated lesson; its example and usage requirements
 }
 ```
 
-4. Run `npm run validate:data` **and** `npm run verify:kk`.
+4. Run `npm run build:index` to regenerate the two index files, then
+   `npm run validate:data` **and** `npm run verify:kk`. (`validate:data` fails if you forget the
+   first step: the app reads the index, so a stale one would show the wrong list.)
 
 Rules the validator enforces: unique `id`, `slug` and sense id; kebab-case slug; KK wrapped in
 slashes; at least one sense with at least one example; every `highlight` must actually occur in its
@@ -805,17 +861,19 @@ links; malformed questions; duplicate question ids; duplicate option ids or opti
 `correctOptionId` that is not among the options; the wrong option count; a `distractorExplanations`
 key that is not an option id or that describes the correct answer; questions referencing unknown
 word ids; and correct options more than three times longer than every distractor (which would give
-the answer away by shape alone). It does **not** check the phonetics themselves — that is
+the answer away by shape alone). It also rebuilds `vocabulary-index.json` and
+`vocabulary-search.json` in memory and fails when the committed files differ, so a corpus change
+without `npm run build:index` cannot ship. It does **not** check the phonetics themselves — that is
 `npm run verify:kk`, described in [section 17](#17-kk-phonetic-verification).
 
 Example output:
 
 ```text
 ✓ Content validation passed
-  vocabulary entries : 2120
-      B2   974
-      C1   863
-      C2   283
+  vocabulary entries : 4120
+      B2   1907
+      C1   1429
+      C2   784
   curated questions  : 251
       cloze              52
       collocation        48
@@ -827,7 +885,7 @@ Example output:
 ```
 
 The counts above are the *curated* questions only — the questions kept in git. The bank the app
-shows also contains the recognition questions generated from all 2,120 entries.
+shows also contains the recognition questions generated from all 4,120 entries.
 
 ---
 

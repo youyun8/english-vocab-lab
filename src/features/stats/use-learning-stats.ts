@@ -13,7 +13,7 @@ import { serverStatsSchema, type ServerStats } from '@/shared/api';
  * Signed-out learners get the same shape, reconstructed from local counters.
  */
 export function useLearningStats(): { stats: LearningStats; loading: boolean } {
-  const { entries } = useVocabulary();
+  const { summaries } = useVocabulary();
   const { progress, ready } = useProgress();
   const { status } = useAuth();
   const [serverStats, setServerStats] = useState<ServerStats | null>(null);
@@ -45,8 +45,8 @@ export function useLearningStats(): { stats: LearningStats; loading: boolean } {
   }, [status]);
 
   const stats = useMemo(
-    () => computeStats({ entries, progress, serverStats, now: new Date() }),
-    [entries, progress, serverStats],
+    () => computeStats({ entries: summaries, progress, serverStats, now: new Date() }),
+    [summaries, progress, serverStats],
   );
 
   return { stats, loading: loading || !ready };

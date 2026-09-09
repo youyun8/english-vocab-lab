@@ -1,6 +1,21 @@
 import { z } from 'zod';
 
+import {
+  generatedQuestionTypes,
+  questionTypeSchema,
+  questionTypes,
+  type GeneratedQuestionType,
+  type QuestionType,
+} from './question-types';
 import { cefrLevelSchema, type CefrLevel } from './vocabulary';
+
+export {
+  generatedQuestionTypes,
+  questionTypeSchema,
+  questionTypes,
+  type GeneratedQuestionType,
+  type QuestionType,
+};
 
 /**
  * Quiz domain model.
@@ -9,18 +24,7 @@ import { cefrLevelSchema, type CefrLevel } from './vocabulary';
  * options can be shuffled freely without corrupting the answer key.
  */
 
-export const questionTypes = [
-  'meaning_en_to_zh',
-  'meaning_zh_to_en',
-  'definition_to_word',
-  'cloze',
-  'usage',
-  'collocation',
-  'grammar',
-  'confusing_words',
-] as const;
-export const questionTypeSchema = z.enum(questionTypes);
-export type QuestionType = z.infer<typeof questionTypeSchema>;
+
 
 export const questionTypeLabelZh: Record<QuestionType, string> = {
   meaning_en_to_zh: '英譯中',
