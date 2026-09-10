@@ -1,7 +1,8 @@
 # TOEFL / GRE / IELTS corpus
 
 The corpus contains **4,120 distinct headwords**: the original 120 curated lessons and
-4,000 dictionary entries for recognition practice. There are 251 curated questions;
+4,000 dictionary entries, **all 4,000 of which now have individually edited bilingual lessons**
+(4,774 separately aligned senses in total). There are 251 curated questions;
 the three recognition question types are also generated from the vocabulary at runtime,
 so the browsable question bank covers every headword that ships.
 
@@ -9,10 +10,15 @@ so the browsable question bank covers every headword that ships.
 
 The original lessons retain their IDs, senses, bilingual examples, usage explanations,
 collocations and comparisons. Imported entries have English definitions, Traditional
-Chinese glosses, parts of speech, KK pronunciation and exam tags. They do **not** claim
-hand-written examples, usage guidance, synonyms or verified CEFR ratings.
+Chinese glosses, parts of speech, KK pronunciation and exam tags. Every one of the 4,000
+imported headwords now has separately aligned bilingual meanings (one row per distinct
+sense, not a single merged gloss), a contextual translated example, and a usage explanation.
+CEFR ratings remain frequency-based estimates rather than a verified assessment; no human
+editorial review beyond the language-review process described below is claimed.
 
-The word detail page identifies dictionary entries and hides absent lesson sections.
+The word detail page retains dictionary attribution and hides absent lesson sections.
+Entries with `contentRevision: "bilingual-v1"` omit the outdated missing-content and
+automatic-conversion notices; their schema requires examples and usage guidance in every sense.
 They participate in search, bookmarks, progress, review and generated recognition quizzes.
 
 The app does not download the corpus to browse it. `npm run build:index` generates
@@ -74,11 +80,13 @@ senses (for example, *aberration* as a departure from what is normal).
 
 ## Limitations
 
-The new entries are dictionary imports, not 4,000 fully edited lessons. English and Chinese
-senses are grouped by part of speech; they are not asserted to align one-to-one. Some source
-glosses may be dated or broader than their English definitions. Traditional Chinese has been
-automatically converted and has not received exhaustive human language review. No placeholder
-sentences or fabricated usage notes are added to satisfy the lesson schema.
+Every dictionary entry now has an edited bilingual lesson (see "Content depth" above), so the
+original ECDICT limitation of grouped, unaligned senses no longer applies to any shipped entry.
+The edited senses were written and reviewed for 1:1 English/Chinese alignment, natural
+Traditional Chinese, and non-fabricated usage notes and examples, but this was AI-assisted
+editorial work, not independent human review; semantic nuance in individual rows can still be
+improved through ordinary review and correction. No placeholder sentences or fabricated usage
+notes are added to satisfy the lesson schema.
 
 ECDICT provides no CEFR rating. Imported entries use the smaller positive BNC/FRQ rank as a
 rough **sorting estimate**: up to 5,000 → B2, up to 12,000 → C1, otherwise C2. Missing ranks
@@ -111,8 +119,23 @@ The source CSV is about 66 MB and is intentionally not committed. Generated JSON
 in, so normal builds, tests and app usage require neither the source download nor network
 access to ECDICT. The source notices in `public/licenses` are included in built assets.
 
-For targeted definition fixes, edit the overrides and rerun the importer. For full lessons,
-move the entry into the appropriate curated directory, retain its word ID/slug, add reviewed
-examples and usage guidance, remove `dictionarySource`, then regenerate the import and review
-the resulting selection diff. Curated entries still require translated examples and usage
-explanations in the entry schema; dictionary attribution is required to omit those fields.
+For targeted definition fixes, edit the overrides and rerun the importer. For edited bilingual
+lessons, add one row per meaning to a file under `scripts/data/bilingual-lessons/`. Each row contains
+an English definition and its Traditional Chinese equivalent, specific usage guidance, and
+a contextual example with its translation. Run `npm run edit:bilingual` to apply the rows and
+rebuild both indices. Existing IDs/slugs and dictionary attribution are retained. The normal
+importer applies these same lessons after selecting headwords, so a re-import neither erases
+the edits nor changes selection based on edited parts of speech. `contentRevision` records a
+content version, not a claim of human editorial approval. Semantic alignment and natural
+Chinese still need individual language review; structural validation alone cannot prove them.
+
+Lessons are split across several files (one per contributor/session) rather than a single TSV,
+so multiple people or agents can extend the corpus in parallel without editing the same lines.
+`loadBilingualLessons()` reads every file in the directory and fails if two files claim the
+same headword. `npm run validate:bilingual-file -- <path>` checks a single file — its format,
+schema, and that each row's part of speech matches a real sense on that headword's dictionary
+entry — without touching the shared corpus, so it is safe to run repeatedly while drafting.
+
+`npm run validate:data` checks the applied senses against the authored TSV, detects missing
+headwords or content revisions without a source lesson, and reports edited and remaining
+dictionary entries. Editing a TSV row without reapplying it therefore fails validation.

@@ -167,6 +167,8 @@ export const vocabularyEntrySchema = z.object({
   commonlyConfusedWith: z.array(confusedWordSchema).optional(),
   wordFamily: z.array(wordFamilyItemSchema).optional(),
   tags: z.array(nonEmpty('tag')),
+  /** Individually edited bilingual senses; does not assert review by a human. */
+  contentRevision: z.literal('bilingual-v1').optional(),
   /** Dictionary entries support recognition; curated lessons retain richer requirements. */
   dictionarySource: z.object({
     name: z.literal('ECDICT'),
@@ -175,7 +177,7 @@ export const vocabularyEntrySchema = z.object({
     cefrEstimated: z.literal(true),
   }).optional(),
 }).superRefine((entry, ctx) => {
-  if (entry.dictionarySource) return;
+  if (entry.dictionarySource && !entry.contentRevision) return;
   entry.senses.forEach((sense, index) => {
     if (!sense.usageExplanationZh) {
       ctx.addIssue({ code: 'custom', path: ['senses', index, 'usageExplanationZh'], message: 'curated senses require usage guidance' });
@@ -208,7 +210,7 @@ export const vocabularySummarySchema = z.object({
   tags: z.array(z.string().min(1)),
   /** Data file holding the full entry, e.g. "exam/exam-07". */
   chunk: z.string().min(1),
-  /** True for imported dictionary entries, which have no lesson content. */
+  /** True for entries with dictionary provenance, including edited lessons. */
   dictionary: z.boolean(),
   /**
    * Recognition question types this word can produce, recorded at build time so

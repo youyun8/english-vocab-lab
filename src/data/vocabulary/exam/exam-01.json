@@ -11,16 +11,54 @@
       {
         "id": "s_abandon_verb",
         "partOfSpeech": "verb",
-        "definitionEn": "forsake, leave behind; give up with the intent of never claiming again; stop maintaining or insisting on; of ideas or claims",
-        "definitionZh": "放棄；拋棄；遺棄；使屈從；沉溺；放縱",
-        "examples": []
+        "definitionEn": "to leave someone or something behind without intending to return",
+        "definitionZh": "拋棄；遺棄",
+        "usageExplanationZh": "及物動詞，直接接受詞；abandon a person 指棄人不顧，abandon a vehicle 指棄置車輛。",
+        "examples": [
+          {
+            "en": "The crew had to abandon the sinking ship.",
+            "zh": "船員不得不棄船逃生，因為船正在下沉。"
+          }
+        ]
+      },
+      {
+        "id": "s_abandon_verb_plan",
+        "partOfSpeech": "verb",
+        "definitionEn": "to stop pursuing a plan, activity, or belief",
+        "definitionZh": "放棄計畫、活動或信念",
+        "usageExplanationZh": "常接 plan、attempt 或 hope；也可用 abandon doing something 表示放棄做某事。",
+        "examples": [
+          {
+            "en": "They decided to abandon the plan because it was too expensive.",
+            "zh": "他們因為費用太高，決定放棄這項計畫。"
+          }
+        ]
+      },
+      {
+        "id": "s_abandon_verb_emotion",
+        "partOfSpeech": "verb",
+        "definitionEn": "to allow an emotion or activity to take complete control of oneself",
+        "definitionZh": "完全沉浸於某種情緒或活動",
+        "usageExplanationZh": "用 abandon oneself to，to 是介系詞，後接名詞或動名詞；偏文學語氣。",
+        "examples": [
+          {
+            "en": "She abandoned herself to grief after hearing the news.",
+            "zh": "她聽到消息後，陷入深深的悲痛之中。"
+          }
+        ]
       },
       {
         "id": "s_abandon_noun",
         "partOfSpeech": "noun",
-        "definitionEn": "the trait of lacking restraint or control; reckless freedom from inhibition or worry",
-        "definitionZh": "放任；無拘束；狂熱",
-        "examples": []
+        "definitionEn": "complete freedom from restraint or worry",
+        "definitionZh": "無拘無束；忘情",
+        "usageExplanationZh": "不可數名詞，通常用 with abandon 或 with reckless abandon，描述毫無顧忌的行為。",
+        "examples": [
+          {
+            "en": "The children danced with abandon in the rain.",
+            "zh": "孩子們在雨中無拘無束地跳舞。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -28,6 +66,7 @@
       "toefl",
       "gre"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -45,11 +84,17 @@
     },
     "senses": [
       {
+        "id": "s_abate_verb",
         "partOfSpeech": "verb",
         "definitionEn": "to become less intense or severe, or to make something less intense or severe",
         "definitionZh": "減弱；減輕；緩和",
-        "id": "s_abate_verb",
-        "examples": []
+        "usageExplanationZh": "常描述風暴、疼痛或怒氣逐漸減弱；可不接受詞，也可用於 abate a nuisance 等正式用語。",
+        "examples": [
+          {
+            "en": "The storm finally began to abate before dawn.",
+            "zh": "暴風雨終於在黎明前開始減弱。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -57,6 +102,7 @@
       "toefl",
       "gre"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -76,9 +122,28 @@
       {
         "id": "s_abdicate_verb",
         "partOfSpeech": "verb",
-        "definitionEn": "give up, such as power, as of monarchs and emperors, or duties and obligations",
-        "definitionZh": "正式放棄；退位；退出；辭職",
-        "examples": []
+        "definitionEn": "to formally give up a throne or a position of power",
+        "definitionZh": "退位；正式放棄權位",
+        "usageExplanationZh": "君主退位可直接用 abdicate，或接 the throne；不宜用來泛指一般員工辭職。",
+        "examples": [
+          {
+            "en": "The king chose to abdicate in favor of his daughter.",
+            "zh": "國王選擇退位，將王位傳給女兒。"
+          }
+        ]
+      },
+      {
+        "id": "s_abdicate_verb_duty",
+        "partOfSpeech": "verb",
+        "definitionEn": "to fail or refuse to fulfill a responsibility",
+        "definitionZh": "放棄履行職責",
+        "usageExplanationZh": "常用 abdicate responsibility，語氣帶有批評，表示不承擔本應負起的責任。",
+        "examples": [
+          {
+            "en": "Leaders must not abdicate their responsibility to protect the public.",
+            "zh": "領導者不可放棄保護大眾的職責。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -86,6 +151,7 @@
       "toefl",
       "gre"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -103,17 +169,24 @@
     },
     "senses": [
       {
-        "partOfSpeech": "noun",
-        "definitionEn": "a departure from what is normal, usual, or expected",
-        "definitionZh": "偏離常態；異常現象",
         "id": "s_aberration_noun",
-        "examples": []
+        "partOfSpeech": "noun",
+        "definitionEn": "an occurrence that differs from what is normal or expected",
+        "definitionZh": "偏離常態的現象",
+        "usageExplanationZh": "可數名詞；常用 an aberration 或 a statistical aberration，表示異常個案，未必代表長期趨勢。",
+        "examples": [
+          {
+            "en": "The analyst treated the sudden drop as a temporary aberration.",
+            "zh": "分析師將這次突然下跌視為暫時偏離常態的現象。"
+          }
+        ]
       }
     ],
     "tags": [
       "dictionary",
       "gre"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -133,15 +206,22 @@
       {
         "id": "s_abet_verb",
         "partOfSpeech": "verb",
-        "definitionEn": "assist or encourage, usually in some wrongdoing",
-        "definitionZh": "教唆；煽動；慫恿；幫助；支援",
-        "examples": []
+        "definitionEn": "to help or encourage someone to do something wrong or illegal",
+        "definitionZh": "幫助或教唆他人做壞事或違法",
+        "usageExplanationZh": "帶負面含義，常見於法律片語 aid and abet；不適合用來描述一般正面的協助。",
+        "examples": [
+          {
+            "en": "He was accused of aiding and abetting the fraud.",
+            "zh": "他被指控協助並教唆這起詐欺行為。"
+          }
+        ]
       }
     ],
     "tags": [
       "dictionary",
       "gre"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -161,9 +241,41 @@
       {
         "id": "s_abide_verb",
         "partOfSpeech": "verb",
-        "definitionEn": "put up with something or somebody unpleasant",
-        "definitionZh": "停留；遵守；居留；繼續下去；忍受；經受；屈從於",
-        "examples": []
+        "definitionEn": "to tolerate someone or something unpleasant",
+        "definitionZh": "忍受",
+        "usageExplanationZh": "此義通常出現在 cannot abide；後面可接名詞或動名詞，語氣比 dislike 強。",
+        "examples": [
+          {
+            "en": "I cannot abide being interrupted while I am speaking.",
+            "zh": "我無法忍受說話時被打斷。"
+          }
+        ]
+      },
+      {
+        "id": "s_abide_verb_rules",
+        "partOfSpeech": "verb",
+        "definitionEn": "to accept and act according to a rule, decision, or agreement",
+        "definitionZh": "遵守規則、決定或協議",
+        "usageExplanationZh": "此義必須用 abide by；by 後接 rules、a decision 或 an agreement，不能省略。",
+        "examples": [
+          {
+            "en": "All members must abide by the club's rules.",
+            "zh": "所有會員都必須遵守俱樂部的規定。"
+          }
+        ]
+      },
+      {
+        "id": "s_abide_verb_remain",
+        "partOfSpeech": "verb",
+        "definitionEn": "to remain or live in a place",
+        "definitionZh": "停留；居住",
+        "usageExplanationZh": "屬古老或文學用法，日常談居住通常用 live 或 stay；此義不加 by。",
+        "examples": [
+          {
+            "en": "They vowed to abide together in the valley.",
+            "zh": "他們誓言一同住在山谷裡。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -171,6 +283,7 @@
       "toefl",
       "gre"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -190,9 +303,15 @@
       {
         "id": "s_abnormal_adjective",
         "partOfSpeech": "adjective",
-        "definitionEn": "not normal; not typical or usual or regular or conforming to a norm; departing from the normal in e.g. intelligence and development; much greater than the normal",
-        "definitionZh": "反常的；不規則的；變態的；畸形的",
-        "examples": []
+        "definitionEn": "different from what is usual or expected, especially in a concerning way",
+        "definitionZh": "異常的；不正常的",
+        "usageExplanationZh": "常修飾 results、growth 或 behavior；描述檢測數值時指偏離正常範圍，不等於已確診疾病。",
+        "examples": [
+          {
+            "en": "The test revealed an abnormal heart rhythm.",
+            "zh": "檢查發現心律異常。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -200,6 +319,7 @@
       "toefl",
       "ielts"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -219,15 +339,48 @@
       {
         "id": "s_aboard_adverb",
         "partOfSpeech": "adverb",
-        "definitionEn": "on a ship, train, plane or other vehicle; on first or second or third base; side by side; part of a group",
-        "definitionZh": "在船上；在火車上；在飛機上",
-        "examples": []
+        "definitionEn": "on or onto a ship, aircraft, train, or other vehicle",
+        "definitionZh": "在交通工具上；登上交通工具",
+        "usageExplanationZh": "作副詞時後面不接受詞，常見 go aboard、climb aboard；有受詞時 aboard 作介系詞。",
+        "examples": [
+          {
+            "en": "The passengers climbed aboard just before departure.",
+            "zh": "乘客在出發前才登上交通工具。"
+          }
+        ]
+      },
+      {
+        "id": "s_aboard_preposition",
+        "partOfSpeech": "preposition",
+        "definitionEn": "on or onto a ship, aircraft, train, or other vehicle",
+        "definitionZh": "在船、飛機或火車上；登上",
+        "usageExplanationZh": "直接接交通工具名稱，例如 aboard the plane，不需要再加 on。",
+        "examples": [
+          {
+            "en": "There were eighty passengers aboard the plane.",
+            "zh": "飛機上有八十名乘客。"
+          }
+        ]
+      },
+      {
+        "id": "s_aboard_adverb_team",
+        "partOfSpeech": "adverb",
+        "definitionEn": "as a new member of a team or organization",
+        "definitionZh": "加入團隊或組織",
+        "usageExplanationZh": "常用 welcome aboard 歡迎新成員，也用 bring someone aboard 表示延攬某人。",
+        "examples": [
+          {
+            "en": "Welcome aboard! We look forward to working with you.",
+            "zh": "歡迎加入！我們期待與你共事。"
+          }
+        ]
       }
     ],
     "tags": [
       "dictionary",
       "toefl"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -247,9 +400,15 @@
       {
         "id": "s_abolish_verb",
         "partOfSpeech": "verb",
-        "definitionEn": "do away with",
-        "definitionZh": "廢止；革除；消滅",
-        "examples": []
+        "definitionEn": "to officially end a law, system, or practice",
+        "definitionZh": "正式廢除法律、制度或慣例",
+        "usageExplanationZh": "常接 law、slavery、tax 等制度性事物；不用於取消單次會議，後者通常用 cancel。",
+        "examples": [
+          {
+            "en": "The government voted to abolish the outdated law.",
+            "zh": "政府表決通過廢除這項過時的法律。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -258,6 +417,7 @@
       "gre",
       "ielts"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -277,9 +437,15 @@
       {
         "id": "s_abolition_noun",
         "partOfSpeech": "noun",
-        "definitionEn": "the act of abolishing a system or practice or institution (especially abolishing slavery)",
-        "definitionZh": "廢除；廢奴運動",
-        "examples": []
+        "definitionEn": "the official ending of a law, system, or practice",
+        "definitionZh": "法律、制度或慣例的廢除",
+        "usageExplanationZh": "通常不可數，常用 the abolition of；談歷史時，the abolition of slavery 指廢除奴隸制度。",
+        "examples": [
+          {
+            "en": "The abolition of slavery did not immediately end racial discrimination.",
+            "zh": "奴隸制度的廢除並未立即終結種族歧視。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -287,6 +453,7 @@
       "toefl",
       "gre"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -306,9 +473,28 @@
       {
         "id": "s_aboriginal_adjective",
         "partOfSpeech": "adjective",
-        "definitionEn": "of or pertaining to members of the indigenous people of Australia; having existed from the beginning; in an earliest or original stage or state",
-        "definitionZh": "原始的；土著的",
-        "examples": []
+        "definitionEn": "relating to the Indigenous peoples of Australia",
+        "definitionZh": "澳洲原住民族的",
+        "usageExplanationZh": "指澳洲原住民族時通常大寫為 Aboriginal；應尊重當事人的族名與自我稱呼。",
+        "examples": [
+          {
+            "en": "The exhibition features works by Aboriginal artists.",
+            "zh": "這場展覽展出澳洲原住民族藝術家的作品。"
+          }
+        ]
+      },
+      {
+        "id": "s_aboriginal_adjective_original",
+        "partOfSpeech": "adjective",
+        "definitionEn": "existing in a place from the earliest known times",
+        "definitionZh": "自最早時期便存在於當地的；原生的",
+        "usageExplanationZh": "此義較少見，多用於歷史或學術語境；不應將原住民族概括譯成「原始的」。",
+        "examples": [
+          {
+            "en": "The study examines the island's aboriginal flora.",
+            "zh": "這項研究探討該島的原生植物群。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -316,6 +502,7 @@
       "gre",
       "ielts"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -335,16 +522,41 @@
       {
         "id": "s_abrasive_noun",
         "partOfSpeech": "noun",
-        "definitionEn": "a substance that abrades or wears down",
-        "definitionZh": "研磨料",
-        "examples": []
+        "definitionEn": "a material used to rub a surface smooth or clean",
+        "definitionZh": "研磨材料；磨料",
+        "usageExplanationZh": "可數或不可數，常見於清潔及加工語境；sandpaper 是一種 abrasive。",
+        "examples": [
+          {
+            "en": "Use a mild abrasive to remove the stain without scratching the surface.",
+            "zh": "使用溫和的研磨清潔材料去除污漬，以免刮傷表面。"
+          }
+        ]
       },
       {
         "id": "s_abrasive_adjective",
         "partOfSpeech": "adjective",
-        "definitionEn": "causing abrasion",
+        "definitionEn": "able to wear away or clean a surface by rubbing",
         "definitionZh": "有研磨作用的",
-        "examples": []
+        "usageExplanationZh": "常修飾 material、pad 或 cleaner，指能藉摩擦磨除表面物質。",
+        "examples": [
+          {
+            "en": "Do not use abrasive cleaners on the glass.",
+            "zh": "不要在玻璃上使用研磨性清潔劑。"
+          }
+        ]
+      },
+      {
+        "id": "s_abrasive_adjective_manner",
+        "partOfSpeech": "adjective",
+        "definitionEn": "rude and harsh in a way that irritates other people",
+        "definitionZh": "態度粗魯刺人的",
+        "usageExplanationZh": "形容人或說話方式，常見 abrasive manner 或 abrasive personality；比單純的 direct 更負面。",
+        "examples": [
+          {
+            "en": "Her abrasive tone made the discussion unnecessarily tense.",
+            "zh": "她刺人的語氣讓討論變得不必要地緊張。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -352,6 +564,7 @@
       "toefl",
       "gre"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -371,9 +584,41 @@
       {
         "id": "s_abrupt_adjective",
         "partOfSpeech": "adjective",
-        "definitionEn": "marked by sudden changes in subject and sharp transitions; exceedingly sudden and unexpected; extremely steep; surprisingly and unceremoniously brusque in manner",
-        "definitionZh": "突然的；唐突的；陡峭的；不連貫的",
-        "examples": []
+        "definitionEn": "sudden and unexpected",
+        "definitionZh": "突然的；出乎意料的",
+        "usageExplanationZh": "常見 an abrupt change 或 come to an abrupt end，強調轉變缺乏過渡。",
+        "examples": [
+          {
+            "en": "The meeting came to an abrupt end when the power failed.",
+            "zh": "停電使會議突然中止。"
+          }
+        ]
+      },
+      {
+        "id": "s_abrupt_adjective_manner",
+        "partOfSpeech": "adjective",
+        "definitionEn": "brief and unfriendly in speech or manner",
+        "definitionZh": "言行簡短而生硬的；唐突的",
+        "usageExplanationZh": "常用 be abrupt with someone，表示對某人的回應生硬，可能令人覺得無禮。",
+        "examples": [
+          {
+            "en": "I am sorry I was so abrupt with you earlier.",
+            "zh": "抱歉，我剛才對你的態度太生硬了。"
+          }
+        ]
+      },
+      {
+        "id": "s_abrupt_adjective_slope",
+        "partOfSpeech": "adjective",
+        "definitionEn": "very steep or changing level sharply",
+        "definitionZh": "陡峭的；坡度驟變的",
+        "usageExplanationZh": "常修飾 slope、rise 或 descent；描述地勢時比 steep 更強調突然變陡。",
+        "examples": [
+          {
+            "en": "An abrupt descent begins just beyond the ridge.",
+            "zh": "越過稜線後，地勢便急遽下降。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -382,6 +627,7 @@
       "gre",
       "ielts"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -401,15 +647,22 @@
       {
         "id": "s_abscond_verb",
         "partOfSpeech": "verb",
-        "definitionEn": "run away; usually includes taking something or somebody along",
+        "definitionEn": "to leave secretly to escape capture or avoid a duty, sometimes taking something",
         "definitionZh": "潛逃；逃匿",
-        "examples": []
+        "usageExplanationZh": "不及物動詞；abscond from 指逃離某處，abscond with money 指攜款潛逃。",
+        "examples": [
+          {
+            "en": "The treasurer absconded with the association's funds.",
+            "zh": "財務主管帶著協會的資金潛逃了。"
+          }
+        ]
       }
     ],
     "tags": [
       "dictionary",
       "gre"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -429,15 +682,48 @@
       {
         "id": "s_absence_noun",
         "partOfSpeech": "noun",
-        "definitionEn": "the state of being absent; failure to be present; the time interval during which something or somebody is away; the occurrence of an abrupt, transient loss or impairment of consciousness (which is not subsequently remembered), sometimes with light twitching, fluttering eyelids, etc.; common in petit mal epilepsy",
-        "definitionZh": "缺席；缺乏；沒有",
-        "examples": []
+        "definitionEn": "the state or period of being away from a place",
+        "definitionZh": "缺席；不在場的期間",
+        "usageExplanationZh": "常用 absence from work 或 during someone's absence；leave of absence 指准假的離崗期間。",
+        "examples": [
+          {
+            "en": "During her absence, a colleague handled urgent requests.",
+            "zh": "她不在的期間，由一位同事處理緊急請求。"
+          }
+        ]
+      },
+      {
+        "id": "s_absence_noun_lack",
+        "partOfSpeech": "noun",
+        "definitionEn": "the lack or nonexistence of something",
+        "definitionZh": "缺乏；不存在",
+        "usageExplanationZh": "用 the absence of something；in the absence of evidence 表示在缺乏證據的情況下。",
+        "examples": [
+          {
+            "en": "The absence of clear instructions caused confusion.",
+            "zh": "缺乏明確指示造成了混亂。"
+          }
+        ]
+      },
+      {
+        "id": "s_absence_noun_seizure",
+        "partOfSpeech": "noun",
+        "definitionEn": "a brief seizure involving a sudden loss of awareness",
+        "definitionZh": "失神發作",
+        "usageExplanationZh": "醫學上通常用 absence seizure，指短暫失去對周遭的意識；不可與一般的心不在焉混為一談。",
+        "examples": [
+          {
+            "en": "The neurologist explained that an absence seizure can last only a few seconds.",
+            "zh": "神經科醫師說明，失神發作可能只持續幾秒鐘。"
+          }
+        ]
       }
     ],
     "tags": [
       "dictionary",
       "toefl"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -457,9 +743,15 @@
       {
         "id": "s_absenteeism_noun",
         "partOfSpeech": "noun",
-        "definitionEn": "habitual absence from work",
-        "definitionZh": "經常無故缺席；曠職；曠工；曠課",
-        "examples": []
+        "definitionEn": "the practice of frequently being absent from work or school",
+        "definitionZh": "經常缺勤或缺課的現象",
+        "usageExplanationZh": "不可數名詞，常見 employee absenteeism 或 a high rate of absenteeism；具體原因可能包括健康或工作環境問題。",
+        "examples": [
+          {
+            "en": "The company introduced flexible hours to reduce absenteeism.",
+            "zh": "公司引進彈性工時，以減少員工缺勤。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -467,6 +759,7 @@
       "toefl",
       "gre"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -486,16 +779,54 @@
       {
         "id": "s_absolute_adjective",
         "partOfSpeech": "adjective",
-        "definitionEn": "perfect or complete or pure; complete and without restriction or qualification; sometimes used informally as intensifiers; not limited by law",
-        "definitionZh": "絕對的；專制的；完全的；獨立的",
-        "examples": []
+        "definitionEn": "complete or total",
+        "definitionZh": "完全的；十足的",
+        "usageExplanationZh": "常修飾 certainty、silence 或 disaster；此義通常不用 very 或比較級。",
+        "examples": [
+          {
+            "en": "We cannot predict the outcome with absolute certainty.",
+            "zh": "我們無法完全確定地預測結果。"
+          }
+        ]
+      },
+      {
+        "id": "s_absolute_adjective_power",
+        "partOfSpeech": "adjective",
+        "definitionEn": "not restricted by laws or other authorities",
+        "definitionZh": "權力不受限制的；專制的",
+        "usageExplanationZh": "常見 absolute power 或 absolute monarchy，指權力缺乏法律或其他機構的制衡。",
+        "examples": [
+          {
+            "en": "The constitution prevents any leader from gaining absolute power.",
+            "zh": "憲法防止任何領導者取得不受限制的權力。"
+          }
+        ]
+      },
+      {
+        "id": "s_absolute_adjective_measure",
+        "partOfSpeech": "adjective",
+        "definitionEn": "measured independently rather than in relation to something else",
+        "definitionZh": "絕對的；非相對的",
+        "usageExplanationZh": "常與 relative 對比；an absolute increase 指實際增加量，a relative increase 通常指相對比例。",
+        "examples": [
+          {
+            "en": "Sales rose in absolute terms but fell as a share of the market.",
+            "zh": "銷售額的絕對數值增加了，但市場占有率卻下降了。"
+          }
+        ]
       },
       {
         "id": "s_absolute_noun",
         "partOfSpeech": "noun",
-        "definitionEn": "something that is conceived or that exists independently and not in relation to other things; something that does not depend on anything else and is beyond human control; something that is not relative",
-        "definitionZh": "絕對事物",
-        "examples": []
+        "definitionEn": "a principle or thing regarded as independent of conditions or circumstances",
+        "definitionZh": "不受條件限制的原則或事物",
+        "usageExplanationZh": "可數名詞，常見 moral absolutes；哲學中的 the Absolute 則指絕對者或終極實在。",
+        "examples": [
+          {
+            "en": "The philosopher questioned whether moral absolutes exist.",
+            "zh": "這位哲學家質疑是否存在絕對的道德原則。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -503,6 +834,7 @@
       "toefl",
       "gre"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -522,9 +854,15 @@
       {
         "id": "s_absolve_verb",
         "partOfSpeech": "verb",
-        "definitionEn": "let off the hook",
-        "definitionZh": "宣告...無罪；赦免；免除",
-        "examples": []
+        "definitionEn": "to declare someone free from guilt, blame, or responsibility",
+        "definitionZh": "免除罪責、責難或責任",
+        "usageExplanationZh": "常用 absolve someone of blame 或 absolve someone from responsibility；被動形式也很常見。",
+        "examples": [
+          {
+            "en": "The investigation did not absolve the manager of responsibility.",
+            "zh": "這項調查並未免除經理的責任。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -532,6 +870,7 @@
       "toefl",
       "gre"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -551,9 +890,67 @@
       {
         "id": "s_absorb_verb",
         "partOfSpeech": "verb",
-        "definitionEn": "become imbued; take up mentally; take up, as of debts or payments; take in, also metaphorically",
-        "definitionZh": "吸收；使全神貫注；同化；買進；理解；承受；忍受；承擔",
-        "examples": []
+        "definitionEn": "to take in liquid, gas, heat, light, or another substance or form of energy",
+        "definitionZh": "吸收物質或能量",
+        "usageExplanationZh": "及物動詞，常接 water、heat 或 light；不需加介系詞。",
+        "examples": [
+          {
+            "en": "The towel quickly absorbed the spilled water.",
+            "zh": "毛巾迅速吸收了灑出來的水。"
+          }
+        ]
+      },
+      {
+        "id": "s_absorb_verb_information",
+        "partOfSpeech": "verb",
+        "definitionEn": "to take in and understand information",
+        "definitionZh": "吸收並理解資訊",
+        "usageExplanationZh": "常接 information、knowledge 或 details，強調理解所接收的內容。",
+        "examples": [
+          {
+            "en": "Students need time to absorb new information.",
+            "zh": "學生需要時間吸收新資訊。"
+          }
+        ]
+      },
+      {
+        "id": "s_absorb_verb_attention",
+        "partOfSpeech": "verb",
+        "definitionEn": "to hold someone's attention completely",
+        "definitionZh": "使全神貫注",
+        "usageExplanationZh": "常用 be absorbed in something 表示專注於某事；in 後可接名詞或動名詞。",
+        "examples": [
+          {
+            "en": "She was so absorbed in the novel that she missed her stop.",
+            "zh": "她看小說看得太入迷，以致坐過了站。"
+          }
+        ]
+      },
+      {
+        "id": "s_absorb_verb_cost",
+        "partOfSpeech": "verb",
+        "definitionEn": "to bear a cost or loss without passing it on to others",
+        "definitionZh": "自行承擔費用或損失",
+        "usageExplanationZh": "商務中常用 absorb costs 或 absorb losses，表示由自己消化支出，不轉嫁給他人。",
+        "examples": [
+          {
+            "en": "The retailer decided to absorb the extra shipping costs.",
+            "zh": "零售商決定自行承擔額外運費。"
+          }
+        ]
+      },
+      {
+        "id": "s_absorb_verb_integrate",
+        "partOfSpeech": "verb",
+        "definitionEn": "to incorporate something into a larger group or system",
+        "definitionZh": "吸納；併入",
+        "usageExplanationZh": "常用 absorb something into something；被動式 be absorbed into 指被納入更大的組織。",
+        "examples": [
+          {
+            "en": "The smaller firm was absorbed into a multinational company.",
+            "zh": "這家小公司被併入一家跨國企業。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -562,6 +959,7 @@
       "gre",
       "ielts"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -581,15 +979,35 @@
       {
         "id": "s_absorption_noun",
         "partOfSpeech": "noun",
-        "definitionEn": "(chemistry) a process in which one substance permeates another; a fluid permeates or is dissolved by a liquid or solid; (physics) the process in which incident radiated energy is retained without reflection or transmission on passing through a medium",
-        "definitionZh": "吸收；專心；全神貫注",
-        "examples": []
+        "definitionEn": "the process of taking in a substance or energy",
+        "definitionZh": "物質或能量的吸收",
+        "usageExplanationZh": "不可數名詞；常用 the absorption of nutrients 或 light absorption，介系詞 of 引出被吸收的事物。",
+        "examples": [
+          {
+            "en": "Vitamin D helps the absorption of calcium.",
+            "zh": "維生素 D 有助於鈣質的吸收。"
+          }
+        ]
+      },
+      {
+        "id": "s_absorption_noun_attention",
+        "partOfSpeech": "noun",
+        "definitionEn": "complete attention to an activity or subject",
+        "definitionZh": "全神貫注；專心投入",
+        "usageExplanationZh": "常用 absorption in，後接活動或主題；與物理上的吸收義分開理解。",
+        "examples": [
+          {
+            "en": "His absorption in the puzzle made him forget the time.",
+            "zh": "他全神貫注地解謎，忘了時間。"
+          }
+        ]
       }
     ],
     "tags": [
       "dictionary",
       "toefl"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -609,9 +1027,28 @@
       {
         "id": "s_abstain_verb",
         "partOfSpeech": "verb",
-        "definitionEn": "refrain from voting; choose not to consume",
-        "definitionZh": "自制；戒絕；棄權；迴避",
-        "examples": []
+        "definitionEn": "to choose not to vote for or against a proposal",
+        "definitionZh": "在表決中棄權",
+        "usageExplanationZh": "可單獨使用 abstain，也可用 abstain from voting；棄權不同於投反對票。",
+        "examples": [
+          {
+            "en": "Three committee members abstained from voting.",
+            "zh": "三名委員在表決中棄權。"
+          }
+        ]
+      },
+      {
+        "id": "s_abstain_verb_refrain",
+        "partOfSpeech": "verb",
+        "definitionEn": "to deliberately avoid consuming something or taking part in an activity",
+        "definitionZh": "自願戒除；避免參與",
+        "usageExplanationZh": "用 abstain from，後接名詞或動名詞，常見 abstain from alcohol；語氣較正式。",
+        "examples": [
+          {
+            "en": "He chose to abstain from alcohol during training.",
+            "zh": "他選擇在訓練期間不喝酒。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -619,6 +1056,7 @@
       "toefl",
       "gre"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -638,15 +1076,35 @@
       {
         "id": "s_abstention_noun",
         "partOfSpeech": "noun",
-        "definitionEn": "the trait of abstaining (especially from alcohol)",
-        "definitionZh": "戒絕；迴避；棄權",
-        "examples": []
+        "definitionEn": "the act of choosing not to vote for or against a proposal",
+        "definitionZh": "表決時的棄權",
+        "usageExplanationZh": "計算票數時可數，如 two abstentions；棄權者未對議案投贊成或反對票。",
+        "examples": [
+          {
+            "en": "The motion passed with twelve votes in favor and two abstentions.",
+            "zh": "議案以十二票贊成、兩票棄權通過。"
+          }
+        ]
+      },
+      {
+        "id": "s_abstention_noun_refrain",
+        "partOfSpeech": "noun",
+        "definitionEn": "deliberate avoidance of a substance or activity",
+        "definitionZh": "有意的戒除或避免",
+        "usageExplanationZh": "較正式，常接 from；談長期戒酒時 abstinence 也很常用。",
+        "examples": [
+          {
+            "en": "The doctor recommended abstention from alcohol during treatment.",
+            "zh": "醫師建議治療期間戒酒。"
+          }
+        ]
       }
     ],
     "tags": [
       "dictionary",
       "gre"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -666,9 +1124,15 @@
       {
         "id": "s_abstruse_adjective",
         "partOfSpeech": "adjective",
-        "definitionEn": "difficult to penetrate; incomprehensible to one of ordinary understanding or knowledge",
-        "definitionZh": "難解的；深奧的",
-        "examples": []
+        "definitionEn": "difficult to understand because of complexity or unfamiliar ideas",
+        "definitionZh": "深奧難懂的",
+        "usageExplanationZh": "常修飾 theory、argument 或 text；不同於 abstract「抽象的」，抽象內容不一定難懂。",
+        "examples": [
+          {
+            "en": "The lecturer used diagrams to explain the abstruse theory.",
+            "zh": "講師用圖解說明這套深奧的理論。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -676,6 +1140,7 @@
       "toefl",
       "gre"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -695,16 +1160,28 @@
       {
         "id": "s_absurd_adjective",
         "partOfSpeech": "adjective",
-        "definitionEn": "inconsistent with reason or logic or common sense; incongruous; inviting ridicule",
-        "definitionZh": "荒謬的；不合理的；可笑的",
-        "examples": []
+        "definitionEn": "so unreasonable or illogical that it seems ridiculous",
+        "definitionZh": "荒謬的；不合常理的",
+        "usageExplanationZh": "常用 it is absurd to do something 或 an absurd claim，表示強烈不認同其合理性。",
+        "examples": [
+          {
+            "en": "It is absurd to expect one person to finish this in an hour.",
+            "zh": "期待一個人在一小時內完成這件事，實在荒謬。"
+          }
+        ]
       },
       {
         "id": "s_absurd_noun",
         "partOfSpeech": "noun",
-        "definitionEn": "a situation in which life seems irrational and meaningless",
-        "definitionZh": "荒誕",
-        "examples": []
+        "definitionEn": "the apparent irrationality or meaninglessness of human existence",
+        "definitionZh": "人生看似不合理或無意義的荒誕狀態",
+        "usageExplanationZh": "此義通常用 the absurd，常見於哲學與文學；theatre of the absurd 指荒誕派戲劇。",
+        "examples": [
+          {
+            "en": "The play explores the absurd through repetitive conversations.",
+            "zh": "這齣劇透過反覆的對話探討人生的荒誕。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -713,6 +1190,7 @@
       "gre",
       "ielts"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -732,9 +1210,28 @@
       {
         "id": "s_abundance_noun",
         "partOfSpeech": "noun",
-        "definitionEn": "the property of a more than adequate quantity or supply; (physics) the ratio of the number of atoms of a specific isotope of an element to the total number of isotopes present; (chemistry) the ratio of the total mass of an element in the earth's crust to the total mass of the earth's crust; expressed as a percentage or in parts per million",
-        "definitionZh": "豐富；充足；大量",
-        "examples": []
+        "definitionEn": "a very large quantity or plentiful supply",
+        "definitionZh": "豐富；大量",
+        "usageExplanationZh": "常用 an abundance of 加名詞，或 in abundance 表示數量充足；不要寫成 abundant of。",
+        "examples": [
+          {
+            "en": "The region has an abundance of fresh water.",
+            "zh": "這個地區有豐富的淡水資源。"
+          }
+        ]
+      },
+      {
+        "id": "s_abundance_noun_science",
+        "partOfSpeech": "noun",
+        "definitionEn": "the proportion of a particular element or isotope in a sample or environment",
+        "definitionZh": "元素或同位素的豐度",
+        "usageExplanationZh": "科學用語，常見 relative abundance；指所占比例，須依情境區分原子數比例或質量比例。",
+        "examples": [
+          {
+            "en": "The table lists the relative abundance of each isotope.",
+            "zh": "表格列出每種同位素的相對豐度。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -743,6 +1240,7 @@
       "gre",
       "ielts"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -762,9 +1260,15 @@
       {
         "id": "s_abundant_adjective",
         "partOfSpeech": "adjective",
-        "definitionEn": "present in great quantity",
-        "definitionZh": "豐富的；充分的；大量的",
-        "examples": []
+        "definitionEn": "present or available in large quantities",
+        "definitionZh": "豐富的；充足的",
+        "usageExplanationZh": "可放在名詞前，如 abundant evidence；也可用 be abundant in a region，表示在某地大量存在。",
+        "examples": [
+          {
+            "en": "Solar energy is abundant in this desert region.",
+            "zh": "這片沙漠地區有充足的太陽能。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -772,6 +1276,7 @@
       "toefl",
       "gre"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -791,16 +1296,80 @@
       {
         "id": "s_abuse_noun",
         "partOfSpeech": "noun",
-        "definitionEn": "a rude expression intended to offend or hurt",
-        "definitionZh": "濫用；虐待；惡習；辱罵",
-        "examples": []
+        "definitionEn": "the improper or harmful use of something",
+        "definitionZh": "濫用",
+        "usageExplanationZh": "常用 abuse of power 或 substance abuse；此義名詞末尾發 /s/，動詞末尾發 /z/。",
+        "examples": [
+          {
+            "en": "The report exposed an abuse of public funds.",
+            "zh": "報告揭露了公款遭濫用的情事。"
+          }
+        ]
+      },
+      {
+        "id": "s_abuse_noun_harm",
+        "partOfSpeech": "noun",
+        "definitionEn": "cruel or violent treatment of a person or animal",
+        "definitionZh": "虐待",
+        "usageExplanationZh": "常見 child abuse、physical abuse 或 emotional abuse；此義通常不可數。",
+        "examples": [
+          {
+            "en": "The shelter provides support for victims of domestic abuse.",
+            "zh": "庇護中心為家庭虐待的受害者提供支援。"
+          }
+        ]
+      },
+      {
+        "id": "s_abuse_noun_words",
+        "partOfSpeech": "noun",
+        "definitionEn": "rude or offensive language directed at someone",
+        "definitionZh": "辱罵；惡言相向",
+        "usageExplanationZh": "不可數名詞，常用 verbal abuse 或 a stream of abuse，指攻擊他人的言語。",
+        "examples": [
+          {
+            "en": "Staff should not have to endure verbal abuse from customers.",
+            "zh": "員工不應被迫忍受顧客的辱罵。"
+          }
+        ]
       },
       {
         "id": "s_abuse_verb",
         "partOfSpeech": "verb",
-        "definitionEn": "use foul or abusive language towards; use wrongly or improperly or excessively",
-        "definitionZh": "濫用；辱罵；虐待",
-        "examples": []
+        "definitionEn": "to use something wrongly or harmfully",
+        "definitionZh": "濫用",
+        "usageExplanationZh": "及物動詞，常接 power、trust 或 drugs；動詞末尾發 /z/，與名詞的 /s/ 不同。",
+        "examples": [
+          {
+            "en": "Officials must not abuse their authority.",
+            "zh": "官員不得濫用職權。"
+          }
+        ]
+      },
+      {
+        "id": "s_abuse_verb_harm",
+        "partOfSpeech": "verb",
+        "definitionEn": "to treat a person or animal cruelly or violently",
+        "definitionZh": "虐待",
+        "usageExplanationZh": "直接接受害者作受詞；可用 physically 或 emotionally 說明虐待的形式。",
+        "examples": [
+          {
+            "en": "The investigation found that workers had abused the animals.",
+            "zh": "調查發現，工作人員曾虐待這些動物。"
+          }
+        ]
+      },
+      {
+        "id": "s_abuse_verb_words",
+        "partOfSpeech": "verb",
+        "definitionEn": "to address someone with insulting or offensive language",
+        "definitionZh": "辱罵",
+        "usageExplanationZh": "常用 verbally abuse someone；此義強調用言語攻擊，不是單純提出批評。",
+        "examples": [
+          {
+            "en": "A spectator verbally abused the referee after the match.",
+            "zh": "一名觀眾在比賽後辱罵裁判。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -809,6 +1378,7 @@
       "gre",
       "ielts"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -828,15 +1398,35 @@
       {
         "id": "s_academy_noun",
         "partOfSpeech": "noun",
-        "definitionEn": "a secondary school (usually private); an institution for the advancement of art or science or literature; a school for special training; a learned establishment for the advancement of knowledge",
-        "definitionZh": "學院；院校；學會",
-        "examples": []
+        "definitionEn": "a school providing general education or specialized training",
+        "definitionZh": "學校；專業學院",
+        "usageExplanationZh": "可數名詞，常見 military academy 或 police academy；英美教育制度中的 academy 未必相同。",
+        "examples": [
+          {
+            "en": "She completed her training at the police academy.",
+            "zh": "她在警察學院完成了訓練。"
+          }
+        ]
+      },
+      {
+        "id": "s_academy_noun_society",
+        "partOfSpeech": "noun",
+        "definitionEn": "an organization that promotes science, literature, or the arts",
+        "definitionZh": "促進科學、文學或藝術的學會或學院",
+        "usageExplanationZh": "常出現在正式機構名稱中，如 an academy of sciences；不一定是提供學位的學校。",
+        "examples": [
+          {
+            "en": "The academy elected three new members this year.",
+            "zh": "該學會今年選出了三名新會員。"
+          }
+        ]
       }
     ],
     "tags": [
       "dictionary",
       "toefl"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -856,15 +1446,48 @@
       {
         "id": "s_accede_verb",
         "partOfSpeech": "verb",
-        "definitionEn": "take on duties or office",
-        "definitionZh": "同意；正式加入；就任；繼任",
-        "examples": []
+        "definitionEn": "to take up a high office or become a ruler",
+        "definitionZh": "就任高位；即位",
+        "usageExplanationZh": "用 accede to the throne 或 accede to office；to 是介系詞。",
+        "examples": [
+          {
+            "en": "She acceded to the throne at the age of thirty.",
+            "zh": "她三十歲時即位。"
+          }
+        ]
+      },
+      {
+        "id": "s_accede_verb_agree",
+        "partOfSpeech": "verb",
+        "definitionEn": "to agree to a request or demand",
+        "definitionZh": "同意請求或要求",
+        "usageExplanationZh": "正式用法，常見 accede to a request 或 accede to demands；不可直接省略 to。",
+        "examples": [
+          {
+            "en": "The board refused to accede to the union's demands.",
+            "zh": "董事會拒絕同意工會的要求。"
+          }
+        ]
+      },
+      {
+        "id": "s_accede_verb_treaty",
+        "partOfSpeech": "verb",
+        "definitionEn": "to formally become a party to a treaty or agreement",
+        "definitionZh": "正式加入條約或協定",
+        "usageExplanationZh": "法律與外交用語，常用 accede to a treaty；名詞形式是 accession。",
+        "examples": [
+          {
+            "en": "The country agreed to accede to the international treaty.",
+            "zh": "該國同意正式加入這項國際條約。"
+          }
+        ]
       }
     ],
     "tags": [
       "dictionary",
       "gre"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -884,9 +1507,28 @@
       {
         "id": "s_accelerate_verb",
         "partOfSpeech": "verb",
-        "definitionEn": "cause to move faster",
-        "definitionZh": "加速；促進",
-        "examples": []
+        "definitionEn": "to move faster or cause something to move faster",
+        "definitionZh": "加速移動；使加速",
+        "usageExplanationZh": "可及物或不及物；車輛加速可直接用 accelerate，減速則用 decelerate。",
+        "examples": [
+          {
+            "en": "The train accelerated as it left the station.",
+            "zh": "火車離站時加快了速度。"
+          }
+        ]
+      },
+      {
+        "id": "s_accelerate_verb_process",
+        "partOfSpeech": "verb",
+        "definitionEn": "to happen more quickly or make a process happen more quickly",
+        "definitionZh": "加快進程；促使更快發生",
+        "usageExplanationZh": "常見 accelerate growth、accelerate development，強調進行速度提高。",
+        "examples": [
+          {
+            "en": "The new equipment will accelerate the testing process.",
+            "zh": "新設備將加快測試流程。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -895,6 +1537,7 @@
       "gre",
       "ielts"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -914,9 +1557,28 @@
       {
         "id": "s_accentuate_verb",
         "partOfSpeech": "verb",
-        "definitionEn": "to stress, single out as important; put stress on; utter with an accent",
-        "definitionZh": "以重音念；強調；重讀",
-        "examples": []
+        "definitionEn": "to make a feature more noticeable or prominent",
+        "definitionZh": "突顯；使更明顯",
+        "usageExplanationZh": "常修飾外觀、差異或問題，與 emphasize 相近，但常強調某項特徵變得更顯著。",
+        "examples": [
+          {
+            "en": "The lighting accentuates the texture of the stone.",
+            "zh": "燈光突顯了石材的紋理。"
+          }
+        ]
+      },
+      {
+        "id": "s_accentuate_verb_stress",
+        "partOfSpeech": "verb",
+        "definitionEn": "to place vocal stress on a syllable or word",
+        "definitionZh": "重讀音節或詞語",
+        "usageExplanationZh": "語音學用法，比日常的 stress 較少見；不要把「加重音」與「帶口音」混淆。",
+        "examples": [
+          {
+            "en": "The speaker accentuated the final word for emphasis.",
+            "zh": "說話者重讀最後一個字以加強語氣。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -924,6 +1586,7 @@
       "toefl",
       "gre"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -943,9 +1606,41 @@
       {
         "id": "s_accessible_adjective",
         "partOfSpeech": "adjective",
-        "definitionEn": "capable of being reached; capable of being read with comprehension; easily obtained; easy to get along with or talk to; friendly",
-        "definitionZh": "易接近的；可進入的；可使用的；易受影響的；可理解的",
-        "examples": []
+        "definitionEn": "possible to reach, enter, or use",
+        "definitionZh": "可到達、進入或使用的",
+        "usageExplanationZh": "常用 accessible to 加使用者，或 accessible by 加交通方式；無障礙語境常見 wheelchair-accessible。",
+        "examples": [
+          {
+            "en": "The museum is accessible to wheelchair users.",
+            "zh": "輪椅使用者可以無障礙地進入及使用這座博物館。"
+          }
+        ]
+      },
+      {
+        "id": "s_accessible_adjective_understand",
+        "partOfSpeech": "adjective",
+        "definitionEn": "easy to understand",
+        "definitionZh": "容易理解的",
+        "usageExplanationZh": "常修飾 explanation、writing 或 introduction；accessible to beginners 指初學者也看得懂。",
+        "examples": [
+          {
+            "en": "The author makes complex science accessible to young readers.",
+            "zh": "作者讓年輕讀者也能理解複雜的科學知識。"
+          }
+        ]
+      },
+      {
+        "id": "s_accessible_adjective_person",
+        "partOfSpeech": "adjective",
+        "definitionEn": "easy to contact or talk to",
+        "definitionZh": "容易聯繫或親近的",
+        "usageExplanationZh": "形容人願意溝通、方便接觸，常用 be accessible to students；與 approachable 相近。",
+        "examples": [
+          {
+            "en": "The professor is accessible to students outside class.",
+            "zh": "這位教授在課外也樂於與學生交流。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -954,6 +1649,7 @@
       "gre",
       "ielts"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -973,16 +1669,54 @@
       {
         "id": "s_accessory_noun",
         "partOfSpeech": "noun",
-        "definitionEn": "clothing that is worn or carried, but not part of your main clothing; a supplementary component that improves capability; someone who helps another person commit a crime",
-        "definitionZh": "附件；零件；附加物；從犯；同謀",
-        "examples": []
+        "definitionEn": "an item worn or carried to complement clothing",
+        "definitionZh": "服飾配件",
+        "usageExplanationZh": "可數名詞，常用複數 accessories；包括皮帶、圍巾、手袋等搭配服裝的物品。",
+        "examples": [
+          {
+            "en": "A simple scarf can be a useful accessory.",
+            "zh": "一條簡單的圍巾可以是實用的服飾配件。"
+          }
+        ]
+      },
+      {
+        "id": "s_accessory_noun_equipment",
+        "partOfSpeech": "noun",
+        "definitionEn": "an extra component that adds to the usefulness of a device",
+        "definitionZh": "設備的附加配件",
+        "usageExplanationZh": "常用 accessories for a camera 或 phone accessories；通常指主機以外的附加物。",
+        "examples": [
+          {
+            "en": "The shop sells cameras and accessories.",
+            "zh": "這家店販售相機及配件。"
+          }
+        ]
+      },
+      {
+        "id": "s_accessory_noun_crime",
+        "partOfSpeech": "noun",
+        "definitionEn": "a person who helps someone commit or conceal a crime",
+        "definitionZh": "幫助犯罪或掩飾犯罪的人；從犯",
+        "usageExplanationZh": "法律用語，常用 an accessory to a crime；accessory after the fact 指犯罪後協助逃避追訴的人。",
+        "examples": [
+          {
+            "en": "He was charged as an accessory to the robbery.",
+            "zh": "他被以這起搶案從犯的身分起訴。"
+          }
+        ]
       },
       {
         "id": "s_accessory_adjective",
         "partOfSpeech": "adjective",
-        "definitionEn": "furnishing added support",
-        "definitionZh": "附屬的；補充的；同謀的；幫兇的；非主要的；副的",
-        "examples": []
+        "definitionEn": "additional or supplementary rather than primary",
+        "definitionZh": "附加的；輔助的",
+        "usageExplanationZh": "技術語境常見 accessory equipment 或 accessory muscles，表示補充主要功能。",
+        "examples": [
+          {
+            "en": "Accessory muscles help with breathing during strenuous exercise.",
+            "zh": "劇烈運動時，輔助肌會協助呼吸。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -991,6 +1725,7 @@
       "gre",
       "ielts"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -1010,9 +1745,41 @@
       {
         "id": "s_accommodate_verb",
         "partOfSpeech": "verb",
-        "definitionEn": "provide with something desired or needed; have room for; hold without crowding; make (one thing) compatible with (another)",
-        "definitionZh": "使適應；調和；通融；容納；向...提供；適應",
-        "examples": []
+        "definitionEn": "to provide enough space or lodging for someone or something",
+        "definitionZh": "容納；提供住宿",
+        "usageExplanationZh": "常以建築物作主詞，接人數；也可用 accommodate guests 表示安排住宿。",
+        "examples": [
+          {
+            "en": "The hall can accommodate three hundred people.",
+            "zh": "這座大廳可容納三百人。"
+          }
+        ]
+      },
+      {
+        "id": "s_accommodate_verb_needs",
+        "partOfSpeech": "verb",
+        "definitionEn": "to adjust arrangements to meet someone's needs",
+        "definitionZh": "配合或滿足需求",
+        "usageExplanationZh": "常用 accommodate someone's needs 或 accommodate a request，指調整安排以提供便利。",
+        "examples": [
+          {
+            "en": "We changed the schedule to accommodate parents with young children.",
+            "zh": "我們調整了時程，以配合家有幼兒的家長。"
+          }
+        ]
+      },
+      {
+        "id": "s_accommodate_verb_adapt",
+        "partOfSpeech": "verb",
+        "definitionEn": "to adapt to a situation or make things compatible",
+        "definitionZh": "使適應；使相容",
+        "usageExplanationZh": "正式用法中可用 accommodate oneself to something，to 後接名詞。",
+        "examples": [
+          {
+            "en": "She gradually accommodated herself to the new routine.",
+            "zh": "她逐漸適應了新的日常作息。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -1021,6 +1788,7 @@
       "gre",
       "ielts"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -1040,9 +1808,41 @@
       {
         "id": "s_accompany_verb",
         "partOfSpeech": "verb",
-        "definitionEn": "go or travel along with",
-        "definitionZh": "陪伴；伴隨；補充；為...伴奏；伴奏；伴唱",
-        "examples": []
+        "definitionEn": "to go somewhere with someone",
+        "definitionZh": "陪同",
+        "usageExplanationZh": "直接接受詞，用 accompany someone；不要在此結構中加 with。",
+        "examples": [
+          {
+            "en": "A nurse accompanied the patient to the examination room.",
+            "zh": "一位護理師陪同病人前往檢查室。"
+          }
+        ]
+      },
+      {
+        "id": "s_accompany_verb_occur",
+        "partOfSpeech": "verb",
+        "definitionEn": "to happen or be present together with something",
+        "definitionZh": "伴隨發生或出現",
+        "usageExplanationZh": "常用 be accompanied by；描述兩件事一起出現，不必然表示因果關係。",
+        "examples": [
+          {
+            "en": "The fever was accompanied by a severe headache.",
+            "zh": "發燒伴隨著劇烈頭痛。"
+          }
+        ]
+      },
+      {
+        "id": "s_accompany_verb_music",
+        "partOfSpeech": "verb",
+        "definitionEn": "to play music in support of a singer or another musician",
+        "definitionZh": "為歌手或演奏者伴奏",
+        "usageExplanationZh": "用 accompany someone on 加樂器；不是單純同時演奏，而是提供伴奏。",
+        "examples": [
+          {
+            "en": "Her brother accompanied her on the piano.",
+            "zh": "她的哥哥用鋼琴為她伴奏。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -1051,6 +1851,7 @@
       "gre",
       "ielts"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -1070,9 +1871,15 @@
       {
         "id": "s_accomplish_verb",
         "partOfSpeech": "verb",
-        "definitionEn": "put in effect; to gain with effort",
-        "definitionZh": "完成；達到；實現；使完美",
-        "examples": []
+        "definitionEn": "to successfully complete a task or achieve a goal",
+        "definitionZh": "完成任務；達成目標",
+        "usageExplanationZh": "常接 task、goal 或 mission，強調經過努力而完成；不要用 accomplish to do。",
+        "examples": [
+          {
+            "en": "The team accomplished all its goals before the deadline.",
+            "zh": "團隊在期限前達成了所有目標。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -1081,6 +1888,7 @@
       "gre",
       "ielts"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -1100,15 +1908,35 @@
       {
         "id": "s_accomplishment_noun",
         "partOfSpeech": "noun",
-        "definitionEn": "the action of accomplishing something",
-        "definitionZh": "成就；完成",
-        "examples": []
+        "definitionEn": "something successfully achieved through effort",
+        "definitionZh": "成就；完成的成果",
+        "usageExplanationZh": "此義可數，常見 a major accomplishment；履歷中的 accomplishments 指具體成果。",
+        "examples": [
+          {
+            "en": "Completing the marathon was a major accomplishment for her.",
+            "zh": "跑完馬拉松對她而言是一大成就。"
+          }
+        ]
+      },
+      {
+        "id": "s_accomplishment_noun_completion",
+        "partOfSpeech": "noun",
+        "definitionEn": "the successful completion of a task or goal",
+        "definitionZh": "任務或目標的完成",
+        "usageExplanationZh": "此義不可數，常用 the accomplishment of a goal，焦點是完成的過程或事實。",
+        "examples": [
+          {
+            "en": "Careful planning is essential to the accomplishment of this task.",
+            "zh": "周詳規劃對完成這項任務至關重要。"
+          }
+        ]
       }
     ],
     "tags": [
       "dictionary",
       "toefl"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -1128,16 +1956,54 @@
       {
         "id": "s_accord_noun",
         "partOfSpeech": "noun",
-        "definitionEn": "concurrence of opinion; sympathetic compatibility",
-        "definitionZh": "一致；調和；協定",
-        "examples": []
+        "definitionEn": "a formal agreement between groups or countries",
+        "definitionZh": "正式協議；協定",
+        "usageExplanationZh": "可數名詞，常用 reach an accord 或 sign a peace accord。",
+        "examples": [
+          {
+            "en": "The two countries signed a trade accord.",
+            "zh": "兩國簽署了一項貿易協定。"
+          }
+        ]
+      },
+      {
+        "id": "s_accord_noun_harmony",
+        "partOfSpeech": "noun",
+        "definitionEn": "agreement or harmony in opinions or actions",
+        "definitionZh": "意見或行動的一致；協調",
+        "usageExplanationZh": "通常用 in accord with，表示與某事一致；of one's own accord 是固定片語，意為自願地。",
+        "examples": [
+          {
+            "en": "Her account is in accord with the available evidence.",
+            "zh": "她的陳述與現有證據一致。"
+          }
+        ]
       },
       {
         "id": "s_accord_verb",
         "partOfSpeech": "verb",
-        "definitionEn": "allow to have",
-        "definitionZh": "給與；使一致；相符合",
-        "examples": []
+        "definitionEn": "to give someone a particular right, status, or treatment",
+        "definitionZh": "給予權利、地位或待遇",
+        "usageExplanationZh": "正式用法，可用 accord someone something，或 accord something to someone。",
+        "examples": [
+          {
+            "en": "The law accords every defendant the right to legal representation.",
+            "zh": "法律賦予每位被告獲得法律代理的權利。"
+          }
+        ]
+      },
+      {
+        "id": "s_accord_verb_agree",
+        "partOfSpeech": "verb",
+        "definitionEn": "to be consistent with something",
+        "definitionZh": "與某事一致；相符",
+        "usageExplanationZh": "用 accord with，主詞常是說法、資料或行為；不可省略 with。",
+        "examples": [
+          {
+            "en": "These results accord with our earlier findings.",
+            "zh": "這些結果與我們先前的發現相符。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -1146,6 +2012,7 @@
       "gre",
       "ielts"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -1165,15 +2032,22 @@
       {
         "id": "s_accountability_noun",
         "partOfSpeech": "noun",
-        "definitionEn": "responsibility to someone or for some activity",
-        "definitionZh": "負有責任；可說明性",
-        "examples": []
+        "definitionEn": "the obligation to explain one's decisions and accept responsibility for their results",
+        "definitionZh": "說明決策並承擔結果的責任；問責",
+        "usageExplanationZh": "不可數名詞；accountability to 指須向誰負責，accountability for 指須對何事負責，不譯成「可說明性」。",
+        "examples": [
+          {
+            "en": "The policy aims to improve accountability for public spending.",
+            "zh": "這項政策旨在強化公共支出的問責機制。"
+          }
+        ]
       }
     ],
     "tags": [
       "dictionary",
       "gre"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -1193,9 +2067,15 @@
       {
         "id": "s_accountant_noun",
         "partOfSpeech": "noun",
-        "definitionEn": "someone who maintains and audits business accounts",
+        "definitionEn": "a person whose job is to prepare, examine, or maintain financial records",
         "definitionZh": "會計人員；會計師",
-        "examples": []
+        "usageExplanationZh": "可數名詞；accountant 不一定具有會計師證照，certified public accountant 才明確表示註冊會計師資格。",
+        "examples": [
+          {
+            "en": "The accountant checked the company's financial records.",
+            "zh": "會計人員核對了公司的財務紀錄。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -1203,6 +2083,7 @@
       "toefl",
       "ielts"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -1222,15 +2103,35 @@
       {
         "id": "s_accrue_verb",
         "partOfSpeech": "verb",
-        "definitionEn": "grow by addition; come into the possession of",
-        "definitionZh": "自然增加；產生",
-        "examples": []
+        "definitionEn": "to increase gradually over time, especially as interest or benefits",
+        "definitionZh": "逐漸累積，尤指利息或利益",
+        "usageExplanationZh": "可不及物，如 interest accrues；也可及物，如 accrue interest。常描述隨時間產生的增加。",
+        "examples": [
+          {
+            "en": "Interest accrues daily on the unpaid balance.",
+            "zh": "未清償的餘額每天都會產生利息。"
+          }
+        ]
+      },
+      {
+        "id": "s_accrue_verb_receive",
+        "partOfSpeech": "verb",
+        "definitionEn": "to become available to someone as a benefit or right",
+        "definitionZh": "利益或權利歸於某人",
+        "usageExplanationZh": "正式用法，常用 benefits accrue to someone，to 引出獲益者。",
+        "examples": [
+          {
+            "en": "Most of the benefits accrued to large investors.",
+            "zh": "大部分利益都歸於大型投資者。"
+          }
+        ]
       }
     ],
     "tags": [
       "dictionary",
       "gre"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -1250,9 +2151,15 @@
       {
         "id": "s_accumulate_verb",
         "partOfSpeech": "verb",
-        "definitionEn": "collect or gather",
-        "definitionZh": "積聚；堆積",
-        "examples": []
+        "definitionEn": "to collect or build up gradually over time",
+        "definitionZh": "逐漸累積；積聚",
+        "usageExplanationZh": "可及物或不及物；accumulate experience 指累積經驗，dust accumulates 指灰塵漸漸堆積。",
+        "examples": [
+          {
+            "en": "Dust accumulated on the unused shelves.",
+            "zh": "閒置的架子上逐漸積滿灰塵。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -1261,6 +2168,7 @@
       "gre",
       "ielts"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -1280,15 +2188,35 @@
       {
         "id": "s_accumulation_noun",
         "partOfSpeech": "noun",
-        "definitionEn": "the act of accumulating; (finance) profits that are not paid out as dividends but are added to the capital base of the corporation",
-        "definitionZh": "積聚；累積；積聚物",
-        "examples": []
+        "definitionEn": "the gradual collection or buildup of something, or the amount collected",
+        "definitionZh": "累積；積聚的量或物",
+        "usageExplanationZh": "過程通常不可數；指一批積聚物時可用 an accumulation of，例如 an accumulation of dust。",
+        "examples": [
+          {
+            "en": "The accumulation of snow forced the road to close.",
+            "zh": "積雪迫使道路封閉。"
+          }
+        ]
+      },
+      {
+        "id": "s_accumulation_noun_finance",
+        "partOfSpeech": "noun",
+        "definitionEn": "the retention of profits to increase a company's capital rather than distribute them",
+        "definitionZh": "將利潤留存以增加公司資本",
+        "usageExplanationZh": "財務語境可用 accumulation of profits；一般財報更常見 retained earnings「保留盈餘」。",
+        "examples": [
+          {
+            "en": "The accumulation of profits strengthened the company's capital base.",
+            "zh": "利潤的留存強化了公司的資本基礎。"
+          }
+        ]
       }
     ],
     "tags": [
       "dictionary",
       "toefl"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -1308,9 +2236,28 @@
       {
         "id": "s_accuracy_noun",
         "partOfSpeech": "noun",
-        "definitionEn": "the quality of being near to the true value; (mathematics) the number of significant figures given in a number",
-        "definitionZh": "精確；正確",
-        "examples": []
+        "definitionEn": "the degree to which information or a measurement agrees with the truth or correct value",
+        "definitionZh": "正確性；準確度",
+        "usageExplanationZh": "不可數名詞，常見 check the accuracy of；測量中 accuracy 指接近真值，precision 則常指重複測量結果的一致程度。",
+        "examples": [
+          {
+            "en": "We checked the accuracy of the figures before publication.",
+            "zh": "我們在發布前核對了數據的準確性。"
+          }
+        ]
+      },
+      {
+        "id": "s_accuracy_noun_digits",
+        "partOfSpeech": "noun",
+        "definitionEn": "the level of exactness specified for a numerical result",
+        "definitionZh": "數值結果所要求的精確程度",
+        "usageExplanationZh": "常用 to an accuracy of，後接位數或誤差範圍；四捨五入的位數本身不保證測量接近真值。",
+        "examples": [
+          {
+            "en": "Give the result to an accuracy of three decimal places.",
+            "zh": "請將結果表示到小數點後三位。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -1319,6 +2266,7 @@
       "gre",
       "ielts"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -1338,9 +2286,15 @@
       {
         "id": "s_accurate_adjective",
         "partOfSpeech": "adjective",
-        "definitionEn": "conforming exactly or almost exactly to fact or to a standard or performing with total accuracy; (of ideas, images, representations, expressions) characterized by perfect conformity to fact or truth; strictly correct",
-        "definitionZh": "正確的；精確的",
-        "examples": []
+        "definitionEn": "correct and consistent with facts or the true value",
+        "definitionZh": "正確的；準確的",
+        "usageExplanationZh": "常修飾 information、description 或 measurement；副詞為 accurately，名詞為 accuracy。",
+        "examples": [
+          {
+            "en": "The witness gave an accurate description of the vehicle.",
+            "zh": "目擊者準確描述了那輛車。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -1349,6 +2303,7 @@
       "gre",
       "ielts"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -1368,15 +2323,22 @@
       {
         "id": "s_accusation_noun",
         "partOfSpeech": "noun",
-        "definitionEn": "a formal charge of wrongdoing brought against a person; the act of imputing blame or guilt; an assertion that someone is guilty of a fault or offence",
-        "definitionZh": "控告；指控；指責",
-        "examples": []
+        "definitionEn": "a statement that someone has done something wrong or illegal",
+        "definitionZh": "指控；指責",
+        "usageExplanationZh": "可數名詞，常見 make an accusation 或 an accusation of theft；指控不等於已證實有罪。",
+        "examples": [
+          {
+            "en": "She denied the accusation that she had altered the records.",
+            "zh": "她否認了竄改紀錄的指控。"
+          }
+        ]
       }
     ],
     "tags": [
       "dictionary",
       "toefl"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -1396,9 +2358,15 @@
       {
         "id": "s_accuse_verb",
         "partOfSpeech": "verb",
-        "definitionEn": "bring an accusation against; level a charge against",
-        "definitionZh": "指責；控告；歸咎於",
-        "examples": []
+        "definitionEn": "to say that someone has done something wrong or illegal",
+        "definitionZh": "指控；指責",
+        "usageExplanationZh": "用 accuse someone of something 或 of doing something；不能寫成 accuse someone for。",
+        "examples": [
+          {
+            "en": "They accused the supplier of delivering defective parts.",
+            "zh": "他們指責供應商交付了有瑕疵的零件。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -1407,6 +2375,7 @@
       "gre",
       "ielts"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -1426,9 +2395,28 @@
       {
         "id": "s_achievement_noun",
         "partOfSpeech": "noun",
-        "definitionEn": "the action of accomplishing something",
-        "definitionZh": "完成；成就；功業",
-        "examples": []
+        "definitionEn": "something successfully done through effort or skill",
+        "definitionZh": "成就；成果",
+        "usageExplanationZh": "此義可數，常用 a remarkable achievement；可指一次成果或長期努力的成就。",
+        "examples": [
+          {
+            "en": "Winning the scholarship was an important achievement.",
+            "zh": "獲得獎學金是一項重要的成就。"
+          }
+        ]
+      },
+      {
+        "id": "s_achievement_noun_attainment",
+        "partOfSpeech": "noun",
+        "definitionEn": "the successful attainment of a goal or standard",
+        "definitionZh": "目標或標準的達成",
+        "usageExplanationZh": "此義不可數，常用 the achievement of a goal；academic achievement 指學業表現或成就。",
+        "examples": [
+          {
+            "en": "Regular feedback supports the achievement of learning goals.",
+            "zh": "定期回饋有助於達成學習目標。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -1436,6 +2424,7 @@
       "toefl",
       "ielts"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -1455,16 +2444,54 @@
       {
         "id": "s_acid_noun",
         "partOfSpeech": "noun",
-        "definitionEn": "any of various water-soluble compounds having a sour taste and capable of turning litmus red and reacting with a base to form a salt; street name for lysergic acid diethylamide",
-        "definitionZh": "酸；酸類物質；尖刻；迷幻藥",
-        "examples": []
+        "definitionEn": "a substance that donates protons in a chemical reaction or forms hydrogen ions in water",
+        "definitionZh": "酸；能提供質子或在水中形成氫離子的物質",
+        "usageExplanationZh": "可數或不可數，常見 citric acid「檸檬酸」；酸的定義依化學理論而異，此處採常見的質子酸概念。",
+        "examples": [
+          {
+            "en": "Lemon juice contains citric acid.",
+            "zh": "檸檬汁含有檸檬酸。"
+          }
+        ]
+      },
+      {
+        "id": "s_acid_noun_drug",
+        "partOfSpeech": "noun",
+        "definitionEn": "the hallucinogenic drug LSD",
+        "definitionZh": "迷幻藥 LSD",
+        "usageExplanationZh": "非正式且不可數的名稱；閱讀時依上下文判斷，不可把化學語境的 acid 一律理解成毒品。",
+        "examples": [
+          {
+            "en": "The documentary discusses the cultural history of acid.",
+            "zh": "這部紀錄片探討迷幻藥 LSD 的文化歷史。"
+          }
+        ]
       },
       {
         "id": "s_acid_adjective",
         "partOfSpeech": "adjective",
-        "definitionEn": "having the characteristics of an acid",
-        "definitionZh": "酸的；酸性的；尖刻的；敏銳的",
-        "examples": []
+        "definitionEn": "having acidic chemical properties or a sour taste",
+        "definitionZh": "酸性的；味酸的",
+        "usageExplanationZh": "常見 acid soil 或 an acid taste；一般描述酸鹼性時 acidic 也很常用。",
+        "examples": [
+          {
+            "en": "These plants grow well in acid soil.",
+            "zh": "這些植物在酸性土壤中生長良好。"
+          }
+        ]
+      },
+      {
+        "id": "s_acid_adjective_manner",
+        "partOfSpeech": "adjective",
+        "definitionEn": "sharp, bitter, or hurtful in tone",
+        "definitionZh": "語氣尖酸的；刻薄的",
+        "usageExplanationZh": "常修飾 remark、comment 或 tone，表示話語尖刻，不是感官敏銳。",
+        "examples": [
+          {
+            "en": "His acid remarks upset the other guests.",
+            "zh": "他尖酸的話讓其他賓客感到不快。"
+          }
+        ]
       }
     ],
     "tags": [
@@ -1472,6 +2499,7 @@
       "toefl",
       "ielts"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
@@ -1491,15 +2519,35 @@
       {
         "id": "s_acoustic_adjective",
         "partOfSpeech": "adjective",
-        "definitionEn": "of or relating to the science of acoustics",
-        "definitionZh": "聽覺的；聲學的；音響的",
-        "examples": []
+        "definitionEn": "relating to sound, hearing, or the properties of sound",
+        "definitionZh": "聲音的；聽覺的；聲學的",
+        "usageExplanationZh": "常見 acoustic waves「聲波」或 acoustic insulation「隔音」；學科名稱是 acoustics。",
+        "examples": [
+          {
+            "en": "The engineers measured the room's acoustic properties.",
+            "zh": "工程師測量了這個房間的聲學特性。"
+          }
+        ]
+      },
+      {
+        "id": "s_acoustic_adjective_music",
+        "partOfSpeech": "adjective",
+        "definitionEn": "producing sound naturally rather than through electronic sound generation",
+        "definitionZh": "以自然共鳴發聲的；原聲的",
+        "usageExplanationZh": "常見 acoustic guitar 或 acoustic performance；原聲樂器仍可透過麥克風擴音，與電子產生聲音不同。",
+        "examples": [
+          {
+            "en": "She played an acoustic guitar during the concert.",
+            "zh": "她在音樂會上彈奏原聲吉他。"
+          }
+        ]
       }
     ],
     "tags": [
       "dictionary",
       "gre"
     ],
+    "contentRevision": "bilingual-v1",
     "dictionarySource": {
       "name": "ECDICT",
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",

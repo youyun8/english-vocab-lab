@@ -9,6 +9,7 @@ import { dictionary } from 'cmu-pronouncing-dictionary';
 import { vocabularyEntrySchema, type VocabularyEntry, type VocabularySense } from '../src/domain/vocabulary';
 import { dictionaryEntry, ECDICT_SHA256, frequencyRank, type DictionaryRow } from './lib/ecdict';
 import { kkFromArpabet } from './lib/kk';
+import { applyBilingualLesson, loadBilingualLessons } from './lib/bilingual-lessons';
 
 const root = fileURLToPath(new URL('..', import.meta.url));
 const csvPath = process.argv[2];
@@ -122,7 +123,14 @@ const widened = [
   // IELTS below this rank is largely B1 revision, which this corpus is not for.
   ...draw(widenedPool.filter((e) => e.tags.includes('ielts') && ranks.get(e.lemma)! >= 3500), 300, 'IELTS'),
 ];
-const selected = [...core, ...widened].sort((a, b) => a.lemma.localeCompare(b.lemma, 'en'));
+// Apply lessons after selection so editorial POS changes do not change the word list.
+const lessons = loadBilingualLessons();
+const selected = [...core, ...widened]
+  .map((entry) => vocabularyEntrySchema.parse(applyBilingualLesson(entry, lessons)))
+  .sort((a, b) => a.lemma.localeCompare(b.lemma, 'en'));
+for (const lemma of lessons.keys()) {
+  if (!selected.some((entry) => entry.lemma === lemma)) throw new Error(`Lesson missing from import: ${lemma}`);
+}
 // Validate all entries before writing any chunks. Only our dedicated directory is touched.
 const output = join(vocabDir, 'exam');
 mkdirSync(output, { recursive: true });

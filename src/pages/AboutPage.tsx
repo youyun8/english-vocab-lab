@@ -26,9 +26,9 @@ export function AboutPage() {
         <p className="text-sm leading-7 text-ink-700">
           字典擴充詞條取自 <a className="underline" href="https://github.com/skywind3000/ECDICT">ECDICT</a>
           （<a className="underline" href="/licenses/ECDICT-MIT.txt">MIT 授權</a>），
-          繁體中文經 OpenCC 自動轉換，尚未逐條人工校訂。擴充詞條目前提供字義辨識與複習，
-          尚未附上人工例句與用法解析。考試標籤來自來源字典，並非官方必考清單；
-          其 CEFR 等級為依詞頻估計的學習分組。
+          每個詞條都已補上對應的中英文義項、翻譯例句與用法解析，並校訂繁體中文用語。
+          考試標籤來自來源字典，並非官方必考清單；其 CEFR 等級為依詞頻估計的學習分組，
+          而非通過人工驗證的分級。
         </p>
       </Card>
 

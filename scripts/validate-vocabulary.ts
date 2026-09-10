@@ -9,9 +9,11 @@
 import { readdirSync, readFileSync, statSync } from 'node:fs';
 import { join, relative, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { isDeepStrictEqual } from 'node:util';
 
 import { quizQuestionSchema, type QuizQuestion } from '../src/domain/quiz';
 import { vocabularyEntrySchema, type VocabularyEntry } from '../src/domain/vocabulary';
+import { loadBilingualLessons } from './lib/bilingual-lessons';
 import {
   INDEX_PATH,
   SEARCH_PATH,
@@ -138,6 +140,26 @@ for (const file of listJsonFiles(VOCAB_DIR)) {
     }
 
     entries.push({ entry, file });
+  }
+}
+
+// Edited content must survive a re-import and match its authored source.
+const lessons = loadBilingualLessons();
+const appliedLessons = new Set<string>();
+for (const { entry, file } of entries) {
+  const lesson = lessons.get(entry.lemma);
+  if (lesson) {
+    appliedLessons.add(entry.lemma);
+    if (entry.contentRevision !== 'bilingual-v1' || !isDeepStrictEqual(entry.senses, lesson)) {
+      report(file, entry.lemma, 'senses', 'bilingual lesson is out of date; run npm run edit:bilingual');
+    }
+  } else if (entry.contentRevision) {
+    report(file, entry.lemma, 'contentRevision', 'edited entry has no authored bilingual lesson');
+  }
+}
+for (const lemma of lessons.keys()) {
+  if (!appliedLessons.has(lemma)) {
+    report(join(ROOT, 'scripts/data/bilingual-lessons.tsv'), lemma, 'lemma', 'authored lesson has no vocabulary entry');
   }
 }
 
@@ -274,6 +296,9 @@ const byType = questions.reduce<Record<string, number>>((acc, question) => {
 
 console.log('✓ Content validation passed');
 console.log(`  vocabulary entries : ${entries.length}`);
+const dictionaryCount = entries.filter(({ entry }) => entry.dictionarySource).length;
+const editedCount = entries.filter(({ entry }) => entry.dictionarySource && entry.contentRevision).length;
+console.log(`  bilingual dictionary lessons: ${editedCount}/${dictionaryCount}; remaining: ${dictionaryCount - editedCount}`);
 for (const [level, count] of Object.entries(byLevel).sort()) {
   console.log(`      ${level.padEnd(4)} ${count}`);
 }

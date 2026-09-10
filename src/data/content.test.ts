@@ -161,8 +161,31 @@ describe('dictionary expansion', () => {
   });
 
   it('does not allow unattributed entries to omit lesson content', () => {
+    // Every shipped dictionary entry now carries a full edited lesson, so
+    // stripping `dictionarySource` from a real entry no longer demonstrates
+    // the rule (the content requirement is already satisfied either way).
+    // Instead, construct a minimal entry that looks curated (no
+    // `dictionarySource`) but omits examples and usage guidance, and confirm
+    // the schema still rejects it.
     const entry = dictionaryEntries[0]!;
-    expect(vocabularyEntrySchema.safeParse({ ...entry, dictionarySource: undefined }).success).toBe(false);
+    const bareSenses = entry.senses.map((sense) => ({ ...sense, examples: [], usageExplanationZh: undefined }));
+    expect(
+      vocabularyEntrySchema.safeParse({ ...entry, dictionarySource: undefined, contentRevision: undefined, senses: bareSenses })
+        .success,
+    ).toBe(false);
+  });
+
+  it('requires examples and usage explanations in edited dictionary senses', () => {
+    const edited = dictionaryEntries.filter((entry) => entry.contentRevision);
+    expect(edited.length).toBe(dictionaryEntries.length);
+    for (const entry of edited) {
+      expect(vocabularyEntrySchema.safeParse(entry).success).toBe(true);
+      for (const sense of entry.senses) {
+        for (const missing of [{ examples: [] }, { usageExplanationZh: undefined }]) {
+          expect(vocabularyEntrySchema.safeParse({ ...entry, senses: [{ ...sense, ...missing }] }).success).toBe(false);
+        }
+      }
+    }
   });
 });
 
