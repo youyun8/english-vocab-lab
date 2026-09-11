@@ -49,8 +49,9 @@ const text = readFileSync(target, 'utf8');
 const [header, ...rows] = text.trimEnd().split('\n');
 const problems: string[] = [];
 
-if (header !== HEADER) {
-  problems.push(`header must be exactly: ${HEADER}`);
+const hasCollocations = header === `${HEADER}\tcollocations`;
+if (header !== HEADER && !hasCollocations) {
+  problems.push(`header must be ${HEADER}, optionally followed by a collocations column`);
 }
 
 const seenSenseIds = new Set<string>();
@@ -60,8 +61,9 @@ let checked = 0;
 for (const [index, row] of rows.entries()) {
   const line = index + 2;
   const columns = row.split('\t');
-  if (columns.length !== 8) {
-    problems.push(`line ${line}: expected 8 tab-separated columns, found ${columns.length}`);
+  const expectedColumns = hasCollocations ? 9 : 8;
+  if (columns.length !== expectedColumns) {
+    problems.push(`line ${line}: expected ${expectedColumns} tab-separated columns, found ${columns.length}`);
     continue;
   }
   const [lemma, suffix, partOfSpeech, definitionEn, definitionZh, usageExplanationZh, en, zh] = columns as [
@@ -79,8 +81,18 @@ for (const [index, row] of rows.entries()) {
   seenSenseIds.add(senseId);
   seenLemmas.add(lemma);
 
+  let collocations: unknown;
+  if (hasCollocations) {
+    try {
+      collocations = JSON.parse(columns[8]!);
+    } catch {
+      problems.push(`line ${line} (${lemma}): collocations must be a JSON array`);
+      continue;
+    }
+  }
   const senseResult = vocabularySenseSchema.safeParse({
     id: senseId, partOfSpeech, definitionEn, definitionZh, usageExplanationZh, examples: [{ en, zh }],
+    ...(hasCollocations ? { collocations } : {}),
   });
   if (!senseResult.success) {
     problems.push(`line ${line} (${lemma}): ${senseResult.error.issues.map((issue) => issue.message).join('; ')}`);

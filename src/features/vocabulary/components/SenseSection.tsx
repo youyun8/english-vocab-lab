@@ -61,7 +61,7 @@ export function SenseSection({
 
       {sense.collocations && sense.collocations.length > 0 ? (
         <div className="mt-5">
-          <SectionHeading>常見搭配 · Collocations</SectionHeading>
+          <SectionHeading>常用用法與片語 · Common usage & phrases</SectionHeading>
           <CollocationList collocations={sense.collocations} showChinese={showChinese} />
         </div>
       ) : null}

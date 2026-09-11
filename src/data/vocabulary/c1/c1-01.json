@@ -129,15 +129,18 @@
         "noteZh": "只描述合併動作，不含「變強」的意味。"
       },
       {
-        "lemma": "unify"
+        "lemma": "unify",
+        "noteZh": "使統一；把不同部分結合成整體。"
       }
     ],
     "antonyms": [
       {
-        "lemma": "fragment"
+        "lemma": "fragment",
+        "noteZh": "使分裂成零散的部分。"
       },
       {
-        "lemma": "disperse"
+        "lemma": "disperse",
+        "noteZh": "使分散；與集中整合相對。"
       }
     ],
     "commonlyConfusedWith": [
@@ -275,19 +278,15 @@
     ],
     "synonyms": [
       {
-        "lemma": "harmonize"
+        "lemma": "harmonize",
+        "noteZh": "使協調一致；調整差異以相容。"
       },
       {
         "lemma": "square",
         "noteZh": "口語：square A with B。"
       }
     ],
-    "antonyms": [
-      {
-        "wordId": "w_conflate",
-        "lemma": "conflate"
-      }
-    ],
+    "antonyms": [],
     "commonlyConfusedWith": [
       {
         "lemma": "resolve",
@@ -393,7 +392,8 @@
         "noteZh": "更強調嚴謹的邏輯推導。"
       },
       {
-        "lemma": "conclude"
+        "lemma": "conclude",
+        "noteZh": "根據證據得出結論。"
       }
     ],
     "commonlyConfusedWith": [
@@ -419,7 +419,8 @@
       "academic",
       "logic",
       "engineering"
-    ]
+    ],
+    "antonyms": []
   },
   {
     "id": "w_imply",
@@ -518,6 +519,22 @@
       "academic",
       "logic",
       "communication"
+    ],
+    "synonyms": [
+      {
+        "lemma": "suggest",
+        "noteZh": "暗示"
+      },
+      {
+        "lemma": "insinuate",
+        "noteZh": "影射，常含負面意味"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "state explicitly",
+        "noteZh": "明確說出"
+      }
     ]
   },
   {
@@ -601,11 +618,13 @@
     "antonyms": [
       {
         "wordId": "w_implicit",
-        "lemma": "implicit"
+        "lemma": "implicit",
+        "noteZh": "隱含的；沒有直接說明。"
       },
       {
         "wordId": "w_ambiguous",
-        "lemma": "ambiguous"
+        "lemma": "ambiguous",
+        "noteZh": "含糊或具有不只一種解讀的。"
       }
     ],
     "commonlyConfusedWith": [
@@ -630,6 +649,16 @@
       "engineering",
       "academic",
       "communication"
+    ],
+    "synonyms": [
+      {
+        "lemma": "clear",
+        "noteZh": "明確的"
+      },
+      {
+        "lemma": "unambiguous",
+        "noteZh": "毫無歧義的"
+      }
     ]
   },
   {
@@ -713,7 +742,8 @@
     "antonyms": [
       {
         "wordId": "w_explicit",
-        "lemma": "explicit"
+        "lemma": "explicit",
+        "noteZh": "明確表達的；沒有含糊或隱藏之處。"
       }
     ],
     "commonlyConfusedWith": [
@@ -733,6 +763,16 @@
       "engineering",
       "academic",
       "communication"
+    ],
+    "synonyms": [
+      {
+        "lemma": "implied",
+        "noteZh": "隱含的"
+      },
+      {
+        "lemma": "tacit",
+        "noteZh": "默示的"
+      }
     ]
   }
 ]

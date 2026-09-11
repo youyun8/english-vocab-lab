@@ -804,6 +804,20 @@ npm run merge:vocab -- patch.json
 The tool refuses to overwrite any field that already exists and exits non-zero if it had to skip
 something, so it cannot silently clobber curated content.
 
+Common usage phrases, including phrasal verbs such as **abide by the rules**, belong in the
+matching sense's `collocations` array, with a Traditional Chinese `meaningZh`. Related words
+belong in entry-level `synonyms` and `antonyms`; use `noteZh` to identify the applicable meaning
+or explain a difference in usage. Leave antonyms empty when there is no natural opposite.
+
+For bilingual lessons, keep phrases in the authored TSV under `scripts/data/bilingual-lessons/`
+as well as the vocabulary JSON. These TSV files support an optional final `collocations` column
+containing a JSON array (for example, `[{"text":"abide by the rules","meaningZh":"遵守規則"}]`).
+`npm run edit:bilingual` reads this column, so rebuilding lessons preserves the phrases.
+Validate an edited TSV with `npm run validate:bilingual-file -- <path-to-tsv>`, then regenerate
+the indexes with `npm run build:index` and run `npm run validate:data`.
+See [vocabulary enrichment review notes](docs/vocabulary-enrichment-review.md) for original
+rare or questionable senses that still need editorial attention.
+
 ---
 
 ## 15. How to add a quiz question
