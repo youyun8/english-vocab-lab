@@ -6,31 +6,32 @@
     "wordIds": [
       "w_censure"
     ],
-    "prompt": "Which sentence uses censure and censor correctly?",
+    "prompt": "Which word completes the sentence?",
+    "context": "The committee stopped short of dismissing the director and issued only a formal ____ of his conduct, which the annual report reproduced in full.",
     "options": [
       {
         "id": "a",
-        "text": "The board censured the director for the delay, and the ministry censored two paragraphs of the report."
+        "text": "censure"
       },
       {
         "id": "b",
-        "text": "The board censored the director for the delay, and the ministry censured two paragraphs of the report."
+        "text": "censor"
       },
       {
         "id": "c",
-        "text": "The board censured the director for the delay, and the ministry censured two paragraphs of the report."
+        "text": "censorship"
       },
       {
         "id": "d",
-        "text": "The board censored the director for the delay, and the ministry censored two paragraphs of the report."
+        "text": "censoriousness"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "censure 是「公開譴責（人或行為）」；censor 是「審查刪改（內容）」。譴責董事用 censure，刪掉報告段落用 censor。",
+    "explanation": "censure 作名詞是「正式的公開譴責」，是機構對人的行為所作的譴責處分，a formal censure of someone's conduct 為標準用法。",
     "distractorExplanations": {
-      "b": "兩字對調：段落不會被「譴責」，人也不會被「刪改」。",
-      "c": "censured two paragraphs 語意不通，段落不是被譴責的對象。",
-      "d": "censored the director for the delay 變成「因延誤而刪改董事」，語意不通。"
+      "b": "censor 作名詞指「審查員」這個人，作動詞指刪改內容；委員會發出的是譴責，不是一位審查員。",
+      "c": "censorship 指「審查制度」這件事本身，對象是出版品或言論內容，與譴責某人的行為無關。",
+      "d": "censoriousness 指「動輒苛責挑剔的性情」，描述的是人的態度，不能當作被發出的正式處分。"
     },
     "difficulty": 4,
     "tags": [
@@ -47,33 +48,34 @@
     "wordIds": [
       "w_eminent"
     ],
-    "prompt": "Which sentence uses eminent and imminent correctly?",
+    "prompt": "Which word completes the sentence?",
+    "context": "The keynote was delivered by an ____ historian whose four decades of work on the archive are cited in every study of the period.",
     "options": [
       {
         "id": "a",
-        "text": "An eminent historian gave the keynote, and the submission deadline is imminent."
+        "text": "imminent"
       },
       {
         "id": "b",
-        "text": "An imminent historian gave the keynote, and the submission deadline is eminent."
+        "text": "eminent"
       },
       {
         "id": "c",
-        "text": "An eminent historian gave the keynote, and the submission deadline is eminent."
+        "text": "immanent"
       },
       {
         "id": "d",
-        "text": "An imminent historian gave the keynote, and the submission deadline is imminent."
+        "text": "eminently"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "eminent 指「地位崇高、聲譽卓著的（人）」；imminent 指「即將發生的（事）」。學者用 eminent，期限用 imminent。",
+    "correctOptionId": "b",
+    "explanation": "eminent 指「在某個領域地位崇高、備受推崇的人」，句中四十年的研究被普遍引用，正是這種學術聲望。",
     "distractorExplanations": {
-      "b": "兩字完全對調：人不會是 imminent，期限也不會 eminent。",
-      "c": "deadline is eminent 錯誤，期限不會「德高望重」。",
-      "d": "imminent historian 錯誤，人不會「即將發生」。"
+      "a": "imminent 指「即將發生的」，主詞必須是事件（an imminent deadline），人不會「即將發生」。",
+      "c": "immanent 指「內在固有、遍存於事物之中的」，多見於哲學與神學論述，用來描述屬性而非人的名望。",
+      "d": "eminently 是副詞（eminently qualified），不能直接修飾名詞 historian。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": [
       "confusables",
       "exam",
@@ -89,31 +91,32 @@
       "w_ingenious",
       "w_ingenuous"
     ],
-    "prompt": "Which sentence uses ingenious and ingenuous correctly?",
+    "prompt": "Which word completes the sentence?",
+    "context": "Her workaround saved the team a week, but her ____ belief that the vendor would fix the bug for free worried her manager.",
     "options": [
       {
         "id": "a",
-        "text": "Her ingenious workaround saved the team a week, though her ingenuous trust in the vendor worried her manager."
+        "text": "ingenuity"
       },
       {
         "id": "b",
-        "text": "Her ingenuous workaround saved the team a week, though her ingenious trust in the vendor worried her manager."
+        "text": "ingenious"
       },
       {
         "id": "c",
-        "text": "Her ingenuous workaround saved the team a week, though her ingenuous trust in the vendor worried her manager."
+        "text": "ingenuous"
       },
       {
         "id": "d",
-        "text": "Her ingenious workaround saved the team a week, though her ingenious trust in the vendor worried her manager."
+        "text": "indigenous"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "ingenious 是「巧妙的、有創意的」，形容辦法；ingenuous 是「天真而毫無心機的」，形容人的態度。只有 A 兩處都用對。",
+    "correctOptionId": "c",
+    "explanation": "ingenuous 指「天真不設防、缺乏世故」，主管擔心的正是她毫無戒心地相信廠商；轉折詞 but 也要求此處是負面評價。",
     "distractorExplanations": {
-      "b": "兩字對調：省下一週的辦法是巧妙（ingenious），不是天真。",
-      "c": "ingenuous workaround 意思變成「天真的辦法」，與「省下一週」矛盾。",
-      "d": "ingenious trust 意思變成「巧妙的信任」，無法解釋主管為何擔心。"
+      "a": "ingenuity 是名詞「巧思、創造力」，不能修飾 belief。",
+      "b": "ingenious 指「構思巧妙、有創意的」，那是用來稱讚前半句那個變通方法的字，放在 but 之後與主管的擔憂互相牴觸。",
+      "d": "indigenous 指「原生的、當地土生的」，拼字與 ingenuous 相近，語意卻毫無關聯。"
     },
     "difficulty": 4,
     "tags": [
@@ -130,31 +133,32 @@
     "wordIds": [
       "w_economical"
     ],
-    "prompt": "Which sentence uses economical and economic correctly?",
+    "prompt": "Which word completes the sentence?",
+    "context": "The redesigned engine burns a third less fuel over the same route, which makes the fleet far more ____ to run than its predecessor.",
     "options": [
       {
         "id": "a",
-        "text": "The new engine is far more economical, which is welcome news for the country's economic outlook."
+        "text": "uneconomical"
       },
       {
         "id": "b",
-        "text": "The new engine is far more economic, which is welcome news for the country's economical outlook."
+        "text": "economic"
       },
       {
         "id": "c",
-        "text": "The new engine is far more economical, which is welcome news for the country's economical outlook."
+        "text": "economically"
       },
       {
         "id": "d",
-        "text": "The new engine is far more economic, which is welcome news for the country's economic outlook."
+        "text": "economical"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "economical 是「省錢、省油、不浪費的」；economic 是「與經濟（學）有關的」。引擎省油用 economical，國家的經濟前景用 economic。",
+    "correctOptionId": "d",
+    "explanation": "economical 指「省油、省錢、不浪費資源的」，少燒三分之一的燃料正是這個意思；記法：帶 -al 的那個才談節省。",
     "distractorExplanations": {
-      "b": "兩字對調，語意都不成立。",
-      "c": "economical outlook 錯誤：國家的經濟前景要用 economic outlook。",
-      "d": "more economic 在這裡不是指省油，而是「更具經濟意義的」，與引擎的描述不符。"
+      "a": "uneconomical 意思相反，指「不划算、耗費過度的」，與燃料減少三分之一的事實衝突。",
+      "b": "economic 指「與經濟或經濟學有關的」（economic policy、economic outlook），不表示省油或划算。",
+      "c": "economically 是副詞，此處 makes the fleet far more ____ 需要的是主詞補語形容詞。"
     },
     "difficulty": 3,
     "tags": [
@@ -172,7 +176,7 @@
       "w_discrete"
     ],
     "prompt": "Which word completes the sentence?",
-    "context": "The signal is sampled at ____ intervals rather than continuously.",
+    "context": "Rather than recording the signal continuously, the instrument samples it at ____ intervals of exactly one millisecond and stores each value separately.",
     "options": [
       {
         "id": "a",
@@ -184,19 +188,19 @@
       },
       {
         "id": "c",
-        "text": "discreetly"
+        "text": "discretionary"
       },
       {
         "id": "d",
-        "text": "discretionary"
+        "text": "discursive"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "discrete 指「個別分開、不連續的」，正好對應「而非連續地」。",
+    "explanation": "discrete 指「彼此分開、不連續的個別單位」，與 Rather than … continuously 及 stores each value separately 完全對應。",
     "distractorExplanations": {
-      "b": "discreet 是「謹慎、不張揚的」，用來形容人的言行，與取樣方式無關。",
-      "c": "discreetly 是副詞，不能修飾名詞 intervals。",
-      "d": "discretionary 是「可自由裁量的」，與取樣間隔無關。"
+      "b": "discreet 指人「謹慎低調、不張揚」，例如 a discreet enquiry，與取樣是否連續無關。",
+      "c": "discretionary 指「可自由裁量的」，但句中間隔固定為一毫秒，沒有任何裁量空間。",
+      "d": "discursive 形容文章或談話「散漫離題」，用於論述風格，不能形容取樣間隔。"
     },
     "difficulty": 3,
     "tags": [
@@ -214,15 +218,15 @@
       "w_complement"
     ],
     "prompt": "Which word completes the sentence?",
-    "context": "The new module is a useful ____ to the existing toolkit.",
+    "context": "The new profiling module does not duplicate anything in the existing toolkit; it is precisely the ____ those tools have always lacked.",
     "options": [
       {
         "id": "a",
-        "text": "complement"
+        "text": "compliment"
       },
       {
         "id": "b",
-        "text": "compliment"
+        "text": "complement"
       },
       {
         "id": "c",
@@ -230,17 +234,17 @@
       },
       {
         "id": "d",
-        "text": "compilation"
+        "text": "complimentary"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "complement 當名詞是「互補、使之完整的東西」，新模組補足既有工具組正是這個意思。",
+    "correctOptionId": "b",
+    "explanation": "complement 作名詞指「使整體變得完整的那一塊」，句中強調新模組不重複既有功能、正好補上缺口，用的就是這個字（字根 complete）。",
     "distractorExplanations": {
-      "b": "compliment 是「稱讚」，工具不會是一句稱讚。",
-      "c": "complementary 是形容詞，這裡需要的是名詞（a useful ____）。",
-      "d": "compilation 是「彙編、合輯」，不表示互補。"
+      "a": "compliment 是名詞「稱讚」，工具組缺的不是一句恭維；記法：帶 i 的那個才是 praise。",
+      "c": "complementary 是形容詞「互補的」，但 the ____ those tools have always lacked 需要一個名詞。",
+      "d": "complimentary 是形容詞，意為「讚美的」或「免費贈送的」，詞性與語意都不合。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": [
       "confusables",
       "exam",
@@ -257,33 +261,33 @@
       "w_credible"
     ],
     "prompt": "Which word completes the sentence?",
-    "context": "The witness seemed ____: everything she said matched the documents.",
+    "context": "Every promise of guaranteed returns was contradicted by the prospectus, yet the ____ investors handed over their savings without asking a single question.",
     "options": [
       {
         "id": "a",
-        "text": "credible"
-      },
-      {
-        "id": "b",
-        "text": "credulous"
-      },
-      {
-        "id": "c",
         "text": "creditable"
       },
       {
+        "id": "b",
+        "text": "credible"
+      },
+      {
+        "id": "c",
+        "text": "credulous"
+      },
+      {
         "id": "d",
-        "text": "credential"
+        "text": "credentialed"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "credible 是「可信的」，用來形容證詞或說法；後半句「所有說法都與文件相符」正是可信的理由。",
+    "correctOptionId": "c",
+    "explanation": "credulous 形容「證據不足也照信不誤的人」，without asking a single question 正是這種輕信；它與 credible 的差別在於主詞：人 credulous，說法 credible。",
     "distractorExplanations": {
-      "b": "credulous 是「容易相信別人的、易受騙的」，形容的是輕信者本身，不是證詞可信。",
-      "c": "creditable 是「值得讚許的」，與可信度無關。",
-      "d": "credential 是名詞「資格證明」，不能放在 seemed 之後當補語形容詞。"
+      "a": "creditable 指「值得讚許的」，評價的是表現或成果（a creditable performance），與是否輕信無關。",
+      "b": "credible 形容「值得被相信的事物」，主詞應是證詞、計畫或說法，用來修飾投資人就把方向弄反了。",
+      "d": "credentialed 指「持有正式資格證明的」，講的是身分資格，與這些人為何不加查問無關。"
     },
-    "difficulty": 4,
+    "difficulty": 5,
     "tags": [
       "confusables",
       "exam",
@@ -300,11 +304,11 @@
       "w_elicit"
     ],
     "prompt": "Which word completes the sentence?",
-    "context": "The interviewer used open questions to ____ a fuller account from the witness.",
+    "context": "Closed questions had produced nothing but one-word answers, so the interviewer switched to open ones in order to ____ a fuller account.",
     "options": [
       {
         "id": "a",
-        "text": "elicit"
+        "text": "elude"
       },
       {
         "id": "b",
@@ -312,21 +316,21 @@
       },
       {
         "id": "c",
-        "text": "elude"
+        "text": "elide"
       },
       {
         "id": "d",
-        "text": "exempt"
+        "text": "elicit"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "elicit 是動詞「引出、套出（回應或資訊）」，開放式問題正是用來引出更完整的說法。",
+    "correctOptionId": "d",
+    "explanation": "elicit 是動詞「引出、套出（回應或資訊）」，句型為 elicit something from someone；in order to 之後需要動詞，開放式問題正是用來引出更完整的敘述。",
     "distractorExplanations": {
-      "b": "illicit 是形容詞「非法的」，發音相近但詞性與語意都不對。",
-      "c": "elude 是「躲避、使人想不起來」，不能接「更完整的說法」當受詞。",
-      "d": "exempt 是「豁免」，與取得資訊無關。"
+      "a": "elude 是「躲開；使人想不起來」，受詞是追捕者或記憶（the name eludes me），不能表示取得資訊。",
+      "b": "illicit 與 elicit 同音，但它是形容詞「違禁的、不正當的」，不能放在 in order to 之後。",
+      "c": "elide 是「省略、略去不提」，方向相反：那會讓敘述變少而不是更完整。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": [
       "confusables",
       "exam",
@@ -342,7 +346,7 @@
       "w_principal"
     ],
     "prompt": "Which word completes the sentence?",
-    "context": "Cost was the ____ reason for rejecting the proposal.",
+    "context": "Each monthly payment covers the accrued interest first, and only what remains is applied to the outstanding ____ of the loan.",
     "options": [
       {
         "id": "a",
@@ -358,17 +362,17 @@
       },
       {
         "id": "d",
-        "text": "principally"
+        "text": "principals"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "principal 當形容詞是「主要的」，修飾 reason。記法：principal 有形容詞用法，principle 只有名詞用法。",
+    "explanation": "principal 作名詞指「本金」，即最初借出或投資、尚未償還的那筆金額，與 interest（利息）成對出現。記法：牽涉到錢或人的那個拼作 -pal。",
     "distractorExplanations": {
-      "b": "principle 是名詞「原則」，不能修飾 reason。",
-      "c": "principled 是「有原則的」，形容人或行為，不是「主要的」。",
-      "d": "principally 是副詞，不能直接修飾名詞 reason。"
+      "b": "principle 是名詞「原則、原理」，只能是抽象準則，不會有 outstanding principle of the loan 這種餘額。",
+      "c": "principled 是形容詞「有原則的」，形容人或行為，不能當 the outstanding ____ 的名詞。",
+      "d": "principals 的複數形指「多位校長或當事人」；貸款本金在此不可數，不加 -s。"
     },
-    "difficulty": 2,
+    "difficulty": 3,
     "tags": [
       "confusables",
       "exam",
@@ -384,15 +388,15 @@
       "w_adapt"
     ],
     "prompt": "Which word completes the sentence?",
-    "context": "The team had to ____ the training material for a much younger audience.",
+    "context": "The original manual was written for surgeons, so the team had to ____ every chapter for readers with no medical training at all.",
     "options": [
       {
         "id": "a",
-        "text": "adapt"
+        "text": "adopt"
       },
       {
         "id": "b",
-        "text": "adopt"
+        "text": "adapt"
       },
       {
         "id": "c",
@@ -403,14 +407,14 @@
         "text": "adhere"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "adapt 是「調整、改編（使適合新對象）」，把教材改寫給更年輕的讀者正是 adapt。",
+    "correctOptionId": "b",
+    "explanation": "adapt 是「加以修改，使其適合新的對象或用途」，把專業手冊改寫給外行讀者正是 adapt something for someone。",
     "distractorExplanations": {
-      "b": "adopt 是「採用、領養」，指整個拿來用，不含修改的意思。",
-      "c": "adept 是形容詞「熟練的」，不能當動詞。",
-      "d": "adhere 是「黏附、遵守」，後面要接 to，語意也不合。"
+      "a": "adopt 是「原封不動地採用」，例如 adopt a standard；它不含修改的動作，與 for readers with no medical training 的改寫需求相反。",
+      "c": "adept 是形容詞「嫻熟的」（adept at debugging），不能當動詞用。",
+      "d": "adhere 是「黏附；遵守」，後面必須接 to（adhere to the guidelines），句型與語意都不合。"
     },
-    "difficulty": 2,
+    "difficulty": 3,
     "tags": [
       "confusables",
       "exam",
@@ -426,11 +430,11 @@
       "w_precede"
     ],
     "prompt": "Which word completes the sentence?",
-    "context": "A short summary should ____ the detailed analysis, so readers know what to expect.",
+    "context": "A one-page summary should ____ the detailed analysis so that reviewers know what the report concludes before they meet the evidence.",
     "options": [
       {
         "id": "a",
-        "text": "precede"
+        "text": "preside"
       },
       {
         "id": "b",
@@ -438,19 +442,19 @@
       },
       {
         "id": "c",
-        "text": "preside"
+        "text": "precede"
       },
       {
         "id": "d",
-        "text": "prescribe"
+        "text": "supersede"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "precede 是及物動詞「在……之前」，摘要放在詳細分析之前正是 A precedes B。",
+    "correctOptionId": "c",
+    "explanation": "precede 是及物動詞「在……之前出現」，A precedes B 表示 A 排在 B 前面，正是摘要放在詳細分析之前的關係。",
     "distractorExplanations": {
-      "b": "proceed 是不及物動詞「繼續進行」，不能直接接受詞，而且語意相反。",
-      "c": "preside 是「主持（會議）」，後面要接 over。",
-      "d": "prescribe 是「規定、開處方」，與先後順序無關。"
+      "a": "preside 是「主持（會議或典禮）」，必須接 over，且主詞應為人。",
+      "b": "proceed 是不及物動詞「繼續進行」，不能直接接受詞，而且它指的是往下走，順序方向與此處相反。",
+      "d": "supersede 是「取代並使前者失效」，摘要並沒有讓詳細分析作廢，只是排在它前面。"
     },
     "difficulty": 3,
     "tags": [
@@ -467,31 +471,32 @@
     "wordIds": [
       "w_prescribe"
     ],
-    "prompt": "Which sentence uses prescribe and proscribe correctly?",
+    "prompt": "Which word completes the sentence?",
+    "context": "The regulations ____ a font size, a margin width and a filing deadline, and any application that departs from them is rejected unread.",
     "options": [
       {
         "id": "a",
-        "text": "The rules prescribe how the form must be submitted and proscribe any late entries."
+        "text": "subscribe"
       },
       {
         "id": "b",
-        "text": "The rules proscribe how the form must be submitted and prescribe any late entries."
+        "text": "proscribe"
       },
       {
         "id": "c",
-        "text": "The rules prescribe how the form must be submitted and prescribe any late entries."
+        "text": "ascribe"
       },
       {
         "id": "d",
-        "text": "The rules proscribe how the form must be submitted and proscribe any late entries."
+        "text": "prescribe"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "prescribe 是「規定應該怎麼做」，proscribe 是「明令禁止」。兩字只差一個字母，意思卻相反。",
+    "correctOptionId": "d",
+    "explanation": "prescribe 是「正式規定應當如何做」，受詞是被指定的具體要求；不照規定就被退件，證明這些字級與邊界是被規定而非被禁止的。",
     "distractorExplanations": {
-      "b": "兩字對調：規則不會「禁止提交方式」又「規定遲交」。",
-      "c": "prescribe any late entries 意思變成「規定要遲交」，不合理。",
-      "d": "proscribe how the form must be submitted 意思變成「禁止提交方式」，不合理。"
+      "a": "subscribe 是「訂閱」或「贊同（subscribe to a view）」，不及物且需接 to。",
+      "b": "proscribe 只差一個字母，意思卻相反，是「明令禁止」；規則不可能禁止一個字級或一個截止日期。",
+      "c": "ascribe 是「把……歸因於」，必須用 ascribe A to B 的句型，語意與規定無關。"
     },
     "difficulty": 4,
     "tags": [
@@ -509,33 +514,34 @@
       "w_allude",
       "w_elude"
     ],
-    "prompt": "Which sentence uses allude and elude correctly?",
+    "prompt": "Which word completes the sentence?",
+    "context": "She never named the earlier audit outright, preferring to ____ to it obliquely whenever the committee asked why the deadline had slipped.",
     "options": [
       {
         "id": "a",
-        "text": "She alluded to the earlier audit without naming it, but the exact figure still eludes me."
+        "text": "allude"
       },
       {
         "id": "b",
-        "text": "She eluded to the earlier audit without naming it, but the exact figure still alludes me."
+        "text": "elude"
       },
       {
         "id": "c",
-        "text": "She alluded the earlier audit without naming it, but the exact figure still alludes me."
+        "text": "elide"
       },
       {
         "id": "d",
-        "text": "She eluded the earlier audit without naming it, but the exact figure still eludes me."
+        "text": "delude"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "allude to 是「間接提到」，一定要接 to；elude 是「使人想不起來、躲開」，直接接受詞。",
+    "explanation": "allude 是「不指名地間接提及」，必須接介系詞 to；never named … outright 與 obliquely 這兩個線索都指向它。",
     "distractorExplanations": {
-      "b": "兩字對調，而且 elude to 不是英文。",
-      "c": "allude 不能直接接受詞，必須說 allude to something；後半的 alludes me 也是錯的。",
-      "d": "eluded the earlier audit 意思變成「躲過了那次稽核」，與「沒有指名道姓地提到」不符。"
+      "b": "elude 是「躲開；使人想不起來」，為及物動詞且不接 to，elude the auditors 意思會變成躲過稽核人員。",
+      "c": "elide 是「省略、略去不提」，同樣及物，而且她其實提到了那次稽核，只是說得隱晦。",
+      "d": "delude 是「欺瞞、使產生錯覺」，受詞是被騙的人（delude oneself），與間接提及無關。"
     },
-    "difficulty": 4,
+    "difficulty": 5,
     "tags": [
       "confusables",
       "exam",
@@ -551,33 +557,33 @@
       "w_defer"
     ],
     "prompt": "Which word completes the sentence?",
-    "context": "We decided to ____ the decision until the audit is complete.",
+    "context": "The board agreed to ____ the decision until the audit closes in March, rather than voting on incomplete figures now.",
     "options": [
       {
         "id": "a",
-        "text": "defer"
-      },
-      {
-        "id": "b",
         "text": "deter"
       },
       {
+        "id": "b",
+        "text": "defer"
+      },
+      {
         "id": "c",
-        "text": "deflect"
+        "text": "differ"
       },
       {
         "id": "d",
-        "text": "differ"
+        "text": "demur"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "defer 是「延後」，defer the decision until… 是固定用法。",
+    "correctOptionId": "b",
+    "explanation": "defer 是「延後到較晚的時間」，defer something until… 為固定句型，與 rather than voting … now 的取捨完全一致。",
     "distractorExplanations": {
-      "b": "deter 是「嚇阻、勸阻（某人做某事）」，受詞是人，不是決定。",
-      "c": "deflect 是「使偏轉、轉移（問題、批評）」，不表示延後。",
-      "d": "differ 是不及物動詞「不同」，不能接受詞。"
+      "a": "deter 是「嚇阻、勸退」，受詞必須是人（deter buyers from bidding），不能延後一項決定。",
+      "c": "differ 是不及物動詞「有所不同」，不能接受詞，只能說 opinions differ。",
+      "d": "demur 是「表示異議、面有難色」，不及物，表達的是不情願而非把時程往後挪。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": [
       "confusables",
       "exam",
@@ -593,11 +599,11 @@
       "w_conform"
     ],
     "prompt": "Which word completes the sentence?",
-    "context": "Every device sold in the region must ____ to the new safety standard.",
+    "context": "Every device sold in the region must ____ to the new safety standard, and importers must keep the test certificates for five years.",
     "options": [
       {
         "id": "a",
-        "text": "conform"
+        "text": "comply"
       },
       {
         "id": "b",
@@ -605,21 +611,21 @@
       },
       {
         "id": "c",
-        "text": "inform"
+        "text": "conform"
       },
       {
         "id": "d",
-        "text": "perform"
+        "text": "conflict"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "conform to 是「符合（標準、規範）」的固定用法。",
+    "correctOptionId": "c",
+    "explanation": "conform to 是「符合（標準、規範）」的固定搭配，主詞為被規範的產品，正合句意。",
     "distractorExplanations": {
-      "b": "confirm 是「確認」，而且是及物動詞，不接 to。",
-      "c": "inform 是「通知」，受詞是人，語意不合。",
-      "d": "perform 是「執行、表演」，不能接 to the standard。"
+      "a": "comply 語意雖然接近，但固定搭配是 comply with a standard；comply to 是常見的介系詞錯誤。",
+      "b": "confirm 是「確認」，為及物動詞，後面直接接受詞，不能接 to。",
+      "d": "conflict 意思相反，conflict with the standard 表示「與標準相牴觸」，且同樣不接 to。"
     },
-    "difficulty": 2,
+    "difficulty": 4,
     "tags": [
       "confusables",
       "exam",
@@ -635,31 +641,32 @@
       "w_vindicate",
       "w_validate"
     ],
-    "prompt": "Which sentence uses vindicate and validate correctly?",
+    "prompt": "Which word completes the sentence?",
+    "context": "The analyst had been blamed for the forecast error for two years, until the independent review finally ____ her by tracing the fault to the data feed.",
     "options": [
       {
         "id": "a",
-        "text": "The audit validated the model's results and vindicated the analyst who had been blamed for them."
+        "text": "vilified"
       },
       {
         "id": "b",
-        "text": "The audit vindicated the model's results and validated the analyst who had been blamed for them."
+        "text": "validated"
       },
       {
         "id": "c",
-        "text": "The audit validated the model's results and validated the analyst who had been blamed for them."
+        "text": "verified"
       },
       {
         "id": "d",
-        "text": "The audit vindicated the model's results and vindicated the analyst who had been blamed for them."
+        "text": "vindicated"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "validate 的受詞通常是事物（證實其正確、有效）；vindicate 的受詞通常是人（洗刷其冤屈）。",
+    "correctOptionId": "d",
+    "explanation": "vindicate 的受詞是被指責的人，意思是「洗刷其冤屈、還其清白」，正好對應 had been blamed 與查出真正肇因這組情節。",
     "distractorExplanations": {
-      "b": "兩字對調：模型結果要 validate，被指責的人才需要 vindicate。",
-      "c": "validate the analyst 只表示「確認這個人有效」，無法表達為他洗刷責難。",
-      "d": "vindicate the results 帶有「替結果辯白」的味道，不如 validate 精準。"
+      "a": "vilify 是「詆毀、中傷」，語意與洗刷清白完全相反，而且會使 until 的轉折失去意義。",
+      "b": "validate 的受詞通常是事物（validate the results／the model），表示確認其正確有效；validate her 無法表達替她洗刷責難。",
+      "c": "verify 是「查核某事是否屬實」，受詞是資料、簽章或事實，不是承擔責難的人。"
     },
     "difficulty": 4,
     "tags": [

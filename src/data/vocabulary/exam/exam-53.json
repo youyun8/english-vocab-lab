@@ -11,14 +11,16 @@
       {
         "id": "s_payable_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "required to be paid, or able to be paid",
         "definitionZh": "應付的；可支付的",
         "usageExplanationZh": "常見 payable on demand、payable to（付款對象），多用於財務或合約情境。",
-        "examples": [
-          {
-            "en": "The invoice is payable within thirty days.",
-            "zh": "這張發票須於三十天內付清。"
-          }
+        "grammarPatterns": [
+          "payable within + noun",
+          "payable to + somebody"
         ],
         "collocations": [
           {
@@ -29,7 +31,37 @@
             "text": "make a cheque payable to",
             "meaningZh": "將支票的受款人寫為"
           }
+        ],
+        "examples": [
+          {
+            "en": "The invoice is payable within thirty days.",
+            "zh": "這張發票須於三十天內付清。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "due",
+        "noteZh": "應付款的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "pay",
+        "partOfSpeech": "verb",
+        "meaningZh": "支付；付款"
+      },
+      {
+        "lemma": "payment",
+        "partOfSpeech": "noun",
+        "meaningZh": "付款；款項"
+      },
+      {
+        "lemma": "payee",
+        "partOfSpeech": "noun",
+        "meaningZh": "收款人"
       }
     ],
     "tags": [
@@ -42,14 +74,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "due",
-        "noteZh": "應付款的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_peak",
@@ -63,14 +88,16 @@
       {
         "id": "s_peak_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "the point of highest value, achievement, or intensity, or the pointed top of a mountain",
         "definitionZh": "高峰；巔峰；山頂",
         "usageExplanationZh": "常見 at its peak（處於高峰期）、reach a peak（達到頂點），亦可指山的頂端。",
-        "examples": [
-          {
-            "en": "Ticket sales reached their peak during the holiday season.",
-            "zh": "票券銷售在假期期間達到高峰。"
-          }
+        "grammarPatterns": [
+          "reach a peak",
+          "at the peak of + noun"
         ],
         "collocations": [
           {
@@ -81,7 +108,25 @@
             "text": "a mountain peak",
             "meaningZh": "山峰"
           }
+        ],
+        "examples": [
+          {
+            "en": "Ticket sales reached their peak during the holiday season.",
+            "zh": "票券銷售在假期期間達到高峰。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "summit",
+        "noteZh": "山頂；巔峰"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "trough",
+        "noteZh": "指數值或活動的低谷"
       }
     ],
     "tags": [
@@ -95,19 +140,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "summit",
-        "noteZh": "山頂；巔峰"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "trough",
-        "noteZh": "指數值或活動的低谷"
-      }
-    ]
+    }
   },
   {
     "id": "w_peck",
@@ -121,42 +154,58 @@
       {
         "id": "s_peck_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a quick bite or blow made by a bird's beak, or a quick, light kiss",
         "definitionZh": "（鳥）啄；輕吻",
         "usageExplanationZh": "常見 a peck on the cheek（在臉頰上輕吻一下），語氣隨意親暱。",
-        "examples": [
-          {
-            "en": "She gave him a quick peck on the cheek before leaving.",
-            "zh": "她離開前在他臉頰上輕吻了一下。"
-          }
+        "grammarPatterns": [
+          "a peck on the cheek",
+          "give sb a peck"
         ],
         "collocations": [
           {
             "text": "a peck on the cheek",
             "meaningZh": "在臉頰上輕吻一下"
           }
+        ],
+        "examples": [
+          {
+            "en": "She gave him a quick peck on the cheek before leaving.",
+            "zh": "她離開前在他臉頰上輕吻了一下。"
+          }
         ]
       },
       {
         "id": "s_peck_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "(of a bird) to strike or pick up with the beak",
         "definitionZh": "啄食；啄",
         "usageExplanationZh": "主詞通常是鳥類，常接 at，如 peck at the seeds（啄食種子）。",
-        "examples": [
-          {
-            "en": "The chicken pecked at the grains on the ground.",
-            "zh": "那隻雞啄食著地上的穀粒。"
-          }
+        "grammarPatterns": [
+          "peck at + noun",
+          "peck + noun"
         ],
         "collocations": [
           {
             "text": "peck at seeds",
             "meaningZh": "啄食種子"
           }
+        ],
+        "examples": [
+          {
+            "en": "The chicken pecked at the grains on the ground.",
+            "zh": "那隻雞啄食著地上的穀粒。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -168,9 +217,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_peculiar",
@@ -184,14 +231,15 @@
       {
         "id": "s_peculiar_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "strange or unusual, or distinctive to a particular person or thing",
         "definitionZh": "奇怪的；獨特的（某人或某物所特有的）",
         "usageExplanationZh": "常見 peculiar to（為……所特有），也可單獨表示「怪異的」，需依上下文判斷語意。",
-        "examples": [
-          {
-            "en": "It's peculiar that he didn't call to explain his absence.",
-            "zh": "他沒打電話說明缺席原因，這很奇怪。"
-          }
+        "grammarPatterns": [
+          "peculiar to + noun",
+          "it is peculiar that + clause"
         ],
         "collocations": [
           {
@@ -202,21 +250,15 @@
             "text": "a peculiar smell",
             "meaningZh": "奇怪的氣味"
           }
+        ],
+        "examples": [
+          {
+            "en": "It's peculiar that he didn't call to explain his absence.",
+            "zh": "他沒打電話說明缺席原因，這很奇怪。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "odd",
@@ -232,7 +274,31 @@
         "lemma": "ordinary",
         "noteZh": "普通的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "peculiarity",
+        "partOfSpeech": "noun",
+        "meaningZh": "特點；古怪之處"
+      },
+      {
+        "lemma": "peculiarly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "特別地；奇怪地"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_peddle",
@@ -246,14 +312,15 @@
       {
         "id": "s_peddle_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to sell goods, especially by going from place to place, or to spread ideas or rumors",
         "definitionZh": "兜售；散布（謠言、觀念）",
         "usageExplanationZh": "常接具體商品或抽象事物，如 peddle goods、peddle rumors，後者帶有負面貶意。",
-        "examples": [
-          {
-            "en": "The vendor peddled fake watches on the street corner.",
-            "zh": "那名小販在街角兜售假錶。"
-          }
+        "grammarPatterns": [
+          "peddle + noun",
+          "peddle sth to + somebody"
         ],
         "collocations": [
           {
@@ -264,7 +331,27 @@
             "text": "peddle rumors",
             "meaningZh": "散布謠言"
           }
+        ],
+        "examples": [
+          {
+            "en": "The vendor peddled fake watches on the street corner.",
+            "zh": "那名小販在街角兜售假錶。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "hawk",
+        "noteZh": "沿街叫賣"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "peddler",
+        "partOfSpeech": "noun",
+        "meaningZh": "小販；兜售者"
       }
     ],
     "tags": [
@@ -277,14 +364,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "hawk",
-        "noteZh": "沿街叫賣"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pedestrian",
@@ -298,54 +378,58 @@
       {
         "id": "s_pedestrian_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a person walking rather than traveling in a vehicle",
         "definitionZh": "行人",
         "usageExplanationZh": "常見 pedestrian crossing（行人穿越道）、pedestrian zone（行人徒步區），強調步行的人。",
-        "examples": [
-          {
-            "en": "Drivers must yield to pedestrians at the crosswalk.",
-            "zh": "駕駛人必須在行人穿越道禮讓行人。"
-          }
+        "grammarPatterns": [
+          "yield to pedestrians",
+          "a pedestrian crossing"
         ],
         "collocations": [
           {
             "text": "a pedestrian crossing",
             "meaningZh": "行人穿越道"
           }
+        ],
+        "examples": [
+          {
+            "en": "Drivers must yield to pedestrians at the crosswalk.",
+            "zh": "駕駛人必須在行人穿越道禮讓行人。"
+          }
         ]
       },
       {
         "id": "s_pedestrian_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "lacking excitement or imagination; commonplace",
         "definitionZh": "平淡乏味的；缺乏創意的",
         "usageExplanationZh": "常修飾寫作、風格或想法，形容單調無趣、缺乏新意，與行人義項無關。",
-        "examples": [
-          {
-            "en": "The critic called the film's plot pedestrian and predictable.",
-            "zh": "影評人批評這部電影的情節平淡又老套。"
-          }
+        "grammarPatterns": [
+          "a pedestrian + noun",
+          "pedestrian and predictable"
         ],
         "collocations": [
           {
             "text": "a pedestrian performance",
             "meaningZh": "平庸的表現"
           }
+        ],
+        "examples": [
+          {
+            "en": "The critic called the film's plot pedestrian and predictable.",
+            "zh": "影評人批評這部電影的情節平淡又老套。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "walker",
@@ -361,7 +445,19 @@
         "lemma": "imaginative",
         "noteZh": "形容詞：富創意的"
       }
-    ]
+    ],
+    "tags": [
+      "dictionary",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_peel",
@@ -375,14 +471,15 @@
       {
         "id": "s_peel_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "the outer skin or rind of a fruit or vegetable",
         "definitionZh": "（水果或蔬菜的）皮",
         "usageExplanationZh": "常見 banana peel、orange peel，指果皮或菜皮本身，而非削皮的動作。",
-        "examples": [
-          {
-            "en": "Don't throw the banana peel on the floor.",
-            "zh": "不要把香蕉皮丟在地上。"
-          }
+        "grammarPatterns": [
+          "a banana peel",
+          "the peel of + noun"
         ],
         "collocations": [
           {
@@ -393,9 +490,22 @@
             "text": "banana peel",
             "meaningZh": "香蕉皮"
           }
+        ],
+        "examples": [
+          {
+            "en": "Don't throw the banana peel on the floor.",
+            "zh": "不要把香蕉皮丟在地上。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "rind",
+        "noteZh": "水果的外皮"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -407,14 +517,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "rind",
-        "noteZh": "水果的外皮"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_peep",
@@ -428,14 +531,15 @@
       {
         "id": "s_peep_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to look quickly and secretly, especially through a small gap",
         "definitionZh": "偷看；窺視",
         "usageExplanationZh": "常接 at、through，如 peep through the curtains（透過窗簾偷看），語氣帶有隱密、好奇的意味。",
-        "examples": [
-          {
-            "en": "He peeped through the keyhole to see who was there.",
-            "zh": "他從鑰匙孔偷看外面是誰。"
-          }
+        "grammarPatterns": [
+          "peep through + noun",
+          "peep at + noun"
         ],
         "collocations": [
           {
@@ -446,9 +550,22 @@
             "text": "peep out from behind",
             "meaningZh": "從後面探頭偷看"
           }
+        ],
+        "examples": [
+          {
+            "en": "He peeped through the keyhole to see who was there.",
+            "zh": "他從鑰匙孔偷看外面是誰。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "peek",
+        "noteZh": "偷偷看"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -459,14 +576,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "peek",
-        "noteZh": "偷偷看"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_peer",
@@ -480,14 +590,16 @@
       {
         "id": "s_peer_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "a person of the same age, status, or ability as another",
         "definitionZh": "同儕；同輩",
         "usageExplanationZh": "常見 peer pressure（同儕壓力）、peer review（同儕審查），強調地位或年齡相近的群體。",
-        "examples": [
-          {
-            "en": "Teenagers often feel pressure to fit in with their peers.",
-            "zh": "青少年常感受到融入同儕群體的壓力。"
-          }
+        "grammarPatterns": [
+          "sb's peers",
+          "peer pressure"
         ],
         "collocations": [
           {
@@ -498,19 +610,27 @@
             "text": "a peer group",
             "meaningZh": "同儕團體"
           }
+        ],
+        "examples": [
+          {
+            "en": "Teenagers often feel pressure to fit in with their peers.",
+            "zh": "青少年常感受到融入同儕群體的壓力。"
+          }
         ]
       },
       {
         "id": "s_peer_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "to look with difficulty or effort, especially at something not clearly visible",
         "definitionZh": "瞇眼細看；仔細窺視",
         "usageExplanationZh": "常接 at、into、through，如 peer into the darkness（凝視黑暗），強調費力或專注地觀看。",
-        "examples": [
-          {
-            "en": "She peered into the box to see what was inside.",
-            "zh": "她仔細往盒子裡看，想知道裡面裝了什麼。"
-          }
+        "grammarPatterns": [
+          "peer at + noun",
+          "peer into + noun"
         ],
         "collocations": [
           {
@@ -521,7 +641,27 @@
             "text": "peer through a window",
             "meaningZh": "透過窗戶仔細看"
           }
+        ],
+        "examples": [
+          {
+            "en": "She peered into the box to see what was inside.",
+            "zh": "她仔細往盒子裡看，想知道裡面裝了什麼。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "equal",
+        "noteZh": "名詞：同等地位的人"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "peerless",
+        "partOfSpeech": "adjective",
+        "meaningZh": "無與倫比的"
       }
     ],
     "tags": [
@@ -536,14 +676,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "equal",
-        "noteZh": "名詞：同等地位的人"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pelt",
@@ -557,14 +690,15 @@
       {
         "id": "s_pelt_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to throw a number of things at someone, or (of rain) to fall heavily",
         "definitionZh": "連續投擲；（雨）猛烈地下",
         "usageExplanationZh": "常見 pelt someone with something（用東西連續丟某人）、the rain pelted down（雨勢猛烈）。",
-        "examples": [
-          {
-            "en": "The protesters pelted the building with eggs.",
-            "zh": "抗議者朝那棟建築物連續丟擲雞蛋。"
-          }
+        "grammarPatterns": [
+          "pelt sb with + noun",
+          "the rain pelts down"
         ],
         "collocations": [
           {
@@ -575,9 +709,22 @@
             "text": "rain pelts down",
             "meaningZh": "雨傾盆而下"
           }
+        ],
+        "examples": [
+          {
+            "en": "The protesters pelted the building with eggs.",
+            "zh": "抗議者朝那棟建築物連續丟擲雞蛋。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "bombard",
+        "noteZh": "連續投擲攻擊"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -588,14 +735,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "bombard",
-        "noteZh": "連續投擲攻擊"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_penalize",
@@ -609,14 +749,16 @@
       {
         "id": "s_penalize_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to punish someone for breaking a rule or law, or to put someone at a disadvantage",
         "definitionZh": "處罰；使處於不利地位",
         "usageExplanationZh": "常接 for，如 penalize someone for lateness（因遲到而處罰某人），也可指制度上造成的不公平。",
-        "examples": [
-          {
-            "en": "The team was penalized for having too many players on the field.",
-            "zh": "該隊因場上球員人數過多而受到處罰。"
-          }
+        "grammarPatterns": [
+          "penalize sb for + V-ing",
+          "be penalized for + noun"
         ],
         "collocations": [
           {
@@ -627,7 +769,37 @@
             "text": "penalize an offender",
             "meaningZh": "處罰違規者"
           }
+        ],
+        "examples": [
+          {
+            "en": "The team was penalized for having too many players on the field.",
+            "zh": "該隊因場上球員人數過多而受到處罰。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "punish",
+        "noteZh": "處罰"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "reward",
+        "noteZh": "獎勵"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "penalty",
+        "partOfSpeech": "noun",
+        "meaningZh": "處罰；罰款"
+      },
+      {
+        "lemma": "penal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "刑罰的；刑事的"
       }
     ],
     "tags": [
@@ -640,19 +812,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "punish",
-        "noteZh": "處罰"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "reward",
-        "noteZh": "獎勵"
-      }
-    ]
+    }
   },
   {
     "id": "w_penalty",
@@ -666,14 +826,16 @@
       {
         "id": "s_penalty_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "a punishment for breaking a law, rule, or contract",
         "definitionZh": "處罰；罰款；（運動）罰球",
         "usageExplanationZh": "常見 pay a penalty、face a penalty，也用於運動比賽中的罰球或罰分。",
-        "examples": [
-          {
-            "en": "There is a penalty for canceling the contract early.",
-            "zh": "提前解約會有罰款。"
-          }
+        "grammarPatterns": [
+          "a penalty for + V-ing",
+          "impose a penalty"
         ],
         "collocations": [
           {
@@ -684,7 +846,37 @@
             "text": "the death penalty",
             "meaningZh": "死刑"
           }
+        ],
+        "examples": [
+          {
+            "en": "There is a penalty for canceling the contract early.",
+            "zh": "提前解約會有罰款。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "punishment",
+        "noteZh": "懲罰"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "reward",
+        "noteZh": "獎勵"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "penalize",
+        "partOfSpeech": "verb",
+        "meaningZh": "處罰"
+      },
+      {
+        "lemma": "penal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "刑罰的"
       }
     ],
     "tags": [
@@ -699,19 +891,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "punishment",
-        "noteZh": "懲罰"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "reward",
-        "noteZh": "獎勵"
-      }
-    ]
+    }
   },
   {
     "id": "w_penance",
@@ -725,14 +905,16 @@
       {
         "id": "s_penance_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "an act of self-punishment or devotion to show sorrow for wrongdoing",
         "definitionZh": "懺悔；苦修",
         "usageExplanationZh": "常帶宗教色彩，常見 do penance for（為……做懺悔），強調透過自我懲罰表達悔意。",
-        "examples": [
-          {
-            "en": "He did penance for his sins by fasting for a week.",
-            "zh": "他透過禁食一週來為自己的罪過懺悔。"
-          }
+        "grammarPatterns": [
+          "do penance for + noun",
+          "an act of penance"
         ],
         "collocations": [
           {
@@ -743,7 +925,32 @@
             "text": "as a penance",
             "meaningZh": "作為贖罪方式"
           }
+        ],
+        "examples": [
+          {
+            "en": "He did penance for his sins by fasting for a week.",
+            "zh": "他透過禁食一週來為自己的罪過懺悔。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "atonement",
+        "noteZh": "贖罪"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "penitent",
+        "partOfSpeech": "adjective",
+        "meaningZh": "懺悔的；悔悟的"
+      },
+      {
+        "lemma": "penitence",
+        "partOfSpeech": "noun",
+        "meaningZh": "悔改；懺悔"
       }
     ],
     "tags": [
@@ -756,14 +963,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "atonement",
-        "noteZh": "贖罪"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_penetrate",
@@ -777,14 +977,16 @@
       {
         "id": "s_penetrate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to succeed in entering or passing through something, or to gain understanding or access to a market or organization",
         "definitionZh": "穿透；滲透；打入（市場等）",
         "usageExplanationZh": "常接具體物體或抽象目標，如 penetrate the wall、penetrate a market，需依上下文判斷字面或比喻意。",
-        "examples": [
-          {
-            "en": "The bullet penetrated the wooden door.",
-            "zh": "子彈穿透了那扇木門。"
-          }
+        "grammarPatterns": [
+          "penetrate + noun",
+          "penetrate into + noun"
         ],
         "collocations": [
           {
@@ -795,7 +997,32 @@
             "text": "penetrate the skin",
             "meaningZh": "穿透皮膚"
           }
+        ],
+        "examples": [
+          {
+            "en": "The bullet penetrated the wooden door.",
+            "zh": "子彈穿透了那扇木門。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "pierce",
+        "noteZh": "穿透"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "penetration",
+        "partOfSpeech": "noun",
+        "meaningZh": "穿透；滲透"
+      },
+      {
+        "lemma": "impenetrable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "無法穿透的；難以理解的"
       }
     ],
     "tags": [
@@ -810,14 +1037,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pierce",
-        "noteZh": "穿透"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_penultimate",
@@ -831,14 +1051,16 @@
       {
         "id": "s_penultimate_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "second to last in a series",
         "definitionZh": "倒數第二的",
         "usageExplanationZh": "常修飾 chapter、syllable 等序列中的項目，強調位置在最後一個之前。",
-        "examples": [
-          {
-            "en": "The penultimate chapter reveals a major plot twist.",
-            "zh": "倒數第二章揭露了一個重大的劇情轉折。"
-          }
+        "grammarPatterns": [
+          "the penultimate + noun",
+          "the penultimate chapter"
         ],
         "collocations": [
           {
@@ -849,7 +1071,27 @@
             "text": "the penultimate day",
             "meaningZh": "倒數第二天"
           }
+        ],
+        "examples": [
+          {
+            "en": "The penultimate chapter reveals a major plot twist.",
+            "zh": "倒數第二章揭露了一個重大的劇情轉折。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "next-to-last",
+        "noteZh": "倒數第二的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "ultimate",
+        "partOfSpeech": "adjective",
+        "meaningZh": "最終的；最後的"
       }
     ],
     "tags": [
@@ -862,14 +1104,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "next-to-last",
-        "noteZh": "倒數第二的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_perceive",
@@ -883,14 +1118,16 @@
       {
         "id": "s_perceive_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to become aware of or notice something through the senses, or to interpret something in a particular way",
         "definitionZh": "察覺；感知；認為",
         "usageExplanationZh": "常接 as，如 perceive something as（將某事視為……），強調主觀的理解或詮釋。",
-        "examples": [
-          {
-            "en": "Many people perceive the changes as a step in the right direction.",
-            "zh": "許多人認為這些改變是朝著正確方向邁出的一步。"
-          }
+        "grammarPatterns": [
+          "perceive sth as + noun",
+          "perceive that + clause"
         ],
         "collocations": [
           {
@@ -901,7 +1138,41 @@
             "text": "perceive a threat",
             "meaningZh": "察覺威脅"
           }
+        ],
+        "examples": [
+          {
+            "en": "Many people perceive the changes as a step in the right direction.",
+            "zh": "許多人認為這些改變是朝著正確方向邁出的一步。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "notice",
+        "noteZh": "察覺"
+      },
+      {
+        "lemma": "regard",
+        "noteZh": "視為"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "perception",
+        "partOfSpeech": "noun",
+        "meaningZh": "認知；感知"
+      },
+      {
+        "lemma": "perceptive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有洞察力的"
+      },
+      {
+        "lemma": "perceptible",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可察覺的"
       }
     ],
     "tags": [
@@ -915,18 +1186,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "notice",
-        "noteZh": "察覺"
-      },
-      {
-        "lemma": "regard",
-        "noteZh": "視為"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_percentage",
@@ -940,14 +1200,16 @@
       {
         "id": "s_percentage_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "a rate, number, or amount expressed as a fraction of 100",
         "definitionZh": "百分比；比例",
         "usageExplanationZh": "常接 of，如 a high percentage of，用於描述整體中所占的比例。",
-        "examples": [
-          {
-            "en": "A large percentage of students passed the exam.",
-            "zh": "有很高比例的學生通過了這次考試。"
-          }
+        "grammarPatterns": [
+          "a percentage of + noun",
+          "a high percentage"
         ],
         "collocations": [
           {
@@ -958,7 +1220,27 @@
             "text": "a percentage point",
             "meaningZh": "一個百分點"
           }
+        ],
+        "examples": [
+          {
+            "en": "A large percentage of students passed the exam.",
+            "zh": "有很高比例的學生通過了這次考試。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "proportion",
+        "noteZh": "比例，但不一定以百分之百表示"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "percent",
+        "partOfSpeech": "noun",
+        "meaningZh": "百分之…；百分比"
       }
     ],
     "tags": [
@@ -972,14 +1254,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "proportion",
-        "noteZh": "比例，但不一定以百分之百表示"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_perception",
@@ -993,14 +1268,16 @@
       {
         "id": "s_perception_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "the way something is regarded, understood, or interpreted, or the ability to notice things through the senses",
         "definitionZh": "看法；認知；感知能力",
         "usageExplanationZh": "常見 public perception（公眾看法）、perception of reality（對現實的認知），強調主觀理解方式。",
-        "examples": [
-          {
-            "en": "Public perception of the company changed after the scandal.",
-            "zh": "醜聞爆發後，大眾對這家公司的看法改變了。"
-          }
+        "grammarPatterns": [
+          "public perception of + noun",
+          "the perception that + clause"
         ],
         "collocations": [
           {
@@ -1011,7 +1288,41 @@
             "text": "alter someone's perception of",
             "meaningZh": "改變某人對某事的看法"
           }
+        ],
+        "examples": [
+          {
+            "en": "Public perception of the company changed after the scandal.",
+            "zh": "醜聞爆發後，大眾對這家公司的看法改變了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "view",
+        "noteZh": "指看法"
+      },
+      {
+        "lemma": "awareness",
+        "noteZh": "指感知"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "perceive",
+        "partOfSpeech": "verb",
+        "meaningZh": "察覺；感知"
+      },
+      {
+        "lemma": "perceptive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "敏銳的"
+      },
+      {
+        "lemma": "perceptual",
+        "partOfSpeech": "adjective",
+        "meaningZh": "知覺的"
       }
     ],
     "tags": [
@@ -1026,18 +1337,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "view",
-        "noteZh": "指看法"
-      },
-      {
-        "lemma": "awareness",
-        "noteZh": "指感知"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_perch",
@@ -1051,14 +1351,16 @@
       {
         "id": "s_perch_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "a place, typically a branch or bar, where a bird rests, or a high or precarious position",
         "definitionZh": "（鳥的）棲木；高處的位置",
         "usageExplanationZh": "常見 a bird's perch，比喻用法如 a precarious perch（岌岌可危的高位）。",
-        "examples": [
-          {
-            "en": "The parrot sat calmly on its perch.",
-            "zh": "那隻鸚鵡靜靜地站在棲木上。"
-          }
+        "grammarPatterns": [
+          "on its perch",
+          "a perch above + noun"
         ],
         "collocations": [
           {
@@ -1069,9 +1371,17 @@
             "text": "a high perch",
             "meaningZh": "高處的落腳點"
           }
+        ],
+        "examples": [
+          {
+            "en": "The parrot sat calmly on its perch.",
+            "zh": "那隻鸚鵡靜靜地站在棲木上。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1083,9 +1393,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_percussion",
@@ -1099,14 +1407,16 @@
       {
         "id": "s_percussion_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "musical instruments played by striking or shaking, such as drums",
         "definitionZh": "打擊樂器；打擊樂",
         "usageExplanationZh": "常見 a percussion instrument、percussion section（打擊樂部），指以敲擊方式發聲的樂器類別。",
-        "examples": [
-          {
-            "en": "The percussion section added energy to the orchestra's performance.",
-            "zh": "打擊樂部為管弦樂團的演出增添了活力。"
-          }
+        "grammarPatterns": [
+          "the percussion section",
+          "play percussion"
         ],
         "collocations": [
           {
@@ -1117,7 +1427,27 @@
             "text": "the percussion section",
             "meaningZh": "打擊樂聲部"
           }
+        ],
+        "examples": [
+          {
+            "en": "The percussion section added energy to the orchestra's performance.",
+            "zh": "打擊樂部為管弦樂團的演出增添了活力。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "percussionist",
+        "partOfSpeech": "noun",
+        "meaningZh": "打擊樂手"
+      },
+      {
+        "lemma": "percussive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "敲擊的；打擊樂的"
       }
     ],
     "tags": [
@@ -1132,9 +1462,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_perennial",
@@ -1148,14 +1476,16 @@
       {
         "id": "s_perennial_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "lasting for a long time or recurring repeatedly; (of a plant) living for several years",
         "definitionZh": "長期存在的；反覆出現的；（植物）多年生的",
         "usageExplanationZh": "常見 a perennial problem（長期存在的問題）、perennial plant（多年生植物），依上下文判斷字面或比喻義。",
-        "examples": [
-          {
-            "en": "Traffic congestion is a perennial problem in this city.",
-            "zh": "交通壅塞是這座城市長期存在的問題。"
-          }
+        "grammarPatterns": [
+          "a perennial + noun",
+          "a perennial problem"
         ],
         "collocations": [
           {
@@ -1166,7 +1496,27 @@
             "text": "perennial plants",
             "meaningZh": "多年生植物"
           }
+        ],
+        "examples": [
+          {
+            "en": "Traffic congestion is a perennial problem in this city.",
+            "zh": "交通壅塞是這座城市長期存在的問題。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "enduring",
+        "noteZh": "長期存在的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "perennially",
+        "partOfSpeech": "adverb",
+        "meaningZh": "常年地；不斷地"
       }
     ],
     "tags": [
@@ -1181,14 +1531,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "enduring",
-        "noteZh": "長期存在的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_performer",
@@ -1202,14 +1545,15 @@
       {
         "id": "s_performer_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a person who performs for an audience, such as an actor or musician",
         "definitionZh": "表演者；演出者",
         "usageExplanationZh": "常見 a live performer、a top performer（也可指表現優異者，見於商業情境），需依語境判斷。",
-        "examples": [
-          {
-            "en": "The performer received a standing ovation after the show.",
-            "zh": "表演結束後，那位表演者獲得了全場起立鼓掌。"
-          }
+        "grammarPatterns": [
+          "a talented performer",
+          "a performer at + noun"
         ],
         "collocations": [
           {
@@ -1220,7 +1564,32 @@
             "text": "a solo performer",
             "meaningZh": "獨自演出的表演者"
           }
+        ],
+        "examples": [
+          {
+            "en": "The performer received a standing ovation after the show.",
+            "zh": "表演結束後，那位表演者獲得了全場起立鼓掌。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "entertainer",
+        "noteZh": "以表演娛樂觀眾的人"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "perform",
+        "partOfSpeech": "verb",
+        "meaningZh": "表演；執行"
+      },
+      {
+        "lemma": "performance",
+        "partOfSpeech": "noun",
+        "meaningZh": "表演；表現"
       }
     ],
     "tags": [
@@ -1233,14 +1602,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "entertainer",
-        "noteZh": "以表演娛樂觀眾的人"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_perfume",
@@ -1254,14 +1616,15 @@
       {
         "id": "s_perfume_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a fragrant liquid typically made from essential oils, used to give a pleasant smell",
         "definitionZh": "香水",
         "usageExplanationZh": "常接 wear perfume、a bottle of perfume，指用於身體或衣物上的香氛液體。",
-        "examples": [
-          {
-            "en": "She always wears a light floral perfume.",
-            "zh": "她總是擦著淡淡的花香香水。"
-          }
+        "grammarPatterns": [
+          "wear perfume",
+          "a bottle of perfume"
         ],
         "collocations": [
           {
@@ -1272,26 +1635,58 @@
             "text": "a bottle of perfume",
             "meaningZh": "一瓶香水"
           }
+        ],
+        "examples": [
+          {
+            "en": "She always wears a light floral perfume.",
+            "zh": "她總是擦著淡淡的花香香水。"
+          }
         ]
       },
       {
         "id": "s_perfume_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "to give a pleasant smell to",
         "definitionZh": "使芳香；使散發香味",
         "usageExplanationZh": "常接 the air、a room 等，如 perfume the air（使空氣充滿香氣），文學語氣較重。",
-        "examples": [
-          {
-            "en": "The blooming roses perfumed the entire garden.",
-            "zh": "盛開的玫瑰使整座花園瀰漫著香氣。"
-          }
+        "grammarPatterns": [
+          "perfume + noun",
+          "perfume the air with + noun"
         ],
         "collocations": [
           {
             "text": "perfume the air",
             "meaningZh": "使空氣瀰漫香氣"
           }
+        ],
+        "examples": [
+          {
+            "en": "The blooming roses perfumed the entire garden.",
+            "zh": "盛開的玫瑰使整座花園瀰漫著香氣。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "fragrance",
+        "noteZh": "名詞：香水或香氣"
+      },
+      {
+        "lemma": "scent",
+        "noteZh": "動詞：使帶香味"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "perfumery",
+        "partOfSpeech": "noun",
+        "meaningZh": "香水製造業；香水店"
       }
     ],
     "tags": [
@@ -1305,18 +1700,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "fragrance",
-        "noteZh": "名詞：香水或香氣"
-      },
-      {
-        "lemma": "scent",
-        "noteZh": "動詞：使帶香味"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_perfunctory",
@@ -1330,14 +1714,16 @@
       {
         "id": "s_perfunctory_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "carried out with minimal effort or reflection, as a routine duty",
         "definitionZh": "敷衍了事的；例行公事的",
         "usageExplanationZh": "常修飾 greeting、check、apology 等，形容缺乏誠意或用心的行為。",
-        "examples": [
-          {
-            "en": "He gave a perfunctory nod and walked away.",
-            "zh": "他敷衍地點了點頭就走開了。"
-          }
+        "grammarPatterns": [
+          "a perfunctory + noun",
+          "a perfunctory nod"
         ],
         "collocations": [
           {
@@ -1348,7 +1734,32 @@
             "text": "a perfunctory glance",
             "meaningZh": "草草一瞥"
           }
+        ],
+        "examples": [
+          {
+            "en": "He gave a perfunctory nod and walked away.",
+            "zh": "他敷衍地點了點頭就走開了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "cursory",
+        "noteZh": "草率的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "thorough",
+        "noteZh": "仔細周全的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "perfunctorily",
+        "partOfSpeech": "adverb",
+        "meaningZh": "敷衍地；例行公事地"
       }
     ],
     "tags": [
@@ -1361,19 +1772,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cursory",
-        "noteZh": "草率的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "thorough",
-        "noteZh": "仔細周全的"
-      }
-    ]
+    }
   },
   {
     "id": "w_perilous",
@@ -1387,14 +1786,16 @@
       {
         "id": "s_perilous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "dangerous or risky",
         "definitionZh": "危險的；充滿風險的",
         "usageExplanationZh": "常修飾 journey、situation，語氣較 dangerous 更正式、文學化。",
-        "examples": [
-          {
-            "en": "They embarked on a perilous journey across the mountains.",
-            "zh": "他們展開了一場橫越山脈的危險旅程。"
-          }
+        "grammarPatterns": [
+          "a perilous + noun",
+          "a perilous journey"
         ],
         "collocations": [
           {
@@ -1405,7 +1806,37 @@
             "text": "a perilous situation",
             "meaningZh": "危險的處境"
           }
+        ],
+        "examples": [
+          {
+            "en": "They embarked on a perilous journey across the mountains.",
+            "zh": "他們展開了一場橫越山脈的危險旅程。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "dangerous",
+        "noteZh": "危險的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "safe",
+        "noteZh": "安全的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "peril",
+        "partOfSpeech": "noun",
+        "meaningZh": "危險；風險"
+      },
+      {
+        "lemma": "perilously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "危險地"
       }
     ],
     "tags": [
@@ -1419,19 +1850,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "dangerous",
-        "noteZh": "危險的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "safe",
-        "noteZh": "安全的"
-      }
-    ]
+    }
   },
   {
     "id": "w_perimeter",
@@ -1445,14 +1864,16 @@
       {
         "id": "s_perimeter_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "the outer boundary of an area or figure",
         "definitionZh": "周長；周界；外圍",
         "usageExplanationZh": "常見 the perimeter of a field（田地的周界）、secure the perimeter（守衛外圍），兼有數學與軍事用法。",
-        "examples": [
-          {
-            "en": "Guards patrolled the perimeter of the base all night.",
-            "zh": "衛兵整夜在基地外圍巡邏。"
-          }
+        "grammarPatterns": [
+          "the perimeter of + noun",
+          "patrol the perimeter"
         ],
         "collocations": [
           {
@@ -1463,9 +1884,22 @@
             "text": "a perimeter fence",
             "meaningZh": "周界圍欄"
           }
+        ],
+        "examples": [
+          {
+            "en": "Guards patrolled the perimeter of the base all night.",
+            "zh": "衛兵整夜在基地外圍巡邏。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "boundary",
+        "noteZh": "邊界"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1478,14 +1912,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "boundary",
-        "noteZh": "邊界"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_peripheral",
@@ -1499,14 +1926,16 @@
       {
         "id": "s_peripheral_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "of secondary or minor importance, or relating to the outer edge of something",
         "definitionZh": "次要的；邊緣的；周邊的",
         "usageExplanationZh": "常見 peripheral vision（周邊視覺）、a peripheral issue（次要議題），依上下文判斷字面或比喻義。",
-        "examples": [
-          {
-            "en": "The budget cuts affected only peripheral departments.",
-            "zh": "這次預算刪減只影響到次要部門。"
-          }
+        "grammarPatterns": [
+          "peripheral to + noun",
+          "of peripheral importance"
         ],
         "collocations": [
           {
@@ -1517,7 +1946,32 @@
             "text": "peripheral to the discussion",
             "meaningZh": "與討論的核心關係不大的"
           }
+        ],
+        "examples": [
+          {
+            "en": "The budget cuts affected only peripheral departments.",
+            "zh": "這次預算刪減只影響到次要部門。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "marginal",
+        "noteZh": "次要的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "central",
+        "noteZh": "核心的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "periphery",
+        "partOfSpeech": "noun",
+        "meaningZh": "周邊；外圍"
       }
     ],
     "tags": [
@@ -1531,19 +1985,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "marginal",
-        "noteZh": "次要的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "central",
-        "noteZh": "核心的"
-      }
-    ]
+    }
   },
   {
     "id": "w_perish",
@@ -1557,14 +1999,16 @@
       {
         "id": "s_perish_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to die, especially in a sudden or violent way, or (of material) to decay",
         "definitionZh": "死亡；（材料）腐爛、老化",
         "usageExplanationZh": "常見 perish in a fire/accident，也可指橡膠等材質因老化而損壞（the rubber has perished）。",
-        "examples": [
-          {
-            "en": "Many soldiers perished in the harsh winter conditions.",
-            "zh": "許多士兵在嚴酷的冬季環境中喪生。"
-          }
+        "grammarPatterns": [
+          "perish in + noun",
+          "perish from + noun"
         ],
         "collocations": [
           {
@@ -1575,21 +2019,15 @@
             "text": "perish from hunger",
             "meaningZh": "餓死"
           }
+        ],
+        "examples": [
+          {
+            "en": "Many soldiers perished in the harsh winter conditions.",
+            "zh": "許多士兵在嚴酷的冬季環境中喪生。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "die",
@@ -1605,7 +2043,26 @@
         "lemma": "survive",
         "noteZh": "存活"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "perishable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "易腐壞的"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_permanence",
@@ -1619,14 +2076,16 @@
       {
         "id": "s_permanence_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the state of lasting or remaining unchanged indefinitely",
         "definitionZh": "永久性；持久性",
         "usageExplanationZh": "常接 a sense of permanence，強調事物長久不變的性質，抽象名詞，通常不可數。",
-        "examples": [
-          {
-            "en": "The tattoo symbolized the permanence of their friendship.",
-            "zh": "那個刺青象徵著他們友誼的永恆。"
-          }
+        "grammarPatterns": [
+          "the permanence of + noun",
+          "a sense of permanence"
         ],
         "collocations": [
           {
@@ -1637,7 +2096,37 @@
             "text": "the permanence of change",
             "meaningZh": "變化的永久性"
           }
+        ],
+        "examples": [
+          {
+            "en": "The tattoo symbolized the permanence of their friendship.",
+            "zh": "那個刺青象徵著他們友誼的永恆。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "durability",
+        "noteZh": "持久性"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "transience",
+        "noteZh": "短暫性"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "permanent",
+        "partOfSpeech": "adjective",
+        "meaningZh": "永久的；長久的"
+      },
+      {
+        "lemma": "permanently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "永久地"
       }
     ],
     "tags": [
@@ -1650,19 +2139,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "durability",
-        "noteZh": "持久性"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "transience",
-        "noteZh": "短暫性"
-      }
-    ]
+    }
   },
   {
     "id": "w_permanent",
@@ -1676,14 +2153,15 @@
       {
         "id": "s_permanent_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "lasting or intended to last indefinitely; not temporary",
         "definitionZh": "永久的；長久的",
         "usageExplanationZh": "常見 a permanent job、permanent damage，與 temporary 相對，強調不會改變或結束。",
-        "examples": [
-          {
-            "en": "She finally got a permanent position at the company.",
-            "zh": "她終於在這家公司獲得了正職（永久性職位）。"
-          }
+        "grammarPatterns": [
+          "a permanent + noun",
+          "become permanent"
         ],
         "collocations": [
           {
@@ -1694,7 +2172,37 @@
             "text": "permanent damage",
             "meaningZh": "永久損害"
           }
+        ],
+        "examples": [
+          {
+            "en": "She finally got a permanent position at the company.",
+            "zh": "她終於在這家公司獲得了正職（永久性職位）。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "lasting",
+        "noteZh": "持久的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "temporary",
+        "noteZh": "暫時的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "permanence",
+        "partOfSpeech": "noun",
+        "meaningZh": "永久性；持久性"
+      },
+      {
+        "lemma": "permanently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "永久地"
       }
     ],
     "tags": [
@@ -1709,19 +2217,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "lasting",
-        "noteZh": "持久的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "temporary",
-        "noteZh": "暫時的"
-      }
-    ]
+    }
   },
   {
     "id": "w_permeate",
@@ -1735,14 +2231,16 @@
       {
         "id": "s_permeate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to spread throughout something or pass through its substance",
         "definitionZh": "瀰漫；滲透",
         "usageExplanationZh": "常接 through、into，或直接接受詞，如 permeate the room（瀰漫整個房間），可指氣味、思想的擴散。",
-        "examples": [
-          {
-            "en": "The smell of fresh coffee permeated the whole house.",
-            "zh": "新鮮咖啡的香氣瀰漫了整個屋子。"
-          }
+        "grammarPatterns": [
+          "permeate + noun",
+          "permeate through + noun"
         ],
         "collocations": [
           {
@@ -1753,7 +2251,32 @@
             "text": "permeate through the soil",
             "meaningZh": "滲透土壤"
           }
+        ],
+        "examples": [
+          {
+            "en": "The smell of fresh coffee permeated the whole house.",
+            "zh": "新鮮咖啡的香氣瀰漫了整個屋子。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "pervade",
+        "noteZh": "瀰漫"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "permeable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可滲透的"
+      },
+      {
+        "lemma": "permeation",
+        "partOfSpeech": "noun",
+        "meaningZh": "滲透；瀰漫"
       }
     ],
     "tags": [
@@ -1768,14 +2291,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pervade",
-        "noteZh": "瀰漫"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_permission",
@@ -1789,14 +2305,15 @@
       {
         "id": "s_permission_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "the act of officially allowing someone to do something",
         "definitionZh": "許可；准許",
         "usageExplanationZh": "常見 ask for permission、give permission，強調正式或明確同意的行為，不可數名詞。",
-        "examples": [
-          {
-            "en": "He asked his teacher for permission to leave early.",
-            "zh": "他向老師請求准許提早離開。"
-          }
+        "grammarPatterns": [
+          "ask for permission to + V",
+          "give sb permission"
         ],
         "collocations": [
           {
@@ -1807,7 +2324,42 @@
             "text": "permission to enter",
             "meaningZh": "進入的許可"
           }
+        ],
+        "examples": [
+          {
+            "en": "He asked his teacher for permission to leave early.",
+            "zh": "他向老師請求准許提早離開。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "consent",
+        "noteZh": "同意"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "prohibition",
+        "noteZh": "禁止"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "permit",
+        "partOfSpeech": "verb",
+        "meaningZh": "允許；准許"
+      },
+      {
+        "lemma": "permissible",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可允許的"
+      },
+      {
+        "lemma": "permissive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "寬容的；放任的"
       }
     ],
     "tags": [
@@ -1820,19 +2372,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "consent",
-        "noteZh": "同意"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "prohibition",
-        "noteZh": "禁止"
-      }
-    ]
+    }
   },
   {
     "id": "w_permissive",
@@ -1846,14 +2386,16 @@
       {
         "id": "s_permissive_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "allowing a great deal of freedom in behavior, especially in sexual or social matters",
         "definitionZh": "寬容的；放任的",
         "usageExplanationZh": "常見 permissive parenting（放任式教養）、a permissive society（開放寬容的社會），常帶有評價性語氣。",
-        "examples": [
-          {
-            "en": "The permissive attitude of the parents surprised the teacher.",
-            "zh": "那對父母放任的態度讓老師感到驚訝。"
-          }
+        "grammarPatterns": [
+          "a permissive + noun",
+          "a permissive attitude toward + noun"
         ],
         "collocations": [
           {
@@ -1864,7 +2406,42 @@
             "text": "a permissive society",
             "meaningZh": "風氣開放的社會"
           }
+        ],
+        "examples": [
+          {
+            "en": "The permissive attitude of the parents surprised the teacher.",
+            "zh": "那對父母放任的態度讓老師感到驚訝。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "lenient",
+        "noteZh": "寬容的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "strict",
+        "noteZh": "嚴格的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "permit",
+        "partOfSpeech": "verb",
+        "meaningZh": "允許"
+      },
+      {
+        "lemma": "permission",
+        "partOfSpeech": "noun",
+        "meaningZh": "許可；准許"
+      },
+      {
+        "lemma": "permissiveness",
+        "partOfSpeech": "noun",
+        "meaningZh": "放任；寬容"
       }
     ],
     "tags": [
@@ -1878,19 +2455,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "lenient",
-        "noteZh": "寬容的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "strict",
-        "noteZh": "嚴格的"
-      }
-    ]
+    }
   },
   {
     "id": "w_pernicious",
@@ -1904,14 +2469,16 @@
       {
         "id": "s_pernicious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "having a harmful effect, especially in a gradual or subtle way",
         "definitionZh": "有害的；潛移默化地造成傷害的",
         "usageExplanationZh": "常修飾 influence、effect，強調傷害是逐漸累積、不易察覺的，語氣正式。",
-        "examples": [
-          {
-            "en": "The pernicious effects of misinformation can spread quickly online.",
-            "zh": "不實資訊的潛在危害可能在網路上迅速擴散。"
-          }
+        "grammarPatterns": [
+          "a pernicious + noun",
+          "the pernicious effects of + noun"
         ],
         "collocations": [
           {
@@ -1922,7 +2489,32 @@
             "text": "pernicious effects",
             "meaningZh": "潛在而深遠的害處"
           }
+        ],
+        "examples": [
+          {
+            "en": "The pernicious effects of misinformation can spread quickly online.",
+            "zh": "不實資訊的潛在危害可能在網路上迅速擴散。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "harmful",
+        "noteZh": "有害的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "beneficial",
+        "noteZh": "有益的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "perniciously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "有害地"
       }
     ],
     "tags": [
@@ -1935,19 +2527,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "harmful",
-        "noteZh": "有害的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "beneficial",
-        "noteZh": "有益的"
-      }
-    ]
+    }
   },
   {
     "id": "w_perpetual",
@@ -1961,14 +2541,16 @@
       {
         "id": "s_perpetual_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "never ending or changing; continuing indefinitely",
         "definitionZh": "永久的；不斷的；持續不停的",
         "usageExplanationZh": "常見 perpetual motion、a perpetual state of chaos，強調持續不斷、無止境的狀態。",
-        "examples": [
-          {
-            "en": "The city seemed to be in a perpetual state of construction.",
-            "zh": "這座城市似乎永遠都在施工。"
-          }
+        "grammarPatterns": [
+          "a perpetual + noun",
+          "in a perpetual state of + noun"
         ],
         "collocations": [
           {
@@ -1979,7 +2561,42 @@
             "text": "in perpetual fear",
             "meaningZh": "一直處於恐懼中"
           }
+        ],
+        "examples": [
+          {
+            "en": "The city seemed to be in a perpetual state of construction.",
+            "zh": "這座城市似乎永遠都在施工。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "endless",
+        "noteZh": "無止盡的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "temporary",
+        "noteZh": "暫時的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "perpetuate",
+        "partOfSpeech": "verb",
+        "meaningZh": "使永續；使長存"
+      },
+      {
+        "lemma": "perpetually",
+        "partOfSpeech": "adverb",
+        "meaningZh": "不斷地；永久地"
+      },
+      {
+        "lemma": "perpetuity",
+        "partOfSpeech": "noun",
+        "meaningZh": "永久；永恆"
       }
     ],
     "tags": [
@@ -1993,19 +2610,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "endless",
-        "noteZh": "無止盡的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "temporary",
-        "noteZh": "暫時的"
-      }
-    ]
+    }
   },
   {
     "id": "w_persecute",
@@ -2019,14 +2624,16 @@
       {
         "id": "s_persecute_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to treat someone cruelly or unfairly, especially because of their race, religion, or beliefs",
         "definitionZh": "迫害；虐待",
         "usageExplanationZh": "常接受詞為人或群體，如 persecute a minority group，強調因身分或信仰而受到的迫害。",
-        "examples": [
-          {
-            "en": "The regime persecuted anyone who spoke out against it.",
-            "zh": "該政權迫害任何公開反對的人。"
-          }
+        "grammarPatterns": [
+          "persecute + noun",
+          "be persecuted for + noun"
         ],
         "collocations": [
           {
@@ -2037,7 +2644,32 @@
             "text": "be persecuted for one's beliefs",
             "meaningZh": "因信仰受到迫害"
           }
+        ],
+        "examples": [
+          {
+            "en": "The regime persecuted anyone who spoke out against it.",
+            "zh": "該政權迫害任何公開反對的人。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "oppress",
+        "noteZh": "壓迫"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "persecution",
+        "partOfSpeech": "noun",
+        "meaningZh": "迫害"
+      },
+      {
+        "lemma": "persecutor",
+        "partOfSpeech": "noun",
+        "meaningZh": "迫害者"
       }
     ],
     "tags": [
@@ -2051,14 +2683,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "oppress",
-        "noteZh": "壓迫"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_persistent",
@@ -2072,14 +2697,15 @@
       {
         "id": "s_persistent_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "continuing firmly despite difficulty or opposition, or continuing to exist over a long time",
         "definitionZh": "堅持不懈的；持續存在的",
         "usageExplanationZh": "常見 a persistent cough（持續不斷的咳嗽）、persistent effort（不懈的努力），可修飾人的態度或事物的狀態。",
-        "examples": [
-          {
-            "en": "Her persistent efforts finally paid off.",
-            "zh": "她堅持不懈的努力終於有了回報。"
-          }
+        "grammarPatterns": [
+          "persistent + noun",
+          "persistent in + V-ing"
         ],
         "collocations": [
           {
@@ -2090,7 +2716,37 @@
             "text": "persistent efforts",
             "meaningZh": "堅持不懈的努力"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her persistent efforts finally paid off.",
+            "zh": "她堅持不懈的努力終於有了回報。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "tenacious",
+        "noteZh": "指堅持不懈的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "persist",
+        "partOfSpeech": "verb",
+        "meaningZh": "堅持；持續存在"
+      },
+      {
+        "lemma": "persistence",
+        "partOfSpeech": "noun",
+        "meaningZh": "堅持；持續"
+      },
+      {
+        "lemma": "persistently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "持續地；固執地"
       }
     ],
     "tags": [
@@ -2103,14 +2759,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "tenacious",
-        "noteZh": "指堅持不懈的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_personality",
@@ -2124,14 +2773,16 @@
       {
         "id": "s_personality_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "the combination of characteristics that form an individual's distinctive character, or a famous or notable person",
         "definitionZh": "個性；人格；（知名）人物",
         "usageExplanationZh": "常見 a strong personality（強烈的個性）、a TV personality（電視名人），需依上下文判斷語意。",
-        "examples": [
-          {
-            "en": "She has a warm and outgoing personality.",
-            "zh": "她個性溫暖又外向。"
-          }
+        "grammarPatterns": [
+          "an outgoing personality",
+          "a television personality"
         ],
         "collocations": [
           {
@@ -2142,7 +2793,37 @@
             "text": "a television personality",
             "meaningZh": "電視名人"
           }
+        ],
+        "examples": [
+          {
+            "en": "She has a warm and outgoing personality.",
+            "zh": "她個性溫暖又外向。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "character",
+        "noteZh": "指個性"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "person",
+        "partOfSpeech": "noun",
+        "meaningZh": "人；個人"
+      },
+      {
+        "lemma": "personal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "個人的；私人的"
+      },
+      {
+        "lemma": "personify",
+        "partOfSpeech": "verb",
+        "meaningZh": "具體體現；擬人化"
       }
     ],
     "tags": [
@@ -2156,14 +2837,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "character",
-        "noteZh": "指個性"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_perspective",
@@ -2177,14 +2851,16 @@
       {
         "id": "s_perspective_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "a particular attitude toward or way of viewing something, or the technique of representing depth in art",
         "definitionZh": "觀點；看法；（藝術）透視法",
         "usageExplanationZh": "常見 from a different perspective（從不同的角度）、in perspective（依比例、合乎邏輯地），也可指繪畫中的透視技巧。",
-        "examples": [
-          {
-            "en": "Traveling gave her a new perspective on life.",
-            "zh": "旅行讓她對人生有了新的看法。"
-          }
+        "grammarPatterns": [
+          "a new perspective on + noun",
+          "from sb's perspective"
         ],
         "collocations": [
           {
@@ -2195,9 +2871,22 @@
             "text": "put something in perspective",
             "meaningZh": "適當衡量某事的重要性"
           }
+        ],
+        "examples": [
+          {
+            "en": "Traveling gave her a new perspective on life.",
+            "zh": "旅行讓她對人生有了新的看法。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "viewpoint",
+        "noteZh": "指觀點"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2210,14 +2899,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "viewpoint",
-        "noteZh": "指觀點"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_perspicacious",
@@ -2231,14 +2913,16 @@
       {
         "id": "s_perspicacious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "having keen insight or good judgment; perceptive",
         "definitionZh": "敏銳的；有洞察力的",
         "usageExplanationZh": "正式書面用語，形容人具有敏銳的觀察力與判斷力，常見於學術或文學文本。",
-        "examples": [
-          {
-            "en": "The perspicacious detective quickly noticed the inconsistency in the suspect's story.",
-            "zh": "這位觀察敏銳的偵探很快就發現了嫌犯供詞中的矛盾之處。"
-          }
+        "grammarPatterns": [
+          "a perspicacious + noun",
+          "perspicacious about + noun"
         ],
         "collocations": [
           {
@@ -2249,7 +2933,32 @@
             "text": "a perspicacious analysis",
             "meaningZh": "有洞察力的分析"
           }
+        ],
+        "examples": [
+          {
+            "en": "The perspicacious detective quickly noticed the inconsistency in the suspect's story.",
+            "zh": "這位觀察敏銳的偵探很快就發現了嫌犯供詞中的矛盾之處。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "perceptive",
+        "noteZh": "洞察力敏銳的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "unperceptive",
+        "noteZh": "缺乏洞察力的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "perspicacity",
+        "partOfSpeech": "noun",
+        "meaningZh": "洞察力；敏銳"
       }
     ],
     "tags": [
@@ -2262,19 +2971,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "perceptive",
-        "noteZh": "洞察力敏銳的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "unperceptive",
-        "noteZh": "缺乏洞察力的"
-      }
-    ]
+    }
   },
   {
     "id": "w_persuade",
@@ -2288,14 +2985,15 @@
       {
         "id": "s_persuade_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to cause someone to do or believe something through reasoning or argument",
         "definitionZh": "說服；勸說",
         "usageExplanationZh": "常見 persuade someone to do something、persuade someone of something，強調透過理由或論證使人改變想法或行動。",
-        "examples": [
-          {
-            "en": "She persuaded her friend to try the new restaurant.",
-            "zh": "她說服朋友去嘗試那家新餐廳。"
-          }
+        "grammarPatterns": [
+          "persuade sb to + V",
+          "persuade sb that + clause"
         ],
         "collocations": [
           {
@@ -2306,7 +3004,42 @@
             "text": "persuade someone of something",
             "meaningZh": "使某人相信某事"
           }
+        ],
+        "examples": [
+          {
+            "en": "She persuaded her friend to try the new restaurant.",
+            "zh": "她說服朋友去嘗試那家新餐廳。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "convince",
+        "noteZh": "說服"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "dissuade",
+        "noteZh": "勸阻，常接 from"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "persuasion",
+        "partOfSpeech": "noun",
+        "meaningZh": "說服；勸說"
+      },
+      {
+        "lemma": "persuasive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有說服力的"
+      },
+      {
+        "lemma": "dissuade",
+        "partOfSpeech": "verb",
+        "meaningZh": "勸阻"
       }
     ],
     "tags": [
@@ -2319,19 +3052,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "convince",
-        "noteZh": "說服"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "dissuade",
-        "noteZh": "勸阻，常接 from"
-      }
-    ]
+    }
   },
   {
     "id": "w_pertain",
@@ -2345,14 +3066,16 @@
       {
         "id": "s_pertain_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to be relevant or applicable to something",
         "definitionZh": "與……有關；適用於",
         "usageExplanationZh": "常接 to，如 pertain to the case（與此案件有關），正式用語，多見於法律或書面文件。",
-        "examples": [
-          {
-            "en": "These regulations pertain only to commercial vehicles.",
-            "zh": "這些法規只適用於商用車輛。"
-          }
+        "grammarPatterns": [
+          "pertain to + noun",
+          "matters pertaining to + noun"
         ],
         "collocations": [
           {
@@ -2363,7 +3086,27 @@
             "text": "rules pertaining to safety",
             "meaningZh": "有關安全的規則"
           }
+        ],
+        "examples": [
+          {
+            "en": "These regulations pertain only to commercial vehicles.",
+            "zh": "這些法規只適用於商用車輛。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "relate",
+        "noteZh": "相關"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "pertinent",
+        "partOfSpeech": "adjective",
+        "meaningZh": "切題的；相關的"
       }
     ],
     "tags": [
@@ -2377,14 +3120,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "relate",
-        "noteZh": "相關"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pertinent",
@@ -2398,14 +3134,16 @@
       {
         "id": "s_pertinent_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "relevant or applicable to a particular matter",
         "definitionZh": "切題的；相關的",
         "usageExplanationZh": "常接 to，如 pertinent to the discussion（與討論相關），常用於正式或學術情境，形容切合主題的內容。",
-        "examples": [
-          {
-            "en": "She asked several pertinent questions during the interview.",
-            "zh": "她在面試中問了幾個切中要點的問題。"
-          }
+        "grammarPatterns": [
+          "pertinent to + noun",
+          "a pertinent + noun"
         ],
         "collocations": [
           {
@@ -2416,7 +3154,37 @@
             "text": "a pertinent question",
             "meaningZh": "切題的問題"
           }
+        ],
+        "examples": [
+          {
+            "en": "She asked several pertinent questions during the interview.",
+            "zh": "她在面試中問了幾個切中要點的問題。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "relevant",
+        "noteZh": "相關的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "irrelevant",
+        "noteZh": "無關的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "pertain",
+        "partOfSpeech": "verb",
+        "meaningZh": "與……有關"
+      },
+      {
+        "lemma": "pertinence",
+        "partOfSpeech": "noun",
+        "meaningZh": "相關性；中肯"
       }
     ],
     "tags": [
@@ -2431,19 +3199,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "relevant",
-        "noteZh": "相關的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "irrelevant",
-        "noteZh": "無關的"
-      }
-    ]
+    }
   },
   {
     "id": "w_peruse",
@@ -2457,14 +3213,16 @@
       {
         "id": "s_peruse_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to read something thoroughly or carefully, or (informally) to read casually",
         "definitionZh": "仔細閱讀；瀏覽",
         "usageExplanationZh": "正式用語，可指仔細研讀（peruse a document）或口語中隨意瀏覽（peruse a menu），依語境判斷。",
-        "examples": [
-          {
-            "en": "He perused the contract carefully before signing it.",
-            "zh": "他在簽約前仔細研讀了合約內容。"
-          }
+        "grammarPatterns": [
+          "peruse + noun",
+          "peruse sth carefully"
         ],
         "collocations": [
           {
@@ -2475,7 +3233,27 @@
             "text": "peruse the menu",
             "meaningZh": "瀏覽菜單"
           }
+        ],
+        "examples": [
+          {
+            "en": "He perused the contract carefully before signing it.",
+            "zh": "他在簽約前仔細研讀了合約內容。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "read",
+        "noteZh": "閱讀"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "perusal",
+        "partOfSpeech": "noun",
+        "meaningZh": "細讀；閱覽"
       }
     ],
     "tags": [
@@ -2488,14 +3266,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "read",
-        "noteZh": "閱讀"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_perverse",
@@ -2509,14 +3280,16 @@
       {
         "id": "s_perverse_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "deliberately behaving in a way that is unreasonable or contrary to what is expected",
         "definitionZh": "乖僻的；故意作對的",
         "usageExplanationZh": "常見 perverse pleasure（從錯誤或不當的事中得到快感）、a perverse sense of humor，強調刻意違逆常理。",
-        "examples": [
-          {
-            "en": "He took a perverse pleasure in disagreeing with everyone.",
-            "zh": "他從跟每個人唱反調中獲得一種乖僻的樂趣。"
-          }
+        "grammarPatterns": [
+          "a perverse + noun",
+          "take a perverse pleasure in + V-ing"
         ],
         "collocations": [
           {
@@ -2527,7 +3300,37 @@
             "text": "a perverse decision",
             "meaningZh": "悖理的決定"
           }
+        ],
+        "examples": [
+          {
+            "en": "He took a perverse pleasure in disagreeing with everyone.",
+            "zh": "他從跟每個人唱反調中獲得一種乖僻的樂趣。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "contrary",
+        "noteZh": "故意作對的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "perversion",
+        "partOfSpeech": "noun",
+        "meaningZh": "曲解；變態"
+      },
+      {
+        "lemma": "perversity",
+        "partOfSpeech": "noun",
+        "meaningZh": "乖僻；執拗"
+      },
+      {
+        "lemma": "pervert",
+        "partOfSpeech": "verb",
+        "meaningZh": "使墮落；曲解"
       }
     ],
     "tags": [
@@ -2541,14 +3344,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "contrary",
-        "noteZh": "故意作對的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pessimism",
@@ -2562,14 +3358,16 @@
       {
         "id": "s_pessimism_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a tendency to expect the worst possible outcome",
         "definitionZh": "悲觀；悲觀主義",
         "usageExplanationZh": "與 optimism 相對，常見 a sense of pessimism、economic pessimism，指對未來抱持負面預期的態度。",
-        "examples": [
-          {
-            "en": "There is growing pessimism about the economy's recovery.",
-            "zh": "外界對經濟復甦的悲觀情緒日益升高。"
-          }
+        "grammarPatterns": [
+          "pessimism about + noun",
+          "growing pessimism"
         ],
         "collocations": [
           {
@@ -2580,7 +3378,37 @@
             "text": "widespread pessimism",
             "meaningZh": "普遍的悲觀情緒"
           }
+        ],
+        "examples": [
+          {
+            "en": "There is growing pessimism about the economy's recovery.",
+            "zh": "外界對經濟復甦的悲觀情緒日益升高。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "gloom",
+        "noteZh": "悲觀沮喪的情緒"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "optimism",
+        "noteZh": "樂觀"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "pessimistic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "悲觀的"
+      },
+      {
+        "lemma": "pessimist",
+        "partOfSpeech": "noun",
+        "meaningZh": "悲觀主義者"
       }
     ],
     "tags": [
@@ -2594,19 +3422,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "gloom",
-        "noteZh": "悲觀沮喪的情緒"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "optimism",
-        "noteZh": "樂觀"
-      }
-    ]
+    }
   },
   {
     "id": "w_pester",
@@ -2620,14 +3436,16 @@
       {
         "id": "s_pester_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "to annoy someone continually, especially with repeated requests",
         "definitionZh": "糾纏；不斷煩擾",
         "usageExplanationZh": "常接 someone、with，如 pester someone with questions（不斷用問題煩擾某人），語氣帶輕微不滿。",
-        "examples": [
-          {
-            "en": "The children kept pestering their mother for candy.",
-            "zh": "孩子們一直纏著媽媽要糖果。"
-          }
+        "grammarPatterns": [
+          "pester sb for + noun",
+          "pester sb to + V"
         ],
         "collocations": [
           {
@@ -2638,9 +3456,22 @@
             "text": "pester someone with questions",
             "meaningZh": "不斷提問煩擾某人"
           }
+        ],
+        "examples": [
+          {
+            "en": "The children kept pestering their mother for candy.",
+            "zh": "孩子們一直纏著媽媽要糖果。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "harass",
+        "noteZh": "不斷騷擾"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2653,14 +3484,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "harass",
-        "noteZh": "不斷騷擾"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pesticide",
@@ -2674,14 +3498,16 @@
       {
         "id": "s_pesticide_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a chemical substance used to kill insects or other pests",
         "definitionZh": "殺蟲劑；農藥",
         "usageExplanationZh": "常見 pesticide residue（農藥殘留）、organic without pesticides，多用於農業與環境議題。",
-        "examples": [
-          {
-            "en": "Farmers use pesticides to protect their crops from insects.",
-            "zh": "農夫使用殺蟲劑來保護作物免受昆蟲侵害。"
-          }
+        "grammarPatterns": [
+          "use pesticides",
+          "pesticide residue"
         ],
         "collocations": [
           {
@@ -2692,7 +3518,22 @@
             "text": "spray pesticides",
             "meaningZh": "噴灑農藥"
           }
+        ],
+        "examples": [
+          {
+            "en": "Farmers use pesticides to protect their crops from insects.",
+            "zh": "農夫使用殺蟲劑來保護作物免受昆蟲侵害。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "pest",
+        "partOfSpeech": "noun",
+        "meaningZh": "害蟲；討厭的人"
       }
     ],
     "tags": [
@@ -2707,9 +3548,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_petition",
@@ -2723,14 +3562,16 @@
       {
         "id": "s_petition_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to make a formal request to an authority, especially by signing a document",
         "definitionZh": "請願；正式請求",
         "usageExplanationZh": "常接 for，如 petition for change（請願要求改變），也可接 someone to do something，強調正式提出訴求。",
-        "examples": [
-          {
-            "en": "Residents petitioned the city council to build a new park.",
-            "zh": "居民向市議會請願，要求興建一座新公園。"
-          }
+        "grammarPatterns": [
+          "petition sb for + noun",
+          "petition sb to + V"
         ],
         "collocations": [
           {
@@ -2741,7 +3582,27 @@
             "text": "petition the court",
             "meaningZh": "向法院提出正式請求"
           }
+        ],
+        "examples": [
+          {
+            "en": "Residents petitioned the city council to build a new park.",
+            "zh": "居民向市議會請願，要求興建一座新公園。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "appeal",
+        "noteZh": "正式請求"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "petitioner",
+        "partOfSpeech": "noun",
+        "meaningZh": "請願人；申請人"
       }
     ],
     "tags": [
@@ -2756,14 +3617,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "appeal",
-        "noteZh": "正式請求"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_petty",
@@ -2777,14 +3631,16 @@
       {
         "id": "s_petty_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "of little importance, or (of a person) small-minded and concerned with trivial matters",
         "definitionZh": "瑣碎的；小氣的；心胸狹隘的",
         "usageExplanationZh": "常見 petty crime（輕微犯罪）、petty argument（無關緊要的爭吵），也可形容人斤斤計較、小家子氣。",
-        "examples": [
-          {
-            "en": "It seems petty to argue over who pays for coffee.",
-            "zh": "為了誰付咖啡錢而爭吵似乎太小家子氣了。"
-          }
+        "grammarPatterns": [
+          "a petty + noun",
+          "be petty about + noun",
+          "it seems petty to + V"
         ],
         "collocations": [
           {
@@ -2795,21 +3651,15 @@
             "text": "petty jealousy",
             "meaningZh": "小心眼的嫉妒"
           }
+        ],
+        "examples": [
+          {
+            "en": "It seems petty to argue over who pays for coffee.",
+            "zh": "為了誰付咖啡錢而爭吵似乎太小家子氣了。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "trivial",
@@ -2825,6 +3675,30 @@
         "lemma": "important",
         "noteZh": "指事情重要的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "pettiness",
+        "partOfSpeech": "noun",
+        "meaningZh": "小氣；瑣碎"
+      },
+      {
+        "lemma": "pettily",
+        "partOfSpeech": "adverb",
+        "meaningZh": "小氣地；瑣碎地"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   }
 ]

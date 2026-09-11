@@ -11,21 +11,48 @@
       {
         "id": "s_ceremony_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a formal event held to mark an important occasion",
         "definitionZh": "正式的儀式；典禮",
         "usageExplanationZh": "常接 wedding／graduation ceremony，指依循固定形式舉行的正式活動。",
-        "examples": [
-          {
-            "en": "The graduation ceremony lasted almost two hours.",
-            "zh": "這場畢業典禮持續了將近兩個小時。"
-          }
+        "grammarPatterns": [
+          "hold a ceremony",
+          "attend a ceremony",
+          "a graduation/wedding ceremony"
         ],
         "collocations": [
           {
             "text": "an award ceremony",
             "meaningZh": "頒獎典禮"
           }
+        ],
+        "examples": [
+          {
+            "en": "The graduation ceremony lasted almost two hours.",
+            "zh": "這場畢業典禮持續了將近兩個小時。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "ritual",
+        "noteZh": "儀式"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "ceremonial",
+        "partOfSpeech": "adjective",
+        "meaningZh": "儀式的；典禮的"
+      },
+      {
+        "lemma": "ceremonious",
+        "partOfSpeech": "adjective",
+        "meaningZh": "隆重的；講究禮節的"
       }
     ],
     "tags": [
@@ -40,14 +67,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "ritual",
-        "noteZh": "儀式"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_certainty",
@@ -61,21 +81,59 @@
       {
         "id": "s_certainty_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the state of being completely sure about something",
         "definitionZh": "確定；肯定",
         "usageExplanationZh": "常見 with certainty（肯定地）或 a certainty（確定的事），語氣比 probability 更強。",
-        "examples": [
-          {
-            "en": "No one can predict the outcome with absolute certainty.",
-            "zh": "沒有人能百分之百確定結果會是如何。"
-          }
+        "grammarPatterns": [
+          "with certainty",
+          "the certainty that + clause",
+          "a degree of certainty"
         ],
         "collocations": [
           {
             "text": "with certainty",
             "meaningZh": "確定地"
           }
+        ],
+        "examples": [
+          {
+            "en": "No one can predict the outcome with absolute certainty.",
+            "zh": "沒有人能百分之百確定結果會是如何。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "assurance",
+        "noteZh": "確信"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "uncertainty",
+        "noteZh": "不確定"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "certain",
+        "partOfSpeech": "adjective",
+        "meaningZh": "確定的；某個"
+      },
+      {
+        "lemma": "certainly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "當然；確實"
+      },
+      {
+        "lemma": "uncertainty",
+        "partOfSpeech": "noun",
+        "meaningZh": "不確定；不確定性"
       }
     ],
     "tags": [
@@ -89,19 +147,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "assurance",
-        "noteZh": "確信"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "uncertainty",
-        "noteZh": "不確定"
-      }
-    ]
+    }
   },
   {
     "id": "w_certification",
@@ -115,21 +161,49 @@
       {
         "id": "s_certification_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business",
+          "technical"
+        ],
         "definitionEn": "official confirmation that someone or something has met certain standards",
         "definitionZh": "認證；證明",
         "usageExplanationZh": "常接 professional certification，指經正式審核後取得的資格證明，如 teaching certification。",
-        "examples": [
-          {
-            "en": "She earned her teaching certification last year.",
-            "zh": "她去年取得了教師資格認證。"
-          }
+        "grammarPatterns": [
+          "earn/obtain certification",
+          "certification in + noun"
         ],
         "collocations": [
           {
             "text": "professional certification",
             "meaningZh": "專業認證"
           }
+        ],
+        "examples": [
+          {
+            "en": "She earned her teaching certification last year.",
+            "zh": "她去年取得了教師資格認證。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "accreditation",
+        "noteZh": "資格認可"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "certify",
+        "partOfSpeech": "verb",
+        "meaningZh": "證明；認證"
+      },
+      {
+        "lemma": "certificate",
+        "partOfSpeech": "noun",
+        "meaningZh": "證書；證明文件"
       }
     ],
     "tags": [
@@ -142,14 +216,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "accreditation",
-        "noteZh": "資格認可"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_chamber",
@@ -163,23 +230,38 @@
       {
         "id": "s_chamber_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "a room used for a particular purpose, especially a formal one",
         "definitionZh": "房間；廳室",
         "usageExplanationZh": "常見於正式或特定用途空間，如 council chamber（議事廳）、gas chamber（毒氣室）。",
-        "examples": [
-          {
-            "en": "The senators gathered in the main chamber to vote.",
-            "zh": "參議員們聚集在主廳投票。"
-          }
+        "grammarPatterns": [
+          "a + noun + chamber",
+          "in the chamber"
         ],
         "collocations": [
           {
             "text": "a council chamber",
             "meaningZh": "議事廳"
           }
+        ],
+        "examples": [
+          {
+            "en": "The senators gathered in the main chamber to vote.",
+            "zh": "參議員們聚集在主廳投票。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "room",
+        "noteZh": "房間"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -191,14 +273,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "room",
-        "noteZh": "房間"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_champagne",
@@ -212,23 +287,32 @@
       {
         "id": "s_champagne_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a sparkling white wine originally from the Champagne region of France",
         "definitionZh": "香檳",
         "usageExplanationZh": "不可數名詞，常見於慶祝場合，如 pop the champagne（開香檳慶祝），指法國香檳區出產的氣泡白酒。",
-        "examples": [
-          {
-            "en": "They opened a bottle of champagne to celebrate the promotion.",
-            "zh": "他們開了一瓶香檳慶祝升遷。"
-          }
+        "grammarPatterns": [
+          "a bottle of champagne",
+          "open the champagne"
         ],
         "collocations": [
           {
             "text": "a glass of champagne",
             "meaningZh": "一杯香檳"
           }
+        ],
+        "examples": [
+          {
+            "en": "They opened a bottle of champagne to celebrate the promotion.",
+            "zh": "他們開了一瓶香檳慶祝升遷。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -239,9 +323,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_champion",
@@ -255,40 +337,73 @@
       {
         "id": "s_champion_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a person who has won a competition or contest, or a strong supporter of a cause",
         "definitionZh": "冠軍；（理念的）擁護者",
         "usageExplanationZh": "可指比賽的優勝者（world champion），也可指積極支持某項理念或群體的人（a champion of human rights）。",
-        "examples": [
-          {
-            "en": "She became the champion of the tournament after three straight wins.",
-            "zh": "她連勝三場後成為這場錦標賽的冠軍。"
-          }
+        "grammarPatterns": [
+          "become the champion",
+          "a champion of + noun",
+          "the defending champion"
         ],
         "collocations": [
           {
             "text": "world champion",
             "meaningZh": "世界冠軍"
           }
+        ],
+        "examples": [
+          {
+            "en": "She became the champion of the tournament after three straight wins.",
+            "zh": "她連勝三場後成為這場錦標賽的冠軍。"
+          }
         ]
       },
       {
         "id": "s_champion_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to support a cause or person strongly and publicly",
         "definitionZh": "支持；擁護",
         "usageExplanationZh": "及物動詞，常見 champion a cause，強調公開且積極地為某項理念或群體發聲。",
-        "examples": [
-          {
-            "en": "The senator has long championed environmental protection.",
-            "zh": "這位參議員長期以來一直支持環境保護。"
-          }
+        "grammarPatterns": [
+          "champion + noun",
+          "champion the cause of + noun"
         ],
         "collocations": [
           {
             "text": "champion a cause",
             "meaningZh": "擁護一項理念"
           }
+        ],
+        "examples": [
+          {
+            "en": "The senator has long championed environmental protection.",
+            "zh": "這位參議員長期以來一直支持環境保護。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "winner",
+        "noteZh": "冠軍"
+      },
+      {
+        "lemma": "advocate",
+        "noteZh": "理念的擁護者"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "championship",
+        "partOfSpeech": "noun",
+        "meaningZh": "冠軍頭銜；錦標賽"
       }
     ],
     "tags": [
@@ -303,18 +418,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "winner",
-        "noteZh": "冠軍"
-      },
-      {
-        "lemma": "advocate",
-        "noteZh": "理念的擁護者"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_championship",
@@ -328,21 +432,42 @@
       {
         "id": "s_championship_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a competition to determine the best team or individual in a sport",
         "definitionZh": "錦標賽；冠軍賽",
         "usageExplanationZh": "常見 win a championship，指決定某項運動最佳隊伍或個人的正式比賽。",
-        "examples": [
-          {
-            "en": "The team won the national championship last year.",
-            "zh": "這支隊伍去年贏得了全國錦標賽冠軍。"
-          }
+        "grammarPatterns": [
+          "win the championship",
+          "the national championship"
         ],
         "collocations": [
           {
             "text": "win a championship",
             "meaningZh": "贏得錦標賽冠軍"
           }
+        ],
+        "examples": [
+          {
+            "en": "The team won the national championship last year.",
+            "zh": "這支隊伍去年贏得了全國錦標賽冠軍。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "tournament",
+        "noteZh": "錦標賽"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "champion",
+        "partOfSpeech": "noun",
+        "meaningZh": "冠軍；擁護者"
       }
     ],
     "tags": [
@@ -356,14 +481,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "tournament",
-        "noteZh": "錦標賽"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_chancellor",
@@ -377,14 +495,16 @@
       {
         "id": "s_chancellor_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a senior government official or head of a university",
         "definitionZh": "（德、奧等國的）總理；（大學）校長",
         "usageExplanationZh": "依語境不同：在德國指政府首長，在英美大學則常指名譽校長或校監。",
-        "examples": [
-          {
-            "en": "The chancellor announced new economic reforms.",
-            "zh": "總理宣布了新的經濟改革方案。"
-          }
+        "grammarPatterns": [
+          "the chancellor of + noun",
+          "appoint a chancellor"
         ],
         "collocations": [
           {
@@ -395,7 +515,22 @@
             "text": "a university chancellor",
             "meaningZh": "大學校長"
           }
+        ],
+        "examples": [
+          {
+            "en": "The chancellor announced new economic reforms.",
+            "zh": "總理宣布了新的經濟改革方案。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "chancellery",
+        "partOfSpeech": "noun",
+        "meaningZh": "總理府；大臣職位"
       }
     ],
     "tags": [
@@ -409,9 +544,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_channel",
@@ -425,42 +558,66 @@
       {
         "id": "s_channel_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business",
+          "technical"
+        ],
         "definitionEn": "a means of communication or a broadcasting frequency",
         "definitionZh": "管道；頻道",
         "usageExplanationZh": "常見 news channel（新聞頻道）、communication channel（溝通管道），也可指電視台頻道。",
-        "examples": [
-          {
-            "en": "He switched the television to a sports channel.",
-            "zh": "他把電視轉到體育頻道。"
-          }
+        "grammarPatterns": [
+          "a + noun + channel",
+          "through official channels",
+          "switch channels"
         ],
         "collocations": [
           {
             "text": "a television channel",
             "meaningZh": "電視頻道"
           }
+        ],
+        "examples": [
+          {
+            "en": "He switched the television to a sports channel.",
+            "zh": "他把電視轉到體育頻道。"
+          }
         ]
       },
       {
         "id": "s_channel_noun_figurative",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a route or outlet through which something is directed, such as energy or resources",
         "definitionZh": "（資源、精力等）導向的途徑",
         "usageExplanationZh": "常見 channel one's energy／resources into something 的搭配片語，此處 channel 作名詞使用。",
-        "examples": [
-          {
-            "en": "He found a healthy channel for his frustration.",
-            "zh": "他找到了宣洩挫折感的健康管道。"
-          }
+        "grammarPatterns": [
+          "a channel for + noun",
+          "find a channel for + noun"
         ],
         "collocations": [
           {
             "text": "a channel for creative energy",
             "meaningZh": "發揮創作精力的途徑"
           }
+        ],
+        "examples": [
+          {
+            "en": "He found a healthy channel for his frustration.",
+            "zh": "他找到了宣洩挫折感的健康管道。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "medium",
+        "noteZh": "傳播媒介"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -472,14 +629,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "medium",
-        "noteZh": "傳播媒介"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_chaos",
@@ -493,21 +643,54 @@
       {
         "id": "s_chaos_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "complete disorder and confusion",
         "definitionZh": "混亂；一片混沌",
         "usageExplanationZh": "不可數名詞，常見 in chaos（陷入混亂）或 total chaos，語氣強烈，多用於描述失控場面。",
-        "examples": [
-          {
-            "en": "The city fell into chaos after the storm hit.",
-            "zh": "暴風雨來襲後，這座城市陷入了一片混亂。"
-          }
+        "grammarPatterns": [
+          "descend into chaos",
+          "complete chaos",
+          "chaos in + noun"
         ],
         "collocations": [
           {
             "text": "descend into chaos",
             "meaningZh": "陷入混亂"
           }
+        ],
+        "examples": [
+          {
+            "en": "The city fell into chaos after the storm hit.",
+            "zh": "暴風雨來襲後，這座城市陷入了一片混亂。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "disorder",
+        "noteZh": "混亂"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "order",
+        "noteZh": "秩序"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "chaotic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "混亂的"
+      },
+      {
+        "lemma": "chaotically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "混亂地"
       }
     ],
     "tags": [
@@ -522,19 +705,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "disorder",
-        "noteZh": "混亂"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "order",
-        "noteZh": "秩序"
-      }
-    ]
+    }
   },
   {
     "id": "w_chapel",
@@ -548,23 +719,32 @@
       {
         "id": "s_chapel_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a small building or room used for Christian worship",
         "definitionZh": "小教堂；禮拜堂",
         "usageExplanationZh": "通常比 church 規模小，常附屬於學校、醫院或城堡等機構內。",
-        "examples": [
-          {
-            "en": "The wedding took place in a small chapel on campus.",
-            "zh": "婚禮在校園裡的一座小教堂舉行。"
-          }
+        "grammarPatterns": [
+          "in a chapel",
+          "a small chapel"
         ],
         "collocations": [
           {
             "text": "a hospital chapel",
             "meaningZh": "醫院的小禮拜堂"
           }
+        ],
+        "examples": [
+          {
+            "en": "The wedding took place in a small chapel on campus.",
+            "zh": "婚禮在校園裡的一座小教堂舉行。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -577,9 +757,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_characteristic",
@@ -593,55 +771,58 @@
       {
         "id": "s_characteristic_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "a typical or distinguishing feature of someone or something",
         "definitionZh": "特徵；特質",
         "usageExplanationZh": "常接 a defining characteristic，指足以辨識或區分事物的顯著特點。",
-        "examples": [
-          {
-            "en": "Curiosity is one of her most notable characteristics.",
-            "zh": "好奇心是她最明顯的特質之一。"
-          }
+        "grammarPatterns": [
+          "a characteristic of + noun",
+          "share characteristics with + noun"
         ],
         "collocations": [
           {
             "text": "a defining characteristic",
             "meaningZh": "決定性的特徵"
           }
+        ],
+        "examples": [
+          {
+            "en": "Curiosity is one of her most notable characteristics.",
+            "zh": "好奇心是她最明顯的特質之一。"
+          }
         ]
       },
       {
         "id": "s_characteristic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "typical of a particular person, thing, or group",
         "definitionZh": "典型的；有特色的",
         "usageExplanationZh": "常接 of，如 characteristic of，表示某特徵是該人或事物一貫的表現。",
-        "examples": [
-          {
-            "en": "He responded with his characteristic calm.",
-            "zh": "他以一貫的沉著冷靜作出回應。"
-          }
+        "grammarPatterns": [
+          "be characteristic of + noun",
+          "sb's characteristic + noun"
         ],
         "collocations": [
           {
             "text": "characteristic of",
             "meaningZh": "為……所特有的"
           }
+        ],
+        "examples": [
+          {
+            "en": "He responded with his characteristic calm.",
+            "zh": "他以一貫的沉著冷靜作出回應。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "trait",
@@ -657,7 +838,37 @@
         "lemma": "atypical",
         "noteZh": "非典型的，對應形容詞"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "character",
+        "partOfSpeech": "noun",
+        "meaningZh": "性格；特質"
+      },
+      {
+        "lemma": "characterize",
+        "partOfSpeech": "verb",
+        "meaningZh": "描述特徵"
+      },
+      {
+        "lemma": "characteristically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "典型地"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_characterization",
@@ -671,21 +882,48 @@
       {
         "id": "s_characterization_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "literary"
+        ],
         "definitionEn": "the way a person or thing is described or portrayed",
         "definitionZh": "描寫方式；塑造（角色）",
         "usageExplanationZh": "常用於文學或戲劇評論，指作者如何刻劃人物性格與形象。",
-        "examples": [
-          {
-            "en": "The novel is praised for its vivid characterization.",
-            "zh": "這部小說因人物刻劃生動而備受讚譽。"
-          }
+        "grammarPatterns": [
+          "the characterization of + noun",
+          "vivid characterization"
         ],
         "collocations": [
           {
             "text": "characterization of the protagonist",
             "meaningZh": "主角的塑造"
           }
+        ],
+        "examples": [
+          {
+            "en": "The novel is praised for its vivid characterization.",
+            "zh": "這部小說因人物刻劃生動而備受讚譽。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "portrayal",
+        "noteZh": "描繪"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "characterize",
+        "partOfSpeech": "verb",
+        "meaningZh": "刻畫；描述"
+      },
+      {
+        "lemma": "character",
+        "partOfSpeech": "noun",
+        "meaningZh": "角色；性格"
       }
     ],
     "tags": [
@@ -698,14 +936,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "portrayal",
-        "noteZh": "描繪"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_characterize",
@@ -719,21 +950,53 @@
       {
         "id": "s_characterize_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "to describe the typical qualities of someone or something",
         "definitionZh": "描述；描繪特徵",
         "usageExplanationZh": "常用被動式 be characterized by，表示某事物以某種特質為顯著標誌。",
-        "examples": [
-          {
-            "en": "The era was characterized by rapid technological change.",
-            "zh": "那個時代的特徵是科技迅速發展。"
-          }
+        "grammarPatterns": [
+          "characterize sth as + noun",
+          "be characterized by + noun"
         ],
         "collocations": [
           {
             "text": "characterize someone as",
             "meaningZh": "把某人描述為"
           }
+        ],
+        "examples": [
+          {
+            "en": "The era was characterized by rapid technological change.",
+            "zh": "那個時代的特徵是科技迅速發展。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "describe",
+        "noteZh": "描述"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "characterization",
+        "partOfSpeech": "noun",
+        "meaningZh": "刻畫；人物塑造"
+      },
+      {
+        "lemma": "characteristic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "典型的；有特色的"
+      },
+      {
+        "lemma": "character",
+        "partOfSpeech": "noun",
+        "meaningZh": "特性；性格"
       }
     ],
     "tags": [
@@ -748,14 +1011,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "describe",
-        "noteZh": "描述"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_charity",
@@ -769,21 +1025,48 @@
       {
         "id": "s_charity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "an organization that helps people in need, or the giving of such help",
         "definitionZh": "慈善機構；慈善",
         "usageExplanationZh": "可指具體組織（a charity）或抽象行為（give to charity），常見 charity event（慈善活動）。",
-        "examples": [
-          {
-            "en": "They donate a portion of their profits to charity every year.",
-            "zh": "他們每年都會捐出部分利潤給慈善機構。"
-          }
+        "grammarPatterns": [
+          "donate to charity",
+          "a charity for + noun",
+          "work for a charity"
         ],
         "collocations": [
           {
             "text": "donate to charity",
             "meaningZh": "捐款給慈善機構"
           }
+        ],
+        "examples": [
+          {
+            "en": "They donate a portion of their profits to charity every year.",
+            "zh": "他們每年都會捐出部分利潤給慈善機構。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "philanthropy",
+        "noteZh": "慈善事業"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "charitable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "慈善的；寬厚的"
+      },
+      {
+        "lemma": "charitably",
+        "partOfSpeech": "adverb",
+        "meaningZh": "寬厚地；慷慨地"
       }
     ],
     "tags": [
@@ -798,14 +1081,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "philanthropy",
-        "noteZh": "慈善事業"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_charm",
@@ -819,54 +1095,56 @@
       {
         "id": "s_charm_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a quality that makes someone or something attractive or delightful",
         "definitionZh": "魅力；吸引力",
         "usageExplanationZh": "不可數，常見 personal charm，形容討人喜歡的特質，語氣正面。",
-        "examples": [
-          {
-            "en": "Her natural charm won over the entire audience.",
-            "zh": "她天生的魅力擄獲了全場觀眾。"
-          }
+        "grammarPatterns": [
+          "the charm of + noun",
+          "turn on the charm"
         ],
         "collocations": [
           {
             "text": "personal charm",
             "meaningZh": "個人魅力"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her natural charm won over the entire audience.",
+            "zh": "她天生的魅力擄獲了全場觀眾。"
+          }
         ]
       },
       {
         "id": "s_charm_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to please or attract someone greatly",
         "definitionZh": "迷住；使著迷",
         "usageExplanationZh": "及物動詞，常見 charm someone into doing something，帶有巧妙說服的意味。",
-        "examples": [
-          {
-            "en": "He charmed the investors with his confident presentation.",
-            "zh": "他自信的簡報迷住了投資人。"
-          }
+        "grammarPatterns": [
+          "charm sb",
+          "charm sb into + V-ing"
         ],
         "collocations": [
           {
             "text": "charm an audience",
             "meaningZh": "迷住觀眾"
           }
+        ],
+        "examples": [
+          {
+            "en": "He charmed the investors with his confident presentation.",
+            "zh": "他自信的簡報迷住了投資人。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "appeal",
@@ -882,7 +1160,26 @@
         "lemma": "repel",
         "noteZh": "使反感，對應動詞"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "charmer",
+        "partOfSpeech": "noun",
+        "meaningZh": "有魅力的人"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_chart",
@@ -896,42 +1193,70 @@
       {
         "id": "s_chart_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical",
+          "business"
+        ],
         "definitionEn": "a diagram or graph that displays information",
         "definitionZh": "圖表",
         "usageExplanationZh": "常見 bar chart、flow chart，指以視覺方式呈現資料的圖形。",
-        "examples": [
-          {
-            "en": "The report included a chart showing sales growth.",
-            "zh": "報告裡附了一張顯示銷售成長的圖表。"
-          }
+        "grammarPatterns": [
+          "a chart showing + noun",
+          "a bar/pie chart"
         ],
         "collocations": [
           {
             "text": "a bar chart",
             "meaningZh": "長條圖"
           }
+        ],
+        "examples": [
+          {
+            "en": "The report included a chart showing sales growth.",
+            "zh": "報告裡附了一張顯示銷售成長的圖表。"
+          }
         ]
       },
       {
         "id": "s_chart_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to plan or track the course of something",
         "definitionZh": "規劃；記錄（進展、路線）",
         "usageExplanationZh": "常見 chart a course（規劃路線）或 chart progress（追蹤進度），語氣正式。",
-        "examples": [
-          {
-            "en": "The company charted a new course for expansion.",
-            "zh": "公司規劃了一條新的擴張路線。"
-          }
+        "grammarPatterns": [
+          "chart + noun",
+          "chart a course for + noun"
         ],
         "collocations": [
           {
             "text": "chart a course",
             "meaningZh": "規劃路線"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company charted a new course for expansion.",
+            "zh": "公司規劃了一條新的擴張路線。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "graph",
+        "noteZh": "圖表"
+      },
+      {
+        "lemma": "map out",
+        "noteZh": "規劃，對應動詞"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -943,18 +1268,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "graph",
-        "noteZh": "圖表"
-      },
-      {
-        "lemma": "map out",
-        "noteZh": "規劃，對應動詞"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_charter",
@@ -968,42 +1282,71 @@
       {
         "id": "s_charter_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business",
+          "technical"
+        ],
         "definitionEn": "a formal document granting rights or defining an organization's principles",
         "definitionZh": "特許狀；憲章",
         "usageExplanationZh": "常見 the UN Charter（聯合國憲章），指具法律或組織效力的正式文件。",
-        "examples": [
-          {
-            "en": "The city's charter outlines the powers of its council.",
-            "zh": "該市的憲章明訂了市議會的權力。"
-          }
+        "grammarPatterns": [
+          "under the charter",
+          "the charter of + noun",
+          "a charter granting + noun"
         ],
         "collocations": [
           {
             "text": "a royal charter",
             "meaningZh": "皇家特許狀"
           }
+        ],
+        "examples": [
+          {
+            "en": "The city's charter outlines the powers of its council.",
+            "zh": "該市的憲章明訂了市議會的權力。"
+          }
         ]
       },
       {
         "id": "s_charter_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "to hire a vehicle or vessel for exclusive use",
         "definitionZh": "包租（船、飛機等）",
         "usageExplanationZh": "常見 charter a boat／plane，指整艘或整架包下供私人或團體使用。",
-        "examples": [
-          {
-            "en": "They chartered a boat for the fishing trip.",
-            "zh": "他們包了一艘船去釣魚。"
-          }
+        "grammarPatterns": [
+          "charter a boat/plane",
+          "charter sth for + noun"
         ],
         "collocations": [
           {
             "text": "charter a plane",
             "meaningZh": "包租飛機"
           }
+        ],
+        "examples": [
+          {
+            "en": "They chartered a boat for the fishing trip.",
+            "zh": "他們包了一艘船去釣魚。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "constitution",
+        "noteZh": "組織的章程"
+      },
+      {
+        "lemma": "hire",
+        "noteZh": "包租，對應動詞"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1016,18 +1359,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "constitution",
-        "noteZh": "組織的章程"
-      },
-      {
-        "lemma": "hire",
-        "noteZh": "包租，對應動詞"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_chase",
@@ -1041,42 +1373,69 @@
       {
         "id": "s_chase_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to run after someone or something in order to catch them",
         "definitionZh": "追逐；追趕",
         "usageExplanationZh": "及物動詞，可接人或物；也可比喻性地用於 chase a dream（追求夢想）。",
-        "examples": [
-          {
-            "en": "The dog chased the ball across the yard.",
-            "zh": "那隻狗追著球跑過院子。"
-          }
+        "grammarPatterns": [
+          "chase sb/sth",
+          "chase after sb",
+          "chase sth across + noun"
         ],
         "collocations": [
           {
             "text": "chase after",
             "meaningZh": "追趕"
           }
+        ],
+        "examples": [
+          {
+            "en": "The dog chased the ball across the yard.",
+            "zh": "那隻狗追著球跑過院子。"
+          }
         ]
       },
       {
         "id": "s_chase_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "an act of pursuing someone or something",
         "definitionZh": "追逐；追捕",
         "usageExplanationZh": "常見 a car chase（飛車追逐），也用於 give chase（展開追逐）。",
-        "examples": [
-          {
-            "en": "The car chase ended when the driver crashed into a wall.",
-            "zh": "這場飛車追逐在駕駛撞牆後結束。"
-          }
+        "grammarPatterns": [
+          "a car chase",
+          "give chase",
+          "a chase through + noun"
         ],
         "collocations": [
           {
             "text": "a high-speed chase",
             "meaningZh": "高速追逐"
           }
+        ],
+        "examples": [
+          {
+            "en": "The car chase ended when the driver crashed into a wall.",
+            "zh": "這場飛車追逐在駕駛撞牆後結束。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "pursue",
+        "noteZh": "追趕"
+      },
+      {
+        "lemma": "pursuit",
+        "noteZh": "追逐，對應名詞"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -1088,18 +1447,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pursue",
-        "noteZh": "追趕"
-      },
-      {
-        "lemma": "pursuit",
-        "noteZh": "追逐，對應名詞"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_chastise",
@@ -1113,21 +1461,48 @@
       {
         "id": "s_chastise_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to criticize or reprimand someone severely",
         "definitionZh": "嚴厲斥責；懲戒",
         "usageExplanationZh": "語氣正式且帶有權威意味，常見於長輩對晚輩或上司對下屬的責備。",
-        "examples": [
-          {
-            "en": "The coach chastised the team for their careless mistakes.",
-            "zh": "教練嚴厲斥責球隊犯下的粗心失誤。"
-          }
+        "grammarPatterns": [
+          "chastise sb for + V-ing",
+          "chastise + noun"
         ],
         "collocations": [
           {
             "text": "chastise someone for",
             "meaningZh": "因……斥責某人"
           }
+        ],
+        "examples": [
+          {
+            "en": "The coach chastised the team for their careless mistakes.",
+            "zh": "教練嚴厲斥責球隊犯下的粗心失誤。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "reprimand",
+        "noteZh": "嚴厲斥責"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "praise",
+        "noteZh": "讚揚"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "chastisement",
+        "partOfSpeech": "noun",
+        "meaningZh": "嚴厲斥責；懲戒"
       }
     ],
     "tags": [
@@ -1140,19 +1515,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "reprimand",
-        "noteZh": "嚴厲斥責"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "praise",
-        "noteZh": "讚揚"
-      }
-    ]
+    }
   },
   {
     "id": "w_chat",
@@ -1166,21 +1529,48 @@
       {
         "id": "s_chat_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "an informal conversation",
         "definitionZh": "閒聊；聊天",
         "usageExplanationZh": "不可數或可數皆可，常見 have a chat with someone，語氣輕鬆隨意。",
-        "examples": [
-          {
-            "en": "We had a nice chat over coffee.",
-            "zh": "我們一邊喝咖啡一邊愉快地聊天。"
-          }
+        "grammarPatterns": [
+          "have a chat with sb",
+          "a quick chat about + noun"
         ],
         "collocations": [
           {
             "text": "have a chat with",
             "meaningZh": "與……聊聊"
           }
+        ],
+        "examples": [
+          {
+            "en": "We had a nice chat over coffee.",
+            "zh": "我們一邊喝咖啡一邊愉快地聊天。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "conversation",
+        "noteZh": "交談"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "chatty",
+        "partOfSpeech": "adjective",
+        "meaningZh": "健談的"
+      },
+      {
+        "lemma": "chatter",
+        "partOfSpeech": "verb",
+        "meaningZh": "喋喋不休"
       }
     ],
     "tags": [
@@ -1194,14 +1584,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "conversation",
-        "noteZh": "交談"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_cheerful",
@@ -1215,21 +1598,57 @@
       {
         "id": "s_cheerful_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "feeling or showing happiness and positivity",
         "definitionZh": "快樂的；開朗的",
         "usageExplanationZh": "常修飾人的個性或語氣，如 a cheerful smile，語氣正面且日常。",
-        "examples": [
-          {
-            "en": "She greeted everyone with a cheerful smile.",
-            "zh": "她以開朗的笑容迎接每一位客人。"
-          }
+        "grammarPatterns": [
+          "a cheerful + noun",
+          "sound/look cheerful"
         ],
         "collocations": [
           {
             "text": "a cheerful smile",
             "meaningZh": "愉快的笑容"
           }
+        ],
+        "examples": [
+          {
+            "en": "She greeted everyone with a cheerful smile.",
+            "zh": "她以開朗的笑容迎接每一位客人。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "happy",
+        "noteZh": "快樂的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "gloomy",
+        "noteZh": "悶悶不樂的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "cheer",
+        "partOfSpeech": "noun",
+        "meaningZh": "歡呼；愉快"
+      },
+      {
+        "lemma": "cheerfully",
+        "partOfSpeech": "adverb",
+        "meaningZh": "愉快地"
+      },
+      {
+        "lemma": "cheerfulness",
+        "partOfSpeech": "noun",
+        "meaningZh": "開朗；愉悅"
       }
     ],
     "tags": [
@@ -1242,19 +1661,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "happy",
-        "noteZh": "快樂的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "gloomy",
-        "noteZh": "悶悶不樂的"
-      }
-    ]
+    }
   },
   {
     "id": "w_chef",
@@ -1268,23 +1675,38 @@
       {
         "id": "s_chef_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "a professional cook, especially the head cook in a restaurant",
         "definitionZh": "主廚；廚師",
         "usageExplanationZh": "通常指專業廚師，尤指餐廳的主廚，語氣比 cook 更正式且帶有專業意涵。",
-        "examples": [
-          {
-            "en": "The chef prepared a special tasting menu for the event.",
-            "zh": "主廚為這場活動準備了一份特別的品嚐菜單。"
-          }
+        "grammarPatterns": [
+          "a head chef",
+          "the chef at + noun"
         ],
         "collocations": [
           {
             "text": "head chef",
             "meaningZh": "主廚"
           }
+        ],
+        "examples": [
+          {
+            "en": "The chef prepared a special tasting menu for the event.",
+            "zh": "主廚為這場活動準備了一份特別的品嚐菜單。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "cook",
+        "noteZh": "廚師，較廣泛用語"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1296,14 +1718,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cook",
-        "noteZh": "廚師，較廣泛用語"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_chemist",
@@ -1317,21 +1732,48 @@
       {
         "id": "s_chemist_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "a scientist who studies chemistry, or (British) a pharmacist",
         "definitionZh": "化學家；（英式）藥劑師",
         "usageExplanationZh": "英式英語中也指藥局或藥師，美式英語則多用 pharmacist 表達後者。",
-        "examples": [
-          {
-            "en": "The chemist analyzed the sample for toxic substances.",
-            "zh": "那位化學家化驗樣本中是否含有毒物質。"
-          }
+        "grammarPatterns": [
+          "a research chemist",
+          "a chemist at + noun"
         ],
         "collocations": [
           {
             "text": "an analytical chemist",
             "meaningZh": "分析化學家"
           }
+        ],
+        "examples": [
+          {
+            "en": "The chemist analyzed the sample for toxic substances.",
+            "zh": "那位化學家化驗樣本中是否含有毒物質。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "pharmacist",
+        "noteZh": "藥劑師，對應英式用法"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "chemistry",
+        "partOfSpeech": "noun",
+        "meaningZh": "化學"
+      },
+      {
+        "lemma": "chemical",
+        "partOfSpeech": "adjective",
+        "meaningZh": "化學的"
       }
     ],
     "tags": [
@@ -1344,14 +1786,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pharmacist",
-        "noteZh": "藥劑師，對應英式用法"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_chew",
@@ -1365,21 +1800,42 @@
       {
         "id": "s_chew_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to crush food repeatedly with the teeth before swallowing",
         "definitionZh": "咀嚼",
         "usageExplanationZh": "及物或不及物皆可，常見 chew food thoroughly，強調充分咀嚼以利消化。",
-        "examples": [
-          {
-            "en": "Remember to chew your food slowly.",
-            "zh": "記得要慢慢咀嚼食物。"
-          }
+        "grammarPatterns": [
+          "chew + noun",
+          "chew on + noun"
         ],
         "collocations": [
           {
             "text": "chew your food thoroughly",
             "meaningZh": "充分咀嚼食物"
           }
+        ],
+        "examples": [
+          {
+            "en": "Remember to chew your food slowly.",
+            "zh": "記得要慢慢咀嚼食物。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "masticate",
+        "noteZh": "咀嚼，正式用語"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "chewy",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有嚼勁的"
       }
     ],
     "tags": [
@@ -1392,14 +1848,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "masticate",
-        "noteZh": "咀嚼，正式用語"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_chic",
@@ -1413,21 +1862,40 @@
       {
         "id": "s_chic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "stylish and fashionable",
         "definitionZh": "時髦的；優雅入時的",
         "usageExplanationZh": "常修飾服裝、裝潢等，帶有法式優雅的語感，語氣正面且略帶高級感。",
-        "examples": [
-          {
-            "en": "The boutique has a chic, minimalist interior.",
-            "zh": "那間精品店的內部裝潢時髦又簡約。"
-          }
+        "grammarPatterns": [
+          "a chic + noun",
+          "look chic"
         ],
         "collocations": [
           {
             "text": "a chic outfit",
             "meaningZh": "時髦的服裝"
           }
+        ],
+        "examples": [
+          {
+            "en": "The boutique has a chic, minimalist interior.",
+            "zh": "那間精品店的內部裝潢時髦又簡約。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "stylish",
+        "noteZh": "時髦的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "unfashionable",
+        "noteZh": "不流行的"
       }
     ],
     "tags": [
@@ -1441,19 +1909,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "stylish",
-        "noteZh": "時髦的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "unfashionable",
-        "noteZh": "不流行的"
-      }
-    ]
+    }
   },
   {
     "id": "w_chicanery",
@@ -1467,21 +1923,41 @@
       {
         "id": "s_chicanery_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "the use of deception or trickery, especially in legal or political matters",
         "definitionZh": "詭計；欺瞞手段",
         "usageExplanationZh": "語氣正式且帶負面色彩，常用於指責政治或商業上的狡詐行為。",
-        "examples": [
-          {
-            "en": "The scandal revealed years of financial chicanery.",
-            "zh": "這起醜聞揭露了多年來的財務詭計。"
-          }
+        "grammarPatterns": [
+          "financial/political chicanery",
+          "resort to chicanery"
         ],
         "collocations": [
           {
             "text": "political chicanery",
             "meaningZh": "政治詭計"
           }
+        ],
+        "examples": [
+          {
+            "en": "The scandal revealed years of financial chicanery.",
+            "zh": "這起醜聞揭露了多年來的財務詭計。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "trickery",
+        "noteZh": "欺詐手段"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "honesty",
+        "noteZh": "誠實"
       }
     ],
     "tags": [
@@ -1494,19 +1970,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "trickery",
-        "noteZh": "欺詐手段"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "honesty",
-        "noteZh": "誠實"
-      }
-    ]
+    }
   },
   {
     "id": "w_chide",
@@ -1520,21 +1984,41 @@
       {
         "id": "s_chide_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to scold someone gently for a minor fault",
         "definitionZh": "輕聲責備；規勸",
         "usageExplanationZh": "語氣比 scold 溫和，常用於長輩對晚輩略帶關心的責備。",
-        "examples": [
-          {
-            "en": "Her mother gently chided her for being late again.",
-            "zh": "她母親輕聲責備她又遲到了。"
-          }
+        "grammarPatterns": [
+          "chide sb for + V-ing",
+          "chide sb gently"
         ],
         "collocations": [
           {
             "text": "chide someone for being late",
             "meaningZh": "責備某人遲到"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her mother gently chided her for being late again.",
+            "zh": "她母親輕聲責備她又遲到了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "scold",
+        "noteZh": "責備，語氣可能較重"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "praise",
+        "noteZh": "稱讚"
       }
     ],
     "tags": [
@@ -1548,19 +2032,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "scold",
-        "noteZh": "責備，語氣可能較重"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "praise",
-        "noteZh": "稱讚"
-      }
-    ]
+    }
   },
   {
     "id": "w_chill",
@@ -1574,33 +2046,43 @@
       {
         "id": "s_chill_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "an unpleasant feeling of coldness, or a feeling of fear",
         "definitionZh": "寒意；涼意；（恐懼引起的）寒顫",
         "usageExplanationZh": "可指天氣的涼意，也可比喻性地形容因恐懼而生的寒意，如 a chill ran down her spine。",
-        "examples": [
-          {
-            "en": "There was a chill in the autumn air.",
-            "zh": "秋天的空氣中帶著一絲寒意。"
-          }
+        "grammarPatterns": [
+          "a chill in the air",
+          "feel a chill",
+          "send a chill down sb's spine"
         ],
         "collocations": [
           {
             "text": "a chill in the air",
             "meaningZh": "空氣中的寒意"
           }
+        ],
+        "examples": [
+          {
+            "en": "There was a chill in the autumn air.",
+            "zh": "秋天的空氣中帶著一絲寒意。"
+          }
         ]
       },
       {
         "id": "s_chill_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to make something cold, or to relax",
         "definitionZh": "使冷卻；（口語）放鬆",
         "usageExplanationZh": "及物動詞指冷藏食物飲料，如 chill the wine；口語用法則指放鬆休息。",
-        "examples": [
-          {
-            "en": "Chill the wine for at least an hour before serving.",
-            "zh": "上桌前請將酒冰鎮至少一小時。"
-          }
+        "grammarPatterns": [
+          "chill + noun",
+          "chill sth for + noun",
+          "chill out"
         ],
         "collocations": [
           {
@@ -1611,21 +2093,15 @@
             "text": "chill the wine",
             "meaningZh": "冰鎮葡萄酒"
           }
+        ],
+        "examples": [
+          {
+            "en": "Chill the wine for at least an hour before serving.",
+            "zh": "上桌前請將酒冰鎮至少一小時。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "coldness",
@@ -1641,7 +2117,31 @@
         "lemma": "warm",
         "noteZh": "使暖和，對應動詞"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "chilly",
+        "partOfSpeech": "adjective",
+        "meaningZh": "寒冷的；冷淡的"
+      },
+      {
+        "lemma": "chilliness",
+        "partOfSpeech": "noun",
+        "meaningZh": "寒意；冷淡"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_chin",
@@ -1655,23 +2155,32 @@
       {
         "id": "s_chin_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "the part of the face below the mouth",
         "definitionZh": "下巴",
         "usageExplanationZh": "日常詞彙，常用於描述臉部特徵或動作，如 rest one's chin on one's hand。",
-        "examples": [
-          {
-            "en": "He rested his chin on his hand while thinking.",
-            "zh": "他一邊思考一邊把下巴撐在手上。"
-          }
+        "grammarPatterns": [
+          "rest one's chin on + noun",
+          "a pointed chin"
         ],
         "collocations": [
           {
             "text": "rest your chin on your hand",
             "meaningZh": "用手托著下巴"
           }
+        ],
+        "examples": [
+          {
+            "en": "He rested his chin on his hand while thinking.",
+            "zh": "他一邊思考一邊把下巴撐在手上。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -1682,9 +2191,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_chip",
@@ -1698,14 +2205,16 @@
       {
         "id": "s_chip_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a small piece broken off something, or a small electronic circuit",
         "definitionZh": "碎片；（電子）晶片",
         "usageExplanationZh": "可指物體碎片（wood chip）或電子元件（computer chip），依語境判斷詞義。",
-        "examples": [
-          {
-            "en": "The computer's speed depends on its processing chip.",
-            "zh": "電腦的速度取決於其處理晶片。"
-          }
+        "grammarPatterns": [
+          "a chip of + noun",
+          "a computer chip"
         ],
         "collocations": [
           {
@@ -1716,9 +2225,26 @@
             "text": "a chip of wood",
             "meaningZh": "一小片木屑"
           }
+        ],
+        "examples": [
+          {
+            "en": "The computer's speed depends on its processing chip.",
+            "zh": "電腦的速度取決於其處理晶片。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "fragment",
+        "noteZh": "碎片"
+      },
+      {
+        "lemma": "microchip",
+        "noteZh": "微晶片"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1731,18 +2257,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "fragment",
-        "noteZh": "碎片"
-      },
-      {
-        "lemma": "microchip",
-        "noteZh": "微晶片"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_chisel",
@@ -1756,23 +2271,33 @@
       {
         "id": "s_chisel_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a tool with a sharp edge used for cutting or shaping wood, stone, or metal",
         "definitionZh": "鑿子",
         "usageExplanationZh": "工具類名詞，常見於木工或雕刻情境，如 hammer and chisel。",
-        "examples": [
-          {
-            "en": "The sculptor used a chisel to carve the marble.",
-            "zh": "雕塑家用鑿子雕刻大理石。"
-          }
+        "grammarPatterns": [
+          "use a chisel",
+          "a chisel for + V-ing"
         ],
         "collocations": [
           {
             "text": "a wood chisel",
             "meaningZh": "木工鑿"
           }
+        ],
+        "examples": [
+          {
+            "en": "The sculptor used a chisel to carve the marble.",
+            "zh": "雕塑家用鑿子雕刻大理石。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1785,9 +2310,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_choir",
@@ -1801,21 +2324,42 @@
       {
         "id": "s_choir_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "an organized group of singers, especially one that performs in church",
         "definitionZh": "合唱團",
         "usageExplanationZh": "常見 church choir、school choir，指有組織地一起演唱的團體。",
-        "examples": [
-          {
-            "en": "She sings in the church choir every Sunday.",
-            "zh": "她每個星期天都在教堂合唱團裡唱歌。"
-          }
+        "grammarPatterns": [
+          "sing in a choir",
+          "a church choir"
         ],
         "collocations": [
           {
             "text": "sing in a choir",
             "meaningZh": "在合唱團唱歌"
           }
+        ],
+        "examples": [
+          {
+            "en": "She sings in the church choir every Sunday.",
+            "zh": "她每個星期天都在教堂合唱團裡唱歌。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "chorus",
+        "noteZh": "合唱團"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "chorister",
+        "partOfSpeech": "noun",
+        "meaningZh": "唱詩班成員"
       }
     ],
     "tags": [
@@ -1829,14 +2373,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "chorus",
-        "noteZh": "合唱團"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_choke",
@@ -1850,23 +2387,37 @@
       {
         "id": "s_choke_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to have difficulty breathing because the throat is blocked",
         "definitionZh": "噎住；窒息",
         "usageExplanationZh": "可及物（choke someone）或不及物（choke on food），常見 choke on a bone。",
-        "examples": [
-          {
-            "en": "He choked on a piece of bread and had to be helped.",
-            "zh": "他被一塊麵包噎住，必須有人幫忙。"
-          }
+        "grammarPatterns": [
+          "choke on + noun",
+          "choke to death"
         ],
         "collocations": [
           {
             "text": "choke on food",
             "meaningZh": "被食物噎住"
           }
+        ],
+        "examples": [
+          {
+            "en": "He choked on a piece of bread and had to be helped.",
+            "zh": "他被一塊麵包噎住，必須有人幫忙。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "suffocate",
+        "noteZh": "窒息"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1879,14 +2430,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "suffocate",
-        "noteZh": "窒息"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_chop",
@@ -1900,14 +2444,15 @@
       {
         "id": "s_chop_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a cut of meat still attached to a bone, or a sharp cutting blow",
         "definitionZh": "（帶骨）肉排；劈砍",
         "usageExplanationZh": "常見 pork chop（豬排），也可指用力劈砍的動作。",
-        "examples": [
-          {
-            "en": "We grilled pork chops for dinner.",
-            "zh": "我們晚餐烤了豬排。"
-          }
+        "grammarPatterns": [
+          "a pork/lamb chop",
+          "grill chops"
         ],
         "collocations": [
           {
@@ -1918,7 +2463,27 @@
             "text": "a karate chop",
             "meaningZh": "空手道的手刀劈擊"
           }
+        ],
+        "examples": [
+          {
+            "en": "We grilled pork chops for dinner.",
+            "zh": "我們晚餐烤了豬排。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "cutlet",
+        "noteZh": "帶骨肉排"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "chopper",
+        "partOfSpeech": "noun",
+        "meaningZh": "切碎機；直升機"
       }
     ],
     "tags": [
@@ -1932,14 +2497,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cutlet",
-        "noteZh": "帶骨肉排"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_chord",
@@ -1953,23 +2511,33 @@
       {
         "id": "s_chord_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a group of musical notes played together in harmony",
         "definitionZh": "和弦",
         "usageExplanationZh": "音樂術語，常見 play a chord，指同時彈奏的多個音符組合。",
-        "examples": [
-          {
-            "en": "She strummed a few chords on the guitar.",
-            "zh": "她在吉他上彈了幾個和弦。"
-          }
+        "grammarPatterns": [
+          "play a chord",
+          "strum chords on + noun"
         ],
         "collocations": [
           {
             "text": "play a chord",
             "meaningZh": "彈奏和弦"
           }
+        ],
+        "examples": [
+          {
+            "en": "She strummed a few chords on the guitar.",
+            "zh": "她在吉他上彈了幾個和弦。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1982,9 +2550,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_chore",
@@ -1998,23 +2564,38 @@
       {
         "id": "s_chore_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "spoken"
+        ],
         "definitionEn": "a routine task, especially a household one",
         "definitionZh": "家務；瑣事",
         "usageExplanationZh": "常見 household chore、daily chore，指例行且略顯乏味的任務。",
-        "examples": [
-          {
-            "en": "Washing the dishes is my least favorite chore.",
-            "zh": "洗碗是我最不喜歡的家務。"
-          }
+        "grammarPatterns": [
+          "do the chores",
+          "a household chore"
         ],
         "collocations": [
           {
             "text": "household chores",
             "meaningZh": "家務"
           }
+        ],
+        "examples": [
+          {
+            "en": "Washing the dishes is my least favorite chore.",
+            "zh": "洗碗是我最不喜歡的家務。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "task",
+        "noteZh": "例行工作"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2027,14 +2608,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "task",
-        "noteZh": "例行工作"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_choreography",
@@ -2048,21 +2622,43 @@
       {
         "id": "s_choreography_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "the arrangement of dance movements for a performance",
         "definitionZh": "舞蹈編排",
         "usageExplanationZh": "常見 stage choreography，指為表演設計並安排的舞步動作。",
-        "examples": [
-          {
-            "en": "The choreography for the musical was both energetic and precise.",
-            "zh": "這齣音樂劇的舞蹈編排既有活力又精準。"
-          }
+        "grammarPatterns": [
+          "the choreography for + noun",
+          "create choreography"
         ],
         "collocations": [
           {
             "text": "the choreography of a ballet",
             "meaningZh": "芭蕾舞的舞蹈編排"
           }
+        ],
+        "examples": [
+          {
+            "en": "The choreography for the musical was both energetic and precise.",
+            "zh": "這齣音樂劇的舞蹈編排既有活力又精準。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "choreographer",
+        "partOfSpeech": "noun",
+        "meaningZh": "編舞者"
+      },
+      {
+        "lemma": "choreograph",
+        "partOfSpeech": "verb",
+        "meaningZh": "編舞"
       }
     ],
     "tags": [
@@ -2076,9 +2672,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_chorus",
@@ -2092,21 +2686,48 @@
       {
         "id": "s_chorus_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a part of a song repeated after each verse, or a group singing together",
         "definitionZh": "（歌曲的）副歌；合唱團",
         "usageExplanationZh": "音樂用語，可指反覆演唱的段落，也可指一群人共同演唱的團體。",
-        "examples": [
-          {
-            "en": "The audience sang along with the chorus.",
-            "zh": "觀眾跟著副歌一起唱。"
-          }
+        "grammarPatterns": [
+          "sing the chorus",
+          "join in the chorus",
+          "a chorus of + plural noun"
         ],
         "collocations": [
           {
             "text": "sing the chorus",
             "meaningZh": "唱副歌"
           }
+        ],
+        "examples": [
+          {
+            "en": "The audience sang along with the chorus.",
+            "zh": "觀眾跟著副歌一起唱。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "refrain",
+        "noteZh": "副歌"
+      },
+      {
+        "lemma": "choir",
+        "noteZh": "合唱團"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "choral",
+        "partOfSpeech": "adjective",
+        "meaningZh": "合唱的"
       }
     ],
     "tags": [
@@ -2121,18 +2742,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "refrain",
-        "noteZh": "副歌"
-      },
-      {
-        "lemma": "choir",
-        "noteZh": "合唱團"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_chromosome",
@@ -2146,21 +2756,38 @@
       {
         "id": "s_chromosome_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a structure in a cell that carries genetic information",
         "definitionZh": "染色體",
         "usageExplanationZh": "生物學術語，常見 human chromosome，指細胞內攜帶遺傳訊息的結構。",
-        "examples": [
-          {
-            "en": "Humans typically have 46 chromosomes in each cell.",
-            "zh": "人類每個細胞通常有46條染色體。"
-          }
+        "grammarPatterns": [
+          "a pair of chromosomes",
+          "the X/Y chromosome"
         ],
         "collocations": [
           {
             "text": "a sex chromosome",
             "meaningZh": "性染色體"
           }
+        ],
+        "examples": [
+          {
+            "en": "Humans typically have 46 chromosomes in each cell.",
+            "zh": "人類每個細胞通常有46條染色體。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "chromosomal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "染色體的"
       }
     ],
     "tags": [
@@ -2173,9 +2800,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_chronic",
@@ -2189,21 +2814,49 @@
       {
         "id": "s_chronic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic",
+          "formal"
+        ],
         "definitionEn": "persisting for a long time or constantly recurring",
         "definitionZh": "長期的；慢性的",
         "usageExplanationZh": "常修飾疾病或問題，如 chronic pain（慢性疼痛），與急性 acute 相對。",
-        "examples": [
-          {
-            "en": "He suffers from chronic back pain.",
-            "zh": "他長期為背痛所苦。"
-          }
+        "grammarPatterns": [
+          "a chronic + noun",
+          "suffer from chronic + noun"
         ],
         "collocations": [
           {
             "text": "chronic pain",
             "meaningZh": "慢性疼痛"
           }
+        ],
+        "examples": [
+          {
+            "en": "He suffers from chronic back pain.",
+            "zh": "他長期為背痛所苦。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "persistent",
+        "noteZh": "持續的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "acute",
+        "noteZh": "急性的，對應疾病"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "chronically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "長期地；慢性地"
       }
     ],
     "tags": [
@@ -2218,19 +2871,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "persistent",
-        "noteZh": "持續的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "acute",
-        "noteZh": "急性的，對應疾病"
-      }
-    ]
+    }
   },
   {
     "id": "w_chronology",
@@ -2244,21 +2885,48 @@
       {
         "id": "s_chronology_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "the arrangement of events in the order they occurred",
         "definitionZh": "年代順序；大事紀",
         "usageExplanationZh": "常見 in chronological order，指依時間先後排列事件的方式。",
-        "examples": [
-          {
-            "en": "The book presents a detailed chronology of the war.",
-            "zh": "這本書詳細列出了這場戰爭的年代大事紀。"
-          }
+        "grammarPatterns": [
+          "a chronology of + noun",
+          "establish the chronology of + noun"
         ],
         "collocations": [
           {
             "text": "a chronology of events",
             "meaningZh": "事件大事紀"
           }
+        ],
+        "examples": [
+          {
+            "en": "The book presents a detailed chronology of the war.",
+            "zh": "這本書詳細列出了這場戰爭的年代大事紀。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "timeline",
+        "noteZh": "依時間排列的事件表"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "chronological",
+        "partOfSpeech": "adjective",
+        "meaningZh": "按年代順序的"
+      },
+      {
+        "lemma": "chronologically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "按時間順序地"
       }
     ],
     "tags": [
@@ -2271,14 +2939,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "timeline",
-        "noteZh": "依時間排列的事件表"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_chuckle",
@@ -2292,23 +2953,37 @@
       {
         "id": "s_chuckle_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to laugh quietly",
         "definitionZh": "輕聲笑；竊笑",
         "usageExplanationZh": "語氣比 laugh 輕柔，通常表示對某事感到有趣但不張揚地笑出聲。",
-        "examples": [
-          {
-            "en": "He chuckled at the joke but didn't laugh out loud.",
-            "zh": "他聽到這個笑話輕聲笑了，但沒有大笑出來。"
-          }
+        "grammarPatterns": [
+          "chuckle at + noun",
+          "chuckle to oneself"
         ],
         "collocations": [
           {
             "text": "chuckle to yourself",
             "meaningZh": "獨自輕笑"
           }
+        ],
+        "examples": [
+          {
+            "en": "He chuckled at the joke but didn't laugh out loud.",
+            "zh": "他聽到這個笑話輕聲笑了，但沒有大笑出來。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "laugh softly",
+        "noteZh": "輕聲笑"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2320,14 +2995,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "laugh softly",
-        "noteZh": "輕聲笑"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_chunk",
@@ -2341,21 +3009,43 @@
       {
         "id": "s_chunk_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a thick, solid piece of something",
         "definitionZh": "大塊；大部分",
         "usageExplanationZh": "常見 a chunk of，可指實體的一大塊，也可比喻性地指時間或金錢的一大部分。",
-        "examples": [
-          {
-            "en": "She cut the meat into large chunks.",
-            "zh": "她把肉切成大塊。"
-          }
+        "grammarPatterns": [
+          "a chunk of + noun",
+          "cut sth into chunks",
+          "a large chunk of + noun"
         ],
         "collocations": [
           {
             "text": "a chunk of bread",
             "meaningZh": "一大塊麵包"
           }
+        ],
+        "examples": [
+          {
+            "en": "She cut the meat into large chunks.",
+            "zh": "她把肉切成大塊。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "piece",
+        "noteZh": "一塊"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "chunky",
+        "partOfSpeech": "adjective",
+        "meaningZh": "厚實的；大塊的"
       }
     ],
     "tags": [
@@ -2370,14 +3060,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "piece",
-        "noteZh": "一塊"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_circuit",
@@ -2391,21 +3074,47 @@
       {
         "id": "s_circuit_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical"
+        ],
         "definitionEn": "a closed path along which an electric current flows, or a circular route",
         "definitionZh": "電路；環路；巡迴賽程",
         "usageExplanationZh": "可指電子迴路（electric circuit），也可指運動或表演的巡迴路線（tennis circuit）。",
-        "examples": [
-          {
-            "en": "The engineer tested the circuit for faults.",
-            "zh": "工程師檢測這個電路是否有故障。"
-          }
+        "grammarPatterns": [
+          "an electrical circuit",
+          "complete/test a circuit"
         ],
         "collocations": [
           {
             "text": "an electrical circuit",
             "meaningZh": "電路"
           }
+        ],
+        "examples": [
+          {
+            "en": "The engineer tested the circuit for faults.",
+            "zh": "工程師檢測這個電路是否有故障。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "loop",
+        "noteZh": "環路"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "circuitry",
+        "partOfSpeech": "noun",
+        "meaningZh": "電路系統"
+      },
+      {
+        "lemma": "circuitous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "迂迴的；繞道的"
       }
     ],
     "tags": [
@@ -2420,14 +3129,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "loop",
-        "noteZh": "環路"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_circular",
@@ -2441,14 +3143,17 @@
       {
         "id": "s_circular_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "technical",
+          "academic"
+        ],
         "definitionEn": "shaped like a circle, or (of reasoning) illogically self-referential",
         "definitionZh": "圓形的；（論證）循環的",
         "usageExplanationZh": "可描述形狀（circular table），也可指邏輯上互為前提的謬誤論證（circular reasoning）。",
-        "examples": [
-          {
-            "en": "The tower has a circular staircase.",
-            "zh": "這座塔有一座螺旋（圓形）樓梯。"
-          }
+        "grammarPatterns": [
+          "a circular + noun",
+          "circular reasoning"
         ],
         "collocations": [
           {
@@ -2459,7 +3164,32 @@
             "text": "a circular table",
             "meaningZh": "圓桌"
           }
+        ],
+        "examples": [
+          {
+            "en": "The tower has a circular staircase.",
+            "zh": "這座塔有一座螺旋（圓形）樓梯。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "round",
+        "noteZh": "圓形的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "circle",
+        "partOfSpeech": "noun",
+        "meaningZh": "圓；圓形"
+      },
+      {
+        "lemma": "circularity",
+        "partOfSpeech": "noun",
+        "meaningZh": "循環性；環狀"
       }
     ],
     "tags": [
@@ -2473,14 +3203,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "round",
-        "noteZh": "圓形的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_circulate",
@@ -2494,14 +3217,18 @@
       {
         "id": "s_circulate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "academic",
+          "business"
+        ],
         "definitionEn": "to move continuously through a system, or to distribute information",
         "definitionZh": "循環流通；傳閱、散播",
         "usageExplanationZh": "可指物理性的流通（blood circulates），也可指資訊或文件的散布（circulate a memo）。",
-        "examples": [
-          {
-            "en": "Blood circulates through the body via the heart.",
-            "zh": "血液透過心臟在體內循環流動。"
-          }
+        "grammarPatterns": [
+          "circulate through + noun",
+          "circulate + noun",
+          "circulate sth to sb"
         ],
         "collocations": [
           {
@@ -2512,7 +3239,32 @@
             "text": "blood circulates",
             "meaningZh": "血液循環"
           }
+        ],
+        "examples": [
+          {
+            "en": "Blood circulates through the body via the heart.",
+            "zh": "血液透過心臟在體內循環流動。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "spread",
+        "noteZh": "傳播"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "circulation",
+        "partOfSpeech": "noun",
+        "meaningZh": "循環；流通；發行量"
+      },
+      {
+        "lemma": "circulatory",
+        "partOfSpeech": "adjective",
+        "meaningZh": "循環的"
       }
     ],
     "tags": [
@@ -2527,14 +3279,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "spread",
-        "noteZh": "傳播"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_circulation",
@@ -2548,14 +3293,18 @@
       {
         "id": "s_circulation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic",
+          "business"
+        ],
         "definitionEn": "the movement of blood through the body, or the distribution of publications",
         "definitionZh": "（血液）循環；（出版品的）發行量",
         "usageExplanationZh": "醫學上指血液流動，出版業則指報刊雜誌的發行數量，如 the magazine's circulation。",
-        "examples": [
-          {
-            "en": "Poor circulation can cause cold hands and feet.",
-            "zh": "血液循環不良可能導致手腳冰冷。"
-          }
+        "grammarPatterns": [
+          "poor circulation",
+          "in circulation",
+          "a circulation of + noun"
         ],
         "collocations": [
           {
@@ -2566,7 +3315,32 @@
             "text": "newspaper circulation",
             "meaningZh": "報紙發行量"
           }
+        ],
+        "examples": [
+          {
+            "en": "Poor circulation can cause cold hands and feet.",
+            "zh": "血液循環不良可能導致手腳冰冷。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "distribution",
+        "noteZh": "出版品的發行"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "circulate",
+        "partOfSpeech": "verb",
+        "meaningZh": "循環；流通；傳閱"
+      },
+      {
+        "lemma": "circulatory",
+        "partOfSpeech": "adjective",
+        "meaningZh": "循環系統的"
       }
     ],
     "tags": [
@@ -2580,14 +3354,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "distribution",
-        "noteZh": "出版品的發行"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_circumference",
@@ -2601,21 +3368,43 @@
       {
         "id": "s_circumference_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "the distance around a circle or circular object",
         "definitionZh": "圓周；周長",
         "usageExplanationZh": "幾何學術語，常見 the circumference of a circle，計算方式為直徑乘以圓周率。",
-        "examples": [
-          {
-            "en": "The circumference of the wheel is about two meters.",
-            "zh": "這個輪子的周長大約是兩公尺。"
-          }
+        "grammarPatterns": [
+          "the circumference of + noun",
+          "measure the circumference"
         ],
         "collocations": [
           {
             "text": "measure the circumference",
             "meaningZh": "測量圓周長"
           }
+        ],
+        "examples": [
+          {
+            "en": "The circumference of the wheel is about two meters.",
+            "zh": "這個輪子的周長大約是兩公尺。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "perimeter",
+        "noteZh": "周長，適用於各種形狀"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "circumferential",
+        "partOfSpeech": "adjective",
+        "meaningZh": "圓周的；環狀的"
       }
     ],
     "tags": [
@@ -2630,14 +3419,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "perimeter",
-        "noteZh": "周長，適用於各種形狀"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_circumspect",
@@ -2651,21 +3433,54 @@
       {
         "id": "s_circumspect_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "cautious and careful to consider possible consequences",
         "definitionZh": "謹慎的；小心翼翼的",
         "usageExplanationZh": "語氣正式，常用於描述決策或發言時的謹慎態度，帶有深思熟慮的意味。",
-        "examples": [
-          {
-            "en": "She was circumspect in her comments about the merger.",
-            "zh": "她對這次合併的評論相當謹慎。"
-          }
+        "grammarPatterns": [
+          "be circumspect about + noun",
+          "a circumspect + noun",
+          "circumspect in + V-ing"
         ],
         "collocations": [
           {
             "text": "be circumspect about",
             "meaningZh": "對……保持謹慎"
           }
+        ],
+        "examples": [
+          {
+            "en": "She was circumspect in her comments about the merger.",
+            "zh": "她對這次合併的評論相當謹慎。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "cautious",
+        "noteZh": "謹慎的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "reckless",
+        "noteZh": "魯莽的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "circumspection",
+        "partOfSpeech": "noun",
+        "meaningZh": "謹慎；慎重"
+      },
+      {
+        "lemma": "circumspectly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "謹慎地；小心地"
       }
     ],
     "tags": [
@@ -2678,18 +3493,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cautious",
-        "noteZh": "謹慎的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "reckless",
-        "noteZh": "魯莽的"
-      }
-    ]
+    }
   }
 ]

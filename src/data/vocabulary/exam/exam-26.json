@@ -11,14 +11,16 @@
       {
         "id": "s_elementary_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "neutral"
+        ],
         "definitionEn": "relating to the basic elements of a subject; simple or introductory",
         "definitionZh": "基本的；初級的",
         "usageExplanationZh": "常見 elementary school（小學，美式用法）、elementary mistakes（低級錯誤），強調簡單、入門程度。",
-        "examples": [
-          {
-            "en": "The textbook covers only elementary concepts in chemistry.",
-            "zh": "這本教科書只涵蓋化學的基本概念。"
-          }
+        "grammarPatterns": [
+          "elementary + plural noun",
+          "at an elementary level"
         ],
         "collocations": [
           {
@@ -29,22 +31,15 @@
             "text": "elementary knowledge",
             "meaningZh": "基礎知識"
           }
+        ],
+        "examples": [
+          {
+            "en": "The textbook covers only elementary concepts in chemistry.",
+            "zh": "這本教科書只涵蓋化學的基本概念。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "basic",
@@ -60,39 +55,17 @@
         "lemma": "advanced",
         "noteZh": "進階的"
       }
-    ]
-  },
-  {
-    "id": "w_elevate",
-    "lemma": "elevate",
-    "slug": "elevate",
-    "cefr": "C1",
-    "pronunciation": {
-      "kk": "/ˈɛləˌvet/"
-    },
-    "senses": [
+    ],
+    "wordFamily": [
       {
-        "id": "s_elevate_verb",
-        "partOfSpeech": "verb",
-        "definitionEn": "to raise something to a higher position, level, or status",
-        "definitionZh": "提升；抬高",
-        "usageExplanationZh": "常接 to，如 elevate someone to a position，也可指實際抬高物體，語氣正式，較 raise 書面。",
-        "examples": [
-          {
-            "en": "The award elevated her status within the scientific community.",
-            "zh": "這項獎項提升了她在科學界的地位。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "elevate someone to a position",
-            "meaningZh": "提升某人至某職位"
-          },
-          {
-            "text": "elevate blood pressure",
-            "meaningZh": "使血壓升高"
-          }
-        ]
+        "lemma": "element",
+        "partOfSpeech": "noun",
+        "meaningZh": "元素；要素"
+      },
+      {
+        "lemma": "elemental",
+        "partOfSpeech": "adjective",
+        "meaningZh": "基本的；元素的"
       }
     ],
     "tags": [
@@ -107,7 +80,49 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
+    }
+  },
+  {
+    "id": "w_elevate",
+    "lemma": "elevate",
+    "slug": "elevate",
+    "cefr": "C1",
+    "pronunciation": {
+      "kk": "/ˈɛləˌvet/"
     },
+    "senses": [
+      {
+        "id": "s_elevate_verb",
+        "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
+        "definitionEn": "to raise something to a higher position, level, or status",
+        "definitionZh": "提升；抬高",
+        "usageExplanationZh": "常接 to，如 elevate someone to a position，也可指實際抬高物體，語氣正式，較 raise 書面。",
+        "grammarPatterns": [
+          "elevate sb/sth to + noun",
+          "elevate + noun"
+        ],
+        "collocations": [
+          {
+            "text": "elevate someone to a position",
+            "meaningZh": "提升某人至某職位"
+          },
+          {
+            "text": "elevate blood pressure",
+            "meaningZh": "使血壓升高"
+          }
+        ],
+        "examples": [
+          {
+            "en": "The award elevated her status within the scientific community.",
+            "zh": "這項獎項提升了她在科學界的地位。"
+          }
+        ]
+      }
+    ],
     "synonyms": [
       {
         "lemma": "raise",
@@ -123,7 +138,32 @@
         "lemma": "lower",
         "noteZh": "降低"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "elevation",
+        "partOfSpeech": "noun",
+        "meaningZh": "提升；海拔高度"
+      },
+      {
+        "lemma": "elevator",
+        "partOfSpeech": "noun",
+        "meaningZh": "電梯"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_elevator",
@@ -137,14 +177,15 @@
       {
         "id": "s_elevator_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a platform or enclosure that moves people or goods between floors of a building",
         "definitionZh": "電梯",
         "usageExplanationZh": "美式用語（英式為 lift），常見 take the elevator，日常生活常用詞。",
-        "examples": [
-          {
-            "en": "We took the elevator to the tenth floor.",
-            "zh": "我們搭電梯到了十樓。"
-          }
+        "grammarPatterns": [
+          "take the elevator",
+          "an elevator to + noun"
         ],
         "collocations": [
           {
@@ -155,7 +196,32 @@
             "text": "service elevator",
             "meaningZh": "貨用或服務電梯"
           }
+        ],
+        "examples": [
+          {
+            "en": "We took the elevator to the tenth floor.",
+            "zh": "我們搭電梯到了十樓。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "lift",
+        "noteZh": "英式英語的電梯"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "elevate",
+        "partOfSpeech": "verb",
+        "meaningZh": "提升；抬高"
+      },
+      {
+        "lemma": "elevation",
+        "partOfSpeech": "noun",
+        "meaningZh": "高度；提升"
       }
     ],
     "tags": [
@@ -169,14 +235,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "lift",
-        "noteZh": "英式英語的電梯"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_eligible",
@@ -190,14 +249,16 @@
       {
         "id": "s_eligible_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "satisfying the appropriate conditions to do or receive something",
         "definitionZh": "符合資格的；有資格的",
         "usageExplanationZh": "常接 for，如 eligible for a discount/loan，強調符合特定條件或標準而具備資格。",
-        "examples": [
-          {
-            "en": "Students must maintain a certain GPA to remain eligible for the scholarship.",
-            "zh": "學生必須維持一定的平均成績才能符合獎學金資格。"
-          }
+        "grammarPatterns": [
+          "be eligible for + noun",
+          "be eligible to + V"
         ],
         "collocations": [
           {
@@ -208,7 +269,37 @@
             "text": "eligible to vote",
             "meaningZh": "有投票資格"
           }
+        ],
+        "examples": [
+          {
+            "en": "Students must maintain a certain GPA to remain eligible for the scholarship.",
+            "zh": "學生必須維持一定的平均成績才能符合獎學金資格。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "qualified",
+        "noteZh": "符合資格的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "ineligible",
+        "noteZh": "不符合資格的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "eligibility",
+        "partOfSpeech": "noun",
+        "meaningZh": "資格；合格"
+      },
+      {
+        "lemma": "ineligible",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不合資格的"
       }
     ],
     "tags": [
@@ -223,19 +314,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "qualified",
-        "noteZh": "符合資格的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "ineligible",
-        "noteZh": "不符合資格的"
-      }
-    ]
+    }
   },
   {
     "id": "w_elite",
@@ -249,14 +328,16 @@
       {
         "id": "s_elite_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a select group considered to be the best or most privileged in a society",
         "definitionZh": "菁英；上流階層",
         "usageExplanationZh": "常見 the political elite（政治菁英）、a small elite，指在能力、地位或財富上居於頂尖的群體。",
-        "examples": [
-          {
-            "en": "The event was attended only by the country's political and business elite.",
-            "zh": "這場活動只有該國的政商菁英受邀出席。"
-          }
+        "grammarPatterns": [
+          "the political elite",
+          "a member of the elite"
         ],
         "collocations": [
           {
@@ -267,7 +348,32 @@
             "text": "the ruling elite",
             "meaningZh": "統治菁英"
           }
+        ],
+        "examples": [
+          {
+            "en": "The event was attended only by the country's political and business elite.",
+            "zh": "這場活動只有該國的政商菁英受邀出席。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "upper crust",
+        "noteZh": "非正式，上流階層"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "elitism",
+        "partOfSpeech": "noun",
+        "meaningZh": "菁英主義"
+      },
+      {
+        "lemma": "elitist",
+        "partOfSpeech": "adjective",
+        "meaningZh": "菁英主義的"
       }
     ],
     "tags": [
@@ -282,14 +388,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "upper crust",
-        "noteZh": "非正式，上流階層"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_elliptical",
@@ -303,14 +402,16 @@
       {
         "id": "s_elliptical_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "having the shape of an ellipse, or (of speech/writing) using very few words and omitting details",
         "definitionZh": "橢圓形的；（言語）省略的、簡潔含蓄的",
         "usageExplanationZh": "字面指幾何形狀，比喻用法形容說話簡略、意在言外，如 an elliptical remark，需依上下文判斷。",
-        "examples": [
-          {
-            "en": "The planet follows an elliptical orbit around the sun.",
-            "zh": "這顆行星繞著太陽以橢圓形軌道運行。"
-          }
+        "grammarPatterns": [
+          "an elliptical + noun",
+          "elliptical in shape"
         ],
         "collocations": [
           {
@@ -321,7 +422,36 @@
             "text": "elliptical remark",
             "meaningZh": "省略含蓄的話語"
           }
+        ],
+        "examples": [
+          {
+            "en": "The planet follows an elliptical orbit around the sun.",
+            "zh": "這顆行星繞著太陽以橢圓形軌道運行。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "oval",
+        "noteZh": "形狀橢圓的"
+      },
+      {
+        "lemma": "cryptic",
+        "noteZh": "對應表達簡略而難懂的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "ellipse",
+        "partOfSpeech": "noun",
+        "meaningZh": "橢圓（形）"
+      },
+      {
+        "lemma": "ellipsis",
+        "partOfSpeech": "noun",
+        "meaningZh": "省略；省略號"
       }
     ],
     "tags": [
@@ -335,18 +465,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "oval",
-        "noteZh": "形狀橢圓的"
-      },
-      {
-        "lemma": "cryptic",
-        "noteZh": "對應表達簡略而難懂的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_elude",
@@ -360,14 +479,16 @@
       {
         "id": "s_elude_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to escape from or avoid someone or something skillfully, or to fail to be understood or remembered",
         "definitionZh": "逃脫；躲避；難以理解或想起",
         "usageExplanationZh": "常見 elude capture（逃脫追捕）、the answer eludes me（我怎麼也想不起答案），後者強調某事難以掌握或回憶。",
-        "examples": [
-          {
-            "en": "The suspect managed to elude police for several days.",
-            "zh": "這名嫌犯成功躲避了警方好幾天的追捕。"
-          }
+        "grammarPatterns": [
+          "elude + noun",
+          "sth eludes sb"
         ],
         "collocations": [
           {
@@ -378,7 +499,36 @@
             "text": "the answer eludes me",
             "meaningZh": "我想不出答案"
           }
+        ],
+        "examples": [
+          {
+            "en": "The suspect managed to elude police for several days.",
+            "zh": "這名嫌犯成功躲避了警方好幾天的追捕。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "evade",
+        "noteZh": "巧妙躲避"
+      },
+      {
+        "lemma": "escape",
+        "noteZh": "逃脫"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "elusive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "難以捉摸的；難以名狀的"
+      },
+      {
+        "lemma": "elusively",
+        "partOfSpeech": "adverb",
+        "meaningZh": "難以捉摸地"
       }
     ],
     "tags": [
@@ -392,18 +542,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "evade",
-        "noteZh": "巧妙躲避"
-      },
-      {
-        "lemma": "escape",
-        "noteZh": "逃脫"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_emanate",
@@ -417,21 +556,47 @@
       {
         "id": "s_emanate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to come out from a source, especially in the form of a feeling, quality, or idea",
         "definitionZh": "散發；發出（源自某處）",
         "usageExplanationZh": "常接 from，如 confidence emanates from her，強調某種特質、氣息或聲音自然地從來源散發出來。",
-        "examples": [
-          {
-            "en": "A warm glow emanated from the fireplace.",
-            "zh": "壁爐散發出溫暖的光芒。"
-          }
+        "grammarPatterns": [
+          "emanate from + noun",
+          "emanate + noun"
         ],
         "collocations": [
           {
             "text": "emanate from",
             "meaningZh": "源自……；從……發出"
           }
+        ],
+        "examples": [
+          {
+            "en": "A warm glow emanated from the fireplace.",
+            "zh": "壁爐散發出溫暖的光芒。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "issue",
+        "noteZh": "從來源發出"
+      },
+      {
+        "lemma": "radiate",
+        "noteZh": "散發"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "emanation",
+        "partOfSpeech": "noun",
+        "meaningZh": "散發；發出物"
       }
     ],
     "tags": [
@@ -445,18 +610,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "issue",
-        "noteZh": "從來源發出"
-      },
-      {
-        "lemma": "radiate",
-        "noteZh": "散發"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_embankment",
@@ -470,14 +624,16 @@
       {
         "id": "s_embankment_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a wall or bank built to hold back water or to carry a road or railway",
         "definitionZh": "堤防；路堤",
         "usageExplanationZh": "常見 a river embankment（河堤）、a railway embankment（鐵路路堤），指用於防洪或支撐道路鐵軌的土石結構。",
-        "examples": [
-          {
-            "en": "The river embankment was reinforced after last year's flooding.",
-            "zh": "去年淹水後，這座河堤已被加固。"
-          }
+        "grammarPatterns": [
+          "a river embankment",
+          "build an embankment"
         ],
         "collocations": [
           {
@@ -488,20 +644,15 @@
             "text": "river embankment",
             "meaningZh": "河堤"
           }
+        ],
+        "examples": [
+          {
+            "en": "The river embankment was reinforced after last year's flooding.",
+            "zh": "去年淹水後，這座河堤已被加固。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "levee",
@@ -512,7 +663,18 @@
         "noteZh": "築高的土堤"
       }
     ],
-    "antonyms": []
+    "antonyms": [],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_embargo",
@@ -526,42 +688,65 @@
       {
         "id": "s_embargo_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "an official ban on trade or other commercial activity with a particular country",
         "definitionZh": "禁運；貿易禁令",
         "usageExplanationZh": "常見 impose/lift an embargo，指政府對特定國家實施的貿易限制，常用於國際政治語境。",
-        "examples": [
-          {
-            "en": "The United Nations imposed an arms embargo on the country.",
-            "zh": "聯合國對該國實施了武器禁運。"
-          }
+        "grammarPatterns": [
+          "impose an embargo on + noun",
+          "lift an embargo"
         ],
         "collocations": [
           {
             "text": "impose an embargo on",
             "meaningZh": "對……實施禁運"
           }
+        ],
+        "examples": [
+          {
+            "en": "The United Nations imposed an arms embargo on the country.",
+            "zh": "聯合國對該國實施了武器禁運。"
+          }
         ]
       },
       {
         "id": "s_embargo_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to officially forbid trade or commercial activity with a country",
         "definitionZh": "對…實施禁運",
         "usageExplanationZh": "及物動詞，接國家或商品作受詞，強調正式下令禁止貿易往來。",
-        "examples": [
-          {
-            "en": "Several nations embargoed the regime following the human rights violations.",
-            "zh": "在爆出侵犯人權事件後，數個國家對該政權實施了禁運。"
-          }
+        "grammarPatterns": [
+          "embargo + noun",
+          "embargo goods from + noun"
         ],
         "collocations": [
           {
             "text": "embargo oil exports",
             "meaningZh": "禁止石油出口"
           }
+        ],
+        "examples": [
+          {
+            "en": "Several nations embargoed the regime following the human rights violations.",
+            "zh": "在爆出侵犯人權事件後，數個國家對該政權實施了禁運。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "trade ban",
+        "noteZh": "貿易禁令"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -573,14 +758,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "trade ban",
-        "noteZh": "貿易禁令"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_embark",
@@ -594,14 +772,16 @@
       {
         "id": "s_embark_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to begin a journey, especially by ship, or to start a new project or undertaking",
         "definitionZh": "上船（啟程）；著手進行（新計畫）",
         "usageExplanationZh": "常接 on/upon，如 embark on a journey/project，強調正式展開某項活動或旅程。",
-        "examples": [
-          {
-            "en": "After graduation, she embarked on a career in international law.",
-            "zh": "畢業後，她開始了國際法方面的職業生涯。"
-          }
+        "grammarPatterns": [
+          "embark on + noun",
+          "embark for + noun"
         ],
         "collocations": [
           {
@@ -612,7 +792,37 @@
             "text": "embark on a career",
             "meaningZh": "開始職業生涯"
           }
+        ],
+        "examples": [
+          {
+            "en": "After graduation, she embarked on a career in international law.",
+            "zh": "畢業後，她開始了國際法方面的職業生涯。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "commence",
+        "noteZh": "開始計畫或行動"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "disembark",
+        "noteZh": "下船，對應登船義"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "embarkation",
+        "partOfSpeech": "noun",
+        "meaningZh": "上船啟程；乘船"
+      },
+      {
+        "lemma": "disembark",
+        "partOfSpeech": "verb",
+        "meaningZh": "下船；下飛機"
       }
     ],
     "tags": [
@@ -625,19 +835,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "commence",
-        "noteZh": "開始計畫或行動"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "disembark",
-        "noteZh": "下船，對應登船義"
-      }
-    ]
+    }
   },
   {
     "id": "w_embassy",
@@ -651,14 +849,15 @@
       {
         "id": "s_embassy_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "the official residence or offices of an ambassador and staff representing their country abroad",
         "definitionZh": "大使館",
         "usageExplanationZh": "常見 the American embassy，指一國派駐他國的官方外交機構。",
-        "examples": [
-          {
-            "en": "He renewed his passport at the embassy before his trip.",
-            "zh": "他在旅行前到大使館更新了護照。"
-          }
+        "grammarPatterns": [
+          "the embassy of + noun",
+          "at the embassy"
         ],
         "collocations": [
           {
@@ -669,7 +868,22 @@
             "text": "embassy staff",
             "meaningZh": "大使館人員"
           }
+        ],
+        "examples": [
+          {
+            "en": "He renewed his passport at the embassy before his trip.",
+            "zh": "他在旅行前到大使館更新了護照。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "ambassador",
+        "partOfSpeech": "noun",
+        "meaningZh": "大使"
       }
     ],
     "tags": [
@@ -682,9 +896,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_embed",
@@ -698,14 +910,16 @@
       {
         "id": "s_embed_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "formal"
+        ],
         "definitionEn": "to fix something firmly into a surrounding mass, or to incorporate as an integral part",
         "definitionZh": "嵌入；深植",
         "usageExplanationZh": "常見 embed a video（嵌入影片）、embed values in a culture（將價值觀深植於文化中），常見被動語態 be embedded in。",
-        "examples": [
-          {
-            "en": "The video was embedded directly into the company's website.",
-            "zh": "這支影片直接嵌入了該公司的網站。"
-          }
+        "grammarPatterns": [
+          "embed sth in + noun",
+          "be embedded in + noun"
         ],
         "collocations": [
           {
@@ -716,9 +930,26 @@
             "text": "be deeply embedded in",
             "meaningZh": "深植於……"
           }
+        ],
+        "examples": [
+          {
+            "en": "The video was embedded directly into the company's website.",
+            "zh": "這支影片直接嵌入了該公司的網站。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "implant",
+        "noteZh": "植入"
+      },
+      {
+        "lemma": "incorporate",
+        "noteZh": "納入整體"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -731,18 +962,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "implant",
-        "noteZh": "植入"
-      },
-      {
-        "lemma": "incorporate",
-        "noteZh": "納入整體"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_embellish",
@@ -756,14 +976,16 @@
       {
         "id": "s_embellish_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to make something more attractive by adding decorative details, or to add fictional details to a story",
         "definitionZh": "裝飾；（為故事）添油加醋",
         "usageExplanationZh": "字面指增添裝飾，比喻用法常見 embellish a story，帶輕微負面意味，指誇大或虛構部分細節。",
-        "examples": [
-          {
-            "en": "He tends to embellish his stories to make them sound more exciting.",
-            "zh": "他常常為自己的故事添油加醋，讓內容聽起來更刺激。"
-          }
+        "grammarPatterns": [
+          "embellish sth with + noun",
+          "embellish a + noun"
         ],
         "collocations": [
           {
@@ -774,7 +996,31 @@
             "text": "embellish with gold",
             "meaningZh": "用金飾裝點"
           }
+        ],
+        "examples": [
+          {
+            "en": "He tends to embellish his stories to make them sound more exciting.",
+            "zh": "他常常為自己的故事添油加醋，讓內容聽起來更刺激。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "adorn",
+        "noteZh": "裝飾"
+      },
+      {
+        "lemma": "embroider",
+        "noteZh": "對故事添油加醋"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "embellishment",
+        "partOfSpeech": "noun",
+        "meaningZh": "裝飾；潤飾"
       }
     ],
     "tags": [
@@ -788,18 +1034,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "adorn",
-        "noteZh": "裝飾"
-      },
-      {
-        "lemma": "embroider",
-        "noteZh": "對故事添油加醋"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_emblazon",
@@ -813,14 +1048,16 @@
       {
         "id": "s_emblazon_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to display a design or words prominently on something",
         "definitionZh": "（將圖案、文字）顯眼地印於…之上",
         "usageExplanationZh": "常見被動語態，如 a logo emblazoned on a shirt，強調圖案或文字醒目地印製或裝飾在物體表面。",
-        "examples": [
-          {
-            "en": "The team's logo was emblazoned across the front of the jersey.",
-            "zh": "這支隊伍的標誌顯眼地印在球衣前方。"
-          }
+        "grammarPatterns": [
+          "emblazon sth across + noun",
+          "be emblazoned with + noun"
         ],
         "collocations": [
           {
@@ -831,9 +1068,22 @@
             "text": "emblazon a name on",
             "meaningZh": "將名字醒目地印在……上"
           }
+        ],
+        "examples": [
+          {
+            "en": "The team's logo was emblazoned across the front of the jersey.",
+            "zh": "這支隊伍的標誌顯眼地印在球衣前方。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "display",
+        "noteZh": "醒目地展示"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -844,14 +1094,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "display",
-        "noteZh": "醒目地展示"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_emblematic",
@@ -865,14 +1108,16 @@
       {
         "id": "s_emblematic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "serving as a symbol or representative example of something",
         "definitionZh": "象徵性的；代表性的",
         "usageExplanationZh": "常接 of，如 emblematic of a broader trend，強調某事物是更大現象或特質的典型代表。",
-        "examples": [
-          {
-            "en": "The scandal is emblematic of a broader culture of corruption.",
-            "zh": "這起醜聞正是更廣泛貪腐文化的一個縮影。"
-          }
+        "grammarPatterns": [
+          "be emblematic of + noun",
+          "an emblematic + noun"
         ],
         "collocations": [
           {
@@ -883,7 +1128,36 @@
             "text": "emblematic figure",
             "meaningZh": "代表性人物"
           }
+        ],
+        "examples": [
+          {
+            "en": "The scandal is emblematic of a broader culture of corruption.",
+            "zh": "這起醜聞正是更廣泛貪腐文化的一個縮影。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "symbolic",
+        "noteZh": "象徵性的"
+      },
+      {
+        "lemma": "representative",
+        "noteZh": "具代表性的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "emblem",
+        "partOfSpeech": "noun",
+        "meaningZh": "象徵；徽章"
+      },
+      {
+        "lemma": "emblematically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "象徵性地"
       }
     ],
     "tags": [
@@ -896,18 +1170,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "symbolic",
-        "noteZh": "象徵性的"
-      },
-      {
-        "lemma": "representative",
-        "noteZh": "具代表性的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_embodiment",
@@ -921,14 +1184,16 @@
       {
         "id": "s_embodiment_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "a person or thing that represents an idea or quality in a physical or concrete form",
         "definitionZh": "化身；具體體現",
         "usageExplanationZh": "常見 the embodiment of，如 the embodiment of courage（勇氣的化身），強調抽象特質透過具體的人或事物呈現。",
-        "examples": [
-          {
-            "en": "She is often described as the embodiment of grace and resilience.",
-            "zh": "她常被形容為優雅與堅韌的化身。"
-          }
+        "grammarPatterns": [
+          "the embodiment of + noun",
+          "be the very embodiment of + noun"
         ],
         "collocations": [
           {
@@ -939,7 +1204,36 @@
             "text": "living embodiment",
             "meaningZh": "活生生的體現"
           }
+        ],
+        "examples": [
+          {
+            "en": "She is often described as the embodiment of grace and resilience.",
+            "zh": "她常被形容為優雅與堅韌的化身。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "personification",
+        "noteZh": "人格化的體現"
+      },
+      {
+        "lemma": "epitome",
+        "noteZh": "典型代表"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "embody",
+        "partOfSpeech": "verb",
+        "meaningZh": "體現；具體展現"
+      },
+      {
+        "lemma": "body",
+        "partOfSpeech": "noun",
+        "meaningZh": "身體；主體"
       }
     ],
     "tags": [
@@ -952,18 +1246,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "personification",
-        "noteZh": "人格化的體現"
-      },
-      {
-        "lemma": "epitome",
-        "noteZh": "典型代表"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_embody",
@@ -977,14 +1260,16 @@
       {
         "id": "s_embody_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to represent or express an idea, quality, or feeling in a tangible form",
         "definitionZh": "體現；具體展現",
         "usageExplanationZh": "常見 embody a value/spirit，強調某人或事物具體展現出某種精神、特質或原則。",
-        "examples": [
-          {
-            "en": "The building's design embodies the company's commitment to sustainability.",
-            "zh": "這棟建築的設計體現了該公司對永續發展的承諾。"
-          }
+        "grammarPatterns": [
+          "embody + noun",
+          "embody the spirit of + noun"
         ],
         "collocations": [
           {
@@ -995,7 +1280,31 @@
             "text": "embody the spirit of",
             "meaningZh": "體現……的精神"
           }
+        ],
+        "examples": [
+          {
+            "en": "The building's design embodies the company's commitment to sustainability.",
+            "zh": "這棟建築的設計體現了該公司對永續發展的承諾。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "personify",
+        "noteZh": "具體展現"
+      },
+      {
+        "lemma": "represent",
+        "noteZh": "代表某種特質"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "embodiment",
+        "partOfSpeech": "noun",
+        "meaningZh": "化身；具體體現"
       }
     ],
     "tags": [
@@ -1010,18 +1319,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "personify",
-        "noteZh": "具體展現"
-      },
-      {
-        "lemma": "represent",
-        "noteZh": "代表某種特質"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_embrace",
@@ -1035,33 +1333,42 @@
       {
         "id": "s_embrace_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "an act of holding someone closely in one's arms",
         "definitionZh": "擁抱",
         "usageExplanationZh": "常見 a warm embrace，強調身體上親密的擁抱動作，語氣溫暖。",
-        "examples": [
-          {
-            "en": "They shared a long embrace at the airport before saying goodbye.",
-            "zh": "他們在機場道別前緊緊擁抱了很久。"
-          }
+        "grammarPatterns": [
+          "a warm embrace",
+          "in sb's embrace"
         ],
         "collocations": [
           {
             "text": "a warm embrace",
             "meaningZh": "溫暖的擁抱"
           }
+        ],
+        "examples": [
+          {
+            "en": "They shared a long embrace at the airport before saying goodbye.",
+            "zh": "他們在機場道別前緊緊擁抱了很久。"
+          }
         ]
       },
       {
         "id": "s_embrace_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to hold someone closely in one's arms, or to accept an idea, opportunity, or change willingly",
         "definitionZh": "擁抱；欣然接受（想法、變革）",
         "usageExplanationZh": "字面指身體上的擁抱，比喻用法更常見，如 embrace change（擁抱改變），強調積極接納。",
-        "examples": [
-          {
-            "en": "The company decided to embrace new technology rather than resist it.",
-            "zh": "該公司決定欣然接受新科技，而非加以抗拒。"
-          }
+        "grammarPatterns": [
+          "embrace + noun",
+          "embrace sb"
         ],
         "collocations": [
           {
@@ -1072,22 +1379,15 @@
             "text": "embrace an opportunity",
             "meaningZh": "把握機會"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company decided to embrace new technology rather than resist it.",
+            "zh": "該公司決定欣然接受新科技，而非加以抗拒。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "hug",
@@ -1103,7 +1403,20 @@
         "lemma": "reject",
         "noteZh": "對應拒絕接受觀念義"
       }
-    ]
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_embroider",
@@ -1117,14 +1430,16 @@
       {
         "id": "s_embroider_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "to decorate fabric with needlework designs, or to add exaggerated details to a story",
         "definitionZh": "刺繡；（為故事）誇大渲染",
         "usageExplanationZh": "字面指縫紉裝飾布料，比喻用法類似 embellish，指誇大敘述以使故事更精彩。",
-        "examples": [
-          {
-            "en": "She embroidered a floral pattern onto the pillowcase.",
-            "zh": "她在枕頭套上繡了花卉圖案。"
-          }
+        "grammarPatterns": [
+          "embroider sth onto + noun",
+          "embroider sth with + noun"
         ],
         "collocations": [
           {
@@ -1135,7 +1450,27 @@
             "text": "embroider the truth",
             "meaningZh": "為事實添油加醋"
           }
+        ],
+        "examples": [
+          {
+            "en": "She embroidered a floral pattern onto the pillowcase.",
+            "zh": "她在枕頭套上繡了花卉圖案。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "embellish",
+        "noteZh": "裝飾或渲染細節"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "embroidery",
+        "partOfSpeech": "noun",
+        "meaningZh": "刺繡；刺繡品"
       }
     ],
     "tags": [
@@ -1149,14 +1484,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "embellish",
-        "noteZh": "裝飾或渲染細節"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_embroil",
@@ -1170,14 +1498,16 @@
       {
         "id": "s_embroil_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to involve someone deeply in a conflict, argument, or difficult situation",
         "definitionZh": "使捲入（糾紛、爭端）",
         "usageExplanationZh": "常見被動語態 be embroiled in，如 embroiled in a scandal/lawsuit，強調深陷難以脫身的複雜狀況。",
-        "examples": [
-          {
-            "en": "The company became embroiled in a lengthy legal dispute.",
-            "zh": "這家公司捲入了一場曠日費時的法律糾紛。"
-          }
+        "grammarPatterns": [
+          "be embroiled in + noun",
+          "embroil sb in + noun"
         ],
         "collocations": [
           {
@@ -1188,20 +1518,15 @@
             "text": "embroil someone in controversy",
             "meaningZh": "使某人捲入爭議"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company became embroiled in a lengthy legal dispute.",
+            "zh": "這家公司捲入了一場曠日費時的法律糾紛。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "entangle",
@@ -1212,7 +1537,18 @@
         "noteZh": "使捲入"
       }
     ],
-    "antonyms": []
+    "antonyms": [],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_embryo",
@@ -1226,14 +1562,16 @@
       {
         "id": "s_embryo_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "an unborn or unhatched offspring in the early stages of development",
         "definitionZh": "胚胎",
         "usageExplanationZh": "醫學與生物學用語，常見 embryo development，也可比喻用於構想的初期階段，如 in embryo（尚在萌芽階段）。",
-        "examples": [
-          {
-            "en": "The embryo begins to develop major organs within the first few weeks.",
-            "zh": "胚胎在最初幾週內就開始發育主要器官。"
-          }
+        "grammarPatterns": [
+          "a human embryo",
+          "in embryo"
         ],
         "collocations": [
           {
@@ -1244,7 +1582,22 @@
             "text": "embryo development",
             "meaningZh": "胚胎發育"
           }
+        ],
+        "examples": [
+          {
+            "en": "The embryo begins to develop major organs within the first few weeks.",
+            "zh": "胚胎在最初幾週內就開始發育主要器官。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "embryonic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "胚胎的；初期的"
       }
     ],
     "tags": [
@@ -1257,9 +1610,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_emergence",
@@ -1273,14 +1624,16 @@
       {
         "id": "s_emergence_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "the process of coming into existence or prominence",
         "definitionZh": "出現；崛起；浮現",
         "usageExplanationZh": "常見 the emergence of，如 the emergence of new technology（新科技的興起），強調某事物從無到有或逐漸受到關注。",
-        "examples": [
-          {
-            "en": "The emergence of social media has changed how people communicate.",
-            "zh": "社群媒體的興起改變了人們溝通的方式。"
-          }
+        "grammarPatterns": [
+          "the emergence of + noun",
+          "mark the emergence of + noun"
         ],
         "collocations": [
           {
@@ -1291,20 +1644,15 @@
             "text": "emergence from poverty",
             "meaningZh": "脫離貧困"
           }
+        ],
+        "examples": [
+          {
+            "en": "The emergence of social media has changed how people communicate.",
+            "zh": "社群媒體的興起改變了人們溝通的方式。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "appearance",
@@ -1320,7 +1668,30 @@
         "lemma": "disappearance",
         "noteZh": "消失"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "emerge",
+        "partOfSpeech": "verb",
+        "meaningZh": "出現；浮現"
+      },
+      {
+        "lemma": "emergent",
+        "partOfSpeech": "adjective",
+        "meaningZh": "新興的；初現的"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_emergency",
@@ -1334,14 +1705,15 @@
       {
         "id": "s_emergency_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a serious, unexpected situation requiring immediate action",
         "definitionZh": "緊急情況；緊急事件",
         "usageExplanationZh": "常見 in case of emergency、an emergency room（急診室），強調需要立即處理的危急狀況。",
-        "examples": [
-          {
-            "en": "Call this number only in case of an emergency.",
-            "zh": "只有在緊急情況下才撥打這個號碼。"
-          }
+        "grammarPatterns": [
+          "in an emergency",
+          "declare a state of emergency"
         ],
         "collocations": [
           {
@@ -1352,7 +1724,32 @@
             "text": "emergency services",
             "meaningZh": "緊急救援單位"
           }
+        ],
+        "examples": [
+          {
+            "en": "Call this number only in case of an emergency.",
+            "zh": "只有在緊急情況下才撥打這個號碼。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "crisis",
+        "noteZh": "危機"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "emerge",
+        "partOfSpeech": "verb",
+        "meaningZh": "出現；突然浮現"
+      },
+      {
+        "lemma": "emergent",
+        "partOfSpeech": "adjective",
+        "meaningZh": "緊急的；新興的"
       }
     ],
     "tags": [
@@ -1366,14 +1763,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "crisis",
-        "noteZh": "危機"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_emigrate",
@@ -1387,14 +1777,15 @@
       {
         "id": "s_emigrate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to leave one's own country to settle permanently in another",
         "definitionZh": "移居國外；移民（離開本國）",
         "usageExplanationZh": "常接 from，強調「離開」原本的國家，與 immigrate（移入某國）視角相反，常搭配使用。",
-        "examples": [
-          {
-            "en": "Her grandparents emigrated from Italy to the United States in the 1950s.",
-            "zh": "她的祖父母在一九五〇年代從義大利移民到美國。"
-          }
+        "grammarPatterns": [
+          "emigrate from + noun",
+          "emigrate to + noun"
         ],
         "collocations": [
           {
@@ -1405,7 +1796,42 @@
             "text": "emigrate to Canada",
             "meaningZh": "移居加拿大"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her grandparents emigrated from Italy to the United States in the 1950s.",
+            "zh": "她的祖父母在一九五〇年代從義大利移民到美國。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "move abroad",
+        "noteZh": "移居海外"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "immigrate",
+        "noteZh": "從目的地角度指移入該國"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "emigration",
+        "partOfSpeech": "noun",
+        "meaningZh": "移出；移居國外"
+      },
+      {
+        "lemma": "emigrant",
+        "partOfSpeech": "noun",
+        "meaningZh": "移居外國者"
+      },
+      {
+        "lemma": "immigrate",
+        "partOfSpeech": "verb",
+        "meaningZh": "移入；遷入定居"
       }
     ],
     "tags": [
@@ -1420,19 +1846,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "move abroad",
-        "noteZh": "移居海外"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "immigrate",
-        "noteZh": "從目的地角度指移入該國"
-      }
-    ]
+    }
   },
   {
     "id": "w_eminent",
@@ -1446,14 +1860,16 @@
       {
         "id": "s_eminent_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "famous and respected within a particular sphere, especially a profession",
         "definitionZh": "卓越的；著名的；德高望重的",
         "usageExplanationZh": "常修飾 scientist、professor 等，如 an eminent scholar，強調在特定領域享有崇高聲望與地位。",
-        "examples": [
-          {
-            "en": "The lecture was given by an eminent professor of physics.",
-            "zh": "這場演講是由一位著名的物理學教授主講的。"
-          }
+        "grammarPatterns": [
+          "an eminent + noun",
+          "be eminent in + noun"
         ],
         "collocations": [
           {
@@ -1464,22 +1880,15 @@
             "text": "eminent scientist",
             "meaningZh": "傑出科學家"
           }
+        ],
+        "examples": [
+          {
+            "en": "The lecture was given by an eminent professor of physics.",
+            "zh": "這場演講是由一位著名的物理學教授主講的。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "distinguished",
@@ -1495,95 +1904,22 @@
         "lemma": "obscure",
         "noteZh": "默默無聞的"
       }
-    ]
-  },
-  {
-    "id": "w_emission",
-    "lemma": "emission",
-    "slug": "emission",
-    "cefr": "B2",
-    "pronunciation": {
-      "kk": "/ɪˈmɪʃən/"
-    },
-    "senses": [
+    ],
+    "wordFamily": [
       {
-        "id": "s_emission_noun",
+        "lemma": "eminence",
         "partOfSpeech": "noun",
-        "definitionEn": "the production and release of something, especially gas or radiation",
-        "definitionZh": "排放（物）",
-        "usageExplanationZh": "常見 carbon emissions（碳排放）、greenhouse gas emissions，環境議題常用詞。",
-        "examples": [
-          {
-            "en": "The new regulations aim to reduce carbon emissions from factories.",
-            "zh": "這項新法規旨在減少工廠的碳排放。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "carbon emissions",
-            "meaningZh": "碳排放"
-          },
-          {
-            "text": "emission standards",
-            "meaningZh": "排放標準"
-          }
-        ]
-      }
-    ],
-    "tags": [
-      "dictionary",
-      "toefl"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "discharge",
-        "noteZh": "排放"
+        "meaningZh": "卓越；聲望"
       },
       {
-        "lemma": "release",
-        "noteZh": "釋放"
-      }
-    ],
-    "antonyms": []
-  },
-  {
-    "id": "w_emit",
-    "lemma": "emit",
-    "slug": "emit",
-    "cefr": "C1",
-    "pronunciation": {
-      "kk": "/ɪˈmɪt/"
-    },
-    "senses": [
+        "lemma": "eminently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "極為；出色地"
+      },
       {
-        "id": "s_emit_verb",
-        "partOfSpeech": "verb",
-        "definitionEn": "to give off or release something, such as light, sound, gas, or heat",
-        "definitionZh": "發出；排放（光、聲音、氣體）",
-        "usageExplanationZh": "常接具體物理現象作受詞，如 emit light/heat/a sound，強調物體主動散發出某種能量或物質。",
-        "examples": [
-          {
-            "en": "The device emits a soft blue light when activated.",
-            "zh": "這個裝置啟動時會發出柔和的藍光。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "emit light",
-            "meaningZh": "發光"
-          },
-          {
-            "text": "emit radiation",
-            "meaningZh": "釋放輻射"
-          }
-        ]
+        "lemma": "preeminent",
+        "partOfSpeech": "adjective",
+        "meaningZh": "卓越超群的"
       }
     ],
     "tags": [
@@ -1598,7 +1934,120 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
+    }
+  },
+  {
+    "id": "w_emission",
+    "lemma": "emission",
+    "slug": "emission",
+    "cefr": "B2",
+    "pronunciation": {
+      "kk": "/ɪˈmɪʃən/"
     },
+    "senses": [
+      {
+        "id": "s_emission_noun",
+        "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
+        "definitionEn": "the production and release of something, especially gas or radiation",
+        "definitionZh": "排放（物）",
+        "usageExplanationZh": "常見 carbon emissions（碳排放）、greenhouse gas emissions，環境議題常用詞。",
+        "grammarPatterns": [
+          "the emission of + noun",
+          "reduce emissions"
+        ],
+        "collocations": [
+          {
+            "text": "carbon emissions",
+            "meaningZh": "碳排放"
+          },
+          {
+            "text": "emission standards",
+            "meaningZh": "排放標準"
+          }
+        ],
+        "examples": [
+          {
+            "en": "The new regulations aim to reduce carbon emissions from factories.",
+            "zh": "這項新法規旨在減少工廠的碳排放。"
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "discharge",
+        "noteZh": "排放"
+      },
+      {
+        "lemma": "release",
+        "noteZh": "釋放"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "emit",
+        "partOfSpeech": "verb",
+        "meaningZh": "排放；發出"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
+  },
+  {
+    "id": "w_emit",
+    "lemma": "emit",
+    "slug": "emit",
+    "cefr": "C1",
+    "pronunciation": {
+      "kk": "/ɪˈmɪt/"
+    },
+    "senses": [
+      {
+        "id": "s_emit_verb",
+        "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "academic"
+        ],
+        "definitionEn": "to give off or release something, such as light, sound, gas, or heat",
+        "definitionZh": "發出；排放（光、聲音、氣體）",
+        "usageExplanationZh": "常接具體物理現象作受詞，如 emit light/heat/a sound，強調物體主動散發出某種能量或物質。",
+        "grammarPatterns": [
+          "emit + noun",
+          "emit sth into + noun"
+        ],
+        "collocations": [
+          {
+            "text": "emit light",
+            "meaningZh": "發光"
+          },
+          {
+            "text": "emit radiation",
+            "meaningZh": "釋放輻射"
+          }
+        ],
+        "examples": [
+          {
+            "en": "The device emits a soft blue light when activated.",
+            "zh": "這個裝置啟動時會發出柔和的藍光。"
+          }
+        ]
+      }
+    ],
     "synonyms": [
       {
         "lemma": "give off",
@@ -1614,7 +2063,32 @@
         "lemma": "absorb",
         "noteZh": "吸收"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "emission",
+        "partOfSpeech": "noun",
+        "meaningZh": "排放（物）"
+      },
+      {
+        "lemma": "emitter",
+        "partOfSpeech": "noun",
+        "meaningZh": "發射器；發射源"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_emotion",
@@ -1628,14 +2102,16 @@
       {
         "id": "s_emotion_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "a strong feeling such as joy, anger, or fear",
         "definitionZh": "情感；情緒",
         "usageExplanationZh": "常見 show emotion、a wave of emotion，泛指各種強烈的內在感受，涵蓋正面與負面情緒。",
-        "examples": [
-          {
-            "en": "She struggled to hide her emotion during the farewell speech.",
-            "zh": "她在告別演說時努力掩飾自己的情緒。"
-          }
+        "grammarPatterns": [
+          "show emotion",
+          "a strong emotion"
         ],
         "collocations": [
           {
@@ -1646,7 +2122,41 @@
             "text": "mixed emotions",
             "meaningZh": "百感交集"
           }
+        ],
+        "examples": [
+          {
+            "en": "She struggled to hide her emotion during the farewell speech.",
+            "zh": "她在告別演說時努力掩飾自己的情緒。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "feeling",
+        "noteZh": "情感"
+      },
+      {
+        "lemma": "sentiment",
+        "noteZh": "情緒或感受"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "emotional",
+        "partOfSpeech": "adjective",
+        "meaningZh": "情感的；情緒化的"
+      },
+      {
+        "lemma": "emotionally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "情緒上地"
+      },
+      {
+        "lemma": "emotive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "激起情感的"
       }
     ],
     "tags": [
@@ -1660,18 +2170,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "feeling",
-        "noteZh": "情感"
-      },
-      {
-        "lemma": "sentiment",
-        "noteZh": "情緒或感受"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_emotional",
@@ -1685,14 +2184,15 @@
       {
         "id": "s_emotional_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "relating to emotions, or showing strong feelings",
         "definitionZh": "情感的；情緒化的",
         "usageExplanationZh": "常見 an emotional response（情緒反應）、get emotional（變得激動），可中性描述情感相關事物，也可指人容易動情。",
-        "examples": [
-          {
-            "en": "The reunion was an emotional moment for the entire family.",
-            "zh": "這場團聚對整個家庭而言是個充滿情感的時刻。"
-          }
+        "grammarPatterns": [
+          "an emotional + noun",
+          "become emotional"
         ],
         "collocations": [
           {
@@ -1703,20 +2203,15 @@
             "text": "emotional response",
             "meaningZh": "情緒反應"
           }
+        ],
+        "examples": [
+          {
+            "en": "The reunion was an emotional moment for the entire family.",
+            "zh": "這場團聚對整個家庭而言是個充滿情感的時刻。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "emotive",
@@ -1732,7 +2227,35 @@
         "lemma": "unemotional",
         "noteZh": "不動感情的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "emotion",
+        "partOfSpeech": "noun",
+        "meaningZh": "情感；情緒"
+      },
+      {
+        "lemma": "emotionally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "情緒上地"
+      },
+      {
+        "lemma": "unemotional",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不帶感情的"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_emphasize",
@@ -1746,14 +2269,16 @@
       {
         "id": "s_emphasize_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "to give special importance or prominence to something",
         "definitionZh": "強調",
         "usageExplanationZh": "常接名詞或子句，如 emphasize the importance of，強調刻意突顯某重點以引起注意。",
-        "examples": [
-          {
-            "en": "The teacher emphasized the importance of practicing every day.",
-            "zh": "老師強調每天練習的重要性。"
-          }
+        "grammarPatterns": [
+          "emphasize + noun",
+          "emphasize that + clause"
         ],
         "collocations": [
           {
@@ -1764,21 +2289,15 @@
             "text": "strongly emphasize",
             "meaningZh": "大力強調"
           }
+        ],
+        "examples": [
+          {
+            "en": "The teacher emphasized the importance of practicing every day.",
+            "zh": "老師強調每天練習的重要性。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "stress",
@@ -1794,7 +2313,31 @@
         "lemma": "downplay",
         "noteZh": "淡化重要性"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "emphasis",
+        "partOfSpeech": "noun",
+        "meaningZh": "強調；重點"
+      },
+      {
+        "lemma": "emphatic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "強調的；斷然的"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_empower",
@@ -1808,14 +2351,16 @@
       {
         "id": "s_empower_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to give someone the authority, confidence, or means to do something",
         "definitionZh": "賦予權力；使能夠（做某事）",
         "usageExplanationZh": "常接 to do something，如 empower employees to make decisions，強調給予他人自主行動或決策的能力與信心。",
-        "examples": [
-          {
-            "en": "The training program empowers employees to make independent decisions.",
-            "zh": "這項培訓計畫讓員工能夠自主做出決策。"
-          }
+        "grammarPatterns": [
+          "empower sb to + V",
+          "empower + noun"
         ],
         "collocations": [
           {
@@ -1826,21 +2371,15 @@
             "text": "empower women",
             "meaningZh": "賦予女性自主能力"
           }
+        ],
+        "examples": [
+          {
+            "en": "The training program empowers employees to make independent decisions.",
+            "zh": "這項培訓計畫讓員工能夠自主做出決策。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "authorize",
@@ -1856,7 +2395,31 @@
         "lemma": "disempower",
         "noteZh": "剝奪權力或自主能力"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "empowerment",
+        "partOfSpeech": "noun",
+        "meaningZh": "賦權；增能"
+      },
+      {
+        "lemma": "power",
+        "partOfSpeech": "noun",
+        "meaningZh": "權力；力量"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_emulate",
@@ -1870,14 +2433,16 @@
       {
         "id": "s_emulate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to try to match or surpass someone by imitating their achievements or qualities",
         "definitionZh": "仿效；效法（以求超越）",
         "usageExplanationZh": "常接人或成就作受詞，如 emulate a role model，強調以他人為榜樣努力追趕或超越，語氣正面。",
-        "examples": [
-          {
-            "en": "The young athlete hopes to emulate her idol's success.",
-            "zh": "這位年輕的運動員希望能效法她偶像的成功。"
-          }
+        "grammarPatterns": [
+          "emulate sb/sth",
+          "seek to emulate + noun"
         ],
         "collocations": [
           {
@@ -1888,7 +2453,31 @@
             "text": "emulate a role model",
             "meaningZh": "效法榜樣"
           }
+        ],
+        "examples": [
+          {
+            "en": "The young athlete hopes to emulate her idol's success.",
+            "zh": "這位年輕的運動員希望能效法她偶像的成功。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "imitate",
+        "noteZh": "模仿"
+      },
+      {
+        "lemma": "match",
+        "noteZh": "努力達到同等水準"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "emulation",
+        "partOfSpeech": "noun",
+        "meaningZh": "效法；模擬"
       }
     ],
     "tags": [
@@ -1902,18 +2491,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "imitate",
-        "noteZh": "模仿"
-      },
-      {
-        "lemma": "match",
-        "noteZh": "努力達到同等水準"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_enact",
@@ -1927,14 +2505,16 @@
       {
         "id": "s_enact_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to make a bill or plan into law, or to perform or act out a role",
         "definitionZh": "制定（法律）；演出（角色）",
         "usageExplanationZh": "常見 enact a law/legislation（制定法律），也可用於戲劇語境，指扮演角色或重演事件。",
-        "examples": [
-          {
-            "en": "The government enacted new legislation to protect consumer rights.",
-            "zh": "政府制定了新法規以保護消費者權益。"
-          }
+        "grammarPatterns": [
+          "enact + noun",
+          "enact legislation to + V"
         ],
         "collocations": [
           {
@@ -1945,21 +2525,15 @@
             "text": "enact a scene",
             "meaningZh": "演出一個場景"
           }
+        ],
+        "examples": [
+          {
+            "en": "The government enacted new legislation to protect consumer rights.",
+            "zh": "政府制定了新法規以保護消費者權益。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "legislate",
@@ -1975,7 +2549,31 @@
         "lemma": "repeal",
         "noteZh": "廢除法律"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "enactment",
+        "partOfSpeech": "noun",
+        "meaningZh": "制定；法規"
+      },
+      {
+        "lemma": "act",
+        "partOfSpeech": "noun",
+        "meaningZh": "法案；行為"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_encapsulate",
@@ -1989,14 +2587,16 @@
       {
         "id": "s_encapsulate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to express or represent the essential features of something concisely",
         "definitionZh": "概括；濃縮表達",
         "usageExplanationZh": "常見 encapsulate an idea/feeling，強調用簡潔的方式完整呈現某事物的核心要點。",
-        "examples": [
-          {
-            "en": "Her speech perfectly encapsulated the team's mission and values.",
-            "zh": "她的演講完美地概括了這個團隊的使命與價值觀。"
-          }
+        "grammarPatterns": [
+          "encapsulate + noun",
+          "encapsulate sth in + noun"
         ],
         "collocations": [
           {
@@ -2007,7 +2607,36 @@
             "text": "neatly encapsulate",
             "meaningZh": "簡潔精準地概括"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her speech perfectly encapsulated the team's mission and values.",
+            "zh": "她的演講完美地概括了這個團隊的使命與價值觀。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "summarize",
+        "noteZh": "概括"
+      },
+      {
+        "lemma": "sum up",
+        "noteZh": "扼要總結"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "encapsulation",
+        "partOfSpeech": "noun",
+        "meaningZh": "概括；封裝"
+      },
+      {
+        "lemma": "capsule",
+        "partOfSpeech": "noun",
+        "meaningZh": "膠囊；太空艙"
       }
     ],
     "tags": [
@@ -2020,18 +2649,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "summarize",
-        "noteZh": "概括"
-      },
-      {
-        "lemma": "sum up",
-        "noteZh": "扼要總結"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_enclose",
@@ -2045,14 +2663,16 @@
       {
         "id": "s_enclose_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to surround something on all sides, or to put something inside an envelope or package along with a main item",
         "definitionZh": "圍住；（隨信）附上",
         "usageExplanationZh": "常見 enclose a document（隨信附上文件）、an enclosed garden（被圍住的花園），依語境判斷詞義。",
-        "examples": [
-          {
-            "en": "Please enclose a copy of your resume with the application form.",
-            "zh": "請隨申請表附上一份您的履歷影本。"
-          }
+        "grammarPatterns": [
+          "enclose sth with + noun",
+          "be enclosed by + noun"
         ],
         "collocations": [
           {
@@ -2063,7 +2683,31 @@
             "text": "be enclosed by walls",
             "meaningZh": "被牆圍住"
           }
+        ],
+        "examples": [
+          {
+            "en": "Please enclose a copy of your resume with the application form.",
+            "zh": "請隨申請表附上一份您的履歷影本。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "surround",
+        "noteZh": "圍住"
+      },
+      {
+        "lemma": "include",
+        "noteZh": "指隨信附上"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "enclosure",
+        "partOfSpeech": "noun",
+        "meaningZh": "圍場；（信件）附件"
       }
     ],
     "tags": [
@@ -2077,18 +2721,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "surround",
-        "noteZh": "圍住"
-      },
-      {
-        "lemma": "include",
-        "noteZh": "指隨信附上"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_enclosure",
@@ -2102,14 +2735,16 @@
       {
         "id": "s_enclosure_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "an area surrounded by a fence or wall, or an item included along with a letter",
         "definitionZh": "圍場；圍欄區域；（信件的）附件",
         "usageExplanationZh": "常見 an animal enclosure（動物圍欄）、please see enclosure（請見附件），依語境涵蓋實體空間與文件附件兩種意義。",
-        "examples": [
-          {
-            "en": "The zoo built a larger enclosure for the elephants.",
-            "zh": "動物園為大象建了一個更大的圍欄區域。"
-          }
+        "grammarPatterns": [
+          "an enclosure for + noun",
+          "build an enclosure"
         ],
         "collocations": [
           {
@@ -2120,7 +2755,31 @@
             "text": "check the enclosures",
             "meaningZh": "查看信件附件"
           }
+        ],
+        "examples": [
+          {
+            "en": "The zoo built a larger enclosure for the elephants.",
+            "zh": "動物園為大象建了一個更大的圍欄區域。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "pen",
+        "noteZh": "指圍養動物的圍場"
+      },
+      {
+        "lemma": "attachment",
+        "noteZh": "信件附件"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "enclose",
+        "partOfSpeech": "verb",
+        "meaningZh": "圍住；隨函附上"
       }
     ],
     "tags": [
@@ -2135,18 +2794,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pen",
-        "noteZh": "指圍養動物的圍場"
-      },
-      {
-        "lemma": "attachment",
-        "noteZh": "信件附件"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_encompass",
@@ -2160,14 +2808,16 @@
       {
         "id": "s_encompass_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to include a wide range of things or areas as part of something",
         "definitionZh": "涵蓋；包含",
         "usageExplanationZh": "常見 encompass a wide range of topics，強調範圍廣泛地包括多項內容或層面，語氣正式。",
-        "examples": [
-          {
-            "en": "The course encompasses topics from ancient history to modern politics.",
-            "zh": "這門課程涵蓋了從古代歷史到現代政治的各種主題。"
-          }
+        "grammarPatterns": [
+          "encompass + noun",
+          "encompass a range of + plural noun"
         ],
         "collocations": [
           {
@@ -2178,21 +2828,15 @@
             "text": "encompass several disciplines",
             "meaningZh": "涵蓋數個學科"
           }
+        ],
+        "examples": [
+          {
+            "en": "The course encompasses topics from ancient history to modern politics.",
+            "zh": "這門課程涵蓋了從古代歷史到現代政治的各種主題。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "include",
@@ -2208,7 +2852,19 @@
         "lemma": "exclude",
         "noteZh": "排除"
       }
-    ]
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_encounter",
@@ -2222,14 +2878,16 @@
       {
         "id": "s_encounter_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "an unexpected or casual meeting with someone or something",
         "definitionZh": "相遇；邂逅；遭遇",
         "usageExplanationZh": "常見 a chance encounter（不期而遇）、a close encounter（近距離接觸），強調意外或短暫的接觸經驗。",
-        "examples": [
-          {
-            "en": "Their chance encounter at the coffee shop led to a lasting friendship.",
-            "zh": "他們在咖啡店的不期而遇，開啟了一段長久的友誼。"
-          }
+        "grammarPatterns": [
+          "an encounter with + noun",
+          "a chance encounter"
         ],
         "collocations": [
           {
@@ -2240,9 +2898,22 @@
             "text": "close encounter",
             "meaningZh": "近距離接觸"
           }
+        ],
+        "examples": [
+          {
+            "en": "Their chance encounter at the coffee shop led to a lasting friendship.",
+            "zh": "他們在咖啡店的不期而遇，開啟了一段長久的友誼。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "meeting",
+        "noteZh": "相遇"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2255,14 +2926,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "meeting",
-        "noteZh": "相遇"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_encroach",
@@ -2276,14 +2940,16 @@
       {
         "id": "s_encroach_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to gradually intrude on someone's territory, rights, or time",
         "definitionZh": "侵占；（逐漸）侵犯",
         "usageExplanationZh": "常接 on/upon，如 encroach on someone's privacy，強調逐步、悄悄地侵犯他人的權利或領域。",
-        "examples": [
-          {
-            "en": "The new construction project began to encroach on the protected wetlands.",
-            "zh": "這項新建工程開始侵占受保護的濕地。"
-          }
+        "grammarPatterns": [
+          "encroach on + noun",
+          "encroach upon + noun"
         ],
         "collocations": [
           {
@@ -2294,7 +2960,31 @@
             "text": "encroach upon territory",
             "meaningZh": "侵占領土"
           }
+        ],
+        "examples": [
+          {
+            "en": "The new construction project began to encroach on the protected wetlands.",
+            "zh": "這項新建工程開始侵占受保護的濕地。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "intrude",
+        "noteZh": "侵入"
+      },
+      {
+        "lemma": "infringe",
+        "noteZh": "侵犯權益"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "encroachment",
+        "partOfSpeech": "noun",
+        "meaningZh": "侵占；侵犯"
       }
     ],
     "tags": [
@@ -2308,18 +2998,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "intrude",
-        "noteZh": "侵入"
-      },
-      {
-        "lemma": "infringe",
-        "noteZh": "侵犯權益"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_endeavor",
@@ -2333,14 +3012,14 @@
       {
         "id": "s_endeavor_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to try hard to achieve or complete something",
         "definitionZh": "努力；盡力嘗試",
         "usageExplanationZh": "常接 to do something，如 endeavor to improve，語氣正式，強調認真努力達成目標，較 try 更書面。",
-        "examples": [
-          {
-            "en": "The team endeavored to finish the project ahead of schedule.",
-            "zh": "這個團隊努力提前完成這項計畫。"
-          }
+        "grammarPatterns": [
+          "endeavor to + V"
         ],
         "collocations": [
           {
@@ -2351,20 +3030,15 @@
             "text": "endeavor to improve",
             "meaningZh": "努力改善"
           }
+        ],
+        "examples": [
+          {
+            "en": "The team endeavored to finish the project ahead of schedule.",
+            "zh": "這個團隊努力提前完成這項計畫。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "strive",
@@ -2375,7 +3049,18 @@
         "noteZh": "嘗試"
       }
     ],
-    "antonyms": []
+    "antonyms": [],
+    "tags": [
+      "dictionary",
+      "toefl"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_endemic",
@@ -2389,28 +3074,38 @@
       {
         "id": "s_endemic_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a disease or condition regularly found within a particular area or population",
         "definitionZh": "（地方性）流行病",
         "usageExplanationZh": "醫學用語，指在特定地區或群體中持續存在的疾病，與偶發性的 epidemic 不同。",
+        "grammarPatterns": [
+          "remain an endemic",
+          "an endemic in + noun"
+        ],
+        "collocations": [],
         "examples": [
           {
             "en": "Malaria remains an endemic in several tropical regions.",
             "zh": "瘧疾在幾個熱帶地區仍然是地方性流行病。"
           }
-        ],
-        "collocations": []
+        ]
       },
       {
         "id": "s_endemic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "regularly found in a particular area, population, or field",
         "definitionZh": "（某地區）特有的；地方性的",
         "usageExplanationZh": "常見 endemic species（特有種）、an endemic problem（根深蒂固的問題），強調長期存在且與特定範圍緊密相關。",
-        "examples": [
-          {
-            "en": "This species of bird is endemic to the island and found nowhere else.",
-            "zh": "這種鳥類是這座島嶼的特有種，其他地方都看不到。"
-          }
+        "grammarPatterns": [
+          "be endemic to + noun",
+          "endemic + noun"
         ],
         "collocations": [
           {
@@ -2421,7 +3116,27 @@
             "text": "endemic corruption",
             "meaningZh": "根深蒂固的貪腐"
           }
+        ],
+        "examples": [
+          {
+            "en": "This species of bird is endemic to the island and found nowhere else.",
+            "zh": "這種鳥類是這座島嶼的特有種，其他地方都看不到。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "native",
+        "noteZh": "形容詞，某地原生的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "endemism",
+        "partOfSpeech": "noun",
+        "meaningZh": "（生物）特有性"
       }
     ],
     "tags": [
@@ -2434,14 +3149,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "native",
-        "noteZh": "形容詞，某地原生的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_endless",
@@ -2455,14 +3163,16 @@
       {
         "id": "s_endless_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "having or seeming to have no end; very long or continuous",
         "definitionZh": "無盡的；沒完沒了的",
         "usageExplanationZh": "常修飾 possibilities、supply、wait 等，如 endless possibilities（無限的可能性），強調數量、時間或範圍極大。",
-        "examples": [
-          {
-            "en": "The negotiations seemed to go on for an endless amount of time.",
-            "zh": "這場談判似乎沒完沒了。"
-          }
+        "grammarPatterns": [
+          "an endless + noun",
+          "seem endless"
         ],
         "collocations": [
           {
@@ -2473,20 +3183,15 @@
             "text": "seemingly endless",
             "meaningZh": "似乎沒有盡頭的"
           }
+        ],
+        "examples": [
+          {
+            "en": "The negotiations seemed to go on for an endless amount of time.",
+            "zh": "這場談判似乎沒完沒了。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "infinite",
@@ -2502,7 +3207,30 @@
         "lemma": "finite",
         "noteZh": "有限的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "end",
+        "partOfSpeech": "noun",
+        "meaningZh": "結束；盡頭"
+      },
+      {
+        "lemma": "endlessly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "無止境地"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_endorse",
@@ -2516,14 +3244,16 @@
       {
         "id": "s_endorse_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to declare one's public approval or support of someone or something",
         "definitionZh": "認可；公開支持（背書）",
         "usageExplanationZh": "常見 endorse a candidate/product，指公開表態支持某人、產品或政策，帶正式或商業色彩。",
-        "examples": [
-          {
-            "en": "Several celebrities have endorsed the new environmental campaign.",
-            "zh": "好幾位名人都公開支持了這項新的環保運動。"
-          }
+        "grammarPatterns": [
+          "endorse + noun",
+          "publicly endorse + noun"
         ],
         "collocations": [
           {
@@ -2534,22 +3264,15 @@
             "text": "endorse a product",
             "meaningZh": "為產品背書"
           }
+        ],
+        "examples": [
+          {
+            "en": "Several celebrities have endorsed the new environmental campaign.",
+            "zh": "好幾位名人都公開支持了這項新的環保運動。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "support",
@@ -2565,7 +3288,27 @@
         "lemma": "oppose",
         "noteZh": "反對"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "endorsement",
+        "partOfSpeech": "noun",
+        "meaningZh": "認可；背書"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_endow",
@@ -2579,14 +3322,16 @@
       {
         "id": "s_endow_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to provide someone or something with a quality or ability, or to give a large sum of money to fund an institution",
         "definitionZh": "賦予（特質、能力）；捐贈（大筆資金）",
         "usageExplanationZh": "常見 be endowed with talent（天生具有才能）、endow a scholarship（捐款設立獎學金），依語境涵蓋抽象特質與實質捐款。",
-        "examples": [
-          {
-            "en": "The university was endowed with a generous grant from a wealthy alumnus.",
-            "zh": "這所大學獲得一位富有校友捐贈的一大筆資金。"
-          }
+        "grammarPatterns": [
+          "endow sb/sth with + noun",
+          "be endowed with + noun"
         ],
         "collocations": [
           {
@@ -2597,7 +3342,31 @@
             "text": "endow a scholarship",
             "meaningZh": "捐資設立獎學金"
           }
+        ],
+        "examples": [
+          {
+            "en": "The university was endowed with a generous grant from a wealthy alumnus.",
+            "zh": "這所大學獲得一位富有校友捐贈的一大筆資金。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "bestow",
+        "noteZh": "賦予"
+      },
+      {
+        "lemma": "fund",
+        "noteZh": "資助"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "endowment",
+        "partOfSpeech": "noun",
+        "meaningZh": "捐贈基金；天賦"
       }
     ],
     "tags": [
@@ -2612,18 +3381,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "bestow",
-        "noteZh": "賦予"
-      },
-      {
-        "lemma": "fund",
-        "noteZh": "資助"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_endure",
@@ -2637,14 +3395,16 @@
       {
         "id": "s_endure_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to suffer something difficult or painful patiently, or to continue to exist over a long period",
         "definitionZh": "忍受（痛苦）；持續存在",
         "usageExplanationZh": "可指忍耐艱難處境，如 endure hardship，也可指事物長久留存，如 traditions that endure。",
-        "examples": [
-          {
-            "en": "The prisoners had to endure harsh conditions during their captivity.",
-            "zh": "囚犯們在被囚禁期間必須忍受嚴苛的環境。"
-          }
+        "grammarPatterns": [
+          "endure + noun",
+          "endure for + noun"
         ],
         "collocations": [
           {
@@ -2655,7 +3415,36 @@
             "text": "endure for generations",
             "meaningZh": "延續數代"
           }
+        ],
+        "examples": [
+          {
+            "en": "The prisoners had to endure harsh conditions during their captivity.",
+            "zh": "囚犯們在被囚禁期間必須忍受嚴苛的環境。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "tolerate",
+        "noteZh": "忍受"
+      },
+      {
+        "lemma": "persist",
+        "noteZh": "持續存在"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "endurance",
+        "partOfSpeech": "noun",
+        "meaningZh": "耐力；持久力"
+      },
+      {
+        "lemma": "durable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "耐久的；耐用的"
       }
     ],
     "tags": [
@@ -2669,18 +3458,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "tolerate",
-        "noteZh": "忍受"
-      },
-      {
-        "lemma": "persist",
-        "noteZh": "持續存在"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_enforce",
@@ -2694,14 +3472,16 @@
       {
         "id": "s_enforce_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to compel observance of or compliance with a law, rule, or requirement",
         "definitionZh": "執行；強制實施",
         "usageExplanationZh": "常接 a law/rule/policy，如 enforce regulations，強調確保規則被確實遵守，必要時採取強制手段。",
-        "examples": [
-          {
-            "en": "The city has begun to strictly enforce the new parking regulations.",
-            "zh": "這座城市已開始嚴格執行新的停車法規。"
-          }
+        "grammarPatterns": [
+          "enforce + noun",
+          "strictly enforce + noun"
         ],
         "collocations": [
           {
@@ -2712,7 +3492,37 @@
             "text": "strictly enforce",
             "meaningZh": "嚴格執行"
           }
+        ],
+        "examples": [
+          {
+            "en": "The city has begun to strictly enforce the new parking regulations.",
+            "zh": "這座城市已開始嚴格執行新的停車法規。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "implement",
+        "noteZh": "使規定落實"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "enforcement",
+        "partOfSpeech": "noun",
+        "meaningZh": "執行；強制實施"
+      },
+      {
+        "lemma": "enforceable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可執行的"
+      },
+      {
+        "lemma": "force",
+        "partOfSpeech": "noun",
+        "meaningZh": "力量；強制力"
       }
     ],
     "tags": [
@@ -2725,14 +3535,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "implement",
-        "noteZh": "使規定落實"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_engagement",
@@ -2746,14 +3549,15 @@
       {
         "id": "s_engagement_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a formal agreement to get married, or the state of being involved in an activity",
         "definitionZh": "訂婚；參與；約定",
         "usageExplanationZh": "常見 announce an engagement（宣布訂婚）、customer engagement（顧客參與度），依語境判斷為婚姻承諾或參與程度。",
-        "examples": [
-          {
-            "en": "They announced their engagement at a family dinner.",
-            "zh": "他們在一場家庭聚餐上宣布了訂婚喜訊。"
-          }
+        "grammarPatterns": [
+          "announce one's engagement",
+          "an engagement with + noun"
         ],
         "collocations": [
           {
@@ -2764,7 +3568,36 @@
             "text": "community engagement",
             "meaningZh": "社區參與"
           }
+        ],
+        "examples": [
+          {
+            "en": "They announced their engagement at a family dinner.",
+            "zh": "他們在一場家庭聚餐上宣布了訂婚喜訊。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "betrothal",
+        "noteZh": "正式用語，訂婚"
+      },
+      {
+        "lemma": "involvement",
+        "noteZh": "參與"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "engage",
+        "partOfSpeech": "verb",
+        "meaningZh": "參與；從事；聘用"
+      },
+      {
+        "lemma": "disengage",
+        "partOfSpeech": "verb",
+        "meaningZh": "脫離；使分離"
       }
     ],
     "tags": [
@@ -2777,18 +3610,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "betrothal",
-        "noteZh": "正式用語，訂婚"
-      },
-      {
-        "lemma": "involvement",
-        "noteZh": "參與"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_engrave",
@@ -2802,14 +3624,16 @@
       {
         "id": "s_engrave_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "to cut or carve words or a design onto a hard surface",
         "definitionZh": "雕刻；刻印",
         "usageExplanationZh": "常接 on/with，如 engrave a name on a ring，強調在堅硬表面（金屬、石材）刻上文字或圖案，常見於紀念物品。",
-        "examples": [
-          {
-            "en": "The jeweler engraved their wedding date on the inside of the ring.",
-            "zh": "珠寶商在戒指內側刻上了他們的結婚日期。"
-          }
+        "grammarPatterns": [
+          "engrave sth on + noun",
+          "engrave sth with + noun"
         ],
         "collocations": [
           {
@@ -2820,7 +3644,31 @@
             "text": "be engraved with",
             "meaningZh": "刻有……"
           }
+        ],
+        "examples": [
+          {
+            "en": "The jeweler engraved their wedding date on the inside of the ring.",
+            "zh": "珠寶商在戒指內側刻上了他們的結婚日期。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "inscribe",
+        "noteZh": "刻寫"
+      },
+      {
+        "lemma": "carve",
+        "noteZh": "雕刻"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "engraver",
+        "partOfSpeech": "noun",
+        "meaningZh": "雕刻師"
       }
     ],
     "tags": [
@@ -2835,18 +3683,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "inscribe",
-        "noteZh": "刻寫"
-      },
-      {
-        "lemma": "carve",
-        "noteZh": "雕刻"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_engross",
@@ -2860,14 +3697,16 @@
       {
         "id": "s_engross_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to absorb all of someone's attention or interest completely",
         "definitionZh": "使全神貫注；使入迷",
         "usageExplanationZh": "常見被動語態 be engrossed in，如 engrossed in a book，強調某人專注到幾乎忽略周遭一切的程度。",
-        "examples": [
-          {
-            "en": "She was so engrossed in the novel that she didn't notice the time.",
-            "zh": "她全神貫注地讀著這本小說，完全沒注意到時間。"
-          }
+        "grammarPatterns": [
+          "be engrossed in + noun",
+          "engross sb"
         ],
         "collocations": [
           {
@@ -2878,22 +3717,15 @@
             "text": "completely engross someone",
             "meaningZh": "完全吸引某人的注意力"
           }
+        ],
+        "examples": [
+          {
+            "en": "She was so engrossed in the novel that she didn't notice the time.",
+            "zh": "她全神貫注地讀著這本小說，完全沒注意到時間。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "absorb",
@@ -2909,6 +3741,19 @@
         "lemma": "bore",
         "noteZh": "使無聊"
       }
-    ]
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   }
 ]

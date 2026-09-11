@@ -6,8 +6,8 @@
  *
  * The patch is an object keyed by entry id; each value holds the fields to add.
  * Entry-level fields (`synonyms`, `antonyms`, `commonlyConfusedWith`, …) attach
- * to the entry; sense-level fields (`usageNotes`, `commonMistakes`) attach to
- * the first sense, or to the sense named by an accompanying `senseId`.
+ * to the entry; sense-level fields (`usageNotes`) attach to the first sense, or
+ * to the sense named by an accompanying `senseId`.
  *
  * The script refuses to overwrite anything that already exists and exits
  * non-zero if it had to skip something, so it can be re-run safely and cannot
@@ -19,7 +19,6 @@ import { join } from 'node:path';
 interface Sense {
   id: string;
   usageNotes?: unknown;
-  commonMistakes?: unknown;
   [key: string]: unknown;
 }
 
@@ -31,10 +30,24 @@ interface Entry {
 
 type Patch = Record<string, Record<string, unknown> & { senseId?: string }>;
 
+// Keep a stable key order so the JSON stays readable and diffs stay small.
+// These also enumerate the fields a patch may target: anything else is a typo
+// or a field the domain has since dropped, and writing it would leave junk in
+// the chunk that the schemas quietly strip on load.
+const ENTRY_ORDER = [
+  'id', 'lemma', 'slug', 'cefr', 'pronunciation', 'forms', 'senses',
+  'synonyms', 'antonyms', 'commonlyConfusedWith', 'wordFamily', 'tags',
+];
+const SENSE_ORDER = [
+  'id', 'partOfSpeech', 'register', 'definitionEn', 'definitionZh',
+  'usageExplanationZh', 'grammarPatterns', 'collocations', 'examples',
+  'usageNotes',
+];
+
 const VOCAB = 'src/data/vocabulary';
 const patchPath = process.argv[2];
 if (!patchPath) {
-  console.error('usage: node scripts/apply-enrichment.mjs <patch.json>');
+  console.error('usage: npm run merge:vocab -- <patch.json>');
   process.exit(2);
 }
 const patch = JSON.parse(readFileSync(patchPath, 'utf8')) as Patch;
@@ -67,7 +80,13 @@ for (const [id, fields] of Object.entries(patch)) {
   const { file, entry } = found;
 
   for (const [field, value] of Object.entries(fields)) {
-    if (field === 'commonMistakes' || field === 'usageNotes') {
+    if (field === 'senseId') continue;
+    if (field !== 'usageNotes' && !ENTRY_ORDER.includes(field)) {
+      problems.push(`${id}: unknown field "${field}"`);
+      continue;
+    }
+
+    if (field === 'usageNotes') {
       // Sense-level fields attach to the first sense unless a senseId is given.
       const { senseId } = fields;
       const sense = senseId
@@ -87,8 +106,6 @@ for (const [id, fields] of Object.entries(patch)) {
       continue;
     }
 
-    if (field === 'senseId') continue;
-
     if (entry[field]) {
       problems.push(`${id}: ${field} already present — refusing to overwrite`);
       continue;
@@ -98,17 +115,6 @@ for (const [id, fields] of Object.entries(patch)) {
     touched.add(file);
   }
 }
-
-// Keep a stable key order so the JSON stays readable and diffs stay small.
-const ENTRY_ORDER = [
-  'id', 'lemma', 'slug', 'cefr', 'pronunciation', 'forms', 'senses',
-  'synonyms', 'antonyms', 'commonlyConfusedWith', 'wordFamily', 'tags',
-];
-const SENSE_ORDER = [
-  'id', 'partOfSpeech', 'register', 'definitionEn', 'definitionZh',
-  'usageExplanationZh', 'grammarPatterns', 'collocations', 'examples',
-  'usageNotes', 'commonMistakes',
-];
 
 function reorder<T extends Record<string, unknown>>(object: T, order: string[]): T {
   const out: Record<string, unknown> = {};

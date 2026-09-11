@@ -11,21 +11,59 @@
       {
         "id": "s_reliable_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "able to be trusted to do what is expected consistently",
         "definitionZh": "可靠的；可信賴的",
         "usageExplanationZh": "常修飾 source、person、product，強調始終如一、值得信任的特質。",
-        "examples": [
-          {
-            "en": "She is a reliable colleague who always meets deadlines.",
-            "zh": "她是個可靠的同事，總是能準時完成工作。"
-          }
+        "grammarPatterns": [
+          "a reliable + noun",
+          "be reliable",
+          "a reliable source of + noun"
         ],
         "collocations": [
           {
             "text": "a reliable source",
             "meaningZh": "可靠的消息來源"
           }
+        ],
+        "examples": [
+          {
+            "en": "She is a reliable colleague who always meets deadlines.",
+            "zh": "她是個可靠的同事，總是能準時完成工作。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "dependable",
+        "noteZh": "指可倚賴、能穩定完成事情的。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "unreliable",
+        "noteZh": "指不可靠的。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "reliability",
+        "partOfSpeech": "noun",
+        "meaningZh": "可靠性"
+      },
+      {
+        "lemma": "rely",
+        "partOfSpeech": "verb",
+        "meaningZh": "依賴"
+      },
+      {
+        "lemma": "unreliable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不可靠的"
       }
     ],
     "tags": [
@@ -39,19 +77,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "dependable",
-        "noteZh": "指可倚賴、能穩定完成事情的。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "unreliable",
-        "noteZh": "指不可靠的。"
-      }
-    ]
+    }
   },
   {
     "id": "w_reliance",
@@ -65,21 +91,54 @@
       {
         "id": "s_reliance_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "dependence on or trust in someone or something",
         "definitionZh": "依賴；信賴",
         "usageExplanationZh": "常見 reliance on，強調對某人事物的依靠程度，語氣較 dependence 正式。",
-        "examples": [
-          {
-            "en": "The company's heavy reliance on a single supplier is risky.",
-            "zh": "這家公司過度依賴單一供應商是有風險的。"
-          }
+        "grammarPatterns": [
+          "reliance on + noun",
+          "heavy reliance on + noun",
+          "place reliance on + noun"
         ],
         "collocations": [
           {
             "text": "reliance on technology",
             "meaningZh": "對科技的依賴"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company's heavy reliance on a single supplier is risky.",
+            "zh": "這家公司過度依賴單一供應商是有風險的。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "dependence",
+        "noteZh": "指依靠某人或事物。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "independence",
+        "noteZh": "指不依賴他人的狀態。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "rely",
+        "partOfSpeech": "verb",
+        "meaningZh": "依賴；信賴"
+      },
+      {
+        "lemma": "reliant",
+        "partOfSpeech": "adjective",
+        "meaningZh": "依賴的"
       }
     ],
     "tags": [
@@ -93,19 +152,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "dependence",
-        "noteZh": "指依靠某人或事物。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "independence",
-        "noteZh": "指不依賴他人的狀態。"
-      }
-    ]
+    }
   },
   {
     "id": "w_relieve",
@@ -119,14 +166,16 @@
       {
         "id": "s_relieve_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to make pain, distress, or a burden less severe",
         "definitionZh": "減輕；緩解",
         "usageExplanationZh": "常接 pain、stress、pressure，如 relieve symptoms，強調使負面感受或負擔減少。",
-        "examples": [
-          {
-            "en": "The medicine helped relieve her headache.",
-            "zh": "這種藥物幫助緩解了她的頭痛。"
-          }
+        "grammarPatterns": [
+          "relieve + noun",
+          "help relieve + noun",
+          "relieve the pain of + noun"
         ],
         "collocations": [
           {
@@ -137,7 +186,32 @@
             "text": "relieve someone of a burden",
             "meaningZh": "解除某人的負擔"
           }
+        ],
+        "examples": [
+          {
+            "en": "The medicine helped relieve her headache.",
+            "zh": "這種藥物幫助緩解了她的頭痛。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "alleviate",
+        "noteZh": "指減輕痛苦或負擔。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "aggravate",
+        "noteZh": "指使痛苦或問題加劇。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "relief",
+        "partOfSpeech": "noun",
+        "meaningZh": "緩解；寬慰"
       }
     ],
     "tags": [
@@ -150,19 +224,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "alleviate",
-        "noteZh": "指減輕痛苦或負擔。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "aggravate",
-        "noteZh": "指使痛苦或問題加劇。"
-      }
-    ]
+    }
   },
   {
     "id": "w_relinquish",
@@ -176,21 +238,48 @@
       {
         "id": "s_relinquish_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to give up a possession, right, or control, especially unwillingly",
         "definitionZh": "放棄；交出",
         "usageExplanationZh": "正式用語，常接 power、control、claim，強調不情願地放棄或交出。",
-        "examples": [
-          {
-            "en": "The dictator was forced to relinquish power after the coup.",
-            "zh": "這位獨裁者在政變後被迫交出權力。"
-          }
+        "grammarPatterns": [
+          "relinquish + noun",
+          "relinquish control of + noun",
+          "relinquish sth to + sb"
         ],
         "collocations": [
           {
             "text": "relinquish control",
             "meaningZh": "交出控制權"
           }
+        ],
+        "examples": [
+          {
+            "en": "The dictator was forced to relinquish power after the coup.",
+            "zh": "這位獨裁者在政變後被迫交出權力。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "surrender",
+        "noteZh": "指交出權利、控制或財物。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "retain",
+        "noteZh": "指保留而不放棄。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "relinquishment",
+        "partOfSpeech": "noun",
+        "meaningZh": "放棄；讓與"
       }
     ],
     "tags": [
@@ -205,19 +294,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "surrender",
-        "noteZh": "指交出權利、控制或財物。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "retain",
-        "noteZh": "指保留而不放棄。"
-      }
-    ]
+    }
   },
   {
     "id": "w_reluctant",
@@ -231,21 +308,52 @@
       {
         "id": "s_reluctant_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "unwilling or hesitant to do something",
         "definitionZh": "不情願的；勉強的",
         "usageExplanationZh": "常見 reluctant to do sth，強調心裡抗拒但可能仍會去做。",
-        "examples": [
-          {
-            "en": "He was reluctant to admit his mistake.",
-            "zh": "他不情願承認自己的錯誤。"
-          }
+        "grammarPatterns": [
+          "be reluctant to + V",
+          "a reluctant + noun"
         ],
         "collocations": [
           {
             "text": "reluctant to agree",
             "meaningZh": "不願同意"
           }
+        ],
+        "examples": [
+          {
+            "en": "He was reluctant to admit his mistake.",
+            "zh": "他不情願承認自己的錯誤。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "unwilling",
+        "noteZh": "指不願意的。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "willing",
+        "noteZh": "指願意的。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "reluctance",
+        "partOfSpeech": "noun",
+        "meaningZh": "不情願；勉強"
+      },
+      {
+        "lemma": "reluctantly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "不情願地"
       }
     ],
     "tags": [
@@ -259,19 +367,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "unwilling",
-        "noteZh": "指不願意的。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "willing",
-        "noteZh": "指願意的。"
-      }
-    ]
+    }
   },
   {
     "id": "w_rely",
@@ -285,21 +381,57 @@
       {
         "id": "s_rely_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to depend on someone or something with trust or confidence",
         "definitionZh": "依賴；信賴",
         "usageExplanationZh": "常見 rely on/upon，強調在需要時可以信任、仰賴的對象。",
-        "examples": [
-          {
-            "en": "You can always rely on her to tell the truth.",
-            "zh": "你永遠可以信賴她會說實話。"
-          }
+        "grammarPatterns": [
+          "rely on + sb",
+          "rely on sb to + V",
+          "rely on sb for + noun"
         ],
         "collocations": [
           {
             "text": "rely on someone",
             "meaningZh": "依靠某人"
           }
+        ],
+        "examples": [
+          {
+            "en": "You can always rely on her to tell the truth.",
+            "zh": "你永遠可以信賴她會說實話。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "depend",
+        "noteZh": "指依靠，通常接 on。"
+      },
+      {
+        "lemma": "count on",
+        "noteZh": "指信賴並指望某人。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "reliance",
+        "partOfSpeech": "noun",
+        "meaningZh": "依賴"
+      },
+      {
+        "lemma": "reliable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可靠的"
+      },
+      {
+        "lemma": "reliant",
+        "partOfSpeech": "adjective",
+        "meaningZh": "依賴的"
       }
     ],
     "tags": [
@@ -313,18 +445,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "depend",
-        "noteZh": "指依靠，通常接 on。"
-      },
-      {
-        "lemma": "count on",
-        "noteZh": "指信賴並指望某人。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_remainder",
@@ -338,21 +459,47 @@
       {
         "id": "s_remainder_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the part of something that is left after the rest has been used, removed, or dealt with",
         "definitionZh": "剩餘部分；餘數",
         "usageExplanationZh": "常見 spend the remainder of the day，數學語境則指除法後的餘數。",
-        "examples": [
-          {
-            "en": "She spent the remainder of her vacation relaxing at home.",
-            "zh": "她把剩下的假期都花在家裡放鬆休息。"
-          }
+        "grammarPatterns": [
+          "the remainder of + noun",
+          "for the remainder of + noun"
         ],
         "collocations": [
           {
             "text": "the remainder of the day",
             "meaningZh": "當天剩餘的時間"
           }
+        ],
+        "examples": [
+          {
+            "en": "She spent the remainder of her vacation relaxing at home.",
+            "zh": "她把剩下的假期都花在家裡放鬆休息。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "rest",
+        "noteZh": "指其餘留下的部分。"
+      },
+      {
+        "lemma": "residue",
+        "noteZh": "指去除其他部分後的殘留物。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "remain",
+        "partOfSpeech": "verb",
+        "meaningZh": "保持；剩下"
       }
     ],
     "tags": [
@@ -366,18 +513,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "rest",
-        "noteZh": "指其餘留下的部分。"
-      },
-      {
-        "lemma": "residue",
-        "noteZh": "指去除其他部分後的殘留物。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_remark",
@@ -391,21 +527,48 @@
       {
         "id": "s_remark_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a comment expressing an opinion or observation",
         "definitionZh": "評論；言論",
         "usageExplanationZh": "常見 make a remark about，語氣中性，可正面或負面，強調簡短的意見表達。",
-        "examples": [
-          {
-            "en": "He made a sarcastic remark about her cooking.",
-            "zh": "他對她的廚藝發表了一句諷刺的評論。"
-          }
+        "grammarPatterns": [
+          "a remark about + noun",
+          "make a remark",
+          "a + adjective + remark"
         ],
         "collocations": [
           {
             "text": "make a remark",
             "meaningZh": "發表評論"
           }
+        ],
+        "examples": [
+          {
+            "en": "He made a sarcastic remark about her cooking.",
+            "zh": "他對她的廚藝發表了一句諷刺的評論。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "comment",
+        "noteZh": "指表達觀察或意見的話。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "remarkable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "卓越的；不凡的"
+      },
+      {
+        "lemma": "remarkably",
+        "partOfSpeech": "adverb",
+        "meaningZh": "顯著地"
       }
     ],
     "tags": [
@@ -419,14 +582,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "comment",
-        "noteZh": "指表達觀察或意見的話。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_remarkable",
@@ -440,21 +596,58 @@
       {
         "id": "s_remarkable_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "worthy of attention because unusual or impressive",
         "definitionZh": "卓越的；不凡的",
         "usageExplanationZh": "常修飾 achievement、talent，強調事物令人印象深刻的程度。",
-        "examples": [
-          {
-            "en": "She made a remarkable recovery after the surgery.",
-            "zh": "她在手術後展現出驚人的康復力。"
-          }
+        "grammarPatterns": [
+          "a remarkable + noun",
+          "it is remarkable that + clause",
+          "remarkable for + noun"
         ],
         "collocations": [
           {
             "text": "a remarkable achievement",
             "meaningZh": "卓越的成就"
           }
+        ],
+        "examples": [
+          {
+            "en": "She made a remarkable recovery after the surgery.",
+            "zh": "她在手術後展現出驚人的康復力。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "extraordinary",
+        "noteZh": "指非凡而值得注意。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "ordinary",
+        "noteZh": "指平凡的。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "remark",
+        "partOfSpeech": "noun",
+        "meaningZh": "評論；言論"
+      },
+      {
+        "lemma": "remarkably",
+        "partOfSpeech": "adverb",
+        "meaningZh": "顯著地"
+      },
+      {
+        "lemma": "unremarkable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "平凡的；不起眼的"
       }
     ],
     "tags": [
@@ -468,19 +661,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "extraordinary",
-        "noteZh": "指非凡而值得注意。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "ordinary",
-        "noteZh": "指平凡的。"
-      }
-    ]
+    }
   },
   {
     "id": "w_remarkably",
@@ -494,21 +675,51 @@
       {
         "id": "s_remarkably_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "in a way that is surprising or worthy of attention",
         "definitionZh": "顯著地；出乎意料地",
         "usageExplanationZh": "常修飾形容詞，如 remarkably calm，強調程度超乎預期。",
-        "examples": [
-          {
-            "en": "Despite the crisis, she remained remarkably calm.",
-            "zh": "儘管危機當前，她卻異常地冷靜。"
-          }
+        "grammarPatterns": [
+          "remarkably + adjective",
+          "remarkably well"
         ],
         "collocations": [
           {
             "text": "remarkably well",
             "meaningZh": "好得出奇"
           }
+        ],
+        "examples": [
+          {
+            "en": "Despite the crisis, she remained remarkably calm.",
+            "zh": "儘管危機當前，她卻異常地冷靜。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "extraordinarily",
+        "noteZh": "指異乎尋常地。"
+      },
+      {
+        "lemma": "surprisingly",
+        "noteZh": "強調出乎意料。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "remarkable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "卓越的；不凡的"
+      },
+      {
+        "lemma": "remark",
+        "partOfSpeech": "noun",
+        "meaningZh": "評論"
       }
     ],
     "tags": [
@@ -521,18 +732,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "extraordinarily",
-        "noteZh": "指異乎尋常地。"
-      },
-      {
-        "lemma": "surprisingly",
-        "noteZh": "強調出乎意料。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_remedy",
@@ -546,14 +746,16 @@
       {
         "id": "s_remedy_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a way of solving a problem, or a medicine or treatment for an illness",
         "definitionZh": "解決辦法；藥物；治療法",
         "usageExplanationZh": "兩義：抽象問題的解方（remedy for inflation）；具體病痛的藥物（home remedy）。",
-        "examples": [
-          {
-            "en": "Herbal tea is a popular home remedy for a sore throat.",
-            "zh": "草本茶是治療喉嚨痛常見的居家療法。"
-          }
+        "grammarPatterns": [
+          "a remedy for + noun",
+          "a home remedy",
+          "seek a remedy"
         ],
         "collocations": [
           {
@@ -564,7 +766,31 @@
             "text": "a remedy for the problem",
             "meaningZh": "問題的解決辦法"
           }
+        ],
+        "examples": [
+          {
+            "en": "Herbal tea is a popular home remedy for a sore throat.",
+            "zh": "草本茶是治療喉嚨痛常見的居家療法。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "solution",
+        "noteZh": "對應問題的解決辦法。"
+      },
+      {
+        "lemma": "treatment",
+        "noteZh": "對應疾病的治療方法。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "remedial",
+        "partOfSpeech": "adjective",
+        "meaningZh": "補救的；補強的"
       }
     ],
     "tags": [
@@ -578,18 +804,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "solution",
-        "noteZh": "對應問題的解決辦法。"
-      },
-      {
-        "lemma": "treatment",
-        "noteZh": "對應疾病的治療方法。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_reminder",
@@ -603,21 +818,43 @@
       {
         "id": "s_reminder_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "something that causes someone to remember something",
         "definitionZh": "提醒；提醒物",
         "usageExplanationZh": "常見 a gentle reminder、send a reminder，指用來喚起記憶的訊息或物品。",
-        "examples": [
-          {
-            "en": "I set an alarm as a reminder to take my medicine.",
-            "zh": "我設了鬧鐘來提醒自己吃藥。"
-          }
+        "grammarPatterns": [
+          "a reminder to + V",
+          "a reminder of + noun",
+          "serve as a reminder that + clause"
         ],
         "collocations": [
           {
             "text": "a gentle reminder",
             "meaningZh": "溫馨提醒"
           }
+        ],
+        "examples": [
+          {
+            "en": "I set an alarm as a reminder to take my medicine.",
+            "zh": "我設了鬧鐘來提醒自己吃藥。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "prompt",
+        "noteZh": "指促使人記起或採取行動的提示。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "remind",
+        "partOfSpeech": "verb",
+        "meaningZh": "提醒"
       }
     ],
     "tags": [
@@ -631,14 +868,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "prompt",
-        "noteZh": "指促使人記起或採取行動的提示。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_reminisce",
@@ -652,21 +882,48 @@
       {
         "id": "s_reminisce_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "literary"
+        ],
         "definitionEn": "to talk or think fondly about past experiences",
         "definitionZh": "追憶；懷舊",
         "usageExplanationZh": "常見 reminisce about，語氣帶懷舊情感，強調回想並談論過往的美好時光。",
-        "examples": [
-          {
-            "en": "The old friends spent the evening reminiscing about college days.",
-            "zh": "這群老朋友花了整晚追憶大學時光。"
-          }
+        "grammarPatterns": [
+          "reminisce about + noun",
+          "reminisce with + sb"
         ],
         "collocations": [
           {
             "text": "reminisce about the past",
             "meaningZh": "追憶往事"
           }
+        ],
+        "examples": [
+          {
+            "en": "The old friends spent the evening reminiscing about college days.",
+            "zh": "這群老朋友花了整晚追憶大學時光。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "recollect",
+        "noteZh": "指回想過去，不一定帶懷舊感。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "reminiscence",
+        "partOfSpeech": "noun",
+        "meaningZh": "回憶；往事"
+      },
+      {
+        "lemma": "reminiscent",
+        "partOfSpeech": "adjective",
+        "meaningZh": "使人想起的"
       }
     ],
     "tags": [
@@ -679,14 +936,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "recollect",
-        "noteZh": "指回想過去，不一定帶懷舊感。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_remission",
@@ -700,21 +950,49 @@
       {
         "id": "s_remission_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "formal"
+        ],
         "definitionEn": "a period during which the symptoms of a disease are reduced or disappear",
         "definitionZh": "（病情的）緩解",
         "usageExplanationZh": "醫學用語，常見 cancer in remission，指疾病症狀暫時減輕或消失的狀態。",
-        "examples": [
-          {
-            "en": "Her cancer has been in remission for three years.",
-            "zh": "她的癌症已經緩解三年了。"
-          }
+        "grammarPatterns": [
+          "be in remission",
+          "go into remission",
+          "a period of remission"
         ],
         "collocations": [
           {
             "text": "in remission",
             "meaningZh": "病情處於緩解期"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her cancer has been in remission for three years.",
+            "zh": "她的癌症已經緩解三年了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "abatement",
+        "noteZh": "指症狀減輕；不一定代表疾病完全消失。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "relapse",
+        "noteZh": "指病情緩解後復發。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "remit",
+        "partOfSpeech": "verb",
+        "meaningZh": "匯款；免除"
       }
     ],
     "tags": [
@@ -727,19 +1005,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "abatement",
-        "noteZh": "指症狀減輕；不一定代表疾病完全消失。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "relapse",
-        "noteZh": "指病情緩解後復發。"
-      }
-    ]
+    }
   },
   {
     "id": "w_remnant",
@@ -753,23 +1019,42 @@
       {
         "id": "s_remnant_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "a small remaining part of something that once was larger",
         "definitionZh": "殘餘；剩餘部分",
         "usageExplanationZh": "常見 remnants of + N，指某事物消失後留下的一小部分，如 remnants of an empire。",
-        "examples": [
-          {
-            "en": "The old stone wall is a remnant of the ancient fortress.",
-            "zh": "這道古老的石牆是這座古代堡壘的殘跡。"
-          }
+        "grammarPatterns": [
+          "a remnant of + noun",
+          "the remnants of + noun"
         ],
         "collocations": [
           {
             "text": "remnants of the past",
             "meaningZh": "過去的殘跡"
           }
+        ],
+        "examples": [
+          {
+            "en": "The old stone wall is a remnant of the ancient fortress.",
+            "zh": "這道古老的石牆是這座古代堡壘的殘跡。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "remainder",
+        "noteZh": "指剩餘部分。"
+      },
+      {
+        "lemma": "vestige",
+        "noteZh": "指昔日事物留下的殘跡。"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -782,18 +1067,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "remainder",
-        "noteZh": "指剩餘部分。"
-      },
-      {
-        "lemma": "vestige",
-        "noteZh": "指昔日事物留下的殘跡。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_remote",
@@ -807,14 +1081,16 @@
       {
         "id": "s_remote_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "far away in distance, or very unlikely to happen",
         "definitionZh": "遙遠的；渺茫的",
         "usageExplanationZh": "常見 remote village（偏遠村莊）、remote possibility（渺茫的可能性），依語境有具體或抽象意涵。",
-        "examples": [
-          {
-            "en": "They live in a remote village with no internet access.",
-            "zh": "他們住在一個沒有網路的偏遠村莊。"
-          }
+        "grammarPatterns": [
+          "a remote + noun",
+          "a remote possibility of + noun",
+          "remote from + noun"
         ],
         "collocations": [
           {
@@ -825,20 +1101,15 @@
             "text": "a remote possibility",
             "meaningZh": "極小的可能性"
           }
+        ],
+        "examples": [
+          {
+            "en": "They live in a remote village with no internet access.",
+            "zh": "他們住在一個沒有網路的偏遠村莊。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "distant",
@@ -858,7 +1129,30 @@
         "lemma": "likely",
         "noteZh": "指可能性高的。"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "remotely",
+        "partOfSpeech": "adverb",
+        "meaningZh": "遙遠地；絲毫"
+      },
+      {
+        "lemma": "remoteness",
+        "partOfSpeech": "noun",
+        "meaningZh": "偏遠；疏離"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_renaissance",
@@ -872,23 +1166,39 @@
       {
         "id": "s_renaissance_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "a revival of interest, activity, or vitality in something, or (capitalized) the historical period of cultural rebirth in Europe",
         "definitionZh": "復興；文藝復興",
         "usageExplanationZh": "大寫時特指歐洲十四至十七世紀的文藝復興運動；小寫可泛指任何領域的重新興盛。",
-        "examples": [
-          {
-            "en": "The city experienced a cultural renaissance in the 1990s.",
-            "zh": "這座城市在一九九〇年代經歷了一場文化復興。"
-          }
+        "grammarPatterns": [
+          "a renaissance in + noun",
+          "undergo a renaissance",
+          "a cultural renaissance"
         ],
         "collocations": [
           {
             "text": "a cultural renaissance",
             "meaningZh": "文化復興"
           }
+        ],
+        "examples": [
+          {
+            "en": "The city experienced a cultural renaissance in the 1990s.",
+            "zh": "這座城市在一九九〇年代經歷了一場文化復興。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "revival",
+        "noteZh": "指活動或文化再次興盛。"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -900,14 +1210,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "revival",
-        "noteZh": "指活動或文化再次興盛。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_render",
@@ -921,21 +1224,44 @@
       {
         "id": "s_render_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to cause something to be in a particular state or condition",
         "definitionZh": "使變成；致使",
         "usageExplanationZh": "常接受詞+形容詞，如 render useless、render helpless，強調造成某種狀態的結果。",
-        "examples": [
-          {
-            "en": "The injury rendered him unable to walk for weeks.",
-            "zh": "這次受傷使他有好幾週無法行走。"
-          }
+        "grammarPatterns": [
+          "render sb + adjective",
+          "render sth + adjective",
+          "render sb unable to + V"
         ],
         "collocations": [
           {
             "text": "render something useless",
             "meaningZh": "使某物失去作用"
           }
+        ],
+        "examples": [
+          {
+            "en": "The injury rendered him unable to walk for weeks.",
+            "zh": "這次受傷使他有好幾週無法行走。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "make",
+        "noteZh": "對應使某事物變成特定狀態。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "rendition",
+        "partOfSpeech": "noun",
+        "meaningZh": "演繹；翻譯版本"
       }
     ],
     "tags": [
@@ -950,14 +1276,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "make",
-        "noteZh": "對應使某事物變成特定狀態。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_rendezvous",
@@ -971,23 +1290,43 @@
       {
         "id": "s_rendezvous_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "a meeting arranged at a particular time and place, or the place itself",
         "definitionZh": "約會；會面地點",
         "usageExplanationZh": "常帶浪漫或秘密色彩，如 a secret rendezvous；也可作動詞 rendezvous with sb。",
-        "examples": [
-          {
-            "en": "The spies arranged a rendezvous at the old train station.",
-            "zh": "這些間諜安排在舊火車站會面。"
-          }
+        "grammarPatterns": [
+          "arrange a rendezvous",
+          "a rendezvous with + sb",
+          "a rendezvous at + noun"
         ],
         "collocations": [
           {
             "text": "arrange a rendezvous",
             "meaningZh": "安排會面"
           }
+        ],
+        "examples": [
+          {
+            "en": "The spies arranged a rendezvous at the old train station.",
+            "zh": "這些間諜安排在舊火車站會面。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "meeting",
+        "noteZh": "指事先約定的會面。"
+      },
+      {
+        "lemma": "meeting place",
+        "noteZh": "對應約定的會面地點。"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -999,18 +1338,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "meeting",
-        "noteZh": "指事先約定的會面。"
-      },
-      {
-        "lemma": "meeting place",
-        "noteZh": "對應約定的會面地點。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_renege",
@@ -1024,21 +1352,41 @@
       {
         "id": "s_renege_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to fail to keep a promise or agreement",
         "definitionZh": "違背（承諾）；食言",
         "usageExplanationZh": "常見 renege on a deal/promise，語氣帶負面評價，強調不遵守先前的承諾。",
-        "examples": [
-          {
-            "en": "He reneged on his promise to help with the project.",
-            "zh": "他違背了要協助這項計畫的承諾。"
-          }
+        "grammarPatterns": [
+          "renege on + noun",
+          "renege on a promise to + V"
         ],
         "collocations": [
           {
             "text": "renege on a promise",
             "meaningZh": "違背承諾"
           }
+        ],
+        "examples": [
+          {
+            "en": "He reneged on his promise to help with the project.",
+            "zh": "他違背了要協助這項計畫的承諾。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "go back on",
+        "noteZh": "指違背承諾或協議。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "honor",
+        "noteZh": "指履行承諾或協議。"
       }
     ],
     "tags": [
@@ -1051,19 +1399,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "go back on",
-        "noteZh": "指違背承諾或協議。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "honor",
-        "noteZh": "指履行承諾或協議。"
-      }
-    ]
+    }
   },
   {
     "id": "w_renew",
@@ -1077,14 +1413,17 @@
       {
         "id": "s_renew_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "to extend the period of validity of something, or to start something again with fresh energy",
         "definitionZh": "更新；重新開始",
         "usageExplanationZh": "常見 renew a contract/passport；也可指抽象事物的重新展開，如 renew one's efforts。",
-        "examples": [
-          {
-            "en": "Remember to renew your passport before it expires.",
-            "zh": "記得在護照到期前辦理更新。"
-          }
+        "grammarPatterns": [
+          "renew + noun",
+          "renew a contract",
+          "renew one's efforts to + V"
         ],
         "collocations": [
           {
@@ -1095,7 +1434,36 @@
             "text": "renew one's efforts",
             "meaningZh": "重新努力"
           }
+        ],
+        "examples": [
+          {
+            "en": "Remember to renew your passport before it expires.",
+            "zh": "記得在護照到期前辦理更新。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "extend",
+        "noteZh": "對應延長有效期限。"
+      },
+      {
+        "lemma": "resume",
+        "noteZh": "對應重新開始已中斷的活動。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "renewal",
+        "partOfSpeech": "noun",
+        "meaningZh": "更新；續約"
+      },
+      {
+        "lemma": "renewable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可再生的；可續約的"
       }
     ],
     "tags": [
@@ -1108,18 +1476,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "extend",
-        "noteZh": "對應延長有效期限。"
-      },
-      {
-        "lemma": "resume",
-        "noteZh": "對應重新開始已中斷的活動。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_renewal",
@@ -1133,14 +1490,17 @@
       {
         "id": "s_renewal_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "the act of extending the validity of something, or the process of starting something again",
         "definitionZh": "更新；復興",
         "usageExplanationZh": "常見 contract renewal、urban renewal（都市更新），指延續有效期或重新振興。",
-        "examples": [
-          {
-            "en": "The lease renewal will take effect next month.",
-            "zh": "這份租約的更新將於下個月生效。"
-          }
+        "grammarPatterns": [
+          "the renewal of + noun",
+          "a lease renewal",
+          "be up for renewal"
         ],
         "collocations": [
           {
@@ -1151,7 +1511,36 @@
             "text": "urban renewal",
             "meaningZh": "都市更新"
           }
+        ],
+        "examples": [
+          {
+            "en": "The lease renewal will take effect next month.",
+            "zh": "這份租約的更新將於下個月生效。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "extension",
+        "noteZh": "對應延長有效期限。"
+      },
+      {
+        "lemma": "revival",
+        "noteZh": "對應重新興盛。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "renew",
+        "partOfSpeech": "verb",
+        "meaningZh": "更新；續約"
+      },
+      {
+        "lemma": "renewable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可再生的"
       }
     ],
     "tags": [
@@ -1165,18 +1554,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "extension",
-        "noteZh": "對應延長有效期限。"
-      },
-      {
-        "lemma": "revival",
-        "noteZh": "對應重新興盛。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_renounce",
@@ -1190,35 +1568,30 @@
       {
         "id": "s_renounce_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to formally give up a title, right, or belief",
         "definitionZh": "正式放棄；宣布放棄",
         "usageExplanationZh": "正式用語，常接 throne、claim、belief，強調公開、正式地放棄某項權利或立場。",
-        "examples": [
-          {
-            "en": "He renounced his citizenship to live abroad permanently.",
-            "zh": "他放棄了國籍以便永久定居國外。"
-          }
+        "grammarPatterns": [
+          "renounce + noun",
+          "renounce one's claim to + noun"
         ],
         "collocations": [
           {
             "text": "renounce one's citizenship",
             "meaningZh": "放棄國籍"
           }
+        ],
+        "examples": [
+          {
+            "en": "He renounced his citizenship to live abroad permanently.",
+            "zh": "他放棄了國籍以便永久定居國外。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "relinquish",
@@ -1234,7 +1607,26 @@
         "lemma": "claim",
         "noteZh": "指主張取得權利，與放棄權利相對。"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "renunciation",
+        "partOfSpeech": "noun",
+        "meaningZh": "放棄；棄絕"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_renovate",
@@ -1248,21 +1640,44 @@
       {
         "id": "s_renovate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "to repair and improve something, especially an old building",
         "definitionZh": "翻新；整修",
         "usageExplanationZh": "常見 renovate a house/kitchen，指對建築物進行修繕以恢復或提升其狀態。",
-        "examples": [
-          {
-            "en": "They spent a year renovating the old farmhouse.",
-            "zh": "他們花了一年時間翻新這棟老舊的農舍。"
-          }
+        "grammarPatterns": [
+          "renovate + noun",
+          "renovate a building",
+          "be fully renovated"
         ],
         "collocations": [
           {
             "text": "renovate a house",
             "meaningZh": "整修房屋"
           }
+        ],
+        "examples": [
+          {
+            "en": "They spent a year renovating the old farmhouse.",
+            "zh": "他們花了一年時間翻新這棟老舊的農舍。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "refurbish",
+        "noteZh": "指翻修舊建築或設備。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "renovation",
+        "partOfSpeech": "noun",
+        "meaningZh": "翻新；整修"
       }
     ],
     "tags": [
@@ -1276,14 +1691,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "refurbish",
-        "noteZh": "指翻修舊建築或設備。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_rental",
@@ -1297,21 +1705,53 @@
       {
         "id": "s_rental_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "neutral"
+        ],
         "definitionEn": "an arrangement in which you pay to use something for a period of time, or the item rented",
         "definitionZh": "租賃；租金",
         "usageExplanationZh": "常見 car rental、rental fee；也可作形容詞 rental car（租來的車）。",
-        "examples": [
-          {
-            "en": "The rental of the beach house was more expensive during summer.",
-            "zh": "這棟海邊小屋的租金在夏季比較貴。"
-          }
+        "grammarPatterns": [
+          "the rental of + noun",
+          "a car rental",
+          "pay the rental"
         ],
         "collocations": [
           {
             "text": "car rental",
             "meaningZh": "汽車租賃"
           }
+        ],
+        "examples": [
+          {
+            "en": "The rental of the beach house was more expensive during summer.",
+            "zh": "這棟海邊小屋的租金在夏季比較貴。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "hire",
+        "noteZh": "英式英語中指租用。"
+      },
+      {
+        "lemma": "lease",
+        "noteZh": "指正式的租賃安排。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "rent",
+        "partOfSpeech": "verb",
+        "meaningZh": "租用；出租"
+      },
+      {
+        "lemma": "renter",
+        "partOfSpeech": "noun",
+        "meaningZh": "承租人"
       }
     ],
     "tags": [
@@ -1325,18 +1765,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "hire",
-        "noteZh": "英式英語中指租用。"
-      },
-      {
-        "lemma": "lease",
-        "noteZh": "指正式的租賃安排。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_reparation",
@@ -1350,21 +1779,44 @@
       {
         "id": "s_reparation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "payment or action made to compensate for wrong or damage done, especially after a war",
         "definitionZh": "賠償",
         "usageExplanationZh": "正式用語，常見複數形式 war reparations，指對受害方作出的正式補償。",
-        "examples": [
-          {
-            "en": "Germany paid reparations to several countries after the war.",
-            "zh": "德國在戰後向幾個國家支付了賠償金。"
-          }
+        "grammarPatterns": [
+          "pay reparations to + noun",
+          "make reparation for + noun",
+          "war reparations"
         ],
         "collocations": [
           {
             "text": "pay reparations",
             "meaningZh": "支付賠償金"
           }
+        ],
+        "examples": [
+          {
+            "en": "Germany paid reparations to several countries after the war.",
+            "zh": "德國在戰後向幾個國家支付了賠償金。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "compensation",
+        "noteZh": "指針對損害提供的補償。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "repair",
+        "partOfSpeech": "verb",
+        "meaningZh": "修理；修復"
       }
     ],
     "tags": [
@@ -1377,14 +1829,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "compensation",
-        "noteZh": "指針對損害提供的補償。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_repeal",
@@ -1398,21 +1843,42 @@
       {
         "id": "s_repeal_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to officially cancel a law",
         "definitionZh": "廢除（法律）",
         "usageExplanationZh": "法律用語，常見 repeal a law/act，指立法機構正式撤銷某項法規。",
-        "examples": [
-          {
-            "en": "Congress voted to repeal the outdated regulation.",
-            "zh": "國會投票廢除了這項過時的法規。"
-          }
+        "grammarPatterns": [
+          "repeal + noun",
+          "repeal a law",
+          "vote to repeal + noun"
         ],
         "collocations": [
           {
             "text": "repeal a law",
             "meaningZh": "廢除法律"
           }
+        ],
+        "examples": [
+          {
+            "en": "Congress voted to repeal the outdated regulation.",
+            "zh": "國會投票廢除了這項過時的法規。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "revoke",
+        "noteZh": "指正式撤銷法令。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "enact",
+        "noteZh": "指制定法律。"
       }
     ],
     "tags": [
@@ -1425,19 +1891,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "revoke",
-        "noteZh": "指正式撤銷法令。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "enact",
-        "noteZh": "指制定法律。"
-      }
-    ]
+    }
   },
   {
     "id": "w_repent",
@@ -1451,21 +1905,48 @@
       {
         "id": "s_repent_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to feel or express sincere regret for wrongdoing",
         "definitionZh": "懺悔；後悔",
         "usageExplanationZh": "宗教或道德語境常見，常見 repent of one's sins，強調對過錯的真誠悔悟。",
-        "examples": [
-          {
-            "en": "He repented of his past mistakes and tried to make amends.",
-            "zh": "他為過去的錯誤感到懺悔，並試圖彌補。"
-          }
+        "grammarPatterns": [
+          "repent of + noun",
+          "repent one's sins"
         ],
         "collocations": [
           {
             "text": "repent of one's sins",
             "meaningZh": "懺悔自己的罪過"
           }
+        ],
+        "examples": [
+          {
+            "en": "He repented of his past mistakes and tried to make amends.",
+            "zh": "他為過去的錯誤感到懺悔，並試圖彌補。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "feel remorse",
+        "noteZh": "指對自己的過錯感到懊悔。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "repentance",
+        "partOfSpeech": "noun",
+        "meaningZh": "懺悔；悔改"
+      },
+      {
+        "lemma": "repentant",
+        "partOfSpeech": "adjective",
+        "meaningZh": "悔悟的"
       }
     ],
     "tags": [
@@ -1479,14 +1960,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "feel remorse",
-        "noteZh": "指對自己的過錯感到懊悔。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_repercussion",
@@ -1500,23 +1974,39 @@
       {
         "id": "s_repercussion_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "an unintended and usually unwelcome consequence of an action or event",
         "definitionZh": "影響；後果",
         "usageExplanationZh": "常用複數 repercussions，強調事件帶來的間接、常為負面的後續效應。",
-        "examples": [
-          {
-            "en": "The scandal had serious repercussions for the company's reputation.",
-            "zh": "這起醜聞對公司的聲譽造成了嚴重的後果。"
-          }
+        "grammarPatterns": [
+          "the repercussions of + noun",
+          "have repercussions for + noun",
+          "serious repercussions"
         ],
         "collocations": [
           {
             "text": "serious repercussions",
             "meaningZh": "嚴重後果"
           }
+        ],
+        "examples": [
+          {
+            "en": "The scandal had serious repercussions for the company's reputation.",
+            "zh": "這起醜聞對公司的聲譽造成了嚴重的後果。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "consequence",
+        "noteZh": "指行動的結果；repercussion 通常指不良後果。"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1527,14 +2017,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "consequence",
-        "noteZh": "指行動的結果；repercussion 通常指不良後果。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_repetition",
@@ -1548,21 +2031,58 @@
       {
         "id": "s_repetition_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "the act of saying or doing something again, or a repeated instance of something",
         "definitionZh": "重複",
         "usageExplanationZh": "常見 avoid repetition，也可指語言中反覆使用同樣字詞或句型作為修辭手法。",
-        "examples": [
-          {
-            "en": "The teacher used repetition to help students memorize the vocabulary.",
-            "zh": "老師利用重複來幫助學生記憶單字。"
-          }
+        "grammarPatterns": [
+          "the repetition of + noun",
+          "through repetition",
+          "avoid repetition"
         ],
         "collocations": [
           {
             "text": "avoid repetition",
             "meaningZh": "避免重複"
           }
+        ],
+        "examples": [
+          {
+            "en": "The teacher used repetition to help students memorize the vocabulary.",
+            "zh": "老師利用重複來幫助學生記憶單字。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "recurrence",
+        "noteZh": "指事情再次發生。"
+      },
+      {
+        "lemma": "reiteration",
+        "noteZh": "指再次說明相同內容。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "repeat",
+        "partOfSpeech": "verb",
+        "meaningZh": "重複"
+      },
+      {
+        "lemma": "repetitive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "重複的；單調的"
+      },
+      {
+        "lemma": "repetitious",
+        "partOfSpeech": "adjective",
+        "meaningZh": "囉嗦重複的"
       }
     ],
     "tags": [
@@ -1576,18 +2096,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "recurrence",
-        "noteZh": "指事情再次發生。"
-      },
-      {
-        "lemma": "reiteration",
-        "noteZh": "指再次說明相同內容。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_replenish",
@@ -1601,35 +2110,32 @@
       {
         "id": "s_replenish_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to fill something up again after it has been used or emptied",
         "definitionZh": "補充；重新裝滿",
         "usageExplanationZh": "常接 supplies、stock，如 replenish the shelves，強調恢復到原本充足的狀態。",
-        "examples": [
-          {
-            "en": "The staff replenish the shelves with fresh stock every morning.",
-            "zh": "員工每天早上都會補充貨架上的新貨。"
-          }
+        "grammarPatterns": [
+          "replenish + noun",
+          "replenish supplies of + noun",
+          "replenish the shelves with + noun"
         ],
         "collocations": [
           {
             "text": "replenish supplies",
             "meaningZh": "補充物資"
           }
+        ],
+        "examples": [
+          {
+            "en": "The staff replenish the shelves with fresh stock every morning.",
+            "zh": "員工每天早上都會補充貨架上的新貨。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "refill",
@@ -1645,7 +2151,26 @@
         "lemma": "deplete",
         "noteZh": "指耗盡或減少存量。"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "replenishment",
+        "partOfSpeech": "noun",
+        "meaningZh": "補充；補貨"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_replete",
@@ -1659,21 +2184,47 @@
       {
         "id": "s_replete_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "completely filled or supplied with something",
         "definitionZh": "充滿的；富含的",
         "usageExplanationZh": "正式用語，常見 replete with，後接名詞，表示充滿了某種事物。",
-        "examples": [
-          {
-            "en": "The museum is replete with fascinating artifacts from ancient civilizations.",
-            "zh": "這座博物館裡充滿了來自古文明的迷人文物。"
-          }
+        "grammarPatterns": [
+          "be replete with + noun"
         ],
         "collocations": [
           {
             "text": "replete with examples",
             "meaningZh": "有豐富的例子"
           }
+        ],
+        "examples": [
+          {
+            "en": "The museum is replete with fascinating artifacts from ancient civilizations.",
+            "zh": "這座博物館裡充滿了來自古文明的迷人文物。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "full",
+        "noteZh": "指充滿的，接 of。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "devoid",
+        "noteZh": "指完全缺乏的，接 of。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "repletion",
+        "partOfSpeech": "noun",
+        "meaningZh": "充滿；飽足"
       }
     ],
     "tags": [
@@ -1686,19 +2237,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "full",
-        "noteZh": "指充滿的，接 of。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "devoid",
-        "noteZh": "指完全缺乏的，接 of。"
-      }
-    ]
+    }
   },
   {
     "id": "w_representation",
@@ -1712,14 +2251,17 @@
       {
         "id": "s_representation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the act of speaking or acting on behalf of someone, or something that depicts or symbolizes another thing",
         "definitionZh": "代表；表現",
         "usageExplanationZh": "兩義：政治上代人發言（legal representation）；藝術上的呈現（visual representation）。",
-        "examples": [
-          {
-            "en": "Every state has equal representation in the senate.",
-            "zh": "每一州在參議院都有平等的代表席次。"
-          }
+        "grammarPatterns": [
+          "a representation of + noun",
+          "have representation in + noun",
+          "equal representation"
         ],
         "collocations": [
           {
@@ -1730,7 +2272,36 @@
             "text": "a visual representation",
             "meaningZh": "視覺呈現"
           }
+        ],
+        "examples": [
+          {
+            "en": "Every state has equal representation in the senate.",
+            "zh": "每一州在參議院都有平等的代表席次。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "depiction",
+        "noteZh": "對應描繪或表現。"
+      },
+      {
+        "lemma": "advocacy",
+        "noteZh": "對應替他人發聲或維護權益。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "represent",
+        "partOfSpeech": "verb",
+        "meaningZh": "代表；表現"
+      },
+      {
+        "lemma": "representative",
+        "partOfSpeech": "noun",
+        "meaningZh": "代表；代表人"
       }
     ],
     "tags": [
@@ -1743,18 +2314,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "depiction",
-        "noteZh": "對應描繪或表現。"
-      },
-      {
-        "lemma": "advocacy",
-        "noteZh": "對應替他人發聲或維護權益。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_reprieve",
@@ -1768,34 +2328,32 @@
       {
         "id": "s_reprieve_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "an official postponement or cancellation of a punishment, or a temporary relief from something difficult",
         "definitionZh": "緩刑；暫時解脫",
         "usageExplanationZh": "法律語境指延緩死刑等處罰；一般語境則指暫時擺脫困境或壓力。",
-        "examples": [
-          {
-            "en": "The governor granted the prisoner a last-minute reprieve.",
-            "zh": "州長在最後一刻給予這名囚犯緩刑。"
-          }
+        "grammarPatterns": [
+          "grant sb a reprieve",
+          "a reprieve from + noun",
+          "a temporary reprieve"
         ],
         "collocations": [
           {
             "text": "grant a reprieve",
             "meaningZh": "准予暫緩執行刑罰"
           }
+        ],
+        "examples": [
+          {
+            "en": "The governor granted the prisoner a last-minute reprieve.",
+            "zh": "州長在最後一刻給予這名囚犯緩刑。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "respite",
@@ -1806,7 +2364,18 @@
         "noteZh": "法律語境中指暫緩執行。"
       }
     ],
-    "antonyms": []
+    "antonyms": [],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_reprimand",
@@ -1820,21 +2389,41 @@
       {
         "id": "s_reprimand_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to criticize someone formally for doing something wrong",
         "definitionZh": "正式譴責；訓誡",
         "usageExplanationZh": "正式用語，常見 reprimand sb for sth，語氣比 scold 更正式、公開。",
-        "examples": [
-          {
-            "en": "The officer was reprimanded for his careless handling of the case.",
-            "zh": "這位警官因處理案件不慎而受到正式譴責。"
-          }
+        "grammarPatterns": [
+          "reprimand sb for + noun",
+          "be reprimanded for + V-ing"
         ],
         "collocations": [
           {
             "text": "reprimand someone for misconduct",
             "meaningZh": "因行為不當訓誡某人"
           }
+        ],
+        "examples": [
+          {
+            "en": "The officer was reprimanded for his careless handling of the case.",
+            "zh": "這位警官因處理案件不慎而受到正式譴責。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "rebuke",
+        "noteZh": "指嚴厲責備。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "praise",
+        "noteZh": "指稱讚。"
       }
     ],
     "tags": [
@@ -1847,19 +2436,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "rebuke",
-        "noteZh": "指嚴厲責備。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "praise",
-        "noteZh": "指稱讚。"
-      }
-    ]
+    }
   },
   {
     "id": "w_reproach",
@@ -1873,21 +2450,54 @@
       {
         "id": "s_reproach_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "an expression of disapproval or disappointment directed at someone",
         "definitionZh": "責備；指責",
         "usageExplanationZh": "常見 a look of reproach，語氣較 blame 溫和，強調帶失望意味的批評。",
-        "examples": [
-          {
-            "en": "Her silence was full of reproach.",
-            "zh": "她的沉默充滿了責備。"
-          }
+        "grammarPatterns": [
+          "a reproach to + sb",
+          "be full of reproach",
+          "beyond reproach"
         ],
         "collocations": [
           {
             "text": "beyond reproach",
             "meaningZh": "無可指責"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her silence was full of reproach.",
+            "zh": "她的沉默充滿了責備。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "rebuke",
+        "noteZh": "指責備的話。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "praise",
+        "noteZh": "指讚揚。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "reproachful",
+        "partOfSpeech": "adjective",
+        "meaningZh": "責備的；譴責的"
+      },
+      {
+        "lemma": "reproachfully",
+        "partOfSpeech": "adverb",
+        "meaningZh": "帶責備地"
       }
     ],
     "tags": [
@@ -1902,19 +2512,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "rebuke",
-        "noteZh": "指責備的話。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "praise",
-        "noteZh": "指讚揚。"
-      }
-    ]
+    }
   },
   {
     "id": "w_reproduce",
@@ -1928,14 +2526,17 @@
       {
         "id": "s_reproduce_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "to produce offspring, or to make a copy of something",
         "definitionZh": "繁殖；複製",
         "usageExplanationZh": "兩義：生物學上的生殖（animals reproduce）；製作複製品（reproduce a document）。",
-        "examples": [
-          {
-            "en": "Rabbits are known to reproduce very quickly.",
-            "zh": "眾所皆知，兔子繁殖速度非常快。"
-          }
+        "grammarPatterns": [
+          "reproduce + adverb",
+          "reproduce + noun",
+          "reproduce sth in + noun"
         ],
         "collocations": [
           {
@@ -1946,7 +2547,36 @@
             "text": "reproduce sexually",
             "meaningZh": "以有性方式繁殖"
           }
+        ],
+        "examples": [
+          {
+            "en": "Rabbits are known to reproduce very quickly.",
+            "zh": "眾所皆知，兔子繁殖速度非常快。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "replicate",
+        "noteZh": "對應製作副本。"
+      },
+      {
+        "lemma": "breed",
+        "noteZh": "對應繁殖後代。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "reproduction",
+        "partOfSpeech": "noun",
+        "meaningZh": "繁殖；複製"
+      },
+      {
+        "lemma": "reproductive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "生殖的"
       }
     ],
     "tags": [
@@ -1959,18 +2589,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "replicate",
-        "noteZh": "對應製作副本。"
-      },
-      {
-        "lemma": "breed",
-        "noteZh": "對應繁殖後代。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_reproduction",
@@ -1984,14 +2603,17 @@
       {
         "id": "s_reproduction_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "the process by which living things produce offspring, or a copy of an original work",
         "definitionZh": "生殖；複製品",
         "usageExplanationZh": "兩義常見：生物繁殖過程；藝術品或文件的複製版本，如 a reproduction of a painting。",
-        "examples": [
-          {
-            "en": "The museum sells reproductions of famous paintings in its gift shop.",
-            "zh": "這座博物館的禮品店販售知名畫作的複製品。"
-          }
+        "grammarPatterns": [
+          "the reproduction of + noun",
+          "a reproduction of + noun",
+          "sexual reproduction"
         ],
         "collocations": [
           {
@@ -2002,7 +2624,36 @@
             "text": "a reproduction of a painting",
             "meaningZh": "畫作的複製品"
           }
+        ],
+        "examples": [
+          {
+            "en": "The museum sells reproductions of famous paintings in its gift shop.",
+            "zh": "這座博物館的禮品店販售知名畫作的複製品。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "replica",
+        "noteZh": "對應原作的複製品。"
+      },
+      {
+        "lemma": "procreation",
+        "noteZh": "對應繁衍後代。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "reproduce",
+        "partOfSpeech": "verb",
+        "meaningZh": "繁殖；複製"
+      },
+      {
+        "lemma": "reproductive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "生殖的"
       }
     ],
     "tags": [
@@ -2015,18 +2666,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "replica",
-        "noteZh": "對應原作的複製品。"
-      },
-      {
-        "lemma": "procreation",
-        "noteZh": "對應繁衍後代。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_reproductive",
@@ -2040,21 +2680,48 @@
       {
         "id": "s_reproductive_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "relating to the production of offspring",
         "definitionZh": "生殖的",
         "usageExplanationZh": "常見 reproductive system、reproductive health，醫學及生物學語境常用詞。",
-        "examples": [
-          {
-            "en": "The clinic specializes in reproductive health for women.",
-            "zh": "這家診所專門提供女性生殖健康的服務。"
-          }
+        "grammarPatterns": [
+          "reproductive + noun",
+          "the reproductive system"
         ],
         "collocations": [
           {
             "text": "reproductive health",
             "meaningZh": "生殖健康"
           }
+        ],
+        "examples": [
+          {
+            "en": "The clinic specializes in reproductive health for women.",
+            "zh": "這家診所專門提供女性生殖健康的服務。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "procreative",
+        "noteZh": "指與繁衍後代有關的，較正式。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "reproduce",
+        "partOfSpeech": "verb",
+        "meaningZh": "繁殖；複製"
+      },
+      {
+        "lemma": "reproduction",
+        "partOfSpeech": "noun",
+        "meaningZh": "生殖；複製品"
       }
     ],
     "tags": [
@@ -2067,14 +2734,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "procreative",
-        "noteZh": "指與繁衍後代有關的，較正式。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_republic",
@@ -2088,21 +2748,54 @@
       {
         "id": "s_republic_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a country governed by elected representatives and a president, rather than a king or queen",
         "definitionZh": "共和國",
         "usageExplanationZh": "政治學術語，與君主制（monarchy）相對，強調國家元首非世襲君主。",
-        "examples": [
-          {
-            "en": "France became a republic after the revolution.",
-            "zh": "法國在革命後成為了共和國。"
-          }
+        "grammarPatterns": [
+          "become a republic",
+          "a democratic republic",
+          "the Republic of + noun"
         ],
         "collocations": [
           {
             "text": "a federal republic",
             "meaningZh": "聯邦共和國"
           }
+        ],
+        "examples": [
+          {
+            "en": "France became a republic after the revolution.",
+            "zh": "法國在革命後成為了共和國。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "republican state",
+        "noteZh": "指採共和政體的國家。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "monarchy",
+        "noteZh": "政體上的對比，指以君主為元首的國家。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "republican",
+        "partOfSpeech": "adjective",
+        "meaningZh": "共和的；共和政體的"
+      },
+      {
+        "lemma": "republicanism",
+        "partOfSpeech": "noun",
+        "meaningZh": "共和主義"
       }
     ],
     "tags": [
@@ -2115,19 +2808,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "republican state",
-        "noteZh": "指採共和政體的國家。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "monarchy",
-        "noteZh": "政體上的對比，指以君主為元首的國家。"
-      }
-    ]
+    }
   },
   {
     "id": "w_repudiate",
@@ -2141,35 +2822,32 @@
       {
         "id": "s_repudiate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to refuse to accept or support something, or to deny that something is true or valid",
         "definitionZh": "拒絕承認；否認",
         "usageExplanationZh": "正式用語，常見 repudiate a claim/agreement，強調正式拒絕接受或宣告無效。",
-        "examples": [
-          {
-            "en": "He repudiated the allegations made against him.",
-            "zh": "他否認了針對他所提出的指控。"
-          }
+        "grammarPatterns": [
+          "repudiate + noun",
+          "repudiate a claim",
+          "repudiate allegations of + noun"
         ],
         "collocations": [
           {
             "text": "repudiate a claim",
             "meaningZh": "否認一項主張"
           }
+        ],
+        "examples": [
+          {
+            "en": "He repudiated the allegations made against him.",
+            "zh": "他否認了針對他所提出的指控。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "reject",
@@ -2185,7 +2863,26 @@
         "lemma": "accept",
         "noteZh": "指接受或承認。"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "repudiation",
+        "partOfSpeech": "noun",
+        "meaningZh": "否認；拒絕承認"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_reputation",
@@ -2199,21 +2896,54 @@
       {
         "id": "s_reputation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "the general opinion that people have about someone or something's character or quality",
         "definitionZh": "名聲；聲譽",
         "usageExplanationZh": "常見 build/damage a reputation，強調外界對其可信度或品質的整體評價。",
-        "examples": [
-          {
-            "en": "The restaurant has a reputation for excellent service.",
-            "zh": "這家餐廳以優質的服務聞名。"
-          }
+        "grammarPatterns": [
+          "a reputation for + noun",
+          "have a reputation as + noun",
+          "damage one's reputation"
         ],
         "collocations": [
           {
             "text": "a good reputation",
             "meaningZh": "良好的聲譽"
           }
+        ],
+        "examples": [
+          {
+            "en": "The restaurant has a reputation for excellent service.",
+            "zh": "這家餐廳以優質的服務聞名。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "standing",
+        "noteZh": "指在公眾心目中的地位與評價。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "reputable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有信譽的；聲譽良好的"
+      },
+      {
+        "lemma": "repute",
+        "partOfSpeech": "noun",
+        "meaningZh": "名聲；聲望"
+      },
+      {
+        "lemma": "reputed",
+        "partOfSpeech": "adjective",
+        "meaningZh": "據稱的；號稱的"
       }
     ],
     "tags": [
@@ -2228,14 +2958,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "standing",
-        "noteZh": "指在公眾心目中的地位與評價。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_request",
@@ -2249,14 +2972,17 @@
       {
         "id": "s_request_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "an act of politely or formally asking for something",
         "definitionZh": "請求；要求",
         "usageExplanationZh": "常見 make a request、upon request（應要求），語氣較 demand 委婉禮貌。",
-        "examples": [
-          {
-            "en": "She submitted a formal request for additional funding.",
-            "zh": "她提交了一份追加經費的正式請求。"
-          }
+        "grammarPatterns": [
+          "a request for + noun",
+          "make a request",
+          "at sb's request"
         ],
         "collocations": [
           {
@@ -2267,9 +2993,22 @@
             "text": "on request",
             "meaningZh": "應要求提供"
           }
+        ],
+        "examples": [
+          {
+            "en": "She submitted a formal request for additional funding.",
+            "zh": "她提交了一份追加經費的正式請求。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "appeal",
+        "noteZh": "指懇求，通常比一般請求強烈。"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2282,14 +3021,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "appeal",
-        "noteZh": "指懇求，通常比一般請求強烈。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_requisite",
@@ -2303,21 +3035,53 @@
       {
         "id": "s_requisite_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "necessary for a particular purpose",
         "definitionZh": "必需的；必要的",
         "usageExplanationZh": "正式用語，常修飾 skills、qualifications，強調達成目的所不可或缺的條件。",
-        "examples": [
-          {
-            "en": "Applicants must have the requisite experience for this position.",
-            "zh": "應徵者必須具備擔任這個職位所需的必要經驗。"
-          }
+        "grammarPatterns": [
+          "the requisite + noun",
+          "requisite for + noun"
         ],
         "collocations": [
           {
             "text": "the requisite skills",
             "meaningZh": "必需的技能"
           }
+        ],
+        "examples": [
+          {
+            "en": "Applicants must have the requisite experience for this position.",
+            "zh": "應徵者必須具備擔任這個職位所需的必要經驗。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "necessary",
+        "noteZh": "指為達目的不可缺少的。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "unnecessary",
+        "noteZh": "指不必要的。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "requisition",
+        "partOfSpeech": "noun",
+        "meaningZh": "徵用；申請單"
+      },
+      {
+        "lemma": "require",
+        "partOfSpeech": "verb",
+        "meaningZh": "需要；要求"
       }
     ],
     "tags": [
@@ -2330,19 +3094,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "necessary",
-        "noteZh": "指為達目的不可缺少的。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "unnecessary",
-        "noteZh": "指不必要的。"
-      }
-    ]
+    }
   },
   {
     "id": "w_rescind",
@@ -2356,21 +3108,49 @@
       {
         "id": "s_rescind_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to officially cancel a law, decision, or agreement",
         "definitionZh": "撤銷；廢止",
         "usageExplanationZh": "正式用語，常見 rescind an order/policy，強調正式取消先前的決定或規定。",
-        "examples": [
-          {
-            "en": "The committee decided to rescind its earlier decision.",
-            "zh": "委員會決定撤銷先前的決議。"
-          }
+        "grammarPatterns": [
+          "rescind + noun",
+          "rescind a decision",
+          "rescind an offer"
         ],
         "collocations": [
           {
             "text": "rescind an offer",
             "meaningZh": "撤回提議"
           }
+        ],
+        "examples": [
+          {
+            "en": "The committee decided to rescind its earlier decision.",
+            "zh": "委員會決定撤銷先前的決議。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "revoke",
+        "noteZh": "指正式撤銷決定或許可。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "uphold",
+        "noteZh": "指維持決定或規定的效力。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "rescission",
+        "partOfSpeech": "noun",
+        "meaningZh": "撤銷；廢止"
       }
     ],
     "tags": [
@@ -2383,19 +3163,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "revoke",
-        "noteZh": "指正式撤銷決定或許可。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "uphold",
-        "noteZh": "指維持決定或規定的效力。"
-      }
-    ]
+    }
   },
   {
     "id": "w_rescue",
@@ -2409,21 +3177,43 @@
       {
         "id": "s_rescue_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "an act of saving someone or something from danger or harm",
         "definitionZh": "救援；營救",
         "usageExplanationZh": "常見 rescue mission、come to the rescue，指從危險或困境中拯救出來的行動。",
-        "examples": [
-          {
-            "en": "The rescue of the trapped miners took several days.",
-            "zh": "營救受困礦工的行動耗時數天。"
-          }
+        "grammarPatterns": [
+          "the rescue of + sb",
+          "come to sb's rescue",
+          "a rescue operation"
         ],
         "collocations": [
           {
             "text": "a rescue operation",
             "meaningZh": "救援行動"
           }
+        ],
+        "examples": [
+          {
+            "en": "The rescue of the trapped miners took several days.",
+            "zh": "營救受困礦工的行動耗時數天。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "saving",
+        "noteZh": "指把人或事物從危險中救出的行動。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "rescuer",
+        "partOfSpeech": "noun",
+        "meaningZh": "救援者"
       }
     ],
     "tags": [
@@ -2438,14 +3228,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "saving",
-        "noteZh": "指把人或事物從危險中救出的行動。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_resemblance",
@@ -2459,21 +3242,48 @@
       {
         "id": "s_resemblance_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "the state of looking or being similar to someone or something else",
         "definitionZh": "相似；相似之處",
         "usageExplanationZh": "常見 bear a resemblance to，強調外貌或特徵上的相似性。",
-        "examples": [
-          {
-            "en": "She bears a striking resemblance to her grandmother.",
-            "zh": "她和她祖母長得非常相似。"
-          }
+        "grammarPatterns": [
+          "a resemblance to + sb",
+          "bear a resemblance to + sb",
+          "a striking resemblance between + noun"
         ],
         "collocations": [
           {
             "text": "bear a resemblance to",
             "meaningZh": "與……相似"
           }
+        ],
+        "examples": [
+          {
+            "en": "She bears a striking resemblance to her grandmother.",
+            "zh": "她和她祖母長得非常相似。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "similarity",
+        "noteZh": "指外貌或性質上的相似。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "difference",
+        "noteZh": "指不同之處。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "resemble",
+        "partOfSpeech": "verb",
+        "meaningZh": "與……相似"
       }
     ],
     "tags": [
@@ -2487,19 +3297,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "similarity",
-        "noteZh": "指外貌或性質上的相似。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "difference",
-        "noteZh": "指不同之處。"
-      }
-    ]
+    }
   },
   {
     "id": "w_resemble",
@@ -2513,21 +3311,42 @@
       {
         "id": "s_resemble_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to look like or be similar to someone or something",
         "definitionZh": "與……相似；像",
         "usageExplanationZh": "常直接接受詞，不用介系詞，如 resemble one's mother。",
-        "examples": [
-          {
-            "en": "The twins resemble each other so closely that people often confuse them.",
-            "zh": "這對雙胞胎彼此長得非常相似，人們常常會認錯。"
-          }
+        "grammarPatterns": [
+          "resemble + noun",
+          "closely resemble + noun"
         ],
         "collocations": [
           {
             "text": "closely resemble",
             "meaningZh": "與……極為相似"
           }
+        ],
+        "examples": [
+          {
+            "en": "The twins resemble each other so closely that people often confuse them.",
+            "zh": "這對雙胞胎彼此長得非常相似，人們常常會認錯。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "look like",
+        "noteZh": "指外貌像某人或某物。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "resemblance",
+        "partOfSpeech": "noun",
+        "meaningZh": "相似；相似之處"
       }
     ],
     "tags": [
@@ -2541,14 +3360,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "look like",
-        "noteZh": "指外貌像某人或某物。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_resentment",
@@ -2562,21 +3374,49 @@
       {
         "id": "s_resentment_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "a bitter feeling of anger caused by being treated unfairly",
         "definitionZh": "怨恨；不滿",
         "usageExplanationZh": "常見 harbor resentment、feel resentment towards，強調因不公平待遇而產生的長期不滿。",
-        "examples": [
-          {
-            "en": "He harbored deep resentment towards his former employer.",
-            "zh": "他對前雇主懷有深深的怨恨。"
-          }
+        "grammarPatterns": [
+          "resentment toward + sb",
+          "harbor resentment",
+          "feel resentment at + noun"
         ],
         "collocations": [
           {
             "text": "harbor resentment",
             "meaningZh": "心懷怨恨"
           }
+        ],
+        "examples": [
+          {
+            "en": "He harbored deep resentment towards his former employer.",
+            "zh": "他對前雇主懷有深深的怨恨。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "bitterness",
+        "noteZh": "指因不公平待遇累積的怨恨。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "resent",
+        "partOfSpeech": "verb",
+        "meaningZh": "憤恨；怨恨"
+      },
+      {
+        "lemma": "resentful",
+        "partOfSpeech": "adjective",
+        "meaningZh": "憤恨的；不滿的"
       }
     ],
     "tags": [
@@ -2589,14 +3429,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "bitterness",
-        "noteZh": "指因不公平待遇累積的怨恨。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_reserve",
@@ -2610,14 +3443,17 @@
       {
         "id": "s_reserve_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "an amount of something kept back for future use, or an area protected for wildlife",
         "definitionZh": "儲備；保護區",
         "usageExplanationZh": "兩義：儲存備用的資源（cash reserves）；受保護的自然區域（nature reserve）。",
-        "examples": [
-          {
-            "en": "The country has large oil reserves.",
-            "zh": "這個國家擁有龐大的石油儲備。"
-          }
+        "grammarPatterns": [
+          "a reserve of + noun",
+          "hold sth in reserve",
+          "oil reserves"
         ],
         "collocations": [
           {
@@ -2628,7 +3464,36 @@
             "text": "keep something in reserve",
             "meaningZh": "保留某物以備後用"
           }
+        ],
+        "examples": [
+          {
+            "en": "The country has large oil reserves.",
+            "zh": "這個國家擁有龐大的石油儲備。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "stockpile",
+        "noteZh": "對應留供未來使用的儲備。"
+      },
+      {
+        "lemma": "sanctuary",
+        "noteZh": "對應保護野生動物的地區。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "reservation",
+        "partOfSpeech": "noun",
+        "meaningZh": "預訂；保留意見"
+      },
+      {
+        "lemma": "reserved",
+        "partOfSpeech": "adjective",
+        "meaningZh": "拘謹的；已預訂的"
       }
     ],
     "tags": [
@@ -2643,17 +3508,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "stockpile",
-        "noteZh": "對應留供未來使用的儲備。"
-      },
-      {
-        "lemma": "sanctuary",
-        "noteZh": "對應保護野生動物的地區。"
-      }
-    ],
-    "antonyms": []
+    }
   }
 ]

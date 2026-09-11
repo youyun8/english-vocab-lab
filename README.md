@@ -59,9 +59,11 @@ login).
   CMU Pronouncing Dictionary** (see [KK verification](#17-kk-phonetic-verification)), in a font
   stack chosen for IPA coverage.
 - Multiple parts of speech and multiple senses per entry.
-- Per curated sense: English definition, Traditional Chinese definition, a written Chinese usage explanation,
-  grammar patterns, collocations, 2–4 natural example sentences with translations, usage notes and
-  common learner mistakes.
+- One spec for every word page. Each sense shows its part of speech and register, an English and a
+  Traditional Chinese definition, a written Chinese usage explanation, grammar patterns,
+  collocations, example sentences with translations, and usage notes — always those sections, always
+  in that order. Register and grammar patterns are required of every sense in the corpus, so no page
+  is quietly thinner than the one before it.
 - Word families, synonyms, antonyms, and a confusing-word comparison table — present on **every**
   curated entry — that links to the other entry when it is in the corpus.
 - Browser speech synthesis for pronunciation (an audio convenience — the KK transcription is the authority).
@@ -70,9 +72,10 @@ login).
 
 - Eight quiz types: `meaning_en_to_zh`, `meaning_zh_to_en`, `definition_to_word`, `cloze`, `usage`,
   `collocation`, `grammar`, `confusing_words`.
-- 251 hand-written questions with explanations — including cloze, usage, collocation, grammar and
-  confusable-word questions written for the imported TOEFL/GRE vocabulary — plus recognition
-  questions generated from the corpus, so the question bank covers **every** word that ships.
+- 251 hand-written questions with explanations, each written to a real exam format — TOEFL vocabulary
+  and usage items, GRE sentence completions and near-pair contrasts, IELTS academic collocation, and
+  TOEIC Part 5 incomplete sentences — plus one generated sentence-completion item per word, so the
+  bank covers essentially every word that ships without asking the same thing three ways.
 - A browsable question bank whose options are always visible and whose answers stay hidden until you
   pick one or ask for the answer, so browsing it is practice rather than reading a solutions sheet.
 - Quiz modes: random, weak words, mistake review, due review, bookmarked, difficult.
@@ -212,7 +215,7 @@ A quiz picks its words from the index *before* downloading anything, and picks t
 time: sampling words independently would scatter one quiz across most of the corpus's files.
 
 The question bank does the same for a different reason. The index records which recognition types
-each word supports, which is enough to know what the bank *contains* — 12,508 questions, their
+each word supports, which is enough to know what the bank *contains* — 4,363 questions, their
 order, and what every filter would leave — so the page builds question **references** and turns
 only the twenty in view into real questions. Two consequences worth knowing:
 
@@ -266,6 +269,7 @@ src/
     vocabulary/exam/        dictionary entries, 50 per file (80 files)
     questions/              curated question bank, one file per question type
                             (`exam-*.json` cover the imported TOEFL/GRE words)
+                            every item written to a real exam format
 
   repositories/
     vocabulary-repository.ts
@@ -631,22 +635,20 @@ interface VocabularyEntry {
 interface VocabularySense {
   id: string;                         // unique across the whole corpus
   partOfSpeech: PartOfSpeech;
-  register?: Register[];
+  register: Register[];               // at least one, on every sense
 
   definitionEn: string;
   definitionZh: string;
   usageExplanationZh?: string;        // required for curated lessons
 
-  grammarPatterns?: string[];
+  grammarPatterns: string[];          // at least one, on every sense
   collocations?: Collocation[];
   examples: ExampleSentence[];        // at least one for curated lessons
   usageNotes?: string[];
-  commonMistakes?: CommonMistake[];
 }
 
 interface ExampleSentence { en: string; zh: string; highlight?: string }
 interface Collocation     { text: string; meaningZh?: string; example?: ExampleSentence }
-interface CommonMistake   { incorrect?: string; correct?: string; explanationZh: string }
 interface RelatedWord     { wordId?: string; lemma: string; noteZh?: string }
 interface WordFamilyItem  { lemma: string; partOfSpeech: PartOfSpeech; meaningZh?: string }
 interface ConfusedWord    { lemma: string; wordId?: string; distinctionZh: string }
@@ -697,13 +699,32 @@ freely without corrupting the answer key.
   because a generator cannot guarantee that exactly one option is defensible. The `exam-*.json`
   files carry these nuanced types for the imported TOEFL/GRE words, which ship with dictionary
   definitions but no example sentences, collocations or usage notes of their own.
-- **Generated** questions are derived from the corpus at runtime, and only for the three simple
-  recognition types (`meaning_en_to_zh`, `meaning_zh_to_en`, `definition_to_word`). Every one of
-  them reads fields the schema guarantees on *every* entry — headword, Chinese gloss, English
-  definition — so imported dictionary words get practice too. Ids are derived from `entry.id` +
-  type, so duplicates are impossible.
+- **Generated** questions are derived from the corpus at runtime, still within the three recognition
+  types (`meaning_en_to_zh`, `meaning_zh_to_en`, `definition_to_word`). Ids are derived from
+  `entry.id` + type, so duplicates are impossible.
 
-  Four rules keep a generated question fair, each of them a test in
+  **One word, one question.** Generating all three types per word trebled the bank with three ways
+  of asking the same thing, which is what made it feel padded. A word is now assigned a single type
+  by a stable hash of its id — roughly 70% sentence completion, 20% English-to-Chinese, 10%
+  Chinese-to-English — and falls back to the hardest format it can actually support. A word whose
+  gloss is a bare function word gets no question at all rather than an item with no defensible
+  answer; that is the handful of entries the bank does not reach.
+
+  **The stem is a sentence.** `definition_to_word` prefers the entry's own example with the headword
+  masked to `___`, which is the TOEFL/GRE sentence-completion format, and falls back to the masked
+  English definition only when there is no usable sentence. `meaning_en_to_zh` shows the sentence
+  intact as context. Over 90% of generated questions carry a real sentence.
+
+  **Distractors are near misses.** Candidates are ranked by shared prefix and suffix, same CEFR
+  band, shared tags and similar length, so the wrong options look like words a learner would
+  actually confuse with the answer rather than arbitrary words of the same part of speech. Ranking
+  uses no randomness, so a `QuestionRef` always materializes into the question it promised.
+
+  **Difficulty reflects the item.** It starts from the CEFR band (B2 2, C1 3, C2 4) and adds for the
+  format, so generated questions sit at 2–5 with a mean above 3 instead of the flat 1–3 they used to
+  carry.
+
+  Four fairness rules survive from the original generator, each a test in
   `src/services/question-generator.test.ts` that runs over every question the corpus produces:
 
   | Rule | What it prevents |
@@ -718,15 +739,11 @@ freely without corrupting the answer key.
   machine-converted rather than edited. Generated questions are labelled as such on the card, in
   quiz feedback and in the bank's own filter, and the app says plainly that usage and nuance belong
   to the hand-written questions.
-- `definition_to_word` shows the English definition and asks for the word. Any form of the headword
-  inside that definition is masked to `___`, and an entry whose masked definition no longer
-  identifies a single word (an imported stub such as "become brisk") simply gets no definition
-  question — so this type covers most of the corpus rather than all of it.
 
 ### The browsable bank
 
-`src/services/question-bank.ts` assembles what `/question-bank` shows: the curated questions plus
-generated questions for every entry, ordered so a word's questions sit together, curated first.
+`src/services/question-bank.ts` assembles what `/question-bank` shows: 251 curated questions plus
+4,112 generated ones, ordered so a word's questions sit together, curated first.
 Generation there uses a **fixed seed** instead of `Math.random`, so a word's options are the same on
 every render, page turn and reload — a bank that reshuffled under the reader would be unstudyable.
 Answers are per-card state that resets whenever a filter changes or the page turns.
@@ -790,8 +807,8 @@ English sentence; and every `wordId` cross-reference must resolve (and not point
 [section 17](#17-kk-phonetic-verification).
 
 Two quality bars are enforced by tests rather than the validator: at least 90 % of entries carry a
-confusing-word comparison, and at least 60 % carry a usage note or a common mistake. New entries are
-expected to hold that line.
+confusing-word comparison, and at least 60 % carry a usage note. New entries are expected to hold
+that line.
 
 ### Enriching entries in bulk
 
@@ -815,6 +832,21 @@ containing a JSON array (for example, `[{"text":"abide by the rules","meaningZh"
 `npm run edit:bilingual` reads this column, so rebuilding lessons preserves the phrases.
 Validate an edited TSV with `npm run validate:bilingual-file -- <path-to-tsv>`, then regenerate
 the indexes with `npm run build:index` and run `npm run validate:data`.
+
+Two further sidecars complete the imported entries, split into the same alphabetical slices so one
+contributor owns one file and never touches another's lines:
+
+| File | Columns | Supplies |
+| --- | --- | --- |
+| `scripts/data/sense-attributes/sliceNN.tsv` | `lemma`, `sense`, `register`, `grammarPatterns` | the two fields the word-page spec requires of every sense |
+| `scripts/data/word-families/sliceNN.tsv` | `lemma`, `familyLemma`, `pos`, `meaningZh` | one row per derivational relative; a headword with none simply has no rows |
+
+They are keyed by `lemma` + `sense` and merged in by `npm run edit:bilingual`, which fails naming
+the key if a lesson row has no sense-attribute row — a sense with no register and no grammar
+pattern cannot be laid out to the spec, so it must not reach a chunk file. Check one slice with
+`npm run validate:slice -- 03`, which reads no sidecar outside that slice — only the lesson rows,
+which say which senses exist — so several people can edit different slices at once without racing
+each other, and your slice still reports while everyone else's is half-finished.
 See [vocabulary enrichment review notes](docs/vocabulary-enrichment-review.md) for original
 rare or questionable senses that still need editorial attention.
 
@@ -850,12 +882,28 @@ rare or questionable senses that still need editorial attention.
 }
 ```
 
-3. Run `npm run validate:data`.
+3. Run `npm run validate:question-file -- src/data/questions/cloze.json` while drafting — it checks
+   one file and reads no other question file, so it stays green while those are mid-edit — then
+   `npm run validate:data` before committing.
+
+Write to a real exam format rather than inventing one. The bank follows four: TOEFL vocabulary and
+usage items, GRE single-blank sentence completion and near-pair contrasts, IELTS academic
+collocation, and TOEIC Part 5 incomplete sentences. In every case the stem is a sentence of genuine
+professional or academic prose long enough to decide the answer by itself.
 
 Write distractors that test a real distinction — semantic, register, collocational, grammatical or
-near-synonym choice. A question like `consolidate = 整合 / 香蕉 / 游泳 / 星期二` teaches nothing.
-Each question must have exactly one defensible answer; if a distinction is genuinely ambiguous,
-rewrite the question rather than pretending the ambiguity is not there.
+near-synonym choice. A question like `consolidate = 整合 / 香蕉 / 游泳 / 星期二` teaches nothing, and
+neither does one whose distractors can be eliminated without reading the stem: draw them from the
+same root, the same confusion space, or the same semantic field as the answer. Each question must
+have exactly one defensible answer; if a distinction is genuinely ambiguous, rewrite the question
+rather than pretending the ambiguity is not there.
+
+Spread the answer across `a`–`d` within each file, roughly evenly. Option order is shuffled at quiz
+time by default, but a learner can turn that off (`固定選項順序`), and the question bank browses the
+file order as written — a file whose answer is always `a` is answerable without reading it. Rate
+honestly on the 1–5 scale, and if an item cannot be made to earn a 3 it does not belong in the
+curated bank: the generated bank already covers plain recognition, so every curated question now
+sits at 3 or above.
 
 ---
 
@@ -899,7 +947,8 @@ Example output:
 ```
 
 The counts above are the *curated* questions only — the questions kept in git. The bank the app
-shows also contains the recognition questions generated from all 4,120 entries.
+shows also contains one generated recognition question per testable entry: 4,112 of them, for a
+bank of 4,363.
 
 ---
 

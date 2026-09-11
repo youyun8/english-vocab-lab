@@ -4,22 +4,22 @@
     "type": "meaning_en_to_zh",
     "cefr": "B2",
     "wordIds": ["w_assumption"],
-    "prompt": "What does \"assumption\" mean here?",
-    "context": "The design rests on the assumption that requests arrive in order.",
+    "prompt": "In this sentence, which meaning does \"assumption\" carry?",
+    "context": "The model behaved perfectly until 2019, when an assumption nobody had thought to write down, that reporting quarters are always ninety days, silently stopped holding.",
     "options": [
-      { "id": "a", "text": "未經證明就當作真的前提" },
-      { "id": "b", "text": "經過實驗驗證的結論" },
-      { "id": "c", "text": "正式簽署的協議" },
-      { "id": "d", "text": "系統的技術規格" }
+      { "id": "a", "text": "正式就任某項職務的行為" },
+      { "id": "b", "text": "接手承擔他人責任或風險的舉動" },
+      { "id": "c", "text": "未經證明就被當成真、並據以推論的前提" },
+      { "id": "d", "text": "經過檢驗而確立下來的結論" }
     ],
-    "correctOptionId": "a",
-    "explanation": "assumption 指「沒有證明就接受、並據以推論的前提」。",
+    "correctOptionId": "c",
+    "explanation": "nobody had thought to write down 說明它從來沒被人明白提出，stopped holding 又說明它是一個「成不成立」的命題。assumption 正是這種沒被證明卻一路被拿來推論的前提，多數難纏的錯誤都出在它身上。",
     "distractorExplanations": {
-      "b": "已驗證的結論是 conclusion 或 finding，與未經證明的前提相反。",
-      "c": "正式協議是 agreement 或 contract。",
-      "d": "技術規格是 specification。"
+      "a": "the assumption of office 確實是「就任」，但那個用法後面接的是職位；本句的 assumption 後面接的是一個 that 子句，內容是關於季度長度的陳述。",
+      "b": "assumption of risk、assumption of liability 是法律與保險語境中的「承接風險或責任」，同樣要接一個被承擔的事物，而不是一句可以成立或不成立的命題。",
+      "d": "經過檢驗確立的是 conclusion 或 finding；本句的重點恰恰相反——沒有人寫下它，也沒有人驗證過它。"
     },
-    "difficulty": 2,
+    "difficulty": 4,
     "tags": ["meaning", "engineering"],
     "source": "curated"
   },
@@ -28,22 +28,22 @@
     "type": "meaning_en_to_zh",
     "cefr": "C1",
     "wordIds": ["w_pragmatic"],
-    "prompt": "What does \"pragmatic\" mean here?",
-    "context": "We took a pragmatic approach: fix the symptom now, the cause next quarter.",
+    "prompt": "In this sentence, which meaning does \"pragmatic\" carry?",
+    "context": "Her proposal was criticized as unprincipled, but it was simply pragmatic: she accepted a rule she disliked because fighting it would have cost the project a year.",
     "options": [
-      { "id": "a", "text": "務實的，以實際效果為判準" },
-      { "id": "b", "text": "固守原則、不願妥協的" },
-      { "id": "c", "text": "追求完美、不計成本的" },
-      { "id": "d", "text": "草率而缺乏規劃的" }
+      { "id": "a", "text": "屬於語言學中研究語境如何影響意義的" },
+      { "id": "b", "text": "以實際效果為判準，願意為結果接受不完美的安排" },
+      { "id": "c", "text": "為了討好各方而放棄自身立場的" },
+      { "id": "d", "text": "信奉實用主義這一哲學流派的" }
     ],
-    "correctOptionId": "a",
-    "explanation": "pragmatic 指以「行不行得通」為判準，願意接受不完美但夠用的做法。",
+    "correctOptionId": "b",
+    "explanation": "冒號後面說明了整個取捨：她不喜歡那條規則，但抗爭的代價是一年，所以接受它。pragmatic 指判斷時以「行不行得通、划不划算」為準，是正面評價。",
     "distractorExplanations": {
-      "b": "固守原則是 dogmatic，正是 pragmatic 的反面。",
-      "c": "不計成本追求完美與務實相反。",
-      "d": "pragmatic 是正面評價，不等於草率——務實仍需理由。"
+      "a": "那是 pragmatics（語用學）衍生的專門意義，只出現在語言學討論中，例如 pragmatic inference；本句談的是專案決策。",
+      "c": "討好各方、隨風轉向是 expedient 或 opportunistic，正是批評者說的 unprincipled；句中的 but 明白否定了這個讀法，她是有理由地取捨，不是沒有立場。",
+      "d": "指哲學上的實用主義要用 pragmatist（名詞）或大寫的 Pragmatic 學派脈絡；本句沒有任何哲學立場的討論。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": ["meaning", "attitude"],
     "source": "curated"
   },
@@ -52,22 +52,22 @@
     "type": "meaning_en_to_zh",
     "cefr": "C2",
     "wordIds": ["w_tacit"],
-    "prompt": "What does \"tacit\" mean in this sentence?",
-    "context": "Silence in a code review is often read as tacit approval.",
+    "prompt": "In this sentence, which meaning does \"tacit\" carry?",
+    "context": "No one on the committee ever voted for the practice; it survived on a tacit understanding that whoever raised the question first would be asked to fix it.",
     "options": [
-      { "id": "a", "text": "未明說卻心照不宣的" },
-      { "id": "b", "text": "以書面正式記載的" },
-      { "id": "c", "text": "勉強而不情願的" },
-      { "id": "d", "text": "暫時而可隨時撤回的" }
+      { "id": "a", "text": "雖然從未說破，但各方都心知肚明的" },
+      { "id": "b", "text": "隱含在制度設計裡、當事人未必察覺的" },
+      { "id": "c", "text": "勉強接受、心裡其實不情願的" },
+      { "id": "d", "text": "暫時有效、隨時可以收回的" }
     ],
     "correctOptionId": "a",
-    "explanation": "tacit 指「沒有說出口，但雙方都明白」的共識或許可。",
+    "explanation": "沒有人投過票，這個慣例卻能存活下來，靠的是每個人都算得出「先開口的人就得收拾」。tacit 特指這種沒有說出口、也沒寫下來，但雙方都明白並依此行事的共識。",
     "distractorExplanations": {
-      "b": "書面正式記載正是 explicit，與 tacit 相反。",
-      "c": "勉強不情願是 reluctant，與是否說出口無關。",
-      "d": "暫時可撤回是 provisional 或 revocable。"
+      "b": "那是 implicit：某個前提內含於設計之中，可能是單方面的，當事人甚至沒意識到。本句的委員們顯然都很清楚後果，正因為清楚才沒有人開口。",
+      "c": "勉強而不情願是 reluctant，講的是心裡願不願意；tacit 講的是有沒有說出口，一個人也可以心甘情願地默許。",
+      "d": "暫時、可撤回是 provisional 或 revocable；本句強調的是這個慣例存活了下來，並未提到效期。"
     },
-    "difficulty": 4,
+    "difficulty": 5,
     "tags": ["meaning", "workplace"],
     "source": "curated"
   },
@@ -76,23 +76,23 @@
     "type": "meaning_en_to_zh",
     "cefr": "C2",
     "wordIds": ["w_untenable"],
-    "prompt": "What does \"untenable\" mean here?",
-    "context": "Maintaining four release branches with three engineers proved untenable.",
+    "prompt": "In this sentence, which meaning does \"untenable\" carry?",
+    "context": "Once the excavation revealed pottery two centuries older than the settlement, the dating on which the whole migration hypothesis depended became untenable.",
     "options": [
-      { "id": "a", "text": "難以為繼、守不住的" },
-      { "id": "b", "text": "史無前例、從未發生過的" },
-      { "id": "c", "text": "極為昂貴但仍可行的" },
-      { "id": "d", "text": "技術上不可能實作的" }
+      { "id": "a", "text": "因人力或資源不足而難以長期維持下去" },
+      { "id": "b", "text": "技術上根本無法執行" },
+      { "id": "c", "text": "前所未聞，從來沒有人提出過" },
+      { "id": "d", "text": "因反證出現而再也無法為之辯護" }
     ],
-    "correctOptionId": "a",
-    "explanation": "untenable 指「立場或處境無法維持下去」，這裡是人力撐不住四條分支。",
+    "correctOptionId": "d",
+    "explanation": "untenable 的字根是「守不住」。這裡守不住的是一個年代判定：出土陶器比聚落早了兩百年，這項判定就再也辯護不了了。觸發的因素是證據，不是資源。",
     "distractorExplanations": {
-      "b": "史無前例是 unprecedented。",
-      "c": "untenable 的重點正是「撐不下去」，不是「仍可行」。",
-      "d": "技術上做不到是 infeasible；這件事做得到，只是維持不了。"
+      "a": "untenable 確實常用在這個意思上，例如 maintaining four release branches with three engineers is untenable，那時的主語是一個要靠人力撐住的處境；本句的主語是一項判定，沒有誰在「維持」它。",
+      "b": "技術上做不到是 infeasible，關乎執行可能性；這個年代判定早就做出來了，問題在於它站不住腳。",
+      "c": "前所未聞是 unprecedented；本句說這個假說原本是整個遷徙論述的支柱，顯然已經被提出過。"
     },
     "difficulty": 4,
-    "tags": ["meaning", "business"],
+    "tags": ["meaning", "academic"],
     "source": "curated"
   },
   {
@@ -100,22 +100,23 @@
     "type": "meaning_zh_to_en",
     "cefr": "C1",
     "wordIds": ["w_facilitate"],
-    "prompt": "哪一個英文單字最接近「促進、使某個過程更容易進行」？",
+    "prompt": "「讓一個原本就在進行的過程更順利」——哪一個字既是這個意思，又能填入空格？",
+    "context": "A good chair does not take sides or push for a verdict; she simply ____ the discussion, drawing out the quieter members so that the group reaches its own conclusion.",
     "options": [
-      { "id": "a", "text": "facilitate" },
-      { "id": "b", "text": "fabricate" },
-      { "id": "c", "text": "fluctuate" },
-      { "id": "d", "text": "formulate" }
+      { "id": "a", "text": "mediates" },
+      { "id": "b", "text": "expedites" },
+      { "id": "c", "text": "enables" },
+      { "id": "d", "text": "facilitates" }
     ],
-    "correctOptionId": "a",
-    "explanation": "facilitate 指「讓某個過程進行得更順利」，自己不是主角。",
+    "correctOptionId": "d",
+    "explanation": "does not take sides、does not push for a verdict、reaches its own conclusion 三處都在說：她讓討論進行得更順，但不介入結論。這正是 facilitate 的核心，也是 facilitator（引導者）這個職稱的由來。",
     "distractorExplanations": {
-      "b": "fabricate 是「捏造、製造」。",
-      "c": "fluctuate 是「波動起伏」。",
-      "d": "formulate 是「明確表述、擬定」。"
+      "a": "mediate 是「調停」，前提是有對立的雙方與一樁爭端要處理，而且調停者的目標就是促成一個結論；本句只是一場一般的討論。",
+      "b": "expedite 是「加快處理速度」，受詞多為 a request、a shipment、an approval；本句在意的是討論的品質與參與度，不是快慢。",
+      "c": "enable 是「讓原本辦不到的事變得可能」，而且習慣用 enable somebody to do something；這場討論本來就進行得下去，只是需要有人讓它更順暢。"
     },
-    "difficulty": 3,
-    "tags": ["meaning", "business"],
+    "difficulty": 4,
+    "tags": ["meaning", "workplace"],
     "source": "curated"
   },
   {
@@ -123,21 +124,22 @@
     "type": "meaning_zh_to_en",
     "cefr": "C1",
     "wordIds": ["w_threshold"],
-    "prompt": "哪一個英文單字最接近「跨過去就會觸發某事的臨界值」？",
+    "prompt": "「跨過去就會觸發某種後續處置的臨界值」——哪一個字既是這個意思，又能填入空格？",
+    "context": "Nothing is blocked when usage passes this number; crossing the ____ merely moves the account into a tier where every request is sampled for review.",
     "options": [
-      { "id": "a", "text": "threshold" },
-      { "id": "b", "text": "thoroughfare" },
-      { "id": "c", "text": "throughput" },
-      { "id": "d", "text": "thermostat" }
+      { "id": "a", "text": "quota" },
+      { "id": "b", "text": "threshold" },
+      { "id": "c", "text": "ceiling" },
+      { "id": "d", "text": "limit" }
     ],
-    "correctOptionId": "a",
-    "explanation": "threshold 就是「臨界點」，越過即觸發後續行為。",
+    "correctOptionId": "b",
+    "explanation": "Nothing is blocked 是解題的關鍵：越過這個數字不會被擋下來，只是觸發另一套處理方式。threshold 就是這種「跨過即觸發」的臨界點，越過本身並不算違規。",
     "distractorExplanations": {
-      "b": "thoroughfare 是「大道、通行道路」。",
-      "c": "throughput 是「吞吐量」，指單位時間的處理量。",
-      "d": "thermostat 是「恆溫器」。"
+      "a": "quota 是「配額」，用完就沒有了，本質上是一個會被耗盡並擋下後續請求的額度。",
+      "c": "ceiling 是「天花板」式的絕對上限，強調再高也上不去；本句的數字顯然可以被超過。",
+      "d": "limit 是「不可超過的上限」，越過就是違規，通常伴隨拒絕或處罰（rate limit）；這與 Nothing is blocked 直接矛盾。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": ["meaning", "monitoring"],
     "source": "curated"
   },
@@ -146,21 +148,22 @@
     "type": "meaning_zh_to_en",
     "cefr": "C1",
     "wordIds": ["w_obsolete"],
-    "prompt": "哪一個英文單字最接近「因為被更好的東西取代而不再使用的」？",
+    "prompt": "「因為出現更好的替代方案，實際上已經沒有人再用的」——哪一個字既是這個意思，又能填入空格？",
+    "context": "The endpoint was never formally marked for removal in the documentation; it simply became ____ once the platform started doing the same work natively.",
     "options": [
-      { "id": "a", "text": "obsolete" },
+      { "id": "a", "text": "deprecated" },
       { "id": "b", "text": "obscure" },
-      { "id": "c", "text": "obsessive" },
-      { "id": "d", "text": "obedient" }
+      { "id": "c", "text": "obsolete" },
+      { "id": "d", "text": "defunct" }
     ],
-    "correctOptionId": "a",
-    "explanation": "obsolete 的核心是「有更好的替代品出現，因此被淘汰」。",
+    "correctOptionId": "c",
+    "explanation": "once the platform started doing the same work natively 指出淘汰的原因是出現了更好的替代品，而 simply became 表示這是自然而然發生的。obsolete 說的正是「被取代後實際上不再有人使用」。",
     "distractorExplanations": {
-      "b": "obscure 是「晦澀的、不為人知的」。",
-      "c": "obsessive 是「執著到近乎偏執的」。",
-      "d": "obedient 是「服從的」。"
+      "a": "deprecated 是「官方明白標示為不建議使用」，是一道正式的告示，通常寫在文件裡；本句第一句就說它從未被正式標記過。",
+      "b": "obscure 是「晦澀、不為人知的」，講的是能見度；這個端點不是沒人知道，而是沒人需要了。",
+      "d": "defunct 指「已經停止運作、不再存在」，用於解散的公司或停刊的刊物；這個端點並沒有被移除，仍然可以呼叫，只是沒有必要。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": ["meaning", "technology"],
     "source": "curated"
   },
@@ -169,19 +172,20 @@
     "type": "meaning_zh_to_en",
     "cefr": "C2",
     "wordIds": ["w_cogent"],
-    "prompt": "哪一個英文單字最接近「論理嚴密因而令人信服的」？",
+    "prompt": "「因為推理嚴謹、環環相扣而令人信服的」——哪一個字既是這個意思，又能填入空格？",
+    "context": "The dissent is not stylish and cites no new evidence, yet it is the more ____ of the two: you may reject its premise, but never its reasoning.",
     "options": [
-      { "id": "a", "text": "cogent" },
-      { "id": "b", "text": "cogitate" },
-      { "id": "c", "text": "coherent" },
-      { "id": "d", "text": "congruent" }
+      { "id": "a", "text": "coherent" },
+      { "id": "b", "text": "congruent" },
+      { "id": "c", "text": "compelling" },
+      { "id": "d", "text": "cogent" }
     ],
-    "correctOptionId": "a",
-    "explanation": "cogent 專指「因推理嚴謹而具說服力」，幾乎只修飾 argument、case、reason。",
+    "correctOptionId": "d",
+    "explanation": "not stylish 與 cites no new evidence 先排除了文采與證據這兩個說服力的來源，yet 之後剩下的只有推理本身：前提可以不接受，推論卻挑不出毛病。cogent 專指這種「因論理嚴密而使人信服」。",
     "distractorExplanations": {
-      "b": "cogitate 是動詞「沉思」。",
-      "c": "coherent 只要求「前後連貫、講得通」，不保證有說服力。",
-      "d": "congruent 是「一致的、全等的」，多用於數學或形式對應。"
+      "a": "coherent 只要求前後連貫、講得通，一段條理清楚卻毫無說服力的文字仍然是 coherent；本句用 yet 對比，要的是一個足以勝過文采與新證據的優點。",
+      "b": "congruent 是「彼此一致、相符」，多用於數學上的全等或兩件事物之間的對應（congruent with the data），不能單獨評價一份意見書的說服力。",
+      "c": "compelling 的說服力可以來自敘事感染力或震撼的證據；但本句已經明說它既不出色也沒有新證據，正好把 compelling 常見的兩個來源都排除了。"
     },
     "difficulty": 5,
     "tags": ["meaning", "argument"],

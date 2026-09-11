@@ -11,14 +11,15 @@
       {
         "id": "s_candid_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "truthful and straightforward, especially about something difficult or sensitive",
         "definitionZh": "坦率的；直言不諱的",
         "usageExplanationZh": "常見 to be candid about，強調誠實表達意見而不隱瞞，語氣正面但也可能顯得直接。",
-        "examples": [
-          {
-            "en": "She was candid about the challenges she faced as a new manager.",
-            "zh": "她坦率地談到自己身為新任經理所面臨的挑戰。"
-          }
+        "grammarPatterns": [
+          "be candid about + noun",
+          "a candid + noun"
         ],
         "collocations": [
           {
@@ -29,21 +30,15 @@
             "text": "to be candid",
             "meaningZh": "坦白說"
           }
+        ],
+        "examples": [
+          {
+            "en": "She was candid about the challenges she faced as a new manager.",
+            "zh": "她坦率地談到自己身為新任經理所面臨的挑戰。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "frank",
@@ -59,7 +54,31 @@
         "lemma": "evasive",
         "noteZh": "閃爍其詞的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "candor",
+        "partOfSpeech": "noun",
+        "meaningZh": "坦率；直言"
+      },
+      {
+        "lemma": "candidly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "坦率地"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_cane",
@@ -73,14 +92,15 @@
       {
         "id": "s_cane_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a stick used for support while walking, or the stem of certain plants such as bamboo",
         "definitionZh": "手杖；(植物的)莖",
         "usageExplanationZh": "常見 walk with a cane，也可指植物的細長莖桿，如 sugar cane（甘蔗）。",
-        "examples": [
-          {
-            "en": "After the surgery, he needed a cane to walk.",
-            "zh": "手術後，他走路需要拄著手杖。"
-          }
+        "grammarPatterns": [
+          "walk with a cane",
+          "lean on a cane"
         ],
         "collocations": [
           {
@@ -91,28 +111,52 @@
             "text": "sugar cane",
             "meaningZh": "甘蔗"
           }
+        ],
+        "examples": [
+          {
+            "en": "After the surgery, he needed a cane to walk.",
+            "zh": "手術後，他走路需要拄著手杖。"
+          }
         ]
       },
       {
         "id": "s_cane_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to hit someone with a cane as a form of punishment",
         "definitionZh": "用藤條鞭打",
         "usageExplanationZh": "多見於歷史或描述傳統體罰的語境，現代教育中已被廣泛禁止使用。",
-        "examples": [
-          {
-            "en": "In the past, students were sometimes caned for misbehavior.",
-            "zh": "過去，學生行為不端有時會被藤條鞭打。"
-          }
+        "grammarPatterns": [
+          "cane sb",
+          "be caned for + V-ing"
         ],
         "collocations": [
           {
             "text": "cane a pupil",
             "meaningZh": "用藤條鞭打學生（體罰用語）"
           }
+        ],
+        "examples": [
+          {
+            "en": "In the past, students were sometimes caned for misbehavior.",
+            "zh": "過去，學生行為不端有時會被藤條鞭打。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "walking stick",
+        "noteZh": "指支撐行走的手杖"
+      },
+      {
+        "lemma": "whip",
+        "noteZh": "動詞，鞭打"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -124,18 +168,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "walking stick",
-        "noteZh": "指支撐行走的手杖"
-      },
-      {
-        "lemma": "whip",
-        "noteZh": "動詞，鞭打"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_canine",
@@ -149,33 +182,42 @@
       {
         "id": "s_canine_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical"
+        ],
         "definitionEn": "a pointed tooth located between the incisors and premolars, or (informally) a dog",
         "definitionZh": "犬齒；犬類動物",
         "usageExplanationZh": "可指人類或動物口中特定的尖牙，也可泛指狗（as canines are trained），須依語境判斷。",
-        "examples": [
-          {
-            "en": "The dentist examined her canine for signs of decay.",
-            "zh": "牙醫檢查她的犬齒是否有蛀牙跡象。"
-          }
+        "grammarPatterns": [
+          "an upper/lower canine",
+          "examine a canine"
         ],
         "collocations": [
           {
             "text": "canine tooth",
             "meaningZh": "犬齒"
           }
+        ],
+        "examples": [
+          {
+            "en": "The dentist examined her canine for signs of decay.",
+            "zh": "牙醫檢查她的犬齒是否有蛀牙跡象。"
+          }
         ]
       },
       {
         "id": "s_canine_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "relating to dogs, or resembling a pointed tooth",
         "definitionZh": "犬的；似犬齒的",
         "usageExplanationZh": "常見於獸醫或生物學語境，如 canine behavior，也可形容牙齒形狀類似犬齒。",
-        "examples": [
-          {
-            "en": "The clinic specializes in canine health issues.",
-            "zh": "這家診所專門處理犬類健康問題。"
-          }
+        "grammarPatterns": [
+          "canine + noun",
+          "canine health/behavior"
         ],
         "collocations": [
           {
@@ -186,20 +228,15 @@
             "text": "canine teeth",
             "meaningZh": "犬齒"
           }
+        ],
+        "examples": [
+          {
+            "en": "The clinic specializes in canine health issues.",
+            "zh": "這家診所專門處理犬類健康問題。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "dog",
@@ -210,7 +247,18 @@
         "noteZh": "牙科用語，犬齒"
       }
     ],
-    "antonyms": []
+    "antonyms": [],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_canonical",
@@ -224,14 +272,17 @@
       {
         "id": "s_canonical_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "formal",
+          "technical"
+        ],
         "definitionEn": "accepted as authoritative or standard, or conforming to recognized rules",
         "definitionZh": "被公認的；標準的",
         "usageExplanationZh": "常見於學術或宗教語境，如 the canonical text，指被廣泛承認為正統或標準的形式。",
-        "examples": [
-          {
-            "en": "This edition is considered the canonical version of the play.",
-            "zh": "這個版本被視為這齣戲劇的標準版本。"
-          }
+        "grammarPatterns": [
+          "the canonical + noun",
+          "be considered canonical"
         ],
         "collocations": [
           {
@@ -242,20 +293,15 @@
             "text": "canonical form",
             "meaningZh": "標準形式"
           }
+        ],
+        "examples": [
+          {
+            "en": "This edition is considered the canonical version of the play.",
+            "zh": "這個版本被視為這齣戲劇的標準版本。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "authoritative",
@@ -271,7 +317,35 @@
         "lemma": "noncanonical",
         "noteZh": "不屬公認正典的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "canon",
+        "partOfSpeech": "noun",
+        "meaningZh": "準則；經典"
+      },
+      {
+        "lemma": "canonically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "依規範地"
+      },
+      {
+        "lemma": "canonize",
+        "partOfSpeech": "verb",
+        "meaningZh": "列為經典；封聖"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_canvas",
@@ -285,14 +359,17 @@
       {
         "id": "s_canvas_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a strong, heavy fabric used for sails, tents, or as a surface for oil painting",
         "definitionZh": "帆布；(油畫的)畫布",
         "usageExplanationZh": "常見 paint on canvas，指用於藝術創作或製作帳篷、船帆的粗厚布料。",
-        "examples": [
-          {
-            "en": "The artist stretched a new canvas before beginning the painting.",
-            "zh": "這位藝術家在開始作畫前先繃了一塊新畫布。"
-          }
+        "grammarPatterns": [
+          "on canvas",
+          "a blank canvas",
+          "be made of canvas"
         ],
         "collocations": [
           {
@@ -303,9 +380,17 @@
             "text": "oil on canvas",
             "meaningZh": "畫布上的油畫"
           }
+        ],
+        "examples": [
+          {
+            "en": "The artist stretched a new canvas before beginning the painting.",
+            "zh": "這位藝術家在開始作畫前先繃了一塊新畫布。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -318,9 +403,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_canyon",
@@ -334,14 +417,15 @@
       {
         "id": "s_canyon_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a deep valley with steep sides, typically formed by a river",
         "definitionZh": "峽谷",
         "usageExplanationZh": "常見 the Grand Canyon，指因河流長期侵蝕而形成的深邃山谷地形。",
-        "examples": [
-          {
-            "en": "They hiked along the rim of the canyon at sunset.",
-            "zh": "他們在日落時分沿著峽谷邊緣健行。"
-          }
+        "grammarPatterns": [
+          "the rim of the canyon",
+          "a deep canyon"
         ],
         "collocations": [
           {
@@ -352,9 +436,26 @@
             "text": "canyon walls",
             "meaningZh": "峽谷岩壁"
           }
+        ],
+        "examples": [
+          {
+            "en": "They hiked along the rim of the canyon at sunset.",
+            "zh": "他們在日落時分沿著峽谷邊緣健行。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "gorge",
+        "noteZh": "兩側陡峭的峽谷"
+      },
+      {
+        "lemma": "ravine",
+        "noteZh": "較狹小的深谷"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -366,18 +467,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "gorge",
-        "noteZh": "兩側陡峭的峽谷"
-      },
-      {
-        "lemma": "ravine",
-        "noteZh": "較狹小的深谷"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_capability",
@@ -391,14 +481,18 @@
       {
         "id": "s_capability_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical",
+          "business"
+        ],
         "definitionEn": "the ability or power to do something",
         "definitionZh": "能力；才能",
         "usageExplanationZh": "常見 have the capability to do something，也可指組織或系統的技術能力，如 military capability。",
-        "examples": [
-          {
-            "en": "The new software has the capability to process large amounts of data.",
-            "zh": "這套新軟體有能力處理大量資料。"
-          }
+        "grammarPatterns": [
+          "the capability to do sth",
+          "have the capability of + V-ing",
+          "military capability"
         ],
         "collocations": [
           {
@@ -409,20 +503,15 @@
             "text": "capability to do something",
             "meaningZh": "做某事的能力"
           }
+        ],
+        "examples": [
+          {
+            "en": "The new software has the capability to process large amounts of data.",
+            "zh": "這套新軟體有能力處理大量資料。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "ability",
@@ -438,7 +527,30 @@
         "lemma": "inability",
         "noteZh": "無能力"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "capable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有能力的"
+      },
+      {
+        "lemma": "incapable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "沒有能力的"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_capable",
@@ -452,14 +564,15 @@
       {
         "id": "s_capable_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "having the ability, skill, or qualities necessary to do something",
         "definitionZh": "有能力的；能幹的",
         "usageExplanationZh": "常見 capable of doing something，強調具備完成某事所需的能力或特質。",
-        "examples": [
-          {
-            "en": "She is a capable manager who handles pressure well.",
-            "zh": "她是位能幹的經理人，能妥善應對壓力。"
-          }
+        "grammarPatterns": [
+          "be capable of + V-ing",
+          "a capable + noun"
         ],
         "collocations": [
           {
@@ -470,20 +583,15 @@
             "text": "highly capable",
             "meaningZh": "非常能幹的"
           }
+        ],
+        "examples": [
+          {
+            "en": "She is a capable manager who handles pressure well.",
+            "zh": "她是位能幹的經理人，能妥善應對壓力。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "competent",
@@ -499,7 +607,35 @@
         "lemma": "incapable",
         "noteZh": "無能力的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "capability",
+        "partOfSpeech": "noun",
+        "meaningZh": "能力；才能"
+      },
+      {
+        "lemma": "incapable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "沒有能力的"
+      },
+      {
+        "lemma": "capably",
+        "partOfSpeech": "adverb",
+        "meaningZh": "能幹地"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_capacity",
@@ -513,14 +649,18 @@
       {
         "id": "s_capacity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical",
+          "business"
+        ],
         "definitionEn": "the maximum amount that something can contain or produce, or a person's ability to do something",
         "definitionZh": "容量；能力",
         "usageExplanationZh": "常見 seating capacity、the capacity to learn，可指物理上的最大容量，也可指個人能力。",
-        "examples": [
-          {
-            "en": "The stadium has a seating capacity of fifty thousand.",
-            "zh": "這座體育場的座位容量為五萬人。"
-          }
+        "grammarPatterns": [
+          "the capacity to do sth",
+          "a capacity of + noun",
+          "at full capacity"
         ],
         "collocations": [
           {
@@ -531,7 +671,36 @@
             "text": "capacity for learning",
             "meaningZh": "學習能力"
           }
+        ],
+        "examples": [
+          {
+            "en": "The stadium has a seating capacity of fifty thousand.",
+            "zh": "這座體育場的座位容量為五萬人。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "volume",
+        "noteZh": "容器的容量"
+      },
+      {
+        "lemma": "ability",
+        "noteZh": "做事的能力"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "capacious",
+        "partOfSpeech": "adjective",
+        "meaningZh": "容量大的；寬敞的"
+      },
+      {
+        "lemma": "incapacity",
+        "partOfSpeech": "noun",
+        "meaningZh": "無能力；喪失能力"
       }
     ],
     "tags": [
@@ -545,18 +714,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "volume",
-        "noteZh": "容器的容量"
-      },
-      {
-        "lemma": "ability",
-        "noteZh": "做事的能力"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_cape",
@@ -570,14 +728,16 @@
       {
         "id": "s_cape_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "a sleeveless outer garment that hangs from the shoulders, or a piece of land jutting into the sea",
         "definitionZh": "披風；海角",
         "usageExplanationZh": "常見 a superhero's cape，也可指地理上突出於海中的陸地，如 the Cape of Good Hope。",
-        "examples": [
-          {
-            "en": "The magician swirled his cape dramatically before the trick.",
-            "zh": "魔術師在表演前戲劇性地甩動了他的披風。"
-          }
+        "grammarPatterns": [
+          "wear a cape",
+          "the Cape of + noun"
         ],
         "collocations": [
           {
@@ -588,9 +748,26 @@
             "text": "round the cape",
             "meaningZh": "繞過海角"
           }
+        ],
+        "examples": [
+          {
+            "en": "The magician swirled his cape dramatically before the trick.",
+            "zh": "魔術師在表演前戲劇性地甩動了他的披風。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "cloak",
+        "noteZh": "指披風"
+      },
+      {
+        "lemma": "headland",
+        "noteZh": "指伸入海中的陸地"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -602,18 +779,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cloak",
-        "noteZh": "指披風"
-      },
-      {
-        "lemma": "headland",
-        "noteZh": "指伸入海中的陸地"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_capricious",
@@ -627,14 +793,16 @@
       {
         "id": "s_capricious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "given to sudden and unpredictable changes in behavior or mood",
         "definitionZh": "反覆無常的；任性的",
         "usageExplanationZh": "常修飾 person、weather，形容行為或情況缺乏規律、難以預料，帶輕微負面評價。",
-        "examples": [
-          {
-            "en": "The company's capricious management style frustrated many employees.",
-            "zh": "這家公司反覆無常的管理風格讓許多員工感到沮喪。"
-          }
+        "grammarPatterns": [
+          "a capricious + noun",
+          "be capricious"
         ],
         "collocations": [
           {
@@ -645,21 +813,15 @@
             "text": "capricious weather",
             "meaningZh": "變幻莫測的天氣"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company's capricious management style frustrated many employees.",
+            "zh": "這家公司反覆無常的管理風格讓許多員工感到沮喪。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "fickle",
@@ -675,111 +837,17 @@
         "lemma": "consistent",
         "noteZh": "一貫穩定的"
       }
-    ]
-  },
-  {
-    "id": "w_caption",
-    "lemma": "caption",
-    "slug": "caption",
-    "cefr": "C1",
-    "pronunciation": {
-      "kk": "/ˈkæpʃən/"
-    },
-    "senses": [
+    ],
+    "wordFamily": [
       {
-        "id": "s_caption_noun",
+        "lemma": "caprice",
         "partOfSpeech": "noun",
-        "definitionEn": "a brief text accompanying an image or explaining a video/photo",
-        "definitionZh": "說明文字；字幕",
-        "usageExplanationZh": "常見 a photo caption，指附於圖片、影片下方用以說明內容的簡短文字。",
-        "examples": [
-          {
-            "en": "Each photo in the album has a short caption.",
-            "zh": "相簿裡的每張照片都附有簡短的說明文字。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "photo caption",
-            "meaningZh": "照片說明文字"
-          }
-        ]
+        "meaningZh": "反覆無常；任性"
       },
       {
-        "id": "s_caption_verb",
-        "partOfSpeech": "verb",
-        "definitionEn": "to provide a picture or video with a brief explanatory text",
-        "definitionZh": "為...加上說明文字",
-        "usageExplanationZh": "常見 caption a photo，強調撰寫並附加簡短文字說明圖像或影片內容的動作。",
-        "examples": [
-          {
-            "en": "She captioned the photo with a funny joke.",
-            "zh": "她為這張照片加上了一句有趣的說明。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "caption a photo",
-            "meaningZh": "為照片加上說明文字"
-          }
-        ]
-      }
-    ],
-    "tags": [
-      "dictionary",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "legend",
-        "noteZh": "圖片的說明文字"
-      },
-      {
-        "lemma": "label",
-        "noteZh": "動詞，附上說明標籤"
-      }
-    ],
-    "antonyms": []
-  },
-  {
-    "id": "w_captivate",
-    "lemma": "captivate",
-    "slug": "captivate",
-    "cefr": "C2",
-    "pronunciation": {
-      "kk": "/ˈkæptɪˌvet/"
-    },
-    "senses": [
-      {
-        "id": "s_captivate_verb",
-        "partOfSpeech": "verb",
-        "definitionEn": "to attract and hold the attention or interest of someone completely",
-        "definitionZh": "迷住；吸引",
-        "usageExplanationZh": "常見 captivate an audience，強調使人全神貫注、深受吸引的效果，語氣正面。",
-        "examples": [
-          {
-            "en": "The storyteller captivated the children with her tales.",
-            "zh": "這位說故事的人用她的故事迷住了孩子們。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "captivate an audience",
-            "meaningZh": "使觀眾著迷"
-          },
-          {
-            "text": "be captivated by",
-            "meaningZh": "被……深深吸引"
-          }
-        ]
+        "lemma": "capriciously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "任性地"
       }
     ],
     "tags": [
@@ -793,7 +861,137 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
+    }
+  },
+  {
+    "id": "w_caption",
+    "lemma": "caption",
+    "slug": "caption",
+    "cefr": "C1",
+    "pronunciation": {
+      "kk": "/ˈkæpʃən/"
     },
+    "senses": [
+      {
+        "id": "s_caption_noun",
+        "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
+        "definitionEn": "a brief text accompanying an image or explaining a video/photo",
+        "definitionZh": "說明文字；字幕",
+        "usageExplanationZh": "常見 a photo caption，指附於圖片、影片下方用以說明內容的簡短文字。",
+        "grammarPatterns": [
+          "a caption for/under + noun",
+          "write a caption"
+        ],
+        "collocations": [
+          {
+            "text": "photo caption",
+            "meaningZh": "照片說明文字"
+          }
+        ],
+        "examples": [
+          {
+            "en": "Each photo in the album has a short caption.",
+            "zh": "相簿裡的每張照片都附有簡短的說明文字。"
+          }
+        ]
+      },
+      {
+        "id": "s_caption_verb",
+        "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "technical"
+        ],
+        "definitionEn": "to provide a picture or video with a brief explanatory text",
+        "definitionZh": "為...加上說明文字",
+        "usageExplanationZh": "常見 caption a photo，強調撰寫並附加簡短文字說明圖像或影片內容的動作。",
+        "grammarPatterns": [
+          "caption + noun",
+          "caption sth with + noun"
+        ],
+        "collocations": [
+          {
+            "text": "caption a photo",
+            "meaningZh": "為照片加上說明文字"
+          }
+        ],
+        "examples": [
+          {
+            "en": "She captioned the photo with a funny joke.",
+            "zh": "她為這張照片加上了一句有趣的說明。"
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "legend",
+        "noteZh": "圖片的說明文字"
+      },
+      {
+        "lemma": "label",
+        "noteZh": "動詞，附上說明標籤"
+      }
+    ],
+    "antonyms": [],
+    "tags": [
+      "dictionary",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
+  },
+  {
+    "id": "w_captivate",
+    "lemma": "captivate",
+    "slug": "captivate",
+    "cefr": "C2",
+    "pronunciation": {
+      "kk": "/ˈkæptɪˌvet/"
+    },
+    "senses": [
+      {
+        "id": "s_captivate_verb",
+        "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
+        "definitionEn": "to attract and hold the attention or interest of someone completely",
+        "definitionZh": "迷住；吸引",
+        "usageExplanationZh": "常見 captivate an audience，強調使人全神貫注、深受吸引的效果，語氣正面。",
+        "grammarPatterns": [
+          "captivate sb",
+          "be captivated by + noun"
+        ],
+        "collocations": [
+          {
+            "text": "captivate an audience",
+            "meaningZh": "使觀眾著迷"
+          },
+          {
+            "text": "be captivated by",
+            "meaningZh": "被……深深吸引"
+          }
+        ],
+        "examples": [
+          {
+            "en": "The storyteller captivated the children with her tales.",
+            "zh": "這位說故事的人用她的故事迷住了孩子們。"
+          }
+        ]
+      }
+    ],
     "synonyms": [
       {
         "lemma": "fascinate",
@@ -809,7 +1007,26 @@
         "lemma": "bore",
         "noteZh": "使感到無聊"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "captivation",
+        "partOfSpeech": "noun",
+        "meaningZh": "著迷；入迷"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_capture",
@@ -823,14 +1040,15 @@
       {
         "id": "s_capture_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "the act of catching or taking control of a person, animal, or place by force",
         "definitionZh": "捕獲；攻佔",
         "usageExplanationZh": "常見 the capture of a fugitive，指以武力或策略成功控制或抓住目標的行動。",
-        "examples": [
-          {
-            "en": "The capture of the escaped prisoner took several days.",
-            "zh": "抓捕這名逃犯花了好幾天時間。"
-          }
+        "grammarPatterns": [
+          "the capture of + noun",
+          "evade capture"
         ],
         "collocations": [
           {
@@ -841,22 +1059,15 @@
             "text": "evade capture",
             "meaningZh": "逃避追捕"
           }
+        ],
+        "examples": [
+          {
+            "en": "The capture of the escaped prisoner took several days.",
+            "zh": "抓捕這名逃犯花了好幾天時間。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "seizure",
@@ -872,7 +1083,37 @@
         "lemma": "release",
         "noteZh": "指釋放被捕者"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "captive",
+        "partOfSpeech": "noun",
+        "meaningZh": "俘虜"
+      },
+      {
+        "lemma": "captivity",
+        "partOfSpeech": "noun",
+        "meaningZh": "囚禁；被俘"
+      },
+      {
+        "lemma": "captor",
+        "partOfSpeech": "noun",
+        "meaningZh": "捕獲者；擄人者"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_carbohydrate",
@@ -886,14 +1127,16 @@
       {
         "id": "s_carbohydrate_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "an organic compound found in food that provides energy, such as sugars and starches",
         "definitionZh": "碳水化合物",
         "usageExplanationZh": "常見於營養學語境，如 complex carbohydrates，指提供人體能量的主要營養素之一。",
-        "examples": [
-          {
-            "en": "Bread and pasta are rich in carbohydrates.",
-            "zh": "麵包和義大利麵富含碳水化合物。"
-          }
+        "grammarPatterns": [
+          "be rich in carbohydrates",
+          "complex carbohydrates"
         ],
         "collocations": [
           {
@@ -904,9 +1147,22 @@
             "text": "carbohydrate intake",
             "meaningZh": "碳水化合物攝取量"
           }
+        ],
+        "examples": [
+          {
+            "en": "Bread and pasta are rich in carbohydrates.",
+            "zh": "麵包和義大利麵富含碳水化合物。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "carb",
+        "noteZh": "碳水化合物的口語簡稱"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -918,14 +1174,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "carb",
-        "noteZh": "碳水化合物的口語簡稱"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_carbon",
@@ -939,14 +1188,16 @@
       {
         "id": "s_carbon_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a chemical element found in all living things and in materials such as coal and diamonds",
         "definitionZh": "碳",
         "usageExplanationZh": "常見 carbon emissions、carbon dioxide，是環境與化學語境中常見的基礎元素。",
-        "examples": [
-          {
-            "en": "Diamonds are made almost entirely of carbon.",
-            "zh": "鑽石幾乎完全由碳組成。"
-          }
+        "grammarPatterns": [
+          "a carbon atom",
+          "be made of carbon"
         ],
         "collocations": [
           {
@@ -957,7 +1208,27 @@
             "text": "carbon emissions",
             "meaningZh": "碳排放"
           }
+        ],
+        "examples": [
+          {
+            "en": "Diamonds are made almost entirely of carbon.",
+            "zh": "鑽石幾乎完全由碳組成。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "carbonate",
+        "partOfSpeech": "noun",
+        "meaningZh": "碳酸鹽"
+      },
+      {
+        "lemma": "carbonic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "含碳的；碳酸的"
       }
     ],
     "tags": [
@@ -971,9 +1242,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_cargo",
@@ -987,14 +1256,17 @@
       {
         "id": "s_cargo_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "business"
+        ],
         "definitionEn": "goods carried by a ship, aircraft, or vehicle",
         "definitionZh": "貨物",
         "usageExplanationZh": "常見 a cargo ship，指以商業運輸方式裝載的貨品，通常為大批量。",
-        "examples": [
-          {
-            "en": "The ship was loaded with cargo bound for Asia.",
-            "zh": "這艘船裝載著要運往亞洲的貨物。"
-          }
+        "grammarPatterns": [
+          "a cargo of + noun",
+          "load/unload cargo",
+          "cargo bound for + noun"
         ],
         "collocations": [
           {
@@ -1005,9 +1277,26 @@
             "text": "load cargo",
             "meaningZh": "裝載貨物"
           }
+        ],
+        "examples": [
+          {
+            "en": "The ship was loaded with cargo bound for Asia.",
+            "zh": "這艘船裝載著要運往亞洲的貨物。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "freight",
+        "noteZh": "運輸中的貨物"
+      },
+      {
+        "lemma": "shipment",
+        "noteZh": "一批運送的貨物"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1019,18 +1308,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "freight",
-        "noteZh": "運輸中的貨物"
-      },
-      {
-        "lemma": "shipment",
-        "noteZh": "一批運送的貨物"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_carol",
@@ -1044,14 +1322,15 @@
       {
         "id": "s_carol_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a joyful song, especially one traditionally sung at Christmas",
         "definitionZh": "頌歌；聖誕頌歌",
         "usageExplanationZh": "常見 Christmas carol，指節慶場合傳唱的歡樂歌曲，多與宗教慶典相關。",
-        "examples": [
-          {
-            "en": "The choir sang carols outside the church.",
-            "zh": "唱詩班在教堂外唱起了聖誕頌歌。"
-          }
+        "grammarPatterns": [
+          "sing carols",
+          "a Christmas carol"
         ],
         "collocations": [
           {
@@ -1062,7 +1341,22 @@
             "text": "sing carols",
             "meaningZh": "唱聖誕頌歌"
           }
+        ],
+        "examples": [
+          {
+            "en": "The choir sang carols outside the church.",
+            "zh": "唱詩班在教堂外唱起了聖誕頌歌。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "caroler",
+        "partOfSpeech": "noun",
+        "meaningZh": "唱頌歌的人"
       }
     ],
     "tags": [
@@ -1075,9 +1369,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_carriage",
@@ -1091,14 +1383,15 @@
       {
         "id": "s_carriage_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a vehicle with wheels, typically pulled by horses, or a person's manner of standing and moving",
         "definitionZh": "馬車；(人的)舉止",
         "usageExplanationZh": "可指交通工具（a horse-drawn carriage），也可指人的儀態姿勢，如 her elegant carriage。",
-        "examples": [
-          {
-            "en": "The queen arrived in a golden carriage.",
-            "zh": "女王乘坐一輛金色馬車抵達。"
-          }
+        "grammarPatterns": [
+          "a horse-drawn carriage",
+          "travel by carriage"
         ],
         "collocations": [
           {
@@ -1109,7 +1402,31 @@
             "text": "upright carriage",
             "meaningZh": "挺拔的姿態"
           }
+        ],
+        "examples": [
+          {
+            "en": "The queen arrived in a golden carriage.",
+            "zh": "女王乘坐一輛金色馬車抵達。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "coach",
+        "noteZh": "馬車"
+      },
+      {
+        "lemma": "posture",
+        "noteZh": "指身體姿態"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "carry",
+        "partOfSpeech": "verb",
+        "meaningZh": "搬運；攜帶"
       }
     ],
     "tags": [
@@ -1122,18 +1439,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "coach",
-        "noteZh": "馬車"
-      },
-      {
-        "lemma": "posture",
-        "noteZh": "指身體姿態"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_carrot",
@@ -1147,14 +1453,15 @@
       {
         "id": "s_carrot_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a long orange root vegetable, or (figuratively) an incentive offered to persuade someone",
         "definitionZh": "胡蘿蔔；(比喻)誘因",
         "usageExplanationZh": "字面指常見蔬菜；比喻用法常見 carrot and stick，指以獎勵誘導對方行動的策略。",
-        "examples": [
-          {
-            "en": "She chopped carrots for the stew.",
-            "zh": "她把胡蘿蔔切塊放進燉菜裡。"
-          }
+        "grammarPatterns": [
+          "chop carrots",
+          "a carrot and stick approach"
         ],
         "collocations": [
           {
@@ -1165,9 +1472,22 @@
             "text": "carrot and stick",
             "meaningZh": "軟硬兼施的獎懲手段"
           }
+        ],
+        "examples": [
+          {
+            "en": "She chopped carrots for the stew.",
+            "zh": "她把胡蘿蔔切塊放進燉菜裡。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "incentive",
+        "noteZh": "比喻用法，誘因"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -1178,14 +1498,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "incentive",
-        "noteZh": "比喻用法，誘因"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_cart",
@@ -1199,33 +1512,41 @@
       {
         "id": "s_cart_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a small vehicle with wheels used for carrying goods, often pushed or pulled by hand",
         "definitionZh": "手推車；貨車",
         "usageExplanationZh": "常見 a shopping cart，指用於搬運貨物的輕型車輛，通常人力操作。",
-        "examples": [
-          {
-            "en": "He pushed the cart down the supermarket aisle.",
-            "zh": "他推著手推車走過超市走道。"
-          }
+        "grammarPatterns": [
+          "push a cart",
+          "a cart full of + noun"
         ],
         "collocations": [
           {
             "text": "shopping cart",
             "meaningZh": "購物推車"
           }
+        ],
+        "examples": [
+          {
+            "en": "He pushed the cart down the supermarket aisle.",
+            "zh": "他推著手推車走過超市走道。"
+          }
         ]
       },
       {
         "id": "s_cart_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to transport something in a cart, or to carry something heavy or awkward",
         "definitionZh": "用車搬運；搬運(沉重物品)",
         "usageExplanationZh": "常見 cart something around，也可比喻指費力搬運或攜帶笨重的東西。",
-        "examples": [
-          {
-            "en": "They had to cart all the boxes up three flights of stairs.",
-            "zh": "他們得把所有箱子搬上三層樓梯。"
-          }
+        "grammarPatterns": [
+          "cart sth to + noun",
+          "cart sth around/off"
         ],
         "collocations": [
           {
@@ -1236,9 +1557,26 @@
             "text": "cart around heavy bags",
             "meaningZh": "到處搬運沉重的袋子"
           }
+        ],
+        "examples": [
+          {
+            "en": "They had to cart all the boxes up three flights of stairs.",
+            "zh": "他們得把所有箱子搬上三層樓梯。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "trolley",
+        "noteZh": "手推車（英式用語）"
+      },
+      {
+        "lemma": "haul",
+        "noteZh": "動詞，費力搬運"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1250,18 +1588,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "trolley",
-        "noteZh": "手推車（英式用語）"
-      },
-      {
-        "lemma": "haul",
-        "noteZh": "動詞，費力搬運"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_cartoon",
@@ -1275,14 +1602,15 @@
       {
         "id": "s_cartoon_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a humorous drawing, or an animated film",
         "definitionZh": "漫畫；卡通影片",
         "usageExplanationZh": "常見於報章雜誌的諷刺畫，也可指動畫作品，如 watch cartoons on Saturday morning。",
-        "examples": [
-          {
-            "en": "The newspaper published a cartoon mocking the politician.",
-            "zh": "報紙刊登了一幅諷刺這位政治人物的漫畫。"
-          }
+        "grammarPatterns": [
+          "a cartoon about + noun",
+          "watch cartoons"
         ],
         "collocations": [
           {
@@ -1293,26 +1621,57 @@
             "text": "political cartoon",
             "meaningZh": "政治漫畫"
           }
+        ],
+        "examples": [
+          {
+            "en": "The newspaper published a cartoon mocking the politician.",
+            "zh": "報紙刊登了一幅諷刺這位政治人物的漫畫。"
+          }
         ]
       },
       {
         "id": "s_cartoon_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "to depict someone or something in a humorous or satirical drawing",
         "definitionZh": "把...畫成漫畫",
         "usageExplanationZh": "常見於媒體語境，指以誇張或諷刺手法將人物或事件繪製成漫畫形式。",
-        "examples": [
-          {
-            "en": "The artist cartooned the mayor as a clown.",
-            "zh": "這位畫家把市長畫成小丑的漫畫形象。"
-          }
+        "grammarPatterns": [
+          "cartoon sb as + noun"
         ],
         "collocations": [
           {
             "text": "cartoon a politician",
             "meaningZh": "以漫畫諷刺政治人物"
           }
+        ],
+        "examples": [
+          {
+            "en": "The artist cartooned the mayor as a clown.",
+            "zh": "這位畫家把市長畫成小丑的漫畫形象。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "comic strip",
+        "noteZh": "指連環漫畫"
+      },
+      {
+        "lemma": "caricature",
+        "noteZh": "動詞，以誇張畫法描繪"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "cartoonist",
+        "partOfSpeech": "noun",
+        "meaningZh": "漫畫家"
       }
     ],
     "tags": [
@@ -1327,18 +1686,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "comic strip",
-        "noteZh": "指連環漫畫"
-      },
-      {
-        "lemma": "caricature",
-        "noteZh": "動詞，以誇張畫法描繪"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_carve",
@@ -1352,14 +1700,16 @@
       {
         "id": "s_carve_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to cut a material into a particular shape, or to cut cooked meat into slices",
         "definitionZh": "雕刻；切(肉)",
         "usageExplanationZh": "常見 carve wood/stone，也可指切分烹調好的肉品，如 carve the turkey。",
-        "examples": [
-          {
-            "en": "He carved a small bird out of wood.",
-            "zh": "他用木頭雕刻出一隻小鳥。"
-          }
+        "grammarPatterns": [
+          "carve sth out of + noun",
+          "carve + noun",
+          "carve sth into + noun"
         ],
         "collocations": [
           {
@@ -1370,7 +1720,36 @@
             "text": "carve the turkey",
             "meaningZh": "切火雞肉"
           }
+        ],
+        "examples": [
+          {
+            "en": "He carved a small bird out of wood.",
+            "zh": "他用木頭雕刻出一隻小鳥。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "sculpt",
+        "noteZh": "雕塑成形"
+      },
+      {
+        "lemma": "slice",
+        "noteZh": "指將肉切片"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "carving",
+        "partOfSpeech": "noun",
+        "meaningZh": "雕刻品"
+      },
+      {
+        "lemma": "carver",
+        "partOfSpeech": "noun",
+        "meaningZh": "雕刻者"
       }
     ],
     "tags": [
@@ -1385,18 +1764,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "sculpt",
-        "noteZh": "雕塑成形"
-      },
-      {
-        "lemma": "slice",
-        "noteZh": "指將肉切片"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_cassette",
@@ -1410,14 +1778,16 @@
       {
         "id": "s_cassette_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a flat plastic case containing magnetic tape used for recording or playing sound",
         "definitionZh": "卡帶；錄音帶",
         "usageExplanationZh": "常見於描述較舊的音樂或錄音儲存媒介，如 a cassette tape，現已多被數位格式取代。",
-        "examples": [
-          {
-            "en": "He still has a box of old cassette tapes from the 1980s.",
-            "zh": "他還留著一箱一九八零年代的舊卡帶。"
-          }
+        "grammarPatterns": [
+          "a cassette tape",
+          "play a cassette"
         ],
         "collocations": [
           {
@@ -1428,9 +1798,22 @@
             "text": "cassette player",
             "meaningZh": "卡帶播放機"
           }
+        ],
+        "examples": [
+          {
+            "en": "He still has a box of old cassette tapes from the 1980s.",
+            "zh": "他還留著一箱一九八零年代的舊卡帶。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "tape",
+        "noteZh": "錄音帶的常用稱法"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1442,14 +1825,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "tape",
-        "noteZh": "錄音帶的常用稱法"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_castigate",
@@ -1463,14 +1839,16 @@
       {
         "id": "s_castigate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to criticize someone severely, often in public",
         "definitionZh": "嚴厲批評；懲罰",
         "usageExplanationZh": "常見 castigate someone for something，語氣正式且強烈，常見於書面評論或報導。",
-        "examples": [
-          {
-            "en": "The report castigated the government for its slow response.",
-            "zh": "這份報告嚴厲批評政府反應遲緩。"
-          }
+        "grammarPatterns": [
+          "castigate sb for + V-ing",
+          "castigate + noun"
         ],
         "collocations": [
           {
@@ -1481,21 +1859,15 @@
             "text": "publicly castigate",
             "meaningZh": "公開斥責"
           }
+        ],
+        "examples": [
+          {
+            "en": "The report castigated the government for its slow response.",
+            "zh": "這份報告嚴厲批評政府反應遲緩。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "rebuke",
@@ -1511,7 +1883,26 @@
         "lemma": "praise",
         "noteZh": "讚揚"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "castigation",
+        "partOfSpeech": "noun",
+        "meaningZh": "嚴厲斥責"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_casual",
@@ -1525,14 +1916,15 @@
       {
         "id": "s_casual_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "relaxed and informal, or happening without much thought or planning",
         "definitionZh": "隨意的；非正式的",
         "usageExplanationZh": "常見 casual clothing、a casual remark，形容輕鬆不拘謹的態度、服裝或言行。",
-        "examples": [
-          {
-            "en": "He wore casual clothes to the informal gathering.",
-            "zh": "他穿著休閒服裝出席這場非正式聚會。"
-          }
+        "grammarPatterns": [
+          "casual clothes/dress",
+          "a casual + noun"
         ],
         "collocations": [
           {
@@ -1543,22 +1935,15 @@
             "text": "casual conversation",
             "meaningZh": "隨意交談"
           }
+        ],
+        "examples": [
+          {
+            "en": "He wore casual clothes to the informal gathering.",
+            "zh": "他穿著休閒服裝出席這場非正式聚會。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "informal",
@@ -1574,7 +1959,32 @@
         "lemma": "formal",
         "noteZh": "正式的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "casually",
+        "partOfSpeech": "adverb",
+        "meaningZh": "隨意地；不經意地"
+      },
+      {
+        "lemma": "casualness",
+        "partOfSpeech": "noun",
+        "meaningZh": "隨便；漫不經心"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_casualty",
@@ -1588,14 +1998,15 @@
       {
         "id": "s_casualty_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a person killed or injured in an accident, war, or disaster",
         "definitionZh": "傷亡者；受害者",
         "usageExplanationZh": "常見 civilian casualties，指在意外、戰爭或災難中受傷或死亡的人。",
-        "examples": [
-          {
-            "en": "The earthquake resulted in hundreds of casualties.",
-            "zh": "這場地震造成數百人傷亡。"
-          }
+        "grammarPatterns": [
+          "heavy casualties",
+          "a casualty of + noun"
         ],
         "collocations": [
           {
@@ -1606,9 +2017,22 @@
             "text": "suffer heavy casualties",
             "meaningZh": "遭受重大傷亡"
           }
+        ],
+        "examples": [
+          {
+            "en": "The earthquake resulted in hundreds of casualties.",
+            "zh": "這場地震造成數百人傷亡。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "victim",
+        "noteZh": "事故或災難中的受害者"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1621,14 +2045,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "victim",
-        "noteZh": "事故或災難中的受害者"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_catalog",
@@ -1642,14 +2059,16 @@
       {
         "id": "s_catalog_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "a complete list of items, often systematically organized, such as products for sale",
         "definitionZh": "目錄",
         "usageExplanationZh": "常見 a mail-order catalog，指有系統整理列出的物品清單，供選購或查詢參考。",
-        "examples": [
-          {
-            "en": "She flipped through the furniture catalog looking for a new sofa.",
-            "zh": "她翻閱著家具目錄，尋找一張新沙發。"
-          }
+        "grammarPatterns": [
+          "a catalog of + noun",
+          "order sth from a catalog"
         ],
         "collocations": [
           {
@@ -1660,9 +2079,26 @@
             "text": "library catalog",
             "meaningZh": "圖書館目錄"
           }
+        ],
+        "examples": [
+          {
+            "en": "She flipped through the furniture catalog looking for a new sofa.",
+            "zh": "她翻閱著家具目錄，尋找一張新沙發。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "directory",
+        "noteZh": "分類列出的目錄"
+      },
+      {
+        "lemma": "listing",
+        "noteZh": "項目清單"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -1674,18 +2110,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "directory",
-        "noteZh": "分類列出的目錄"
-      },
-      {
-        "lemma": "listing",
-        "noteZh": "項目清單"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_catastrophe",
@@ -1699,14 +2124,15 @@
       {
         "id": "s_catastrophe_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a sudden event causing great damage or suffering",
         "definitionZh": "大災難",
         "usageExplanationZh": "常見 an environmental catastrophe，語氣正式且強烈，形容規模極大的破壞性事件。",
-        "examples": [
-          {
-            "en": "The oil spill was an environmental catastrophe for the coastline.",
-            "zh": "這起漏油事件對海岸線來說是一場環境大災難。"
-          }
+        "grammarPatterns": [
+          "an environmental catastrophe",
+          "a catastrophe for + noun"
         ],
         "collocations": [
           {
@@ -1717,7 +2143,36 @@
             "text": "avert a catastrophe",
             "meaningZh": "避免大災難"
           }
+        ],
+        "examples": [
+          {
+            "en": "The oil spill was an environmental catastrophe for the coastline.",
+            "zh": "這起漏油事件對海岸線來說是一場環境大災難。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "disaster",
+        "noteZh": "災難"
+      },
+      {
+        "lemma": "calamity",
+        "noteZh": "重大災禍"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "catastrophic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "災難性的"
+      },
+      {
+        "lemma": "catastrophically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "災難性地"
       }
     ],
     "tags": [
@@ -1732,18 +2187,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "disaster",
-        "noteZh": "災難"
-      },
-      {
-        "lemma": "calamity",
-        "noteZh": "重大災禍"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_categorical",
@@ -1757,14 +2201,16 @@
       {
         "id": "s_categorical_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "stated clearly and directly, without exception or qualification",
         "definitionZh": "絕對的；明確的",
         "usageExplanationZh": "常見 a categorical denial，強調毫無保留、斬釘截鐵的陳述，語氣正式強烈。",
-        "examples": [
-          {
-            "en": "He gave a categorical denial of the accusations.",
-            "zh": "他對這些指控做出了斬釘截鐵的否認。"
-          }
+        "grammarPatterns": [
+          "a categorical + noun",
+          "be categorical about + noun"
         ],
         "collocations": [
           {
@@ -1775,21 +2221,15 @@
             "text": "categorical statement",
             "meaningZh": "明確無保留的聲明"
           }
+        ],
+        "examples": [
+          {
+            "en": "He gave a categorical denial of the accusations.",
+            "zh": "他對這些指控做出了斬釘截鐵的否認。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "unequivocal",
@@ -1809,7 +2249,36 @@
         "lemma": "equivocal",
         "noteZh": "含糊不清的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "category",
+        "partOfSpeech": "noun",
+        "meaningZh": "類別；範疇"
+      },
+      {
+        "lemma": "categorically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "斷然地；明確地"
+      },
+      {
+        "lemma": "categorize",
+        "partOfSpeech": "verb",
+        "meaningZh": "分類；歸類"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_cater",
@@ -1823,14 +2292,16 @@
       {
         "id": "s_cater_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "business",
+          "neutral"
+        ],
         "definitionEn": "to provide food and drinks for an event, or to satisfy the needs of a particular group",
         "definitionZh": "承辦(餐飲)；迎合(需求)",
         "usageExplanationZh": "常見 cater a wedding，也可比喻指針對特定對象提供服務，如 cater to tourists。",
-        "examples": [
-          {
-            "en": "The restaurant caters weddings and other special events.",
-            "zh": "這家餐廳承辦婚禮及其他特殊活動的餐飲服務。"
-          }
+        "grammarPatterns": [
+          "cater for/to + noun",
+          "cater an event"
         ],
         "collocations": [
           {
@@ -1841,7 +2312,36 @@
             "text": "cater to different tastes",
             "meaningZh": "迎合不同喜好"
           }
+        ],
+        "examples": [
+          {
+            "en": "The restaurant caters weddings and other special events.",
+            "zh": "這家餐廳承辦婚禮及其他特殊活動的餐飲服務。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "provide for",
+        "noteZh": "滿足需要"
+      },
+      {
+        "lemma": "accommodate",
+        "noteZh": "照顧需求"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "caterer",
+        "partOfSpeech": "noun",
+        "meaningZh": "外燴業者"
+      },
+      {
+        "lemma": "catering",
+        "partOfSpeech": "noun",
+        "meaningZh": "餐飲承辦服務"
       }
     ],
     "tags": [
@@ -1856,18 +2356,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "provide for",
-        "noteZh": "滿足需要"
-      },
-      {
-        "lemma": "accommodate",
-        "noteZh": "照顧需求"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_cathedral",
@@ -1881,14 +2370,15 @@
       {
         "id": "s_cathedral_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a large and important church, especially the main church of a diocese",
         "definitionZh": "大教堂",
         "usageExplanationZh": "常見於描述宗教建築，指規模宏偉、具重要地位的教堂，通常為主教座堂。",
-        "examples": [
-          {
-            "en": "Tourists gathered to admire the cathedral's stained glass windows.",
-            "zh": "遊客聚集在一起欣賞這座大教堂的彩繪玻璃窗。"
-          }
+        "grammarPatterns": [
+          "in the cathedral",
+          "a Gothic cathedral"
         ],
         "collocations": [
           {
@@ -1899,9 +2389,17 @@
             "text": "Gothic cathedral",
             "meaningZh": "哥德式大教堂"
           }
+        ],
+        "examples": [
+          {
+            "en": "Tourists gathered to admire the cathedral's stained glass windows.",
+            "zh": "遊客聚集在一起欣賞這座大教堂的彩繪玻璃窗。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1914,9 +2412,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_catholic",
@@ -1930,33 +2426,41 @@
       {
         "id": "s_catholic_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a member of the Catholic Church",
         "definitionZh": "天主教徒",
         "usageExplanationZh": "首字母大寫時專指羅馬天主教會的信徒，屬特定宗教身分稱謂。",
-        "examples": [
-          {
-            "en": "She was raised as a devout Catholic.",
-            "zh": "她從小被教養成一名虔誠的天主教徒。"
-          }
+        "grammarPatterns": [
+          "a devout Catholic",
+          "be raised a Catholic"
         ],
         "collocations": [
           {
             "text": "a practicing Catholic",
             "meaningZh": "虔誠實踐信仰的天主教徒"
           }
+        ],
+        "examples": [
+          {
+            "en": "She was raised as a devout Catholic.",
+            "zh": "她從小被教養成一名虔誠的天主教徒。"
+          }
         ]
       },
       {
         "id": "s_catholic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "relating to the Roman Catholic Church, or (lowercase) broad and all-embracing in taste",
         "definitionZh": "天主教的；廣泛包容的",
         "usageExplanationZh": "首字母大寫時指天主教相關；小寫 catholic 則指品味或興趣廣泛，如 catholic tastes in music。",
-        "examples": [
-          {
-            "en": "He has catholic tastes in music, from jazz to hip hop.",
-            "zh": "他對音樂的品味非常廣泛，從爵士樂到嘻哈都喜歡。"
-          }
+        "grammarPatterns": [
+          "the Catholic Church",
+          "catholic tastes in + noun"
         ],
         "collocations": [
           {
@@ -1967,22 +2471,15 @@
             "text": "catholic tastes",
             "meaningZh": "廣泛的興趣品味"
           }
+        ],
+        "examples": [
+          {
+            "en": "He has catholic tastes in music, from jazz to hip hop.",
+            "zh": "他對音樂的品味非常廣泛，從爵士樂到嘻哈都喜歡。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "Roman Catholic",
@@ -1998,167 +2495,12 @@
         "lemma": "narrow",
         "noteZh": "僅對應趣味或觀點狹隘的"
       }
-    ]
-  },
-  {
-    "id": "w_caucus",
-    "lemma": "caucus",
-    "slug": "caucus",
-    "cefr": "C1",
-    "pronunciation": {
-      "kk": "/ˈkɔkəs/"
-    },
-    "senses": [
+    ],
+    "wordFamily": [
       {
-        "id": "s_caucus_noun",
+        "lemma": "Catholicism",
         "partOfSpeech": "noun",
-        "definitionEn": "a meeting of members of a political party or group to decide on policy or candidates",
-        "definitionZh": "黨團會議；核心會議",
-        "usageExplanationZh": "常見於美國政治語境，如 a party caucus，指政黨或團體內部召開的決策性會議。",
-        "examples": [
-          {
-            "en": "Party leaders held a caucus to select their candidate.",
-            "zh": "黨的領袖們召開了黨團會議來選出候選人。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "party caucus",
-            "meaningZh": "政黨黨團會議"
-          }
-        ]
-      },
-      {
-        "id": "s_caucus_verb",
-        "partOfSpeech": "verb",
-        "definitionEn": "to hold or take part in a caucus to decide on policy or select a candidate",
-        "definitionZh": "召開黨團會議",
-        "usageExplanationZh": "常見於美式政治新聞語境，指政黨成員聚集商討決策或推舉人選的過程。",
-        "examples": [
-          {
-            "en": "Delegates caucused late into the night before reaching a decision.",
-            "zh": "代表們召開黨團會議直到深夜才做出決定。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "caucus with party members",
-            "meaningZh": "與黨員召開黨團會議"
-          }
-        ]
-      }
-    ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
-  },
-  {
-    "id": "w_causal",
-    "lemma": "causal",
-    "slug": "causal",
-    "cefr": "C1",
-    "pronunciation": {
-      "kk": "/ˈkɔzəl/"
-    },
-    "senses": [
-      {
-        "id": "s_causal_adjective",
-        "partOfSpeech": "adjective",
-        "definitionEn": "relating to or indicating a cause-and-effect relationship",
-        "definitionZh": "因果關係的",
-        "usageExplanationZh": "常見 a causal link/relationship，指兩事件之間存在因果關聯，常用於科學或邏輯論述。",
-        "examples": [
-          {
-            "en": "Researchers found a causal link between smoking and lung cancer.",
-            "zh": "研究人員發現吸菸與肺癌之間存在因果關係。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "causal relationship",
-            "meaningZh": "因果關係"
-          },
-          {
-            "text": "causal link",
-            "meaningZh": "因果連結"
-          }
-        ]
-      }
-    ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
-  },
-  {
-    "id": "w_caustic",
-    "lemma": "caustic",
-    "slug": "caustic",
-    "cefr": "C2",
-    "pronunciation": {
-      "kk": "/ˈkɑstɪk/"
-    },
-    "senses": [
-      {
-        "id": "s_caustic_noun",
-        "partOfSpeech": "noun",
-        "definitionEn": "a substance capable of burning or corroding organic tissue",
-        "definitionZh": "腐蝕性物質",
-        "usageExplanationZh": "常見於化學語境，指具強烈腐蝕性的物質，如強酸或強鹼。",
-        "examples": [
-          {
-            "en": "The factory handles several caustic chemicals with extreme care.",
-            "zh": "這家工廠極為小心地處理幾種腐蝕性化學物質。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "a strong caustic",
-            "meaningZh": "強腐蝕性物質"
-          }
-        ]
-      },
-      {
-        "id": "s_caustic_adjective",
-        "partOfSpeech": "adjective",
-        "definitionEn": "able to burn or corrode tissue chemically, or (of remarks) bitterly sarcastic",
-        "definitionZh": "腐蝕性的；尖酸刻薄的",
-        "usageExplanationZh": "字面指化學上的腐蝕性；比喻用法常見 a caustic remark，形容言詞尖銳且帶諷刺意味。",
-        "examples": [
-          {
-            "en": "Her caustic comments left him speechless.",
-            "zh": "她尖酸刻薄的評論讓他啞口無言。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "caustic soda",
-            "meaningZh": "苛性鈉；氫氧化鈉"
-          },
-          {
-            "text": "caustic remarks",
-            "meaningZh": "尖酸刻薄的話"
-          }
-        ]
+        "meaningZh": "天主教"
       }
     ],
     "tags": [
@@ -2173,7 +2515,224 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
+    }
+  },
+  {
+    "id": "w_caucus",
+    "lemma": "caucus",
+    "slug": "caucus",
+    "cefr": "C1",
+    "pronunciation": {
+      "kk": "/ˈkɔkəs/"
     },
+    "senses": [
+      {
+        "id": "s_caucus_noun",
+        "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
+        "definitionEn": "a meeting of members of a political party or group to decide on policy or candidates",
+        "definitionZh": "黨團會議；核心會議",
+        "usageExplanationZh": "常見於美國政治語境，如 a party caucus，指政黨或團體內部召開的決策性會議。",
+        "grammarPatterns": [
+          "hold a caucus",
+          "the party caucus",
+          "a caucus on + noun"
+        ],
+        "collocations": [
+          {
+            "text": "party caucus",
+            "meaningZh": "政黨黨團會議"
+          }
+        ],
+        "examples": [
+          {
+            "en": "Party leaders held a caucus to select their candidate.",
+            "zh": "黨的領袖們召開了黨團會議來選出候選人。"
+          }
+        ]
+      },
+      {
+        "id": "s_caucus_verb",
+        "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
+        "definitionEn": "to hold or take part in a caucus to decide on policy or select a candidate",
+        "definitionZh": "召開黨團會議",
+        "usageExplanationZh": "常見於美式政治新聞語境，指政黨成員聚集商討決策或推舉人選的過程。",
+        "grammarPatterns": [
+          "caucus with sb",
+          "caucus on + noun"
+        ],
+        "collocations": [
+          {
+            "text": "caucus with party members",
+            "meaningZh": "與黨員召開黨團會議"
+          }
+        ],
+        "examples": [
+          {
+            "en": "Delegates caucused late into the night before reaching a decision.",
+            "zh": "代表們召開黨團會議直到深夜才做出決定。"
+          }
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
+  },
+  {
+    "id": "w_causal",
+    "lemma": "causal",
+    "slug": "causal",
+    "cefr": "C1",
+    "pronunciation": {
+      "kk": "/ˈkɔzəl/"
+    },
+    "senses": [
+      {
+        "id": "s_causal_adjective",
+        "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "technical"
+        ],
+        "definitionEn": "relating to or indicating a cause-and-effect relationship",
+        "definitionZh": "因果關係的",
+        "usageExplanationZh": "常見 a causal link/relationship，指兩事件之間存在因果關聯，常用於科學或邏輯論述。",
+        "grammarPatterns": [
+          "a causal link between A and B",
+          "a causal + noun"
+        ],
+        "collocations": [
+          {
+            "text": "causal relationship",
+            "meaningZh": "因果關係"
+          },
+          {
+            "text": "causal link",
+            "meaningZh": "因果連結"
+          }
+        ],
+        "examples": [
+          {
+            "en": "Researchers found a causal link between smoking and lung cancer.",
+            "zh": "研究人員發現吸菸與肺癌之間存在因果關係。"
+          }
+        ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "cause",
+        "partOfSpeech": "noun",
+        "meaningZh": "原因；起因"
+      },
+      {
+        "lemma": "causality",
+        "partOfSpeech": "noun",
+        "meaningZh": "因果關係"
+      },
+      {
+        "lemma": "causally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "在因果關係上"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
+  },
+  {
+    "id": "w_caustic",
+    "lemma": "caustic",
+    "slug": "caustic",
+    "cefr": "C2",
+    "pronunciation": {
+      "kk": "/ˈkɑstɪk/"
+    },
+    "senses": [
+      {
+        "id": "s_caustic_noun",
+        "partOfSpeech": "noun",
+        "register": [
+          "technical"
+        ],
+        "definitionEn": "a substance capable of burning or corroding organic tissue",
+        "definitionZh": "腐蝕性物質",
+        "usageExplanationZh": "常見於化學語境，指具強烈腐蝕性的物質，如強酸或強鹼。",
+        "grammarPatterns": [
+          "a strong caustic",
+          "handle caustics"
+        ],
+        "collocations": [
+          {
+            "text": "a strong caustic",
+            "meaningZh": "強腐蝕性物質"
+          }
+        ],
+        "examples": [
+          {
+            "en": "The factory handles several caustic chemicals with extreme care.",
+            "zh": "這家工廠極為小心地處理幾種腐蝕性化學物質。"
+          }
+        ]
+      },
+      {
+        "id": "s_caustic_adjective",
+        "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "literary"
+        ],
+        "definitionEn": "able to burn or corrode tissue chemically, or (of remarks) bitterly sarcastic",
+        "definitionZh": "腐蝕性的；尖酸刻薄的",
+        "usageExplanationZh": "字面指化學上的腐蝕性；比喻用法常見 a caustic remark，形容言詞尖銳且帶諷刺意味。",
+        "grammarPatterns": [
+          "a caustic + noun",
+          "be caustic about + noun"
+        ],
+        "collocations": [
+          {
+            "text": "caustic soda",
+            "meaningZh": "苛性鈉；氫氧化鈉"
+          },
+          {
+            "text": "caustic remarks",
+            "meaningZh": "尖酸刻薄的話"
+          }
+        ],
+        "examples": [
+          {
+            "en": "Her caustic comments left him speechless.",
+            "zh": "她尖酸刻薄的評論讓他啞口無言。"
+          }
+        ]
+      }
+    ],
     "synonyms": [
       {
         "lemma": "corrosive",
@@ -2189,7 +2748,27 @@
         "lemma": "gentle",
         "noteZh": "對應言語溫和的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "caustically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "尖刻地"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_caution",
@@ -2203,33 +2782,43 @@
       {
         "id": "s_caution_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "care taken to avoid danger or mistakes, or a warning",
         "definitionZh": "小心；警告",
         "usageExplanationZh": "常見 exercise caution、a word of caution，指謹慎的態度或提醒他人注意的話語。",
-        "examples": [
-          {
-            "en": "Proceed with caution when driving in icy conditions.",
-            "zh": "在結冰的路況下開車要格外小心。"
-          }
+        "grammarPatterns": [
+          "proceed with caution",
+          "exercise caution",
+          "a word of caution"
         ],
         "collocations": [
           {
             "text": "exercise caution",
             "meaningZh": "謹慎行事"
           }
+        ],
+        "examples": [
+          {
+            "en": "Proceed with caution when driving in icy conditions.",
+            "zh": "在結冰的路況下開車要格外小心。"
+          }
         ]
       },
       {
         "id": "s_caution_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to warn someone about a possible danger or problem",
         "definitionZh": "警告；提醒",
         "usageExplanationZh": "常見 caution someone against/about something，語氣正式，強調事先提出警示。",
-        "examples": [
-          {
-            "en": "The doctor cautioned him against smoking.",
-            "zh": "醫生警告他不要吸菸。"
-          }
+        "grammarPatterns": [
+          "caution sb against + V-ing",
+          "caution sb about + noun",
+          "caution that + clause"
         ],
         "collocations": [
           {
@@ -2240,21 +2829,15 @@
             "text": "caution someone about something",
             "meaningZh": "提醒某人注意某事"
           }
+        ],
+        "examples": [
+          {
+            "en": "The doctor cautioned him against smoking.",
+            "zh": "醫生警告他不要吸菸。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "care",
@@ -2270,39 +2853,22 @@
         "lemma": "recklessness",
         "noteZh": "名詞，魯莽"
       }
-    ]
-  },
-  {
-    "id": "w_cautious",
-    "lemma": "cautious",
-    "slug": "cautious",
-    "cefr": "C1",
-    "pronunciation": {
-      "kk": "/ˈkɔʃəs/"
-    },
-    "senses": [
+    ],
+    "wordFamily": [
       {
-        "id": "s_cautious_adjective",
+        "lemma": "cautious",
         "partOfSpeech": "adjective",
-        "definitionEn": "acting with care to avoid risks or danger",
-        "definitionZh": "謹慎的；小心的",
-        "usageExplanationZh": "常見 a cautious approach，形容在行動前深思熟慮、避免冒險的態度。",
-        "examples": [
-          {
-            "en": "Investors remained cautious amid the market's volatility.",
-            "zh": "面對市場的波動，投資人依然保持謹慎。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "cautious approach",
-            "meaningZh": "謹慎的做法"
-          },
-          {
-            "text": "be cautious about",
-            "meaningZh": "對……保持謹慎"
-          }
-        ]
+        "meaningZh": "謹慎的；小心的"
+      },
+      {
+        "lemma": "cautionary",
+        "partOfSpeech": "adjective",
+        "meaningZh": "警告的；告誡的"
+      },
+      {
+        "lemma": "cautiously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "謹慎地"
       }
     ],
     "tags": [
@@ -2316,7 +2882,49 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
+    }
+  },
+  {
+    "id": "w_cautious",
+    "lemma": "cautious",
+    "slug": "cautious",
+    "cefr": "C1",
+    "pronunciation": {
+      "kk": "/ˈkɔʃəs/"
     },
+    "senses": [
+      {
+        "id": "s_cautious_adjective",
+        "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
+        "definitionEn": "acting with care to avoid risks or danger",
+        "definitionZh": "謹慎的；小心的",
+        "usageExplanationZh": "常見 a cautious approach，形容在行動前深思熟慮、避免冒險的態度。",
+        "grammarPatterns": [
+          "be cautious about + V-ing",
+          "a cautious + noun",
+          "cautious of + noun"
+        ],
+        "collocations": [
+          {
+            "text": "cautious approach",
+            "meaningZh": "謹慎的做法"
+          },
+          {
+            "text": "be cautious about",
+            "meaningZh": "對……保持謹慎"
+          }
+        ],
+        "examples": [
+          {
+            "en": "Investors remained cautious amid the market's volatility.",
+            "zh": "面對市場的波動，投資人依然保持謹慎。"
+          }
+        ]
+      }
+    ],
     "synonyms": [
       {
         "lemma": "careful",
@@ -2332,7 +2940,36 @@
         "lemma": "reckless",
         "noteZh": "魯莽的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "caution",
+        "partOfSpeech": "noun",
+        "meaningZh": "謹慎；警告"
+      },
+      {
+        "lemma": "cautiously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "謹慎地"
+      },
+      {
+        "lemma": "incautious",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不謹慎的"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_cave",
@@ -2346,33 +2983,41 @@
       {
         "id": "s_cave_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a large natural underground hollow, often with an opening to the surface",
         "definitionZh": "洞穴",
         "usageExplanationZh": "常見 explore a cave，指地下天然形成、通常有出入口的空間。",
-        "examples": [
-          {
-            "en": "Ancient paintings were discovered on the walls of the cave.",
-            "zh": "古代壁畫在這個洞穴的牆壁上被發現。"
-          }
+        "grammarPatterns": [
+          "in a cave",
+          "the mouth of a cave"
         ],
         "collocations": [
           {
             "text": "limestone cave",
             "meaningZh": "石灰岩洞穴"
           }
+        ],
+        "examples": [
+          {
+            "en": "Ancient paintings were discovered on the walls of the cave.",
+            "zh": "古代壁畫在這個洞穴的牆壁上被發現。"
+          }
         ]
       },
       {
         "id": "s_cave_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to collapse inward, or to give in to pressure or persuasion",
         "definitionZh": "坍塌；屈服",
         "usageExplanationZh": "常見固定片語 cave in，字面指結構崩塌，比喻用法指最終讓步或妥協。",
-        "examples": [
-          {
-            "en": "The roof caved in under the weight of the snow.",
-            "zh": "屋頂在積雪的重量下坍塌了。"
-          }
+        "grammarPatterns": [
+          "cave in",
+          "cave in to + noun"
         ],
         "collocations": [
           {
@@ -2383,7 +3028,36 @@
             "text": "cave to pressure",
             "meaningZh": "屈服於壓力"
           }
+        ],
+        "examples": [
+          {
+            "en": "The roof caved in under the weight of the snow.",
+            "zh": "屋頂在積雪的重量下坍塌了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "cavern",
+        "noteZh": "大型洞穴"
+      },
+      {
+        "lemma": "collapse",
+        "noteZh": "動詞，坍塌"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "cavern",
+        "partOfSpeech": "noun",
+        "meaningZh": "大洞穴"
+      },
+      {
+        "lemma": "cavity",
+        "partOfSpeech": "noun",
+        "meaningZh": "空腔；蛀洞"
       }
     ],
     "tags": [
@@ -2396,18 +3070,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cavern",
-        "noteZh": "大型洞穴"
-      },
-      {
-        "lemma": "collapse",
-        "noteZh": "動詞，坍塌"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_cede",
@@ -2421,14 +3084,16 @@
       {
         "id": "s_cede_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to formally give up power, territory, or rights to another",
         "definitionZh": "割讓；讓與",
         "usageExplanationZh": "常見 cede territory/control，語氣正式，多用於政治或法律語境，指正式放棄或轉讓。",
-        "examples": [
-          {
-            "en": "The country was forced to cede part of its territory after the war.",
-            "zh": "戰後，這個國家被迫割讓部分領土。"
-          }
+        "grammarPatterns": [
+          "cede sth to sb",
+          "cede control of + noun"
         ],
         "collocations": [
           {
@@ -2439,20 +3104,15 @@
             "text": "cede control",
             "meaningZh": "讓出控制權"
           }
+        ],
+        "examples": [
+          {
+            "en": "The country was forced to cede part of its territory after the war.",
+            "zh": "戰後，這個國家被迫割讓部分領土。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "relinquish",
@@ -2468,7 +3128,30 @@
         "lemma": "retain",
         "noteZh": "保留權利或領土"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "cession",
+        "partOfSpeech": "noun",
+        "meaningZh": "割讓；讓與"
+      },
+      {
+        "lemma": "concede",
+        "partOfSpeech": "verb",
+        "meaningZh": "讓步；承認"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_celebrity",
@@ -2482,14 +3165,15 @@
       {
         "id": "s_celebrity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a famous person, especially in entertainment",
         "definitionZh": "名人；名流",
         "usageExplanationZh": "常見 a Hollywood celebrity，泛指因才藝、成就或媒體曝光而廣為人知的人物。",
-        "examples": [
-          {
-            "en": "The event attracted several celebrities from the film industry。",
-            "zh": "這場活動吸引了幾位電影界的名人出席。"
-          }
+        "grammarPatterns": [
+          "a celebrity chef",
+          "a celebrity from + noun"
         ],
         "collocations": [
           {
@@ -2500,7 +3184,31 @@
             "text": "celebrity status",
             "meaningZh": "名人地位"
           }
+        ],
+        "examples": [
+          {
+            "en": "The event attracted several celebrities from the film industry。",
+            "zh": "這場活動吸引了幾位電影界的名人出席。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "star",
+        "noteZh": "演藝明星"
+      },
+      {
+        "lemma": "public figure",
+        "noteZh": "公眾人物"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "celebrate",
+        "partOfSpeech": "verb",
+        "meaningZh": "慶祝；讚揚"
       }
     ],
     "tags": [
@@ -2514,18 +3222,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "star",
-        "noteZh": "演藝明星"
-      },
-      {
-        "lemma": "public figure",
-        "noteZh": "公眾人物"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_celestial",
@@ -2539,14 +3236,17 @@
       {
         "id": "s_celestial_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "academic",
+          "technical"
+        ],
         "definitionEn": "relating to the sky or outer space, or heavenly and divine",
         "definitionZh": "天空的；天國的",
         "usageExplanationZh": "常見 celestial bodies（天體），也可用於形容超凡脫俗、宛如天堂之美，語氣文學化。",
-        "examples": [
-          {
-            "en": "Astronomers study celestial bodies such as stars and planets.",
-            "zh": "天文學家研究恆星和行星等天體。"
-          }
+        "grammarPatterns": [
+          "celestial + plural noun",
+          "a celestial + noun"
         ],
         "collocations": [
           {
@@ -2557,7 +3257,25 @@
             "text": "celestial sphere",
             "meaningZh": "天球"
           }
+        ],
+        "examples": [
+          {
+            "en": "Astronomers study celestial bodies such as stars and planets.",
+            "zh": "天文學家研究恆星和行星等天體。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "heavenly",
+        "noteZh": "天空或天堂的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "terrestrial",
+        "noteZh": "地球上的"
       }
     ],
     "tags": [
@@ -2571,19 +3289,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "heavenly",
-        "noteZh": "天空或天堂的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "terrestrial",
-        "noteZh": "地球上的"
-      }
-    ]
+    }
   },
   {
     "id": "w_cellar",
@@ -2597,14 +3303,15 @@
       {
         "id": "s_cellar_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "an underground room, typically used for storage, especially of wine",
         "definitionZh": "地窖；地下儲藏室",
         "usageExplanationZh": "常見 a wine cellar，指位於建築物地下、用於儲存物品尤其是酒類的空間。",
-        "examples": [
-          {
-            "en": "They keep several bottles of fine wine in the cellar.",
-            "zh": "他們在地窖裡存放了幾瓶上等葡萄酒。"
-          }
+        "grammarPatterns": [
+          "in the cellar",
+          "a wine cellar"
         ],
         "collocations": [
           {
@@ -2615,9 +3322,22 @@
             "text": "cellar door",
             "meaningZh": "地窖門"
           }
+        ],
+        "examples": [
+          {
+            "en": "They keep several bottles of fine wine in the cellar.",
+            "zh": "他們在地窖裡存放了幾瓶上等葡萄酒。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "basement",
+        "noteZh": "地下室，範圍較廣"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2630,14 +3350,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "basement",
-        "noteZh": "地下室，範圍較廣"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_cellular",
@@ -2651,14 +3364,16 @@
       {
         "id": "s_cellular_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "relating to or consisting of biological cells, or relating to mobile phone networks",
         "definitionZh": "細胞的；行動通訊的",
         "usageExplanationZh": "可指生物學上的細胞構造（cellular structure），也可指手機通訊技術（cellular network），須依語境判斷。",
-        "examples": [
-          {
-            "en": "The disease affects the body at a cellular level.",
-            "zh": "這種疾病在細胞層面影響身體。"
-          }
+        "grammarPatterns": [
+          "at a cellular level",
+          "cellular + noun"
         ],
         "collocations": [
           {
@@ -2669,7 +3384,22 @@
             "text": "cellular network",
             "meaningZh": "行動通訊網路"
           }
+        ],
+        "examples": [
+          {
+            "en": "The disease affects the body at a cellular level.",
+            "zh": "這種疾病在細胞層面影響身體。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "cell",
+        "partOfSpeech": "noun",
+        "meaningZh": "細胞"
       }
     ],
     "tags": [
@@ -2682,9 +3412,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_cement",
@@ -2698,14 +3426,16 @@
       {
         "id": "s_cement_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a powdery substance mixed with water and other materials to make concrete, or a substance used to bond things together",
         "definitionZh": "水泥；黏合劑",
         "usageExplanationZh": "常見 a bag of cement，也可比喻指鞏固關係的事物，如 shared experiences cement friendships（此處聚焦本義）。",
-        "examples": [
-          {
-            "en": "Workers poured cement to form the foundation.",
-            "zh": "工人們澆灌水泥來打地基。"
-          }
+        "grammarPatterns": [
+          "pour cement",
+          "a bag of cement"
         ],
         "collocations": [
           {
@@ -2716,9 +3446,22 @@
             "text": "dental cement",
             "meaningZh": "牙科黏固劑"
           }
+        ],
+        "examples": [
+          {
+            "en": "Workers poured cement to form the foundation.",
+            "zh": "工人們澆灌水泥來打地基。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "adhesive",
+        "noteZh": "指黏合用途的材料"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -2730,14 +3473,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "adhesive",
-        "noteZh": "指黏合用途的材料"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_cemetery",
@@ -2751,14 +3487,15 @@
       {
         "id": "s_cemetery_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a piece of land used for burying the dead",
         "definitionZh": "墓地；公墓",
         "usageExplanationZh": "常見 visit a cemetery，指劃定用於埋葬遺體的區域，通常有多個墓碑。",
-        "examples": [
-          {
-            "en": "They laid flowers at her grave in the cemetery.",
-            "zh": "他們在墓地她的墓前獻上鮮花。"
-          }
+        "grammarPatterns": [
+          "be buried in a cemetery",
+          "a grave in the cemetery"
         ],
         "collocations": [
           {
@@ -2769,9 +3506,26 @@
             "text": "cemetery gates",
             "meaningZh": "墓園大門"
           }
+        ],
+        "examples": [
+          {
+            "en": "They laid flowers at her grave in the cemetery.",
+            "zh": "他們在墓地她的墓前獻上鮮花。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "graveyard",
+        "noteZh": "墓園"
+      },
+      {
+        "lemma": "burial ground",
+        "noteZh": "埋葬死者的場所"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -2783,18 +3537,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "graveyard",
-        "noteZh": "墓園"
-      },
-      {
-        "lemma": "burial ground",
-        "noteZh": "埋葬死者的場所"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_censure",
@@ -2808,14 +3551,17 @@
       {
         "id": "s_censure_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "strong criticism or disapproval, especially official condemnation",
         "definitionZh": "譴責；責難",
         "usageExplanationZh": "常見 a vote of censure，語氣正式，多用於正式場合對某人行為表達強烈不滿。",
-        "examples": [
-          {
-            "en": "The senator faced censure for his inappropriate remarks.",
-            "zh": "這位參議員因不當言論而遭到譴責。"
-          }
+        "grammarPatterns": [
+          "face censure",
+          "a vote of censure",
+          "censure for + noun"
         ],
         "collocations": [
           {
@@ -2826,20 +3572,15 @@
             "text": "public censure",
             "meaningZh": "公開譴責"
           }
+        ],
+        "examples": [
+          {
+            "en": "The senator faced censure for his inappropriate remarks.",
+            "zh": "這位參議員因不當言論而遭到譴責。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "condemnation",
@@ -2859,7 +3600,18 @@
         "lemma": "praise",
         "noteZh": "讚揚"
       }
-    ]
+    ],
+    "tags": [
+      "dictionary",
+      "toefl"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_census",
@@ -2873,42 +3625,66 @@
       {
         "id": "s_census_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic",
+          "technical"
+        ],
         "definitionEn": "an official count or survey of a population",
         "definitionZh": "人口普查",
         "usageExplanationZh": "常見 conduct a census，指政府定期進行的人口統計調查。",
-        "examples": [
-          {
-            "en": "The census showed a significant increase in the city's population.",
-            "zh": "這次人口普查顯示這座城市的人口顯著增加。"
-          }
+        "grammarPatterns": [
+          "conduct a census",
+          "the census shows that + clause",
+          "census data"
         ],
         "collocations": [
           {
             "text": "population census",
             "meaningZh": "人口普查"
           }
+        ],
+        "examples": [
+          {
+            "en": "The census showed a significant increase in the city's population.",
+            "zh": "這次人口普查顯示這座城市的人口顯著增加。"
+          }
         ]
       },
       {
         "id": "s_census_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to conduct an official count of a population",
         "definitionZh": "進行人口普查",
         "usageExplanationZh": "用法較少見，多以名詞形式出現，動詞用法常見於學術或正式報告語境。",
-        "examples": [
-          {
-            "en": "The government will census all rural households next year.",
-            "zh": "政府明年將對所有鄉村家庭進行人口普查。"
-          }
+        "grammarPatterns": [
+          "census + noun"
         ],
         "collocations": [
           {
             "text": "census the population",
             "meaningZh": "對人口進行普查"
           }
+        ],
+        "examples": [
+          {
+            "en": "The government will census all rural households next year.",
+            "zh": "政府明年將對所有鄉村家庭進行人口普查。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "population count",
+        "noteZh": "人口統計"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2921,14 +3697,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "population count",
-        "noteZh": "人口統計"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_cereal",
@@ -2942,42 +3711,64 @@
       {
         "id": "s_cereal_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a grain used for food, or a breakfast food made from processed grain",
         "definitionZh": "穀類食品；(早餐)麥片",
         "usageExplanationZh": "常見 breakfast cereal，指經加工製成的早餐食品，也可泛指小麥、稻米等穀類作物。",
-        "examples": [
-          {
-            "en": "She poured milk over her bowl of cereal.",
-            "zh": "她把牛奶倒進她那碗麥片裡。"
-          }
+        "grammarPatterns": [
+          "a bowl of cereal",
+          "breakfast cereal"
         ],
         "collocations": [
           {
             "text": "breakfast cereal",
             "meaningZh": "早餐穀片"
           }
+        ],
+        "examples": [
+          {
+            "en": "She poured milk over her bowl of cereal.",
+            "zh": "她把牛奶倒進她那碗麥片裡。"
+          }
         ]
       },
       {
         "id": "s_cereal_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "relating to grain or the plants that produce it",
         "definitionZh": "穀類的",
         "usageExplanationZh": "常見 cereal crops，用於形容與穀物種植或成分相關的事物，語氣中性、偏農業或營養學。",
-        "examples": [
-          {
-            "en": "Wheat and rice are the most widely grown cereal crops.",
-            "zh": "小麥和稻米是種植最廣泛的穀類作物。"
-          }
+        "grammarPatterns": [
+          "cereal crops",
+          "cereal + noun"
         ],
         "collocations": [
           {
             "text": "cereal crops",
             "meaningZh": "穀類作物"
           }
+        ],
+        "examples": [
+          {
+            "en": "Wheat and rice are the most widely grown cereal crops.",
+            "zh": "小麥和稻米是種植最廣泛的穀類作物。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "grain",
+        "noteZh": "指穀物原料"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -2989,14 +3780,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "grain",
-        "noteZh": "指穀物原料"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_cerebral",
@@ -3010,14 +3794,16 @@
       {
         "id": "s_cerebral_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "relating to the brain, or characterized by careful thought rather than emotion",
         "definitionZh": "大腦的；理性的",
         "usageExplanationZh": "字面指與腦部相關的醫學用語（a cerebral hemorrhage）；比喻用法形容偏重智性思考而非感性，如 a cerebral film。",
-        "examples": [
-          {
-            "en": "The novel is more cerebral than emotional in its approach to grief.",
-            "zh": "這部小說在處理悲傷議題時，理性思考多於情感表達。"
-          }
+        "grammarPatterns": [
+          "cerebral + noun",
+          "a highly cerebral + noun"
         ],
         "collocations": [
           {
@@ -3028,7 +3814,32 @@
             "text": "cerebral approach",
             "meaningZh": "理性思考的方式"
           }
+        ],
+        "examples": [
+          {
+            "en": "The novel is more cerebral than emotional in its approach to grief.",
+            "zh": "這部小說在處理悲傷議題時，理性思考多於情感表達。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "intellectual",
+        "noteZh": "指重思考與智性的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "emotional",
+        "noteZh": "對應以情感為主的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "cerebrum",
+        "partOfSpeech": "noun",
+        "meaningZh": "大腦"
       }
     ],
     "tags": [
@@ -3041,18 +3852,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "intellectual",
-        "noteZh": "指重思考與智性的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "emotional",
-        "noteZh": "對應以情感為主的"
-      }
-    ]
+    }
   }
 ]

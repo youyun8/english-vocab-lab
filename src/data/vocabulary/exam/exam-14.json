@@ -11,14 +11,17 @@
       {
         "id": "s_cohesive_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "forming a united whole; sticking together well",
         "definitionZh": "有凝聚力的；緊密結合的",
         "usageExplanationZh": "常修飾團體或論述，如 cohesive team／argument，強調各部分之間的協調一致。",
-        "examples": [
-          {
-            "en": "The essay lacks a cohesive structure.",
-            "zh": "這篇文章缺乏連貫一致的結構。"
-          }
+        "grammarPatterns": [
+          "a cohesive + noun",
+          "a cohesive whole",
+          "be cohesive"
         ],
         "collocations": [
           {
@@ -29,7 +32,37 @@
             "text": "a cohesive argument",
             "meaningZh": "緊密連貫的論述"
           }
+        ],
+        "examples": [
+          {
+            "en": "The essay lacks a cohesive structure.",
+            "zh": "這篇文章缺乏連貫一致的結構。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "united",
+        "noteZh": "指團體團結一致"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "fragmented",
+        "noteZh": "指群體分裂不團結"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "cohesion",
+        "partOfSpeech": "noun",
+        "meaningZh": "凝聚力；結合力"
+      },
+      {
+        "lemma": "cohesively",
+        "partOfSpeech": "adverb",
+        "meaningZh": "緊密結合地"
       }
     ],
     "tags": [
@@ -43,19 +76,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "united",
-        "noteZh": "指團體團結一致"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "fragmented",
-        "noteZh": "指群體分裂不團結"
-      }
-    ]
+    }
   },
   {
     "id": "w_coincide",
@@ -69,21 +90,53 @@
       {
         "id": "s_coincide_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to happen at the same time as something else, or to be in agreement",
         "definitionZh": "同時發生；一致",
         "usageExplanationZh": "常接 with，如 coincide with，可指時間上的巧合，也可指意見或利益的一致。",
-        "examples": [
-          {
-            "en": "Her birthday happens to coincide with the national holiday.",
-            "zh": "她的生日恰好與國定假日同一天。"
-          }
+        "grammarPatterns": [
+          "coincide with + noun",
+          "A and B coincide"
         ],
         "collocations": [
           {
             "text": "coincide with",
             "meaningZh": "與……同時發生或相符"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her birthday happens to coincide with the national holiday.",
+            "zh": "她的生日恰好與國定假日同一天。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "correspond",
+        "noteZh": "指意見或情況相符"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "differ",
+        "noteZh": "指意見或情況不同"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "coincidence",
+        "partOfSpeech": "noun",
+        "meaningZh": "巧合"
+      },
+      {
+        "lemma": "coincidental",
+        "partOfSpeech": "adjective",
+        "meaningZh": "巧合的"
       }
     ],
     "tags": [
@@ -98,19 +151,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "correspond",
-        "noteZh": "指意見或情況相符"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "differ",
-        "noteZh": "指意見或情況不同"
-      }
-    ]
+    }
   },
   {
     "id": "w_coincidence",
@@ -124,14 +165,16 @@
       {
         "id": "s_coincidence_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a situation in which two events happen at the same time by chance",
         "definitionZh": "巧合",
         "usageExplanationZh": "常見 by coincidence，強調事件同時發生並非刻意安排，而是偶然巧合。",
-        "examples": [
-          {
-            "en": "It was a strange coincidence that we were on the same flight.",
-            "zh": "我們搭到同一班飛機真是個奇妙的巧合。"
-          }
+        "grammarPatterns": [
+          "by coincidence",
+          "a mere coincidence",
+          "it is no coincidence that + clause"
         ],
         "collocations": [
           {
@@ -142,7 +185,32 @@
             "text": "a strange coincidence",
             "meaningZh": "奇怪的巧合"
           }
+        ],
+        "examples": [
+          {
+            "en": "It was a strange coincidence that we were on the same flight.",
+            "zh": "我們搭到同一班飛機真是個奇妙的巧合。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "chance",
+        "noteZh": "指偶然的機緣"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "coincide",
+        "partOfSpeech": "verb",
+        "meaningZh": "同時發生；一致"
+      },
+      {
+        "lemma": "coincidentally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "碰巧地"
       }
     ],
     "tags": [
@@ -156,14 +224,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "chance",
-        "noteZh": "指偶然的機緣"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_collaboration",
@@ -177,14 +238,17 @@
       {
         "id": "s_collaboration_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "business"
+        ],
         "definitionEn": "the act of working together with others to achieve a shared goal",
         "definitionZh": "合作；協作",
         "usageExplanationZh": "常見 in collaboration with，指多方共同努力完成某項工作或計畫。",
-        "examples": [
-          {
-            "en": "The album was the result of a collaboration between two artists.",
-            "zh": "這張專輯是兩位藝術家合作的成果。"
-          }
+        "grammarPatterns": [
+          "collaboration with + noun",
+          "in collaboration with + noun",
+          "close collaboration between A and B"
         ],
         "collocations": [
           {
@@ -195,7 +259,37 @@
             "text": "close collaboration",
             "meaningZh": "密切合作"
           }
+        ],
+        "examples": [
+          {
+            "en": "The album was the result of a collaboration between two artists.",
+            "zh": "這張專輯是兩位藝術家合作的成果。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "cooperation",
+        "noteZh": "共同合作"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "collaborate",
+        "partOfSpeech": "verb",
+        "meaningZh": "合作；協作"
+      },
+      {
+        "lemma": "collaborative",
+        "partOfSpeech": "adjective",
+        "meaningZh": "合作的"
+      },
+      {
+        "lemma": "collaborator",
+        "partOfSpeech": "noun",
+        "meaningZh": "合作者"
       }
     ],
     "tags": [
@@ -209,14 +303,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cooperation",
-        "noteZh": "共同合作"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_collapse",
@@ -230,40 +317,70 @@
       {
         "id": "s_collapse_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a sudden failure or downfall",
         "definitionZh": "倒塌；崩潰",
         "usageExplanationZh": "可指實體結構的倒塌（building collapse），也可指制度或健康狀況的崩潰（economic collapse）。",
-        "examples": [
-          {
-            "en": "The collapse of the bridge caused widespread panic.",
-            "zh": "這座橋的倒塌引發了廣泛恐慌。"
-          }
+        "grammarPatterns": [
+          "the collapse of + noun",
+          "on the verge of collapse",
+          "a total collapse"
         ],
         "collocations": [
           {
             "text": "economic collapse",
             "meaningZh": "經濟崩潰"
           }
+        ],
+        "examples": [
+          {
+            "en": "The collapse of the bridge caused widespread panic.",
+            "zh": "這座橋的倒塌引發了廣泛恐慌。"
+          }
         ]
       },
       {
         "id": "s_collapse_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to fall down or fail suddenly",
         "definitionZh": "倒塌；崩潰",
         "usageExplanationZh": "不及物動詞，可指實體結構倒塌，也可比喻性地形容制度、健康或計畫的突然失敗。",
-        "examples": [
-          {
-            "en": "The old building collapsed during the earthquake.",
-            "zh": "那棟舊建築在地震中倒塌了。"
-          }
+        "grammarPatterns": [
+          "collapse under + noun",
+          "collapse into + noun",
+          "the + noun + collapsed"
         ],
         "collocations": [
           {
             "text": "collapse under pressure",
             "meaningZh": "在壓力下崩潰"
           }
+        ],
+        "examples": [
+          {
+            "en": "The old building collapsed during the earthquake.",
+            "zh": "那棟舊建築在地震中倒塌了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "breakdown",
+        "noteZh": "指系統或組織崩潰"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "collapsible",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可摺疊的"
       }
     ],
     "tags": [
@@ -278,14 +395,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "breakdown",
-        "noteZh": "指系統或組織崩潰"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_collar",
@@ -299,14 +409,16 @@
       {
         "id": "s_collar_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "the part of a shirt or coat that fits around the neck",
         "definitionZh": "衣領",
         "usageExplanationZh": "日常詞彙，也可比喻性地用於片語 hot under the collar（生氣、惱怒）。",
-        "examples": [
-          {
-            "en": "He straightened his collar before the interview.",
-            "zh": "他在面試前整理了一下衣領。"
-          }
+        "grammarPatterns": [
+          "a shirt collar",
+          "turn up one's collar",
+          "grab sb by the collar"
         ],
         "collocations": [
           {
@@ -317,9 +429,17 @@
             "text": "turn up your collar",
             "meaningZh": "豎起衣領"
           }
+        ],
+        "examples": [
+          {
+            "en": "He straightened his collar before the interview.",
+            "zh": "他在面試前整理了一下衣領。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -330,9 +450,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_collate",
@@ -346,14 +464,17 @@
       {
         "id": "s_collate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to collect and combine information or documents in order",
         "definitionZh": "整理、彙整（資料或文件）",
         "usageExplanationZh": "及物動詞，常見於辦公或研究情境，指將分散的資料依順序合併整理。",
-        "examples": [
-          {
-            "en": "The assistant collated the survey results into one report.",
-            "zh": "助理將問卷調查結果彙整成一份報告。"
-          }
+        "grammarPatterns": [
+          "collate + noun",
+          "collate data from + noun",
+          "collate the results"
         ],
         "collocations": [
           {
@@ -364,7 +485,27 @@
             "text": "collate documents",
             "meaningZh": "整理文件"
           }
+        ],
+        "examples": [
+          {
+            "en": "The assistant collated the survey results into one report.",
+            "zh": "助理將問卷調查結果彙整成一份報告。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "compile",
+        "noteZh": "指彙整資料"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "collation",
+        "partOfSpeech": "noun",
+        "meaningZh": "校對；彙整"
       }
     ],
     "tags": [
@@ -378,14 +519,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "compile",
-        "noteZh": "指彙整資料"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_collective",
@@ -399,14 +533,17 @@
       {
         "id": "s_collective_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "done or shared by a group as a whole",
         "definitionZh": "集體的；共同的",
         "usageExplanationZh": "常見 collective decision／responsibility，強調由整個群體共同承擔或做出。",
-        "examples": [
-          {
-            "en": "The team made a collective decision to postpone the launch.",
-            "zh": "團隊共同決定延後上市時間。"
-          }
+        "grammarPatterns": [
+          "collective + noun",
+          "a collective effort",
+          "collective responsibility"
         ],
         "collocations": [
           {
@@ -417,7 +554,42 @@
             "text": "collective bargaining",
             "meaningZh": "集體協商"
           }
+        ],
+        "examples": [
+          {
+            "en": "The team made a collective decision to postpone the launch.",
+            "zh": "團隊共同決定延後上市時間。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "joint",
+        "noteZh": "由多人共同進行"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "individual",
+        "noteZh": "個人的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "collect",
+        "partOfSpeech": "verb",
+        "meaningZh": "收集；聚集"
+      },
+      {
+        "lemma": "collectively",
+        "partOfSpeech": "adverb",
+        "meaningZh": "集體地；共同地"
+      },
+      {
+        "lemma": "collectivism",
+        "partOfSpeech": "noun",
+        "meaningZh": "集體主義"
       }
     ],
     "tags": [
@@ -430,19 +602,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "joint",
-        "noteZh": "由多人共同進行"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "individual",
-        "noteZh": "個人的"
-      }
-    ]
+    }
   },
   {
     "id": "w_collision",
@@ -456,14 +616,17 @@
       {
         "id": "s_collision_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "an instance of two or more things crashing into each other",
         "definitionZh": "碰撞；相撞",
         "usageExplanationZh": "常見 car collision，也可比喻性地指利益或想法上的衝突（collision of interests）。",
-        "examples": [
-          {
-            "en": "The two cars were involved in a serious collision.",
-            "zh": "這兩輛車發生了嚴重的碰撞。"
-          }
+        "grammarPatterns": [
+          "a collision between A and B",
+          "a collision with + noun",
+          "on a collision course"
         ],
         "collocations": [
           {
@@ -474,7 +637,27 @@
             "text": "on a collision course",
             "meaningZh": "走向衝突"
           }
+        ],
+        "examples": [
+          {
+            "en": "The two cars were involved in a serious collision.",
+            "zh": "這兩輛車發生了嚴重的碰撞。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "crash",
+        "noteZh": "指車輛等相撞"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "collide",
+        "partOfSpeech": "verb",
+        "meaningZh": "碰撞；相撞"
       }
     ],
     "tags": [
@@ -489,14 +672,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "crash",
-        "noteZh": "指車輛等相撞"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_colonel",
@@ -510,14 +686,16 @@
       {
         "id": "s_colonel_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "formal"
+        ],
         "definitionEn": "a senior military officer rank, above lieutenant colonel and below brigadier",
         "definitionZh": "上校",
         "usageExplanationZh": "軍階名稱，常見於軍事語境，指介於中校與准將之間的軍官職級。",
-        "examples": [
-          {
-            "en": "The colonel gave the order to advance.",
-            "zh": "那位上校下令前進。"
-          }
+        "grammarPatterns": [
+          "a colonel in + noun",
+          "be promoted to colonel"
         ],
         "collocations": [
           {
@@ -528,9 +706,17 @@
             "text": "the rank of colonel",
             "meaningZh": "上校軍階"
           }
+        ],
+        "examples": [
+          {
+            "en": "The colonel gave the order to advance.",
+            "zh": "那位上校下令前進。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -541,9 +727,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_colonial",
@@ -557,14 +741,17 @@
       {
         "id": "s_colonial_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "relating to a colony or colonialism",
         "definitionZh": "殖民地的；殖民時期的",
         "usageExplanationZh": "常修飾歷史時期或建築風格，如 colonial architecture，指與殖民統治相關的事物。",
-        "examples": [
-          {
-            "en": "The building reflects a distinctly colonial architectural style.",
-            "zh": "這棟建築展現出明顯的殖民時期建築風格。"
-          }
+        "grammarPatterns": [
+          "colonial + noun",
+          "colonial rule",
+          "the colonial era"
         ],
         "collocations": [
           {
@@ -575,7 +762,32 @@
             "text": "colonial architecture",
             "meaningZh": "殖民時期建築"
           }
+        ],
+        "examples": [
+          {
+            "en": "The building reflects a distinctly colonial architectural style.",
+            "zh": "這棟建築展現出明顯的殖民時期建築風格。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "colony",
+        "partOfSpeech": "noun",
+        "meaningZh": "殖民地"
+      },
+      {
+        "lemma": "colonialism",
+        "partOfSpeech": "noun",
+        "meaningZh": "殖民主義"
+      },
+      {
+        "lemma": "colonize",
+        "partOfSpeech": "verb",
+        "meaningZh": "殖民；拓殖"
       }
     ],
     "tags": [
@@ -589,9 +801,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_colonize",
@@ -605,21 +815,48 @@
       {
         "id": "s_colonize_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "to establish control over a foreign territory and settle it with people",
         "definitionZh": "殖民；佔領並移居",
         "usageExplanationZh": "及物動詞，常見於歷史語境，指一國對外國領土建立統治並移入人口。",
-        "examples": [
-          {
-            "en": "European powers colonized much of Africa in the 19th century.",
-            "zh": "歐洲列強在十九世紀殖民了非洲大部分地區。"
-          }
+        "grammarPatterns": [
+          "colonize + noun",
+          "be colonized by + noun"
         ],
         "collocations": [
           {
             "text": "colonize an island",
             "meaningZh": "殖民一座島嶼"
           }
+        ],
+        "examples": [
+          {
+            "en": "European powers colonized much of Africa in the 19th century.",
+            "zh": "歐洲列強在十九世紀殖民了非洲大部分地區。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "settle",
+        "noteZh": "指移居並建立聚落，未必涉及殖民統治"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "colonization",
+        "partOfSpeech": "noun",
+        "meaningZh": "殖民；殖民化"
+      },
+      {
+        "lemma": "colonizer",
+        "partOfSpeech": "noun",
+        "meaningZh": "殖民者"
       }
     ],
     "tags": [
@@ -633,14 +870,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "settle",
-        "noteZh": "指移居並建立聚落，未必涉及殖民統治"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_colony",
@@ -654,14 +884,17 @@
       {
         "id": "s_colony_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "neutral"
+        ],
         "definitionEn": "a territory controlled by a foreign power, or a group of the same organisms living together",
         "definitionZh": "殖民地；（生物）群落",
         "usageExplanationZh": "歷史上指被外國統治的領土，生物學上則指同種生物聚集生活的群體（an ant colony）。",
-        "examples": [
-          {
-            "en": "India was once a British colony.",
-            "zh": "印度曾經是英國的殖民地。"
-          }
+        "grammarPatterns": [
+          "a colony of + noun",
+          "a former colony",
+          "establish a colony"
         ],
         "collocations": [
           {
@@ -672,7 +905,32 @@
             "text": "an ant colony",
             "meaningZh": "螞蟻群落"
           }
+        ],
+        "examples": [
+          {
+            "en": "India was once a British colony.",
+            "zh": "印度曾經是英國的殖民地。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "settlement",
+        "noteZh": "指移民建立的聚落"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "colonial",
+        "partOfSpeech": "adjective",
+        "meaningZh": "殖民地的"
+      },
+      {
+        "lemma": "colonist",
+        "partOfSpeech": "noun",
+        "meaningZh": "殖民者；拓殖者"
       }
     ],
     "tags": [
@@ -687,14 +945,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "settlement",
-        "noteZh": "指移民建立的聚落"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_colossal",
@@ -708,14 +959,17 @@
       {
         "id": "s_colossal_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "extremely large in size or extent",
         "definitionZh": "巨大的；龐大的",
         "usageExplanationZh": "語氣比 huge 更強烈，常修飾規模、數量或成就，帶有誇張的正面或負面語氣。",
-        "examples": [
-          {
-            "en": "The project was a colossal failure.",
-            "zh": "這個計畫是個巨大的失敗。"
-          }
+        "grammarPatterns": [
+          "a colossal + noun",
+          "on a colossal scale",
+          "colossal in size"
         ],
         "collocations": [
           {
@@ -726,7 +980,32 @@
             "text": "a colossal statue",
             "meaningZh": "巨型雕像"
           }
+        ],
+        "examples": [
+          {
+            "en": "The project was a colossal failure.",
+            "zh": "這個計畫是個巨大的失敗。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "enormous",
+        "noteZh": "極其巨大的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "tiny",
+        "noteZh": "極小的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "colossus",
+        "partOfSpeech": "noun",
+        "meaningZh": "巨像；巨人"
       }
     ],
     "tags": [
@@ -741,19 +1020,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "enormous",
-        "noteZh": "極其巨大的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "tiny",
-        "noteZh": "極小的"
-      }
-    ]
+    }
   },
   {
     "id": "w_combat",
@@ -767,14 +1034,17 @@
       {
         "id": "s_combat_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "fighting between armed forces, especially in war",
         "definitionZh": "戰鬥；作戰",
         "usageExplanationZh": "不可數名詞，常見 in combat，指軍事上的實際交戰，語氣正式且嚴肅。",
-        "examples": [
-          {
-            "en": "Many soldiers were injured in combat.",
-            "zh": "許多士兵在作戰中受傷。"
-          }
+        "grammarPatterns": [
+          "in combat",
+          "combat + noun",
+          "be killed in combat"
         ],
         "collocations": [
           {
@@ -785,7 +1055,32 @@
             "text": "in combat",
             "meaningZh": "在戰鬥中"
           }
+        ],
+        "examples": [
+          {
+            "en": "Many soldiers were injured in combat.",
+            "zh": "許多士兵在作戰中受傷。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "fighting",
+        "noteZh": "交戰；戰鬥"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "combatant",
+        "partOfSpeech": "noun",
+        "meaningZh": "戰鬥員；作戰人員"
+      },
+      {
+        "lemma": "combative",
+        "partOfSpeech": "adjective",
+        "meaningZh": "好鬥的；好爭辯的"
       }
     ],
     "tags": [
@@ -799,14 +1094,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "fighting",
-        "noteZh": "交戰；戰鬥"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_combination",
@@ -820,14 +1108,17 @@
       {
         "id": "s_combination_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "a joining or mixture of different elements",
         "definitionZh": "結合；組合",
         "usageExplanationZh": "常見 a combination of，指多種元素或因素共同作用產生的結果。",
-        "examples": [
-          {
-            "en": "The dish is a combination of sweet and spicy flavors.",
-            "zh": "這道菜是甜與辣的組合。"
-          }
+        "grammarPatterns": [
+          "a combination of A and B",
+          "in combination with + noun",
+          "a winning combination"
         ],
         "collocations": [
           {
@@ -838,7 +1129,32 @@
             "text": "in combination with",
             "meaningZh": "與……結合使用"
           }
+        ],
+        "examples": [
+          {
+            "en": "The dish is a combination of sweet and spicy flavors.",
+            "zh": "這道菜是甜與辣的組合。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "mixture",
+        "noteZh": "指多種事物的混合"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "combine",
+        "partOfSpeech": "verb",
+        "meaningZh": "結合；聯合"
+      },
+      {
+        "lemma": "combinatorial",
+        "partOfSpeech": "adjective",
+        "meaningZh": "組合的"
       }
     ],
     "tags": [
@@ -851,14 +1167,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "mixture",
-        "noteZh": "指多種事物的混合"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_comedy",
@@ -872,14 +1181,16 @@
       {
         "id": "s_comedy_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a genre of entertainment intended to be humorous",
         "definitionZh": "喜劇",
         "usageExplanationZh": "常見 romantic comedy、stand-up comedy，指以幽默逗趣為主的娛樂類型。",
-        "examples": [
-          {
-            "en": "The film is a light-hearted comedy about family life.",
-            "zh": "這部電影是一部關於家庭生活的輕鬆喜劇。"
-          }
+        "grammarPatterns": [
+          "a comedy about + noun",
+          "a romantic comedy",
+          "perform comedy"
         ],
         "collocations": [
           {
@@ -890,7 +1201,32 @@
             "text": "stand-up comedy",
             "meaningZh": "單口喜劇"
           }
+        ],
+        "examples": [
+          {
+            "en": "The film is a light-hearted comedy about family life.",
+            "zh": "這部電影是一部關於家庭生活的輕鬆喜劇。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "comedian",
+        "partOfSpeech": "noun",
+        "meaningZh": "喜劇演員"
+      },
+      {
+        "lemma": "comic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "滑稽的；喜劇的"
+      },
+      {
+        "lemma": "comical",
+        "partOfSpeech": "adjective",
+        "meaningZh": "滑稽可笑的"
       }
     ],
     "tags": [
@@ -904,9 +1240,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_comet",
@@ -920,14 +1254,17 @@
       {
         "id": "s_comet_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a celestial body made of ice and dust that orbits the sun",
         "definitionZh": "彗星",
         "usageExplanationZh": "天文學詞彙，常見於描述繞行太陽的冰塊與塵埃天體，並拖有明顯的尾巴。",
-        "examples": [
-          {
-            "en": "The comet will be visible in the night sky next week.",
-            "zh": "下週的夜空將可以看到這顆彗星。"
-          }
+        "grammarPatterns": [
+          "observe a comet",
+          "the tail of a comet",
+          "a comet passes + noun"
         ],
         "collocations": [
           {
@@ -938,7 +1275,22 @@
             "text": "a comet's tail",
             "meaningZh": "彗尾"
           }
+        ],
+        "examples": [
+          {
+            "en": "The comet will be visible in the night sky next week.",
+            "zh": "下週的夜空將可以看到這顆彗星。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "cometary",
+        "partOfSpeech": "adjective",
+        "meaningZh": "彗星的"
       }
     ],
     "tags": [
@@ -952,9 +1304,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_comic",
@@ -968,14 +1318,17 @@
       {
         "id": "s_comic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "causing laughter or amusement",
         "definitionZh": "滑稽的；喜劇的",
         "usageExplanationZh": "常修飾情境或效果，如 comic relief（喜劇調劑），也可指與漫畫相關的（comic book）。",
-        "examples": [
-          {
-            "en": "The film provides some much-needed comic relief.",
-            "zh": "這部電影提供了不少令人放鬆的喜劇調劑。"
-          }
+        "grammarPatterns": [
+          "comic + noun",
+          "comic effect",
+          "comic timing"
         ],
         "collocations": [
           {
@@ -986,7 +1339,37 @@
             "text": "comic timing",
             "meaningZh": "喜劇節奏的掌握"
           }
+        ],
+        "examples": [
+          {
+            "en": "The film provides some much-needed comic relief.",
+            "zh": "這部電影提供了不少令人放鬆的喜劇調劑。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "comical",
+        "noteZh": "滑稽可笑的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "tragic",
+        "noteZh": "悲劇性的（與喜劇義相對）"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "comedy",
+        "partOfSpeech": "noun",
+        "meaningZh": "喜劇"
+      },
+      {
+        "lemma": "comically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "滑稽地"
       }
     ],
     "tags": [
@@ -1001,19 +1384,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "comical",
-        "noteZh": "滑稽可笑的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "tragic",
-        "noteZh": "悲劇性的（與喜劇義相對）"
-      }
-    ]
+    }
   },
   {
     "id": "w_commander",
@@ -1027,14 +1398,17 @@
       {
         "id": "s_commander_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "a person who is in charge of a military unit or operation",
         "definitionZh": "指揮官；司令",
         "usageExplanationZh": "常見於軍事語境，指負責統率特定部隊或行動的高階軍官。",
-        "examples": [
-          {
-            "en": "The commander ordered the troops to retreat.",
-            "zh": "指揮官下令部隊撤退。"
-          }
+        "grammarPatterns": [
+          "the commander of + noun",
+          "a commander in + noun",
+          "serve under a commander"
         ],
         "collocations": [
           {
@@ -1045,7 +1419,32 @@
             "text": "commander in chief",
             "meaningZh": "總司令"
           }
+        ],
+        "examples": [
+          {
+            "en": "The commander ordered the troops to retreat.",
+            "zh": "指揮官下令部隊撤退。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "commanding officer",
+        "noteZh": "部隊的指揮官"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "command",
+        "partOfSpeech": "verb",
+        "meaningZh": "指揮；命令"
+      },
+      {
+        "lemma": "commandment",
+        "partOfSpeech": "noun",
+        "meaningZh": "戒律；誡命"
       }
     ],
     "tags": [
@@ -1058,14 +1457,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "commanding officer",
-        "noteZh": "部隊的指揮官"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_commence",
@@ -1079,14 +1471,17 @@
       {
         "id": "s_commence_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to begin or start",
         "definitionZh": "開始；著手",
         "usageExplanationZh": "語氣比 start 正式，常見於正式文件或典禮場合，如 proceedings commence。",
-        "examples": [
-          {
-            "en": "The ceremony will commence at ten o'clock sharp.",
-            "zh": "典禮將於十點整準時開始。"
-          }
+        "grammarPatterns": [
+          "commence + noun",
+          "commence at + noun",
+          "commence V-ing"
         ],
         "collocations": [
           {
@@ -1097,7 +1492,32 @@
             "text": "commence with",
             "meaningZh": "以……開始"
           }
+        ],
+        "examples": [
+          {
+            "en": "The ceremony will commence at ten o'clock sharp.",
+            "zh": "典禮將於十點整準時開始。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "begin",
+        "noteZh": "開始"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "cease",
+        "noteZh": "停止"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "commencement",
+        "partOfSpeech": "noun",
+        "meaningZh": "開始；畢業典禮"
       }
     ],
     "tags": [
@@ -1112,19 +1532,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "begin",
-        "noteZh": "開始"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "cease",
-        "noteZh": "停止"
-      }
-    ]
+    }
   },
   {
     "id": "w_commencement",
@@ -1138,14 +1546,17 @@
       {
         "id": "s_commencement_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the beginning of something, or (American) a graduation ceremony",
         "definitionZh": "開始；（美式）畢業典禮",
         "usageExplanationZh": "英式英語多指事件的開端，美式英語則常特指大學的畢業典禮。",
-        "examples": [
-          {
-            "en": "She gave a speech at her college commencement.",
-            "zh": "她在大學畢業典禮上發表演說。"
-          }
+        "grammarPatterns": [
+          "the commencement of + noun",
+          "at commencement",
+          "a commencement speech"
         ],
         "collocations": [
           {
@@ -1156,7 +1567,32 @@
             "text": "the commencement of work",
             "meaningZh": "工作的開始"
           }
+        ],
+        "examples": [
+          {
+            "en": "She gave a speech at her college commencement.",
+            "zh": "她在大學畢業典禮上發表演說。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "beginning",
+        "noteZh": "指開始，不指畢業典禮"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "conclusion",
+        "noteZh": "結束（對應開始義）"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "commence",
+        "partOfSpeech": "verb",
+        "meaningZh": "開始；著手"
       }
     ],
     "tags": [
@@ -1169,19 +1605,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "beginning",
-        "noteZh": "指開始，不指畢業典禮"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "conclusion",
-        "noteZh": "結束（對應開始義）"
-      }
-    ]
+    }
   },
   {
     "id": "w_commensurate",
@@ -1195,14 +1619,16 @@
       {
         "id": "s_commensurate_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "corresponding in size or degree to something else",
         "definitionZh": "相稱的；成比例的",
         "usageExplanationZh": "常接 with，如 commensurate with experience，指薪資或待遇與資歷等相符。",
-        "examples": [
-          {
-            "en": "The salary should be commensurate with the candidate's experience.",
-            "zh": "薪資應與應徵者的資歷相稱。"
-          }
+        "grammarPatterns": [
+          "commensurate with + noun",
+          "be commensurate with + noun"
         ],
         "collocations": [
           {
@@ -1213,7 +1639,37 @@
             "text": "commensurate pay",
             "meaningZh": "相稱的薪酬"
           }
+        ],
+        "examples": [
+          {
+            "en": "The salary should be commensurate with the candidate's experience.",
+            "zh": "薪資應與應徵者的資歷相稱。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "proportionate",
+        "noteZh": "成比例的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "disproportionate",
+        "noteZh": "不成比例的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "commensurable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可相比的；相稱的"
+      },
+      {
+        "lemma": "incommensurate",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不相稱的"
       }
     ],
     "tags": [
@@ -1226,19 +1682,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "proportionate",
-        "noteZh": "成比例的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "disproportionate",
-        "noteZh": "不成比例的"
-      }
-    ]
+    }
   },
   {
     "id": "w_commentary",
@@ -1252,14 +1696,17 @@
       {
         "id": "s_commentary_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "a spoken or written explanation or discussion accompanying an event",
         "definitionZh": "評論；實況解說",
         "usageExplanationZh": "常見 live commentary（現場實況轉播評論），也可指對書籍或事件的深入解析文字。",
-        "examples": [
-          {
-            "en": "The sports channel provides live commentary during the match.",
-            "zh": "這個體育頻道在比賽期間提供現場實況解說。"
-          }
+        "grammarPatterns": [
+          "commentary on + noun",
+          "provide commentary",
+          "a running commentary"
         ],
         "collocations": [
           {
@@ -1270,7 +1717,37 @@
             "text": "political commentary",
             "meaningZh": "政治評論"
           }
+        ],
+        "examples": [
+          {
+            "en": "The sports channel provides live commentary during the match.",
+            "zh": "這個體育頻道在比賽期間提供現場實況解說。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "analysis",
+        "noteZh": "指評論分析"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "comment",
+        "partOfSpeech": "noun",
+        "meaningZh": "評論；意見"
+      },
+      {
+        "lemma": "commentator",
+        "partOfSpeech": "noun",
+        "meaningZh": "評論員；解說員"
+      },
+      {
+        "lemma": "commentate",
+        "partOfSpeech": "verb",
+        "meaningZh": "實況評述"
       }
     ],
     "tags": [
@@ -1285,14 +1762,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "analysis",
-        "noteZh": "指評論分析"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_commentator",
@@ -1306,14 +1776,15 @@
       {
         "id": "s_commentator_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a person who provides commentary, especially on broadcasts",
         "definitionZh": "評論員；解說員",
         "usageExplanationZh": "常見 sports commentator、political commentator，指針對特定領域提供分析與評論的人。",
-        "examples": [
-          {
-            "en": "The commentator praised the team's defensive strategy.",
-            "zh": "這位評論員稱讚了這支球隊的防守策略。"
-          }
+        "grammarPatterns": [
+          "a commentator on + noun",
+          "a political commentator"
         ],
         "collocations": [
           {
@@ -1324,7 +1795,32 @@
             "text": "a political commentator",
             "meaningZh": "政治評論員"
           }
+        ],
+        "examples": [
+          {
+            "en": "The commentator praised the team's defensive strategy.",
+            "zh": "這位評論員稱讚了這支球隊的防守策略。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "analyst",
+        "noteZh": "指評論分析時事的人"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "comment",
+        "partOfSpeech": "verb",
+        "meaningZh": "評論"
+      },
+      {
+        "lemma": "commentary",
+        "partOfSpeech": "noun",
+        "meaningZh": "評論；實況解說"
       }
     ],
     "tags": [
@@ -1337,14 +1833,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "analyst",
-        "noteZh": "指評論分析時事的人"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_commerce",
@@ -1358,14 +1847,17 @@
       {
         "id": "s_commerce_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "the activity of buying and selling goods and services",
         "definitionZh": "商業；貿易",
         "usageExplanationZh": "不可數名詞，常見 chamber of commerce（商會），強調大規模的商業交易活動。",
-        "examples": [
-          {
-            "en": "The city thrived on commerce and trade.",
-            "zh": "這座城市因商業與貿易而繁榮興盛。"
-          }
+        "grammarPatterns": [
+          "engage in commerce",
+          "international commerce",
+          "commerce between A and B"
         ],
         "collocations": [
           {
@@ -1376,7 +1868,37 @@
             "text": "a chamber of commerce",
             "meaningZh": "商會"
           }
+        ],
+        "examples": [
+          {
+            "en": "The city thrived on commerce and trade.",
+            "zh": "這座城市因商業與貿易而繁榮興盛。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "trade",
+        "noteZh": "商品或服務的交易"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "commercial",
+        "partOfSpeech": "adjective",
+        "meaningZh": "商業的"
+      },
+      {
+        "lemma": "commercialize",
+        "partOfSpeech": "verb",
+        "meaningZh": "使商業化"
+      },
+      {
+        "lemma": "commercially",
+        "partOfSpeech": "adverb",
+        "meaningZh": "商業上地"
       }
     ],
     "tags": [
@@ -1389,14 +1911,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "trade",
-        "noteZh": "商品或服務的交易"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_commissioner",
@@ -1410,14 +1925,17 @@
       {
         "id": "s_commissioner_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "an official appointed to oversee a particular department or organization",
         "definitionZh": "委員；長官",
         "usageExplanationZh": "常見 police commissioner，指經任命負責監督特定部門或機構的官員。",
-        "examples": [
-          {
-            "en": "The commissioner announced new regulations for the industry.",
-            "zh": "這位委員宣布了針對該產業的新法規。"
-          }
+        "grammarPatterns": [
+          "the commissioner of + noun",
+          "appoint sb as commissioner",
+          "a police commissioner"
         ],
         "collocations": [
           {
@@ -1428,7 +1946,22 @@
             "text": "a European commissioner",
             "meaningZh": "歐盟執行委員"
           }
+        ],
+        "examples": [
+          {
+            "en": "The commissioner announced new regulations for the industry.",
+            "zh": "這位委員宣布了針對該產業的新法規。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "commission",
+        "partOfSpeech": "noun",
+        "meaningZh": "委員會；佣金"
       }
     ],
     "tags": [
@@ -1441,9 +1974,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_commodity",
@@ -1457,14 +1988,17 @@
       {
         "id": "s_commodity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "technical"
+        ],
         "definitionEn": "a raw material or primary product that can be bought and sold",
         "definitionZh": "商品；原物料",
         "usageExplanationZh": "常見 agricultural commodity，多指可交易的原始物資，如穀物、石油等。",
-        "examples": [
-          {
-            "en": "Coffee is one of the world's most traded commodities.",
-            "zh": "咖啡是全球交易量最大的商品之一。"
-          }
+        "grammarPatterns": [
+          "a valuable commodity",
+          "commodity prices",
+          "trade in commodities"
         ],
         "collocations": [
           {
@@ -1475,7 +2009,32 @@
             "text": "a valuable commodity",
             "meaningZh": "珍貴的商品或資源"
           }
+        ],
+        "examples": [
+          {
+            "en": "Coffee is one of the world's most traded commodities.",
+            "zh": "咖啡是全球交易量最大的商品之一。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "goods",
+        "noteZh": "指可交易的商品，通常用複數"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "commodify",
+        "partOfSpeech": "verb",
+        "meaningZh": "使商品化"
+      },
+      {
+        "lemma": "commodification",
+        "partOfSpeech": "noun",
+        "meaningZh": "商品化"
       }
     ],
     "tags": [
@@ -1490,14 +2049,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "goods",
-        "noteZh": "指可交易的商品，通常用複數"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_commonplace",
@@ -1511,14 +2063,17 @@
       {
         "id": "s_commonplace_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "ordinary and not unusual",
         "definitionZh": "常見的；平凡的",
         "usageExplanationZh": "常用於描述已變得普遍或不再新奇的事物，語氣中性偏平淡。",
-        "examples": [
-          {
-            "en": "Remote work has become commonplace in recent years.",
-            "zh": "遠距工作近年來已變得相當普遍。"
-          }
+        "grammarPatterns": [
+          "become commonplace",
+          "a commonplace + noun",
+          "it is commonplace for sb to + V"
         ],
         "collocations": [
           {
@@ -1529,7 +2084,37 @@
             "text": "a commonplace occurrence",
             "meaningZh": "司空見慣的事"
           }
+        ],
+        "examples": [
+          {
+            "en": "Remote work has become commonplace in recent years.",
+            "zh": "遠距工作近年來已變得相當普遍。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "ordinary",
+        "noteZh": "平凡常見的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "exceptional",
+        "noteZh": "不同尋常的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "common",
+        "partOfSpeech": "adjective",
+        "meaningZh": "常見的；普通的"
+      },
+      {
+        "lemma": "commonly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "普遍地；常常"
       }
     ],
     "tags": [
@@ -1544,19 +2129,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "ordinary",
-        "noteZh": "平凡常見的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "exceptional",
-        "noteZh": "不同尋常的"
-      }
-    ]
+    }
   },
   {
     "id": "w_commonwealth",
@@ -1570,14 +2143,16 @@
       {
         "id": "s_commonwealth_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a group of nations or states united by common interests, or a self-governing political unit",
         "definitionZh": "（國家或政治體的）聯邦、共和國",
         "usageExplanationZh": "常見 the Commonwealth（大寫，指大英國協），也可指某些美國州的正式名稱，如 the Commonwealth of Massachusetts。",
-        "examples": [
-          {
-            "en": "The Commonwealth includes many former British colonies.",
-            "zh": "大英國協包含許多前英國殖民地。"
-          }
+        "grammarPatterns": [
+          "the Commonwealth of + noun",
+          "a member of the commonwealth"
         ],
         "collocations": [
           {
@@ -1588,9 +2163,22 @@
             "text": "Commonwealth countries",
             "meaningZh": "大英國協國家"
           }
+        ],
+        "examples": [
+          {
+            "en": "The Commonwealth includes many former British colonies.",
+            "zh": "大英國協包含許多前英國殖民地。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "republic",
+        "noteZh": "共和國義的近義詞，並非所有 commonwealth 都是共和國"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -1602,14 +2190,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "republic",
-        "noteZh": "共和國義的近義詞，並非所有 commonwealth 都是共和國"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_commotion",
@@ -1623,14 +2204,16 @@
       {
         "id": "s_commotion_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a state of confused and noisy disturbance",
         "definitionZh": "騷動；喧鬧",
         "usageExplanationZh": "不可數名詞，常見 cause a commotion，指突發的混亂吵鬧場面。",
-        "examples": [
-          {
-            "en": "There was a commotion in the hallway when the fire alarm went off.",
-            "zh": "火警警報響起時，走廊上一陣騷動。"
-          }
+        "grammarPatterns": [
+          "cause a commotion",
+          "a commotion in + noun",
+          "hear a commotion"
         ],
         "collocations": [
           {
@@ -1641,7 +2224,25 @@
             "text": "a commotion outside",
             "meaningZh": "外面的喧鬧"
           }
+        ],
+        "examples": [
+          {
+            "en": "There was a commotion in the hallway when the fire alarm went off.",
+            "zh": "火警警報響起時，走廊上一陣騷動。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "uproar",
+        "noteZh": "喧鬧騷動"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "calm",
+        "noteZh": "平靜"
       }
     ],
     "tags": [
@@ -1655,19 +2256,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "uproar",
-        "noteZh": "喧鬧騷動"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "calm",
-        "noteZh": "平靜"
-      }
-    ]
+    }
   },
   {
     "id": "w_commune",
@@ -1681,40 +2270,76 @@
       {
         "id": "s_commune_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "a group of people living together and sharing resources",
         "definitionZh": "公社；社區",
         "usageExplanationZh": "常見 a hippie commune，指一群人共同生活並分享財產與勞動的社群。",
-        "examples": [
-          {
-            "en": "They joined a commune in the countryside.",
-            "zh": "他們加入了鄉間的一個公社。"
-          }
+        "grammarPatterns": [
+          "live in a commune",
+          "a commune of + noun",
+          "join a commune"
         ],
         "collocations": [
           {
             "text": "live in a commune",
             "meaningZh": "住在公社裡"
           }
+        ],
+        "examples": [
+          {
+            "en": "They joined a commune in the countryside.",
+            "zh": "他們加入了鄉間的一個公社。"
+          }
         ]
       },
       {
         "id": "s_commune_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "to communicate intimately, especially with nature",
         "definitionZh": "（尤指與自然）交流、溝通",
         "usageExplanationZh": "常接 with，如 commune with nature，語氣帶有靈性或沉思的意味。",
-        "examples": [
-          {
-            "en": "He liked to commune with nature by hiking alone.",
-            "zh": "他喜歡獨自健行，與大自然交流。"
-          }
+        "grammarPatterns": [
+          "commune with + noun",
+          "commune with nature"
         ],
         "collocations": [
           {
             "text": "commune with nature",
             "meaningZh": "與大自然心靈交流"
           }
+        ],
+        "examples": [
+          {
+            "en": "He liked to commune with nature by hiking alone.",
+            "zh": "他喜歡獨自健行，與大自然交流。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "community",
+        "noteZh": "指共同生活的群體"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "communal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "公共的；共有的"
+      },
+      {
+        "lemma": "communion",
+        "partOfSpeech": "noun",
+        "meaningZh": "交流；心靈相通"
       }
     ],
     "tags": [
@@ -1727,14 +2352,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "community",
-        "noteZh": "指共同生活的群體"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_compact",
@@ -1748,14 +2366,17 @@
       {
         "id": "s_compact_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "small and neatly arranged, taking up little space",
         "definitionZh": "小巧的；緊湊的",
         "usageExplanationZh": "常修飾物品或設計，如 compact car，強調體積小但功能齊全。",
-        "examples": [
-          {
-            "en": "The apartment is compact but well-designed.",
-            "zh": "這間公寓雖然小巧，但設計得很好。"
-          }
+        "grammarPatterns": [
+          "a compact + noun",
+          "compact in size",
+          "small and compact"
         ],
         "collocations": [
           {
@@ -1766,41 +2387,42 @@
             "text": "compact design",
             "meaningZh": "緊湊的設計"
           }
+        ],
+        "examples": [
+          {
+            "en": "The apartment is compact but well-designed.",
+            "zh": "這間公寓雖然小巧，但設計得很好。"
+          }
         ]
       },
       {
         "id": "s_compact_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical"
+        ],
         "definitionEn": "to press or compress something firmly together",
         "definitionZh": "壓縮；壓實",
         "usageExplanationZh": "及物動詞，常見於描述將材料壓緊使體積變小，如 compact the soil。",
-        "examples": [
-          {
-            "en": "The machine compacts the trash to save space.",
-            "zh": "這台機器壓縮垃圾以節省空間。"
-          }
+        "grammarPatterns": [
+          "compact + noun",
+          "be compacted into + noun",
+          "compact the soil"
         ],
         "collocations": [
           {
             "text": "compact the soil",
             "meaningZh": "把土壤壓實"
           }
+        ],
+        "examples": [
+          {
+            "en": "The machine compacts the trash to save space.",
+            "zh": "這台機器壓縮垃圾以節省空間。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "small",
@@ -1816,7 +2438,32 @@
         "lemma": "bulky",
         "noteZh": "指體積龐大的；與小巧義相對"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "compactly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "緊湊地"
+      },
+      {
+        "lemma": "compactness",
+        "partOfSpeech": "noun",
+        "meaningZh": "緊湊；密實"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_companion",
@@ -1830,14 +2477,17 @@
       {
         "id": "s_companion_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "a person who spends time with or accompanies another",
         "definitionZh": "同伴；夥伴",
         "usageExplanationZh": "常見 traveling companion，指陪伴他人的人，語氣溫暖且中性。",
-        "examples": [
-          {
-            "en": "The dog became her loyal companion for many years.",
-            "zh": "這隻狗多年來一直是她忠實的夥伴。"
-          }
+        "grammarPatterns": [
+          "a companion to sb",
+          "a traveling companion",
+          "a constant companion"
         ],
         "collocations": [
           {
@@ -1848,7 +2498,32 @@
             "text": "constant companion",
             "meaningZh": "經常相伴的人"
           }
+        ],
+        "examples": [
+          {
+            "en": "The dog became her loyal companion for many years.",
+            "zh": "這隻狗多年來一直是她忠實的夥伴。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "partner",
+        "noteZh": "一起活動的夥伴"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "companionship",
+        "partOfSpeech": "noun",
+        "meaningZh": "陪伴；友誼"
+      },
+      {
+        "lemma": "company",
+        "partOfSpeech": "noun",
+        "meaningZh": "陪伴；同伴"
       }
     ],
     "tags": [
@@ -1863,14 +2538,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "partner",
-        "noteZh": "一起活動的夥伴"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_comparable",
@@ -1884,14 +2552,17 @@
       {
         "id": "s_comparable_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "similar enough to be compared",
         "definitionZh": "可比較的；相當的",
         "usageExplanationZh": "常接 to／with，如 comparable to，表示兩者在程度或性質上相近，足以比較。",
-        "examples": [
-          {
-            "en": "Her salary is comparable to that of her colleagues.",
-            "zh": "她的薪水和同事們相當。"
-          }
+        "grammarPatterns": [
+          "comparable to + noun",
+          "comparable with + noun",
+          "a comparable + noun"
         ],
         "collocations": [
           {
@@ -1902,7 +2573,42 @@
             "text": "comparable results",
             "meaningZh": "可比較的結果"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her salary is comparable to that of her colleagues.",
+            "zh": "她的薪水和同事們相當。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "similar",
+        "noteZh": "相似而可比較的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "incomparable",
+        "noteZh": "無法比較的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "compare",
+        "partOfSpeech": "verb",
+        "meaningZh": "比較"
+      },
+      {
+        "lemma": "comparability",
+        "partOfSpeech": "noun",
+        "meaningZh": "可比性"
+      },
+      {
+        "lemma": "comparably",
+        "partOfSpeech": "adverb",
+        "meaningZh": "相當地"
       }
     ],
     "tags": [
@@ -1916,19 +2622,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "similar",
-        "noteZh": "相似而可比較的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "incomparable",
-        "noteZh": "無法比較的"
-      }
-    ]
+    }
   },
   {
     "id": "w_comparative",
@@ -1942,14 +2636,17 @@
       {
         "id": "s_comparative_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "assessed by comparison with something else",
         "definitionZh": "比較的；相對的",
         "usageExplanationZh": "常見 comparative study，指透過對照分析而非絕對標準來評估事物。",
-        "examples": [
-          {
-            "en": "The report offers a comparative analysis of the two economies.",
-            "zh": "這份報告提供了這兩個經濟體的比較分析。"
-          }
+        "grammarPatterns": [
+          "comparative + noun",
+          "a comparative study of + noun",
+          "comparative advantage"
         ],
         "collocations": [
           {
@@ -1960,26 +2657,64 @@
             "text": "comparative advantage",
             "meaningZh": "比較優勢"
           }
+        ],
+        "examples": [
+          {
+            "en": "The report offers a comparative analysis of the two economies.",
+            "zh": "這份報告提供了這兩個經濟體的比較分析。"
+          }
         ]
       },
       {
         "id": "s_comparative_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "the form of an adjective or adverb expressing a higher degree",
         "definitionZh": "比較級",
         "usageExplanationZh": "文法術語，如 \"faster\" 是 \"fast\" 的比較級，用於表達程度上的差異。",
-        "examples": [
-          {
-            "en": "\"Better\" is the comparative form of \"good.\"",
-            "zh": "\"Better\" 是 \"good\" 的比較級形式。"
-          }
+        "grammarPatterns": [
+          "the comparative of + noun",
+          "form the comparative"
         ],
         "collocations": [
           {
             "text": "the comparative form",
             "meaningZh": "比較級形式"
           }
+        ],
+        "examples": [
+          {
+            "en": "\"Better\" is the comparative form of \"good.\"",
+            "zh": "\"Better\" 是 \"good\" 的比較級形式。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "relative",
+        "noteZh": "指相對而言的形容詞義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "compare",
+        "partOfSpeech": "verb",
+        "meaningZh": "比較"
+      },
+      {
+        "lemma": "comparatively",
+        "partOfSpeech": "adverb",
+        "meaningZh": "相對地"
+      },
+      {
+        "lemma": "comparison",
+        "partOfSpeech": "noun",
+        "meaningZh": "比較；對照"
       }
     ],
     "tags": [
@@ -1992,14 +2727,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "relative",
-        "noteZh": "指相對而言的形容詞義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_comparatively",
@@ -2013,14 +2741,17 @@
       {
         "id": "s_comparatively_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "in comparison with something else; relatively",
         "definitionZh": "相對地；比較起來",
         "usageExplanationZh": "常修飾形容詞，如 comparatively small，表示相對於其他事物而言的程度。",
-        "examples": [
-          {
-            "en": "The town is comparatively quiet compared to the city.",
-            "zh": "這個小鎮相對於城市而言安靜許多。"
-          }
+        "grammarPatterns": [
+          "comparatively + adjective",
+          "comparatively few + noun",
+          "comparatively speaking"
         ],
         "collocations": [
           {
@@ -2031,7 +2762,32 @@
             "text": "comparatively speaking",
             "meaningZh": "比較而言"
           }
+        ],
+        "examples": [
+          {
+            "en": "The town is comparatively quiet compared to the city.",
+            "zh": "這個小鎮相對於城市而言安靜許多。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "relatively",
+        "noteZh": "相對而言"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "comparative",
+        "partOfSpeech": "adjective",
+        "meaningZh": "比較的；相對的"
+      },
+      {
+        "lemma": "compare",
+        "partOfSpeech": "verb",
+        "meaningZh": "比較"
       }
     ],
     "tags": [
@@ -2044,14 +2800,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "relatively",
-        "noteZh": "相對而言"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_comparison",
@@ -2065,14 +2814,17 @@
       {
         "id": "s_comparison_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "neutral"
+        ],
         "definitionEn": "the act of comparing two or more things",
         "definitionZh": "比較；對照",
         "usageExplanationZh": "常見 in comparison with／to，指評估事物之間的異同。",
-        "examples": [
-          {
-            "en": "The comparison between the two models highlights key differences.",
-            "zh": "這兩款機型的比較凸顯了關鍵差異。"
-          }
+        "grammarPatterns": [
+          "a comparison between A and B",
+          "in comparison with + noun",
+          "by comparison"
         ],
         "collocations": [
           {
@@ -2083,7 +2835,32 @@
             "text": "draw a comparison",
             "meaningZh": "作比較"
           }
+        ],
+        "examples": [
+          {
+            "en": "The comparison between the two models highlights key differences.",
+            "zh": "這兩款機型的比較凸顯了關鍵差異。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "contrast",
+        "noteZh": "強調比較差異"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "compare",
+        "partOfSpeech": "verb",
+        "meaningZh": "比較"
+      },
+      {
+        "lemma": "comparable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可比較的"
       }
     ],
     "tags": [
@@ -2096,14 +2873,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "contrast",
-        "noteZh": "強調比較差異"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_compartment",
@@ -2117,14 +2887,17 @@
       {
         "id": "s_compartment_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a separate section within a larger structure",
         "definitionZh": "隔間；車廂",
         "usageExplanationZh": "常見 train compartment，指較大結構內部區隔出的獨立空間。",
-        "examples": [
-          {
-            "en": "He stored his luggage in the overhead compartment.",
-            "zh": "他把行李放在頭頂上方的隔間裡。"
-          }
+        "grammarPatterns": [
+          "a separate compartment",
+          "a compartment for + noun",
+          "the luggage compartment"
         ],
         "collocations": [
           {
@@ -2135,7 +2908,32 @@
             "text": "a train compartment",
             "meaningZh": "火車包廂"
           }
+        ],
+        "examples": [
+          {
+            "en": "He stored his luggage in the overhead compartment.",
+            "zh": "他把行李放在頭頂上方的隔間裡。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "section",
+        "noteZh": "指分隔出來的部分"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "compartmentalize",
+        "partOfSpeech": "verb",
+        "meaningZh": "區隔化；分門別類"
+      },
+      {
+        "lemma": "compartmental",
+        "partOfSpeech": "adjective",
+        "meaningZh": "分隔的"
       }
     ],
     "tags": [
@@ -2149,14 +2947,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "section",
-        "noteZh": "指分隔出來的部分"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_compassion",
@@ -2170,14 +2961,17 @@
       {
         "id": "s_compassion_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "a deep sympathy for the suffering of others, with a desire to help",
         "definitionZh": "同情心；憐憫",
         "usageExplanationZh": "不可數名詞，強調不僅感同身受，還帶有想要幫助對方的意願。",
-        "examples": [
-          {
-            "en": "The nurse treated every patient with great compassion.",
-            "zh": "這位護理師以極大的同情心對待每一位病患。"
-          }
+        "grammarPatterns": [
+          "compassion for + noun",
+          "show compassion",
+          "out of compassion"
         ],
         "collocations": [
           {
@@ -2188,7 +2982,37 @@
             "text": "compassion for others",
             "meaningZh": "對他人的憐憫"
           }
+        ],
+        "examples": [
+          {
+            "en": "The nurse treated every patient with great compassion.",
+            "zh": "這位護理師以極大的同情心對待每一位病患。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "sympathy",
+        "noteZh": "對他人苦難的同情"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "indifference",
+        "noteZh": "對他人痛苦漠不關心"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "compassionate",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有同情心的"
+      },
+      {
+        "lemma": "compassionately",
+        "partOfSpeech": "adverb",
+        "meaningZh": "富同情心地"
       }
     ],
     "tags": [
@@ -2202,19 +3026,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "sympathy",
-        "noteZh": "對他人苦難的同情"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "indifference",
-        "noteZh": "對他人痛苦漠不關心"
-      }
-    ]
+    }
   },
   {
     "id": "w_compatible",
@@ -2228,14 +3040,17 @@
       {
         "id": "s_compatible_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "able to exist or work together without conflict",
         "definitionZh": "相容的；合得來的",
         "usageExplanationZh": "常見 compatible with，可指設備或系統的相容性，也可指人際關係的契合。",
-        "examples": [
-          {
-            "en": "The new software is compatible with older devices.",
-            "zh": "這款新軟體與舊型裝置相容。"
-          }
+        "grammarPatterns": [
+          "compatible with + noun",
+          "be compatible with + noun",
+          "fully compatible"
         ],
         "collocations": [
           {
@@ -2246,7 +3061,37 @@
             "text": "compatible software",
             "meaningZh": "相容的軟體"
           }
+        ],
+        "examples": [
+          {
+            "en": "The new software is compatible with older devices.",
+            "zh": "這款新軟體與舊型裝置相容。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "consistent",
+        "noteZh": "指事物互不衝突"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "incompatible",
+        "noteZh": "不相容的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "compatibility",
+        "partOfSpeech": "noun",
+        "meaningZh": "相容性"
+      },
+      {
+        "lemma": "incompatible",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不相容的"
       }
     ],
     "tags": [
@@ -2261,19 +3106,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "consistent",
-        "noteZh": "指事物互不衝突"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "incompatible",
-        "noteZh": "不相容的"
-      }
-    ]
+    }
   },
   {
     "id": "w_compel",
@@ -2287,14 +3120,17 @@
       {
         "id": "s_compel_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to force someone to do something",
         "definitionZh": "迫使；強制",
         "usageExplanationZh": "及物動詞，常見 compel someone to do something，語氣正式，強調外力或義務的強迫性。",
-        "examples": [
-          {
-            "en": "The evidence compelled the jury to reconsider their verdict.",
-            "zh": "這項證據迫使陪審團重新考慮他們的裁決。"
-          }
+        "grammarPatterns": [
+          "compel sb to + V",
+          "feel compelled to + V",
+          "be compelled by + noun"
         ],
         "collocations": [
           {
@@ -2305,7 +3141,32 @@
             "text": "feel compelled to",
             "meaningZh": "覺得不得不……"
           }
+        ],
+        "examples": [
+          {
+            "en": "The evidence compelled the jury to reconsider their verdict.",
+            "zh": "這項證據迫使陪審團重新考慮他們的裁決。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "force",
+        "noteZh": "迫使"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "compulsion",
+        "partOfSpeech": "noun",
+        "meaningZh": "強迫；衝動"
+      },
+      {
+        "lemma": "compulsive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "強迫性的；難以自制的"
       }
     ],
     "tags": [
@@ -2320,14 +3181,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "force",
-        "noteZh": "迫使"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_compensate",
@@ -2341,14 +3195,17 @@
       {
         "id": "s_compensate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to give something, especially money, to make up for loss or damage",
         "definitionZh": "補償；賠償",
         "usageExplanationZh": "常接 for，如 compensate for a loss，也可指以某種方式彌補不足，如 compensate for weakness。",
-        "examples": [
-          {
-            "en": "The airline compensated passengers for the delayed flight.",
-            "zh": "航空公司對延誤的航班向乘客做出補償。"
-          }
+        "grammarPatterns": [
+          "compensate sb for + noun",
+          "compensate for + noun",
+          "be compensated in + noun"
         ],
         "collocations": [
           {
@@ -2359,7 +3216,32 @@
             "text": "compensate someone for a loss",
             "meaningZh": "賠償某人的損失"
           }
+        ],
+        "examples": [
+          {
+            "en": "The airline compensated passengers for the delayed flight.",
+            "zh": "航空公司對延誤的航班向乘客做出補償。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "reimburse",
+        "noteZh": "指償還費用"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "compensation",
+        "partOfSpeech": "noun",
+        "meaningZh": "補償；賠償"
+      },
+      {
+        "lemma": "compensatory",
+        "partOfSpeech": "adjective",
+        "meaningZh": "補償性的"
       }
     ],
     "tags": [
@@ -2374,14 +3256,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "reimburse",
-        "noteZh": "指償還費用"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_compensation",
@@ -2395,14 +3270,17 @@
       {
         "id": "s_compensation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "something given to make up for loss, injury, or suffering",
         "definitionZh": "補償金；賠償",
         "usageExplanationZh": "常見 receive compensation，指因損失或傷害而獲得的金錢或其他形式補償。",
-        "examples": [
-          {
-            "en": "He received compensation for his workplace injury.",
-            "zh": "他因職業傷害獲得了賠償。"
-          }
+        "grammarPatterns": [
+          "compensation for + noun",
+          "claim compensation",
+          "pay compensation to sb"
         ],
         "collocations": [
           {
@@ -2413,7 +3291,32 @@
             "text": "compensation for injuries",
             "meaningZh": "受傷賠償"
           }
+        ],
+        "examples": [
+          {
+            "en": "He received compensation for his workplace injury.",
+            "zh": "他因職業傷害獲得了賠償。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "reimbursement",
+        "noteZh": "指費用的償還"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "compensate",
+        "partOfSpeech": "verb",
+        "meaningZh": "補償；賠償"
+      },
+      {
+        "lemma": "compensatory",
+        "partOfSpeech": "adjective",
+        "meaningZh": "補償性的"
       }
     ],
     "tags": [
@@ -2427,14 +3330,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "reimbursement",
-        "noteZh": "指費用的償還"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_compensatory",
@@ -2448,14 +3344,17 @@
       {
         "id": "s_compensatory_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "intended to compensate for loss or damage",
         "definitionZh": "補償性的",
         "usageExplanationZh": "常修飾金錢或措施，如 compensatory damages（補償性賠償金），語氣正式且多見於法律文件。",
-        "examples": [
-          {
-            "en": "The court awarded compensatory damages to the victim.",
-            "zh": "法院判給受害者補償性賠償金。"
-          }
+        "grammarPatterns": [
+          "compensatory + noun",
+          "compensatory damages",
+          "a compensatory payment"
         ],
         "collocations": [
           {
@@ -2466,7 +3365,32 @@
             "text": "compensatory leave",
             "meaningZh": "補休"
           }
+        ],
+        "examples": [
+          {
+            "en": "The court awarded compensatory damages to the victim.",
+            "zh": "法院判給受害者補償性賠償金。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "reparative",
+        "noteZh": "指彌補損失或傷害的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "compensate",
+        "partOfSpeech": "verb",
+        "meaningZh": "補償"
+      },
+      {
+        "lemma": "compensation",
+        "partOfSpeech": "noun",
+        "meaningZh": "補償；賠償"
       }
     ],
     "tags": [
@@ -2480,14 +3404,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "reparative",
-        "noteZh": "指彌補損失或傷害的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_compete",
@@ -2501,14 +3418,17 @@
       {
         "id": "s_compete_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "to try to win or gain something in competition with others",
         "definitionZh": "競爭；比賽",
         "usageExplanationZh": "常接 with／against，如 compete with rivals，也可接 for，如 compete for a prize。",
-        "examples": [
-          {
-            "en": "Several companies are competing for the government contract.",
-            "zh": "好幾家公司正在競爭這份政府合約。"
-          }
+        "grammarPatterns": [
+          "compete with + noun",
+          "compete for + noun",
+          "compete against sb"
         ],
         "collocations": [
           {
@@ -2519,7 +3439,37 @@
             "text": "compete for a prize",
             "meaningZh": "爭奪獎項"
           }
+        ],
+        "examples": [
+          {
+            "en": "Several companies are competing for the government contract.",
+            "zh": "好幾家公司正在競爭這份政府合約。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "contend",
+        "noteZh": "爭奪勝利或獎項"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "competition",
+        "partOfSpeech": "noun",
+        "meaningZh": "競爭；比賽"
+      },
+      {
+        "lemma": "competitive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有競爭力的"
+      },
+      {
+        "lemma": "competitor",
+        "partOfSpeech": "noun",
+        "meaningZh": "競爭者；對手"
       }
     ],
     "tags": [
@@ -2533,14 +3483,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "contend",
-        "noteZh": "爭奪勝利或獎項"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_competence",
@@ -2554,14 +3497,17 @@
       {
         "id": "s_competence_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "the ability to do something successfully or efficiently",
         "definitionZh": "能力；勝任能力",
         "usageExplanationZh": "不可數名詞，常見 professional competence，指具備完成工作所需的技能與知識。",
-        "examples": [
-          {
-            "en": "Her competence in handling complex cases impressed the judges.",
-            "zh": "她處理複雜案件的能力令法官們印象深刻。"
-          }
+        "grammarPatterns": [
+          "competence in + noun",
+          "a level of competence",
+          "demonstrate competence"
         ],
         "collocations": [
           {
@@ -2572,7 +3518,42 @@
             "text": "demonstrate competence",
             "meaningZh": "展現勝任能力"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her competence in handling complex cases impressed the judges.",
+            "zh": "她處理複雜案件的能力令法官們印象深刻。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "ability",
+        "noteZh": "能力"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "incompetence",
+        "noteZh": "不勝任；無能"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "competent",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有能力的；勝任的"
+      },
+      {
+        "lemma": "incompetence",
+        "partOfSpeech": "noun",
+        "meaningZh": "無能；不勝任"
+      },
+      {
+        "lemma": "competently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "稱職地"
       }
     ],
     "tags": [
@@ -2587,19 +3568,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "ability",
-        "noteZh": "能力"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "incompetence",
-        "noteZh": "不勝任；無能"
-      }
-    ]
+    }
   },
   {
     "id": "w_competent",
@@ -2613,14 +3582,16 @@
       {
         "id": "s_competent_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "having the necessary ability or skill to do something well",
         "definitionZh": "有能力的；勝任的",
         "usageExplanationZh": "常見 a competent professional，語氣中性，表示具備足夠能力完成任務，但未必特別出色。",
-        "examples": [
-          {
-            "en": "He is a competent manager who handles pressure well.",
-            "zh": "他是一位能勝任壓力的稱職經理。"
-          }
+        "grammarPatterns": [
+          "competent at + V-ing",
+          "competent to + V",
+          "a competent + noun"
         ],
         "collocations": [
           {
@@ -2631,7 +3602,42 @@
             "text": "a competent professional",
             "meaningZh": "稱職的專業人士"
           }
+        ],
+        "examples": [
+          {
+            "en": "He is a competent manager who handles pressure well.",
+            "zh": "他是一位能勝任壓力的稱職經理。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "capable",
+        "noteZh": "有能力的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "incompetent",
+        "noteZh": "不勝任的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "competence",
+        "partOfSpeech": "noun",
+        "meaningZh": "能力；勝任"
+      },
+      {
+        "lemma": "incompetent",
+        "partOfSpeech": "adjective",
+        "meaningZh": "無能的"
+      },
+      {
+        "lemma": "competently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "稱職地"
       }
     ],
     "tags": [
@@ -2644,19 +3650,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "capable",
-        "noteZh": "有能力的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "incompetent",
-        "noteZh": "不勝任的"
-      }
-    ]
+    }
   },
   {
     "id": "w_compile",
@@ -2670,14 +3664,17 @@
       {
         "id": "s_compile_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "to collect information from different sources and combine it into one document",
         "definitionZh": "編輯、彙編（資料）",
         "usageExplanationZh": "及物動詞，常見 compile a list／report，指將分散的資訊整理成單一文件或清單。",
-        "examples": [
-          {
-            "en": "The team compiled data from multiple studies into a single report.",
-            "zh": "團隊將多項研究的數據彙編成一份報告。"
-          }
+        "grammarPatterns": [
+          "compile + noun",
+          "compile sth from + noun",
+          "compile a list of + noun"
         ],
         "collocations": [
           {
@@ -2688,7 +3685,32 @@
             "text": "compile a list",
             "meaningZh": "編製清單"
           }
+        ],
+        "examples": [
+          {
+            "en": "The team compiled data from multiple studies into a single report.",
+            "zh": "團隊將多項研究的數據彙編成一份報告。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "assemble",
+        "noteZh": "指蒐集並整理材料"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "compilation",
+        "partOfSpeech": "noun",
+        "meaningZh": "彙編；編纂"
+      },
+      {
+        "lemma": "compiler",
+        "partOfSpeech": "noun",
+        "meaningZh": "編纂者；編譯器"
       }
     ],
     "tags": [
@@ -2703,14 +3725,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "assemble",
-        "noteZh": "指蒐集並整理材料"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_complacent",
@@ -2724,14 +3739,17 @@
       {
         "id": "s_complacent_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "showing excessive satisfaction with one's own achievements, leading to a lack of effort",
         "definitionZh": "自滿的；自鳴得意的",
         "usageExplanationZh": "帶負面意涵，常見 grow complacent，警告因過度滿足現狀而放鬆警覺或努力。",
-        "examples": [
-          {
-            "en": "The team became complacent after their early success.",
-            "zh": "這支隊伍在早期成功後變得自滿。"
-          }
+        "grammarPatterns": [
+          "become complacent",
+          "be complacent about + noun",
+          "dangerously complacent"
         ],
         "collocations": [
           {
@@ -2742,7 +3760,37 @@
             "text": "become complacent",
             "meaningZh": "變得自滿"
           }
+        ],
+        "examples": [
+          {
+            "en": "The team became complacent after their early success.",
+            "zh": "這支隊伍在早期成功後變得自滿。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "self-satisfied",
+        "noteZh": "自滿的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "self-critical",
+        "noteZh": "自我反省、不自滿的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "complacency",
+        "partOfSpeech": "noun",
+        "meaningZh": "自滿；自鳴得意"
+      },
+      {
+        "lemma": "complacently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "自滿地"
       }
     ],
     "tags": [
@@ -2755,18 +3803,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "self-satisfied",
-        "noteZh": "自滿的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "self-critical",
-        "noteZh": "自我反省、不自滿的"
-      }
-    ]
+    }
   }
 ]

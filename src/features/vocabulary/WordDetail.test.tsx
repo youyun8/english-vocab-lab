@@ -69,13 +69,40 @@ describe('WordDetailPage', () => {
     expect(marks.length).toBeGreaterThan(0);
   });
 
-  it('renders common mistakes with explicit incorrect/correct labels', async () => {
+  it('keeps the 誤／正 contrast inside the usage notes', async () => {
+    // The separate 常見錯誤 section is gone; the notes it carried now live in
+    // 使用注意 so a word page has one place to look for "do not say this".
     renderWord('preference');
     await screen.findByRole('heading', { level: 1, name: 'preference' });
 
-    expect(screen.getAllByText(/✗ 錯誤/).length).toBeGreaterThan(0);
-    expect(screen.getAllByText(/✓ 正確/).length).toBeGreaterThan(0);
-    expect(screen.getByText('I prefer coffee than tea.')).toBeInTheDocument();
+    expect(screen.getByText(/誤：I prefer coffee than tea.／正：I prefer coffee to tea./))
+      .toBeInTheDocument();
+    expect(screen.queryByText(/✗ 錯誤/)).not.toBeInTheDocument();
+  });
+
+  it('lays every sense out to the same section order', async () => {
+    // The unified spec: whatever the word, the sections that are present appear
+    // in this order and never in another, so pages read the same way.
+    renderWord('consolidate');
+    await screen.findByRole('heading', { level: 1, name: 'consolidate' });
+
+    const spec = ['文法句型', '常用用法與片語', '例句', '使用注意'];
+    // Scoped to one sense at a time: read across senses, every drop back to an
+    // earlier section looks like the start of the next one, and the sequence
+    // check accepts any order at all.
+    const senses = document.querySelectorAll('section[aria-labelledby^="sense-"]');
+    expect(senses.length).toBeGreaterThan(1);
+
+    for (const sense of senses) {
+      const positions = [...sense.querySelectorAll('h2, h3, h4')]
+        .map((heading) => spec.findIndex((label) => (heading.textContent ?? '').startsWith(label)))
+        .filter((position) => position >= 0);
+      // Grammar patterns are required of every sense, so each one opens with
+      // 文法句型 and the sections it has follow in spec order, none repeated.
+      expect(positions[0]).toBe(0);
+      expect(positions).toEqual([...positions].sort((a, b) => a - b));
+      expect(new Set(positions).size).toBe(positions.length);
+    }
   });
 
   it('renders a confusing-word comparison table', async () => {

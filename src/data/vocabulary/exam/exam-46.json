@@ -11,21 +11,47 @@
       {
         "id": "s_medal_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a small metal disk awarded for an achievement, especially in sports or the military",
         "definitionZh": "獎牌；勳章",
         "usageExplanationZh": "常見 win a gold medal，用於表彰體育競賽、軍事功績等傑出表現。",
-        "examples": [
-          {
-            "en": "She won a gold medal in the swimming competition.",
-            "zh": "她在游泳比賽中贏得了金牌。"
-          }
+        "grammarPatterns": [
+          "win a medal",
+          "a gold medal in + noun"
         ],
         "collocations": [
           {
             "text": "win a gold medal",
             "meaningZh": "贏得金牌"
           }
+        ],
+        "examples": [
+          {
+            "en": "She won a gold medal in the swimming competition.",
+            "zh": "她在游泳比賽中贏得了金牌。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "decoration",
+        "noteZh": "指因功績頒授的勳章。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "medalist",
+        "partOfSpeech": "noun",
+        "meaningZh": "獎牌得主"
+      },
+      {
+        "lemma": "medallion",
+        "partOfSpeech": "noun",
+        "meaningZh": "大獎章；圓形浮雕飾板"
       }
     ],
     "tags": [
@@ -39,14 +65,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "decoration",
-        "noteZh": "指因功績頒授的勳章。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_mediate",
@@ -60,21 +79,47 @@
       {
         "id": "s_mediate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to try to help two opposing sides reach an agreement",
         "definitionZh": "調解；斡旋",
         "usageExplanationZh": "常見 mediate a dispute／conflict，強調第三方介入協助雙方達成共識，語氣中立。",
-        "examples": [
-          {
-            "en": "A neutral party was brought in to mediate the labor dispute.",
-            "zh": "一位中立人士被請來調解這場勞資糾紛。"
-          }
+        "grammarPatterns": [
+          "mediate between A and B",
+          "mediate + noun"
         ],
         "collocations": [
           {
             "text": "mediate between two sides",
             "meaningZh": "在雙方之間調解"
           }
+        ],
+        "examples": [
+          {
+            "en": "A neutral party was brought in to mediate the labor dispute.",
+            "zh": "一位中立人士被請來調解這場勞資糾紛。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "intercede",
+        "noteZh": "指居中斡旋，常為一方求情。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "mediation",
+        "partOfSpeech": "noun",
+        "meaningZh": "調解；斡旋"
+      },
+      {
+        "lemma": "mediator",
+        "partOfSpeech": "noun",
+        "meaningZh": "調解人；仲裁者"
       }
     ],
     "tags": [
@@ -89,14 +134,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "intercede",
-        "noteZh": "指居中斡旋，常為一方求情。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_medieval",
@@ -110,21 +148,43 @@
       {
         "id": "s_medieval_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "relating to the Middle Ages, roughly from the 5th to the 15th century",
         "definitionZh": "中世紀的",
         "usageExplanationZh": "常見 medieval castle／history，也可比喻性地帶貶意形容過時的作法，如 medieval attitudes。",
-        "examples": [
-          {
-            "en": "The town still has several well-preserved medieval buildings.",
-            "zh": "這座小鎮仍保留了幾棟保存良好的中世紀建築。"
-          }
+        "grammarPatterns": [
+          "medieval + noun",
+          "in medieval times"
         ],
         "collocations": [
           {
             "text": "medieval architecture",
             "meaningZh": "中世紀建築"
           }
+        ],
+        "examples": [
+          {
+            "en": "The town still has several well-preserved medieval buildings.",
+            "zh": "這座小鎮仍保留了幾棟保存良好的中世紀建築。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "mediaeval",
+        "noteZh": "同一形容詞的另一種拼法，指中世紀的。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "medievalist",
+        "partOfSpeech": "noun",
+        "meaningZh": "中世紀研究學者"
       }
     ],
     "tags": [
@@ -139,14 +199,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "mediaeval",
-        "noteZh": "同一形容詞的另一種拼法，指中世紀的。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_meditate",
@@ -160,21 +213,47 @@
       {
         "id": "s_meditate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to focus one's mind for a period of time in silence, often for relaxation or spiritual purposes",
         "definitionZh": "冥想；靜思",
         "usageExplanationZh": "常見 meditate on／about something，指集中精神深思或修習靜坐，帶宗教或身心放鬆意涵。",
-        "examples": [
-          {
-            "en": "He meditates for twenty minutes every morning before work.",
-            "zh": "他每天早上工作前都會靜坐冥想二十分鐘。"
-          }
+        "grammarPatterns": [
+          "meditate on + noun",
+          "meditate for + noun"
         ],
         "collocations": [
           {
             "text": "meditate on a question",
             "meaningZh": "靜思一個問題"
           }
+        ],
+        "examples": [
+          {
+            "en": "He meditates for twenty minutes every morning before work.",
+            "zh": "他每天早上工作前都會靜坐冥想二十分鐘。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "contemplate",
+        "noteZh": "對應靜心思考的意思。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "meditation",
+        "partOfSpeech": "noun",
+        "meaningZh": "冥想；沉思"
+      },
+      {
+        "lemma": "meditative",
+        "partOfSpeech": "adjective",
+        "meaningZh": "沉思的；冥想的"
       }
     ],
     "tags": [
@@ -189,14 +268,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "contemplate",
-        "noteZh": "對應靜心思考的意思。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_meditation",
@@ -210,21 +282,47 @@
       {
         "id": "s_meditation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "the practice of focusing the mind in silence, or deep, continuous reflection on a subject",
         "definitionZh": "冥想；沉思",
         "usageExplanationZh": "常見 practice meditation，也可指對某主題深入而持續的思考，語氣較正式。",
-        "examples": [
-          {
-            "en": "Daily meditation has helped reduce her stress levels.",
-            "zh": "每天冥想有助於降低她的壓力程度。"
-          }
+        "grammarPatterns": [
+          "practice meditation",
+          "meditation on + noun"
         ],
         "collocations": [
           {
             "text": "practice meditation",
             "meaningZh": "練習冥想"
           }
+        ],
+        "examples": [
+          {
+            "en": "Daily meditation has helped reduce her stress levels.",
+            "zh": "每天冥想有助於降低她的壓力程度。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "contemplation",
+        "noteZh": "對應深入沉思。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "meditate",
+        "partOfSpeech": "verb",
+        "meaningZh": "冥想；靜思"
+      },
+      {
+        "lemma": "meditative",
+        "partOfSpeech": "adjective",
+        "meaningZh": "沉思的"
       }
     ],
     "tags": [
@@ -237,14 +335,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "contemplation",
-        "noteZh": "對應深入沉思。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_meek",
@@ -258,21 +349,53 @@
       {
         "id": "s_meek_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "quiet, gentle, and easily giving in to others rather than asserting oneself",
         "definitionZh": "溫順的；逆來順受的",
         "usageExplanationZh": "常帶輕微負面語氣，暗示過度順從、缺乏主見，與 assertive 相對。",
-        "examples": [
-          {
-            "en": "He was too meek to complain about the unfair treatment.",
-            "zh": "他太過溫順，不敢對這種不公平的待遇提出抗議。"
-          }
+        "grammarPatterns": [
+          "too meek to + V",
+          "a meek + noun"
         ],
         "collocations": [
           {
             "text": "a meek reply",
             "meaningZh": "溫順的回答"
           }
+        ],
+        "examples": [
+          {
+            "en": "He was too meek to complain about the unfair treatment.",
+            "zh": "他太過溫順，不敢對這種不公平的待遇提出抗議。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "submissive",
+        "noteZh": "指順從而不反抗的。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "assertive",
+        "noteZh": "指敢於表達自己立場的。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "meekness",
+        "partOfSpeech": "noun",
+        "meaningZh": "溫順；謙卑"
+      },
+      {
+        "lemma": "meekly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "溫順地"
       }
     ],
     "tags": [
@@ -287,19 +410,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "submissive",
-        "noteZh": "指順從而不反抗的。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "assertive",
-        "noteZh": "指敢於表達自己立場的。"
-      }
-    ]
+    }
   },
   {
     "id": "w_melancholy",
@@ -313,55 +424,57 @@
       {
         "id": "s_melancholy_sense_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "a feeling of deep, thoughtful sadness",
         "definitionZh": "憂鬱；悲傷",
         "usageExplanationZh": "常見 a sense of melancholy，強調帶有詩意、沉思意味的淡淡哀愁，而非強烈痛苦。",
-        "examples": [
-          {
-            "en": "A quiet melancholy settled over her as she read the old letters.",
-            "zh": "讀著這些舊信，一股靜靜的憂鬱籠罩了她。"
-          }
+        "grammarPatterns": [
+          "a deep melancholy",
+          "a melancholy settled over + somebody"
         ],
         "collocations": [
           {
             "text": "a sense of melancholy",
             "meaningZh": "一股憂鬱感"
           }
+        ],
+        "examples": [
+          {
+            "en": "A quiet melancholy settled over her as she read the old letters.",
+            "zh": "讀著這些舊信，一股靜靜的憂鬱籠罩了她。"
+          }
         ]
       },
       {
         "id": "s_melancholy_sense_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary"
+        ],
         "definitionEn": "expressing or causing a feeling of thoughtful sadness",
         "definitionZh": "憂鬱的；令人感傷的",
         "usageExplanationZh": "常修飾 song、mood、expression 等，語氣帶文學色彩。",
-        "examples": [
-          {
-            "en": "The film has a melancholy tone that lingers long after it ends.",
-            "zh": "這部電影帶有一種憂鬱的基調，看完後仍久久縈繞心頭。"
-          }
+        "grammarPatterns": [
+          "a melancholy + noun",
+          "a melancholy tone"
         ],
         "collocations": [
           {
             "text": "a melancholy mood",
             "meaningZh": "憂鬱的心情"
           }
+        ],
+        "examples": [
+          {
+            "en": "The film has a melancholy tone that lingers long after it ends.",
+            "zh": "這部電影帶有一種憂鬱的基調，看完後仍久久縈繞心頭。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "sadness",
@@ -381,7 +494,27 @@
         "lemma": "cheerful",
         "noteZh": "形容詞義指愉快的。"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "melancholic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "憂鬱的"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_meld",
@@ -395,21 +528,41 @@
       {
         "id": "s_meld_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to blend or combine different things smoothly",
         "definitionZh": "融合；混合",
         "usageExplanationZh": "常見 meld together，強調不同元素自然結合成一體，語氣較正式或文學化。",
-        "examples": [
-          {
-            "en": "The chef melded traditional and modern flavors in the dish.",
-            "zh": "這位主廚將傳統與現代的風味融合在這道菜裡。"
-          }
+        "grammarPatterns": [
+          "meld A with B",
+          "meld A and B into + noun"
         ],
         "collocations": [
           {
             "text": "meld together",
             "meaningZh": "融合在一起"
           }
+        ],
+        "examples": [
+          {
+            "en": "The chef melded traditional and modern flavors in the dish.",
+            "zh": "這位主廚將傳統與現代的風味融合在這道菜裡。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "blend",
+        "noteZh": "指使不同事物融合。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "separate",
+        "noteZh": "指把融合的事物分開。"
       }
     ],
     "tags": [
@@ -422,19 +575,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "blend",
-        "noteZh": "指使不同事物融合。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "separate",
-        "noteZh": "指把融合的事物分開。"
-      }
-    ]
+    }
   },
   {
     "id": "w_melody",
@@ -448,21 +589,47 @@
       {
         "id": "s_melody_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a sequence of musical notes that is pleasing to hear; a tune",
         "definitionZh": "旋律；曲調",
         "usageExplanationZh": "音樂用語，常見 a beautiful melody，指歌曲或樂曲中主要且易記的音符線條。",
-        "examples": [
-          {
-            "en": "The song's melody stayed in my head all day.",
-            "zh": "這首歌的旋律讓我一整天都揮之不去。"
-          }
+        "grammarPatterns": [
+          "play a melody",
+          "the melody of + noun"
         ],
         "collocations": [
           {
             "text": "a haunting melody",
             "meaningZh": "縈繞心頭的旋律"
           }
+        ],
+        "examples": [
+          {
+            "en": "The song's melody stayed in my head all day.",
+            "zh": "這首歌的旋律讓我一整天都揮之不去。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "tune",
+        "noteZh": "指音樂的曲調。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "melodic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "旋律的；悅耳的"
+      },
+      {
+        "lemma": "melodious",
+        "partOfSpeech": "adjective",
+        "meaningZh": "悅耳動聽的"
       }
     ],
     "tags": [
@@ -477,14 +644,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "tune",
-        "noteZh": "指音樂的曲調。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_membrane",
@@ -498,21 +658,43 @@
       {
         "id": "s_membrane_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a thin, flexible layer of tissue that covers or lines an organ or structure",
         "definitionZh": "薄膜；膜",
         "usageExplanationZh": "生物學常見，如 cell membrane（細胞膜），指包覆或分隔生物結構的薄層組織。",
-        "examples": [
-          {
-            "en": "Oxygen passes through the membrane of the lung's air sacs.",
-            "zh": "氧氣會通過肺部氣囊的薄膜進行交換。"
-          }
+        "grammarPatterns": [
+          "the membrane of + noun",
+          "pass through the membrane"
         ],
         "collocations": [
           {
             "text": "a cell membrane",
             "meaningZh": "細胞膜"
           }
+        ],
+        "examples": [
+          {
+            "en": "Oxygen passes through the membrane of the lung's air sacs.",
+            "zh": "氧氣會通過肺部氣囊的薄膜進行交換。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "lining",
+        "noteZh": "指覆蓋器官內面的膜層；適用於內襯語境。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "membranous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "膜狀的；薄膜的"
       }
     ],
     "tags": [
@@ -526,14 +708,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "lining",
-        "noteZh": "指覆蓋器官內面的膜層；適用於內襯語境。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_memo",
@@ -547,21 +722,43 @@
       {
         "id": "s_memo_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "informal"
+        ],
         "definitionEn": "a short written message, typically used within an organization",
         "definitionZh": "備忘錄；便條",
         "usageExplanationZh": "常見於辦公室語境，如 send a memo to staff，指簡短的內部通知或提醒。",
-        "examples": [
-          {
-            "en": "The manager sent a memo reminding staff of the new policy.",
-            "zh": "經理發了一份備忘錄，提醒員工注意新政策。"
-          }
+        "grammarPatterns": [
+          "send a memo",
+          "a memo about + noun"
         ],
         "collocations": [
           {
             "text": "send a memo",
             "meaningZh": "寄發備忘錄"
           }
+        ],
+        "examples": [
+          {
+            "en": "The manager sent a memo reminding staff of the new policy.",
+            "zh": "經理發了一份備忘錄，提醒員工注意新政策。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "memorandum",
+        "noteZh": "指備忘錄；memo 是其縮寫。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "memorandum",
+        "partOfSpeech": "noun",
+        "meaningZh": "備忘錄；正式通知"
       }
     ],
     "tags": [
@@ -574,14 +771,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "memorandum",
-        "noteZh": "指備忘錄；memo 是其縮寫。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_memoir",
@@ -595,21 +785,43 @@
       {
         "id": "s_memoir_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "a written account of one's own life or personal experiences",
         "definitionZh": "回憶錄",
         "usageExplanationZh": "常見 write a memoir，比自傳（autobiography）更聚焦於特定時期或主題的個人經歷。",
-        "examples": [
-          {
-            "en": "The retired general published a memoir about his years in the war.",
-            "zh": "這位退役將軍出版了一本關於他從軍歲月的回憶錄。"
-          }
+        "grammarPatterns": [
+          "publish a memoir",
+          "a memoir about + noun"
         ],
         "collocations": [
           {
             "text": "publish a memoir",
             "meaningZh": "出版回憶錄"
           }
+        ],
+        "examples": [
+          {
+            "en": "The retired general published a memoir about his years in the war.",
+            "zh": "這位退役將軍出版了一本關於他從軍歲月的回憶錄。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "reminiscences",
+        "noteZh": "指記述個人過往經驗的回憶錄，通常用複數。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "memoirist",
+        "partOfSpeech": "noun",
+        "meaningZh": "回憶錄作者"
       }
     ],
     "tags": [
@@ -622,14 +834,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "reminiscences",
-        "noteZh": "指記述個人過往經驗的回憶錄，通常用複數。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_memorable",
@@ -643,21 +848,57 @@
       {
         "id": "s_memorable_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "worth remembering or easily remembered, especially because it is impressive or unusual",
         "definitionZh": "難忘的；值得紀念的",
         "usageExplanationZh": "常修飾 experience、performance 等，語氣正面，強調印象深刻、令人難以忘懷。",
-        "examples": [
-          {
-            "en": "Their wedding was a truly memorable event for everyone involved.",
-            "zh": "他們的婚禮對所有參與者來說都是一場真正難忘的盛事。"
-          }
+        "grammarPatterns": [
+          "a memorable + noun",
+          "memorable for + noun"
         ],
         "collocations": [
           {
             "text": "a memorable experience",
             "meaningZh": "難忘的經驗"
           }
+        ],
+        "examples": [
+          {
+            "en": "Their wedding was a truly memorable event for everyone involved.",
+            "zh": "他們的婚禮對所有參與者來說都是一場真正難忘的盛事。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "unforgettable",
+        "noteZh": "指令人難以忘懷。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "forgettable",
+        "noteZh": "指缺乏特色、不值得記住。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "memory",
+        "partOfSpeech": "noun",
+        "meaningZh": "記憶；回憶"
+      },
+      {
+        "lemma": "memorize",
+        "partOfSpeech": "verb",
+        "meaningZh": "記住；背誦"
+      },
+      {
+        "lemma": "memorably",
+        "partOfSpeech": "adverb",
+        "meaningZh": "令人難忘地"
       }
     ],
     "tags": [
@@ -670,19 +911,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "unforgettable",
-        "noteZh": "指令人難以忘懷。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "forgettable",
-        "noteZh": "指缺乏特色、不值得記住。"
-      }
-    ]
+    }
   },
   {
     "id": "w_memorandum",
@@ -696,21 +925,43 @@
       {
         "id": "s_memorandum_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "a formal, often official, written note or record, typically outlining an agreement or policy",
         "definitionZh": "備忘錄；正式通知",
         "usageExplanationZh": "比 memo 更正式，常見於商業或外交文件，如 a memorandum of understanding。",
-        "examples": [
-          {
-            "en": "The two countries signed a memorandum of understanding on trade.",
-            "zh": "這兩國就貿易議題簽署了一份諒解備忘錄。"
-          }
+        "grammarPatterns": [
+          "a memorandum of understanding",
+          "issue a memorandum"
         ],
         "collocations": [
           {
             "text": "a memorandum of understanding",
             "meaningZh": "合作備忘錄"
           }
+        ],
+        "examples": [
+          {
+            "en": "The two countries signed a memorandum of understanding on trade.",
+            "zh": "這兩國就貿易議題簽署了一份諒解備忘錄。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "memo",
+        "noteZh": "指備忘錄，較簡短且常用於內部溝通。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "memo",
+        "partOfSpeech": "noun",
+        "meaningZh": "備忘錄；便條"
       }
     ],
     "tags": [
@@ -723,14 +974,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "memo",
-        "noteZh": "指備忘錄，較簡短且常用於內部溝通。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_memorial",
@@ -744,21 +988,47 @@
       {
         "id": "s_memorial_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a structure or event established to honor and remember a person or event",
         "definitionZh": "紀念碑；紀念活動",
         "usageExplanationZh": "常見 a war memorial、a memorial service，用於悼念逝者或紀念重大事件。",
-        "examples": [
-          {
-            "en": "A memorial was built to honor the soldiers who died in the war.",
-            "zh": "人們建了一座紀念碑，以緬懷在這場戰爭中犧牲的士兵。"
-          }
+        "grammarPatterns": [
+          "a memorial to + somebody",
+          "build a memorial"
         ],
         "collocations": [
           {
             "text": "a war memorial",
             "meaningZh": "戰爭紀念碑"
           }
+        ],
+        "examples": [
+          {
+            "en": "A memorial was built to honor the soldiers who died in the war.",
+            "zh": "人們建了一座紀念碑，以緬懷在這場戰爭中犧牲的士兵。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "monument",
+        "noteZh": "指為紀念人物或事件而建的紀念碑。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "memory",
+        "partOfSpeech": "noun",
+        "meaningZh": "記憶；紀念"
+      },
+      {
+        "lemma": "memorialize",
+        "partOfSpeech": "verb",
+        "meaningZh": "紀念；追悼"
       }
     ],
     "tags": [
@@ -772,14 +1042,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "monument",
-        "noteZh": "指為紀念人物或事件而建的紀念碑。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_mendacious",
@@ -793,21 +1056,48 @@
       {
         "id": "s_mendacious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "given to lying or being untruthful",
         "definitionZh": "說謊的；虛假的",
         "usageExplanationZh": "正式或文學用語，比 dishonest 語氣更強烈，常形容人的性格或言論慣於欺騙。",
-        "examples": [
-          {
-            "en": "The politician was criticized for making mendacious claims during the debate.",
-            "zh": "這名政治人物在辯論中因發表不實言論而受到批評。"
-          }
+        "grammarPatterns": [
+          "a mendacious + noun",
+          "mendacious claims"
         ],
         "collocations": [
           {
             "text": "a mendacious statement",
             "meaningZh": "虛假的陳述"
           }
+        ],
+        "examples": [
+          {
+            "en": "The politician was criticized for making mendacious claims during the debate.",
+            "zh": "這名政治人物在辯論中因發表不實言論而受到批評。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "untruthful",
+        "noteZh": "指不誠實、說謊的。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "truthful",
+        "noteZh": "指誠實的。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "mendacity",
+        "partOfSpeech": "noun",
+        "meaningZh": "虛假；謊言"
       }
     ],
     "tags": [
@@ -820,19 +1110,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "untruthful",
-        "noteZh": "指不誠實、說謊的。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "truthful",
-        "noteZh": "指誠實的。"
-      }
-    ]
+    }
   },
   {
     "id": "w_mental",
@@ -846,21 +1124,53 @@
       {
         "id": "s_mental_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "relating to the mind or the process of thinking",
         "definitionZh": "心理的；精神的",
         "usageExplanationZh": "常見 mental health、mental effort，涵蓋思考、情緒等內在心智層面的活動與狀態。",
-        "examples": [
-          {
-            "en": "Regular exercise can improve both physical and mental health.",
-            "zh": "規律運動能同時改善生理與心理健康。"
-          }
+        "grammarPatterns": [
+          "mental health",
+          "a mental + noun"
         ],
         "collocations": [
           {
             "text": "mental health",
             "meaningZh": "心理健康"
           }
+        ],
+        "examples": [
+          {
+            "en": "Regular exercise can improve both physical and mental health.",
+            "zh": "規律運動能同時改善生理與心理健康。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "psychological",
+        "noteZh": "指心理層面的。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "physical",
+        "noteZh": "指身體層面的，與心理層面相對。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "mentally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "心理上；精神上"
+      },
+      {
+        "lemma": "mentality",
+        "partOfSpeech": "noun",
+        "meaningZh": "心態；思維方式"
       }
     ],
     "tags": [
@@ -874,19 +1184,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "psychological",
-        "noteZh": "指心理層面的。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "physical",
-        "noteZh": "指身體層面的，與心理層面相對。"
-      }
-    ]
+    }
   },
   {
     "id": "w_mentality",
@@ -900,21 +1198,43 @@
       {
         "id": "s_mentality_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "a particular way of thinking or a typical attitude that determines behavior",
         "definitionZh": "心態；思維方式",
         "usageExplanationZh": "常見 a victim mentality、a winning mentality，強調某群體或個人特有的思考習慣與態度傾向。",
-        "examples": [
-          {
-            "en": "The team needed to adopt a more competitive mentality to succeed.",
-            "zh": "這支隊伍需要培養更具競爭意識的心態才能成功。"
-          }
+        "grammarPatterns": [
+          "a competitive mentality",
+          "adopt a mentality"
         ],
         "collocations": [
           {
             "text": "a winning mentality",
             "meaningZh": "求勝心態"
           }
+        ],
+        "examples": [
+          {
+            "en": "The team needed to adopt a more competitive mentality to succeed.",
+            "zh": "這支隊伍需要培養更具競爭意識的心態才能成功。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "mindset",
+        "noteZh": "指固定的思考方式或心態。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "mental",
+        "partOfSpeech": "adjective",
+        "meaningZh": "心理的；精神的"
       }
     ],
     "tags": [
@@ -927,14 +1247,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "mindset",
-        "noteZh": "指固定的思考方式或心態。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_mentor",
@@ -948,21 +1261,47 @@
       {
         "id": "s_mentor_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "an experienced and trusted person who guides and advises someone with less experience",
         "definitionZh": "導師；良師益友",
         "usageExplanationZh": "常見 a career mentor，強調長期指導與經驗傳承的關係，多為非正式的師徒關係。",
-        "examples": [
-          {
-            "en": "Her mentor helped her navigate the challenges of starting a business.",
-            "zh": "她的導師幫助她度過了創業初期的種種挑戰。"
-          }
+        "grammarPatterns": [
+          "sb's mentor",
+          "act as a mentor to + somebody"
         ],
         "collocations": [
           {
             "text": "a trusted mentor",
             "meaningZh": "值得信賴的導師"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her mentor helped her navigate the challenges of starting a business.",
+            "zh": "她的導師幫助她度過了創業初期的種種挑戰。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "guide",
+        "noteZh": "指提供經驗與方向的指導者。"
+      },
+      {
+        "lemma": "adviser",
+        "noteZh": "指給予建議的人。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "mentorship",
+        "partOfSpeech": "noun",
+        "meaningZh": "師徒關係；指導制度"
       }
     ],
     "tags": [
@@ -976,18 +1315,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "guide",
-        "noteZh": "指提供經驗與方向的指導者。"
-      },
-      {
-        "lemma": "adviser",
-        "noteZh": "指給予建議的人。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_mercenary",
@@ -1001,54 +1329,57 @@
       {
         "id": "s_mercenary_sense_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a professional soldier hired to fight for a foreign country or group",
         "definitionZh": "傭兵",
         "usageExplanationZh": "軍事用語，強調為金錢而非國家忠誠而戰的職業軍人。",
-        "examples": [
-          {
-            "en": "The rebel group hired mercenaries to bolster its forces.",
-            "zh": "這個叛亂團體僱用了傭兵來壯大自己的軍力。"
-          }
+        "grammarPatterns": [
+          "hire mercenaries",
+          "a mercenary fighting for + noun"
         ],
         "collocations": [
           {
             "text": "foreign mercenaries",
             "meaningZh": "外籍傭兵"
           }
+        ],
+        "examples": [
+          {
+            "en": "The rebel group hired mercenaries to bolster its forces.",
+            "zh": "這個叛亂團體僱用了傭兵來壯大自己的軍力。"
+          }
         ]
       },
       {
         "id": "s_mercenary_sense_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "motivated primarily by a desire for money rather than other considerations",
         "definitionZh": "唯利是圖的；為錢而做的",
         "usageExplanationZh": "常帶負面評價，形容人做事只看重金錢報酬，缺乏其他動機或原則。",
-        "examples": [
-          {
-            "en": "His mercenary attitude toward the job made his colleagues uneasy.",
-            "zh": "他對這份工作唯利是圖的態度讓同事們感到不安。"
-          }
+        "grammarPatterns": [
+          "a mercenary + noun",
+          "mercenary motives"
         ],
         "collocations": [
           {
             "text": "mercenary motives",
             "meaningZh": "唯利是圖的動機"
           }
+        ],
+        "examples": [
+          {
+            "en": "His mercenary attitude toward the job made his colleagues uneasy.",
+            "zh": "他對這份工作唯利是圖的態度讓同事們感到不安。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "hired soldier",
@@ -1064,7 +1395,19 @@
         "lemma": "altruistic",
         "noteZh": "形容詞義指為他人利益著想的。"
       }
-    ]
+    ],
+    "tags": [
+      "dictionary",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_merchant",
@@ -1078,21 +1421,48 @@
       {
         "id": "s_merchant_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "neutral"
+        ],
         "definitionEn": "a person who buys and sells goods, especially in large quantities or for profit",
         "definitionZh": "商人；貿易商",
         "usageExplanationZh": "常見 a wine merchant、a merchant ship，泛指從事買賣交易的人或相關行業。",
-        "examples": [
-          {
-            "en": "The merchant imported silk and spices from overseas.",
-            "zh": "這名商人從海外進口絲綢與香料。"
-          }
+        "grammarPatterns": [
+          "a merchant of + noun",
+          "a wealthy merchant"
         ],
         "collocations": [
           {
             "text": "a wine merchant",
             "meaningZh": "葡萄酒商"
           }
+        ],
+        "examples": [
+          {
+            "en": "The merchant imported silk and spices from overseas.",
+            "zh": "這名商人從海外進口絲綢與香料。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "trader",
+        "noteZh": "指從事商品買賣的人。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "merchandise",
+        "partOfSpeech": "noun",
+        "meaningZh": "商品；貨品"
+      },
+      {
+        "lemma": "mercantile",
+        "partOfSpeech": "adjective",
+        "meaningZh": "商業的；貿易的"
       }
     ],
     "tags": [
@@ -1105,14 +1475,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "trader",
-        "noteZh": "指從事商品買賣的人。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_mercurial",
@@ -1126,21 +1489,48 @@
       {
         "id": "s_mercurial_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "subject to sudden and unpredictable changes in mood or behavior",
         "definitionZh": "善變的；喜怒無常的",
         "usageExplanationZh": "常修飾 personality、temperament，強調情緒或態度反覆無常，難以預測。",
-        "examples": [
-          {
-            "en": "Her mercurial temper made her difficult to work with.",
-            "zh": "她喜怒無常的脾氣讓人很難跟她共事。"
-          }
+        "grammarPatterns": [
+          "a mercurial + noun",
+          "a mercurial temper"
         ],
         "collocations": [
           {
             "text": "a mercurial temperament",
             "meaningZh": "善變的性情"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her mercurial temper made her difficult to work with.",
+            "zh": "她喜怒無常的脾氣讓人很難跟她共事。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "volatile",
+        "noteZh": "指情緒或行為易突然改變。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "steady",
+        "noteZh": "指情緒或行為穩定的。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "mercury",
+        "partOfSpeech": "noun",
+        "meaningZh": "水銀；汞"
       }
     ],
     "tags": [
@@ -1153,19 +1543,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "volatile",
-        "noteZh": "指情緒或行為易突然改變。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "steady",
-        "noteZh": "指情緒或行為穩定的。"
-      }
-    ]
+    }
   },
   {
     "id": "w_mercy",
@@ -1179,14 +1557,16 @@
       {
         "id": "s_mercy_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "compassion or forgiveness shown toward someone one has the power to punish",
         "definitionZh": "仁慈；憐憫；寬恕",
         "usageExplanationZh": "常見 show mercy、at the mercy of，強調對他人施予寬容而非懲罰的態度。",
-        "examples": [
-          {
-            "en": "The judge showed mercy and gave the first-time offender a lighter sentence.",
-            "zh": "法官展現了寬容，對這名初犯者從輕量刑。"
-          }
+        "grammarPatterns": [
+          "show mercy to + somebody",
+          "have mercy on + somebody"
         ],
         "collocations": [
           {
@@ -1197,20 +1577,15 @@
             "text": "at the mercy of",
             "meaningZh": "任由……擺布"
           }
+        ],
+        "examples": [
+          {
+            "en": "The judge showed mercy and gave the first-time offender a lighter sentence.",
+            "zh": "法官展現了寬容，對這名初犯者從輕量刑。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "compassion",
@@ -1226,7 +1601,35 @@
         "lemma": "cruelty",
         "noteZh": "指殘酷無情。"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "merciful",
+        "partOfSpeech": "adjective",
+        "meaningZh": "仁慈的；寬容的"
+      },
+      {
+        "lemma": "merciless",
+        "partOfSpeech": "adjective",
+        "meaningZh": "無情的；殘忍的"
+      },
+      {
+        "lemma": "mercifully",
+        "partOfSpeech": "adverb",
+        "meaningZh": "仁慈地；幸好"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_mere",
@@ -1240,21 +1643,42 @@
       {
         "id": "s_mere_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "being nothing more than what is specified; used to emphasize how small or insignificant something is",
         "definitionZh": "僅僅的；只不過的",
         "usageExplanationZh": "常見 a mere child、the mere thought of，用來強調事物微小或程度輕微，帶強調語氣。",
-        "examples": [
-          {
-            "en": "The mere thought of public speaking made him nervous.",
-            "zh": "光是想到要公開演講，就讓他緊張了起來。"
-          }
+        "grammarPatterns": [
+          "a mere + noun",
+          "the mere thought of + noun"
         ],
         "collocations": [
           {
             "text": "a mere coincidence",
             "meaningZh": "純屬巧合"
           }
+        ],
+        "examples": [
+          {
+            "en": "The mere thought of public speaking made him nervous.",
+            "zh": "光是想到要公開演講，就讓他緊張了起來。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "only",
+        "noteZh": "指僅僅；通常為副詞，須依句型改寫。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "merely",
+        "partOfSpeech": "adverb",
+        "meaningZh": "僅僅；只不過"
       }
     ],
     "tags": [
@@ -1267,14 +1691,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "only",
-        "noteZh": "指僅僅；通常為副詞，須依句型改寫。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_merge",
@@ -1288,21 +1705,53 @@
       {
         "id": "s_merge_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "to combine or join two or more things into one",
         "definitionZh": "合併；融合",
         "usageExplanationZh": "常見 merge with／into，可指公司合併，也可指車道匯入、資料合併等各種情境。",
-        "examples": [
-          {
-            "en": "The two companies merged to form a larger corporation.",
-            "zh": "這兩家公司合併成了一家更大的企業。"
-          }
+        "grammarPatterns": [
+          "merge with + noun",
+          "merge A and B into + noun"
         ],
         "collocations": [
           {
             "text": "merge with another company",
             "meaningZh": "與另一家公司合併"
           }
+        ],
+        "examples": [
+          {
+            "en": "The two companies merged to form a larger corporation.",
+            "zh": "這兩家公司合併成了一家更大的企業。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "combine",
+        "noteZh": "指合併成一個整體。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "split",
+        "noteZh": "指分成不同部分。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "merger",
+        "partOfSpeech": "noun",
+        "meaningZh": "合併"
+      },
+      {
+        "lemma": "submerge",
+        "partOfSpeech": "verb",
+        "meaningZh": "淹沒；浸入水中"
       }
     ],
     "tags": [
@@ -1316,19 +1765,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "combine",
-        "noteZh": "指合併成一個整體。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "split",
-        "noteZh": "指分成不同部分。"
-      }
-    ]
+    }
   },
   {
     "id": "w_merger",
@@ -1342,21 +1779,48 @@
       {
         "id": "s_merger_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "the combination of two or more organizations, especially companies, into one",
         "definitionZh": "（公司等的）合併",
         "usageExplanationZh": "商業用語，常見 a merger between two companies，強調正式的整併過程與結果。",
-        "examples": [
-          {
-            "en": "The merger created one of the largest banks in the country.",
-            "zh": "這次合併造就了該國最大的銀行之一。"
-          }
+        "grammarPatterns": [
+          "a merger between A and B",
+          "a merger with + noun"
         ],
         "collocations": [
           {
             "text": "a corporate merger",
             "meaningZh": "企業合併"
           }
+        ],
+        "examples": [
+          {
+            "en": "The merger created one of the largest banks in the country.",
+            "zh": "這次合併造就了該國最大的銀行之一。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "amalgamation",
+        "noteZh": "指公司或組織的合併。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "demerger",
+        "noteZh": "指公司業務的分拆。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "merge",
+        "partOfSpeech": "verb",
+        "meaningZh": "合併；融合"
       }
     ],
     "tags": [
@@ -1369,19 +1833,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "amalgamation",
-        "noteZh": "指公司或組織的合併。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "demerger",
-        "noteZh": "指公司業務的分拆。"
-      }
-    ]
+    }
   },
   {
     "id": "w_merit",
@@ -1395,21 +1847,53 @@
       {
         "id": "s_merit_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a quality or feature that deserves praise or approval",
         "definitionZh": "優點；價值",
         "usageExplanationZh": "常見 on its merits（就其本身優劣而論）、the merits of a case，強調客觀上值得肯定之處。",
-        "examples": [
-          {
-            "en": "The proposal has considerable merit despite its high cost.",
-            "zh": "儘管成本高昂，這項提案仍有相當的價值。"
-          }
+        "grammarPatterns": [
+          "have merit",
+          "the merits of + noun"
         ],
         "collocations": [
           {
             "text": "on merit",
             "meaningZh": "依實力或優點評斷"
           }
+        ],
+        "examples": [
+          {
+            "en": "The proposal has considerable merit despite its high cost.",
+            "zh": "儘管成本高昂，這項提案仍有相當的價值。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "virtue",
+        "noteZh": "指值得讚許的優點。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "demerit",
+        "noteZh": "指缺點或短處。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "meritorious",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有功績的；值得讚揚的"
+      },
+      {
+        "lemma": "meritocracy",
+        "partOfSpeech": "noun",
+        "meaningZh": "精英管理制度"
       }
     ],
     "tags": [
@@ -1424,19 +1908,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "virtue",
-        "noteZh": "指值得讚許的優點。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "demerit",
-        "noteZh": "指缺點或短處。"
-      }
-    ]
+    }
   },
   {
     "id": "w_metabolism",
@@ -1450,21 +1922,48 @@
       {
         "id": "s_metabolism_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "the chemical processes in a living organism that maintain life, especially those converting food into energy",
         "definitionZh": "新陳代謝",
         "usageExplanationZh": "生物學用語，常見 a fast／slow metabolism，指身體將食物轉化為能量的一系列化學過程。",
-        "examples": [
-          {
-            "en": "Regular exercise can help boost your metabolism.",
-            "zh": "規律運動有助於提升你的新陳代謝。"
-          }
+        "grammarPatterns": [
+          "boost one's metabolism",
+          "a fast metabolism"
         ],
         "collocations": [
           {
             "text": "a high metabolism",
             "meaningZh": "旺盛的新陳代謝"
           }
+        ],
+        "examples": [
+          {
+            "en": "Regular exercise can help boost your metabolism.",
+            "zh": "規律運動有助於提升你的新陳代謝。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "metabolic activity",
+        "noteZh": "指體內維持生命的化學作用。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "metabolic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "新陳代謝的"
+      },
+      {
+        "lemma": "metabolize",
+        "partOfSpeech": "verb",
+        "meaningZh": "代謝；新陳代謝"
       }
     ],
     "tags": [
@@ -1479,14 +1978,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "metabolic activity",
-        "noteZh": "指體內維持生命的化學作用。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_metaphor",
@@ -1500,21 +1992,48 @@
       {
         "id": "s_metaphor_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "literary"
+        ],
         "definitionEn": "a word or phrase used to describe something by referring to something else with similar qualities, without using \"like\" or \"as\"",
         "definitionZh": "隱喻；暗喻",
         "usageExplanationZh": "修辭學用語，與明喻 simile（使用 like／as）不同，強調直接以另一事物比喻本體。",
-        "examples": [
-          {
-            "en": "\"Time is a thief\" is a common metaphor for how quickly time passes.",
-            "zh": "「時間是小偷」是常用來比喻時光飛逝的隱喻。"
-          }
+        "grammarPatterns": [
+          "a metaphor for + noun",
+          "use a metaphor"
         ],
         "collocations": [
           {
             "text": "an extended metaphor",
             "meaningZh": "延伸隱喻"
           }
+        ],
+        "examples": [
+          {
+            "en": "\"Time is a thief\" is a common metaphor for how quickly time passes.",
+            "zh": "「時間是小偷」是常用來比喻時光飛逝的隱喻。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "figurative expression",
+        "noteZh": "指比喻性表達；範圍比隱喻更廣。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "metaphorical",
+        "partOfSpeech": "adjective",
+        "meaningZh": "隱喻的；比喻的"
+      },
+      {
+        "lemma": "metaphorically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "比喻地"
       }
     ],
     "tags": [
@@ -1529,14 +2048,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "figurative expression",
-        "noteZh": "指比喻性表達；範圍比隱喻更廣。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_metaphysical",
@@ -1550,21 +2062,43 @@
       {
         "id": "s_metaphysical_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "relating to abstract concepts beyond the physical world, such as existence or reality",
         "definitionZh": "形而上學的；抽象哲理的",
         "usageExplanationZh": "常見於哲學語境，如 metaphysical questions，探討超越物理現象的存在、本質等議題。",
-        "examples": [
-          {
-            "en": "Philosophers have long debated metaphysical questions about the nature of reality.",
-            "zh": "哲學家長期以來一直在辯論關於現實本質的形而上學問題。"
-          }
+        "grammarPatterns": [
+          "a metaphysical + noun",
+          "metaphysical questions about + noun"
         ],
         "collocations": [
           {
             "text": "metaphysical questions",
             "meaningZh": "形而上學問題"
           }
+        ],
+        "examples": [
+          {
+            "en": "Philosophers have long debated metaphysical questions about the nature of reality.",
+            "zh": "哲學家長期以來一直在辯論關於現實本質的形而上學問題。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "philosophical",
+        "noteZh": "指抽象哲理層面的，範圍較廣。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "metaphysics",
+        "partOfSpeech": "noun",
+        "meaningZh": "形而上學"
       }
     ],
     "tags": [
@@ -1577,14 +2111,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "philosophical",
-        "noteZh": "指抽象哲理層面的，範圍較廣。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_methodical",
@@ -1598,21 +2125,58 @@
       {
         "id": "s_methodical_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "done in a careful, orderly, and systematic way",
         "definitionZh": "有條理的；有系統的",
         "usageExplanationZh": "常修飾 approach、person 等，強調按部就班、注重步驟，與 haphazard 相對。",
-        "examples": [
-          {
-            "en": "She took a methodical approach to organizing the files.",
-            "zh": "她以有條理的方式整理這些檔案。"
-          }
+        "grammarPatterns": [
+          "a methodical + noun",
+          "methodical in + V-ing"
         ],
         "collocations": [
           {
             "text": "a methodical approach",
             "meaningZh": "有條理的方法"
           }
+        ],
+        "examples": [
+          {
+            "en": "She took a methodical approach to organizing the files.",
+            "zh": "她以有條理的方式整理這些檔案。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "systematic",
+        "noteZh": "指按有條理的系統進行。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "haphazard",
+        "noteZh": "指缺乏計畫或條理的。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "method",
+        "partOfSpeech": "noun",
+        "meaningZh": "方法；辦法"
+      },
+      {
+        "lemma": "methodically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "有條理地；有系統地"
+      },
+      {
+        "lemma": "methodology",
+        "partOfSpeech": "noun",
+        "meaningZh": "方法論"
       }
     ],
     "tags": [
@@ -1626,19 +2190,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "systematic",
-        "noteZh": "指按有條理的系統進行。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "haphazard",
-        "noteZh": "指缺乏計畫或條理的。"
-      }
-    ]
+    }
   },
   {
     "id": "w_methodology",
@@ -1652,21 +2204,48 @@
       {
         "id": "s_methodology_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "a system of methods used in a particular field of study or activity",
         "definitionZh": "方法論；研究方法",
         "usageExplanationZh": "常見於學術語境，如 research methodology，指整套用於進行研究或分析的系統性方法。",
-        "examples": [
-          {
-            "en": "The study's methodology was criticized for its small sample size.",
-            "zh": "這項研究的方法論因樣本數過小而受到批評。"
-          }
+        "grammarPatterns": [
+          "the methodology of + noun",
+          "adopt a methodology"
         ],
         "collocations": [
           {
             "text": "research methodology",
             "meaningZh": "研究方法論"
           }
+        ],
+        "examples": [
+          {
+            "en": "The study's methodology was criticized for its small sample size.",
+            "zh": "這項研究的方法論因樣本數過小而受到批評。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "methodological framework",
+        "noteZh": "指組織研究方法的架構。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "method",
+        "partOfSpeech": "noun",
+        "meaningZh": "方法"
+      },
+      {
+        "lemma": "methodological",
+        "partOfSpeech": "adjective",
+        "meaningZh": "方法論的"
       }
     ],
     "tags": [
@@ -1679,14 +2258,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "methodological framework",
-        "noteZh": "指組織研究方法的架構。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_meticulous",
@@ -1700,21 +2272,54 @@
       {
         "id": "s_meticulous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "showing great attention to detail; very careful and precise",
         "definitionZh": "一絲不苟的；極為謹慎的",
         "usageExplanationZh": "常修飾 planning、attention to detail 等，強調對細節的高度重視，語氣正面。",
-        "examples": [
-          {
-            "en": "The report was the result of meticulous research over several years。",
-            "zh": "這份報告是經過數年一絲不苟研究的成果。"
-          }
+        "grammarPatterns": [
+          "meticulous + noun",
+          "meticulous in + V-ing",
+          "meticulous about + noun"
         ],
         "collocations": [
           {
             "text": "meticulous attention to detail",
             "meaningZh": "對細節一絲不苟的關注"
           }
+        ],
+        "examples": [
+          {
+            "en": "The report was the result of meticulous research over several years。",
+            "zh": "這份報告是經過數年一絲不苟研究的成果。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "painstaking",
+        "noteZh": "指費心注意細節的。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "careless",
+        "noteZh": "指粗心大意的。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "meticulously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "一絲不苟地"
+      },
+      {
+        "lemma": "meticulousness",
+        "partOfSpeech": "noun",
+        "meaningZh": "一絲不苟；極度細心"
       }
     ],
     "tags": [
@@ -1729,19 +2334,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "painstaking",
-        "noteZh": "指費心注意細節的。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "careless",
-        "noteZh": "指粗心大意的。"
-      }
-    ]
+    }
   },
   {
     "id": "w_metropolitan",
@@ -1755,21 +2348,47 @@
       {
         "id": "s_metropolitan_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "relating to a large city or its surrounding area",
         "definitionZh": "大都市的；都會的",
         "usageExplanationZh": "常見 metropolitan area，指涵蓋主要城市及其周邊區域的地理或行政範圍。",
-        "examples": [
-          {
-            "en": "Traffic congestion is a major issue in most metropolitan areas.",
-            "zh": "交通壅塞是大多數都會區的主要問題。"
-          }
+        "grammarPatterns": [
+          "a metropolitan area",
+          "metropolitan + noun"
         ],
         "collocations": [
           {
             "text": "a metropolitan area",
             "meaningZh": "都會區"
           }
+        ],
+        "examples": [
+          {
+            "en": "Traffic congestion is a major issue in most metropolitan areas.",
+            "zh": "交通壅塞是大多數都會區的主要問題。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "urban",
+        "noteZh": "指城市的；未必是大都市。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "rural",
+        "noteZh": "指鄉村的。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "metropolis",
+        "partOfSpeech": "noun",
+        "meaningZh": "大都會；大城市"
       }
     ],
     "tags": [
@@ -1784,19 +2403,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "urban",
-        "noteZh": "指城市的；未必是大都市。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "rural",
-        "noteZh": "指鄉村的。"
-      }
-    ]
+    }
   },
   {
     "id": "w_microphone",
@@ -1810,23 +2417,38 @@
       {
         "id": "s_microphone_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a device that converts sound into an electrical signal, used for recording or amplifying speech and sound",
         "definitionZh": "麥克風；擴音器",
         "usageExplanationZh": "常見 speak into the microphone，日常與專業用語皆通用。",
-        "examples": [
-          {
-            "en": "The singer adjusted the microphone before starting her performance.",
-            "zh": "這位歌手在開始表演前調整了麥克風。"
-          }
+        "grammarPatterns": [
+          "speak into a microphone",
+          "adjust the microphone"
         ],
         "collocations": [
           {
             "text": "a wireless microphone",
             "meaningZh": "無線麥克風"
           }
+        ],
+        "examples": [
+          {
+            "en": "The singer adjusted the microphone before starting her performance.",
+            "zh": "這位歌手在開始表演前調整了麥克風。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "mic",
+        "noteZh": "麥克風的口語簡稱。"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -1837,14 +2459,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "mic",
-        "noteZh": "麥克風的口語簡稱。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_microscopic",
@@ -1858,21 +2473,53 @@
       {
         "id": "s_microscopic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "too small to be seen without a microscope; extremely small",
         "definitionZh": "微小的；顯微鏡下才可見的",
         "usageExplanationZh": "常見 microscopic organisms／details，強調肉眼無法察覺的極小尺寸。",
-        "examples": [
-          {
-            "en": "The water sample contained microscopic organisms invisible to the naked eye.",
-            "zh": "這份水樣中含有肉眼看不見的微小生物。"
-          }
+        "grammarPatterns": [
+          "microscopic + noun",
+          "microscopic in size"
         ],
         "collocations": [
           {
             "text": "microscopic organisms",
             "meaningZh": "微生物"
           }
+        ],
+        "examples": [
+          {
+            "en": "The water sample contained microscopic organisms invisible to the naked eye.",
+            "zh": "這份水樣中含有肉眼看不見的微小生物。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "minute",
+        "noteZh": "指極小的。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "macroscopic",
+        "noteZh": "指肉眼可見的；常用於科學尺度對比。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "microscope",
+        "partOfSpeech": "noun",
+        "meaningZh": "顯微鏡"
+      },
+      {
+        "lemma": "microscopy",
+        "partOfSpeech": "noun",
+        "meaningZh": "顯微鏡檢查法"
       }
     ],
     "tags": [
@@ -1886,19 +2533,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "minute",
-        "noteZh": "指極小的。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "macroscopic",
-        "noteZh": "指肉眼可見的；常用於科學尺度對比。"
-      }
-    ]
+    }
   },
   {
     "id": "w_microwave",
@@ -1912,23 +2547,37 @@
       {
         "id": "s_microwave_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a kitchen appliance that cooks or heats food using electromagnetic waves",
         "definitionZh": "微波爐",
         "usageExplanationZh": "日常生活常用詞，常見 heat something in the microwave，也可指微波本身作為電磁波。",
-        "examples": [
-          {
-            "en": "He heated up the leftovers in the microwave.",
-            "zh": "他用微波爐把剩菜加熱。"
-          }
+        "grammarPatterns": [
+          "in the microwave",
+          "heat sth in the microwave"
         ],
         "collocations": [
           {
             "text": "heat food in the microwave",
             "meaningZh": "用微波爐加熱食物"
           }
+        ],
+        "examples": [
+          {
+            "en": "He heated up the leftovers in the microwave.",
+            "zh": "他用微波爐把剩菜加熱。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "microwave oven",
+        "noteZh": "指微波爐的完整名稱。"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -1939,14 +2588,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "microwave oven",
-        "noteZh": "指微波爐的完整名稱。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_mighty",
@@ -1960,21 +2602,51 @@
       {
         "id": "s_mighty_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary"
+        ],
         "definitionEn": "having or showing great power, strength, or force",
         "definitionZh": "強大的；有力的",
         "usageExplanationZh": "常修飾 army、river、blow 等，語氣正式或文學化，強調規模或力量之大。",
-        "examples": [
-          {
-            "en": "The mighty river carved a deep canyon over millions of years.",
-            "zh": "這條大河歷經數百萬年，切割出了一道深峽谷。"
-          }
+        "grammarPatterns": [
+          "a mighty + noun"
         ],
         "collocations": [
           {
             "text": "a mighty empire",
             "meaningZh": "強大的帝國"
           }
+        ],
+        "examples": [
+          {
+            "en": "The mighty river carved a deep canyon over millions of years.",
+            "zh": "這條大河歷經數百萬年，切割出了一道深峽谷。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "powerful",
+        "noteZh": "指力量強大的。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "weak",
+        "noteZh": "指力量微弱的。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "might",
+        "partOfSpeech": "noun",
+        "meaningZh": "力量；威力"
+      },
+      {
+        "lemma": "mightily",
+        "partOfSpeech": "adverb",
+        "meaningZh": "強有力地；非常"
       }
     ],
     "tags": [
@@ -1989,19 +2661,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "powerful",
-        "noteZh": "指力量強大的。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "weak",
-        "noteZh": "指力量微弱的。"
-      }
-    ]
+    }
   },
   {
     "id": "w_migrant",
@@ -2015,21 +2675,53 @@
       {
         "id": "s_migrant_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "neutral"
+        ],
         "definitionEn": "a person who moves from one place to another, especially to find work",
         "definitionZh": "移居者；移民工",
         "usageExplanationZh": "常見 migrant worker，多指因經濟因素而遷移工作地點的人，與 immigrant（永久移居他國者）略有不同。",
-        "examples": [
-          {
-            "en": "Many migrant workers travel seasonally to harvest crops.",
-            "zh": "許多移居工人會季節性地遷移以採收農作物。"
-          }
+        "grammarPatterns": [
+          "a migrant worker",
+          "migrants from + noun"
         ],
         "collocations": [
           {
             "text": "migrant workers",
             "meaningZh": "移民工"
           }
+        ],
+        "examples": [
+          {
+            "en": "Many migrant workers travel seasonally to harvest crops.",
+            "zh": "許多移居工人會季節性地遷移以採收農作物。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "itinerant",
+        "noteZh": "名詞指四處遷移以尋找工作的人；限流動工作者語境。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "migrate",
+        "partOfSpeech": "verb",
+        "meaningZh": "遷移；移居"
+      },
+      {
+        "lemma": "migration",
+        "partOfSpeech": "noun",
+        "meaningZh": "遷移；移民"
+      },
+      {
+        "lemma": "migratory",
+        "partOfSpeech": "adjective",
+        "meaningZh": "遷徙的"
       }
     ],
     "tags": [
@@ -2042,14 +2734,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "itinerant",
-        "noteZh": "名詞指四處遷移以尋找工作的人；限流動工作者語境。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_migrate",
@@ -2063,21 +2748,53 @@
       {
         "id": "s_migrate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "academic",
+          "neutral"
+        ],
         "definitionEn": "to move from one place to live or work in another, often seasonally or in search of better conditions",
         "definitionZh": "遷移；移居",
         "usageExplanationZh": "常見於人口或動物語境，如 birds migrate south，指季節性或長距離的移動。",
-        "examples": [
-          {
-            "en": "Thousands of birds migrate south for the winter every year.",
-            "zh": "每年冬天，成千上萬隻鳥兒會遷徙南方。"
-          }
+        "grammarPatterns": [
+          "migrate to + noun",
+          "migrate from A to B"
         ],
         "collocations": [
           {
             "text": "migrate south",
             "meaningZh": "向南遷移"
           }
+        ],
+        "examples": [
+          {
+            "en": "Thousands of birds migrate south for the winter every year.",
+            "zh": "每年冬天，成千上萬隻鳥兒會遷徙南方。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "relocate",
+        "noteZh": "指搬遷到另一地點。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "migration",
+        "partOfSpeech": "noun",
+        "meaningZh": "遷移；移民"
+      },
+      {
+        "lemma": "migrant",
+        "partOfSpeech": "noun",
+        "meaningZh": "移居者；移民工"
+      },
+      {
+        "lemma": "migratory",
+        "partOfSpeech": "adjective",
+        "meaningZh": "遷徙的"
       }
     ],
     "tags": [
@@ -2091,14 +2808,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "relocate",
-        "noteZh": "指搬遷到另一地點。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_migration",
@@ -2112,21 +2822,48 @@
       {
         "id": "s_migration_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "neutral"
+        ],
         "definitionEn": "the movement of people or animals from one place to another",
         "definitionZh": "遷移；移民",
         "usageExplanationZh": "常見 bird migration、human migration，泛指大規模、通常是季節性或長期性的移動。",
-        "examples": [
-          {
-            "en": "The annual migration of wildebeest across the plains is a famous natural spectacle.",
-            "zh": "角馬每年橫越平原的遷徙是著名的自然奇觀。"
-          }
+        "grammarPatterns": [
+          "the migration of + noun",
+          "migration from A to B"
         ],
         "collocations": [
           {
             "text": "seasonal migration",
             "meaningZh": "季節性遷徙"
           }
+        ],
+        "examples": [
+          {
+            "en": "The annual migration of wildebeest across the plains is a famous natural spectacle.",
+            "zh": "角馬每年橫越平原的遷徙是著名的自然奇觀。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "movement",
+        "noteZh": "指人或動物的遷移；語義較廣。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "migrate",
+        "partOfSpeech": "verb",
+        "meaningZh": "遷移；移居"
+      },
+      {
+        "lemma": "migratory",
+        "partOfSpeech": "adjective",
+        "meaningZh": "遷徙的"
       }
     ],
     "tags": [
@@ -2140,14 +2877,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "movement",
-        "noteZh": "指人或動物的遷移；語義較廣。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_migratory",
@@ -2161,21 +2891,53 @@
       {
         "id": "s_migratory_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "relating to animals that regularly move from one region to another, especially with the seasons",
         "definitionZh": "遷徙的；候鳥性的",
         "usageExplanationZh": "常見 migratory birds／species，專用於描述具季節性遷移習性的動物。",
-        "examples": [
-          {
-            "en": "Migratory birds travel thousands of miles between breeding grounds.",
-            "zh": "候鳥在繁殖地之間遷徙數千英里。"
-          }
+        "grammarPatterns": [
+          "migratory + noun",
+          "migratory routes"
         ],
         "collocations": [
           {
             "text": "migratory birds",
             "meaningZh": "候鳥"
           }
+        ],
+        "examples": [
+          {
+            "en": "Migratory birds travel thousands of miles between breeding grounds.",
+            "zh": "候鳥在繁殖地之間遷徙數千英里。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "migrating",
+        "noteZh": "指進行遷移的；描述習性時 migratory 更常用。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "sedentary",
+        "noteZh": "動物學上指留居固定地區、不遷徙的。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "migrate",
+        "partOfSpeech": "verb",
+        "meaningZh": "遷移；移居"
+      },
+      {
+        "lemma": "migration",
+        "partOfSpeech": "noun",
+        "meaningZh": "遷移"
       }
     ],
     "tags": [
@@ -2190,19 +2952,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "migrating",
-        "noteZh": "指進行遷移的；描述習性時 migratory 更常用。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "sedentary",
-        "noteZh": "動物學上指留居固定地區、不遷徙的。"
-      }
-    ]
+    }
   },
   {
     "id": "w_mild",
@@ -2216,14 +2966,15 @@
       {
         "id": "s_mild_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "not severe, harsh, or extreme in effect or degree",
         "definitionZh": "溫和的；輕微的",
         "usageExplanationZh": "常見 mild weather／symptoms／flavor，涵蓋天氣、病情、口味等多種語境，強調程度不強烈。",
-        "examples": [
-          {
-            "en": "She experienced only mild symptoms after catching the cold.",
-            "zh": "她感冒後只出現輕微的症狀。"
-          }
+        "grammarPatterns": [
+          "a mild + noun",
+          "only mild + noun"
         ],
         "collocations": [
           {
@@ -2234,7 +2985,37 @@
             "text": "a mild winter",
             "meaningZh": "溫和的冬季"
           }
+        ],
+        "examples": [
+          {
+            "en": "She experienced only mild symptoms after catching the cold.",
+            "zh": "她感冒後只出現輕微的症狀。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "gentle",
+        "noteZh": "指溫和、不強烈的。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "severe",
+        "noteZh": "指嚴重或劇烈的。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "mildly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "溫和地；輕微地"
+      },
+      {
+        "lemma": "mildness",
+        "partOfSpeech": "noun",
+        "meaningZh": "溫和；輕微"
       }
     ],
     "tags": [
@@ -2247,19 +3028,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "gentle",
-        "noteZh": "指溫和、不強烈的。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "severe",
-        "noteZh": "指嚴重或劇烈的。"
-      }
-    ]
+    }
   },
   {
     "id": "w_militia",
@@ -2273,21 +3042,48 @@
       {
         "id": "s_militia_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "formal"
+        ],
         "definitionEn": "a group of civilians trained to act as soldiers, especially in times of emergency",
         "definitionZh": "民兵組織；義勇軍",
         "usageExplanationZh": "區別於正規軍 regular army，強調由平民組成、非常設性的武裝力量。",
-        "examples": [
-          {
-            "en": "The local militia was called up to defend the town.",
-            "zh": "當地的民兵組織被召集起來保衛這座城鎮。"
-          }
+        "grammarPatterns": [
+          "a local militia",
+          "join the militia"
         ],
         "collocations": [
           {
             "text": "a local militia",
             "meaningZh": "地方民兵組織"
           }
+        ],
+        "examples": [
+          {
+            "en": "The local militia was called up to defend the town.",
+            "zh": "當地的民兵組織被召集起來保衛這座城鎮。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "citizen army",
+        "noteZh": "指由平民組成的武裝組織。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "militant",
+        "partOfSpeech": "adjective",
+        "meaningZh": "好戰的；激進的"
+      },
+      {
+        "lemma": "military",
+        "partOfSpeech": "adjective",
+        "meaningZh": "軍事的"
       }
     ],
     "tags": [
@@ -2300,14 +3096,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "citizen army",
-        "noteZh": "指由平民組成的武裝組織。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_mill",
@@ -2321,40 +3110,72 @@
       {
         "id": "s_mill_sense_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a building or machine used for grinding grain into flour, or a factory for processing raw materials",
         "definitionZh": "磨坊；工廠",
         "usageExplanationZh": "常見 a flour mill、a steel mill，泛指以機械加工原料的場所或設備。",
-        "examples": [
-          {
-            "en": "The old mill by the river once ground wheat into flour.",
-            "zh": "河邊那座老磨坊過去曾把小麥磨成麵粉。"
-          }
+        "grammarPatterns": [
+          "a flour mill",
+          "work at the mill"
         ],
         "collocations": [
           {
             "text": "a flour mill",
             "meaningZh": "麵粉廠"
           }
+        ],
+        "examples": [
+          {
+            "en": "The old mill by the river once ground wheat into flour.",
+            "zh": "河邊那座老磨坊過去曾把小麥磨成麵粉。"
+          }
         ]
       },
       {
         "id": "s_mill_sense_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to move around in a confused or aimless way, especially in a crowd",
         "definitionZh": "（人群）雜亂走動；徘徊",
         "usageExplanationZh": "常見 mill around，指人群漫無目的地聚集或走動，帶有雜亂無序的感覺。",
-        "examples": [
-          {
-            "en": "Fans milled around outside the stadium waiting for the gates to open.",
-            "zh": "粉絲們在體育館外雜亂走動，等待大門開啟。"
-          }
+        "grammarPatterns": [
+          "mill around",
+          "mill around + noun"
         ],
         "collocations": [
           {
             "text": "mill around",
             "meaningZh": "漫無目的地走動"
           }
+        ],
+        "examples": [
+          {
+            "en": "Fans milled around outside the stadium waiting for the gates to open.",
+            "zh": "粉絲們在體育館外雜亂走動，等待大門開啟。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "factory",
+        "noteZh": "對應加工原料的工廠義；範圍比 mill 廣。"
+      },
+      {
+        "lemma": "wander",
+        "noteZh": "動詞義指漫無目的地走動，未必涉及人群。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "miller",
+        "partOfSpeech": "noun",
+        "meaningZh": "磨坊主人"
       }
     ],
     "tags": [
@@ -2368,18 +3189,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "factory",
-        "noteZh": "對應加工原料的工廠義；範圍比 mill 廣。"
-      },
-      {
-        "lemma": "wander",
-        "noteZh": "動詞義指漫無目的地走動，未必涉及人群。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_millennium",
@@ -2393,21 +3203,43 @@
       {
         "id": "s_millennium_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a period of one thousand years",
         "definitionZh": "千年；千禧年",
         "usageExplanationZh": "常見 the new millennium（新千禧年），泛指以一千年為單位的時間跨度。",
-        "examples": [
-          {
-            "en": "The monument has stood for nearly a millennium.",
-            "zh": "這座紀念碑已矗立了將近一千年。"
-          }
+        "grammarPatterns": [
+          "for a millennium",
+          "over the past millennium"
         ],
         "collocations": [
           {
             "text": "the new millennium",
             "meaningZh": "新千禧年"
           }
+        ],
+        "examples": [
+          {
+            "en": "The monument has stood for nearly a millennium.",
+            "zh": "這座紀念碑已矗立了將近一千年。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "thousand years",
+        "noteZh": "指一千年的時間。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "millennial",
+        "partOfSpeech": "adjective",
+        "meaningZh": "千年的；千禧年的"
       }
     ],
     "tags": [
@@ -2422,14 +3254,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "thousand years",
-        "noteZh": "指一千年的時間。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_mime",
@@ -2443,40 +3268,73 @@
       {
         "id": "s_mime_sense_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to act out something using only gestures and movements, without speaking",
         "definitionZh": "以肢體動作表演；比手畫腳表演",
         "usageExplanationZh": "常見 mime an action，強調不使用言語，僅靠肢體或臉部表情傳達意思。",
-        "examples": [
-          {
-            "en": "The actor mimed climbing a ladder without any props.",
-            "zh": "這名演員沒有使用任何道具，僅以肢體動作表演爬梯子。"
-          }
+        "grammarPatterns": [
+          "mime + V-ing",
+          "mime + noun"
         ],
         "collocations": [
           {
             "text": "mime opening a door",
             "meaningZh": "以動作表演開門"
           }
+        ],
+        "examples": [
+          {
+            "en": "The actor mimed climbing a ladder without any props.",
+            "zh": "這名演員沒有使用任何道具，僅以肢體動作表演爬梯子。"
+          }
         ]
       },
       {
         "id": "s_mime_sense_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a performer who acts out a story or scene using only gestures, or such a performance itself",
         "definitionZh": "啞劇；默劇演員",
         "usageExplanationZh": "常見於劇場語境，指以肢體表演為主、不使用台詞的表演藝術或表演者。",
-        "examples": [
-          {
-            "en": "The mime entertained the crowd with silent gestures alone.",
-            "zh": "這位默劇演員僅用無聲的肢體動作逗樂了群眾。"
-          }
+        "grammarPatterns": [
+          "perform a mime",
+          "a mime artist"
         ],
         "collocations": [
           {
             "text": "a mime artist",
             "meaningZh": "默劇表演者"
           }
+        ],
+        "examples": [
+          {
+            "en": "The mime entertained the crowd with silent gestures alone.",
+            "zh": "這位默劇演員僅用無聲的肢體動作逗樂了群眾。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "pantomime",
+        "noteZh": "名詞可指無言表演；動詞可指以動作表演，但另有英式聖誕劇義。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "mimic",
+        "partOfSpeech": "verb",
+        "meaningZh": "模仿；仿效"
+      },
+      {
+        "lemma": "mimicry",
+        "partOfSpeech": "noun",
+        "meaningZh": "模仿；擬態"
       }
     ],
     "tags": [
@@ -2490,14 +3348,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pantomime",
-        "noteZh": "名詞可指無言表演；動詞可指以動作表演，但另有英式聖誕劇義。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_mince",
@@ -2511,42 +3362,68 @@
       {
         "id": "s_mince_sense_verb_meat",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to cut food, especially meat, into very small pieces",
         "definitionZh": "把（食物）切碎；絞碎",
         "usageExplanationZh": "常見 minced meat（絞肉），多指以刀具或機器將食材切成細碎狀。",
-        "examples": [
-          {
-            "en": "She minced the garlic finely before adding it to the pan.",
-            "zh": "她把大蒜切得細碎後才放入鍋中。"
-          }
+        "grammarPatterns": [
+          "mince + noun",
+          "mince sth finely"
         ],
         "collocations": [
           {
             "text": "mince the garlic",
             "meaningZh": "把大蒜切碎"
           }
+        ],
+        "examples": [
+          {
+            "en": "She minced the garlic finely before adding it to the pan.",
+            "zh": "她把大蒜切得細碎後才放入鍋中。"
+          }
         ]
       },
       {
         "id": "s_mince_sense_verb_words",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "to speak in an indirect, overly cautious way to avoid offending someone",
         "definitionZh": "說話拐彎抹角；委婉其詞",
         "usageExplanationZh": "常見 not mince words（直言不諱），表示某人說話坦率、不拐彎抹角。",
-        "examples": [
-          {
-            "en": "He didn't mince his words when criticizing the plan.",
-            "zh": "他在批評這項計畫時毫不拐彎抹角。"
-          }
+        "grammarPatterns": [
+          "not mince one's words",
+          "mince words"
         ],
         "collocations": [
           {
             "text": "not mince one's words",
             "meaningZh": "直言不諱"
           }
+        ],
+        "examples": [
+          {
+            "en": "He didn't mince his words when criticizing the plan.",
+            "zh": "他在批評這項計畫時毫不拐彎抹角。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "chop finely",
+        "noteZh": "對應把食物剁碎。"
+      },
+      {
+        "lemma": "equivocate",
+        "noteZh": "對應言語含糊、避免直說。"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2558,18 +3435,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "chop finely",
-        "noteZh": "對應把食物剁碎。"
-      },
-      {
-        "lemma": "equivocate",
-        "noteZh": "對應言語含糊、避免直說。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_mine",
@@ -2583,40 +3449,79 @@
       {
         "id": "s_mine_sense_noun_pit",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "an excavation in the ground for extracting minerals, coal, or metal ore",
         "definitionZh": "礦坑；礦場",
         "usageExplanationZh": "常見 a coal mine、a gold mine，指開採地下資源的場所。",
-        "examples": [
-          {
-            "en": "Hundreds of workers were trapped underground after the mine collapsed.",
-            "zh": "礦坑坍塌後，數百名工人受困於地下。"
-          }
+        "grammarPatterns": [
+          "a coal mine",
+          "work in a mine"
         ],
         "collocations": [
           {
             "text": "a coal mine",
             "meaningZh": "煤礦"
           }
+        ],
+        "examples": [
+          {
+            "en": "Hundreds of workers were trapped underground after the mine collapsed.",
+            "zh": "礦坑坍塌後，數百名工人受困於地下。"
+          }
         ]
       },
       {
         "id": "s_mine_sense_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "to dig into the ground to extract minerals or resources",
         "definitionZh": "挖掘；開採",
         "usageExplanationZh": "常見 mine coal／gold，也可比喻性地用於挖掘資料，如 mine data。",
-        "examples": [
-          {
-            "en": "The company mines copper in several countries.",
-            "zh": "這家公司在好幾個國家開採銅礦。"
-          }
+        "grammarPatterns": [
+          "mine + noun",
+          "mine for + noun"
         ],
         "collocations": [
           {
             "text": "mine for gold",
             "meaningZh": "開採黃金"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company mines copper in several countries.",
+            "zh": "這家公司在好幾個國家開採銅礦。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "pit",
+        "noteZh": "名詞義指礦坑。"
+      },
+      {
+        "lemma": "extract",
+        "noteZh": "動詞義指開採資源。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "miner",
+        "partOfSpeech": "noun",
+        "meaningZh": "礦工"
+      },
+      {
+        "lemma": "mineral",
+        "partOfSpeech": "noun",
+        "meaningZh": "礦物"
       }
     ],
     "tags": [
@@ -2630,18 +3535,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pit",
-        "noteZh": "名詞義指礦坑。"
-      },
-      {
-        "lemma": "extract",
-        "noteZh": "動詞義指開採資源。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_mineral",
@@ -2655,21 +3549,48 @@
       {
         "id": "s_mineral_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a naturally occurring solid substance with a specific chemical composition, found in rocks or soil",
         "definitionZh": "礦物",
         "usageExplanationZh": "常見 mineral deposits、mineral water（礦泉水），涵蓋自然界中各種無機固態物質。",
-        "examples": [
-          {
-            "en": "The region is rich in mineral deposits, including iron and copper.",
-            "zh": "這個地區蘊藏豐富的礦藏，包括鐵礦和銅礦。"
-          }
+        "grammarPatterns": [
+          "mineral deposits",
+          "rich in minerals"
         ],
         "collocations": [
           {
             "text": "mineral deposits",
             "meaningZh": "礦床"
           }
+        ],
+        "examples": [
+          {
+            "en": "The region is rich in mineral deposits, including iron and copper.",
+            "zh": "這個地區蘊藏豐富的礦藏，包括鐵礦和銅礦。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "mineral substance",
+        "noteZh": "指具有特定化學成分的天然礦物質。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "mine",
+        "partOfSpeech": "noun",
+        "meaningZh": "礦坑；礦場"
+      },
+      {
+        "lemma": "mineralogy",
+        "partOfSpeech": "noun",
+        "meaningZh": "礦物學"
       }
     ],
     "tags": [
@@ -2682,13 +3603,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "mineral substance",
-        "noteZh": "指具有特定化學成分的天然礦物質。"
-      }
-    ],
-    "antonyms": []
+    }
   }
 ]

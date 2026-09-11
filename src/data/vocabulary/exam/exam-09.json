@@ -11,40 +11,70 @@
       {
         "id": "s_blockade_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "an action to seal off a place to prevent goods or people from entering or leaving",
         "definitionZh": "封鎖",
         "usageExplanationZh": "常見軍事或政治語境，如 a naval blockade，指以武力或手段阻斷通行。",
-        "examples": [
-          {
-            "en": "The navy imposed a blockade on the enemy port.",
-            "zh": "海軍對敵方港口實施了封鎖。"
-          }
+        "grammarPatterns": [
+          "impose a blockade on + noun",
+          "lift a blockade",
+          "a naval blockade"
         ],
         "collocations": [
           {
             "text": "a naval blockade",
             "meaningZh": "海上封鎖"
           }
+        ],
+        "examples": [
+          {
+            "en": "The navy imposed a blockade on the enemy port.",
+            "zh": "海軍對敵方港口實施了封鎖。"
+          }
         ]
       },
       {
         "id": "s_blockade_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to seal off a place to prevent entry or exit",
         "definitionZh": "封鎖",
         "usageExplanationZh": "常接受詞為地點，如 blockade a port/city，強調阻斷進出的行動。",
-        "examples": [
-          {
-            "en": "Rebels blockaded the main road into the city.",
-            "zh": "叛軍封鎖了通往這座城市的主要道路。"
-          }
+        "grammarPatterns": [
+          "blockade + noun",
+          "blockade a port/road"
         ],
         "collocations": [
           {
             "text": "blockade a port",
             "meaningZh": "封鎖港口"
           }
+        ],
+        "examples": [
+          {
+            "en": "Rebels blockaded the main road into the city.",
+            "zh": "叛軍封鎖了通往這座城市的主要道路。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "siege",
+        "noteZh": "圍困封鎖"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "block",
+        "partOfSpeech": "verb",
+        "meaningZh": "阻擋；封鎖"
       }
     ],
     "tags": [
@@ -57,14 +87,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "siege",
-        "noteZh": "圍困封鎖"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_blond",
@@ -78,42 +101,63 @@
       {
         "id": "s_blond_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "(especially of hair) light-colored, typically pale yellow",
         "definitionZh": "金髮的",
         "usageExplanationZh": "多用於形容男性頭髮顏色；blonde 則常用於形容女性或作名詞，兩者拼法有性別區分傳統。",
-        "examples": [
-          {
-            "en": "Their son has blond hair like his father.",
-            "zh": "他們的兒子和父親一樣有金色頭髮。"
-          }
+        "grammarPatterns": [
+          "blond hair",
+          "a blond + noun"
         ],
         "collocations": [
           {
             "text": "blond hair",
             "meaningZh": "金髮"
           }
+        ],
+        "examples": [
+          {
+            "en": "Their son has blond hair like his father.",
+            "zh": "他們的兒子和父親一樣有金色頭髮。"
+          }
         ]
       },
       {
         "id": "s_blond_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a person, especially a man, with light-colored hair",
         "definitionZh": "金髮男子",
         "usageExplanationZh": "作名詞時指金髮的人，傳統上 blond 指男性，blonde 指女性。",
-        "examples": [
-          {
-            "en": "The blond in the photo is my cousin.",
-            "zh": "照片裡那位金髮男子是我表哥。"
-          }
+        "grammarPatterns": [
+          "a tall blond",
+          "the blond in + noun"
         ],
         "collocations": [
           {
             "text": "a natural blond",
             "meaningZh": "天生金髮的男子"
           }
+        ],
+        "examples": [
+          {
+            "en": "The blond in the photo is my cousin.",
+            "zh": "照片裡那位金髮男子是我表哥。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "fair-haired",
+        "noteZh": "淺色金髮的"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -124,14 +168,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "fair-haired",
-        "noteZh": "淺色金髮的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_blonde",
@@ -145,42 +182,63 @@
       {
         "id": "s_blonde_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "(especially of hair) light-colored, typically pale yellow",
         "definitionZh": "(女性)金髮的",
         "usageExplanationZh": "傳統拼法用於形容女性頭髮，現代英語中兩種拼法也常交替使用而不嚴格區分。",
-        "examples": [
-          {
-            "en": "She dyed her hair blonde last summer.",
-            "zh": "她去年夏天把頭髮染成了金色。"
-          }
+        "grammarPatterns": [
+          "dye one's hair blonde",
+          "a blonde + noun"
         ],
         "collocations": [
           {
             "text": "a blonde woman",
             "meaningZh": "金髮女子"
           }
+        ],
+        "examples": [
+          {
+            "en": "She dyed her hair blonde last summer.",
+            "zh": "她去年夏天把頭髮染成了金色。"
+          }
         ]
       },
       {
         "id": "s_blonde_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a woman with light-colored hair",
         "definitionZh": "金髮女子",
         "usageExplanationZh": "作名詞時傳統上指金髮女性，現代用法也可泛指任何金髮的人。",
-        "examples": [
-          {
-            "en": "The blonde at the front desk greeted us warmly.",
-            "zh": "櫃檯那位金髮女子熱情地迎接我們。"
-          }
+        "grammarPatterns": [
+          "a blonde with + noun",
+          "the blonde at + noun"
         ],
         "collocations": [
           {
             "text": "a natural blonde",
             "meaningZh": "天生金髮的女子"
           }
+        ],
+        "examples": [
+          {
+            "en": "The blonde at the front desk greeted us warmly.",
+            "zh": "櫃檯那位金髮女子熱情地迎接我們。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "fair-haired",
+        "noteZh": "淺色金髮的"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -191,14 +249,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "fair-haired",
-        "noteZh": "淺色金髮的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_bloom",
@@ -212,40 +263,68 @@
       {
         "id": "s_bloom_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "a flower, or the state of flowering; a period of peak health or beauty",
         "definitionZh": "花；盛開；全盛期",
         "usageExplanationZh": "常見 in full bloom，也可比喻指人生或事物最美好的階段，如 the bloom of youth。",
-        "examples": [
-          {
-            "en": "The roses are in full bloom this week.",
-            "zh": "玫瑰這星期正盛開。"
-          }
+        "grammarPatterns": [
+          "in full bloom",
+          "come into bloom"
         ],
         "collocations": [
           {
             "text": "in full bloom",
             "meaningZh": "盛開中"
           }
+        ],
+        "examples": [
+          {
+            "en": "The roses are in full bloom this week.",
+            "zh": "玫瑰這星期正盛開。"
+          }
         ]
       },
       {
         "id": "s_bloom_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "(of a plant) to produce flowers; to flourish or reach a peak of development",
         "definitionZh": "開花；茁壯發展",
         "usageExplanationZh": "字面指植物開花；比喻用法指人或事物蓬勃發展，如 her career bloomed。",
-        "examples": [
-          {
-            "en": "Her talent bloomed after years of practice.",
-            "zh": "經過多年練習，她的天賦逐漸展現光芒。"
-          }
+        "grammarPatterns": [
+          "bloom in + noun",
+          "bloom into + noun"
         ],
         "collocations": [
           {
             "text": "flowers bloom",
             "meaningZh": "花朵綻放"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her talent bloomed after years of practice.",
+            "zh": "經過多年練習，她的天賦逐漸展現光芒。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "blossom",
+        "noteZh": "花朵或開花"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "wither",
+        "noteZh": "枯萎（動詞）"
       }
     ],
     "tags": [
@@ -259,19 +338,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "blossom",
-        "noteZh": "花朵或開花"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "wither",
-        "noteZh": "枯萎（動詞）"
-      }
-    ]
+    }
   },
   {
     "id": "w_blossom",
@@ -285,21 +352,41 @@
       {
         "id": "s_blossom_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "(of a plant) to produce flowers, or to develop and flourish",
         "definitionZh": "開花；發展茁壯",
         "usageExplanationZh": "字面用於植物開花；比喻用法常見 blossom into，指人或事物逐漸成長茁壯。",
-        "examples": [
-          {
-            "en": "Their friendship blossomed into a lifelong partnership.",
-            "zh": "他們的友誼逐漸發展成終生的夥伴關係。"
-          }
+        "grammarPatterns": [
+          "blossom into + noun",
+          "blossom in + noun"
         ],
         "collocations": [
           {
             "text": "blossom into a friendship",
             "meaningZh": "發展成友誼"
           }
+        ],
+        "examples": [
+          {
+            "en": "Their friendship blossomed into a lifelong partnership.",
+            "zh": "他們的友誼逐漸發展成終生的夥伴關係。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "flourish",
+        "noteZh": "蓬勃發展"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "wither",
+        "noteZh": "枯萎"
       }
     ],
     "tags": [
@@ -314,19 +401,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "flourish",
-        "noteZh": "蓬勃發展"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "wither",
-        "noteZh": "枯萎"
-      }
-    ]
+    }
   },
   {
     "id": "w_blouse",
@@ -340,23 +415,32 @@
       {
         "id": "s_blouse_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a loose-fitting upper garment worn by women",
         "definitionZh": "女用上衣；襯衫",
         "usageExplanationZh": "通常指女性穿著的寬鬆上衣，材質多為輕薄布料，區別於男性穿的 shirt。",
-        "examples": [
-          {
-            "en": "She wore a white blouse with a black skirt.",
-            "zh": "她穿了一件白色襯衫搭配黑色裙子。"
-          }
+        "grammarPatterns": [
+          "wear a blouse",
+          "a silk blouse"
         ],
         "collocations": [
           {
             "text": "a silk blouse",
             "meaningZh": "絲質女用上衣"
           }
+        ],
+        "examples": [
+          {
+            "en": "She wore a white blouse with a black skirt.",
+            "zh": "她穿了一件白色襯衫搭配黑色裙子。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -367,9 +451,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_blur",
@@ -383,21 +465,47 @@
       {
         "id": "s_blur_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to become or make something unclear or difficult to see clearly",
         "definitionZh": "使模糊；變模糊",
         "usageExplanationZh": "常見 blur the line between（模糊界線），也可指視覺上失焦，如 tears blurred her vision。",
-        "examples": [
-          {
-            "en": "Tears blurred her vision as she read the letter.",
-            "zh": "讀信時，淚水模糊了她的視線。"
-          }
+        "grammarPatterns": [
+          "blur + noun",
+          "blur the line between A and B"
         ],
         "collocations": [
           {
             "text": "blur the distinction between",
             "meaningZh": "使兩者間的區別模糊"
           }
+        ],
+        "examples": [
+          {
+            "en": "Tears blurred her vision as she read the letter.",
+            "zh": "讀信時，淚水模糊了她的視線。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "obscure",
+        "noteZh": "使不清晰"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "sharpen",
+        "noteZh": "使更清晰"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "blurry",
+        "partOfSpeech": "adjective",
+        "meaningZh": "模糊的"
       }
     ],
     "tags": [
@@ -411,19 +519,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "obscure",
-        "noteZh": "使不清晰"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "sharpen",
-        "noteZh": "使更清晰"
-      }
-    ]
+    }
   },
   {
     "id": "w_blurt",
@@ -437,23 +533,38 @@
       {
         "id": "s_blurt_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "to say something suddenly and without thinking",
         "definitionZh": "脫口而出",
         "usageExplanationZh": "常見 blurt out，強調未經思考、衝動地說出話語，語氣帶輕微負面或尷尬意味。",
-        "examples": [
-          {
-            "en": "He blurted out the secret before he could stop himself.",
-            "zh": "他忍不住脫口說出了這個秘密。"
-          }
+        "grammarPatterns": [
+          "blurt out + noun",
+          "blurt sth out"
         ],
         "collocations": [
           {
             "text": "blurt out the answer",
             "meaningZh": "脫口說出答案"
           }
+        ],
+        "examples": [
+          {
+            "en": "He blurted out the secret before he could stop himself.",
+            "zh": "他忍不住脫口說出了這個秘密。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "utter",
+        "noteZh": "說出（不一定是衝口而出）"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -464,14 +575,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "utter",
-        "noteZh": "說出（不一定是衝口而出）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_blush",
@@ -485,42 +589,64 @@
       {
         "id": "s_blush_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "(of a person's face) to become red, typically from embarrassment or shame",
         "definitionZh": "臉紅",
         "usageExplanationZh": "常見 blush with embarrassment，形容因害羞或尷尬而臉部泛紅。",
-        "examples": [
-          {
-            "en": "She blushed when he complimented her dress.",
-            "zh": "他稱讚她的衣服時，她臉紅了。"
-          }
+        "grammarPatterns": [
+          "blush at + noun",
+          "blush with + noun"
         ],
         "collocations": [
           {
             "text": "blush with embarrassment",
             "meaningZh": "因尷尬而臉紅"
           }
+        ],
+        "examples": [
+          {
+            "en": "She blushed when he complimented her dress.",
+            "zh": "他稱讚她的衣服時，她臉紅了。"
+          }
         ]
       },
       {
         "id": "s_blush_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "a reddening of the face caused by embarrassment or shame",
         "definitionZh": "臉紅",
         "usageExplanationZh": "常見 bring a blush to someone's cheeks，指臉部泛紅的現象本身。",
-        "examples": [
-          {
-            "en": "A faint blush spread across her cheeks.",
-            "zh": "一抹淡淡的紅暈在她臉頰上浮現。"
-          }
+        "grammarPatterns": [
+          "a faint blush",
+          "a blush of + noun"
         ],
         "collocations": [
           {
             "text": "a deep blush",
             "meaningZh": "滿臉通紅"
           }
+        ],
+        "examples": [
+          {
+            "en": "A faint blush spread across her cheeks.",
+            "zh": "一抹淡淡的紅暈在她臉頰上浮現。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "flush",
+        "noteZh": "臉泛紅"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -533,14 +659,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "flush",
-        "noteZh": "臉泛紅"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_boast",
@@ -554,21 +673,47 @@
       {
         "id": "s_boast_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "an act of speaking with excessive pride about oneself or one's achievements",
         "definitionZh": "自誇；吹噓",
         "usageExplanationZh": "常見 make a boast，指帶有炫耀意味的言論，語氣略帶負面。",
-        "examples": [
-          {
-            "en": "His constant boasts about his wealth annoyed everyone.",
-            "zh": "他不斷炫耀自己的財富，讓大家都很反感。"
-          }
+        "grammarPatterns": [
+          "sb's boast about + noun",
+          "an idle boast"
         ],
         "collocations": [
           {
             "text": "an empty boast",
             "meaningZh": "空洞的自誇"
           }
+        ],
+        "examples": [
+          {
+            "en": "His constant boasts about his wealth annoyed everyone.",
+            "zh": "他不斷炫耀自己的財富，讓大家都很反感。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "brag",
+        "noteZh": "吹噓的話"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "boastful",
+        "partOfSpeech": "adjective",
+        "meaningZh": "自誇的"
+      },
+      {
+        "lemma": "boastfully",
+        "partOfSpeech": "adverb",
+        "meaningZh": "自誇地"
       }
     ],
     "tags": [
@@ -583,14 +728,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "brag",
-        "noteZh": "吹噓的話"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_bode",
@@ -604,14 +742,16 @@
       {
         "id": "s_bode_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to be a sign of something, especially something bad, that will happen in the future",
         "definitionZh": "預示",
         "usageExplanationZh": "常見固定搭配 bode well/ill for，表示對未來發展是好兆頭或壞兆頭。",
-        "examples": [
-          {
-            "en": "The dark clouds bode ill for tomorrow's picnic.",
-            "zh": "烏雲密布，這對明天的野餐可不是好兆頭。"
-          }
+        "grammarPatterns": [
+          "bode well for + noun",
+          "bode ill for + noun"
         ],
         "collocations": [
           {
@@ -622,7 +762,27 @@
             "text": "bode ill for",
             "meaningZh": "預示對……不利"
           }
+        ],
+        "examples": [
+          {
+            "en": "The dark clouds bode ill for tomorrow's picnic.",
+            "zh": "烏雲密布，這對明天的野餐可不是好兆頭。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "portend",
+        "noteZh": "預示將發生的事"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "foreboding",
+        "partOfSpeech": "noun",
+        "meaningZh": "不祥的預感"
       }
     ],
     "tags": [
@@ -635,14 +795,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "portend",
-        "noteZh": "預示將發生的事"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_bogus",
@@ -656,21 +809,40 @@
       {
         "id": "s_bogus_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "not genuine or legitimate; fake",
         "definitionZh": "假冒的；偽造的",
         "usageExplanationZh": "常見 a bogus claim/company，語氣直接指出某事物具有欺騙性，屬較口語的用詞。",
-        "examples": [
-          {
-            "en": "Police arrested him for running a bogus charity.",
-            "zh": "警方逮捕了他，因為他經營一個假慈善機構。"
-          }
+        "grammarPatterns": [
+          "a bogus + noun",
+          "prove bogus"
         ],
         "collocations": [
           {
             "text": "a bogus claim",
             "meaningZh": "虛假的主張"
           }
+        ],
+        "examples": [
+          {
+            "en": "Police arrested him for running a bogus charity.",
+            "zh": "警方逮捕了他，因為他經營一個假慈善機構。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "fake",
+        "noteZh": "假的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "genuine",
+        "noteZh": "真正的"
       }
     ],
     "tags": [
@@ -683,19 +855,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "fake",
-        "noteZh": "假的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "genuine",
-        "noteZh": "真正的"
-      }
-    ]
+    }
   },
   {
     "id": "w_bohemian",
@@ -709,40 +869,74 @@
       {
         "id": "s_bohemian_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "a person, especially an artist or writer, who lives in an unconventional way",
         "definitionZh": "波希米亞人；不受拘束的藝術家",
         "usageExplanationZh": "常指過著非傳統、追求自由生活方式的藝術工作者，帶浪漫色彩。",
-        "examples": [
-          {
-            "en": "The neighborhood was once home to painters, poets, and other bohemians.",
-            "zh": "這個社區曾是畫家、詩人等自由不羈藝術家的聚集地。"
-          }
+        "grammarPatterns": [
+          "live as a bohemian",
+          "a community of bohemians"
         ],
         "collocations": [
           {
             "text": "a group of bohemians",
             "meaningZh": "一群不拘傳統的藝術人士"
           }
+        ],
+        "examples": [
+          {
+            "en": "The neighborhood was once home to painters, poets, and other bohemians.",
+            "zh": "這個社區曾是畫家、詩人等自由不羈藝術家的聚集地。"
+          }
         ]
       },
       {
         "id": "s_bohemian_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "relating to or characteristic of an unconventional lifestyle, especially among artists",
         "definitionZh": "波希米亞風格的；不拘傳統的",
         "usageExplanationZh": "常修飾 lifestyle 或 style，形容自由隨性、不受傳統束縛的生活態度或風格。",
-        "examples": [
-          {
-            "en": "She has a bohemian style of dressing, mixing bright colors and patterns.",
-            "zh": "她的穿衣風格很波希米亞，混搭鮮豔的色彩與圖案。"
-          }
+        "grammarPatterns": [
+          "a bohemian + noun",
+          "bohemian in + noun"
         ],
         "collocations": [
           {
             "text": "a bohemian lifestyle",
             "meaningZh": "不拘傳統的生活方式"
           }
+        ],
+        "examples": [
+          {
+            "en": "She has a bohemian style of dressing, mixing bright colors and patterns.",
+            "zh": "她的穿衣風格很波希米亞，混搭鮮豔的色彩與圖案。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "nonconformist",
+        "noteZh": "不拘傳統的人或作風"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "conventional",
+        "noteZh": "墨守成規的（形容詞）"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "bohemianism",
+        "partOfSpeech": "noun",
+        "meaningZh": "放浪不羈的生活方式"
       }
     ],
     "tags": [
@@ -755,19 +949,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "nonconformist",
-        "noteZh": "不拘傳統的人或作風"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "conventional",
-        "noteZh": "墨守成規的（形容詞）"
-      }
-    ]
+    }
   },
   {
     "id": "w_boil",
@@ -781,40 +963,70 @@
       {
         "id": "s_boil_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a painful, inflamed swelling on the skin containing pus",
         "definitionZh": "癤；膿瘡",
         "usageExplanationZh": "醫學或日常用語，指皮膚上因感染形成的腫脹，與動詞「煮沸」義無關。",
-        "examples": [
-          {
-            "en": "He had to see a doctor about a boil on his neck.",
-            "zh": "他因脖子上長了一顆癤而去看醫生。"
-          }
+        "grammarPatterns": [
+          "a boil on + noun",
+          "lance a boil"
         ],
         "collocations": [
           {
             "text": "a painful boil",
             "meaningZh": "疼痛的癤"
           }
+        ],
+        "examples": [
+          {
+            "en": "He had to see a doctor about a boil on his neck.",
+            "zh": "他因脖子上長了一顆癤而去看醫生。"
+          }
         ]
       },
       {
         "id": "s_boil_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "(of a liquid) to reach the temperature at which it turns to vapor, or to cook something in boiling water",
         "definitionZh": "煮沸；沸騰",
         "usageExplanationZh": "常見 boil water、boil an egg，也可比喻指情緒激動，如 boil with anger。",
-        "examples": [
-          {
-            "en": "Boil the pasta for about ten minutes.",
-            "zh": "把義大利麵煮沸約十分鐘。"
-          }
+        "grammarPatterns": [
+          "boil + noun",
+          "bring sth to the boil",
+          "boil for + noun"
         ],
         "collocations": [
           {
             "text": "boil water",
             "meaningZh": "把水煮沸"
           }
+        ],
+        "examples": [
+          {
+            "en": "Boil the pasta for about ten minutes.",
+            "zh": "把義大利麵煮沸約十分鐘。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "furuncle",
+        "noteZh": "癤的醫學用語"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "boiler",
+        "partOfSpeech": "noun",
+        "meaningZh": "鍋爐"
       }
     ],
     "tags": [
@@ -828,14 +1040,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "furuncle",
-        "noteZh": "癤的醫學用語"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_bold",
@@ -849,14 +1054,16 @@
       {
         "id": "s_bold_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "confident and courageous, or (of text) printed in a heavy typeface",
         "definitionZh": "大膽的；(字體)粗體的",
         "usageExplanationZh": "可形容人勇於冒險的性格，也可指印刷字體的樣式，如 bold text，須依語境判斷。",
-        "examples": [
-          {
-            "en": "It was a bold decision to leave her stable job and start a business.",
-            "zh": "辭去穩定的工作去創業，這是個大膽的決定。"
-          }
+        "grammarPatterns": [
+          "a bold + noun",
+          "bold enough to do sth",
+          "in bold type"
         ],
         "collocations": [
           {
@@ -867,7 +1074,42 @@
             "text": "bold type",
             "meaningZh": "粗體字"
           }
+        ],
+        "examples": [
+          {
+            "en": "It was a bold decision to leave her stable job and start a business.",
+            "zh": "辭去穩定的工作去創業，這是個大膽的決定。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "daring",
+        "noteZh": "勇敢大膽的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "timid",
+        "noteZh": "膽怯的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "boldly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "大膽地"
+      },
+      {
+        "lemma": "boldness",
+        "partOfSpeech": "noun",
+        "meaningZh": "大膽；勇氣"
+      },
+      {
+        "lemma": "embolden",
+        "partOfSpeech": "verb",
+        "meaningZh": "使更大膽；鼓舞"
       }
     ],
     "tags": [
@@ -881,19 +1123,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "daring",
-        "noteZh": "勇敢大膽的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "timid",
-        "noteZh": "膽怯的"
-      }
-    ]
+    }
   },
   {
     "id": "w_bolster",
@@ -907,40 +1137,69 @@
       {
         "id": "s_bolster_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a long, firm pillow placed under other pillows for support",
         "definitionZh": "長枕；靠枕",
         "usageExplanationZh": "常見於床上用品，指置於一般枕頭下方作支撐用的長條枕。",
-        "examples": [
-          {
-            "en": "She placed a bolster under her back for extra support.",
-            "zh": "她在背後墊了一個長枕以增加支撐。"
-          }
+        "grammarPatterns": [
+          "a bolster under + noun",
+          "place a bolster"
         ],
         "collocations": [
           {
             "text": "a bolster pillow",
             "meaningZh": "長形靠枕"
           }
+        ],
+        "examples": [
+          {
+            "en": "She placed a bolster under her back for extra support.",
+            "zh": "她在背後墊了一個長枕以增加支撐。"
+          }
         ]
       },
       {
         "id": "s_bolster_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business",
+          "academic"
+        ],
         "definitionEn": "to support, strengthen, or improve something",
         "definitionZh": "支撐；增強",
         "usageExplanationZh": "常見 bolster confidence/economy，強調透過某種手段加強或鞏固既有的事物。",
-        "examples": [
-          {
-            "en": "The new policy is designed to bolster the local economy.",
-            "zh": "這項新政策旨在振興當地經濟。"
-          }
+        "grammarPatterns": [
+          "bolster + noun",
+          "bolster confidence in + noun"
         ],
         "collocations": [
           {
             "text": "bolster confidence",
             "meaningZh": "增強信心"
           }
+        ],
+        "examples": [
+          {
+            "en": "The new policy is designed to bolster the local economy.",
+            "zh": "這項新政策旨在振興當地經濟。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "support",
+        "noteZh": "支撐或增強（動詞）"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "undermine",
+        "noteZh": "削弱（動詞）"
       }
     ],
     "tags": [
@@ -954,19 +1213,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "support",
-        "noteZh": "支撐或增強（動詞）"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "undermine",
-        "noteZh": "削弱（動詞）"
-      }
-    ]
+    }
   },
   {
     "id": "w_bolt",
@@ -980,21 +1227,43 @@
       {
         "id": "s_bolt_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a metal pin used to fasten things together, or a sudden quick movement",
         "definitionZh": "螺栓；閃電般的行動",
         "usageExplanationZh": "常見 nuts and bolts，也可指突然的快速動作，如 make a bolt for the door。",
-        "examples": [
-          {
-            "en": "He tightened the bolts on the shelf with a wrench.",
-            "zh": "他用扳手把架子上的螺栓鎖緊。"
-          }
+        "grammarPatterns": [
+          "tighten/loosen a bolt",
+          "the bolts on + noun"
         ],
         "collocations": [
           {
             "text": "nuts and bolts",
             "meaningZh": "螺帽與螺栓"
           }
+        ],
+        "examples": [
+          {
+            "en": "He tightened the bolts on the shelf with a wrench.",
+            "zh": "他用扳手把架子上的螺栓鎖緊。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "fastener",
+        "noteZh": "固定物（螺栓是其中一種）"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "unbolt",
+        "partOfSpeech": "verb",
+        "meaningZh": "拔去螺栓；拉開門閂"
       }
     ],
     "tags": [
@@ -1008,14 +1277,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "fastener",
-        "noteZh": "固定物（螺栓是其中一種）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_bombardment",
@@ -1029,21 +1291,49 @@
       {
         "id": "s_bombardment_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "a sustained attack with bombs, shells, or (figuratively) an overwhelming amount of something",
         "definitionZh": "轟炸；(訊息等的)轟炸",
         "usageExplanationZh": "字面指軍事上持續猛烈的攻擊；比喻用法常見 a bombardment of questions，指大量湧來的事物。",
-        "examples": [
-          {
-            "en": "The city endured weeks of heavy bombardment.",
-            "zh": "這座城市承受了數週猛烈的轟炸。"
-          }
+        "grammarPatterns": [
+          "heavy bombardment",
+          "the bombardment of + noun",
+          "a bombardment with + noun"
         ],
         "collocations": [
           {
             "text": "heavy bombardment",
             "meaningZh": "猛烈轟炸"
           }
+        ],
+        "examples": [
+          {
+            "en": "The city endured weeks of heavy bombardment.",
+            "zh": "這座城市承受了數週猛烈的轟炸。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "barrage",
+        "noteZh": "密集炮擊或大量訊息"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "bombard",
+        "partOfSpeech": "verb",
+        "meaningZh": "轟炸；連番攻擊"
+      },
+      {
+        "lemma": "bomb",
+        "partOfSpeech": "noun",
+        "meaningZh": "炸彈"
       }
     ],
     "tags": [
@@ -1056,14 +1346,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "barrage",
-        "noteZh": "密集炮擊或大量訊息"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_bombastic",
@@ -1077,21 +1360,48 @@
       {
         "id": "s_bombastic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "(of speech or writing) using inflated, pompous language to impress",
         "definitionZh": "誇大其詞的；浮誇的",
         "usageExplanationZh": "常修飾 speech、rhetoric，語氣帶明顯負面評價，指言詞浮誇卻空洞。",
-        "examples": [
-          {
-            "en": "The politician's bombastic speech failed to convince the skeptical crowd.",
-            "zh": "這位政治人物誇大其詞的演說未能說服心存懷疑的群眾。"
-          }
+        "grammarPatterns": [
+          "a bombastic + noun",
+          "sound bombastic"
         ],
         "collocations": [
           {
             "text": "bombastic rhetoric",
             "meaningZh": "浮誇的言辭"
           }
+        ],
+        "examples": [
+          {
+            "en": "The politician's bombastic speech failed to convince the skeptical crowd.",
+            "zh": "這位政治人物誇大其詞的演說未能說服心存懷疑的群眾。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "pompous",
+        "noteZh": "浮誇自大的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "understated",
+        "noteZh": "低調含蓄的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "bombast",
+        "partOfSpeech": "noun",
+        "meaningZh": "誇大的言詞"
       }
     ],
     "tags": [
@@ -1105,19 +1415,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pompous",
-        "noteZh": "浮誇自大的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "understated",
-        "noteZh": "低調含蓄的"
-      }
-    ]
+    }
   },
   {
     "id": "w_bond",
@@ -1131,14 +1429,17 @@
       {
         "id": "s_bond_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "a close connection between people, or a certificate of debt issued by a government or company",
         "definitionZh": "聯繫；債券",
         "usageExplanationZh": "可指人際間的情感連結（a bond of trust），也可指金融投資工具（government bonds），須視語境判斷。",
-        "examples": [
-          {
-            "en": "They formed a strong bond during their time at university.",
-            "zh": "他們在大學期間建立了深厚的情誼。"
-          }
+        "grammarPatterns": [
+          "form a bond with sb",
+          "a bond between A and B",
+          "government bonds"
         ],
         "collocations": [
           {
@@ -1149,7 +1450,27 @@
             "text": "government bonds",
             "meaningZh": "政府債券"
           }
+        ],
+        "examples": [
+          {
+            "en": "They formed a strong bond during their time at university.",
+            "zh": "他們在大學期間建立了深厚的情誼。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "tie",
+        "noteZh": "聯繫關係"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "bondage",
+        "partOfSpeech": "noun",
+        "meaningZh": "束縛；奴役"
       }
     ],
     "tags": [
@@ -1163,14 +1484,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "tie",
-        "noteZh": "聯繫關係"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_bonus",
@@ -1184,14 +1498,17 @@
       {
         "id": "s_bonus_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "an extra payment or benefit given in addition to what is expected",
         "definitionZh": "獎金；額外好處",
         "usageExplanationZh": "常見 a Christmas bonus、an added bonus，指超出預期的額外報酬或優點。",
-        "examples": [
-          {
-            "en": "Employees received a year-end bonus for their hard work.",
-            "zh": "員工們因辛勤工作而獲得年終獎金。"
-          }
+        "grammarPatterns": [
+          "receive a bonus",
+          "an added bonus",
+          "a year-end bonus"
         ],
         "collocations": [
           {
@@ -1202,9 +1519,22 @@
             "text": "an added bonus",
             "meaningZh": "額外的好處"
           }
+        ],
+        "examples": [
+          {
+            "en": "Employees received a year-end bonus for their hard work.",
+            "zh": "員工們因辛勤工作而獲得年終獎金。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "perk",
+        "noteZh": "額外福利"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1216,14 +1546,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "perk",
-        "noteZh": "額外福利"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_booklet",
@@ -1237,21 +1560,42 @@
       {
         "id": "s_booklet_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a small, thin book, usually with a paper cover",
         "definitionZh": "小冊子",
         "usageExplanationZh": "常見於說明手冊、簡介文件，如 an information booklet，指頁數較少的小型書冊。",
-        "examples": [
-          {
-            "en": "The museum provides a free booklet describing each exhibit.",
-            "zh": "博物館提供免費的小冊子介紹每件展品。"
-          }
+        "grammarPatterns": [
+          "a booklet on/about + noun",
+          "hand out booklets"
         ],
         "collocations": [
           {
             "text": "an information booklet",
             "meaningZh": "資訊手冊"
           }
+        ],
+        "examples": [
+          {
+            "en": "The museum provides a free booklet describing each exhibit.",
+            "zh": "博物館提供免費的小冊子介紹每件展品。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "pamphlet",
+        "noteZh": "小冊子"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "book",
+        "partOfSpeech": "noun",
+        "meaningZh": "書；書本"
       }
     ],
     "tags": [
@@ -1264,14 +1608,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pamphlet",
-        "noteZh": "小冊子"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_bookshop",
@@ -1285,21 +1622,42 @@
       {
         "id": "s_bookshop_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a shop that sells books",
         "definitionZh": "書店",
         "usageExplanationZh": "英式英語用詞，美式英語多用 bookstore，兩者意義相同。",
-        "examples": [
-          {
-            "en": "She spent the whole afternoon browsing in the bookshop.",
-            "zh": "她整個下午都在書店裡瀏覽。"
-          }
+        "grammarPatterns": [
+          "browse in a bookshop",
+          "a secondhand bookshop"
         ],
         "collocations": [
           {
             "text": "a second-hand bookshop",
             "meaningZh": "二手書店"
           }
+        ],
+        "examples": [
+          {
+            "en": "She spent the whole afternoon browsing in the bookshop.",
+            "zh": "她整個下午都在書店裡瀏覽。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "bookstore",
+        "noteZh": "書店（美式常用）"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "book",
+        "partOfSpeech": "noun",
+        "meaningZh": "書；書本"
       }
     ],
     "tags": [
@@ -1312,14 +1670,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "bookstore",
-        "noteZh": "書店（美式常用）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_boom",
@@ -1333,21 +1684,41 @@
       {
         "id": "s_boom_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "a period of rapid economic growth, or a deep, loud sound",
         "definitionZh": "繁榮；(深沉的)轟隆聲",
         "usageExplanationZh": "可指經濟蓬勃發展的時期（an economic boom），也可指低沉巨響，須依語境判斷。",
-        "examples": [
-          {
-            "en": "The tech industry experienced a boom in the late 1990s.",
-            "zh": "科技產業在一九九零年代末經歷了一段蓬勃發展期。"
-          }
+        "grammarPatterns": [
+          "an economic boom",
+          "a boom in + noun"
         ],
         "collocations": [
           {
             "text": "an economic boom",
             "meaningZh": "經濟繁榮"
           }
+        ],
+        "examples": [
+          {
+            "en": "The tech industry experienced a boom in the late 1990s.",
+            "zh": "科技產業在一九九零年代末經歷了一段蓬勃發展期。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "upsurge",
+        "noteZh": "迅速增長"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "slump",
+        "noteZh": "衰退（經濟義）"
       }
     ],
     "tags": [
@@ -1362,19 +1733,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "upsurge",
-        "noteZh": "迅速增長"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "slump",
-        "noteZh": "衰退（經濟義）"
-      }
-    ]
+    }
   },
   {
     "id": "w_boost",
@@ -1388,40 +1747,76 @@
       {
         "id": "s_boost_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "an increase or improvement in something, or an act of encouragement",
         "definitionZh": "提升；鼓舞",
         "usageExplanationZh": "常見 a boost in sales/confidence，指數量或士氣上的提升。",
-        "examples": [
-          {
-            "en": "The good news gave her confidence a real boost.",
-            "zh": "這個好消息大大提振了她的信心。"
-          }
+        "grammarPatterns": [
+          "give sb/sth a boost",
+          "a boost to + noun",
+          "a boost in + noun"
         ],
         "collocations": [
           {
             "text": "a boost to morale",
             "meaningZh": "士氣的提升"
           }
+        ],
+        "examples": [
+          {
+            "en": "The good news gave her confidence a real boost.",
+            "zh": "這個好消息大大提振了她的信心。"
+          }
         ]
       },
       {
         "id": "s_boost_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "to increase, improve, or raise the level of something",
         "definitionZh": "提升；提高",
         "usageExplanationZh": "常見 boost morale/sales，強調使某事物的數值或水準提高。",
-        "examples": [
-          {
-            "en": "The company launched a campaign to boost sales.",
-            "zh": "公司推出了一項活動來提升銷售量。"
-          }
+        "grammarPatterns": [
+          "boost + noun",
+          "boost sth by + noun"
         ],
         "collocations": [
           {
             "text": "boost sales",
             "meaningZh": "提高銷售額"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company launched a campaign to boost sales.",
+            "zh": "公司推出了一項活動來提升銷售量。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "increase",
+        "noteZh": "增加或提升"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "reduction",
+        "noteZh": "減少（名詞）"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "booster",
+        "partOfSpeech": "noun",
+        "meaningZh": "助推器；增強劑"
       }
     ],
     "tags": [
@@ -1436,19 +1831,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "increase",
-        "noteZh": "增加或提升"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "reduction",
-        "noteZh": "減少（名詞）"
-      }
-    ]
+    }
   },
   {
     "id": "w_booth",
@@ -1462,14 +1845,16 @@
       {
         "id": "s_booth_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "a small enclosed structure or partitioned area used for a specific purpose",
         "definitionZh": "亭；隔間",
         "usageExplanationZh": "常見 a phone booth、a voting booth，指用於特定用途的小型隔間或攤位。",
-        "examples": [
-          {
-            "en": "They rented a booth at the trade show to display their products.",
-            "zh": "他們在商展租了一個攤位展示產品。"
-          }
+        "grammarPatterns": [
+          "a booth at + noun",
+          "rent/set up a booth"
         ],
         "collocations": [
           {
@@ -1480,9 +1865,22 @@
             "text": "a phone booth",
             "meaningZh": "電話亭"
           }
+        ],
+        "examples": [
+          {
+            "en": "They rented a booth at the trade show to display their products.",
+            "zh": "他們在商展租了一個攤位展示產品。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "cubicle",
+        "noteZh": "小隔間"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -1493,14 +1891,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cubicle",
-        "noteZh": "小隔間"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_boulder",
@@ -1514,23 +1905,37 @@
       {
         "id": "s_boulder_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a large rock, typically one that has been worn smooth by erosion",
         "definitionZh": "大圓石；巨石",
         "usageExplanationZh": "常見於自然地形描述，指體積龐大、經風化侵蝕而顯圓滑的岩石。",
-        "examples": [
-          {
-            "en": "Hikers had to climb over a huge boulder blocking the trail.",
-            "zh": "登山客必須爬過一塊擋住步道的巨石。"
-          }
+        "grammarPatterns": [
+          "a huge boulder",
+          "climb over a boulder"
         ],
         "collocations": [
           {
             "text": "a large boulder",
             "meaningZh": "一塊巨石"
           }
+        ],
+        "examples": [
+          {
+            "en": "Hikers had to climb over a huge boulder blocking the trail.",
+            "zh": "登山客必須爬過一塊擋住步道的巨石。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "rock",
+        "noteZh": "岩石（涵義較廣）"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1542,14 +1947,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "rock",
-        "noteZh": "岩石（涵義較廣）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_bounce",
@@ -1563,33 +1961,41 @@
       {
         "id": "s_bounce_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "the action of springing back after hitting a surface, or a lively quality",
         "definitionZh": "反彈；活力",
         "usageExplanationZh": "字面指物體撞擊後彈起的動作；也可比喻形容人充滿活力的樣子，如 have a bounce in one's step。",
-        "examples": [
-          {
-            "en": "The ball lost its bounce after years of use.",
-            "zh": "這顆球用了好幾年，已經彈不太起來了。"
-          }
+        "grammarPatterns": [
+          "the bounce of + noun",
+          "lose its bounce"
         ],
         "collocations": [
           {
             "text": "a high bounce",
             "meaningZh": "高高的反彈"
           }
+        ],
+        "examples": [
+          {
+            "en": "The ball lost its bounce after years of use.",
+            "zh": "這顆球用了好幾年，已經彈不太起來了。"
+          }
         ]
       },
       {
         "id": "s_bounce_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to spring back after hitting a surface",
         "definitionZh": "反彈；彈跳",
         "usageExplanationZh": "常見 bounce off/back，也可比喻指經濟或情緒的回升，如 bounce back from failure。",
-        "examples": [
-          {
-            "en": "The ball bounced off the wall and rolled away.",
-            "zh": "球撞到牆壁彈開後滾走了。"
-          }
+        "grammarPatterns": [
+          "bounce off + noun",
+          "bounce back"
         ],
         "collocations": [
           {
@@ -1600,7 +2006,32 @@
             "text": "bounce off the wall",
             "meaningZh": "撞牆彈回"
           }
+        ],
+        "examples": [
+          {
+            "en": "The ball bounced off the wall and rolled away.",
+            "zh": "球撞到牆壁彈開後滾走了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "rebound",
+        "noteZh": "反彈"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "bouncy",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有彈性的；活潑的"
+      },
+      {
+        "lemma": "bouncer",
+        "partOfSpeech": "noun",
+        "meaningZh": "（酒吧的）保鑣"
       }
     ],
     "tags": [
@@ -1614,14 +2045,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "rebound",
-        "noteZh": "反彈"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_boundary",
@@ -1635,21 +2059,49 @@
       {
         "id": "s_boundary_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "a line that marks the limits of an area, or a limit on behavior or ideas",
         "definitionZh": "邊界；界線",
         "usageExplanationZh": "可指實際地理界線（a national boundary），也可比喻指行為或關係的限度，如 set boundaries。",
-        "examples": [
-          {
-            "en": "It's important to set clear boundaries with your coworkers.",
-            "zh": "和同事之間設立清楚的界線很重要。"
-          }
+        "grammarPatterns": [
+          "set boundaries",
+          "the boundary between A and B",
+          "cross a boundary"
         ],
         "collocations": [
           {
             "text": "set boundaries",
             "meaningZh": "設定界線"
           }
+        ],
+        "examples": [
+          {
+            "en": "It's important to set clear boundaries with your coworkers.",
+            "zh": "和同事之間設立清楚的界線很重要。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "border",
+        "noteZh": "邊界"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "bound",
+        "partOfSpeech": "noun",
+        "meaningZh": "界限；範圍"
+      },
+      {
+        "lemma": "boundless",
+        "partOfSpeech": "adjective",
+        "meaningZh": "無限的"
       }
     ],
     "tags": [
@@ -1663,14 +2115,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "border",
-        "noteZh": "邊界"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_bourgeois",
@@ -1684,40 +2129,71 @@
       {
         "id": "s_bourgeois_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a member of the middle class, especially regarded as concerned with respectability and material values",
         "definitionZh": "中產階級人士",
         "usageExplanationZh": "帶輕微負面評價色彩，常見於社會學或馬克思主義論述，指過度重視物質與體面的階層。",
-        "examples": [
-          {
-            "en": "The novel satirizes the values of the bourgeois family.",
-            "zh": "這部小說諷刺了這個中產階級家庭的價值觀。"
-          }
+        "grammarPatterns": [
+          "a typical bourgeois",
+          "the petty bourgeois"
         ],
         "collocations": [
           {
             "text": "a prosperous bourgeois",
             "meaningZh": "富裕的中產階級人士"
           }
+        ],
+        "examples": [
+          {
+            "en": "The novel satirizes the values of the bourgeois family.",
+            "zh": "這部小說諷刺了這個中產階級家庭的價值觀。"
+          }
         ]
       },
       {
         "id": "s_bourgeois_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic",
+          "literary"
+        ],
         "definitionEn": "relating to or characteristic of the middle class, especially regarding materialism or conventionality",
         "definitionZh": "中產階級的；世俗保守的",
         "usageExplanationZh": "常修飾 values、lifestyle，帶批判意味，暗指過於重視物質享受與傳統體面。",
-        "examples": [
-          {
-            "en": "Critics accused the film of promoting bourgeois values.",
-            "zh": "評論家指責這部電影宣揚中產階級的價值觀。"
-          }
+        "grammarPatterns": [
+          "a bourgeois + noun",
+          "typically bourgeois"
         ],
         "collocations": [
           {
             "text": "a bourgeois lifestyle",
             "meaningZh": "中產階級的生活方式"
           }
+        ],
+        "examples": [
+          {
+            "en": "Critics accused the film of promoting bourgeois values.",
+            "zh": "評論家指責這部電影宣揚中產階級的價值觀。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "middle-class",
+        "noteZh": "中產階級的（形容詞）"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "bourgeoisie",
+        "partOfSpeech": "noun",
+        "meaningZh": "資產階級"
       }
     ],
     "tags": [
@@ -1730,14 +2206,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "middle-class",
-        "noteZh": "中產階級的（形容詞）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_bout",
@@ -1751,14 +2220,15 @@
       {
         "id": "s_bout_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a short period of illness or activity, or a boxing/wrestling match",
         "definitionZh": "一陣(病痛)；一場(比賽)",
         "usageExplanationZh": "可指疾病發作的一段時間（a bout of flu），也可指拳擊等對抗性比賽，須依語境判斷。",
-        "examples": [
-          {
-            "en": "He suffered a bad bout of the flu last winter.",
-            "zh": "他去年冬天得了一場嚴重的流感。"
-          }
+        "grammarPatterns": [
+          "a bout of + noun",
+          "a bout with + noun"
         ],
         "collocations": [
           {
@@ -1769,9 +2239,22 @@
             "text": "a boxing bout",
             "meaningZh": "一場拳擊賽"
           }
+        ],
+        "examples": [
+          {
+            "en": "He suffered a bad bout of the flu last winter.",
+            "zh": "他去年冬天得了一場嚴重的流感。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "spell",
+        "noteZh": "短暫的一段時間"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1782,14 +2265,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "spell",
-        "noteZh": "短暫的一段時間"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_bowel",
@@ -1803,23 +2279,37 @@
       {
         "id": "s_bowel_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical"
+        ],
         "definitionEn": "the intestine, especially the lower part",
         "definitionZh": "腸；腸道",
         "usageExplanationZh": "醫學常用詞，常見複數 bowels，如 bowel movement（排便），語氣較 gut 正式。",
-        "examples": [
-          {
-            "en": "The doctor asked about his bowel movements during the checkup.",
-            "zh": "醫生在檢查時詢問了他的排便情況。"
-          }
+        "grammarPatterns": [
+          "a bowel + noun",
+          "empty the bowels"
         ],
         "collocations": [
           {
             "text": "bowel movements",
             "meaningZh": "排便"
           }
+        ],
+        "examples": [
+          {
+            "en": "The doctor asked about his bowel movements during the checkup.",
+            "zh": "醫生在檢查時詢問了他的排便情況。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "intestine",
+        "noteZh": "腸"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -1830,14 +2320,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "intestine",
-        "noteZh": "腸"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_boycott",
@@ -1851,42 +2334,66 @@
       {
         "id": "s_boycott_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "a refusal to buy, use, or participate in something as a form of protest",
         "definitionZh": "抵制",
         "usageExplanationZh": "常見 call for a boycott，指集體拒絕與某對象往來以表達抗議。",
-        "examples": [
-          {
-            "en": "The boycott of the company's products lasted several months.",
-            "zh": "對這家公司產品的抵制持續了好幾個月。"
-          }
+        "grammarPatterns": [
+          "a boycott of + noun",
+          "organize a boycott",
+          "call for a boycott"
         ],
         "collocations": [
           {
             "text": "a consumer boycott",
             "meaningZh": "消費者抵制"
           }
+        ],
+        "examples": [
+          {
+            "en": "The boycott of the company's products lasted several months.",
+            "zh": "對這家公司產品的抵制持續了好幾個月。"
+          }
         ]
       },
       {
         "id": "s_boycott_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "to refuse to buy, use, or participate in something as a form of protest",
         "definitionZh": "抵制",
         "usageExplanationZh": "常見 boycott a product/company，強調主動拒絕參與或購買以示抗議。",
-        "examples": [
-          {
-            "en": "Consumers boycotted the brand after the scandal.",
-            "zh": "醜聞爆發後，消費者抵制了這個品牌。"
-          }
+        "grammarPatterns": [
+          "boycott + noun",
+          "boycott sth over + noun"
         ],
         "collocations": [
           {
             "text": "boycott a company",
             "meaningZh": "抵制一家公司"
           }
+        ],
+        "examples": [
+          {
+            "en": "Consumers boycotted the brand after the scandal.",
+            "zh": "醜聞爆發後，消費者抵制了這個品牌。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "embargo",
+        "noteZh": "貿易禁運（名詞）"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1899,14 +2406,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "embargo",
-        "noteZh": "貿易禁運（名詞）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_brace",
@@ -1920,23 +2420,38 @@
       {
         "id": "s_brace_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a device that supports or strengthens something, such as a body part or structure",
         "definitionZh": "支架；托架",
         "usageExplanationZh": "常見 a knee brace、dental braces，指用來支撐或固定的裝置。",
-        "examples": [
-          {
-            "en": "She had to wear a back brace after the surgery.",
-            "zh": "手術後她必須戴上背部支架。"
-          }
+        "grammarPatterns": [
+          "wear a brace",
+          "a brace for + noun"
         ],
         "collocations": [
           {
             "text": "a knee brace",
             "meaningZh": "護膝支架"
           }
+        ],
+        "examples": [
+          {
+            "en": "She had to wear a back brace after the surgery.",
+            "zh": "手術後她必須戴上背部支架。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "support",
+        "noteZh": "支撐物"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1949,14 +2464,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "support",
-        "noteZh": "支撐物"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_bracket",
@@ -1970,14 +2478,18 @@
       {
         "id": "s_bracket_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business",
+          "technical"
+        ],
         "definitionEn": "a category within defined limits, or a support fixed to a wall to hold something",
         "definitionZh": "範疇；托架",
         "usageExplanationZh": "可指分類區間（tax bracket），也可指實體支撐物（a shelf bracket），須依語境判斷。",
-        "examples": [
-          {
-            "en": "Most of my friends fall into the same income bracket.",
-            "zh": "我大多數朋友的收入都落在同一個級距。"
-          }
+        "grammarPatterns": [
+          "an income/tax bracket",
+          "fall into a bracket",
+          "a bracket for + noun"
         ],
         "collocations": [
           {
@@ -1988,9 +2500,22 @@
             "text": "a shelf bracket",
             "meaningZh": "層板托架"
           }
+        ],
+        "examples": [
+          {
+            "en": "Most of my friends fall into the same income bracket.",
+            "zh": "我大多數朋友的收入都落在同一個級距。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "category",
+        "noteZh": "類別"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -2002,14 +2527,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "category",
-        "noteZh": "類別"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_braid",
@@ -2023,42 +2541,63 @@
       {
         "id": "s_braid_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a length of hair or fabric formed by interweaving three or more strands",
         "definitionZh": "辮子；穗帶",
         "usageExplanationZh": "常見 hair braid，指頭髮或布料經編織而成的長條狀物。",
-        "examples": [
-          {
-            "en": "She wore her hair in a single long braid.",
-            "zh": "她把頭髮編成一條長長的辮子。"
-          }
+        "grammarPatterns": [
+          "wear one's hair in a braid",
+          "a long braid"
         ],
         "collocations": [
           {
             "text": "wear your hair in braids",
             "meaningZh": "把頭髮編成辮子"
           }
+        ],
+        "examples": [
+          {
+            "en": "She wore her hair in a single long braid.",
+            "zh": "她把頭髮編成一條長長的辮子。"
+          }
         ]
       },
       {
         "id": "s_braid_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to interweave three or more strands of hair, thread, or rope",
         "definitionZh": "編辮子；編織",
         "usageExplanationZh": "常見 braid one's hair，指將多股材料交織編成辮狀。",
-        "examples": [
-          {
-            "en": "Her mother braided her hair before school every morning.",
-            "zh": "她媽媽每天早上上學前都會幫她編辮子。"
-          }
+        "grammarPatterns": [
+          "braid + noun",
+          "braid sb's hair"
         ],
         "collocations": [
           {
             "text": "braid your hair",
             "meaningZh": "編辮子"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her mother braided her hair before school every morning.",
+            "zh": "她媽媽每天早上上學前都會幫她編辮子。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "plait",
+        "noteZh": "辮子或編辮子"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2070,14 +2609,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "plait",
-        "noteZh": "辮子或編辮子"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_brake",
@@ -2091,14 +2623,16 @@
       {
         "id": "s_brake_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a device used to slow down or stop a vehicle, or something that slows a process",
         "definitionZh": "剎車；阻礙",
         "usageExplanationZh": "字面指交通工具的煞車裝置；比喻用法指抑制或減緩事物發展的因素，如 put the brakes on。",
-        "examples": [
-          {
-            "en": "He hit the brake just in time to avoid the dog.",
-            "zh": "他及時踩下煞車，避免撞到那隻狗。"
-          }
+        "grammarPatterns": [
+          "hit/apply the brake",
+          "a brake on + noun"
         ],
         "collocations": [
           {
@@ -2109,9 +2643,22 @@
             "text": "a brake on growth",
             "meaningZh": "對成長的阻礙"
           }
+        ],
+        "examples": [
+          {
+            "en": "He hit the brake just in time to avoid the dog.",
+            "zh": "他及時踩下煞車，避免撞到那隻狗。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "restraint",
+        "noteZh": "抑制作用"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -2123,14 +2670,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "restraint",
-        "noteZh": "抑制作用"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_brand",
@@ -2144,40 +2684,75 @@
       {
         "id": "s_brand_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "neutral"
+        ],
         "definitionEn": "a type of product manufactured by a particular company under a particular name",
         "definitionZh": "品牌；牌子",
         "usageExplanationZh": "常見 a well-known brand，指企業用以區別產品的名稱或標誌。",
-        "examples": [
-          {
-            "en": "This brand is known for its high-quality shoes.",
-            "zh": "這個品牌以高品質的鞋子聞名。"
-          }
+        "grammarPatterns": [
+          "a brand of + noun",
+          "a leading brand",
+          "brand loyalty"
         ],
         "collocations": [
           {
             "text": "brand loyalty",
             "meaningZh": "品牌忠誠度"
           }
+        ],
+        "examples": [
+          {
+            "en": "This brand is known for its high-quality shoes.",
+            "zh": "這個品牌以高品質的鞋子聞名。"
+          }
         ]
       },
       {
         "id": "s_brand_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to mark with a hot iron to show ownership, or to label someone unfairly with a negative description",
         "definitionZh": "打烙印於；貼上(負面)標籤",
         "usageExplanationZh": "字面指用烙鐵標記牲畜；比喻用法指給人貼上不公正的標籤，如 be branded a liar。",
-        "examples": [
-          {
-            "en": "The media branded him a traitor after the leak.",
-            "zh": "洩密事件後，媒體給他貼上了叛徒的標籤。"
-          }
+        "grammarPatterns": [
+          "brand sb as + noun",
+          "brand + noun"
         ],
         "collocations": [
           {
             "text": "brand someone a liar",
             "meaningZh": "把某人說成騙子"
           }
+        ],
+        "examples": [
+          {
+            "en": "The media branded him a traitor after the leak.",
+            "zh": "洩密事件後，媒體給他貼上了叛徒的標籤。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "make",
+        "noteZh": "產品品牌（名詞）"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "branding",
+        "partOfSpeech": "noun",
+        "meaningZh": "品牌塑造"
+      },
+      {
+        "lemma": "rebrand",
+        "partOfSpeech": "verb",
+        "meaningZh": "重塑品牌"
       }
     ],
     "tags": [
@@ -2191,14 +2766,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "make",
-        "noteZh": "產品品牌（名詞）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_brandish",
@@ -2212,23 +2780,38 @@
       {
         "id": "s_brandish_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "to wave or hold up something, especially a weapon, in a threatening or excited way",
         "definitionZh": "揮舞",
         "usageExplanationZh": "常見 brandish a weapon/knife，強調帶有威脅性或激動情緒的揮動動作。",
-        "examples": [
-          {
-            "en": "The robber brandished a knife and demanded money.",
-            "zh": "搶匪揮舞著刀子要求交出錢財。"
-          }
+        "grammarPatterns": [
+          "brandish + noun",
+          "brandish sth at sb"
         ],
         "collocations": [
           {
             "text": "brandish a knife",
             "meaningZh": "揮舞刀子"
           }
+        ],
+        "examples": [
+          {
+            "en": "The robber brandished a knife and demanded money.",
+            "zh": "搶匪揮舞著刀子要求交出錢財。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "wave",
+        "noteZh": "揮動（不一定帶威脅）"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2240,14 +2823,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "wave",
-        "noteZh": "揮動（不一定帶威脅）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_brash",
@@ -2261,21 +2837,52 @@
       {
         "id": "s_brash_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "self-confident in a rude, overly assertive way",
         "definitionZh": "自負無禮的；魯莽的",
         "usageExplanationZh": "常修飾 young man、attitude，帶負面評價，形容過於自信而顯得無禮或急躁。",
-        "examples": [
-          {
-            "en": "His brash comments offended several colleagues.",
-            "zh": "他魯莽無禮的言論冒犯了好幾位同事。"
-          }
+        "grammarPatterns": [
+          "a brash + noun",
+          "sound/seem brash"
         ],
         "collocations": [
           {
             "text": "a brash young man",
             "meaningZh": "冒失自大的年輕人"
           }
+        ],
+        "examples": [
+          {
+            "en": "His brash comments offended several colleagues.",
+            "zh": "他魯莽無禮的言論冒犯了好幾位同事。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "impudent",
+        "noteZh": "冒失無禮的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "modest",
+        "noteZh": "謙遜的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "brashly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "魯莽地"
+      },
+      {
+        "lemma": "brashness",
+        "partOfSpeech": "noun",
+        "meaningZh": "魯莽；自負"
       }
     ],
     "tags": [
@@ -2288,19 +2895,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "impudent",
-        "noteZh": "冒失無禮的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "modest",
-        "noteZh": "謙遜的"
-      }
-    ]
+    }
   },
   {
     "id": "w_brass",
@@ -2314,21 +2909,39 @@
       {
         "id": "s_brass_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a yellow metal alloy of copper and zinc, or musical instruments made from it",
         "definitionZh": "黃銅；銅管樂器",
         "usageExplanationZh": "可指金屬材質本身，也可指銅管樂器組（the brass section），須依語境判斷。",
-        "examples": [
-          {
-            "en": "The trophy was made of polished brass.",
-            "zh": "這座獎盃是用磨亮的黃銅製成的。"
-          }
+        "grammarPatterns": [
+          "be made of brass",
+          "polished brass",
+          "the brass section"
         ],
         "collocations": [
           {
             "text": "a brass band",
             "meaningZh": "銅管樂隊"
           }
+        ],
+        "examples": [
+          {
+            "en": "The trophy was made of polished brass.",
+            "zh": "這座獎盃是用磨亮的黃銅製成的。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "brassy",
+        "partOfSpeech": "adjective",
+        "meaningZh": "黃銅色的；刺耳的"
       }
     ],
     "tags": [
@@ -2341,9 +2954,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_brawl",
@@ -2357,40 +2968,68 @@
       {
         "id": "s_brawl_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a rough or noisy fight, typically in a public place",
         "definitionZh": "鬥毆；爭吵",
         "usageExplanationZh": "常見 a bar brawl，指發生在公共場合、較為粗暴混亂的打鬥或爭執。",
-        "examples": [
-          {
-            "en": "A brawl broke out between rival fans after the match.",
-            "zh": "比賽結束後，敵對球迷之間爆發了鬥毆。"
-          }
+        "grammarPatterns": [
+          "a brawl between + plural noun",
+          "get into a brawl"
         ],
         "collocations": [
           {
             "text": "a drunken brawl",
             "meaningZh": "酒後鬥毆"
           }
+        ],
+        "examples": [
+          {
+            "en": "A brawl broke out between rival fans after the match.",
+            "zh": "比賽結束後，敵對球迷之間爆發了鬥毆。"
+          }
         ]
       },
       {
         "id": "s_brawl_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to fight or quarrel in a noisy, rough way",
         "definitionZh": "鬥毆；吵架",
         "usageExplanationZh": "常見 brawl in the street，強調肢體衝突且伴隨喧鬧的爭吵場面。",
-        "examples": [
-          {
-            "en": "The two men brawled outside the bar.",
-            "zh": "這兩個男人在酒吧外鬥毆。"
-          }
+        "grammarPatterns": [
+          "brawl with sb",
+          "brawl in/outside + noun"
         ],
         "collocations": [
           {
             "text": "brawl in the street",
             "meaningZh": "在街上鬥毆"
           }
+        ],
+        "examples": [
+          {
+            "en": "The two men brawled outside the bar.",
+            "zh": "這兩個男人在酒吧外鬥毆。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "fight",
+        "noteZh": "打鬥或爭吵"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "brawler",
+        "partOfSpeech": "noun",
+        "meaningZh": "鬥毆者"
       }
     ],
     "tags": [
@@ -2404,14 +3043,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "fight",
-        "noteZh": "打鬥或爭吵"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_brazen",
@@ -2425,40 +3057,79 @@
       {
         "id": "s_brazen_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "bold and shameless, without regard for the reactions of others",
         "definitionZh": "厚顏無恥的",
         "usageExplanationZh": "常修飾 lie、attempt，強調毫不掩飾、不顧他人觀感的大膽行為，帶強烈負面評價。",
-        "examples": [
-          {
-            "en": "It was a brazen attempt to deceive the public.",
-            "zh": "這是一次厚顏無恥地企圖欺騙大眾的行為。"
-          }
+        "grammarPatterns": [
+          "a brazen + noun",
+          "brazen enough to do sth"
         ],
         "collocations": [
           {
             "text": "a brazen lie",
             "meaningZh": "無恥的謊言"
           }
+        ],
+        "examples": [
+          {
+            "en": "It was a brazen attempt to deceive the public.",
+            "zh": "這是一次厚顏無恥地企圖欺騙大眾的行為。"
+          }
         ]
       },
       {
         "id": "s_brazen_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "to face or endure a difficult situation with bold confidence, despite feeling embarrassed",
         "definitionZh": "厚著臉皮應付",
         "usageExplanationZh": "常見固定片語 brazen it out，指以無所謂的態度硬撐過尷尬或困難的處境。",
-        "examples": [
-          {
-            "en": "Instead of apologizing, he decided to brazen it out.",
-            "zh": "他沒有道歉，而是決定厚著臉皮撐過去。"
-          }
+        "grammarPatterns": [
+          "brazen it out",
+          "brazen sth out"
         ],
         "collocations": [
           {
             "text": "brazen it out",
             "meaningZh": "厚著臉皮撐過去"
           }
+        ],
+        "examples": [
+          {
+            "en": "Instead of apologizing, he decided to brazen it out.",
+            "zh": "他沒有道歉，而是決定厚著臉皮撐過去。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "shameless",
+        "noteZh": "厚顏無恥的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "ashamed",
+        "noteZh": "感到羞愧的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "brazenly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "厚顏無恥地"
+      },
+      {
+        "lemma": "brazenness",
+        "partOfSpeech": "noun",
+        "meaningZh": "厚顏無恥"
       }
     ],
     "tags": [
@@ -2471,19 +3142,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "shameless",
-        "noteZh": "厚顏無恥的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "ashamed",
-        "noteZh": "感到羞愧的"
-      }
-    ]
+    }
   },
   {
     "id": "w_breach",
@@ -2497,23 +3156,40 @@
       {
         "id": "s_breach_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical",
+          "business"
+        ],
         "definitionEn": "an act of breaking a law, agreement, or code of conduct, or a gap in a barrier",
         "definitionZh": "違反；裂口",
         "usageExplanationZh": "常見 a breach of contract/security，指未能履行義務或安全防護出現漏洞。",
-        "examples": [
-          {
-            "en": "The company was sued for a breach of contract.",
-            "zh": "這家公司因違反合約而被告上法庭。"
-          }
+        "grammarPatterns": [
+          "a breach of + noun",
+          "in breach of + noun",
+          "a breach in + noun"
         ],
         "collocations": [
           {
             "text": "a breach of contract",
             "meaningZh": "違約"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company was sued for a breach of contract.",
+            "zh": "這家公司因違反合約而被告上法庭。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "violation",
+        "noteZh": "違反規定"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2526,14 +3202,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "violation",
-        "noteZh": "違反規定"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_breakdown",
@@ -2547,14 +3216,17 @@
       {
         "id": "s_breakdown_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "a failure to function properly, or a detailed analysis of something",
         "definitionZh": "故障；崩潰；細目分析",
         "usageExplanationZh": "可指機械或關係的失靈（a mental breakdown），也可指資料的詳細分類，如 a cost breakdown。",
-        "examples": [
-          {
-            "en": "He suffered a nervous breakdown after months of stress.",
-            "zh": "他在數月的壓力下精神崩潰。"
-          }
+        "grammarPatterns": [
+          "a breakdown in + noun",
+          "a breakdown of + noun",
+          "suffer a breakdown"
         ],
         "collocations": [
           {
@@ -2565,7 +3237,27 @@
             "text": "a breakdown of costs",
             "meaningZh": "費用明細"
           }
+        ],
+        "examples": [
+          {
+            "en": "He suffered a nervous breakdown after months of stress.",
+            "zh": "他在數月的壓力下精神崩潰。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "failure",
+        "noteZh": "故障"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "break",
+        "partOfSpeech": "verb",
+        "meaningZh": "打破；故障"
       }
     ],
     "tags": [
@@ -2579,14 +3271,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "failure",
-        "noteZh": "故障"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_breakthrough",
@@ -2600,21 +3285,44 @@
       {
         "id": "s_breakthrough_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic",
+          "business"
+        ],
         "definitionEn": "a sudden, important discovery or development that overcomes a previous obstacle",
         "definitionZh": "突破",
         "usageExplanationZh": "常見 a scientific/medical breakthrough，指在困境或研究中取得重大進展。",
-        "examples": [
-          {
-            "en": "Scientists announced a breakthrough in cancer treatment.",
-            "zh": "科學家宣布在癌症治療上取得了突破。"
-          }
+        "grammarPatterns": [
+          "a breakthrough in + noun",
+          "make a breakthrough"
         ],
         "collocations": [
           {
             "text": "a major breakthrough",
             "meaningZh": "重大突破"
           }
+        ],
+        "examples": [
+          {
+            "en": "Scientists announced a breakthrough in cancer treatment.",
+            "zh": "科學家宣布在癌症治療上取得了突破。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "advance",
+        "noteZh": "進展"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "break",
+        "partOfSpeech": "verb",
+        "meaningZh": "突破；打破"
       }
     ],
     "tags": [
@@ -2627,14 +3335,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "advance",
-        "noteZh": "進展"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_breed",
@@ -2648,33 +3349,43 @@
       {
         "id": "s_breed_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a particular type of animal or plant developed through selective breeding",
         "definitionZh": "品種",
         "usageExplanationZh": "常見 a breed of dog，也可比喻用於指某類人，如 a new breed of entrepreneur。",
-        "examples": [
-          {
-            "en": "This breed of dog is known for its loyalty.",
-            "zh": "這個犬種以忠誠著稱。"
-          }
+        "grammarPatterns": [
+          "a breed of + noun",
+          "a rare breed"
         ],
         "collocations": [
           {
             "text": "a rare breed",
             "meaningZh": "稀有品種"
           }
+        ],
+        "examples": [
+          {
+            "en": "This breed of dog is known for its loyalty.",
+            "zh": "這個犬種以忠誠著稱。"
+          }
         ]
       },
       {
         "id": "s_breed_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "to keep animals for the purpose of producing offspring, or to cause something to develop",
         "definitionZh": "繁殖；引起",
         "usageExplanationZh": "字面指飼養動物繁衍後代（breed horses）；比喻用法指造成某種情況，如 poverty breeds crime。",
-        "examples": [
-          {
-            "en": "Poverty and inequality can breed resentment.",
-            "zh": "貧窮與不平等可能引發怨恨情緒。"
-          }
+        "grammarPatterns": [
+          "breed + noun",
+          "breed sth in captivity"
         ],
         "collocations": [
           {
@@ -2685,7 +3396,32 @@
             "text": "breed cattle",
             "meaningZh": "飼養繁殖牛隻"
           }
+        ],
+        "examples": [
+          {
+            "en": "Poverty and inequality can breed resentment.",
+            "zh": "貧窮與不平等可能引發怨恨情緒。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "variety",
+        "noteZh": "品種（名詞）"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "breeder",
+        "partOfSpeech": "noun",
+        "meaningZh": "飼養者；育種者"
+      },
+      {
+        "lemma": "breeding",
+        "partOfSpeech": "noun",
+        "meaningZh": "繁殖；教養"
       }
     ],
     "tags": [
@@ -2700,14 +3436,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "variety",
-        "noteZh": "品種（名詞）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_breeze",
@@ -2721,40 +3450,70 @@
       {
         "id": "s_breeze_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a gentle wind, or something that is easy to do",
         "definitionZh": "微風；輕而易舉之事",
         "usageExplanationZh": "字面指涼爽宜人的風；比喻用法 a breeze，指非常容易完成的事情，語氣口語化。",
-        "examples": [
-          {
-            "en": "A cool breeze blew in from the ocean.",
-            "zh": "一陣涼爽的微風從海上吹來。"
-          }
+        "grammarPatterns": [
+          "a gentle breeze",
+          "a breeze from + noun",
+          "be a breeze"
         ],
         "collocations": [
           {
             "text": "a gentle breeze",
             "meaningZh": "輕柔微風"
           }
+        ],
+        "examples": [
+          {
+            "en": "A cool breeze blew in from the ocean.",
+            "zh": "一陣涼爽的微風從海上吹來。"
+          }
         ]
       },
       {
         "id": "s_breeze_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "to move somewhere quickly and confidently, without difficulty",
         "definitionZh": "輕鬆地走；快速通過",
         "usageExplanationZh": "常見 breeze through/into，強調毫不費力地完成或通過某事。",
-        "examples": [
-          {
-            "en": "She breezed through the exam without much studying.",
-            "zh": "她幾乎沒怎麼讀書就輕鬆通過了考試。"
-          }
+        "grammarPatterns": [
+          "breeze through + noun",
+          "breeze into + noun"
         ],
         "collocations": [
           {
             "text": "breeze through an exam",
             "meaningZh": "輕鬆通過考試"
           }
+        ],
+        "examples": [
+          {
+            "en": "She breezed through the exam without much studying.",
+            "zh": "她幾乎沒怎麼讀書就輕鬆通過了考試。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "zephyr",
+        "noteZh": "微風（文學用語）"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "breezy",
+        "partOfSpeech": "adjective",
+        "meaningZh": "微風徐徐的；輕鬆的"
       }
     ],
     "tags": [
@@ -2768,14 +3527,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "zephyr",
-        "noteZh": "微風（文學用語）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_bribe",
@@ -2789,40 +3541,68 @@
       {
         "id": "s_bribe_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "money or a favor given to someone to influence their behavior dishonestly",
         "definitionZh": "賄賂",
         "usageExplanationZh": "常見 offer/take a bribe，指以不正當手段換取利益的財物或好處。",
-        "examples": [
-          {
-            "en": "The official was accused of accepting a bribe.",
-            "zh": "這名官員被指控收受賄賂。"
-          }
+        "grammarPatterns": [
+          "accept/take a bribe",
+          "offer sb a bribe"
         ],
         "collocations": [
           {
             "text": "accept a bribe",
             "meaningZh": "收賄"
           }
+        ],
+        "examples": [
+          {
+            "en": "The official was accused of accepting a bribe.",
+            "zh": "這名官員被指控收受賄賂。"
+          }
         ]
       },
       {
         "id": "s_bribe_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to persuade someone to act dishonestly by giving them money or a favor",
         "definitionZh": "賄賂；收買",
         "usageExplanationZh": "常見 bribe someone to do something，強調透過金錢誘使對方違背原則。",
-        "examples": [
-          {
-            "en": "He tried to bribe the guard to let him through.",
-            "zh": "他試圖賄賂警衛讓他通過。"
-          }
+        "grammarPatterns": [
+          "bribe sb to do sth",
+          "bribe sb with + noun"
         ],
         "collocations": [
           {
             "text": "bribe an official",
             "meaningZh": "賄賂官員"
           }
+        ],
+        "examples": [
+          {
+            "en": "He tried to bribe the guard to let him through.",
+            "zh": "他試圖賄賂警衛讓他通過。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "payoff",
+        "noteZh": "賄款（名詞）"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "bribery",
+        "partOfSpeech": "noun",
+        "meaningZh": "賄賂行為"
       }
     ],
     "tags": [
@@ -2836,14 +3616,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "payoff",
-        "noteZh": "賄款（名詞）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_brick",
@@ -2857,21 +3630,37 @@
       {
         "id": "s_brick_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a rectangular block of baked clay used for building",
         "definitionZh": "磚塊",
         "usageExplanationZh": "常見 a brick wall/house，指建築材料，也可比喻形容人可靠，如 a real brick（少見用法，此處聚焦建材義）。",
-        "examples": [
-          {
-            "en": "The house was built entirely of red brick.",
-            "zh": "這棟房子完全是用紅磚建造的。"
-          }
+        "grammarPatterns": [
+          "be made of brick",
+          "a brick wall"
         ],
         "collocations": [
           {
             "text": "a brick wall",
             "meaningZh": "磚牆"
           }
+        ],
+        "examples": [
+          {
+            "en": "The house was built entirely of red brick.",
+            "zh": "這棟房子完全是用紅磚建造的。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "bricklayer",
+        "partOfSpeech": "noun",
+        "meaningZh": "砌磚工"
       }
     ],
     "tags": [
@@ -2884,8 +3673,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   }
 ]

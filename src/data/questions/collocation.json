@@ -4,21 +4,22 @@
     "type": "collocation",
     "cefr": "B2",
     "wordIds": ["w_eliminate"],
-    "prompt": "Which combination is the most natural?",
+    "prompt": "Which verb combines naturally with \"the need for\" in this technical description?",
+    "context": "Because the client library caches the authorisation token for the whole session, it ____ the need for a second round trip to the identity provider.",
     "options": [
-      { "id": "a", "text": "eliminate the need for a second query" },
-      { "id": "b", "text": "eliminate the requirement of a second query" },
-      { "id": "c", "text": "eliminate the necessity to a second query" },
-      { "id": "d", "text": "eliminate the demand about a second query" }
+      { "id": "a", "text": "dissolves" },
+      { "id": "b", "text": "eliminates" },
+      { "id": "c", "text": "abolishes" },
+      { "id": "d", "text": "erases" }
     ],
-    "correctOptionId": "a",
-    "explanation": "eliminate the need for X 是英文中極高頻的固定搭配。",
+    "correctOptionId": "b",
+    "explanation": "eliminate the need for X 是技術與商務寫作的高頻固定搭配，字面是「讓某項需求不再存在」。同一個框架還可以說 eliminate duplication、eliminate waste。要注意：能搭配 the need for 的動詞其實只有 eliminate、remove 與較正式的 obviate 三個，其他「去除」類動詞都各有自己的專屬受詞，不能互換。",
     "distractorExplanations": {
-      "b": "語法上勉強成立，但 requirement of 遠不如 need for 自然，母語人士不會這樣說。",
-      "c": "necessity 不搭配 to 引出對象，介系詞錯誤。",
-      "d": "demand about 不是英文搭配；demand 通常用 demand for。"
+      "a": "dissolve 的受詞是「原本結合在一起的東西」——dissolve a partnership（解散合夥）、dissolve parliament（解散國會）。need 不是可以被溶解或解散的組織。",
+      "c": "abolish 專指由權威機關「廢除」制度性的東西：abolish slavery、abolish a tax、abolish the death penalty。它需要一個明文存在的規定作為受詞，need 只是客觀狀況，不是制度。",
+      "d": "erase 的受詞是「被記錄下來的痕跡」：erase a recording、erase a memory、erase the difference。need 沒有被寫下來，也就無從擦除。"
     },
-    "difficulty": 2,
+    "difficulty": 3,
     "tags": ["collocation", "engineering"],
     "source": "curated"
   },
@@ -27,22 +28,22 @@
     "type": "collocation",
     "cefr": "B2",
     "wordIds": ["w_distinction"],
-    "prompt": "Which verb collocates naturally with \"distinction\"?",
-    "context": "The paper ____ a careful distinction between correlation and causation.",
+    "prompt": "Which verb collocates with \"distinction\" in academic prose?",
+    "context": "The review article ____ a careful distinction between studies that measure self-reported wellbeing and those that rely on clinical assessment.",
     "options": [
-      { "id": "a", "text": "draws" },
-      { "id": "b", "text": "pulls" },
-      { "id": "c", "text": "opens" },
-      { "id": "d", "text": "builds" }
+      { "id": "a", "text": "traces" },
+      { "id": "b", "text": "sketches" },
+      { "id": "c", "text": "draws" },
+      { "id": "d", "text": "drafts" }
     ],
-    "correctOptionId": "a",
-    "explanation": "draw a distinction 是標準搭配（make a distinction 也可以）。",
+    "correctOptionId": "c",
+    "explanation": "distinction 只接受兩個動詞：draw a distinction between A and B 與 make a distinction between A and B，其中 draw 在學術寫作中更正式、更常見。這個搭配的來源是「在兩者之間畫一條線」，所以反過來要說「模糊界線」時用 blur the distinction。四個選項都與「畫、描」有關，但英文只把 distinction 交給 draw。",
     "distractorExplanations": {
-      "b": "pull 雖然也是「拉」，但英文不說 pull a distinction。",
-      "c": "open 不與 distinction 搭配。",
-      "d": "build 用於建立具體或抽象的結構，但不與 distinction 連用。"
+      "a": "trace 是「循著既有的線描摹」或「追溯來源」：trace the origins of a practice、trace a pattern。它強調跟著已經存在的東西走，而 distinction 是作者自己新立的區分。",
+      "b": "sketch 是「粗略勾勒」，受詞是輪廓或大綱：sketch an outline、sketch a plan。它與 careful（仔細的）在語意上互相牴觸，也不與 distinction 搭配。",
+      "d": "draft 指「起草文件」：draft a contract、draft a proposal、draft a reply。它的受詞必須是一份文件，不能是一組概念上的區分。"
     },
-    "difficulty": 2,
+    "difficulty": 3,
     "tags": ["collocation", "academic"],
     "source": "curated"
   },
@@ -51,20 +52,20 @@
     "type": "collocation",
     "cefr": "C1",
     "wordIds": ["w_criterion"],
-    "prompt": "Which verb goes with \"criteria\"?",
-    "context": "Only three candidates ____ all the criteria.",
+    "prompt": "Which verb goes with \"criteria\" in a systematic review?",
+    "context": "Of the 240 papers returned by the database search, only eleven ____ all four inclusion criteria and were carried forward to the synthesis stage.",
     "options": [
       { "id": "a", "text": "met" },
-      { "id": "b", "text": "reached" },
-      { "id": "c", "text": "arrived at" },
-      { "id": "d", "text": "achieved" }
+      { "id": "b", "text": "attained" },
+      { "id": "c", "text": "achieved" },
+      { "id": "d", "text": "reached" }
     ],
     "correctOptionId": "a",
-    "explanation": "meet the criteria 是固定搭配，表示「符合標準」。",
+    "explanation": "criteria 的標準動詞是 meet（也可以說 satisfy 或 fulfil）：meet the criteria 指「符合各項標準」。關鍵在於 criteria 是一道被動等待被對上的門檻，不是一個要努力抵達的終點，所以「達成」類的動詞全部被排除。相關搭配還有 acceptance criteria、selection criteria。",
     "distractorExplanations": {
-      "b": "reach 用於 reach a target 或 reach a conclusion，不與 criteria 搭配。",
-      "c": "arrive at 用於 arrive at a decision，語意是「達成」而非「符合」。",
-      "d": "achieve 用於目標或成果（achieve a goal），標準是被「符合」而非「達成」。"
+      "b": "attain 的受詞是靠努力爭取到的成就或等級：attain a qualification、attain a high standard。標準本身不是被爭取來的獎賞，而是用來篩選的條件。",
+      "c": "achieve 用於目標與成果：achieve a goal、achieve consensus、achieve a 15% reduction。把 criteria 當成被 achieve 的東西是中文「達成標準」的直譯，英文並不這樣說。",
+      "d": "reach 用於可以量化的水位或終點：reach a target、reach a conclusion、reach a threshold。criteria 是一組條件而非單一數值，因此不與 reach 連用。"
     },
     "difficulty": 3,
     "tags": ["collocation", "business"],
@@ -75,21 +76,22 @@
     "type": "collocation",
     "cefr": "C1",
     "wordIds": ["w_compelling"],
-    "prompt": "Which combination is most natural in a business proposal?",
+    "prompt": "Which adjective naturally modifies \"case\" in a consulting report?",
+    "context": "The consultants' report makes a ____ case for consolidating the three regional warehouses into a single automated distribution hub next year.",
     "options": [
-      { "id": "a", "text": "There is a compelling case for investing in test automation." },
-      { "id": "b", "text": "There is a compelling reason of investing in test automation." },
-      { "id": "c", "text": "There is a compelling matter to investing in test automation." },
-      { "id": "d", "text": "There is a compelling cause about investing in test automation." }
+      { "id": "a", "text": "imposing" },
+      { "id": "b", "text": "insistent" },
+      { "id": "c", "text": "compelling" },
+      { "id": "d", "text": "coercive" }
     ],
-    "correctOptionId": "a",
-    "explanation": "a compelling case for + 動名詞 是提案寫作的黃金句型。",
+    "correctOptionId": "c",
+    "explanation": "make a compelling case for + 名詞或動名詞 是提案寫作的黃金句型。compelling 的核心是「論據強到讓人不得不接受」，因此它專門修飾論理性的名詞：a compelling case、compelling evidence、a compelling reason。四個選項都與「力量、施壓」有關，但只有 compelling 描述的是論證本身的說服力。",
     "distractorExplanations": {
-      "b": "reason 要搭配 for + 動名詞或 to + 原形，不能用 of。",
-      "c": "matter 不與 compelling 形成這種搭配，且 to investing 語法錯誤。",
-      "d": "cause 指「事業、起因」，與此處的「論據」意思不合，about 也不對。"
+      "a": "imposing 形容外觀上的宏偉氣勢：an imposing building、an imposing figure。它講的是視覺上的壓迫感，不是論證的嚴密度。",
+      "b": "insistent 形容「一再重複、不肯罷休」的態度：an insistent voice、insistent demands。它暗示說話者很煩人，正好是提案寫作要避免的印象。",
+      "d": "coercive 指「以威脅手段強迫」：coercive tactics、coercive control。用它會變成說這份報告在脅迫讀者，語意完全走樣。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": ["collocation", "business"],
     "source": "curated"
   },
@@ -98,20 +100,20 @@
     "type": "collocation",
     "cefr": "C1",
     "wordIds": ["w_scrutiny"],
-    "prompt": "Which phrase is idiomatic?",
-    "context": "After the breach, the vendor's security claims ____ scrutiny.",
+    "prompt": "Which phrasal verb is idiomatic with \"scrutiny\"?",
+    "context": "After the auditors flagged the discrepancy, every expense claim filed by the regional offices ____ close scrutiny from the compliance team.",
     "options": [
-      { "id": "a", "text": "came under" },
-      { "id": "b", "text": "went into" },
-      { "id": "c", "text": "fell to" },
-      { "id": "d", "text": "took on" }
+      { "id": "a", "text": "fell under" },
+      { "id": "b", "text": "came under" },
+      { "id": "c", "text": "went under" },
+      { "id": "d", "text": "stood under" }
     ],
-    "correctOptionId": "a",
-    "explanation": "come under scrutiny 是固定片語，表示「受到嚴格檢視」。",
+    "correctOptionId": "b",
+    "explanation": "come under scrutiny 是固定片語，主詞是被檢視的對象，表示「被放大檢視」。同一個框架還有 come under pressure、come under fire、come under review。這裡四個選項都是「動詞 + under」，語意也都與「處於下方」有關，但英文只把 scrutiny 配給 come。另一個必學句型是 not stand up to scrutiny（經不起推敲）。",
     "distractorExplanations": {
-      "b": "go into 表示「深入探討」，主詞應該是檢視者，不是被檢視的對象。",
-      "c": "fall to 表示「落到某人身上（成為責任）」，語意不符。",
-      "d": "take on 表示「承擔、接受挑戰」，主詞同樣錯位。"
+      "a": "fall under 是「被歸類在某個範疇之下」：this falls under the marketing budget、that falls under my remit。它講的是分類歸屬，不是受到檢視。",
+      "c": "go under 是「倒閉、沉沒」：the company went under last year。主詞會變成「報帳單倒閉了」，語意不通。",
+      "d": "stand under 只是字面上的「站在……下面」，不是英文的固定片語；scrutiny 相關的 stand 用法只有 stand up to scrutiny。"
     },
     "difficulty": 4,
     "tags": ["collocation", "idiom"],
@@ -122,21 +124,22 @@
     "type": "collocation",
     "cefr": "B2",
     "wordIds": ["w_constraint"],
-    "prompt": "Which phrase is the most natural?",
+    "prompt": "Which adjective collocates with \"constraints\"?",
+    "context": "Working under ____ budget constraints, the department postponed the hardware refresh and redirected the remaining funds to staff training.",
     "options": [
-      { "id": "a", "text": "The prototype was built under tight time constraints." },
-      { "id": "b", "text": "The prototype was built in tight time constraints." },
-      { "id": "c", "text": "The prototype was built with tight time constrains." },
-      { "id": "d", "text": "The prototype was built on tight time constraints." }
+      { "id": "a", "text": "slim" },
+      { "id": "b", "text": "thin" },
+      { "id": "c", "text": "tight" },
+      { "id": "d", "text": "narrow" }
     ],
-    "correctOptionId": "a",
-    "explanation": "under constraints 是標準搭配，形容詞 tight 也是 constraints 最常見的修飾語。",
+    "correctOptionId": "c",
+    "explanation": "constraints 的標準修飾語是 tight（也可以用 severe）：tight budget constraints、tight time constraints，介系詞固定用 under。tight 在這裡取的是「勒得很緊」的意象，把限制想像成一條收緊的繩索。四個選項都表示「不寬裕」，但其餘三個各自綁定了別的名詞。",
     "distractorExplanations": {
-      "b": "英文用 under 而非 in 來表達「在某種限制之下」。",
-      "c": "constrains 是動詞形，名詞應為 constraints。",
-      "d": "on 不與 constraints 形成這個意思的搭配。"
+      "a": "slim 用於機率與希望：a slim chance、slim margins、slim hope。它形容「可能性微小」，而不是「限制很嚴」。",
+      "b": "thin 形容厚度或密度：a thin layer、thin evidence、spread too thin。英文不說 thin constraints。",
+      "d": "narrow 形容寬度或範圍：a narrow margin、a narrow definition、a narrow escape。限制是「緊」而不是「窄」，這是英文與中文直覺最容易分歧的地方。"
     },
-    "difficulty": 2,
+    "difficulty": 4,
     "tags": ["collocation", "project-management"],
     "source": "curated"
   },
@@ -145,21 +148,22 @@
     "type": "collocation",
     "cefr": "B2",
     "wordIds": ["w_substantial"],
-    "prompt": "Which combination sounds most natural in a report?",
+    "prompt": "Which adjective most naturally modifies \"increase\" in a performance report?",
+    "context": "Migrating the reporting pipeline to columnar storage produced a ____ increase in query throughput without any change to the underlying hardware.",
     "options": [
-      { "id": "a", "text": "a substantial increase in latency" },
-      { "id": "b", "text": "a substantial tall increase in latency" },
-      { "id": "c", "text": "a substantial many increase in latency" },
-      { "id": "d", "text": "a substantial much increase in latency" }
+      { "id": "a", "text": "substantial" },
+      { "id": "b", "text": "copious" },
+      { "id": "c", "text": "abundant" },
+      { "id": "d", "text": "ample" }
     ],
     "correctOptionId": "a",
-    "explanation": "substantial 直接修飾名詞 increase，而 increase in X 是標準搭配。",
+    "explanation": "a substantial increase in X 是報告寫作的核心搭配，substantial 表示「幅度大到有實質意義」。它專門修飾變化量與規模：a substantial increase、a substantial improvement、a substantial portion。其餘三個形容詞都表示「數量很多」，但它們修飾的是「存量」而不是「變化量」，所以配不上 increase。",
     "distractorExplanations": {
-      "b": "tall 只用於形容高度，不能形容數量的增加。",
-      "c": "many 是限定詞，不能與 a 和另一個形容詞這樣連用。",
-      "d": "much 同樣是限定詞，不能插在冠詞與名詞之間。"
+      "b": "copious 指「份量多得滿出來」，受詞幾乎限定在 copious notes、copious amounts of data 這類可以堆積的東西，不能形容一個增幅。",
+      "c": "abundant 指「資源充足、隨處可得」：abundant rainfall、abundant evidence。它描述的是現有存量豐富，而不是數值上升了多少。",
+      "d": "ample 指「足夠而且還有餘裕」：ample time、ample opportunity、ample space。重點在「夠用」，與「增加了很多」是兩回事。"
     },
-    "difficulty": 1,
+    "difficulty": 3,
     "tags": ["collocation", "business"],
     "source": "curated"
   },
@@ -168,21 +172,22 @@
     "type": "collocation",
     "cefr": "C1",
     "wordIds": ["w_mitigate"],
-    "prompt": "Which noun collocates best with \"mitigate\"?",
+    "prompt": "Which verb takes \"the risk\" as its object here?",
+    "context": "Rate limiting cannot remove the underlying vulnerability, but it does ____ the risk of a large-scale credential-stuffing attack while the patch is prepared.",
     "options": [
-      { "id": "a", "text": "mitigate the risk" },
-      { "id": "b", "text": "mitigate the opportunity" },
-      { "id": "c", "text": "mitigate the benefit" },
-      { "id": "d", "text": "mitigate the improvement" }
+      { "id": "a", "text": "appease" },
+      { "id": "b", "text": "assuage" },
+      { "id": "c", "text": "mitigate" },
+      { "id": "d", "text": "allay" }
     ],
-    "correctOptionId": "a",
-    "explanation": "mitigate 的受詞必須是負面的東西：risk、impact、damage、harm。",
+    "correctOptionId": "c",
+    "explanation": "mitigate the risk 是風險管理的標準搭配，語意重點是「降低嚴重程度，但問題仍在」，正好呼應句中的 cannot remove。同一個框架還有 mitigate the impact、a mitigation strategy。其餘三個動詞雖然也是「使之減輕」，但它們的受詞一律是「情緒」，不是客觀存在的風險值。",
     "distractorExplanations": {
-      "b": "opportunity 是正面的，沒有人會想「減輕機會」。",
-      "c": "benefit 是正面的，與 mitigate 的語意衝突。",
-      "d": "improvement 同樣是正面結果，不會是被緩解的對象。"
+      "a": "appease 的受詞是「動怒的人或勢力」：appease angry shareholders、appease a critic。它帶有讓步安撫的意味，風險不會被安撫。",
+      "b": "assuage 的受詞是心裡的不安：assuage fears、assuage guilt、assuage doubts。它處理的是感受，而不是攻擊發生的機率。",
+      "d": "allay 幾乎專用於 allay fears／allay concerns／allay suspicion，也就是「消除疑慮」。說 allay the risk 會讓人以為被安撫的是風險本身的心情。"
     },
-    "difficulty": 2,
+    "difficulty": 4,
     "tags": ["collocation", "risk"],
     "source": "curated"
   },
@@ -191,19 +196,20 @@
     "type": "collocation",
     "cefr": "C1",
     "wordIds": ["w_validate"],
-    "prompt": "Which phrase is standard in security guidance?",
+    "prompt": "Which verb is the standard term in security guidance?",
+    "context": "The guidance is unambiguous on this point: always ____ user input on the server, since any check performed in the browser can be bypassed by an attacker.",
     "options": [
-      { "id": "a", "text": "Always validate input on the server." },
-      { "id": "b", "text": "Always verify input on the server." },
-      { "id": "c", "text": "Always confirm input on the server." },
-      { "id": "d", "text": "Always corroborate input on the server." }
+      { "id": "a", "text": "validate" },
+      { "id": "b", "text": "authenticate" },
+      { "id": "c", "text": "certify" },
+      { "id": "d", "text": "verify" }
     ],
     "correctOptionId": "a",
-    "explanation": "input validation 是資安領域的固定術語，動詞搭配為 validate input。",
+    "explanation": "validate input 是資安領域的固定術語，名詞形 input validation 更是清單上的標準項目。validate 的意思是「檢查某物是否符合事先訂好的規則或格式」，所以它也搭配 validate an assumption、validate against a schema。其餘三個動詞都是「確認」，但各自檢查的東西完全不同。",
     "distractorExplanations": {
-      "b": "verify 用於確認某物是否為真（verify a signature），不是檢查輸入格式是否符合規則。",
-      "c": "confirm 是「向對方確認」，用於溝通情境。",
-      "d": "corroborate 需要獨立的第二個證據來源，不適用於輸入檢查。"
+      "b": "authenticate 專指「確認身分」：authenticate a user、authenticate a request。它回答的是「你是誰」，而不是「你送來的資料格式對不對」。",
+      "c": "certify 是由具公信力的第三方「出具證明」：certify a document、certify that a product is compliant。它需要一個發證機構，不適用於每一次表單送出。",
+      "d": "verify 是拿某物去比對一個已知為真的參照：verify a signature、verify an identity。輸入檢查沒有這樣的參照對象，只有規則，所以業界一律用 validate。"
     },
     "difficulty": 3,
     "tags": ["collocation", "security"],
@@ -214,21 +220,22 @@
     "type": "collocation",
     "cefr": "B2",
     "wordIds": ["w_reinforce"],
-    "prompt": "Which noun collocates naturally with \"reinforce\"?",
+    "prompt": "Which verb takes \"the stereotype\" as its object?",
+    "context": "Critics argue that the campaign, however well intentioned, simply ____ the very stereotype it was commissioned to challenge.",
     "options": [
-      { "id": "a", "text": "reinforce a stereotype" },
-      { "id": "b", "text": "reinforce a deletion" },
-      { "id": "c", "text": "reinforce a shortage" },
-      { "id": "d", "text": "reinforce a departure" }
+      { "id": "a", "text": "fortifies" },
+      { "id": "b", "text": "stiffens" },
+      { "id": "c", "text": "toughens" },
+      { "id": "d", "text": "reinforces" }
     ],
-    "correctOptionId": "a",
-    "explanation": "reinforce 的受詞通常是已存在的想法、印象或信念，stereotype 是最典型的搭配之一。",
+    "correctOptionId": "d",
+    "explanation": "reinforce 的受詞是「已經存在於人們心中的想法或印象」，所以它的典型搭配是 reinforce a stereotype、reinforce the message、reinforce the impression。四個選項都源自「使之更堅固」，但只有 reinforce 發展出了這層抽象的心理義；其餘三個仍停留在物理或生理的強化。",
     "distractorExplanations": {
-      "b": "deletion 是一次性的動作，沒有「變得更強」的概念。",
-      "c": "shortage 是狀態，英文不說 reinforce a shortage（會說 worsen a shortage）。",
-      "d": "departure 是離開的事件，無法被「強化」。"
+      "a": "fortify 的受詞是城鎮、食品或決心：fortify a town、fortified with vitamin D、fortify one's resolve。刻板印象不是可以加設防禦工事的對象。",
+      "b": "stiffen 的受詞是抵抗或態度：stiffen resistance、stiffen one's resolve，強調「變得僵硬不讓步」。它形容的是回應姿態，而非既有觀念被加深。",
+      "c": "toughen 的受詞是規定與罰則：toughen the rules、toughen sentencing、toughen safety standards。它指把條文改得更嚴格，與心理印象無關。"
     },
-    "difficulty": 2,
+    "difficulty": 4,
     "tags": ["collocation", "academic"],
     "source": "curated"
   },
@@ -237,21 +244,22 @@
     "type": "collocation",
     "cefr": "C1",
     "wordIds": ["w_negligible"],
-    "prompt": "Which phrase would an engineer most naturally write?",
+    "prompt": "Which adjective pairs with \"overhead\" in a benchmark write-up?",
+    "context": "Benchmarks run over a fortnight confirm that the additional structured logging adds ____ overhead, even on the most heavily loaded nodes in the cluster.",
     "options": [
-      { "id": "a", "text": "The added logging introduces negligible overhead." },
-      { "id": "b", "text": "The added logging introduces negligible weight." },
-      { "id": "c", "text": "The added logging introduces negligible volume." },
-      { "id": "d", "text": "The added logging introduces negligible quantity." }
+      { "id": "a", "text": "paltry" },
+      { "id": "b", "text": "negligible" },
+      { "id": "c", "text": "scanty" },
+      { "id": "d", "text": "trifling" }
     ],
-    "correctOptionId": "a",
-    "explanation": "negligible overhead 是效能討論中的標準搭配，overhead 指額外的資源成本。",
+    "correctOptionId": "b",
+    "explanation": "negligible overhead 是效能討論的標準搭配。negligible 的定義是「小到可以合理忽略」，語氣中性客觀，因此特別適合量測結果：a negligible effect、a negligible risk、virtually negligible。其餘三個字雖然都表示「微不足道」，卻各自帶著評價色彩或專屬受詞，放進技術報告會顯得突兀。",
     "distractorExplanations": {
-      "b": "weight 用於實體重量，不用於程式的執行成本。",
-      "c": "volume 指數量或音量，無法表達「額外的執行成本」。",
-      "d": "quantity 太籠統，且沒有說明是什麼的數量。"
+      "a": "paltry 帶有輕蔑的不滿：a paltry sum、a paltry wage、a paltry 2% rise。它在抱怨「給得太少」，但額外開銷少其實是好消息，情緒方向相反。",
+      "c": "scanty 指「不足、不夠用」：scanty evidence、scanty information。它同樣是負面評價，暗示還缺了什麼，不能用來稱讚開銷很低。",
+      "d": "trifling 形容不值得計較的瑣事：a trifling matter、a trifling detail。它評論的是事情的重要性，而不是量測到的數值大小。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": ["collocation", "engineering"],
     "source": "curated"
   },
@@ -260,21 +268,22 @@
     "type": "collocation",
     "cefr": "C2",
     "wordIds": ["w_cursory"],
-    "prompt": "Which noun most commonly follows \"cursory\"?",
+    "prompt": "Which noun does \"cursory\" modify in this idiom?",
+    "context": "Even a cursory ____ at the maintenance logs would have revealed that the same fault had been reported three times in the preceding month.",
     "options": [
-      { "id": "a", "text": "a cursory glance" },
-      { "id": "b", "text": "a cursory stare" },
-      { "id": "c", "text": "a cursory gaze" },
-      { "id": "d", "text": "a cursory vision" }
+      { "id": "a", "text": "squint" },
+      { "id": "b", "text": "peek" },
+      { "id": "c", "text": "glance" },
+      { "id": "d", "text": "glimpse" }
     ],
-    "correctOptionId": "a",
-    "explanation": "a cursory glance 是固定搭配，glance 本身就是「匆匆一瞥」，語意完全吻合。",
+    "correctOptionId": "c",
+    "explanation": "a cursory glance 是固定搭配，而且常出現在 even a cursory glance at X would reveal…（光是隨便看一眼就會發現……）這個學術與新聞寫作都愛用的句型中。cursory 只修飾「主動而快速的檢視行為」，因此它的名詞夥伴限於 glance、review、examination 三個。四個選項都是「看一下」，但其餘三個在英文裡的語法角色都不同。",
     "distractorExplanations": {
-      "b": "stare 是「長時間盯著看」，與「草率快速」直接矛盾。",
-      "c": "gaze 是「凝視」，同樣暗示看得久而專注。",
-      "d": "vision 指視力或願景，不是一次看的動作。"
+      "a": "squint 是「瞇著眼費力地看」，本身就意味著看得吃力而專注，與 cursory 的「隨便掃過」互相矛盾，而且它多半當動詞用。",
+      "b": "peek 是「偷偷窺看」，語域偏口語且帶有不該看卻看的意味；英文說 take a peek at，不會用正式的 cursory 去修飾它。",
+      "d": "glimpse 指「無意間瞥見到的畫面」，是看到的結果而非主動的動作，所以固定說 catch a glimpse of。既然不是刻意執行的檢視，就談不上做得草不草率。"
     },
-    "difficulty": 4,
+    "difficulty": 5,
     "tags": ["collocation", "academic"],
     "source": "curated"
   },
@@ -283,20 +292,20 @@
     "type": "collocation",
     "cefr": "C2",
     "wordIds": ["w_paradigm"],
-    "prompt": "Which noun completes the well-known phrase?",
-    "context": "The move to cloud computing represented a genuine paradigm ____.",
+    "prompt": "Which noun completes the standard term?",
+    "context": "The move from nightly batch jobs to continuous streaming was not a mere optimisation; for most data teams it amounted to a genuine paradigm ____.",
     "options": [
-      { "id": "a", "text": "shift" },
-      { "id": "b", "text": "move" },
-      { "id": "c", "text": "turn" },
-      { "id": "d", "text": "swap" }
+      { "id": "a", "text": "transition" },
+      { "id": "b", "text": "displacement" },
+      { "id": "c", "text": "transformation" },
+      { "id": "d", "text": "shift" }
     ],
-    "correctOptionId": "a",
-    "explanation": "paradigm shift 是源自科學哲學的固定術語，指根本典範的轉移。",
+    "correctOptionId": "d",
+    "explanation": "paradigm shift 是 Thomas Kuhn 在科學哲學中鑄造的術語，如今已成為固定名詞組，指整個領域看待問題的基本框架整體換位。既然是專有術語，就不能用同義詞替換——這正是固定搭配與一般用字的差別。同組的還有 the dominant paradigm、a programming paradigm。",
     "distractorExplanations": {
-      "b": "move 太籠統，且 paradigm move 不是英文的固定搭配。",
-      "c": "turn 用於 a turn of events 等片語，不與 paradigm 連用。",
-      "d": "swap 指「互換」，暗示兩者對調，與典範轉移的意思不同。"
+      "a": "transition 指有階段、有過程的過渡：the transition to renewable energy。它強調緩慢演進，而 paradigm shift 強調的是框架瞬間換位。",
+      "b": "displacement 指「被擠到別處」，用於 the displacement of workers by automation 這類語境，暗示有外力把原物推開，與典範自然更替不同。",
+      "c": "transformation 指同一個東西本身徹底改變形貌：a digital transformation。典範轉移是換掉一整套框架，不是原框架自己變形。"
     },
     "difficulty": 3,
     "tags": ["collocation", "academic"],
@@ -307,21 +316,22 @@
     "type": "collocation",
     "cefr": "C1",
     "wordIds": ["w_leverage"],
-    "prompt": "Which sentence uses \"leverage\" most appropriately?",
+    "prompt": "Which preposition follows the noun \"leverage\"?",
+    "context": "Because the supplier controls the only certified production line in the region, the buyer has very little leverage ____ it when the contract comes up for renewal.",
     "options": [
-      { "id": "a", "text": "We leveraged our existing cache layer to halve the migration cost." },
-      { "id": "b", "text": "We leveraged the door open to enter the server room." },
-      { "id": "c", "text": "We leveraged a coffee before the meeting." },
-      { "id": "d", "text": "We leveraged slowly through the documentation." }
+      { "id": "a", "text": "on" },
+      { "id": "b", "text": "over" },
+      { "id": "c", "text": "upon" },
+      { "id": "d", "text": "against" }
     ],
-    "correctOptionId": "a",
-    "explanation": "leverage 表示「用既有的東西撬動更大的成果」，這裡用既有快取層省下一半成本，正是典型用法。",
+    "correctOptionId": "b",
+    "explanation": "名詞 leverage 表示「談判籌碼、影響力」時，固定搭配 over：have leverage over somebody、gain leverage over a supplier。over 帶有「居於上位、壓得住對方」的空間意象，這也是 have power over、have control over、have authority over 共用的模式。記住這組 over 家族，一次解決四個搭配。",
     "distractorExplanations": {
-      "b": "撬開門要用 pry 或 lever，leverage 已經專指抽象的「借力」。",
-      "c": "leverage 不能用於日常的「喝一杯咖啡」，語域完全不合。",
-      "d": "leverage 是及物動詞，不能這樣接副詞當不及物用。"
+      "a": "on 只出現在 put pressure on somebody 這類「施加」的句型；leverage 講的是既有的優勢地位，不是施加出去的動作。",
+      "c": "upon 雖然是 on 的正式變體，但 leverage 的搭配是 over 而不是 on，所以把 on 換成 upon 一樣不成立。",
+      "d": "against 表示「對抗、不利於」：evidence against the defendant、a case against the merger。它把對方擺成敵對標的，而 leverage over 描述的是上下位階關係。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": ["collocation", "business"],
     "source": "curated"
   },
@@ -330,20 +340,20 @@
     "type": "collocation",
     "cefr": "C2",
     "wordIds": ["w_ubiquitous"],
-    "prompt": "Which verb collocates best with \"ubiquitous\"?",
-    "context": "Containerization has ____ ubiquitous in modern deployment pipelines.",
+    "prompt": "Which linking verb precedes \"ubiquitous\"?",
+    "context": "Within five years containerisation had ____ ubiquitous, and job advertisements that failed to mention it began to look distinctly dated.",
     "options": [
-      { "id": "a", "text": "become" },
-      { "id": "b", "text": "turned" },
-      { "id": "c", "text": "made" },
-      { "id": "d", "text": "gone" }
+      { "id": "a", "text": "turned" },
+      { "id": "b", "text": "gone" },
+      { "id": "c", "text": "become" },
+      { "id": "d", "text": "fallen" }
     ],
-    "correctOptionId": "a",
-    "explanation": "become ubiquitous 是最常見的搭配，用來描述某事物逐漸變得無所不在。",
+    "correctOptionId": "c",
+    "explanation": "become ubiquitous 是這個形容詞最固定的搭配，用來描述某事物從少見變成隨處可見。英文的連綴動詞各有嚴格的分工：become 最通用且中性，適合任何形容詞；turn、go、fall 則各自只吃特定的一小群形容詞，不能拿來代替 become。",
     "distractorExplanations": {
-      "b": "turn 需要搭配 into 才能接名詞，直接接形容詞時多用於顏色或天氣。",
-      "c": "make 需要受詞（make something ubiquitous），這裡缺少受詞。",
-      "d": "go + 形容詞多用於負面變化（go bad、go wrong），語感不合。"
+      "a": "turn 直接接形容詞時，限於顏色與天氣：turn red、turn cold、turn sour。接抽象性質時必須加 into 並改接名詞。",
+      "b": "go + 形容詞幾乎只用於負面的變壞：go bad、go blind、go bankrupt、go missing。用它會暗示「隨處可見」是一種劣化。",
+      "d": "fall + 形容詞是極小的固定清單：fall ill、fall silent、fall asleep。ubiquitous 不在這張清單上，英文沒有 fall ubiquitous 的說法。"
     },
     "difficulty": 3,
     "tags": ["collocation", "technology"],
@@ -354,21 +364,22 @@
     "type": "collocation",
     "cefr": "C2",
     "wordIds": ["w_salient"],
-    "prompt": "Which phrase is standard when summarizing?",
+    "prompt": "Which noun follows \"salient\" when summarising?",
+    "context": "Before we open the floor to questions, let me restate the salient ____ of the proposal so that everyone is working from the same summary.",
     "options": [
-      { "id": "a", "text": "Let me summarize the salient points." },
-      { "id": "b", "text": "Let me summarize the salient pieces." },
-      { "id": "c", "text": "Let me summarize the salient parts." },
-      { "id": "d", "text": "Let me summarize the salient bits." }
+      { "id": "a", "text": "items" },
+      { "id": "b", "text": "topics" },
+      { "id": "c", "text": "issues" },
+      { "id": "d", "text": "points" }
     ],
-    "correctOptionId": "a",
-    "explanation": "the salient points 是簡報與摘要中的固定搭配，指「最值得注意的要點」。",
+    "correctOptionId": "d",
+    "explanation": "the salient points 是簡報與摘要的固定搭配，指「最突出、最值得記住的幾項要點」。salient 的字面意思是「凸出來的」，所以它只修飾能在一堆內容中「浮出表面」的東西：the salient points、salient features、the most salient difference。其餘三個名詞雖然都指「討論的項目」，卻沒有進入這個搭配。",
     "distractorExplanations": {
-      "b": "pieces 指實體碎片或作品，不用於論述的要點。",
-      "c": "parts 語意可通但不是與 salient 的慣用搭配，正式程度也不匹配。",
-      "d": "bits 過於口語，與 salient 的正式語域衝突。"
+      "a": "items 指清單或議程上的條目：agenda items、action items。它是中性的編號單位，本身沒有「重要到凸顯出來」的層次感。",
+      "b": "topics 指「討論的主題範圍」，是還沒展開的標題；要點則是已經說出口的結論，兩者層次不同，所以英文不說 salient topics。",
+      "c": "issues 偏向「有待解決的爭議或問題」，帶有麻煩的意味；摘要一份提案時要說的是重點，不是問題清單。"
     },
-    "difficulty": 3,
+    "difficulty": 5,
     "tags": ["collocation", "presentation"],
     "source": "curated"
   },
@@ -377,21 +388,22 @@
     "type": "collocation",
     "cefr": "C1",
     "wordIds": ["w_articulate"],
-    "prompt": "Which noun collocates with the verb \"articulate\"?",
+    "prompt": "Which verb takes \"a vision\" as its object?",
+    "context": "What the restructuring plan still lacks is a leader who can ____ a clear vision of where the organisation expects to be in five years' time.",
     "options": [
-      { "id": "a", "text": "articulate a vision" },
-      { "id": "b", "text": "articulate a distance" },
-      { "id": "c", "text": "articulate a budget" },
-      { "id": "d", "text": "articulate a deadline" }
+      { "id": "a", "text": "verbalise" },
+      { "id": "b", "text": "articulate" },
+      { "id": "c", "text": "enunciate" },
+      { "id": "d", "text": "pronounce" }
     ],
-    "correctOptionId": "a",
-    "explanation": "articulate 的受詞是需要被清楚表達出來的抽象想法，vision 是最典型的搭配。",
+    "correctOptionId": "b",
+    "explanation": "articulate a vision 是領導與策略語境的核心搭配。articulate 當動詞時特指「把原本模糊的抽象想法整理成清楚的語言」，所以它的受詞是需要被講明白的概念：articulate a vision、articulate a strategy、struggle to articulate。其餘三個動詞都與「發出聲音」有關，處理的是口部動作而不是思想的釐清。",
     "distractorExplanations": {
-      "b": "distance 是可測量的數值，用 measure 而非 articulate。",
-      "c": "budget 通常用 set 或 approve，不用 articulate。",
-      "d": "deadline 通常用 set 或 agree on，不是被「闡述」的想法。"
+      "a": "verbalise 是心理學術語，指把內心感受化為言語：verbalise emotions、verbalise anxiety。它的受詞是感受，而願景是經過深思的規劃。",
+      "c": "enunciate 指「把每個音節咬字清楚地唸出來」：enunciate clearly、enunciate each syllable。它評論的是發音品質，與內容是否清晰無關。",
+      "d": "pronounce 的受詞是字詞或正式判決：pronounce a word、pronounce judgement、pronounce somebody guilty。用它會變成「宣判一個願景」。"
     },
-    "difficulty": 3,
+    "difficulty": 5,
     "tags": ["collocation", "business"],
     "source": "curated"
   },
@@ -400,21 +412,22 @@
     "type": "collocation",
     "cefr": "B2",
     "wordIds": ["w_retain"],
-    "prompt": "Which phrase is standard legal English?",
+    "prompt": "Which verb combines with \"the right to\" in terms of service?",
+    "context": "The platform ____ the right to suspend any account that breaches these terms, with or without prior notice to the account holder.",
     "options": [
-      { "id": "a", "text": "We retain the right to revoke access at any time." },
-      { "id": "b", "text": "We retain the possibility to revoke access at any time." },
-      { "id": "c", "text": "We retain the chance to revoke access at any time." },
-      { "id": "d", "text": "We retain the option about revoking access at any time." }
+      { "id": "a", "text": "upholds" },
+      { "id": "b", "text": "preserves" },
+      { "id": "c", "text": "withholds" },
+      { "id": "d", "text": "retains" }
     ],
-    "correctOptionId": "a",
-    "explanation": "retain the right to + 原形動詞 是條款與政策文件中的固定用語。",
+    "correctOptionId": "d",
+    "explanation": "retain the right to + 原形動詞 是條款與隱私政策的固定用語，意思是「自己保留這項權利」（同義的 reserve the right to 更常見）。retain 的核心是「在有壓力或有理由放棄的情況下仍然保有」，所以它也搭配 retain control、retain data、retain customers。其餘三個動詞雖然都與「保有」相關，卻各自指向不同的動作。",
     "distractorExplanations": {
-      "b": "possibility 是「可能性」，法律文件中保留的是「權利」而非可能性。",
-      "c": "chance 過於口語，且指「機會、機率」，不適合條款用語。",
-      "d": "option 通常用 retain the option to，介系詞 about 也不正確。"
+      "a": "uphold 是「維護、支持既有的裁決或原則」：uphold a ruling、uphold the law、uphold somebody's rights。它保護的是別人的權利，而不是替自己留一手。",
+      "b": "preserve 指「保護某物免於損壞或消失」：preserve the evidence、preserve biodiversity。條款要說的是「我有這個權利」，不是「我在防止它腐壞」。",
+      "c": "withhold 是「扣住不給出去」：withhold payment、withhold consent、withhold information。用它會變成平台把使用者的權利扣下來，語意完全相反。"
     },
-    "difficulty": 2,
+    "difficulty": 4,
     "tags": ["collocation", "legal"],
     "source": "curated"
   }

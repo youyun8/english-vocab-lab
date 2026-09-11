@@ -11,23 +11,38 @@
       {
         "id": "s_engulf_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to surround and cover something completely, often suddenly and destructively",
         "definitionZh": "吞沒；淹沒；籠罩",
         "usageExplanationZh": "常見主詞為火、水、恐慌等，表示迅速且徹底地包圍或吞噬；也可用於情緒，如 engulfed in guilt。",
-        "examples": [
-          {
-            "en": "Flames quickly engulfed the entire building.",
-            "zh": "火焰迅速吞沒了整棟建築物。"
-          }
+        "grammarPatterns": [
+          "engulf + noun",
+          "be engulfed in + noun"
         ],
         "collocations": [
           {
             "text": "engulfed in flames",
             "meaningZh": "被火焰吞噬"
           }
+        ],
+        "examples": [
+          {
+            "en": "Flames quickly engulfed the entire building.",
+            "zh": "火焰迅速吞沒了整棟建築物。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "swallow up",
+        "noteZh": "吞沒"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -39,14 +54,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "swallow up",
-        "noteZh": "吞沒"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_enhance",
@@ -60,21 +68,48 @@
       {
         "id": "s_enhance_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to improve the quality, value, or attractiveness of something",
         "definitionZh": "提升；增強；美化",
         "usageExplanationZh": "常接 reputation、flavor、experience 等抽象或感官名詞，語氣正面；不用於改善人的品德。",
-        "examples": [
-          {
-            "en": "The new lighting really enhances the room's atmosphere.",
-            "zh": "新的燈光確實提升了房間的氛圍。"
-          }
+        "grammarPatterns": [
+          "enhance + noun",
+          "greatly enhance + noun"
         ],
         "collocations": [
           {
             "text": "enhance performance",
             "meaningZh": "提升表現"
           }
+        ],
+        "examples": [
+          {
+            "en": "The new lighting really enhances the room's atmosphere.",
+            "zh": "新的燈光確實提升了房間的氛圍。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "improve",
+        "noteZh": "改善"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "diminish",
+        "noteZh": "減弱"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "enhancement",
+        "partOfSpeech": "noun",
+        "meaningZh": "提升；增強"
       }
     ],
     "tags": [
@@ -89,19 +124,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "improve",
-        "noteZh": "改善"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "diminish",
-        "noteZh": "減弱"
-      }
-    ]
+    }
   },
   {
     "id": "w_enigmatic",
@@ -115,21 +138,53 @@
       {
         "id": "s_enigmatic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "difficult to understand or interpret; mysterious",
         "definitionZh": "難以理解的；神祕的；令人費解的",
         "usageExplanationZh": "常修飾 smile、figure、statement，帶有引人好奇、無法完全看透的意味，語氣偏文學。",
-        "examples": [
-          {
-            "en": "She gave an enigmatic smile and said nothing more.",
-            "zh": "她露出一個神祕的微笑，什麼也沒再多說。"
-          }
+        "grammarPatterns": [
+          "an enigmatic + noun",
+          "remain enigmatic"
         ],
         "collocations": [
           {
             "text": "an enigmatic smile",
             "meaningZh": "神祕的微笑"
           }
+        ],
+        "examples": [
+          {
+            "en": "She gave an enigmatic smile and said nothing more.",
+            "zh": "她露出一個神祕的微笑，什麼也沒再多說。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "mysterious",
+        "noteZh": "神祕的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "unambiguous",
+        "noteZh": "明確的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "enigma",
+        "partOfSpeech": "noun",
+        "meaningZh": "謎；難解之事"
+      },
+      {
+        "lemma": "enigmatically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "神祕地；令人費解地"
       }
     ],
     "tags": [
@@ -142,19 +197,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "mysterious",
-        "noteZh": "神祕的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "unambiguous",
-        "noteZh": "明確的"
-      }
-    ]
+    }
   },
   {
     "id": "w_enlist",
@@ -168,40 +211,79 @@
       {
         "id": "s_enlist_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to join the armed forces",
         "definitionZh": "從軍；入伍",
         "usageExplanationZh": "不及物動詞，常接 in，如 enlist in the army；指主動報名加入軍隊。",
-        "examples": [
-          {
-            "en": "He decided to enlist in the navy after high school.",
-            "zh": "他高中畢業後決定加入海軍。"
-          }
+        "grammarPatterns": [
+          "enlist in + noun",
+          "enlist as + noun"
         ],
         "collocations": [
           {
             "text": "enlist in the army",
             "meaningZh": "入伍從軍"
           }
+        ],
+        "examples": [
+          {
+            "en": "He decided to enlist in the navy after high school.",
+            "zh": "他高中畢業後決定加入海軍。"
+          }
         ]
       },
       {
         "id": "s_enlist_verb_help",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to obtain someone's help or support for a task",
         "definitionZh": "徵求（協助或支持）",
         "usageExplanationZh": "及物動詞，常見 enlist someone's help/support，指設法讓他人加入協助行列。",
-        "examples": [
-          {
-            "en": "The charity enlisted volunteers to help with the cleanup.",
-            "zh": "這個慈善機構徵求志工協助清理工作。"
-          }
+        "grammarPatterns": [
+          "enlist sb to + V",
+          "enlist the help of + noun"
         ],
         "collocations": [
           {
             "text": "enlist someone's help",
             "meaningZh": "尋求某人的協助"
           }
+        ],
+        "examples": [
+          {
+            "en": "The charity enlisted volunteers to help with the cleanup.",
+            "zh": "這個慈善機構徵求志工協助清理工作。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "join up",
+        "noteZh": "入伍"
+      },
+      {
+        "lemma": "recruit",
+        "noteZh": "徵求協助者"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "enlistment",
+        "partOfSpeech": "noun",
+        "meaningZh": "入伍；徵募"
+      },
+      {
+        "lemma": "enlistee",
+        "partOfSpeech": "noun",
+        "meaningZh": "入伍者"
       }
     ],
     "tags": [
@@ -215,18 +297,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "join up",
-        "noteZh": "入伍"
-      },
-      {
-        "lemma": "recruit",
-        "noteZh": "徵求協助者"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_enormity",
@@ -240,21 +311,43 @@
       {
         "id": "s_enormity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "the great or overwhelming size, seriousness, or extent of something, especially something difficult or bad",
         "definitionZh": "（事情的）嚴重性；龐大程度",
         "usageExplanationZh": "常搭配 the enormity of the situation/task/tragedy，強調規模或後果之巨大，帶有壓迫感；不宜當作 enormousness 的一般同義詞使用。",
-        "examples": [
-          {
-            "en": "It took her a while to grasp the enormity of the disaster.",
-            "zh": "她花了一段時間才理解這場災難的嚴重程度。"
-          }
+        "grammarPatterns": [
+          "the enormity of + noun",
+          "grasp the enormity of + noun"
         ],
         "collocations": [
           {
             "text": "the enormity of the task",
             "meaningZh": "任務的艱鉅程度"
           }
+        ],
+        "examples": [
+          {
+            "en": "It took her a while to grasp the enormity of the disaster.",
+            "zh": "她花了一段時間才理解這場災難的嚴重程度。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "magnitude",
+        "noteZh": "巨大程度或嚴重性"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "enormous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "巨大的；龐大的"
       }
     ],
     "tags": [
@@ -268,14 +361,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "magnitude",
-        "noteZh": "巨大程度或嚴重性"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_enormous",
@@ -289,21 +375,52 @@
       {
         "id": "s_enormous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "extremely large in size, extent, or degree",
         "definitionZh": "巨大的；龐大的",
         "usageExplanationZh": "可修飾具體事物（an enormous building）或抽象概念（enormous pressure），語氣中性，比 huge 稍正式。",
-        "examples": [
-          {
-            "en": "The company invested an enormous amount of money in research.",
-            "zh": "這家公司投入了龐大的資金在研究上。"
-          }
+        "grammarPatterns": [
+          "an enormous + noun",
+          "an enormous amount of + noun"
         ],
         "collocations": [
           {
             "text": "an enormous amount of",
             "meaningZh": "大量的"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company invested an enormous amount of money in research.",
+            "zh": "這家公司投入了龐大的資金在研究上。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "huge",
+        "noteZh": "巨大的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "tiny",
+        "noteZh": "微小的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "enormously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "極大地；非常"
+      },
+      {
+        "lemma": "enormity",
+        "partOfSpeech": "noun",
+        "meaningZh": "龐大程度；嚴重性"
       }
     ],
     "tags": [
@@ -318,19 +435,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "huge",
-        "noteZh": "巨大的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "tiny",
-        "noteZh": "微小的"
-      }
-    ]
+    }
   },
   {
     "id": "w_enquire",
@@ -344,21 +449,48 @@
       {
         "id": "s_enquire_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to ask for information",
         "definitionZh": "詢問；打聽",
         "usageExplanationZh": "英式英語常用拼法（美式多用 inquire）；常接 about 或直接引述問句，語氣正式。",
-        "examples": [
-          {
-            "en": "She called to enquire about the opening hours.",
-            "zh": "她打電話詢問營業時間。"
-          }
+        "grammarPatterns": [
+          "enquire about + noun",
+          "enquire whether + clause"
         ],
         "collocations": [
           {
             "text": "enquire about",
             "meaningZh": "詢問有關……的事"
           }
+        ],
+        "examples": [
+          {
+            "en": "She called to enquire about the opening hours.",
+            "zh": "她打電話詢問營業時間。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "inquire",
+        "noteZh": "詢問，拼字變體"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "enquiry",
+        "partOfSpeech": "noun",
+        "meaningZh": "詢問；查詢"
+      },
+      {
+        "lemma": "inquire",
+        "partOfSpeech": "verb",
+        "meaningZh": "詢問；調查"
       }
     ],
     "tags": [
@@ -371,14 +503,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "inquire",
-        "noteZh": "詢問，拼字變體"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_enrage",
@@ -392,21 +517,48 @@
       {
         "id": "s_enrage_verb",
         "partOfSpeech": "verb",
-        "definitionEn": "to make someone extremely angry",
+        "register": [
+          "formal",
+          "literary"
+        ],
+        "definitionEn": "to provoke someone to intense rage or fury",
         "definitionZh": "激怒；使暴怒",
         "usageExplanationZh": "及物動詞，常用被動 be enraged by/at，語氣比 anger 更強烈。",
-        "examples": [
-          {
-            "en": "The unfair verdict enraged the victim's family.",
-            "zh": "不公的判決讓受害者家屬非常憤怒。"
-          }
+        "grammarPatterns": [
+          "enrage sb",
+          "be enraged by + noun"
         ],
         "collocations": [
           {
             "text": "enraged by the decision",
             "meaningZh": "被這項決定激怒"
           }
+        ],
+        "examples": [
+          {
+            "en": "The unfair verdict enraged the victim's family.",
+            "zh": "不公的判決讓受害者家屬非常憤怒。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "infuriate",
+        "noteZh": "激怒"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "calm",
+        "noteZh": "使平靜"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "rage",
+        "partOfSpeech": "noun",
+        "meaningZh": "暴怒；狂怒"
       }
     ],
     "tags": [
@@ -420,19 +572,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "infuriate",
-        "noteZh": "激怒"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "calm",
-        "noteZh": "使平靜"
-      }
-    ]
+    }
   },
   {
     "id": "w_enroll",
@@ -446,21 +586,48 @@
       {
         "id": "s_enroll_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "to register officially as a member, participant, or student",
         "definitionZh": "註冊；登記入學（或入會）",
         "usageExplanationZh": "常接 in/on，如 enroll in a course；也可用於 enroll someone（讓某人）加入。",
-        "examples": [
-          {
-            "en": "She enrolled in an evening Spanish class.",
-            "zh": "她報名參加了一堂晚間西班牙語課程。"
-          }
+        "grammarPatterns": [
+          "enroll in + noun",
+          "enroll sb in + noun"
         ],
         "collocations": [
           {
             "text": "enroll in a course",
             "meaningZh": "報名課程"
           }
+        ],
+        "examples": [
+          {
+            "en": "She enrolled in an evening Spanish class.",
+            "zh": "她報名參加了一堂晚間西班牙語課程。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "register",
+        "noteZh": "註冊"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "withdraw",
+        "noteZh": "退學或退出課程"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "enrollment",
+        "partOfSpeech": "noun",
+        "meaningZh": "註冊；入學人數"
       }
     ],
     "tags": [
@@ -474,19 +641,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "register",
-        "noteZh": "註冊"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "withdraw",
-        "noteZh": "退學或退出課程"
-      }
-    ]
+    }
   },
   {
     "id": "w_enrollment",
@@ -500,21 +655,43 @@
       {
         "id": "s_enrollment_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "business"
+        ],
         "definitionEn": "the act of enrolling, or the number of people enrolled",
         "definitionZh": "註冊；入學人數",
         "usageExplanationZh": "可指註冊這個動作，也可指在學/入會的總人數，如 enrollment figures。",
-        "examples": [
-          {
-            "en": "The school reported a drop in enrollment this year.",
-            "zh": "這所學校今年的入學人數下降了。"
-          }
+        "grammarPatterns": [
+          "a drop in enrollment",
+          "enrollment in + noun"
         ],
         "collocations": [
           {
             "text": "student enrollment",
             "meaningZh": "學生註冊人數"
           }
+        ],
+        "examples": [
+          {
+            "en": "The school reported a drop in enrollment this year.",
+            "zh": "這所學校今年的入學人數下降了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "registration",
+        "noteZh": "註冊"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "enroll",
+        "partOfSpeech": "verb",
+        "meaningZh": "註冊；報名"
       }
     ],
     "tags": [
@@ -527,14 +704,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "registration",
-        "noteZh": "註冊"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_ensemble",
@@ -548,23 +718,38 @@
       {
         "id": "s_ensemble_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "a group of musicians, actors, or dancers who perform together",
         "definitionZh": "（音樂、戲劇等的）合奏團；全體演出人員",
         "usageExplanationZh": "常見於 a jazz/dance ensemble；也可指服裝的整體搭配（an ensemble of clothes）。",
-        "examples": [
-          {
-            "en": "The jazz ensemble performed for over two hours.",
-            "zh": "這個爵士樂團演出了超過兩個小時。"
-          }
+        "grammarPatterns": [
+          "a + adjective + ensemble",
+          "perform as an ensemble"
         ],
         "collocations": [
           {
             "text": "a chamber ensemble",
             "meaningZh": "室內樂團"
           }
+        ],
+        "examples": [
+          {
+            "en": "The jazz ensemble performed for over two hours.",
+            "zh": "這個爵士樂團演出了超過兩個小時。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "group",
+        "noteZh": "表演團體"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -577,14 +762,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "group",
-        "noteZh": "表演團體"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_enshrine",
@@ -598,21 +776,43 @@
       {
         "id": "s_enshrine_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to preserve a right, tradition, or idea in a form that ensures it is protected",
         "definitionZh": "（正式）將……載入（法律、憲法等）以確保保障",
         "usageExplanationZh": "常見 enshrine a right in law/the constitution，語氣正式，強調賦予制度性保障。",
-        "examples": [
-          {
-            "en": "The right to free speech is enshrined in the constitution.",
-            "zh": "言論自由的權利被載入憲法之中，受到保障。"
-          }
+        "grammarPatterns": [
+          "be enshrined in + noun",
+          "enshrine sth in + noun"
         ],
         "collocations": [
           {
             "text": "enshrined in law",
             "meaningZh": "載入法律受到保障"
           }
+        ],
+        "examples": [
+          {
+            "en": "The right to free speech is enshrined in the constitution.",
+            "zh": "言論自由的權利被載入憲法之中，受到保障。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "preserve",
+        "noteZh": "保護並保存"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "shrine",
+        "partOfSpeech": "noun",
+        "meaningZh": "聖壇；神龕"
       }
     ],
     "tags": [
@@ -625,14 +825,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "preserve",
-        "noteZh": "保護並保存"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_enslave",
@@ -646,21 +839,58 @@
       {
         "id": "s_enslave_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to make someone a slave, or to deprive someone of freedom and control over their own life",
         "definitionZh": "奴役；使成為奴隸",
         "usageExplanationZh": "可用於歷史上的實際奴役，也可比喻性地指被某事物（如毒品、科技）控制而失去自主。",
-        "examples": [
-          {
-            "en": "The regime enslaved thousands of prisoners of war.",
-            "zh": "該政權奴役了數千名戰俘。"
-          }
+        "grammarPatterns": [
+          "enslave + noun",
+          "be enslaved by + noun"
         ],
         "collocations": [
           {
             "text": "enslave a population",
             "meaningZh": "奴役一地的人民"
           }
+        ],
+        "examples": [
+          {
+            "en": "The regime enslaved thousands of prisoners of war.",
+            "zh": "該政權奴役了數千名戰俘。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "subjugate",
+        "noteZh": "征服並奴役"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "liberate",
+        "noteZh": "解放"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "enslavement",
+        "partOfSpeech": "noun",
+        "meaningZh": "奴役"
+      },
+      {
+        "lemma": "slave",
+        "partOfSpeech": "noun",
+        "meaningZh": "奴隸"
+      },
+      {
+        "lemma": "slavery",
+        "partOfSpeech": "noun",
+        "meaningZh": "奴隸制度"
       }
     ],
     "tags": [
@@ -674,19 +904,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "subjugate",
-        "noteZh": "征服並奴役"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "liberate",
-        "noteZh": "解放"
-      }
-    ]
+    }
   },
   {
     "id": "w_ensue",
@@ -700,21 +918,41 @@
       {
         "id": "s_ensue_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to happen after or as a result of something else",
         "definitionZh": "隨之發生；接著發生",
         "usageExplanationZh": "不及物動詞，常見於描述事件先後順序，如 chaos/silence ensued；語氣正式，多用於書面。",
-        "examples": [
-          {
-            "en": "A heated argument ensued after the announcement.",
-            "zh": "公告發布後，隨即爆發了一場激烈的爭論。"
-          }
+        "grammarPatterns": [
+          "sth ensues",
+          "ensue from + noun"
         ],
         "collocations": [
           {
             "text": "chaos ensued",
             "meaningZh": "混亂隨之而來"
           }
+        ],
+        "examples": [
+          {
+            "en": "A heated argument ensued after the announcement.",
+            "zh": "公告發布後，隨即爆發了一場激烈的爭論。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "follow",
+        "noteZh": "隨之發生"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "precede",
+        "noteZh": "先於……發生"
       }
     ],
     "tags": [
@@ -728,19 +966,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "follow",
-        "noteZh": "隨之發生"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "precede",
-        "noteZh": "先於……發生"
-      }
-    ]
+    }
   },
   {
     "id": "w_entail",
@@ -754,42 +980,65 @@
       {
         "id": "s_entail_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to involve something as a necessary part or consequence",
         "definitionZh": "必然包含；需要",
         "usageExplanationZh": "及物動詞，後接名詞或動名詞，如 entail risk、entail spending money；語氣正式，常見於描述工作或計畫的必要條件。",
-        "examples": [
-          {
-            "en": "The job entails a lot of overtime work.",
-            "zh": "這份工作需要大量的加班。"
-          }
+        "grammarPatterns": [
+          "entail + noun",
+          "entail + V-ing"
         ],
         "collocations": [
           {
             "text": "entail considerable risk",
             "meaningZh": "必然涉及相當大的風險"
           }
+        ],
+        "examples": [
+          {
+            "en": "The job entails a lot of overtime work.",
+            "zh": "這份工作需要大量的加班。"
+          }
         ]
       },
       {
         "id": "s_entail_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "formal"
+        ],
         "definitionEn": "a legal restriction limiting the inheritance of property to a specified line of heirs",
         "definitionZh": "限定繼承（法律用語，限定財產只能傳給特定繼承人）",
         "usageExplanationZh": "法律專有名詞，日常對話極少使用，多見於歷史小說或法律文本，如 an entail on the estate。",
-        "examples": [
-          {
-            "en": "Under the old entail, the estate could only pass to a male heir.",
-            "zh": "依照舊時的限定繼承制度，這處地產只能傳給男性繼承人。"
-          }
+        "grammarPatterns": [
+          "under an entail",
+          "break an entail"
         ],
         "collocations": [
           {
             "text": "break the entail",
             "meaningZh": "解除限定繼承"
           }
+        ],
+        "examples": [
+          {
+            "en": "Under the old entail, the estate could only pass to a male heir.",
+            "zh": "依照舊時的限定繼承制度，這處地產只能傳給男性繼承人。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "involve",
+        "noteZh": "必然包含"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -802,14 +1051,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "involve",
-        "noteZh": "必然包含"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_entangle",
@@ -823,21 +1065,57 @@
       {
         "id": "s_entangle_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to cause something to become twisted together with something else, or to involve someone in a complicated situation",
         "definitionZh": "使纏繞；使捲入（複雜情況）",
         "usageExplanationZh": "常見被動 be entangled in/with，可指實體纏繞（如魚網），也可比喻捲入糾紛或關係。",
-        "examples": [
-          {
-            "en": "The fishing net became entangled in the boat's propeller.",
-            "zh": "漁網纏繞在船的螺旋槳上。"
-          }
+        "grammarPatterns": [
+          "become entangled in + noun",
+          "entangle sth in + noun"
         ],
         "collocations": [
           {
             "text": "be entangled in",
             "meaningZh": "陷入或捲入……"
           }
+        ],
+        "examples": [
+          {
+            "en": "The fishing net became entangled in the boat's propeller.",
+            "zh": "漁網纏繞在船的螺旋槳上。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "ensnare",
+        "noteZh": "纏住或使陷入"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "disentangle",
+        "noteZh": "解開纏繞"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "entanglement",
+        "partOfSpeech": "noun",
+        "meaningZh": "糾纏；牽連"
+      },
+      {
+        "lemma": "disentangle",
+        "partOfSpeech": "verb",
+        "meaningZh": "解開纏結；理清"
+      },
+      {
+        "lemma": "tangle",
+        "partOfSpeech": "verb",
+        "meaningZh": "使纏結"
       }
     ],
     "tags": [
@@ -852,19 +1130,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "ensnare",
-        "noteZh": "纏住或使陷入"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "disentangle",
-        "noteZh": "解開纏繞"
-      }
-    ]
+    }
   },
   {
     "id": "w_enterprise",
@@ -878,21 +1144,43 @@
       {
         "id": "s_enterprise_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "a company or business, especially a new or risky one",
         "definitionZh": "企業；事業",
         "usageExplanationZh": "常見 a private/commercial enterprise；也可指「進取精神」（free enterprise 自由企業制度）。",
-        "examples": [
-          {
-            "en": "The government offers tax breaks to small enterprises.",
-            "zh": "政府對小型企業提供稅務優惠。"
-          }
+        "grammarPatterns": [
+          "a + adjective + enterprise",
+          "set up an enterprise"
         ],
         "collocations": [
           {
             "text": "a small enterprise",
             "meaningZh": "小型企業"
           }
+        ],
+        "examples": [
+          {
+            "en": "The government offers tax breaks to small enterprises.",
+            "zh": "政府對小型企業提供稅務優惠。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "business",
+        "noteZh": "企業"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "enterprising",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有進取心的；有魄力的"
       }
     ],
     "tags": [
@@ -907,14 +1195,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "business",
-        "noteZh": "企業"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_entertain",
@@ -928,40 +1209,78 @@
       {
         "id": "s_entertain_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to provide people with enjoyment or amusement",
         "definitionZh": "娛樂；使開心",
         "usageExplanationZh": "及物動詞，常接人作受詞，如 entertain the guests；語氣中性，用於表演、活動等場合。",
-        "examples": [
-          {
-            "en": "The clown entertained the children with balloon animals.",
-            "zh": "小丑用氣球動物娛樂孩子們。"
-          }
+        "grammarPatterns": [
+          "entertain sb with + noun",
+          "entertain + noun"
         ],
         "collocations": [
           {
             "text": "entertain guests",
             "meaningZh": "招待賓客使其開心"
           }
+        ],
+        "examples": [
+          {
+            "en": "The clown entertained the children with balloon animals.",
+            "zh": "小丑用氣球動物娛樂孩子們。"
+          }
         ]
       },
       {
         "id": "s_entertain_verb_consider",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to consider or give attention to an idea, possibility, or feeling",
         "definitionZh": "考慮；抱持（想法）",
         "usageExplanationZh": "常接抽象名詞，如 entertain the idea/possibility/doubt，語氣正式，常見於否定句 won't entertain。",
-        "examples": [
-          {
-            "en": "She refused to entertain any doubts about the plan.",
-            "zh": "她拒絕對這項計畫抱持任何懷疑。"
-          }
+        "grammarPatterns": [
+          "entertain the idea of + V-ing",
+          "entertain + noun"
         ],
         "collocations": [
           {
             "text": "entertain the possibility",
             "meaningZh": "考慮某種可能性"
           }
+        ],
+        "examples": [
+          {
+            "en": "She refused to entertain any doubts about the plan.",
+            "zh": "她拒絕對這項計畫抱持任何懷疑。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "amuse",
+        "noteZh": "使開心"
+      },
+      {
+        "lemma": "consider",
+        "noteZh": "考慮"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "entertainment",
+        "partOfSpeech": "noun",
+        "meaningZh": "娛樂（活動）"
+      },
+      {
+        "lemma": "entertainer",
+        "partOfSpeech": "noun",
+        "meaningZh": "表演者；藝人"
       }
     ],
     "tags": [
@@ -974,18 +1293,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "amuse",
-        "noteZh": "使開心"
-      },
-      {
-        "lemma": "consider",
-        "noteZh": "考慮"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_entertainment",
@@ -999,21 +1307,48 @@
       {
         "id": "s_entertainment_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "movies, music, or other performances or activities that provide enjoyment",
         "definitionZh": "娛樂（活動）",
         "usageExplanationZh": "不可數名詞，泛指娛樂內容或產業，如 the entertainment industry。",
-        "examples": [
-          {
-            "en": "The cruise ship offers live entertainment every evening.",
-            "zh": "這艘郵輪每晚都提供現場娛樂表演。"
-          }
+        "grammarPatterns": [
+          "provide entertainment for + noun",
+          "live entertainment"
         ],
         "collocations": [
           {
             "text": "live entertainment",
             "meaningZh": "現場娛樂表演"
           }
+        ],
+        "examples": [
+          {
+            "en": "The cruise ship offers live entertainment every evening.",
+            "zh": "這艘郵輪每晚都提供現場娛樂表演。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "amusement",
+        "noteZh": "娛樂"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "entertain",
+        "partOfSpeech": "verb",
+        "meaningZh": "娛樂；使開心"
+      },
+      {
+        "lemma": "entertainer",
+        "partOfSpeech": "noun",
+        "meaningZh": "演藝人員"
       }
     ],
     "tags": [
@@ -1027,14 +1362,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "amusement",
-        "noteZh": "娛樂"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_enthusiasm",
@@ -1048,21 +1376,57 @@
       {
         "id": "s_enthusiasm_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "intense and eager enjoyment, interest, or approval",
         "definitionZh": "熱忱；熱情",
         "usageExplanationZh": "常搭配 with enthusiasm 或 enthusiasm for，強調對某事物的積極投入與興趣。",
-        "examples": [
-          {
-            "en": "She approached the new project with great enthusiasm.",
-            "zh": "她以極大的熱忱投入這個新專案。"
-          }
+        "grammarPatterns": [
+          "enthusiasm for + noun",
+          "with great enthusiasm"
         ],
         "collocations": [
           {
             "text": "enthusiasm for learning",
             "meaningZh": "學習的熱忱"
           }
+        ],
+        "examples": [
+          {
+            "en": "She approached the new project with great enthusiasm.",
+            "zh": "她以極大的熱忱投入這個新專案。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "eagerness",
+        "noteZh": "熱切"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "apathy",
+        "noteZh": "冷漠"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "enthusiastic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "熱衷的；充滿熱忱的"
+      },
+      {
+        "lemma": "enthusiast",
+        "partOfSpeech": "noun",
+        "meaningZh": "愛好者；狂熱者"
+      },
+      {
+        "lemma": "enthusiastically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "熱情地"
       }
     ],
     "tags": [
@@ -1076,19 +1440,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "eagerness",
-        "noteZh": "熱切"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "apathy",
-        "noteZh": "冷漠"
-      }
-    ]
+    }
   },
   {
     "id": "w_enthusiastic",
@@ -1102,21 +1454,58 @@
       {
         "id": "s_enthusiastic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "spoken"
+        ],
         "definitionEn": "feeling or showing intense enjoyment, interest, or approval",
         "definitionZh": "熱衷的；充滿熱忱的",
         "usageExplanationZh": "常接 about，如 enthusiastic about learning；修飾人或態度，語氣正面積極。",
-        "examples": [
-          {
-            "en": "He's always enthusiastic about trying new restaurants.",
-            "zh": "他總是對嘗試新餐廳充滿熱忱。"
-          }
+        "grammarPatterns": [
+          "be enthusiastic about + noun",
+          "an enthusiastic + noun"
         ],
         "collocations": [
           {
             "text": "enthusiastic about",
             "meaningZh": "對……充滿熱忱"
           }
+        ],
+        "examples": [
+          {
+            "en": "He's always enthusiastic about trying new restaurants.",
+            "zh": "他總是對嘗試新餐廳充滿熱忱。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "eager",
+        "noteZh": "熱切的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "apathetic",
+        "noteZh": "冷漠的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "enthusiasm",
+        "partOfSpeech": "noun",
+        "meaningZh": "熱忱；熱情"
+      },
+      {
+        "lemma": "enthusiastically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "熱忱地"
+      },
+      {
+        "lemma": "enthusiast",
+        "partOfSpeech": "noun",
+        "meaningZh": "狂熱愛好者"
       }
     ],
     "tags": [
@@ -1129,19 +1518,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "eager",
-        "noteZh": "熱切的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "apathetic",
-        "noteZh": "冷漠的"
-      }
-    ]
+    }
   },
   {
     "id": "w_entice",
@@ -1155,21 +1532,48 @@
       {
         "id": "s_entice_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to persuade someone to do something by offering them something pleasant",
         "definitionZh": "引誘；誘使",
         "usageExplanationZh": "及物動詞，常見 entice someone into/to do something，帶有以利益吸引的意味，可正面（吸引顧客）也可略帶負面。",
-        "examples": [
-          {
-            "en": "The store used discounts to entice more customers.",
-            "zh": "這家店用折扣吸引更多顧客上門。"
-          }
+        "grammarPatterns": [
+          "entice sb to + V",
+          "entice sb into + V-ing"
         ],
         "collocations": [
           {
             "text": "entice someone into doing something",
             "meaningZh": "誘使某人做某事"
           }
+        ],
+        "examples": [
+          {
+            "en": "The store used discounts to entice more customers.",
+            "zh": "這家店用折扣吸引更多顧客上門。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "tempt",
+        "noteZh": "誘惑"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "deter",
+        "noteZh": "使卻步"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "enticement",
+        "partOfSpeech": "noun",
+        "meaningZh": "誘惑；引誘物"
       }
     ],
     "tags": [
@@ -1183,19 +1587,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "tempt",
-        "noteZh": "誘惑"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "deter",
-        "noteZh": "使卻步"
-      }
-    ]
+    }
   },
   {
     "id": "w_entitle",
@@ -1209,21 +1601,53 @@
       {
         "id": "s_entitle_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to give someone the right to have or do something",
         "definitionZh": "使有權利（做某事）",
         "usageExplanationZh": "常見被動 be entitled to，後接名詞或不定詞，如 entitled to a refund/vacation。",
-        "examples": [
-          {
-            "en": "This ticket entitles you to one free drink.",
-            "zh": "這張票讓你有權免費兌換一杯飲料。"
-          }
+        "grammarPatterns": [
+          "entitle sb to + noun",
+          "be entitled to + V"
         ],
         "collocations": [
           {
             "text": "entitle someone to",
             "meaningZh": "使某人有權享有……"
           }
+        ],
+        "examples": [
+          {
+            "en": "This ticket entitles you to one free drink.",
+            "zh": "這張票讓你有權免費兌換一杯飲料。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "qualify",
+        "noteZh": "使有資格"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "disqualify",
+        "noteZh": "使失去資格"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "entitlement",
+        "partOfSpeech": "noun",
+        "meaningZh": "應得的權利；福利"
+      },
+      {
+        "lemma": "title",
+        "partOfSpeech": "noun",
+        "meaningZh": "頭銜；所有權"
       }
     ],
     "tags": [
@@ -1238,19 +1662,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "qualify",
-        "noteZh": "使有資格"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "disqualify",
-        "noteZh": "使失去資格"
-      }
-    ]
+    }
   },
   {
     "id": "w_entity",
@@ -1264,23 +1676,38 @@
       {
         "id": "s_entity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "something that exists separately from other things and has its own distinct identity",
         "definitionZh": "實體；獨立存在的個體",
         "usageExplanationZh": "常見於法律、商業或哲學語境，如 a legal/corporate entity，指具有獨立身分的組織或個體。",
-        "examples": [
-          {
-            "en": "The subsidiary operates as a separate legal entity.",
-            "zh": "這家子公司作為一個獨立的法律實體運作。"
-          }
+        "grammarPatterns": [
+          "a separate entity",
+          "operate as an entity"
         ],
         "collocations": [
           {
             "text": "a legal entity",
             "meaningZh": "法律實體"
           }
+        ],
+        "examples": [
+          {
+            "en": "The subsidiary operates as a separate legal entity.",
+            "zh": "這家子公司作為一個獨立的法律實體運作。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "being",
+        "noteZh": "獨立存在的個體"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1293,14 +1720,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "being",
-        "noteZh": "獨立存在的個體"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_entrench",
@@ -1314,21 +1734,53 @@
       {
         "id": "s_entrench_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to establish something so firmly that it is very difficult to change",
         "definitionZh": "使根深蒂固；鞏固",
         "usageExplanationZh": "常見被動 be entrenched，修飾 belief、power、position 等，強調難以撼動的穩固狀態，語氣偏負面（如既得利益）。",
-        "examples": [
-          {
-            "en": "Corruption had become deeply entrenched in the system.",
-            "zh": "貪腐已經深深根植於這個體制之中。"
-          }
+        "grammarPatterns": [
+          "be entrenched in + noun",
+          "entrench + noun"
         ],
         "collocations": [
           {
             "text": "entrench existing inequalities",
             "meaningZh": "使既有的不平等根深蒂固"
           }
+        ],
+        "examples": [
+          {
+            "en": "Corruption had become deeply entrenched in the system.",
+            "zh": "貪腐已經深深根植於這個體制之中。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "establish firmly",
+        "noteZh": "牢固確立"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "uproot",
+        "noteZh": "根除"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "entrenchment",
+        "partOfSpeech": "noun",
+        "meaningZh": "鞏固；根深蒂固"
+      },
+      {
+        "lemma": "trench",
+        "partOfSpeech": "noun",
+        "meaningZh": "壕溝"
       }
     ],
     "tags": [
@@ -1341,19 +1793,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "establish firmly",
-        "noteZh": "牢固確立"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "uproot",
-        "noteZh": "根除"
-      }
-    ]
+    }
   },
   {
     "id": "w_entrepreneur",
@@ -1367,21 +1807,48 @@
       {
         "id": "s_entrepreneur_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "neutral"
+        ],
         "definitionEn": "a person who starts and runs a business, especially one involving financial risk",
         "definitionZh": "企業家；創業者",
         "usageExplanationZh": "常見 a young/successful entrepreneur，強調自行創業、承擔風險的人，與一般 businessman 略有不同，更強調創新與冒險精神。",
-        "examples": [
-          {
-            "en": "The young entrepreneur launched her own tech startup at 22.",
-            "zh": "這位年輕的企業家在22歲時創立了自己的科技新創公司。"
-          }
+        "grammarPatterns": [
+          "a + adjective + entrepreneur",
+          "become an entrepreneur"
         ],
         "collocations": [
           {
             "text": "a successful entrepreneur",
             "meaningZh": "成功的企業家"
           }
+        ],
+        "examples": [
+          {
+            "en": "The young entrepreneur launched her own tech startup at 22.",
+            "zh": "這位年輕的企業家在22歲時創立了自己的科技新創公司。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "business founder",
+        "noteZh": "創業者"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "entrepreneurial",
+        "partOfSpeech": "adjective",
+        "meaningZh": "創業的；企業家的"
+      },
+      {
+        "lemma": "entrepreneurship",
+        "partOfSpeech": "noun",
+        "meaningZh": "創業精神；企業家精神"
       }
     ],
     "tags": [
@@ -1396,14 +1863,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "business founder",
-        "noteZh": "創業者"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_entrust",
@@ -1417,21 +1877,48 @@
       {
         "id": "s_entrust_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to give someone the responsibility to do something or deal with something",
         "definitionZh": "委託；託付",
         "usageExplanationZh": "常見 entrust someone with something 或 entrust something to someone，強調基於信任而交付責任或物品。",
-        "examples": [
-          {
-            "en": "The manager entrusted her with the company's finances.",
-            "zh": "經理將公司的財務委託給她管理。"
-          }
+        "grammarPatterns": [
+          "entrust sb with + noun",
+          "entrust sth to sb"
         ],
         "collocations": [
           {
             "text": "entrust someone with a task",
             "meaningZh": "把任務託付給某人"
           }
+        ],
+        "examples": [
+          {
+            "en": "The manager entrusted her with the company's finances.",
+            "zh": "經理將公司的財務委託給她管理。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "confide",
+        "noteZh": "將重要事物託付給他人"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "trust",
+        "partOfSpeech": "noun",
+        "meaningZh": "信任；託付"
+      },
+      {
+        "lemma": "trustee",
+        "partOfSpeech": "noun",
+        "meaningZh": "受託人"
       }
     ],
     "tags": [
@@ -1444,14 +1931,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "confide",
-        "noteZh": "將重要事物託付給他人"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_enumerate",
@@ -1465,21 +1945,43 @@
       {
         "id": "s_enumerate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to name a list of things one by one",
         "definitionZh": "一一列舉；枚舉",
         "usageExplanationZh": "及物動詞，語氣正式，常見於書面或正式演講中列出具體項目，如 enumerate the reasons/steps。",
-        "examples": [
-          {
-            "en": "The report enumerates several reasons for the delay.",
-            "zh": "這份報告一一列舉了延誤的幾個原因。"
-          }
+        "grammarPatterns": [
+          "enumerate + noun",
+          "enumerate the reasons for + noun"
         ],
         "collocations": [
           {
             "text": "enumerate the reasons",
             "meaningZh": "逐一列出理由"
           }
+        ],
+        "examples": [
+          {
+            "en": "The report enumerates several reasons for the delay.",
+            "zh": "這份報告一一列舉了延誤的幾個原因。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "list",
+        "noteZh": "列舉"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "enumeration",
+        "partOfSpeech": "noun",
+        "meaningZh": "列舉；計數"
       }
     ],
     "tags": [
@@ -1493,14 +1995,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "list",
-        "noteZh": "列舉"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_enunciate",
@@ -1514,21 +2009,48 @@
       {
         "id": "s_enunciate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to pronounce words clearly and distinctly",
         "definitionZh": "清楚地發音；咬字清晰",
         "usageExplanationZh": "常用於描述說話或演講的發音方式，如 enunciate clearly；也可指清楚陳述一項原則或想法。",
-        "examples": [
-          {
-            "en": "The teacher asked students to enunciate each syllable carefully.",
-            "zh": "老師要求學生仔細地把每個音節咬字清楚。"
-          }
+        "grammarPatterns": [
+          "enunciate + noun",
+          "enunciate clearly"
         ],
         "collocations": [
           {
             "text": "enunciate each word clearly",
             "meaningZh": "清楚說出每個字"
           }
+        ],
+        "examples": [
+          {
+            "en": "The teacher asked students to enunciate each syllable carefully.",
+            "zh": "老師要求學生仔細地把每個音節咬字清楚。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "articulate",
+        "noteZh": "清楚發音"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "mumble",
+        "noteZh": "含糊地說"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "enunciation",
+        "partOfSpeech": "noun",
+        "meaningZh": "發音；清楚表達"
       }
     ],
     "tags": [
@@ -1542,19 +2064,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "articulate",
-        "noteZh": "清楚發音"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "mumble",
-        "noteZh": "含糊地說"
-      }
-    ]
+    }
   },
   {
     "id": "w_envisage",
@@ -1568,23 +2078,39 @@
       {
         "id": "s_envisage_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to imagine or expect something as a future possibility",
         "definitionZh": "設想；預想",
         "usageExplanationZh": "英式英語較常用（美式多用 envision），後接名詞或 that 子句，語氣正式，常見於計畫、政策討論。",
-        "examples": [
-          {
-            "en": "The architect envisaged a building with an open, airy design.",
-            "zh": "這位建築師設想了一棟開放通風的建築。"
-          }
+        "grammarPatterns": [
+          "envisage + noun",
+          "envisage + V-ing",
+          "envisage that + clause"
         ],
         "collocations": [
           {
             "text": "envisage a future in which",
             "meaningZh": "設想一個……的未來"
           }
+        ],
+        "examples": [
+          {
+            "en": "The architect envisaged a building with an open, airy design.",
+            "zh": "這位建築師設想了一棟開放通風的建築。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "imagine",
+        "noteZh": "設想"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -1596,14 +2122,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "imagine",
-        "noteZh": "設想"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_envision",
@@ -1617,21 +2136,48 @@
       {
         "id": "s_envision_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to imagine something as a future possibility",
         "definitionZh": "想像；展望",
         "usageExplanationZh": "與 envisage 意義相近，美式英語更常用，常見 envision a future/scenario，強調對未來的具體構想。",
-        "examples": [
-          {
-            "en": "She envisions a world where clean energy is accessible to everyone.",
-            "zh": "她展望一個人人都能取得潔淨能源的世界。"
-          }
+        "grammarPatterns": [
+          "envision + noun",
+          "envision a world where + clause"
         ],
         "collocations": [
           {
             "text": "envision a better future",
             "meaningZh": "想像更美好的未來"
           }
+        ],
+        "examples": [
+          {
+            "en": "She envisions a world where clean energy is accessible to everyone.",
+            "zh": "她展望一個人人都能取得潔淨能源的世界。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "visualize",
+        "noteZh": "想像"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "vision",
+        "partOfSpeech": "noun",
+        "meaningZh": "願景；視野"
+      },
+      {
+        "lemma": "visionary",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有遠見的"
       }
     ],
     "tags": [
@@ -1645,14 +2191,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "visualize",
-        "noteZh": "想像"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_enzyme",
@@ -1666,21 +2205,38 @@
       {
         "id": "s_enzyme_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a substance produced by a living organism that acts as a catalyst to bring about a specific biochemical reaction",
         "definitionZh": "酵素；酶",
         "usageExplanationZh": "生物化學專有名詞，常見於消化、代謝相關描述，如 digestive enzymes。",
-        "examples": [
-          {
-            "en": "Enzymes in saliva begin breaking down starch as soon as we chew.",
-            "zh": "唾液中的酵素在我們咀嚼時就開始分解澱粉。"
-          }
+        "grammarPatterns": [
+          "a digestive enzyme",
+          "enzymes in + noun"
         ],
         "collocations": [
           {
             "text": "digestive enzymes",
             "meaningZh": "消化酵素"
           }
+        ],
+        "examples": [
+          {
+            "en": "Enzymes in saliva begin breaking down starch as soon as we chew.",
+            "zh": "唾液中的酵素在我們咀嚼時就開始分解澱粉。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "enzymatic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "酵素的；酶的"
       }
     ],
     "tags": [
@@ -1695,9 +2251,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_ephemeral",
@@ -1711,21 +2265,53 @@
       {
         "id": "s_ephemeral_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "lasting for only a short time",
         "definitionZh": "短暫的；朝生暮死的",
         "usageExplanationZh": "語氣文學化，常修飾 beauty、moment、trend 等，強調事物美好但轉瞬即逝。",
-        "examples": [
-          {
-            "en": "Fame in the entertainment industry can be ephemeral.",
-            "zh": "演藝圈的名氣可能十分短暫。"
-          }
+        "grammarPatterns": [
+          "an ephemeral + noun",
+          "prove ephemeral"
         ],
         "collocations": [
           {
             "text": "ephemeral fame",
             "meaningZh": "曇花一現的名聲"
           }
+        ],
+        "examples": [
+          {
+            "en": "Fame in the entertainment industry can be ephemeral.",
+            "zh": "演藝圈的名氣可能十分短暫。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "fleeting",
+        "noteZh": "短暫的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "lasting",
+        "noteZh": "持久的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "ephemerality",
+        "partOfSpeech": "noun",
+        "meaningZh": "短暫性"
+      },
+      {
+        "lemma": "ephemerally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "短暫地"
       }
     ],
     "tags": [
@@ -1740,19 +2326,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "fleeting",
-        "noteZh": "短暫的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "lasting",
-        "noteZh": "持久的"
-      }
-    ]
+    }
   },
   {
     "id": "w_epic",
@@ -1766,23 +2340,42 @@
       {
         "id": "s_epic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "very large or impressive in size or extent, especially referring to a heroic story or achievement",
         "definitionZh": "史詩般的；氣勢磅礴的",
         "usageExplanationZh": "常修飾 journey、battle、failure 等，強調規模宏大或意義重大，口語中也可誇張形容「超讚」。",
-        "examples": [
-          {
-            "en": "The film tells an epic story spanning three generations.",
-            "zh": "這部電影講述了一個橫跨三代人的史詩級故事。"
-          }
+        "grammarPatterns": [
+          "an epic + noun",
+          "on an epic scale"
         ],
         "collocations": [
           {
             "text": "an epic journey",
             "meaningZh": "史詩般的旅程"
           }
+        ],
+        "examples": [
+          {
+            "en": "The film tells an epic story spanning three generations.",
+            "zh": "這部電影講述了一個橫跨三代人的史詩級故事。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "heroic",
+        "noteZh": "英雄史詩般的"
+      },
+      {
+        "lemma": "grand",
+        "noteZh": "宏大的"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1794,18 +2387,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "heroic",
-        "noteZh": "英雄史詩般的"
-      },
-      {
-        "lemma": "grand",
-        "noteZh": "宏大的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_epidemic",
@@ -1819,40 +2401,79 @@
       {
         "id": "s_epidemic_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a widespread occurrence of an infectious disease in a community at a particular time",
         "definitionZh": "流行病；疫情",
         "usageExplanationZh": "常見 a flu/cholera epidemic，指疾病在特定地區、時間內大規模傳播，範圍通常小於 pandemic（大流行）。",
-        "examples": [
-          {
-            "en": "Health officials declared a measles epidemic in the region.",
-            "zh": "衛生官員宣布該地區爆發麻疹疫情。"
-          }
+        "grammarPatterns": [
+          "an epidemic of + noun",
+          "declare an epidemic"
         ],
         "collocations": [
           {
             "text": "a flu epidemic",
             "meaningZh": "流感疫情"
           }
+        ],
+        "examples": [
+          {
+            "en": "Health officials declared a measles epidemic in the region.",
+            "zh": "衛生官員宣布該地區爆發麻疹疫情。"
+          }
         ]
       },
       {
         "id": "s_epidemic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "widespread; affecting a disproportionately large number of people within a population",
         "definitionZh": "氾濫的；普遍流行的（形容問題大量出現）",
         "usageExplanationZh": "常修飾抽象問題，如 epidemic levels of obesity/violence，比喻性地形容某問題像疾病一樣廣泛蔓延。",
-        "examples": [
-          {
-            "en": "Obesity has reached epidemic proportions in many countries.",
-            "zh": "肥胖問題在許多國家已經達到氾濫的程度。"
-          }
+        "grammarPatterns": [
+          "reach epidemic proportions",
+          "epidemic + plural noun"
         ],
         "collocations": [
           {
             "text": "reach epidemic proportions",
             "meaningZh": "達到氾濫的程度"
           }
+        ],
+        "examples": [
+          {
+            "en": "Obesity has reached epidemic proportions in many countries.",
+            "zh": "肥胖問題在許多國家已經達到氾濫的程度。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "outbreak",
+        "noteZh": "疫情爆發"
+      },
+      {
+        "lemma": "widespread",
+        "noteZh": "廣泛流行的，形容詞"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "epidemiology",
+        "partOfSpeech": "noun",
+        "meaningZh": "流行病學"
+      },
+      {
+        "lemma": "epidemiologist",
+        "partOfSpeech": "noun",
+        "meaningZh": "流行病學家"
       }
     ],
     "tags": [
@@ -1867,18 +2488,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "outbreak",
-        "noteZh": "疫情爆發"
-      },
-      {
-        "lemma": "widespread",
-        "noteZh": "廣泛流行的，形容詞"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_episode",
@@ -1892,21 +2502,46 @@
       {
         "id": "s_episode_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "one part of a television or radio series, or a single event forming part of a longer sequence",
         "definitionZh": "（影集、廣播的）一集；（一連串事件中的）一段插曲",
         "usageExplanationZh": "常見 the latest episode（最新一集），也可指人生或歷史中的單一事件，如 a brief episode of illness。",
-        "examples": [
-          {
-            "en": "Have you watched the latest episode of that show yet?",
-            "zh": "你看過那個節目的最新一集了嗎？"
-          }
+        "grammarPatterns": [
+          "an episode of + noun",
+          "the latest episode"
         ],
         "collocations": [
           {
             "text": "the final episode",
             "meaningZh": "最後一集"
           }
+        ],
+        "examples": [
+          {
+            "en": "Have you watched the latest episode of that show yet?",
+            "zh": "你看過那個節目的最新一集了嗎？"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "installment",
+        "noteZh": "連載的一集"
+      },
+      {
+        "lemma": "incident",
+        "noteZh": "插曲或事件"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "episodic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "插曲式的；斷斷續續的"
       }
     ],
     "tags": [
@@ -1921,18 +2556,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "installment",
-        "noteZh": "連載的一集"
-      },
-      {
-        "lemma": "incident",
-        "noteZh": "插曲或事件"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_epitomize",
@@ -1946,21 +2570,43 @@
       {
         "id": "s_epitomize_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to be a perfect example of something",
         "definitionZh": "是……的典型代表；體現",
         "usageExplanationZh": "及物動詞，常接抽象特質或類別，如 epitomize elegance/the era，強調某人事物完美體現某種特質。",
-        "examples": [
-          {
-            "en": "Her work ethic epitomizes what it means to be a true professional.",
-            "zh": "她的工作態度體現了真正專業人士的典範。"
-          }
+        "grammarPatterns": [
+          "epitomize + noun",
+          "come to epitomize + noun"
         ],
         "collocations": [
           {
             "text": "epitomize elegance",
             "meaningZh": "充分體現優雅"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her work ethic epitomizes what it means to be a true professional.",
+            "zh": "她的工作態度體現了真正專業人士的典範。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "exemplify",
+        "noteZh": "作為典範"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "epitome",
+        "partOfSpeech": "noun",
+        "meaningZh": "典型；縮影"
       }
     ],
     "tags": [
@@ -1973,14 +2619,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "exemplify",
-        "noteZh": "作為典範"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_equal",
@@ -1994,54 +2633,57 @@
       {
         "id": "s_equal_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "the same in size, amount, value, or status",
         "definitionZh": "相等的；平等的",
         "usageExplanationZh": "常接 to，如 equal to the task；也可用 be equal in size/importance 比較兩者。",
-        "examples": [
-          {
-            "en": "All employees deserve equal pay for equal work.",
-            "zh": "所有員工都應該同工同酬。"
-          }
+        "grammarPatterns": [
+          "be equal to + noun",
+          "equal + noun"
         ],
         "collocations": [
           {
             "text": "equal opportunities",
             "meaningZh": "平等機會"
           }
+        ],
+        "examples": [
+          {
+            "en": "All employees deserve equal pay for equal work.",
+            "zh": "所有員工都應該同工同酬。"
+          }
         ]
       },
       {
         "id": "s_equal_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "to be the same in number or amount as something else, especially in mathematics",
         "definitionZh": "等於",
         "usageExplanationZh": "數學或計算語境常用，如 two plus two equals four；也可比喻性表示「等同於、比得上」。",
-        "examples": [
-          {
-            "en": "Two plus two equals four.",
-            "zh": "二加二等於四。"
-          }
+        "grammarPatterns": [
+          "A equals B",
+          "equal + noun"
         ],
         "collocations": [
           {
             "text": "two plus two equals four",
             "meaningZh": "二加二等於四"
           }
+        ],
+        "examples": [
+          {
+            "en": "Two plus two equals four.",
+            "zh": "二加二等於四。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "equivalent",
@@ -2057,7 +2699,36 @@
         "lemma": "unequal",
         "noteZh": "不相等的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "equality",
+        "partOfSpeech": "noun",
+        "meaningZh": "平等"
+      },
+      {
+        "lemma": "equally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "同等地；平均地"
+      },
+      {
+        "lemma": "inequality",
+        "partOfSpeech": "noun",
+        "meaningZh": "不平等"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_equality",
@@ -2071,21 +2742,58 @@
       {
         "id": "s_equality_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the state of being equal, especially in status, rights, and opportunities",
         "definitionZh": "平等",
         "usageExplanationZh": "不可數名詞，常見 gender/racial equality，強調權利與機會上的平等地位。",
-        "examples": [
-          {
-            "en": "The movement fights for gender equality in the workplace.",
-            "zh": "這場運動致力於爭取職場上的性別平等。"
-          }
+        "grammarPatterns": [
+          "equality of + noun",
+          "fight for equality"
         ],
         "collocations": [
           {
             "text": "gender equality",
             "meaningZh": "性別平等"
           }
+        ],
+        "examples": [
+          {
+            "en": "The movement fights for gender equality in the workplace.",
+            "zh": "這場運動致力於爭取職場上的性別平等。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "parity",
+        "noteZh": "平等"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "inequality",
+        "noteZh": "不平等"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "equal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "平等的；相等的"
+      },
+      {
+        "lemma": "inequality",
+        "partOfSpeech": "noun",
+        "meaningZh": "不平等"
+      },
+      {
+        "lemma": "equalize",
+        "partOfSpeech": "verb",
+        "meaningZh": "使平等；使相等"
       }
     ],
     "tags": [
@@ -2098,19 +2806,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "parity",
-        "noteZh": "平等"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "inequality",
-        "noteZh": "不平等"
-      }
-    ]
+    }
   },
   {
     "id": "w_equanimity",
@@ -2124,21 +2820,41 @@
       {
         "id": "s_equanimity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "calmness and composure, especially in a difficult situation",
         "definitionZh": "沉著；鎮定",
         "usageExplanationZh": "正式書面用語，常見 with equanimity，強調面對壓力或逆境仍保持心理平靜。",
-        "examples": [
-          {
-            "en": "She accepted the criticism with remarkable equanimity.",
-            "zh": "她以驚人的沉著態度接受了這項批評。"
-          }
+        "grammarPatterns": [
+          "with equanimity",
+          "accept sth with equanimity"
         ],
         "collocations": [
           {
             "text": "accept with equanimity",
             "meaningZh": "平靜地接受"
           }
+        ],
+        "examples": [
+          {
+            "en": "She accepted the criticism with remarkable equanimity.",
+            "zh": "她以驚人的沉著態度接受了這項批評。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "composure",
+        "noteZh": "鎮定"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "agitation",
+        "noteZh": "焦躁不安"
       }
     ],
     "tags": [
@@ -2151,19 +2867,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "composure",
-        "noteZh": "鎮定"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "agitation",
-        "noteZh": "焦躁不安"
-      }
-    ]
+    }
   },
   {
     "id": "w_equation",
@@ -2177,21 +2881,38 @@
       {
         "id": "s_equation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a mathematical statement that two expressions are equal",
         "definitionZh": "方程式；等式",
         "usageExplanationZh": "數學專有名詞，如 solve an equation；也可比喻性地指影響某結果的各項因素，如 add money into the equation。",
-        "examples": [
-          {
-            "en": "Students learned how to solve a simple linear equation.",
-            "zh": "學生學習如何解一個簡單的線性方程式。"
-          }
+        "grammarPatterns": [
+          "solve an equation",
+          "an equation for + noun"
         ],
         "collocations": [
           {
             "text": "solve an equation",
             "meaningZh": "解方程式"
           }
+        ],
+        "examples": [
+          {
+            "en": "Students learned how to solve a simple linear equation.",
+            "zh": "學生學習如何解一個簡單的線性方程式。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "equate",
+        "partOfSpeech": "verb",
+        "meaningZh": "等同；使相等"
       }
     ],
     "tags": [
@@ -2206,9 +2927,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_equilibrium",
@@ -2222,21 +2941,41 @@
       {
         "id": "s_equilibrium_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a state of balance between opposing forces or influences",
         "definitionZh": "平衡；均衡狀態",
         "usageExplanationZh": "常見於物理、經濟或心理層面，如 economic equilibrium，強調各方力量或因素達到穩定的平衡。",
-        "examples": [
-          {
-            "en": "The economy eventually returned to a state of equilibrium.",
-            "zh": "經濟最終恢復到平衡狀態。"
-          }
+        "grammarPatterns": [
+          "reach equilibrium",
+          "a state of equilibrium"
         ],
         "collocations": [
           {
             "text": "reach equilibrium",
             "meaningZh": "達到平衡"
           }
+        ],
+        "examples": [
+          {
+            "en": "The economy eventually returned to a state of equilibrium.",
+            "zh": "經濟最終恢復到平衡狀態。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "balance",
+        "noteZh": "平衡"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "imbalance",
+        "noteZh": "不平衡"
       }
     ],
     "tags": [
@@ -2251,19 +2990,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "balance",
-        "noteZh": "平衡"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "imbalance",
-        "noteZh": "不平衡"
-      }
-    ]
+    }
   },
   {
     "id": "w_equip",
@@ -2277,21 +3004,43 @@
       {
         "id": "s_equip_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to provide someone or something with the necessary items or skills for a particular purpose",
         "definitionZh": "裝備；使具備（能力或工具）",
         "usageExplanationZh": "常見 equip someone with skills/knowledge，也可指實體裝備，如 equip a kitchen with new appliances。",
-        "examples": [
-          {
-            "en": "The course equips students with practical coding skills.",
-            "zh": "這門課程使學生具備實用的程式設計技能。"
-          }
+        "grammarPatterns": [
+          "equip sb with + noun",
+          "be equipped to + V"
         ],
         "collocations": [
           {
             "text": "equip someone with",
             "meaningZh": "為某人配備……"
           }
+        ],
+        "examples": [
+          {
+            "en": "The course equips students with practical coding skills.",
+            "zh": "這門課程使學生具備實用的程式設計技能。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "outfit",
+        "noteZh": "裝備"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "equipment",
+        "partOfSpeech": "noun",
+        "meaningZh": "設備；裝備"
       }
     ],
     "tags": [
@@ -2304,14 +3053,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "outfit",
-        "noteZh": "裝備"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_equity",
@@ -2325,54 +3067,58 @@
       {
         "id": "s_equity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "technical"
+        ],
         "definitionEn": "the value of shares or ownership in a company or property, after subtracting any debts",
         "definitionZh": "（公司或房產的）股權；淨值",
         "usageExplanationZh": "財經專有名詞，常見 home equity（房屋淨值）、equity in a company（公司股權）。",
-        "examples": [
-          {
-            "en": "They took out a loan against the equity in their home.",
-            "zh": "他們以房屋淨值為擔保申請了一筆貸款。"
-          }
+        "grammarPatterns": [
+          "equity in + noun",
+          "raise equity"
         ],
         "collocations": [
           {
             "text": "home equity",
             "meaningZh": "房屋淨值"
           }
+        ],
+        "examples": [
+          {
+            "en": "They took out a loan against the equity in their home.",
+            "zh": "他們以房屋淨值為擔保申請了一筆貸款。"
+          }
         ]
       },
       {
         "id": "s_equity_noun_fairness",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the quality of being fair and impartial",
         "definitionZh": "公平；公正",
         "usageExplanationZh": "常見於社會議題討論，如 social equity，強調資源分配或待遇上的公平性，與 equality（結果相同）略有不同，equity 更強調依需求給予公平對待。",
-        "examples": [
-          {
-            "en": "The policy aims to promote equity in access to healthcare.",
-            "zh": "這項政策旨在促進醫療資源取得的公平性。"
-          }
+        "grammarPatterns": [
+          "equity in + noun",
+          "promote equity"
         ],
         "collocations": [
           {
             "text": "promote equity",
             "meaningZh": "促進公平"
           }
+        ],
+        "examples": [
+          {
+            "en": "The policy aims to promote equity in access to healthcare.",
+            "zh": "這項政策旨在促進醫療資源取得的公平性。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "net worth",
@@ -2388,7 +3134,31 @@
         "lemma": "inequity",
         "noteZh": "不公平，對應公平義"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "equitable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "公平的；公正的"
+      },
+      {
+        "lemma": "inequity",
+        "partOfSpeech": "noun",
+        "meaningZh": "不公平"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_equivalent",
@@ -2402,40 +3172,79 @@
       {
         "id": "s_equivalent_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "something that has the same value, amount, or meaning as something else",
         "definitionZh": "相當之物；對等物",
         "usageExplanationZh": "常接 of，如 the equivalent of a month's salary，指與某物在數量或意義上相等的東西。",
-        "examples": [
-          {
-            "en": "Her salary is roughly the equivalent of $50,000 a year.",
-            "zh": "她的薪水大約相當於每年五萬美元。"
-          }
+        "grammarPatterns": [
+          "the equivalent of + noun",
+          "an equivalent to + noun"
         ],
         "collocations": [
           {
             "text": "the English equivalent",
             "meaningZh": "對應的英文詞"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her salary is roughly the equivalent of $50,000 a year.",
+            "zh": "她的薪水大約相當於每年五萬美元。"
+          }
         ]
       },
       {
         "id": "s_equivalent_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "equal in value, amount, function, or meaning",
         "definitionZh": "相等的；相當的",
         "usageExplanationZh": "常接 to，如 equivalent to a bachelor's degree，用於比較兩者在某方面具有相同的價值或作用。",
-        "examples": [
-          {
-            "en": "A diploma from this school is equivalent to a high school degree.",
-            "zh": "這所學校的文憑相當於高中學歷。"
-          }
+        "grammarPatterns": [
+          "be equivalent to + noun",
+          "an equivalent + noun"
         ],
         "collocations": [
           {
             "text": "equivalent to",
             "meaningZh": "相當於……"
           }
+        ],
+        "examples": [
+          {
+            "en": "A diploma from this school is equivalent to a high school degree.",
+            "zh": "這所學校的文憑相當於高中學歷。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "counterpart",
+        "noteZh": "對等物"
+      },
+      {
+        "lemma": "equal",
+        "noteZh": "相等的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "equivalence",
+        "partOfSpeech": "noun",
+        "meaningZh": "等同；對等"
+      },
+      {
+        "lemma": "equivalently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "等效地"
       }
     ],
     "tags": [
@@ -2450,18 +3259,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "counterpart",
-        "noteZh": "對等物"
-      },
-      {
-        "lemma": "equal",
-        "noteZh": "相等的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_eradicate",
@@ -2475,21 +3273,43 @@
       {
         "id": "s_eradicate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to completely destroy or get rid of something, especially something bad",
         "definitionZh": "根除；消滅",
         "usageExplanationZh": "常見受詞為疾病或社會問題，如 eradicate poverty/disease，強調徹底消除，不留殘餘。",
-        "examples": [
-          {
-            "en": "Scientists hope to eradicate malaria within the next decade.",
-            "zh": "科學家希望在未來十年內根除瘧疾。"
-          }
+        "grammarPatterns": [
+          "eradicate + noun",
+          "eradicate sth from + noun"
         ],
         "collocations": [
           {
             "text": "eradicate a disease",
             "meaningZh": "根除疾病"
           }
+        ],
+        "examples": [
+          {
+            "en": "Scientists hope to eradicate malaria within the next decade.",
+            "zh": "科學家希望在未來十年內根除瘧疾。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "eliminate",
+        "noteZh": "消除"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "eradication",
+        "partOfSpeech": "noun",
+        "meaningZh": "根除；撲滅"
       }
     ],
     "tags": [
@@ -2504,14 +3324,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "eliminate",
-        "noteZh": "消除"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_erase",
@@ -2525,21 +3338,48 @@
       {
         "id": "s_erase_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "to remove or rub out something written, recorded, or existing",
         "definitionZh": "擦除；抹去；消除",
         "usageExplanationZh": "可指實體擦除（erase a whiteboard），也可比喻性地指消除記憶或影響（erase a memory）。",
-        "examples": [
-          {
-            "en": "She erased the mistake and rewrote the sentence.",
-            "zh": "她擦掉錯誤，重新寫了這個句子。"
-          }
+        "grammarPatterns": [
+          "erase + noun",
+          "erase sth from + noun"
         ],
         "collocations": [
           {
             "text": "erase all traces of",
             "meaningZh": "抹去……的所有痕跡"
           }
+        ],
+        "examples": [
+          {
+            "en": "She erased the mistake and rewrote the sentence.",
+            "zh": "她擦掉錯誤，重新寫了這個句子。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "delete",
+        "noteZh": "刪除"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "eraser",
+        "partOfSpeech": "noun",
+        "meaningZh": "橡皮擦"
+      },
+      {
+        "lemma": "erasure",
+        "partOfSpeech": "noun",
+        "meaningZh": "抹除；刪除"
       }
     ],
     "tags": [
@@ -2554,14 +3394,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "delete",
-        "noteZh": "刪除"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_erect",
@@ -2575,21 +3408,53 @@
       {
         "id": "s_erect_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "standing straight up; upright",
         "definitionZh": "直立的；豎立的",
         "usageExplanationZh": "常修飾姿勢或物體，如 stand erect，語氣正式，日常對話較常用 upright 或 straight。",
-        "examples": [
-          {
-            "en": "The soldier stood perfectly erect during the inspection.",
-            "zh": "這名士兵在檢閱時站得筆直。"
-          }
+        "grammarPatterns": [
+          "stand erect",
+          "an erect + noun"
         ],
         "collocations": [
           {
             "text": "stand erect",
             "meaningZh": "站得筆直"
           }
+        ],
+        "examples": [
+          {
+            "en": "The soldier stood perfectly erect during the inspection.",
+            "zh": "這名士兵在檢閱時站得筆直。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "upright",
+        "noteZh": "直立的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "prone",
+        "noteZh": "俯臥的，對應姿勢"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "erection",
+        "partOfSpeech": "noun",
+        "meaningZh": "豎立；建造"
+      },
+      {
+        "lemma": "erectly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "直立地"
       }
     ],
     "tags": [
@@ -2604,19 +3469,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "upright",
-        "noteZh": "直立的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "prone",
-        "noteZh": "俯臥的，對應姿勢"
-      }
-    ]
+    }
   },
   {
     "id": "w_erosion",
@@ -2630,21 +3483,53 @@
       {
         "id": "s_erosion_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "the gradual wearing away of soil or rock by wind, water, or other natural forces",
         "definitionZh": "侵蝕；沖蝕",
         "usageExplanationZh": "常見 soil/coastal erosion；也可比喻性地指抽象事物逐漸被削弱，如 erosion of trust。",
-        "examples": [
-          {
-            "en": "Coastal erosion has destroyed several beachfront properties.",
-            "zh": "海岸侵蝕已經摧毀了好幾處濱海房產。"
-          }
+        "grammarPatterns": [
+          "coastal erosion",
+          "the erosion of + noun"
         ],
         "collocations": [
           {
             "text": "soil erosion",
             "meaningZh": "土壤侵蝕"
           }
+        ],
+        "examples": [
+          {
+            "en": "Coastal erosion has destroyed several beachfront properties.",
+            "zh": "海岸侵蝕已經摧毀了好幾處濱海房產。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "wearing away",
+        "noteZh": "逐漸侵蝕"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "deposition",
+        "noteZh": "沉積，地質學中的相反過程"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "erode",
+        "partOfSpeech": "verb",
+        "meaningZh": "侵蝕；逐漸削弱"
+      },
+      {
+        "lemma": "erosive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "侵蝕性的"
       }
     ],
     "tags": [
@@ -2658,19 +3543,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "wearing away",
-        "noteZh": "逐漸侵蝕"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "deposition",
-        "noteZh": "沉積，地質學中的相反過程"
-      }
-    ]
+    }
   },
   {
     "id": "w_erratic",
@@ -2684,21 +3557,52 @@
       {
         "id": "s_erratic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "not consistent or regular in pattern or behavior; unpredictable",
         "definitionZh": "不穩定的；反覆無常的",
         "usageExplanationZh": "常修飾 behavior、performance、weather，強調缺乏規律、令人難以預料，帶有輕微負面含意。",
-        "examples": [
-          {
-            "en": "His erratic driving worried the other passengers.",
-            "zh": "他忽快忽慢的開車方式讓其他乘客感到擔心。"
-          }
+        "grammarPatterns": [
+          "erratic + noun",
+          "become erratic"
         ],
         "collocations": [
           {
             "text": "erratic behavior",
             "meaningZh": "反覆無常的行為"
           }
+        ],
+        "examples": [
+          {
+            "en": "His erratic driving worried the other passengers.",
+            "zh": "他忽快忽慢的開車方式讓其他乘客感到擔心。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "unpredictable",
+        "noteZh": "難以預測的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "consistent",
+        "noteZh": "穩定一致的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "erratically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "不規律地；反覆無常地"
+      },
+      {
+        "lemma": "err",
+        "partOfSpeech": "verb",
+        "meaningZh": "犯錯；出錯"
       }
     ],
     "tags": [
@@ -2713,18 +3617,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "unpredictable",
-        "noteZh": "難以預測的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "consistent",
-        "noteZh": "穩定一致的"
-      }
-    ]
+    }
   }
 ]

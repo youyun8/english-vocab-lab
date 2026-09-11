@@ -11,21 +11,48 @@
       {
         "id": "s_torpor_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "academic"
+        ],
         "definitionEn": "a state of physical or mental inactivity; lethargy",
         "definitionZh": "麻木；遲鈍；(身心的)不活躍狀態",
         "usageExplanationZh": "書面正式用語，常見於描述極度疲憊或缺乏動力的狀態，也用於生物學描述動物的冬眠狀態。",
-        "examples": [
-          {
-            "en": "After the huge meal, he sank into a state of torpor on the couch.",
-            "zh": "吃完那頓大餐後，他癱在沙發上陷入昏昏欲睡的狀態。"
-          }
+        "grammarPatterns": [
+          "sink into torpor",
+          "a state of torpor"
         ],
         "collocations": [
           {
             "text": "a state of torpor",
             "meaningZh": "昏沉遲鈍的狀態"
           }
+        ],
+        "examples": [
+          {
+            "en": "After the huge meal, he sank into a state of torpor on the couch.",
+            "zh": "吃完那頓大餐後，他癱在沙發上陷入昏昏欲睡的狀態。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "lethargy",
+        "noteZh": "指身心懶散無力"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "vigor",
+        "noteZh": "活力"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "torpid",
+        "partOfSpeech": "adjective",
+        "meaningZh": "遲鈍的；不活躍的"
       }
     ],
     "tags": [
@@ -39,19 +66,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "lethargy",
-        "noteZh": "指身心懶散無力"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "vigor",
-        "noteZh": "活力"
-      }
-    ]
+    }
   },
   {
     "id": "w_torrential",
@@ -65,21 +80,47 @@
       {
         "id": "s_torrential_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "(of rain) falling very heavily and in large amounts",
         "definitionZh": "（雨）傾盆的；豪雨的",
         "usageExplanationZh": "幾乎只搭配 rain，如 torrential rain/downpour，強調降雨量極大且急促。",
-        "examples": [
-          {
-            "en": "Torrential rain caused flooding across the city.",
-            "zh": "傾盆大雨導致全市多處淹水。"
-          }
+        "grammarPatterns": [
+          "torrential rain",
+          "torrential + noun"
         ],
         "collocations": [
           {
             "text": "torrential rain",
             "meaningZh": "傾盆大雨"
           }
+        ],
+        "examples": [
+          {
+            "en": "Torrential rain caused flooding across the city.",
+            "zh": "傾盆大雨導致全市多處淹水。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "heavy",
+        "noteZh": "指雨勢猛烈的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "light",
+        "noteZh": "指雨勢輕微的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "torrent",
+        "partOfSpeech": "noun",
+        "meaningZh": "急流；洪流"
       }
     ],
     "tags": [
@@ -93,19 +134,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "heavy",
-        "noteZh": "指雨勢猛烈的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "light",
-        "noteZh": "指雨勢輕微的"
-      }
-    ]
+    }
   },
   {
     "id": "w_torture",
@@ -119,40 +148,73 @@
       {
         "id": "s_torture_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "the act of causing severe physical or mental pain, especially to punish or force information from someone",
         "definitionZh": "酷刑；折磨",
         "usageExplanationZh": "常見搭配 subject someone to torture；亦可誇飾指令人極度不快的事，如 pure torture。",
-        "examples": [
-          {
-            "en": "The prisoner was subjected to torture during his captivity.",
-            "zh": "這名囚犯在被囚禁期間遭受了酷刑。"
-          }
+        "grammarPatterns": [
+          "be subjected to torture",
+          "the torture of + noun"
         ],
         "collocations": [
           {
             "text": "be subjected to torture",
             "meaningZh": "遭受酷刑"
           }
+        ],
+        "examples": [
+          {
+            "en": "The prisoner was subjected to torture during his captivity.",
+            "zh": "這名囚犯在被囚禁期間遭受了酷刑。"
+          }
         ]
       },
       {
         "id": "s_torture_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to inflict severe pain on someone, especially as punishment or coercion",
         "definitionZh": "對…施加酷刑；折磨",
         "usageExplanationZh": "常見搭配 torture a prisoner/suspect；也可比喻指心理上的極度折磨。",
-        "examples": [
-          {
-            "en": "The soldiers were tortured for information about their unit.",
-            "zh": "士兵們被施以酷刑逼問關於他們部隊的情報。"
-          }
+        "grammarPatterns": [
+          "torture sb",
+          "torture sb for + noun"
         ],
         "collocations": [
           {
             "text": "torture someone for information",
             "meaningZh": "為逼取情報而對某人施刑"
           }
+        ],
+        "examples": [
+          {
+            "en": "The soldiers were tortured for information about their unit.",
+            "zh": "士兵們被施以酷刑逼問關於他們部隊的情報。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "torment",
+        "noteZh": "可指嚴重折磨及折磨人的行為"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "torturer",
+        "partOfSpeech": "noun",
+        "meaningZh": "施刑者"
+      },
+      {
+        "lemma": "torturous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "折磨人的；痛苦難熬的"
       }
     ],
     "tags": [
@@ -166,14 +228,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "torment",
-        "noteZh": "可指嚴重折磨及折磨人的行為"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_toss",
@@ -187,23 +242,37 @@
       {
         "id": "s_toss_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a light throw of something, or the act of flipping a coin to decide something",
         "definitionZh": "輕拋；擲（硬幣）",
         "usageExplanationZh": "常見搭配 the toss of a coin、win the toss（贏得擲硬幣的權利，常見於運動賽事）。",
-        "examples": [
-          {
-            "en": "The captain won the toss and chose to bat first.",
-            "zh": "隊長贏得了擲硬幣，選擇先攻。"
-          }
+        "grammarPatterns": [
+          "win the toss",
+          "the toss of a coin"
         ],
         "collocations": [
           {
             "text": "a coin toss",
             "meaningZh": "擲硬幣"
           }
+        ],
+        "examples": [
+          {
+            "en": "The captain won the toss and chose to bat first.",
+            "zh": "隊長贏得了擲硬幣，選擇先攻。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "throw",
+        "noteZh": "指投擲的名詞義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -215,14 +284,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "throw",
-        "noteZh": "指投擲的名詞義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_totalitarian",
@@ -236,40 +298,75 @@
       {
         "id": "s_totalitarian_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "relating to a system of government that is centralized and dictatorial, requiring total subservience to the state",
         "definitionZh": "極權主義的",
         "usageExplanationZh": "常見搭配 a totalitarian regime/state；帶有強烈負面政治意涵，指政府全面控制人民生活。",
-        "examples": [
-          {
-            "en": "The novel depicts life under a totalitarian regime.",
-            "zh": "這本小說描繪了極權政體下的生活。"
-          }
+        "grammarPatterns": [
+          "a totalitarian + noun",
+          "under a totalitarian regime"
         ],
         "collocations": [
           {
             "text": "a totalitarian state",
             "meaningZh": "極權國家"
           }
+        ],
+        "examples": [
+          {
+            "en": "The novel depicts life under a totalitarian regime.",
+            "zh": "這本小說描繪了極權政體下的生活。"
+          }
         ]
       },
       {
         "id": "s_totalitarian_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "a person who supports or practices totalitarianism",
         "definitionZh": "極權主義者",
         "usageExplanationZh": "較少單獨使用，多以形容詞形式出現；此為名詞用法，指信奉或實踐極權統治的人。",
-        "examples": [
-          {
-            "en": "The rebels fought against the totalitarians who had seized control.",
-            "zh": "反抗軍與奪取政權的極權主義者對抗。"
-          }
+        "grammarPatterns": [
+          "be a totalitarian",
+          "the totalitarians in power"
         ],
         "collocations": [
           {
             "text": "a committed totalitarian",
             "meaningZh": "堅定的極權主義者"
           }
+        ],
+        "examples": [
+          {
+            "en": "The rebels fought against the totalitarians who had seized control.",
+            "zh": "反抗軍與奪取政權的極權主義者對抗。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "dictatorial",
+        "noteZh": "指獨裁的形容詞義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "democratic",
+        "noteZh": "指民主的形容詞義"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "totalitarianism",
+        "partOfSpeech": "noun",
+        "meaningZh": "極權主義"
       }
     ],
     "tags": [
@@ -282,19 +379,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "dictatorial",
-        "noteZh": "指獨裁的形容詞義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "democratic",
-        "noteZh": "指民主的形容詞義"
-      }
-    ]
+    }
   },
   {
     "id": "w_touchdown",
@@ -308,14 +393,16 @@
       {
         "id": "s_touchdown_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "the act of an aircraft or spacecraft landing; or (in American football) scoring by carrying or catching the ball in the end zone",
         "definitionZh": "（飛機或太空船的）著陸；（美式足球）達陣得分",
         "usageExplanationZh": "兩義項依領域不同：航空指降落瞬間，美式足球則指得分動作，需依上下文判斷。",
-        "examples": [
-          {
-            "en": "The pilot announced a smooth touchdown at the airport.",
-            "zh": "機長宣布飛機平穩地降落在機場。"
-          }
+        "grammarPatterns": [
+          "a smooth touchdown",
+          "score a touchdown"
         ],
         "collocations": [
           {
@@ -326,9 +413,22 @@
             "text": "a smooth touchdown",
             "meaningZh": "平穩著陸"
           }
+        ],
+        "examples": [
+          {
+            "en": "The pilot announced a smooth touchdown at the airport.",
+            "zh": "機長宣布飛機平穩地降落在機場。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "landing",
+        "noteZh": "指飛行器著陸的詞義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -339,14 +439,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "landing",
-        "noteZh": "指飛行器著陸的詞義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_tourism",
@@ -360,21 +453,48 @@
       {
         "id": "s_tourism_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "academic"
+        ],
         "definitionEn": "the business of providing and arranging tours, accommodations, and activities for tourists",
         "definitionZh": "觀光業；旅遊業",
         "usageExplanationZh": "常見搭配 the tourism industry、boost tourism；為不可數名詞，指整體產業而非個人旅遊行為。",
-        "examples": [
-          {
-            "en": "Tourism is a major source of income for the island.",
-            "zh": "觀光業是這座島嶼的主要收入來源。"
-          }
+        "grammarPatterns": [
+          "the tourism industry",
+          "rely on tourism"
         ],
         "collocations": [
           {
             "text": "sustainable tourism",
             "meaningZh": "永續觀光"
           }
+        ],
+        "examples": [
+          {
+            "en": "Tourism is a major source of income for the island.",
+            "zh": "觀光業是這座島嶼的主要收入來源。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "tourist",
+        "partOfSpeech": "noun",
+        "meaningZh": "觀光客；遊客"
+      },
+      {
+        "lemma": "tour",
+        "partOfSpeech": "noun",
+        "meaningZh": "旅遊；遊覽"
+      },
+      {
+        "lemma": "touristy",
+        "partOfSpeech": "adjective",
+        "meaningZh": "充滿觀光客的"
       }
     ],
     "tags": [
@@ -387,9 +507,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_tournament",
@@ -403,23 +521,37 @@
       {
         "id": "s_tournament_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a series of contests between a number of competitors, competing for an overall prize",
         "definitionZh": "錦標賽；比賽",
         "usageExplanationZh": "常見搭配 a chess/tennis/golf tournament；指有明確賽制、多輪淘汰或積分的正式競賽。",
-        "examples": [
-          {
-            "en": "She won the regional tennis tournament last weekend.",
-            "zh": "她上週末贏得了地區網球錦標賽。"
-          }
+        "grammarPatterns": [
+          "win a tournament",
+          "a + noun + tournament"
         ],
         "collocations": [
           {
             "text": "a tennis tournament",
             "meaningZh": "網球錦標賽"
           }
+        ],
+        "examples": [
+          {
+            "en": "She won the regional tennis tournament last weekend.",
+            "zh": "她上週末贏得了地區網球錦標賽。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "competition",
+        "noteZh": "指競賽，範圍較廣"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -432,14 +564,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "competition",
-        "noteZh": "指競賽，範圍較廣"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_toxic",
@@ -453,21 +578,58 @@
       {
         "id": "s_toxic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "poisonous; harmful to living organisms",
         "definitionZh": "有毒的；有害的",
         "usageExplanationZh": "常見搭配 toxic waste/chemicals；亦可比喻指有害的關係或環境，如 a toxic relationship。",
-        "examples": [
-          {
-            "en": "The factory was fined for dumping toxic waste into the river.",
-            "zh": "這家工廠因將有毒廢棄物傾倒入河而被罰款。"
-          }
+        "grammarPatterns": [
+          "toxic + noun",
+          "be toxic to + noun"
         ],
         "collocations": [
           {
             "text": "toxic waste",
             "meaningZh": "有毒廢棄物"
           }
+        ],
+        "examples": [
+          {
+            "en": "The factory was fined for dumping toxic waste into the river.",
+            "zh": "這家工廠因將有毒廢棄物傾倒入河而被罰款。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "poisonous",
+        "noteZh": "指有毒的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "nontoxic",
+        "noteZh": "無毒的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "toxin",
+        "partOfSpeech": "noun",
+        "meaningZh": "毒素"
+      },
+      {
+        "lemma": "toxicity",
+        "partOfSpeech": "noun",
+        "meaningZh": "毒性"
+      },
+      {
+        "lemma": "nontoxic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "無毒的"
       }
     ],
     "tags": [
@@ -482,19 +644,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "poisonous",
-        "noteZh": "指有毒的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "nontoxic",
-        "noteZh": "無毒的"
-      }
-    ]
+    }
   },
   {
     "id": "w_trace",
@@ -508,14 +658,17 @@
       {
         "id": "s_trace_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "a mark, sign, or other indication that something has existed or happened; a very small amount",
         "definitionZh": "痕跡；蹤跡；微量",
         "usageExplanationZh": "常見搭配 without a trace（不留痕跡地消失）、trace of something（微量的某物）。",
-        "examples": [
-          {
-            "en": "The detective found no trace of the missing documents.",
-            "zh": "偵探沒有找到失蹤文件的任何蹤跡。"
-          }
+        "grammarPatterns": [
+          "a trace of + noun",
+          "no trace of + noun",
+          "disappear without a trace"
         ],
         "collocations": [
           {
@@ -526,7 +679,32 @@
             "text": "a trace of blood",
             "meaningZh": "微量血跡"
           }
+        ],
+        "examples": [
+          {
+            "en": "The detective found no trace of the missing documents.",
+            "zh": "偵探沒有找到失蹤文件的任何蹤跡。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "vestige",
+        "noteZh": "指殘留痕跡"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "traceable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可追蹤的；可追溯的"
+      },
+      {
+        "lemma": "tracer",
+        "partOfSpeech": "noun",
+        "meaningZh": "追蹤劑；追蹤器"
       }
     ],
     "tags": [
@@ -540,14 +718,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "vestige",
-        "noteZh": "指殘留痕跡"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_tract",
@@ -561,14 +732,16 @@
       {
         "id": "s_tract_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "an area of land, or a system of organs/passages in the body, or a short pamphlet on a religious/political subject",
         "definitionZh": "大片土地；（人體）道；小冊子",
         "usageExplanationZh": "三種常見義項需依上下文判斷：地理（a tract of land）、生理（the digestive tract）、印刷品（a religious tract）。",
-        "examples": [
-          {
-            "en": "Farmers cleared a large tract of forest for agriculture.",
-            "zh": "農民清除了大片森林以進行農業耕作。"
-          }
+        "grammarPatterns": [
+          "a tract of land",
+          "the digestive tract"
         ],
         "collocations": [
           {
@@ -579,9 +752,22 @@
             "text": "the digestive tract",
             "meaningZh": "消化道"
           }
+        ],
+        "examples": [
+          {
+            "en": "Farmers cleared a large tract of forest for agriculture.",
+            "zh": "農民清除了大片森林以進行農業耕作。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "expanse",
+        "noteZh": "指大片土地"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -594,14 +780,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "expanse",
-        "noteZh": "指大片土地"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_tractable",
@@ -615,21 +794,53 @@
       {
         "id": "s_tractable_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "easy to control, manage, or deal with",
         "definitionZh": "易駕馭的；易處理的；順從的",
         "usageExplanationZh": "常與 unruly 相對，可形容人（性情溫順）或問題（容易解決），書面用語居多。",
-        "examples": [
-          {
-            "en": "The new manager found the team surprisingly tractable and cooperative.",
-            "zh": "新任經理發現這個團隊出乎意料地容易管理、樂於合作。"
-          }
+        "grammarPatterns": [
+          "a tractable + noun",
+          "prove tractable"
         ],
         "collocations": [
           {
             "text": "a tractable problem",
             "meaningZh": "容易處理的問題"
           }
+        ],
+        "examples": [
+          {
+            "en": "The new manager found the team surprisingly tractable and cooperative.",
+            "zh": "新任經理發現這個團隊出乎意料地容易管理、樂於合作。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "manageable",
+        "noteZh": "指容易處理的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "intractable",
+        "noteZh": "棘手難處理的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "intractable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "棘手的；難駕馭的"
+      },
+      {
+        "lemma": "tractability",
+        "partOfSpeech": "noun",
+        "meaningZh": "易處理性；順從"
       }
     ],
     "tags": [
@@ -643,19 +854,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "manageable",
-        "noteZh": "指容易處理的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "intractable",
-        "noteZh": "棘手難處理的"
-      }
-    ]
+    }
   },
   {
     "id": "w_tractor",
@@ -669,21 +868,38 @@
       {
         "id": "s_tractor_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a powerful motor vehicle used mainly on farms for pulling heavy equipment",
         "definitionZh": "拖拉機；農用曳引機",
         "usageExplanationZh": "常見搭配 drive a tractor、a tractor and trailer；主要用於農業機具語境。",
-        "examples": [
-          {
-            "en": "The farmer used his tractor to plow the field.",
-            "zh": "農夫用他的拖拉機犁田。"
-          }
+        "grammarPatterns": [
+          "drive a tractor",
+          "a tractor + noun"
         ],
         "collocations": [
           {
             "text": "a farm tractor",
             "meaningZh": "農用曳引機"
           }
+        ],
+        "examples": [
+          {
+            "en": "The farmer used his tractor to plow the field.",
+            "zh": "農夫用他的拖拉機犁田。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "traction",
+        "partOfSpeech": "noun",
+        "meaningZh": "牽引力；抓地力"
       }
     ],
     "tags": [
@@ -697,9 +913,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_traditionally",
@@ -713,21 +927,53 @@
       {
         "id": "s_traditionally_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "in a way that is consistent with tradition or long-established custom",
         "definitionZh": "傳統上；按照慣例",
         "usageExplanationZh": "常見句首用法 Traditionally, ...，用來對比現今的變化，如 traditionally vs. nowadays。",
-        "examples": [
-          {
-            "en": "Traditionally, the family gathers for a big meal on New Year's Eve.",
-            "zh": "傳統上，這個家庭會在除夕聚在一起吃大餐。"
-          }
+        "grammarPatterns": [
+          "traditionally, + clause",
+          "be traditionally + past participle"
         ],
         "collocations": [
           {
             "text": "traditionally associated with",
             "meaningZh": "傳統上與…相關"
           }
+        ],
+        "examples": [
+          {
+            "en": "Traditionally, the family gathers for a big meal on New Year's Eve.",
+            "zh": "傳統上，這個家庭會在除夕聚在一起吃大餐。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "customarily",
+        "noteZh": "指依照慣例"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "tradition",
+        "partOfSpeech": "noun",
+        "meaningZh": "傳統"
+      },
+      {
+        "lemma": "traditional",
+        "partOfSpeech": "adjective",
+        "meaningZh": "傳統的"
+      },
+      {
+        "lemma": "traditionalist",
+        "partOfSpeech": "noun",
+        "meaningZh": "傳統主義者"
       }
     ],
     "tags": [
@@ -740,14 +986,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "customarily",
-        "noteZh": "指依照慣例"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_tragedy",
@@ -761,14 +1000,16 @@
       {
         "id": "s_tragedy_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "an event causing great suffering or destruction; or a serious play with an unhappy ending",
         "definitionZh": "悲劇；慘劇",
         "usageExplanationZh": "兩義項常見：真實的不幸事件（a family tragedy）與戲劇文類（a Shakespearean tragedy）。",
-        "examples": [
-          {
-            "en": "The earthquake was a tragedy that affected thousands of families.",
-            "zh": "這場地震是一場影響數千個家庭的悲劇。"
-          }
+        "grammarPatterns": [
+          "a tragedy for + noun",
+          "the tragedy of + noun"
         ],
         "collocations": [
           {
@@ -779,7 +1020,37 @@
             "text": "a Shakespearean tragedy",
             "meaningZh": "莎士比亞悲劇"
           }
+        ],
+        "examples": [
+          {
+            "en": "The earthquake was a tragedy that affected thousands of families.",
+            "zh": "這場地震是一場影響數千個家庭的悲劇。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "catastrophe",
+        "noteZh": "指造成重大苦難的事件"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "comedy",
+        "noteZh": "喜劇，與戲劇文類義相反"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "tragic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "悲劇的；悲慘的"
+      },
+      {
+        "lemma": "tragically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "悲劇性地"
       }
     ],
     "tags": [
@@ -794,19 +1065,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "catastrophe",
-        "noteZh": "指造成重大苦難的事件"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "comedy",
-        "noteZh": "喜劇，與戲劇文類義相反"
-      }
-    ]
+    }
   },
   {
     "id": "w_trail",
@@ -820,40 +1079,69 @@
       {
         "id": "s_trail_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a path through rough country, or a mark or series of signs left by something that has passed",
         "definitionZh": "小徑；步道；（移動後留下的）痕跡",
         "usageExplanationZh": "常見搭配 hiking trail（健行步道）、a trail of blood/clues（一連串的痕跡或線索）。",
-        "examples": [
-          {
-            "en": "They hiked along a mountain trail for six hours.",
-            "zh": "他們沿著一條山間步道健行了六個小時。"
-          }
+        "grammarPatterns": [
+          "a trail through + noun",
+          "follow a trail",
+          "hike along a trail"
         ],
         "collocations": [
           {
             "text": "a hiking trail",
             "meaningZh": "健行步道"
           }
+        ],
+        "examples": [
+          {
+            "en": "They hiked along a mountain trail for six hours.",
+            "zh": "他們沿著一條山間步道健行了六個小時。"
+          }
         ]
       },
       {
         "id": "s_trail_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to drag or be dragged along behind someone or something; to follow behind, especially while losing",
         "definitionZh": "拖曳；尾隨；（比賽中）落後",
         "usageExplanationZh": "常見搭配 trail behind（落後於）、trail someone（尾隨跟蹤某人）。",
-        "examples": [
-          {
-            "en": "The team was trailing by ten points at halftime.",
-            "zh": "這支隊伍在中場休息時落後十分。"
-          }
+        "grammarPatterns": [
+          "trail behind sb",
+          "trail by + noun"
         ],
         "collocations": [
           {
             "text": "trail behind",
             "meaningZh": "落在後面"
           }
+        ],
+        "examples": [
+          {
+            "en": "The team was trailing by ten points at halftime.",
+            "zh": "這支隊伍在中場休息時落後十分。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "path",
+        "noteZh": "指步道的名詞義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "trailer",
+        "partOfSpeech": "noun",
+        "meaningZh": "拖車；預告片"
       }
     ],
     "tags": [
@@ -867,14 +1155,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "path",
-        "noteZh": "指步道的名詞義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_trait",
@@ -888,23 +1169,38 @@
       {
         "id": "s_trait_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "a distinguishing quality or characteristic, typically of a person",
         "definitionZh": "特質；特徵",
         "usageExplanationZh": "常見搭配 a personality trait（性格特質）、genetic trait（遺傳特徵）。",
-        "examples": [
-          {
-            "en": "Honesty is one of his most admirable traits.",
-            "zh": "誠實是他最令人欽佩的特質之一。"
-          }
+        "grammarPatterns": [
+          "a personality trait",
+          "a trait of + noun"
         ],
         "collocations": [
           {
             "text": "personality traits",
             "meaningZh": "人格特質"
           }
+        ],
+        "examples": [
+          {
+            "en": "Honesty is one of his most admirable traits.",
+            "zh": "誠實是他最令人欽佩的特質之一。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "characteristic",
+        "noteZh": "指個別特徵"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -917,14 +1213,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "characteristic",
-        "noteZh": "指個別特徵"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_tramp",
@@ -938,42 +1227,65 @@
       {
         "id": "s_tramp_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal",
+          "literary"
+        ],
         "definitionEn": "a person who travels from place to place on foot, especially one who is homeless",
         "definitionZh": "流浪漢；遊民",
         "usageExplanationZh": "帶有較舊式或文學色彩的用詞，現代英語常用 homeless person 較為中性、不帶貶義。",
-        "examples": [
-          {
-            "en": "The old tramp slept on a park bench every night.",
-            "zh": "那位老流浪漢每晚都睡在公園長椅上。"
-          }
+        "grammarPatterns": [
+          "an old tramp",
+          "a tramp on the street"
         ],
         "collocations": [
           {
             "text": "a wandering tramp",
             "meaningZh": "四處流浪的遊民"
           }
+        ],
+        "examples": [
+          {
+            "en": "The old tramp slept on a park bench every night.",
+            "zh": "那位老流浪漢每晚都睡在公園長椅上。"
+          }
         ]
       },
       {
         "id": "s_tramp_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "to walk with heavy, firm steps, typically for a long distance",
         "definitionZh": "重步行走；跋涉",
         "usageExplanationZh": "常見搭配 tramp through the woods/mud，強調步伐沉重、費力，常與長途或艱難地形有關。",
-        "examples": [
-          {
-            "en": "They tramped through the muddy fields for hours.",
-            "zh": "他們在泥濘的田野中跋涉了好幾個小時。"
-          }
+        "grammarPatterns": [
+          "tramp through + noun",
+          "tramp across + noun"
         ],
         "collocations": [
           {
             "text": "tramp through the woods",
             "meaningZh": "重步穿越樹林"
           }
+        ],
+        "examples": [
+          {
+            "en": "They tramped through the muddy fields for hours.",
+            "zh": "他們在泥濘的田野中跋涉了好幾個小時。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "trudge",
+        "noteZh": "指沉重步行的動詞義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -985,14 +1297,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "trudge",
-        "noteZh": "指沉重步行的動詞義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_trance",
@@ -1006,23 +1311,33 @@
       {
         "id": "s_trance_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "technical"
+        ],
         "definitionEn": "a half-conscious state characterized by an absence of response to external stimuli",
         "definitionZh": "恍惚狀態；出神；催眠狀態",
         "usageExplanationZh": "常見搭配 fall into/go into a trance、in a trance；也可指音樂類型 trance music。",
-        "examples": [
-          {
-            "en": "The medium appeared to fall into a trance during the séance.",
-            "zh": "那位靈媒在通靈儀式中似乎陷入了恍惚狀態。"
-          }
+        "grammarPatterns": [
+          "fall into a trance",
+          "be in a trance"
         ],
         "collocations": [
           {
             "text": "in a trance",
             "meaningZh": "處於恍惚狀態"
           }
+        ],
+        "examples": [
+          {
+            "en": "The medium appeared to fall into a trance during the séance.",
+            "zh": "那位靈媒在通靈儀式中似乎陷入了恍惚狀態。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1033,9 +1348,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_tranquility",
@@ -1049,21 +1362,58 @@
       {
         "id": "s_tranquility_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "the quality or state of being calm and peaceful",
         "definitionZh": "寧靜；平靜",
         "usageExplanationZh": "常見搭配 peace and tranquility；美式拼法為 tranquility，英式拼法常作 tranquillity。",
-        "examples": [
-          {
-            "en": "She enjoyed the tranquility of the countryside after years in the city.",
-            "zh": "在城市生活多年後，她很享受鄉間的寧靜。"
-          }
+        "grammarPatterns": [
+          "the tranquility of + noun",
+          "enjoy the tranquility"
         ],
         "collocations": [
           {
             "text": "peace and tranquility",
             "meaningZh": "和平寧靜"
           }
+        ],
+        "examples": [
+          {
+            "en": "She enjoyed the tranquility of the countryside after years in the city.",
+            "zh": "在城市生活多年後，她很享受鄉間的寧靜。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "serenity",
+        "noteZh": "指平靜安寧"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "turmoil",
+        "noteZh": "混亂不安"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "tranquil",
+        "partOfSpeech": "adjective",
+        "meaningZh": "寧靜的；平靜的"
+      },
+      {
+        "lemma": "tranquilize",
+        "partOfSpeech": "verb",
+        "meaningZh": "使鎮靜"
+      },
+      {
+        "lemma": "tranquilizer",
+        "partOfSpeech": "noun",
+        "meaningZh": "鎮靜劑"
       }
     ],
     "tags": [
@@ -1078,19 +1428,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "serenity",
-        "noteZh": "指平靜安寧"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "turmoil",
-        "noteZh": "混亂不安"
-      }
-    ]
+    }
   },
   {
     "id": "w_transaction",
@@ -1104,21 +1442,48 @@
       {
         "id": "s_transaction_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "technical"
+        ],
         "definitionEn": "an instance of buying or selling something; a business deal or exchange",
         "definitionZh": "交易；買賣",
         "usageExplanationZh": "常見搭配 a financial/business transaction、complete a transaction；多用於商業、金融語境。",
-        "examples": [
-          {
-            "en": "The bank processes thousands of transactions every day.",
-            "zh": "這家銀行每天處理數千筆交易。"
-          }
+        "grammarPatterns": [
+          "a financial transaction",
+          "process a transaction"
         ],
         "collocations": [
           {
             "text": "a financial transaction",
             "meaningZh": "金融交易"
           }
+        ],
+        "examples": [
+          {
+            "en": "The bank processes thousands of transactions every day.",
+            "zh": "這家銀行每天處理數千筆交易。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "deal",
+        "noteZh": "指商業交易"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "transact",
+        "partOfSpeech": "verb",
+        "meaningZh": "進行交易；辦理"
+      },
+      {
+        "lemma": "transactional",
+        "partOfSpeech": "adjective",
+        "meaningZh": "交易性的"
       }
     ],
     "tags": [
@@ -1133,14 +1498,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "deal",
-        "noteZh": "指商業交易"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_transcend",
@@ -1154,21 +1512,53 @@
       {
         "id": "s_transcend_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to go beyond the limits of something; to surpass or rise above",
         "definitionZh": "超越；超脫",
         "usageExplanationZh": "常見搭配 transcend boundaries/limitations/differences，語氣正式，常見於哲學、藝術或跨文化討論。",
-        "examples": [
-          {
-            "en": "Great art can transcend cultural and language barriers.",
-            "zh": "偉大的藝術能夠超越文化與語言的隔閡。"
-          }
+        "grammarPatterns": [
+          "transcend + noun",
+          "transcend the limits of + noun"
         ],
         "collocations": [
           {
             "text": "transcend national boundaries",
             "meaningZh": "超越國界"
           }
+        ],
+        "examples": [
+          {
+            "en": "Great art can transcend cultural and language barriers.",
+            "zh": "偉大的藝術能夠超越文化與語言的隔閡。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "surpass",
+        "noteZh": "指超過限度"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "transcendent",
+        "partOfSpeech": "adjective",
+        "meaningZh": "超凡的；超越的"
+      },
+      {
+        "lemma": "transcendence",
+        "partOfSpeech": "noun",
+        "meaningZh": "超越；卓越"
+      },
+      {
+        "lemma": "transcendental",
+        "partOfSpeech": "adjective",
+        "meaningZh": "先驗的；超驗的"
       }
     ],
     "tags": [
@@ -1183,14 +1573,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "surpass",
-        "noteZh": "指超過限度"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_transcendent",
@@ -1204,21 +1587,48 @@
       {
         "id": "s_transcendent_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "going beyond ordinary limits; surpassing the usual, especially in a spiritual or abstract sense",
         "definitionZh": "超凡的；超越的",
         "usageExplanationZh": "常見搭配 a transcendent experience；書面正式用語，常見於宗教、哲學或藝術評論。",
-        "examples": [
-          {
-            "en": "The concert offered a transcendent musical experience for the audience.",
-            "zh": "這場音樂會為觀眾帶來了一種超凡的音樂體驗。"
-          }
+        "grammarPatterns": [
+          "a transcendent + noun",
+          "transcendent in + noun"
         ],
         "collocations": [
           {
             "text": "transcendent beauty",
             "meaningZh": "超凡的美"
           }
+        ],
+        "examples": [
+          {
+            "en": "The concert offered a transcendent musical experience for the audience.",
+            "zh": "這場音樂會為觀眾帶來了一種超凡的音樂體驗。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "surpassing",
+        "noteZh": "指超出一般水準的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "transcend",
+        "partOfSpeech": "verb",
+        "meaningZh": "超越；超脫"
+      },
+      {
+        "lemma": "transcendence",
+        "partOfSpeech": "noun",
+        "meaningZh": "超越性"
       }
     ],
     "tags": [
@@ -1231,14 +1641,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "surpassing",
-        "noteZh": "指超出一般水準的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_transcribe",
@@ -1252,21 +1655,48 @@
       {
         "id": "s_transcribe_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "to write down or type out speech or handwritten notes, or to convert data into another written form",
         "definitionZh": "轉錄；抄錄；謄寫",
         "usageExplanationZh": "常見搭配 transcribe an interview/recording，將口語內容轉為文字紀錄。",
-        "examples": [
-          {
-            "en": "She transcribed the entire interview from the audio recording.",
-            "zh": "她將整段訪談從錄音檔轉錄成文字。"
-          }
+        "grammarPatterns": [
+          "transcribe + noun",
+          "transcribe sth from + noun"
         ],
         "collocations": [
           {
             "text": "transcribe an interview",
             "meaningZh": "將訪談轉錄成文字"
           }
+        ],
+        "examples": [
+          {
+            "en": "She transcribed the entire interview from the audio recording.",
+            "zh": "她將整段訪談從錄音檔轉錄成文字。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "write down",
+        "noteZh": "指把口語內容記錄成文字"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "transcription",
+        "partOfSpeech": "noun",
+        "meaningZh": "轉錄；謄寫"
+      },
+      {
+        "lemma": "transcript",
+        "partOfSpeech": "noun",
+        "meaningZh": "文字紀錄；謄本"
       }
     ],
     "tags": [
@@ -1279,14 +1709,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "write down",
-        "noteZh": "指把口語內容記錄成文字"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_transcript",
@@ -1300,21 +1723,48 @@
       {
         "id": "s_transcript_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "a written or printed version of material originally presented in another form, such as speech",
         "definitionZh": "文字紀錄；謄本；成績單",
         "usageExplanationZh": "常見搭配 a court transcript（庭審紀錄）、academic transcript（成績單），依語境而異。",
-        "examples": [
-          {
-            "en": "He requested an official transcript of his university grades.",
-            "zh": "他申請了一份正式的大學成績單。"
-          }
+        "grammarPatterns": [
+          "a transcript of + noun",
+          "request an official transcript"
         ],
         "collocations": [
           {
             "text": "a verbatim transcript",
             "meaningZh": "逐字紀錄"
           }
+        ],
+        "examples": [
+          {
+            "en": "He requested an official transcript of his university grades.",
+            "zh": "他申請了一份正式的大學成績單。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "transcription",
+        "noteZh": "指轉錄成的文字紀錄"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "transcribe",
+        "partOfSpeech": "verb",
+        "meaningZh": "謄寫；轉錄"
+      },
+      {
+        "lemma": "transcription",
+        "partOfSpeech": "noun",
+        "meaningZh": "轉錄；抄本"
       }
     ],
     "tags": [
@@ -1328,14 +1778,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "transcription",
-        "noteZh": "指轉錄成的文字紀錄"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_transfer",
@@ -1349,21 +1792,48 @@
       {
         "id": "s_transfer_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "the act of moving something or someone from one place, position, or person to another",
         "definitionZh": "轉移；調動；轉帳",
         "usageExplanationZh": "常見搭配 a bank transfer（轉帳）、job transfer（調職）；亦可作動詞，重音位置不同（動詞重音在後）。",
-        "examples": [
-          {
-            "en": "The company approved his transfer to the London office.",
-            "zh": "公司批准了他調往倫敦辦公室。"
-          }
+        "grammarPatterns": [
+          "a transfer to + noun",
+          "the transfer of + noun"
         ],
         "collocations": [
           {
             "text": "a bank transfer",
             "meaningZh": "銀行轉帳"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company approved his transfer to the London office.",
+            "zh": "公司批准了他調往倫敦辦公室。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "relocation",
+        "noteZh": "指移到另一地點"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "transferable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可轉讓的；可移轉的"
+      },
+      {
+        "lemma": "transference",
+        "partOfSpeech": "noun",
+        "meaningZh": "轉移；移情作用"
       }
     ],
     "tags": [
@@ -1378,14 +1848,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "relocation",
-        "noteZh": "指移到另一地點"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_transform",
@@ -1399,21 +1862,54 @@
       {
         "id": "s_transform_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to change something markedly in form, appearance, or character",
         "definitionZh": "使轉變；使徹底改變",
         "usageExplanationZh": "常見搭配 transform A into B；強調變化程度大而根本，常見於企業轉型、外貌改變等語境。",
-        "examples": [
-          {
-            "en": "The renovation transformed the old warehouse into a modern loft.",
-            "zh": "這次翻新將舊倉庫徹底改造成現代化的閣樓。"
-          }
+        "grammarPatterns": [
+          "transform A into B",
+          "transform + noun",
+          "be transformed by + noun"
         ],
         "collocations": [
           {
             "text": "transform A into B",
             "meaningZh": "將甲轉變成乙"
           }
+        ],
+        "examples": [
+          {
+            "en": "The renovation transformed the old warehouse into a modern loft.",
+            "zh": "這次翻新將舊倉庫徹底改造成現代化的閣樓。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "reshape",
+        "noteZh": "指徹底改變形態"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "transformation",
+        "partOfSpeech": "noun",
+        "meaningZh": "轉變；蛻變"
+      },
+      {
+        "lemma": "transformative",
+        "partOfSpeech": "adjective",
+        "meaningZh": "具變革性的"
+      },
+      {
+        "lemma": "transformer",
+        "partOfSpeech": "noun",
+        "meaningZh": "變壓器"
       }
     ],
     "tags": [
@@ -1427,14 +1923,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "reshape",
-        "noteZh": "指徹底改變形態"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_transformation",
@@ -1448,21 +1937,49 @@
       {
         "id": "s_transformation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a marked, thorough, or dramatic change in form, appearance, or character",
         "definitionZh": "轉變；蛻變；徹底的改變",
         "usageExplanationZh": "常見搭配 undergo a transformation；為 transform 的名詞形式，強調變化的過程或結果。",
-        "examples": [
-          {
-            "en": "The city has undergone a remarkable transformation over the past decade.",
-            "zh": "這座城市在過去十年間經歷了驚人的蛻變。"
-          }
+        "grammarPatterns": [
+          "a transformation of + noun",
+          "undergo a transformation",
+          "the transformation from A to B"
         ],
         "collocations": [
           {
             "text": "undergo a transformation",
             "meaningZh": "經歷蛻變"
           }
+        ],
+        "examples": [
+          {
+            "en": "The city has undergone a remarkable transformation over the past decade.",
+            "zh": "這座城市在過去十年間經歷了驚人的蛻變。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "metamorphosis",
+        "noteZh": "指形態或性質的重大改變"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "transform",
+        "partOfSpeech": "verb",
+        "meaningZh": "使轉變；改造"
+      },
+      {
+        "lemma": "transformative",
+        "partOfSpeech": "adjective",
+        "meaningZh": "帶來徹底改變的"
       }
     ],
     "tags": [
@@ -1475,14 +1992,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "metamorphosis",
-        "noteZh": "指形態或性質的重大改變"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_transgression",
@@ -1496,21 +2006,53 @@
       {
         "id": "s_transgression_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "an act that goes against a law, rule, or moral code; a violation",
         "definitionZh": "違反行為；越軌行為",
         "usageExplanationZh": "書面正式用語，常見於道德、宗教或法律語境，如 moral/legal transgression。",
-        "examples": [
-          {
-            "en": "He was punished for his transgression against the community's rules.",
-            "zh": "他因違反社區規範而受到懲罰。"
-          }
+        "grammarPatterns": [
+          "a transgression against + noun",
+          "punish sb for a transgression"
         ],
         "collocations": [
           {
             "text": "a moral transgression",
             "meaningZh": "違反道德的行為"
           }
+        ],
+        "examples": [
+          {
+            "en": "He was punished for his transgression against the community's rules.",
+            "zh": "他因違反社區規範而受到懲罰。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "violation",
+        "noteZh": "指違反規範的行為"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "compliance",
+        "noteZh": "遵守規範"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "transgress",
+        "partOfSpeech": "verb",
+        "meaningZh": "違反；越軌"
+      },
+      {
+        "lemma": "transgressive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "越軌的；違規的"
       }
     ],
     "tags": [
@@ -1523,19 +2065,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "violation",
-        "noteZh": "指違反規範的行為"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "compliance",
-        "noteZh": "遵守規範"
-      }
-    ]
+    }
   },
   {
     "id": "w_transit",
@@ -1549,21 +2079,43 @@
       {
         "id": "s_transit_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to pass through or across a place on the way to somewhere else",
         "definitionZh": "通過；經過（前往目的地途中）",
         "usageExplanationZh": "常見搭配 transit through an airport/country；也常見複合名詞 transit lounge、in transit（運輸途中）。",
-        "examples": [
-          {
-            "en": "Passengers transiting through the airport do not need a visa.",
-            "zh": "經過該機場轉機的旅客不需要簽證。"
-          }
+        "grammarPatterns": [
+          "transit through + noun",
+          "transit between A and B"
         ],
         "collocations": [
           {
             "text": "transit through an airport",
             "meaningZh": "經由機場轉運"
           }
+        ],
+        "examples": [
+          {
+            "en": "Passengers transiting through the airport do not need a visa.",
+            "zh": "經過該機場轉機的旅客不需要簽證。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "pass through",
+        "noteZh": "指經由某地通過"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "transient",
+        "partOfSpeech": "adjective",
+        "meaningZh": "短暫的；過境的"
       }
     ],
     "tags": [
@@ -1577,14 +2129,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pass through",
-        "noteZh": "指經由某地通過"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_transition",
@@ -1598,21 +2143,49 @@
       {
         "id": "s_transition_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the process of changing from one state or condition to another",
         "definitionZh": "轉變；過渡（過程）",
         "usageExplanationZh": "常見搭配 a transition period、the transition to democracy；強調從一階段到另一階段的過程。",
-        "examples": [
-          {
-            "en": "The country is going through a difficult transition to democracy.",
-            "zh": "這個國家正經歷艱難的民主轉型過程。"
-          }
+        "grammarPatterns": [
+          "a transition to + noun",
+          "the transition from A to B",
+          "make a transition"
         ],
         "collocations": [
           {
             "text": "a transition from school to work",
             "meaningZh": "從就學到就業的過渡"
           }
+        ],
+        "examples": [
+          {
+            "en": "The country is going through a difficult transition to democracy.",
+            "zh": "這個國家正經歷艱難的民主轉型過程。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "changeover",
+        "noteZh": "指從一種狀態轉換到另一種"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "transitional",
+        "partOfSpeech": "adjective",
+        "meaningZh": "過渡的；轉型的"
+      },
+      {
+        "lemma": "transitory",
+        "partOfSpeech": "adjective",
+        "meaningZh": "短暫的；一時的"
       }
     ],
     "tags": [
@@ -1627,14 +2200,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "changeover",
-        "noteZh": "指從一種狀態轉換到另一種"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_translation",
@@ -1648,14 +2214,17 @@
       {
         "id": "s_translation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "neutral"
+        ],
         "definitionEn": "the process of converting text or speech from one language into another",
         "definitionZh": "翻譯（過程或結果）",
         "usageExplanationZh": "常見搭配 a translation of a book、in translation（指翻譯版本）；亦可比喻指轉換或詮釋，如 lost in translation。",
-        "examples": [
-          {
-            "en": "The novel has been read widely in English translation.",
-            "zh": "這本小說的英文翻譯版本已被廣泛閱讀。"
-          }
+        "grammarPatterns": [
+          "a translation of + noun",
+          "in translation",
+          "the translation from A into B"
         ],
         "collocations": [
           {
@@ -1666,7 +2235,32 @@
             "text": "in translation",
             "meaningZh": "以譯本形式"
           }
+        ],
+        "examples": [
+          {
+            "en": "The novel has been read widely in English translation.",
+            "zh": "這本小說的英文翻譯版本已被廣泛閱讀。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "translate",
+        "partOfSpeech": "verb",
+        "meaningZh": "翻譯"
+      },
+      {
+        "lemma": "translator",
+        "partOfSpeech": "noun",
+        "meaningZh": "譯者；翻譯員"
+      },
+      {
+        "lemma": "translatable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可翻譯的"
       }
     ],
     "tags": [
@@ -1679,9 +2273,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_transmission",
@@ -1695,14 +2287,16 @@
       {
         "id": "s_transmission_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "the act of transmitting something, such as a signal, disease, or information; or a vehicle's gear system",
         "definitionZh": "傳輸；傳播（疾病、訊號等）；（汽車的）變速箱",
         "usageExplanationZh": "三種常見義項：訊號傳輸、疾病傳播、汽車零件，依上下文判斷。",
-        "examples": [
-          {
-            "en": "The virus spreads through airborne transmission.",
-            "zh": "這種病毒透過空氣傳播。"
-          }
+        "grammarPatterns": [
+          "the transmission of + noun",
+          "airborne transmission"
         ],
         "collocations": [
           {
@@ -1713,7 +2307,32 @@
             "text": "an automatic transmission",
             "meaningZh": "自動變速箱"
           }
+        ],
+        "examples": [
+          {
+            "en": "The virus spreads through airborne transmission.",
+            "zh": "這種病毒透過空氣傳播。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "conveyance",
+        "noteZh": "指傳送的過程"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "transmit",
+        "partOfSpeech": "verb",
+        "meaningZh": "傳送；傳播"
+      },
+      {
+        "lemma": "transmitter",
+        "partOfSpeech": "noun",
+        "meaningZh": "發射器；傳送器"
       }
     ],
     "tags": [
@@ -1727,14 +2346,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "conveyance",
-        "noteZh": "指傳送的過程"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_transmit",
@@ -1748,21 +2360,49 @@
       {
         "id": "s_transmit_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "formal"
+        ],
         "definitionEn": "to cause something (a signal, disease, information) to pass from one place or person to another",
         "definitionZh": "傳送；傳播（訊號、疾病或資訊）",
         "usageExplanationZh": "常見搭配 transmit a signal/disease/data，強調某物從一處傳遞到另一處。",
-        "examples": [
-          {
-            "en": "Mosquitoes can transmit several serious diseases.",
-            "zh": "蚊子能夠傳播數種嚴重的疾病。"
-          }
+        "grammarPatterns": [
+          "transmit + noun",
+          "transmit sth to sb",
+          "be transmitted through + noun"
         ],
         "collocations": [
           {
             "text": "transmit a signal",
             "meaningZh": "傳送訊號"
           }
+        ],
+        "examples": [
+          {
+            "en": "Mosquitoes can transmit several serious diseases.",
+            "zh": "蚊子能夠傳播數種嚴重的疾病。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "send",
+        "noteZh": "指傳送訊號或資訊"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "transmission",
+        "partOfSpeech": "noun",
+        "meaningZh": "傳輸；傳播"
+      },
+      {
+        "lemma": "transmitter",
+        "partOfSpeech": "noun",
+        "meaningZh": "發射機"
       }
     ],
     "tags": [
@@ -1776,14 +2416,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "send",
-        "noteZh": "指傳送訊號或資訊"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_transparent",
@@ -1797,14 +2430,16 @@
       {
         "id": "s_transparent_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "allowing light to pass through so that objects can be seen clearly; or open and honest, without secrets",
         "definitionZh": "透明的；（行事）公開透明的",
         "usageExplanationZh": "兩義項常見：物理透明（transparent glass）與比喻的公開誠實（a transparent process）。",
-        "examples": [
-          {
-            "en": "The company promised a more transparent decision-making process.",
-            "zh": "這家公司承諾將採取更透明的決策流程。"
-          }
+        "grammarPatterns": [
+          "a transparent + noun",
+          "be transparent about + noun"
         ],
         "collocations": [
           {
@@ -1815,7 +2450,37 @@
             "text": "a transparent process",
             "meaningZh": "公開透明的流程"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company promised a more transparent decision-making process.",
+            "zh": "這家公司承諾將採取更透明的決策流程。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "clear",
+        "noteZh": "指可透視的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "opaque",
+        "noteZh": "不透明的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "transparency",
+        "partOfSpeech": "noun",
+        "meaningZh": "透明；透明度"
+      },
+      {
+        "lemma": "transparently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "明顯地；透明地"
       }
     ],
     "tags": [
@@ -1830,19 +2495,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "clear",
-        "noteZh": "指可透視的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "opaque",
-        "noteZh": "不透明的"
-      }
-    ]
+    }
   },
   {
     "id": "w_transplant",
@@ -1856,40 +2509,70 @@
       {
         "id": "s_transplant_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "formal"
+        ],
         "definitionEn": "to transfer an organ or tissue surgically from one body or part to another; or to move a plant/person to a new place",
         "definitionZh": "移植（器官、組織）；移栽；使遷移",
         "usageExplanationZh": "醫學語境多指器官移植（transplant a kidney），也可指植物移植或人員的重新安置。",
-        "examples": [
-          {
-            "en": "Doctors successfully transplanted a new kidney into the patient.",
-            "zh": "醫生成功地為病患移植了一顆新的腎臟。"
-          }
+        "grammarPatterns": [
+          "transplant + noun",
+          "transplant sth into sb"
         ],
         "collocations": [
           {
             "text": "transplant seedlings",
             "meaningZh": "移栽幼苗"
           }
+        ],
+        "examples": [
+          {
+            "en": "Doctors successfully transplanted a new kidney into the patient.",
+            "zh": "醫生成功地為病患移植了一顆新的腎臟。"
+          }
         ]
       },
       {
         "id": "s_transplant_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a surgical operation in which an organ or tissue is transferred from one body to another; the organ or tissue itself",
         "definitionZh": "（器官）移植手術；移植物",
         "usageExplanationZh": "常見搭配 a heart/kidney transplant、undergo a transplant，指手術本身或被移植的器官。",
-        "examples": [
-          {
-            "en": "She is on the waiting list for a heart transplant.",
-            "zh": "她正在等待心臟移植手術的名單上。"
-          }
+        "grammarPatterns": [
+          "a heart transplant",
+          "undergo a transplant"
         ],
         "collocations": [
           {
             "text": "a kidney transplant",
             "meaningZh": "腎臟移植"
           }
+        ],
+        "examples": [
+          {
+            "en": "She is on the waiting list for a heart transplant.",
+            "zh": "她正在等待心臟移植手術的名單上。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "relocate",
+        "noteZh": "指把植物或人移至新地方"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "transplantation",
+        "partOfSpeech": "noun",
+        "meaningZh": "移植術"
       }
     ],
     "tags": [
@@ -1903,14 +2586,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "relocate",
-        "noteZh": "指把植物或人移至新地方"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_transplantation",
@@ -1924,21 +2600,43 @@
       {
         "id": "s_transplantation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "the surgical process of transplanting an organ or tissue",
         "definitionZh": "（器官或組織的）移植術",
         "usageExplanationZh": "比 transplant 更正式、學術化，常見於醫學文獻，如 organ transplantation。",
-        "examples": [
-          {
-            "en": "Organ transplantation has saved countless lives over the past decades.",
-            "zh": "器官移植術在過去數十年間拯救了無數生命。"
-          }
+        "grammarPatterns": [
+          "organ transplantation",
+          "the transplantation of + noun"
         ],
         "collocations": [
           {
             "text": "organ transplantation",
             "meaningZh": "器官移植術"
           }
+        ],
+        "examples": [
+          {
+            "en": "Organ transplantation has saved countless lives over the past decades.",
+            "zh": "器官移植術在過去數十年間拯救了無數生命。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "grafting",
+        "noteZh": "指將組織移植到另一部位，適用範圍較窄"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "transplant",
+        "partOfSpeech": "verb",
+        "meaningZh": "移植"
       }
     ],
     "tags": [
@@ -1951,14 +2649,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "grafting",
-        "noteZh": "指將組織移植到另一部位，適用範圍較窄"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_transpose",
@@ -1972,14 +2663,16 @@
       {
         "id": "s_transpose_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "to change the order or position of two or more things; to move to a different key in music",
         "definitionZh": "使互換位置；調換順序；（音樂）移調",
         "usageExplanationZh": "常見搭配 transpose letters/numbers（調換字母或數字順序）、transpose a piece of music into another key。",
-        "examples": [
-          {
-            "en": "He accidentally transposed two digits in the phone number.",
-            "zh": "他不小心把電話號碼中的兩個數字調換了位置。"
-          }
+        "grammarPatterns": [
+          "transpose A and B",
+          "transpose sth into + noun"
         ],
         "collocations": [
           {
@@ -1990,7 +2683,27 @@
             "text": "transpose a melody",
             "meaningZh": "將旋律移調"
           }
+        ],
+        "examples": [
+          {
+            "en": "He accidentally transposed two digits in the phone number.",
+            "zh": "他不小心把電話號碼中的兩個數字調換了位置。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "interchange",
+        "noteZh": "指互換位置"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "transposition",
+        "partOfSpeech": "noun",
+        "meaningZh": "調換；移位；移調"
       }
     ],
     "tags": [
@@ -2003,14 +2716,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "interchange",
-        "noteZh": "指互換位置"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_trap",
@@ -2024,14 +2730,15 @@
       {
         "id": "s_trap_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a device or trick designed to catch and hold an animal or person, or to deceive someone",
         "definitionZh": "陷阱；圈套",
         "usageExplanationZh": "常見搭配 set a trap、fall into a trap；亦可比喻指困境或騙局，如 a tourist trap。",
-        "examples": [
-          {
-            "en": "The hunter set a trap to catch the fox.",
-            "zh": "獵人設下陷阱來捕捉狐狸。"
-          }
+        "grammarPatterns": [
+          "set a trap for + noun",
+          "fall into a trap"
         ],
         "collocations": [
           {
@@ -2042,7 +2749,32 @@
             "text": "fall into a trap",
             "meaningZh": "掉入圈套"
           }
+        ],
+        "examples": [
+          {
+            "en": "The hunter set a trap to catch the fox.",
+            "zh": "獵人設下陷阱來捕捉狐狸。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "snare",
+        "noteZh": "指捕捉用的陷阱"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "trapper",
+        "partOfSpeech": "noun",
+        "meaningZh": "設陷阱捕獸者"
+      },
+      {
+        "lemma": "entrap",
+        "partOfSpeech": "verb",
+        "meaningZh": "誘捕；使落入圈套"
       }
     ],
     "tags": [
@@ -2056,14 +2788,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "snare",
-        "noteZh": "指捕捉用的陷阱"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_trash",
@@ -2077,40 +2802,69 @@
       {
         "id": "s_trash_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "waste material that is discarded; rubbish",
         "definitionZh": "垃圾；廢棄物",
         "usageExplanationZh": "美式英語常用 trash，英式英語多用 rubbish；亦可比喻指劣質、沒有價值的東西。",
-        "examples": [
-          {
-            "en": "Please take out the trash before you leave.",
-            "zh": "你離開前請把垃圾拿出去丟。"
-          }
+        "grammarPatterns": [
+          "take out the trash",
+          "a pile of trash"
         ],
         "collocations": [
           {
             "text": "take out the trash",
             "meaningZh": "倒垃圾"
           }
+        ],
+        "examples": [
+          {
+            "en": "Please take out the trash before you leave.",
+            "zh": "你離開前請把垃圾拿出去丟。"
+          }
         ]
       },
       {
         "id": "s_trash_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "to damage or destroy something violently, or to criticize something harshly",
         "definitionZh": "搗毀；破壞；嚴厲批評",
         "usageExplanationZh": "口語用法，常見搭配 trash a hotel room（搗毀房間）、trash someone's reputation（詆毀名譽）。",
-        "examples": [
-          {
-            "en": "The critics trashed the film in their reviews.",
-            "zh": "評論家們在評論中對這部電影大加批評。"
-          }
+        "grammarPatterns": [
+          "trash + noun",
+          "trash sb's + noun"
         ],
         "collocations": [
           {
             "text": "trash a hotel room",
             "meaningZh": "搗毀飯店房間"
           }
+        ],
+        "examples": [
+          {
+            "en": "The critics trashed the film in their reviews.",
+            "zh": "評論家們在評論中對這部電影大加批評。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "rubbish",
+        "noteZh": "指垃圾的名詞義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "trashy",
+        "partOfSpeech": "adjective",
+        "meaningZh": "粗劣的；廉價的"
       }
     ],
     "tags": [
@@ -2123,14 +2877,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "rubbish",
-        "noteZh": "指垃圾的名詞義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_trauma",
@@ -2144,14 +2891,16 @@
       {
         "id": "s_trauma_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a deeply distressing or disturbing experience; or a serious physical injury",
         "definitionZh": "精神創傷；（身體）重大創傷",
         "usageExplanationZh": "兩義項常見：心理創傷（emotional trauma）與身體傷害（blunt force trauma），依語境判斷。",
-        "examples": [
-          {
-            "en": "The accident left him with lasting psychological trauma.",
-            "zh": "那場意外讓他留下了持久的心理創傷。"
-          }
+        "grammarPatterns": [
+          "psychological trauma",
+          "the trauma of + V-ing"
         ],
         "collocations": [
           {
@@ -2162,7 +2911,27 @@
             "text": "head trauma",
             "meaningZh": "頭部創傷"
           }
+        ],
+        "examples": [
+          {
+            "en": "The accident left him with lasting psychological trauma.",
+            "zh": "那場意外讓他留下了持久的心理創傷。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "traumatic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "創傷的；令人痛苦的"
+      },
+      {
+        "lemma": "traumatize",
+        "partOfSpeech": "verb",
+        "meaningZh": "使受精神創傷"
       }
     ],
     "tags": [
@@ -2175,9 +2944,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_traverse",
@@ -2191,21 +2958,43 @@
       {
         "id": "s_traverse_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to travel across or through an area, especially one that is difficult",
         "definitionZh": "橫越；穿越（艱難地形）",
         "usageExplanationZh": "書面正式用語，常見搭配 traverse a desert/mountain range，強調路途艱辛漫長。",
-        "examples": [
-          {
-            "en": "The explorers traversed the vast desert on camelback.",
-            "zh": "探險隊騎著駱駝橫越了廣闊的沙漠。"
-          }
+        "grammarPatterns": [
+          "traverse + noun",
+          "traverse sth on foot"
         ],
         "collocations": [
           {
             "text": "traverse a mountain range",
             "meaningZh": "穿越山脈"
           }
+        ],
+        "examples": [
+          {
+            "en": "The explorers traversed the vast desert on camelback.",
+            "zh": "探險隊騎著駱駝橫越了廣闊的沙漠。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "cross",
+        "noteZh": "指橫越某地"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "traversal",
+        "partOfSpeech": "noun",
+        "meaningZh": "橫越；穿越"
       }
     ],
     "tags": [
@@ -2220,14 +3009,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cross",
-        "noteZh": "指橫越某地"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_tray",
@@ -2241,23 +3023,32 @@
       {
         "id": "s_tray_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a flat container with a raised edge, used for carrying or holding items",
         "definitionZh": "托盤；盤子",
         "usageExplanationZh": "常見搭配 a tea/serving tray、carry a tray；亦見於辦公室文具 in-tray（待處理文件盤）。",
-        "examples": [
-          {
-            "en": "The waiter carried a tray of drinks to the table.",
-            "zh": "服務生端了一托盤的飲料到桌邊。"
-          }
+        "grammarPatterns": [
+          "a tray of + noun",
+          "carry a tray"
         ],
         "collocations": [
           {
             "text": "a serving tray",
             "meaningZh": "上菜托盤"
           }
+        ],
+        "examples": [
+          {
+            "en": "The waiter carried a tray of drinks to the table.",
+            "zh": "服務生端了一托盤的飲料到桌邊。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -2268,9 +3059,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_tread",
@@ -2284,33 +3073,43 @@
       {
         "id": "s_tread_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "the pattern of grooves on a tire or shoe sole; or the manner or sound of walking",
         "definitionZh": "（輪胎或鞋底的）胎紋；花紋；腳步聲",
         "usageExplanationZh": "常見搭配 tire tread（輪胎胎紋）、a heavy tread（沉重的腳步聲）。",
-        "examples": [
-          {
-            "en": "The tire's tread was worn down and needed replacing.",
-            "zh": "這個輪胎的胎紋已磨損，需要更換。"
-          }
+        "grammarPatterns": [
+          "the tread on a tire",
+          "worn tread"
         ],
         "collocations": [
           {
             "text": "tire tread",
             "meaningZh": "輪胎胎紋"
           }
+        ],
+        "examples": [
+          {
+            "en": "The tire's tread was worn down and needed replacing.",
+            "zh": "這個輪胎的胎紋已磨損，需要更換。"
+          }
         ]
       },
       {
         "id": "s_tread_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to walk in a particular way or direction, especially by putting one's foot down",
         "definitionZh": "踩；踏；行走",
         "usageExplanationZh": "常見片語 tread carefully/lightly（謹慎行事）、tread water（踩水）。",
-        "examples": [
-          {
-            "en": "He had to tread carefully to avoid the broken glass.",
-            "zh": "他必須小心翼翼地走，以免踩到碎玻璃。"
-          }
+        "grammarPatterns": [
+          "tread carefully",
+          "tread on + noun"
         ],
         "collocations": [
           {
@@ -2321,9 +3120,22 @@
             "text": "tread on someone's toes",
             "meaningZh": "踩到某人的腳；冒犯某人"
           }
+        ],
+        "examples": [
+          {
+            "en": "He had to tread carefully to avoid the broken glass.",
+            "zh": "他必須小心翼翼地走，以免踩到碎玻璃。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "step",
+        "noteZh": "指踏步的動詞義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2335,14 +3147,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "step",
-        "noteZh": "指踏步的動詞義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_treasurer",
@@ -2356,21 +3161,43 @@
       {
         "id": "s_treasurer_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "a person responsible for managing the financial affairs of an organization or club",
         "definitionZh": "財務主管；司庫",
         "usageExplanationZh": "常見搭配 club/company treasurer；為職務名稱，常見於社團、企業或政府機構。",
-        "examples": [
-          {
-            "en": "She was elected treasurer of the student association.",
-            "zh": "她被選為學生會的財務主管。"
-          }
+        "grammarPatterns": [
+          "be elected treasurer",
+          "the treasurer of + noun"
         ],
         "collocations": [
           {
             "text": "the club treasurer",
             "meaningZh": "俱樂部司庫"
           }
+        ],
+        "examples": [
+          {
+            "en": "She was elected treasurer of the student association.",
+            "zh": "她被選為學生會的財務主管。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "treasury",
+        "partOfSpeech": "noun",
+        "meaningZh": "國庫；財政部"
+      },
+      {
+        "lemma": "treasure",
+        "partOfSpeech": "noun",
+        "meaningZh": "財寶；珍寶"
       }
     ],
     "tags": [
@@ -2383,9 +3210,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_treaty",
@@ -2399,14 +3224,17 @@
       {
         "id": "s_treaty_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a formal agreement between two or more countries or parties",
         "definitionZh": "條約；協定",
         "usageExplanationZh": "常見搭配 sign/ratify a treaty、a peace treaty；用於正式的國際或政治協議語境。",
-        "examples": [
-          {
-            "en": "The two nations signed a treaty to end the conflict.",
-            "zh": "兩國簽署了一項條約以結束衝突。"
-          }
+        "grammarPatterns": [
+          "sign a treaty",
+          "a treaty between A and B",
+          "a treaty to + verb"
         ],
         "collocations": [
           {
@@ -2417,9 +3245,22 @@
             "text": "a peace treaty",
             "meaningZh": "和平條約"
           }
+        ],
+        "examples": [
+          {
+            "en": "The two nations signed a treaty to end the conflict.",
+            "zh": "兩國簽署了一項條約以結束衝突。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "pact",
+        "noteZh": "指正式協定"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -2431,14 +3272,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pact",
-        "noteZh": "指正式協定"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_trek",
@@ -2452,40 +3286,68 @@
       {
         "id": "s_trek_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to make a long, difficult journey, especially on foot",
         "definitionZh": "長途跋涉；徒步旅行",
         "usageExplanationZh": "常見搭配 trek through the mountains/jungle，強調路途艱辛遙遠，常見於健行、探險語境。",
-        "examples": [
-          {
-            "en": "They trekked for days through the Himalayas.",
-            "zh": "他們在喜馬拉雅山中跋涉了好幾天。"
-          }
+        "grammarPatterns": [
+          "trek through + noun",
+          "trek for + noun"
         ],
         "collocations": [
           {
             "text": "trek through the mountains",
             "meaningZh": "徒步穿越山區"
           }
+        ],
+        "examples": [
+          {
+            "en": "They trekked for days through the Himalayas.",
+            "zh": "他們在喜馬拉雅山中跋涉了好幾天。"
+          }
         ]
       },
       {
         "id": "s_trek_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a long, arduous journey, especially on foot",
         "definitionZh": "長途跋涉；長途旅程",
         "usageExplanationZh": "常見搭配 go on a trek、a trek to somewhere；也可誇飾指日常瑣事所需的漫長距離。",
-        "examples": [
-          {
-            "en": "The trek to the summit took nearly a week.",
-            "zh": "前往山頂的長途跋涉花了將近一週。"
-          }
+        "grammarPatterns": [
+          "a trek to + noun",
+          "a long trek through + noun"
         ],
         "collocations": [
           {
             "text": "a long trek",
             "meaningZh": "漫長的徒步旅程"
           }
+        ],
+        "examples": [
+          {
+            "en": "The trek to the summit took nearly a week.",
+            "zh": "前往山頂的長途跋涉花了將近一週。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "hike",
+        "noteZh": "指較長距離的徒步旅行"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "trekker",
+        "partOfSpeech": "noun",
+        "meaningZh": "徒步旅行者"
       }
     ],
     "tags": [
@@ -2499,14 +3361,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "hike",
-        "noteZh": "指較長距離的徒步旅行"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_tremble",
@@ -2520,42 +3375,65 @@
       {
         "id": "s_tremble_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "an instance of shaking, especially from fear, cold, or weakness",
         "definitionZh": "顫抖；發抖",
         "usageExplanationZh": "常見搭配 a tremble in one's voice/hands；也可作動詞，指身體因情緒或生理因素而顫動。",
-        "examples": [
-          {
-            "en": "There was a slight tremble in her voice as she spoke.",
-            "zh": "她說話時聲音帶有一絲顫抖。"
-          }
+        "grammarPatterns": [
+          "a tremble in sb's voice",
+          "a slight tremble"
         ],
         "collocations": [
           {
             "text": "a tremble in her voice",
             "meaningZh": "她聲音中的顫抖"
           }
+        ],
+        "examples": [
+          {
+            "en": "There was a slight tremble in her voice as she spoke.",
+            "zh": "她說話時聲音帶有一絲顫抖。"
+          }
         ]
       },
       {
         "id": "s_tremble_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "to shake involuntarily, typically from fear, excitement, or weakness",
         "definitionZh": "顫抖；發抖",
         "usageExplanationZh": "常見搭配 tremble with fear/excitement；強調非自主性的身體顫動。",
-        "examples": [
-          {
-            "en": "His hands trembled as he opened the letter.",
-            "zh": "他打開信件時雙手在顫抖。"
-          }
+        "grammarPatterns": [
+          "tremble with + noun",
+          "sb's hands tremble"
         ],
         "collocations": [
           {
             "text": "tremble with fear",
             "meaningZh": "嚇得發抖"
           }
+        ],
+        "examples": [
+          {
+            "en": "His hands trembled as he opened the letter.",
+            "zh": "他打開信件時雙手在顫抖。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "quiver",
+        "noteZh": "可指細微顫動或發抖"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2567,14 +3445,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "quiver",
-        "noteZh": "可指細微顫動或發抖"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_tremendous",
@@ -2588,21 +3459,47 @@
       {
         "id": "s_tremendous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "very great in amount, scale, or intensity; extremely good",
         "definitionZh": "巨大的；極大的；極好的",
         "usageExplanationZh": "常修飾抽象名詞如 tremendous effort/success/pressure，語氣強烈，可正面或中性使用。",
-        "examples": [
-          {
-            "en": "The team put in a tremendous effort to finish the project on time.",
-            "zh": "這個團隊付出了極大的努力，準時完成了這個專案。"
-          }
+        "grammarPatterns": [
+          "a tremendous + noun",
+          "tremendous amounts of + noun"
         ],
         "collocations": [
           {
             "text": "a tremendous effort",
             "meaningZh": "極大的努力"
           }
+        ],
+        "examples": [
+          {
+            "en": "The team put in a tremendous effort to finish the project on time.",
+            "zh": "這個團隊付出了極大的努力，準時完成了這個專案。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "enormous",
+        "noteZh": "指程度或規模巨大的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "tiny",
+        "noteZh": "指規模極小的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "tremendously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "極其地；非常地"
       }
     ],
     "tags": [
@@ -2617,19 +3514,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "enormous",
-        "noteZh": "指程度或規模巨大的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "tiny",
-        "noteZh": "指規模極小的"
-      }
-    ]
+    }
   },
   {
     "id": "w_trench",
@@ -2643,42 +3528,64 @@
       {
         "id": "s_trench_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a long, narrow ditch dug in the ground, especially for military defense or drainage",
         "definitionZh": "壕溝；戰壕",
         "usageExplanationZh": "常見搭配 dig a trench、trench warfare（壕溝戰，常指第一次世界大戰的作戰方式）。",
-        "examples": [
-          {
-            "en": "Soldiers dug trenches to protect themselves from enemy fire.",
-            "zh": "士兵們挖掘壕溝以躲避敵軍砲火。"
-          }
+        "grammarPatterns": [
+          "dig a trench",
+          "in the trenches"
         ],
         "collocations": [
           {
             "text": "a drainage trench",
             "meaningZh": "排水溝"
           }
+        ],
+        "examples": [
+          {
+            "en": "Soldiers dug trenches to protect themselves from enemy fire.",
+            "zh": "士兵們挖掘壕溝以躲避敵軍砲火。"
+          }
         ]
       },
       {
         "id": "s_trench_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical"
+        ],
         "definitionEn": "to dig a trench or trenches in an area of ground",
         "definitionZh": "挖掘壕溝；開溝",
         "usageExplanationZh": "較少見的動詞用法，常見於工程或農業語境，如 trench a field for drainage。",
-        "examples": [
-          {
-            "en": "Workers trenched the field to install new drainage pipes.",
-            "zh": "工人在田裡開溝以安裝新的排水管。"
-          }
+        "grammarPatterns": [
+          "trench + noun",
+          "trench an area for + noun"
         ],
         "collocations": [
           {
             "text": "trench the ground",
             "meaningZh": "在地面開溝"
           }
+        ],
+        "examples": [
+          {
+            "en": "Workers trenched the field to install new drainage pipes.",
+            "zh": "工人在田裡開溝以安裝新的排水管。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "ditch",
+        "noteZh": "指地上挖出的溝"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2691,13 +3598,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "ditch",
-        "noteZh": "指地上挖出的溝"
-      }
-    ],
-    "antonyms": []
+    }
   }
 ]

@@ -4,23 +4,23 @@
     "type": "grammar",
     "cefr": "B2",
     "wordIds": ["w_anticipate"],
-    "prompt": "Which form follows \"anticipate\"?",
-    "context": "We anticipate ____ the migration next quarter.",
+    "prompt": "Choose the option that correctly completes the sentence.",
+    "context": "The project office anticipates ____ the migration in three stages, beginning with the two smallest regional offices in early March.",
     "options": [
-      { "id": "a", "text": "finishing" },
-      { "id": "b", "text": "to finish" },
-      { "id": "c", "text": "finish" },
-      { "id": "d", "text": "to finishing" }
+      { "id": "a", "text": "completing" },
+      { "id": "b", "text": "to complete" },
+      { "id": "c", "text": "completion" },
+      { "id": "d", "text": "complete" }
     ],
     "correctOptionId": "a",
-    "explanation": "anticipate 後面接動名詞，不接不定詞。要用不定詞請改用 expect to finish。",
+    "explanation": "anticipate 後面接動作時只能用動名詞（anticipate doing something）；動名詞保有動詞性質，所以可以直接帶受詞 the migration。",
     "distractorExplanations": {
-      "b": "這是中文母語者最常見的錯誤：anticipate 不接 to + 原形。",
-      "c": "缺少任何動詞形式標記，語法不成立。",
-      "d": "to 與動名詞不能這樣並用。"
+      "b": "anticipate 不接不定詞，這是中文母語者最常見的錯誤；要用 to + 原形請改說 expect to complete。",
+      "c": "completion 是名詞，若要使用必須補上冠詞與介系詞，寫成 anticipates the completion of the migration。",
+      "d": "complete 是原形動詞，及物動詞 anticipates 的受詞不能是原形動詞。"
     },
-    "difficulty": 3,
-    "tags": ["gerund", "pattern"],
+    "difficulty": 4,
+    "tags": ["verb-pattern", "gerund"],
     "source": "curated"
   },
   {
@@ -28,22 +28,23 @@
     "type": "grammar",
     "cefr": "B2",
     "wordIds": ["w_allocate"],
-    "prompt": "Which sentence uses the correct structure?",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "The committee has not yet decided how much of the reserve fund should be ____ to the regional offices for staff training.",
     "options": [
-      { "id": "a", "text": "We allocated three servers to the analytics team." },
-      { "id": "b", "text": "We allocated the analytics team with three servers." },
-      { "id": "c", "text": "We allocated for the analytics team three servers." },
-      { "id": "d", "text": "We allocated three servers of the analytics team." }
+      { "id": "a", "text": "allocating" },
+      { "id": "b", "text": "allocated" },
+      { "id": "c", "text": "allocation" },
+      { "id": "d", "text": "allocate" }
     ],
-    "correctOptionId": "a",
-    "explanation": "allocate 的句型是 allocate + 資源 + to + 接受者。",
+    "correctOptionId": "b",
+    "explanation": "should be + 過去分詞構成被動語態；主詞 how much of the reserve fund 是被分配的對象，故用 allocated。主動句型則是 allocate + 資源 + to + 接受者。",
     "distractorExplanations": {
-      "b": "allocate 不搭配 with 引出資源，這是常見的誤用。",
-      "c": "語序錯誤，且 allocate 不接 for 引出接受者。",
-      "d": "of 表示所屬關係，無法表達分配動作。"
+      "a": "allocating 會構成主動進行式，但 allocate 是及物動詞，這裡沒有受詞，而且經費是被分配的一方，不是分配者。",
+      "c": "allocation 是名詞，be 動詞後面若接名詞必須有冠詞，句意也會變得不通。",
+      "d": "allocate 是原形動詞，be 動詞後面不能直接接原形動詞。"
     },
-    "difficulty": 3,
-    "tags": ["preposition", "pattern"],
+    "difficulty": 4,
+    "tags": ["word-form", "passive"],
     "source": "curated"
   },
   {
@@ -51,23 +52,23 @@
     "type": "grammar",
     "cefr": "B2",
     "wordIds": ["w_adequate"],
-    "prompt": "Which preposition follows \"adequate\" here?",
-    "context": "The current server is adequate ____ our traffic.",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "The current network capacity is not ____ documented, which makes it difficult for the new operations team to plan for peak-hour traffic.",
     "options": [
-      { "id": "a", "text": "for" },
-      { "id": "b", "text": "to" },
-      { "id": "c", "text": "with" },
-      { "id": "d", "text": "of" }
+      { "id": "a", "text": "inadequate" },
+      { "id": "b", "text": "adequate" },
+      { "id": "c", "text": "adequately" },
+      { "id": "d", "text": "adequacy" }
     ],
-    "correctOptionId": "a",
-    "explanation": "adequate 接名詞時用 for；接動詞時用 to + 原形（adequate to handle the load）。",
+    "correctOptionId": "c",
+    "explanation": "空格修飾過去分詞 documented，這個位置只能用副詞 adequately；形容詞 adequate 則搭配 for + 名詞（adequate for our traffic）或 to + 原形動詞。",
     "distractorExplanations": {
-      "b": "to 只用於 adequate to + 原形動詞的結構，後面不能直接接名詞。",
-      "c": "with 不與 adequate 搭配。",
-      "d": "of 不與 adequate 搭配。"
+      "a": "inadequate 的語意方向看似合理，但詞性仍是形容詞，一樣不能修飾 documented。",
+      "b": "adequate 是形容詞，形容詞不能修飾過去分詞 documented。",
+      "d": "adequacy 是名詞（適足性），名詞不能夾在 be 動詞與過去分詞之間。"
     },
-    "difficulty": 2,
-    "tags": ["preposition", "pattern"],
+    "difficulty": 3,
+    "tags": ["word-form", "adverb"],
     "source": "curated"
   },
   {
@@ -75,22 +76,23 @@
     "type": "grammar",
     "cefr": "B2",
     "wordIds": ["w_ensure"],
-    "prompt": "Which sentence is correct?",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "The revised workflow makes it possible to ____ that every purchase order carries a valid cost centre code before payment is released.",
     "options": [
-      { "id": "a", "text": "Ensure that every request carries a trace id." },
-      { "id": "b", "text": "Ensure every request to carry a trace id." },
-      { "id": "c", "text": "Ensure to every request a trace id." },
-      { "id": "d", "text": "Ensure about every request carrying a trace id." }
+      { "id": "a", "text": "ensures" },
+      { "id": "b", "text": "ensuring" },
+      { "id": "c", "text": "assurance" },
+      { "id": "d", "text": "ensure" }
     ],
-    "correctOptionId": "a",
-    "explanation": "ensure 後面接 that 子句（that 可省略）或名詞，是標準的技術文件句型。",
+    "correctOptionId": "d",
+    "explanation": "make it possible to + 原形動詞，這裡的 to 是不定詞記號，所以要用原形 ensure；ensure 後面接 that 子句（that 可省略）。",
     "distractorExplanations": {
-      "b": "ensure 不接「受詞 + to 不定詞」的結構。",
-      "c": "語序錯誤，ensure 也不接雙受詞。",
-      "d": "ensure 不搭配 about。"
+      "a": "ensures 是限定動詞形式，不定詞記號 to 後面只能接原形動詞。",
+      "b": "ensuring 是動名詞，只能接在真正的介系詞之後（如 responsible for ensuring），不能接在不定詞記號 to 之後。",
+      "c": "assurance 是名詞，雖然可以說 the assurance that...，但此處的 to 是不定詞記號，後面不能接名詞。"
     },
-    "difficulty": 2,
-    "tags": ["pattern", "clause"],
+    "difficulty": 4,
+    "tags": ["word-form", "infinitive"],
     "source": "curated"
   },
   {
@@ -98,22 +100,23 @@
     "type": "grammar",
     "cefr": "B2",
     "wordIds": ["w_emphasis"],
-    "prompt": "Which sentence is grammatically correct?",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "The two main ____ of this year's report are cost control and supply-chain risk, neither of which appeared in the 2024 edition.",
     "options": [
-      { "id": "a", "text": "The two main emphases of the report are cost and risk." },
-      { "id": "b", "text": "The two main emphasis of the report are cost and risk." },
-      { "id": "c", "text": "The two main emphasises of the report are cost and risk." },
-      { "id": "d", "text": "The two main emphasis's of the report are cost and risk." }
+      { "id": "a", "text": "emphases" },
+      { "id": "b", "text": "emphasis" },
+      { "id": "c", "text": "emphasizes" },
+      { "id": "d", "text": "emphatic" }
     ],
     "correctOptionId": "a",
-    "explanation": "emphasis 的複數是 emphases，與 analysis→analyses 同一種希臘語變化。",
+    "explanation": "數量詞 two 與述語動詞 are 都要求複數名詞；emphasis 的複數是 emphases，與 analysis→analyses、basis→bases 屬於同一種希臘語變化。",
     "distractorExplanations": {
-      "b": "emphasis 是單數形，不能搭配 two 與 are。",
-      "c": "emphasises 是動詞 emphasise 的第三人稱單數形，不是名詞複數。",
-      "d": "撇號用於所有格，不用於構成複數。"
+      "b": "emphasis 是單數形，無法搭配 two，也無法與複數動詞 are 一致。",
+      "c": "emphasizes 是動詞 emphasize 的第三人稱單數形，不是名詞複數，不能當主詞的中心語。",
+      "d": "emphatic 是形容詞（語氣強烈的），形容詞不能當名詞片語的中心語。"
     },
-    "difficulty": 3,
-    "tags": ["plural", "common-error"],
+    "difficulty": 4,
+    "tags": ["word-form", "plural"],
     "source": "curated"
   },
   {
@@ -121,23 +124,23 @@
     "type": "grammar",
     "cefr": "C1",
     "wordIds": ["w_comply"],
-    "prompt": "Which preposition is required?",
-    "context": "All services must comply ____ the retention policy.",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "Suppliers that fail to demonstrate full ____ with the new labelling rules will be removed from the approved vendor list next quarter.",
     "options": [
-      { "id": "a", "text": "with" },
-      { "id": "b", "text": "to" },
-      { "id": "c", "text": "for" },
-      { "id": "d", "text": "on" }
+      { "id": "a", "text": "compliant" },
+      { "id": "b", "text": "compliance" },
+      { "id": "c", "text": "complies" },
+      { "id": "d", "text": "comply" }
     ],
-    "correctOptionId": "a",
-    "explanation": "comply 是不及物動詞，固定搭配 with。相對地，conform 才搭配 to。",
+    "correctOptionId": "b",
+    "explanation": "demonstrate 的受詞必須是名詞，形容詞 full 修飾的也必須是名詞，故選 compliance；compliance with、comply with、compliant with 三者的介系詞都是 with。",
     "distractorExplanations": {
-      "b": "comply to 是常見錯誤；to 屬於 conform 的搭配。",
-      "c": "for 不與 comply 搭配。",
-      "d": "on 不與 comply 搭配。"
+      "a": "compliant 是形容詞（正確說法是 fully compliant with），不能當 demonstrate 的受詞，也不能被形容詞 full 修飾。",
+      "c": "complies 是限定動詞形式，不能出現在名詞的位置。",
+      "d": "comply 是原形動詞，動詞不能當另一個動詞的受詞中心語。"
     },
-    "difficulty": 3,
-    "tags": ["preposition", "common-error"],
+    "difficulty": 4,
+    "tags": ["word-form", "noun"],
     "source": "curated"
   },
   {
@@ -145,23 +148,23 @@
     "type": "grammar",
     "cefr": "C1",
     "wordIds": ["w_attribute"],
-    "prompt": "Which preposition completes the pattern?",
-    "context": "Most of the improvement can be attributed ____ caching.",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "The sharp fall in the defect rate can be ____ to the tighter quality checks introduced at the main assembly plant last October.",
     "options": [
-      { "id": "a", "text": "to" },
-      { "id": "b", "text": "by" },
-      { "id": "c", "text": "with" },
-      { "id": "d", "text": "from" }
+      { "id": "a", "text": "attribution" },
+      { "id": "b", "text": "attributing" },
+      { "id": "c", "text": "attributed" },
+      { "id": "d", "text": "attributes" }
     ],
-    "correctOptionId": "a",
-    "explanation": "attribute A to B 的句型在被動語態中同樣保留 to。",
+    "correctOptionId": "c",
+    "explanation": "can be + 過去分詞構成被動語態；attribute A to B 改成被動後是 A be attributed to B，介系詞仍然是 to，不是 by。",
     "distractorExplanations": {
-      "b": "被動語態的 by 用來表示執行動作者，但這裡要表達的是歸因對象。",
-      "c": "with 不與 attribute 搭配。",
-      "d": "from 表示來源，屬於 derive 的搭配。"
+      "a": "attribution 是名詞，be 動詞後接名詞須有冠詞，其搭配也是 attribution of A to B。",
+      "b": "attributing 會構成主動進行式，但 attribute 是及物動詞，此處沒有受詞，而且下降幅度是被歸因的對象。",
+      "d": "attributes 是限定動詞形式（也可是複數名詞），兩者都不能接在 be 動詞之後構成被動語態。"
     },
-    "difficulty": 3,
-    "tags": ["preposition", "pattern"],
+    "difficulty": 4,
+    "tags": ["word-form", "passive"],
     "source": "curated"
   },
   {
@@ -169,23 +172,23 @@
     "type": "grammar",
     "cefr": "C1",
     "wordIds": ["w_indispensable"],
-    "prompt": "Which preposition follows \"indispensable\"?",
-    "context": "Version control is indispensable ____ any team of more than one person.",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "Reliable version control has become ____ to any team of more than one developer, whatever the size of the code base may be.",
     "options": [
-      { "id": "a", "text": "to" },
-      { "id": "b", "text": "of" },
-      { "id": "c", "text": "on" },
-      { "id": "d", "text": "in" }
+      { "id": "a", "text": "dispensably" },
+      { "id": "b", "text": "indispensably" },
+      { "id": "c", "text": "indispensability" },
+      { "id": "d", "text": "indispensable" }
     ],
-    "correctOptionId": "a",
-    "explanation": "indispensable 接名詞時用 to（或 for），表示「對……不可或缺」。",
+    "correctOptionId": "d",
+    "explanation": "become 是連綴動詞，後面要接形容詞當主詞補語，故選 indispensable；其搭配是 indispensable to（或 for）X，表示「對 X 不可或缺」。",
     "distractorExplanations": {
-      "b": "of 不與 indispensable 搭配。",
-      "c": "on 不與 indispensable 搭配。",
-      "d": "in 用於表示範圍，不表達「對某人不可或缺」。"
+      "a": "dispensably 同樣是副詞，詞性不符，語意也與句子的主張相反。",
+      "b": "indispensably 是副詞，連綴動詞 become 後面不能用副詞當補語。",
+      "c": "indispensability 是名詞，當補語時需要冠詞，語意上也不能說「版本控制變成一種不可或缺性」。"
     },
-    "difficulty": 3,
-    "tags": ["preposition", "pattern"],
+    "difficulty": 4,
+    "tags": ["word-form", "adjective"],
     "source": "curated"
   },
   {
@@ -193,22 +196,23 @@
     "type": "grammar",
     "cefr": "C1",
     "wordIds": ["w_facilitate"],
-    "prompt": "Which sentence is correct?",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "The new scheduling tool ____ communication between the design and engineering teams, but it does not replace the weekly review meeting.",
     "options": [
-      { "id": "a", "text": "The tool enables us to deploy faster." },
-      { "id": "b", "text": "The tool facilitates us to deploy faster." },
-      { "id": "c", "text": "The tool facilitates us deploying faster." },
-      { "id": "d", "text": "The tool facilitates for us to deploy faster." }
+      { "id": "a", "text": "facilitates" },
+      { "id": "b", "text": "facilitating" },
+      { "id": "c", "text": "facilitation" },
+      { "id": "d", "text": "facilitate" }
     ],
     "correctOptionId": "a",
-    "explanation": "facilitate 不能接「人 + to do」。要表達「使某人能夠做某事」必須用 enable somebody to do。",
+    "explanation": "主要子句需要限定動詞，主詞 the new scheduling tool 是第三人稱單數，故用 facilitates；注意 facilitate 的受詞只能是過程或活動，不能寫成 facilitate somebody to do something。",
     "distractorExplanations": {
-      "b": "這是 facilitate 最常見的誤用，其受詞只能是過程而非人。",
-      "c": "facilitate 同樣不接「人 + 動名詞」。",
-      "d": "facilitate 不搭配 for + 不定詞結構。"
+      "b": "facilitating 是現在分詞，分詞不能單獨當主要動詞；要用進行式必須寫成 is facilitating。",
+      "c": "facilitation 是名詞，選它整個主要子句就沒有動詞了。",
+      "d": "facilitate 是原形動詞，與第三人稱單數主詞不一致。"
     },
-    "difficulty": 4,
-    "tags": ["pattern", "common-error"],
+    "difficulty": 3,
+    "tags": ["word-form", "verb"],
     "source": "curated"
   },
   {
@@ -216,22 +220,23 @@
     "type": "grammar",
     "cefr": "C1",
     "wordIds": ["w_deteriorate"],
-    "prompt": "Which sentence is grammatically correct?",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "Service quality at the call centre has ____ steadily since the outsourcing contract was signed, according to the latest customer survey.",
     "options": [
-      { "id": "a", "text": "Performance deteriorated after the release." },
-      { "id": "b", "text": "The release deteriorated performance." },
-      { "id": "c", "text": "The release was deteriorated the performance." },
-      { "id": "d", "text": "Performance was deteriorated by the release." }
+      { "id": "a", "text": "deteriorating" },
+      { "id": "b", "text": "deteriorated" },
+      { "id": "c", "text": "deterioration" },
+      { "id": "d", "text": "deteriorate" }
     ],
-    "correctOptionId": "a",
-    "explanation": "deteriorate 是不及物動詞，主詞自己變差，不能帶受詞。",
+    "correctOptionId": "b",
+    "explanation": "has + 過去分詞構成現在完成式，故用 deteriorated；deteriorate 是不及物動詞，主詞自己變差，既不接受詞也沒有被動語態。",
     "distractorExplanations": {
-      "b": "deteriorate 不能接受詞；要表達「使……變差」請用 degraded。",
-      "c": "語法錯誤：被動語態後面又接了受詞。",
-      "d": "不及物動詞沒有被動語態。"
+      "a": "deteriorating 是現在分詞，完成進行式必須補上 been，寫成 has been deteriorating。",
+      "c": "deterioration 是名詞；has 雖然可以當主要動詞，但後面接名詞須有冠詞，也無法被副詞 steadily 修飾。",
+      "d": "deteriorate 是原形動詞，助動詞 has 後面必須接過去分詞。"
     },
-    "difficulty": 4,
-    "tags": ["transitivity", "verb"],
+    "difficulty": 3,
+    "tags": ["word-form", "verb"],
     "source": "curated"
   },
   {
@@ -239,23 +244,23 @@
     "type": "grammar",
     "cefr": "C2",
     "wordIds": ["w_tangential"],
-    "prompt": "Which preposition follows \"tangential\"?",
-    "context": "That concern is tangential ____ today's decision.",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "The chair noted that the objection raised at the meeting was only ____ related to the matter under review and could be handled separately.",
     "options": [
-      { "id": "a", "text": "to" },
-      { "id": "b", "text": "for" },
-      { "id": "c", "text": "with" },
-      { "id": "d", "text": "from" }
+      { "id": "a", "text": "tangents" },
+      { "id": "b", "text": "tangential" },
+      { "id": "c", "text": "tangentially" },
+      { "id": "d", "text": "tangent" }
     ],
-    "correctOptionId": "a",
-    "explanation": "tangential 固定搭配 to，來自幾何學中「切線碰到曲線」的意象。",
+    "correctOptionId": "c",
+    "explanation": "空格修飾過去分詞 related，這個位置必須是副詞，故選 tangentially；形容詞形式的搭配則是 tangential to X。",
     "distractorExplanations": {
-      "b": "for 不與 tangential 搭配。",
-      "c": "with 不與 tangential 搭配。",
-      "d": "from 表示來源，語意不符。"
+      "a": "tangents 是複數名詞，名詞不能夾在 be 動詞與過去分詞之間。",
+      "b": "tangential 是形容詞，形容詞不能修飾過去分詞 related。",
+      "d": "tangent 是名詞（切線；離題的話），詞性同樣不符合這個修飾語的位置。"
     },
     "difficulty": 4,
-    "tags": ["preposition", "academic"],
+    "tags": ["word-form", "adverb"],
     "source": "curated"
   },
   {
@@ -263,22 +268,23 @@
     "type": "grammar",
     "cefr": "C1",
     "wordIds": ["w_optimal"],
-    "prompt": "Which sentence is preferred in careful technical writing?",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "Further ____ of the query index produced only marginal gains, so the team turned its attention to the reporting layer instead.",
     "options": [
-      { "id": "a", "text": "This layout is better than the previous one." },
-      { "id": "b", "text": "This layout is more optimal than the previous one." },
-      { "id": "c", "text": "This layout is optimaler than the previous one." },
-      { "id": "d", "text": "This layout is most optimal than the previous one." }
+      { "id": "a", "text": "optimal" },
+      { "id": "b", "text": "optimally" },
+      { "id": "c", "text": "optimize" },
+      { "id": "d", "text": "optimization" }
     ],
-    "correctOptionId": "a",
-    "explanation": "optimal 本身就是「在給定條件下最好的」，沒有程度之分，因此比較時應改用 better。",
+    "correctOptionId": "d",
+    "explanation": "句首是主詞位置，Further 是修飾名詞的形容詞，因此空格要用名詞 optimization；另外請記得 optimal 本身已含「最佳」之意，比較時應改用 better 而非 more optimal。",
     "distractorExplanations": {
-      "b": "more optimal 在技術寫作中會被視為用語不嚴謹。",
-      "c": "optimal 沒有 -er 比較級形式。",
-      "d": "最高級不能與 than 連用，語法也不成立。"
+      "a": "optimal 是形容詞，形容詞同樣不能當名詞片語的中心語。",
+      "b": "optimally 是副詞，副詞不能當動詞 produced 的主詞。",
+      "c": "optimize 是原形動詞，動詞不能當主詞的中心語。"
     },
-    "difficulty": 4,
-    "tags": ["comparative", "precision"],
+    "difficulty": 5,
+    "tags": ["word-form", "noun"],
     "source": "curated"
   }
 ]

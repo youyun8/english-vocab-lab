@@ -11,21 +11,38 @@
       {
         "id": "s_orbit_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "the curved path of an object around a star, planet, or moon",
         "definitionZh": "軌道",
         "usageExplanationZh": "天文用語，常見 in orbit、the moon's orbit，指天體環繞另一天體運行的路徑。",
-        "examples": [
-          {
-            "en": "The satellite entered Earth's orbit successfully.",
-            "zh": "這顆衛星成功進入地球軌道。"
-          }
+        "grammarPatterns": [
+          "in orbit around + noun",
+          "enter orbit"
         ],
         "collocations": [
           {
             "text": "in orbit around Earth",
             "meaningZh": "在繞地球的軌道上"
           }
+        ],
+        "examples": [
+          {
+            "en": "The satellite entered Earth's orbit successfully.",
+            "zh": "這顆衛星成功進入地球軌道。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "orbital",
+        "partOfSpeech": "adjective",
+        "meaningZh": "軌道的"
       }
     ],
     "tags": [
@@ -39,9 +56,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_orchestra",
@@ -55,21 +70,42 @@
       {
         "id": "s_orchestra_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a large group of musicians who play various instruments together",
         "definitionZh": "管弦樂團",
         "usageExplanationZh": "音樂用語，常見 a symphony orchestra、conduct an orchestra，指演奏古典音樂的大型樂團。",
-        "examples": [
-          {
-            "en": "The orchestra performed a symphony by Beethoven.",
-            "zh": "這個管弦樂團演奏了一首貝多芬的交響曲。"
-          }
+        "grammarPatterns": [
+          "play in an orchestra",
+          "a symphony orchestra"
         ],
         "collocations": [
           {
             "text": "a symphony orchestra",
             "meaningZh": "交響樂團"
           }
+        ],
+        "examples": [
+          {
+            "en": "The orchestra performed a symphony by Beethoven.",
+            "zh": "這個管弦樂團演奏了一首貝多芬的交響曲。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "orchestral",
+        "partOfSpeech": "adjective",
+        "meaningZh": "管弦樂的"
+      },
+      {
+        "lemma": "orchestrate",
+        "partOfSpeech": "verb",
+        "meaningZh": "編成管弦樂；精心策劃"
       }
     ],
     "tags": [
@@ -84,9 +120,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_ordain",
@@ -100,21 +134,43 @@
       {
         "id": "s_ordain_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to officially make someone a priest or minister, or to order something by law or decree",
         "definitionZh": "授予聖職；（正式）命令、規定",
         "usageExplanationZh": "宗教義如 ordain a priest；法律或命運義如 fate ordained that...，語氣正式書面。",
-        "examples": [
-          {
-            "en": "She was ordained as a minister after years of theological study.",
-            "zh": "經過多年的神學研讀後，她被授予了牧師聖職。"
-          }
+        "grammarPatterns": [
+          "be ordained as + noun",
+          "ordain that + clause"
         ],
         "collocations": [
           {
             "text": "be ordained as a priest",
             "meaningZh": "被授予神父聖職"
           }
+        ],
+        "examples": [
+          {
+            "en": "She was ordained as a minister after years of theological study.",
+            "zh": "經過多年的神學研讀後，她被授予了牧師聖職。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "decree",
+        "noteZh": "正式命令義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "ordination",
+        "partOfSpeech": "noun",
+        "meaningZh": "授聖職禮"
       }
     ],
     "tags": [
@@ -127,14 +183,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "decree",
-        "noteZh": "正式命令義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_ordnance",
@@ -148,23 +197,38 @@
       {
         "id": "s_ordnance_noun",
         "partOfSpeech": "noun",
-        "definitionEn": "military weapons, ammunition, and equipment",
+        "register": [
+          "technical",
+          "formal"
+        ],
+        "definitionEn": "artillery and ammunition held as official military stores",
         "definitionZh": "軍火；軍需品",
         "usageExplanationZh": "軍事用語，語氣正式，常見於官方或軍事文件，如 ordnance depot（軍火庫）。",
-        "examples": [
-          {
-            "en": "The base stores large quantities of ordnance for training exercises.",
-            "zh": "這座基地儲存了大量軍火供訓練演習使用。"
-          }
+        "grammarPatterns": [
+          "unexploded ordnance",
+          "store ordnance"
         ],
         "collocations": [
           {
             "text": "unexploded ordnance",
             "meaningZh": "未爆彈藥"
           }
+        ],
+        "examples": [
+          {
+            "en": "The base stores large quantities of ordnance for training exercises.",
+            "zh": "這座基地儲存了大量軍火供訓練演習使用。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "armaments",
+        "noteZh": "軍備"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -175,14 +239,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "armaments",
-        "noteZh": "軍備"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_organic",
@@ -196,21 +253,48 @@
       {
         "id": "s_organic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "relating to living organisms, or (of food) produced without synthetic chemicals",
         "definitionZh": "有機的；有機栽種的",
         "usageExplanationZh": "常見 organic food、organic farming，指未使用人工化學物質生產的農產品，也可指與生物體相關的事物。",
-        "examples": [
-          {
-            "en": "They only buy organic vegetables from the local market.",
-            "zh": "他們只從當地市場購買有機蔬菜。"
-          }
+        "grammarPatterns": [
+          "organic + noun",
+          "organic matter"
         ],
         "collocations": [
           {
             "text": "organic farming",
             "meaningZh": "有機農業"
           }
+        ],
+        "examples": [
+          {
+            "en": "They only buy organic vegetables from the local market.",
+            "zh": "他們只從當地市場購買有機蔬菜。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "organism",
+        "partOfSpeech": "noun",
+        "meaningZh": "生物；有機體"
+      },
+      {
+        "lemma": "organ",
+        "partOfSpeech": "noun",
+        "meaningZh": "器官"
+      },
+      {
+        "lemma": "organically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "有機地"
       }
     ],
     "tags": [
@@ -224,9 +308,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_organism",
@@ -240,21 +322,48 @@
       {
         "id": "s_organism_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "an individual living thing, such as a plant, animal, or microorganism",
         "definitionZh": "生物；有機體",
         "usageExplanationZh": "生物學用語，泛指任何具備生命特徵的個體，如 a single-celled organism（單細胞生物）。",
-        "examples": [
-          {
-            "en": "Bacteria are single-celled organisms.",
-            "zh": "細菌是單細胞生物。"
-          }
+        "grammarPatterns": [
+          "a living organism",
+          "single-celled organisms"
         ],
         "collocations": [
           {
             "text": "a living organism",
             "meaningZh": "活的生物體"
           }
+        ],
+        "examples": [
+          {
+            "en": "Bacteria are single-celled organisms.",
+            "zh": "細菌是單細胞生物。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "living thing",
+        "noteZh": "生物"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "organic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有機的"
+      },
+      {
+        "lemma": "organ",
+        "partOfSpeech": "noun",
+        "meaningZh": "器官"
       }
     ],
     "tags": [
@@ -269,14 +378,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "living thing",
-        "noteZh": "生物"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_organizer",
@@ -290,21 +392,48 @@
       {
         "id": "s_organizer_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "a person who arranges and coordinates an event or activity",
         "definitionZh": "組織者；主辦人",
         "usageExplanationZh": "常見 event organizer，指負責規劃、協調活動細節的人員。",
-        "examples": [
-          {
-            "en": "The event organizer thanked all the volunteers for their help.",
-            "zh": "活動組織者感謝了所有志工的幫助。"
-          }
+        "grammarPatterns": [
+          "the event organizer",
+          "the organizer of + noun"
         ],
         "collocations": [
           {
             "text": "an event organizer",
             "meaningZh": "活動主辦人"
           }
+        ],
+        "examples": [
+          {
+            "en": "The event organizer thanked all the volunteers for their help.",
+            "zh": "活動組織者感謝了所有志工的幫助。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "coordinator",
+        "noteZh": "協調活動者"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "organize",
+        "partOfSpeech": "verb",
+        "meaningZh": "組織；籌辦"
+      },
+      {
+        "lemma": "organization",
+        "partOfSpeech": "noun",
+        "meaningZh": "組織；機構"
       }
     ],
     "tags": [
@@ -317,14 +446,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "coordinator",
-        "noteZh": "協調活動者"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_orientation",
@@ -338,21 +460,43 @@
       {
         "id": "s_orientation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "the direction in which something is positioned, or an introductory program to familiarize someone with a new situation",
         "definitionZh": "方向；（新進人員的）培訓；導向",
         "usageExplanationZh": "常見 new employee orientation（新人培訓）；也可指物體的擺放方向，如 the orientation of a building。",
-        "examples": [
-          {
-            "en": "All new students attend an orientation session before classes begin.",
-            "zh": "所有新生在開學前都會參加一場新生訓練。"
-          }
+        "grammarPatterns": [
+          "an orientation session",
+          "the orientation of + noun"
         ],
         "collocations": [
           {
             "text": "an orientation program",
             "meaningZh": "新生或新進人員的入門培訓"
           }
+        ],
+        "examples": [
+          {
+            "en": "All new students attend an orientation session before classes begin.",
+            "zh": "所有新生在開學前都會參加一場新生訓練。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "orient",
+        "partOfSpeech": "verb",
+        "meaningZh": "使適應；定向"
+      },
+      {
+        "lemma": "orientate",
+        "partOfSpeech": "verb",
+        "meaningZh": "定位；使適應"
       }
     ],
     "tags": [
@@ -366,9 +510,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_origin",
@@ -382,21 +524,53 @@
       {
         "id": "s_origin_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the point or place where something begins or is derived from",
         "definitionZh": "起源；來源",
         "usageExplanationZh": "常見 country of origin（原產國）、the origin of a word（字源），指事物最初開始的地方或根源。",
-        "examples": [
-          {
-            "en": "The origin of the tradition dates back centuries.",
-            "zh": "這項傳統的起源可追溯到好幾個世紀以前。"
-          }
+        "grammarPatterns": [
+          "the origin of + noun",
+          "be + adjective + in origin"
         ],
         "collocations": [
           {
             "text": "the origin of life",
             "meaningZh": "生命的起源"
           }
+        ],
+        "examples": [
+          {
+            "en": "The origin of the tradition dates back centuries.",
+            "zh": "這項傳統的起源可追溯到好幾個世紀以前。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "source",
+        "noteZh": "來源"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "original",
+        "partOfSpeech": "adjective",
+        "meaningZh": "原本的；最初的"
+      },
+      {
+        "lemma": "originate",
+        "partOfSpeech": "verb",
+        "meaningZh": "起源於"
+      },
+      {
+        "lemma": "originality",
+        "partOfSpeech": "noun",
+        "meaningZh": "獨創性"
       }
     ],
     "tags": [
@@ -410,14 +584,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "source",
-        "noteZh": "來源"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_originally",
@@ -431,21 +598,47 @@
       {
         "id": "s_originally_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "in the beginning, before any changes were made",
         "definitionZh": "最初；原本",
         "usageExplanationZh": "常置於句首或句中，強調事物一開始的狀態，與後來的改變形成對比。",
-        "examples": [
-          {
-            "en": "The building was originally used as a warehouse.",
-            "zh": "這棟建築物原本是用作倉庫。"
-          }
+        "grammarPatterns": [
+          "originally + V-ed",
+          "originally from + noun"
         ],
         "collocations": [
           {
             "text": "originally intended for",
             "meaningZh": "原本是為……而設計的"
           }
+        ],
+        "examples": [
+          {
+            "en": "The building was originally used as a warehouse.",
+            "zh": "這棟建築物原本是用作倉庫。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "initially",
+        "noteZh": "起初"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "original",
+        "partOfSpeech": "adjective",
+        "meaningZh": "最初的；原本的"
+      },
+      {
+        "lemma": "origin",
+        "partOfSpeech": "noun",
+        "meaningZh": "起源；來源"
       }
     ],
     "tags": [
@@ -458,14 +651,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "initially",
-        "noteZh": "起初"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_originate",
@@ -479,21 +665,48 @@
       {
         "id": "s_originate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to begin or come into existence in a particular place or way",
         "definitionZh": "起源於；發源於",
         "usageExplanationZh": "常接 from/in，如 originate from a region，強調事物最初出現的來源或地點。",
-        "examples": [
-          {
-            "en": "The custom is believed to have originated in ancient China.",
-            "zh": "這項習俗被認為起源於古代中國。"
-          }
+        "grammarPatterns": [
+          "originate in + noun",
+          "originate as + noun"
         ],
         "collocations": [
           {
             "text": "originate in",
             "meaningZh": "起源於"
           }
+        ],
+        "examples": [
+          {
+            "en": "The custom is believed to have originated in ancient China.",
+            "zh": "這項習俗被認為起源於古代中國。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "arise",
+        "noteZh": "產生"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "origin",
+        "partOfSpeech": "noun",
+        "meaningZh": "起源"
+      },
+      {
+        "lemma": "origination",
+        "partOfSpeech": "noun",
+        "meaningZh": "起源；創始"
       }
     ],
     "tags": [
@@ -507,14 +720,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "arise",
-        "noteZh": "產生"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_ornate",
@@ -528,21 +734,53 @@
       {
         "id": "s_ornate_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "elaborately decorated, especially with complex designs",
         "definitionZh": "裝飾華麗的；精雕細琢的",
         "usageExplanationZh": "常修飾 furniture、architecture，強調外觀極為繁複精美，帶有華麗感。",
-        "examples": [
-          {
-            "en": "The palace featured ornate ceilings and gilded walls.",
-            "zh": "這座宮殿有著裝飾華麗的天花板和鍍金牆面。"
-          }
+        "grammarPatterns": [
+          "an ornate + noun",
+          "ornate carvings"
         ],
         "collocations": [
           {
             "text": "an ornate ceiling",
             "meaningZh": "裝飾華麗的天花板"
           }
+        ],
+        "examples": [
+          {
+            "en": "The palace featured ornate ceilings and gilded walls.",
+            "zh": "這座宮殿有著裝飾華麗的天花板和鍍金牆面。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "elaborate",
+        "noteZh": "精心裝飾的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "plain",
+        "noteZh": "樸素的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "ornament",
+        "partOfSpeech": "noun",
+        "meaningZh": "裝飾品"
+      },
+      {
+        "lemma": "ornamental",
+        "partOfSpeech": "adjective",
+        "meaningZh": "裝飾性的"
       }
     ],
     "tags": [
@@ -555,19 +793,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "elaborate",
-        "noteZh": "精心裝飾的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "plain",
-        "noteZh": "樸素的"
-      }
-    ]
+    }
   },
   {
     "id": "w_orthodox",
@@ -581,21 +807,53 @@
       {
         "id": "s_orthodox_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "following traditional or generally accepted beliefs, especially in religion",
         "definitionZh": "正統的；傳統的",
         "usageExplanationZh": "常見 orthodox views、Orthodox Church（東正教會），可指宗教正統派別，也可泛指遵循傳統觀念。",
-        "examples": [
-          {
-            "en": "He holds fairly orthodox views on education.",
-            "zh": "他對教育抱持相當傳統正統的看法。"
-          }
+        "grammarPatterns": [
+          "orthodox + noun",
+          "hold orthodox views on + noun"
         ],
         "collocations": [
           {
             "text": "orthodox views",
             "meaningZh": "正統觀點"
           }
+        ],
+        "examples": [
+          {
+            "en": "He holds fairly orthodox views on education.",
+            "zh": "他對教育抱持相當傳統正統的看法。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "conventional",
+        "noteZh": "傳統的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "unorthodox",
+        "noteZh": "非傳統的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "orthodoxy",
+        "partOfSpeech": "noun",
+        "meaningZh": "正統；正統觀念"
+      },
+      {
+        "lemma": "unorthodox",
+        "partOfSpeech": "adjective",
+        "meaningZh": "非正統的；不合常規的"
       }
     ],
     "tags": [
@@ -609,19 +867,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "conventional",
-        "noteZh": "傳統的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "unorthodox",
-        "noteZh": "非傳統的"
-      }
-    ]
+    }
   },
   {
     "id": "w_oscillate",
@@ -635,21 +881,47 @@
       {
         "id": "s_oscillate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "formal"
+        ],
         "definitionEn": "to move repeatedly back and forth, or to waver between different opinions or states",
         "definitionZh": "擺動；（比喻）搖擺不定",
         "usageExplanationZh": "物理義如 the pendulum oscillates；比喻義如 oscillate between hope and despair，形容心情或立場反覆變化。",
-        "examples": [
-          {
-            "en": "Her mood seemed to oscillate between excitement and anxiety.",
-            "zh": "她的心情似乎在興奮與焦慮之間搖擺不定。"
-          }
+        "grammarPatterns": [
+          "oscillate between A and B"
         ],
         "collocations": [
           {
             "text": "oscillate between two extremes",
             "meaningZh": "在兩個極端之間擺盪"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her mood seemed to oscillate between excitement and anxiety.",
+            "zh": "她的心情似乎在興奮與焦慮之間搖擺不定。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "fluctuate",
+        "noteZh": "波動"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "oscillation",
+        "partOfSpeech": "noun",
+        "meaningZh": "擺動；振盪"
+      },
+      {
+        "lemma": "oscillator",
+        "partOfSpeech": "noun",
+        "meaningZh": "振盪器"
       }
     ],
     "tags": [
@@ -663,14 +935,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "fluctuate",
-        "noteZh": "波動"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_oust",
@@ -684,21 +949,42 @@
       {
         "id": "s_oust_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to force someone out of a position of power or office",
         "definitionZh": "驅逐；罷黜",
         "usageExplanationZh": "常見 oust someone from office/power，語氣正式，強調透過權力鬥爭或投票使人下台。",
-        "examples": [
-          {
-            "en": "The board voted to oust the CEO after the scandal.",
-            "zh": "董事會在醜聞爆發後投票罷黜了執行長。"
-          }
+        "grammarPatterns": [
+          "oust sb from + noun",
+          "vote to oust + somebody"
         ],
         "collocations": [
           {
             "text": "oust someone from office",
             "meaningZh": "將某人趕下臺"
           }
+        ],
+        "examples": [
+          {
+            "en": "The board voted to oust the CEO after the scandal.",
+            "zh": "董事會在醜聞爆發後投票罷黜了執行長。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "remove",
+        "noteZh": "撤換職位義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "ouster",
+        "partOfSpeech": "noun",
+        "meaningZh": "罷黜；驅逐"
       }
     ],
     "tags": [
@@ -713,14 +999,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "remove",
-        "noteZh": "撤換職位義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_outbreak",
@@ -734,21 +1013,43 @@
       {
         "id": "s_outbreak_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "a sudden occurrence of something unwelcome, especially violence or disease",
         "definitionZh": "（疾病、暴力等的）爆發",
         "usageExplanationZh": "常見 an outbreak of disease/violence/war，強調負面事件突然大規模發生。",
-        "examples": [
-          {
-            "en": "Health officials are monitoring the outbreak of the virus.",
-            "zh": "衛生官員正在監控這波病毒疫情的爆發。"
-          }
+        "grammarPatterns": [
+          "an outbreak of + noun",
+          "contain an outbreak"
         ],
         "collocations": [
           {
             "text": "a disease outbreak",
             "meaningZh": "疾病爆發"
           }
+        ],
+        "examples": [
+          {
+            "en": "Health officials are monitoring the outbreak of the virus.",
+            "zh": "衛生官員正在監控這波病毒疫情的爆發。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "eruption",
+        "noteZh": "突然爆發"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "break out",
+        "partOfSpeech": "phrase",
+        "meaningZh": "爆發；突然發生"
       }
     ],
     "tags": [
@@ -762,14 +1063,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "eruption",
-        "noteZh": "突然爆發"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_outfit",
@@ -783,23 +1077,37 @@
       {
         "id": "s_outfit_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a set of clothes worn together for a particular occasion, or (informal) an organization or business",
         "definitionZh": "一套服裝；（口語）團隊、組織",
         "usageExplanationZh": "常見 a stylish outfit（一套時髦的服裝）；口語義如 a small outfit（一個小型組織）。",
-        "examples": [
-          {
-            "en": "She wore a bright red outfit to the party.",
-            "zh": "她穿了一套亮紅色的服裝去參加派對。"
-          }
+        "grammarPatterns": [
+          "wear an outfit",
+          "a bright outfit"
         ],
         "collocations": [
           {
             "text": "a wedding outfit",
             "meaningZh": "婚禮服裝"
           }
+        ],
+        "examples": [
+          {
+            "en": "She wore a bright red outfit to the party.",
+            "zh": "她穿了一套亮紅色的服裝去參加派對。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "ensemble",
+        "noteZh": "整套服裝義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -811,14 +1119,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "ensemble",
-        "noteZh": "整套服裝義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_outlandish",
@@ -832,21 +1133,41 @@
       {
         "id": "s_outlandish_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal",
+          "literary"
+        ],
         "definitionEn": "looking or sounding bizarre or unfamiliar",
         "definitionZh": "古怪的；奇異的",
         "usageExplanationZh": "常修飾 idea、costume，帶輕微負面或詫異的語氣，強調與常態差異極大。",
-        "examples": [
-          {
-            "en": "He showed up in an outlandish costume that surprised everyone.",
-            "zh": "他穿著一身古怪的服裝出現，讓大家都很驚訝。"
-          }
+        "grammarPatterns": [
+          "an outlandish + noun",
+          "outlandish claims"
         ],
         "collocations": [
           {
             "text": "an outlandish claim",
             "meaningZh": "荒誕離奇的說法"
           }
+        ],
+        "examples": [
+          {
+            "en": "He showed up in an outlandish costume that surprised everyone.",
+            "zh": "他穿著一身古怪的服裝出現，讓大家都很驚訝。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "bizarre",
+        "noteZh": "古怪的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "conventional",
+        "noteZh": "普通而合乎慣例的"
       }
     ],
     "tags": [
@@ -859,19 +1180,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "bizarre",
-        "noteZh": "古怪的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "conventional",
-        "noteZh": "普通而合乎慣例的"
-      }
-    ]
+    }
   },
   {
     "id": "w_outlet",
@@ -885,14 +1194,16 @@
       {
         "id": "s_outlet_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "a means of expressing feelings or energy, or a shop/pipe through which something is released",
         "definitionZh": "抒發管道；（電源）插座；（商店）分店",
         "usageExplanationZh": "常見 an outlet for stress（抒發壓力的管道）、a retail outlet（零售分店）、a power outlet（電源插座）。",
-        "examples": [
-          {
-            "en": "Running has become his main outlet for stress.",
-            "zh": "跑步已成為他抒發壓力的主要管道。"
-          }
+        "grammarPatterns": [
+          "an outlet for + noun",
+          "a retail outlet"
         ],
         "collocations": [
           {
@@ -903,9 +1214,17 @@
             "text": "a power outlet",
             "meaningZh": "電源插座"
           }
+        ],
+        "examples": [
+          {
+            "en": "Running has become his main outlet for stress.",
+            "zh": "跑步已成為他抒發壓力的主要管道。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -918,9 +1237,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_outline",
@@ -934,23 +1251,38 @@
       {
         "id": "s_outline_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "a general description or plan of the main features of something, or the outer boundary line of a shape",
         "definitionZh": "概要；輪廓",
         "usageExplanationZh": "常見 give an outline of a plan（概述計畫）；也可指物體的外形輪廓，如 the outline of a building。",
-        "examples": [
-          {
-            "en": "She gave a brief outline of the project's main goals.",
-            "zh": "她簡要說明了這項計畫的主要目標概要。"
-          }
+        "grammarPatterns": [
+          "give an outline of + noun",
+          "a brief outline"
         ],
         "collocations": [
           {
             "text": "a rough outline",
             "meaningZh": "粗略的概要"
           }
+        ],
+        "examples": [
+          {
+            "en": "She gave a brief outline of the project's main goals.",
+            "zh": "她簡要說明了這項計畫的主要目標概要。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "summary",
+        "noteZh": "概要義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -963,14 +1295,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "summary",
-        "noteZh": "概要義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_outlook",
@@ -984,23 +1309,38 @@
       {
         "id": "s_outlook_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "a person's point of view or attitude, or the future prospects for a situation",
         "definitionZh": "觀點；（未來的）展望",
         "usageExplanationZh": "常見 a positive outlook on life（對人生的正面態度）；也可指經濟或天氣等未來趨勢，如 economic outlook。",
-        "examples": [
-          {
-            "en": "The company's financial outlook remains positive despite the downturn.",
-            "zh": "儘管景氣下滑，這家公司的財務展望依然樂觀。"
-          }
+        "grammarPatterns": [
+          "the outlook for + noun",
+          "a positive outlook on + noun"
         ],
         "collocations": [
           {
             "text": "the economic outlook",
             "meaningZh": "經濟前景"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company's financial outlook remains positive despite the downturn.",
+            "zh": "儘管景氣下滑，這家公司的財務展望依然樂觀。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "perspective",
+        "noteZh": "觀點義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -1011,14 +1351,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "perspective",
-        "noteZh": "觀點義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_outrage",
@@ -1032,21 +1365,47 @@
       {
         "id": "s_outrage_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "an extremely strong reaction of anger, shock, or indignation, or an act that provokes such a reaction",
         "definitionZh": "憤怒；義憤；令人髮指的行為",
         "usageExplanationZh": "常見 public outrage（公眾的憤怒）、an act of outrage（令人髮指的行為），語氣強烈。",
-        "examples": [
-          {
-            "en": "The decision sparked outrage among local residents.",
-            "zh": "這項決定引發了當地居民的強烈憤慨。"
-          }
+        "grammarPatterns": [
+          "spark outrage among + noun",
+          "public outrage over + noun"
         ],
         "collocations": [
           {
             "text": "public outrage",
             "meaningZh": "公眾的憤怒"
           }
+        ],
+        "examples": [
+          {
+            "en": "The decision sparked outrage among local residents.",
+            "zh": "這項決定引發了當地居民的強烈憤慨。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "indignation",
+        "noteZh": "義憤義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "outrageous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "駭人的；離譜的"
+      },
+      {
+        "lemma": "outrageously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "離譜地"
       }
     ],
     "tags": [
@@ -1060,14 +1419,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "indignation",
-        "noteZh": "義憤義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_outrageous",
@@ -1081,21 +1433,47 @@
       {
         "id": "s_outrageous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "shockingly bad, excessive, or unacceptable",
         "definitionZh": "駭人聽聞的；離譜的；過分的",
         "usageExplanationZh": "常修飾 price、behavior、claim，語氣強烈，強調超出合理範圍令人無法接受。",
-        "examples": [
-          {
-            "en": "The prices at this restaurant are outrageous.",
-            "zh": "這家餐廳的價格實在離譜。"
-          }
+        "grammarPatterns": [
+          "an outrageous + noun",
+          "it is outrageous that + clause"
         ],
         "collocations": [
           {
             "text": "an outrageous price",
             "meaningZh": "離譜的價格"
           }
+        ],
+        "examples": [
+          {
+            "en": "The prices at this restaurant are outrageous.",
+            "zh": "這家餐廳的價格實在離譜。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "scandalous",
+        "noteZh": "令人憤慨的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "outrage",
+        "partOfSpeech": "noun",
+        "meaningZh": "憤怒；暴行"
+      },
+      {
+        "lemma": "outrageously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "過分地；離譜地"
       }
     ],
     "tags": [
@@ -1109,14 +1487,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "scandalous",
-        "noteZh": "令人憤慨的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_outset",
@@ -1130,21 +1501,41 @@
       {
         "id": "s_outset_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the beginning or start of something",
         "definitionZh": "開端；一開始",
         "usageExplanationZh": "常見 at/from the outset，強調事情最初的階段，語氣正式。",
-        "examples": [
-          {
-            "en": "From the outset, the team knew the project would be challenging.",
-            "zh": "從一開始，團隊就知道這個計畫會很有挑戰性。"
-          }
+        "grammarPatterns": [
+          "from the outset",
+          "at the outset of + noun"
         ],
         "collocations": [
           {
             "text": "from the outset",
             "meaningZh": "從一開始"
           }
+        ],
+        "examples": [
+          {
+            "en": "From the outset, the team knew the project would be challenging.",
+            "zh": "從一開始，團隊就知道這個計畫會很有挑戰性。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "beginning",
+        "noteZh": "開端"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "end",
+        "noteZh": "結束"
       }
     ],
     "tags": [
@@ -1159,19 +1550,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "beginning",
-        "noteZh": "開端"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "end",
-        "noteZh": "結束"
-      }
-    ]
+    }
   },
   {
     "id": "w_outspoken",
@@ -1185,21 +1564,40 @@
       {
         "id": "s_outspoken_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "direct and forthright in speech, especially in stating opinions others may not want to hear",
         "definitionZh": "直言不諱的；坦率敢言的",
         "usageExplanationZh": "常修飾 critic、politician，強調不畏懼表達可能引起爭議的看法。",
-        "examples": [
-          {
-            "en": "She is known as an outspoken critic of government policy.",
-            "zh": "她以直言不諱批評政府政策而聞名。"
-          }
+        "grammarPatterns": [
+          "an outspoken critic of + noun",
+          "outspoken about + noun"
         ],
         "collocations": [
           {
             "text": "an outspoken critic",
             "meaningZh": "直言不諱的批評者"
           }
+        ],
+        "examples": [
+          {
+            "en": "She is known as an outspoken critic of government policy.",
+            "zh": "她以直言不諱批評政府政策而聞名。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "frank",
+        "noteZh": "坦率的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "reticent",
+        "noteZh": "沉默寡言的"
       }
     ],
     "tags": [
@@ -1214,19 +1612,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "frank",
-        "noteZh": "坦率的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "reticent",
-        "noteZh": "沉默寡言的"
-      }
-    ]
+    }
   },
   {
     "id": "w_outstanding",
@@ -1240,14 +1626,16 @@
       {
         "id": "s_outstanding_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "exceptionally good or notable, or (of a debt or issue) not yet paid or resolved",
         "definitionZh": "傑出的；優異的；未償還的",
         "usageExplanationZh": "正面義如 outstanding performance；財務義如 an outstanding balance（未清償餘額），依語境判斷。",
-        "examples": [
-          {
-            "en": "She received an award for her outstanding contribution to research.",
-            "zh": "她因對研究的傑出貢獻而獲獎。"
-          }
+        "grammarPatterns": [
+          "an outstanding + noun",
+          "remain outstanding"
         ],
         "collocations": [
           {
@@ -1258,7 +1646,32 @@
             "text": "outstanding debts",
             "meaningZh": "未清償的債務"
           }
+        ],
+        "examples": [
+          {
+            "en": "She received an award for her outstanding contribution to research.",
+            "zh": "她因對研究的傑出貢獻而獲獎。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "exceptional",
+        "noteZh": "傑出的義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "mediocre",
+        "noteZh": "平庸的（對應傑出義）"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "outstandingly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "傑出地"
       }
     ],
     "tags": [
@@ -1271,19 +1684,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "exceptional",
-        "noteZh": "傑出的義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "mediocre",
-        "noteZh": "平庸的（對應傑出義）"
-      }
-    ]
+    }
   },
   {
     "id": "w_outstrip",
@@ -1297,23 +1698,38 @@
       {
         "id": "s_outstrip_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to become greater in amount, degree, or rate than something else",
         "definitionZh": "超越；勝過",
         "usageExplanationZh": "常見 demand outstrips supply（需求超過供給），強調某項指標超越另一項的成長速度。",
-        "examples": [
-          {
-            "en": "Demand for the product has outstripped supply.",
-            "zh": "這項產品的需求已經超過了供給。"
-          }
+        "grammarPatterns": [
+          "outstrip + noun",
+          "demand outstrips supply"
         ],
         "collocations": [
           {
             "text": "demand outstrips supply",
             "meaningZh": "需求超過供給"
           }
+        ],
+        "examples": [
+          {
+            "en": "Demand for the product has outstripped supply.",
+            "zh": "這項產品的需求已經超過了供給。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "surpass",
+        "noteZh": "超越"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -1325,14 +1741,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "surpass",
-        "noteZh": "超越"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_oval",
@@ -1346,23 +1755,38 @@
       {
         "id": "s_oval_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "having a rounded shape like an egg or ellipse",
         "definitionZh": "橢圓形的",
         "usageExplanationZh": "常修飾 shape、table、face，描述形狀類似蛋形或橢圓的物體。",
-        "examples": [
-          {
-            "en": "The dining room has a large oval table.",
-            "zh": "餐廳裡有一張大型的橢圓形餐桌。"
-          }
+        "grammarPatterns": [
+          "an oval + noun",
+          "oval in shape"
         ],
         "collocations": [
           {
             "text": "an oval face",
             "meaningZh": "鵝蛋臉"
           }
+        ],
+        "examples": [
+          {
+            "en": "The dining room has a large oval table.",
+            "zh": "餐廳裡有一張大型的橢圓形餐桌。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "elliptical",
+        "noteZh": "橢圓形的"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1374,14 +1798,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "elliptical",
-        "noteZh": "橢圓形的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_ovation",
@@ -1395,23 +1812,37 @@
       {
         "id": "s_ovation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "an enthusiastic round of applause from an audience",
         "definitionZh": "熱烈的掌聲；喝采",
         "usageExplanationZh": "常見 a standing ovation（起立鼓掌），指觀眾對表演或演講的熱情回應。",
-        "examples": [
-          {
-            "en": "The performance ended with a standing ovation.",
-            "zh": "這場表演在觀眾的起立鼓掌中結束。"
-          }
+        "grammarPatterns": [
+          "a standing ovation",
+          "receive an ovation"
         ],
         "collocations": [
           {
             "text": "a standing ovation",
             "meaningZh": "起立鼓掌"
           }
+        ],
+        "examples": [
+          {
+            "en": "The performance ended with a standing ovation.",
+            "zh": "這場表演在觀眾的起立鼓掌中結束。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "applause",
+        "noteZh": "掌聲"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -1423,14 +1854,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "applause",
-        "noteZh": "掌聲"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_oven",
@@ -1444,23 +1868,32 @@
       {
         "id": "s_oven_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "an enclosed compartment used for cooking or baking food",
         "definitionZh": "烤箱；爐",
         "usageExplanationZh": "日常用語，常見 preheat the oven（預熱烤箱），指用於烘烤食物的家電或設備。",
-        "examples": [
-          {
-            "en": "Preheat the oven to 180 degrees before baking the cake.",
-            "zh": "烘烤蛋糕前，請先將烤箱預熱至攝氏180度。"
-          }
+        "grammarPatterns": [
+          "preheat the oven",
+          "in the oven"
         ],
         "collocations": [
           {
             "text": "preheat the oven",
             "meaningZh": "預熱烤箱"
           }
+        ],
+        "examples": [
+          {
+            "en": "Preheat the oven to 180 degrees before baking the cake.",
+            "zh": "烘烤蛋糕前，請先將烤箱預熱至攝氏180度。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -1471,9 +1904,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_overall",
@@ -1487,37 +1918,59 @@
       {
         "id": "s_overall_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "taking everything into account; general rather than specific",
         "definitionZh": "整體的；全面的",
         "usageExplanationZh": "常修飾 impression、result、quality，強調綜合考量所有因素後的整體評價。",
-        "examples": [
-          {
-            "en": "The overall quality of the product has improved significantly.",
-            "zh": "這項產品的整體品質已大幅提升。"
-          }
+        "grammarPatterns": [
+          "the overall + noun",
+          "overall quality"
         ],
         "collocations": [
           {
             "text": "the overall effect",
             "meaningZh": "整體效果"
           }
+        ],
+        "examples": [
+          {
+            "en": "The overall quality of the product has improved significantly.",
+            "zh": "這項產品的整體品質已大幅提升。"
+          }
         ]
       },
       {
         "id": "s_overall_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a general assessment or view that takes everything into account",
         "definitionZh": "整體情況；全面來看",
         "usageExplanationZh": "常用於片語 on the overall 或作副詞用法 overall（整體而言），總結前述各項細節。",
+        "grammarPatterns": [
+          "overall, + clause",
+          "taken overall"
+        ],
+        "collocations": [],
         "examples": [
           {
             "en": "Overall, the trip was a great success despite a few delays.",
             "zh": "整體而言，儘管有些延誤，這趟旅程還是非常成功。"
           }
-        ],
-        "collocations": []
+        ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "comprehensive",
+        "noteZh": "全面的（形容詞）"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1529,14 +1982,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "comprehensive",
-        "noteZh": "全面的（形容詞）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_overdose",
@@ -1550,23 +1996,32 @@
       {
         "id": "s_overdose_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "to take a dangerously excessive amount of a drug",
         "definitionZh": "服藥過量",
         "usageExplanationZh": "醫療用語，常見 overdose on，指服用超過安全劑量的藥物，可能危及生命。",
-        "examples": [
-          {
-            "en": "He was rushed to the hospital after overdosing on painkillers.",
-            "zh": "他因服用過量止痛藥而被緊急送醫。"
-          }
+        "grammarPatterns": [
+          "overdose on + noun"
         ],
         "collocations": [
           {
             "text": "a drug overdose",
             "meaningZh": "藥物過量"
           }
+        ],
+        "examples": [
+          {
+            "en": "He was rushed to the hospital after overdosing on painkillers.",
+            "zh": "他因服用過量止痛藥而被緊急送醫。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1577,9 +2032,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_overflow",
@@ -1593,42 +2046,64 @@
       {
         "id": "s_overflow_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to flow or spread over the brim or limits of a container or area",
         "definitionZh": "溢出；氾濫",
         "usageExplanationZh": "常見 the river overflowed its banks，也可比喻情感滿溢，如 overflow with joy。",
-        "examples": [
-          {
-            "en": "The river overflowed its banks after days of heavy rain.",
-            "zh": "連日豪雨過後，這條河的河水漫過了堤岸。"
-          }
+        "grammarPatterns": [
+          "overflow with + noun",
+          "overflow + noun"
         ],
         "collocations": [
           {
             "text": "overflow with water",
             "meaningZh": "水滿溢出"
           }
+        ],
+        "examples": [
+          {
+            "en": "The river overflowed its banks after days of heavy rain.",
+            "zh": "連日豪雨過後，這條河的河水漫過了堤岸。"
+          }
         ]
       },
       {
         "id": "s_overflow_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "an instance of a liquid or a crowd spilling beyond capacity, or the excess amount itself",
         "definitionZh": "溢出；（多餘的）容量",
         "usageExplanationZh": "常見 overflow parking（額外停車空間）、an overflow of emotion，指超出原有容量的部分。",
-        "examples": [
-          {
-            "en": "The stadium set up overflow seating for the extra fans.",
-            "zh": "體育場為額外的球迷設置了溢出座位區。"
-          }
+        "grammarPatterns": [
+          "overflow seating",
+          "an overflow of + noun"
         ],
         "collocations": [
           {
             "text": "an overflow pipe",
             "meaningZh": "溢流管"
           }
+        ],
+        "examples": [
+          {
+            "en": "The stadium set up overflow seating for the extra fans.",
+            "zh": "體育場為額外的球迷設置了溢出座位區。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "spill over",
+        "noteZh": "溢出（動詞）"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1641,14 +2116,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "spill over",
-        "noteZh": "溢出（動詞）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_overhead",
@@ -1662,42 +2130,65 @@
       {
         "id": "s_overhead_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "positioned above one's head, or (of costs) relating to the ongoing expenses of running a business",
         "definitionZh": "在頭頂上方的；（企業）營運成本的",
         "usageExplanationZh": "物理義如 overhead lighting（頭頂上的照明）；商業義如 overhead costs（營運成本），依語境判斷。",
-        "examples": [
-          {
-            "en": "The overhead lights flickered during the storm.",
-            "zh": "暴風雨期間，頭頂上的燈光閃爍不定。"
-          }
+        "grammarPatterns": [
+          "overhead + noun",
+          "overhead costs"
         ],
         "collocations": [
           {
             "text": "overhead lighting",
             "meaningZh": "頂部照明"
           }
+        ],
+        "examples": [
+          {
+            "en": "The overhead lights flickered during the storm.",
+            "zh": "暴風雨期間，頭頂上的燈光閃爍不定。"
+          }
         ]
       },
       {
         "id": "s_overhead_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "the ongoing operating costs of running a business, such as rent and utilities",
         "definitionZh": "（企業）營運成本；經常性開支",
         "usageExplanationZh": "常見 reduce overhead、high overhead，指維持營運所需的固定開支，不含直接生產成本。",
-        "examples": [
-          {
-            "en": "The company cut overhead by moving to a smaller office.",
-            "zh": "這家公司透過搬遷到較小的辦公室來降低營運成本。"
-          }
+        "grammarPatterns": [
+          "cut overhead",
+          "reduce overhead"
         ],
         "collocations": [
           {
             "text": "reduce overhead",
             "meaningZh": "降低營運成本"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company cut overhead by moving to a smaller office.",
+            "zh": "這家公司透過搬遷到較小的辦公室來降低營運成本。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "operating expenses",
+        "noteZh": "營運成本（名詞）"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -1708,14 +2199,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "operating expenses",
-        "noteZh": "營運成本（名詞）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_overlap",
@@ -1729,42 +2213,65 @@
       {
         "id": "s_overlap_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "to partially cover or coincide with something else",
         "definitionZh": "重疊；部分重複",
         "usageExplanationZh": "常見 schedules overlap（行程重疊）、interests overlap（興趣有重疊之處），強調兩者部分相同或重合。",
-        "examples": [
-          {
-            "en": "Their work schedules overlap on Tuesdays.",
-            "zh": "他們的工作時間表在星期二有重疊。"
-          }
+        "grammarPatterns": [
+          "overlap with + noun",
+          "A and B overlap"
         ],
         "collocations": [
           {
             "text": "overlap with another course",
             "meaningZh": "與另一門課部分重疊"
           }
+        ],
+        "examples": [
+          {
+            "en": "Their work schedules overlap on Tuesdays.",
+            "zh": "他們的工作時間表在星期二有重疊。"
+          }
         ]
       },
       {
         "id": "s_overlap_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "an area or amount in which two or more things coincide",
         "definitionZh": "重疊部分；重複之處",
         "usageExplanationZh": "常見 there is some overlap between，指兩件事物之間相同或重合的部分。",
-        "examples": [
-          {
-            "en": "There is significant overlap between the two research studies.",
-            "zh": "這兩項研究之間有相當程度的重疊。"
-          }
+        "grammarPatterns": [
+          "an overlap between A and B",
+          "significant overlap"
         ],
         "collocations": [
           {
             "text": "an overlap in responsibilities",
             "meaningZh": "職責上的重疊"
           }
+        ],
+        "examples": [
+          {
+            "en": "There is significant overlap between the two research studies.",
+            "zh": "這兩項研究之間有相當程度的重疊。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "coincide",
+        "noteZh": "部分一致（動詞）"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1777,14 +2284,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "coincide",
-        "noteZh": "部分一致（動詞）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_overlook",
@@ -1798,14 +2298,15 @@
       {
         "id": "s_overlook_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to fail to notice or consider something, or to have a view over a place from above",
         "definitionZh": "忽略；未注意到；俯瞰",
         "usageExplanationZh": "常見 overlook a detail（忽略一個細節）；也可指建築物俯瞰某景色，如 a room overlooking the sea。",
-        "examples": [
-          {
-            "en": "Please don't overlook the fine print in the contract.",
-            "zh": "請不要忽略合約中的小字條款。"
-          }
+        "grammarPatterns": [
+          "overlook + noun",
+          "overlook the fact that + clause"
         ],
         "collocations": [
           {
@@ -1816,9 +2317,22 @@
             "text": "overlook the sea",
             "meaningZh": "俯瞰大海"
           }
+        ],
+        "examples": [
+          {
+            "en": "Please don't overlook the fine print in the contract.",
+            "zh": "請不要忽略合約中的小字條款。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "miss",
+        "noteZh": "未察覺義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1831,14 +2345,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "miss",
-        "noteZh": "未察覺義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_override",
@@ -1852,23 +2359,38 @@
       {
         "id": "s_override_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to use one's authority to reject or cancel a decision, or to take precedence over something",
         "definitionZh": "否決；推翻；優先於",
         "usageExplanationZh": "常見 override a decision/veto，強調用更高的權力使原本的決定失效。",
-        "examples": [
-          {
-            "en": "The president can override a veto with sufficient support.",
-            "zh": "若有足夠支持，總統可以推翻否決權。"
-          }
+        "grammarPatterns": [
+          "override + noun",
+          "override a decision"
         ],
         "collocations": [
           {
             "text": "override a decision",
             "meaningZh": "推翻決定"
           }
+        ],
+        "examples": [
+          {
+            "en": "The president can override a veto with sufficient support.",
+            "zh": "若有足夠支持，總統可以推翻否決權。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "overrule",
+        "noteZh": "否決"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -1880,14 +2402,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "overrule",
-        "noteZh": "否決"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_overrule",
@@ -1901,23 +2416,38 @@
       {
         "id": "s_overrule_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to reject or reverse a decision by using one's higher authority",
         "definitionZh": "駁回；否決（法律或正式決定）",
         "usageExplanationZh": "法律用語常見 overrule an objection（駁回異議），強調具有更高權力的一方推翻先前的決定。",
-        "examples": [
-          {
-            "en": "The judge overruled the defense's objection.",
-            "zh": "法官駁回了辯方的異議。"
-          }
+        "grammarPatterns": [
+          "overrule + noun",
+          "overrule an objection"
         ],
         "collocations": [
           {
             "text": "overrule an objection",
             "meaningZh": "駁回異議"
           }
+        ],
+        "examples": [
+          {
+            "en": "The judge overruled the defense's objection.",
+            "zh": "法官駁回了辯方的異議。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "reverse",
+        "noteZh": "推翻決定"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -1929,14 +2459,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "reverse",
-        "noteZh": "推翻決定"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_oversee",
@@ -1950,21 +2473,43 @@
       {
         "id": "s_oversee_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to supervise a task, project, or organization to ensure it is done correctly",
         "definitionZh": "監督；督導",
         "usageExplanationZh": "常見 oversee a project/team，強調負責確保工作順利、正確地進行。",
-        "examples": [
-          {
-            "en": "She was hired to oversee the construction of the new building.",
-            "zh": "她被聘來監督這棟新建築的施工。"
-          }
+        "grammarPatterns": [
+          "oversee + noun",
+          "be hired to oversee + noun"
         ],
         "collocations": [
           {
             "text": "oversee a project",
             "meaningZh": "督導專案"
           }
+        ],
+        "examples": [
+          {
+            "en": "She was hired to oversee the construction of the new building.",
+            "zh": "她被聘來監督這棟新建築的施工。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "supervise",
+        "noteZh": "監督"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "overseer",
+        "partOfSpeech": "noun",
+        "meaningZh": "監工；監督者"
       }
     ],
     "tags": [
@@ -1979,14 +2524,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "supervise",
-        "noteZh": "監督"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_overshadow",
@@ -2000,23 +2538,38 @@
       {
         "id": "s_overshadow_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to cast a shadow over something, or to make something seem less important by comparison",
         "definitionZh": "使黯然失色；掩蓋（成就或重要性）",
         "usageExplanationZh": "字面義指遮蔽陽光；比喻義如 the scandal overshadowed his achievements，強調某事使另一事顯得不重要。",
-        "examples": [
-          {
-            "en": "Her achievements were overshadowed by the controversy.",
-            "zh": "她的成就因這場爭議而黯然失色。"
-          }
+        "grammarPatterns": [
+          "overshadow + noun",
+          "be overshadowed by + noun"
         ],
         "collocations": [
           {
             "text": "overshadow someone's achievements",
             "meaningZh": "使某人的成就黯然失色"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her achievements were overshadowed by the controversy.",
+            "zh": "她的成就因這場爭議而黯然失色。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "eclipse",
+        "noteZh": "使黯然失色"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -2027,14 +2580,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "eclipse",
-        "noteZh": "使黯然失色"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_oversight",
@@ -2048,14 +2594,16 @@
       {
         "id": "s_oversight_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "an unintentional failure to notice or do something, or the act of supervising something",
         "definitionZh": "疏忽；（正式的）監督",
         "usageExplanationZh": "常見 due to an oversight（由於疏忽）；也可指正式監督機制，如 regulatory oversight。",
-        "examples": [
-          {
-            "en": "The error was due to an oversight in the final review.",
-            "zh": "這項錯誤是由於最終審查時的疏忽所致。"
-          }
+        "grammarPatterns": [
+          "due to an oversight",
+          "oversight of + noun"
         ],
         "collocations": [
           {
@@ -2066,9 +2614,22 @@
             "text": "government oversight",
             "meaningZh": "政府監督"
           }
+        ],
+        "examples": [
+          {
+            "en": "The error was due to an oversight in the final review.",
+            "zh": "這項錯誤是由於最終審查時的疏忽所致。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "omission",
+        "noteZh": "疏漏義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2080,14 +2641,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "omission",
-        "noteZh": "疏漏義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_overstate",
@@ -2101,21 +2655,53 @@
       {
         "id": "s_overstate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to state something in an exaggerated way",
         "definitionZh": "誇大；誇張陳述",
         "usageExplanationZh": "常見 cannot be overstated（怎麼強調都不為過，反諷用法），也可指誇大事實的嚴重性。",
-        "examples": [
-          {
-            "en": "The importance of early education cannot be overstated.",
-            "zh": "早期教育的重要性再怎麼強調都不為過。"
-          }
+        "grammarPatterns": [
+          "overstate + noun",
+          "sth cannot be overstated"
         ],
         "collocations": [
           {
             "text": "overstate the importance of something",
             "meaningZh": "誇大某事的重要性"
           }
+        ],
+        "examples": [
+          {
+            "en": "The importance of early education cannot be overstated.",
+            "zh": "早期教育的重要性再怎麼強調都不為過。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "exaggerate",
+        "noteZh": "誇大"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "understate",
+        "noteZh": "輕描淡寫"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "overstatement",
+        "partOfSpeech": "noun",
+        "meaningZh": "誇大的說法"
+      },
+      {
+        "lemma": "understate",
+        "partOfSpeech": "verb",
+        "meaningZh": "輕描淡寫；少說"
       }
     ],
     "tags": [
@@ -2128,19 +2714,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "exaggerate",
-        "noteZh": "誇大"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "understate",
-        "noteZh": "輕描淡寫"
-      }
-    ]
+    }
   },
   {
     "id": "w_overtake",
@@ -2154,23 +2728,37 @@
       {
         "id": "s_overtake_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to catch up with and pass a vehicle or competitor ahead, or to become greater or more successful than",
         "definitionZh": "超越；追過",
         "usageExplanationZh": "交通義如 overtake a car；比喻義如 overtake a rival in sales，強調在數量或表現上超越對方。",
-        "examples": [
-          {
-            "en": "The runner overtook her opponent in the final lap.",
-            "zh": "這名跑者在最後一圈超越了對手。"
-          }
+        "grammarPatterns": [
+          "overtake + noun",
+          "be overtaken by + noun"
         ],
         "collocations": [
           {
             "text": "overtake a vehicle",
             "meaningZh": "超車"
           }
+        ],
+        "examples": [
+          {
+            "en": "The runner overtook her opponent in the final lap.",
+            "zh": "這名跑者在最後一圈超越了對手。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "pass",
+        "noteZh": "追過"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -2181,14 +2769,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pass",
-        "noteZh": "追過"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_overthrow",
@@ -2202,42 +2783,65 @@
       {
         "id": "s_overthrow_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to remove a government or leader from power by force",
         "definitionZh": "推翻（政府或領袖）",
         "usageExplanationZh": "政治用語，常見 overthrow a regime/government，強調以武力或革命手段使當權者下台。",
-        "examples": [
-          {
-            "en": "Rebels attempted to overthrow the government.",
-            "zh": "叛軍試圖推翻政府。"
-          }
+        "grammarPatterns": [
+          "overthrow + noun",
+          "attempt to overthrow + noun"
         ],
         "collocations": [
           {
             "text": "overthrow a government",
             "meaningZh": "推翻政府"
           }
+        ],
+        "examples": [
+          {
+            "en": "Rebels attempted to overthrow the government.",
+            "zh": "叛軍試圖推翻政府。"
+          }
         ]
       },
       {
         "id": "s_overthrow_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the forcible removal of a government or leader from power",
         "definitionZh": "（政府或政權的）推翻",
         "usageExplanationZh": "常見 the overthrow of a dictator，指政治權力被強制終結的事件本身。",
-        "examples": [
-          {
-            "en": "The coup led to the overthrow of the president.",
-            "zh": "這場政變導致了總統下台。"
-          }
+        "grammarPatterns": [
+          "the overthrow of + noun",
+          "lead to the overthrow of + noun"
         ],
         "collocations": [
           {
             "text": "the overthrow of a regime",
             "meaningZh": "政權的推翻"
           }
+        ],
+        "examples": [
+          {
+            "en": "The coup led to the overthrow of the president.",
+            "zh": "這場政變導致了總統下台。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "topple",
+        "noteZh": "推翻（動詞）"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -2249,14 +2853,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "topple",
-        "noteZh": "推翻（動詞）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_overturn",
@@ -2270,21 +2867,41 @@
       {
         "id": "s_overturn_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to turn something upside down or on its side, or to reverse a legal decision or ruling",
         "definitionZh": "使翻覆；推翻（判決或決定）",
         "usageExplanationZh": "物理義如 overturn a boat；法律義如 overturn a verdict，強調正式撤銷先前的決定。",
-        "examples": [
-          {
-            "en": "The appeals court overturned the previous ruling.",
-            "zh": "上訴法院推翻了先前的判決。"
-          }
+        "grammarPatterns": [
+          "overturn + noun",
+          "overturn a ruling"
         ],
         "collocations": [
           {
             "text": "overturn a conviction",
             "meaningZh": "推翻有罪判決"
           }
+        ],
+        "examples": [
+          {
+            "en": "The appeals court overturned the previous ruling.",
+            "zh": "上訴法院推翻了先前的判決。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "reverse",
+        "noteZh": "推翻決定義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "uphold",
+        "noteZh": "維持原判（對應判決義）"
       }
     ],
     "tags": [
@@ -2298,19 +2915,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "reverse",
-        "noteZh": "推翻決定義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "uphold",
-        "noteZh": "維持原判（對應判決義）"
-      }
-    ]
+    }
   },
   {
     "id": "w_overwhelm",
@@ -2324,21 +2929,42 @@
       {
         "id": "s_overwhelm_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to have such a strong emotional or physical effect on someone that they cannot cope",
         "definitionZh": "使不知所措；壓垮；淹沒",
         "usageExplanationZh": "常見被動 be overwhelmed by/with，形容情緒或工作量過大到難以應付。",
-        "examples": [
-          {
-            "en": "She felt overwhelmed by the amount of work on her desk.",
-            "zh": "她被桌上堆積如山的工作壓得喘不過氣。"
-          }
+        "grammarPatterns": [
+          "be overwhelmed by + noun",
+          "overwhelm + somebody"
         ],
         "collocations": [
           {
             "text": "be overwhelmed by emotion",
             "meaningZh": "情緒激動得難以自持"
           }
+        ],
+        "examples": [
+          {
+            "en": "She felt overwhelmed by the amount of work on her desk.",
+            "zh": "她被桌上堆積如山的工作壓得喘不過氣。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "overpower",
+        "noteZh": "壓倒"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "overwhelmingly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "壓倒性地"
       }
     ],
     "tags": [
@@ -2353,14 +2979,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "overpower",
-        "noteZh": "壓倒"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_oxygen",
@@ -2374,21 +2993,48 @@
       {
         "id": "s_oxygen_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a chemical element essential for respiration, symbol O",
         "definitionZh": "氧；氧氣",
         "usageExplanationZh": "化學及生物學用語，常見 oxygen supply、oxygen tank，指維持呼吸作用所需的氣體元素。",
-        "examples": [
-          {
-            "en": "Astronauts carry oxygen tanks for breathing in space.",
-            "zh": "太空人攜帶氧氣筒以便在太空中呼吸。"
-          }
+        "grammarPatterns": [
+          "oxygen in the blood",
+          "an oxygen tank"
         ],
         "collocations": [
           {
             "text": "oxygen supply",
             "meaningZh": "氧氣供應"
           }
+        ],
+        "examples": [
+          {
+            "en": "Astronauts carry oxygen tanks for breathing in space.",
+            "zh": "太空人攜帶氧氣筒以便在太空中呼吸。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "oxide",
+        "partOfSpeech": "noun",
+        "meaningZh": "氧化物"
+      },
+      {
+        "lemma": "oxidize",
+        "partOfSpeech": "verb",
+        "meaningZh": "氧化"
+      },
+      {
+        "lemma": "oxygenate",
+        "partOfSpeech": "verb",
+        "meaningZh": "使充氧"
       }
     ],
     "tags": [
@@ -2401,9 +3047,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_oyster",
@@ -2417,23 +3061,32 @@
       {
         "id": "s_oyster_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a bivalve mollusk, some species of which are edible or produce pearls",
         "definitionZh": "牡蠣；蚵仔",
         "usageExplanationZh": "常見 oyster farm（牡蠣養殖場）；慣用語 the world is your oyster，比喻機會無限。",
-        "examples": [
-          {
-            "en": "They enjoyed a dozen fresh oysters at the seafood restaurant.",
-            "zh": "他們在海鮮餐廳享用了一打新鮮牡蠣。"
-          }
+        "grammarPatterns": [
+          "fresh oysters",
+          "a dozen oysters"
         ],
         "collocations": [
           {
             "text": "raw oysters",
             "meaningZh": "生牡蠣"
           }
+        ],
+        "examples": [
+          {
+            "en": "They enjoyed a dozen fresh oysters at the seafood restaurant.",
+            "zh": "他們在海鮮餐廳享用了一打新鮮牡蠣。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -2444,9 +3097,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_ozone",
@@ -2460,23 +3111,33 @@
       {
         "id": "s_ozone_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a gas made of three oxygen atoms, forming a protective layer in the upper atmosphere",
         "definitionZh": "臭氧",
         "usageExplanationZh": "化學及環境用語，常見 the ozone layer（臭氧層）、ozone depletion（臭氧層破洞），與環境保護議題相關。",
-        "examples": [
-          {
-            "en": "Scientists have observed a slow recovery of the ozone layer.",
-            "zh": "科學家觀察到臭氧層正緩慢修復中。"
-          }
+        "grammarPatterns": [
+          "the ozone layer",
+          "ozone depletion"
         ],
         "collocations": [
           {
             "text": "the ozone layer",
             "meaningZh": "臭氧層"
           }
+        ],
+        "examples": [
+          {
+            "en": "Scientists have observed a slow recovery of the ozone layer.",
+            "zh": "科學家觀察到臭氧層正緩慢修復中。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -2487,9 +3148,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pace",
@@ -2503,42 +3162,65 @@
       {
         "id": "s_pace_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "the speed at which someone or something moves or a process happens",
         "definitionZh": "步調；速度",
         "usageExplanationZh": "常見 keep pace with（跟上⋯的步調）、at a slow pace，可指走路速度或事情進展的節奏。",
-        "examples": [
-          {
-            "en": "The project is progressing at a steady pace.",
-            "zh": "這項計畫正以穩定的步調進展中。"
-          }
+        "grammarPatterns": [
+          "at a steady pace",
+          "the pace of + noun"
         ],
         "collocations": [
           {
             "text": "keep pace with",
             "meaningZh": "跟上……的步調"
           }
+        ],
+        "examples": [
+          {
+            "en": "The project is progressing at a steady pace.",
+            "zh": "這項計畫正以穩定的步調進展中。"
+          }
         ]
       },
       {
         "id": "s_pace_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "to walk back and forth repeatedly in a small area, especially due to nervousness",
         "definitionZh": "（因焦慮）來回踱步",
         "usageExplanationZh": "常見 pace up and down、pace the floor，強調因緊張或焦慮而反覆走動的動作。",
-        "examples": [
-          {
-            "en": "He paced the hallway anxiously while waiting for the results.",
-            "zh": "他在等待結果時焦慮地在走廊上來回踱步。"
-          }
+        "grammarPatterns": [
+          "pace + noun",
+          "pace up and down"
         ],
         "collocations": [
           {
             "text": "pace up and down",
             "meaningZh": "來回踱步"
           }
+        ],
+        "examples": [
+          {
+            "en": "He paced the hallway anxiously while waiting for the results.",
+            "zh": "他在等待結果時焦慮地在走廊上來回踱步。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "speed",
+        "noteZh": "速度（名詞）"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2550,13 +3232,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "speed",
-        "noteZh": "速度（名詞）"
-      }
-    ],
-    "antonyms": []
+    }
   }
 ]

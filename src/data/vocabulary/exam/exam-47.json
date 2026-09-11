@@ -11,21 +11,42 @@
       {
         "id": "s_mingle_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to mix or move around and talk with different people, especially at a social event",
         "definitionZh": "（在社交場合）交際；混雜",
         "usageExplanationZh": "常見 mingle with guests，強調社交場合中與不同的人交流互動。",
-        "examples": [
-          {
-            "en": "Guests mingled in the garden while waiting for dinner to be served。",
-            "zh": "賓客們在等待晚餐上桌時，在花園裡相互交際。"
-          }
+        "grammarPatterns": [
+          "mingle with + noun",
+          "mingle at + noun"
         ],
         "collocations": [
           {
             "text": "mingle with guests",
             "meaningZh": "與賓客交際"
           }
+        ],
+        "examples": [
+          {
+            "en": "Guests mingled in the garden while waiting for dinner to be served。",
+            "zh": "賓客們在等待晚餐上桌時，在花園裡相互交際。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "socialize",
+        "noteZh": "在社交義指與人交際"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "intermingle",
+        "partOfSpeech": "verb",
+        "meaningZh": "混合；交融"
       }
     ],
     "tags": [
@@ -40,14 +61,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "socialize",
-        "noteZh": "在社交義指與人交際"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_miniature",
@@ -61,40 +75,74 @@
       {
         "id": "s_miniature_sense_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "being a very small version of something",
         "definitionZh": "微型的；縮小的",
         "usageExplanationZh": "常見 miniature model／version，指按比例縮小的物品，強調尺寸極小。",
-        "examples": [
-          {
-            "en": "He built a miniature replica of the Eiffel Tower out of matchsticks.",
-            "zh": "他用火柴棒搭建了一座艾菲爾鐵塔的微型複製品。"
-          }
+        "grammarPatterns": [
+          "a miniature + noun",
+          "a miniature version of + noun"
         ],
         "collocations": [
           {
             "text": "a miniature model",
             "meaningZh": "微型模型"
           }
+        ],
+        "examples": [
+          {
+            "en": "He built a miniature replica of the Eiffel Tower out of matchsticks.",
+            "zh": "他用火柴棒搭建了一座艾菲爾鐵塔的微型複製品。"
+          }
         ]
       },
       {
         "id": "s_miniature_sense_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a very small copy or model of something",
         "definitionZh": "縮小模型；微型物",
         "usageExplanationZh": "常見於收藏或裝飾語境，指按比例製作的小型複製品。",
-        "examples": [
-          {
-            "en": "The museum displays a collection of miniatures depicting historic battles.",
-            "zh": "博物館展出了一系列描繪歷史戰役的縮小模型。"
-          }
+        "grammarPatterns": [
+          "a miniature of + noun",
+          "a collection of miniatures"
         ],
         "collocations": [
           {
             "text": "in miniature",
             "meaningZh": "以縮小形式"
           }
+        ],
+        "examples": [
+          {
+            "en": "The museum displays a collection of miniatures depicting historic battles.",
+            "zh": "博物館展出了一系列描繪歷史戰役的縮小模型。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "tiny",
+        "noteZh": "在形容詞義指極小的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "full-size",
+        "noteZh": "在模型尺寸義指原尺寸的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "miniaturize",
+        "partOfSpeech": "verb",
+        "meaningZh": "使小型化"
       }
     ],
     "tags": [
@@ -108,19 +156,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "tiny",
-        "noteZh": "在形容詞義指極小的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "full-size",
-        "noteZh": "在模型尺寸義指原尺寸的"
-      }
-    ]
+    }
   },
   {
     "id": "w_minimal",
@@ -134,21 +170,58 @@
       {
         "id": "s_minimal_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "of a very small amount, degree, or size; the least possible",
         "definitionZh": "最小的；極少的",
         "usageExplanationZh": "常見 minimal effort／risk，強調數量或程度低到幾乎可以忽略。",
-        "examples": [
-          {
-            "en": "The new design requires minimal maintenance.",
-            "zh": "這項新設計只需要極少的維護。"
-          }
+        "grammarPatterns": [
+          "minimal + noun",
+          "with minimal + noun"
         ],
         "collocations": [
           {
             "text": "minimal impact",
             "meaningZh": "極小的影響"
           }
+        ],
+        "examples": [
+          {
+            "en": "The new design requires minimal maintenance.",
+            "zh": "這項新設計只需要極少的維護。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "negligible",
+        "noteZh": "微小到可忽略的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "maximal",
+        "noteZh": "最大程度的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "minimum",
+        "partOfSpeech": "noun",
+        "meaningZh": "最小值；最低限度"
+      },
+      {
+        "lemma": "minimize",
+        "partOfSpeech": "verb",
+        "meaningZh": "使降到最低"
+      },
+      {
+        "lemma": "minimally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "最低限度地"
       }
     ],
     "tags": [
@@ -162,19 +235,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "negligible",
-        "noteZh": "微小到可忽略的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "maximal",
-        "noteZh": "最大程度的"
-      }
-    ]
+    }
   },
   {
     "id": "w_minimize",
@@ -188,21 +249,53 @@
       {
         "id": "s_minimize_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to reduce something to the smallest possible amount or degree",
         "definitionZh": "使降到最低；最小化",
         "usageExplanationZh": "常見 minimize risk／cost，強調主動採取行動以縮減負面因素的規模或影響。",
-        "examples": [
-          {
-            "en": "The company took steps to minimize the environmental impact of its factories.",
-            "zh": "這家公司採取措施，將其工廠對環境的影響降到最低。"
-          }
+        "grammarPatterns": [
+          "minimize + noun",
+          "minimize the risk of + V-ing"
         ],
         "collocations": [
           {
             "text": "minimize the risk",
             "meaningZh": "盡量降低風險"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company took steps to minimize the environmental impact of its factories.",
+            "zh": "這家公司採取措施，將其工廠對環境的影響降到最低。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "reduce",
+        "noteZh": "使數量或程度降低"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "maximize",
+        "noteZh": "使最大化"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "minimum",
+        "partOfSpeech": "noun",
+        "meaningZh": "最小值"
+      },
+      {
+        "lemma": "minimal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "最小的；極少的"
       }
     ],
     "tags": [
@@ -216,19 +309,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "reduce",
-        "noteZh": "使數量或程度降低"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "maximize",
-        "noteZh": "使最大化"
-      }
-    ]
+    }
   },
   {
     "id": "w_minimum",
@@ -242,21 +323,53 @@
       {
         "id": "s_minimum_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "the smallest amount, value, or degree that is possible or required",
         "definitionZh": "最小值；最低限度",
         "usageExplanationZh": "常見 a minimum of，也可作形容詞用，如 minimum wage（最低薪資）。",
-        "examples": [
-          {
-            "en": "The job requires a minimum of two years' experience.",
-            "zh": "這份工作要求至少兩年的工作經驗。"
-          }
+        "grammarPatterns": [
+          "a minimum of + noun",
+          "keep sth to a minimum"
         ],
         "collocations": [
           {
             "text": "keep costs to a minimum",
             "meaningZh": "把成本降到最低"
           }
+        ],
+        "examples": [
+          {
+            "en": "The job requires a minimum of two years' experience.",
+            "zh": "這份工作要求至少兩年的工作經驗。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "lower limit",
+        "noteZh": "指容許的最低界限"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "maximum",
+        "noteZh": "最大值"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "minimal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "最小的"
+      },
+      {
+        "lemma": "minimize",
+        "partOfSpeech": "verb",
+        "meaningZh": "使最小化"
       }
     ],
     "tags": [
@@ -270,19 +383,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "lower limit",
-        "noteZh": "指容許的最低界限"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "maximum",
-        "noteZh": "最大值"
-      }
-    ]
+    }
   },
   {
     "id": "w_ministry",
@@ -296,21 +397,47 @@
       {
         "id": "s_ministry_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a government department headed by a minister, or the work of religious ministers",
         "definitionZh": "（政府的）部；神職工作",
         "usageExplanationZh": "常見 the Ministry of Education，也可指宗教上的牧靈、傳道事務。",
-        "examples": [
-          {
-            "en": "The Ministry of Health issued new guidelines on food safety.",
-            "zh": "衛生部發布了新的食品安全指導方針。"
-          }
+        "grammarPatterns": [
+          "the Ministry of + noun",
+          "a government ministry"
         ],
         "collocations": [
           {
             "text": "the Ministry of Education",
             "meaningZh": "教育部"
           }
+        ],
+        "examples": [
+          {
+            "en": "The Ministry of Health issued new guidelines on food safety.",
+            "zh": "衛生部發布了新的食品安全指導方針。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "department",
+        "noteZh": "在政府義指主管特定事務的部門"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "minister",
+        "partOfSpeech": "noun",
+        "meaningZh": "部長；牧師"
+      },
+      {
+        "lemma": "ministerial",
+        "partOfSpeech": "adjective",
+        "meaningZh": "部長的；內閣的"
       }
     ],
     "tags": [
@@ -323,14 +450,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "department",
-        "noteZh": "在政府義指主管特定事務的部門"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_minority",
@@ -344,40 +464,75 @@
       {
         "id": "s_minority_sense_group",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "a smaller group within a larger population, especially one that differs in race, religion, or ethnicity",
         "definitionZh": "少數族群；少數群體",
         "usageExplanationZh": "常見 an ethnic minority，強調在人口組成中占較小比例且具特定文化或背景的群體。",
-        "examples": [
-          {
-            "en": "The government introduced policies to protect the rights of ethnic minorities.",
-            "zh": "政府推出了保護少數族群權利的政策。"
-          }
+        "grammarPatterns": [
+          "an ethnic minority",
+          "a minority group"
         ],
         "collocations": [
           {
             "text": "an ethnic minority",
             "meaningZh": "少數族裔"
           }
+        ],
+        "examples": [
+          {
+            "en": "The government introduced policies to protect the rights of ethnic minorities.",
+            "zh": "政府推出了保護少數族群權利的政策。"
+          }
         ]
       },
       {
         "id": "s_minority_sense_smaller_part",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the smaller part of a group or total, especially in a vote or opinion",
         "definitionZh": "少數（部分）",
         "usageExplanationZh": "常見 a minority of，與 majority（多數）相對，指較小的比例或部分。",
-        "examples": [
-          {
-            "en": "Only a minority of employees supported the new policy.",
-            "zh": "只有少數員工支持這項新政策。"
-          }
+        "grammarPatterns": [
+          "a minority of + noun",
+          "be in the minority"
         ],
         "collocations": [
           {
             "text": "in the minority",
             "meaningZh": "占少數"
           }
+        ],
+        "examples": [
+          {
+            "en": "Only a minority of employees supported the new policy.",
+            "zh": "只有少數員工支持這項新政策。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "minority group",
+        "noteZh": "指人口中占少數的群體"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "majority",
+        "noteZh": "在數量義指大多數"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "minor",
+        "partOfSpeech": "adjective",
+        "meaningZh": "次要的；較小的"
       }
     ],
     "tags": [
@@ -391,19 +546,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "minority group",
-        "noteZh": "指人口中占少數的群體"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "majority",
-        "noteZh": "在數量義指大多數"
-      }
-    ]
+    }
   },
   {
     "id": "w_minus",
@@ -417,21 +560,41 @@
       {
         "id": "s_minus_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "indicating subtraction, or being on the negative side of zero",
         "definitionZh": "負的；減的",
         "usageExplanationZh": "常見 a minus sign、minus five degrees，數學或溫度語境中表示低於零或需扣除的數值。",
-        "examples": [
-          {
-            "en": "The temperature dropped to minus ten degrees overnight.",
-            "zh": "氣溫在一夜之間降到了零下十度。"
-          }
+        "grammarPatterns": [
+          "minus + noun",
+          "a minus sign"
         ],
         "collocations": [
           {
             "text": "minus five degrees",
             "meaningZh": "零下五度"
           }
+        ],
+        "examples": [
+          {
+            "en": "The temperature dropped to minus ten degrees overnight.",
+            "zh": "氣溫在一夜之間降到了零下十度。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "negative",
+        "noteZh": "在數值義指負的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "plus",
+        "noteZh": "正的或加的"
       }
     ],
     "tags": [
@@ -444,19 +607,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "negative",
-        "noteZh": "在數值義指負的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "plus",
-        "noteZh": "正的或加的"
-      }
-    ]
+    }
   },
   {
     "id": "w_minuscule",
@@ -470,21 +621,40 @@
       {
         "id": "s_minuscule_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "extremely small",
         "definitionZh": "極小的；微不足道的",
         "usageExplanationZh": "口語常見，強調數量或尺寸小到近乎可忽略，語氣比 tiny 更誇張。",
-        "examples": [
-          {
-            "en": "The company's profit margin is minuscule compared to its competitors.",
-            "zh": "這家公司的利潤率相較於競爭對手極為微小。"
-          }
+        "grammarPatterns": [
+          "a minuscule + noun",
+          "minuscule compared to + noun"
         ],
         "collocations": [
           {
             "text": "a minuscule amount",
             "meaningZh": "極少量"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company's profit margin is minuscule compared to its competitors.",
+            "zh": "這家公司的利潤率相較於競爭對手極為微小。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "tiny",
+        "noteZh": "非常小的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "huge",
+        "noteZh": "巨大的"
       }
     ],
     "tags": [
@@ -498,19 +668,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "tiny",
-        "noteZh": "非常小的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "huge",
-        "noteZh": "巨大的"
-      }
-    ]
+    }
   },
   {
     "id": "w_miracle",
@@ -524,21 +682,47 @@
       {
         "id": "s_miracle_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "an extraordinary and welcome event that seems impossible to explain by natural or scientific laws",
         "definitionZh": "奇蹟",
         "usageExplanationZh": "常見 by a miracle、a miracle cure，可指宗教意義上的神蹟，也可泛指令人驚喜的意外好結果。",
-        "examples": [
-          {
-            "en": "It was a miracle that no one was hurt in the accident.",
-            "zh": "這場意外中沒有人受傷，簡直是奇蹟。"
-          }
+        "grammarPatterns": [
+          "it is a miracle that + clause",
+          "perform a miracle"
         ],
         "collocations": [
           {
             "text": "a minor miracle",
             "meaningZh": "小奇蹟"
           }
+        ],
+        "examples": [
+          {
+            "en": "It was a miracle that no one was hurt in the accident.",
+            "zh": "這場意外中沒有人受傷，簡直是奇蹟。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "wonder",
+        "noteZh": "令人驚嘆的非凡事物"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "miraculous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "奇蹟般的"
+      },
+      {
+        "lemma": "miraculously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "奇蹟般地"
       }
     ],
     "tags": [
@@ -553,14 +737,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "wonder",
-        "noteZh": "令人驚嘆的非凡事物"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_miraculous",
@@ -574,21 +751,52 @@
       {
         "id": "s_miraculous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "remarkable or wonderful in a way that seems beyond ordinary explanation",
         "definitionZh": "奇蹟般的；不可思議的",
         "usageExplanationZh": "常見 a miraculous recovery，強調結果好到令人難以置信，帶有驚嘆語氣。",
-        "examples": [
-          {
-            "en": "Doctors called her recovery from the illness nothing short of miraculous.",
-            "zh": "醫生稱她從這場疾病中康復簡直是奇蹟。"
-          }
+        "grammarPatterns": [
+          "a miraculous + noun",
+          "nothing short of miraculous"
         ],
         "collocations": [
           {
             "text": "a miraculous recovery",
             "meaningZh": "奇蹟般的康復"
           }
+        ],
+        "examples": [
+          {
+            "en": "Doctors called her recovery from the illness nothing short of miraculous.",
+            "zh": "醫生稱她從這場疾病中康復簡直是奇蹟。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "extraordinary",
+        "noteZh": "非比尋常而令人驚嘆的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "ordinary",
+        "noteZh": "平凡的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "miracle",
+        "partOfSpeech": "noun",
+        "meaningZh": "奇蹟"
+      },
+      {
+        "lemma": "miraculously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "奇蹟般地"
       }
     ],
     "tags": [
@@ -602,19 +810,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "extraordinary",
-        "noteZh": "非比尋常而令人驚嘆的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "ordinary",
-        "noteZh": "平凡的"
-      }
-    ]
+    }
   },
   {
     "id": "w_mire",
@@ -628,42 +824,64 @@
       {
         "id": "s_mire_sense_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "an area of deep mud, or a difficult situation that is hard to escape from",
         "definitionZh": "泥沼；困境",
         "usageExplanationZh": "常見 be mired in（陷入……的困境），比喻性地指陷入難以脫身的複雜狀況。",
-        "examples": [
-          {
-            "en": "The peace talks became mired in political disputes.",
-            "zh": "這場和平談判陷入了政治爭端的泥沼。"
-          }
+        "grammarPatterns": [
+          "a mire of + noun",
+          "be stuck in the mire"
         ],
         "collocations": [
           {
             "text": "a mire of debt",
             "meaningZh": "債務泥沼"
           }
+        ],
+        "examples": [
+          {
+            "en": "The peace talks became mired in political disputes.",
+            "zh": "這場和平談判陷入了政治爭端的泥沼。"
+          }
         ]
       },
       {
         "id": "s_mire_sense_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to cause someone or something to become stuck in mud or a difficult situation",
         "definitionZh": "使陷入泥沼；使陷入困境",
         "usageExplanationZh": "常見被動語態 be mired in，強調受困於複雜、難以脫身的狀況。",
-        "examples": [
-          {
-            "en": "The project was mired in delays and budget problems.",
-            "zh": "這項計畫深陷延誤與預算問題的困境。"
-          }
+        "grammarPatterns": [
+          "be mired in + noun",
+          "mire sb in + noun"
         ],
         "collocations": [
           {
             "text": "be mired in controversy",
             "meaningZh": "深陷爭議"
           }
+        ],
+        "examples": [
+          {
+            "en": "The project was mired in delays and budget problems.",
+            "zh": "這項計畫深陷延誤與預算問題的困境。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "bog",
+        "noteZh": "在名詞義指泥沼"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -675,14 +893,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "bog",
-        "noteZh": "在名詞義指泥沼"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_misanthrope",
@@ -696,21 +907,48 @@
       {
         "id": "s_misanthrope_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "a person who dislikes people in general and avoids their company",
         "definitionZh": "厭世者；厭惡人類的人",
         "usageExplanationZh": "正式或文學用語，強調對人類整體抱持負面態度，而非針對特定個人。",
-        "examples": [
-          {
-            "en": "The old man had become something of a misanthrope after years of disappointment.",
-            "zh": "多年的失望讓這位老人變得有些厭世。"
-          }
+        "grammarPatterns": [
+          "something of a misanthrope",
+          "become a misanthrope"
         ],
         "collocations": [
           {
             "text": "a confirmed misanthrope",
             "meaningZh": "徹底厭世的人"
           }
+        ],
+        "examples": [
+          {
+            "en": "The old man had become something of a misanthrope after years of disappointment.",
+            "zh": "多年的失望讓這位老人變得有些厭世。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "people-hater",
+        "noteZh": "厭惡他人的人，較口語"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "misanthropy",
+        "partOfSpeech": "noun",
+        "meaningZh": "厭世；憤世嫉俗"
+      },
+      {
+        "lemma": "misanthropic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "厭世的"
       }
     ],
     "tags": [
@@ -723,14 +961,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "people-hater",
-        "noteZh": "厭惡他人的人，較口語"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_mischievous",
@@ -744,21 +975,52 @@
       {
         "id": "s_mischievous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "causing trouble or annoyance in a playful, often not seriously harmful way",
         "definitionZh": "淘氣的；惡作劇的",
         "usageExplanationZh": "常形容兒童或動物，語氣較輕鬆，強調頑皮而非真正的惡意破壞。",
-        "examples": [
-          {
-            "en": "The mischievous puppy chewed up her favorite shoes.",
-            "zh": "這隻淘氣的小狗把她最喜歡的鞋子咬爛了。"
-          }
+        "grammarPatterns": [
+          "a mischievous + noun",
+          "a mischievous grin"
         ],
         "collocations": [
           {
             "text": "a mischievous grin",
             "meaningZh": "淘氣的笑容"
           }
+        ],
+        "examples": [
+          {
+            "en": "The mischievous puppy chewed up her favorite shoes.",
+            "zh": "這隻淘氣的小狗把她最喜歡的鞋子咬爛了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "impish",
+        "noteZh": "頑皮而愛惡作劇的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "well-behaved",
+        "noteZh": "行為乖巧的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "mischief",
+        "partOfSpeech": "noun",
+        "meaningZh": "惡作劇；淘氣"
+      },
+      {
+        "lemma": "mischievously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "淘氣地"
       }
     ],
     "tags": [
@@ -771,19 +1033,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "impish",
-        "noteZh": "頑皮而愛惡作劇的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "well-behaved",
-        "noteZh": "行為乖巧的"
-      }
-    ]
+    }
   },
   {
     "id": "w_miserable",
@@ -797,21 +1047,52 @@
       {
         "id": "s_miserable_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "very unhappy or uncomfortable",
         "definitionZh": "悲慘的；痛苦的；很不舒服的",
         "usageExplanationZh": "常見 feel miserable，也可修飾天氣、失敗等，如 miserable weather，表示令人不快的狀況。",
-        "examples": [
-          {
-            "en": "He felt miserable after losing his job.",
-            "zh": "他失業後感到十分痛苦。"
-          }
+        "grammarPatterns": [
+          "feel miserable",
+          "be miserable about + noun"
         ],
         "collocations": [
           {
             "text": "feel miserable",
             "meaningZh": "感到難受"
           }
+        ],
+        "examples": [
+          {
+            "en": "He felt miserable after losing his job.",
+            "zh": "他失業後感到十分痛苦。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "wretched",
+        "noteZh": "極度痛苦或不幸的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "happy",
+        "noteZh": "快樂的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "misery",
+        "partOfSpeech": "noun",
+        "meaningZh": "痛苦；不幸"
+      },
+      {
+        "lemma": "miserably",
+        "partOfSpeech": "adverb",
+        "meaningZh": "悲慘地"
       }
     ],
     "tags": [
@@ -825,19 +1106,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "wretched",
-        "noteZh": "極度痛苦或不幸的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "happy",
-        "noteZh": "快樂的"
-      }
-    ]
+    }
   },
   {
     "id": "w_misery",
@@ -851,21 +1120,53 @@
       {
         "id": "s_misery_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "a state of great unhappiness, suffering, or discomfort",
         "definitionZh": "痛苦；不幸；悲慘",
         "usageExplanationZh": "常見 live in misery，強調長期或深刻的不幸與苦難狀態。",
-        "examples": [
-          {
-            "en": "The war brought years of misery to the region.",
-            "zh": "這場戰爭為這個地區帶來了多年的苦難。"
-          }
+        "grammarPatterns": [
+          "bring misery to + somebody",
+          "live in misery"
         ],
         "collocations": [
           {
             "text": "live in misery",
             "meaningZh": "生活在痛苦之中"
           }
+        ],
+        "examples": [
+          {
+            "en": "The war brought years of misery to the region.",
+            "zh": "這場戰爭為這個地區帶來了多年的苦難。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "suffering",
+        "noteZh": "身心遭受的痛苦"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "happiness",
+        "noteZh": "幸福快樂"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "miserable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "悲慘的；痛苦的"
+      },
+      {
+        "lemma": "miserably",
+        "partOfSpeech": "adverb",
+        "meaningZh": "悲慘地"
       }
     ],
     "tags": [
@@ -879,19 +1180,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "suffering",
-        "noteZh": "身心遭受的痛苦"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "happiness",
-        "noteZh": "幸福快樂"
-      }
-    ]
+    }
   },
   {
     "id": "w_missile",
@@ -905,23 +1194,38 @@
       {
         "id": "s_missile_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a weapon that is propelled through the air toward a target, often carrying an explosive",
         "definitionZh": "導彈；飛彈",
         "usageExplanationZh": "軍事用語，常見 a guided missile，泛指以推進方式射向目標的武器。",
-        "examples": [
-          {
-            "en": "The country tested a new long-range missile.",
-            "zh": "這個國家試射了一枚新型長程導彈。"
-          }
+        "grammarPatterns": [
+          "launch a missile",
+          "a long-range missile"
         ],
         "collocations": [
           {
             "text": "a guided missile",
             "meaningZh": "導引飛彈"
           }
+        ],
+        "examples": [
+          {
+            "en": "The country tested a new long-range missile.",
+            "zh": "這個國家試射了一枚新型長程導彈。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "projectile",
+        "noteZh": "指發射的物體；範圍比飛彈廣"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -933,14 +1237,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "projectile",
-        "noteZh": "指發射的物體；範圍比飛彈廣"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_mist",
@@ -954,21 +1251,43 @@
       {
         "id": "s_mist_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "a thin cloud of tiny water droplets near the ground, similar to but lighter than fog",
         "definitionZh": "薄霧；霧氣",
         "usageExplanationZh": "常見 a light mist，比 fog（濃霧）稀薄，常見於清晨或潮濕環境。",
-        "examples": [
-          {
-            "en": "A light mist covered the valley in the early morning.",
-            "zh": "清晨，薄霧籠罩著這片山谷。"
-          }
+        "grammarPatterns": [
+          "a light mist",
+          "be shrouded in mist"
         ],
         "collocations": [
           {
             "text": "a thin mist",
             "meaningZh": "薄霧"
           }
+        ],
+        "examples": [
+          {
+            "en": "A light mist covered the valley in the early morning.",
+            "zh": "清晨，薄霧籠罩著這片山谷。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "haze",
+        "noteZh": "空氣中影響視線的薄霧狀物"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "misty",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有霧的；朦朧的"
       }
     ],
     "tags": [
@@ -981,14 +1300,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "haze",
-        "noteZh": "空氣中影響視線的薄霧狀物"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_mobile",
@@ -1002,21 +1314,53 @@
       {
         "id": "s_mobile_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "a cell phone (British usage), or a hanging sculpture with delicately balanced parts that move in air currents",
         "definitionZh": "（英式用語）手機；（藝術）動態懸掛雕塑",
         "usageExplanationZh": "英式英語中 mobile 作名詞可直接指「手機」（美式多用 cell phone）；也可指懸吊於空中、隨氣流擺動的藝術裝置。",
-        "examples": [
-          {
-            "en": "She left her mobile at home and had to borrow a phone.",
-            "zh": "她把手機忘在家裡了，只好跟別人借電話用。"
-          }
+        "grammarPatterns": [
+          "on one's mobile",
+          "call sb on a mobile"
         ],
         "collocations": [
           {
             "text": "a mobile phone",
             "meaningZh": "手機；mobile 的完整說法"
           }
+        ],
+        "examples": [
+          {
+            "en": "She left her mobile at home and had to borrow a phone.",
+            "zh": "她把手機忘在家裡了，只好跟別人借電話用。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "cell phone",
+        "noteZh": "在電話義指手機，屬美式用法"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "mobility",
+        "partOfSpeech": "noun",
+        "meaningZh": "移動性；行動能力"
+      },
+      {
+        "lemma": "mobilize",
+        "partOfSpeech": "verb",
+        "meaningZh": "動員；調動"
+      },
+      {
+        "lemma": "immobile",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不動的；固定的"
       }
     ],
     "tags": [
@@ -1031,14 +1375,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cell phone",
-        "noteZh": "在電話義指手機，屬美式用法"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_mobility",
@@ -1052,21 +1389,53 @@
       {
         "id": "s_mobility_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the ability to move or be moved freely and easily",
         "definitionZh": "移動性；行動能力",
         "usageExplanationZh": "常見 social mobility（社會流動性）、limited mobility（行動不便），涵蓋實體移動與社會階層流動兩種意涵。",
-        "examples": [
-          {
-            "en": "The injury severely limited her mobility for several months.",
-            "zh": "這次受傷嚴重限制了她好幾個月的行動能力。"
-          }
+        "grammarPatterns": [
+          "limit sb's mobility",
+          "social mobility"
         ],
         "collocations": [
           {
             "text": "reduced mobility",
             "meaningZh": "行動能力受限"
           }
+        ],
+        "examples": [
+          {
+            "en": "The injury severely limited her mobility for several months.",
+            "zh": "這次受傷嚴重限制了她好幾個月的行動能力。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "movability",
+        "noteZh": "指能夠移動的性質，較少用"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "immobility",
+        "noteZh": "無法移動的狀態"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "mobile",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可移動的"
+      },
+      {
+        "lemma": "immobility",
+        "partOfSpeech": "noun",
+        "meaningZh": "不動；無法移動"
       }
     ],
     "tags": [
@@ -1080,19 +1449,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "movability",
-        "noteZh": "指能夠移動的性質，較少用"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "immobility",
-        "noteZh": "無法移動的狀態"
-      }
-    ]
+    }
   },
   {
     "id": "w_mobilize",
@@ -1106,21 +1463,57 @@
       {
         "id": "s_mobilize_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to organize and prepare people or resources for action, especially in an emergency or for war",
         "definitionZh": "動員；調動",
         "usageExplanationZh": "常見 mobilize troops／resources，強調有組織地集結人力或資源以應對特定需求。",
-        "examples": [
-          {
-            "en": "The government mobilized thousands of volunteers to help with the flood relief.",
-            "zh": "政府動員了數千名志工協助這次水災救援。"
-          }
+        "grammarPatterns": [
+          "mobilize + noun",
+          "mobilize support for + noun"
         ],
         "collocations": [
           {
             "text": "mobilize resources",
             "meaningZh": "調動資源"
           }
+        ],
+        "examples": [
+          {
+            "en": "The government mobilized thousands of volunteers to help with the flood relief.",
+            "zh": "政府動員了數千名志工協助這次水災救援。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "rally",
+        "noteZh": "召集人力或支持"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "demobilize",
+        "noteZh": "在軍事義指復員或解除動員"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "mobilization",
+        "partOfSpeech": "noun",
+        "meaningZh": "動員"
+      },
+      {
+        "lemma": "mobile",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可移動的"
+      },
+      {
+        "lemma": "demobilize",
+        "partOfSpeech": "verb",
+        "meaningZh": "復員；遣散"
       }
     ],
     "tags": [
@@ -1133,19 +1526,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "rally",
-        "noteZh": "召集人力或支持"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "demobilize",
-        "noteZh": "在軍事義指復員或解除動員"
-      }
-    ]
+    }
   },
   {
     "id": "w_mode",
@@ -1159,21 +1540,43 @@
       {
         "id": "s_mode_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "a particular way or manner in which something is done, or a setting on a device",
         "definitionZh": "方式；模式",
         "usageExplanationZh": "常見 a mode of transport（交通方式）、silent mode（靜音模式），涵蓋抽象方式與具體設定兩種用法。",
-        "examples": [
-          {
-            "en": "Cycling is her preferred mode of transport to work.",
-            "zh": "騎腳踏車是她上班時偏好的交通方式。"
-          }
+        "grammarPatterns": [
+          "a mode of + noun",
+          "switch to + noun + mode"
         ],
         "collocations": [
           {
             "text": "a mode of transport",
             "meaningZh": "交通方式"
           }
+        ],
+        "examples": [
+          {
+            "en": "Cycling is her preferred mode of transport to work.",
+            "zh": "騎腳踏車是她上班時偏好的交通方式。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "method",
+        "noteZh": "做事的方式"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "modal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "模式的；情態的"
       }
     ],
     "tags": [
@@ -1188,14 +1591,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "method",
-        "noteZh": "做事的方式"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_modem",
@@ -1209,23 +1605,32 @@
       {
         "id": "s_modem_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical"
+        ],
         "definitionEn": "a device that connects a computer to the internet via a telephone or cable line",
         "definitionZh": "數據機",
         "usageExplanationZh": "科技用語，常見 a broadband modem，指用於連接網路的通訊設備。",
-        "examples": [
-          {
-            "en": "He had to restart the modem to fix the internet connection.",
-            "zh": "他必須重新啟動數據機才能修復網路連線。"
-          }
+        "grammarPatterns": [
+          "restart the modem",
+          "connect through a modem"
         ],
         "collocations": [
           {
             "text": "a wireless modem",
             "meaningZh": "無線數據機"
           }
+        ],
+        "examples": [
+          {
+            "en": "He had to restart the modem to fix the internet connection.",
+            "zh": "他必須重新啟動數據機才能修復網路連線。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -1236,9 +1641,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_modest",
@@ -1252,40 +1655,84 @@
       {
         "id": "s_modest_sense_humble",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "not boastful about one's own abilities or achievements",
         "definitionZh": "謙虛的；謙遜的",
         "usageExplanationZh": "常形容人的態度，強調不誇耀自己的成就，與 arrogant 相對。",
-        "examples": [
-          {
-            "en": "Despite her success, she remained modest about her achievements.",
-            "zh": "儘管她很成功，她對自己的成就依然保持謙虛。"
-          }
+        "grammarPatterns": [
+          "modest about + noun",
+          "remain modest"
         ],
         "collocations": [
           {
             "text": "modest about one's achievements",
             "meaningZh": "對自己的成就保持謙虛"
           }
+        ],
+        "examples": [
+          {
+            "en": "Despite her success, she remained modest about her achievements.",
+            "zh": "儘管她很成功，她對自己的成就依然保持謙虛。"
+          }
         ]
       },
       {
         "id": "s_modest_sense_amount",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "moderate in size, amount, or degree; not excessive",
         "definitionZh": "適度的；不算多的",
         "usageExplanationZh": "常見 a modest increase／income，強調數量或程度中等，不誇張也不奢華。",
-        "examples": [
-          {
-            "en": "The company reported a modest increase in profits this quarter.",
-            "zh": "這家公司本季的利潤有適度的成長。"
-          }
+        "grammarPatterns": [
+          "a modest + noun",
+          "a modest increase in + noun"
         ],
         "collocations": [
           {
             "text": "a modest income",
             "meaningZh": "不高的收入"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company reported a modest increase in profits this quarter.",
+            "zh": "這家公司本季的利潤有適度的成長。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "humble",
+        "noteZh": "在品格義指不自誇的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "arrogant",
+        "noteZh": "在品格義指傲慢的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "modesty",
+        "partOfSpeech": "noun",
+        "meaningZh": "謙虛；適度"
+      },
+      {
+        "lemma": "modestly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "謙虛地；適度地"
+      },
+      {
+        "lemma": "immodest",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不謙虛的；不知節制的"
       }
     ],
     "tags": [
@@ -1300,19 +1747,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "humble",
-        "noteZh": "在品格義指不自誇的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "arrogant",
-        "noteZh": "在品格義指傲慢的"
-      }
-    ]
+    }
   },
   {
     "id": "w_modify",
@@ -1326,21 +1761,48 @@
       {
         "id": "s_modify_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to change something slightly, especially to improve it or make it more suitable",
         "definitionZh": "修改；調整",
         "usageExplanationZh": "常見 modify a plan／design，強調對既有事物做局部調整，而非全面改變。",
-        "examples": [
-          {
-            "en": "Engineers modified the design to reduce fuel consumption.",
-            "zh": "工程師修改了這項設計，以降低燃料消耗。"
-          }
+        "grammarPatterns": [
+          "modify + noun",
+          "modify sth to + V"
         ],
         "collocations": [
           {
             "text": "modify a design",
             "meaningZh": "修改設計"
           }
+        ],
+        "examples": [
+          {
+            "en": "Engineers modified the design to reduce fuel consumption.",
+            "zh": "工程師修改了這項設計，以降低燃料消耗。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "alter",
+        "noteZh": "作出修改或改變"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "modification",
+        "partOfSpeech": "noun",
+        "meaningZh": "修改；改動"
+      },
+      {
+        "lemma": "modifier",
+        "partOfSpeech": "noun",
+        "meaningZh": "修飾語"
       }
     ],
     "tags": [
@@ -1355,14 +1817,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "alter",
-        "noteZh": "作出修改或改變"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_moist",
@@ -1376,21 +1831,57 @@
       {
         "id": "s_moist_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "slightly wet; containing a small amount of water or liquid",
         "definitionZh": "潮濕的；濕潤的",
         "usageExplanationZh": "常見 moist soil／cake，強調適度的濕度，通常帶正面或中性語氣（如濕潤的蛋糕）。",
-        "examples": [
-          {
-            "en": "Keep the soil moist but not waterlogged.",
-            "zh": "保持土壤濕潤，但不要積水。"
-          }
+        "grammarPatterns": [
+          "keep sth moist",
+          "a moist + noun"
         ],
         "collocations": [
           {
             "text": "keep the soil moist",
             "meaningZh": "保持土壤濕潤"
           }
+        ],
+        "examples": [
+          {
+            "en": "Keep the soil moist but not waterlogged.",
+            "zh": "保持土壤濕潤，但不要積水。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "damp",
+        "noteZh": "略帶水分的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "dry",
+        "noteZh": "乾燥的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "moisture",
+        "partOfSpeech": "noun",
+        "meaningZh": "水分；濕氣"
+      },
+      {
+        "lemma": "moisten",
+        "partOfSpeech": "verb",
+        "meaningZh": "弄濕；使濕潤"
+      },
+      {
+        "lemma": "moisturize",
+        "partOfSpeech": "verb",
+        "meaningZh": "滋潤；保濕"
       }
     ],
     "tags": [
@@ -1404,19 +1895,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "damp",
-        "noteZh": "略帶水分的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "dry",
-        "noteZh": "乾燥的"
-      }
-    ]
+    }
   },
   {
     "id": "w_moisture",
@@ -1430,21 +1909,53 @@
       {
         "id": "s_moisture_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "small amounts of water present in the air, on a surface, or in a substance",
         "definitionZh": "水分；濕氣",
         "usageExplanationZh": "常見 moisture in the air，泛指存在於空氣、物質表面或內部的少量水分。",
-        "examples": [
-          {
-            "en": "The dehumidifier removes excess moisture from the air.",
-            "zh": "除濕機能去除空氣中多餘的濕氣。"
-          }
+        "grammarPatterns": [
+          "remove moisture from + noun",
+          "moisture in the air"
         ],
         "collocations": [
           {
             "text": "retain moisture",
             "meaningZh": "保持水分"
           }
+        ],
+        "examples": [
+          {
+            "en": "The dehumidifier removes excess moisture from the air.",
+            "zh": "除濕機能去除空氣中多餘的濕氣。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "dampness",
+        "noteZh": "物體或空氣中的濕氣"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "dryness",
+        "noteZh": "乾燥狀態"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "moist",
+        "partOfSpeech": "adjective",
+        "meaningZh": "潮濕的；濕潤的"
+      },
+      {
+        "lemma": "moisturize",
+        "partOfSpeech": "verb",
+        "meaningZh": "保濕；滋潤"
       }
     ],
     "tags": [
@@ -1457,19 +1968,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "dampness",
-        "noteZh": "物體或空氣中的濕氣"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "dryness",
-        "noteZh": "乾燥狀態"
-      }
-    ]
+    }
   },
   {
     "id": "w_molar",
@@ -1483,42 +1982,63 @@
       {
         "id": "s_molar_sense_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical"
+        ],
         "definitionEn": "relating to the broad, flat teeth at the back of the mouth used for grinding food",
         "definitionZh": "臼齒的；磨牙的",
         "usageExplanationZh": "牙科用語，常見 a molar tooth，指位於口腔後方、用於磨碎食物的寬平牙齒。",
-        "examples": [
-          {
-            "en": "The dentist noticed a small cavity in one of her molar teeth.",
-            "zh": "牙醫發現她的一顆臼齒上有個小蛀洞。"
-          }
+        "grammarPatterns": [
+          "molar + noun",
+          "the molar teeth"
         ],
         "collocations": [
           {
             "text": "a molar tooth",
             "meaningZh": "臼齒"
           }
+        ],
+        "examples": [
+          {
+            "en": "The dentist noticed a small cavity in one of her molar teeth.",
+            "zh": "牙醫發現她的一顆臼齒上有個小蛀洞。"
+          }
         ]
       },
       {
         "id": "s_molar_sense_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical"
+        ],
         "definitionEn": "one of the broad, flat teeth at the back of the mouth used for grinding food",
         "definitionZh": "臼齒；磨牙",
         "usageExplanationZh": "常見於牙科語境，指口腔後方負責咀嚼磨碎食物的牙齒。",
-        "examples": [
-          {
-            "en": "Wisdom teeth are the last molars to develop.",
-            "zh": "智齒是最後長出的臼齒。"
-          }
+        "grammarPatterns": [
+          "the back molars",
+          "a decayed molar"
         ],
         "collocations": [
           {
             "text": "an impacted molar",
             "meaningZh": "阻生臼齒"
           }
+        ],
+        "examples": [
+          {
+            "en": "Wisdom teeth are the last molars to develop.",
+            "zh": "智齒是最後長出的臼齒。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "grinding tooth",
+        "noteZh": "在名詞義指用於磨碎食物的牙齒"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1529,14 +2049,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "grinding tooth",
-        "noteZh": "在名詞義指用於磨碎食物的牙齒"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_mold",
@@ -1550,40 +2063,70 @@
       {
         "id": "s_mold_sense_fungus",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a fuzzy growth of fungus that develops on damp or decaying substances",
         "definitionZh": "黴；黴菌",
         "usageExplanationZh": "美式拼法（英式為 mould），常見 bread mold，指食物或潮濕表面滋生的真菌。",
-        "examples": [
-          {
-            "en": "Mold began to grow on the bread left out overnight.",
-            "zh": "麵包放了一整晚後開始長黴。"
-          }
+        "grammarPatterns": [
+          "mold grows on + noun",
+          "be covered in mold"
         ],
         "collocations": [
           {
             "text": "black mold",
             "meaningZh": "黑黴"
           }
+        ],
+        "examples": [
+          {
+            "en": "Mold began to grow on the bread left out overnight.",
+            "zh": "麵包放了一整晚後開始長黴。"
+          }
         ]
       },
       {
         "id": "s_mold_sense_container",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a hollow container used to give shape to a liquid or soft substance as it hardens",
         "definitionZh": "模子；模型",
         "usageExplanationZh": "常見 pour into a mold，用於製作特定形狀的物品，如蠟燭、金屬鑄件等。",
-        "examples": [
-          {
-            "en": "The chocolate was poured into a mold shaped like a heart.",
-            "zh": "巧克力被倒進一個心形的模子裡。"
-          }
+        "grammarPatterns": [
+          "pour sth into a mold",
+          "a mold shaped like + noun"
         ],
         "collocations": [
           {
             "text": "a casting mold",
             "meaningZh": "鑄造模具"
           }
+        ],
+        "examples": [
+          {
+            "en": "The chocolate was poured into a mold shaped like a heart.",
+            "zh": "巧克力被倒進一個心形的模子裡。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "fungus",
+        "noteZh": "在黴菌義指真菌，範圍較廣"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "moldy",
+        "partOfSpeech": "adjective",
+        "meaningZh": "發霉的"
       }
     ],
     "tags": [
@@ -1597,14 +2140,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "fungus",
-        "noteZh": "在黴菌義指真菌，範圍較廣"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_molecular",
@@ -1618,21 +2154,38 @@
       {
         "id": "s_molecular_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "relating to or consisting of molecules",
         "definitionZh": "分子的",
         "usageExplanationZh": "科學用語，常見 molecular structure／biology，涉及物質最基本結構單位的相關研究。",
-        "examples": [
-          {
-            "en": "Molecular biology has revolutionized our understanding of genetics.",
-            "zh": "分子生物學徹底改變了我們對遺傳學的理解。"
-          }
+        "grammarPatterns": [
+          "molecular + noun",
+          "at the molecular level"
         ],
         "collocations": [
           {
             "text": "molecular structure",
             "meaningZh": "分子結構"
           }
+        ],
+        "examples": [
+          {
+            "en": "Molecular biology has revolutionized our understanding of genetics.",
+            "zh": "分子生物學徹底改變了我們對遺傳學的理解。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "molecule",
+        "partOfSpeech": "noun",
+        "meaningZh": "分子"
       }
     ],
     "tags": [
@@ -1645,9 +2198,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_molecule",
@@ -1661,21 +2212,38 @@
       {
         "id": "s_molecule_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "the smallest unit of a substance that has all the properties of that substance, made up of atoms",
         "definitionZh": "分子",
         "usageExplanationZh": "化學用語，指由原子組成、保有該物質性質的最小單位。",
-        "examples": [
-          {
-            "en": "Water molecules consist of two hydrogen atoms and one oxygen atom.",
-            "zh": "水分子由兩個氫原子和一個氧原子組成。"
-          }
+        "grammarPatterns": [
+          "a molecule of + noun",
+          "water molecules"
         ],
         "collocations": [
           {
             "text": "a water molecule",
             "meaningZh": "水分子"
           }
+        ],
+        "examples": [
+          {
+            "en": "Water molecules consist of two hydrogen atoms and one oxygen atom.",
+            "zh": "水分子由兩個氫原子和一個氧原子組成。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "molecular",
+        "partOfSpeech": "adjective",
+        "meaningZh": "分子的"
       }
     ],
     "tags": [
@@ -1690,9 +2258,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_molest",
@@ -1706,21 +2272,48 @@
       {
         "id": "s_molest_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to sexually harass or assault someone, especially a child",
         "definitionZh": "（尤指對兒童）性騷擾；猥褻",
         "usageExplanationZh": "法律及新聞用語，語氣嚴肅，特指帶有性侵害或不當接觸性質的行為。",
-        "examples": [
-          {
-            "en": "The suspect was charged with attempting to molest a minor.",
-            "zh": "這名嫌疑人被控企圖猥褻未成年人。"
-          }
+        "grammarPatterns": [
+          "molest + somebody",
+          "be charged with molesting + somebody"
         ],
         "collocations": [
           {
             "text": "sexually molest a child",
             "meaningZh": "對兒童實施性侵害"
           }
+        ],
+        "examples": [
+          {
+            "en": "The suspect was charged with attempting to molest a minor.",
+            "zh": "這名嫌疑人被控企圖猥褻未成年人。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "abuse",
+        "noteZh": "指虐待；在此限於性侵害語境"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "molestation",
+        "partOfSpeech": "noun",
+        "meaningZh": "猥褻；性騷擾"
+      },
+      {
+        "lemma": "molester",
+        "partOfSpeech": "noun",
+        "meaningZh": "性騷擾者"
       }
     ],
     "tags": [
@@ -1734,14 +2327,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "abuse",
-        "noteZh": "指虐待；在此限於性侵害語境"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_mollify",
@@ -1755,21 +2341,47 @@
       {
         "id": "s_mollify_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to make someone less angry or upset, often by making concessions",
         "definitionZh": "安撫；平息（怒氣）",
         "usageExplanationZh": "正式用語，常見 mollify an angry customer，強調透過讓步或安撫化解對方的不滿情緒。",
-        "examples": [
-          {
-            "en": "The manager tried to mollify the angry customer with a refund.",
-            "zh": "經理試圖用退款來安撫這位憤怒的顧客。"
-          }
+        "grammarPatterns": [
+          "mollify + somebody",
+          "mollify sb with + noun"
         ],
         "collocations": [
           {
             "text": "mollify an angry customer",
             "meaningZh": "安撫憤怒的顧客"
           }
+        ],
+        "examples": [
+          {
+            "en": "The manager tried to mollify the angry customer with a refund.",
+            "zh": "經理試圖用退款來安撫這位憤怒的顧客。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "appease",
+        "noteZh": "安撫以減輕怒氣"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "antagonize",
+        "noteZh": "使人反感或敵對"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "mollification",
+        "partOfSpeech": "noun",
+        "meaningZh": "安撫；平息"
       }
     ],
     "tags": [
@@ -1783,19 +2395,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "appease",
-        "noteZh": "安撫以減輕怒氣"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "antagonize",
-        "noteZh": "使人反感或敵對"
-      }
-    ]
+    }
   },
   {
     "id": "w_momentum",
@@ -1809,21 +2409,53 @@
       {
         "id": "s_momentum_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "the force or speed that keeps something moving forward, or the driving force behind progress",
         "definitionZh": "動力；衝勁；動量",
         "usageExplanationZh": "可指物理學上的動量，也可比喻性地形容計畫或運動不斷推進的力量，如 gain momentum。",
-        "examples": [
-          {
-            "en": "The campaign gained momentum after receiving media attention.",
-            "zh": "這場運動在受到媒體關注後聲勢大增。"
-          }
+        "grammarPatterns": [
+          "gain momentum",
+          "build momentum for + noun"
         ],
         "collocations": [
           {
             "text": "gain momentum",
             "meaningZh": "增強勢頭"
           }
+        ],
+        "examples": [
+          {
+            "en": "The campaign gained momentum after receiving media attention.",
+            "zh": "這場運動在受到媒體關注後聲勢大增。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "impetus",
+        "noteZh": "在比喻義指推動發展的力量"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "moment",
+        "partOfSpeech": "noun",
+        "meaningZh": "片刻；時刻"
+      },
+      {
+        "lemma": "momentary",
+        "partOfSpeech": "adjective",
+        "meaningZh": "短暫的"
+      },
+      {
+        "lemma": "momentous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "重大的；關鍵的"
       }
     ],
     "tags": [
@@ -1837,14 +2469,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "impetus",
-        "noteZh": "在比喻義指推動發展的力量"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_monarch",
@@ -1858,21 +2483,47 @@
       {
         "id": "s_monarch_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a king, queen, or other ruler of a country who inherits the position",
         "definitionZh": "君主；國王（或女王）",
         "usageExplanationZh": "正式用語，強調透過世襲繼承王位的統治者，區別於民選領導人。",
-        "examples": [
-          {
-            "en": "The monarch opened the new session of parliament.",
-            "zh": "這位君主為國會的新會期揭幕。"
-          }
+        "grammarPatterns": [
+          "the reigning monarch",
+          "the monarch of + noun"
         ],
         "collocations": [
           {
             "text": "a reigning monarch",
             "meaningZh": "在位君主"
           }
+        ],
+        "examples": [
+          {
+            "en": "The monarch opened the new session of parliament.",
+            "zh": "這位君主為國會的新會期揭幕。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "sovereign",
+        "noteZh": "具有最高統治地位的君主"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "monarchy",
+        "partOfSpeech": "noun",
+        "meaningZh": "君主政體"
+      },
+      {
+        "lemma": "monarchical",
+        "partOfSpeech": "adjective",
+        "meaningZh": "君主的；君主制的"
       }
     ],
     "tags": [
@@ -1886,14 +2537,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "sovereign",
-        "noteZh": "具有最高統治地位的君主"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_monarchy",
@@ -1907,21 +2551,53 @@
       {
         "id": "s_monarchy_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a system of government in which a country is ruled by a king or queen",
         "definitionZh": "君主政體；君主國",
         "usageExplanationZh": "常見 a constitutional monarchy（君主立憲制），指以世襲君主為國家元首的政治體制。",
-        "examples": [
-          {
-            "en": "The country has been a constitutional monarchy since the early twentieth century.",
-            "zh": "自二十世紀初以來，這個國家一直實行君主立憲制。"
-          }
+        "grammarPatterns": [
+          "a constitutional monarchy",
+          "abolish the monarchy"
         ],
         "collocations": [
           {
             "text": "a constitutional monarchy",
             "meaningZh": "君主立憲制"
           }
+        ],
+        "examples": [
+          {
+            "en": "The country has been a constitutional monarchy since the early twentieth century.",
+            "zh": "自二十世紀初以來，這個國家一直實行君主立憲制。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "kingship",
+        "noteZh": "指君王統治的制度或身分"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "republic",
+        "noteZh": "在政體義指共和國"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "monarch",
+        "partOfSpeech": "noun",
+        "meaningZh": "君主"
+      },
+      {
+        "lemma": "monarchist",
+        "partOfSpeech": "noun",
+        "meaningZh": "保皇黨人"
       }
     ],
     "tags": [
@@ -1935,19 +2611,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "kingship",
-        "noteZh": "指君王統治的制度或身分"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "republic",
-        "noteZh": "在政體義指共和國"
-      }
-    ]
+    }
   },
   {
     "id": "w_monastery",
@@ -1961,21 +2625,47 @@
       {
         "id": "s_monastery_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a building where monks live together as a religious community",
         "definitionZh": "修道院",
         "usageExplanationZh": "宗教用語，特指男性僧侶集體居住修行的場所，女性則多用 convent。",
-        "examples": [
-          {
-            "en": "The monks have lived in this monastery for over five hundred years.",
-            "zh": "這些僧侶已在這座修道院裡生活了超過五百年。"
-          }
+        "grammarPatterns": [
+          "live in a monastery",
+          "enter a monastery"
         ],
         "collocations": [
           {
             "text": "a Buddhist monastery",
             "meaningZh": "佛教寺院"
           }
+        ],
+        "examples": [
+          {
+            "en": "The monks have lived in this monastery for over five hundred years.",
+            "zh": "這些僧侶已在這座修道院裡生活了超過五百年。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "abbey",
+        "noteZh": "由院長主持的修道院，為其中一類"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "monastic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "修道院的；僧侶的"
+      },
+      {
+        "lemma": "monk",
+        "partOfSpeech": "noun",
+        "meaningZh": "修道士；僧侶"
       }
     ],
     "tags": [
@@ -1988,14 +2678,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "abbey",
-        "noteZh": "由院長主持的修道院，為其中一類"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_monetary",
@@ -2009,21 +2692,48 @@
       {
         "id": "s_monetary_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "relating to money or currency",
         "definitionZh": "貨幣的；金錢的",
         "usageExplanationZh": "常見 monetary policy（貨幣政策）、monetary value，多用於經濟、財政等正式語境。",
-        "examples": [
-          {
-            "en": "The central bank adjusted its monetary policy to control inflation.",
-            "zh": "央行調整了貨幣政策以控制通貨膨脹。"
-          }
+        "grammarPatterns": [
+          "monetary policy",
+          "monetary + noun"
         ],
         "collocations": [
           {
             "text": "monetary policy",
             "meaningZh": "貨幣政策"
           }
+        ],
+        "examples": [
+          {
+            "en": "The central bank adjusted its monetary policy to control inflation.",
+            "zh": "央行調整了貨幣政策以控制通貨膨脹。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "financial",
+        "noteZh": "與金錢財務有關的，範圍較廣"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "money",
+        "partOfSpeech": "noun",
+        "meaningZh": "金錢；貨幣"
+      },
+      {
+        "lemma": "monetize",
+        "partOfSpeech": "verb",
+        "meaningZh": "使貨幣化；使獲利"
       }
     ],
     "tags": [
@@ -2038,14 +2748,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "financial",
-        "noteZh": "與金錢財務有關的，範圍較廣"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_monolithic",
@@ -2059,21 +2762,48 @@
       {
         "id": "s_monolithic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "extremely large, powerful, and difficult to change, often seen as a single unified whole",
         "definitionZh": "巨大且僵化的；整體劃一的",
         "usageExplanationZh": "常帶負面意涵，形容組織或體制龐大、缺乏彈性，如 a monolithic bureaucracy。",
-        "examples": [
-          {
-            "en": "Critics described the agency as a monolithic bureaucracy resistant to reform。",
-            "zh": "批評者形容這個機構是個龐大僵化、抗拒改革的官僚體系。"
-          }
+        "grammarPatterns": [
+          "a monolithic + noun",
+          "monolithic in + noun"
         ],
         "collocations": [
           {
             "text": "a monolithic organization",
             "meaningZh": "龐大且僵化的組織"
           }
+        ],
+        "examples": [
+          {
+            "en": "Critics described the agency as a monolithic bureaucracy resistant to reform。",
+            "zh": "批評者形容這個機構是個龐大僵化、抗拒改革的官僚體系。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "uniform",
+        "noteZh": "在組織義指整體劃一的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "diverse",
+        "noteZh": "在組織組成義指多元的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "monolith",
+        "partOfSpeech": "noun",
+        "meaningZh": "巨石；龐然大物"
       }
     ],
     "tags": [
@@ -2086,19 +2816,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "uniform",
-        "noteZh": "在組織義指整體劃一的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "diverse",
-        "noteZh": "在組織組成義指多元的"
-      }
-    ]
+    }
   },
   {
     "id": "w_monopoly",
@@ -2112,21 +2830,53 @@
       {
         "id": "s_monopoly_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "academic"
+        ],
         "definitionEn": "exclusive control over a market or resource by a single company or entity",
         "definitionZh": "壟斷；獨占",
         "usageExplanationZh": "經濟用語，常見 have a monopoly on／over，強調單一實體完全掌控某市場或資源。",
-        "examples": [
-          {
-            "en": "The company once had a monopoly on telephone services in the country.",
-            "zh": "這家公司曾一度壟斷了該國的電話服務。"
-          }
+        "grammarPatterns": [
+          "have a monopoly on + noun",
+          "break up a monopoly"
         ],
         "collocations": [
           {
             "text": "a monopoly on trade",
             "meaningZh": "貿易壟斷"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company once had a monopoly on telephone services in the country.",
+            "zh": "這家公司曾一度壟斷了該國的電話服務。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "exclusive control",
+        "noteZh": "對某領域的獨占控制"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "competition",
+        "noteZh": "在市場義指競爭狀態"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "monopolize",
+        "partOfSpeech": "verb",
+        "meaningZh": "壟斷；獨占"
+      },
+      {
+        "lemma": "monopolistic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "壟斷的"
       }
     ],
     "tags": [
@@ -2141,19 +2891,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "exclusive control",
-        "noteZh": "對某領域的獨占控制"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "competition",
-        "noteZh": "在市場義指競爭狀態"
-      }
-    ]
+    }
   },
   {
     "id": "w_monotonous",
@@ -2167,21 +2905,52 @@
       {
         "id": "s_monotonous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "tediously repetitive and lacking variety",
         "definitionZh": "單調的；乏味的",
         "usageExplanationZh": "常修飾 job、voice、routine 等，強調缺乏變化而令人感到枯燥。",
-        "examples": [
-          {
-            "en": "Working on the assembly line can be quite monotonous.",
-            "zh": "在生產線上工作可能相當單調乏味。"
-          }
+        "grammarPatterns": [
+          "a monotonous + noun",
+          "monotonous work"
         ],
         "collocations": [
           {
             "text": "monotonous work",
             "meaningZh": "單調的工作"
           }
+        ],
+        "examples": [
+          {
+            "en": "Working on the assembly line can be quite monotonous.",
+            "zh": "在生產線上工作可能相當單調乏味。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "repetitive",
+        "noteZh": "反覆不變而乏味的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "varied",
+        "noteZh": "多變而有變化的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "monotony",
+        "partOfSpeech": "noun",
+        "meaningZh": "單調；乏味"
+      },
+      {
+        "lemma": "monotone",
+        "partOfSpeech": "noun",
+        "meaningZh": "單調的聲音"
       }
     ],
     "tags": [
@@ -2196,19 +2965,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "repetitive",
-        "noteZh": "反覆不變而乏味的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "varied",
-        "noteZh": "多變而有變化的"
-      }
-    ]
+    }
   },
   {
     "id": "w_monster",
@@ -2222,21 +2979,47 @@
       {
         "id": "s_monster_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "an imaginary frightening creature, or a cruel and inhuman person",
         "definitionZh": "怪物；惡人",
         "usageExplanationZh": "可指虛構的可怕生物，也可比喻性地形容行為極端殘忍的人。",
-        "examples": [
-          {
-            "en": "The children were scared of the monster in the storybook.",
-            "zh": "孩子們害怕故事書裡的怪物。"
-          }
+        "grammarPatterns": [
+          "a frightening monster",
+          "the monster in + noun"
         ],
         "collocations": [
           {
             "text": "a sea monster",
             "meaningZh": "海怪"
           }
+        ],
+        "examples": [
+          {
+            "en": "The children were scared of the monster in the storybook.",
+            "zh": "孩子們害怕故事書裡的怪物。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "beast",
+        "noteZh": "在怪物義指可怕的獸類生物"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "monstrous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "巨大的；令人髮指的"
+      },
+      {
+        "lemma": "monstrosity",
+        "partOfSpeech": "noun",
+        "meaningZh": "醜惡之物；畸形怪物"
       }
     ],
     "tags": [
@@ -2250,14 +3033,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "beast",
-        "noteZh": "在怪物義指可怕的獸類生物"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_monstrous",
@@ -2271,21 +3047,48 @@
       {
         "id": "s_monstrous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "extremely large, or shockingly wrong and cruel",
         "definitionZh": "巨大的；令人髮指的",
         "usageExplanationZh": "可單純形容尺寸極大，也可帶強烈道德譴責意味，如 a monstrous crime。",
-        "examples": [
-          {
-            "en": "The court described the attack as a monstrous crime against humanity.",
-            "zh": "法院將這次攻擊描述為一樁令人髮指的反人類罪行。"
-          }
+        "grammarPatterns": [
+          "a monstrous + noun",
+          "a monstrous crime"
         ],
         "collocations": [
           {
             "text": "a monstrous crime",
             "meaningZh": "令人髮指的罪行"
           }
+        ],
+        "examples": [
+          {
+            "en": "The court described the attack as a monstrous crime against humanity.",
+            "zh": "法院將這次攻擊描述為一樁令人髮指的反人類罪行。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "atrocious",
+        "noteZh": "在惡行義指令人髮指的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "monster",
+        "partOfSpeech": "noun",
+        "meaningZh": "怪物；惡人"
+      },
+      {
+        "lemma": "monstrously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "駭人地；極度地"
       }
     ],
     "tags": [
@@ -2299,14 +3102,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "atrocious",
-        "noteZh": "在惡行義指令人髮指的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_monument",
@@ -2320,21 +3116,42 @@
       {
         "id": "s_monument_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a structure built to honor and remember a person, event, or historical site",
         "definitionZh": "紀念碑；紀念性建築",
         "usageExplanationZh": "常見 a national monument，也可比喻性地指具重大意義的成就或作品。",
-        "examples": [
-          {
-            "en": "The statue serves as a monument to the fallen soldiers.",
-            "zh": "這座雕像作為紀念陣亡士兵的紀念碑。"
-          }
+        "grammarPatterns": [
+          "a monument to + somebody",
+          "erect a monument"
         ],
         "collocations": [
           {
             "text": "a monument to the fallen",
             "meaningZh": "紀念陣亡者的紀念碑"
           }
+        ],
+        "examples": [
+          {
+            "en": "The statue serves as a monument to the fallen soldiers.",
+            "zh": "這座雕像作為紀念陣亡士兵的紀念碑。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "memorial",
+        "noteZh": "用以紀念人物或事件的建築或物件"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "monumental",
+        "partOfSpeech": "adjective",
+        "meaningZh": "巨大的；意義重大的"
       }
     ],
     "tags": [
@@ -2347,14 +3164,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "memorial",
-        "noteZh": "用以紀念人物或事件的建築或物件"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_monumental",
@@ -2368,21 +3178,52 @@
       {
         "id": "s_monumental_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "extremely great in size, extent, or significance",
         "definitionZh": "巨大的；意義重大的",
         "usageExplanationZh": "常修飾 achievement、mistake、task 等，語氣強烈，強調規模或重要性非同小可。",
-        "examples": [
-          {
-            "en": "Completing the marathon was a monumental achievement for him.",
-            "zh": "完成這場馬拉松對他來說是一項意義重大的成就。"
-          }
+        "grammarPatterns": [
+          "a monumental + noun",
+          "monumental in + noun"
         ],
         "collocations": [
           {
             "text": "a monumental achievement",
             "meaningZh": "重大成就"
           }
+        ],
+        "examples": [
+          {
+            "en": "Completing the marathon was a monumental achievement for him.",
+            "zh": "完成這場馬拉松對他來說是一項意義重大的成就。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "enormous",
+        "noteZh": "在規模義指巨大的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "insignificant",
+        "noteZh": "在重要性義指微不足道的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "monument",
+        "partOfSpeech": "noun",
+        "meaningZh": "紀念碑"
+      },
+      {
+        "lemma": "monumentally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "極大地"
       }
     ],
     "tags": [
@@ -2395,19 +3236,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "enormous",
-        "noteZh": "在規模義指巨大的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "insignificant",
-        "noteZh": "在重要性義指微不足道的"
-      }
-    ]
+    }
   },
   {
     "id": "w_mood",
@@ -2421,21 +3250,42 @@
       {
         "id": "s_mood_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "the way someone feels at a particular time, or the general atmosphere of a place or situation",
         "definitionZh": "心情；氛圍",
         "usageExplanationZh": "常見 in a good／bad mood、set the mood，可指個人情緒，也可指場所或情境營造的氣氛。",
-        "examples": [
-          {
-            "en": "Soft lighting helped set a relaxing mood for the dinner party.",
-            "zh": "柔和的燈光為這場晚宴營造了輕鬆的氛圍。"
-          }
+        "grammarPatterns": [
+          "be in a good mood",
+          "set the mood for + noun"
         ],
         "collocations": [
           {
             "text": "in a good mood",
             "meaningZh": "心情很好"
           }
+        ],
+        "examples": [
+          {
+            "en": "Soft lighting helped set a relaxing mood for the dinner party.",
+            "zh": "柔和的燈光為這場晚宴營造了輕鬆的氛圍。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "disposition",
+        "noteZh": "指當下的心情傾向或性情"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "moody",
+        "partOfSpeech": "adjective",
+        "meaningZh": "喜怒無常的"
       }
     ],
     "tags": [
@@ -2449,14 +3299,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "disposition",
-        "noteZh": "指當下的心情傾向或性情"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_moody",
@@ -2470,21 +3313,53 @@
       {
         "id": "s_moody_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "tending to change moods often and unpredictably, especially becoming irritable or sad",
         "definitionZh": "喜怒無常的；情緒化的",
         "usageExplanationZh": "常形容青少年或性格敏感的人，強調情緒起伏大且不易預測。",
-        "examples": [
-          {
-            "en": "Teenagers can be moody as their hormones fluctuate.",
-            "zh": "青少年因荷爾蒙變化，情緒可能容易起伏不定。"
-          }
+        "grammarPatterns": [
+          "get moody",
+          "a moody + noun"
         ],
         "collocations": [
           {
             "text": "a moody teenager",
             "meaningZh": "喜怒無常的青少年"
           }
+        ],
+        "examples": [
+          {
+            "en": "Teenagers can be moody as their hormones fluctuate.",
+            "zh": "青少年因荷爾蒙變化，情緒可能容易起伏不定。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "temperamental",
+        "noteZh": "情緒容易波動的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "even-tempered",
+        "noteZh": "情緒穩定的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "mood",
+        "partOfSpeech": "noun",
+        "meaningZh": "心情；氛圍"
+      },
+      {
+        "lemma": "moodiness",
+        "partOfSpeech": "noun",
+        "meaningZh": "情緒化；喜怒無常"
       }
     ],
     "tags": [
@@ -2497,19 +3372,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "temperamental",
-        "noteZh": "情緒容易波動的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "even-tempered",
-        "noteZh": "情緒穩定的"
-      }
-    ]
+    }
   },
   {
     "id": "w_morale",
@@ -2523,23 +3386,38 @@
       {
         "id": "s_morale_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "the level of confidence, enthusiasm, and discipline within a group",
         "definitionZh": "士氣",
         "usageExplanationZh": "常見 boost morale、low morale，多用於團隊、軍隊或員工的集體心理狀態。",
-        "examples": [
-          {
-            "en": "The team's morale improved after their unexpected win.",
-            "zh": "這支隊伍在意外獲勝後，士氣大振。"
-          }
+        "grammarPatterns": [
+          "boost morale",
+          "morale among + noun"
         ],
         "collocations": [
           {
             "text": "boost morale",
             "meaningZh": "提升士氣"
           }
+        ],
+        "examples": [
+          {
+            "en": "The team's morale improved after their unexpected win.",
+            "zh": "這支隊伍在意外獲勝後，士氣大振。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "spirits",
+        "noteZh": "指群體或個人的精神與信心"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2551,14 +3429,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "spirits",
-        "noteZh": "指群體或個人的精神與信心"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_morality",
@@ -2572,21 +3443,58 @@
       {
         "id": "s_morality_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "principles concerning the distinction between right and wrong behavior",
         "definitionZh": "道德；道德觀",
         "usageExplanationZh": "常見 a sense of morality、questions of morality，涉及倫理判斷與行為準則的抽象概念。",
-        "examples": [
-          {
-            "en": "The novel raises difficult questions about morality and justice.",
-            "zh": "這部小說提出了關於道德與正義的艱難問題。"
-          }
+        "grammarPatterns": [
+          "questions of morality",
+          "public morality"
         ],
         "collocations": [
           {
             "text": "public morality",
             "meaningZh": "公共道德"
           }
+        ],
+        "examples": [
+          {
+            "en": "The novel raises difficult questions about morality and justice.",
+            "zh": "這部小說提出了關於道德與正義的艱難問題。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "ethics",
+        "noteZh": "關於是非與行為的道德原則"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "immorality",
+        "noteZh": "不道德的行為或性質"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "moral",
+        "partOfSpeech": "adjective",
+        "meaningZh": "道德的"
+      },
+      {
+        "lemma": "moralize",
+        "partOfSpeech": "verb",
+        "meaningZh": "說教；道德化"
+      },
+      {
+        "lemma": "immoral",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不道德的"
       }
     ],
     "tags": [
@@ -2599,19 +3507,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "ethics",
-        "noteZh": "關於是非與行為的道德原則"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "immorality",
-        "noteZh": "不道德的行為或性質"
-      }
-    ]
+    }
   },
   {
     "id": "w_morbid",
@@ -2625,21 +3521,47 @@
       {
         "id": "s_morbid_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "having an unusual and unhealthy interest in death or unpleasant subjects",
         "definitionZh": "病態的；對死亡等陰暗事物過度著迷的",
         "usageExplanationZh": "常見 morbid curiosity，形容對死亡、疾病等令人不安主題抱持異常興趣。",
-        "examples": [
-          {
-            "en": "He has a morbid fascination with true crime stories.",
-            "zh": "他對真實犯罪故事有一種病態的著迷。"
-          }
+        "grammarPatterns": [
+          "a morbid fascination with + noun",
+          "morbid + noun"
         ],
         "collocations": [
           {
             "text": "a morbid fascination with death",
             "meaningZh": "對死亡的病態迷戀"
           }
+        ],
+        "examples": [
+          {
+            "en": "He has a morbid fascination with true crime stories.",
+            "zh": "他對真實犯罪故事有一種病態的著迷。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "macabre",
+        "noteZh": "涉及死亡而令人不安的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "morbidity",
+        "partOfSpeech": "noun",
+        "meaningZh": "病態；發病率"
+      },
+      {
+        "lemma": "morbidly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "病態地"
       }
     ],
     "tags": [
@@ -2654,13 +3576,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "macabre",
-        "noteZh": "涉及死亡而令人不安的"
-      }
-    ],
-    "antonyms": []
+    }
   }
 ]

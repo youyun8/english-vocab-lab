@@ -6,10 +6,10 @@ import { resolve, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parse } from 'csv-parse/sync';
 import { dictionary } from 'cmu-pronouncing-dictionary';
-import { vocabularyEntrySchema, type VocabularyEntry, type VocabularySense } from '../src/domain/vocabulary';
+import { draftVocabularyEntrySchema, vocabularyEntrySchema, type DraftVocabularyEntry, type VocabularyEntry, type VocabularySense } from '../src/domain/vocabulary';
 import { dictionaryEntry, ECDICT_SHA256, frequencyRank, type DictionaryRow } from './lib/ecdict';
 import { kkFromArpabet } from './lib/kk';
-import { applyBilingualLesson, loadBilingualLessons } from './lib/bilingual-lessons';
+import { applyBilingualLesson, loadBilingualLessons, loadWordFamilies } from './lib/bilingual-lessons';
 
 const root = fileURLToPath(new URL('..', import.meta.url));
 const csvPath = process.argv[2];
@@ -47,9 +47,9 @@ const byPriorityThenRank = (a: DictionaryRow, b: DictionaryRow) =>
   || a.word.localeCompare(b.word, 'en');
 
 /** Every entry built so far, so the second pass reuses the first pass's work. */
-const built = new Map<string, VocabularyEntry>();
+const built = new Map<string, DraftVocabularyEntry>();
 /** Builds one entry, applying the editorial definition overrides. */
-function buildEntry(row: DictionaryRow): VocabularyEntry | null {
+function buildEntry(row: DictionaryRow): DraftVocabularyEntry | null {
   const cached = built.get(row.word);
   if (cached) return cached;
   const entry = dictionaryEntry(row, kkFromArpabet(lookup[row.word]!));
@@ -58,7 +58,7 @@ function buildEntry(row: DictionaryRow): VocabularyEntry | null {
   if (definitions) {
     entry.senses = definitions.map((sense) => ({ ...sense, id: `s_${entry.lemma}_${sense.partOfSpeech}`, examples: [] }));
   }
-  vocabularyEntrySchema.parse(entry);
+  draftVocabularyEntrySchema.parse(entry);
   built.set(row.word, entry);
   return entry;
 }
@@ -69,7 +69,7 @@ function buildEntry(row: DictionaryRow): VocabularyEntry | null {
 const candidates = rows
   .filter((row) => eligible(row) && (hasTag(row, 'toefl') || hasTag(row, 'gre')))
   .sort(byPriorityThenRank);
-const groups = { both: [] as VocabularyEntry[], toefl: [] as VocabularyEntry[], gre: [] as VocabularyEntry[] };
+const groups = { both: [] as DraftVocabularyEntry[], toefl: [] as DraftVocabularyEntry[], gre: [] as DraftVocabularyEntry[] };
 for (const row of candidates) {
   if (built.has(row.word)) continue; // A repeated headword row; the first one wins.
   const entry = buildEntry(row);
@@ -77,11 +77,11 @@ for (const row of candidates) {
   const group = entry.tags.includes('toefl') ? (entry.tags.includes('gre') ? 'both' : 'toefl') : 'gre';
   groups[group].push(entry);
 }
-function take(group: VocabularyEntry[], count: number, label: string): VocabularyEntry[] {
+function take(group: DraftVocabularyEntry[], count: number, label: string): DraftVocabularyEntry[] {
   if (group.length < count) throw new Error(`Insufficient eligible ${label} entries: ${group.length}`);
   return group.slice(0, count);
 }
-const academicShape = (entry: VocabularyEntry) => entry.senses.some((sense) =>
+const academicShape = (entry: DraftVocabularyEntry) => entry.senses.some((sense) =>
   sense.partOfSpeech === 'adjective' || sense.partOfSpeech === 'verb')
   || /(?:tion|sion|ity|ism|ence|ance|ology|graphy|cracy|ment|ness|sis)$/.test(entry.lemma)
   || priorities.has(entry.lemma);
@@ -97,7 +97,7 @@ const core = [
 // the strongest TOEFL/GRE words that missed the first quotas, plus IELTS
 // vocabulary, which pass 1 never considered.
 const chosen = new Set(core.map((entry) => entry.lemma));
-const widenedPool: VocabularyEntry[] = [];
+const widenedPool: DraftVocabularyEntry[] = [];
 const widenedSeen = new Set<string>();
 for (const row of rows
   .filter((row) => eligible(row) && !chosen.has(row.word)
@@ -110,13 +110,13 @@ for (const row of rows
   widenedPool.push(entry);
 }
 /** Draws from a pool, never repeating a word already drawn in this pass. */
-function draw(pool: VocabularyEntry[], count: number, label: string): VocabularyEntry[] {
+function draw(pool: DraftVocabularyEntry[], count: number, label: string): DraftVocabularyEntry[] {
   const picks = pool.filter((entry) => !chosen.has(entry.lemma)).slice(0, count);
   if (picks.length < count) throw new Error(`Insufficient eligible ${label} entries: ${picks.length}`);
   picks.forEach((entry) => chosen.add(entry.lemma));
   return picks;
 }
-const examTagged = (entry: VocabularyEntry) => entry.tags.includes('toefl') || entry.tags.includes('gre');
+const examTagged = (entry: DraftVocabularyEntry) => entry.tags.includes('toefl') || entry.tags.includes('gre');
 const widened = [
   ...draw(widenedPool.filter((e) => examTagged(e) && ranks.get(e.lemma)! < 12000), 1200, 'TOEFL/GRE core (pass 2)'),
   ...draw(widenedPool.filter((e) => e.tags.includes('gre') && ranks.get(e.lemma)! >= 12000 && academicShape(e)), 500, 'GRE advanced (pass 2)'),
@@ -125,8 +125,9 @@ const widened = [
 ];
 // Apply lessons after selection so editorial POS changes do not change the word list.
 const lessons = loadBilingualLessons();
+const families = loadWordFamilies();
 const selected = [...core, ...widened]
-  .map((entry) => vocabularyEntrySchema.parse(applyBilingualLesson(entry, lessons)))
+  .map((entry) => vocabularyEntrySchema.parse(applyBilingualLesson(entry, lessons, families)))
   .sort((a, b) => a.lemma.localeCompare(b.lemma, 'en'));
 for (const lemma of lessons.keys()) {
   if (!selected.some((entry) => entry.lemma === lemma)) throw new Error(`Lesson missing from import: ${lemma}`);

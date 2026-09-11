@@ -11,21 +11,47 @@
       {
         "id": "s_furnish_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to provide a room or building with furniture",
         "definitionZh": "布置（傢俱）；裝設",
         "usageExplanationZh": "常見 furnish an apartment（為公寓布置傢俱），also furnish someone with information（提供資訊，較正式）。",
-        "examples": [
-          {
-            "en": "They furnished the new apartment with secondhand furniture.",
-            "zh": "他們用二手家具布置了新公寓。"
-          }
+        "grammarPatterns": [
+          "furnish + noun",
+          "furnish sth with + noun"
         ],
         "collocations": [
           {
             "text": "furnish an apartment",
             "meaningZh": "為公寓添置傢俱"
           }
+        ],
+        "examples": [
+          {
+            "en": "They furnished the new apartment with secondhand furniture.",
+            "zh": "他們用二手家具布置了新公寓。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "equip",
+        "noteZh": "為房間配備所需物品"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "furniture",
+        "partOfSpeech": "noun",
+        "meaningZh": "傢俱"
+      },
+      {
+        "lemma": "furnishings",
+        "partOfSpeech": "noun",
+        "meaningZh": "室內陳設"
       }
     ],
     "tags": [
@@ -39,14 +65,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "equip",
-        "noteZh": "為房間配備所需物品"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_furrow",
@@ -60,53 +79,59 @@
       {
         "id": "s_furrow_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "literary"
+        ],
         "definitionEn": "a long narrow trench made in the ground by a plow, or a deep wrinkle",
         "definitionZh": "犁溝；（臉上的）深皺紋",
         "usageExplanationZh": "農業脈絡指田裡的犁溝；也可比喻皺紋，如 furrows on the brow（額頭的皺紋）。",
-        "examples": [
-          {
-            "en": "The farmer plowed straight furrows across the field.",
-            "zh": "農夫在田裡犁出筆直的溝壟。"
-          }
+        "grammarPatterns": [
+          "a furrow in + noun",
+          "plow furrows",
+          "deep furrows"
         ],
         "collocations": [
           {
             "text": "a deep furrow",
             "meaningZh": "深溝或深皺紋"
           }
+        ],
+        "examples": [
+          {
+            "en": "The farmer plowed straight furrows across the field.",
+            "zh": "農夫在田裡犁出筆直的溝壟。"
+          }
         ]
       },
       {
         "id": "s_furrow_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "to make deep wrinkles or lines in something, especially the brow",
         "definitionZh": "使起皺紋（尤指額頭）",
         "usageExplanationZh": "常見 furrow one's brow，表示皺眉思考或擔憂，是常見的固定搭配。",
-        "examples": [
-          {
-            "en": "She furrowed her brow in confusion as she read the instructions.",
-            "zh": "她讀著說明時，困惑地皺起了眉頭。"
-          }
+        "grammarPatterns": [
+          "furrow one's brow",
+          "sth furrows"
         ],
         "collocations": [
           {
             "text": "furrow one's brow",
             "meaningZh": "皺眉"
           }
+        ],
+        "examples": [
+          {
+            "en": "She furrowed her brow in confusion as she read the instructions.",
+            "zh": "她讀著說明時，困惑地皺起了眉頭。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "groove",
@@ -117,7 +142,18 @@
         "noteZh": "使皮膚起皺"
       }
     ],
-    "antonyms": []
+    "antonyms": [],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_fury",
@@ -131,21 +167,59 @@
       {
         "id": "s_fury_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "violent or uncontrollable anger",
         "definitionZh": "盛怒；狂怒",
         "usageExplanationZh": "比 anger 更強烈，常見 in a fury（勃然大怒地）；也可形容自然力量的猛烈，如 the fury of the storm。",
-        "examples": [
-          {
-            "en": "He stormed out of the room in a fury.",
-            "zh": "他在盛怒之下衝出了房間。"
-          }
+        "grammarPatterns": [
+          "in a fury",
+          "the fury of + noun",
+          "fly into a fury"
         ],
         "collocations": [
           {
             "text": "fly into a fury",
             "meaningZh": "勃然大怒"
           }
+        ],
+        "examples": [
+          {
+            "en": "He stormed out of the room in a fury.",
+            "zh": "他在盛怒之下衝出了房間。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "rage",
+        "noteZh": "極度憤怒"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "calmness",
+        "noteZh": "平靜"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "furious",
+        "partOfSpeech": "adjective",
+        "meaningZh": "狂怒的"
+      },
+      {
+        "lemma": "furiously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "狂怒地"
+      },
+      {
+        "lemma": "infuriate",
+        "partOfSpeech": "verb",
+        "meaningZh": "使震怒"
       }
     ],
     "tags": [
@@ -160,19 +234,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "rage",
-        "noteZh": "極度憤怒"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "calmness",
-        "noteZh": "平靜"
-      }
-    ]
+    }
   },
   {
     "id": "w_fusion",
@@ -186,21 +248,53 @@
       {
         "id": "s_fusion_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "the process of joining two or more things together to form a single new thing",
         "definitionZh": "融合；結合",
         "usageExplanationZh": "常見 nuclear fusion（核融合）；也用於文化或風格的融合，如 a fusion of jazz and rock。",
-        "examples": [
-          {
-            "en": "The restaurant is known for its fusion of Thai and French cuisine.",
-            "zh": "這家餐廳以融合泰式與法式料理聞名。"
-          }
+        "grammarPatterns": [
+          "a fusion of + noun + and + noun",
+          "nuclear fusion"
         ],
         "collocations": [
           {
             "text": "nuclear fusion",
             "meaningZh": "核融合"
           }
+        ],
+        "examples": [
+          {
+            "en": "The restaurant is known for its fusion of Thai and French cuisine.",
+            "zh": "這家餐廳以融合泰式與法式料理聞名。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "merger",
+        "noteZh": "結合成一體"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "separation",
+        "noteZh": "分離"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "fuse",
+        "partOfSpeech": "verb",
+        "meaningZh": "熔合；融合"
+      },
+      {
+        "lemma": "fusible",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可熔化的"
       }
     ],
     "tags": [
@@ -215,19 +309,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "merger",
-        "noteZh": "結合成一體"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "separation",
-        "noteZh": "分離"
-      }
-    ]
+    }
   },
   {
     "id": "w_fuss",
@@ -241,40 +323,79 @@
       {
         "id": "s_fuss_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "unnecessary or excessive worry, excitement, or activity about something",
         "definitionZh": "大驚小怪；小題大作",
         "usageExplanationZh": "常見 make a fuss（大驚小怪，抱怨）、without much fuss（沒有太多麻煩地）。",
-        "examples": [
-          {
-            "en": "There's no need to make such a fuss over a small mistake.",
-            "zh": "沒必要為了一個小錯誤這麼大驚小怪。"
-          }
+        "grammarPatterns": [
+          "make a fuss about/over + noun",
+          "without any fuss"
         ],
         "collocations": [
           {
             "text": "make a fuss about",
             "meaningZh": "為某事大驚小怪"
           }
+        ],
+        "examples": [
+          {
+            "en": "There's no need to make such a fuss over a small mistake.",
+            "zh": "沒必要為了一個小錯誤這麼大驚小怪。"
+          }
         ]
       },
       {
         "id": "s_fuss_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "to show unnecessary or excessive concern about something",
         "definitionZh": "大驚小怪；瞎操心",
         "usageExplanationZh": "常接 over/about，如 fuss over details（在細節上瞎操心）。",
-        "examples": [
-          {
-            "en": "Stop fussing over what other people think of you.",
-            "zh": "別再為別人怎麼看你而瞎操心了。"
-          }
+        "grammarPatterns": [
+          "fuss over + noun",
+          "fuss about + noun"
         ],
         "collocations": [
           {
             "text": "fuss over",
             "meaningZh": "為某人某事過度操心"
           }
+        ],
+        "examples": [
+          {
+            "en": "Stop fussing over what other people think of you.",
+            "zh": "別再為別人怎麼看你而瞎操心了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "commotion",
+        "noteZh": "小題大作造成的騷動"
+      },
+      {
+        "lemma": "worry",
+        "noteZh": "過度操心"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "fussy",
+        "partOfSpeech": "adjective",
+        "meaningZh": "愛挑剔的"
+      },
+      {
+        "lemma": "fussily",
+        "partOfSpeech": "adverb",
+        "meaningZh": "大驚小怪地"
       }
     ],
     "tags": [
@@ -288,18 +409,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "commotion",
-        "noteZh": "小題大作造成的騷動"
-      },
-      {
-        "lemma": "worry",
-        "noteZh": "過度操心"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_fussy",
@@ -313,21 +423,53 @@
       {
         "id": "s_fussy_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "overly concerned with details or difficult to please",
         "definitionZh": "愛挑剔的；難取悅的",
         "usageExplanationZh": "常修飾人，如 a fussy eater（挑食的人）；也可形容過度講究裝飾的設計，如 a fussy pattern。",
-        "examples": [
-          {
-            "en": "My grandmother is very fussy about how her tea is prepared.",
-            "zh": "我祖母對泡茶的方式非常挑剔。"
-          }
+        "grammarPatterns": [
+          "be fussy about + noun",
+          "a fussy + noun"
         ],
         "collocations": [
           {
             "text": "a fussy eater",
             "meaningZh": "挑食的人"
           }
+        ],
+        "examples": [
+          {
+            "en": "My grandmother is very fussy about how her tea is prepared.",
+            "zh": "我祖母對泡茶的方式非常挑剔。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "picky",
+        "noteZh": "愛挑剔的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "undemanding",
+        "noteZh": "要求不多的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "fuss",
+        "partOfSpeech": "noun",
+        "meaningZh": "大驚小怪；小題大作"
+      },
+      {
+        "lemma": "fussiness",
+        "partOfSpeech": "noun",
+        "meaningZh": "挑剔；講究"
       }
     ],
     "tags": [
@@ -341,19 +483,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "picky",
-        "noteZh": "愛挑剔的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "undemanding",
-        "noteZh": "要求不多的"
-      }
-    ]
+    }
   },
   {
     "id": "w_futile",
@@ -367,21 +497,54 @@
       {
         "id": "s_futile_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "incapable of producing any useful result; pointless",
         "definitionZh": "徒勞的；無用的",
         "usageExplanationZh": "常見 a futile attempt（徒勞的嘗試），強調努力注定失敗，語氣正式。",
-        "examples": [
-          {
-            "en": "Their futile attempts to fix the old car finally ended in giving up.",
-            "zh": "他們修理那輛舊車的努力終究徒勞無功，最後只好放棄。"
-          }
+        "grammarPatterns": [
+          "a futile + noun",
+          "it is futile to + V",
+          "futile attempts to + V"
         ],
         "collocations": [
           {
             "text": "a futile attempt",
             "meaningZh": "徒勞的嘗試"
           }
+        ],
+        "examples": [
+          {
+            "en": "Their futile attempts to fix the old car finally ended in giving up.",
+            "zh": "他們修理那輛舊車的努力終究徒勞無功，最後只好放棄。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "pointless",
+        "noteZh": "毫無成效或意義的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "effective",
+        "noteZh": "有效的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "futility",
+        "partOfSpeech": "noun",
+        "meaningZh": "徒勞；無用"
+      },
+      {
+        "lemma": "futilely",
+        "partOfSpeech": "adverb",
+        "meaningZh": "徒勞地"
       }
     ],
     "tags": [
@@ -395,19 +558,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pointless",
-        "noteZh": "毫無成效或意義的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "effective",
-        "noteZh": "有效的"
-      }
-    ]
+    }
   },
   {
     "id": "w_futility",
@@ -421,21 +572,48 @@
       {
         "id": "s_futility_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the state of being useless or having no effective result",
         "definitionZh": "徒勞；無用",
         "usageExplanationZh": "常見 the futility of war（戰爭的徒勞無益），語氣書面、帶哲理色彩。",
-        "examples": [
-          {
-            "en": "He eventually recognized the futility of arguing with her.",
-            "zh": "他最終意識到跟她爭論是徒勞的。"
-          }
+        "grammarPatterns": [
+          "the futility of + V-ing",
+          "recognize the futility of + noun"
         ],
         "collocations": [
           {
             "text": "a sense of futility",
             "meaningZh": "徒勞無功的感覺"
           }
+        ],
+        "examples": [
+          {
+            "en": "He eventually recognized the futility of arguing with her.",
+            "zh": "他最終意識到跟她爭論是徒勞的。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "pointlessness",
+        "noteZh": "努力毫無意義的狀態"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "usefulness",
+        "noteZh": "有用性"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "futile",
+        "partOfSpeech": "adjective",
+        "meaningZh": "徒勞的；無用的"
       }
     ],
     "tags": [
@@ -448,19 +626,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pointlessness",
-        "noteZh": "努力毫無意義的狀態"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "usefulness",
-        "noteZh": "有用性"
-      }
-    ]
+    }
   },
   {
     "id": "w_galaxy",
@@ -474,21 +640,43 @@
       {
         "id": "s_galaxy_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a large system of stars, dust, and gas held together by gravity",
         "definitionZh": "銀河系；星系",
         "usageExplanationZh": "天文學用語，如 the Milky Way galaxy；也可比喻眾多名人聚集，如 a galaxy of stars（群星薈萃）。",
-        "examples": [
-          {
-            "en": "Our solar system is just a small part of the Milky Way galaxy.",
-            "zh": "我們的太陽系只是銀河系中的一小部分。"
-          }
+        "grammarPatterns": [
+          "a distant galaxy",
+          "the + noun + galaxy"
         ],
         "collocations": [
           {
             "text": "a spiral galaxy",
             "meaningZh": "螺旋星系"
           }
+        ],
+        "examples": [
+          {
+            "en": "Our solar system is just a small part of the Milky Way galaxy.",
+            "zh": "我們的太陽系只是銀河系中的一小部分。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "galactic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "銀河的；星系的"
+      },
+      {
+        "lemma": "intergalactic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "星系之間的"
       }
     ],
     "tags": [
@@ -503,9 +691,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_gall",
@@ -519,53 +705,58 @@
       {
         "id": "s_gall_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal",
+          "literary"
+        ],
         "definitionEn": "rude boldness or lack of respect; shameless audacity",
         "definitionZh": "厚顏無恥；膽大妄為",
         "usageExplanationZh": "常見 have the gall to do something（居然有臉做某事），語氣強烈帶批評。",
-        "examples": [
-          {
-            "en": "He had the gall to ask for a raise after missing three deadlines.",
-            "zh": "他錯過三次期限後，居然還敢厚著臉皮要求加薪。"
-          }
+        "grammarPatterns": [
+          "have the gall to + V",
+          "the sheer gall of sb"
         ],
         "collocations": [
           {
             "text": "have the gall to",
             "meaningZh": "竟厚著臉皮做某事"
           }
+        ],
+        "examples": [
+          {
+            "en": "He had the gall to ask for a raise after missing three deadlines.",
+            "zh": "他錯過三次期限後，居然還敢厚著臉皮要求加薪。"
+          }
         ]
       },
       {
         "id": "s_gall_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to irritate or annoy someone greatly",
         "definitionZh": "使惱怒；使苦惱",
         "usageExplanationZh": "常用被動語態，如 be galled by something，語氣正式書面。",
-        "examples": [
-          {
-            "en": "It galled him to see his rival receive all the credit.",
-            "zh": "看到對手獲得所有讚譽，讓他十分惱怒。"
-          }
+        "grammarPatterns": [
+          "sth galls sb",
+          "it galls sb to + V"
         ],
         "collocations": [
           {
             "text": "gall someone to see",
             "meaningZh": "讓某人看了感到惱火"
           }
+        ],
+        "examples": [
+          {
+            "en": "It galled him to see his rival receive all the credit.",
+            "zh": "看到對手獲得所有讚譽，讓他十分惱怒。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "audacity",
@@ -576,7 +767,18 @@
         "noteZh": "使惱怒"
       }
     ],
-    "antonyms": []
+    "antonyms": [],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_gallery",
@@ -590,23 +792,39 @@
       {
         "id": "s_gallery_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "a room or building for the display or sale of works of art",
         "definitionZh": "畫廊；美術館",
         "usageExplanationZh": "常見 an art gallery；也指劇院或議會中的旁聽席，如 the public gallery。",
-        "examples": [
-          {
-            "en": "They spent the afternoon browsing an art gallery downtown.",
-            "zh": "他們花了一個下午在市中心的一間畫廊裡參觀。"
-          }
+        "grammarPatterns": [
+          "an art gallery",
+          "at/in a gallery",
+          "a gallery of + noun"
         ],
         "collocations": [
           {
             "text": "an art gallery",
             "meaningZh": "畫廊"
           }
+        ],
+        "examples": [
+          {
+            "en": "They spent the afternoon browsing an art gallery downtown.",
+            "zh": "他們花了一個下午在市中心的一間畫廊裡參觀。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "art museum",
+        "noteZh": "收藏展示藝術品的場所"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -618,14 +836,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "art museum",
-        "noteZh": "收藏展示藝術品的場所"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_gallon",
@@ -639,23 +850,33 @@
       {
         "id": "s_gallon_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a unit of liquid measure",
         "definitionZh": "加侖（液體容量單位）",
         "usageExplanationZh": "常見於油量或油耗描述，如 miles per gallon；英制與美制加侖容量略有不同。",
-        "examples": [
-          {
-            "en": "The car gets about thirty miles per gallon on the highway.",
-            "zh": "這輛車在高速公路上每加侖油可跑約三十英里。"
-          }
+        "grammarPatterns": [
+          "a gallon of + noun",
+          "miles per gallon"
         ],
         "collocations": [
           {
             "text": "a gallon of milk",
             "meaningZh": "一加侖牛奶"
           }
+        ],
+        "examples": [
+          {
+            "en": "The car gets about thirty miles per gallon on the highway.",
+            "zh": "這輛車在高速公路上每加侖油可跑約三十英里。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -667,9 +888,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_gallop",
@@ -683,42 +902,66 @@
       {
         "id": "s_gallop_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "the fastest pace of a horse, with all four feet off the ground at once",
         "definitionZh": "（馬的）疾馳；奔馳",
         "usageExplanationZh": "常見 at a gallop（以疾馳的速度）；比喻快速前進的過程亦可使用。",
-        "examples": [
-          {
-            "en": "The horse broke into a gallop as soon as the gate opened.",
-            "zh": "閘門一開，馬就立刻疾馳起來。"
-          }
+        "grammarPatterns": [
+          "break into a gallop",
+          "at a gallop"
         ],
         "collocations": [
           {
             "text": "at a gallop",
             "meaningZh": "以疾馳的速度"
           }
+        ],
+        "examples": [
+          {
+            "en": "The horse broke into a gallop as soon as the gate opened.",
+            "zh": "閘門一開，馬就立刻疾馳起來。"
+          }
         ]
       },
       {
         "id": "s_gallop_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "(of a horse) to run at a gallop, or to move or progress very quickly",
         "definitionZh": "（馬）疾馳；快速前進",
         "usageExplanationZh": "常見 gallop across the field；比喻用法如 the story gallops along（故事節奏明快）。",
-        "examples": [
-          {
-            "en": "The horses galloped across the open field.",
-            "zh": "馬群在開闊的田野上疾馳而過。"
-          }
+        "grammarPatterns": [
+          "gallop across/along + noun",
+          "gallop away",
+          "sth gallops"
         ],
         "collocations": [
           {
             "text": "gallop across a field",
             "meaningZh": "疾馳穿過田野"
           }
+        ],
+        "examples": [
+          {
+            "en": "The horses galloped across the open field.",
+            "zh": "馬群在開闊的田野上疾馳而過。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "dash",
+        "noteZh": "快速奔馳"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -729,14 +972,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "dash",
-        "noteZh": "快速奔馳"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_galvanize",
@@ -750,21 +986,54 @@
       {
         "id": "s_galvanize_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to shock or excite someone into taking action",
         "definitionZh": "刺激；激勵（使採取行動）",
         "usageExplanationZh": "常接 into action，如 galvanize people into action，強調突然的激勵效果，語氣正式。",
-        "examples": [
-          {
-            "en": "The speech galvanized the crowd into action.",
-            "zh": "這場演講激勵了群眾採取行動。"
-          }
+        "grammarPatterns": [
+          "galvanize sb into + V-ing",
+          "galvanize + noun",
+          "galvanize support for + noun"
         ],
         "collocations": [
           {
             "text": "galvanize into action",
             "meaningZh": "激勵起而行動"
           }
+        ],
+        "examples": [
+          {
+            "en": "The speech galvanized the crowd into action.",
+            "zh": "這場演講激勵了群眾採取行動。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "spur",
+        "noteZh": "促使採取行動"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "discourage",
+        "noteZh": "使洩氣而不想行動"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "galvanization",
+        "partOfSpeech": "noun",
+        "meaningZh": "激勵；鍍鋅"
+      },
+      {
+        "lemma": "galvanic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "電流的；令人震撼的"
       }
     ],
     "tags": [
@@ -778,19 +1047,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "spur",
-        "noteZh": "促使採取行動"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "discourage",
-        "noteZh": "使洩氣而不想行動"
-      }
-    ]
+    }
   },
   {
     "id": "w_gamble",
@@ -804,40 +1061,80 @@
       {
         "id": "s_gamble_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "an act involving risk that may result in loss, undertaken with hope of gain",
         "definitionZh": "賭博；冒險行為",
         "usageExplanationZh": "常見 take a gamble（冒險一試），可指實際賭博或比喻性的冒險決定。",
-        "examples": [
-          {
-            "en": "Investing all his savings in the startup was a huge gamble.",
-            "zh": "把所有積蓄投資在這家新創公司是一場大賭注。"
-          }
+        "grammarPatterns": [
+          "take a gamble",
+          "a gamble on + noun",
+          "a huge gamble"
         ],
         "collocations": [
           {
             "text": "take a gamble",
             "meaningZh": "冒險一試"
           }
+        ],
+        "examples": [
+          {
+            "en": "Investing all his savings in the startup was a huge gamble.",
+            "zh": "把所有積蓄投資在這家新創公司是一場大賭注。"
+          }
         ]
       },
       {
         "id": "s_gamble_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to risk money or something valuable on an uncertain outcome, especially in games of chance",
         "definitionZh": "賭博；下賭注",
         "usageExplanationZh": "常接 on，如 gamble on the stock market；也可比喻性使用，指冒險做決定。",
-        "examples": [
-          {
-            "en": "He gambled away his entire paycheck at the casino.",
-            "zh": "他在賭場把整份薪水都輸光了。"
-          }
+        "grammarPatterns": [
+          "gamble on + noun",
+          "gamble sth away",
+          "gamble with + noun"
         ],
         "collocations": [
           {
             "text": "gamble on",
             "meaningZh": "賭某事會成功"
           }
+        ],
+        "examples": [
+          {
+            "en": "He gambled away his entire paycheck at the casino.",
+            "zh": "他在賭場把整份薪水都輸光了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "bet",
+        "noteZh": "賭注或下注"
+      },
+      {
+        "lemma": "risk",
+        "noteZh": "冒險"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "gambler",
+        "partOfSpeech": "noun",
+        "meaningZh": "賭徒"
+      },
+      {
+        "lemma": "gambling",
+        "partOfSpeech": "noun",
+        "meaningZh": "賭博"
       }
     ],
     "tags": [
@@ -851,18 +1148,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "bet",
-        "noteZh": "賭注或下注"
-      },
-      {
-        "lemma": "risk",
-        "noteZh": "冒險"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_gape",
@@ -876,42 +1162,69 @@
       {
         "id": "s_gape_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "a wide opening or gap",
         "definitionZh": "裂口；缺口",
         "usageExplanationZh": "較少見用法，多描述物體上突然出現的空隙或裂縫。",
-        "examples": [
-          {
-            "en": "There was a gape in the fence where the wood had rotted.",
-            "zh": "圍籬上有一個因木頭腐爛而出現的缺口。"
-          }
+        "grammarPatterns": [
+          "a gape in + noun"
         ],
         "collocations": [
           {
             "text": "a wide gape",
             "meaningZh": "大開的裂口"
           }
+        ],
+        "examples": [
+          {
+            "en": "There was a gape in the fence where the wood had rotted.",
+            "zh": "圍籬上有一個因木頭腐爛而出現的缺口。"
+          }
         ]
       },
       {
         "id": "s_gape_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "to stare with one's mouth open in surprise or wonder",
         "definitionZh": "目瞪口呆地凝視",
         "usageExplanationZh": "常見 gape at，表示因驚訝而張大嘴巴盯著看，語氣生動。",
-        "examples": [
-          {
-            "en": "Tourists gaped at the towering waterfall in amazement.",
-            "zh": "遊客們驚嘆地目瞪口呆望著那座高聳的瀑布。"
-          }
+        "grammarPatterns": [
+          "gape at sb/sth",
+          "gape in + noun",
+          "stand gaping"
         ],
         "collocations": [
           {
             "text": "gape at",
             "meaningZh": "目瞪口呆地看著"
           }
+        ],
+        "examples": [
+          {
+            "en": "Tourists gaped at the towering waterfall in amazement.",
+            "zh": "遊客們驚嘆地目瞪口呆望著那座高聳的瀑布。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "opening",
+        "noteZh": "張開的缺口"
+      },
+      {
+        "lemma": "stare",
+        "noteZh": "驚訝地凝視"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -924,18 +1237,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "opening",
-        "noteZh": "張開的缺口"
-      },
-      {
-        "lemma": "stare",
-        "noteZh": "驚訝地凝視"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_garbage",
@@ -949,23 +1251,42 @@
       {
         "id": "s_garbage_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "waste material that is discarded, or something considered worthless",
         "definitionZh": "垃圾；廢物",
         "usageExplanationZh": "常見 take out the garbage（倒垃圾）；口語也可比喻毫無價值的東西或言論，如 that's garbage。",
-        "examples": [
-          {
-            "en": "Please take the garbage out before you leave for work.",
-            "zh": "上班前請把垃圾拿出去丟。"
-          }
+        "grammarPatterns": [
+          "take out the garbage",
+          "throw sth in the garbage",
+          "talk garbage"
         ],
         "collocations": [
           {
             "text": "take out the garbage",
             "meaningZh": "把垃圾拿出去"
           }
+        ],
+        "examples": [
+          {
+            "en": "Please take the garbage out before you leave for work.",
+            "zh": "上班前請把垃圾拿出去丟。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "trash",
+        "noteZh": "垃圾，常見美式用詞"
+      },
+      {
+        "lemma": "rubbish",
+        "noteZh": "垃圾，常見英式用詞"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -977,18 +1298,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "trash",
-        "noteZh": "垃圾，常見美式用詞"
-      },
-      {
-        "lemma": "rubbish",
-        "noteZh": "垃圾，常見英式用詞"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_garland",
@@ -1002,42 +1312,65 @@
       {
         "id": "s_garland_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "a decorative wreath of flowers or leaves worn or hung as a decoration",
         "definitionZh": "花環；花圈",
         "usageExplanationZh": "常見於慶典裝飾，如 a garland of flowers；與喪禮用花圈 wreath 略有不同，語氣較喜慶。",
-        "examples": [
-          {
-            "en": "Dancers wore garlands of fresh flowers around their necks.",
-            "zh": "舞者的脖子上戴著新鮮花朵編成的花環。"
-          }
+        "grammarPatterns": [
+          "a garland of + noun",
+          "wear a garland"
         ],
         "collocations": [
           {
             "text": "a flower garland",
             "meaningZh": "花環"
           }
+        ],
+        "examples": [
+          {
+            "en": "Dancers wore garlands of fresh flowers around their necks.",
+            "zh": "舞者的脖子上戴著新鮮花朵編成的花環。"
+          }
         ]
       },
       {
         "id": "s_garland_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "to decorate something with a garland",
         "definitionZh": "用花環裝飾",
         "usageExplanationZh": "較少見用法，常用於描述場地或人物以花環裝飾的畫面。",
-        "examples": [
-          {
-            "en": "The stage was garlanded with flowers for the ceremony.",
-            "zh": "舞台上為了這場典禮裝飾了花環。"
-          }
+        "grammarPatterns": [
+          "garland sb/sth with + noun",
+          "be garlanded with + noun"
         ],
         "collocations": [
           {
             "text": "garland with flowers",
             "meaningZh": "以鮮花花環裝飾"
           }
+        ],
+        "examples": [
+          {
+            "en": "The stage was garlanded with flowers for the ceremony.",
+            "zh": "舞台上為了這場典禮裝飾了花環。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "wreath",
+        "noteZh": "用花葉編成的環"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1048,14 +1381,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "wreath",
-        "noteZh": "用花葉編成的環"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_garment",
@@ -1069,21 +1395,43 @@
       {
         "id": "s_garment_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "an item of clothing",
         "definitionZh": "衣物；服裝（單件）",
         "usageExplanationZh": "比 clothes 更正式，常用於時尚、產業或法律語境，如 a garment factory（成衣廠）。",
-        "examples": [
-          {
-            "en": "Each garment in the collection was handmade.",
-            "zh": "這系列中的每件服裝都是手工製作的。"
-          }
+        "grammarPatterns": [
+          "a + adjective + garment",
+          "the garment industry"
         ],
         "collocations": [
           {
             "text": "a silk garment",
             "meaningZh": "絲質衣物"
           }
+        ],
+        "examples": [
+          {
+            "en": "Each garment in the collection was handmade.",
+            "zh": "這系列中的每件服裝都是手工製作的。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "item of clothing",
+        "noteZh": "一件衣物"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "garb",
+        "partOfSpeech": "noun",
+        "meaningZh": "服裝；裝束"
       }
     ],
     "tags": [
@@ -1098,14 +1446,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "item of clothing",
-        "noteZh": "一件衣物"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_garrulous",
@@ -1119,21 +1460,53 @@
       {
         "id": "s_garrulous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "excessively talkative, especially about trivial matters",
         "definitionZh": "話多的；喋喋不休的",
         "usageExplanationZh": "帶輕微負面意味，形容人愛說瑣事、話多到令人厭煩，語氣正式書面。",
-        "examples": [
-          {
-            "en": "The garrulous old man kept the entire bus entertained with his stories.",
-            "zh": "那位話多的老先生用他的故事逗樂了整輛巴士的乘客。"
-          }
+        "grammarPatterns": [
+          "a garrulous + noun",
+          "be garrulous about + noun"
         ],
         "collocations": [
           {
             "text": "a garrulous neighbor",
             "meaningZh": "喋喋不休的鄰居"
           }
+        ],
+        "examples": [
+          {
+            "en": "The garrulous old man kept the entire bus entertained with his stories.",
+            "zh": "那位話多的老先生用他的故事逗樂了整輛巴士的乘客。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "talkative",
+        "noteZh": "話多的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "taciturn",
+        "noteZh": "沉默寡言的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "garrulity",
+        "partOfSpeech": "noun",
+        "meaningZh": "饒舌；多話"
+      },
+      {
+        "lemma": "garrulously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "喋喋不休地"
       }
     ],
     "tags": [
@@ -1147,19 +1520,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "talkative",
-        "noteZh": "話多的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "taciturn",
-        "noteZh": "沉默寡言的"
-      }
-    ]
+    }
   },
   {
     "id": "w_gasoline",
@@ -1173,23 +1534,39 @@
       {
         "id": "s_gasoline_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a liquid fuel used mainly in vehicle engines, refined from petroleum",
         "definitionZh": "汽油",
         "usageExplanationZh": "美式英語用詞，英式英語常用 petrol；常見 gasoline prices、gasoline engine。",
-        "examples": [
-          {
-            "en": "Gasoline prices have risen sharply this month.",
-            "zh": "這個月汽油價格大幅上漲。"
-          }
+        "grammarPatterns": [
+          "a gallon of gasoline",
+          "gasoline prices",
+          "run on gasoline"
         ],
         "collocations": [
           {
             "text": "unleaded gasoline",
             "meaningZh": "無鉛汽油"
           }
+        ],
+        "examples": [
+          {
+            "en": "Gasoline prices have risen sharply this month.",
+            "zh": "這個月汽油價格大幅上漲。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "petrol",
+        "noteZh": "汽油的英式用詞"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -1200,14 +1577,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "petrol",
-        "noteZh": "汽油的英式用詞"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_gasp",
@@ -1221,23 +1591,39 @@
       {
         "id": "s_gasp_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "a sudden, sharp intake of breath, often from surprise or pain",
         "definitionZh": "喘息；倒抽一口氣",
         "usageExplanationZh": "常見 with a gasp（倒抽一口氣地），描述驚訝或痛苦的瞬間反應。",
-        "examples": [
-          {
-            "en": "She let out a gasp when she saw the surprise party.",
-            "zh": "她看到驚喜派對時，倒抽了一口氣。"
-          }
+        "grammarPatterns": [
+          "a gasp of + noun",
+          "let out a gasp",
+          "with a gasp"
         ],
         "collocations": [
           {
             "text": "gasp for breath",
             "meaningZh": "喘不過氣"
           }
+        ],
+        "examples": [
+          {
+            "en": "She let out a gasp when she saw the surprise party.",
+            "zh": "她看到驚喜派對時，倒抽了一口氣。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "pant",
+        "noteZh": "急促喘氣"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1249,14 +1635,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pant",
-        "noteZh": "急促喘氣"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_gastric",
@@ -1270,21 +1649,48 @@
       {
         "id": "s_gastric_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "relating to the stomach",
         "definitionZh": "胃部的；胃的",
         "usageExplanationZh": "醫學用語，常見 gastric ulcer（胃潰瘍）、gastric surgery（胃部手術）。",
-        "examples": [
-          {
-            "en": "He was diagnosed with a gastric ulcer after months of stomach pain.",
-            "zh": "經過數月的胃痛後，他被診斷出患有胃潰瘍。"
-          }
+        "grammarPatterns": [
+          "a gastric + noun",
+          "gastric ulcer/acid"
         ],
         "collocations": [
           {
             "text": "gastric acid",
             "meaningZh": "胃酸"
           }
+        ],
+        "examples": [
+          {
+            "en": "He was diagnosed with a gastric ulcer after months of stomach pain.",
+            "zh": "經過數月的胃痛後，他被診斷出患有胃潰瘍。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "stomach-related",
+        "noteZh": "與胃有關的通俗表達"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "gastritis",
+        "partOfSpeech": "noun",
+        "meaningZh": "胃炎"
+      },
+      {
+        "lemma": "gastronomy",
+        "partOfSpeech": "noun",
+        "meaningZh": "美食學"
       }
     ],
     "tags": [
@@ -1297,14 +1703,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "stomach-related",
-        "noteZh": "與胃有關的通俗表達"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_gauge",
@@ -1318,23 +1717,38 @@
       {
         "id": "s_gauge_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical"
+        ],
         "definitionEn": "an instrument for measuring the amount or level of something",
         "definitionZh": "量表；測量儀器",
         "usageExplanationZh": "常見 fuel gauge（油量表）、pressure gauge（壓力計）；也可比喻衡量標準，如 a gauge of public opinion。",
-        "examples": [
-          {
-            "en": "The fuel gauge showed the tank was almost empty.",
-            "zh": "油量表顯示油箱幾乎空了。"
-          }
+        "grammarPatterns": [
+          "a fuel/pressure gauge",
+          "a gauge for + noun",
+          "read the gauge"
         ],
         "collocations": [
           {
             "text": "a pressure gauge",
             "meaningZh": "壓力計"
           }
+        ],
+        "examples": [
+          {
+            "en": "The fuel gauge showed the tank was almost empty.",
+            "zh": "油量表顯示油箱幾乎空了。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "meter",
+        "noteZh": "測量數值的儀表"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1347,14 +1761,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "meter",
-        "noteZh": "測量數值的儀表"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_gaunt",
@@ -1368,21 +1775,48 @@
       {
         "id": "s_gaunt_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "extremely thin and bony, especially from illness, hunger, or suffering",
         "definitionZh": "消瘦憔悴的",
         "usageExplanationZh": "常修飾人的外貌，強調因病痛或飢餓而顯得虛弱，語氣中性偏負面。",
-        "examples": [
-          {
-            "en": "After weeks of illness, he looked gaunt and pale.",
-            "zh": "經過數週的病痛，他看起來憔悴又蒼白。"
-          }
+        "grammarPatterns": [
+          "look gaunt",
+          "a gaunt + noun"
         ],
         "collocations": [
           {
             "text": "a gaunt face",
             "meaningZh": "消瘦的臉"
           }
+        ],
+        "examples": [
+          {
+            "en": "After weeks of illness, he looked gaunt and pale.",
+            "zh": "經過數週的病痛，他看起來憔悴又蒼白。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "haggard",
+        "noteZh": "消瘦憔悴的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "plump",
+        "noteZh": "豐滿的，對應消瘦義"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "gauntness",
+        "partOfSpeech": "noun",
+        "meaningZh": "消瘦憔悴"
       }
     ],
     "tags": [
@@ -1396,19 +1830,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "haggard",
-        "noteZh": "消瘦憔悴的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "plump",
-        "noteZh": "豐滿的，對應消瘦義"
-      }
-    ]
+    }
   },
   {
     "id": "w_gaze",
@@ -1422,42 +1844,67 @@
       {
         "id": "s_gaze_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "a long, steady look at someone or something",
         "definitionZh": "凝視；注視",
         "usageExplanationZh": "常見 fix one's gaze on（將視線固定在……上），語氣比 look 更持久專注。",
-        "examples": [
-          {
-            "en": "Her gaze fell upon the old photograph on the wall.",
-            "zh": "她的目光落在牆上那張舊照片上。"
-          }
+        "grammarPatterns": [
+          "meet sb's gaze",
+          "a steady gaze",
+          "sb's gaze falls on + noun"
         ],
         "collocations": [
           {
             "text": "a steady gaze",
             "meaningZh": "穩定的凝視"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her gaze fell upon the old photograph on the wall.",
+            "zh": "她的目光落在牆上那張舊照片上。"
+          }
         ]
       },
       {
         "id": "s_gaze_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "to look steadily and intently at someone or something",
         "definitionZh": "凝視；注視",
         "usageExplanationZh": "常接 at，如 gaze at the stars；比 look 更強調持續且專注的凝視。",
-        "examples": [
-          {
-            "en": "He gazed at the horizon, lost in thought.",
-            "zh": "他凝視著地平線，陷入沉思。"
-          }
+        "grammarPatterns": [
+          "gaze at sb/sth",
+          "gaze into + noun",
+          "gaze out of + noun"
         ],
         "collocations": [
           {
             "text": "gaze at the stars",
             "meaningZh": "凝望星空"
           }
+        ],
+        "examples": [
+          {
+            "en": "He gazed at the horizon, lost in thought.",
+            "zh": "他凝視著地平線，陷入沉思。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "stare",
+        "noteZh": "持續凝視或凝視的目光"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1469,14 +1916,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "stare",
-        "noteZh": "持續凝視或凝視的目光"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_gear",
@@ -1490,42 +1930,69 @@
       {
         "id": "s_gear_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "equipment or clothing needed for a particular activity",
         "definitionZh": "裝備；用具",
         "usageExplanationZh": "常見 camping gear（露營裝備）、safety gear（安全裝備）；也可指機械齒輪或汽車排檔。",
-        "examples": [
-          {
-            "en": "Make sure you bring all your hiking gear before the trip.",
-            "zh": "出發前確定你帶齊了所有登山裝備。"
-          }
+        "grammarPatterns": [
+          "hiking/camping gear",
+          "gear for + noun"
         ],
         "collocations": [
           {
             "text": "camping gear",
             "meaningZh": "露營裝備"
           }
+        ],
+        "examples": [
+          {
+            "en": "Make sure you bring all your hiking gear before the trip.",
+            "zh": "出發前確定你帶齊了所有登山裝備。"
+          }
         ]
       },
       {
         "id": "s_gear_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "to adjust or design something to suit a particular purpose or group",
         "definitionZh": "使適合；針對（某目的或對象調整）",
         "usageExplanationZh": "常見 be geared toward/to，如 courses geared toward beginners（針對初學者設計的課程）。",
-        "examples": [
-          {
-            "en": "The marketing campaign is geared toward younger consumers.",
-            "zh": "這項行銷活動是針對年輕消費者所設計的。"
-          }
+        "grammarPatterns": [
+          "be geared toward + noun",
+          "gear sth to + noun"
         ],
         "collocations": [
           {
             "text": "gear toward",
             "meaningZh": "針對某目標調整"
           }
+        ],
+        "examples": [
+          {
+            "en": "The marketing campaign is geared toward younger consumers.",
+            "zh": "這項行銷活動是針對年輕消費者所設計的。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "equipment",
+        "noteZh": "裝備"
+      },
+      {
+        "lemma": "tailor",
+        "noteZh": "針對需要調整"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1538,18 +2005,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "equipment",
-        "noteZh": "裝備"
-      },
-      {
-        "lemma": "tailor",
-        "noteZh": "針對需要調整"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_gene",
@@ -1563,21 +2019,54 @@
       {
         "id": "s_gene_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a unit of heredity that is transferred from parent to offspring",
         "definitionZh": "基因",
         "usageExplanationZh": "生物學用語，常見 gene mutation（基因突變）；比喻用法如 it's in his genes（那是他天生的特質）。",
-        "examples": [
-          {
-            "en": "Scientists identified the gene responsible for the disease.",
-            "zh": "科學家找出了導致這種疾病的基因。"
-          }
+        "grammarPatterns": [
+          "a gene for + noun",
+          "the gene responsible for + noun",
+          "carry a gene"
         ],
         "collocations": [
           {
             "text": "a recessive gene",
             "meaningZh": "隱性基因"
           }
+        ],
+        "examples": [
+          {
+            "en": "Scientists identified the gene responsible for the disease.",
+            "zh": "科學家找出了導致這種疾病的基因。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "hereditary unit",
+        "noteZh": "遺傳單位的解釋性稱呼"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "genetic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "基因的；遺傳的"
+      },
+      {
+        "lemma": "genetics",
+        "partOfSpeech": "noun",
+        "meaningZh": "遺傳學"
+      },
+      {
+        "lemma": "genetically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "基因上地"
       }
     ],
     "tags": [
@@ -1591,14 +2080,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "hereditary unit",
-        "noteZh": "遺傳單位的解釋性稱呼"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_generality",
@@ -1612,21 +2094,58 @@
       {
         "id": "s_generality_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a statement that is general and not specific, lacking detail",
         "definitionZh": "籠統的說法；泛泛之詞",
         "usageExplanationZh": "常用複數 generalities，帶輕微負面意味，指言論空泛缺乏具體內容。",
-        "examples": [
-          {
-            "en": "The politician's speech was full of generalities and short on specifics.",
-            "zh": "這位政治人物的演講充滿籠統之詞，缺乏具體內容。"
-          }
+        "grammarPatterns": [
+          "speak in generalities",
+          "a generality about + noun"
         ],
         "collocations": [
           {
             "text": "speak in generalities",
             "meaningZh": "泛泛而談"
           }
+        ],
+        "examples": [
+          {
+            "en": "The politician's speech was full of generalities and short on specifics.",
+            "zh": "這位政治人物的演講充滿籠統之詞，缺乏具體內容。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "generalization",
+        "noteZh": "缺乏細節的概括說法"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "specifics",
+        "noteZh": "具體細節"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "general",
+        "partOfSpeech": "adjective",
+        "meaningZh": "一般的；普遍的"
+      },
+      {
+        "lemma": "generalize",
+        "partOfSpeech": "verb",
+        "meaningZh": "概括；歸納"
+      },
+      {
+        "lemma": "generally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "一般而言"
       }
     ],
     "tags": [
@@ -1639,19 +2158,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "generalization",
-        "noteZh": "缺乏細節的概括說法"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "specifics",
-        "noteZh": "具體細節"
-      }
-    ]
+    }
   },
   {
     "id": "w_generate",
@@ -1665,21 +2172,54 @@
       {
         "id": "s_generate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "to produce or create something, especially energy, income, or interest",
         "definitionZh": "產生；引起；創造",
         "usageExplanationZh": "常接 income、interest、electricity 等，如 generate revenue（創造營收）。",
-        "examples": [
-          {
-            "en": "Solar panels generate electricity from sunlight.",
-            "zh": "太陽能板利用陽光發電。"
-          }
+        "grammarPatterns": [
+          "generate + noun",
+          "generate income/electricity/interest",
+          "generate sth from + noun"
         ],
         "collocations": [
           {
             "text": "generate electricity",
             "meaningZh": "發電"
           }
+        ],
+        "examples": [
+          {
+            "en": "Solar panels generate electricity from sunlight.",
+            "zh": "太陽能板利用陽光發電。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "produce",
+        "noteZh": "產生或製造"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "generation",
+        "partOfSpeech": "noun",
+        "meaningZh": "產生；世代"
+      },
+      {
+        "lemma": "generator",
+        "partOfSpeech": "noun",
+        "meaningZh": "發電機"
+      },
+      {
+        "lemma": "regenerate",
+        "partOfSpeech": "verb",
+        "meaningZh": "再生；復甦"
       }
     ],
     "tags": [
@@ -1694,14 +2234,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "produce",
-        "noteZh": "產生或製造"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_generator",
@@ -1715,21 +2248,42 @@
       {
         "id": "s_generator_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical"
+        ],
         "definitionEn": "a machine that produces electricity",
         "definitionZh": "發電機",
         "usageExplanationZh": "常見 backup generator（備用發電機），用於停電或緊急情況供電。",
-        "examples": [
-          {
-            "en": "They used a generator to power the house during the storm.",
-            "zh": "暴風雨期間，他們用發電機為房子供電。"
-          }
+        "grammarPatterns": [
+          "run a generator",
+          "power sth with a generator"
         ],
         "collocations": [
           {
             "text": "a backup generator",
             "meaningZh": "備用發電機"
           }
+        ],
+        "examples": [
+          {
+            "en": "They used a generator to power the house during the storm.",
+            "zh": "暴風雨期間，他們用發電機為房子供電。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "generate",
+        "partOfSpeech": "verb",
+        "meaningZh": "產生；創造"
+      },
+      {
+        "lemma": "generation",
+        "partOfSpeech": "noun",
+        "meaningZh": "產生；發電"
       }
     ],
     "tags": [
@@ -1742,9 +2296,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_generic",
@@ -1758,35 +2310,31 @@
       {
         "id": "s_generic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "business"
+        ],
         "definitionEn": "not specific to a particular brand; general or common to a whole group",
         "definitionZh": "通用的；非品牌專屬的；一般性的",
         "usageExplanationZh": "常見 generic drug（學名藥，非品牌藥）、generic term（通用術語）。",
-        "examples": [
-          {
-            "en": "She bought the generic version of the medicine to save money.",
-            "zh": "她買了學名藥版本的藥品來省錢。"
-          }
+        "grammarPatterns": [
+          "a generic + noun",
+          "the generic version of + noun"
         ],
         "collocations": [
           {
             "text": "generic drugs",
             "meaningZh": "學名藥"
           }
+        ],
+        "examples": [
+          {
+            "en": "She bought the generic version of the medicine to save money.",
+            "zh": "她買了學名藥版本的藥品來省錢。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "general",
@@ -1806,7 +2354,31 @@
         "lemma": "branded",
         "noteZh": "有品牌的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "generically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "泛稱地；一般而言"
+      },
+      {
+        "lemma": "genus",
+        "partOfSpeech": "noun",
+        "meaningZh": "屬（生物分類單位）"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_generous",
@@ -1820,21 +2392,53 @@
       {
         "id": "s_generous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "willing to give more of something, such as money or time, than is expected",
         "definitionZh": "慷慨的；大方的",
         "usageExplanationZh": "常接 with，如 generous with one's time；也可修飾份量，如 a generous portion（豐盛的份量）。",
-        "examples": [
-          {
-            "en": "He is always generous with his time when helping students.",
-            "zh": "他在幫助學生時總是很慷慨地付出時間。"
-          }
+        "grammarPatterns": [
+          "be generous with + noun",
+          "be generous to sb",
+          "a generous + noun"
         ],
         "collocations": [
           {
             "text": "generous with one's time",
             "meaningZh": "不吝付出時間"
           }
+        ],
+        "examples": [
+          {
+            "en": "He is always generous with his time when helping students.",
+            "zh": "他在幫助學生時總是很慷慨地付出時間。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "liberal",
+        "noteZh": "給予慷慨的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "stingy",
+        "noteZh": "吝嗇的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "generosity",
+        "partOfSpeech": "noun",
+        "meaningZh": "慷慨；大方"
+      },
+      {
+        "lemma": "generously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "慷慨地"
       }
     ],
     "tags": [
@@ -1848,19 +2452,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "liberal",
-        "noteZh": "給予慷慨的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "stingy",
-        "noteZh": "吝嗇的"
-      }
-    ]
+    }
   },
   {
     "id": "w_genetic",
@@ -1874,21 +2466,53 @@
       {
         "id": "s_genetic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "relating to genes or heredity",
         "definitionZh": "基因的；遺傳的",
         "usageExplanationZh": "常見 genetic disorder（遺傳疾病）、genetic engineering（基因工程）。",
-        "examples": [
-          {
-            "en": "The disease is believed to have a genetic cause.",
-            "zh": "這種疾病被認為具有遺傳性的成因。"
-          }
+        "grammarPatterns": [
+          "a genetic + noun",
+          "genetic makeup/testing"
         ],
         "collocations": [
           {
             "text": "a genetic disorder",
             "meaningZh": "遺傳性疾病"
           }
+        ],
+        "examples": [
+          {
+            "en": "The disease is believed to have a genetic cause.",
+            "zh": "這種疾病被認為具有遺傳性的成因。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "hereditary",
+        "noteZh": "經基因遺傳的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "gene",
+        "partOfSpeech": "noun",
+        "meaningZh": "基因"
+      },
+      {
+        "lemma": "genetics",
+        "partOfSpeech": "noun",
+        "meaningZh": "遺傳學"
+      },
+      {
+        "lemma": "genetically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "遺傳上地"
       }
     ],
     "tags": [
@@ -1903,14 +2527,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "hereditary",
-        "noteZh": "經基因遺傳的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_genial",
@@ -1924,21 +2541,53 @@
       {
         "id": "s_genial_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "friendly, warm, and cheerful in manner",
         "definitionZh": "親切和藹的；友善的",
         "usageExplanationZh": "常修飾人的態度或性格，語氣正面，強調讓人感到舒服自在。",
-        "examples": [
-          {
-            "en": "The genial host made everyone feel welcome at the party.",
-            "zh": "這位親切和藹的主人讓每個人在派對上都感到賓至如歸。"
-          }
+        "grammarPatterns": [
+          "a genial + noun",
+          "a genial manner"
         ],
         "collocations": [
           {
             "text": "a genial host",
             "meaningZh": "親切的主人"
           }
+        ],
+        "examples": [
+          {
+            "en": "The genial host made everyone feel welcome at the party.",
+            "zh": "這位親切和藹的主人讓每個人在派對上都感到賓至如歸。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "affable",
+        "noteZh": "親切易相處的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "unfriendly",
+        "noteZh": "不友善的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "geniality",
+        "partOfSpeech": "noun",
+        "meaningZh": "親切和藹"
+      },
+      {
+        "lemma": "genially",
+        "partOfSpeech": "adverb",
+        "meaningZh": "親切地"
       }
     ],
     "tags": [
@@ -1953,19 +2602,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "affable",
-        "noteZh": "親切易相處的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "unfriendly",
-        "noteZh": "不友善的"
-      }
-    ]
+    }
   },
   {
     "id": "w_genius",
@@ -1979,21 +2616,53 @@
       {
         "id": "s_genius_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "exceptional intellectual or creative ability, or a person who has it",
         "definitionZh": "天才；卓越的才能",
         "usageExplanationZh": "常見 a stroke of genius（神來一筆）；可指人（he is a genius）或才能本身。",
-        "examples": [
-          {
-            "en": "Her ability to solve the problem so quickly was pure genius.",
-            "zh": "她能這麼快解決問題，簡直是天才之舉。"
-          }
+        "grammarPatterns": [
+          "a genius at/for + noun",
+          "a work of genius",
+          "pure genius"
         ],
         "collocations": [
           {
             "text": "a musical genius",
             "meaningZh": "音樂天才"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her ability to solve the problem so quickly was pure genius.",
+            "zh": "她能這麼快解決問題，簡直是天才之舉。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "prodigy",
+        "noteZh": "具有非凡天分的人"
+      },
+      {
+        "lemma": "brilliance",
+        "noteZh": "卓越才智"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "ingenious",
+        "partOfSpeech": "adjective",
+        "meaningZh": "巧妙的；有創意的"
+      },
+      {
+        "lemma": "ingenuity",
+        "partOfSpeech": "noun",
+        "meaningZh": "巧思；創造力"
       }
     ],
     "tags": [
@@ -2007,18 +2676,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "prodigy",
-        "noteZh": "具有非凡天分的人"
-      },
-      {
-        "lemma": "brilliance",
-        "noteZh": "卓越才智"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_genre",
@@ -2032,21 +2690,44 @@
       {
         "id": "s_genre_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "a category of artistic work characterized by a particular style or content",
         "definitionZh": "（文學、藝術）類型；體裁",
         "usageExplanationZh": "常見於文學、電影、音樂分類，如 the horror genre（恐怖片類型）。",
-        "examples": [
-          {
-            "en": "Science fiction is her favorite literary genre.",
-            "zh": "科幻小說是她最喜歡的文學體裁。"
-          }
+        "grammarPatterns": [
+          "a genre of + noun",
+          "the + noun + genre",
+          "belong to a genre"
         ],
         "collocations": [
           {
             "text": "a literary genre",
             "meaningZh": "文學體裁"
           }
+        ],
+        "examples": [
+          {
+            "en": "Science fiction is her favorite literary genre.",
+            "zh": "科幻小說是她最喜歡的文學體裁。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "category",
+        "noteZh": "藝術作品的分類"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "generic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "通用的；一般性的"
       }
     ],
     "tags": [
@@ -2060,14 +2741,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "category",
-        "noteZh": "藝術作品的分類"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_genteel",
@@ -2081,21 +2755,53 @@
       {
         "id": "s_genteel_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "polite, refined, or affectedly elegant in manner",
         "definitionZh": "（有時帶矯揉造作意味的）優雅得體的",
         "usageExplanationZh": "常帶輕微負面意味，暗示刻意表現出的高雅，與自然的 elegant 略有不同。",
-        "examples": [
-          {
-            "en": "She spoke in a genteel manner that seemed a bit forced.",
-            "zh": "她說話的方式優雅得體，卻顯得有些做作。"
-          }
+        "grammarPatterns": [
+          "a genteel + noun",
+          "in a genteel manner"
         ],
         "collocations": [
           {
             "text": "genteel manners",
             "meaningZh": "優雅得體的舉止"
           }
+        ],
+        "examples": [
+          {
+            "en": "She spoke in a genteel manner that seemed a bit forced.",
+            "zh": "她說話的方式優雅得體，卻顯得有些做作。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "refined",
+        "noteZh": "舉止優雅有教養的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "vulgar",
+        "noteZh": "粗俗的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "gentility",
+        "partOfSpeech": "noun",
+        "meaningZh": "優雅；斯文"
+      },
+      {
+        "lemma": "gentle",
+        "partOfSpeech": "adjective",
+        "meaningZh": "溫和的；溫柔的"
       }
     ],
     "tags": [
@@ -2109,19 +2815,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "refined",
-        "noteZh": "舉止優雅有教養的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "vulgar",
-        "noteZh": "粗俗的"
-      }
-    ]
+    }
   },
   {
     "id": "w_gentle",
@@ -2135,21 +2829,57 @@
       {
         "id": "s_gentle_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "mild, kind, or not forceful or harsh",
         "definitionZh": "溫和的；溫柔的",
         "usageExplanationZh": "常修飾人的態度或動作力道，如 a gentle touch（輕柔的觸碰），也可形容坡度平緩，如 a gentle slope。",
-        "examples": [
-          {
-            "en": "She gave the puppy a gentle pat on the head.",
-            "zh": "她輕柔地拍了拍小狗的頭。"
-          }
+        "grammarPatterns": [
+          "a gentle + noun",
+          "be gentle with sb/sth"
         ],
         "collocations": [
           {
             "text": "a gentle touch",
             "meaningZh": "溫柔的觸碰"
           }
+        ],
+        "examples": [
+          {
+            "en": "She gave the puppy a gentle pat on the head.",
+            "zh": "她輕柔地拍了拍小狗的頭。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "mild",
+        "noteZh": "溫和不激烈的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "rough",
+        "noteZh": "粗暴的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "gently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "溫和地；溫柔地"
+      },
+      {
+        "lemma": "gentleness",
+        "partOfSpeech": "noun",
+        "meaningZh": "溫柔；溫和"
+      },
+      {
+        "lemma": "gentleman",
+        "partOfSpeech": "noun",
+        "meaningZh": "紳士"
       }
     ],
     "tags": [
@@ -2164,19 +2894,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "mild",
-        "noteZh": "溫和不激烈的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "rough",
-        "noteZh": "粗暴的"
-      }
-    ]
+    }
   },
   {
     "id": "w_genuine",
@@ -2190,36 +2908,30 @@
       {
         "id": "s_genuine_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "truly what it is said to be; authentic; sincere",
         "definitionZh": "真正的；真誠的；非仿冒的",
         "usageExplanationZh": "常見 genuine leather（真皮）、genuine concern（真誠的關心）；與 fake 相對。",
-        "examples": [
-          {
-            "en": "His apology sounded genuine and heartfelt.",
-            "zh": "他的道歉聽起來真誠又發自內心。"
-          }
+        "grammarPatterns": [
+          "a genuine + noun",
+          "sound/seem genuine"
         ],
         "collocations": [
           {
             "text": "genuine concern",
             "meaningZh": "真誠的關心"
           }
+        ],
+        "examples": [
+          {
+            "en": "His apology sounded genuine and heartfelt.",
+            "zh": "他的道歉聽起來真誠又發自內心。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "authentic",
@@ -2239,7 +2951,32 @@
         "lemma": "insincere",
         "noteZh": "不真誠的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "genuinely",
+        "partOfSpeech": "adverb",
+        "meaningZh": "真誠地；的確"
+      },
+      {
+        "lemma": "genuineness",
+        "partOfSpeech": "noun",
+        "meaningZh": "真實性；真誠"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_geographic",
@@ -2253,21 +2990,53 @@
       {
         "id": "s_geographic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "relating to geography or the physical features of an area",
         "definitionZh": "地理的；地理學的",
         "usageExplanationZh": "常見 geographic location（地理位置）、geographic boundary（地理界線）。",
-        "examples": [
-          {
-            "en": "The company expanded its geographic reach into new markets.",
-            "zh": "這家公司將其地理版圖擴展到新的市場。"
-          }
+        "grammarPatterns": [
+          "a geographic + noun",
+          "geographic distribution/location"
         ],
         "collocations": [
           {
             "text": "geographic location",
             "meaningZh": "地理位置"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company expanded its geographic reach into new markets.",
+            "zh": "這家公司將其地理版圖擴展到新的市場。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "geographical",
+        "noteZh": "地理的另一形容詞形式"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "geography",
+        "partOfSpeech": "noun",
+        "meaningZh": "地理學；地理環境"
+      },
+      {
+        "lemma": "geographical",
+        "partOfSpeech": "adjective",
+        "meaningZh": "地理的"
+      },
+      {
+        "lemma": "geographically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "地理上地"
       }
     ],
     "tags": [
@@ -2281,14 +3050,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "geographical",
-        "noteZh": "地理的另一形容詞形式"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_ghastly",
@@ -2302,21 +3064,43 @@
       {
         "id": "s_ghastly_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "informal"
+        ],
         "definitionEn": "extremely unpleasant, frightening, or shocking",
         "definitionZh": "可怕的；駭人的",
         "usageExplanationZh": "語氣強烈，常修飾事故、景象或情況，如 a ghastly accident；口語也可誇張形容令人不快之事。",
-        "examples": [
-          {
-            "en": "The car crash left a ghastly scene on the highway.",
-            "zh": "這場車禍在高速公路上留下了可怕的景象。"
-          }
+        "grammarPatterns": [
+          "a ghastly + noun",
+          "look ghastly"
         ],
         "collocations": [
           {
             "text": "a ghastly accident",
             "meaningZh": "駭人的事故"
           }
+        ],
+        "examples": [
+          {
+            "en": "The car crash left a ghastly scene on the highway.",
+            "zh": "這場車禍在高速公路上留下了可怕的景象。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "horrifying",
+        "noteZh": "令人驚駭的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "ghastliness",
+        "partOfSpeech": "noun",
+        "meaningZh": "可怕；駭人"
       }
     ],
     "tags": [
@@ -2330,14 +3114,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "horrifying",
-        "noteZh": "令人驚駭的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_giant",
@@ -2351,21 +3128,44 @@
       {
         "id": "s_giant_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "a legendary being of human form but superhuman size, or something huge or very important",
         "definitionZh": "巨人；（產業或領域中的）巨頭",
         "usageExplanationZh": "常見比喻用法 an industry giant（產業巨頭），指規模或影響力極大的組織或人物。",
-        "examples": [
-          {
-            "en": "The company has grown into a giant in the tech industry.",
-            "zh": "這家公司已成長為科技產業的巨頭。"
-          }
+        "grammarPatterns": [
+          "a giant in + noun",
+          "a giant of + noun",
+          "an industry giant"
         ],
         "collocations": [
           {
             "text": "a technology giant",
             "meaningZh": "科技巨頭"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company has grown into a giant in the tech industry.",
+            "zh": "這家公司已成長為科技產業的巨頭。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "colossus",
+        "noteZh": "體型巨大者或領域巨頭"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "gigantic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "巨大的"
       }
     ],
     "tags": [
@@ -2378,14 +3178,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "colossus",
-        "noteZh": "體型巨大者或領域巨頭"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_giddy",
@@ -2399,21 +3192,52 @@
       {
         "id": "s_giddy_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal",
+          "literary"
+        ],
         "definitionEn": "having a sensation of whirling and a loss of balance, or feeling extremely excited",
         "definitionZh": "頭暈的；興奮到飄飄然的",
         "usageExplanationZh": "可形容生理暈眩，如 feel giddy；也常形容因興奮而忘乎所以，如 giddy with excitement。",
-        "examples": [
-          {
-            "en": "She felt giddy with excitement after receiving the acceptance letter.",
-            "zh": "收到錄取通知後，她興奮得飄飄然。"
-          }
+        "grammarPatterns": [
+          "feel giddy",
+          "be giddy with + noun"
         ],
         "collocations": [
           {
             "text": "giddy with excitement",
             "meaningZh": "興奮得飄飄然"
           }
+        ],
+        "examples": [
+          {
+            "en": "She felt giddy with excitement after receiving the acceptance letter.",
+            "zh": "收到錄取通知後，她興奮得飄飄然。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "dizzy",
+        "noteZh": "頭暈的"
+      },
+      {
+        "lemma": "elated",
+        "noteZh": "興奮雀躍的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "giddiness",
+        "partOfSpeech": "noun",
+        "meaningZh": "頭暈；眩暈"
+      },
+      {
+        "lemma": "giddily",
+        "partOfSpeech": "adverb",
+        "meaningZh": "暈眩地；興奮地"
       }
     ],
     "tags": [
@@ -2426,18 +3250,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "dizzy",
-        "noteZh": "頭暈的"
-      },
-      {
-        "lemma": "elated",
-        "noteZh": "興奮雀躍的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_giggle",
@@ -2451,40 +3264,71 @@
       {
         "id": "s_giggle_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "to laugh in a silly or nervous, high-pitched way",
         "definitionZh": "咯咯地笑；傻笑",
         "usageExplanationZh": "常見於形容孩童或害羞的笑聲，語氣輕鬆帶點孩子氣。",
-        "examples": [
-          {
-            "en": "The girls giggled uncontrollably during the movie.",
-            "zh": "女孩們在電影播放時忍不住咯咯地笑個不停。"
-          }
+        "grammarPatterns": [
+          "giggle at sth",
+          "giggle uncontrollably",
+          "start to giggle"
         ],
         "collocations": [
           {
             "text": "giggle at a joke",
             "meaningZh": "聽到笑話咯咯笑"
           }
+        ],
+        "examples": [
+          {
+            "en": "The girls giggled uncontrollably during the movie.",
+            "zh": "女孩們在電影播放時忍不住咯咯地笑個不停。"
+          }
         ]
       },
       {
         "id": "s_giggle_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "a silly, high-pitched laugh",
         "definitionZh": "咯咯的笑聲",
         "usageExplanationZh": "常見 have a fit of giggles（一陣咯咯笑），常形容難以克制的笑意。",
-        "examples": [
-          {
-            "en": "A giggle escaped from the back of the classroom.",
-            "zh": "教室後方傳來一聲咯咯的笑聲。"
-          }
+        "grammarPatterns": [
+          "let out a giggle",
+          "with a giggle"
         ],
         "collocations": [
           {
             "text": "a nervous giggle",
             "meaningZh": "緊張的咯咯笑聲"
           }
+        ],
+        "examples": [
+          {
+            "en": "A giggle escaped from the back of the classroom.",
+            "zh": "教室後方傳來一聲咯咯的笑聲。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "titter",
+        "noteZh": "輕聲或緊張地笑，也指笑聲"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "giggly",
+        "partOfSpeech": "adjective",
+        "meaningZh": "愛傻笑的"
       }
     ],
     "tags": [
@@ -2498,14 +3342,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "titter",
-        "noteZh": "輕聲或緊張地笑，也指笑聲"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_gingerly",
@@ -2519,21 +3356,41 @@
       {
         "id": "s_gingerly_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "in a careful, cautious manner, especially to avoid harm or noise",
         "definitionZh": "小心翼翼地；謹慎地",
         "usageExplanationZh": "常修飾動作動詞，如 step gingerly（小心翼翼地踏步），強調動作輕柔謹慎。",
-        "examples": [
-          {
-            "en": "She gingerly picked up the broken glass.",
-            "zh": "她小心翼翼地撿起碎玻璃。"
-          }
+        "grammarPatterns": [
+          "gingerly + verb",
+          "move/step gingerly"
         ],
         "collocations": [
           {
             "text": "step gingerly",
             "meaningZh": "小心翼翼地踏步"
           }
+        ],
+        "examples": [
+          {
+            "en": "She gingerly picked up the broken glass.",
+            "zh": "她小心翼翼地撿起碎玻璃。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "cautiously",
+        "noteZh": "小心謹慎地"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "carelessly",
+        "noteZh": "粗心大意地"
       }
     ],
     "tags": [
@@ -2546,19 +3403,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cautiously",
-        "noteZh": "小心謹慎地"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "carelessly",
-        "noteZh": "粗心大意地"
-      }
-    ]
+    }
   },
   {
     "id": "w_glacial",
@@ -2572,35 +3417,31 @@
       {
         "id": "s_glacial_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "literary"
+        ],
         "definitionEn": "relating to glaciers or ice ages, or extremely cold and slow",
         "definitionZh": "冰河的；極其緩慢冷淡的",
         "usageExplanationZh": "可指地質上的冰河現象，如 glacial period；比喻用法如 glacial pace（極其緩慢的速度）。",
-        "examples": [
-          {
-            "en": "The negotiations proceeded at a glacial pace.",
-            "zh": "談判進展得極其緩慢。"
-          }
+        "grammarPatterns": [
+          "at a glacial pace",
+          "a glacial + noun"
         ],
         "collocations": [
           {
             "text": "at a glacial pace",
             "meaningZh": "以極其緩慢的速度"
           }
+        ],
+        "examples": [
+          {
+            "en": "The negotiations proceeded at a glacial pace.",
+            "zh": "談判進展得極其緩慢。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "icy",
@@ -2616,7 +3457,31 @@
         "lemma": "warm",
         "noteZh": "溫暖親切的，對應態度義"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "glacier",
+        "partOfSpeech": "noun",
+        "meaningZh": "冰河"
+      },
+      {
+        "lemma": "glacially",
+        "partOfSpeech": "adverb",
+        "meaningZh": "極緩慢地"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_glacier",
@@ -2630,21 +3495,43 @@
       {
         "id": "s_glacier_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a large, slow-moving mass of ice formed over many years",
         "definitionZh": "冰河",
         "usageExplanationZh": "地理學用語，常見 melting glaciers（融化的冰河），與氣候變遷議題常一起出現。",
-        "examples": [
-          {
-            "en": "Scientists are studying how quickly the glacier is melting.",
-            "zh": "科學家正在研究這座冰河融化的速度有多快。"
-          }
+        "grammarPatterns": [
+          "a melting glacier",
+          "the retreat of a glacier"
         ],
         "collocations": [
           {
             "text": "a retreating glacier",
             "meaningZh": "逐漸消退的冰河"
           }
+        ],
+        "examples": [
+          {
+            "en": "Scientists are studying how quickly the glacier is melting.",
+            "zh": "科學家正在研究這座冰河融化的速度有多快。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "glacial",
+        "partOfSpeech": "adjective",
+        "meaningZh": "冰河的"
+      },
+      {
+        "lemma": "glaciation",
+        "partOfSpeech": "noun",
+        "meaningZh": "冰河作用"
       }
     ],
     "tags": [
@@ -2658,9 +3545,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_glance",
@@ -2674,42 +3559,65 @@
       {
         "id": "s_glance_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a brief or quick look",
         "definitionZh": "一瞥；匆匆一看",
         "usageExplanationZh": "常見 at a glance（一看就知道）、a quick glance；比 look 更短暫。",
-        "examples": [
-          {
-            "en": "At a glance, the two designs seemed identical.",
-            "zh": "乍看之下，這兩個設計似乎一模一樣。"
-          }
+        "grammarPatterns": [
+          "at a glance",
+          "a glance at + noun",
+          "steal a glance"
         ],
         "collocations": [
           {
             "text": "at a glance",
             "meaningZh": "一眼就"
           }
+        ],
+        "examples": [
+          {
+            "en": "At a glance, the two designs seemed identical.",
+            "zh": "乍看之下，這兩個設計似乎一模一樣。"
+          }
         ]
       },
       {
         "id": "s_glance_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to take a brief or quick look at something",
         "definitionZh": "瞥一眼；匆匆看一下",
         "usageExplanationZh": "常接 at，如 glance at the clock；動作短暫，與 stare（長時間凝視）相對。",
-        "examples": [
-          {
-            "en": "She glanced at her phone during the meeting.",
-            "zh": "她在會議中瞥了一眼手機。"
-          }
+        "grammarPatterns": [
+          "glance at sb/sth",
+          "glance around",
+          "glance over + noun"
         ],
         "collocations": [
           {
             "text": "glance at the clock",
             "meaningZh": "瞥一眼時鐘"
           }
+        ],
+        "examples": [
+          {
+            "en": "She glanced at her phone during the meeting.",
+            "zh": "她在會議中瞥了一眼手機。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "glimpse",
+        "noteZh": "短暫的一瞥"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -2720,14 +3628,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "glimpse",
-        "noteZh": "短暫的一瞥"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_glare",
@@ -2741,42 +3642,66 @@
       {
         "id": "s_glare_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "a fierce or angry look, or a strong, unpleasant light",
         "definitionZh": "怒目而視；刺眼的強光",
         "usageExplanationZh": "常見 give someone a glare（狠狠瞪某人），或形容陽光刺眼，如 the glare of the sun。",
-        "examples": [
-          {
-            "en": "He shot her an angry glare across the room.",
-            "zh": "他隔著房間狠狠地瞪了她一眼。"
-          }
+        "grammarPatterns": [
+          "give sb a glare",
+          "the glare of + noun",
+          "the glare from + noun"
         ],
         "collocations": [
           {
             "text": "the glare of the sun",
             "meaningZh": "刺眼的陽光"
           }
+        ],
+        "examples": [
+          {
+            "en": "He shot her an angry glare across the room.",
+            "zh": "他隔著房間狠狠地瞪了她一眼。"
+          }
         ]
       },
       {
         "id": "s_glare_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "to look at someone angrily, or (of light) to shine with a harsh, dazzling brightness",
         "definitionZh": "怒目而視；刺眼地照射",
         "usageExplanationZh": "常接 at，如 glare at someone；亦可形容陽光或燈光過於刺眼。",
-        "examples": [
-          {
-            "en": "The sun glared down on the empty street.",
-            "zh": "陽光刺眼地照在空無一人的街道上。"
-          }
+        "grammarPatterns": [
+          "glare at sb",
+          "sth glares down on + noun"
         ],
         "collocations": [
           {
             "text": "glare at someone",
             "meaningZh": "怒視某人"
           }
+        ],
+        "examples": [
+          {
+            "en": "The sun glared down on the empty street.",
+            "zh": "陽光刺眼地照在空無一人的街道上。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "scowl",
+        "noteZh": "憤怒的表情或怒視"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2789,13 +3714,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "scowl",
-        "noteZh": "憤怒的表情或怒視"
-      }
-    ],
-    "antonyms": []
+    }
   }
 ]

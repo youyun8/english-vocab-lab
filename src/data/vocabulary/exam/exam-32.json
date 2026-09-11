@@ -11,23 +11,37 @@
       {
         "id": "s_forgo_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to choose not to have or do something, often something desirable",
         "definitionZh": "放棄；捨棄（原可享有之事物）",
         "usageExplanationZh": "及物動詞，常接名詞或動名詞，forgo dessert、forgo the opportunity；語氣比 give up 更正式。",
-        "examples": [
-          {
-            "en": "She decided to forgo dessert to save money for the trip.",
-            "zh": "她決定放棄甜點，把錢省下來去旅行。"
-          }
+        "grammarPatterns": [
+          "forgo + noun",
+          "forgo the chance to + V"
         ],
         "collocations": [
           {
             "text": "forgo the opportunity",
             "meaningZh": "放棄機會"
           }
+        ],
+        "examples": [
+          {
+            "en": "She decided to forgo dessert to save money for the trip.",
+            "zh": "她決定放棄甜點，把錢省下來去旅行。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "relinquish",
+        "noteZh": "自願放棄原可擁有的事物"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -38,14 +52,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "relinquish",
-        "noteZh": "自願放棄原可擁有的事物"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_forlorn",
@@ -59,21 +66,47 @@
       {
         "id": "s_forlorn_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary"
+        ],
         "definitionEn": "sad and lonely because of neglect or loss",
         "definitionZh": "孤獨淒涼的；被遺棄而悲傷的",
         "usageExplanationZh": "常修飾人的表情、處境或荒廢的地方，forlorn hope 則是固定用法，指渺茫的希望。",
-        "examples": [
-          {
-            "en": "The forlorn dog waited outside the empty house.",
-            "zh": "那隻可憐的狗在空屋外淒涼地等待著。"
-          }
+        "grammarPatterns": [
+          "a forlorn + noun",
+          "look forlorn"
         ],
         "collocations": [
           {
             "text": "a forlorn hope",
             "meaningZh": "渺茫的希望"
           }
+        ],
+        "examples": [
+          {
+            "en": "The forlorn dog waited outside the empty house.",
+            "zh": "那隻可憐的狗在空屋外淒涼地等待著。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "desolate",
+        "noteZh": "孤獨而淒涼的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "cheerful",
+        "noteZh": "愉快的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "forlornly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "淒涼地；孤苦地"
       }
     ],
     "tags": [
@@ -87,19 +120,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "desolate",
-        "noteZh": "孤獨而淒涼的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "cheerful",
-        "noteZh": "愉快的"
-      }
-    ]
+    }
   },
   {
     "id": "w_format",
@@ -113,40 +134,76 @@
       {
         "id": "s_format_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "business"
+        ],
         "definitionEn": "the way information, a document, or a program is arranged or presented",
         "definitionZh": "格式；形式；編排方式",
         "usageExplanationZh": "常接 in ... format，如 in digital format；也用於節目形式，如 talk show format。",
-        "examples": [
-          {
-            "en": "Please submit the report in PDF format.",
-            "zh": "請以 PDF 格式繳交報告。"
-          }
+        "grammarPatterns": [
+          "in + noun + format",
+          "the format of + noun",
+          "change the format"
         ],
         "collocations": [
           {
             "text": "in digital format",
             "meaningZh": "以數位格式"
           }
+        ],
+        "examples": [
+          {
+            "en": "Please submit the report in PDF format.",
+            "zh": "請以 PDF 格式繳交報告。"
+          }
         ]
       },
       {
         "id": "s_format_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "business"
+        ],
         "definitionEn": "to arrange text, data, or a program in a particular structure or style",
         "definitionZh": "將資料設定為特定格式；編排",
         "usageExplanationZh": "電腦用語常見 format a document 或 format a hard drive（後者指初始化磁碟，會清除資料）。",
-        "examples": [
-          {
-            "en": "You need to format the document before printing it.",
-            "zh": "列印前你需要先設定文件的格式。"
-          }
+        "grammarPatterns": [
+          "format + noun",
+          "format sth as + noun"
         ],
         "collocations": [
           {
             "text": "format a document",
             "meaningZh": "設定文件格式"
           }
+        ],
+        "examples": [
+          {
+            "en": "You need to format the document before printing it.",
+            "zh": "列印前你需要先設定文件的格式。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "layout",
+        "noteZh": "在名詞義指編排方式"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "reformat",
+        "partOfSpeech": "verb",
+        "meaningZh": "重新設定格式"
+      },
+      {
+        "lemma": "form",
+        "partOfSpeech": "noun",
+        "meaningZh": "形式；形狀"
       }
     ],
     "tags": [
@@ -160,14 +217,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "layout",
-        "noteZh": "在名詞義指編排方式"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_formation",
@@ -181,21 +231,48 @@
       {
         "id": "s_formation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "the process of forming or developing something, or the way something is arranged",
         "definitionZh": "形成；構造；編隊",
         "usageExplanationZh": "常接 the formation of，如 the formation of a company；亦用於軍事或飛行隊形，如 in formation。",
-        "examples": [
-          {
-            "en": "The formation of the new government took several weeks.",
-            "zh": "新政府的組成花了好幾週的時間。"
-          }
+        "grammarPatterns": [
+          "the formation of + noun",
+          "in formation"
         ],
         "collocations": [
           {
             "text": "the formation of clouds",
             "meaningZh": "雲的形成"
           }
+        ],
+        "examples": [
+          {
+            "en": "The formation of the new government took several weeks.",
+            "zh": "新政府的組成花了好幾週的時間。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "development",
+        "noteZh": "在形成義指逐步發展"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "form",
+        "partOfSpeech": "noun",
+        "meaningZh": "形式；形狀"
+      },
+      {
+        "lemma": "formative",
+        "partOfSpeech": "adjective",
+        "meaningZh": "形成期的；有塑造作用的"
       }
     ],
     "tags": [
@@ -209,14 +286,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "development",
-        "noteZh": "在形成義指逐步發展"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_formerly",
@@ -230,21 +300,48 @@
       {
         "id": "s_formerly_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "at an earlier time; in the past",
         "definitionZh": "從前；以前",
         "usageExplanationZh": "常置句首或修飾職稱，如 formerly known as；比 before 更正式，強調狀態已改變。",
-        "examples": [
-          {
-            "en": "The building was formerly a factory before it became a museum.",
-            "zh": "這棟建築以前是工廠，後來才變成博物館。"
-          }
+        "grammarPatterns": [
+          "formerly + past participle",
+          "formerly known as + noun"
         ],
         "collocations": [
           {
             "text": "formerly known as",
             "meaningZh": "以前稱為"
           }
+        ],
+        "examples": [
+          {
+            "en": "The building was formerly a factory before it became a museum.",
+            "zh": "這棟建築以前是工廠，後來才變成博物館。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "previously",
+        "noteZh": "在過去或先前"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "currently",
+        "noteZh": "目前"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "former",
+        "partOfSpeech": "adjective",
+        "meaningZh": "前任的；從前的"
       }
     ],
     "tags": [
@@ -257,19 +354,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "previously",
-        "noteZh": "在過去或先前"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "currently",
-        "noteZh": "目前"
-      }
-    ]
+    }
   },
   {
     "id": "w_formidable",
@@ -283,21 +368,43 @@
       {
         "id": "s_formidable_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "inspiring fear or respect through being impressively powerful, large, or capable",
         "definitionZh": "令人敬畏的；強大難以應付的",
         "usageExplanationZh": "常修飾對手、任務或人物，formidable opponent 指難纏的對手，語氣正式且帶敬意。",
-        "examples": [
-          {
-            "en": "She built a formidable reputation as a defense lawyer.",
-            "zh": "她建立起令人敬畏的辯護律師名聲。"
-          }
+        "grammarPatterns": [
+          "a formidable + noun",
+          "a formidable opponent/reputation"
         ],
         "collocations": [
           {
             "text": "a formidable opponent",
             "meaningZh": "強勁的對手"
           }
+        ],
+        "examples": [
+          {
+            "en": "She built a formidable reputation as a defense lawyer.",
+            "zh": "她建立起令人敬畏的辯護律師名聲。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "daunting",
+        "noteZh": "強大得令人畏懼的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "formidably",
+        "partOfSpeech": "adverb",
+        "meaningZh": "令人敬畏地"
       }
     ],
     "tags": [
@@ -312,14 +419,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "daunting",
-        "noteZh": "強大得令人畏懼的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_formula",
@@ -333,21 +433,49 @@
       {
         "id": "s_formula_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "a mathematical or scientific rule expressed in symbols",
         "definitionZh": "公式；算式",
         "usageExplanationZh": "數學或科學脈絡常用，如 a chemical formula；也可指固定的解決方法，如 a winning formula。",
-        "examples": [
-          {
-            "en": "Students must memorize the formula for calculating area.",
-            "zh": "學生必須背誦計算面積的公式。"
-          }
+        "grammarPatterns": [
+          "a formula for + noun",
+          "apply/derive a formula",
+          "memorize the formula"
         ],
         "collocations": [
           {
             "text": "a mathematical formula",
             "meaningZh": "數學公式"
           }
+        ],
+        "examples": [
+          {
+            "en": "Students must memorize the formula for calculating area.",
+            "zh": "學生必須背誦計算面積的公式。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "expression",
+        "noteZh": "在數學義指表示關係的式子"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "formulate",
+        "partOfSpeech": "verb",
+        "meaningZh": "明確擬定；系統性表述"
+      },
+      {
+        "lemma": "formulaic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "公式化的；套路的"
       }
     ],
     "tags": [
@@ -362,14 +490,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "expression",
-        "noteZh": "在數學義指表示關係的式子"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_formulate",
@@ -383,21 +504,48 @@
       {
         "id": "s_formulate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "to develop or express an idea, plan, or opinion in a precise and systematic way",
         "definitionZh": "明確擬定；系統性地表達（想法、計畫）",
         "usageExplanationZh": "常接 plan、strategy、policy 等抽象名詞，強調經過思考後清楚陳述。",
-        "examples": [
-          {
-            "en": "The committee spent months formulating a new policy.",
-            "zh": "委員會花了數個月擬定新政策。"
-          }
+        "grammarPatterns": [
+          "formulate + noun",
+          "formulate a plan/policy/theory"
         ],
         "collocations": [
           {
             "text": "formulate a plan",
             "meaningZh": "擬定計畫"
           }
+        ],
+        "examples": [
+          {
+            "en": "The committee spent months formulating a new policy.",
+            "zh": "委員會花了數個月擬定新政策。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "devise",
+        "noteZh": "構思並擬定"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "formulation",
+        "partOfSpeech": "noun",
+        "meaningZh": "擬定；表述方式"
+      },
+      {
+        "lemma": "formula",
+        "partOfSpeech": "noun",
+        "meaningZh": "公式；配方"
       }
     ],
     "tags": [
@@ -411,14 +559,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "devise",
-        "noteZh": "構思並擬定"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_forsake",
@@ -432,23 +573,38 @@
       {
         "id": "s_forsake_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "to leave or abandon someone or something one has a duty or attachment to",
         "definitionZh": "遺棄；拋棄（有責任或情感連結的對象）",
         "usageExplanationZh": "語氣文學、正式，常見於誓言或書面語，如 forsake one's friends；日常口語較少用。",
-        "examples": [
-          {
-            "en": "He vowed never to forsake his family.",
-            "zh": "他發誓絕不遺棄自己的家人。"
-          }
+        "grammarPatterns": [
+          "forsake sb/sth",
+          "forsake sth for + noun"
         ],
         "collocations": [
           {
             "text": "forsake one's principles",
             "meaningZh": "拋棄原則"
           }
+        ],
+        "examples": [
+          {
+            "en": "He vowed never to forsake his family.",
+            "zh": "他發誓絕不遺棄自己的家人。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "abandon",
+        "noteZh": "拋棄原有責任或情感連結的對象"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -460,14 +616,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "abandon",
-        "noteZh": "拋棄原有責任或情感連結的對象"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_forth",
@@ -481,21 +630,49 @@
       {
         "id": "s_forth_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "forward or out, especially into view or existence",
         "definitionZh": "向前；向外（顯現出來）",
         "usageExplanationZh": "常見固定片語 back and forth（來回）、from this day forth（從今以後），單獨使用時語氣書面。",
-        "examples": [
-          {
-            "en": "The plan was set forth in the committee's report.",
-            "zh": "該計畫已在委員會的報告中提出。"
-          }
+        "grammarPatterns": [
+          "set forth + noun",
+          "bring forth + noun",
+          "back and forth"
         ],
         "collocations": [
           {
             "text": "set forth",
             "meaningZh": "出發；提出說明"
           }
+        ],
+        "examples": [
+          {
+            "en": "The plan was set forth in the committee's report.",
+            "zh": "該計畫已在委員會的報告中提出。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "forward",
+        "noteZh": "往前"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "forthcoming",
+        "partOfSpeech": "adjective",
+        "meaningZh": "即將到來的"
+      },
+      {
+        "lemma": "forthwith",
+        "partOfSpeech": "adverb",
+        "meaningZh": "立即；馬上"
       }
     ],
     "tags": [
@@ -508,14 +685,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "forward",
-        "noteZh": "往前"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_forthcoming",
@@ -529,21 +699,41 @@
       {
         "id": "s_forthcoming_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "about to happen or appear soon; planned for the near future",
         "definitionZh": "即將到來的；準備要發生的",
         "usageExplanationZh": "常修飾 event、election、book 等，如 the forthcoming election；正式用語，常見於新聞報導。",
-        "examples": [
-          {
-            "en": "Details about the forthcoming concert will be released next week.",
-            "zh": "有關即將舉行的演唱會的細節將於下週公布。"
-          }
+        "grammarPatterns": [
+          "the forthcoming + noun",
+          "in the forthcoming + noun"
         ],
         "collocations": [
           {
             "text": "a forthcoming election",
             "meaningZh": "即將舉行的選舉"
           }
+        ],
+        "examples": [
+          {
+            "en": "Details about the forthcoming concert will be released next week.",
+            "zh": "有關即將舉行的演唱會的細節將於下週公布。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "upcoming",
+        "noteZh": "即將到來的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "past",
+        "noteZh": "已經過去的"
       }
     ],
     "tags": [
@@ -556,19 +746,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "upcoming",
-        "noteZh": "即將到來的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "past",
-        "noteZh": "已經過去的"
-      }
-    ]
+    }
   },
   {
     "id": "w_forthright",
@@ -582,21 +760,52 @@
       {
         "id": "s_forthright_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "direct and outspoken in expressing opinions",
         "definitionZh": "直率的；坦白的",
         "usageExplanationZh": "常用來形容說話方式或個性，帶正面意味，強調誠實不拐彎抹角，如 a forthright answer。",
-        "examples": [
-          {
-            "en": "He gave a forthright answer to the reporter's difficult question.",
-            "zh": "他直率地回答了記者的刁鑽問題。"
-          }
+        "grammarPatterns": [
+          "a forthright + noun",
+          "be forthright about + noun"
         ],
         "collocations": [
           {
             "text": "forthright about one's views",
             "meaningZh": "坦率表達自己的觀點"
           }
+        ],
+        "examples": [
+          {
+            "en": "He gave a forthright answer to the reporter's difficult question.",
+            "zh": "他直率地回答了記者的刁鑽問題。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "candid",
+        "noteZh": "坦白直率的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "evasive",
+        "noteZh": "閃爍其詞的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "forthrightly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "直率地"
+      },
+      {
+        "lemma": "forthrightness",
+        "partOfSpeech": "noun",
+        "meaningZh": "直率；坦白"
       }
     ],
     "tags": [
@@ -610,19 +819,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "candid",
-        "noteZh": "坦白直率的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "evasive",
-        "noteZh": "閃爍其詞的"
-      }
-    ]
+    }
   },
   {
     "id": "w_fortify",
@@ -636,21 +833,59 @@
       {
         "id": "s_fortify_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to strengthen a place against attack, or to strengthen something in general",
         "definitionZh": "加強防禦；使堅固；增強",
         "usageExplanationZh": "常見 fortify a city（建築防禦工事）或抽象用法 fortify one's resolve（堅定決心）。",
-        "examples": [
-          {
-            "en": "The ancient walls were built to fortify the city against invasion.",
-            "zh": "這些古城牆是為了抵禦入侵而建造的防禦工事。"
-          }
+        "grammarPatterns": [
+          "fortify + noun",
+          "fortify sth against + noun",
+          "fortify sth with + noun"
         ],
         "collocations": [
           {
             "text": "fortify defenses",
             "meaningZh": "加強防禦"
           }
+        ],
+        "examples": [
+          {
+            "en": "The ancient walls were built to fortify the city against invasion.",
+            "zh": "這些古城牆是為了抵禦入侵而建造的防禦工事。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "strengthen",
+        "noteZh": "使更加堅固或強健"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "weaken",
+        "noteZh": "使衰弱"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "fortification",
+        "partOfSpeech": "noun",
+        "meaningZh": "防禦工事；強化"
+      },
+      {
+        "lemma": "fort",
+        "partOfSpeech": "noun",
+        "meaningZh": "堡壘"
+      },
+      {
+        "lemma": "fortress",
+        "partOfSpeech": "noun",
+        "meaningZh": "要塞；城堡"
       }
     ],
     "tags": [
@@ -665,19 +900,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "strengthen",
-        "noteZh": "使更加堅固或強健"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "weaken",
-        "noteZh": "使衰弱"
-      }
-    ]
+    }
   },
   {
     "id": "w_fortnight",
@@ -691,21 +914,43 @@
       {
         "id": "s_fortnight_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a period of two weeks",
         "definitionZh": "兩星期；十四天",
         "usageExplanationZh": "英式英語常用詞，美式英語較少見，常見 a fortnight ago、in a fortnight。",
-        "examples": [
-          {
-            "en": "We are going on holiday for a fortnight.",
-            "zh": "我們要去度假兩個星期。"
-          }
+        "grammarPatterns": [
+          "for a fortnight",
+          "a fortnight ago",
+          "in a fortnight's time"
         ],
         "collocations": [
           {
             "text": "in a fortnight",
             "meaningZh": "兩週後"
           }
+        ],
+        "examples": [
+          {
+            "en": "We are going on holiday for a fortnight.",
+            "zh": "我們要去度假兩個星期。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "two weeks",
+        "noteZh": "同指十四天的期間"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "fortnightly",
+        "partOfSpeech": "adjective",
+        "meaningZh": "兩星期一次的"
       }
     ],
     "tags": [
@@ -718,14 +963,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "two weeks",
-        "noteZh": "同指十四天的期間"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_fortuitous",
@@ -739,21 +977,53 @@
       {
         "id": "s_fortuitous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "happening by a lucky chance rather than by design",
         "definitionZh": "偶然幸運的；碰巧的",
         "usageExplanationZh": "強調意外卻帶來好結果的巧合，常修飾 meeting、event，語氣正式。",
-        "examples": [
-          {
-            "en": "Their meeting at the conference was entirely fortuitous.",
-            "zh": "他們在研討會上的相遇完全是偶然的幸運。"
-          }
+        "grammarPatterns": [
+          "a fortuitous + noun",
+          "be entirely fortuitous"
         ],
         "collocations": [
           {
             "text": "a fortuitous encounter",
             "meaningZh": "幸運的偶遇"
           }
+        ],
+        "examples": [
+          {
+            "en": "Their meeting at the conference was entirely fortuitous.",
+            "zh": "他們在研討會上的相遇完全是偶然的幸運。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "accidental",
+        "noteZh": "指偶然發生，本身不一定幸運"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "planned",
+        "noteZh": "事先安排的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "fortuitously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "偶然地；碰巧地"
+      },
+      {
+        "lemma": "fortuity",
+        "partOfSpeech": "noun",
+        "meaningZh": "偶然；巧合"
       }
     ],
     "tags": [
@@ -767,19 +1037,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "accidental",
-        "noteZh": "指偶然發生，本身不一定幸運"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "planned",
-        "noteZh": "事先安排的"
-      }
-    ]
+    }
   },
   {
     "id": "w_fortunate",
@@ -793,21 +1051,58 @@
       {
         "id": "s_fortunate_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "having good luck; favored by fortunate circumstances",
         "definitionZh": "幸運的；走運的",
         "usageExplanationZh": "常接 to be fortunate to do something 或 fortunate enough，語氣比 lucky 稍正式。",
-        "examples": [
-          {
-            "en": "We were fortunate to find a parking spot so close to the venue.",
-            "zh": "我們很幸運能在會場附近找到停車位。"
-          }
+        "grammarPatterns": [
+          "be fortunate to + V",
+          "be fortunate in + noun",
+          "it is fortunate that + clause"
         ],
         "collocations": [
           {
             "text": "fortunate enough to",
             "meaningZh": "有幸能夠"
           }
+        ],
+        "examples": [
+          {
+            "en": "We were fortunate to find a parking spot so close to the venue.",
+            "zh": "我們很幸運能在會場附近找到停車位。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "lucky",
+        "noteZh": "運氣好的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "unfortunate",
+        "noteZh": "不幸的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "fortune",
+        "partOfSpeech": "noun",
+        "meaningZh": "運氣；財富"
+      },
+      {
+        "lemma": "unfortunate",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不幸的"
+      },
+      {
+        "lemma": "fortunately",
+        "partOfSpeech": "adverb",
+        "meaningZh": "幸運地"
       }
     ],
     "tags": [
@@ -820,19 +1115,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "lucky",
-        "noteZh": "運氣好的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "unfortunate",
-        "noteZh": "不幸的"
-      }
-    ]
+    }
   },
   {
     "id": "w_fortune",
@@ -846,40 +1129,81 @@
       {
         "id": "s_fortune_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "a large amount of money or wealth",
         "definitionZh": "一大筆財富；巨款",
         "usageExplanationZh": "常見 make a fortune（賺大錢）、cost a fortune（花費昂貴），為口語常用誇飾表達。",
-        "examples": [
-          {
-            "en": "He made a fortune investing in real estate.",
-            "zh": "他靠投資房地產賺了一大筆財富。"
-          }
+        "grammarPatterns": [
+          "make a fortune",
+          "cost a fortune",
+          "a fortune in + noun"
         ],
         "collocations": [
           {
             "text": "make a fortune",
             "meaningZh": "賺大錢"
           }
+        ],
+        "examples": [
+          {
+            "en": "He made a fortune investing in real estate.",
+            "zh": "他靠投資房地產賺了一大筆財富。"
+          }
         ]
       },
       {
         "id": "s_fortune_noun_luck",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "chance or luck as an unpredictable force affecting people's lives",
         "definitionZh": "命運；運氣",
         "usageExplanationZh": "常見 good fortune／bad fortune，或 tell someone's fortune（算命）；比 luck 更帶宿命意味。",
-        "examples": [
-          {
-            "en": "She believes her good fortune comes from hard work, not luck.",
-            "zh": "她相信自己的好運來自努力，而非單純的運氣。"
-          }
+        "grammarPatterns": [
+          "good/bad fortune",
+          "the fortunes of + noun"
         ],
         "collocations": [
           {
             "text": "good fortune",
             "meaningZh": "好運"
           }
+        ],
+        "examples": [
+          {
+            "en": "She believes her good fortune comes from hard work, not luck.",
+            "zh": "她相信自己的好運來自努力，而非單純的運氣。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "wealth",
+        "noteZh": "在財富義指大量財產"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "fortunate",
+        "partOfSpeech": "adjective",
+        "meaningZh": "幸運的"
+      },
+      {
+        "lemma": "unfortunate",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不幸的"
+      },
+      {
+        "lemma": "fortunately",
+        "partOfSpeech": "adverb",
+        "meaningZh": "幸運地"
       }
     ],
     "tags": [
@@ -892,14 +1216,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "wealth",
-        "noteZh": "在財富義指大量財產"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_forum",
@@ -913,21 +1230,44 @@
       {
         "id": "s_forum_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a place, meeting, or medium for open discussion of ideas",
         "definitionZh": "論壇；公開討論的場所",
         "usageExplanationZh": "現在常指網路論壇 online forum，也可指公開辯論的實體場合，如 a public forum。",
-        "examples": [
-          {
-            "en": "The website hosts a forum where users can discuss language learning.",
-            "zh": "這個網站設有一個讓使用者討論語言學習的論壇。"
-          }
+        "grammarPatterns": [
+          "a forum for + noun",
+          "provide a forum",
+          "an online forum"
         ],
         "collocations": [
           {
             "text": "a forum for debate",
             "meaningZh": "供辯論的平台"
           }
+        ],
+        "examples": [
+          {
+            "en": "The website hosts a forum where users can discuss language learning.",
+            "zh": "這個網站設有一個讓使用者討論語言學習的論壇。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "platform",
+        "noteZh": "在討論義指交流意見的場所或機會"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "forensic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "法庭的；鑑識的"
       }
     ],
     "tags": [
@@ -941,14 +1281,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "platform",
-        "noteZh": "在討論義指交流意見的場所或機會"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_fossil",
@@ -962,21 +1295,49 @@
       {
         "id": "s_fossil_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "the preserved remains or impression of a plant or animal from a past geological age",
         "definitionZh": "化石",
         "usageExplanationZh": "常接 fossil fuel（化石燃料）等複合詞，也可比喻守舊的人（口語，稍帶貶意）。",
-        "examples": [
-          {
-            "en": "Scientists discovered a dinosaur fossil in the desert.",
-            "zh": "科學家在沙漠中發現了一個恐龍化石。"
-          }
+        "grammarPatterns": [
+          "a fossil of + noun",
+          "fossil remains",
+          "discover a fossil"
         ],
         "collocations": [
           {
             "text": "the fossil record",
             "meaningZh": "化石紀錄"
           }
+        ],
+        "examples": [
+          {
+            "en": "Scientists discovered a dinosaur fossil in the desert.",
+            "zh": "科學家在沙漠中發現了一個恐龍化石。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "petrified remains",
+        "noteZh": "指石化保存的古生物遺骸，未涵蓋所有化石"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "fossilize",
+        "partOfSpeech": "verb",
+        "meaningZh": "使成化石；使僵化"
+      },
+      {
+        "lemma": "fossilization",
+        "partOfSpeech": "noun",
+        "meaningZh": "化石化"
       }
     ],
     "tags": [
@@ -990,14 +1351,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "petrified remains",
-        "noteZh": "指石化保存的古生物遺骸，未涵蓋所有化石"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_foster",
@@ -1011,40 +1365,68 @@
       {
         "id": "s_foster_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to encourage the development or growth of something",
         "definitionZh": "培養；促進（發展、成長）",
         "usageExplanationZh": "常接抽象名詞，如 foster creativity、foster relationships，語氣正式積極。",
-        "examples": [
-          {
-            "en": "The program aims to foster creativity among young students.",
-            "zh": "這項計畫旨在培養年輕學生的創造力。"
-          }
+        "grammarPatterns": [
+          "foster + noun",
+          "foster sth among + noun",
+          "foster cooperation/creativity"
         ],
         "collocations": [
           {
             "text": "foster cooperation",
             "meaningZh": "促進合作"
           }
+        ],
+        "examples": [
+          {
+            "en": "The program aims to foster creativity among young students.",
+            "zh": "這項計畫旨在培養年輕學生的創造力。"
+          }
         ]
       },
       {
         "id": "s_foster_verb_child",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to bring up a child that is not one's own, typically not through legal adoption",
         "definitionZh": "寄養；代養（非親生子女）",
         "usageExplanationZh": "常見 foster a child、foster parent（寄養家庭），與 adopt（正式收養）不同，寄養通常屬臨時性質。",
-        "examples": [
-          {
-            "en": "They have fostered several children over the years.",
-            "zh": "這些年來他們寄養過好幾個孩子。"
-          }
+        "grammarPatterns": [
+          "foster a child",
+          "foster sb"
         ],
         "collocations": [
           {
             "text": "foster a child",
             "meaningZh": "寄養孩子"
           }
+        ],
+        "examples": [
+          {
+            "en": "They have fostered several children over the years.",
+            "zh": "這些年來他們寄養過好幾個孩子。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "nurture",
+        "noteZh": "指培養成長或發展"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "hinder",
+        "noteZh": "在促進義指阻礙"
       }
     ],
     "tags": [
@@ -1059,19 +1441,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "nurture",
-        "noteZh": "指培養成長或發展"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "hinder",
-        "noteZh": "在促進義指阻礙"
-      }
-    ]
+    }
   },
   {
     "id": "w_founder",
@@ -1085,40 +1455,75 @@
       {
         "id": "s_founder_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "a person who establishes an organization, institution, or business",
         "definitionZh": "創辦人；奠基者",
         "usageExplanationZh": "常接機構名稱，如 the founder of the company；常與 co-founder（共同創辦人）並用。",
-        "examples": [
-          {
-            "en": "She is the founder of a nonprofit organization for literacy.",
-            "zh": "她是一個提倡識字教育的非營利組織的創辦人。"
-          }
+        "grammarPatterns": [
+          "the founder of + noun",
+          "a co-founder of + noun"
         ],
         "collocations": [
           {
             "text": "the founder of a company",
             "meaningZh": "公司創辦人"
           }
+        ],
+        "examples": [
+          {
+            "en": "She is the founder of a nonprofit organization for literacy.",
+            "zh": "她是一個提倡識字教育的非營利組織的創辦人。"
+          }
         ]
       },
       {
         "id": "s_founder_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to fail or break down completely, especially of a plan or ship",
         "definitionZh": "（計畫）失敗；（船）沉沒",
         "usageExplanationZh": "常見 the plan foundered（計畫破局）或 the ship foundered（船隻沉沒），與 found（建立）為完全不同的詞。",
-        "examples": [
-          {
-            "en": "The negotiations foundered over disagreements about pricing.",
-            "zh": "談判因價格分歧而破裂。"
-          }
+        "grammarPatterns": [
+          "sth founders",
+          "founder on/over + noun"
         ],
         "collocations": [
           {
             "text": "founder on the rocks",
             "meaningZh": "觸礁沉沒"
           }
+        ],
+        "examples": [
+          {
+            "en": "The negotiations foundered over disagreements about pricing.",
+            "zh": "談判因價格分歧而破裂。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "establisher",
+        "noteZh": "在名詞義指創立者"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "found",
+        "partOfSpeech": "verb",
+        "meaningZh": "創立；建立"
+      },
+      {
+        "lemma": "foundation",
+        "partOfSpeech": "noun",
+        "meaningZh": "創立；基金會"
       }
     ],
     "tags": [
@@ -1132,14 +1537,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "establisher",
-        "noteZh": "在名詞義指創立者"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_fountain",
@@ -1153,21 +1551,42 @@
       {
         "id": "s_fountain_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a structure that sends up jets of water, often for decoration",
         "definitionZh": "噴泉",
         "usageExplanationZh": "常見於公園或廣場等公共空間，如 a water fountain；也可指飲水機（美式英語 drinking fountain）。",
-        "examples": [
-          {
-            "en": "Tourists often take photos in front of the famous fountain.",
-            "zh": "遊客常在這座著名的噴泉前拍照。"
-          }
+        "grammarPatterns": [
+          "a fountain in + noun",
+          "a fountain of + noun"
         ],
         "collocations": [
           {
             "text": "a drinking fountain",
             "meaningZh": "飲水台"
           }
+        ],
+        "examples": [
+          {
+            "en": "Tourists often take photos in front of the famous fountain.",
+            "zh": "遊客常在這座著名的噴泉前拍照。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "jet",
+        "noteZh": "指噴湧的水柱，非整座噴泉設施"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "fount",
+        "partOfSpeech": "noun",
+        "meaningZh": "泉源；來源"
       }
     ],
     "tags": [
@@ -1181,14 +1600,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "jet",
-        "noteZh": "指噴湧的水柱，非整座噴泉設施"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_fraction",
@@ -1202,40 +1614,80 @@
       {
         "id": "s_fraction_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "a small part or amount of something",
         "definitionZh": "一小部分；小部分",
         "usageExplanationZh": "常見 only a fraction of，強調數量極少，如 a fraction of the cost（僅一小部分的費用）。",
-        "examples": [
-          {
-            "en": "He finished the marathon in a fraction of the time he expected.",
-            "zh": "他完成馬拉松所花的時間只是他預期的一小部分。"
-          }
+        "grammarPatterns": [
+          "a fraction of + noun",
+          "only a small fraction"
         ],
         "collocations": [
           {
             "text": "a fraction of the cost",
             "meaningZh": "原費用的一小部分"
           }
+        ],
+        "examples": [
+          {
+            "en": "He finished the marathon in a fraction of the time he expected.",
+            "zh": "他完成馬拉松所花的時間只是他預期的一小部分。"
+          }
         ]
       },
       {
         "id": "s_fraction_noun_math",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "a numerical quantity that is not a whole number, expressed as one number divided by another",
         "definitionZh": "分數",
         "usageExplanationZh": "數學用語，如 one half is a fraction；與整數 whole number 相對。",
-        "examples": [
-          {
-            "en": "Students learn to add and subtract fractions in third grade.",
-            "zh": "學生在三年級學習分數的加減運算。"
-          }
+        "grammarPatterns": [
+          "add/simplify fractions",
+          "express sth as a fraction"
         ],
         "collocations": [
           {
             "text": "a proper fraction",
             "meaningZh": "真分數"
           }
+        ],
+        "examples": [
+          {
+            "en": "Students learn to add and subtract fractions in third grade.",
+            "zh": "學生在三年級學習分數的加減運算。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "portion",
+        "noteZh": "在部分義指整體的一部分"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "whole",
+        "noteZh": "在部分義指整體"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "fractional",
+        "partOfSpeech": "adjective",
+        "meaningZh": "部分的；極微小的"
+      },
+      {
+        "lemma": "fractionally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "些微地"
       }
     ],
     "tags": [
@@ -1250,19 +1702,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "portion",
-        "noteZh": "在部分義指整體的一部分"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "whole",
-        "noteZh": "在部分義指整體"
-      }
-    ]
+    }
   },
   {
     "id": "w_fracture",
@@ -1276,42 +1716,66 @@
       {
         "id": "s_fracture_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a break, especially in a bone",
         "definitionZh": "骨折；斷裂",
         "usageExplanationZh": "醫學脈絡常用，如 a hairline fracture（裂痕型骨折）；也可指材料或結構的裂縫。",
-        "examples": [
-          {
-            "en": "He suffered a fracture in his left arm during the fall.",
-            "zh": "他跌倒時左臂骨折了。"
-          }
+        "grammarPatterns": [
+          "a fracture in + noun",
+          "suffer a fracture",
+          "a hairline fracture"
         ],
         "collocations": [
           {
             "text": "a stress fracture",
             "meaningZh": "疲勞性骨折"
           }
+        ],
+        "examples": [
+          {
+            "en": "He suffered a fracture in his left arm during the fall.",
+            "zh": "他跌倒時左臂骨折了。"
+          }
         ]
       },
       {
         "id": "s_fracture_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "to break or crack, or to cause something to break",
         "definitionZh": "（使）破裂；（使）骨折",
         "usageExplanationZh": "及物或不及物皆可，fracture a bone 或 the relationship fractured（比喻關係破裂）。",
-        "examples": [
-          {
-            "en": "The vase fractured when it fell off the shelf.",
-            "zh": "花瓶從架上掉落時裂開了。"
-          }
+        "grammarPatterns": [
+          "fracture + noun",
+          "sth fractures"
         ],
         "collocations": [
           {
             "text": "fracture a wrist",
             "meaningZh": "手腕骨折"
           }
+        ],
+        "examples": [
+          {
+            "en": "The vase fractured when it fell off the shelf.",
+            "zh": "花瓶從架上掉落時裂開了。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "break",
+        "noteZh": "可指骨頭斷裂或使其斷裂"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1324,14 +1788,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "break",
-        "noteZh": "可指骨頭斷裂或使其斷裂"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_fragile",
@@ -1345,21 +1802,49 @@
       {
         "id": "s_fragile_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "easily broken, damaged, or destroyed",
         "definitionZh": "易碎的；脆弱的",
         "usageExplanationZh": "常修飾物品，如 fragile glassware；也可比喻脆弱的狀態，如 a fragile peace（脆弱的和平）。",
-        "examples": [
-          {
-            "en": "The package was labeled \"fragile\" because it contained glass items.",
-            "zh": "這個包裹因為裝有玻璃製品，被標示為「易碎品」。"
-          }
+        "grammarPatterns": [
+          "a fragile + noun",
+          "remain fragile",
+          "extremely fragile"
         ],
         "collocations": [
           {
             "text": "a fragile ecosystem",
             "meaningZh": "脆弱的生態系"
           }
+        ],
+        "examples": [
+          {
+            "en": "The package was labeled \"fragile\" because it contained glass items.",
+            "zh": "這個包裹因為裝有玻璃製品，被標示為「易碎品」。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "delicate",
+        "noteZh": "容易損壞或受傷的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "sturdy",
+        "noteZh": "堅固耐用的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "fragility",
+        "partOfSpeech": "noun",
+        "meaningZh": "脆弱；易碎"
       }
     ],
     "tags": [
@@ -1374,19 +1859,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "delicate",
-        "noteZh": "容易損壞或受傷的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "sturdy",
-        "noteZh": "堅固耐用的"
-      }
-    ]
+    }
   },
   {
     "id": "w_fragment",
@@ -1400,21 +1873,54 @@
       {
         "id": "s_fragment_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "neutral"
+        ],
         "definitionEn": "a small piece or part broken off from something larger",
         "definitionZh": "碎片；片段",
         "usageExplanationZh": "常見 fragments of glass（玻璃碎片）或抽象用法 a fragment of memory（一段記憶片段）。",
-        "examples": [
-          {
-            "en": "Archaeologists found fragments of ancient pottery at the site.",
-            "zh": "考古學家在遺址發現了古代陶器的碎片。"
-          }
+        "grammarPatterns": [
+          "a fragment of + noun",
+          "fragments of + noun",
+          "break into fragments"
         ],
         "collocations": [
           {
             "text": "a fragment of glass",
             "meaningZh": "一塊玻璃碎片"
           }
+        ],
+        "examples": [
+          {
+            "en": "Archaeologists found fragments of ancient pottery at the site.",
+            "zh": "考古學家在遺址發現了古代陶器的碎片。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "piece",
+        "noteZh": "指破裂或分離出的一部分"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "whole",
+        "noteZh": "完整的整體"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "fragmentary",
+        "partOfSpeech": "adjective",
+        "meaningZh": "零碎的；不完整的"
+      },
+      {
+        "lemma": "fragmentation",
+        "partOfSpeech": "noun",
+        "meaningZh": "碎裂；分裂"
       }
     ],
     "tags": [
@@ -1429,19 +1935,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "piece",
-        "noteZh": "指破裂或分離出的一部分"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "whole",
-        "noteZh": "完整的整體"
-      }
-    ]
+    }
   },
   {
     "id": "w_fragrance",
@@ -1455,21 +1949,48 @@
       {
         "id": "s_fragrance_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "business"
+        ],
         "definitionEn": "a pleasant, sweet smell",
         "definitionZh": "香味；芬芳",
         "usageExplanationZh": "常見於花朵、香水描述，如 a floral fragrance；比 smell 更正面、更文雅。",
-        "examples": [
-          {
-            "en": "The garden was filled with the fragrance of blooming roses.",
-            "zh": "花園裡瀰漫著盛開玫瑰的芬芳。"
-          }
+        "grammarPatterns": [
+          "the fragrance of + noun",
+          "a sweet fragrance"
         ],
         "collocations": [
           {
             "text": "a delicate fragrance",
             "meaningZh": "淡雅的香氣"
           }
+        ],
+        "examples": [
+          {
+            "en": "The garden was filled with the fragrance of blooming roses.",
+            "zh": "花園裡瀰漫著盛開玫瑰的芬芳。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "scent",
+        "noteZh": "指香味；亦可泛指氣味"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "stench",
+        "noteZh": "難聞的惡臭"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "fragrant",
+        "partOfSpeech": "adjective",
+        "meaningZh": "芳香的"
       }
     ],
     "tags": [
@@ -1484,19 +2005,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "scent",
-        "noteZh": "指香味；亦可泛指氣味"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "stench",
-        "noteZh": "難聞的惡臭"
-      }
-    ]
+    }
   },
   {
     "id": "w_fragrant",
@@ -1510,21 +2019,53 @@
       {
         "id": "s_fragrant_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "having a pleasant or sweet smell",
         "definitionZh": "芳香的；芬芳的",
         "usageExplanationZh": "常修飾花、茶、食物等，如 fragrant tea；語氣正面優雅。",
-        "examples": [
-          {
-            "en": "The bakery was filled with the fragrant smell of fresh bread.",
-            "zh": "麵包店裡瀰漫著新鮮麵包的香氣。"
-          }
+        "grammarPatterns": [
+          "a fragrant + noun",
+          "be fragrant with + noun"
         ],
         "collocations": [
           {
             "text": "fragrant flowers",
             "meaningZh": "芳香的花朵"
           }
+        ],
+        "examples": [
+          {
+            "en": "The bakery was filled with the fragrant smell of fresh bread.",
+            "zh": "麵包店裡瀰漫著新鮮麵包的香氣。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "aromatic",
+        "noteZh": "散發怡人香味的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "foul-smelling",
+        "noteZh": "散發惡臭的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "fragrance",
+        "partOfSpeech": "noun",
+        "meaningZh": "香味；芬芳"
+      },
+      {
+        "lemma": "fragrantly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "芬芳地"
       }
     ],
     "tags": [
@@ -1538,19 +2079,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "aromatic",
-        "noteZh": "散發怡人香味的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "foul-smelling",
-        "noteZh": "散發惡臭的"
-      }
-    ]
+    }
   },
   {
     "id": "w_frame",
@@ -1564,21 +2093,44 @@
       {
         "id": "s_frame_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a rigid structure that surrounds or supports something, such as a picture or window",
         "definitionZh": "框架；框",
         "usageExplanationZh": "常見 a picture frame（相框）、window frame（窗框）；也可指人的體格，如 a slender frame。",
-        "examples": [
-          {
-            "en": "She hung the photo in a wooden frame.",
-            "zh": "她把照片掛在木製相框裡。"
-          }
+        "grammarPatterns": [
+          "a frame of + noun",
+          "in a + adjective + frame",
+          "the frame of + noun"
         ],
         "collocations": [
           {
             "text": "a picture frame",
             "meaningZh": "相框"
           }
+        ],
+        "examples": [
+          {
+            "en": "She hung the photo in a wooden frame.",
+            "zh": "她把照片掛在木製相框裡。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "framework",
+        "noteZh": "指支撐或包圍物體的結構"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "framework",
+        "partOfSpeech": "noun",
+        "meaningZh": "架構；框架"
       }
     ],
     "tags": [
@@ -1591,14 +2143,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "framework",
-        "noteZh": "指支撐或包圍物體的結構"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_frank",
@@ -1612,21 +2157,54 @@
       {
         "id": "s_frank_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "spoken"
+        ],
         "definitionEn": "honest and direct in what one says, even if it might not be welcome",
         "definitionZh": "坦率的；直言不諱的",
         "usageExplanationZh": "常見 to be frank with you（老實跟你說），常置句首作插入語，語氣誠懇。",
-        "examples": [
-          {
-            "en": "To be frank, I don't think the plan will work.",
-            "zh": "老實說，我不認為這個計畫行得通。"
-          }
+        "grammarPatterns": [
+          "be frank about + noun",
+          "to be frank",
+          "a frank + noun"
         ],
         "collocations": [
           {
             "text": "to be frank",
             "meaningZh": "坦白說"
           }
+        ],
+        "examples": [
+          {
+            "en": "To be frank, I don't think the plan will work.",
+            "zh": "老實說，我不認為這個計畫行得通。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "candid",
+        "noteZh": "坦白而不隱瞞的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "evasive",
+        "noteZh": "迴避正面表達的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "frankly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "坦白地；直言地"
+      },
+      {
+        "lemma": "frankness",
+        "partOfSpeech": "noun",
+        "meaningZh": "坦率"
       }
     ],
     "tags": [
@@ -1639,19 +2217,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "candid",
-        "noteZh": "坦白而不隱瞞的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "evasive",
-        "noteZh": "迴避正面表達的"
-      }
-    ]
+    }
   },
   {
     "id": "w_fraternal",
@@ -1665,21 +2231,53 @@
       {
         "id": "s_fraternal_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "relating to or characteristic of brothers, or brotherly in feeling",
         "definitionZh": "兄弟般的；友愛的",
         "usageExplanationZh": "常見 fraternal twins（異卵雙胞胎，與 identical twins 相對），也可形容如兄弟般的情誼。",
-        "examples": [
-          {
-            "en": "The two soldiers developed a fraternal bond during the war.",
-            "zh": "這兩名士兵在戰爭期間建立了兄弟般的情誼。"
-          }
+        "grammarPatterns": [
+          "a fraternal + noun",
+          "fraternal bonds/ties"
         ],
         "collocations": [
           {
             "text": "fraternal bonds",
             "meaningZh": "兄弟般的情誼"
           }
+        ],
+        "examples": [
+          {
+            "en": "The two soldiers developed a fraternal bond during the war.",
+            "zh": "這兩名士兵在戰爭期間建立了兄弟般的情誼。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "brotherly",
+        "noteZh": "如兄弟般友愛的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "fraternity",
+        "partOfSpeech": "noun",
+        "meaningZh": "兄弟會；同業團體"
+      },
+      {
+        "lemma": "fraternally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "友愛地"
+      },
+      {
+        "lemma": "fraternize",
+        "partOfSpeech": "verb",
+        "meaningZh": "親善往來"
       }
     ],
     "tags": [
@@ -1693,14 +2291,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "brotherly",
-        "noteZh": "如兄弟般友愛的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_fraternity",
@@ -1714,21 +2305,48 @@
       {
         "id": "s_fraternity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a group of people sharing a common profession or interest, or a male student society",
         "definitionZh": "同業團體；（美國大學）兄弟會",
         "usageExplanationZh": "美國大學脈絡常指男學生社團 college fraternity；也可泛指有共同職業或興趣的團體，如 the legal fraternity。",
-        "examples": [
-          {
-            "en": "He joined a fraternity during his freshman year at college.",
-            "zh": "他大一時加入了一個兄弟會。"
-          }
+        "grammarPatterns": [
+          "join a fraternity",
+          "the + noun + fraternity"
         ],
         "collocations": [
           {
             "text": "join a fraternity",
             "meaningZh": "加入兄弟會"
           }
+        ],
+        "examples": [
+          {
+            "en": "He joined a fraternity during his freshman year at college.",
+            "zh": "他大一時加入了一個兄弟會。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "brotherhood",
+        "noteZh": "具有共同身分或目標的團體"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "fraternal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "兄弟般的；友愛的"
+      },
+      {
+        "lemma": "fraternize",
+        "partOfSpeech": "verb",
+        "meaningZh": "友好交往"
       }
     ],
     "tags": [
@@ -1741,14 +2359,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "brotherhood",
-        "noteZh": "具有共同身分或目標的團體"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_fraud",
@@ -1762,21 +2373,54 @@
       {
         "id": "s_fraud_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "the crime of deceiving someone to gain money or another advantage illegally",
         "definitionZh": "詐欺；詐騙罪",
         "usageExplanationZh": "常見 commit fraud、credit card fraud；也可指騙子本人（口語），如 he's a fraud。",
-        "examples": [
-          {
-            "en": "She was convicted of tax fraud after years of falsifying records.",
-            "zh": "她因多年偽造紀錄而被判犯有逃稅詐欺罪。"
-          }
+        "grammarPatterns": [
+          "commit fraud",
+          "be convicted of fraud",
+          "tax/credit card fraud"
         ],
         "collocations": [
           {
             "text": "commit fraud",
             "meaningZh": "進行詐欺"
           }
+        ],
+        "examples": [
+          {
+            "en": "She was convicted of tax fraud after years of falsifying records.",
+            "zh": "她因多年偽造紀錄而被判犯有逃稅詐欺罪。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "deception",
+        "noteZh": "以欺瞞取得利益的行為"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "fraudulent",
+        "partOfSpeech": "adjective",
+        "meaningZh": "詐欺的"
+      },
+      {
+        "lemma": "fraudulently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "以詐欺手段"
+      },
+      {
+        "lemma": "defraud",
+        "partOfSpeech": "verb",
+        "meaningZh": "詐騙；騙取"
       }
     ],
     "tags": [
@@ -1791,14 +2435,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "deception",
-        "noteZh": "以欺瞞取得利益的行為"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_freight",
@@ -1812,40 +2449,71 @@
       {
         "id": "s_freight_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "technical"
+        ],
         "definitionEn": "goods transported by truck, train, ship, or aircraft",
         "definitionZh": "貨物；貨運",
         "usageExplanationZh": "常見 freight train（貨運列車）、freight charges（運費）；多用於商業或物流語境。",
-        "examples": [
-          {
-            "en": "The freight was delayed at customs for two days.",
-            "zh": "這批貨物在海關延誤了兩天。"
-          }
+        "grammarPatterns": [
+          "ship sth as freight",
+          "freight charges",
+          "air/rail freight"
         ],
         "collocations": [
           {
             "text": "air freight",
             "meaningZh": "空運貨物"
           }
+        ],
+        "examples": [
+          {
+            "en": "The freight was delayed at customs for two days.",
+            "zh": "這批貨物在海關延誤了兩天。"
+          }
         ]
       },
       {
         "id": "s_freight_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "to load or send goods as freight, or to burden with something",
         "definitionZh": "運送（貨物）；使承載（負擔）",
         "usageExplanationZh": "常用被動語態 be freighted with，比喻承載了某種情緒或意義，如 freighted with meaning。",
-        "examples": [
-          {
-            "en": "The negotiations were freighted with tension from the start.",
-            "zh": "這場談判從一開始就充滿了緊張氣氛。"
-          }
+        "grammarPatterns": [
+          "freight + noun",
+          "be freighted with + noun"
         ],
         "collocations": [
           {
             "text": "freight goods by rail",
             "meaningZh": "以鐵路運貨"
           }
+        ],
+        "examples": [
+          {
+            "en": "The negotiations were freighted with tension from the start.",
+            "zh": "這場談判從一開始就充滿了緊張氣氛。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "cargo",
+        "noteZh": "在名詞義指運送的貨物"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "freighter",
+        "partOfSpeech": "noun",
+        "meaningZh": "貨船；貨機"
       }
     ],
     "tags": [
@@ -1860,14 +2528,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cargo",
-        "noteZh": "在名詞義指運送的貨物"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_frequency",
@@ -1881,21 +2542,53 @@
       {
         "id": "s_frequency_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "the rate at which something occurs over a period of time",
         "definitionZh": "頻率；發生的次數",
         "usageExplanationZh": "常見 the frequency of visits（拜訪的頻率）；物理學脈絡也指波動頻率，如 radio frequency。",
-        "examples": [
-          {
-            "en": "The frequency of earthquakes in the region has increased in recent years.",
-            "zh": "該地區近年來地震發生的頻率增加了。"
-          }
+        "grammarPatterns": [
+          "the frequency of + noun",
+          "with increasing frequency"
         ],
         "collocations": [
           {
             "text": "the frequency of occurrence",
             "meaningZh": "發生頻率"
           }
+        ],
+        "examples": [
+          {
+            "en": "The frequency of earthquakes in the region has increased in recent years.",
+            "zh": "該地區近年來地震發生的頻率增加了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "rate",
+        "noteZh": "在發生頻率義指單位時間內的次數"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "frequent",
+        "partOfSpeech": "adjective",
+        "meaningZh": "頻繁的"
+      },
+      {
+        "lemma": "frequently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "經常地"
+      },
+      {
+        "lemma": "infrequent",
+        "partOfSpeech": "adjective",
+        "meaningZh": "稀少的；不常發生的"
       }
     ],
     "tags": [
@@ -1909,14 +2602,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "rate",
-        "noteZh": "在發生頻率義指單位時間內的次數"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_frequent",
@@ -1930,40 +2616,84 @@
       {
         "id": "s_frequent_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "occurring often or at short intervals",
         "definitionZh": "頻繁的；常發生的",
         "usageExplanationZh": "常修飾 visits、flights 等可重複發生之事，如 frequent flyer（常客）。",
-        "examples": [
-          {
-            "en": "He is a frequent visitor to the museum.",
-            "zh": "他是這間博物館的常客。"
-          }
+        "grammarPatterns": [
+          "a frequent + noun",
+          "be a frequent visitor to + noun"
         ],
         "collocations": [
           {
             "text": "frequent visits",
             "meaningZh": "頻繁的拜訪"
           }
+        ],
+        "examples": [
+          {
+            "en": "He is a frequent visitor to the museum.",
+            "zh": "他是這間博物館的常客。"
+          }
         ]
       },
       {
         "id": "s_frequent_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to visit a place often",
         "definitionZh": "經常光顧（某地）",
         "usageExplanationZh": "及物動詞，直接接地點作受詞，如 frequent a café，語氣比 visit often 更正式簡潔。",
-        "examples": [
-          {
-            "en": "The writer used to frequent this small café to work on her novels.",
-            "zh": "這位作家過去常在這家小咖啡館寫小說。"
-          }
+        "grammarPatterns": [
+          "frequent + noun",
+          "frequent a place"
         ],
         "collocations": [
           {
             "text": "frequent a café",
             "meaningZh": "經常光顧某咖啡館"
           }
+        ],
+        "examples": [
+          {
+            "en": "The writer used to frequent this small café to work on her novels.",
+            "zh": "這位作家過去常在這家小咖啡館寫小說。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "regular",
+        "noteZh": "在形容詞義指經常發生的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "infrequent",
+        "noteZh": "在形容詞義指少見的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "frequency",
+        "partOfSpeech": "noun",
+        "meaningZh": "頻率"
+      },
+      {
+        "lemma": "frequently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "經常地"
+      },
+      {
+        "lemma": "infrequent",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不常見的"
       }
     ],
     "tags": [
@@ -1978,19 +2708,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "regular",
-        "noteZh": "在形容詞義指經常發生的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "infrequent",
-        "noteZh": "在形容詞義指少見的"
-      }
-    ]
+    }
   },
   {
     "id": "w_freshly",
@@ -2004,21 +2722,52 @@
       {
         "id": "s_freshly_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "very recently; in a new or fresh way",
         "definitionZh": "剛剛；新近地",
         "usageExplanationZh": "常修飾過去分詞，如 freshly baked（剛烤好的）、freshly painted（剛油漆好的）。",
-        "examples": [
-          {
-            "en": "The kitchen smelled of freshly baked cookies.",
-            "zh": "廚房裡瀰漫著剛烤好的餅乾香味。"
-          }
+        "grammarPatterns": [
+          "freshly + past participle",
+          "freshly baked/painted"
         ],
         "collocations": [
           {
             "text": "freshly baked bread",
             "meaningZh": "剛出爐的麵包"
           }
+        ],
+        "examples": [
+          {
+            "en": "The kitchen smelled of freshly baked cookies.",
+            "zh": "廚房裡瀰漫著剛烤好的餅乾香味。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "newly",
+        "noteZh": "最近才完成地"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "fresh",
+        "partOfSpeech": "adjective",
+        "meaningZh": "新鮮的"
+      },
+      {
+        "lemma": "freshness",
+        "partOfSpeech": "noun",
+        "meaningZh": "新鮮"
+      },
+      {
+        "lemma": "refresh",
+        "partOfSpeech": "verb",
+        "meaningZh": "使恢復精神；刷新"
       }
     ],
     "tags": [
@@ -2031,14 +2780,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "newly",
-        "noteZh": "最近才完成地"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_fringe",
@@ -2052,42 +2794,65 @@
       {
         "id": "s_fringe_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "the outer, less central, or marginal part of something",
         "definitionZh": "邊緣；外圍",
         "usageExplanationZh": "常見 the fringe of society（社會邊緣）、on the fringe of the city（城市外圍）；也指流蘇裝飾。",
-        "examples": [
-          {
-            "en": "Radical ideas often start on the fringe before entering the mainstream.",
-            "zh": "激進的想法通常先出現在邊緣地帶，再進入主流。"
-          }
+        "grammarPatterns": [
+          "on the fringe of + noun",
+          "the fringes of + noun",
+          "a fringe group"
         ],
         "collocations": [
           {
             "text": "on the fringe of society",
             "meaningZh": "在社會邊緣"
           }
+        ],
+        "examples": [
+          {
+            "en": "Radical ideas often start on the fringe before entering the mainstream.",
+            "zh": "激進的想法通常先出現在邊緣地帶，再進入主流。"
+          }
         ]
       },
       {
         "id": "s_fringe_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "literary"
+        ],
         "definitionEn": "to form a border or edge around something",
         "definitionZh": "鑲邊於；圍繞（形成邊緣）",
         "usageExplanationZh": "常用被動語態 be fringed with，描述景物周圍環繞著什麼，如 fringed with trees。",
-        "examples": [
-          {
-            "en": "The lake was fringed with tall pine trees.",
-            "zh": "這座湖泊四周環繞著高聳的松樹。"
-          }
+        "grammarPatterns": [
+          "be fringed with + noun",
+          "fringe + noun"
         ],
         "collocations": [
           {
             "text": "palms fringe the beach",
             "meaningZh": "棕櫚樹沿著海灘生長"
           }
+        ],
+        "examples": [
+          {
+            "en": "The lake was fringed with tall pine trees.",
+            "zh": "這座湖泊四周環繞著高聳的松樹。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "edge",
+        "noteZh": "在名詞義指邊緣"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2100,14 +2865,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "edge",
-        "noteZh": "在名詞義指邊緣"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_frivolous",
@@ -2121,21 +2879,52 @@
       {
         "id": "s_frivolous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "not having any serious purpose or value; silly",
         "definitionZh": "輕浮的；不認真的；無意義的",
         "usageExplanationZh": "常修飾 spending、lawsuit 等，如 a frivolous lawsuit（無理取鬧的訴訟），帶負面評價。",
-        "examples": [
-          {
-            "en": "The judge dismissed the case as frivolous.",
-            "zh": "法官認定這起訴訟無理取鬧，予以駁回。"
-          }
+        "grammarPatterns": [
+          "a frivolous + noun",
+          "a frivolous lawsuit/claim"
         ],
         "collocations": [
           {
             "text": "a frivolous lawsuit",
             "meaningZh": "無理取鬧的訴訟"
           }
+        ],
+        "examples": [
+          {
+            "en": "The judge dismissed the case as frivolous.",
+            "zh": "法官認定這起訴訟無理取鬧，予以駁回。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "trivial",
+        "noteZh": "不重要而欠缺嚴肅價值的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "serious",
+        "noteZh": "嚴肅認真的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "frivolity",
+        "partOfSpeech": "noun",
+        "meaningZh": "輕浮；無聊瑣事"
+      },
+      {
+        "lemma": "frivolously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "輕率地"
       }
     ],
     "tags": [
@@ -2148,19 +2937,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "trivial",
-        "noteZh": "不重要而欠缺嚴肅價值的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "serious",
-        "noteZh": "嚴肅認真的"
-      }
-    ]
+    }
   },
   {
     "id": "w_frontier",
@@ -2174,21 +2951,44 @@
       {
         "id": "s_frontier_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a border between two countries, or the edge of settled or explored territory",
         "definitionZh": "邊境；邊界；（知識或科技的）前沿",
         "usageExplanationZh": "常見比喻用法 the frontier of science（科學的前沿），指尚待開發或探索的領域。",
-        "examples": [
-          {
-            "en": "Researchers are pushing the frontier of medical technology.",
-            "zh": "研究人員正在推動醫療科技的前沿發展。"
-          }
+        "grammarPatterns": [
+          "the frontier between + noun + and + noun",
+          "push the frontiers of + noun",
+          "a new frontier"
         ],
         "collocations": [
           {
             "text": "the frontiers of science",
             "meaningZh": "科學的前沿"
           }
+        ],
+        "examples": [
+          {
+            "en": "Researchers are pushing the frontier of medical technology.",
+            "zh": "研究人員正在推動醫療科技的前沿發展。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "border",
+        "noteZh": "在地理義指邊界"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "front",
+        "partOfSpeech": "noun",
+        "meaningZh": "前面；前線"
       }
     ],
     "tags": [
@@ -2202,14 +3002,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "border",
-        "noteZh": "在地理義指邊界"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_frown",
@@ -2223,40 +3016,67 @@
       {
         "id": "s_frown_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "an expression of displeasure or concentration made by wrinkling the forehead",
         "definitionZh": "皺眉（的表情）",
         "usageExplanationZh": "常見 with a frown（皺著眉頭），描述臉部表情，語氣中性偏負面。",
-        "examples": [
-          {
-            "en": "She read the letter with a deep frown on her face.",
-            "zh": "她讀信時，臉上帶著深深的皺眉。"
-          }
+        "grammarPatterns": [
+          "a frown of + noun",
+          "with a frown"
         ],
         "collocations": [
           {
             "text": "a puzzled frown",
             "meaningZh": "困惑的皺眉"
           }
+        ],
+        "examples": [
+          {
+            "en": "She read the letter with a deep frown on her face.",
+            "zh": "她讀信時，臉上帶著深深的皺眉。"
+          }
         ]
       },
       {
         "id": "s_frown_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to wrinkle one's forehead in displeasure, concentration, or disapproval",
         "definitionZh": "皺眉",
         "usageExplanationZh": "不及物動詞，常接 at，frown at someone 表示對某人不悅；frown on/upon 表示不贊同某事。",
-        "examples": [
-          {
-            "en": "Teachers frown upon students using their phones in class.",
-            "zh": "老師不贊同學生在課堂上使用手機。"
-          }
+        "grammarPatterns": [
+          "frown at sb/sth",
+          "frown upon + noun",
+          "frown in + noun"
         ],
         "collocations": [
           {
             "text": "frown upon dishonesty",
             "meaningZh": "不贊同不誠實的行為"
           }
+        ],
+        "examples": [
+          {
+            "en": "Teachers frown upon students using their phones in class.",
+            "zh": "老師不贊同學生在課堂上使用手機。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "scowl",
+        "noteZh": "帶怒意的皺眉表情或動作"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "smile",
+        "noteZh": "微笑的表情或動作"
       }
     ],
     "tags": [
@@ -2270,19 +3090,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "scowl",
-        "noteZh": "帶怒意的皺眉表情或動作"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "smile",
-        "noteZh": "微笑的表情或動作"
-      }
-    ]
+    }
   },
   {
     "id": "w_frugal",
@@ -2296,21 +3104,52 @@
       {
         "id": "s_frugal_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "careful about spending money or using resources; avoiding waste",
         "definitionZh": "節儉的；儉樸的",
         "usageExplanationZh": "正面詞彙，強調有智慧地節省而非小氣，如 a frugal lifestyle。",
-        "examples": [
-          {
-            "en": "They lived a frugal life in order to save for retirement.",
-            "zh": "他們過著節儉的生活，以便為退休存錢。"
-          }
+        "grammarPatterns": [
+          "a frugal + noun",
+          "be frugal with + noun"
         ],
         "collocations": [
           {
             "text": "a frugal lifestyle",
             "meaningZh": "節儉的生活方式"
           }
+        ],
+        "examples": [
+          {
+            "en": "They lived a frugal life in order to save for retirement.",
+            "zh": "他們過著節儉的生活，以便為退休存錢。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "thrifty",
+        "noteZh": "節省而不浪費的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "extravagant",
+        "noteZh": "奢侈浪費的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "frugality",
+        "partOfSpeech": "noun",
+        "meaningZh": "節儉；儉樸"
+      },
+      {
+        "lemma": "frugally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "節儉地"
       }
     ],
     "tags": [
@@ -2325,19 +3164,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "thrifty",
-        "noteZh": "節省而不浪費的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "extravagant",
-        "noteZh": "奢侈浪費的"
-      }
-    ]
+    }
   },
   {
     "id": "w_fruition",
@@ -2351,21 +3178,48 @@
       {
         "id": "s_fruition_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "the point at which a plan or project is realized or fulfilled",
         "definitionZh": "實現；成果",
         "usageExplanationZh": "常見 come to fruition（實現、開花結果），多用於計畫或努力的最終成果。",
-        "examples": [
-          {
-            "en": "Years of research finally came to fruition with this discovery.",
-            "zh": "多年的研究終於在這項發現中開花結果。"
-          }
+        "grammarPatterns": [
+          "come to fruition",
+          "bring sth to fruition"
         ],
         "collocations": [
           {
             "text": "come to fruition",
             "meaningZh": "得以實現"
           }
+        ],
+        "examples": [
+          {
+            "en": "Years of research finally came to fruition with this discovery.",
+            "zh": "多年的研究終於在這項發現中開花結果。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "realization",
+        "noteZh": "計畫或願望的實現"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "fruitful",
+        "partOfSpeech": "adjective",
+        "meaningZh": "成果豐碩的"
+      },
+      {
+        "lemma": "fruit",
+        "partOfSpeech": "noun",
+        "meaningZh": "果實；成果"
       }
     ],
     "tags": [
@@ -2380,14 +3234,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "realization",
-        "noteZh": "計畫或願望的實現"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_frustrate",
@@ -2401,21 +3248,43 @@
       {
         "id": "s_frustrate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to prevent someone from achieving a goal, causing feelings of annoyance",
         "definitionZh": "使沮喪；阻撓；使受挫",
         "usageExplanationZh": "可接人（感到挫折）或計畫（被阻撓），如 frustrate someone's efforts。",
-        "examples": [
-          {
-            "en": "Constant delays frustrated the entire team.",
-            "zh": "不斷的延誤讓整個團隊感到沮喪。"
-          }
+        "grammarPatterns": [
+          "frustrate sb",
+          "frustrate + noun",
+          "be frustrated by + noun"
         ],
         "collocations": [
           {
             "text": "frustrate someone's efforts",
             "meaningZh": "使某人的努力受挫"
           }
+        ],
+        "examples": [
+          {
+            "en": "Constant delays frustrated the entire team.",
+            "zh": "不斷的延誤讓整個團隊感到沮喪。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "thwart",
+        "noteZh": "在阻撓義指使計畫失敗"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "frustration",
+        "partOfSpeech": "noun",
+        "meaningZh": "挫折感；沮喪"
       }
     ],
     "tags": [
@@ -2430,14 +3299,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "thwart",
-        "noteZh": "在阻撓義指使計畫失敗"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_frustration",
@@ -2451,21 +3313,48 @@
       {
         "id": "s_frustration_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "the feeling of being upset or annoyed as a result of being unable to change or achieve something",
         "definitionZh": "挫折感；沮喪",
         "usageExplanationZh": "常見 out of frustration（出於挫折感）、express frustration（表達不滿）。",
-        "examples": [
-          {
-            "en": "He sighed in frustration when the computer crashed again.",
-            "zh": "電腦又當機時，他無奈地嘆了口氣。"
-          }
+        "grammarPatterns": [
+          "in frustration",
+          "frustration with/at + noun",
+          "express one's frustration"
         ],
         "collocations": [
           {
             "text": "a sense of frustration",
             "meaningZh": "挫折感"
           }
+        ],
+        "examples": [
+          {
+            "en": "He sighed in frustration when the computer crashed again.",
+            "zh": "電腦又當機時，他無奈地嘆了口氣。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "exasperation",
+        "noteZh": "因受阻而產生的惱怒"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "satisfaction",
+        "noteZh": "事情如願帶來的滿足"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "frustrate",
+        "partOfSpeech": "verb",
+        "meaningZh": "使受挫；阻撓"
       }
     ],
     "tags": [
@@ -2478,19 +3367,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "exasperation",
-        "noteZh": "因受阻而產生的惱怒"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "satisfaction",
-        "noteZh": "事情如願帶來的滿足"
-      }
-    ]
+    }
   },
   {
     "id": "w_fuel",
@@ -2504,40 +3381,71 @@
       {
         "id": "s_fuel_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a material burned to produce heat or power",
         "definitionZh": "燃料",
         "usageExplanationZh": "常見 fossil fuel（化石燃料）；比喻用法 add fuel to the fire（火上加油）。",
-        "examples": [
-          {
-            "en": "The car ran out of fuel on the highway.",
-            "zh": "這輛車在高速公路上耗盡了燃料。"
-          }
+        "grammarPatterns": [
+          "run out of fuel",
+          "fossil fuel",
+          "fuel for + noun"
         ],
         "collocations": [
           {
             "text": "fossil fuels",
             "meaningZh": "化石燃料"
           }
+        ],
+        "examples": [
+          {
+            "en": "The car ran out of fuel on the highway.",
+            "zh": "這輛車在高速公路上耗盡了燃料。"
+          }
         ]
       },
       {
         "id": "s_fuel_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to supply with fuel, or to increase the intensity of something",
         "definitionZh": "為……提供燃料；加劇；助長",
         "usageExplanationZh": "比喻用法常見 fuel speculation、fuel tension，指使情況更加惡化或激烈。",
-        "examples": [
-          {
-            "en": "Rising prices fueled public anger over the new policy.",
-            "zh": "物價上漲加劇了民眾對新政策的憤怒。"
-          }
+        "grammarPatterns": [
+          "fuel + noun",
+          "fuel speculation/anger",
+          "fuel sth with + noun"
         ],
         "collocations": [
           {
             "text": "fuel speculation",
             "meaningZh": "助長猜測"
           }
+        ],
+        "examples": [
+          {
+            "en": "Rising prices fueled public anger over the new policy.",
+            "zh": "物價上漲加劇了民眾對新政策的憤怒。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "propellant",
+        "noteZh": "指推動引擎的燃料，範圍較窄"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "refuel",
+        "partOfSpeech": "verb",
+        "meaningZh": "補充燃料"
       }
     ],
     "tags": [
@@ -2551,14 +3459,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "propellant",
-        "noteZh": "指推動引擎的燃料，範圍較窄"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_fulfil",
@@ -2572,21 +3473,43 @@
       {
         "id": "s_fulfil_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to achieve or carry out something, such as a promise, duty, or ambition",
         "definitionZh": "實現；履行；完成",
         "usageExplanationZh": "常接 promise、duty、potential 等，如 fulfil one's potential（發揮潛力）；英式拼法，美式為 fulfill。",
-        "examples": [
-          {
-            "en": "She worked hard to fulfil her dream of becoming a doctor.",
-            "zh": "她努力實現成為醫師的夢想。"
-          }
+        "grammarPatterns": [
+          "fulfil + noun",
+          "fulfil a promise/duty/dream",
+          "fulfil the requirements for + noun"
         ],
         "collocations": [
           {
             "text": "fulfil a promise",
             "meaningZh": "履行承諾"
           }
+        ],
+        "examples": [
+          {
+            "en": "She worked hard to fulfil her dream of becoming a doctor.",
+            "zh": "她努力實現成為醫師的夢想。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "accomplish",
+        "noteZh": "在完成義指達成任務"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "fulfilment",
+        "partOfSpeech": "noun",
+        "meaningZh": "實現；滿足感"
       }
     ],
     "tags": [
@@ -2600,14 +3523,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "accomplish",
-        "noteZh": "在完成義指達成任務"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_functional",
@@ -2621,21 +3537,58 @@
       {
         "id": "s_functional_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "practical and useful, or working properly and as intended",
         "definitionZh": "實用的；功能性的；正常運作的",
         "usageExplanationZh": "常修飾設計或系統，如 functional design（實用的設計），強調重視實用性而非美觀。",
-        "examples": [
-          {
-            "en": "The office furniture is simple but functional.",
-            "zh": "這辦公家具雖然簡單，卻很實用。"
-          }
+        "grammarPatterns": [
+          "a functional + noun",
+          "fully functional"
         ],
         "collocations": [
           {
             "text": "fully functional",
             "meaningZh": "功能完全正常的"
           }
+        ],
+        "examples": [
+          {
+            "en": "The office furniture is simple but functional.",
+            "zh": "這辦公家具雖然簡單，卻很實用。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "operational",
+        "noteZh": "在運作義指可正常運作的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "nonfunctional",
+        "noteZh": "無法運作的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "function",
+        "partOfSpeech": "noun",
+        "meaningZh": "功能；作用"
+      },
+      {
+        "lemma": "functionality",
+        "partOfSpeech": "noun",
+        "meaningZh": "功能性"
+      },
+      {
+        "lemma": "dysfunctional",
+        "partOfSpeech": "adjective",
+        "meaningZh": "功能失調的"
       }
     ],
     "tags": [
@@ -2649,19 +3602,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "operational",
-        "noteZh": "在運作義指可正常運作的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "nonfunctional",
-        "noteZh": "無法運作的"
-      }
-    ]
+    }
   },
   {
     "id": "w_fundamental",
@@ -2675,40 +3616,80 @@
       {
         "id": "s_fundamental_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "forming a necessary base or core; of central importance",
         "definitionZh": "基本的；根本的；重要的",
         "usageExplanationZh": "常見 a fundamental right（基本權利）、fundamental change（根本性的改變）。",
-        "examples": [
-          {
-            "en": "Trust is fundamental to any healthy relationship.",
-            "zh": "信任對任何健康的關係都是根本重要的。"
-          }
+        "grammarPatterns": [
+          "be fundamental to + noun",
+          "a fundamental + noun"
         ],
         "collocations": [
           {
             "text": "a fundamental principle",
             "meaningZh": "基本原則"
           }
+        ],
+        "examples": [
+          {
+            "en": "Trust is fundamental to any healthy relationship.",
+            "zh": "信任對任何健康的關係都是根本重要的。"
+          }
         ]
       },
       {
         "id": "s_fundamental_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "a basic principle or rule that forms the foundation of a system or belief",
         "definitionZh": "基本原理；基礎",
         "usageExplanationZh": "常用複數 fundamentals，如 the fundamentals of physics（物理學基礎原理）。",
-        "examples": [
-          {
-            "en": "Before learning advanced techniques, students must master the fundamentals.",
-            "zh": "在學習進階技巧之前，學生必須先掌握基本原理。"
-          }
+        "grammarPatterns": [
+          "the fundamentals of + noun",
+          "master the fundamentals"
         ],
         "collocations": [
           {
             "text": "master the fundamentals",
             "meaningZh": "掌握基本原理"
           }
+        ],
+        "examples": [
+          {
+            "en": "Before learning advanced techniques, students must master the fundamentals.",
+            "zh": "在學習進階技巧之前，學生必須先掌握基本原理。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "basic",
+        "noteZh": "在形容詞義指基礎而重要的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "superficial",
+        "noteZh": "在根本義指表面的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "fundamentally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "根本上"
+      },
+      {
+        "lemma": "fundamentalism",
+        "partOfSpeech": "noun",
+        "meaningZh": "基本教義派"
       }
     ],
     "tags": [
@@ -2723,19 +3704,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "basic",
-        "noteZh": "在形容詞義指基礎而重要的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "superficial",
-        "noteZh": "在根本義指表面的"
-      }
-    ]
+    }
   },
   {
     "id": "w_furious",
@@ -2749,21 +3718,59 @@
       {
         "id": "s_furious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "spoken"
+        ],
         "definitionEn": "extremely angry",
         "definitionZh": "盛怒的；狂怒的",
         "usageExplanationZh": "比 angry 語氣強烈得多，常見 furious at/with someone；也可修飾激烈的活動，如 a furious pace。",
-        "examples": [
-          {
-            "en": "He was furious when he discovered his car had been scratched.",
-            "zh": "他發現自己的車被刮傷時，勃然大怒。"
-          }
+        "grammarPatterns": [
+          "be furious about/at + noun",
+          "be furious with sb",
+          "be furious that + clause"
         ],
         "collocations": [
           {
             "text": "furious with someone",
             "meaningZh": "對某人暴怒"
           }
+        ],
+        "examples": [
+          {
+            "en": "He was furious when he discovered his car had been scratched.",
+            "zh": "他發現自己的車被刮傷時，勃然大怒。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "enraged",
+        "noteZh": "極度憤怒的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "calm",
+        "noteZh": "平靜的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "fury",
+        "partOfSpeech": "noun",
+        "meaningZh": "狂怒；盛怒"
+      },
+      {
+        "lemma": "furiously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "狂怒地；猛烈地"
+      },
+      {
+        "lemma": "infuriate",
+        "partOfSpeech": "verb",
+        "meaningZh": "激怒"
       }
     ],
     "tags": [
@@ -2777,18 +3784,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "enraged",
-        "noteZh": "極度憤怒的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "calm",
-        "noteZh": "平靜的"
-      }
-    ]
+    }
   }
 ]

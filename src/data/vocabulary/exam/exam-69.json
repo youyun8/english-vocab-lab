@@ -11,14 +11,17 @@
       {
         "id": "s_spine_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "the row of bones down the middle of the back, or the narrow edge of a book where the pages are bound",
         "definitionZh": "脊椎；書脊",
         "usageExplanationZh": "兩義：解剖學指人體的脊柱；書籍裝訂的一側，通常印有書名。",
-        "examples": [
-          {
-            "en": "The chiropractor examined her spine for signs of misalignment.",
-            "zh": "脊骨神經醫師檢查了她的脊椎是否有錯位的跡象。"
-          }
+        "grammarPatterns": [
+          "the spine of + noun",
+          "injure one's spine",
+          "along the spine"
         ],
         "collocations": [
           {
@@ -29,7 +32,27 @@
             "text": "the spine of a book",
             "meaningZh": "書脊"
           }
+        ],
+        "examples": [
+          {
+            "en": "The chiropractor examined her spine for signs of misalignment.",
+            "zh": "脊骨神經醫師檢查了她的脊椎是否有錯位的跡象。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "backbone",
+        "noteZh": "脊柱"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "spinal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "脊椎的"
       }
     ],
     "tags": [
@@ -42,14 +65,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "backbone",
-        "noteZh": "脊柱"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_spiritual",
@@ -63,21 +79,58 @@
       {
         "id": "s_spiritual_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "relating to the human spirit or soul, rather than physical or material things",
         "definitionZh": "精神上的；心靈的",
         "usageExplanationZh": "常見 spiritual growth/journey，與 material、physical 相對，強調內在心靈或宗教層面的追求。",
-        "examples": [
-          {
-            "en": "She found spiritual comfort in meditation after the loss.",
-            "zh": "失去親人後，她在冥想中找到了心靈上的慰藉。"
-          }
+        "grammarPatterns": [
+          "a spiritual + noun",
+          "spiritual rather than material + plural noun"
         ],
         "collocations": [
           {
             "text": "spiritual well-being",
             "meaningZh": "心靈健康"
           }
+        ],
+        "examples": [
+          {
+            "en": "She found spiritual comfort in meditation after the loss.",
+            "zh": "失去親人後，她在冥想中找到了心靈上的慰藉。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "inner",
+        "noteZh": "內在心靈的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "material",
+        "noteZh": "物質的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "spirit",
+        "partOfSpeech": "noun",
+        "meaningZh": "精神；靈魂"
+      },
+      {
+        "lemma": "spirituality",
+        "partOfSpeech": "noun",
+        "meaningZh": "靈性；精神性"
+      },
+      {
+        "lemma": "spiritually",
+        "partOfSpeech": "adverb",
+        "meaningZh": "精神上地"
       }
     ],
     "tags": [
@@ -92,19 +145,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "inner",
-        "noteZh": "內在心靈的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "material",
-        "noteZh": "物質的"
-      }
-    ]
+    }
   },
   {
     "id": "w_spite",
@@ -118,21 +159,53 @@
       {
         "id": "s_spite_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a desire to hurt, annoy, or upset someone",
         "definitionZh": "惡意；怨恨",
         "usageExplanationZh": "常見 out of spite（出於惡意），也可用片語 in spite of（儘管），需注意兩者意義不同。",
-        "examples": [
-          {
-            "en": "She spread the rumor purely out of spite.",
-            "zh": "她散播這則謠言純粹是出於惡意。"
-          }
+        "grammarPatterns": [
+          "out of spite",
+          "do sth out of spite",
+          "spite toward + sb"
         ],
         "collocations": [
           {
             "text": "out of spite",
             "meaningZh": "出於怨恨"
           }
+        ],
+        "examples": [
+          {
+            "en": "She spread the rumor purely out of spite.",
+            "zh": "她散播這則謠言純粹是出於惡意。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "malice",
+        "noteZh": "惡意"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "goodwill",
+        "noteZh": "善意"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "spiteful",
+        "partOfSpeech": "adjective",
+        "meaningZh": "惡毒的；懷恨的"
+      },
+      {
+        "lemma": "spitefully",
+        "partOfSpeech": "adverb",
+        "meaningZh": "懷恨地"
       }
     ],
     "tags": [
@@ -145,19 +218,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "malice",
-        "noteZh": "惡意"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "goodwill",
-        "noteZh": "善意"
-      }
-    ]
+    }
   },
   {
     "id": "w_splash",
@@ -171,14 +232,16 @@
       {
         "id": "s_splash_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "the sound or action of liquid being scattered, or a small amount of something added for effect",
         "definitionZh": "濺潑聲；一點點",
         "usageExplanationZh": "常見 make a splash（引起轟動），也可指飲料中加入的少量成分，如 a splash of milk。",
-        "examples": [
-          {
-            "en": "The kids jumped into the pool with a big splash.",
-            "zh": "孩子們跳進泳池，濺起了一大片水花。"
-          }
+        "grammarPatterns": [
+          "make a splash",
+          "with a splash",
+          "a splash of + noun"
         ],
         "collocations": [
           {
@@ -189,9 +252,22 @@
             "text": "a loud splash",
             "meaningZh": "響亮的濺水聲"
           }
+        ],
+        "examples": [
+          {
+            "en": "The kids jumped into the pool with a big splash.",
+            "zh": "孩子們跳進泳池，濺起了一大片水花。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "dash",
+        "noteZh": "少量（液體）"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -203,14 +279,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "dash",
-        "noteZh": "少量（液體）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_splendid",
@@ -224,21 +293,53 @@
       {
         "id": "s_splendid_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "extremely impressive or beautiful; excellent",
         "definitionZh": "壯麗的；極佳的",
         "usageExplanationZh": "常修飾 view、performance，語氣正面且帶讚嘆，強調卓越出眾的品質。",
-        "examples": [
-          {
-            "en": "They had a splendid view of the mountains from their hotel room.",
-            "zh": "他們從飯店房間可以看到壯麗的山景。"
-          }
+        "grammarPatterns": [
+          "a splendid + noun",
+          "look splendid"
         ],
         "collocations": [
           {
             "text": "a splendid view",
             "meaningZh": "壯麗的景色"
           }
+        ],
+        "examples": [
+          {
+            "en": "They had a splendid view of the mountains from their hotel room.",
+            "zh": "他們從飯店房間可以看到壯麗的山景。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "magnificent",
+        "noteZh": "壯麗極好的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "dreadful",
+        "noteZh": "糟糕的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "splendor",
+        "partOfSpeech": "noun",
+        "meaningZh": "壯麗；輝煌"
+      },
+      {
+        "lemma": "splendidly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "極好地；壯麗地"
       }
     ],
     "tags": [
@@ -252,19 +353,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "magnificent",
-        "noteZh": "壯麗極好的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "dreadful",
-        "noteZh": "糟糕的"
-      }
-    ]
+    }
   },
   {
     "id": "w_spoil",
@@ -278,14 +367,16 @@
       {
         "id": "s_spoil_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to damage or ruin something, or to treat someone too indulgently",
         "definitionZh": "破壞；溺愛",
         "usageExplanationZh": "兩義：使事物變質、變糟（spoil the food/mood）；過度寵愛某人（spoil a child）。",
-        "examples": [
-          {
-            "en": "The rain spoiled their plans for a picnic.",
-            "zh": "那場雨破壞了他們的野餐計畫。"
-          }
+        "grammarPatterns": [
+          "spoil + noun",
+          "spoil sb with + noun",
+          "spoil sb's plans"
         ],
         "collocations": [
           {
@@ -296,7 +387,31 @@
             "text": "spoil a child",
             "meaningZh": "溺愛孩子"
           }
+        ],
+        "examples": [
+          {
+            "en": "The rain spoiled their plans for a picnic.",
+            "zh": "那場雨破壞了他們的野餐計畫。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "ruin",
+        "noteZh": "毀壞"
+      },
+      {
+        "lemma": "pamper",
+        "noteZh": "溺愛"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "spoilage",
+        "partOfSpeech": "noun",
+        "meaningZh": "變質；損壞"
       }
     ],
     "tags": [
@@ -311,18 +426,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "ruin",
-        "noteZh": "毀壞"
-      },
-      {
-        "lemma": "pamper",
-        "noteZh": "溺愛"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sponsor",
@@ -336,21 +440,44 @@
       {
         "id": "s_sponsor_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "to provide financial support for a person, event, or organization, often in exchange for advertising",
         "definitionZh": "贊助",
         "usageExplanationZh": "常見 sponsor an event/athlete，強調提供資金或資源以換取宣傳曝光或支持某項目標。",
-        "examples": [
-          {
-            "en": "The company agreed to sponsor the local youth soccer league.",
-            "zh": "這家公司同意贊助當地的青少年足球聯賽。"
-          }
+        "grammarPatterns": [
+          "sponsor + noun",
+          "sponsor an event",
+          "be sponsored by + noun"
         ],
         "collocations": [
           {
             "text": "sponsor an event",
             "meaningZh": "贊助活動"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company agreed to sponsor the local youth soccer league.",
+            "zh": "這家公司同意贊助當地的青少年足球聯賽。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "fund",
+        "noteZh": "資助"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "sponsorship",
+        "partOfSpeech": "noun",
+        "meaningZh": "贊助"
       }
     ],
     "tags": [
@@ -364,14 +491,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "fund",
-        "noteZh": "資助"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_spontaneity",
@@ -385,21 +505,49 @@
       {
         "id": "s_spontaneity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "the quality of doing something naturally and without prior planning",
         "definitionZh": "自發性；不受拘束",
         "usageExplanationZh": "常見 a sense of spontaneity，形容行為自然發生、未經事先安排的特質。",
-        "examples": [
-          {
-            "en": "Their friendship was marked by spontaneity and shared laughter.",
-            "zh": "他們的友誼充滿了自然不做作與共同的歡笑。"
-          }
+        "grammarPatterns": [
+          "the spontaneity of + noun",
+          "a sense of spontaneity",
+          "lose one's spontaneity"
         ],
         "collocations": [
           {
             "text": "a sense of spontaneity",
             "meaningZh": "一種自然隨性的感覺"
           }
+        ],
+        "examples": [
+          {
+            "en": "Their friendship was marked by spontaneity and shared laughter.",
+            "zh": "他們的友誼充滿了自然不做作與共同的歡笑。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "naturalness",
+        "noteZh": "自然不造作"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "spontaneous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "自發的；即興的"
+      },
+      {
+        "lemma": "spontaneously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "自發地"
       }
     ],
     "tags": [
@@ -413,14 +561,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "naturalness",
-        "noteZh": "自然不造作"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_spontaneous",
@@ -434,21 +575,54 @@
       {
         "id": "s_spontaneous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "happening naturally, without being planned or forced",
         "definitionZh": "自發的；即興的",
         "usageExplanationZh": "常修飾 reaction、decision，強調事情自然而然發生，沒有事先安排或外力促成。",
-        "examples": [
-          {
-            "en": "The audience broke into spontaneous applause.",
-            "zh": "觀眾自發地爆出掌聲。"
-          }
+        "grammarPatterns": [
+          "a spontaneous + noun",
+          "spontaneous applause",
+          "be spontaneous about + noun"
         ],
         "collocations": [
           {
             "text": "spontaneous applause",
             "meaningZh": "自發的掌聲"
           }
+        ],
+        "examples": [
+          {
+            "en": "The audience broke into spontaneous applause.",
+            "zh": "觀眾自發地爆出掌聲。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "unplanned",
+        "noteZh": "未經計畫的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "planned",
+        "noteZh": "事先計畫的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "spontaneity",
+        "partOfSpeech": "noun",
+        "meaningZh": "自發性"
+      },
+      {
+        "lemma": "spontaneously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "自發地"
       }
     ],
     "tags": [
@@ -463,19 +637,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "unplanned",
-        "noteZh": "未經計畫的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "planned",
-        "noteZh": "事先計畫的"
-      }
-    ]
+    }
   },
   {
     "id": "w_sporadic",
@@ -489,21 +651,48 @@
       {
         "id": "s_sporadic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "occurring occasionally or at irregular intervals",
         "definitionZh": "偶發的；零星的",
         "usageExplanationZh": "常修飾 outbreak、violence，強調事件發生不規律、時有時無，並非持續性。",
-        "examples": [
-          {
-            "en": "There were sporadic reports of violence during the protest.",
-            "zh": "抗議期間有零星的暴力事件傳出。"
-          }
+        "grammarPatterns": [
+          "sporadic + plural noun",
+          "sporadic outbreaks of + noun"
         ],
         "collocations": [
           {
             "text": "sporadic outbreaks",
             "meaningZh": "零星爆發"
           }
+        ],
+        "examples": [
+          {
+            "en": "There were sporadic reports of violence during the protest.",
+            "zh": "抗議期間有零星的暴力事件傳出。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "intermittent",
+        "noteZh": "間歇出現的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "continuous",
+        "noteZh": "持續的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "sporadically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "零星地；偶發地"
       }
     ],
     "tags": [
@@ -518,19 +707,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "intermittent",
-        "noteZh": "間歇出現的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "continuous",
-        "noteZh": "持續的"
-      }
-    ]
+    }
   },
   {
     "id": "w_spotlight",
@@ -544,23 +721,39 @@
       {
         "id": "s_spotlight_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "a strong beam of light used to illuminate a performer, or the focus of public attention",
         "definitionZh": "聚光燈；焦點",
         "usageExplanationZh": "字面指舞台照明設備；比喻指受到大眾矚目的狀態，如 in the spotlight。",
-        "examples": [
-          {
-            "en": "The scandal put the senator's finances in the spotlight.",
-            "zh": "這起醜聞讓這位參議員的財務狀況成為眾人矚目的焦點。"
-          }
+        "grammarPatterns": [
+          "in the spotlight",
+          "put sth in the spotlight",
+          "under the spotlight"
         ],
         "collocations": [
           {
             "text": "in the spotlight",
             "meaningZh": "備受矚目"
           }
+        ],
+        "examples": [
+          {
+            "en": "The scandal put the senator's finances in the spotlight.",
+            "zh": "這起醜聞讓這位參議員的財務狀況成為眾人矚目的焦點。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "limelight",
+        "noteZh": "公眾注目（比喻義）"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -572,14 +765,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "limelight",
-        "noteZh": "公眾注目（比喻義）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_spouse",
@@ -593,21 +779,44 @@
       {
         "id": "s_spouse_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "a husband or wife",
         "definitionZh": "配偶",
         "usageExplanationZh": "正式或法律用語，常見於官方文件，不分性別，泛指婚姻關係中的另一半。",
-        "examples": [
-          {
-            "en": "Employees may add their spouse to the company health plan.",
-            "zh": "員工可以將配偶加入公司的健康保險計畫。"
-          }
+        "grammarPatterns": [
+          "sb's spouse",
+          "a surviving spouse",
+          "add one's spouse to + noun"
         ],
         "collocations": [
           {
             "text": "a surviving spouse",
             "meaningZh": "未亡配偶"
           }
+        ],
+        "examples": [
+          {
+            "en": "Employees may add their spouse to the company health plan.",
+            "zh": "員工可以將配偶加入公司的健康保險計畫。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "marriage partner",
+        "noteZh": "婚姻伴侶"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "spousal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "配偶的"
       }
     ],
     "tags": [
@@ -621,14 +830,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "marriage partner",
-        "noteZh": "婚姻伴侶"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sprawl",
@@ -642,23 +844,39 @@
       {
         "id": "s_sprawl_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "to sit or lie with arms and legs spread out carelessly, or (of a city) to spread out over a large area in an uncontrolled way",
         "definitionZh": "攤開四肢躺臥；無序擴張",
         "usageExplanationZh": "兩義：形容人放鬆地攤開四肢；形容城市無計畫地向外蔓延（urban sprawl）。",
-        "examples": [
-          {
-            "en": "He sprawled on the couch after a long day at work.",
-            "zh": "他工作了一整天後，攤開四肢躺在沙發上。"
-          }
+        "grammarPatterns": [
+          "sprawl on + noun",
+          "sprawl across + noun",
+          "sprawl out"
         ],
         "collocations": [
           {
             "text": "sprawl on the sofa",
             "meaningZh": "攤躺在沙發上"
           }
+        ],
+        "examples": [
+          {
+            "en": "He sprawled on the couch after a long day at work.",
+            "zh": "他工作了一整天後，攤開四肢躺在沙發上。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "spread",
+        "noteZh": "無序延伸"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -671,14 +889,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "spread",
-        "noteZh": "無序延伸"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_spray",
@@ -692,23 +903,39 @@
       {
         "id": "s_spray_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a fine mist of liquid particles released from a container, or the container itself",
         "definitionZh": "噴霧",
         "usageExplanationZh": "常見 hair spray、spray bottle，指液體以細小顆粒形式噴出，或指噴灑用的容器。",
-        "examples": [
-          {
-            "en": "She used a spray to keep insects away from the plants.",
-            "zh": "她用噴霧防止昆蟲靠近植物。"
-          }
+        "grammarPatterns": [
+          "a spray of + noun",
+          "use a spray",
+          "an insect spray"
         ],
         "collocations": [
           {
             "text": "a fine spray",
             "meaningZh": "細密噴霧"
           }
+        ],
+        "examples": [
+          {
+            "en": "She used a spray to keep insects away from the plants.",
+            "zh": "她用噴霧防止昆蟲靠近植物。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "mist",
+        "noteZh": "細霧"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -720,14 +947,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "mist",
-        "noteZh": "細霧"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sprint",
@@ -741,21 +961,43 @@
       {
         "id": "s_sprint_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to run as fast as possible over a short distance",
         "definitionZh": "衝刺；全力奔跑",
         "usageExplanationZh": "常見 sprint to the finish line，也可比喻指在有限時間內全力加速完成任務。",
-        "examples": [
-          {
-            "en": "He sprinted the last hundred meters to win the race.",
-            "zh": "他在最後一百公尺全力衝刺，贏得了比賽。"
-          }
+        "grammarPatterns": [
+          "sprint to + noun",
+          "sprint for + noun",
+          "sprint the last + noun"
         ],
         "collocations": [
           {
             "text": "sprint to the finish line",
             "meaningZh": "衝向終點線"
           }
+        ],
+        "examples": [
+          {
+            "en": "He sprinted the last hundred meters to win the race.",
+            "zh": "他在最後一百公尺全力衝刺，贏得了比賽。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "dash",
+        "noteZh": "飛奔衝刺"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "sprinter",
+        "partOfSpeech": "noun",
+        "meaningZh": "短跑選手"
       }
     ],
     "tags": [
@@ -769,14 +1011,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "dash",
-        "noteZh": "飛奔衝刺"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_spur",
@@ -790,23 +1025,39 @@
       {
         "id": "s_spur_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "something that encourages or stimulates an action or development",
         "definitionZh": "刺激因素；動力",
         "usageExplanationZh": "常見 spur economic growth（刺激經濟成長），字面則指騎馬用的馬刺。",
-        "examples": [
-          {
-            "en": "Government subsidies acted as a spur to renewable energy investment.",
-            "zh": "政府補助成為推動再生能源投資的一大動力。"
-          }
+        "grammarPatterns": [
+          "a spur to + noun",
+          "act as a spur to + noun",
+          "provide a spur for + noun"
         ],
         "collocations": [
           {
             "text": "a spur to innovation",
             "meaningZh": "創新的動力"
           }
+        ],
+        "examples": [
+          {
+            "en": "Government subsidies acted as a spur to renewable energy investment.",
+            "zh": "政府補助成為推動再生能源投資的一大動力。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "incentive",
+        "noteZh": "激勵因素"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -819,14 +1070,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "incentive",
-        "noteZh": "激勵因素"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_spurn",
@@ -840,21 +1084,41 @@
       {
         "id": "s_spurn_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to reject something or someone in a scornful way",
         "definitionZh": "斷然拒絕；唾棄",
         "usageExplanationZh": "正式用語，比 reject 語氣更強烈，強調帶有輕蔑意味地拒絕。",
-        "examples": [
-          {
-            "en": "She spurned his offer of help without a word of thanks.",
-            "zh": "她連一句感謝的話都沒說，就斷然拒絕了他的幫助。"
-          }
+        "grammarPatterns": [
+          "spurn + noun",
+          "spurn sb's offer of + noun"
         ],
         "collocations": [
           {
             "text": "spurn an offer",
             "meaningZh": "斷然拒絕提議"
           }
+        ],
+        "examples": [
+          {
+            "en": "She spurned his offer of help without a word of thanks.",
+            "zh": "她連一句感謝的話都沒說，就斷然拒絕了他的幫助。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "reject",
+        "noteZh": "拒絕"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "accept",
+        "noteZh": "接受"
       }
     ],
     "tags": [
@@ -867,19 +1131,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "reject",
-        "noteZh": "拒絕"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "accept",
-        "noteZh": "接受"
-      }
-    ]
+    }
   },
   {
     "id": "w_squad",
@@ -893,21 +1145,44 @@
       {
         "id": "s_squad_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a small group of people organized to work together, especially in the military, police, or sports",
         "definitionZh": "小隊；小組",
         "usageExplanationZh": "常見 police squad、squad members，指團隊中一個較小的作業單位。",
-        "examples": [
-          {
-            "en": "The rescue squad arrived within minutes of the call.",
-            "zh": "救援小隊在接到通報後幾分鐘內就抵達了現場。"
-          }
+        "grammarPatterns": [
+          "a rescue squad",
+          "a squad of + noun",
+          "join the squad"
         ],
         "collocations": [
           {
             "text": "a rescue squad",
             "meaningZh": "救援小隊"
           }
+        ],
+        "examples": [
+          {
+            "en": "The rescue squad arrived within minutes of the call.",
+            "zh": "救援小隊在接到通報後幾分鐘內就抵達了現場。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "team",
+        "noteZh": "小組"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "squadron",
+        "partOfSpeech": "noun",
+        "meaningZh": "中隊；分隊"
       }
     ],
     "tags": [
@@ -920,14 +1195,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "team",
-        "noteZh": "小組"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_squalid",
@@ -941,21 +1209,48 @@
       {
         "id": "s_squalid_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "extremely dirty and unpleasant, often due to poverty",
         "definitionZh": "骯髒破敗的；悲慘的",
         "usageExplanationZh": "常修飾 conditions、slum，形容因貧窮或忽視而髒亂不堪的環境。",
-        "examples": [
-          {
-            "en": "The refugees were forced to live in squalid conditions.",
-            "zh": "這些難民被迫生活在骯髒破敗的環境中。"
-          }
+        "grammarPatterns": [
+          "squalid + plural noun",
+          "live in squalid conditions"
         ],
         "collocations": [
           {
             "text": "squalid living conditions",
             "meaningZh": "骯髒惡劣的居住環境"
           }
+        ],
+        "examples": [
+          {
+            "en": "The refugees were forced to live in squalid conditions.",
+            "zh": "這些難民被迫生活在骯髒破敗的環境中。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "filthy",
+        "noteZh": "骯髒的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "clean",
+        "noteZh": "乾淨的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "squalor",
+        "partOfSpeech": "noun",
+        "meaningZh": "髒亂；貧困"
       }
     ],
     "tags": [
@@ -968,19 +1263,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "filthy",
-        "noteZh": "骯髒的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "clean",
-        "noteZh": "乾淨的"
-      }
-    ]
+    }
   },
   {
     "id": "w_squeeze",
@@ -994,14 +1277,17 @@
       {
         "id": "s_squeeze_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal",
+          "business"
+        ],
         "definitionEn": "an act of pressing something firmly, or a situation of financial pressure caused by limited resources",
         "definitionZh": "擠壓；（財務）緊縮",
         "usageExplanationZh": "字面指用力擠壓的動作（give sb's hand a squeeze）；比喻指資源受限造成的壓力，如 a credit squeeze。",
-        "examples": [
-          {
-            "en": "Rising costs have put a squeeze on small businesses.",
-            "zh": "成本上升對小型企業造成了財務上的壓力。"
-          }
+        "grammarPatterns": [
+          "a squeeze on + noun",
+          "put a squeeze on + noun",
+          "give sth a squeeze"
         ],
         "collocations": [
           {
@@ -1012,9 +1298,22 @@
             "text": "give someone a squeeze",
             "meaningZh": "緊抱某人一下"
           }
+        ],
+        "examples": [
+          {
+            "en": "Rising costs have put a squeeze on small businesses.",
+            "zh": "成本上升對小型企業造成了財務上的壓力。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "compression",
+        "noteZh": "擠壓"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1027,14 +1326,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "compression",
-        "noteZh": "擠壓"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_stab",
@@ -1048,14 +1340,17 @@
       {
         "id": "s_stab_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "an attempt to do something, or a sudden sharp pain",
         "definitionZh": "嘗試；一陣劇痛",
         "usageExplanationZh": "常見 have a stab at（嘗試看看），也可指身體上突發的尖銳疼痛，如 a stab of pain。",
-        "examples": [
-          {
-            "en": "She decided to take a stab at solving the puzzle herself.",
-            "zh": "她決定自己試著解開這個謎題。"
-          }
+        "grammarPatterns": [
+          "take a stab at + noun",
+          "have a stab at + V-ing",
+          "a stab of + noun"
         ],
         "collocations": [
           {
@@ -1066,9 +1361,22 @@
             "text": "a stab of pain",
             "meaningZh": "一陣刺痛"
           }
+        ],
+        "examples": [
+          {
+            "en": "She decided to take a stab at solving the puzzle herself.",
+            "zh": "她決定自己試著解開這個謎題。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "attempt",
+        "noteZh": "嘗試"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1080,14 +1388,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "attempt",
-        "noteZh": "嘗試"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_stability",
@@ -1101,21 +1402,59 @@
       {
         "id": "s_stability_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the state of being steady and not likely to change or fail",
         "definitionZh": "穩定；穩定性",
         "usageExplanationZh": "常見 political stability、financial stability，強調狀態持久不變、不易受干擾。",
-        "examples": [
-          {
-            "en": "The new policy aims to bring stability to the housing market.",
-            "zh": "這項新政策旨在為房市帶來穩定。"
-          }
+        "grammarPatterns": [
+          "political stability",
+          "bring stability to + noun",
+          "the stability of + noun"
         ],
         "collocations": [
           {
             "text": "economic stability",
             "meaningZh": "經濟穩定"
           }
+        ],
+        "examples": [
+          {
+            "en": "The new policy aims to bring stability to the housing market.",
+            "zh": "這項新政策旨在為房市帶來穩定。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "steadiness",
+        "noteZh": "穩定性"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "instability",
+        "noteZh": "不穩定"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "stable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "穩定的"
+      },
+      {
+        "lemma": "stabilize",
+        "partOfSpeech": "verb",
+        "meaningZh": "使穩定"
+      },
+      {
+        "lemma": "instability",
+        "partOfSpeech": "noun",
+        "meaningZh": "不穩定"
       }
     ],
     "tags": [
@@ -1129,19 +1468,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "steadiness",
-        "noteZh": "穩定性"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "instability",
-        "noteZh": "不穩定"
-      }
-    ]
+    }
   },
   {
     "id": "w_stabilize",
@@ -1155,21 +1482,59 @@
       {
         "id": "s_stabilize_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to make something steady or stable, or to become steady",
         "definitionZh": "使穩定；穩定下來",
         "usageExplanationZh": "常見 stabilize the economy/patient，強調使原本不穩的狀況趨於平穩。",
-        "examples": [
-          {
-            "en": "Doctors managed to stabilize the patient's condition overnight.",
-            "zh": "醫生在一夜之間成功穩定了病人的病情。"
-          }
+        "grammarPatterns": [
+          "stabilize + noun",
+          "stabilize at + number",
+          "help stabilize + noun"
         ],
         "collocations": [
           {
             "text": "stabilize the economy",
             "meaningZh": "穩定經濟"
           }
+        ],
+        "examples": [
+          {
+            "en": "Doctors managed to stabilize the patient's condition overnight.",
+            "zh": "醫生在一夜之間成功穩定了病人的病情。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "steady",
+        "noteZh": "使穩定"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "destabilize",
+        "noteZh": "使不穩定"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "stability",
+        "partOfSpeech": "noun",
+        "meaningZh": "穩定；穩定性"
+      },
+      {
+        "lemma": "stable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "穩定的"
+      },
+      {
+        "lemma": "stabilization",
+        "partOfSpeech": "noun",
+        "meaningZh": "穩定化"
       }
     ],
     "tags": [
@@ -1183,19 +1548,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "steady",
-        "noteZh": "使穩定"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "destabilize",
-        "noteZh": "使不穩定"
-      }
-    ]
+    }
   },
   {
     "id": "w_stable",
@@ -1209,21 +1562,59 @@
       {
         "id": "s_stable_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "not likely to change suddenly or fail; firm and steady",
         "definitionZh": "穩定的；穩固的",
         "usageExplanationZh": "常修飾 economy、relationship、structure，與 unstable 相對，強調持久且可靠的狀態。",
-        "examples": [
-          {
-            "en": "The company has maintained a stable revenue stream for years.",
-            "zh": "這家公司多年來一直維持著穩定的營收來源。"
-          }
+        "grammarPatterns": [
+          "remain stable",
+          "a stable + noun",
+          "be stable enough to + V"
         ],
         "collocations": [
           {
             "text": "a stable relationship",
             "meaningZh": "穩定的關係"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company has maintained a stable revenue stream for years.",
+            "zh": "這家公司多年來一直維持著穩定的營收來源。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "steady",
+        "noteZh": "穩定的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "unstable",
+        "noteZh": "不穩定的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "stability",
+        "partOfSpeech": "noun",
+        "meaningZh": "穩定；穩定性"
+      },
+      {
+        "lemma": "stabilize",
+        "partOfSpeech": "verb",
+        "meaningZh": "使穩定"
+      },
+      {
+        "lemma": "unstable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不穩定的"
       }
     ],
     "tags": [
@@ -1236,19 +1627,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "steady",
-        "noteZh": "穩定的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "unstable",
-        "noteZh": "不穩定的"
-      }
-    ]
+    }
   },
   {
     "id": "w_stack",
@@ -1262,23 +1641,37 @@
       {
         "id": "s_stack_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "an orderly pile of things placed one on top of another",
         "definitionZh": "一疊；堆",
         "usageExplanationZh": "常見 a stack of books/papers，指整齊堆疊的物品，也可作動詞 stack sth，指堆疊起來。",
-        "examples": [
-          {
-            "en": "There was a stack of unread magazines on the table.",
-            "zh": "桌上有一疊還沒看的雜誌。"
-          }
+        "grammarPatterns": [
+          "a stack of + noun",
+          "in a stack"
         ],
         "collocations": [
           {
             "text": "a stack of papers",
             "meaningZh": "一疊文件"
           }
+        ],
+        "examples": [
+          {
+            "en": "There was a stack of unread magazines on the table.",
+            "zh": "桌上有一疊還沒看的雜誌。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "pile",
+        "noteZh": "一疊或一堆"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1290,14 +1683,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pile",
-        "noteZh": "一疊或一堆"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_stadium",
@@ -1311,23 +1697,38 @@
       {
         "id": "s_stadium_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a large structure with tiers of seats for spectators, used for sports events or concerts",
         "definitionZh": "體育場；競技場",
         "usageExplanationZh": "常見 football stadium，指設有大量觀眾席的大型露天或室內場地。",
-        "examples": [
-          {
-            "en": "The stadium was packed with fans for the championship game.",
-            "zh": "這座體育場擠滿了前來觀看冠軍賽的球迷。"
-          }
+        "grammarPatterns": [
+          "a packed stadium",
+          "at the stadium",
+          "fill a stadium"
         ],
         "collocations": [
           {
             "text": "a football stadium",
             "meaningZh": "足球場"
           }
+        ],
+        "examples": [
+          {
+            "en": "The stadium was packed with fans for the championship game.",
+            "zh": "這座體育場擠滿了前來觀看冠軍賽的球迷。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "arena",
+        "noteZh": "競技場（通常規模較小）"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -1338,14 +1739,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "arena",
-        "noteZh": "競技場（通常規模較小）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_stagnant",
@@ -1359,14 +1753,16 @@
       {
         "id": "s_stagnant_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "business"
+        ],
         "definitionEn": "not flowing or developing; showing no activity or growth",
         "definitionZh": "停滯的；不流動的",
         "usageExplanationZh": "常見 stagnant water（死水）、stagnant economy（經濟停滯），指缺乏流動性或成長。",
-        "examples": [
-          {
-            "en": "The economy has remained stagnant for the past two years.",
-            "zh": "過去兩年來，經濟一直處於停滯狀態。"
-          }
+        "grammarPatterns": [
+          "remain stagnant",
+          "a stagnant + noun"
         ],
         "collocations": [
           {
@@ -1377,7 +1773,37 @@
             "text": "a stagnant economy",
             "meaningZh": "停滯的經濟"
           }
+        ],
+        "examples": [
+          {
+            "en": "The economy has remained stagnant for the past two years.",
+            "zh": "過去兩年來，經濟一直處於停滯狀態。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "motionless",
+        "noteZh": "不流動的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "flowing",
+        "noteZh": "流動的（水）"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "stagnate",
+        "partOfSpeech": "verb",
+        "meaningZh": "停滯；不流動"
+      },
+      {
+        "lemma": "stagnation",
+        "partOfSpeech": "noun",
+        "meaningZh": "停滯"
       }
     ],
     "tags": [
@@ -1392,19 +1818,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "motionless",
-        "noteZh": "不流動的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "flowing",
-        "noteZh": "流動的（水）"
-      }
-    ]
+    }
   },
   {
     "id": "w_stain",
@@ -1418,21 +1832,43 @@
       {
         "id": "s_stain_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a discolored mark left on a surface by a substance, or a lasting damage to reputation",
         "definitionZh": "汙漬；汙點",
         "usageExplanationZh": "字面指衣物、地毯上難以去除的汙漬；比喻指對名譽的損害，如 a stain on one's reputation。",
-        "examples": [
-          {
-            "en": "The red wine left a stain on the white tablecloth.",
-            "zh": "紅酒在白色桌布上留下了一塊汙漬。"
-          }
+        "grammarPatterns": [
+          "a stain on + noun",
+          "remove a stain",
+          "leave a stain"
         ],
         "collocations": [
           {
             "text": "a coffee stain",
             "meaningZh": "咖啡漬"
           }
+        ],
+        "examples": [
+          {
+            "en": "The red wine left a stain on the white tablecloth.",
+            "zh": "紅酒在白色桌布上留下了一塊汙漬。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "mark",
+        "noteZh": "汙痕"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "stainless",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不鏽的；無瑕的"
       }
     ],
     "tags": [
@@ -1447,14 +1883,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "mark",
-        "noteZh": "汙痕"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_staircase",
@@ -1468,21 +1897,43 @@
       {
         "id": "s_staircase_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a set of steps inside a building that leads from one level to another",
         "definitionZh": "樓梯",
         "usageExplanationZh": "常見 spiral staircase（螺旋樓梯），泛指室內連接不同樓層的階梯結構。",
-        "examples": [
-          {
-            "en": "They climbed the narrow staircase to reach the attic.",
-            "zh": "他們爬上狹窄的樓梯到達閣樓。"
-          }
+        "grammarPatterns": [
+          "climb a staircase",
+          "a spiral staircase",
+          "at the top of the staircase"
         ],
         "collocations": [
           {
             "text": "a spiral staircase",
             "meaningZh": "螺旋樓梯"
           }
+        ],
+        "examples": [
+          {
+            "en": "They climbed the narrow staircase to reach the attic.",
+            "zh": "他們爬上狹窄的樓梯到達閣樓。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "stairway",
+        "noteZh": "樓梯"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "stair",
+        "partOfSpeech": "noun",
+        "meaningZh": "樓梯（階）"
       }
     ],
     "tags": [
@@ -1495,14 +1946,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "stairway",
-        "noteZh": "樓梯"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_stake",
@@ -1516,21 +1960,44 @@
       {
         "id": "s_stake_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "a share or personal interest in the outcome of something, especially involving risk",
         "definitionZh": "利害關係；股份",
         "usageExplanationZh": "常見 have a stake in、high stakes（高風險），強調對結果的投入或關切程度。",
-        "examples": [
-          {
-            "en": "Investors have a significant stake in the company's success.",
-            "zh": "投資者在這家公司的成功上握有重大的利害關係。"
-          }
+        "grammarPatterns": [
+          "a stake in + noun",
+          "have a stake in + noun",
+          "hold a majority stake"
         ],
         "collocations": [
           {
             "text": "a stake in the company",
             "meaningZh": "公司的股份"
           }
+        ],
+        "examples": [
+          {
+            "en": "Investors have a significant stake in the company's success.",
+            "zh": "投資者在這家公司的成功上握有重大的利害關係。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "share",
+        "noteZh": "持有的股份"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "stakeholder",
+        "partOfSpeech": "noun",
+        "meaningZh": "利害關係人"
       }
     ],
     "tags": [
@@ -1545,14 +2012,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "share",
-        "noteZh": "持有的股份"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_stalemate",
@@ -1566,23 +2026,39 @@
       {
         "id": "s_stalemate_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "a situation in which neither side in a conflict or negotiation can make progress",
         "definitionZh": "僵局",
         "usageExplanationZh": "常見 reach a stalemate，強調雙方陷入無法推進、進退兩難的狀態。",
-        "examples": [
-          {
-            "en": "The negotiations ended in a stalemate after months of talks.",
-            "zh": "經過數月談判後，協商陷入了僵局。"
-          }
+        "grammarPatterns": [
+          "end in a stalemate",
+          "reach a stalemate",
+          "break the stalemate"
         ],
         "collocations": [
           {
             "text": "break the stalemate",
             "meaningZh": "打破僵局"
           }
+        ],
+        "examples": [
+          {
+            "en": "The negotiations ended in a stalemate after months of talks.",
+            "zh": "經過數月談判後，協商陷入了僵局。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "deadlock",
+        "noteZh": "僵局"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1593,14 +2069,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "deadlock",
-        "noteZh": "僵局"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_stall",
@@ -1614,23 +2083,39 @@
       {
         "id": "s_stall_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "a small stand or booth where goods are displayed for sale, especially at a market",
         "definitionZh": "攤位",
         "usageExplanationZh": "常見 market stall、food stall，也可指延遲拖延的行為（作動詞 stall for time）。",
-        "examples": [
-          {
-            "en": "She bought fresh vegetables from a stall at the farmers' market.",
-            "zh": "她在農夫市集的攤位上買了新鮮蔬菜。"
-          }
+        "grammarPatterns": [
+          "a stall at + noun",
+          "run a stall",
+          "a market stall"
         ],
         "collocations": [
           {
             "text": "a market stall",
             "meaningZh": "市場攤位"
           }
+        ],
+        "examples": [
+          {
+            "en": "She bought fresh vegetables from a stall at the farmers' market.",
+            "zh": "她在農夫市集的攤位上買了新鮮蔬菜。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "stand",
+        "noteZh": "攤位"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1643,14 +2128,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "stand",
-        "noteZh": "攤位"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_stance",
@@ -1664,23 +2142,39 @@
       {
         "id": "s_stance_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a publicly stated opinion or attitude on a particular issue",
         "definitionZh": "立場；態度",
         "usageExplanationZh": "常見 take a stance on，也可指身體站立的姿勢（golf stance），依語境判斷。",
-        "examples": [
-          {
-            "en": "The candidate clarified her stance on immigration reform.",
-            "zh": "這位候選人澄清了她對移民改革的立場。"
-          }
+        "grammarPatterns": [
+          "a stance on + noun",
+          "take a stance against + noun",
+          "sb's stance toward + noun"
         ],
         "collocations": [
           {
             "text": "take a firm stance",
             "meaningZh": "採取堅定立場"
           }
+        ],
+        "examples": [
+          {
+            "en": "The candidate clarified her stance on immigration reform.",
+            "zh": "這位候選人澄清了她對移民改革的立場。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "position",
+        "noteZh": "立場"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1691,14 +2185,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "position",
-        "noteZh": "立場"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_standpoint",
@@ -1712,23 +2199,38 @@
       {
         "id": "s_standpoint_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a particular way of considering a situation; a point of view",
         "definitionZh": "立場；觀點",
         "usageExplanationZh": "常見 from a legal/economic standpoint，強調從某特定角度或考量出發看待事物。",
-        "examples": [
-          {
-            "en": "From a financial standpoint, the merger makes perfect sense.",
-            "zh": "從財務角度來看，這項合併非常合理。"
-          }
+        "grammarPatterns": [
+          "from a + adjective + standpoint",
+          "from the standpoint of + noun"
         ],
         "collocations": [
           {
             "text": "from a practical standpoint",
             "meaningZh": "從實務觀點來看"
           }
+        ],
+        "examples": [
+          {
+            "en": "From a financial standpoint, the merger makes perfect sense.",
+            "zh": "從財務角度來看，這項合併非常合理。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "perspective",
+        "noteZh": "觀點"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -1739,14 +2241,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "perspective",
-        "noteZh": "觀點"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_starter",
@@ -1760,14 +2255,16 @@
       {
         "id": "s_starter_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a device that starts a vehicle's engine, or a player who begins a game rather than joining later",
         "definitionZh": "啟動裝置；先發球員",
         "usageExplanationZh": "兩義依語境：汽車的啟動馬達；體育賽事中一開始就上場的球員（與 substitute 相對）。",
-        "examples": [
-          {
-            "en": "The mechanic replaced the car's faulty starter.",
-            "zh": "技師更換了這輛車故障的啟動馬達。"
-          }
+        "grammarPatterns": [
+          "replace the starter",
+          "name sb as a starter"
         ],
         "collocations": [
           {
@@ -1778,7 +2275,22 @@
             "text": "a regular starter",
             "meaningZh": "固定先發球員"
           }
+        ],
+        "examples": [
+          {
+            "en": "The mechanic replaced the car's faulty starter.",
+            "zh": "技師更換了這輛車故障的啟動馬達。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "start",
+        "partOfSpeech": "verb",
+        "meaningZh": "開始；啟動"
       }
     ],
     "tags": [
@@ -1791,9 +2303,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_startle",
@@ -1807,21 +2317,43 @@
       {
         "id": "s_startle_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "to surprise someone suddenly, causing a brief feeling of fear or shock",
         "definitionZh": "使驚嚇；使吃驚",
         "usageExplanationZh": "常見 be startled by a loud noise，強調因突發狀況而產生的短暫驚訝或恐懼反應。",
-        "examples": [
-          {
-            "en": "The loud thunder startled the sleeping baby.",
-            "zh": "巨大的雷聲把熟睡的嬰兒嚇醒了。"
-          }
+        "grammarPatterns": [
+          "startle + sb",
+          "be startled by + noun"
         ],
         "collocations": [
           {
             "text": "startle someone awake",
             "meaningZh": "把某人驚醒"
           }
+        ],
+        "examples": [
+          {
+            "en": "The loud thunder startled the sleeping baby.",
+            "zh": "巨大的雷聲把熟睡的嬰兒嚇醒了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "alarm",
+        "noteZh": "使驚慌"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "startling",
+        "partOfSpeech": "adjective",
+        "meaningZh": "令人吃驚的"
       }
     ],
     "tags": [
@@ -1836,14 +2368,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "alarm",
-        "noteZh": "使驚慌"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_static",
@@ -1857,21 +2382,48 @@
       {
         "id": "s_static_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "not moving, changing, or developing",
         "definitionZh": "靜態的；靜止的",
         "usageExplanationZh": "常修飾 situation、population，與 dynamic 相對，強調缺乏變化或發展。",
-        "examples": [
-          {
-            "en": "Sales figures have remained static for the past six months.",
-            "zh": "過去六個月來，銷售數字一直維持靜態不變。"
-          }
+        "grammarPatterns": [
+          "remain static",
+          "a static + noun"
         ],
         "collocations": [
           {
             "text": "remain static",
             "meaningZh": "保持不變"
           }
+        ],
+        "examples": [
+          {
+            "en": "Sales figures have remained static for the past six months.",
+            "zh": "過去六個月來，銷售數字一直維持靜態不變。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "unchanging",
+        "noteZh": "不變的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "dynamic",
+        "noteZh": "動態的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "statically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "靜態地"
       }
     ],
     "tags": [
@@ -1886,19 +2438,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "unchanging",
-        "noteZh": "不變的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "dynamic",
-        "noteZh": "動態的"
-      }
-    ]
+    }
   },
   {
     "id": "w_stationary",
@@ -1912,21 +2452,41 @@
       {
         "id": "s_stationary_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "not moving or not intended to be moved",
         "definitionZh": "靜止的；固定的",
         "usageExplanationZh": "常見 stationary object/vehicle，強調物體處於靜止、不移動的狀態，注意與同音詞 stationery（文具）拼寫不同。",
-        "examples": [
-          {
-            "en": "The car remained stationary at the traffic light.",
-            "zh": "這輛車在紅綠燈前保持靜止。"
-          }
+        "grammarPatterns": [
+          "remain stationary",
+          "a stationary + noun"
         ],
         "collocations": [
           {
             "text": "a stationary vehicle",
             "meaningZh": "靜止的車輛"
           }
+        ],
+        "examples": [
+          {
+            "en": "The car remained stationary at the traffic light.",
+            "zh": "這輛車在紅綠燈前保持靜止。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "motionless",
+        "noteZh": "靜止不動的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "moving",
+        "noteZh": "移動中的"
       }
     ],
     "tags": [
@@ -1941,19 +2501,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "motionless",
-        "noteZh": "靜止不動的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "moving",
-        "noteZh": "移動中的"
-      }
-    ]
+    }
   },
   {
     "id": "w_statistics",
@@ -1967,21 +2515,54 @@
       {
         "id": "s_statistics_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "numerical data collected and analyzed to reveal patterns or trends",
         "definitionZh": "統計數據；統計學",
         "usageExplanationZh": "常見 crime statistics、according to statistics，也可指作為學科的統計學本身。",
-        "examples": [
-          {
-            "en": "The report includes statistics on unemployment rates.",
-            "zh": "這份報告包含了失業率的統計數據。"
-          }
+        "grammarPatterns": [
+          "statistics on + noun",
+          "statistics show that + clause",
+          "official statistics"
         ],
         "collocations": [
           {
             "text": "official statistics",
             "meaningZh": "官方統計數據"
           }
+        ],
+        "examples": [
+          {
+            "en": "The report includes statistics on unemployment rates.",
+            "zh": "這份報告包含了失業率的統計數據。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "data",
+        "noteZh": "數據（不特指統計結果）"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "statistical",
+        "partOfSpeech": "adjective",
+        "meaningZh": "統計的"
+      },
+      {
+        "lemma": "statistician",
+        "partOfSpeech": "noun",
+        "meaningZh": "統計學家"
+      },
+      {
+        "lemma": "statistically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "統計上地"
       }
     ],
     "tags": [
@@ -1995,14 +2576,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "data",
-        "noteZh": "數據（不特指統計結果）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_statue",
@@ -2016,21 +2590,43 @@
       {
         "id": "s_statue_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a sculpture representing a person or animal, typically life-size or larger",
         "definitionZh": "雕像",
         "usageExplanationZh": "常見於公共藝術、紀念碑語境，如 a bronze statue，指立體造型的人物或動物雕塑。",
-        "examples": [
-          {
-            "en": "Tourists took photos in front of the famous statue.",
-            "zh": "遊客在這座著名的雕像前拍照。"
-          }
+        "grammarPatterns": [
+          "a statue of + sb",
+          "erect a statue",
+          "a bronze statue"
         ],
         "collocations": [
           {
             "text": "a bronze statue",
             "meaningZh": "銅像"
           }
+        ],
+        "examples": [
+          {
+            "en": "Tourists took photos in front of the famous statue.",
+            "zh": "遊客在這座著名的雕像前拍照。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "sculpture",
+        "noteZh": "雕塑（涵義較廣）"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "statuette",
+        "partOfSpeech": "noun",
+        "meaningZh": "小雕像"
       }
     ],
     "tags": [
@@ -2044,14 +2640,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "sculpture",
-        "noteZh": "雕塑（涵義較廣）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_statute",
@@ -2065,21 +2654,44 @@
       {
         "id": "s_statute_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "a law formally passed by a legislative body",
         "definitionZh": "法規；法令",
         "usageExplanationZh": "正式法律用語，常見 by statute，指經立法機關通過制定的成文法。",
-        "examples": [
-          {
-            "en": "The new statute requires companies to disclose their carbon emissions.",
-            "zh": "這項新法規要求企業揭露其碳排放量。"
-          }
+        "grammarPatterns": [
+          "under a statute",
+          "pass a statute",
+          "a statute requires that + clause"
         ],
         "collocations": [
           {
             "text": "a statute of limitations",
             "meaningZh": "訴訟時效法規"
           }
+        ],
+        "examples": [
+          {
+            "en": "The new statute requires companies to disclose their carbon emissions.",
+            "zh": "這項新法規要求企業揭露其碳排放量。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "law",
+        "noteZh": "法律"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "statutory",
+        "partOfSpeech": "adjective",
+        "meaningZh": "法定的；法規規定的"
       }
     ],
     "tags": [
@@ -2093,14 +2705,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "law",
-        "noteZh": "法律"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_statutory",
@@ -2114,21 +2719,43 @@
       {
         "id": "s_statutory_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "required, permitted, or created by law",
         "definitionZh": "法定的；法規規定的",
         "usageExplanationZh": "常見 statutory rights/holiday，強調某事項由成文法規範或授權。",
-        "examples": [
-          {
-            "en": "Employees are entitled to statutory paid leave each year.",
-            "zh": "員工每年有權享有法定的帶薪休假。"
-          }
+        "grammarPatterns": [
+          "a statutory + noun",
+          "be entitled to statutory + noun"
         ],
         "collocations": [
           {
             "text": "a statutory requirement",
             "meaningZh": "法定要求"
           }
+        ],
+        "examples": [
+          {
+            "en": "Employees are entitled to statutory paid leave each year.",
+            "zh": "員工每年有權享有法定的帶薪休假。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "legally required",
+        "noteZh": "法律規定的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "statute",
+        "partOfSpeech": "noun",
+        "meaningZh": "法規；法令"
       }
     ],
     "tags": [
@@ -2141,14 +2768,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "legally required",
-        "noteZh": "法律規定的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_steadfast",
@@ -2162,21 +2782,54 @@
       {
         "id": "s_steadfast_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "firmly loyal or committed, without changing",
         "definitionZh": "堅定不移的；忠貞的",
         "usageExplanationZh": "正式用語，常修飾 support、belief，強調在困難或壓力下依然不動搖的忠誠與決心。",
-        "examples": [
-          {
-            "en": "Her friends remained steadfast in their support throughout the trial.",
-            "zh": "在整個審判過程中，她的朋友們始終堅定地支持著她。"
-          }
+        "grammarPatterns": [
+          "remain steadfast in + noun",
+          "a steadfast + noun",
+          "steadfast support for + noun"
         ],
         "collocations": [
           {
             "text": "steadfast support",
             "meaningZh": "堅定不移的支持"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her friends remained steadfast in their support throughout the trial.",
+            "zh": "在整個審判過程中，她的朋友們始終堅定地支持著她。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "unwavering",
+        "noteZh": "不動搖的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "fickle",
+        "noteZh": "反覆無常的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "steadfastly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "堅定不移地"
+      },
+      {
+        "lemma": "steadfastness",
+        "partOfSpeech": "noun",
+        "meaningZh": "堅定；忠貞"
       }
     ],
     "tags": [
@@ -2191,19 +2844,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "unwavering",
-        "noteZh": "不動搖的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "fickle",
-        "noteZh": "反覆無常的"
-      }
-    ]
+    }
   },
   {
     "id": "w_steady",
@@ -2217,21 +2858,59 @@
       {
         "id": "s_steady_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "developing or continuing gradually and consistently, without sudden changes",
         "definitionZh": "穩定的；持續的",
         "usageExplanationZh": "常見 steady progress/growth，強調變化緩慢而穩固，不會突然波動。",
-        "examples": [
-          {
-            "en": "The company has shown steady growth over the past five years.",
-            "zh": "這家公司過去五年展現出穩定的成長。"
-          }
+        "grammarPatterns": [
+          "a steady + noun",
+          "remain steady",
+          "steady growth in + noun"
         ],
         "collocations": [
           {
             "text": "steady progress",
             "meaningZh": "穩步進展"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company has shown steady growth over the past five years.",
+            "zh": "這家公司過去五年展現出穩定的成長。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "constant",
+        "noteZh": "持續穩定的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "unsteady",
+        "noteZh": "不穩的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "steadily",
+        "partOfSpeech": "adverb",
+        "meaningZh": "穩定地；持續地"
+      },
+      {
+        "lemma": "steadiness",
+        "partOfSpeech": "noun",
+        "meaningZh": "穩定；平穩"
+      },
+      {
+        "lemma": "unsteady",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不穩的；搖晃的"
       }
     ],
     "tags": [
@@ -2245,19 +2924,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "constant",
-        "noteZh": "持續穩定的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "unsteady",
-        "noteZh": "不穩的"
-      }
-    ]
+    }
   },
   {
     "id": "w_steak",
@@ -2271,23 +2938,33 @@
       {
         "id": "s_steak_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a thick slice of meat, especially beef, typically grilled or fried",
         "definitionZh": "牛排；肉排",
         "usageExplanationZh": "常見 grilled steak，指切成厚片後煎烤的肉類，尤指牛肉。",
-        "examples": [
-          {
-            "en": "He ordered a medium-rare steak at the restaurant.",
-            "zh": "他在餐廳點了一份五分熟的牛排。"
-          }
+        "grammarPatterns": [
+          "order a steak",
+          "grill a steak",
+          "a medium-rare steak"
         ],
         "collocations": [
           {
             "text": "a sirloin steak",
             "meaningZh": "沙朗牛排"
           }
+        ],
+        "examples": [
+          {
+            "en": "He ordered a medium-rare steak at the restaurant.",
+            "zh": "他在餐廳點了一份五分熟的牛排。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2299,9 +2976,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_steam",
@@ -2315,21 +2990,49 @@
       {
         "id": "s_steam_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "the hot vapor produced when water boils",
         "definitionZh": "蒸氣",
         "usageExplanationZh": "常見 steam engine、a cloud of steam，也可比喻指精力或動力，如 run out of steam（失去動力）。",
-        "examples": [
-          {
-            "en": "Steam rose from the cup of hot tea.",
-            "zh": "熱茶杯中冒出了蒸氣。"
-          }
+        "grammarPatterns": [
+          "steam rises from + noun",
+          "a cloud of steam",
+          "be powered by steam"
         ],
         "collocations": [
           {
             "text": "steam power",
             "meaningZh": "蒸汽動力"
           }
+        ],
+        "examples": [
+          {
+            "en": "Steam rose from the cup of hot tea.",
+            "zh": "熱茶杯中冒出了蒸氣。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "water vapour",
+        "noteZh": "水蒸氣"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "steamy",
+        "partOfSpeech": "adjective",
+        "meaningZh": "蒸氣瀰漫的；悶熱的"
+      },
+      {
+        "lemma": "steamer",
+        "partOfSpeech": "noun",
+        "meaningZh": "蒸鍋；汽船"
       }
     ],
     "tags": [
@@ -2343,14 +3046,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "water vapour",
-        "noteZh": "水蒸氣"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_steep",
@@ -2364,14 +3060,16 @@
       {
         "id": "s_steep_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "rising or falling sharply; almost vertical",
         "definitionZh": "陡峭的；急遽的",
         "usageExplanationZh": "常修飾 hill、slope，也可比喻指急遽的增減，如 a steep rise in prices。",
-        "examples": [
-          {
-            "en": "The trail became increasingly steep near the summit.",
-            "zh": "這條步道靠近山頂時變得越來越陡峭。"
-          }
+        "grammarPatterns": [
+          "a steep + noun",
+          "a steep rise in + noun"
         ],
         "collocations": [
           {
@@ -2382,7 +3080,37 @@
             "text": "a steep rise",
             "meaningZh": "急遽上升"
           }
+        ],
+        "examples": [
+          {
+            "en": "The trail became increasingly steep near the summit.",
+            "zh": "這條步道靠近山頂時變得越來越陡峭。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "precipitous",
+        "noteZh": "陡峭或急劇的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "gentle",
+        "noteZh": "平緩的（坡度）"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "steeply",
+        "partOfSpeech": "adverb",
+        "meaningZh": "陡峭地；急遽地"
+      },
+      {
+        "lemma": "steepness",
+        "partOfSpeech": "noun",
+        "meaningZh": "陡度；陡峭"
       }
     ],
     "tags": [
@@ -2397,19 +3125,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "precipitous",
-        "noteZh": "陡峭或急劇的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "gentle",
-        "noteZh": "平緩的（坡度）"
-      }
-    ]
+    }
   },
   {
     "id": "w_steer",
@@ -2423,14 +3139,17 @@
       {
         "id": "s_steer_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "to control the direction in which a vehicle moves, or to guide someone toward a particular course of action",
         "definitionZh": "駕駛；引導",
         "usageExplanationZh": "常接 car、conversation，字面指操控方向盤；比喻指引導談話或決策走向。",
-        "examples": [
-          {
-            "en": "She steered the car carefully around the sharp bend.",
-            "zh": "她小心翼翼地駕車繞過那個急轉彎。"
-          }
+        "grammarPatterns": [
+          "steer + noun",
+          "steer sth around + noun",
+          "steer sb away from + noun"
         ],
         "collocations": [
           {
@@ -2441,7 +3160,27 @@
             "text": "steer the conversation",
             "meaningZh": "引導談話方向"
           }
+        ],
+        "examples": [
+          {
+            "en": "She steered the car carefully around the sharp bend.",
+            "zh": "她小心翼翼地駕車繞過那個急轉彎。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "guide",
+        "noteZh": "引導"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "steering",
+        "partOfSpeech": "noun",
+        "meaningZh": "轉向；駕駛操控"
       }
     ],
     "tags": [
@@ -2456,14 +3195,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "guide",
-        "noteZh": "引導"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_stem",
@@ -2477,23 +3209,38 @@
       {
         "id": "s_stem_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to originate from or be caused by something",
         "definitionZh": "源自；起因於",
         "usageExplanationZh": "常見 stem from，強調問題或情況的根本來源，通常接抽象名詞。",
-        "examples": [
-          {
-            "en": "Her fear of dogs stems from a childhood incident.",
-            "zh": "她對狗的恐懼源自於童年的一次事件。"
-          }
+        "grammarPatterns": [
+          "stem from + noun",
+          "stem largely from + noun"
         ],
         "collocations": [
           {
             "text": "stem from",
             "meaningZh": "源自"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her fear of dogs stems from a childhood incident.",
+            "zh": "她對狗的恐懼源自於童年的一次事件。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "originate",
+        "noteZh": "起源於"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2506,14 +3253,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "originate",
-        "noteZh": "起源於"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_stereo",
@@ -2527,21 +3267,38 @@
       {
         "id": "s_stereo_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a sound system that reproduces audio through two or more separate channels for a fuller effect",
         "definitionZh": "立體聲音響",
         "usageExplanationZh": "常見 car stereo、stereo system，指能呈現立體聲效果的音響設備。",
-        "examples": [
-          {
-            "en": "He turned up the stereo to enjoy his favorite album.",
-            "zh": "他調高音響音量，享受他最喜歡的專輯。"
-          }
+        "grammarPatterns": [
+          "turn up the stereo",
+          "play sth on the stereo",
+          "a car stereo"
         ],
         "collocations": [
           {
             "text": "a stereo system",
             "meaningZh": "立體聲音響系統"
           }
+        ],
+        "examples": [
+          {
+            "en": "He turned up the stereo to enjoy his favorite album.",
+            "zh": "他調高音響音量，享受他最喜歡的專輯。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "stereophonic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "立體聲的"
       }
     ],
     "tags": [
@@ -2554,8 +3311,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   }
 ]

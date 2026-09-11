@@ -11,14 +11,17 @@
       {
         "id": "s_radar_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a system that uses radio waves to detect the position and speed of objects such as aircraft",
         "definitionZh": "雷達",
         "usageExplanationZh": "科技用語，也常見比喻用法 on/off someone's radar，指是否受到注意或關注。",
-        "examples": [
-          {
-            "en": "The plane was tracked by radar throughout its flight.",
-            "zh": "這架飛機全程都受到雷達追蹤。"
-          }
+        "grammarPatterns": [
+          "track sth by radar",
+          "a radar system",
+          "show up on radar"
         ],
         "collocations": [
           {
@@ -29,9 +32,17 @@
             "text": "radar detection",
             "meaningZh": "雷達偵測"
           }
+        ],
+        "examples": [
+          {
+            "en": "The plane was tracked by radar throughout its flight.",
+            "zh": "這架飛機全程都受到雷達追蹤。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -43,9 +54,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_radiation",
@@ -59,14 +68,17 @@
       {
         "id": "s_radiation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "energy given off in the form of waves or particles, especially from radioactive substances or the sun",
         "definitionZh": "輻射",
         "usageExplanationZh": "常見 nuclear radiation、solar radiation；醫學語境中也指放射治療 radiation therapy。",
-        "examples": [
-          {
-            "en": "Workers wore protective suits to avoid radiation exposure.",
-            "zh": "工人穿上防護衣以避免接觸輻射。"
-          }
+        "grammarPatterns": [
+          "exposure to radiation",
+          "radiation from + noun",
+          "emit radiation"
         ],
         "collocations": [
           {
@@ -77,7 +89,32 @@
             "text": "radiation therapy",
             "meaningZh": "放射治療"
           }
+        ],
+        "examples": [
+          {
+            "en": "Workers wore protective suits to avoid radiation exposure.",
+            "zh": "工人穿上防護衣以避免接觸輻射。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "radiate",
+        "partOfSpeech": "verb",
+        "meaningZh": "輻射；散發"
+      },
+      {
+        "lemma": "radioactive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "放射性的"
+      },
+      {
+        "lemma": "radiant",
+        "partOfSpeech": "adjective",
+        "meaningZh": "發光的；容光煥發的"
       }
     ],
     "tags": [
@@ -90,9 +127,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_radical",
@@ -106,14 +141,17 @@
       {
         "id": "s_radical_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "favoring extreme or fundamental change, especially in politics or society",
         "definitionZh": "激進的；根本的",
         "usageExplanationZh": "常修飾 change、reform、idea，也可修飾人（radical politician），與 moderate 相對。",
-        "examples": [
-          {
-            "en": "The new government introduced radical reforms to the tax system.",
-            "zh": "新政府對稅制推行了激進的改革。"
-          }
+        "grammarPatterns": [
+          "a radical + noun",
+          "radical change in + noun",
+          "radical reforms to + noun"
         ],
         "collocations": [
           {
@@ -124,7 +162,42 @@
             "text": "radical reform",
             "meaningZh": "徹底改革"
           }
+        ],
+        "examples": [
+          {
+            "en": "The new government introduced radical reforms to the tax system.",
+            "zh": "新政府對稅制推行了激進的改革。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "fundamental",
+        "noteZh": "指改變觸及根本的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "conservative",
+        "noteZh": "保守的（對應激進義）"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "radically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "根本地；徹底地"
+      },
+      {
+        "lemma": "radicalism",
+        "partOfSpeech": "noun",
+        "meaningZh": "激進主義"
+      },
+      {
+        "lemma": "radicalize",
+        "partOfSpeech": "verb",
+        "meaningZh": "使激進化"
       }
     ],
     "tags": [
@@ -138,19 +211,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "fundamental",
-        "noteZh": "指改變觸及根本的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "conservative",
-        "noteZh": "保守的（對應激進義）"
-      }
-    ]
+    }
   },
   {
     "id": "w_raffle",
@@ -164,14 +225,16 @@
       {
         "id": "s_raffle_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a way of raising money by selling numbered tickets, some of which win prizes",
         "definitionZh": "抽獎",
         "usageExplanationZh": "常見 raffle ticket，多用於募款活動；與 lottery 類似但通常規模較小、獎品非現金。",
-        "examples": [
-          {
-            "en": "They held a raffle to raise money for the school.",
-            "zh": "他們舉辦了一場抽獎活動為學校募款。"
-          }
+        "grammarPatterns": [
+          "hold a raffle",
+          "win a raffle",
+          "a raffle ticket"
         ],
         "collocations": [
           {
@@ -182,9 +245,22 @@
             "text": "hold a raffle",
             "meaningZh": "舉辦抽獎"
           }
+        ],
+        "examples": [
+          {
+            "en": "They held a raffle to raise money for the school.",
+            "zh": "他們舉辦了一場抽獎活動為學校募款。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "prize draw",
+        "noteZh": "抽獎"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -195,14 +271,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "prize draw",
-        "noteZh": "抽獎"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_rafter",
@@ -216,14 +285,17 @@
       {
         "id": "s_rafter_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "one of the sloping beams that support a roof",
         "definitionZh": "椽木；屋樑",
         "usageExplanationZh": "建築用語，指支撐屋頂的斜向樑木；片語 the rafters 可比喻指屋內高處（as if to bring down the rafters）。",
-        "examples": [
-          {
-            "en": "The old barn's rafters were exposed, giving it a rustic look.",
-            "zh": "這座老穀倉外露的椽木讓它顯得別有一番鄉村風味。"
-          }
+        "grammarPatterns": [
+          "exposed rafters",
+          "in the rafters",
+          "a rafter of + noun"
         ],
         "collocations": [
           {
@@ -234,9 +306,17 @@
             "text": "packed to the rafters",
             "meaningZh": "擠得滿滿的"
           }
+        ],
+        "examples": [
+          {
+            "en": "The old barn's rafters were exposed, giving it a rustic look.",
+            "zh": "這座老穀倉外露的椽木讓它顯得別有一番鄉村風味。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -247,9 +327,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_rage",
@@ -263,14 +341,17 @@
       {
         "id": "s_rage_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "violent, uncontrollable anger",
         "definitionZh": "盛怒；狂怒",
         "usageExplanationZh": "常見 fly into a rage、road rage；程度比 anger 更激烈、失控。",
-        "examples": [
-          {
-            "en": "He was in a blind rage after hearing the news.",
-            "zh": "聽到這個消息後，他陷入了盲目的盛怒之中。"
-          }
+        "grammarPatterns": [
+          "in a rage",
+          "fly into a rage",
+          "a fit of rage"
         ],
         "collocations": [
           {
@@ -281,7 +362,32 @@
             "text": "road rage",
             "meaningZh": "路怒症"
           }
+        ],
+        "examples": [
+          {
+            "en": "He was in a blind rage after hearing the news.",
+            "zh": "聽到這個消息後，他陷入了盲目的盛怒之中。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "fury",
+        "noteZh": "狂怒"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "calm",
+        "noteZh": "平靜"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "enrage",
+        "partOfSpeech": "verb",
+        "meaningZh": "激怒"
       }
     ],
     "tags": [
@@ -296,19 +402,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "fury",
-        "noteZh": "狂怒"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "calm",
-        "noteZh": "平靜"
-      }
-    ]
+    }
   },
   {
     "id": "w_raid",
@@ -322,14 +416,17 @@
       {
         "id": "s_raid_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a sudden attack on a place, especially by police or armed forces",
         "definitionZh": "突襲；搜查",
         "usageExplanationZh": "常見 police raid、air raid；也可作動詞 raid a building，指出其不意地闖入搜查或攻擊。",
-        "examples": [
-          {
-            "en": "Police conducted a raid on the suspected drug house.",
-            "zh": "警方對這間疑似毒窟的房子展開了突襲搜查。"
-          }
+        "grammarPatterns": [
+          "a raid on + noun",
+          "conduct a raid",
+          "carry out a raid"
         ],
         "collocations": [
           {
@@ -340,7 +437,27 @@
             "text": "an air raid",
             "meaningZh": "空襲"
           }
+        ],
+        "examples": [
+          {
+            "en": "Police conducted a raid on the suspected drug house.",
+            "zh": "警方對這間疑似毒窟的房子展開了突襲搜查。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "attack",
+        "noteZh": "突擊攻擊"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "raider",
+        "partOfSpeech": "noun",
+        "meaningZh": "突襲者；掠奪者"
       }
     ],
     "tags": [
@@ -355,14 +472,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "attack",
-        "noteZh": "突擊攻擊"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_rail",
@@ -376,14 +486,17 @@
       {
         "id": "s_rail_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a horizontal bar, especially one used as part of a fence, track, or support",
         "definitionZh": "欄杆；鐵軌",
         "usageExplanationZh": "常見 handrail、guardrail、by rail（搭火車）；片語 go off the rails 指行為脫序、失控。",
-        "examples": [
-          {
-            "en": "Hold onto the rail as you go down the stairs.",
-            "zh": "下樓梯時請扶好欄杆。"
-          }
+        "grammarPatterns": [
+          "hold onto the rail",
+          "a rail along + noun",
+          "lean on the rail"
         ],
         "collocations": [
           {
@@ -394,7 +507,27 @@
             "text": "a hand rail",
             "meaningZh": "扶手欄杆"
           }
+        ],
+        "examples": [
+          {
+            "en": "Hold onto the rail as you go down the stairs.",
+            "zh": "下樓梯時請扶好欄杆。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "railing",
+        "noteZh": "指作為圍欄的欄杆"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "railing",
+        "partOfSpeech": "noun",
+        "meaningZh": "欄杆；扶手"
       }
     ],
     "tags": [
@@ -409,14 +542,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "railing",
-        "noteZh": "指作為圍欄的欄杆"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_rainbow",
@@ -430,14 +556,16 @@
       {
         "id": "s_rainbow_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "an arc of different colors that appears in the sky when sunlight shines through rain",
         "definitionZh": "彩虹",
         "usageExplanationZh": "日常用語，也常象徵希望或多樣性，如 rainbow flag。",
-        "examples": [
-          {
-            "en": "A beautiful rainbow appeared after the rain stopped.",
-            "zh": "雨停之後，天空出現了一道美麗的彩虹。"
-          }
+        "grammarPatterns": [
+          "see a rainbow",
+          "a rainbow appears",
+          "the colors of the rainbow"
         ],
         "collocations": [
           {
@@ -448,9 +576,17 @@
             "text": "all the colours of the rainbow",
             "meaningZh": "五彩繽紛的色彩"
           }
+        ],
+        "examples": [
+          {
+            "en": "A beautiful rainbow appeared after the rain stopped.",
+            "zh": "雨停之後，天空出現了一道美麗的彩虹。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -461,9 +597,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_rally",
@@ -477,14 +611,17 @@
       {
         "id": "s_rally_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "a large public meeting held to support a cause, or a significant recovery in strength, price, or spirits",
         "definitionZh": "集會；反彈",
         "usageExplanationZh": "常見 political rally（政治集會）或 stock market rally（股市反彈），指群眾聚集或情勢好轉。",
-        "examples": [
-          {
-            "en": "Thousands attended the rally to protest the new policy.",
-            "zh": "數千人參加了這場抗議新政策的集會。"
-          }
+        "grammarPatterns": [
+          "a rally against + noun",
+          "hold a rally",
+          "attend a rally"
         ],
         "collocations": [
           {
@@ -495,9 +632,26 @@
             "text": "a stock market rally",
             "meaningZh": "股市反彈"
           }
+        ],
+        "examples": [
+          {
+            "en": "Thousands attended the rally to protest the new policy.",
+            "zh": "數千人參加了這場抗議新政策的集會。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "gathering",
+        "noteZh": "指群眾集會"
+      },
+      {
+        "lemma": "recovery",
+        "noteZh": "指價格等的回升"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -510,18 +664,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "gathering",
-        "noteZh": "指群眾集會"
-      },
-      {
-        "lemma": "recovery",
-        "noteZh": "指價格等的回升"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_ramp",
@@ -535,14 +678,17 @@
       {
         "id": "s_ramp_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a sloped surface connecting two different levels",
         "definitionZh": "斜坡；坡道",
         "usageExplanationZh": "常見 wheelchair ramp、highway ramp；片語 ramp up 指急遽增加或加強（作動詞片語）。",
-        "examples": [
-          {
-            "en": "The building has a ramp for wheelchair access.",
-            "zh": "這棟建築設有供輪椅使用的斜坡道。"
-          }
+        "grammarPatterns": [
+          "a ramp to + noun",
+          "a ramp for + noun",
+          "go up the ramp"
         ],
         "collocations": [
           {
@@ -553,9 +699,22 @@
             "text": "an access ramp",
             "meaningZh": "出入坡道"
           }
+        ],
+        "examples": [
+          {
+            "en": "The building has a ramp for wheelchair access.",
+            "zh": "這棟建築設有供輪椅使用的斜坡道。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "slope",
+        "noteZh": "斜面；坡道"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -566,14 +725,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "slope",
-        "noteZh": "斜面；坡道"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_rampage",
@@ -587,23 +739,38 @@
       {
         "id": "s_rampage_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "to move around in a wild, violent, and uncontrolled way",
         "definitionZh": "橫衝直撞；狂暴行動",
         "usageExplanationZh": "常見 go on a rampage，指人或動物失控地破壞、攻擊，語氣強烈。",
-        "examples": [
-          {
-            "en": "The bull rampaged through the streets after escaping from the farm.",
-            "zh": "這頭公牛逃出農場後在街上橫衝直撞。"
-          }
+        "grammarPatterns": [
+          "rampage through + noun",
+          "rampage across + noun"
         ],
         "collocations": [
           {
             "text": "rampage through the streets",
             "meaningZh": "在街道上橫衝直撞"
           }
+        ],
+        "examples": [
+          {
+            "en": "The bull rampaged through the streets after escaping from the farm.",
+            "zh": "這頭公牛逃出農場後在街上橫衝直撞。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "run riot",
+        "noteZh": "狂暴地四處破壞"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -614,14 +781,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "run riot",
-        "noteZh": "狂暴地四處破壞"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_rampant",
@@ -635,14 +795,16 @@
       {
         "id": "s_rampant_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "existing or spreading in an uncontrolled way, especially something bad",
         "definitionZh": "猖獗的；蔓延失控的",
         "usageExplanationZh": "常修飾 crime、corruption、disease，強調負面事物大範圍且難以控制地擴散。",
-        "examples": [
-          {
-            "en": "Corruption was rampant in the local government.",
-            "zh": "貪腐現象在地方政府中十分猖獗。"
-          }
+        "grammarPatterns": [
+          "be rampant in + noun",
+          "rampant + noun",
+          "run rampant"
         ],
         "collocations": [
           {
@@ -653,7 +815,25 @@
             "text": "run rampant",
             "meaningZh": "肆虐；失控蔓延"
           }
+        ],
+        "examples": [
+          {
+            "en": "Corruption was rampant in the local government.",
+            "zh": "貪腐現象在地方政府中十分猖獗。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "uncontrolled",
+        "noteZh": "失去控制的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "restrained",
+        "noteZh": "受到抑制的"
       }
     ],
     "tags": [
@@ -668,19 +848,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "uncontrolled",
-        "noteZh": "失去控制的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "restrained",
-        "noteZh": "受到抑制的"
-      }
-    ]
+    }
   },
   {
     "id": "w_ranch",
@@ -694,14 +862,16 @@
       {
         "id": "s_ranch_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a large farm used for raising cattle, horses, or sheep, especially in North America",
         "definitionZh": "大牧場",
         "usageExplanationZh": "北美用語，指專門畜養牲畜的大片農場；也可作動詞 ranch，指經營牧場。",
-        "examples": [
-          {
-            "en": "He grew up on a cattle ranch in Texas.",
-            "zh": "他在德州的一座牧牛場長大。"
-          }
+        "grammarPatterns": [
+          "a ranch in + noun",
+          "a cattle ranch",
+          "grow up on a ranch"
         ],
         "collocations": [
           {
@@ -712,7 +882,27 @@
             "text": "work on a ranch",
             "meaningZh": "在牧場工作"
           }
+        ],
+        "examples": [
+          {
+            "en": "He grew up on a cattle ranch in Texas.",
+            "zh": "他在德州的一座牧牛場長大。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "farm",
+        "noteZh": "農場，範圍比大牧場廣"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "rancher",
+        "partOfSpeech": "noun",
+        "meaningZh": "牧場主"
       }
     ],
     "tags": [
@@ -725,14 +915,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "farm",
-        "noteZh": "農場，範圍比大牧場廣"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_rancor",
@@ -746,14 +929,17 @@
       {
         "id": "s_rancor_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "a strong, bitter feeling of hatred or resentment",
         "definitionZh": "深仇；怨恨",
         "usageExplanationZh": "正式用語，強調長期積累、根深柢固的怨恨，常見 without rancor（不帶怨恨）。",
-        "examples": [
-          {
-            "en": "Despite the bitter divorce, they parted without rancor.",
-            "zh": "儘管離婚過程痛苦，他們分手時並無怨恨。"
-          }
+        "grammarPatterns": [
+          "without rancor",
+          "rancor toward + sb",
+          "feel rancor"
         ],
         "collocations": [
           {
@@ -764,7 +950,32 @@
             "text": "political rancor",
             "meaningZh": "政治上的怨懟"
           }
+        ],
+        "examples": [
+          {
+            "en": "Despite the bitter divorce, they parted without rancor.",
+            "zh": "儘管離婚過程痛苦，他們分手時並無怨恨。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "resentment",
+        "noteZh": "怨恨"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "goodwill",
+        "noteZh": "善意"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "rancorous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "充滿怨恨的"
       }
     ],
     "tags": [
@@ -778,19 +989,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "resentment",
-        "noteZh": "怨恨"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "goodwill",
-        "noteZh": "善意"
-      }
-    ]
+    }
   },
   {
     "id": "w_random",
@@ -804,14 +1003,17 @@
       {
         "id": "s_random_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "happening or done without a specific plan, pattern, or reason",
         "definitionZh": "隨機的；任意的",
         "usageExplanationZh": "常見 random selection、random sample，強調不受特定規律或意圖影響。",
-        "examples": [
-          {
-            "en": "The winners were chosen at random from all entries.",
-            "zh": "得獎者是從所有參賽作品中隨機抽選出來的。"
-          }
+        "grammarPatterns": [
+          "at random",
+          "a random + noun",
+          "a random sample of + noun"
         ],
         "collocations": [
           {
@@ -822,7 +1024,37 @@
             "text": "at random",
             "meaningZh": "隨機地"
           }
+        ],
+        "examples": [
+          {
+            "en": "The winners were chosen at random from all entries.",
+            "zh": "得獎者是從所有參賽作品中隨機抽選出來的。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "arbitrary",
+        "noteZh": "指缺乏特定規律的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "randomly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "隨機地"
+      },
+      {
+        "lemma": "randomize",
+        "partOfSpeech": "verb",
+        "meaningZh": "使隨機化"
+      },
+      {
+        "lemma": "randomness",
+        "partOfSpeech": "noun",
+        "meaningZh": "隨機性"
       }
     ],
     "tags": [
@@ -837,14 +1069,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "arbitrary",
-        "noteZh": "指缺乏特定規律的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_ranger",
@@ -858,14 +1083,15 @@
       {
         "id": "s_ranger_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "an official who is responsible for patrolling and protecting a park or forest",
         "definitionZh": "巡山員；護林員",
         "usageExplanationZh": "常見 park ranger，也可指特種部隊（Army Ranger），需依上下文判斷。",
-        "examples": [
-          {
-            "en": "The park ranger warned hikers about the approaching storm.",
-            "zh": "這位巡山員警告健行者暴風雨即將來臨。"
-          }
+        "grammarPatterns": [
+          "a park ranger",
+          "a ranger at + noun"
         ],
         "collocations": [
           {
@@ -876,7 +1102,27 @@
             "text": "a forest ranger",
             "meaningZh": "護林員"
           }
+        ],
+        "examples": [
+          {
+            "en": "The park ranger warned hikers about the approaching storm.",
+            "zh": "這位巡山員警告健行者暴風雨即將來臨。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "warden",
+        "noteZh": "指管理保護公園等地的人員"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "range",
+        "partOfSpeech": "noun",
+        "meaningZh": "範圍；山脈"
       }
     ],
     "tags": [
@@ -889,14 +1135,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "warden",
-        "noteZh": "指管理保護公園等地的人員"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_rank",
@@ -910,14 +1149,16 @@
       {
         "id": "s_rank_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a position in a hierarchy, especially in the armed forces or an organization",
         "definitionZh": "官階；級別",
         "usageExplanationZh": "常見 military rank、the rank of colonel；也可作動詞 rank，指依某標準排列名次。",
-        "examples": [
-          {
-            "en": "He rose to the rank of captain in the army.",
-            "zh": "他在軍中晉升到上尉的官階。"
-          }
+        "grammarPatterns": [
+          "the rank of + noun",
+          "rise to the rank of + noun",
+          "hold a high rank"
         ],
         "collocations": [
           {
@@ -928,9 +1169,22 @@
             "text": "rise through the ranks",
             "meaningZh": "逐級晉升"
           }
+        ],
+        "examples": [
+          {
+            "en": "He rose to the rank of captain in the army.",
+            "zh": "他在軍中晉升到上尉的官階。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "grade",
+        "noteZh": "指職級"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -942,14 +1196,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "grade",
-        "noteZh": "指職級"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_rare",
@@ -963,14 +1210,17 @@
       {
         "id": "s_rare_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "not occurring or found very often; uncommon",
         "definitionZh": "罕見的；稀有的",
         "usageExplanationZh": "常修飾 disease、opportunity、species，強調發生或出現的頻率極低。",
-        "examples": [
-          {
-            "en": "Seeing a wild panda in the forest is a rare occurrence.",
-            "zh": "在森林裡看到野生貓熊是十分罕見的事。"
-          }
+        "grammarPatterns": [
+          "a rare + noun",
+          "it is rare for sb to + V",
+          "increasingly rare"
         ],
         "collocations": [
           {
@@ -981,7 +1231,37 @@
             "text": "a rare species",
             "meaningZh": "稀有物種"
           }
+        ],
+        "examples": [
+          {
+            "en": "Seeing a wild panda in the forest is a rare occurrence.",
+            "zh": "在森林裡看到野生貓熊是十分罕見的事。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "uncommon",
+        "noteZh": "不常見的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "common",
+        "noteZh": "常見的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "rarity",
+        "partOfSpeech": "noun",
+        "meaningZh": "稀有；罕見之物"
+      },
+      {
+        "lemma": "rarely",
+        "partOfSpeech": "adverb",
+        "meaningZh": "很少；難得"
       }
     ],
     "tags": [
@@ -995,19 +1275,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "uncommon",
-        "noteZh": "不常見的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "common",
-        "noteZh": "常見的"
-      }
-    ]
+    }
   },
   {
     "id": "w_ratification",
@@ -1021,14 +1289,16 @@
       {
         "id": "s_ratification_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "the act of formally approving or confirming an agreement, treaty, or decision",
         "definitionZh": "批准；認可",
         "usageExplanationZh": "正式法律或外交用語，常見 ratification of a treaty，指官方正式生效的程序。",
-        "examples": [
-          {
-            "en": "The treaty requires ratification by both governments.",
-            "zh": "這項條約需要雙方政府正式批准。"
-          }
+        "grammarPatterns": [
+          "the ratification of + noun",
+          "require ratification by + noun"
         ],
         "collocations": [
           {
@@ -1039,7 +1309,32 @@
             "text": "subject to ratification",
             "meaningZh": "尚待正式批准"
           }
+        ],
+        "examples": [
+          {
+            "en": "The treaty requires ratification by both governments.",
+            "zh": "這項條約需要雙方政府正式批准。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "approval",
+        "noteZh": "正式批准"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "rejection",
+        "noteZh": "否決"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "ratify",
+        "partOfSpeech": "verb",
+        "meaningZh": "批准；正式認可"
       }
     ],
     "tags": [
@@ -1052,19 +1347,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "approval",
-        "noteZh": "正式批准"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "rejection",
-        "noteZh": "否決"
-      }
-    ]
+    }
   },
   {
     "id": "w_ratify",
@@ -1078,14 +1361,17 @@
       {
         "id": "s_ratify_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to give formal approval to an agreement or decision, making it officially valid",
         "definitionZh": "批准；正式認可",
         "usageExplanationZh": "常見 ratify a treaty/constitution，多用於政府、國會等正式場合。",
-        "examples": [
-          {
-            "en": "The senate voted to ratify the new trade agreement.",
-            "zh": "參議院投票批准了這項新的貿易協定。"
-          }
+        "grammarPatterns": [
+          "ratify + noun",
+          "ratify a treaty",
+          "vote to ratify + noun"
         ],
         "collocations": [
           {
@@ -1096,7 +1382,32 @@
             "text": "ratify an agreement",
             "meaningZh": "正式認可協議"
           }
+        ],
+        "examples": [
+          {
+            "en": "The senate voted to ratify the new trade agreement.",
+            "zh": "參議院投票批准了這項新的貿易協定。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "approve",
+        "noteZh": "正式批准"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "reject",
+        "noteZh": "否決"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "ratification",
+        "partOfSpeech": "noun",
+        "meaningZh": "批准；認可"
       }
     ],
     "tags": [
@@ -1110,19 +1421,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "approve",
-        "noteZh": "正式批准"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "reject",
-        "noteZh": "否決"
-      }
-    ]
+    }
   },
   {
     "id": "w_ratio",
@@ -1136,14 +1435,17 @@
       {
         "id": "s_ratio_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "a relationship between two numbers or amounts showing how many times one contains the other",
         "definitionZh": "比例；比率",
         "usageExplanationZh": "常見 ratio of A to B，用於數學、統計或日常比較兩個量的關係。",
-        "examples": [
-          {
-            "en": "The recipe calls for a ratio of two cups of flour to one cup of sugar.",
-            "zh": "這份食譜要求麵粉與糖的比例是二比一。"
-          }
+        "grammarPatterns": [
+          "the ratio of A to B",
+          "in a ratio of A to B",
+          "a high ratio of + noun"
         ],
         "collocations": [
           {
@@ -1154,9 +1456,22 @@
             "text": "a high ratio",
             "meaningZh": "高比率"
           }
+        ],
+        "examples": [
+          {
+            "en": "The recipe calls for a ratio of two cups of flour to one cup of sugar.",
+            "zh": "這份食譜要求麵粉與糖的比例是二比一。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "proportion",
+        "noteZh": "指數量間的比例"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1168,14 +1483,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "proportion",
-        "noteZh": "指數量間的比例"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_ration",
@@ -1189,14 +1497,16 @@
       {
         "id": "s_ration_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a fixed amount of food or supplies allowed to each person, especially during a shortage",
         "definitionZh": "定量配給",
         "usageExplanationZh": "常見於戰爭、災害時期，如 food ration；也可作動詞 ration，指限量分配資源。",
-        "examples": [
-          {
-            "en": "During the war, families received a weekly ration of sugar and butter.",
-            "zh": "戰爭期間，各家庭每週會領到定量配給的糖和奶油。"
-          }
+        "grammarPatterns": [
+          "a ration of + noun",
+          "a weekly ration",
+          "receive rations"
         ],
         "collocations": [
           {
@@ -1207,9 +1517,22 @@
             "text": "food rations",
             "meaningZh": "糧食配給"
           }
+        ],
+        "examples": [
+          {
+            "en": "During the war, families received a weekly ration of sugar and butter.",
+            "zh": "戰爭期間，各家庭每週會領到定量配給的糖和奶油。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "allowance",
+        "noteZh": "指固定分配的數量"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1221,14 +1544,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "allowance",
-        "noteZh": "指固定分配的數量"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_rational",
@@ -1242,14 +1558,17 @@
       {
         "id": "s_rational_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "based on clear thinking and reason rather than emotion",
         "definitionZh": "理性的；合理的",
         "usageExplanationZh": "常修飾 decision、explanation，與 emotional、irrational 相對，強調依邏輯推理而非情緒。",
-        "examples": [
-          {
-            "en": "He made a rational decision based on the available data.",
-            "zh": "他根據現有數據做出了理性的決定。"
-          }
+        "grammarPatterns": [
+          "a rational + noun",
+          "be rational about + noun",
+          "perfectly rational"
         ],
         "collocations": [
           {
@@ -1260,7 +1579,42 @@
             "text": "rational thinking",
             "meaningZh": "理性思考"
           }
+        ],
+        "examples": [
+          {
+            "en": "He made a rational decision based on the available data.",
+            "zh": "他根據現有數據做出了理性的決定。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "reasonable",
+        "noteZh": "合理的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "irrational",
+        "noteZh": "不理性的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "rationality",
+        "partOfSpeech": "noun",
+        "meaningZh": "理性；合理性"
+      },
+      {
+        "lemma": "rationalize",
+        "partOfSpeech": "verb",
+        "meaningZh": "合理化"
+      },
+      {
+        "lemma": "irrational",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不理性的"
       }
     ],
     "tags": [
@@ -1275,19 +1629,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "reasonable",
-        "noteZh": "合理的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "irrational",
-        "noteZh": "不理性的"
-      }
-    ]
+    }
   },
   {
     "id": "w_rattle",
@@ -1301,14 +1643,17 @@
       {
         "id": "s_rattle_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "to make a series of short, sharp knocking sounds, or to shake and make such sounds",
         "definitionZh": "發出嘎嘎聲；使發出格格聲",
         "usageExplanationZh": "常描述物體因鬆動而碰撞出聲，如窗戶、瓶蓋；口語中也可指使人心慌（rattle someone）。",
-        "examples": [
-          {
-            "en": "The old windows rattled every time a truck drove by.",
-            "zh": "每次有卡車經過，那些老舊的窗戶就會嘎嘎作響。"
-          }
+        "grammarPatterns": [
+          "rattle + noun",
+          "rattle against + noun",
+          "the windows rattle"
         ],
         "collocations": [
           {
@@ -1319,9 +1664,22 @@
             "text": "rattle a door handle",
             "meaningZh": "搖動門把使其作響"
           }
+        ],
+        "examples": [
+          {
+            "en": "The old windows rattled every time a truck drove by.",
+            "zh": "每次有卡車經過，那些老舊的窗戶就會嘎嘎作響。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "clatter",
+        "noteZh": "發出連續碰撞聲"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1333,14 +1691,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "clatter",
-        "noteZh": "發出連續碰撞聲"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_raucous",
@@ -1354,14 +1705,16 @@
       {
         "id": "s_raucous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "informal"
+        ],
         "definitionEn": "loud and rough sounding, often in a disorderly or unruly way",
         "definitionZh": "喧鬧刺耳的；粗嘎的",
         "usageExplanationZh": "常修飾 laughter、crowd、voice，強調聲音大且不悅耳，帶有失控、吵鬧的氛圍。",
-        "examples": [
-          {
-            "en": "Raucous laughter echoed from the bar late into the night.",
-            "zh": "喧鬧刺耳的笑聲從酒吧一直傳到深夜。"
-          }
+        "grammarPatterns": [
+          "raucous + noun",
+          "raucous laughter"
         ],
         "collocations": [
           {
@@ -1372,7 +1725,32 @@
             "text": "a raucous crowd",
             "meaningZh": "喧鬧的人群"
           }
+        ],
+        "examples": [
+          {
+            "en": "Raucous laughter echoed from the bar late into the night.",
+            "zh": "喧鬧刺耳的笑聲從酒吧一直傳到深夜。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "harsh",
+        "noteZh": "指聲音粗啞刺耳的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "quiet",
+        "noteZh": "安靜的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "raucously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "喧鬧地；粗嘎地"
       }
     ],
     "tags": [
@@ -1386,19 +1764,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "harsh",
-        "noteZh": "指聲音粗啞刺耳的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "quiet",
-        "noteZh": "安靜的"
-      }
-    ]
+    }
   },
   {
     "id": "w_rave",
@@ -1412,23 +1778,38 @@
       {
         "id": "s_rave_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "to talk about something with great enthusiasm and admiration",
         "definitionZh": "大肆讚揚；狂熱地談論",
         "usageExplanationZh": "常見 rave about/over，語氣熱情正面；名詞 rave review 指極力讚賞的評論。",
-        "examples": [
-          {
-            "en": "Critics raved about the film's stunning visual effects.",
-            "zh": "影評人對這部電影驚人的視覺效果讚不絕口。"
-          }
+        "grammarPatterns": [
+          "rave about + noun",
+          "rave over + noun"
         ],
         "collocations": [
           {
             "text": "rave about",
             "meaningZh": "對……讚不絕口"
           }
+        ],
+        "examples": [
+          {
+            "en": "Critics raved about the film's stunning visual effects.",
+            "zh": "影評人對這部電影驚人的視覺效果讚不絕口。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "enthuse",
+        "noteZh": "熱情地談論"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -1440,14 +1821,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "enthuse",
-        "noteZh": "熱情地談論"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_react",
@@ -1461,14 +1835,17 @@
       {
         "id": "s_react_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "to behave or respond in a particular way as a result of something",
         "definitionZh": "反應；回應",
         "usageExplanationZh": "常見 react to，可指人的情緒反應，也可指化學物質起反應（chemicals react）。",
-        "examples": [
-          {
-            "en": "She reacted angrily to the accusation.",
-            "zh": "她對這項指控做出了憤怒的反應。"
-          }
+        "grammarPatterns": [
+          "react to + noun",
+          "react by + V-ing",
+          "react + adverb"
         ],
         "collocations": [
           {
@@ -1479,7 +1856,37 @@
             "text": "react strongly",
             "meaningZh": "強烈反應"
           }
+        ],
+        "examples": [
+          {
+            "en": "She reacted angrily to the accusation.",
+            "zh": "她對這項指控做出了憤怒的反應。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "respond",
+        "noteZh": "回應"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "reaction",
+        "partOfSpeech": "noun",
+        "meaningZh": "反應"
+      },
+      {
+        "lemma": "reactive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "反應性的；被動的"
+      },
+      {
+        "lemma": "reactor",
+        "partOfSpeech": "noun",
+        "meaningZh": "反應爐"
       }
     ],
     "tags": [
@@ -1492,14 +1899,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "respond",
-        "noteZh": "回應"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_reactionary",
@@ -1513,14 +1913,17 @@
       {
         "id": "s_reactionary_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "strongly opposed to political or social change or reform",
         "definitionZh": "反動的；極端保守的",
         "usageExplanationZh": "帶負面意涵，形容人或政策極力抗拒進步或改革，與 progressive 相對。",
-        "examples": [
-          {
-            "en": "The reactionary policies alienated younger voters.",
-            "zh": "這些反動政策使年輕選民感到疏離。"
-          }
+        "grammarPatterns": [
+          "reactionary + noun",
+          "a reactionary + noun",
+          "deeply reactionary"
         ],
         "collocations": [
           {
@@ -1531,7 +1934,37 @@
             "text": "reactionary views",
             "meaningZh": "反動觀點"
           }
+        ],
+        "examples": [
+          {
+            "en": "The reactionary policies alienated younger voters.",
+            "zh": "這些反動政策使年輕選民感到疏離。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "ultraconservative",
+        "noteZh": "極端保守的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "progressive",
+        "noteZh": "進步改革的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "reaction",
+        "partOfSpeech": "noun",
+        "meaningZh": "反應；反動"
+      },
+      {
+        "lemma": "react",
+        "partOfSpeech": "verb",
+        "meaningZh": "反應"
       }
     ],
     "tags": [
@@ -1544,19 +1977,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "ultraconservative",
-        "noteZh": "極端保守的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "progressive",
-        "noteZh": "進步改革的"
-      }
-    ]
+    }
   },
   {
     "id": "w_readily",
@@ -1570,14 +1991,16 @@
       {
         "id": "s_readily_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "without difficulty or hesitation; quickly",
         "definitionZh": "輕易地；欣然地",
         "usageExplanationZh": "常修飾 available、admit，如 readily available（隨手可得）、readily admit（欣然承認）。",
-        "examples": [
-          {
-            "en": "The information is readily available online.",
-            "zh": "這項資訊在網路上很容易取得。"
-          }
+        "grammarPatterns": [
+          "be readily available",
+          "readily + verb",
+          "readily agree to + V"
         ],
         "collocations": [
           {
@@ -1588,22 +2011,15 @@
             "text": "readily agree",
             "meaningZh": "欣然同意"
           }
+        ],
+        "examples": [
+          {
+            "en": "The information is readily available online.",
+            "zh": "這項資訊在網路上很容易取得。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "easily",
@@ -1619,7 +2035,32 @@
         "lemma": "reluctantly",
         "noteZh": "不情願地（對應欣然義）"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "ready",
+        "partOfSpeech": "adjective",
+        "meaningZh": "準備好的；願意的"
+      },
+      {
+        "lemma": "readiness",
+        "partOfSpeech": "noun",
+        "meaningZh": "準備就緒；樂意"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_realism",
@@ -1633,14 +2074,17 @@
       {
         "id": "s_realism_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "literary"
+        ],
         "definitionEn": "an approach that represents things as they actually are, without idealizing them",
         "definitionZh": "寫實主義；現實主義",
         "usageExplanationZh": "藝術、文學語境指如實呈現現實的創作手法；一般語境也可指務實看待事物的態度。",
-        "examples": [
-          {
-            "en": "The novel is praised for its gritty realism.",
-            "zh": "這部小說因其粗獷寫實的風格而備受讚譽。"
-          }
+        "grammarPatterns": [
+          "the realism of + noun",
+          "gritty realism",
+          "with great realism"
         ],
         "collocations": [
           {
@@ -1651,7 +2095,42 @@
             "text": "a sense of realism",
             "meaningZh": "務實的態度"
           }
+        ],
+        "examples": [
+          {
+            "en": "The novel is praised for its gritty realism.",
+            "zh": "這部小說因其粗獷寫實的風格而備受讚譽。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "pragmatism",
+        "noteZh": "指務實看待現實的態度"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "idealism",
+        "noteZh": "理想主義"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "realist",
+        "partOfSpeech": "noun",
+        "meaningZh": "現實主義者；寫實主義者"
+      },
+      {
+        "lemma": "realistic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "實際的；寫實的"
+      },
+      {
+        "lemma": "real",
+        "partOfSpeech": "adjective",
+        "meaningZh": "真實的"
       }
     ],
     "tags": [
@@ -1664,19 +2143,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pragmatism",
-        "noteZh": "指務實看待現實的態度"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "idealism",
-        "noteZh": "理想主義"
-      }
-    ]
+    }
   },
   {
     "id": "w_realization",
@@ -1690,14 +2157,16 @@
       {
         "id": "s_realization_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "the moment of becoming fully aware of or understanding something",
         "definitionZh": "領悟；體認",
         "usageExplanationZh": "常見 come to the realization that...，指突然清楚意識到某項事實或真相。",
-        "examples": [
-          {
-            "en": "It was a sudden realization that changed her whole perspective.",
-            "zh": "那是一次突如其來的領悟，徹底改變了她的觀點。"
-          }
+        "grammarPatterns": [
+          "the realization that + clause",
+          "come to the realization that + clause",
+          "a sudden realization"
         ],
         "collocations": [
           {
@@ -1708,7 +2177,32 @@
             "text": "a sudden realization",
             "meaningZh": "突然的領悟"
           }
+        ],
+        "examples": [
+          {
+            "en": "It was a sudden realization that changed her whole perspective.",
+            "zh": "那是一次突如其來的領悟，徹底改變了她的觀點。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "awareness",
+        "noteZh": "對事情的覺察"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "realize",
+        "partOfSpeech": "verb",
+        "meaningZh": "領悟；實現"
+      },
+      {
+        "lemma": "real",
+        "partOfSpeech": "adjective",
+        "meaningZh": "真實的"
       }
     ],
     "tags": [
@@ -1721,14 +2215,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "awareness",
-        "noteZh": "對事情的覺察"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_realm",
@@ -1742,14 +2229,17 @@
       {
         "id": "s_realm_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a particular area of activity, interest, or knowledge",
         "definitionZh": "領域；範疇",
         "usageExplanationZh": "常見 the realm of possibility、in the realm of science，較抽象、正式，常見於書面語。",
-        "examples": [
-          {
-            "en": "Artificial intelligence now touches almost every realm of modern life.",
-            "zh": "人工智慧如今幾乎觸及現代生活的每個領域。"
-          }
+        "grammarPatterns": [
+          "the realm of + noun",
+          "in the realm of + noun",
+          "beyond the realm of + noun"
         ],
         "collocations": [
           {
@@ -1760,9 +2250,22 @@
             "text": "in the realm of science",
             "meaningZh": "在科學領域"
           }
+        ],
+        "examples": [
+          {
+            "en": "Artificial intelligence now touches almost every realm of modern life.",
+            "zh": "人工智慧如今幾乎觸及現代生活的每個領域。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "domain",
+        "noteZh": "領域"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1775,14 +2278,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "domain",
-        "noteZh": "領域"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_rear",
@@ -1796,14 +2292,16 @@
       {
         "id": "s_rear_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to bring up and care for a child or young animal until it is fully grown",
         "definitionZh": "養育；撫養",
         "usageExplanationZh": "常接 children、livestock 等受詞，語氣正式，與 raise 意思相近但更常見於書面語。",
-        "examples": [
-          {
-            "en": "They reared their children in a small rural town.",
-            "zh": "他們在一個小鄉鎮撫養孩子長大。"
-          }
+        "grammarPatterns": [
+          "rear + noun",
+          "rear children in + noun",
+          "be reared by + sb"
         ],
         "collocations": [
           {
@@ -1814,9 +2312,22 @@
             "text": "rear cattle",
             "meaningZh": "飼養牛隻"
           }
+        ],
+        "examples": [
+          {
+            "en": "They reared their children in a small rural town.",
+            "zh": "他們在一個小鄉鎮撫養孩子長大。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "raise",
+        "noteZh": "養育"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1828,14 +2339,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "raise",
-        "noteZh": "養育"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_reassure",
@@ -1849,14 +2353,16 @@
       {
         "id": "s_reassure_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to say or do something to remove someone's doubts or fears",
         "definitionZh": "使安心；向……保證",
         "usageExplanationZh": "常接人作受詞，加 that 子句或 about，如 reassure someone that everything is fine。",
-        "examples": [
-          {
-            "en": "The doctor reassured her that the test results were normal.",
-            "zh": "醫生向她保證檢查結果是正常的。"
-          }
+        "grammarPatterns": [
+          "reassure sb that + clause",
+          "reassure sb about + noun",
+          "reassure + sb"
         ],
         "collocations": [
           {
@@ -1867,7 +2373,32 @@
             "text": "reassure someone about",
             "meaningZh": "使某人對……放心"
           }
+        ],
+        "examples": [
+          {
+            "en": "The doctor reassured her that the test results were normal.",
+            "zh": "醫生向她保證檢查結果是正常的。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "comfort",
+        "noteZh": "安慰使安心"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "alarm",
+        "noteZh": "使驚慌"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "reassurance",
+        "partOfSpeech": "noun",
+        "meaningZh": "安慰；再三保證"
       }
     ],
     "tags": [
@@ -1881,19 +2412,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "comfort",
-        "noteZh": "安慰使安心"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "alarm",
-        "noteZh": "使驚慌"
-      }
-    ]
+    }
   },
   {
     "id": "w_rebellion",
@@ -1907,14 +2426,17 @@
       {
         "id": "s_rebellion_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "an act of organized, often violent resistance against an authority or government",
         "definitionZh": "叛亂；反抗",
         "usageExplanationZh": "常見 armed rebellion、a rebellion against；也可比喻指子女對父母規範的反抗（teenage rebellion）。",
-        "examples": [
-          {
-            "en": "The government suppressed the armed rebellion within weeks.",
-            "zh": "政府在幾週內鎮壓了這場武裝叛亂。"
-          }
+        "grammarPatterns": [
+          "a rebellion against + noun",
+          "crush a rebellion",
+          "lead a rebellion"
         ],
         "collocations": [
           {
@@ -1925,7 +2447,37 @@
             "text": "teenage rebellion",
             "meaningZh": "青少年叛逆"
           }
+        ],
+        "examples": [
+          {
+            "en": "The government suppressed the armed rebellion within weeks.",
+            "zh": "政府在幾週內鎮壓了這場武裝叛亂。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "revolt",
+        "noteZh": "叛亂；反抗"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "submission",
+        "noteZh": "服從；屈服"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "rebel",
+        "partOfSpeech": "noun",
+        "meaningZh": "叛亂者；反抗者"
+      },
+      {
+        "lemma": "rebellious",
+        "partOfSpeech": "adjective",
+        "meaningZh": "叛逆的；反抗的"
       }
     ],
     "tags": [
@@ -1938,19 +2490,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "revolt",
-        "noteZh": "叛亂；反抗"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "submission",
-        "noteZh": "服從；屈服"
-      }
-    ]
+    }
   },
   {
     "id": "w_rebuff",
@@ -1964,14 +2504,17 @@
       {
         "id": "s_rebuff_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to reject an offer, suggestion, or person in an unfriendly way",
         "definitionZh": "斷然拒絕；回絕",
         "usageExplanationZh": "正式用語，強調態度冷淡或不客氣地拒絕，常接人或提議作受詞。",
-        "examples": [
-          {
-            "en": "She rebuffed his attempts to apologize.",
-            "zh": "她斷然拒絕了他道歉的嘗試。"
-          }
+        "grammarPatterns": [
+          "rebuff + noun",
+          "rebuff sb's attempts to + V",
+          "be rebuffed by + sb"
         ],
         "collocations": [
           {
@@ -1982,7 +2525,25 @@
             "text": "rebuff someone's advances",
             "meaningZh": "拒絕某人的示好"
           }
+        ],
+        "examples": [
+          {
+            "en": "She rebuffed his attempts to apologize.",
+            "zh": "她斷然拒絕了他道歉的嘗試。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "reject",
+        "noteZh": "拒絕"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "welcome",
+        "noteZh": "欣然接受"
       }
     ],
     "tags": [
@@ -1995,19 +2556,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "reject",
-        "noteZh": "拒絕"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "welcome",
-        "noteZh": "欣然接受"
-      }
-    ]
+    }
   },
   {
     "id": "w_recalcitrant",
@@ -2021,14 +2570,15 @@
       {
         "id": "s_recalcitrant_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "stubbornly resistant to authority or control",
         "definitionZh": "頑固不從的；抗拒管束的",
         "usageExplanationZh": "正式用語，形容人或動物拒絕服從指示或規則，語氣較 stubborn 更書面。",
-        "examples": [
-          {
-            "en": "The teacher struggled to manage a few recalcitrant students.",
-            "zh": "這位老師難以管教幾個頑固不從的學生。"
-          }
+        "grammarPatterns": [
+          "a recalcitrant + noun",
+          "recalcitrant + plural noun"
         ],
         "collocations": [
           {
@@ -2039,7 +2589,32 @@
             "text": "recalcitrant behaviour",
             "meaningZh": "頑抗的行為"
           }
+        ],
+        "examples": [
+          {
+            "en": "The teacher struggled to manage a few recalcitrant students.",
+            "zh": "這位老師難以管教幾個頑固不從的學生。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "defiant",
+        "noteZh": "抗命不從的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "compliant",
+        "noteZh": "順從的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "recalcitrance",
+        "partOfSpeech": "noun",
+        "meaningZh": "頑抗；不服從"
       }
     ],
     "tags": [
@@ -2052,19 +2627,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "defiant",
-        "noteZh": "抗命不從的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "compliant",
-        "noteZh": "順從的"
-      }
-    ]
+    }
   },
   {
     "id": "w_receipt",
@@ -2078,14 +2641,17 @@
       {
         "id": "s_receipt_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "a written or printed document confirming that money or goods have been received",
         "definitionZh": "收據",
         "usageExplanationZh": "常見 keep the receipt，多用於購物、付款後作為證明的單據。",
-        "examples": [
-          {
-            "en": "Please keep your receipt in case you need to return the item.",
-            "zh": "請保留收據，以備退貨之需。"
-          }
+        "grammarPatterns": [
+          "keep the receipt",
+          "a receipt for + noun",
+          "ask for a receipt"
         ],
         "collocations": [
           {
@@ -2096,7 +2662,32 @@
             "text": "ask for a receipt",
             "meaningZh": "索取收據"
           }
+        ],
+        "examples": [
+          {
+            "en": "Please keep your receipt in case you need to return the item.",
+            "zh": "請保留收據，以備退貨之需。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "proof of purchase",
+        "noteZh": "購買憑證"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "receive",
+        "partOfSpeech": "verb",
+        "meaningZh": "收到；接受"
+      },
+      {
+        "lemma": "recipient",
+        "partOfSpeech": "noun",
+        "meaningZh": "接受者；領受者"
       }
     ],
     "tags": [
@@ -2110,14 +2701,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "proof of purchase",
-        "noteZh": "購買憑證"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_receiver",
@@ -2131,14 +2715,17 @@
       {
         "id": "s_receiver_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a device that receives electronic signals, such as a telephone handset or radio/TV tuner",
         "definitionZh": "接收器；聽筒",
         "usageExplanationZh": "常見 telephone receiver、radio receiver，指用於接收訊號或聲音的裝置。",
-        "examples": [
-          {
-            "en": "She picked up the receiver and dialed the number.",
-            "zh": "她拿起聽筒撥打了電話號碼。"
-          }
+        "grammarPatterns": [
+          "pick up the receiver",
+          "put down the receiver",
+          "a radio receiver"
         ],
         "collocations": [
           {
@@ -2149,7 +2736,27 @@
             "text": "pick up the receiver",
             "meaningZh": "拿起電話聽筒"
           }
+        ],
+        "examples": [
+          {
+            "en": "She picked up the receiver and dialed the number.",
+            "zh": "她拿起聽筒撥打了電話號碼。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "receive",
+        "partOfSpeech": "verb",
+        "meaningZh": "接收；收到"
+      },
+      {
+        "lemma": "reception",
+        "partOfSpeech": "noun",
+        "meaningZh": "接收；接待"
       }
     ],
     "tags": [
@@ -2162,9 +2769,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_reception",
@@ -2178,14 +2783,16 @@
       {
         "id": "s_reception_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "the way someone or something is greeted or received, or a formal social gathering",
         "definitionZh": "接待；歡迎會",
         "usageExplanationZh": "兩義常見：對意見／作品的反應（a warm reception）；正式社交場合（wedding reception）。",
-        "examples": [
-          {
-            "en": "The new policy received a mixed reception from the public.",
-            "zh": "這項新政策受到大眾褒貶不一的反應。"
-          }
+        "grammarPatterns": [
+          "a + adjective + reception",
+          "receive a warm reception",
+          "hold a reception for + sb"
         ],
         "collocations": [
           {
@@ -2196,7 +2803,37 @@
             "text": "a warm reception",
             "meaningZh": "熱情接待"
           }
+        ],
+        "examples": [
+          {
+            "en": "The new policy received a mixed reception from the public.",
+            "zh": "這項新政策受到大眾褒貶不一的反應。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "welcome",
+        "noteZh": "指接待時的歡迎"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "receive",
+        "partOfSpeech": "verb",
+        "meaningZh": "接待；收到"
+      },
+      {
+        "lemma": "receptive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "樂於接受的"
+      },
+      {
+        "lemma": "receptionist",
+        "partOfSpeech": "noun",
+        "meaningZh": "接待員"
       }
     ],
     "tags": [
@@ -2210,14 +2847,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "welcome",
-        "noteZh": "指接待時的歡迎"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_receptive",
@@ -2231,14 +2861,16 @@
       {
         "id": "s_receptive_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "willing to listen to or accept new ideas or suggestions",
         "definitionZh": "樂於接受的；願意接納的",
         "usageExplanationZh": "常見 receptive to，形容人態度開放，願意考慮不同意見或建議。",
-        "examples": [
-          {
-            "en": "The manager was receptive to feedback from her team.",
-            "zh": "這位經理樂於接受團隊的回饋意見。"
-          }
+        "grammarPatterns": [
+          "be receptive to + noun",
+          "a receptive + noun"
         ],
         "collocations": [
           {
@@ -2249,7 +2881,37 @@
             "text": "a receptive audience",
             "meaningZh": "願意接受的聽眾"
           }
+        ],
+        "examples": [
+          {
+            "en": "The manager was receptive to feedback from her team.",
+            "zh": "這位經理樂於接受團隊的回饋意見。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "open-minded",
+        "noteZh": "願意接納新想法的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "unreceptive",
+        "noteZh": "不願接受的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "receptivity",
+        "partOfSpeech": "noun",
+        "meaningZh": "接受度；感受力"
+      },
+      {
+        "lemma": "receive",
+        "partOfSpeech": "verb",
+        "meaningZh": "接受；收到"
       }
     ],
     "tags": [
@@ -2263,19 +2925,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "open-minded",
-        "noteZh": "願意接納新想法的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "unreceptive",
-        "noteZh": "不願接受的"
-      }
-    ]
+    }
   },
   {
     "id": "w_receptor",
@@ -2289,14 +2939,17 @@
       {
         "id": "s_receptor_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a cell structure that responds to a specific stimulus, such as light, chemicals, or pain",
         "definitionZh": "受體；接受器",
         "usageExplanationZh": "生物學、醫學用語，常見 pain receptor、light receptor，指感應特定刺激的細胞構造。",
-        "examples": [
-          {
-            "en": "Nerve receptors in the skin detect changes in temperature.",
-            "zh": "皮膚中的神經受體能偵測溫度變化。"
-          }
+        "grammarPatterns": [
+          "a receptor for + noun",
+          "receptors in + noun",
+          "stimulate a receptor"
         ],
         "collocations": [
           {
@@ -2307,7 +2960,27 @@
             "text": "pain receptors",
             "meaningZh": "痛覺受器"
           }
+        ],
+        "examples": [
+          {
+            "en": "Nerve receptors in the skin detect changes in temperature.",
+            "zh": "皮膚中的神經受體能偵測溫度變化。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "receive",
+        "partOfSpeech": "verb",
+        "meaningZh": "接收"
+      },
+      {
+        "lemma": "reception",
+        "partOfSpeech": "noun",
+        "meaningZh": "接收"
       }
     ],
     "tags": [
@@ -2320,9 +2993,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_recession",
@@ -2336,14 +3007,17 @@
       {
         "id": "s_recession_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "academic"
+        ],
         "definitionEn": "a period of temporary economic decline during which trade and industrial activity are reduced",
         "definitionZh": "經濟衰退",
         "usageExplanationZh": "經濟學術語，常見 economic recession、global recession，指GDP、就業等指標持續下滑的時期。",
-        "examples": [
-          {
-            "en": "The country fell into a recession after the financial crisis.",
-            "zh": "這個國家在金融危機後陷入了經濟衰退。"
-          }
+        "grammarPatterns": [
+          "fall into a recession",
+          "be in recession",
+          "a deep recession"
         ],
         "collocations": [
           {
@@ -2354,7 +3028,37 @@
             "text": "fall into recession",
             "meaningZh": "陷入衰退"
           }
+        ],
+        "examples": [
+          {
+            "en": "The country fell into a recession after the financial crisis.",
+            "zh": "這個國家在金融危機後陷入了經濟衰退。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "downturn",
+        "noteZh": "經濟走弱"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "boom",
+        "noteZh": "經濟繁榮"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "recede",
+        "partOfSpeech": "verb",
+        "meaningZh": "後退；消退"
+      },
+      {
+        "lemma": "recessionary",
+        "partOfSpeech": "adjective",
+        "meaningZh": "經濟衰退的"
       }
     ],
     "tags": [
@@ -2369,19 +3073,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "downturn",
-        "noteZh": "經濟走弱"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "boom",
-        "noteZh": "經濟繁榮"
-      }
-    ]
+    }
   },
   {
     "id": "w_recipe",
@@ -2395,14 +3087,16 @@
       {
         "id": "s_recipe_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a set of instructions for preparing a particular dish, or a method for achieving something",
         "definitionZh": "食譜；秘訣",
         "usageExplanationZh": "常見 recipe for success，字面指烹飪食譜，引申則指達成某結果的方法或要素組合。",
-        "examples": [
-          {
-            "en": "She followed the recipe carefully to bake the perfect cake.",
-            "zh": "她仔細照著食譜烘焙出完美的蛋糕。"
-          }
+        "grammarPatterns": [
+          "a recipe for + noun",
+          "follow a recipe",
+          "a recipe for disaster"
         ],
         "collocations": [
           {
@@ -2413,9 +3107,22 @@
             "text": "follow a recipe",
             "meaningZh": "按照食譜做菜"
           }
+        ],
+        "examples": [
+          {
+            "en": "She followed the recipe carefully to bake the perfect cake.",
+            "zh": "她仔細照著食譜烘焙出完美的蛋糕。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "formula",
+        "noteZh": "指達成某事的秘訣"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2428,14 +3135,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "formula",
-        "noteZh": "指達成某事的秘訣"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_recipient",
@@ -2449,14 +3149,15 @@
       {
         "id": "s_recipient_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a person who receives something, such as an award, gift, or message",
         "definitionZh": "接受者；領受者",
         "usageExplanationZh": "常見 recipient of an award、email recipient，正式用語，指接收某物的一方。",
-        "examples": [
-          {
-            "en": "She was the recipient of a prestigious scholarship.",
-            "zh": "她是這項知名獎學金的得主。"
-          }
+        "grammarPatterns": [
+          "the recipient of + noun",
+          "a + noun + recipient"
         ],
         "collocations": [
           {
@@ -2467,7 +3168,37 @@
             "text": "the recipient of a gift",
             "meaningZh": "禮物的收受者"
           }
+        ],
+        "examples": [
+          {
+            "en": "She was the recipient of a prestigious scholarship.",
+            "zh": "她是這項知名獎學金的得主。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "receiver",
+        "noteZh": "接受某物的人"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "donor",
+        "noteZh": "捐贈者（相對於受贈者）"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "receive",
+        "partOfSpeech": "verb",
+        "meaningZh": "收到；接受"
+      },
+      {
+        "lemma": "receipt",
+        "partOfSpeech": "noun",
+        "meaningZh": "收據"
       }
     ],
     "tags": [
@@ -2482,19 +3213,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "receiver",
-        "noteZh": "接受某物的人"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "donor",
-        "noteZh": "捐贈者（相對於受贈者）"
-      }
-    ]
+    }
   },
   {
     "id": "w_reciprocal",
@@ -2508,14 +3227,16 @@
       {
         "id": "s_reciprocal_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "given, felt, or done in return by both parties involved",
         "definitionZh": "相互的；互惠的",
         "usageExplanationZh": "常見 reciprocal agreement、reciprocal feelings，強調雙方相互回應或給予。",
-        "examples": [
-          {
-            "en": "The two countries signed a reciprocal trade agreement.",
-            "zh": "這兩個國家簽署了一項互惠貿易協定。"
-          }
+        "grammarPatterns": [
+          "a reciprocal + noun",
+          "a reciprocal arrangement between + noun"
         ],
         "collocations": [
           {
@@ -2526,7 +3247,42 @@
             "text": "reciprocal rights",
             "meaningZh": "相互對等的權利"
           }
+        ],
+        "examples": [
+          {
+            "en": "The two countries signed a reciprocal trade agreement.",
+            "zh": "這兩個國家簽署了一項互惠貿易協定。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "mutual",
+        "noteZh": "相互的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "unilateral",
+        "noteZh": "單方面的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "reciprocate",
+        "partOfSpeech": "verb",
+        "meaningZh": "回報；互相給予"
+      },
+      {
+        "lemma": "reciprocity",
+        "partOfSpeech": "noun",
+        "meaningZh": "互惠；對等"
+      },
+      {
+        "lemma": "reciprocally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "互惠地"
       }
     ],
     "tags": [
@@ -2541,19 +3297,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "mutual",
-        "noteZh": "相互的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "unilateral",
-        "noteZh": "單方面的"
-      }
-    ]
+    }
   },
   {
     "id": "w_reciprocate",
@@ -2567,14 +3311,16 @@
       {
         "id": "s_reciprocate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to respond to an action or feeling by doing or feeling the same thing in return",
         "definitionZh": "回報；互相給予",
         "usageExplanationZh": "常見 reciprocate a favor/feeling，強調對他人善意或行為做出相應的回應。",
-        "examples": [
-          {
-            "en": "He helped her move, and she reciprocated by cooking dinner.",
-            "zh": "他幫她搬家，她則以煮晚餐作為回報。"
-          }
+        "grammarPatterns": [
+          "reciprocate + noun",
+          "reciprocate by + V-ing",
+          "reciprocate sb's feelings"
         ],
         "collocations": [
           {
@@ -2585,7 +3331,32 @@
             "text": "reciprocate someone's feelings",
             "meaningZh": "回應某人的感情"
           }
+        ],
+        "examples": [
+          {
+            "en": "He helped her move, and she reciprocated by cooking dinner.",
+            "zh": "他幫她搬家，她則以煮晚餐作為回報。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "return",
+        "noteZh": "指回報感情或好意"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "reciprocal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "相互的；互惠的"
+      },
+      {
+        "lemma": "reciprocity",
+        "partOfSpeech": "noun",
+        "meaningZh": "互惠"
       }
     ],
     "tags": [
@@ -2598,14 +3369,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "return",
-        "noteZh": "指回報感情或好意"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_reckon",
@@ -2619,14 +3383,16 @@
       {
         "id": "s_reckon_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "to think or believe something, often based on calculation or estimation",
         "definitionZh": "認為；估計",
         "usageExplanationZh": "口語用法，常見 I reckon (that)...，語氣較隨性，相當於 think 或 estimate。",
-        "examples": [
-          {
-            "en": "I reckon it will rain later this afternoon.",
-            "zh": "我認為今天下午稍晚會下雨。"
-          }
+        "grammarPatterns": [
+          "reckon that + clause",
+          "reckon sb to be + adjective"
         ],
         "collocations": [
           {
@@ -2637,9 +3403,26 @@
             "text": "reckon on",
             "meaningZh": "預期；指望"
           }
+        ],
+        "examples": [
+          {
+            "en": "I reckon it will rain later this afternoon.",
+            "zh": "我認為今天下午稍晚會下雨。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "think",
+        "noteZh": "認為"
+      },
+      {
+        "lemma": "estimate",
+        "noteZh": "估算"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2652,18 +3435,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "think",
-        "noteZh": "認為"
-      },
-      {
-        "lemma": "estimate",
-        "noteZh": "估算"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_recline",
@@ -2677,14 +3449,15 @@
       {
         "id": "s_recline_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to lean or lie back in a relaxed position",
         "definitionZh": "斜倚；靠躺",
         "usageExplanationZh": "常見 recline in a chair、recline the seat，指身體向後倚靠以放鬆或休息。",
-        "examples": [
-          {
-            "en": "He reclined in his chair and closed his eyes.",
-            "zh": "他斜靠在椅子上，閉上了眼睛。"
-          }
+        "grammarPatterns": [
+          "recline in + noun",
+          "recline on + noun"
         ],
         "collocations": [
           {
@@ -2695,7 +3468,27 @@
             "text": "recline the seat",
             "meaningZh": "把椅背放倒"
           }
+        ],
+        "examples": [
+          {
+            "en": "He reclined in his chair and closed his eyes.",
+            "zh": "他斜靠在椅子上，閉上了眼睛。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "lean back",
+        "noteZh": "向後靠躺"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "recliner",
+        "partOfSpeech": "noun",
+        "meaningZh": "躺椅"
       }
     ],
     "tags": [
@@ -2709,13 +3502,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "lean back",
-        "noteZh": "向後靠躺"
-      }
-    ],
-    "antonyms": []
+    }
   }
 ]

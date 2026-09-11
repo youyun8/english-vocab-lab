@@ -1,5 +1,5 @@
 import * as OpenCC from 'opencc-js';
-import type { PartOfSpeech, VocabularyEntry, VocabularySense } from '../../src/domain/vocabulary';
+import type { DraftVocabularyEntry, DraftVocabularySense, PartOfSpeech } from '../../src/domain/vocabulary';
 
 export const ECDICT_REVISION = 'bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b';
 export const ECDICT_SHA256 = '1a6947e04785db63613a92e14903cdae7954f7e84860b10e68e5c7cbb3f9c3cf';
@@ -50,10 +50,10 @@ export function frequencyRank(row: DictionaryRow): number {
   return ranks.length ? Math.min(...ranks) : 100_000;
 }
 
-export function dictionaryEntry(row: DictionaryRow, kk: string): VocabularyEntry | null {
+export function dictionaryEntry(row: DictionaryRow, kk: string): DraftVocabularyEntry | null {
   const english = glossGroups(row.definition);
   const chinese = glossGroups(row.translation, true);
-  const senses: VocabularySense[] = [];
+  const senses: DraftVocabularySense[] = [];
   // Translation order is generally the common learner POS; WordNet order often isn't.
   for (const [partOfSpeech, zh] of chinese) {
     const en = english.get(partOfSpeech);

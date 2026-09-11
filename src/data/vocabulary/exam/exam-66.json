@@ -11,21 +11,49 @@
       {
         "id": "s_sewage_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "waste water and human excrement carried away in drains or sewers",
         "definitionZh": "汙水；廢水",
         "usageExplanationZh": "常見 sewage treatment plant（汙水處理廠），指經下水道系統排放的髒水。",
-        "examples": [
-          {
-            "en": "The city built a new plant to treat sewage more efficiently.",
-            "zh": "這座城市興建了一座新工廠，以更有效地處理汙水。"
-          }
+        "grammarPatterns": [
+          "treat sewage",
+          "raw sewage",
+          "a sewage + noun"
         ],
         "collocations": [
           {
             "text": "sewage treatment",
             "meaningZh": "汙水處理"
           }
+        ],
+        "examples": [
+          {
+            "en": "The city built a new plant to treat sewage more efficiently.",
+            "zh": "這座城市興建了一座新工廠，以更有效地處理汙水。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "wastewater",
+        "noteZh": "廢水"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "sewer",
+        "partOfSpeech": "noun",
+        "meaningZh": "下水道；汙水管"
+      },
+      {
+        "lemma": "sewerage",
+        "partOfSpeech": "noun",
+        "meaningZh": "下水道系統"
       }
     ],
     "tags": [
@@ -38,14 +66,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "wastewater",
-        "noteZh": "廢水"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_shade",
@@ -59,21 +80,48 @@
       {
         "id": "s_shade_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "an area of comparative darkness created by something blocking direct sunlight",
         "definitionZh": "陰影；蔭涼處",
         "usageExplanationZh": "常見 in the shade（在陰涼處），也可指顏色的深淺變化（a shade of blue）。",
-        "examples": [
-          {
-            "en": "They sat in the shade of the old oak tree.",
-            "zh": "他們坐在那棵老橡樹的樹蔭下。"
-          }
+        "grammarPatterns": [
+          "in the shade of + noun",
+          "sit in the shade",
+          "provide shade"
         ],
         "collocations": [
           {
             "text": "in the shade",
             "meaningZh": "在陰涼處"
           }
+        ],
+        "examples": [
+          {
+            "en": "They sat in the shade of the old oak tree.",
+            "zh": "他們坐在那棵老橡樹的樹蔭下。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "shady",
+        "partOfSpeech": "adjective",
+        "meaningZh": "陰涼的；可疑的"
+      },
+      {
+        "lemma": "shadow",
+        "partOfSpeech": "noun",
+        "meaningZh": "影子；陰影"
+      },
+      {
+        "lemma": "shading",
+        "partOfSpeech": "noun",
+        "meaningZh": "陰影處理；濃淡"
       }
     ],
     "tags": [
@@ -86,9 +134,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_shaft",
@@ -102,23 +148,34 @@
       {
         "id": "s_shaft_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a long, narrow vertical or sloping passage, or the long straight handle of a tool or weapon",
         "definitionZh": "豎井；（工具的）柄",
         "usageExplanationZh": "常見 elevator shaft（電梯井）、mine shaft（礦井），也可指箭、矛等的桿身部分。",
-        "examples": [
-          {
-            "en": "The elevator shaft runs through the center of the building.",
-            "zh": "這座電梯井貫穿整棟建築的中央。"
-          }
+        "grammarPatterns": [
+          "a mine shaft",
+          "the shaft of + noun",
+          "down a shaft"
         ],
         "collocations": [
           {
             "text": "a mine shaft",
             "meaningZh": "礦井"
           }
+        ],
+        "examples": [
+          {
+            "en": "The elevator shaft runs through the center of the building.",
+            "zh": "這座電梯井貫穿整棟建築的中央。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -130,9 +187,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_shallow",
@@ -146,21 +201,48 @@
       {
         "id": "s_shallow_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "not deep, either physically or in terms of thought or feeling",
         "definitionZh": "淺的；膚淺的",
         "usageExplanationZh": "常見 shallow water（淺水），也可比喻指思想或情感不夠深刻，如 a shallow argument。",
-        "examples": [
-          {
-            "en": "The children played safely in the shallow end of the pool.",
-            "zh": "孩子們在泳池的淺水區安全地玩耍。"
-          }
+        "grammarPatterns": [
+          "the shallow end of + noun",
+          "a shallow + noun",
+          "shallow water"
         ],
         "collocations": [
           {
             "text": "shallow water",
             "meaningZh": "淺水"
           }
+        ],
+        "examples": [
+          {
+            "en": "The children played safely in the shallow end of the pool.",
+            "zh": "孩子們在泳池的淺水區安全地玩耍。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "superficial",
+        "noteZh": "膚淺的義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "deep",
+        "noteZh": "深的；深刻的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "shallowness",
+        "partOfSpeech": "noun",
+        "meaningZh": "淺；膚淺"
       }
     ],
     "tags": [
@@ -174,19 +256,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "superficial",
-        "noteZh": "膚淺的義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "deep",
-        "noteZh": "深的；深刻的"
-      }
-    ]
+    }
   },
   {
     "id": "w_sham",
@@ -200,23 +270,38 @@
       {
         "id": "s_sham_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "something that is not genuine but is presented as if it were, intended to deceive",
         "definitionZh": "假貨；騙局",
         "usageExplanationZh": "常見 expose a sham，強調表面看似真實但實際上是虛假、欺騙性的事物。",
-        "examples": [
-          {
-            "en": "The whole charity event turned out to be a sham.",
-            "zh": "這整場慈善活動最後被揭發是一場騙局。"
-          }
+        "grammarPatterns": [
+          "be a sham",
+          "turn out to be a sham",
+          "expose sth as a sham"
         ],
         "collocations": [
           {
             "text": "a sham marriage",
             "meaningZh": "假結婚"
           }
+        ],
+        "examples": [
+          {
+            "en": "The whole charity event turned out to be a sham.",
+            "zh": "這整場慈善活動最後被揭發是一場騙局。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "fraud",
+        "noteZh": "騙局"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -227,14 +312,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "fraud",
-        "noteZh": "騙局"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sharp",
@@ -248,21 +326,58 @@
       {
         "id": "s_sharp_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "having a fine edge or point capable of cutting, or showing quick and clear thinking",
         "definitionZh": "鋒利的；敏銳的",
         "usageExplanationZh": "字面指刀刃銳利；比喻指頭腦靈敏、反應快，如 a sharp mind。",
-        "examples": [
-          {
-            "en": "She has a sharp mind and picks up new skills quickly.",
-            "zh": "她頭腦敏銳，學習新技能很快。"
-          }
+        "grammarPatterns": [
+          "a sharp + noun",
+          "have a sharp mind",
+          "sharp enough to + V"
         ],
         "collocations": [
           {
             "text": "a sharp knife",
             "meaningZh": "鋒利的刀"
           }
+        ],
+        "examples": [
+          {
+            "en": "She has a sharp mind and picks up new skills quickly.",
+            "zh": "她頭腦敏銳，學習新技能很快。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "keen",
+        "noteZh": "敏銳的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "blunt",
+        "noteZh": "鈍的（對應刀刃義）"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "sharpen",
+        "partOfSpeech": "verb",
+        "meaningZh": "使銳利；磨利"
+      },
+      {
+        "lemma": "sharply",
+        "partOfSpeech": "adverb",
+        "meaningZh": "急遽地；嚴厲地"
+      },
+      {
+        "lemma": "sharpness",
+        "partOfSpeech": "noun",
+        "meaningZh": "銳利；敏銳"
       }
     ],
     "tags": [
@@ -276,19 +391,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "keen",
-        "noteZh": "敏銳的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "blunt",
-        "noteZh": "鈍的（對應刀刃義）"
-      }
-    ]
+    }
   },
   {
     "id": "w_sharply",
@@ -302,21 +405,49 @@
       {
         "id": "s_sharply_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "suddenly and to a great degree, or in a severe and critical manner",
         "definitionZh": "急遽地；嚴厲地",
         "usageExplanationZh": "常見 rise/fall sharply（急遽上升／下降），也可修飾說話語氣，如 speak sharply。",
-        "examples": [
-          {
-            "en": "Stock prices fell sharply after the announcement.",
-            "zh": "消息公布後，股價急遽下跌。"
-          }
+        "grammarPatterns": [
+          "fall sharply",
+          "rise sharply",
+          "react sharply to + noun"
         ],
         "collocations": [
           {
             "text": "rise sharply",
             "meaningZh": "急遽上升"
           }
+        ],
+        "examples": [
+          {
+            "en": "Stock prices fell sharply after the announcement.",
+            "zh": "消息公布後，股價急遽下跌。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "steeply",
+        "noteZh": "急遽地義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "sharp",
+        "partOfSpeech": "adjective",
+        "meaningZh": "鋒利的；敏銳的"
+      },
+      {
+        "lemma": "sharpen",
+        "partOfSpeech": "verb",
+        "meaningZh": "使尖銳；加劇"
       }
     ],
     "tags": [
@@ -329,14 +460,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "steeply",
-        "noteZh": "急遽地義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_shatter",
@@ -350,21 +474,44 @@
       {
         "id": "s_shatter_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "to break suddenly into many small pieces, or to destroy something completely, such as hope or confidence",
         "definitionZh": "粉碎；破滅",
         "usageExplanationZh": "字面指玻璃等物品碎裂；比喻指希望、信心等徹底破滅，如 shatter someone's dreams。",
-        "examples": [
-          {
-            "en": "The vase shattered into pieces when it hit the floor.",
-            "zh": "那只花瓶掉到地上摔得粉碎。"
-          }
+        "grammarPatterns": [
+          "shatter into + noun",
+          "shatter + noun",
+          "be shattered by + noun"
         ],
         "collocations": [
           {
             "text": "shatter someone's confidence",
             "meaningZh": "摧毀某人的信心"
           }
+        ],
+        "examples": [
+          {
+            "en": "The vase shattered into pieces when it hit the floor.",
+            "zh": "那只花瓶掉到地上摔得粉碎。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "smash",
+        "noteZh": "粉碎"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "shatterproof",
+        "partOfSpeech": "adjective",
+        "meaningZh": "防碎的；不易碎的"
       }
     ],
     "tags": [
@@ -378,14 +525,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "smash",
-        "noteZh": "粉碎"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_shave",
@@ -399,21 +539,42 @@
       {
         "id": "s_shave_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to remove hair from the skin using a razor",
         "definitionZh": "刮（鬍子、毛）",
         "usageExplanationZh": "常見 shave one's face/legs，也可比喻指削減少量，如 shave costs（削減成本）。",
-        "examples": [
-          {
-            "en": "He shaves his face every morning before work.",
-            "zh": "他每天早上上班前都會刮鬍子。"
-          }
+        "grammarPatterns": [
+          "shave + noun",
+          "shave off + noun"
         ],
         "collocations": [
           {
             "text": "shave off a beard",
             "meaningZh": "刮掉鬍子"
           }
+        ],
+        "examples": [
+          {
+            "en": "He shaves his face every morning before work.",
+            "zh": "他每天早上上班前都會刮鬍子。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "shaver",
+        "partOfSpeech": "noun",
+        "meaningZh": "電動刮鬍刀"
+      },
+      {
+        "lemma": "unshaven",
+        "partOfSpeech": "adjective",
+        "meaningZh": "未刮鬍的"
       }
     ],
     "tags": [
@@ -426,9 +587,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_shear",
@@ -442,21 +601,43 @@
       {
         "id": "s_shear_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "to cut the wool off a sheep, or to cut through something with a sharp force",
         "definitionZh": "剪（羊毛）；剪斷",
         "usageExplanationZh": "常見 shear sheep（剪羊毛），物理學語境也指材料受剪力作用而斷裂。",
-        "examples": [
-          {
-            "en": "The farmer shears his sheep every spring.",
-            "zh": "這位農夫每年春天都會為他的羊剪毛。"
-          }
+        "grammarPatterns": [
+          "shear + noun",
+          "shear through + noun"
         ],
         "collocations": [
           {
             "text": "shear sheep",
             "meaningZh": "剪羊毛"
           }
+        ],
+        "examples": [
+          {
+            "en": "The farmer shears his sheep every spring.",
+            "zh": "這位農夫每年春天都會為他的羊剪毛。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "clip",
+        "noteZh": "剪除"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "shears",
+        "partOfSpeech": "noun",
+        "meaningZh": "大剪刀"
       }
     ],
     "tags": [
@@ -471,14 +652,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "clip",
-        "noteZh": "剪除"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sheer",
@@ -492,23 +666,33 @@
       {
         "id": "s_sheer_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "straight up or down, without any slope or interruption",
         "definitionZh": "陡直地；完全地",
         "usageExplanationZh": "常修飾 rise/drop，強調垂直上升或下降的角度，如 rise sheer from the sea。",
-        "examples": [
-          {
-            "en": "The cliff rose sheer from the ocean below.",
-            "zh": "那座懸崖從下方的海面陡直聳立而上。"
-          }
+        "grammarPatterns": [
+          "rise sheer from + noun",
+          "fall sheer to + noun"
         ],
         "collocations": [
           {
             "text": "rise sheer from the sea",
             "meaningZh": "從海面陡直聳立"
           }
+        ],
+        "examples": [
+          {
+            "en": "The cliff rose sheer from the ocean below.",
+            "zh": "那座懸崖從下方的海面陡直聳立而上。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -521,9 +705,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_shell",
@@ -537,21 +719,39 @@
       {
         "id": "s_shell_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "the hard outer covering of an egg, nut, or certain animals, or a metal case containing explosives fired from a large gun",
         "definitionZh": "殼；砲彈",
         "usageExplanationZh": "兩義：生物外殼（egg shell、seashell）；軍事用語指砲彈。",
-        "examples": [
-          {
-            "en": "The turtle withdrew into its shell when it sensed danger.",
-            "zh": "這隻烏龜一感覺到危險就縮進了殼裡。"
-          }
+        "grammarPatterns": [
+          "the shell of + noun",
+          "withdraw into its shell",
+          "a shell explodes"
         ],
         "collocations": [
           {
             "text": "an empty shell",
             "meaningZh": "空殼"
           }
+        ],
+        "examples": [
+          {
+            "en": "The turtle withdrew into its shell when it sensed danger.",
+            "zh": "這隻烏龜一感覺到危險就縮進了殼裡。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "shellfish",
+        "partOfSpeech": "noun",
+        "meaningZh": "貝類；甲殼類"
       }
     ],
     "tags": [
@@ -566,9 +766,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_shelter",
@@ -582,23 +780,38 @@
       {
         "id": "s_shelter_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a place that provides protection from danger, weather, or homelessness",
         "definitionZh": "庇護所；避難處",
         "usageExplanationZh": "常見 homeless shelter、bomb shelter，指提供暫時保護或住所的場所。",
-        "examples": [
-          {
-            "en": "The animal shelter takes in stray dogs and cats.",
-            "zh": "這間動物收容所收留流浪的貓狗。"
-          }
+        "grammarPatterns": [
+          "a shelter for + noun",
+          "seek shelter from + noun",
+          "take shelter"
         ],
         "collocations": [
           {
             "text": "seek shelter",
             "meaningZh": "尋求庇護"
           }
+        ],
+        "examples": [
+          {
+            "en": "The animal shelter takes in stray dogs and cats.",
+            "zh": "這間動物收容所收留流浪的貓狗。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "refuge",
+        "noteZh": "避難處"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -611,14 +824,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "refuge",
-        "noteZh": "避難處"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_shelve",
@@ -632,21 +838,44 @@
       {
         "id": "s_shelve_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "to decide to postpone or abandon a plan or project",
         "definitionZh": "擱置（計畫）",
         "usageExplanationZh": "常見 shelve a plan/project，強調暫時或永久放下某項計畫不予推行。",
-        "examples": [
-          {
-            "en": "The company decided to shelve the merger plans due to market conditions.",
-            "zh": "由於市場狀況，這家公司決定擱置合併計畫。"
-          }
+        "grammarPatterns": [
+          "shelve + noun",
+          "shelve plans for + noun",
+          "shelve sth indefinitely"
         ],
         "collocations": [
           {
             "text": "shelve a proposal",
             "meaningZh": "擱置提案"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company decided to shelve the merger plans due to market conditions.",
+            "zh": "由於市場狀況，這家公司決定擱置合併計畫。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "postpone",
+        "noteZh": "延後"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "shelf",
+        "partOfSpeech": "noun",
+        "meaningZh": "架子；擱板"
       }
     ],
     "tags": [
@@ -659,14 +888,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "postpone",
-        "noteZh": "延後"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_shepherd",
@@ -680,23 +902,33 @@
       {
         "id": "s_shepherd_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "a person who takes care of and guides a flock of sheep",
         "definitionZh": "牧羊人",
         "usageExplanationZh": "字面指看管羊群的人；也可作動詞 shepherd sb through sth，比喻指引導、帶領某人完成某事。",
-        "examples": [
-          {
-            "en": "The shepherd led his flock down from the mountain before the storm.",
-            "zh": "這位牧羊人在暴風雨來臨前把羊群趕下山。"
-          }
+        "grammarPatterns": [
+          "a shepherd tends + noun",
+          "a shepherd and his flock"
         ],
         "collocations": [
           {
             "text": "a shepherd and his flock",
             "meaningZh": "牧羊人和他的羊群"
           }
+        ],
+        "examples": [
+          {
+            "en": "The shepherd led his flock down from the mountain before the storm.",
+            "zh": "這位牧羊人在暴風雨來臨前把羊群趕下山。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -708,9 +940,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sheriff",
@@ -724,23 +954,32 @@
       {
         "id": "s_sheriff_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "the chief law enforcement officer of a county, especially in the United States",
         "definitionZh": "郡治安官",
         "usageExplanationZh": "美式用語，指美國郡級的最高執法官員，與 police officer 不同層級。",
-        "examples": [
-          {
-            "en": "The sheriff organized a search party for the missing hiker.",
-            "zh": "這位治安官組織了一支搜救隊尋找失蹤的健行者。"
-          }
+        "grammarPatterns": [
+          "the sheriff of + noun",
+          "a deputy sheriff"
         ],
         "collocations": [
           {
             "text": "a county sheriff",
             "meaningZh": "郡治安官"
           }
+        ],
+        "examples": [
+          {
+            "en": "The sheriff organized a search party for the missing hiker.",
+            "zh": "這位治安官組織了一支搜救隊尋找失蹤的健行者。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -751,9 +990,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_shield",
@@ -767,23 +1004,38 @@
       {
         "id": "s_shield_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a protective covering carried to defend against attack, or something that provides protection",
         "definitionZh": "盾牌；防護物",
         "usageExplanationZh": "字面指士兵持有的防禦裝備；比喻指任何提供保護的事物，如 a shield against criticism。",
-        "examples": [
-          {
-            "en": "The riot police used shields to protect themselves from the crowd.",
-            "zh": "鎮暴警察用盾牌保護自己免受群眾攻擊。"
-          }
+        "grammarPatterns": [
+          "a shield against + noun",
+          "use sth as a shield",
+          "raise a shield"
         ],
         "collocations": [
           {
             "text": "a protective shield",
             "meaningZh": "防護罩"
           }
+        ],
+        "examples": [
+          {
+            "en": "The riot police used shields to protect themselves from the crowd.",
+            "zh": "鎮暴警察用盾牌保護自己免受群眾攻擊。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "protection",
+        "noteZh": "防護物義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -796,14 +1048,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "protection",
-        "noteZh": "防護物義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_shift",
@@ -817,14 +1062,17 @@
       {
         "id": "s_shift_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "a change in position, direction, or condition, or a scheduled period of work",
         "definitionZh": "轉變；輪班",
         "usageExplanationZh": "常見 shift in policy（政策轉變）、night shift（夜班），依語境判斷抽象變化或工作班次。",
-        "examples": [
-          {
-            "en": "She works the night shift at the hospital.",
-            "zh": "她在醫院值夜班。"
-          }
+        "grammarPatterns": [
+          "a shift in + noun",
+          "work the night shift",
+          "a shift from A to B"
         ],
         "collocations": [
           {
@@ -835,9 +1083,22 @@
             "text": "a shift in attitude",
             "meaningZh": "態度的轉變"
           }
+        ],
+        "examples": [
+          {
+            "en": "She works the night shift at the hospital.",
+            "zh": "她在醫院值夜班。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "change",
+        "noteZh": "轉變義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -849,14 +1110,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "change",
-        "noteZh": "轉變義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_shimmer",
@@ -870,23 +1124,37 @@
       {
         "id": "s_shimmer_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "literary"
+        ],
         "definitionEn": "to shine with a soft, faint, and flickering light",
         "definitionZh": "閃爍；微微發光",
         "usageExplanationZh": "常見 shimmer in the sunlight，形容光線柔和而不穩定地閃動，常用於描述水面、絲綢等。",
-        "examples": [
-          {
-            "en": "The lake shimmered under the moonlight.",
-            "zh": "湖水在月光下微微閃爍。"
-          }
+        "grammarPatterns": [
+          "shimmer in + noun",
+          "shimmer with + noun"
         ],
         "collocations": [
           {
             "text": "shimmer in the sunlight",
             "meaningZh": "在陽光下閃爍"
           }
+        ],
+        "examples": [
+          {
+            "en": "The lake shimmered under the moonlight.",
+            "zh": "湖水在月光下微微閃爍。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "gleam",
+        "noteZh": "微微發光"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -898,14 +1166,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "gleam",
-        "noteZh": "微微發光"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_shiny",
@@ -919,21 +1180,52 @@
       {
         "id": "s_shiny_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "reflecting light because smooth, polished, or new",
         "definitionZh": "光亮的；有光澤的",
         "usageExplanationZh": "常修飾 surface、hair、shoes，形容表面因光滑或拋光而反光。",
-        "examples": [
-          {
-            "en": "He polished his shoes until they were shiny.",
-            "zh": "他把鞋子擦得閃閃發亮。"
-          }
+        "grammarPatterns": [
+          "a shiny + noun",
+          "polish sth until it is shiny"
         ],
         "collocations": [
           {
             "text": "shiny black shoes",
             "meaningZh": "亮黑色的鞋子"
           }
+        ],
+        "examples": [
+          {
+            "en": "He polished his shoes until they were shiny.",
+            "zh": "他把鞋子擦得閃閃發亮。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "glossy",
+        "noteZh": "有光澤的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "dull",
+        "noteZh": "無光澤的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "shine",
+        "partOfSpeech": "verb",
+        "meaningZh": "發光；照耀"
+      },
+      {
+        "lemma": "shininess",
+        "partOfSpeech": "noun",
+        "meaningZh": "光亮；光澤"
       }
     ],
     "tags": [
@@ -946,19 +1238,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "glossy",
-        "noteZh": "有光澤的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "dull",
-        "noteZh": "無光澤的"
-      }
-    ]
+    }
   },
   {
     "id": "w_shiver",
@@ -972,21 +1252,43 @@
       {
         "id": "s_shiver_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "to shake slightly, usually because of cold or fear",
         "definitionZh": "顫抖；哆嗦",
         "usageExplanationZh": "常見 shiver with cold/fear，強調身體因寒冷或恐懼而微微發抖。",
-        "examples": [
-          {
-            "en": "She shivered in the cold wind while waiting for the bus.",
-            "zh": "她在寒風中等公車時冷得直發抖。"
-          }
+        "grammarPatterns": [
+          "shiver with + noun",
+          "shiver in + noun"
         ],
         "collocations": [
           {
             "text": "shiver with cold",
             "meaningZh": "冷得發抖"
           }
+        ],
+        "examples": [
+          {
+            "en": "She shivered in the cold wind while waiting for the bus.",
+            "zh": "她在寒風中等公車時冷得直發抖。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "tremble",
+        "noteZh": "顫抖"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "shivery",
+        "partOfSpeech": "adjective",
+        "meaningZh": "顫抖的；發冷的"
       }
     ],
     "tags": [
@@ -999,14 +1301,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "tremble",
-        "noteZh": "顫抖"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_shock",
@@ -1020,21 +1315,43 @@
       {
         "id": "s_shock_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a sudden and unpleasant feeling of surprise, or a serious medical condition caused by injury or trauma",
         "definitionZh": "震驚；休克",
         "usageExplanationZh": "常見 in shock、come as a shock，也可指醫學上因創傷導致的生理危急狀態。",
-        "examples": [
-          {
-            "en": "The news came as a great shock to everyone.",
-            "zh": "這個消息讓每個人都感到十分震驚。"
-          }
+        "grammarPatterns": [
+          "come as a shock to + sb",
+          "a shock to + noun",
+          "be in shock"
         ],
         "collocations": [
           {
             "text": "in a state of shock",
             "meaningZh": "處於震驚或休克狀態"
           }
+        ],
+        "examples": [
+          {
+            "en": "The news came as a great shock to everyone.",
+            "zh": "這個消息讓每個人都感到十分震驚。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "astonishment",
+        "noteZh": "震驚義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "shocking",
+        "partOfSpeech": "adjective",
+        "meaningZh": "令人震驚的"
       }
     ],
     "tags": [
@@ -1048,14 +1365,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "astonishment",
-        "noteZh": "震驚義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_shore",
@@ -1069,21 +1379,44 @@
       {
         "id": "s_shore_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "the land along the edge of the sea, a lake, or another large body of water",
         "definitionZh": "海岸；岸邊",
         "usageExplanationZh": "常見 on shore、along the shore，指陸地與水域交界的地帶。",
-        "examples": [
-          {
-            "en": "They walked along the shore collecting seashells.",
-            "zh": "他們沿著海岸邊走邊撿貝殼。"
-          }
+        "grammarPatterns": [
+          "on the shore",
+          "along the shore",
+          "the shore of + noun"
         ],
         "collocations": [
           {
             "text": "on the shore",
             "meaningZh": "在岸邊"
           }
+        ],
+        "examples": [
+          {
+            "en": "They walked along the shore collecting seashells.",
+            "zh": "他們沿著海岸邊走邊撿貝殼。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "coast",
+        "noteZh": "海岸義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "offshore",
+        "partOfSpeech": "adjective",
+        "meaningZh": "離岸的；海外的"
       }
     ],
     "tags": [
@@ -1096,14 +1429,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "coast",
-        "noteZh": "海岸義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_shortage",
@@ -1117,21 +1443,54 @@
       {
         "id": "s_shortage_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "academic"
+        ],
         "definitionEn": "a situation in which there is not enough of something that is needed",
         "definitionZh": "短缺；不足",
         "usageExplanationZh": "常見 labor shortage、water shortage，強調需求與供給間的落差。",
-        "examples": [
-          {
-            "en": "The factory is facing a serious shortage of raw materials.",
-            "zh": "這家工廠正面臨嚴重的原料短缺問題。"
-          }
+        "grammarPatterns": [
+          "a shortage of + noun",
+          "face a shortage",
+          "a severe shortage"
         ],
         "collocations": [
           {
             "text": "a shortage of water",
             "meaningZh": "缺水"
           }
+        ],
+        "examples": [
+          {
+            "en": "The factory is facing a serious shortage of raw materials.",
+            "zh": "這家工廠正面臨嚴重的原料短缺問題。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "scarcity",
+        "noteZh": "缺乏"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "surplus",
+        "noteZh": "過剩"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "short",
+        "partOfSpeech": "adjective",
+        "meaningZh": "短缺的；不足的"
+      },
+      {
+        "lemma": "shorten",
+        "partOfSpeech": "verb",
+        "meaningZh": "縮短"
       }
     ],
     "tags": [
@@ -1145,19 +1504,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "scarcity",
-        "noteZh": "缺乏"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "surplus",
-        "noteZh": "過剩"
-      }
-    ]
+    }
   },
   {
     "id": "w_shove",
@@ -1171,21 +1518,42 @@
       {
         "id": "s_shove_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "to push someone or something roughly and carelessly",
         "definitionZh": "用力推；猛推",
         "usageExplanationZh": "常見 shove sb aside，強調動作粗魯、缺乏禮貌的推擠。",
-        "examples": [
-          {
-            "en": "He shoved his way through the crowded subway car.",
-            "zh": "他在擁擠的地鐵車廂裡推擠著前進。"
-          }
+        "grammarPatterns": [
+          "shove + noun",
+          "shove sb into + noun",
+          "shove one's way through + noun"
         ],
         "collocations": [
           {
             "text": "shove someone aside",
             "meaningZh": "把某人用力推到一旁"
           }
+        ],
+        "examples": [
+          {
+            "en": "He shoved his way through the crowded subway car.",
+            "zh": "他在擁擠的地鐵車廂裡推擠著前進。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "push",
+        "noteZh": "推，語氣較弱"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "pull",
+        "noteZh": "拉"
       }
     ],
     "tags": [
@@ -1199,19 +1567,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "push",
-        "noteZh": "推，語氣較弱"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "pull",
-        "noteZh": "拉"
-      }
-    ]
+    }
   },
   {
     "id": "w_shred",
@@ -1225,21 +1581,43 @@
       {
         "id": "s_shred_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a very small piece or amount of something",
         "definitionZh": "碎片；一絲一毫",
         "usageExplanationZh": "常見 not a shred of evidence（沒有一絲證據），強調數量極少甚至幾乎不存在。",
-        "examples": [
-          {
-            "en": "There wasn't a shred of evidence to support his claim.",
-            "zh": "沒有一絲證據能支持他的說法。"
-          }
+        "grammarPatterns": [
+          "a shred of + noun",
+          "not a shred of evidence",
+          "tear sth to shreds"
         ],
         "collocations": [
           {
             "text": "a shred of evidence",
             "meaningZh": "一絲證據"
           }
+        ],
+        "examples": [
+          {
+            "en": "There wasn't a shred of evidence to support his claim.",
+            "zh": "沒有一絲證據能支持他的說法。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "scrap",
+        "noteZh": "碎片"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "shredder",
+        "partOfSpeech": "noun",
+        "meaningZh": "碎紙機"
       }
     ],
     "tags": [
@@ -1254,14 +1632,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "scrap",
-        "noteZh": "碎片"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_shrewd",
@@ -1275,21 +1646,53 @@
       {
         "id": "s_shrewd_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "having sharp judgment, especially in practical or business matters",
         "definitionZh": "精明的；老練的",
         "usageExplanationZh": "常修飾 businessman、investor，強調在實務或利益判斷上頭腦清楚、精於算計。",
-        "examples": [
-          {
-            "en": "She is a shrewd negotiator who rarely loses a deal.",
-            "zh": "她是位精明的談判高手，很少在交易中吃虧。"
-          }
+        "grammarPatterns": [
+          "a shrewd + noun",
+          "a shrewd judge of + noun"
         ],
         "collocations": [
           {
             "text": "a shrewd investment",
             "meaningZh": "精明的投資"
           }
+        ],
+        "examples": [
+          {
+            "en": "She is a shrewd negotiator who rarely loses a deal.",
+            "zh": "她是位精明的談判高手，很少在交易中吃虧。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "astute",
+        "noteZh": "精明的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "naive",
+        "noteZh": "天真的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "shrewdness",
+        "partOfSpeech": "noun",
+        "meaningZh": "精明；老練"
+      },
+      {
+        "lemma": "shrewdly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "精明地"
       }
     ],
     "tags": [
@@ -1304,19 +1707,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "astute",
-        "noteZh": "精明的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "naive",
-        "noteZh": "天真的"
-      }
-    ]
+    }
   },
   {
     "id": "w_shriek",
@@ -1330,23 +1721,38 @@
       {
         "id": "s_shriek_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "to make a loud, high-pitched cry, especially from fear, pain, or excitement",
         "definitionZh": "尖叫",
         "usageExplanationZh": "常見 shriek in terror/delight，強調突發、尖銳的高聲叫喊。",
-        "examples": [
-          {
-            "en": "The children shrieked with delight on the roller coaster.",
-            "zh": "孩子們在雲霄飛車上興奮地尖叫。"
-          }
+        "grammarPatterns": [
+          "shriek with + noun",
+          "shriek in + noun"
         ],
         "collocations": [
           {
             "text": "shriek with fear",
             "meaningZh": "嚇得尖叫"
           }
+        ],
+        "examples": [
+          {
+            "en": "The children shrieked with delight on the roller coaster.",
+            "zh": "孩子們在雲霄飛車上興奮地尖叫。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "scream",
+        "noteZh": "尖叫"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1358,14 +1764,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "scream",
-        "noteZh": "尖叫"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_shrimp",
@@ -1379,23 +1778,37 @@
       {
         "id": "s_shrimp_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a small edible shellfish with a long tail and many legs",
         "definitionZh": "蝦",
         "usageExplanationZh": "常見於料理語境，如 shrimp cocktail、fried shrimp，指這種常見的甲殼類海鮮。",
-        "examples": [
-          {
-            "en": "The chef grilled the shrimp with garlic and butter.",
-            "zh": "主廚用大蒜和奶油烤了這些蝦子。"
-          }
+        "grammarPatterns": [
+          "grilled shrimp",
+          "a plate of shrimp"
         ],
         "collocations": [
           {
             "text": "grilled shrimp",
             "meaningZh": "烤蝦"
           }
+        ],
+        "examples": [
+          {
+            "en": "The chef grilled the shrimp with garlic and butter.",
+            "zh": "主廚用大蒜和奶油烤了這些蝦子。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "prawn",
+        "noteZh": "蝦，地域用語與物種涵蓋有差異"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -1406,14 +1819,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "prawn",
-        "noteZh": "蝦，地域用語與物種涵蓋有差異"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_shrine",
@@ -1427,21 +1833,43 @@
       {
         "id": "s_shrine_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a place considered holy because of its association with a sacred person or object",
         "definitionZh": "聖地；神龕",
         "usageExplanationZh": "常見於宗教語境，如 a shrine to a saint，指供奉神明或紀念聖者的場所。",
-        "examples": [
-          {
-            "en": "Pilgrims travel from far away to visit the ancient shrine.",
-            "zh": "朝聖者從遠方前來造訪這座古老的聖地。"
-          }
+        "grammarPatterns": [
+          "a shrine to + noun",
+          "visit a shrine",
+          "an ancient shrine"
         ],
         "collocations": [
           {
             "text": "a sacred shrine",
             "meaningZh": "神聖的祭祀場所"
           }
+        ],
+        "examples": [
+          {
+            "en": "Pilgrims travel from far away to visit the ancient shrine.",
+            "zh": "朝聖者從遠方前來造訪這座古老的聖地。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "sanctuary",
+        "noteZh": "宗教聖地"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "enshrine",
+        "partOfSpeech": "verb",
+        "meaningZh": "供奉；奉為圭臬"
       }
     ],
     "tags": [
@@ -1454,14 +1882,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "sanctuary",
-        "noteZh": "宗教聖地"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_shrink",
@@ -1475,21 +1896,49 @@
       {
         "id": "s_shrink_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "to become or make smaller in size, amount, or value",
         "definitionZh": "收縮；縮小",
         "usageExplanationZh": "常見 shrink in the wash（洗後縮水），也可比喻指經濟規模、市場等縮減。",
-        "examples": [
-          {
-            "en": "The sweater shrank after being washed in hot water.",
-            "zh": "這件毛衣用熱水洗過後縮水了。"
-          }
+        "grammarPatterns": [
+          "shrink to + noun",
+          "shrink by + number",
+          "shrink in size"
         ],
         "collocations": [
           {
             "text": "shrink in the wash",
             "meaningZh": "洗後縮水"
           }
+        ],
+        "examples": [
+          {
+            "en": "The sweater shrank after being washed in hot water.",
+            "zh": "這件毛衣用熱水洗過後縮水了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "contract",
+        "noteZh": "收縮"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "expand",
+        "noteZh": "擴張"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "shrinkage",
+        "partOfSpeech": "noun",
+        "meaningZh": "收縮；縮水"
       }
     ],
     "tags": [
@@ -1504,19 +1953,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "contract",
-        "noteZh": "收縮"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "expand",
-        "noteZh": "擴張"
-      }
-    ]
+    }
   },
   {
     "id": "w_shroud",
@@ -1530,23 +1967,38 @@
       {
         "id": "s_shroud_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "to cover or hide something completely, making it difficult to see or understand",
         "definitionZh": "籠罩；掩蓋",
         "usageExplanationZh": "常見 shrouded in mystery/secrecy，強調事物被神秘或不明的氣氛所包圍。",
-        "examples": [
-          {
-            "en": "The mountain peak was shrouded in mist all morning.",
-            "zh": "整個早上山頂都被薄霧籠罩著。"
-          }
+        "grammarPatterns": [
+          "be shrouded in + noun",
+          "shroud + noun"
         ],
         "collocations": [
           {
             "text": "be shrouded in mystery",
             "meaningZh": "籠罩在謎團中"
           }
+        ],
+        "examples": [
+          {
+            "en": "The mountain peak was shrouded in mist all morning.",
+            "zh": "整個早上山頂都被薄霧籠罩著。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "veil",
+        "noteZh": "遮蔽"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1557,14 +2009,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "veil",
-        "noteZh": "遮蔽"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_shrub",
@@ -1578,21 +2023,43 @@
       {
         "id": "s_shrub_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a woody plant that is smaller than a tree and has several stems",
         "definitionZh": "灌木",
         "usageExplanationZh": "常見於園藝語境，如 trim the shrubs，指比樹矮小、多分枝的木本植物。",
-        "examples": [
-          {
-            "en": "The garden is lined with neatly trimmed shrubs.",
-            "zh": "這座花園兩側種著修剪整齊的灌木。"
-          }
+        "grammarPatterns": [
+          "a flowering shrub",
+          "plant a shrub"
         ],
         "collocations": [
           {
             "text": "an evergreen shrub",
             "meaningZh": "常綠灌木"
           }
+        ],
+        "examples": [
+          {
+            "en": "The garden is lined with neatly trimmed shrubs.",
+            "zh": "這座花園兩側種著修剪整齊的灌木。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "bush",
+        "noteZh": "灌木"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "shrubbery",
+        "partOfSpeech": "noun",
+        "meaningZh": "灌木叢"
       }
     ],
     "tags": [
@@ -1607,14 +2074,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "bush",
-        "noteZh": "灌木"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_shrug",
@@ -1628,14 +2088,17 @@
       {
         "id": "s_shrug_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "spoken"
+        ],
         "definitionEn": "to raise your shoulders slightly to show you do not know or do not care about something",
         "definitionZh": "聳肩",
         "usageExplanationZh": "常見 shrug one's shoulders、shrug off（不予理會），表達不在乎或不確定的態度。",
-        "examples": [
-          {
-            "en": "She just shrugged when asked about her plans.",
-            "zh": "被問到她的計畫時，她只是聳了聳肩。"
-          }
+        "grammarPatterns": [
+          "shrug one's shoulders",
+          "just shrug",
+          "shrug and + verb"
         ],
         "collocations": [
           {
@@ -1646,9 +2109,17 @@
             "text": "shrug off criticism",
             "meaningZh": "對批評不以為意"
           }
+        ],
+        "examples": [
+          {
+            "en": "She just shrugged when asked about her plans.",
+            "zh": "被問到她的計畫時，她只是聳了聳肩。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -1660,9 +2131,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_shun",
@@ -1676,21 +2145,41 @@
       {
         "id": "s_shun_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to deliberately avoid someone or something",
         "definitionZh": "迴避；躲避",
         "usageExplanationZh": "常見 shun publicity、be shunned by，強調刻意疏遠或不與某人事物往來。",
-        "examples": [
-          {
-            "en": "After the scandal, he was shunned by his former colleagues.",
-            "zh": "醜聞爆發後，他被以前的同事所迴避。"
-          }
+        "grammarPatterns": [
+          "shun + noun",
+          "be shunned by + sb"
         ],
         "collocations": [
           {
             "text": "shun publicity",
             "meaningZh": "避開公眾關注"
           }
+        ],
+        "examples": [
+          {
+            "en": "After the scandal, he was shunned by his former colleagues.",
+            "zh": "醜聞爆發後，他被以前的同事所迴避。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "avoid",
+        "noteZh": "避開"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "embrace",
+        "noteZh": "欣然接受"
       }
     ],
     "tags": [
@@ -1704,19 +2193,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "avoid",
-        "noteZh": "避開"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "embrace",
-        "noteZh": "欣然接受"
-      }
-    ]
+    }
   },
   {
     "id": "w_shunt",
@@ -1730,23 +2207,38 @@
       {
         "id": "s_shunt_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to move someone or something to a different, usually less important, place or position",
         "definitionZh": "轉移；使改道",
         "usageExplanationZh": "常見於鐵路（將列車轉軌）或比喻用法，指把人或事物排擠到次要位置。",
-        "examples": [
-          {
-            "en": "The old files were shunted off to a storage room.",
-            "zh": "那些舊檔案被轉移到儲藏室裡。"
-          }
+        "grammarPatterns": [
+          "shunt sb off to + noun",
+          "be shunted aside"
         ],
         "collocations": [
           {
             "text": "shunt traffic onto a side road",
             "meaningZh": "把車流引向側路"
           }
+        ],
+        "examples": [
+          {
+            "en": "The old files were shunted off to a storage room.",
+            "zh": "那些舊檔案被轉移到儲藏室裡。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "divert",
+        "noteZh": "使改道"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1757,14 +2249,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "divert",
-        "noteZh": "使改道"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_shuttle",
@@ -1778,23 +2263,39 @@
       {
         "id": "s_shuttle_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "a vehicle that travels regularly back and forth over a short distance between two places",
         "definitionZh": "接駁車；穿梭巴士",
         "usageExplanationZh": "常見 airport shuttle，指往返固定路線的交通工具，強調頻繁往返的特性。",
-        "examples": [
-          {
-            "en": "We took a shuttle from the hotel to the airport.",
-            "zh": "我們搭乘接駁車從飯店前往機場。"
-          }
+        "grammarPatterns": [
+          "take a shuttle to + noun",
+          "a shuttle between A and B",
+          "a shuttle + noun"
         ],
         "collocations": [
           {
             "text": "an airport shuttle",
             "meaningZh": "機場接駁車"
           }
+        ],
+        "examples": [
+          {
+            "en": "We took a shuttle from the hotel to the airport.",
+            "zh": "我們搭乘接駁車從飯店前往機場。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "shuttle bus",
+        "noteZh": "接駁巴士"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1807,14 +2308,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "shuttle bus",
-        "noteZh": "接駁巴士"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sibling",
@@ -1828,23 +2322,34 @@
       {
         "id": "s_sibling_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "neutral"
+        ],
         "definitionEn": "a person's brother or sister",
         "definitionZh": "手足；兄弟姊妹",
         "usageExplanationZh": "正式或學術用語，常見 sibling rivalry（手足競爭），泛指兄弟姊妹關係，不分性別。",
-        "examples": [
-          {
-            "en": "Sibling rivalry is common among children close in age.",
-            "zh": "年齡相近的孩子之間常見手足競爭。"
-          }
+        "grammarPatterns": [
+          "an older sibling",
+          "sibling rivalry",
+          "sb's siblings"
         ],
         "collocations": [
           {
             "text": "sibling rivalry",
             "meaningZh": "手足間的競爭"
           }
+        ],
+        "examples": [
+          {
+            "en": "Sibling rivalry is common among children close in age.",
+            "zh": "年齡相近的孩子之間常見手足競爭。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1855,9 +2360,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sickness",
@@ -1871,21 +2374,58 @@
       {
         "id": "s_sickness_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "the state of being ill, or a particular illness",
         "definitionZh": "疾病；生病",
         "usageExplanationZh": "常見 morning sickness（孕吐）、motion sickness（暈車），泛指身體不適的狀態。",
-        "examples": [
-          {
-            "en": "She took a few days off work due to sickness.",
-            "zh": "她因為生病請了幾天假。"
-          }
+        "grammarPatterns": [
+          "suffer from sickness",
+          "due to sickness",
+          "a sickness that + clause"
         ],
         "collocations": [
           {
             "text": "motion sickness",
             "meaningZh": "暈動症"
           }
+        ],
+        "examples": [
+          {
+            "en": "She took a few days off work due to sickness.",
+            "zh": "她因為生病請了幾天假。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "illness",
+        "noteZh": "疾病"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "health",
+        "noteZh": "健康"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "sick",
+        "partOfSpeech": "adjective",
+        "meaningZh": "生病的；不適的"
+      },
+      {
+        "lemma": "sicken",
+        "partOfSpeech": "verb",
+        "meaningZh": "使作嘔；生病"
+      },
+      {
+        "lemma": "sickly",
+        "partOfSpeech": "adjective",
+        "meaningZh": "病弱的"
       }
     ],
     "tags": [
@@ -1899,19 +2439,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "illness",
-        "noteZh": "疾病"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "health",
-        "noteZh": "健康"
-      }
-    ]
+    }
   },
   {
     "id": "w_siege",
@@ -1925,21 +2453,44 @@
       {
         "id": "s_siege_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a military operation in which enemy forces surround a place to cut off supplies and force surrender",
         "definitionZh": "圍攻；圍城",
         "usageExplanationZh": "常見 under siege，也可比喻指持續遭受壓力或攻擊的情況。",
-        "examples": [
-          {
-            "en": "The castle withstood a siege that lasted for months.",
-            "zh": "這座城堡撐過了長達數月的圍攻。"
-          }
+        "grammarPatterns": [
+          "lay siege to + noun",
+          "under siege",
+          "withstand a siege"
         ],
         "collocations": [
           {
             "text": "under siege",
             "meaningZh": "遭到圍攻"
           }
+        ],
+        "examples": [
+          {
+            "en": "The castle withstood a siege that lasted for months.",
+            "zh": "這座城堡撐過了長達數月的圍攻。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "blockade",
+        "noteZh": "封鎖，範圍較廣"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "besiege",
+        "partOfSpeech": "verb",
+        "meaningZh": "圍攻；困擾"
       }
     ],
     "tags": [
@@ -1954,14 +2505,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "blockade",
-        "noteZh": "封鎖，範圍較廣"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sigh",
@@ -1975,23 +2519,34 @@
       {
         "id": "s_sigh_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "a long, deep breath that shows feelings such as sadness, relief, or tiredness",
         "definitionZh": "嘆息；嘆氣",
         "usageExplanationZh": "常見 heave a sigh of relief（鬆了一口氣），也可作動詞 sigh，強調透過呼吸表達情緒。",
-        "examples": [
-          {
-            "en": "She let out a sigh of relief when the test results came back normal.",
-            "zh": "檢查結果正常時，她鬆了一口氣。"
-          }
+        "grammarPatterns": [
+          "a sigh of relief",
+          "let out a sigh",
+          "with a sigh"
         ],
         "collocations": [
           {
             "text": "a sigh of relief",
             "meaningZh": "鬆了一口氣的嘆息"
           }
+        ],
+        "examples": [
+          {
+            "en": "She let out a sigh of relief when the test results came back normal.",
+            "zh": "檢查結果正常時，她鬆了一口氣。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2003,9 +2558,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_signal",
@@ -2019,23 +2572,39 @@
       {
         "id": "s_signal_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a sign, gesture, or sound that conveys information or gives instruction",
         "definitionZh": "訊號；信號",
         "usageExplanationZh": "常見 traffic signal、warning signal，也可作動詞 signal，指發出訊號傳達訊息。",
-        "examples": [
-          {
-            "en": "The captain gave a signal for the ship to depart.",
-            "zh": "船長發出訊號，讓船隻出發。"
-          }
+        "grammarPatterns": [
+          "give a signal",
+          "a signal to + V",
+          "a signal for + noun"
         ],
         "collocations": [
           {
             "text": "a warning signal",
             "meaningZh": "警告訊號"
           }
+        ],
+        "examples": [
+          {
+            "en": "The captain gave a signal for the ship to depart.",
+            "zh": "船長發出訊號，讓船隻出發。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "sign",
+        "noteZh": "指示的跡象"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -2047,14 +2616,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "sign",
-        "noteZh": "指示的跡象"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_signature",
@@ -2068,21 +2630,49 @@
       {
         "id": "s_signature_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "a person's name written by their own hand, especially to confirm identity or agreement",
         "definitionZh": "簽名",
         "usageExplanationZh": "常見 sign your signature、a signature dish（招牌菜），後者為比喻用法，指代表性特徵。",
-        "examples": [
-          {
-            "en": "Please provide your signature at the bottom of the contract.",
-            "zh": "請在合約底部簽名。"
-          }
+        "grammarPatterns": [
+          "put one's signature on + noun",
+          "require a signature",
+          "provide a signature"
         ],
         "collocations": [
           {
             "text": "a digital signature",
             "meaningZh": "數位簽章"
           }
+        ],
+        "examples": [
+          {
+            "en": "Please provide your signature at the bottom of the contract.",
+            "zh": "請在合約底部簽名。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "autograph",
+        "noteZh": "親筆簽名"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "sign",
+        "partOfSpeech": "verb",
+        "meaningZh": "簽署；簽名"
+      },
+      {
+        "lemma": "signatory",
+        "partOfSpeech": "noun",
+        "meaningZh": "簽署者；簽約方"
       }
     ],
     "tags": [
@@ -2097,14 +2687,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "autograph",
-        "noteZh": "親筆簽名"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_significance",
@@ -2118,21 +2701,59 @@
       {
         "id": "s_significance_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "the importance or meaning of something",
         "definitionZh": "重要性；意義",
         "usageExplanationZh": "常見 historical significance、of great significance，強調某事物在背景脈絡中的重要程度。",
-        "examples": [
-          {
-            "en": "The discovery had great significance for medical research.",
-            "zh": "這項發現對醫學研究具有重大意義。"
-          }
+        "grammarPatterns": [
+          "the significance of + noun",
+          "of great significance",
+          "have significance for + noun"
         ],
         "collocations": [
           {
             "text": "statistical significance",
             "meaningZh": "統計顯著性"
           }
+        ],
+        "examples": [
+          {
+            "en": "The discovery had great significance for medical research.",
+            "zh": "這項發現對醫學研究具有重大意義。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "importance",
+        "noteZh": "重要性"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "insignificance",
+        "noteZh": "不重要"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "significant",
+        "partOfSpeech": "adjective",
+        "meaningZh": "重大的；顯著的"
+      },
+      {
+        "lemma": "signify",
+        "partOfSpeech": "verb",
+        "meaningZh": "表示；意味著"
+      },
+      {
+        "lemma": "insignificance",
+        "partOfSpeech": "noun",
+        "meaningZh": "微不足道"
       }
     ],
     "tags": [
@@ -2145,19 +2766,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "importance",
-        "noteZh": "重要性"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "insignificance",
-        "noteZh": "不重要"
-      }
-    ]
+    }
   },
   {
     "id": "w_signify",
@@ -2171,21 +2780,53 @@
       {
         "id": "s_signify_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to be a sign of something, or to indicate or show a meaning",
         "definitionZh": "表示；意味著",
         "usageExplanationZh": "正式用語，常見 signify a change/agreement，強調某事物象徵或代表特定意義。",
-        "examples": [
-          {
-            "en": "A red flag signifies danger in this context.",
-            "zh": "在這種情境下，紅旗代表危險。"
-          }
+        "grammarPatterns": [
+          "signify + noun",
+          "signify that + clause"
         ],
         "collocations": [
           {
             "text": "signify approval",
             "meaningZh": "表示贊同"
           }
+        ],
+        "examples": [
+          {
+            "en": "A red flag signifies danger in this context.",
+            "zh": "在這種情境下，紅旗代表危險。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "indicate",
+        "noteZh": "表示"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "significance",
+        "partOfSpeech": "noun",
+        "meaningZh": "重要性；意義"
+      },
+      {
+        "lemma": "significant",
+        "partOfSpeech": "adjective",
+        "meaningZh": "重要的"
+      },
+      {
+        "lemma": "signification",
+        "partOfSpeech": "noun",
+        "meaningZh": "含義；表示"
       }
     ],
     "tags": [
@@ -2200,14 +2841,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "indicate",
-        "noteZh": "表示"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_simplicity",
@@ -2221,21 +2855,59 @@
       {
         "id": "s_simplicity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "the quality of being easy to understand or use, without unnecessary complexity",
         "definitionZh": "簡單；簡樸",
         "usageExplanationZh": "常見 for simplicity、simplicity of design，強調不繁瑣、易於理解或操作的特質。",
-        "examples": [
-          {
-            "en": "The beauty of this design lies in its simplicity.",
-            "zh": "這項設計的美就在於它的簡約。"
-          }
+        "grammarPatterns": [
+          "the simplicity of + noun",
+          "for the sake of simplicity",
+          "lie in its simplicity"
         ],
         "collocations": [
           {
             "text": "for the sake of simplicity",
             "meaningZh": "為了簡化起見"
           }
+        ],
+        "examples": [
+          {
+            "en": "The beauty of this design lies in its simplicity.",
+            "zh": "這項設計的美就在於它的簡約。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "plainness",
+        "noteZh": "簡樸義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "complexity",
+        "noteZh": "複雜性"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "simple",
+        "partOfSpeech": "adjective",
+        "meaningZh": "簡單的"
+      },
+      {
+        "lemma": "simplify",
+        "partOfSpeech": "verb",
+        "meaningZh": "簡化"
+      },
+      {
+        "lemma": "simplistic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "過於簡化的"
       }
     ],
     "tags": [
@@ -2248,19 +2920,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "plainness",
-        "noteZh": "簡樸義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "complexity",
-        "noteZh": "複雜性"
-      }
-    ]
+    }
   },
   {
     "id": "w_simultaneously",
@@ -2274,21 +2934,54 @@
       {
         "id": "s_simultaneously_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "at the same time as something else",
         "definitionZh": "同時地",
         "usageExplanationZh": "常見 happen simultaneously，強調兩個或多個事件在同一時刻發生。",
-        "examples": [
-          {
-            "en": "The two teams launched their products simultaneously.",
-            "zh": "這兩家公司同時推出了各自的產品。"
-          }
+        "grammarPatterns": [
+          "happen simultaneously",
+          "simultaneously + verb",
+          "simultaneously with + noun"
         ],
         "collocations": [
           {
             "text": "occur simultaneously",
             "meaningZh": "同時發生"
           }
+        ],
+        "examples": [
+          {
+            "en": "The two teams launched their products simultaneously.",
+            "zh": "這兩家公司同時推出了各自的產品。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "concurrently",
+        "noteZh": "同時地"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "sequentially",
+        "noteZh": "依序地"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "simultaneous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "同時的"
+      },
+      {
+        "lemma": "simultaneity",
+        "partOfSpeech": "noun",
+        "meaningZh": "同時性"
       }
     ],
     "tags": [
@@ -2301,19 +2994,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "concurrently",
-        "noteZh": "同時地"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "sequentially",
-        "noteZh": "依序地"
-      }
-    ]
+    }
   },
   {
     "id": "w_singularity",
@@ -2327,14 +3008,16 @@
       {
         "id": "s_singularity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "the quality of being unusual or remarkable, or a point at which normal rules do not apply",
         "definitionZh": "獨特性；奇異點",
         "usageExplanationZh": "日常用語指與眾不同的特質；科學語境（黑洞、人工智慧）則指特殊的臨界點。",
-        "examples": [
-          {
-            "en": "Scientists debate when technological singularity might occur.",
-            "zh": "科學家們爭論技術奇異點何時可能發生。"
-          }
+        "grammarPatterns": [
+          "the singularity of + noun",
+          "reach a singularity"
         ],
         "collocations": [
           {
@@ -2345,7 +3028,32 @@
             "text": "a gravitational singularity",
             "meaningZh": "重力奇異點"
           }
+        ],
+        "examples": [
+          {
+            "en": "Scientists debate when technological singularity might occur.",
+            "zh": "科學家們爭論技術奇異點何時可能發生。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "uniqueness",
+        "noteZh": "獨特性義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "singular",
+        "partOfSpeech": "adjective",
+        "meaningZh": "單數的；非凡的"
+      },
+      {
+        "lemma": "singularly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "異常地；非常"
       }
     ],
     "tags": [
@@ -2358,14 +3066,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "uniqueness",
-        "noteZh": "獨特性義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sink",
@@ -2379,21 +3080,48 @@
       {
         "id": "s_sink_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to go down below the surface of a liquid, or to gradually decrease in level or amount",
         "definitionZh": "下沉；下降",
         "usageExplanationZh": "常見 sink to the bottom，也可比喻指士氣、數值等下滑，如 spirits sink。",
-        "examples": [
-          {
-            "en": "The ship began to sink after hitting the iceberg.",
-            "zh": "這艘船撞上冰山後開始下沉。"
-          }
+        "grammarPatterns": [
+          "sink into + noun",
+          "sink to + noun",
+          "sink below + noun"
         ],
         "collocations": [
           {
             "text": "sink to the bottom",
             "meaningZh": "沉到底部"
           }
+        ],
+        "examples": [
+          {
+            "en": "The ship began to sink after hitting the iceberg.",
+            "zh": "這艘船撞上冰山後開始下沉。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "subside",
+        "noteZh": "下沉"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "rise",
+        "noteZh": "上升"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "sunken",
+        "partOfSpeech": "adjective",
+        "meaningZh": "沉沒的；凹陷的"
       }
     ],
     "tags": [
@@ -2407,19 +3135,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "subside",
-        "noteZh": "下沉"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "rise",
-        "noteZh": "上升"
-      }
-    ]
+    }
   },
   {
     "id": "w_skeleton",
@@ -2433,21 +3149,39 @@
       {
         "id": "s_skeleton_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "the structure of bones that supports a body, or the basic framework of something",
         "definitionZh": "骨骼；骨架",
         "usageExplanationZh": "字面指人體或動物的骨骼結構；比喻指計畫、故事等的基本架構，如 skeleton of a plan。",
-        "examples": [
-          {
-            "en": "The museum displays a complete dinosaur skeleton.",
-            "zh": "這座博物館展示了一副完整的恐龍骨骼。"
-          }
+        "grammarPatterns": [
+          "the human skeleton",
+          "the skeleton of + noun",
+          "a skeleton + noun"
         ],
         "collocations": [
           {
             "text": "the human skeleton",
             "meaningZh": "人體骨骼"
           }
+        ],
+        "examples": [
+          {
+            "en": "The museum displays a complete dinosaur skeleton.",
+            "zh": "這座博物館展示了一副完整的恐龍骨骼。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "skeletal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "骨骼的；骨瘦如柴的"
       }
     ],
     "tags": [
@@ -2462,8 +3196,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   }
 ]

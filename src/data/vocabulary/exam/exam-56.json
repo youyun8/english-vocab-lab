@@ -11,14 +11,15 @@
       {
         "id": "s_precocious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "(of a child) having developed abilities or characteristics at an earlier age than usual",
         "definitionZh": "早熟的；（兒童）發展超前的",
         "usageExplanationZh": "常修飾 child、talent，形容孩童在心智或能力上比同齡人發展得更早、更成熟。",
-        "examples": [
-          {
-            "en": "The precocious child could already read at the age of three.",
-            "zh": "那個早熟的孩子三歲就已經會閱讀了。"
-          }
+        "grammarPatterns": [
+          "a precocious + noun",
+          "precocious talent for + noun"
         ],
         "collocations": [
           {
@@ -29,7 +30,32 @@
             "text": "precocious talent",
             "meaningZh": "提早展現的才華"
           }
+        ],
+        "examples": [
+          {
+            "en": "The precocious child could already read at the age of three.",
+            "zh": "那個早熟的孩子三歲就已經會閱讀了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "advanced",
+        "noteZh": "發展程度超前的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "precocity",
+        "partOfSpeech": "noun",
+        "meaningZh": "早熟"
+      },
+      {
+        "lemma": "precociously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "早熟地"
       }
     ],
     "tags": [
@@ -42,14 +68,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "advanced",
-        "noteZh": "發展程度超前的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_predator",
@@ -63,14 +82,17 @@
       {
         "id": "s_predator_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "an animal that hunts other animals for food",
         "definitionZh": "掠食者；捕食動物",
         "usageExplanationZh": "生物學用語，與 prey（獵物）相對，指以捕食其他動物維生的動物。",
-        "examples": [
-          {
-            "en": "Lions are apex predators in the African savanna.",
-            "zh": "獅子是非洲草原上的頂級掠食者。"
-          }
+        "grammarPatterns": [
+          "a + adjective + predator",
+          "natural predators",
+          "predators of + noun"
         ],
         "collocations": [
           {
@@ -81,7 +103,37 @@
             "text": "natural predator",
             "meaningZh": "天敵"
           }
+        ],
+        "examples": [
+          {
+            "en": "Lions are apex predators in the African savanna.",
+            "zh": "獅子是非洲草原上的頂級掠食者。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "hunter",
+        "noteZh": "獵食的動物"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "prey",
+        "noteZh": "被捕食的動物，相對角色"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "predatory",
+        "partOfSpeech": "adjective",
+        "meaningZh": "掠食性的；掠奪的"
+      },
+      {
+        "lemma": "predation",
+        "partOfSpeech": "noun",
+        "meaningZh": "捕食；掠食"
       }
     ],
     "tags": [
@@ -95,19 +147,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "hunter",
-        "noteZh": "獵食的動物"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "prey",
-        "noteZh": "被捕食的動物，相對角色"
-      }
-    ]
+    }
   },
   {
     "id": "w_predecessor",
@@ -121,14 +161,17 @@
       {
         "id": "s_predecessor_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "a person who held a job or position before the current holder",
         "definitionZh": "前任；前輩",
         "usageExplanationZh": "常見 his predecessor（他的前任），指在職位或職務上先於當前人選的人。",
-        "examples": [
-          {
-            "en": "The new CEO praised her predecessor's achievements.",
-            "zh": "新任執行長讚揚了她前任的成就。"
-          }
+        "grammarPatterns": [
+          "one's predecessor",
+          "the predecessor of + noun",
+          "succeed one's predecessor"
         ],
         "collocations": [
           {
@@ -139,7 +182,25 @@
             "text": "follow in a predecessor's footsteps",
             "meaningZh": "追隨前任的腳步"
           }
+        ],
+        "examples": [
+          {
+            "en": "The new CEO praised her predecessor's achievements.",
+            "zh": "新任執行長讚揚了她前任的成就。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "forerunner",
+        "noteZh": "前身或先驅"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "successor",
+        "noteZh": "繼任者"
       }
     ],
     "tags": [
@@ -154,19 +215,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "forerunner",
-        "noteZh": "前身或先驅"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "successor",
-        "noteZh": "繼任者"
-      }
-    ]
+    }
   },
   {
     "id": "w_predicament",
@@ -180,14 +229,16 @@
       {
         "id": "s_predicament_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a difficult or unpleasant situation",
         "definitionZh": "困境；窘境",
         "usageExplanationZh": "常見 be in a predicament（陷入困境），強調處境棘手、難以解決，語氣較 problem 更強烈。",
-        "examples": [
-          {
-            "en": "He found himself in an awkward predicament after losing his wallet.",
-            "zh": "他弄丟錢包後陷入了尷尬的困境。"
-          }
+        "grammarPatterns": [
+          "be in a predicament",
+          "find oneself in a predicament",
+          "a + adjective + predicament"
         ],
         "collocations": [
           {
@@ -198,20 +249,15 @@
             "text": "get out of a predicament",
             "meaningZh": "擺脫困境"
           }
+        ],
+        "examples": [
+          {
+            "en": "He found himself in an awkward predicament after losing his wallet.",
+            "zh": "他弄丟錢包後陷入了尷尬的困境。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "dilemma",
@@ -222,7 +268,18 @@
         "noteZh": "不利處境"
       }
     ],
-    "antonyms": []
+    "antonyms": [],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_predict",
@@ -236,14 +293,17 @@
       {
         "id": "s_predict_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "to say that something will happen in the future, based on evidence or reasoning",
         "definitionZh": "預測；預言",
         "usageExplanationZh": "常接 that 子句或具體事件，如 predict the outcome（預測結果），強調依據證據或推理做出的判斷。",
-        "examples": [
-          {
-            "en": "Experts predict that sales will increase next year.",
-            "zh": "專家預測明年銷售額將會成長。"
-          }
+        "grammarPatterns": [
+          "predict that + clause",
+          "predict + noun",
+          "predict how + clause"
         ],
         "collocations": [
           {
@@ -254,7 +314,41 @@
             "text": "predict the weather",
             "meaningZh": "預測天氣"
           }
+        ],
+        "examples": [
+          {
+            "en": "Experts predict that sales will increase next year.",
+            "zh": "專家預測明年銷售額將會成長。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "forecast",
+        "noteZh": "預測"
+      },
+      {
+        "lemma": "foretell",
+        "noteZh": "預言"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "prediction",
+        "partOfSpeech": "noun",
+        "meaningZh": "預測；預言"
+      },
+      {
+        "lemma": "predictable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可預測的"
+      },
+      {
+        "lemma": "predictor",
+        "partOfSpeech": "noun",
+        "meaningZh": "預測指標"
       }
     ],
     "tags": [
@@ -267,18 +361,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "forecast",
-        "noteZh": "預測"
-      },
-      {
-        "lemma": "foretell",
-        "noteZh": "預言"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_predictable",
@@ -292,14 +375,16 @@
       {
         "id": "s_predictable_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "able to be predicted, or behaving in a way that is expected and lacks surprise",
         "definitionZh": "可預測的；一成不變的",
         "usageExplanationZh": "常修飾 outcome、behavior，可為中性的「可預測」，也可帶貶意指缺乏新意、了無新意。",
-        "examples": [
-          {
-            "en": "The movie's ending was disappointingly predictable.",
-            "zh": "這部電影的結局令人失望地一成不變。"
-          }
+        "grammarPatterns": [
+          "a predictable + noun",
+          "be predictable",
+          "it is predictable that + clause"
         ],
         "collocations": [
           {
@@ -310,21 +395,15 @@
             "text": "highly predictable",
             "meaningZh": "非常容易預料的"
           }
+        ],
+        "examples": [
+          {
+            "en": "The movie's ending was disappointingly predictable.",
+            "zh": "這部電影的結局令人失望地一成不變。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "foreseeable",
@@ -340,7 +419,36 @@
         "lemma": "unpredictable",
         "noteZh": "無法預測的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "predict",
+        "partOfSpeech": "verb",
+        "meaningZh": "預測"
+      },
+      {
+        "lemma": "predictably",
+        "partOfSpeech": "adverb",
+        "meaningZh": "不出所料地"
+      },
+      {
+        "lemma": "unpredictable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "無法預測的"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_prediction",
@@ -354,14 +462,17 @@
       {
         "id": "s_prediction_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "a statement about what will happen in the future",
         "definitionZh": "預測；預言",
         "usageExplanationZh": "常接 make a prediction（做出預測），指基於證據或直覺對未來事件的陳述。",
-        "examples": [
-          {
-            "en": "Her prediction about the election results turned out to be accurate.",
-            "zh": "她對選舉結果的預測後來證實是準確的。"
-          }
+        "grammarPatterns": [
+          "a prediction about + noun",
+          "make a prediction",
+          "the prediction that + clause"
         ],
         "collocations": [
           {
@@ -372,7 +483,36 @@
             "text": "accurate prediction",
             "meaningZh": "準確的預測"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her prediction about the election results turned out to be accurate.",
+            "zh": "她對選舉結果的預測後來證實是準確的。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "forecast",
+        "noteZh": "預測"
+      },
+      {
+        "lemma": "projection",
+        "noteZh": "依據資料推估"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "predict",
+        "partOfSpeech": "verb",
+        "meaningZh": "預測"
+      },
+      {
+        "lemma": "predictive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "預測性的"
       }
     ],
     "tags": [
@@ -385,18 +525,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "forecast",
-        "noteZh": "預測"
-      },
-      {
-        "lemma": "projection",
-        "noteZh": "依據資料推估"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_predilection",
@@ -410,14 +539,16 @@
       {
         "id": "s_predilection_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "a strong preference for something",
         "definitionZh": "偏好；癖好",
         "usageExplanationZh": "正式用語，常接 for，如 a predilection for sweets（偏愛甜食），語氣較 preference 更文雅。",
-        "examples": [
-          {
-            "en": "He has a predilection for classical music.",
-            "zh": "他偏愛古典音樂。"
-          }
+        "grammarPatterns": [
+          "a predilection for + noun",
+          "have a predilection for + V-ing"
         ],
         "collocations": [
           {
@@ -428,20 +559,15 @@
             "text": "show a predilection for",
             "meaningZh": "顯出對……的偏愛"
           }
+        ],
+        "examples": [
+          {
+            "en": "He has a predilection for classical music.",
+            "zh": "他偏愛古典音樂。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "preference",
@@ -457,7 +583,18 @@
         "lemma": "aversion",
         "noteZh": "厭惡"
       }
-    ]
+    ],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_predisposition",
@@ -471,14 +608,17 @@
       {
         "id": "s_predisposition_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "a tendency to behave or react in a particular way, often due to genetic or environmental factors",
         "definitionZh": "傾向；（遺傳）易感性",
         "usageExplanationZh": "常見於醫學或心理學語境，如 a genetic predisposition to disease（罹病的遺傳傾向）。",
-        "examples": [
-          {
-            "en": "Some people have a genetic predisposition to heart disease.",
-            "zh": "有些人在遺傳上就有較高的心臟病罹患傾向。"
-          }
+        "grammarPatterns": [
+          "a predisposition to + noun",
+          "a genetic predisposition to + noun",
+          "a predisposition toward + V-ing"
         ],
         "collocations": [
           {
@@ -489,7 +629,31 @@
             "text": "a predisposition to disease",
             "meaningZh": "罹病傾向"
           }
+        ],
+        "examples": [
+          {
+            "en": "Some people have a genetic predisposition to heart disease.",
+            "zh": "有些人在遺傳上就有較高的心臟病罹患傾向。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "tendency",
+        "noteZh": "傾向"
+      },
+      {
+        "lemma": "inclination",
+        "noteZh": "性情上的傾向"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "predispose",
+        "partOfSpeech": "verb",
+        "meaningZh": "使易於；使有傾向"
       }
     ],
     "tags": [
@@ -503,18 +667,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "tendency",
-        "noteZh": "傾向"
-      },
-      {
-        "lemma": "inclination",
-        "noteZh": "性情上的傾向"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_predominantly",
@@ -528,14 +681,16 @@
       {
         "id": "s_predominantly_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "mostly or mainly",
         "definitionZh": "主要地；大多數地",
         "usageExplanationZh": "常修飾整句或形容詞，如 predominantly rural（主要為鄉村地區），強調占絕大多數的情況。",
-        "examples": [
-          {
-            "en": "The population in this area is predominantly elderly.",
-            "zh": "這個地區的人口以老年人居多。"
-          }
+        "grammarPatterns": [
+          "predominantly + adjective",
+          "be predominantly + noun"
         ],
         "collocations": [
           {
@@ -546,7 +701,36 @@
             "text": "predominantly female",
             "meaningZh": "以女性為主的"
           }
+        ],
+        "examples": [
+          {
+            "en": "The population in this area is predominantly elderly.",
+            "zh": "這個地區的人口以老年人居多。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "mainly",
+        "noteZh": "主要地"
+      },
+      {
+        "lemma": "mostly",
+        "noteZh": "大部分地"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "predominant",
+        "partOfSpeech": "adjective",
+        "meaningZh": "主要的；佔優勢的"
+      },
+      {
+        "lemma": "predominate",
+        "partOfSpeech": "verb",
+        "meaningZh": "佔優勢；居多"
       }
     ],
     "tags": [
@@ -559,18 +743,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "mainly",
-        "noteZh": "主要地"
-      },
-      {
-        "lemma": "mostly",
-        "noteZh": "大部分地"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_preempt",
@@ -584,14 +757,16 @@
       {
         "id": "s_preempt_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to take action in order to prevent something from happening, or to take precedence over something",
         "definitionZh": "搶先採取行動（以阻止某事）；取代",
         "usageExplanationZh": "常接具體行動為受詞，如 preempt criticism（搶先化解批評），強調先發制人以防止不利情況發生。",
-        "examples": [
-          {
-            "en": "The company preempted the lawsuit by settling out of court.",
-            "zh": "這家公司透過庭外和解搶先化解了這起訴訟。"
-          }
+        "grammarPatterns": [
+          "preempt + noun",
+          "preempt sth by + V-ing"
         ],
         "collocations": [
           {
@@ -602,7 +777,36 @@
             "text": "preempt a scheduled broadcast",
             "meaningZh": "取代原定播出節目"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company preempted the lawsuit by settling out of court.",
+            "zh": "這家公司透過庭外和解搶先化解了這起訴訟。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "forestall",
+        "noteZh": "預先阻止"
+      },
+      {
+        "lemma": "supersede",
+        "noteZh": "指取代原有事物"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "preemptive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "先發制人的"
+      },
+      {
+        "lemma": "preemption",
+        "partOfSpeech": "noun",
+        "meaningZh": "先發制人；優先購買權"
       }
     ],
     "tags": [
@@ -615,18 +819,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "forestall",
-        "noteZh": "預先阻止"
-      },
-      {
-        "lemma": "supersede",
-        "noteZh": "指取代原有事物"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_preface",
@@ -640,14 +833,17 @@
       {
         "id": "s_preface_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "an introductory statement at the beginning of a book, or an event that precedes another",
         "definitionZh": "序言；前言",
         "usageExplanationZh": "常見 write a preface（撰寫序言），指書籍開頭的引言部分，也可比喻某事件先於另一事件發生。",
-        "examples": [
-          {
-            "en": "The author explained her motivations in the preface of the book.",
-            "zh": "作者在書的序言中說明了她的創作動機。"
-          }
+        "grammarPatterns": [
+          "the preface to + noun",
+          "in the preface",
+          "write a preface"
         ],
         "collocations": [
           {
@@ -658,21 +854,15 @@
             "text": "in the preface",
             "meaningZh": "在序言中"
           }
+        ],
+        "examples": [
+          {
+            "en": "The author explained her motivations in the preface of the book.",
+            "zh": "作者在書的序言中說明了她的創作動機。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "foreword",
@@ -688,7 +878,19 @@
         "lemma": "afterword",
         "noteZh": "書末後記，位置相對"
       }
-    ]
+    ],
+    "tags": [
+      "dictionary",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_pregnant",
@@ -702,14 +904,16 @@
       {
         "id": "s_pregnant_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "(of a woman) carrying a developing fetus, or (of a situation) full of meaning or significance",
         "definitionZh": "懷孕的；（情境）意味深長的",
         "usageExplanationZh": "常見 pregnant woman（孕婦），比喻用法如 a pregnant pause（意味深長的停頓），需依語境判斷。",
-        "examples": [
-          {
-            "en": "There was a pregnant pause before she finally answered.",
-            "zh": "她終於回答之前，出現了一段意味深長的停頓。"
-          }
+        "grammarPatterns": [
+          "be pregnant with + noun",
+          "a pregnant + noun",
+          "get pregnant"
         ],
         "collocations": [
           {
@@ -720,7 +924,27 @@
             "text": "a pregnant pause",
             "meaningZh": "意味深長的停頓"
           }
+        ],
+        "examples": [
+          {
+            "en": "There was a pregnant pause before she finally answered.",
+            "zh": "她終於回答之前，出現了一段意味深長的停頓。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "expectant",
+        "noteZh": "指懷孕待產的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "pregnancy",
+        "partOfSpeech": "noun",
+        "meaningZh": "懷孕"
       }
     ],
     "tags": [
@@ -735,14 +959,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "expectant",
-        "noteZh": "指懷孕待產的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_prejudice",
@@ -756,14 +973,17 @@
       {
         "id": "s_prejudice_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to cause someone to have a biased opinion, or to damage or harm someone's rights or interests",
         "definitionZh": "使產生偏見；損害（權益）",
         "usageExplanationZh": "常接具體受詞，如 prejudice the case（損害案件公正性），也可指使人形成不公正的看法。",
-        "examples": [
-          {
-            "en": "The negative media coverage may prejudice the jury against him.",
-            "zh": "負面的媒體報導可能使陪審團對他產生偏見。"
-          }
+        "grammarPatterns": [
+          "prejudice sb against + sb",
+          "prejudice + noun",
+          "prejudice sb's chances of + V-ing"
         ],
         "collocations": [
           {
@@ -774,7 +994,31 @@
             "text": "prejudice a fair trial",
             "meaningZh": "妨礙公平審判"
           }
+        ],
+        "examples": [
+          {
+            "en": "The negative media coverage may prejudice the jury against him.",
+            "zh": "負面的媒體報導可能使陪審團對他產生偏見。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "bias",
+        "noteZh": "使帶有偏見"
+      },
+      {
+        "lemma": "jeopardize",
+        "noteZh": "危害權益"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "prejudicial",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有害的；造成偏見的"
       }
     ],
     "tags": [
@@ -789,18 +1033,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "bias",
-        "noteZh": "使帶有偏見"
-      },
-      {
-        "lemma": "jeopardize",
-        "noteZh": "危害權益"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_premium",
@@ -814,14 +1047,16 @@
       {
         "id": "s_premium_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business"
+        ],
         "definitionEn": "an amount paid regularly to an insurance company, or an amount above the normal price for extra value",
         "definitionZh": "保費；額外費用；溢價",
         "usageExplanationZh": "常見 insurance premium（保費）、pay a premium for（為……多付溢價），依上下文判斷具體所指。",
-        "examples": [
-          {
-            "en": "Customers are willing to pay a premium for eco-friendly products.",
-            "zh": "顧客願意為環保產品多付一些溢價。"
-          }
+        "grammarPatterns": [
+          "pay a premium for + noun",
+          "an insurance premium",
+          "at a premium"
         ],
         "collocations": [
           {
@@ -832,9 +1067,22 @@
             "text": "pay a premium",
             "meaningZh": "支付較高價格"
           }
+        ],
+        "examples": [
+          {
+            "en": "Customers are willing to pay a premium for eco-friendly products.",
+            "zh": "顧客願意為環保產品多付一些溢價。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "surcharge",
+        "noteZh": "額外加收的費用"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -847,14 +1095,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "surcharge",
-        "noteZh": "額外加收的費用"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_preposterous",
@@ -868,14 +1109,16 @@
       {
         "id": "s_preposterous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "completely contrary to reason or common sense; absurd",
         "definitionZh": "荒謬的；不合理的",
         "usageExplanationZh": "常修飾 idea、claim，語氣強烈，形容荒唐到令人難以置信的程度。",
-        "examples": [
-          {
-            "en": "It's preposterous to think we could finish this project in a day.",
-            "zh": "認為我們能在一天內完成這個專案簡直是荒謬。"
-          }
+        "grammarPatterns": [
+          "a preposterous + noun",
+          "it is preposterous to + V",
+          "it is preposterous that + clause"
         ],
         "collocations": [
           {
@@ -886,20 +1129,15 @@
             "text": "utterly preposterous",
             "meaningZh": "完全荒謬的"
           }
+        ],
+        "examples": [
+          {
+            "en": "It's preposterous to think we could finish this project in a day.",
+            "zh": "認為我們能在一天內完成這個專案簡直是荒謬。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "absurd",
@@ -915,7 +1153,25 @@
         "lemma": "reasonable",
         "noteZh": "合理的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "preposterously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "荒謬地"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_prescribe",
@@ -929,14 +1185,17 @@
       {
         "id": "s_prescribe_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "formal"
+        ],
         "definitionEn": "(of a doctor) to recommend and authorize a medicine or treatment, or to state officially that something should be done",
         "definitionZh": "開立（藥物、治療）；規定",
         "usageExplanationZh": "常接 medication、treatment 為受詞，也可指法律或規範上明文規定的事項，如 prescribed procedures。",
-        "examples": [
-          {
-            "en": "The doctor prescribed antibiotics for the infection.",
-            "zh": "醫生開了抗生素來治療這次感染。"
-          }
+        "grammarPatterns": [
+          "prescribe + noun",
+          "prescribe sth for + noun",
+          "prescribe that + clause"
         ],
         "collocations": [
           {
@@ -947,7 +1206,36 @@
             "text": "as prescribed by law",
             "meaningZh": "依法律規定"
           }
+        ],
+        "examples": [
+          {
+            "en": "The doctor prescribed antibiotics for the infection.",
+            "zh": "醫生開了抗生素來治療這次感染。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "order",
+        "noteZh": "醫囑開立或正式規定"
+      },
+      {
+        "lemma": "stipulate",
+        "noteZh": "明文規定"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "prescription",
+        "partOfSpeech": "noun",
+        "meaningZh": "處方；規定"
+      },
+      {
+        "lemma": "prescriptive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "規範性的"
       }
     ],
     "tags": [
@@ -962,18 +1250,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "order",
-        "noteZh": "醫囑開立或正式規定"
-      },
-      {
-        "lemma": "stipulate",
-        "noteZh": "明文規定"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_prescription",
@@ -987,14 +1264,17 @@
       {
         "id": "s_prescription_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a written instruction from a doctor for the preparation and use of a medicine",
         "definitionZh": "處方；藥方",
         "usageExplanationZh": "常見 write a prescription（開處方）、fill a prescription（領藥），指醫生開立的正式醫療文件。",
-        "examples": [
-          {
-            "en": "She took the prescription to the pharmacy to get her medicine.",
-            "zh": "她拿著處方箋去藥局領藥。"
-          }
+        "grammarPatterns": [
+          "a prescription for + noun",
+          "fill a prescription",
+          "on prescription"
         ],
         "collocations": [
           {
@@ -1005,7 +1285,27 @@
             "text": "prescription medicine",
             "meaningZh": "處方藥"
           }
+        ],
+        "examples": [
+          {
+            "en": "She took the prescription to the pharmacy to get her medicine.",
+            "zh": "她拿著處方箋去藥局領藥。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "prescribe",
+        "partOfSpeech": "verb",
+        "meaningZh": "開立處方；規定"
+      },
+      {
+        "lemma": "prescriptive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "規定的；規範的"
       }
     ],
     "tags": [
@@ -1020,9 +1320,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_presentation",
@@ -1036,14 +1334,17 @@
       {
         "id": "s_presentation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "academic"
+        ],
         "definitionEn": "a talk or lecture given to an audience, or the way something is presented or displayed",
         "definitionZh": "簡報；報告；呈現方式",
         "usageExplanationZh": "常見 give a presentation（做簡報）、a formal presentation，也可指物品的展示或陳列方式。",
-        "examples": [
-          {
-            "en": "She gave a compelling presentation on the company's new strategy.",
-            "zh": "她針對公司的新策略做了一場很有說服力的簡報。"
-          }
+        "grammarPatterns": [
+          "give a presentation on + noun",
+          "a presentation to + sb",
+          "the presentation of + noun"
         ],
         "collocations": [
           {
@@ -1054,7 +1355,36 @@
             "text": "visual presentation",
             "meaningZh": "視覺呈現"
           }
+        ],
+        "examples": [
+          {
+            "en": "She gave a compelling presentation on the company's new strategy.",
+            "zh": "她針對公司的新策略做了一場很有說服力的簡報。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "talk",
+        "noteZh": "向觀眾發表的演講"
+      },
+      {
+        "lemma": "display",
+        "noteZh": "呈現方式"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "present",
+        "partOfSpeech": "verb",
+        "meaningZh": "呈現；報告"
+      },
+      {
+        "lemma": "presenter",
+        "partOfSpeech": "noun",
+        "meaningZh": "主持人；報告者"
       }
     ],
     "tags": [
@@ -1068,18 +1398,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "talk",
-        "noteZh": "向觀眾發表的演講"
-      },
-      {
-        "lemma": "display",
-        "noteZh": "呈現方式"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_preservation",
@@ -1093,14 +1412,17 @@
       {
         "id": "s_preservation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the act of keeping something in its original or existing state, especially to prevent decay",
         "definitionZh": "保存；維護",
         "usageExplanationZh": "常見 wildlife preservation（野生動物保育）、food preservation，強調防止腐壞或消失的維護行動。",
-        "examples": [
-          {
-            "en": "The organization is dedicated to the preservation of historic buildings.",
-            "zh": "這個組織致力於保存歷史建築。"
-          }
+        "grammarPatterns": [
+          "the preservation of + noun",
+          "in a good state of preservation",
+          "be dedicated to the preservation of + noun"
         ],
         "collocations": [
           {
@@ -1111,20 +1433,15 @@
             "text": "preservation of historic buildings",
             "meaningZh": "古蹟建築保存"
           }
+        ],
+        "examples": [
+          {
+            "en": "The organization is dedicated to the preservation of historic buildings.",
+            "zh": "這個組織致力於保存歷史建築。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "conservation",
@@ -1140,7 +1457,30 @@
         "lemma": "destruction",
         "noteZh": "毀壞"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "preserve",
+        "partOfSpeech": "verb",
+        "meaningZh": "保存；維護"
+      },
+      {
+        "lemma": "preservative",
+        "partOfSpeech": "noun",
+        "meaningZh": "防腐劑"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_preserve",
@@ -1154,14 +1494,16 @@
       {
         "id": "s_preserve_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to maintain something in its original state, or to prepare food to prevent it from decaying",
         "definitionZh": "保存；維護；（食物）醃製、保鮮",
         "usageExplanationZh": "常接具體事物，如 preserve traditions（保存傳統）、preserve fruit（醃漬水果保存），依語境判斷。",
-        "examples": [
-          {
-            "en": "The recipe uses vinegar to preserve the vegetables for months.",
-            "zh": "這份食譜使用醋來醃漬蔬菜以延長保存期限。"
-          }
+        "grammarPatterns": [
+          "preserve + noun",
+          "preserve sth from + noun",
+          "preserve sth for + noun"
         ],
         "collocations": [
           {
@@ -1172,21 +1514,15 @@
             "text": "preserve food",
             "meaningZh": "保存食物"
           }
+        ],
+        "examples": [
+          {
+            "en": "The recipe uses vinegar to preserve the vegetables for months.",
+            "zh": "這份食譜使用醋來醃漬蔬菜以延長保存期限。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "conserve",
@@ -1202,7 +1538,31 @@
         "lemma": "destroy",
         "noteZh": "毀壞"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "preservation",
+        "partOfSpeech": "noun",
+        "meaningZh": "保存；維護"
+      },
+      {
+        "lemma": "preservative",
+        "partOfSpeech": "noun",
+        "meaningZh": "防腐劑"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_presidency",
@@ -1216,14 +1576,17 @@
       {
         "id": "s_presidency_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the office or term of office of a president",
         "definitionZh": "總統職位；總統任期",
         "usageExplanationZh": "常見 during his presidency（在他的總統任期內），指擔任總統這一職務或其任職期間。",
-        "examples": [
-          {
-            "en": "The country saw major economic reforms during his presidency.",
-            "zh": "該國在他的總統任期內經歷了重大的經濟改革。"
-          }
+        "grammarPatterns": [
+          "during one's presidency",
+          "the presidency of + sb",
+          "win the presidency"
         ],
         "collocations": [
           {
@@ -1234,7 +1597,32 @@
             "text": "during her presidency",
             "meaningZh": "在她的總統任期內"
           }
+        ],
+        "examples": [
+          {
+            "en": "The country saw major economic reforms during his presidency.",
+            "zh": "該國在他的總統任期內經歷了重大的經濟改革。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "president",
+        "partOfSpeech": "noun",
+        "meaningZh": "總統；總裁"
+      },
+      {
+        "lemma": "presidential",
+        "partOfSpeech": "adjective",
+        "meaningZh": "總統的"
+      },
+      {
+        "lemma": "preside",
+        "partOfSpeech": "verb",
+        "meaningZh": "主持；主導"
       }
     ],
     "tags": [
@@ -1247,9 +1635,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_prestige",
@@ -1263,14 +1649,17 @@
       {
         "id": "s_prestige_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "widespread respect and admiration felt for someone or something based on their reputation or achievements",
         "definitionZh": "聲望；威望",
         "usageExplanationZh": "常見 gain prestige（贏得聲望）、a job with prestige，指因成就或地位而獲得的尊崇與敬重。",
-        "examples": [
-          {
-            "en": "Working for that firm carries a lot of prestige.",
-            "zh": "在那家公司工作能帶來相當高的聲望。"
-          }
+        "grammarPatterns": [
+          "the prestige of + noun",
+          "carry prestige",
+          "gain prestige"
         ],
         "collocations": [
           {
@@ -1281,7 +1670,31 @@
             "text": "gain prestige",
             "meaningZh": "獲得聲望"
           }
+        ],
+        "examples": [
+          {
+            "en": "Working for that firm carries a lot of prestige.",
+            "zh": "在那家公司工作能帶來相當高的聲望。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "status",
+        "noteZh": "社會地位"
+      },
+      {
+        "lemma": "standing",
+        "noteZh": "聲望"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "prestigious",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有聲望的"
       }
     ],
     "tags": [
@@ -1296,18 +1709,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "status",
-        "noteZh": "社會地位"
-      },
-      {
-        "lemma": "standing",
-        "noteZh": "聲望"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_prestigious",
@@ -1321,14 +1723,16 @@
       {
         "id": "s_prestigious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "inspiring respect and admiration; having high status",
         "definitionZh": "有聲望的；著名的",
         "usageExplanationZh": "常修飾 award、university，形容因地位崇高或成就卓越而受人推崇的事物。",
-        "examples": [
-          {
-            "en": "She was accepted into a prestigious university.",
-            "zh": "她被一所頗負盛名的大學錄取了。"
-          }
+        "grammarPatterns": [
+          "a prestigious + noun",
+          "the most prestigious + noun"
         ],
         "collocations": [
           {
@@ -1339,22 +1743,15 @@
             "text": "prestigious award",
             "meaningZh": "享有盛譽的獎項"
           }
+        ],
+        "examples": [
+          {
+            "en": "She was accepted into a prestigious university.",
+            "zh": "她被一所頗負盛名的大學錄取了。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "distinguished",
@@ -1370,7 +1767,27 @@
         "lemma": "undistinguished",
         "noteZh": "不出眾的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "prestige",
+        "partOfSpeech": "noun",
+        "meaningZh": "聲望；威望"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_presumably",
@@ -1384,14 +1801,15 @@
       {
         "id": "s_presumably_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "used to indicate that something is likely to be true, though not confirmed",
         "definitionZh": "據推測；大概",
         "usageExplanationZh": "常置於句首或修飾整句，表達說話者根據常理或線索所做的合理推測。",
-        "examples": [
-          {
-            "en": "Presumably, he forgot about the meeting since he didn't show up.",
-            "zh": "他大概是忘了這場會議，因為他沒有出現。"
-          }
+        "grammarPatterns": [
+          "presumably + clause",
+          "presumably because + clause"
         ],
         "collocations": [
           {
@@ -1402,7 +1820,36 @@
             "text": "presumably true",
             "meaningZh": "推測為真的"
           }
+        ],
+        "examples": [
+          {
+            "en": "Presumably, he forgot about the meeting since he didn't show up.",
+            "zh": "他大概是忘了這場會議，因為他沒有出現。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "probably",
+        "noteZh": "大概"
+      },
+      {
+        "lemma": "supposedly",
+        "noteZh": "據稱如此，較帶懷疑意味"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "presume",
+        "partOfSpeech": "verb",
+        "meaningZh": "推測；假定"
+      },
+      {
+        "lemma": "presumption",
+        "partOfSpeech": "noun",
+        "meaningZh": "推測；假定"
       }
     ],
     "tags": [
@@ -1416,18 +1863,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "probably",
-        "noteZh": "大概"
-      },
-      {
-        "lemma": "supposedly",
-        "noteZh": "據稱如此，較帶懷疑意味"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_presume",
@@ -1441,14 +1877,16 @@
       {
         "id": "s_presume_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to suppose that something is the case based on probability, without proof",
         "definitionZh": "推測；假定",
         "usageExplanationZh": "常接 that 子句，如 presume that，也可用於禮貌用語 I presume（我猜想），強調在缺乏確切證據下的合理推斷。",
-        "examples": [
-          {
-            "en": "I presume you've already read the report.",
-            "zh": "我猜想你已經看過那份報告了。"
-          }
+        "grammarPatterns": [
+          "presume that + clause",
+          "presume sb to be + adjective",
+          "presume + noun"
         ],
         "collocations": [
           {
@@ -1459,7 +1897,41 @@
             "text": "presume someone innocent",
             "meaningZh": "推定某人無罪"
           }
+        ],
+        "examples": [
+          {
+            "en": "I presume you've already read the report.",
+            "zh": "我猜想你已經看過那份報告了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "assume",
+        "noteZh": "假定"
+      },
+      {
+        "lemma": "suppose",
+        "noteZh": "推想"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "presumption",
+        "partOfSpeech": "noun",
+        "meaningZh": "推測；假定"
+      },
+      {
+        "lemma": "presumably",
+        "partOfSpeech": "adverb",
+        "meaningZh": "據推測"
+      },
+      {
+        "lemma": "presumptuous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "冒昧的；放肆的"
       }
     ],
     "tags": [
@@ -1473,18 +1945,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "assume",
-        "noteZh": "假定"
-      },
-      {
-        "lemma": "suppose",
-        "noteZh": "推想"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_presumption",
@@ -1498,14 +1959,17 @@
       {
         "id": "s_presumption_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "an idea that is assumed to be true based on likelihood, without proof",
         "definitionZh": "推測；假定",
         "usageExplanationZh": "常見 the presumption of innocence（無罪推定），指基於合理性而未經證實所做的假設。",
-        "examples": [
-          {
-            "en": "The legal system is based on the presumption of innocence until proven guilty.",
-            "zh": "司法制度是建立在無罪推定的基礎上，直到證明有罪為止。"
-          }
+        "grammarPatterns": [
+          "the presumption of + noun",
+          "the presumption that + clause",
+          "on the presumption that + clause"
         ],
         "collocations": [
           {
@@ -1516,7 +1980,36 @@
             "text": "on the presumption that",
             "meaningZh": "基於……的假定"
           }
+        ],
+        "examples": [
+          {
+            "en": "The legal system is based on the presumption of innocence until proven guilty.",
+            "zh": "司法制度是建立在無罪推定的基礎上，直到證明有罪為止。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "assumption",
+        "noteZh": "假定"
+      },
+      {
+        "lemma": "supposition",
+        "noteZh": "推測"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "presume",
+        "partOfSpeech": "verb",
+        "meaningZh": "推測；假定"
+      },
+      {
+        "lemma": "presumptive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "推定的"
       }
     ],
     "tags": [
@@ -1531,18 +2024,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "assumption",
-        "noteZh": "假定"
-      },
-      {
-        "lemma": "supposition",
-        "noteZh": "推測"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_presupposition",
@@ -1556,14 +2038,17 @@
       {
         "id": "s_presupposition_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "something that is assumed to be true as a basis for an argument, without being explicitly stated",
         "definitionZh": "預設；前提假設",
         "usageExplanationZh": "正式或學術用語，指論證中未明言但已被視為理所當然的基礎假設。",
-        "examples": [
-          {
-            "en": "The argument rests on the presupposition that all people act rationally.",
-            "zh": "這個論點是建立在「所有人都會理性行事」這一預設之上。"
-          }
+        "grammarPatterns": [
+          "the presupposition that + clause",
+          "rest on a presupposition",
+          "challenge a presupposition"
         ],
         "collocations": [
           {
@@ -1574,7 +2059,31 @@
             "text": "challenge a presupposition",
             "meaningZh": "質疑預設前提"
           }
+        ],
+        "examples": [
+          {
+            "en": "The argument rests on the presupposition that all people act rationally.",
+            "zh": "這個論點是建立在「所有人都會理性行事」這一預設之上。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "assumption",
+        "noteZh": "預先接受的假設"
+      },
+      {
+        "lemma": "premise",
+        "noteZh": "論證的前提"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "presuppose",
+        "partOfSpeech": "verb",
+        "meaningZh": "預設；以……為前提"
       }
     ],
     "tags": [
@@ -1587,18 +2096,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "assumption",
-        "noteZh": "預先接受的假設"
-      },
-      {
-        "lemma": "premise",
-        "noteZh": "論證的前提"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pretend",
@@ -1612,14 +2110,16 @@
       {
         "id": "s_pretend_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to act as if something is true when it is not, in order to deceive or for play",
         "definitionZh": "假裝；佯裝",
         "usageExplanationZh": "常接 to do something 或 that 子句，如 pretend to be asleep（假裝睡著），也用於兒童遊戲中的想像扮演。",
-        "examples": [
-          {
-            "en": "The children pretended to be pirates searching for treasure.",
-            "zh": "孩子們假裝是尋找寶藏的海盜。"
-          }
+        "grammarPatterns": [
+          "pretend to + V",
+          "pretend that + clause",
+          "pretend to be + noun"
         ],
         "collocations": [
           {
@@ -1630,7 +2130,41 @@
             "text": "pretend that nothing happened",
             "meaningZh": "假裝什麼也沒發生"
           }
+        ],
+        "examples": [
+          {
+            "en": "The children pretended to be pirates searching for treasure.",
+            "zh": "孩子們假裝是尋找寶藏的海盜。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "feign",
+        "noteZh": "佯裝"
+      },
+      {
+        "lemma": "make believe",
+        "noteZh": "假扮或想像"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "pretense",
+        "partOfSpeech": "noun",
+        "meaningZh": "假裝；藉口"
+      },
+      {
+        "lemma": "pretender",
+        "partOfSpeech": "noun",
+        "meaningZh": "冒充者；覬覦者"
+      },
+      {
+        "lemma": "pretentious",
+        "partOfSpeech": "adjective",
+        "meaningZh": "自命不凡的"
       }
     ],
     "tags": [
@@ -1644,18 +2178,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "feign",
-        "noteZh": "佯裝"
-      },
-      {
-        "lemma": "make believe",
-        "noteZh": "假扮或想像"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pretentious",
@@ -1669,14 +2192,16 @@
       {
         "id": "s_pretentious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "attempting to impress by affecting greater importance, talent, or knowledge than is actually possessed",
         "definitionZh": "自命不凡的；矯揉造作的",
         "usageExplanationZh": "常修飾 person、writing、style，帶明顯貶意，形容故作高深或裝腔作勢的態度。",
-        "examples": [
-          {
-            "en": "Critics found his writing style overly pretentious.",
-            "zh": "評論家認為他的寫作風格過於矯揉造作。"
-          }
+        "grammarPatterns": [
+          "a pretentious + noun",
+          "sound pretentious",
+          "overly pretentious"
         ],
         "collocations": [
           {
@@ -1687,22 +2212,15 @@
             "text": "pretentious behavior",
             "meaningZh": "自命不凡的舉止"
           }
+        ],
+        "examples": [
+          {
+            "en": "Critics found his writing style overly pretentious.",
+            "zh": "評論家認為他的寫作風格過於矯揉造作。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "affected",
@@ -1718,39 +2236,22 @@
         "lemma": "unpretentious",
         "noteZh": "樸實不造作的"
       }
-    ]
-  },
-  {
-    "id": "w_prevail",
-    "lemma": "prevail",
-    "slug": "prevail",
-    "cefr": "B2",
-    "pronunciation": {
-      "kk": "/prɪˈvel/"
-    },
-    "senses": [
+    ],
+    "wordFamily": [
       {
-        "id": "s_prevail_verb",
+        "lemma": "pretension",
+        "partOfSpeech": "noun",
+        "meaningZh": "自命不凡；矯飾"
+      },
+      {
+        "lemma": "pretentiousness",
+        "partOfSpeech": "noun",
+        "meaningZh": "做作；虛飾"
+      },
+      {
+        "lemma": "pretend",
         "partOfSpeech": "verb",
-        "definitionEn": "to prove more powerful than opposing forces, or to be widespread or predominant",
-        "definitionZh": "戰勝；佔優勢；盛行",
-        "usageExplanationZh": "常接 over，如 prevail over adversity（戰勝逆境），也可指某種情況或看法普遍存在。",
-        "examples": [
-          {
-            "en": "Justice eventually prevailed in the trial.",
-            "zh": "正義最終在這場審判中獲勝。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "prevail over opposition",
-            "meaningZh": "戰勝反對力量"
-          },
-          {
-            "text": "common sense prevails",
-            "meaningZh": "常識終於占上風"
-          }
-        ]
+        "meaningZh": "假裝"
       }
     ],
     "tags": [
@@ -1765,7 +2266,50 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
+    }
+  },
+  {
+    "id": "w_prevail",
+    "lemma": "prevail",
+    "slug": "prevail",
+    "cefr": "B2",
+    "pronunciation": {
+      "kk": "/prɪˈvel/"
     },
+    "senses": [
+      {
+        "id": "s_prevail_verb",
+        "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
+        "definitionEn": "to prove more powerful than opposing forces, or to be widespread or predominant",
+        "definitionZh": "戰勝；佔優勢；盛行",
+        "usageExplanationZh": "常接 over，如 prevail over adversity（戰勝逆境），也可指某種情況或看法普遍存在。",
+        "grammarPatterns": [
+          "prevail over + noun",
+          "prevail against + noun",
+          "eventually prevail"
+        ],
+        "collocations": [
+          {
+            "text": "prevail over opposition",
+            "meaningZh": "戰勝反對力量"
+          },
+          {
+            "text": "common sense prevails",
+            "meaningZh": "常識終於占上風"
+          }
+        ],
+        "examples": [
+          {
+            "en": "Justice eventually prevailed in the trial.",
+            "zh": "正義最終在這場審判中獲勝。"
+          }
+        ]
+      }
+    ],
     "synonyms": [
       {
         "lemma": "triumph",
@@ -1781,114 +2325,17 @@
         "lemma": "fail",
         "noteZh": "未能獲勝或奏效"
       }
-    ]
-  },
-  {
-    "id": "w_prevention",
-    "lemma": "prevention",
-    "slug": "prevention",
-    "cefr": "B2",
-    "pronunciation": {
-      "kk": "/priˈvɛnʃən/"
-    },
-    "senses": [
-      {
-        "id": "s_prevention_noun",
-        "partOfSpeech": "noun",
-        "definitionEn": "the act of stopping something from happening or arising",
-        "definitionZh": "預防；防止",
-        "usageExplanationZh": "常見 crime prevention（犯罪預防）、disease prevention，強調事先阻止不良事件發生的行動。",
-        "examples": [
-          {
-            "en": "Prevention is better than cure when it comes to health issues.",
-            "zh": "在健康議題上，預防勝於治療。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "disease prevention",
-            "meaningZh": "疾病預防"
-          },
-          {
-            "text": "crime prevention",
-            "meaningZh": "犯罪預防"
-          }
-        ]
-      }
     ],
-    "tags": [
-      "dictionary",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
-    "synonyms": [
+    "wordFamily": [
       {
-        "lemma": "avoidance",
-        "noteZh": "避免發生"
+        "lemma": "prevalent",
+        "partOfSpeech": "adjective",
+        "meaningZh": "普遍的；盛行的"
       },
       {
-        "lemma": "averting",
-        "noteZh": "防止事件發生"
-      }
-    ],
-    "antonyms": []
-  },
-  {
-    "id": "w_prey",
-    "lemma": "prey",
-    "slug": "prey",
-    "cefr": "B2",
-    "pronunciation": {
-      "kk": "/pre/"
-    },
-    "senses": [
-      {
-        "id": "s_prey_noun",
+        "lemma": "prevalence",
         "partOfSpeech": "noun",
-        "definitionEn": "an animal that is hunted and killed by another for food",
-        "definitionZh": "獵物；捕食對象",
-        "usageExplanationZh": "常見 fall prey to（淪為……的獵物；比喻遭受某事所害），生物學上指被掠食者捕食的動物。",
-        "examples": [
-          {
-            "en": "The lion stalked its prey silently through the grass.",
-            "zh": "那頭獅子悄悄地在草叢中跟蹤獵物。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "birds of prey",
-            "meaningZh": "猛禽"
-          }
-        ]
-      },
-      {
-        "id": "s_prey_verb",
-        "partOfSpeech": "verb",
-        "definitionEn": "to hunt and kill for food, or to take advantage of someone weaker or vulnerable",
-        "definitionZh": "捕食；（比喻）欺騙、剝削（弱勢者）",
-        "usageExplanationZh": "常接 on/upon，如 prey on the elderly（欺騙老年人），可指生物捕食行為或比喻剝削弱勢群體。",
-        "examples": [
-          {
-            "en": "Scammers often prey on elderly people who live alone.",
-            "zh": "詐騙者經常鎖定獨居的老年人下手。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "prey on small animals",
-            "meaningZh": "捕食小動物"
-          },
-          {
-            "text": "prey on the vulnerable",
-            "meaningZh": "剝削弱勢者"
-          }
-        ]
+        "meaningZh": "盛行；盛行率"
       }
     ],
     "tags": [
@@ -1903,7 +2350,158 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
+    }
+  },
+  {
+    "id": "w_prevention",
+    "lemma": "prevention",
+    "slug": "prevention",
+    "cefr": "B2",
+    "pronunciation": {
+      "kk": "/priˈvɛnʃən/"
     },
+    "senses": [
+      {
+        "id": "s_prevention_noun",
+        "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
+        "definitionEn": "the act of stopping something from happening or arising",
+        "definitionZh": "預防；防止",
+        "usageExplanationZh": "常見 crime prevention（犯罪預防）、disease prevention，強調事先阻止不良事件發生的行動。",
+        "grammarPatterns": [
+          "the prevention of + noun",
+          "noun + prevention",
+          "aimed at prevention"
+        ],
+        "collocations": [
+          {
+            "text": "disease prevention",
+            "meaningZh": "疾病預防"
+          },
+          {
+            "text": "crime prevention",
+            "meaningZh": "犯罪預防"
+          }
+        ],
+        "examples": [
+          {
+            "en": "Prevention is better than cure when it comes to health issues.",
+            "zh": "在健康議題上，預防勝於治療。"
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "avoidance",
+        "noteZh": "避免發生"
+      },
+      {
+        "lemma": "averting",
+        "noteZh": "防止事件發生"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "prevent",
+        "partOfSpeech": "verb",
+        "meaningZh": "預防；阻止"
+      },
+      {
+        "lemma": "preventive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "預防性的"
+      },
+      {
+        "lemma": "preventable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可預防的"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
+  },
+  {
+    "id": "w_prey",
+    "lemma": "prey",
+    "slug": "prey",
+    "cefr": "B2",
+    "pronunciation": {
+      "kk": "/pre/"
+    },
+    "senses": [
+      {
+        "id": "s_prey_noun",
+        "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
+        "definitionEn": "an animal that is hunted and killed by another for food",
+        "definitionZh": "獵物；捕食對象",
+        "usageExplanationZh": "常見 fall prey to（淪為……的獵物；比喻遭受某事所害），生物學上指被掠食者捕食的動物。",
+        "grammarPatterns": [
+          "fall prey to + noun",
+          "hunt its prey",
+          "stalk its prey"
+        ],
+        "collocations": [
+          {
+            "text": "birds of prey",
+            "meaningZh": "猛禽"
+          }
+        ],
+        "examples": [
+          {
+            "en": "The lion stalked its prey silently through the grass.",
+            "zh": "那頭獅子悄悄地在草叢中跟蹤獵物。"
+          }
+        ]
+      },
+      {
+        "id": "s_prey_verb",
+        "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
+        "definitionEn": "to hunt and kill for food, or to take advantage of someone weaker or vulnerable",
+        "definitionZh": "捕食；（比喻）欺騙、剝削（弱勢者）",
+        "usageExplanationZh": "常接 on/upon，如 prey on the elderly（欺騙老年人），可指生物捕食行為或比喻剝削弱勢群體。",
+        "grammarPatterns": [
+          "prey on + noun",
+          "prey upon + sb"
+        ],
+        "collocations": [
+          {
+            "text": "prey on small animals",
+            "meaningZh": "捕食小動物"
+          },
+          {
+            "text": "prey on the vulnerable",
+            "meaningZh": "剝削弱勢者"
+          }
+        ],
+        "examples": [
+          {
+            "en": "Scammers often prey on elderly people who live alone.",
+            "zh": "詐騙者經常鎖定獨居的老年人下手。"
+          }
+        ]
+      }
+    ],
     "synonyms": [
       {
         "lemma": "quarry",
@@ -1919,7 +2517,20 @@
         "lemma": "predator",
         "noteZh": "名詞，捕食者，相對角色"
       }
-    ]
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_prick",
@@ -1933,33 +2544,42 @@
       {
         "id": "s_prick_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a small puncture wound made by a sharp point",
         "definitionZh": "刺；扎痕",
         "usageExplanationZh": "常見 a prick of a needle（針扎），指尖銳物造成的細小傷口或刺痛感。",
-        "examples": [
-          {
-            "en": "She felt a slight prick when the nurse drew her blood.",
-            "zh": "護士抽血時她感到輕微的刺痛。"
-          }
+        "grammarPatterns": [
+          "feel a prick",
+          "a prick of + noun"
         ],
         "collocations": [
           {
             "text": "a pin prick",
             "meaningZh": "針刺的小傷口"
           }
+        ],
+        "examples": [
+          {
+            "en": "She felt a slight prick when the nurse drew her blood.",
+            "zh": "護士抽血時她感到輕微的刺痛。"
+          }
         ]
       },
       {
         "id": "s_prick_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to make a small hole in something with a sharp point",
         "definitionZh": "刺；戳",
         "usageExplanationZh": "常接具體物體，如 prick a balloon（刺破氣球），強調用尖物造成細小穿孔。",
-        "examples": [
-          {
-            "en": "He pricked his finger while sewing the button.",
-            "zh": "他縫鈕扣時刺到了手指。"
-          }
+        "grammarPatterns": [
+          "prick + noun",
+          "prick one's finger on + noun",
+          "prick a hole in + noun"
         ],
         "collocations": [
           {
@@ -1970,9 +2590,22 @@
             "text": "prick holes in",
             "meaningZh": "在……上刺小孔"
           }
+        ],
+        "examples": [
+          {
+            "en": "He pricked his finger while sewing the button.",
+            "zh": "他縫鈕扣時刺到了手指。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "puncture",
+        "noteZh": "名詞，刺孔；動詞，刺穿"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1983,14 +2616,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "puncture",
-        "noteZh": "名詞，刺孔；動詞，刺穿"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_primitive",
@@ -2004,14 +2630,17 @@
       {
         "id": "s_primitive_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "neutral"
+        ],
         "definitionEn": "relating to an early stage of development; simple or basic",
         "definitionZh": "原始的；簡陋的",
         "usageExplanationZh": "常修飾 society、tool、conditions，形容發展階段早期、技術簡單或設備簡陋的事物。",
-        "examples": [
-          {
-            "en": "They lived in primitive conditions with no electricity or running water.",
-            "zh": "他們生活在沒有電力和自來水的簡陋環境中。"
-          }
+        "grammarPatterns": [
+          "a primitive + noun",
+          "primitive conditions",
+          "relatively primitive"
         ],
         "collocations": [
           {
@@ -2022,21 +2651,15 @@
             "text": "primitive technology",
             "meaningZh": "原始技術"
           }
+        ],
+        "examples": [
+          {
+            "en": "They lived in primitive conditions with no electricity or running water.",
+            "zh": "他們生活在沒有電力和自來水的簡陋環境中。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "rudimentary",
@@ -2056,7 +2679,19 @@
         "lemma": "sophisticated",
         "noteZh": "精密複雜的"
       }
-    ]
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_principal",
@@ -2070,14 +2705,17 @@
       {
         "id": "s_principal_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "the head of a school, or the original sum of money invested or lent",
         "definitionZh": "校長；本金",
         "usageExplanationZh": "常見 the school principal（校長）、pay off the principal（償還本金），依上下文判斷具體所指。",
-        "examples": [
-          {
-            "en": "She has served as the school's principal for ten years.",
-            "zh": "她擔任這所學校的校長已有十年。"
-          }
+        "grammarPatterns": [
+          "the principal of + noun",
+          "the school principal",
+          "repay the principal"
         ],
         "collocations": [
           {
@@ -2088,7 +2726,31 @@
             "text": "repay the principal",
             "meaningZh": "償還本金"
           }
+        ],
+        "examples": [
+          {
+            "en": "She has served as the school's principal for ten years.",
+            "zh": "她擔任這所學校的校長已有十年。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "headteacher",
+        "noteZh": "校長，英式用法"
+      },
+      {
+        "lemma": "capital",
+        "noteZh": "投資本金"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "principally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "主要地"
       }
     ],
     "tags": [
@@ -2103,18 +2765,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "headteacher",
-        "noteZh": "校長，英式用法"
-      },
-      {
-        "lemma": "capital",
-        "noteZh": "投資本金"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_prior",
@@ -2128,14 +2779,17 @@
       {
         "id": "s_prior_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "formal"
+        ],
         "definitionEn": "a previous criminal conviction, or the head of a religious house ranking below an abbot",
         "definitionZh": "前科；（修道院）副院長",
         "usageExplanationZh": "常見於法律用語 have a prior（有前科紀錄），較特殊用法，需留意與形容詞 prior（先前的）區分。",
-        "examples": [
-          {
-            "en": "The defendant's prior was mentioned during the sentencing hearing.",
-            "zh": "被告的前科紀錄在量刑聽證會中被提及。"
-          }
+        "grammarPatterns": [
+          "have a prior",
+          "the defendant's prior",
+          "serve as prior"
         ],
         "collocations": [
           {
@@ -2146,7 +2800,32 @@
             "text": "the prior of the monastery",
             "meaningZh": "修道院副院長"
           }
+        ],
+        "examples": [
+          {
+            "en": "The defendant's prior was mentioned during the sentencing hearing.",
+            "zh": "被告的前科紀錄在量刑聽證會中被提及。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "previous conviction",
+        "noteZh": "前科，口語常用複數 priors"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "priority",
+        "partOfSpeech": "noun",
+        "meaningZh": "優先；優先事項"
+      },
+      {
+        "lemma": "prioritize",
+        "partOfSpeech": "verb",
+        "meaningZh": "排定優先順序"
       }
     ],
     "tags": [
@@ -2160,14 +2839,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "previous conviction",
-        "noteZh": "前科，口語常用複數 priors"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pristine",
@@ -2181,14 +2853,16 @@
       {
         "id": "s_pristine_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "in its original condition; unspoiled and clean",
         "definitionZh": "原始未受破壞的；純淨的",
         "usageExplanationZh": "常修飾 condition、beach、forest，形容未經污染或破壞、保持完好如初的狀態。",
-        "examples": [
-          {
-            "en": "The beach was pristine, without a single piece of trash.",
-            "zh": "那片海灘保持得非常乾淨，連一片垃圾都沒有。"
-          }
+        "grammarPatterns": [
+          "in pristine condition",
+          "a pristine + noun"
         ],
         "collocations": [
           {
@@ -2199,21 +2873,15 @@
             "text": "pristine wilderness",
             "meaningZh": "未受破壞的荒野"
           }
+        ],
+        "examples": [
+          {
+            "en": "The beach was pristine, without a single piece of trash.",
+            "zh": "那片海灘保持得非常乾淨，連一片垃圾都沒有。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "unspoiled",
@@ -2233,7 +2901,19 @@
         "lemma": "spoiled",
         "noteZh": "受破壞的"
       }
-    ]
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_privilege",
@@ -2247,14 +2927,17 @@
       {
         "id": "s_privilege_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a special right, advantage, or immunity granted to a particular person or group",
         "definitionZh": "特權；優惠",
         "usageExplanationZh": "常見 abuse a privilege（濫用特權）、a privilege to do something，指僅特定人或群體享有的權利或好處。",
-        "examples": [
-          {
-            "en": "Education should be a right, not a privilege.",
-            "zh": "教育應該是一種權利，而不是特權。"
-          }
+        "grammarPatterns": [
+          "a privilege to + V",
+          "have the privilege of + V-ing",
+          "enjoy certain privileges"
         ],
         "collocations": [
           {
@@ -2265,7 +2948,36 @@
             "text": "executive privilege",
             "meaningZh": "行政特權"
           }
+        ],
+        "examples": [
+          {
+            "en": "Education should be a right, not a privilege.",
+            "zh": "教育應該是一種權利，而不是特權。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "advantage",
+        "noteZh": "特殊優勢"
+      },
+      {
+        "lemma": "prerogative",
+        "noteZh": "專有權利"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "privileged",
+        "partOfSpeech": "adjective",
+        "meaningZh": "享有特權的"
+      },
+      {
+        "lemma": "underprivileged",
+        "partOfSpeech": "adjective",
+        "meaningZh": "弱勢的；貧困的"
       }
     ],
     "tags": [
@@ -2280,18 +2992,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "advantage",
-        "noteZh": "特殊優勢"
-      },
-      {
-        "lemma": "prerogative",
-        "noteZh": "專有權利"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_probe",
@@ -2305,14 +3006,17 @@
       {
         "id": "s_probe_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a thorough investigation, or a small instrument used to explore or examine something",
         "definitionZh": "調查；探測器",
         "usageExplanationZh": "常見 a criminal probe（刑事調查）、a space probe（太空探測器），依上下文判斷具體所指。",
-        "examples": [
-          {
-            "en": "The government launched a probe into the company's financial practices.",
-            "zh": "政府對這家公司的財務作業展開了調查。"
-          }
+        "grammarPatterns": [
+          "a probe into + noun",
+          "launch a probe",
+          "insert a probe into + noun"
         ],
         "collocations": [
           {
@@ -2323,9 +3027,22 @@
             "text": "space probe",
             "meaningZh": "太空探測器"
           }
+        ],
+        "examples": [
+          {
+            "en": "The government launched a probe into the company's financial practices.",
+            "zh": "政府對這家公司的財務作業展開了調查。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "investigation",
+        "noteZh": "指深入調查"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2338,14 +3055,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "investigation",
-        "noteZh": "指深入調查"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_proceed",
@@ -2359,14 +3069,16 @@
       {
         "id": "s_proceed_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to continue with a course of action, or to move forward or onward",
         "definitionZh": "繼續進行；前進",
         "usageExplanationZh": "常接 with，如 proceed with the plan（繼續執行計畫），也可指身體上的前進移動。",
-        "examples": [
-          {
-            "en": "After the break, the meeting proceeded as scheduled.",
-            "zh": "休息之後，會議按計畫繼續進行。"
-          }
+        "grammarPatterns": [
+          "proceed with + noun",
+          "proceed to + V",
+          "proceed as + adverb"
         ],
         "collocations": [
           {
@@ -2377,21 +3089,15 @@
             "text": "proceed to the next step",
             "meaningZh": "進行下一步"
           }
+        ],
+        "examples": [
+          {
+            "en": "After the break, the meeting proceeded as scheduled.",
+            "zh": "休息之後，會議按計畫繼續進行。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "continue",
@@ -2407,7 +3113,31 @@
         "lemma": "stop",
         "noteZh": "停止"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "procedure",
+        "partOfSpeech": "noun",
+        "meaningZh": "程序；步驟"
+      },
+      {
+        "lemma": "procedural",
+        "partOfSpeech": "adjective",
+        "meaningZh": "程序上的"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_procession",
@@ -2421,14 +3151,16 @@
       {
         "id": "s_procession_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a group of people or vehicles moving forward in an orderly formation, especially as part of a ceremony",
         "definitionZh": "遊行；隊伍",
         "usageExplanationZh": "常見 a funeral procession（送葬隊伍）、a wedding procession，指有秩序地列隊前進的群體，常帶儀式性質。",
-        "examples": [
-          {
-            "en": "The wedding procession moved slowly down the aisle.",
-            "zh": "婚禮隊伍緩緩沿著走道前進。"
-          }
+        "grammarPatterns": [
+          "a procession of + noun",
+          "in procession",
+          "lead the procession"
         ],
         "collocations": [
           {
@@ -2439,7 +3171,27 @@
             "text": "in procession",
             "meaningZh": "列隊行進"
           }
+        ],
+        "examples": [
+          {
+            "en": "The wedding procession moved slowly down the aisle.",
+            "zh": "婚禮隊伍緩緩沿著走道前進。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "parade",
+        "noteZh": "遊行隊伍"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "proceed",
+        "partOfSpeech": "verb",
+        "meaningZh": "前進；繼續進行"
       }
     ],
     "tags": [
@@ -2452,14 +3204,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "parade",
-        "noteZh": "遊行隊伍"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_proclaim",
@@ -2473,14 +3218,16 @@
       {
         "id": "s_proclaim_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to announce something officially or publicly",
         "definitionZh": "宣告；公開宣布",
         "usageExplanationZh": "常接 that 子句或具體事項，如 proclaim independence（宣布獨立），語氣正式、具官方色彩。",
-        "examples": [
-          {
-            "en": "The country proclaimed its independence in 1965.",
-            "zh": "該國於1965年宣布獨立。"
-          }
+        "grammarPatterns": [
+          "proclaim + noun",
+          "proclaim that + clause",
+          "proclaim sb + noun"
         ],
         "collocations": [
           {
@@ -2491,7 +3238,31 @@
             "text": "proclaim someone king",
             "meaningZh": "宣布某人為國王"
           }
+        ],
+        "examples": [
+          {
+            "en": "The country proclaimed its independence in 1965.",
+            "zh": "該國於1965年宣布獨立。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "announce",
+        "noteZh": "宣布"
+      },
+      {
+        "lemma": "declare",
+        "noteZh": "正式宣告"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "proclamation",
+        "partOfSpeech": "noun",
+        "meaningZh": "公告；宣言"
       }
     ],
     "tags": [
@@ -2506,18 +3277,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "announce",
-        "noteZh": "宣布"
-      },
-      {
-        "lemma": "declare",
-        "noteZh": "正式宣告"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_proclamation",
@@ -2531,14 +3291,16 @@
       {
         "id": "s_proclamation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "an official public announcement dealing with a matter of great importance",
         "definitionZh": "公告；宣言",
         "usageExplanationZh": "常見 issue a proclamation（發布公告），指涉及重大事務的正式官方聲明。",
-        "examples": [
-          {
-            "en": "The president issued a proclamation declaring a national holiday.",
-            "zh": "總統發布公告宣布全國放假一天。"
-          }
+        "grammarPatterns": [
+          "issue a proclamation",
+          "a proclamation of + noun",
+          "a proclamation declaring + noun"
         ],
         "collocations": [
           {
@@ -2549,7 +3311,31 @@
             "text": "royal proclamation",
             "meaningZh": "王室公告"
           }
+        ],
+        "examples": [
+          {
+            "en": "The president issued a proclamation declaring a national holiday.",
+            "zh": "總統發布公告宣布全國放假一天。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "declaration",
+        "noteZh": "正式宣告"
+      },
+      {
+        "lemma": "announcement",
+        "noteZh": "公告"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "proclaim",
+        "partOfSpeech": "verb",
+        "meaningZh": "宣告；宣布"
       }
     ],
     "tags": [
@@ -2562,18 +3348,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "declaration",
-        "noteZh": "正式宣告"
-      },
-      {
-        "lemma": "announcement",
-        "noteZh": "公告"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_procure",
@@ -2587,14 +3362,17 @@
       {
         "id": "s_procure_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to obtain something, especially with care or effort",
         "definitionZh": "取得；獲得（尤指費力）",
         "usageExplanationZh": "正式用語，常見於商業或法律情境，如 procure supplies（採購物資），強調透過努力或程序取得。",
-        "examples": [
-          {
-            "en": "The company procured new equipment for the factory.",
-            "zh": "這家公司為工廠採購了新設備。"
-          }
+        "grammarPatterns": [
+          "procure + noun",
+          "procure sth for + sb",
+          "procure sth from + noun"
         ],
         "collocations": [
           {
@@ -2605,7 +3383,31 @@
             "text": "procure funding",
             "meaningZh": "取得資金"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company procured new equipment for the factory.",
+            "zh": "這家公司為工廠採購了新設備。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "obtain",
+        "noteZh": "取得"
+      },
+      {
+        "lemma": "acquire",
+        "noteZh": "獲得"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "procurement",
+        "partOfSpeech": "noun",
+        "meaningZh": "採購；取得"
       }
     ],
     "tags": [
@@ -2619,18 +3421,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "obtain",
-        "noteZh": "取得"
-      },
-      {
-        "lemma": "acquire",
-        "noteZh": "獲得"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_procurement",
@@ -2644,14 +3435,17 @@
       {
         "id": "s_procurement_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "technical"
+        ],
         "definitionEn": "the action of obtaining or acquiring something, especially through a formal process",
         "definitionZh": "採購；獲得",
         "usageExplanationZh": "常見 a procurement process（採購流程）、public procurement，多用於企業或政府的物資採購情境。",
-        "examples": [
-          {
-            "en": "The department is responsible for the procurement of office supplies.",
-            "zh": "該部門負責辦公用品的採購。"
-          }
+        "grammarPatterns": [
+          "the procurement of + noun",
+          "public procurement",
+          "a procurement process"
         ],
         "collocations": [
           {
@@ -2662,7 +3456,31 @@
             "text": "procurement process",
             "meaningZh": "採購流程"
           }
+        ],
+        "examples": [
+          {
+            "en": "The department is responsible for the procurement of office supplies.",
+            "zh": "該部門負責辦公用品的採購。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "purchasing",
+        "noteZh": "採購"
+      },
+      {
+        "lemma": "acquisition",
+        "noteZh": "取得"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "procure",
+        "partOfSpeech": "verb",
+        "meaningZh": "取得；採購"
       }
     ],
     "tags": [
@@ -2675,18 +3493,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "purchasing",
-        "noteZh": "採購"
-      },
-      {
-        "lemma": "acquisition",
-        "noteZh": "取得"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_prod",
@@ -2700,14 +3507,16 @@
       {
         "id": "s_prod_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to poke someone or something with a finger or pointed object, or to urge someone into action",
         "definitionZh": "戳；督促（某人行動）",
         "usageExplanationZh": "常接具體受詞，如 prod someone into action（催促某人採取行動），字面或比喻義皆常見。",
-        "examples": [
-          {
-            "en": "She had to prod her brother to finish his homework.",
-            "zh": "她得催促弟弟把功課寫完。"
-          }
+        "grammarPatterns": [
+          "prod + sb",
+          "prod sb into + V-ing",
+          "prod sb to + V"
         ],
         "collocations": [
           {
@@ -2718,9 +3527,26 @@
             "text": "prod with a stick",
             "meaningZh": "用棍子戳"
           }
+        ],
+        "examples": [
+          {
+            "en": "She had to prod her brother to finish his homework.",
+            "zh": "她得催促弟弟把功課寫完。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "poke",
+        "noteZh": "戳"
+      },
+      {
+        "lemma": "urge",
+        "noteZh": "督促"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2732,18 +3558,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "poke",
-        "noteZh": "戳"
-      },
-      {
-        "lemma": "urge",
-        "noteZh": "督促"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_prodigal",
@@ -2757,14 +3572,16 @@
       {
         "id": "s_prodigal_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "spending money or resources freely and recklessly; wastefully extravagant",
         "definitionZh": "揮霍的；浪費的",
         "usageExplanationZh": "常見 the prodigal son（浪子），源自聖經典故，形容揮金如土、不知節制的行為。",
-        "examples": [
-          {
-            "en": "He was known for his prodigal spending on luxury cars.",
-            "zh": "他以在名車上揮霍無度而聞名。"
-          }
+        "grammarPatterns": [
+          "prodigal + noun",
+          "be prodigal with + noun"
         ],
         "collocations": [
           {
@@ -2775,21 +3592,15 @@
             "text": "prodigal use of resources",
             "meaningZh": "資源的浪費使用"
           }
+        ],
+        "examples": [
+          {
+            "en": "He was known for his prodigal spending on luxury cars.",
+            "zh": "他以在名車上揮霍無度而聞名。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "wasteful",
@@ -2809,7 +3620,26 @@
         "lemma": "thrifty",
         "noteZh": "勤儉的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "prodigality",
+        "partOfSpeech": "noun",
+        "meaningZh": "揮霍；浪費"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_prodigious",
@@ -2823,14 +3653,16 @@
       {
         "id": "s_prodigious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "remarkably great in extent, size, or degree",
         "definitionZh": "驚人的；巨大的",
         "usageExplanationZh": "常修飾 talent、amount，形容程度或規模超乎尋常地大，語氣正面且強烈。",
-        "examples": [
-          {
-            "en": "She has a prodigious talent for playing the piano.",
-            "zh": "她擁有驚人的鋼琴天賦。"
-          }
+        "grammarPatterns": [
+          "a prodigious + noun",
+          "a prodigious talent for + noun"
         ],
         "collocations": [
           {
@@ -2841,22 +3673,15 @@
             "text": "prodigious amount",
             "meaningZh": "龐大的數量"
           }
+        ],
+        "examples": [
+          {
+            "en": "She has a prodigious talent for playing the piano.",
+            "zh": "她擁有驚人的鋼琴天賦。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "enormous",
@@ -2872,7 +3697,32 @@
         "lemma": "meager",
         "noteZh": "微薄的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "prodigy",
+        "partOfSpeech": "noun",
+        "meaningZh": "天才；神童"
+      },
+      {
+        "lemma": "prodigiously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "驚人地"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_productive",
@@ -2886,14 +3736,17 @@
       {
         "id": "s_productive_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "producing a large amount of goods, results, or work efficiently",
         "definitionZh": "多產的；有生產力的",
         "usageExplanationZh": "常見 a productive meeting（有成效的會議）、productive land（肥沃的土地），強調產出效率高或成果豐碩。",
-        "examples": [
-          {
-            "en": "The team had a productive week and finished the project early.",
-            "zh": "這個團隊這週效率很高，提前完成了專案。"
-          }
+        "grammarPatterns": [
+          "a productive + noun",
+          "be productive",
+          "highly productive"
         ],
         "collocations": [
           {
@@ -2904,21 +3757,15 @@
             "text": "highly productive",
             "meaningZh": "生產力很高的"
           }
+        ],
+        "examples": [
+          {
+            "en": "The team had a productive week and finished the project early.",
+            "zh": "這個團隊這週效率很高，提前完成了專案。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "efficient",
@@ -2934,6 +3781,35 @@
         "lemma": "unproductive",
         "noteZh": "無成果的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "productivity",
+        "partOfSpeech": "noun",
+        "meaningZh": "生產力"
+      },
+      {
+        "lemma": "produce",
+        "partOfSpeech": "verb",
+        "meaningZh": "生產；製造"
+      },
+      {
+        "lemma": "production",
+        "partOfSpeech": "noun",
+        "meaningZh": "生產；製作"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   }
 ]

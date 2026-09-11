@@ -11,33 +11,44 @@
       {
         "id": "s_trend_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "a general direction in which something is developing or changing",
         "definitionZh": "趨勢；走向",
         "usageExplanationZh": "常見搭配 a growing/upward trend、follow a trend；廣泛用於時尚、經濟、社會等領域。",
-        "examples": [
-          {
-            "en": "There is a growing trend toward remote work.",
-            "zh": "遠距工作的趨勢日益增長。"
-          }
+        "grammarPatterns": [
+          "a trend toward + noun",
+          "a growing trend",
+          "reverse a trend"
         ],
         "collocations": [
           {
             "text": "a growing trend",
             "meaningZh": "日益明顯的趨勢"
           }
+        ],
+        "examples": [
+          {
+            "en": "There is a growing trend toward remote work.",
+            "zh": "遠距工作的趨勢日益增長。"
+          }
         ]
       },
       {
         "id": "s_trend_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "business"
+        ],
         "definitionEn": "to develop or change in a general direction; to become popular, especially on social media",
         "definitionZh": "呈現趨勢；（在社群媒體上）成為熱門話題",
         "usageExplanationZh": "現代用法常見於社群媒體語境，如 trending topic；亦可指統計數據隨時間呈現某種走向。",
-        "examples": [
-          {
-            "en": "The hashtag started trending within an hour of the announcement.",
-            "zh": "這個標籤在公告發布後一小時內就開始成為熱門話題。"
-          }
+        "grammarPatterns": [
+          "trend toward + noun",
+          "start trending"
         ],
         "collocations": [
           {
@@ -48,7 +59,31 @@
             "text": "trend on social media",
             "meaningZh": "在社群媒體上成為熱門話題"
           }
+        ],
+        "examples": [
+          {
+            "en": "The hashtag started trending within an hour of the announcement.",
+            "zh": "這個標籤在公告發布後一小時內就開始成為熱門話題。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "tendency",
+        "noteZh": "名詞義指發展走向。"
+      },
+      {
+        "lemma": "tend",
+        "noteZh": "動詞義指朝某方向發展，搭配句型不同。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "trendy",
+        "partOfSpeech": "adjective",
+        "meaningZh": "時髦的；趕流行的"
       }
     ],
     "tags": [
@@ -63,18 +98,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "tendency",
-        "noteZh": "名詞義指發展走向。"
-      },
-      {
-        "lemma": "tend",
-        "noteZh": "動詞義指朝某方向發展，搭配句型不同。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_trepidation",
@@ -88,21 +112,48 @@
       {
         "id": "s_trepidation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "a feeling of fear or anxiety about something that may happen",
         "definitionZh": "恐懼；忐忑不安",
         "usageExplanationZh": "書面正式用語，強調對未知或即將發生之事的不安，常見搭配 with trepidation。",
-        "examples": [
-          {
-            "en": "She approached the interview with a great deal of trepidation.",
-            "zh": "她懷著極大的忐忑不安去參加這場面試。"
-          }
+        "grammarPatterns": [
+          "with trepidation",
+          "a sense of trepidation about + noun"
         ],
         "collocations": [
           {
             "text": "with some trepidation",
             "meaningZh": "帶著幾分忐忑"
           }
+        ],
+        "examples": [
+          {
+            "en": "She approached the interview with a great deal of trepidation.",
+            "zh": "她懷著極大的忐忑不安去參加這場面試。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "apprehension",
+        "noteZh": "指對未來事情的憂懼。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "confidence",
+        "noteZh": "指面對未來的信心。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "intrepid",
+        "partOfSpeech": "adjective",
+        "meaningZh": "無畏的；勇敢的"
       }
     ],
     "tags": [
@@ -116,19 +167,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "apprehension",
-        "noteZh": "指對未來事情的憂懼。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "confidence",
-        "noteZh": "指面對未來的信心。"
-      }
-    ]
+    }
   },
   {
     "id": "w_trespass",
@@ -142,40 +181,73 @@
       {
         "id": "s_trespass_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "the act of entering someone's land or property without permission",
         "definitionZh": "非法侵入；擅自進入（他人土地）",
         "usageExplanationZh": "常見搭配 no trespassing（禁止進入的告示）；法律用語，指未經許可進入他人領地。",
-        "examples": [
-          {
-            "en": "The farmer put up a sign warning against trespass.",
-            "zh": "農夫立了一個警告牌，禁止擅自侵入。"
-          }
+        "grammarPatterns": [
+          "an act of trespass",
+          "warn against trespass"
         ],
         "collocations": [
           {
             "text": "criminal trespass",
             "meaningZh": "刑事非法侵入"
           }
+        ],
+        "examples": [
+          {
+            "en": "The farmer put up a sign warning against trespass.",
+            "zh": "農夫立了一個警告牌，禁止擅自侵入。"
+          }
         ]
       },
       {
         "id": "s_trespass_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to enter someone's land or property without permission",
         "definitionZh": "非法侵入；擅自進入",
         "usageExplanationZh": "常見搭配 trespass on someone's property；也可比喻指侵犯他人的權利或隱私。",
-        "examples": [
-          {
-            "en": "Hikers were warned not to trespass on private farmland.",
-            "zh": "健行者被警告不要擅自侵入私人農地。"
-          }
+        "grammarPatterns": [
+          "trespass on + noun",
+          "trespass onto + noun"
         ],
         "collocations": [
           {
             "text": "trespass on private property",
             "meaningZh": "擅闖私人土地"
           }
+        ],
+        "examples": [
+          {
+            "en": "Hikers were warned not to trespass on private farmland.",
+            "zh": "健行者被警告不要擅自侵入私人農地。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "intrusion",
+        "noteZh": "名詞義指未經允許的侵入。"
+      },
+      {
+        "lemma": "intrude",
+        "noteZh": "動詞義指擅自闖入。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "trespasser",
+        "partOfSpeech": "noun",
+        "meaningZh": "非法侵入者"
       }
     ],
     "tags": [
@@ -190,18 +262,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "intrusion",
-        "noteZh": "名詞義指未經允許的侵入。"
-      },
-      {
-        "lemma": "intrude",
-        "noteZh": "動詞義指擅自闖入。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_triangle",
@@ -215,21 +276,48 @@
       {
         "id": "s_triangle_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a shape with three straight sides and three angles",
         "definitionZh": "三角形",
         "usageExplanationZh": "幾何學基本圖形名詞；亦可指樂器「三角鐵」，或比喻三方關係，如 a love triangle。",
-        "examples": [
-          {
-            "en": "The students learned how to calculate the area of a triangle.",
-            "zh": "學生們學習如何計算三角形的面積。"
-          }
+        "grammarPatterns": [
+          "the area of a triangle",
+          "a right-angled triangle"
         ],
         "collocations": [
           {
             "text": "a right-angled triangle",
             "meaningZh": "直角三角形"
           }
+        ],
+        "examples": [
+          {
+            "en": "The students learned how to calculate the area of a triangle.",
+            "zh": "學生們學習如何計算三角形的面積。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "three-sided polygon",
+        "noteZh": "指有三條邊的多邊形，為幾何上的同義描述。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "triangular",
+        "partOfSpeech": "adjective",
+        "meaningZh": "三角形的"
+      },
+      {
+        "lemma": "triangulate",
+        "partOfSpeech": "verb",
+        "meaningZh": "三角測量；三方驗證"
       }
     ],
     "tags": [
@@ -243,14 +331,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "three-sided polygon",
-        "noteZh": "指有三條邊的多邊形，為幾何上的同義描述。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_tribal",
@@ -264,21 +345,48 @@
       {
         "id": "s_tribal_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "neutral"
+        ],
         "definitionEn": "relating to or characteristic of a tribe or tribes",
         "definitionZh": "部落的；部族的",
         "usageExplanationZh": "常見搭配 tribal customs/leader/conflict；用於描述與原住民族或部落社會相關的事物。",
-        "examples": [
-          {
-            "en": "The museum displays artifacts from various tribal cultures.",
-            "zh": "這座博物館展示了各種部落文化的文物。"
-          }
+        "grammarPatterns": [
+          "tribal + noun",
+          "of tribal origin"
         ],
         "collocations": [
           {
             "text": "tribal traditions",
             "meaningZh": "部落傳統"
           }
+        ],
+        "examples": [
+          {
+            "en": "The museum displays artifacts from various tribal cultures.",
+            "zh": "這座博物館展示了各種部落文化的文物。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "of a tribe",
+        "noteZh": "意為部落的；為介系詞片語，須依句子結構改寫。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "tribe",
+        "partOfSpeech": "noun",
+        "meaningZh": "部落；部族"
+      },
+      {
+        "lemma": "tribalism",
+        "partOfSpeech": "noun",
+        "meaningZh": "部落主義"
       }
     ],
     "tags": [
@@ -291,14 +399,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "of a tribe",
-        "noteZh": "意為部落的；為介系詞片語，須依句子結構改寫。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_tribe",
@@ -312,21 +413,48 @@
       {
         "id": "s_tribe_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "neutral"
+        ],
         "definitionEn": "a social group of people, especially in a traditional society, sharing a common ancestry, language, or culture",
         "definitionZh": "部落；部族",
         "usageExplanationZh": "常見搭配 a member of the tribe、tribal chief；亦可非正式地指有共同興趣的群體。",
-        "examples": [
-          {
-            "en": "The tribe has lived in this region for centuries.",
-            "zh": "這個部落已在此地區生活了數個世紀。"
-          }
+        "grammarPatterns": [
+          "a tribe of + noun",
+          "belong to a tribe"
         ],
         "collocations": [
           {
             "text": "an Indigenous tribe",
             "meaningZh": "原住民族部落"
           }
+        ],
+        "examples": [
+          {
+            "en": "The tribe has lived in this region for centuries.",
+            "zh": "這個部落已在此地區生活了數個世紀。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "tribal community",
+        "noteZh": "指共享部族身分的社群。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "tribal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "部落的；部族的"
+      },
+      {
+        "lemma": "tribesman",
+        "partOfSpeech": "noun",
+        "meaningZh": "部落成員"
       }
     ],
     "tags": [
@@ -340,14 +468,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "tribal community",
-        "noteZh": "指共享部族身分的社群。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_tribunal",
@@ -361,23 +482,38 @@
       {
         "id": "s_tribunal_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "a body of officials appointed to make judgments, especially on a specific dispute",
         "definitionZh": "法庭；仲裁庭；審裁處",
         "usageExplanationZh": "常見搭配 an international tribunal、appear before a tribunal；多用於法律、國際爭端語境。",
-        "examples": [
-          {
-            "en": "The war crimes tribunal began hearing evidence this week.",
-            "zh": "戰爭罪法庭本週開始聽取證據。"
-          }
+        "grammarPatterns": [
+          "appear before a tribunal",
+          "a tribunal on + noun"
         ],
         "collocations": [
           {
             "text": "an employment tribunal",
             "meaningZh": "勞資爭議審裁庭"
           }
+        ],
+        "examples": [
+          {
+            "en": "The war crimes tribunal began hearing evidence this week.",
+            "zh": "戰爭罪法庭本週開始聽取證據。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "court",
+        "noteZh": "指裁決爭議的法庭；tribunal 常指專門審裁機構。"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -388,14 +524,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "court",
-        "noteZh": "指裁決爭議的法庭；tribunal 常指專門審裁機構。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_tribute",
@@ -409,21 +538,42 @@
       {
         "id": "s_tribute_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "an act, statement, or gift that is intended to show gratitude, respect, or admiration",
         "definitionZh": "致敬；讚頌；貢品",
         "usageExplanationZh": "常見搭配 pay tribute to someone（向某人致敬）；亦可指古代進貢的貢品，較少見用法。",
-        "examples": [
-          {
-            "en": "The concert was held as a tribute to the late singer.",
-            "zh": "這場音樂會是為了向已故歌手致敬而舉辦的。"
-          }
+        "grammarPatterns": [
+          "a tribute to sb",
+          "pay tribute to sb"
         ],
         "collocations": [
           {
             "text": "pay tribute to",
             "meaningZh": "向……致敬"
           }
+        ],
+        "examples": [
+          {
+            "en": "The concert was held as a tribute to the late singer.",
+            "zh": "這場音樂會是為了向已故歌手致敬而舉辦的。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "homage",
+        "noteZh": "指敬意或致敬。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "tributary",
+        "partOfSpeech": "noun",
+        "meaningZh": "支流；進貢國"
       }
     ],
     "tags": [
@@ -437,14 +587,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "homage",
-        "noteZh": "指敬意或致敬。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_trick",
@@ -458,14 +601,15 @@
       {
         "id": "s_trick_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a cunning or skillful act intended to deceive or amuse someone",
         "definitionZh": "詭計；把戲；技巧",
         "usageExplanationZh": "常見搭配 play a trick on someone（惡作劇）、a magic trick（魔術）；依語境可指騙術或技藝。",
-        "examples": [
-          {
-            "en": "The magician performed an amazing card trick.",
-            "zh": "這位魔術師表演了一個令人驚豔的紙牌把戲。"
-          }
+        "grammarPatterns": [
+          "play a trick on sb",
+          "perform a trick"
         ],
         "collocations": [
           {
@@ -476,7 +620,37 @@
             "text": "play a trick on someone",
             "meaningZh": "捉弄某人"
           }
+        ],
+        "examples": [
+          {
+            "en": "The magician performed an amazing card trick.",
+            "zh": "這位魔術師表演了一個令人驚豔的紙牌把戲。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "ruse",
+        "noteZh": "指用來欺騙他人的計策。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "tricky",
+        "partOfSpeech": "adjective",
+        "meaningZh": "棘手的；狡猾的"
+      },
+      {
+        "lemma": "trickery",
+        "partOfSpeech": "noun",
+        "meaningZh": "詭計；欺騙手法"
+      },
+      {
+        "lemma": "trickster",
+        "partOfSpeech": "noun",
+        "meaningZh": "騙子；詐術者"
       }
     ],
     "tags": [
@@ -490,14 +664,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "ruse",
-        "noteZh": "指用來欺騙他人的計策。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_trickle",
@@ -511,14 +678,16 @@
       {
         "id": "s_trickle_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "to flow or fall in a thin stream; to happen slowly and gradually",
         "definitionZh": "涓涓流出；緩慢滴落；逐漸發生",
         "usageExplanationZh": "常見搭配 water trickles、information trickles in，強調數量少、速度慢的漸進過程。",
-        "examples": [
-          {
-            "en": "Tears trickled down her cheeks as she read the letter.",
-            "zh": "她讀信時，淚水順著臉頰緩緩滑落。"
-          }
+        "grammarPatterns": [
+          "trickle down + noun",
+          "trickle into + noun"
         ],
         "collocations": [
           {
@@ -529,7 +698,25 @@
             "text": "trickle in",
             "meaningZh": "陸續少量到來"
           }
+        ],
+        "examples": [
+          {
+            "en": "Tears trickled down her cheeks as she read the letter.",
+            "zh": "她讀信時，淚水順著臉頰緩緩滑落。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "dribble",
+        "noteZh": "指液體少量緩慢流出。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "gush",
+        "noteZh": "指液體大量湧出，與涓滴流出相對。"
       }
     ],
     "tags": [
@@ -544,19 +731,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "dribble",
-        "noteZh": "指液體少量緩慢流出。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "gush",
-        "noteZh": "指液體大量湧出，與涓滴流出相對。"
-      }
-    ]
+    }
   },
   {
     "id": "w_trillion",
@@ -570,23 +745,38 @@
       {
         "id": "s_trillion_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "the number 1,000,000,000,000; one thousand billion",
         "definitionZh": "兆（一萬億）",
         "usageExplanationZh": "常見搭配 a trillion dollars，用於描述極大的數量，尤其在經濟、財政語境中。",
-        "examples": [
-          {
-            "en": "The national debt has surpassed one trillion dollars.",
-            "zh": "國債已超過一兆美元。"
-          }
+        "grammarPatterns": [
+          "a trillion + plural noun",
+          "trillions of + plural noun"
         ],
         "collocations": [
           {
             "text": "a trillion dollars",
             "meaningZh": "一兆元"
           }
+        ],
+        "examples": [
+          {
+            "en": "The national debt has surpassed one trillion dollars.",
+            "zh": "國債已超過一兆美元。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "one thousand billion",
+        "noteZh": "指一兆，數值相同。"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -597,14 +787,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "one thousand billion",
-        "noteZh": "指一兆，數值相同。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_trim",
@@ -618,33 +801,43 @@
       {
         "id": "s_trim_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "an act of cutting something to make it neater; decorative material added to an edge",
         "definitionZh": "修剪；（裝飾用的）邊飾",
         "usageExplanationZh": "常見搭配 a haircut trim、trim on a jacket（外套的裝飾邊）；亦可作形容詞指整潔苗條。",
-        "examples": [
-          {
-            "en": "She went to the salon for a quick trim.",
-            "zh": "她去美髮沙龍做了個簡單的修剪。"
-          }
+        "grammarPatterns": [
+          "a quick trim",
+          "need a trim"
         ],
         "collocations": [
           {
             "text": "a hair trim",
             "meaningZh": "稍微修剪頭髮"
           }
+        ],
+        "examples": [
+          {
+            "en": "She went to the salon for a quick trim.",
+            "zh": "她去美髮沙龍做了個簡單的修剪。"
+          }
         ]
       },
       {
         "id": "s_trim_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "to make something neater by cutting off irregular parts; to reduce slightly",
         "definitionZh": "修剪；削減",
         "usageExplanationZh": "常見搭配 trim the hedges/budget，指去除多餘部分使更整潔或精簡。",
-        "examples": [
-          {
-            "en": "The company decided to trim its workforce to cut costs.",
-            "zh": "這家公司決定裁減人力以節省成本。"
-          }
+        "grammarPatterns": [
+          "trim + noun",
+          "trim sth back",
+          "trim costs"
         ],
         "collocations": [
           {
@@ -655,22 +848,15 @@
             "text": "trim costs",
             "meaningZh": "削減成本"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company decided to trim its workforce to cut costs.",
+            "zh": "這家公司決定裁減人力以節省成本。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "edging",
@@ -685,7 +871,27 @@
         "noteZh": "動詞義指削減數量。"
       }
     ],
-    "antonyms": []
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "trimmer",
+        "partOfSpeech": "noun",
+        "meaningZh": "修剪器"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_triumph",
@@ -699,21 +905,58 @@
       {
         "id": "s_triumph_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "a great victory or achievement; a feeling of joy from success",
         "definitionZh": "勝利；凱旋；成功的喜悅",
         "usageExplanationZh": "常見搭配 a triumph over adversity（克服逆境的勝利）；語氣比 victory 更帶有情感色彩。",
-        "examples": [
-          {
-            "en": "Winning the championship was a triumph for the entire team.",
-            "zh": "贏得冠軍是整個團隊的一大勝利。"
-          }
+        "grammarPatterns": [
+          "a triumph for + noun",
+          "a triumph of A over B"
         ],
         "collocations": [
           {
             "text": "a triumph over adversity",
             "meaningZh": "戰勝逆境"
           }
+        ],
+        "examples": [
+          {
+            "en": "Winning the championship was a triumph for the entire team.",
+            "zh": "贏得冠軍是整個團隊的一大勝利。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "victory",
+        "noteZh": "指重大勝利。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "defeat",
+        "noteZh": "指失敗或戰敗。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "triumphant",
+        "partOfSpeech": "adjective",
+        "meaningZh": "得勝的；歡欣鼓舞的"
+      },
+      {
+        "lemma": "triumphal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "凱旋的；慶祝勝利的"
+      },
+      {
+        "lemma": "triumphantly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "得意洋洋地"
       }
     ],
     "tags": [
@@ -728,19 +971,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "victory",
-        "noteZh": "指重大勝利。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "defeat",
-        "noteZh": "指失敗或戰敗。"
-      }
-    ]
+    }
   },
   {
     "id": "w_trivial",
@@ -754,21 +985,58 @@
       {
         "id": "s_trivial_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "of little value or importance; not worth serious consideration",
         "definitionZh": "瑣碎的；不重要的；微不足道的",
         "usageExplanationZh": "常見搭配 a trivial matter/detail；常與 significant/serious 相對，強調事情無關緊要。",
-        "examples": [
-          {
-            "en": "Don't worry about such a trivial issue.",
-            "zh": "不要為這種瑣碎的小事煩惱。"
-          }
+        "grammarPatterns": [
+          "a trivial + noun",
+          "dismiss sth as trivial"
         ],
         "collocations": [
           {
             "text": "a trivial matter",
             "meaningZh": "瑣碎的事情"
           }
+        ],
+        "examples": [
+          {
+            "en": "Don't worry about such a trivial issue.",
+            "zh": "不要為這種瑣碎的小事煩惱。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "insignificant",
+        "noteZh": "指不重要、不值得在意的。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "important",
+        "noteZh": "指重要的。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "trivia",
+        "partOfSpeech": "noun",
+        "meaningZh": "瑣事；冷知識"
+      },
+      {
+        "lemma": "triviality",
+        "partOfSpeech": "noun",
+        "meaningZh": "瑣碎；微不足道之事"
+      },
+      {
+        "lemma": "trivialize",
+        "partOfSpeech": "verb",
+        "meaningZh": "使顯得瑣碎；輕視"
       }
     ],
     "tags": [
@@ -783,19 +1051,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "insignificant",
-        "noteZh": "指不重要、不值得在意的。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "important",
-        "noteZh": "指重要的。"
-      }
-    ]
+    }
   },
   {
     "id": "w_trolley",
@@ -809,23 +1065,37 @@
       {
         "id": "s_trolley_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a small cart with wheels used for transporting goods or food, especially in supermarkets or hospitals",
         "definitionZh": "（超市或醫院用的）手推車",
         "usageExplanationZh": "英式英語常用 trolley，美式英語多用 cart；也可指有軌電車（tram），依語境判斷。",
-        "examples": [
-          {
-            "en": "She pushed her shopping trolley down the aisle.",
-            "zh": "她推著購物手推車走過走道。"
-          }
+        "grammarPatterns": [
+          "push a trolley",
+          "a trolley of + noun"
         ],
         "collocations": [
           {
             "text": "a shopping trolley",
             "meaningZh": "購物推車"
           }
+        ],
+        "examples": [
+          {
+            "en": "She pushed her shopping trolley down the aisle.",
+            "zh": "她推著購物手推車走過走道。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "cart",
+        "noteZh": "美式英語中常用來指推車。"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -837,14 +1107,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cart",
-        "noteZh": "美式英語中常用來指推車。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_trophy",
@@ -858,23 +1121,37 @@
       {
         "id": "s_trophy_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a cup or other decorative object awarded as a prize for a victory or achievement",
         "definitionZh": "獎盃；戰利品",
         "usageExplanationZh": "常見搭配 win a trophy、a trophy case（獎盃展示櫃）；亦可比喻用作形容詞，如 trophy wife。",
-        "examples": [
-          {
-            "en": "The team proudly displayed their trophy in the school hallway.",
-            "zh": "這支隊伍驕傲地將獎盃展示在學校走廊。"
-          }
+        "grammarPatterns": [
+          "win a trophy",
+          "lift the trophy"
         ],
         "collocations": [
           {
             "text": "win a trophy",
             "meaningZh": "贏得獎盃"
           }
+        ],
+        "examples": [
+          {
+            "en": "The team proudly displayed their trophy in the school hallway.",
+            "zh": "這支隊伍驕傲地將獎盃展示在學校走廊。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "prize",
+        "noteZh": "指獎品；範圍比獎盃廣。"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -885,14 +1162,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "prize",
-        "noteZh": "指獎品；範圍比獎盃廣。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_tropical",
@@ -906,21 +1176,48 @@
       {
         "id": "s_tropical_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "neutral"
+        ],
         "definitionEn": "relating to or characteristic of the tropics; very hot and humid",
         "definitionZh": "熱帶的；熱帶氣候的",
         "usageExplanationZh": "常見搭配 a tropical climate/island/storm；用於描述赤道附近炎熱潮濕的地區或氣候。",
-        "examples": [
-          {
-            "en": "The island has a tropical climate with warm temperatures year-round.",
-            "zh": "這座島嶼有著全年溫暖的熱帶氣候。"
-          }
+        "grammarPatterns": [
+          "a tropical + noun",
+          "in tropical regions"
         ],
         "collocations": [
           {
             "text": "a tropical rainforest",
             "meaningZh": "熱帶雨林"
           }
+        ],
+        "examples": [
+          {
+            "en": "The island has a tropical climate with warm temperatures year-round.",
+            "zh": "這座島嶼有著全年溫暖的熱帶氣候。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "equatorial",
+        "noteZh": "指赤道附近的；地理範圍比熱帶窄。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "tropics",
+        "partOfSpeech": "noun",
+        "meaningZh": "熱帶地區"
+      },
+      {
+        "lemma": "tropic",
+        "partOfSpeech": "noun",
+        "meaningZh": "回歸線"
       }
     ],
     "tags": [
@@ -933,14 +1230,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "equatorial",
-        "noteZh": "指赤道附近的；地理範圍比熱帶窄。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_truculent",
@@ -954,21 +1244,48 @@
       {
         "id": "s_truculent_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "eager or quick to argue or fight; aggressively defiant",
         "definitionZh": "好鬥的；蠻橫的；桀驁不馴的",
         "usageExplanationZh": "書面正式用語，語氣比 aggressive 更強調言語上的挑釁與不合作態度。",
-        "examples": [
-          {
-            "en": "The truculent teenager refused to follow any of the rules.",
-            "zh": "這個蠻橫的青少年拒絕遵守任何規定。"
-          }
+        "grammarPatterns": [
+          "a truculent + noun",
+          "become truculent"
         ],
         "collocations": [
           {
             "text": "a truculent attitude",
             "meaningZh": "蠻橫的態度"
           }
+        ],
+        "examples": [
+          {
+            "en": "The truculent teenager refused to follow any of the rules.",
+            "zh": "這個蠻橫的青少年拒絕遵守任何規定。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "aggressive",
+        "noteZh": "指好鬥、容易挑釁的。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "peaceable",
+        "noteZh": "指平和、不好爭鬥的。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "truculence",
+        "partOfSpeech": "noun",
+        "meaningZh": "好鬥；蠻橫"
       }
     ],
     "tags": [
@@ -981,19 +1298,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "aggressive",
-        "noteZh": "指好鬥、容易挑釁的。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "peaceable",
-        "noteZh": "指平和、不好爭鬥的。"
-      }
-    ]
+    }
   },
   {
     "id": "w_trumpet",
@@ -1007,21 +1312,43 @@
       {
         "id": "s_trumpet_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to proclaim or announce something loudly and with pride",
         "definitionZh": "大肆宣揚；高聲宣告",
         "usageExplanationZh": "常見搭配 trumpet one's achievements/success，語氣誇張，暗示過度自誇或高調宣傳。",
-        "examples": [
-          {
-            "en": "The company trumpeted its record profits in a press release.",
-            "zh": "這家公司在新聞稿中大肆宣揚其創紀錄的利潤。"
-          }
+        "grammarPatterns": [
+          "trumpet + noun",
+          "trumpet sth as + noun"
         ],
         "collocations": [
           {
             "text": "trumpet one's achievements",
             "meaningZh": "大肆宣揚自己的成就"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company trumpeted its record profits in a press release.",
+            "zh": "這家公司在新聞稿中大肆宣揚其創紀錄的利潤。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "proclaim",
+        "noteZh": "指高調宣告。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "trumpeter",
+        "partOfSpeech": "noun",
+        "meaningZh": "小號手"
       }
     ],
     "tags": [
@@ -1036,14 +1363,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "proclaim",
-        "noteZh": "指高調宣告。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_trunk",
@@ -1057,14 +1377,15 @@
       {
         "id": "s_trunk_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "the main stem of a tree; the rear storage compartment of a car; a large box for storage or travel; an elephant's nose",
         "definitionZh": "樹幹；（汽車）後車廂；大型儲物箱；（大象的）鼻子",
         "usageExplanationZh": "多義詞，需依上下文判斷：植物（tree trunk）、汽車部件（美式英語，英式為 boot）、行李箱、動物器官。",
-        "examples": [
-          {
-            "en": "He put the suitcases in the trunk of the car.",
-            "zh": "他把行李箱放進汽車的後車廂。"
-          }
+        "grammarPatterns": [
+          "the trunk of a tree",
+          "in the trunk of the car"
         ],
         "collocations": [
           {
@@ -1075,9 +1396,26 @@
             "text": "the trunk of a car",
             "meaningZh": "汽車後車廂"
           }
+        ],
+        "examples": [
+          {
+            "en": "He put the suitcases in the trunk of the car.",
+            "zh": "他把行李箱放進汽車的後車廂。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "boot",
+        "noteZh": "英式英語指汽車後車廂。"
+      },
+      {
+        "lemma": "chest",
+        "noteZh": "對應大型儲物箱。"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1090,18 +1428,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "boot",
-        "noteZh": "英式英語指汽車後車廂。"
-      },
-      {
-        "lemma": "chest",
-        "noteZh": "對應大型儲物箱。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_trustworthy",
@@ -1115,21 +1442,52 @@
       {
         "id": "s_trustworthy_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "able to be relied on as honest or truthful",
         "definitionZh": "值得信賴的；可靠的",
         "usageExplanationZh": "常見搭配 a trustworthy friend/source；強調品格上值得信任，常用於評價人或資訊來源。",
-        "examples": [
-          {
-            "en": "She is one of the most trustworthy people I know.",
-            "zh": "她是我認識的人當中最值得信賴的一位。"
-          }
+        "grammarPatterns": [
+          "a trustworthy + noun",
+          "prove trustworthy"
         ],
         "collocations": [
           {
             "text": "a trustworthy person",
             "meaningZh": "值得信賴的人"
           }
+        ],
+        "examples": [
+          {
+            "en": "She is one of the most trustworthy people I know.",
+            "zh": "她是我認識的人當中最值得信賴的一位。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "dependable",
+        "noteZh": "指可以信賴的。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "untrustworthy",
+        "noteZh": "指不值得信賴的。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "trust",
+        "partOfSpeech": "noun",
+        "meaningZh": "信任；信賴"
+      },
+      {
+        "lemma": "trustworthiness",
+        "partOfSpeech": "noun",
+        "meaningZh": "可信賴度"
       }
     ],
     "tags": [
@@ -1144,19 +1502,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "dependable",
-        "noteZh": "指可以信賴的。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "untrustworthy",
-        "noteZh": "指不值得信賴的。"
-      }
-    ]
+    }
   },
   {
     "id": "w_tube",
@@ -1170,35 +1516,70 @@
       {
         "id": "s_tube_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a long, hollow cylinder for holding or transporting liquids or gases; a container of this shape for toothpaste, etc.",
         "definitionZh": "管；管狀物；（牙膏等的）軟管",
         "usageExplanationZh": "常見搭配 a test tube、a tube of toothpaste；英式英語中 the Tube 亦指倫敦地鐵。",
-        "examples": [
-          {
-            "en": "She squeezed the last bit of toothpaste from the tube.",
-            "zh": "她把牙膏管裡最後一點牙膏擠了出來。"
-          }
+        "grammarPatterns": [
+          "a tube of + noun",
+          "through a tube"
         ],
         "collocations": [
           {
             "text": "a tube of toothpaste",
             "meaningZh": "一條牙膏"
           }
+        ],
+        "examples": [
+          {
+            "en": "She squeezed the last bit of toothpaste from the tube.",
+            "zh": "她把牙膏管裡最後一點牙膏擠了出來。"
+          }
         ]
       },
       {
         "id": "s_tube_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "to travel or transport something through a tube-like structure",
         "definitionZh": "用管道輸送；乘坐（倫敦）地鐵",
         "usageExplanationZh": "較少見的動詞用法，英式口語中可指搭乘 the Tube（倫敦地鐵），如 tube it to work。",
+        "grammarPatterns": [
+          "tube it to + noun",
+          "tube sth through + noun"
+        ],
+        "collocations": [],
         "examples": [
           {
             "en": "He decided to tube it to the meeting instead of driving.",
             "zh": "他決定搭地鐵去開會，而不是開車。"
           }
-        ],
-        "collocations": []
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "pipe",
+        "noteZh": "名詞義指輸送流體的管子。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "tubular",
+        "partOfSpeech": "adjective",
+        "meaningZh": "管狀的"
+      },
+      {
+        "lemma": "tubing",
+        "partOfSpeech": "noun",
+        "meaningZh": "管材；管路"
       }
     ],
     "tags": [
@@ -1212,14 +1593,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pipe",
-        "noteZh": "名詞義指輸送流體的管子。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_tuck",
@@ -1233,33 +1607,42 @@
       {
         "id": "s_tuck_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a fold or pleat sewn into a piece of clothing to make it fit better",
         "definitionZh": "（衣服的）褶邊；打褶",
         "usageExplanationZh": "常見於裁縫、服裝設計語境，指衣物上為了合身而縫製的摺線。",
-        "examples": [
-          {
-            "en": "The dress has a small tuck at the waist for a better fit.",
-            "zh": "這件洋裝腰部有一個小褶邊，讓它更合身。"
-          }
+        "grammarPatterns": [
+          "a tuck at the waist",
+          "put a tuck in + noun"
         ],
         "collocations": [
           {
             "text": "a narrow tuck",
             "meaningZh": "一道窄褶"
           }
+        ],
+        "examples": [
+          {
+            "en": "The dress has a small tuck at the waist for a better fit.",
+            "zh": "這件洋裝腰部有一個小褶邊，讓它更合身。"
+          }
         ]
       },
       {
         "id": "s_tuck_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to push or fold the edges of something into a small space to secure it",
         "definitionZh": "把…塞進；把…掖好",
         "usageExplanationZh": "常見搭配 tuck in a shirt（把襯衫塞進褲子）、tuck a child into bed（幫小孩蓋好被子）。",
-        "examples": [
-          {
-            "en": "She tucked her shirt into her skirt before the interview.",
-            "zh": "她在面試前把襯衫塞進裙子裡。"
-          }
+        "grammarPatterns": [
+          "tuck sth into + noun",
+          "tuck sth under + noun"
         ],
         "collocations": [
           {
@@ -1270,20 +1653,15 @@
             "text": "tuck someone in",
             "meaningZh": "替某人掖好被子"
           }
+        ],
+        "examples": [
+          {
+            "en": "She tucked her shirt into her skirt before the interview.",
+            "zh": "她在面試前把襯衫塞進裙子裡。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "pleat",
@@ -1294,7 +1672,18 @@
         "noteZh": "動詞義指把物品推入某處；語義較廣。"
       }
     ],
-    "antonyms": []
+    "antonyms": [],
+    "tags": [
+      "dictionary",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_tuition",
@@ -1308,14 +1697,17 @@
       {
         "id": "s_tuition_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "business"
+        ],
         "definitionEn": "the fees charged for instruction, especially at a college or university; or teaching, especially of individuals or small groups",
         "definitionZh": "學費；教學（尤指個別指導）",
         "usageExplanationZh": "美式英語常指學費（tuition fees），英式英語也可指個別授課，如 private tuition。",
-        "examples": [
-          {
-            "en": "College tuition has increased significantly over the past decade.",
-            "zh": "大學學費在過去十年間大幅上漲。"
-          }
+        "grammarPatterns": [
+          "pay tuition",
+          "tuition fees",
+          "tuition in + noun"
         ],
         "collocations": [
           {
@@ -1326,7 +1718,31 @@
             "text": "private tuition",
             "meaningZh": "個別教學"
           }
+        ],
+        "examples": [
+          {
+            "en": "College tuition has increased significantly over the past decade.",
+            "zh": "大學學費在過去十年間大幅上漲。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "instruction",
+        "noteZh": "對應教學義。"
+      },
+      {
+        "lemma": "tuition fees",
+        "noteZh": "對應學費義。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "tutor",
+        "partOfSpeech": "noun",
+        "meaningZh": "家教；導師"
       }
     ],
     "tags": [
@@ -1340,18 +1756,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "instruction",
-        "noteZh": "對應教學義。"
-      },
-      {
-        "lemma": "tuition fees",
-        "noteZh": "對應學費義。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_tumble",
@@ -1365,33 +1770,41 @@
       {
         "id": "s_tumble_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a sudden, uncontrolled fall",
         "definitionZh": "跌倒；摔跤",
         "usageExplanationZh": "常見搭配 take a tumble（跌一跤）；亦可比喻指價格或數值的急劇下跌。",
-        "examples": [
-          {
-            "en": "He took a nasty tumble while skiing down the slope.",
-            "zh": "他滑雪下坡時重重地摔了一跤。"
-          }
+        "grammarPatterns": [
+          "take a tumble",
+          "a nasty tumble"
         ],
         "collocations": [
           {
             "text": "take a tumble",
             "meaningZh": "跌一跤"
           }
+        ],
+        "examples": [
+          {
+            "en": "He took a nasty tumble while skiing down the slope.",
+            "zh": "他滑雪下坡時重重地摔了一跤。"
+          }
         ]
       },
       {
         "id": "s_tumble_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to fall suddenly, clumsily, or headlong; (of prices, values) to decrease sharply",
         "definitionZh": "摔倒；跌落；（價格）暴跌",
         "usageExplanationZh": "常見搭配 stock prices tumbled；也可指身體物理上的跌倒，強調失去平衡且無法控制。",
-        "examples": [
-          {
-            "en": "Stock prices tumbled after the disappointing earnings report.",
-            "zh": "在令人失望的財報公布後，股價暴跌。"
-          }
+        "grammarPatterns": [
+          "tumble down + noun",
+          "tumble by + noun"
         ],
         "collocations": [
           {
@@ -1402,7 +1815,32 @@
             "text": "tumble in value",
             "meaningZh": "價值暴跌"
           }
+        ],
+        "examples": [
+          {
+            "en": "Stock prices tumbled after the disappointing earnings report.",
+            "zh": "在令人失望的財報公布後，股價暴跌。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "fall",
+        "noteZh": "指突然摔倒或跌落，可作名詞或動詞。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "rise",
+        "noteZh": "動詞義指價格上升，與暴跌相對。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "tumbler",
+        "partOfSpeech": "noun",
+        "meaningZh": "平底玻璃杯；翻筋斗者"
       }
     ],
     "tags": [
@@ -1416,19 +1854,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "fall",
-        "noteZh": "指突然摔倒或跌落，可作名詞或動詞。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "rise",
-        "noteZh": "動詞義指價格上升，與暴跌相對。"
-      }
-    ]
+    }
   },
   {
     "id": "w_tune",
@@ -1442,33 +1868,42 @@
       {
         "id": "s_tune_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a melody, especially a simple and memorable one",
         "definitionZh": "曲調；旋律",
         "usageExplanationZh": "常見搭配 hum/whistle a tune；亦見於片語 in tune（音準正確）/out of tune（走音）。",
-        "examples": [
-          {
-            "en": "She hummed a cheerful tune while cleaning the house.",
-            "zh": "她一邊打掃房子一邊哼著愉快的曲調。"
-          }
+        "grammarPatterns": [
+          "hum a tune",
+          "a catchy tune"
         ],
         "collocations": [
           {
             "text": "a catchy tune",
             "meaningZh": "容易記住的曲調"
           }
+        ],
+        "examples": [
+          {
+            "en": "She hummed a cheerful tune while cleaning the house.",
+            "zh": "她一邊打掃房子一邊哼著愉快的曲調。"
+          }
         ]
       },
       {
         "id": "s_tune_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "to adjust a musical instrument or radio to the correct pitch or frequency",
         "definitionZh": "調音；調頻",
         "usageExplanationZh": "常見搭配 tune a piano/guitar、tune in to a radio station；也可比喻指調整使某物達到最佳狀態。",
-        "examples": [
-          {
-            "en": "He spent an hour tuning his guitar before the show.",
-            "zh": "他在演出前花了一小時為吉他調音。"
-          }
+        "grammarPatterns": [
+          "tune + noun",
+          "tune sth to + noun"
         ],
         "collocations": [
           {
@@ -1479,7 +1914,36 @@
             "text": "tune in to a station",
             "meaningZh": "調到某個電臺"
           }
+        ],
+        "examples": [
+          {
+            "en": "He spent an hour tuning his guitar before the show.",
+            "zh": "他在演出前花了一小時為吉他調音。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "melody",
+        "noteZh": "名詞義指旋律。"
+      },
+      {
+        "lemma": "adjust",
+        "noteZh": "動詞義指調整音高或頻率。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "tuner",
+        "partOfSpeech": "noun",
+        "meaningZh": "調諧器；調音師"
+      },
+      {
+        "lemma": "tuneful",
+        "partOfSpeech": "adjective",
+        "meaningZh": "悅耳的；旋律優美的"
       }
     ],
     "tags": [
@@ -1493,18 +1957,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "melody",
-        "noteZh": "名詞義指旋律。"
-      },
-      {
-        "lemma": "adjust",
-        "noteZh": "動詞義指調整音高或頻率。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_tunnel",
@@ -1518,42 +1971,69 @@
       {
         "id": "s_tunnel_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "an underground or underwater passage, especially one for a road or railway",
         "definitionZh": "隧道；地道",
         "usageExplanationZh": "常見搭配 dig/build a tunnel、a road/train tunnel；也可比喻用作片語 light at the end of the tunnel。",
-        "examples": [
-          {
-            "en": "The train passed through a long tunnel under the mountain.",
-            "zh": "火車穿過山下的一條長隧道。"
-          }
+        "grammarPatterns": [
+          "a tunnel under + noun",
+          "pass through a tunnel"
         ],
         "collocations": [
           {
             "text": "a railway tunnel",
             "meaningZh": "鐵路隧道"
           }
+        ],
+        "examples": [
+          {
+            "en": "The train passed through a long tunnel under the mountain.",
+            "zh": "火車穿過山下的一條長隧道。"
+          }
         ]
       },
       {
         "id": "s_tunnel_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "to dig or make a tunnel through or under something",
         "definitionZh": "挖掘隧道；打通",
         "usageExplanationZh": "常見搭配 tunnel through a mountain/wall，指挖鑿出通道的動作。",
-        "examples": [
-          {
-            "en": "Workers tunneled through solid rock to build the subway line.",
-            "zh": "工人們穿鑿堅硬的岩石以建造地鐵線。"
-          }
+        "grammarPatterns": [
+          "tunnel through + noun",
+          "tunnel under + noun"
         ],
         "collocations": [
           {
             "text": "tunnel under a wall",
             "meaningZh": "挖地道穿過牆下"
           }
+        ],
+        "examples": [
+          {
+            "en": "Workers tunneled through solid rock to build the subway line.",
+            "zh": "工人們穿鑿堅硬的岩石以建造地鐵線。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "passageway",
+        "noteZh": "名詞義指通道；範圍比隧道廣。"
+      },
+      {
+        "lemma": "burrow",
+        "noteZh": "動詞義指挖掘地道。"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1565,18 +2045,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "passageway",
-        "noteZh": "名詞義指通道；範圍比隧道廣。"
-      },
-      {
-        "lemma": "burrow",
-        "noteZh": "動詞義指挖掘地道。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_turbulent",
@@ -1590,14 +2059,16 @@
       {
         "id": "s_turbulent_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "characterized by conflict, disorder, or sudden change; (of air or water) moving unpredictably",
         "definitionZh": "動盪的；混亂的；（氣流或水流）紊亂的",
         "usageExplanationZh": "常見搭配 a turbulent period/relationship（動盪的時期或關係）、turbulent air（亂流）。",
-        "examples": [
-          {
-            "en": "The country went through a turbulent period of political change.",
-            "zh": "這個國家經歷了一段政治動盪的時期。"
-          }
+        "grammarPatterns": [
+          "a turbulent + noun",
+          "a turbulent period of + noun"
         ],
         "collocations": [
           {
@@ -1608,7 +2079,37 @@
             "text": "turbulent air",
             "meaningZh": "紊亂的氣流"
           }
+        ],
+        "examples": [
+          {
+            "en": "The country went through a turbulent period of political change.",
+            "zh": "這個國家經歷了一段政治動盪的時期。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "tumultuous",
+        "noteZh": "指動盪混亂的。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "calm",
+        "noteZh": "指平靜的。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "turbulence",
+        "partOfSpeech": "noun",
+        "meaningZh": "亂流；動盪"
+      },
+      {
+        "lemma": "turbulently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "動盪地；紊亂地"
       }
     ],
     "tags": [
@@ -1623,19 +2124,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "tumultuous",
-        "noteZh": "指動盪混亂的。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "calm",
-        "noteZh": "指平靜的。"
-      }
-    ]
+    }
   },
   {
     "id": "w_turf",
@@ -1649,14 +2138,15 @@
       {
         "id": "s_turf_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "grass and the surface layer of earth held together by its roots; an area regarded as one's territory",
         "definitionZh": "草皮；草地；（比喻）地盤",
         "usageExplanationZh": "常見搭配 lay turf（鋪草皮）；非正式用法中也指某人或團體的勢力範圍，如 on someone's turf。",
-        "examples": [
-          {
-            "en": "The gardener laid new turf across the entire backyard.",
-            "zh": "園丁在整個後院鋪上了新的草皮。"
-          }
+        "grammarPatterns": [
+          "lay new turf",
+          "on sb's own turf"
         ],
         "collocations": [
           {
@@ -1667,39 +2157,42 @@
             "text": "on home turf",
             "meaningZh": "在自己的地盤"
           }
+        ],
+        "examples": [
+          {
+            "en": "The gardener laid new turf across the entire backyard.",
+            "zh": "園丁在整個後院鋪上了新的草皮。"
+          }
         ]
       },
       {
         "id": "s_turf_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "to cover an area of ground with turf; (informal) to forcibly remove someone from a place",
         "definitionZh": "鋪草皮；（非正式）把…趕出去",
         "usageExplanationZh": "常見片語 turf someone out（把某人趕出去），語氣較口語、非正式。",
-        "examples": [
-          {
-            "en": "He was turfed out of the bar for causing trouble.",
-            "zh": "他因為鬧事而被趕出了酒吧。"
-          }
+        "grammarPatterns": [
+          "turf sb out",
+          "turf an area with + noun"
         ],
         "collocations": [
           {
             "text": "turf out",
             "meaningZh": "把人趕出去"
           }
+        ],
+        "examples": [
+          {
+            "en": "He was turfed out of the bar for causing trouble.",
+            "zh": "他因為鬧事而被趕出了酒吧。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "sod",
@@ -1714,7 +2207,18 @@
         "noteZh": "動詞義對應把人趕走。"
       }
     ],
-    "antonyms": []
+    "antonyms": [],
+    "tags": [
+      "dictionary",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_turmoil",
@@ -1728,21 +2232,42 @@
       {
         "id": "s_turmoil_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "a state of great disturbance, confusion, or uncertainty",
         "definitionZh": "混亂；動盪；紛擾",
         "usageExplanationZh": "常見搭配 political/emotional turmoil、in turmoil；強調內心或局勢的高度混亂不安。",
-        "examples": [
-          {
-            "en": "The country was thrown into turmoil after the sudden election results.",
-            "zh": "這個國家在突如其來的選舉結果後陷入了動盪。"
-          }
+        "grammarPatterns": [
+          "be in turmoil",
+          "throw sth into turmoil",
+          "political turmoil"
         ],
         "collocations": [
           {
             "text": "political turmoil",
             "meaningZh": "政治動盪"
           }
+        ],
+        "examples": [
+          {
+            "en": "The country was thrown into turmoil after the sudden election results.",
+            "zh": "這個國家在突如其來的選舉結果後陷入了動盪。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "upheaval",
+        "noteZh": "指劇烈動盪。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "stability",
+        "noteZh": "指穩定的局勢。"
       }
     ],
     "tags": [
@@ -1757,19 +2282,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "upheaval",
-        "noteZh": "指劇烈動盪。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "stability",
-        "noteZh": "指穩定的局勢。"
-      }
-    ]
+    }
   },
   {
     "id": "w_tutor",
@@ -1783,21 +2296,48 @@
       {
         "id": "s_tutor_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "academic",
+          "neutral"
+        ],
         "definitionEn": "to teach a student individually or in a small group, often privately",
         "definitionZh": "個別指導；當家教",
         "usageExplanationZh": "常見搭配 tutor someone in a subject（在某科目上輔導某人），強調一對一或小班教學。",
-        "examples": [
-          {
-            "en": "She tutors high school students in mathematics after school.",
-            "zh": "她放學後為高中生輔導數學。"
-          }
+        "grammarPatterns": [
+          "tutor sb in + noun",
+          "tutor + noun"
         ],
         "collocations": [
           {
             "text": "tutor someone in mathematics",
             "meaningZh": "個別指導某人數學"
           }
+        ],
+        "examples": [
+          {
+            "en": "She tutors high school students in mathematics after school.",
+            "zh": "她放學後為高中生輔導數學。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "coach",
+        "noteZh": "指對個人提供指導或訓練。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "tutorial",
+        "partOfSpeech": "noun",
+        "meaningZh": "個別指導課；教學指南"
+      },
+      {
+        "lemma": "tuition",
+        "partOfSpeech": "noun",
+        "meaningZh": "教學；學費"
       }
     ],
     "tags": [
@@ -1812,14 +2352,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "coach",
-        "noteZh": "指對個人提供指導或訓練。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_twig",
@@ -1833,23 +2366,38 @@
       {
         "id": "s_twig_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "(British informal) to suddenly realize or understand something",
         "definitionZh": "（英式口語）恍然大悟；突然明白",
         "usageExplanationZh": "英式非正式用語，常見於口語對話，相當於 realize/catch on，語氣較輕鬆隨性。",
-        "examples": [
-          {
-            "en": "It took him a while to twig that he was being teased.",
-            "zh": "他過了一會兒才恍然大悟自己正被戲弄。"
-          }
+        "grammarPatterns": [
+          "twig that + clause",
+          "twig what + clause"
         ],
         "collocations": [
           {
             "text": "twig what is happening",
             "meaningZh": "突然明白正在發生什麼事"
           }
+        ],
+        "examples": [
+          {
+            "en": "It took him a while to twig that he was being teased.",
+            "zh": "他過了一會兒才恍然大悟自己正被戲弄。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "realize",
+        "noteZh": "指突然明白，twig 為英式口語。"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1862,14 +2410,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "realize",
-        "noteZh": "指突然明白，twig 為英式口語。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_twist",
@@ -1883,54 +2424,58 @@
       {
         "id": "s_twist_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "an act of turning or bending something; an unexpected change or development, especially in a story",
         "definitionZh": "扭轉；轉折；（劇情的）意外發展",
         "usageExplanationZh": "常見搭配 a plot twist（劇情轉折）、a twist of fate（命運的轉折）。",
-        "examples": [
-          {
-            "en": "The movie's ending had a surprising twist.",
-            "zh": "這部電影的結局有一個令人驚訝的轉折。"
-          }
+        "grammarPatterns": [
+          "a twist in the + noun",
+          "an unexpected twist"
         ],
         "collocations": [
           {
             "text": "a twist in the plot",
             "meaningZh": "劇情的意外轉折"
           }
+        ],
+        "examples": [
+          {
+            "en": "The movie's ending had a surprising twist.",
+            "zh": "這部電影的結局有一個令人驚訝的轉折。"
+          }
         ]
       },
       {
         "id": "s_twist_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to bend or turn something into a different shape; to distort the meaning of something",
         "definitionZh": "扭轉；扭曲；曲解",
         "usageExplanationZh": "常見搭配 twist someone's words（曲解某人的話）、twist an ankle（扭傷腳踝）。",
-        "examples": [
-          {
-            "en": "He twisted his ankle while playing basketball.",
-            "zh": "他打籃球時扭傷了腳踝。"
-          }
+        "grammarPatterns": [
+          "twist + noun",
+          "twist sb's words",
+          "twist one's ankle"
         ],
         "collocations": [
           {
             "text": "twist someone's words",
             "meaningZh": "曲解某人的話"
           }
+        ],
+        "examples": [
+          {
+            "en": "He twisted his ankle while playing basketball.",
+            "zh": "他打籃球時扭傷了腳踝。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "turn",
@@ -1946,7 +2491,26 @@
         "lemma": "straighten",
         "noteZh": "動詞義指弄直，與扭曲形狀相反。"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "twister",
+        "partOfSpeech": "noun",
+        "meaningZh": "龍捲風"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_typical",
@@ -1960,21 +2524,58 @@
       {
         "id": "s_typical_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "having the usual characteristics of a particular type of person or thing",
         "definitionZh": "典型的；有代表性的",
         "usageExplanationZh": "常見搭配 a typical day/example；也可用於帶有輕微批評語氣的片語 typical!（真是意料之中）。",
-        "examples": [
-          {
-            "en": "A typical day at the office starts with checking emails.",
-            "zh": "辦公室典型的一天從查看電子郵件開始。"
-          }
+        "grammarPatterns": [
+          "a typical + noun",
+          "be typical of + noun"
         ],
         "collocations": [
           {
             "text": "typical of",
             "meaningZh": "具有……的典型特徵"
           }
+        ],
+        "examples": [
+          {
+            "en": "A typical day at the office starts with checking emails.",
+            "zh": "辦公室典型的一天從查看電子郵件開始。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "representative",
+        "noteZh": "指具有代表性特徵的。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "atypical",
+        "noteZh": "指不典型的。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "type",
+        "partOfSpeech": "noun",
+        "meaningZh": "類型；種類"
+      },
+      {
+        "lemma": "typically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "通常；典型地"
+      },
+      {
+        "lemma": "typify",
+        "partOfSpeech": "verb",
+        "meaningZh": "為……的典型；象徵"
       }
     ],
     "tags": [
@@ -1988,19 +2589,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "representative",
-        "noteZh": "指具有代表性特徵的。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "atypical",
-        "noteZh": "指不典型的。"
-      }
-    ]
+    }
   },
   {
     "id": "w_tyre",
@@ -2014,23 +2603,38 @@
       {
         "id": "s_tyre_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a rubber covering fitted around a wheel, usually inflated with air (British spelling)",
         "definitionZh": "輪胎（英式拼法）",
         "usageExplanationZh": "英式拼法為 tyre，美式拼法為 tire；意義與用法完全相同，僅拼寫依地區而異。",
-        "examples": [
-          {
-            "en": "The mechanic checked the pressure in all four tyres.",
-            "zh": "技師檢查了所有四個輪胎的胎壓。"
-          }
+        "grammarPatterns": [
+          "a flat tyre",
+          "change a tyre"
         ],
         "collocations": [
           {
             "text": "a flat tyre",
             "meaningZh": "漏氣的輪胎"
           }
+        ],
+        "examples": [
+          {
+            "en": "The mechanic checked the pressure in all four tyres.",
+            "zh": "技師檢查了所有四個輪胎的胎壓。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "tire",
+        "noteZh": "同一詞的美式拼法。"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -2041,14 +2645,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "tire",
-        "noteZh": "同一詞的美式拼法。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_ulcer",
@@ -2062,21 +2659,48 @@
       {
         "id": "s_ulcer_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "an open sore on the skin or a mucous membrane, often caused by infection or stress",
         "definitionZh": "潰瘍",
         "usageExplanationZh": "常見搭配 a stomach/mouth ulcer；醫學用詞，常見於描述消化道或口腔的病變。",
-        "examples": [
-          {
-            "en": "Stress and poor diet can contribute to a stomach ulcer.",
-            "zh": "壓力和不良飲食可能導致胃潰瘍。"
-          }
+        "grammarPatterns": [
+          "a stomach ulcer",
+          "develop an ulcer"
         ],
         "collocations": [
           {
             "text": "a stomach ulcer",
             "meaningZh": "胃潰瘍"
           }
+        ],
+        "examples": [
+          {
+            "en": "Stress and poor diet can contribute to a stomach ulcer.",
+            "zh": "壓力和不良飲食可能導致胃潰瘍。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "sore",
+        "noteZh": "指皮膚或黏膜的疼痛傷口；範圍較廣。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "ulcerate",
+        "partOfSpeech": "verb",
+        "meaningZh": "潰爛；生潰瘍"
+      },
+      {
+        "lemma": "ulcerous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "潰瘍性的"
       }
     ],
     "tags": [
@@ -2089,14 +2713,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "sore",
-        "noteZh": "指皮膚或黏膜的疼痛傷口；範圍較廣。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_ultimate",
@@ -2110,40 +2727,76 @@
       {
         "id": "s_ultimate_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "the best or most extreme example of its kind",
         "definitionZh": "極致；終極典範",
         "usageExplanationZh": "常見搭配 the ultimate in luxury/comfort；名詞用法強調某事物是該類別中的極致代表。",
-        "examples": [
-          {
-            "en": "This resort is the ultimate in relaxation and luxury.",
-            "zh": "這個度假村是放鬆與奢華的極致代表。"
-          }
+        "grammarPatterns": [
+          "the ultimate in + noun"
         ],
         "collocations": [
           {
             "text": "the ultimate in luxury",
             "meaningZh": "奢華的極致"
           }
+        ],
+        "examples": [
+          {
+            "en": "This resort is the ultimate in relaxation and luxury.",
+            "zh": "這個度假村是放鬆與奢華的極致代表。"
+          }
         ]
       },
       {
         "id": "s_ultimate_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "being the final or most extreme point; fundamental or basic",
         "definitionZh": "最終的；根本的；終極的",
         "usageExplanationZh": "常見搭配 the ultimate goal/decision；強調層級或順序上的最後、最根本。",
-        "examples": [
-          {
-            "en": "Her ultimate goal is to become a doctor.",
-            "zh": "她的終極目標是成為一名醫生。"
-          }
+        "grammarPatterns": [
+          "the ultimate + noun",
+          "sb's ultimate goal"
         ],
         "collocations": [
           {
             "text": "the ultimate goal",
             "meaningZh": "最終目標"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her ultimate goal is to become a doctor.",
+            "zh": "她的終極目標是成為一名醫生。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "pinnacle",
+        "noteZh": "名詞義指最高典範。"
+      },
+      {
+        "lemma": "final",
+        "noteZh": "形容詞義指最後的。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "ultimately",
+        "partOfSpeech": "adverb",
+        "meaningZh": "最終；歸根究柢"
+      },
+      {
+        "lemma": "ultimatum",
+        "partOfSpeech": "noun",
+        "meaningZh": "最後通牒"
       }
     ],
     "tags": [
@@ -2157,18 +2810,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pinnacle",
-        "noteZh": "名詞義指最高典範。"
-      },
-      {
-        "lemma": "final",
-        "noteZh": "形容詞義指最後的。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_unaffected",
@@ -2182,14 +2824,15 @@
       {
         "id": "s_unaffected_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "not influenced or changed by something; behaving naturally, without pretense",
         "definitionZh": "不受影響的；未被波及的；不做作的",
         "usageExplanationZh": "常見搭配 unaffected by the changes、an unaffected manner（自然不做作的態度），依語境判斷語意。",
-        "examples": [
-          {
-            "en": "Some rural areas remained largely unaffected by the economic crisis.",
-            "zh": "一些鄉村地區基本上未受到這場經濟危機的影響。"
-          }
+        "grammarPatterns": [
+          "be unaffected by + noun",
+          "remain unaffected"
         ],
         "collocations": [
           {
@@ -2200,20 +2843,15 @@
             "text": "an unaffected manner",
             "meaningZh": "自然不做作的態度"
           }
+        ],
+        "examples": [
+          {
+            "en": "Some rural areas remained largely unaffected by the economic crisis.",
+            "zh": "一些鄉村地區基本上未受到這場經濟危機的影響。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "unchanged",
@@ -2229,7 +2867,25 @@
         "lemma": "affected",
         "noteZh": "指受到影響的，也可指做作的。"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "affect",
+        "partOfSpeech": "verb",
+        "meaningZh": "影響；波及"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_unanimous",
@@ -2243,21 +2899,53 @@
       {
         "id": "s_unanimous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "fully in agreement; sharing the same opinion",
         "definitionZh": "一致同意的；全體一致的",
         "usageExplanationZh": "常見搭配 a unanimous decision/vote；強調所有相關人員意見完全一致，無人反對。",
-        "examples": [
-          {
-            "en": "The board reached a unanimous decision to approve the merger.",
-            "zh": "董事會一致同意通過這項合併案。"
-          }
+        "grammarPatterns": [
+          "a unanimous + noun",
+          "be unanimous in + V-ing"
         ],
         "collocations": [
           {
             "text": "a unanimous decision",
             "meaningZh": "一致通過的決定"
           }
+        ],
+        "examples": [
+          {
+            "en": "The board reached a unanimous decision to approve the merger.",
+            "zh": "董事會一致同意通過這項合併案。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "united",
+        "noteZh": "指意見一致的。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "divided",
+        "noteZh": "指意見分歧的。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "unanimity",
+        "partOfSpeech": "noun",
+        "meaningZh": "全體一致"
+      },
+      {
+        "lemma": "unanimously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "一致地；全體同意地"
       }
     ],
     "tags": [
@@ -2272,19 +2960,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "united",
-        "noteZh": "指意見一致的。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "divided",
-        "noteZh": "指意見分歧的。"
-      }
-    ]
+    }
   },
   {
     "id": "w_unassuming",
@@ -2298,21 +2974,41 @@
       {
         "id": "s_unassuming_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "not pretentious or arrogant; modest",
         "definitionZh": "謙遜的；不張揚的",
         "usageExplanationZh": "常帶有正面評價語氣，形容人低調謙虛、不炫耀自己的成就或地位。",
-        "examples": [
-          {
-            "en": "Despite his fame, he remained a quiet and unassuming person.",
-            "zh": "儘管他名氣很大，他仍是個安靜謙遜的人。"
-          }
+        "grammarPatterns": [
+          "an unassuming + noun",
+          "quiet and unassuming"
         ],
         "collocations": [
           {
             "text": "an unassuming manner",
             "meaningZh": "謙遜的態度"
           }
+        ],
+        "examples": [
+          {
+            "en": "Despite his fame, he remained a quiet and unassuming person.",
+            "zh": "儘管他名氣很大，他仍是個安靜謙遜的人。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "modest",
+        "noteZh": "指謙遜、不自誇的。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "arrogant",
+        "noteZh": "指傲慢自大的。"
       }
     ],
     "tags": [
@@ -2325,19 +3021,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "modest",
-        "noteZh": "指謙遜、不自誇的。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "arrogant",
-        "noteZh": "指傲慢自大的。"
-      }
-    ]
+    }
   },
   {
     "id": "w_uncomfortable",
@@ -2351,14 +3035,16 @@
       {
         "id": "s_uncomfortable_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "causing or feeling physical discomfort; causing or feeling unease or embarrassment",
         "definitionZh": "不舒服的；不自在的；令人尷尬的",
         "usageExplanationZh": "常見搭配 an uncomfortable chair/situation；可指身體或心理上的不適，依上下文判斷。",
-        "examples": [
-          {
-            "en": "There was an uncomfortable silence after his comment.",
-            "zh": "他發表評論後出現了一陣令人不自在的沉默。"
-          }
+        "grammarPatterns": [
+          "an uncomfortable + noun",
+          "feel uncomfortable about + noun",
+          "be uncomfortable with + noun"
         ],
         "collocations": [
           {
@@ -2369,20 +3055,15 @@
             "text": "an uncomfortable silence",
             "meaningZh": "令人尷尬的沉默"
           }
+        ],
+        "examples": [
+          {
+            "en": "There was an uncomfortable silence after his comment.",
+            "zh": "他發表評論後出現了一陣令人不自在的沉默。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "uneasy",
@@ -2398,7 +3079,35 @@
         "lemma": "comfortable",
         "noteZh": "指舒服自在的。"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "comfortable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "舒適的；自在的"
+      },
+      {
+        "lemma": "comfort",
+        "partOfSpeech": "noun",
+        "meaningZh": "舒適；安慰"
+      },
+      {
+        "lemma": "uncomfortably",
+        "partOfSpeech": "adverb",
+        "meaningZh": "不舒服地；令人不安地"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_unconscious",
@@ -2412,14 +3121,16 @@
       {
         "id": "s_unconscious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "formal"
+        ],
         "definitionEn": "not conscious; lacking awareness and the capacity for sensory perception; not done deliberately",
         "definitionZh": "失去意識的；無意識的；非故意的",
         "usageExplanationZh": "常見搭配 knocked unconscious（被打昏）、unconscious bias（無意識偏見），兩義項需依上下文判斷。",
-        "examples": [
-          {
-            "en": "He was knocked unconscious during the accident.",
-            "zh": "他在這場意外中被撞昏了過去。"
-          }
+        "grammarPatterns": [
+          "be knocked unconscious",
+          "an unconscious + noun"
         ],
         "collocations": [
           {
@@ -2430,22 +3141,15 @@
             "text": "unconscious bias",
             "meaningZh": "無意識偏見"
           }
+        ],
+        "examples": [
+          {
+            "en": "He was knocked unconscious during the accident.",
+            "zh": "他在這場意外中被撞昏了過去。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "insensible",
@@ -2461,7 +3165,37 @@
         "lemma": "conscious",
         "noteZh": "指有意識或察覺到的。"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "conscious",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有意識的；察覺到的"
+      },
+      {
+        "lemma": "unconsciously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "無意識地"
+      },
+      {
+        "lemma": "unconsciousness",
+        "partOfSpeech": "noun",
+        "meaningZh": "無意識狀態；昏迷"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_uncover",
@@ -2475,21 +3209,48 @@
       {
         "id": "s_uncover_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to discover or reveal something that was hidden or secret",
         "definitionZh": "揭露；發現（隱藏之事）",
         "usageExplanationZh": "常見搭配 uncover the truth/a scandal/evidence；強調透過調查或努力找出原本不為人知的資訊。",
-        "examples": [
-          {
-            "en": "The investigation uncovered evidence of widespread fraud.",
-            "zh": "這次調查揭露了大規模詐欺的證據。"
-          }
+        "grammarPatterns": [
+          "uncover + noun",
+          "uncover evidence of + noun"
         ],
         "collocations": [
           {
             "text": "uncover the truth",
             "meaningZh": "揭露真相"
           }
+        ],
+        "examples": [
+          {
+            "en": "The investigation uncovered evidence of widespread fraud.",
+            "zh": "這次調查揭露了大規模詐欺的證據。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "reveal",
+        "noteZh": "指揭露隱藏的事情。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "conceal",
+        "noteZh": "指隱藏或掩飾。"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "cover",
+        "partOfSpeech": "verb",
+        "meaningZh": "覆蓋；遮蓋"
       }
     ],
     "tags": [
@@ -2502,19 +3263,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "reveal",
-        "noteZh": "指揭露隱藏的事情。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "conceal",
-        "noteZh": "指隱藏或掩飾。"
-      }
-    ]
+    }
   },
   {
     "id": "w_underestimate",
@@ -2528,54 +3277,58 @@
       {
         "id": "s_underestimate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to estimate something to be smaller or less important than it actually is",
         "definitionZh": "低估",
         "usageExplanationZh": "常見搭配 underestimate the risk/cost/difficulty；片語 never underestimate 常用來強調某事的重要性。",
-        "examples": [
-          {
-            "en": "Never underestimate the power of a good first impression.",
-            "zh": "絕對不要低估良好第一印象的力量。"
-          }
+        "grammarPatterns": [
+          "underestimate + noun",
+          "never underestimate the power of + noun"
         ],
         "collocations": [
           {
             "text": "underestimate the cost",
             "meaningZh": "低估費用"
           }
+        ],
+        "examples": [
+          {
+            "en": "Never underestimate the power of a good first impression.",
+            "zh": "絕對不要低估良好第一印象的力量。"
+          }
         ]
       },
       {
         "id": "s_underestimate_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "an estimate that is too low",
         "definitionZh": "低估的估計值",
         "usageExplanationZh": "常見搭配 a gross underestimate（嚴重低估），名詞用法多用於陳述某個數字或評估遠低於實際情況。",
-        "examples": [
-          {
-            "en": "The initial cost projection turned out to be a gross underestimate.",
-            "zh": "最初的成本預估結果證明是嚴重低估了。"
-          }
+        "grammarPatterns": [
+          "a gross underestimate",
+          "an underestimate of + noun"
         ],
         "collocations": [
           {
             "text": "a serious underestimate",
             "meaningZh": "嚴重偏低的估計"
           }
+        ],
+        "examples": [
+          {
+            "en": "The initial cost projection turned out to be a gross underestimate.",
+            "zh": "最初的成本預估結果證明是嚴重低估了。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "underrate",
@@ -2591,7 +3344,19 @@
         "lemma": "overestimate",
         "noteZh": "指高估，可作動詞或名詞。"
       }
-    ]
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_undergo",
@@ -2605,14 +3370,16 @@
       {
         "id": "s_undergo_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to experience or be subjected to something, especially a change or difficult process",
         "definitionZh": "經歷；經受（變化或考驗）",
         "usageExplanationZh": "常見搭配 undergo surgery/treatment/change；語氣正式，強調被動地經歷某個過程。",
-        "examples": [
-          {
-            "en": "She had to undergo surgery to repair her knee.",
-            "zh": "她必須接受手術來修復膝蓋。"
-          }
+        "grammarPatterns": [
+          "undergo + noun",
+          "undergo a change in + noun"
         ],
         "collocations": [
           {
@@ -2623,9 +3390,22 @@
             "text": "undergo a change",
             "meaningZh": "經歷變化"
           }
+        ],
+        "examples": [
+          {
+            "en": "She had to undergo surgery to repair her knee.",
+            "zh": "她必須接受手術來修復膝蓋。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "experience",
+        "noteZh": "指經歷某過程或事件。"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2637,14 +3417,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "experience",
-        "noteZh": "指經歷某過程或事件。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_undergraduate",
@@ -2658,21 +3431,48 @@
       {
         "id": "s_undergraduate_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "a university student who has not yet earned a first degree",
         "definitionZh": "大學部學生；大學生（尚未取得學位）",
         "usageExplanationZh": "常與 graduate student（研究生）相對，指正在攻讀學士學位的在學學生。",
-        "examples": [
-          {
-            "en": "As an undergraduate, she majored in economics.",
-            "zh": "她讀大學部時主修經濟學。"
-          }
+        "grammarPatterns": [
+          "as an undergraduate",
+          "an undergraduate at + noun"
         ],
         "collocations": [
           {
             "text": "an undergraduate student",
             "meaningZh": "大學部學生"
           }
+        ],
+        "examples": [
+          {
+            "en": "As an undergraduate, she majored in economics.",
+            "zh": "她讀大學部時主修經濟學。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "undergrad",
+        "noteZh": "大學部學生的非正式簡稱。"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "graduate",
+        "partOfSpeech": "noun",
+        "meaningZh": "畢業生"
+      },
+      {
+        "lemma": "postgraduate",
+        "partOfSpeech": "noun",
+        "meaningZh": "研究生"
       }
     ],
     "tags": [
@@ -2686,14 +3486,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "undergrad",
-        "noteZh": "大學部學生的非正式簡稱。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_underlie",
@@ -2707,23 +3500,38 @@
       {
         "id": "s_underlie_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "to be the cause or basis of something",
         "definitionZh": "構成…的基礎；是…的根本原因",
         "usageExplanationZh": "常見搭配 the reasons/factors that underlie something；書面正式用語，強調表面現象背後的根本原因。",
-        "examples": [
-          {
-            "en": "Economic anxiety underlies much of the public's frustration.",
-            "zh": "經濟焦慮是民眾大部分不滿情緒的根本原因。"
-          }
+        "grammarPatterns": [
+          "underlie + noun",
+          "the assumptions that underlie + noun"
         ],
         "collocations": [
           {
             "text": "underlie the problem",
             "meaningZh": "構成問題的根本原因"
           }
+        ],
+        "examples": [
+          {
+            "en": "Economic anxiety underlies much of the public's frustration.",
+            "zh": "經濟焦慮是民眾大部分不滿情緒的根本原因。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "underpin",
+        "noteZh": "指構成事物的基礎。"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -2734,14 +3542,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "underpin",
-        "noteZh": "指構成事物的基礎。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_underline",
@@ -2755,14 +3556,16 @@
       {
         "id": "s_underline_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to draw a line under a word or phrase; to emphasize the importance of something",
         "definitionZh": "在…下方畫線；強調",
         "usageExplanationZh": "常見搭配 underline a word（畫底線）、underline the importance of something（強調某事的重要性）。",
-        "examples": [
-          {
-            "en": "The report underlines the need for urgent action on climate change。",
-            "zh": "這份報告強調了針對氣候變遷採取緊急行動的必要性。"
-          }
+        "grammarPatterns": [
+          "underline + noun",
+          "underline the need for + noun"
         ],
         "collocations": [
           {
@@ -2773,9 +3576,22 @@
             "text": "underline the importance of",
             "meaningZh": "強調……的重要性"
           }
+        ],
+        "examples": [
+          {
+            "en": "The report underlines the need for urgent action on climate change。",
+            "zh": "這份報告強調了針對氣候變遷採取緊急行動的必要性。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "emphasize",
+        "noteZh": "對應強調重要性。"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -2786,14 +3602,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "emphasize",
-        "noteZh": "對應強調重要性。"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_underneath",
@@ -2807,21 +3616,40 @@
       {
         "id": "s_underneath_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "under or below something else",
         "definitionZh": "在…下面；下方",
         "usageExplanationZh": "常作副詞單獨使用，指位置上位於某物之下，也可作介系詞；口語與書面皆常見。",
-        "examples": [
-          {
-            "en": "The cat was hiding underneath, out of sight.",
-            "zh": "這隻貓躲在下面，看不見蹤影。"
-          }
+        "grammarPatterns": [
+          "hide underneath",
+          "lie underneath"
         ],
         "collocations": [
           {
             "text": "underneath the table",
             "meaningZh": "在桌子下面"
           }
+        ],
+        "examples": [
+          {
+            "en": "The cat was hiding underneath, out of sight.",
+            "zh": "這隻貓躲在下面，看不見蹤影。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "below",
+        "noteZh": "指位置在較低處。"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "above",
+        "noteZh": "指位置在較高處。"
       }
     ],
     "tags": [
@@ -2835,19 +3663,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "below",
-        "noteZh": "指位置在較低處。"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "above",
-        "noteZh": "指位置在較高處。"
-      }
-    ]
+    }
   },
   {
     "id": "w_underscore",
@@ -2861,54 +3677,57 @@
       {
         "id": "s_underscore_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to emphasize or highlight the importance of something",
         "definitionZh": "強調；突顯",
         "usageExplanationZh": "常見搭配 underscore the importance/need for something，語意與 underline 的比喻用法相近。",
-        "examples": [
-          {
-            "en": "The report underscores the urgent need for reform.",
-            "zh": "這份報告強調了改革的迫切需要。"
-          }
+        "grammarPatterns": [
+          "underscore + noun",
+          "underscore the importance of + noun"
         ],
         "collocations": [
           {
             "text": "underscore the need for change",
             "meaningZh": "強調改變的必要性"
           }
+        ],
+        "examples": [
+          {
+            "en": "The report underscores the urgent need for reform.",
+            "zh": "這份報告強調了改革的迫切需要。"
+          }
         ]
       },
       {
         "id": "s_underscore_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical"
+        ],
         "definitionEn": "the underscore character ( _ ), often used in computing and writing",
         "definitionZh": "底線符號（＿）",
         "usageExplanationZh": "常見於電腦程式設計、電子郵件帳號或使用者名稱中，作為分隔字元使用。",
-        "examples": [
-          {
-            "en": "Use an underscore instead of a space in the file name.",
-            "zh": "檔案名稱中請使用底線而非空格。"
-          }
+        "grammarPatterns": [
+          "use an underscore",
+          "an underscore instead of + noun"
         ],
         "collocations": [
           {
             "text": "an underscore character",
             "meaningZh": "底線字元"
           }
+        ],
+        "examples": [
+          {
+            "en": "Use an underscore instead of a space in the file name.",
+            "zh": "檔案名稱中請使用底線而非空格。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "emphasize",
@@ -2924,6 +3743,18 @@
         "lemma": "downplay",
         "noteZh": "動詞義指淡化重要性。"
       }
-    ]
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   }
 ]

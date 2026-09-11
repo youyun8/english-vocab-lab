@@ -6,7 +6,12 @@ import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
   {
-    ignores: ['dist/**', 'node_modules/**', '.wrangler/**', 'coverage/**', 'worker-configuration.d.ts'],
+    // `.codex/` holds vendored agent tooling and is gitignored; linting it only
+    // ever reports Node globals missing from a config written for this app.
+    ignores: [
+      'dist/**', 'node_modules/**', '.wrangler/**', 'coverage/**', '.codex/**',
+      'worker-configuration.d.ts',
+    ],
   },
   js.configs.recommended,
   ...tseslint.configs.recommended,

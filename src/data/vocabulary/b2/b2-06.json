@@ -381,12 +381,8 @@
             "highlight": "priority"
           }
         ],
-        "commonMistakes": [
-          {
-            "incorrect": "Security has priority than performance.",
-            "correct": "Security takes priority over performance.",
-            "explanationZh": "表示「優先於」要用 take priority over，不能用 than。"
-          }
+        "usageNotes": [
+          "表示「優先於」要用 take priority over，不能用 than。誤：Security has priority than performance.／正：Security takes priority over performance."
         ]
       }
     ],
@@ -599,6 +595,11 @@
         "definitionEn": "the event or condition that causes an automated process to run",
         "definitionZh": "觸發條件；觸發器",
         "usageExplanationZh": "作名詞時指「使某個自動流程啟動的事件或條件」。資料庫中的 trigger 是專門術語，指在資料變動時自動執行的程序；CI/CD 中則指啟動流水線的事件。",
+        "grammarPatterns": [
+          "the trigger for + noun",
+          "a + adjective + trigger",
+          "fire a trigger"
+        ],
         "collocations": [
           {
             "text": "a database trigger",

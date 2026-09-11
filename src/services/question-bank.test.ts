@@ -32,15 +32,30 @@ describe('buildQuestionRefs', () => {
     }
   });
 
-  it('exercises every word in the shipped vocabulary', () => {
-    expect(summarizeQuestionBank(bank).coveredWords).toBe(summaries.length);
+  it('exercises all but a handful of the shipped vocabulary', () => {
+    // The shortfall is the entries whose gloss is a bare function word: the
+    // generator declines to quiz those rather than ship an item with no
+    // defensible answer. They stay browsable, they are just not tested.
+    const { coveredWords } = summarizeQuestionBank(bank);
+    expect(coveredWords).toBeLessThanOrEqual(summaries.length);
+    expect(coveredWords / summaries.length).toBeGreaterThan(0.99);
   });
 
-  it('is far larger than the curated files alone', () => {
+  it('generates at most one question per word', () => {
+    // Every word used to yield all three recognition types, which trebled the
+    // bank with three ways of asking the same thing. One word, one question.
     const summary = summarizeQuestionBank(bank);
     expect(summary.curated).toBe(curated.length);
-    expect(summary.generated).toBeGreaterThan(summaries.length * 2);
+    expect(summary.generated).toBeLessThanOrEqual(summaries.length);
     expect(summary.total).toBe(summary.curated + summary.generated);
+
+    const generatedPerWord = new Map<string, number>();
+    for (const ref of bank) {
+      if (ref.source !== 'generated') continue;
+      const wordId = ref.wordIds[0] ?? '';
+      generatedPerWord.set(wordId, (generatedPerWord.get(wordId) ?? 0) + 1);
+    }
+    for (const [wordId, count] of generatedPerWord) expect(count, wordId).toBe(1);
   });
 
   it('has no duplicate question ids', () => {

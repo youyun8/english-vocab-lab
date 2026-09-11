@@ -6,33 +6,34 @@
     "wordIds": [
       "w_pose"
     ],
-    "prompt": "Which combination is the most natural?",
+    "prompt": "Which verb takes \"a serious threat\" with an inanimate subject?",
+    "context": "Rising sea levels ____ a serious threat to coastal infrastructure, and several port authorities have already begun budgeting for large-scale defensive works.",
     "options": [
       {
         "id": "a",
-        "text": "Rising sea levels pose a serious threat to coastal cities."
+        "text": "level"
       },
       {
         "id": "b",
-        "text": "Rising sea levels make a serious threat to coastal cities."
+        "text": "pose"
       },
       {
         "id": "c",
-        "text": "Rising sea levels give a serious threat for coastal cities."
+        "text": "issue"
       },
       {
         "id": "d",
-        "text": "Rising sea levels take a serious threat on coastal cities."
+        "text": "mount"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "pose a threat to X 是固定搭配，主詞通常是「情況、風險」這類非人事物。同樣可說 pose a risk / pose a challenge / pose a question。",
+    "correctOptionId": "b",
+    "explanation": "pose a threat to X 是固定搭配，關鍵在於主詞：pose 用於「情況、趨勢、風險」這類非人事物客觀構成危險，所以海平面上升可以 pose a threat。同一個框架還有 pose a risk、pose a challenge、pose a question。其餘三個動詞雖然也與 threat 同屬一個語意場，但都要求一個「刻意放話」的人當主詞。",
     "distractorExplanations": {
-      "b": "make a threat 指「（人）出言威脅」，主詞必須是人，海平面不會出言威脅。",
-      "c": "give a threat 不是英文搭配，介系詞也應該用 to。",
-      "d": "take a threat 不是英文搭配。"
+      "a": "level 用於 level criticism／accusations at somebody，指某人針對特定對象發出指控，主詞必須是有意圖的人，海平面無法針對誰放話。",
+      "c": "issue a threat 意思是「（正式地）發出威脅聲明」，與 issue a warning、issue a statement 同類，主詞是政府、公司或個人。",
+      "d": "mount 的受詞是需要組織動員的行動：mount a campaign、mount a challenge、mount a defence。威脅不是一場被籌劃發動的行動。"
     },
-    "difficulty": 2,
+    "difficulty": 3,
     "tags": [
       "collocation",
       "exam",
@@ -47,33 +48,34 @@
     "wordIds": [
       "w_breach"
     ],
-    "prompt": "Which combination is the most natural?",
+    "prompt": "Which preposition follows \"breach\" in this legal phrase?",
+    "context": "Publishing the figures before the embargo lifted was found to be a clear breach ____ contract, and the supplier forfeited the remainder of its retainer.",
     "options": [
       {
         "id": "a",
-        "text": "Publishing the data was a clear breach of contract."
+        "text": "of"
       },
       {
         "id": "b",
-        "text": "Publishing the data was a clear breach on contract."
+        "text": "in"
       },
       {
         "id": "c",
-        "text": "Publishing the data was a clear breach to the contract."
+        "text": "on"
       },
       {
         "id": "d",
-        "text": "Publishing the data was a clear break of contract."
+        "text": "to"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "breach of X 是固定搭配：a breach of contract／of trust／of security。",
+    "explanation": "表示「違反某項約定或規範」時，breach 固定接 of：a breach of contract、a breach of trust、a breach of confidence、a breach of the peace。相關的高頻句型還有 be in breach of the regulations（處於違規狀態）。要小心 breach 的另一個意思是「防線上的缺口」，那時才會出現別的介系詞。",
     "distractorExplanations": {
-      "b": "breach 後面固定接 of，不接 on。",
-      "c": "breach to 不是英文搭配。",
-      "d": "break of contract 不是法律英文的說法；「違約」固定用 breach。"
+      "b": "a breach in X 用於實體或防禦上的裂口：a breach in the hull、a breach in the sea wall、a breach in security。這裡違反的是合約條款，不是牆上破了一個洞。",
+      "c": "breach on 不是英文搭配；只有動詞 encroach 才會說 encroach on somebody's rights。",
+      "d": "breach to 不是英文搭配。若要表達造成的損害對象，應改寫成 a breach of the agreement with the client。"
     },
-    "difficulty": 2,
+    "difficulty": 3,
     "tags": [
       "collocation",
       "exam",
@@ -88,33 +90,34 @@
     "wordIds": [
       "w_consensus"
     ],
-    "prompt": "Which combination is the most natural?",
+    "prompt": "Which verb combines with \"a consensus\"?",
+    "context": "After three long sessions the working group finally ____ a consensus on how the funding should be divided between teaching and research.",
     "options": [
       {
         "id": "a",
-        "text": "The committee finally reached a consensus on the deadline."
+        "text": "attained"
       },
       {
         "id": "b",
-        "text": "The committee finally arrived a consensus on the deadline."
+        "text": "gained"
       },
       {
         "id": "c",
-        "text": "The committee finally made a consensus on the deadline."
+        "text": "reached"
       },
       {
         "id": "d",
-        "text": "The committee finally took a consensus on the deadline."
+        "text": "obtained"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "consensus 最常搭配的動詞是 reach（也可說 reach agreement），意見的主題用 on。",
+    "correctOptionId": "c",
+    "explanation": "consensus 的固定動詞是 reach（同樣可說 reach an agreement、reach a compromise、reach a verdict），意見的主題用 on 引出。reach 之所以恰當，是因為它把共識想成一段協商過程走到的終點，正好呼應句中的 after three long sessions。其餘三個都是「取得」類動詞，但共識不是從別人手上拿到的東西。",
     "distractorExplanations": {
-      "b": "arrive 是不及物動詞，要說 arrive at a consensus 才成立。",
-      "c": "make a consensus 不是英文搭配。",
-      "d": "take a consensus 不是英文搭配；take 只能搭配 a vote。"
+      "a": "attain 的受詞是靠努力達到的個人成就或水準：attain a qualification、attain a high standard。共識屬於整個團體，不是某人爭取到的頭銜。",
+      "b": "gain 指「逐步累積到更多」：gain experience、gain access、gain support。共識是一次談成的結果，沒有累積多寡的概念。",
+      "d": "obtain 指「向某個來源取得」：obtain permission、obtain a licence、obtain data。它預設有一個授予者，而共識是與會者彼此磨合出來的。"
     },
-    "difficulty": 2,
+    "difficulty": 4,
     "tags": [
       "collocation",
       "exam",
@@ -129,33 +132,34 @@
     "wordIds": [
       "w_tribute"
     ],
-    "prompt": "Which combination is the most natural?",
+    "prompt": "Which verb combines with \"tribute\"?",
+    "context": "At the opening of the new wing, the mayor ____ tribute to the volunteers who had kept the night shelter running throughout an exceptionally hard winter.",
     "options": [
       {
         "id": "a",
-        "text": "The mayor paid tribute to the volunteers who ran the shelter."
+        "text": "rendered"
       },
       {
         "id": "b",
-        "text": "The mayor did tribute to the volunteers who ran the shelter."
+        "text": "offered"
       },
       {
         "id": "c",
-        "text": "The mayor gave a tribute for the volunteers who ran the shelter."
+        "text": "gave"
       },
       {
         "id": "d",
-        "text": "The mayor took tribute to the volunteers who ran the shelter."
+        "text": "paid"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "「公開表達敬意」固定說 pay tribute to somebody，動詞用 pay。",
+    "correctOptionId": "d",
+    "explanation": "「公開表達敬意」固定說 pay tribute to somebody，動詞永遠是 pay。這屬於英文用 pay 表達「付出無形之物」的一組搭配：pay attention to、pay a compliment、pay a visit、pay one's respects。四個選項都是「給予」類動詞，但只有 pay 進入了這個慣用組合。",
     "distractorExplanations": {
-      "b": "do tribute 不是英文搭配。",
-      "c": "give a tribute 偶爾聽得到，但 for 用錯了，致敬的對象要用 to。",
-      "d": "take tribute 意思會變成「收取貢品」，語意完全不同。"
+      "a": "render 在正式英文中指「提供服務或履行義務」：render assistance、render services、render an account。它帶有交付責任的意味，而致敬是自發的表態。",
+      "b": "offer 暗示「提出來讓對方選擇接受與否」：offer condolences、offer an apology。公開致敬不需要對方點頭同意，因此不用 offer。",
+      "c": "give 只在 give a tribute 指「發表一段致敬的談話」時勉強可用，但語域偏弱，而且本句的框架是 ____ tribute to somebody，這個位置固定由 pay 佔據。"
     },
-    "difficulty": 2,
+    "difficulty": 4,
     "tags": [
       "collocation",
       "exam",
@@ -170,33 +174,34 @@
     "wordIds": [
       "w_hypothesis"
     ],
-    "prompt": "Which combination is the most natural?",
+    "prompt": "Which verb takes \"the hypothesis\" as its object?",
+    "context": "The second study was designed to ____ the hypothesis directly, using a within-subjects design that removed the confound identified in the earlier work.",
     "options": [
       {
         "id": "a",
-        "text": "The second study was designed to test the hypothesis directly."
+        "text": "test"
       },
       {
         "id": "b",
-        "text": "The second study was designed to experiment the hypothesis directly."
+        "text": "trial"
       },
       {
         "id": "c",
-        "text": "The second study was designed to prove out the hypothesis directly."
+        "text": "pilot"
       },
       {
         "id": "d",
-        "text": "The second study was designed to trial the hypothesis directly."
+        "text": "assay"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "學術英文中，假設要 test（檢驗）；也可以說 support／reject a hypothesis。",
+    "explanation": "學術英文中，假設一律是被 test（檢驗）的：test a hypothesis。得出結果之後才會說 support a hypothesis 或 reject a hypothesis。要特別注意科學寫作避免說 prove a hypothesis，因為證據只能支持而不能證明。四個選項都是「試驗」類動詞，但其餘三個試的都是具體的東西，不是命題。",
     "distractorExplanations": {
-      "b": "experiment 是不及物動詞，要說 experiment with something。",
-      "c": "prove out 不與 hypothesis 搭配，而且科學寫作避免說「證明」假設。",
-      "d": "trial 當動詞是「試用（藥物、產品）」，不能接假設。"
+      "b": "trial 當動詞指「實際試用一項產品或療法」：trial a new drug、trial a four-day week。它試的是可以拿來用的東西，假設不能拿來用。",
+      "c": "pilot 指「小規模先試辦一項方案」：pilot a scheme、pilot the new curriculum in three schools。它的受詞是準備推廣的計畫，不是待驗證的命題。",
+      "d": "assay 是化學與冶金的專業術語，指分析樣本的成分或純度：assay a sample、assay the ore。它需要一份實體樣本才能進行。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": [
       "collocation",
       "exam",
@@ -211,33 +216,34 @@
     "wordIds": [
       "w_incentive"
     ],
-    "prompt": "Which combination is the most natural?",
+    "prompt": "Which preposition introduces the beneficiary after \"incentive\"?",
+    "context": "The tax relief provides a powerful incentive ____ firms to relocate their research operations to regions with historically low levels of private investment.",
     "options": [
       {
         "id": "a",
-        "text": "The tax break provides an incentive for firms to invest locally."
+        "text": "to"
       },
       {
         "id": "b",
-        "text": "The tax break provides an incentive of firms to invest locally."
+        "text": "for"
       },
       {
         "id": "c",
-        "text": "The tax break makes an incentive to firms to invest locally."
+        "text": "on"
       },
       {
         "id": "d",
-        "text": "The tax break does an incentive for firms to invest locally."
+        "text": "among"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "incentive 的固定句型是 an incentive for somebody to do something，動詞用 provide、create、offer 或 give。",
+    "correctOptionId": "b",
+    "explanation": "incentive 的完整句型是 an incentive for somebody to do something：被激勵的對象用 for 帶出，要做的事用不定詞。若句中不需要點名對象，就直接說 an incentive to invest。這個 for + 人 + to + 原形 的結構也適用於 it is important for us to decide、there is no reason for him to worry。常見動詞搭配是 provide、create、offer 或 give an incentive。",
     "distractorExplanations": {
-      "b": "incentive of somebody 不是英文；of 只用於 an incentive of ten percent 這種數量說法。",
-      "c": "make an incentive 不是英文搭配。",
-      "d": "do an incentive 不是英文搭配。"
+      "a": "an incentive to 後面必須直接接原形動詞（an incentive to relocate）；若接了 firms 這個名詞，句子就變成把公司當作激勵的去向，語法斷掉。",
+      "c": "on 只用在 impose a tax on 這類「施加」句型。incentive 是給出去的誘因，不是壓上去的負擔。",
+      "d": "among 表示「在一群人之中分布」：divided among the partners。它無法帶出後面的不定詞，也不能指定誰去執行這個動作。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": [
       "collocation",
       "exam",
@@ -252,31 +258,32 @@
     "wordIds": [
       "w_magnitude"
     ],
-    "prompt": "Which combination is the most natural?",
+    "prompt": "Which noun completes the fixed quantitative phrase?",
+    "context": "The rewritten index is an order of ____ faster than its predecessor, which finally makes the nightly reconciliation job feasible within the maintenance window.",
     "options": [
       {
         "id": "a",
-        "text": "The new index is an order of magnitude faster than the old one."
+        "text": "scale"
       },
       {
         "id": "b",
-        "text": "The new index is an order in magnitude faster than the old one."
+        "text": "measure"
       },
       {
         "id": "c",
-        "text": "The new index is a level of magnitude faster than the old one."
+        "text": "magnitude"
       },
       {
         "id": "d",
-        "text": "The new index is a degree of magnitude faster than the old one."
+        "text": "size"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "an order of magnitude 是固定說法，表示「一個數量級（約十倍）」。",
+    "correctOptionId": "c",
+    "explanation": "an order of magnitude 是不可拆解的固定說法，源自科學記號法，表示「一個數量級」，也就是大約十倍；兩個數量級就是一百倍。因為它是專有的量化表達，四個近義的「規模」名詞中只有 magnitude 能進入這個位置。magnitude 的另一個常見用法是 the magnitude of the task（任務的艱鉅程度）。",
     "distractorExplanations": {
-      "b": "介系詞錯誤，固定用 of。",
-      "c": "a level of magnitude 不是英文說法。",
-      "d": "a degree of magnitude 不是英文說法。"
+      "a": "scale 的固定搭配是 on a large scale、economies of scale、the scale of the problem，它談的是整體規模，沒有「十倍一級」的計量含意。",
+      "b": "measure 用於 a measure of success、in large measure，表示「某種程度」，語意模糊，無法指出具體的倍率。",
+      "d": "size 是最普通的「大小」，用於 the size of the file、a decent size。它缺乏 magnitude 所帶的科學計量色彩。"
     },
     "difficulty": 3,
     "tags": [
@@ -293,31 +300,32 @@
     "wordIds": [
       "w_mandate"
     ],
-    "prompt": "Which combination is the most natural?",
+    "prompt": "Which word follows \"mandate\" before the verb?",
+    "context": "Having won two-thirds of the seats on a record turnout, the incoming administration claims a clear mandate ____ overhaul the pension system within its first year.",
     "options": [
       {
         "id": "a",
-        "text": "The new government has a clear mandate to reform the system."
+        "text": "for"
       },
       {
         "id": "b",
-        "text": "The new government has a clear mandate for reform the system."
+        "text": "of"
       },
       {
         "id": "c",
-        "text": "The new government has a clear mandate of reform the system."
+        "text": "on"
       },
       {
         "id": "d",
-        "text": "The new government has a clear mandate about reform the system."
+        "text": "to"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "mandate 接動作時用不定詞：a mandate to do something。若要接名詞，才會說 a mandate for change。",
+    "correctOptionId": "d",
+    "explanation": "mandate 後面要接「被授權去做的動作」時，一律使用不定詞：a mandate to do something。只有在接名詞時才會改用 for，例如 a mandate for change、a mandate for reform。這個「名詞 + to + 原形」的授權句型還包括 the right to、the authority to、the freedom to、a licence to。",
     "distractorExplanations": {
-      "b": "for 後面必須接名詞（a mandate for reform），不能接原形動詞片語。",
-      "c": "of 同樣不能接原形動詞，而且 mandate of 用於 the mandate of the committee 這種所有格關係。",
-      "d": "about 不與 mandate 搭配。"
+      "a": "for 後面必須接名詞或動名詞。若要用 for，整句得改寫成 a mandate for a wholesale overhaul of the pension system。",
+      "b": "of 在 mandate 之後表示「誰的職權範圍」：the mandate of the committee、the mandate of the mission。它同樣不能直接接原形動詞。",
+      "c": "on 用於 a referendum on pensions 這種「關於某議題」的說法，但 mandate 不採用 on 來連接後續的動作。"
     },
     "difficulty": 3,
     "tags": [
@@ -334,33 +342,34 @@
     "wordIds": [
       "w_prospect"
     ],
-    "prompt": "Which combination is the most natural?",
+    "prompt": "Which verb combines with \"the prospect of\"?",
+    "context": "With the factory's only major customer now in administration, three hundred employees ____ the prospect of redundancy before the end of the quarter.",
     "options": [
       {
         "id": "a",
-        "text": "Investors are nervous about the prospect of higher interest rates."
+        "text": "face"
       },
       {
         "id": "b",
-        "text": "Investors are nervous about the prospect to higher interest rates."
+        "text": "greet"
       },
       {
         "id": "c",
-        "text": "Investors are nervous about the prospect on higher interest rates."
+        "text": "await"
       },
       {
         "id": "d",
-        "text": "Investors are nervous about the prospect about higher interest rates."
+        "text": "undergo"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "單數 the prospect of X 表示「X 可能發生的前景」，介系詞固定用 of。（複數 prospects 才會說 prospects for growth。）",
+    "explanation": "face the prospect of + 名詞或動名詞 是固定搭配，指「不得不面對某個可能發生的處境」。face 這個字專門用於無法迴避的壞事：face a challenge、face criticism、face charges、face the consequences。單數的 the prospect of 介系詞永遠是 of，複數 prospects 才會說 prospects for growth。",
     "distractorExplanations": {
-      "b": "prospect to 不是英文搭配。",
-      "c": "prospect on 不是英文搭配。",
-      "d": "prospect about 不是英文搭配，而且與前面的 about 重複。"
+      "b": "greet 指「對某事做出某種反應」，且通常要加方式副詞：the news was greeted with dismay。單獨說 greet the prospect 既不完整，也失去了「無從逃避」的意味。",
+      "c": "await 是正式的「等待」，暗示對方在靜候一件已經排定的事：await a decision、await trial。它把裁員說成了員工樂於等候的安排，語氣完全不對。",
+      "d": "undergo 的受詞是實際經歷的過程：undergo surgery、undergo training、undergo a transformation。prospect 只是「可能性」，還沒有發生，無從經歷。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": [
       "collocation",
       "exam",
@@ -375,33 +384,34 @@
     "wordIds": [
       "w_ballot"
     ],
-    "prompt": "Which combination is the most natural?",
+    "prompt": "Which verb goes with \"ballots\"?",
+    "context": "Union members ____ their ballots by post over a two-week period, and the result was announced at a delegate conference the following Monday.",
     "options": [
       {
         "id": "a",
-        "text": "Members cast their ballots in favour of the strike."
+        "text": "entered"
       },
       {
         "id": "b",
-        "text": "Members threw their ballots in favour of the strike."
+        "text": "cast"
       },
       {
         "id": "c",
-        "text": "Members gave their ballots in favour of the strike."
+        "text": "registered"
       },
       {
         "id": "d",
-        "text": "Members made their ballots in favour of the strike."
+        "text": "recorded"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "投票的固定動詞是 cast：cast a ballot／cast a vote。",
+    "correctOptionId": "b",
+    "explanation": "投票的固定動詞是 cast：cast a ballot、cast a vote、cast the deciding vote。這個 cast 保留了古義「投擲」，呼應把選票投進票匭的動作，因此選票被投出去之後也說 votes cast。四個選項都與「正式記錄一張票」有關，但其餘三個各自屬於別的程序。",
     "distractorExplanations": {
-      "b": "throw a ballot 不是英文搭配，字面意思變成把選票丟掉。",
-      "c": "give a ballot 不是英文搭配。",
-      "d": "make a ballot 不是英文搭配。"
+      "a": "enter a ballot 意思完全不同，指「報名參加抽籤」：enter the ballot for tickets。用在這裡會變成工會成員在抽獎。",
+      "c": "register 指「登記造冊」：register to vote、register a complaint。登記是投票前的資格程序，不是投票本身。",
+      "d": "record 指「把已發生的事記錄下來」：record the minutes、record a verdict。記錄的動作屬於計票人員，不屬於投票的會員。"
     },
-    "difficulty": 2,
+    "difficulty": 4,
     "tags": [
       "collocation",
       "exam",
@@ -417,33 +427,34 @@
       "w_sanction",
       "w_impose"
     ],
-    "prompt": "Which combination is the most natural?",
+    "prompt": "Which verb combines with \"sanctions on\"?",
+    "context": "The council voted to ____ sanctions on the regime, freezing its overseas assets and barring its senior officials from travelling to member states.",
     "options": [
       {
         "id": "a",
-        "text": "The council voted to impose sanctions on the regime."
+        "text": "enforce"
       },
       {
         "id": "b",
-        "text": "The council voted to impose sanctions to the regime."
+        "text": "administer"
       },
       {
         "id": "c",
-        "text": "The council voted to put sanctions at the regime."
+        "text": "impose"
       },
       {
         "id": "d",
-        "text": "The council voted to make sanctions on the regime."
+        "text": "inflict"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "impose sanctions on somebody 是固定搭配；同樣的句型還有 impose a ban on、impose restrictions on。",
+    "correctOptionId": "c",
+    "explanation": "impose sanctions on somebody 是固定搭配，指由上位機關「強加」一套限制；同一個框架還有 impose a ban on、impose restrictions on、impose a tax on。解除制裁則說 lift sanctions。注意 impose 的對象一律用 on，這個 on 帶有「壓在對方身上」的意象。",
     "distractorExplanations": {
-      "b": "impose 的對象一律用 on，不用 to。",
-      "c": "put sanctions at 不是英文搭配。",
-      "d": "make sanctions 不是英文搭配，制裁要用 impose 或 lift。"
+      "a": "enforce 是「確保既有規定被遵守」：enforce a rule、enforce the law、enforce a ban。它發生在制裁決定之後，而句中的表決正是在建立制裁本身。",
+      "b": "administer 指「執行、施用」既定的措施：administer a drug、administer an oath、administer justice。它談的是操作層面，不是做出決定。",
+      "d": "inflict 的受詞是直接造成的傷害：inflict damage on、inflict pain on、inflict a heavy defeat on。制裁是一套規則而不是傷害本身。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": [
       "collocation",
       "exam",
@@ -458,33 +469,34 @@
     "wordIds": [
       "w_deference"
     ],
-    "prompt": "Which combination is the most natural?",
+    "prompt": "Which noun completes the formal phrase \"in ____ to\"?",
+    "context": "The ceremony was shortened and the music dropped altogether, in ____ to a local custom that forbids any public celebration during the month of mourning.",
     "options": [
       {
         "id": "a",
-        "text": "The ceremony was shortened in deference to local custom."
+        "text": "veneration"
       },
       {
         "id": "b",
-        "text": "The ceremony was shortened in deference of local custom."
+        "text": "esteem"
       },
       {
         "id": "c",
-        "text": "The ceremony was shortened by deference to local custom."
+        "text": "reverence"
       },
       {
         "id": "d",
-        "text": "The ceremony was shortened under deference to local custom."
+        "text": "deference"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "in deference to X 是固定片語，意思是「出於對 X 的尊重（而配合調整）」。",
+    "correctOptionId": "d",
+    "explanation": "in deference to X 是固定片語，意思是「出於對 X 的尊重而讓步配合」，同樣可說 out of deference to。它的獨特之處在於除了敬意，還含有「因此改變了自己原本的做法」這層順從意味，正好解釋了句中為何縮短典禮。其餘三個名詞雖然都表示敬意，卻沒有這層讓步的含意，也都不進入 in ___ to 這個框架。",
     "distractorExplanations": {
-      "b": "deference 後面固定接 to，不接 of。",
-      "c": "by deference 不是英文片語。",
-      "d": "under deference 不是英文片語。"
+      "a": "veneration 指近乎宗教式的崇敬，固定搭配是 veneration of ancestors、hold somebody in veneration。它描述心中的情感強度，不描述行為上的退讓。",
+      "b": "esteem 只出現在 hold somebody in high esteem（對某人評價極高）這個句型中，介系詞是 in 而後面不接 to。",
+      "c": "reverence 的介系詞是 for：reverence for tradition、treat something with reverence。英文沒有 in reverence to 這個片語。"
     },
-    "difficulty": 4,
+    "difficulty": 5,
     "tags": [
       "collocation",
       "exam",
@@ -499,33 +511,34 @@
     "wordIds": [
       "w_disdain"
     ],
-    "prompt": "Which combination is the most natural?",
+    "prompt": "Which verb combines with \"disdain for\"?",
+    "context": "The committee chair ____ open disdain for the proposal, cutting the presentation short and moving straight to the next item on the agenda.",
     "options": [
       {
         "id": "a",
-        "text": "She treated the suggestion with disdain."
+        "text": "showed"
       },
       {
         "id": "b",
-        "text": "She treated the suggestion in disdain."
+        "text": "bore"
       },
       {
         "id": "c",
-        "text": "She treated the suggestion by disdain."
+        "text": "held"
       },
       {
         "id": "d",
-        "text": "She treated the suggestion at disdain."
+        "text": "kept"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "表達態度的固定句型是 treat something with + 抽象名詞：with disdain／with respect／with caution。",
+    "explanation": "disdain 有兩個必須分清楚的框架：show disdain for something（表現出輕蔑）以及 treat something with disdain（以輕蔑的態度對待）。本句因為後面接的是 for the proposal，所以動詞只能是 show。同類搭配還有 show respect for、show contempt for、show no regard for。",
     "distractorExplanations": {
-      "b": "in disdain 不是標準搭配；in 只用於 in contempt of court 這類法律片語。",
-      "c": "by disdain 不是英文搭配。",
-      "d": "at disdain 不是英文搭配。"
+      "b": "bear 與負面情緒的固定組合是 bear a grudge 與 bear ill will towards somebody，都不接 disdain，而且 bear 強調長期懷抱，與當場的反應不同。",
+      "c": "held 看似可行，是因為 hold somebody in disdain 確實存在，但那個句型需要 in 且受詞在中間；照本句的 ____ open disdain for 框架填入 held 並不成立。",
+      "d": "keep 與情緒連用時指「壓住不表現出來」：keep one's temper、keep a straight face。句中的主席顯然毫不掩飾，語意正好相反。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": [
       "collocation",
       "exam",
@@ -540,33 +553,34 @@
     "wordIds": [
       "w_endorse"
     ],
-    "prompt": "Which combination is the most natural?",
+    "prompt": "Which verb takes \"the candidate\" directly as its object?",
+    "context": "Two former cabinet ministers publicly ____ the candidate, a move that swung several undecided constituency associations behind her campaign.",
     "options": [
       {
         "id": "a",
-        "text": "Two former ministers publicly endorsed the candidate."
+        "text": "assented"
       },
       {
         "id": "b",
-        "text": "Two former ministers publicly endorsed to the candidate."
+        "text": "endorsed"
       },
       {
         "id": "c",
-        "text": "Two former ministers publicly gave endorsement on the candidate."
+        "text": "subscribed"
       },
       {
         "id": "d",
-        "text": "Two former ministers publicly made an endorse of the candidate."
+        "text": "consented"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "endorse 是及物動詞，直接接被支持的人或事物，不需要介系詞。",
+    "correctOptionId": "b",
+    "explanation": "endorse 是及物動詞，公開表態支持的對象直接放在後面，不需要任何介系詞：endorse a candidate、endorse a product、endorse a policy。其餘三個動詞同樣表示「表示贊同」，但它們全部是不及物的，必須先接一個介系詞才能帶出對象，因此都無法直接接 the candidate。",
     "distractorExplanations": {
-      "b": "endorse 不接 to。",
-      "c": "名詞形式應為 gave their endorsement to the candidate，介系詞用 to。",
-      "d": "endorse 沒有名詞用法，名詞是 endorsement。"
+      "a": "assent 固定接 to，而且贊同的是提案或安排：assent to the terms、assent to a request。它也偏向「勉強同意」，不是主動替人背書。",
+      "c": "subscribe 在「認同」的意思上必須說 subscribe to a view／to a theory，指認同一套想法，不能用來支持一個人。",
+      "d": "consent 同樣接 to，而且指「允許某事發生」：consent to the treatment、consent to the merger。它是被詢問後的許可，不是主動的公開背書。"
     },
-    "difficulty": 2,
+    "difficulty": 4,
     "tags": [
       "collocation",
       "exam",
@@ -581,33 +595,34 @@
     "wordIds": [
       "w_curtail"
     ],
-    "prompt": "Which combination is the most natural?",
+    "prompt": "Which verb takes \"spending\" as its object?",
+    "context": "Faced with a shortfall of nearly four million, the department ____ all non-essential spending and froze recruitment until the end of the financial year.",
     "options": [
       {
         "id": "a",
-        "text": "The department curtailed non-essential spending."
+        "text": "abridged"
       },
       {
         "id": "b",
-        "text": "The department curtailed down non-essential spending."
+        "text": "truncated"
       },
       {
         "id": "c",
-        "text": "The department curtailed off non-essential spending."
+        "text": "curtailed"
       },
       {
         "id": "d",
-        "text": "The department curtailed away non-essential spending."
+        "text": "abbreviated"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "curtail 本身已含「縮減」之意，是及物動詞，後面不加介副詞。",
+    "correctOptionId": "c",
+    "explanation": "curtail spending 是財經與行政英文的標準搭配。curtail 是及物動詞，本身已含「縮減」之意，後面不加 down 或 off。它專門用於削減規模、自由或經費：curtail spending、curtail production、curtail civil liberties。其餘三個選項都表示「把長的東西弄短」，但受詞限於文本或資料。",
     "distractorExplanations": {
-      "b": "curtail down 是多餘的重複，英文沒有這個片語動詞。",
-      "c": "curtail off 不是英文片語動詞。",
-      "d": "curtail away 不是英文片語動詞。"
+      "a": "abridge 指「刪節出版品」：an abridged edition、abridge a novel。它在法律語境中也只用於 abridge somebody's rights，不用於預算。",
+      "b": "truncate 是技術用語，指「把尾巴直接切掉」：truncate a string、truncate a table、a truncated log file。它強調粗暴截斷，不是有選擇地刪減開支。",
+      "d": "abbreviate 專指「縮寫字詞」：abbreviate a title、St 是 Street 的縮寫。它處理的是書寫形式，與金額無關。"
     },
-    "difficulty": 3,
+    "difficulty": 5,
     "tags": [
       "collocation",
       "exam",
@@ -622,33 +637,34 @@
     "wordIds": [
       "w_pursue"
     ],
-    "prompt": "Which combination is the most natural?",
+    "prompt": "Which verb takes \"a career\" directly as its object?",
+    "context": "She left the firm at thirty-four to ____ a career in climate research, a decision she now describes as the only genuinely brave thing she has ever done.",
     "options": [
       {
         "id": "a",
-        "text": "She left the firm to pursue a career in research."
+        "text": "prosecute"
       },
       {
         "id": "b",
-        "text": "She left the firm to pursue for a career in research."
+        "text": "undertake"
       },
       {
         "id": "c",
-        "text": "She left the firm to pursue after a career in research."
+        "text": "embark"
       },
       {
         "id": "d",
-        "text": "She left the firm to make a pursue of a career in research."
+        "text": "pursue"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "pursue 是及物動詞，直接接受詞：pursue a career／a degree／an interest。",
+    "correctOptionId": "d",
+    "explanation": "pursue 是及物動詞，直接接受詞且不加任何介副詞：pursue a career in、pursue a degree、pursue an interest、pursue a claim。它的語意重點是「長期朝一個目標持續投入」，正好符合職涯的時間跨度。其餘三個動詞雖然也表示「投入去做」，但各自的語法或受詞都對不上。",
     "distractorExplanations": {
-      "b": "pursue 後面不加 for。",
-      "c": "pursue after 是多餘的重複，pursue 已含「追求」之意。",
-      "d": "pursue 沒有名詞用法，名詞是 pursuit。"
+      "a": "prosecute 在現代英文中幾乎只剩法律義「起訴」：prosecute an offender。它在正式文體中雖有 prosecute a war 的殘留用法，但不能接 career。",
+      "b": "undertake 的受詞是有明確範圍與結束點的工作：undertake a study、undertake a review、undertake a project。職涯是開放式的，沒有交付期限。",
+      "c": "embark 是不及物動詞，必須加 on：embark on a career in climate research。缺了介系詞，這個選項在語法上就不成立。"
     },
-    "difficulty": 2,
+    "difficulty": 3,
     "tags": [
       "collocation",
       "exam",

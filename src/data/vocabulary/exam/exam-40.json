@@ -11,21 +11,48 @@
       {
         "id": "s_inhabitant_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a person or animal that lives in a particular place",
         "definitionZh": "居民；棲息者",
         "usageExplanationZh": "常見 the inhabitants of a city（一座城市的居民），語氣正式，多用於統計或描述性文本。",
-        "examples": [
-          {
-            "en": "The island has fewer than a thousand inhabitants.",
-            "zh": "這座島嶼的居民不到一千人。"
-          }
+        "grammarPatterns": [
+          "the inhabitants of + noun",
+          "a thousand inhabitants"
         ],
         "collocations": [
           {
             "text": "local inhabitants",
             "meaningZh": "當地居民"
           }
+        ],
+        "examples": [
+          {
+            "en": "The island has fewer than a thousand inhabitants.",
+            "zh": "這座島嶼的居民不到一千人。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "resident",
+        "noteZh": "居民"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "inhabit",
+        "partOfSpeech": "verb",
+        "meaningZh": "居住於"
+      },
+      {
+        "lemma": "habitation",
+        "partOfSpeech": "noun",
+        "meaningZh": "居住"
       }
     ],
     "tags": [
@@ -40,14 +67,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "resident",
-        "noteZh": "居民"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_inherit",
@@ -61,21 +81,52 @@
       {
         "id": "s_inherit_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to receive money, property, or a title from someone after they die, or to receive a characteristic from a parent",
         "definitionZh": "繼承（財產、頭銜）；遺傳（特質）",
         "usageExplanationZh": "常接名詞受詞，如 inherit a house；也可指遺傳特徵，如 inherit her mother's eyes。",
-        "examples": [
-          {
-            "en": "She inherited her grandmother's antique jewelry.",
-            "zh": "她繼承了祖母的古董珠寶。"
-          }
+        "grammarPatterns": [
+          "inherit sth from sb",
+          "inherit + noun"
         ],
         "collocations": [
           {
             "text": "inherit from a parent",
             "meaningZh": "從父母一方繼承"
           }
+        ],
+        "examples": [
+          {
+            "en": "She inherited her grandmother's antique jewelry.",
+            "zh": "她繼承了祖母的古董珠寶。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "succeed to",
+        "noteZh": "承繼財產或頭銜"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "inheritance",
+        "partOfSpeech": "noun",
+        "meaningZh": "遺產"
+      },
+      {
+        "lemma": "inheritor",
+        "partOfSpeech": "noun",
+        "meaningZh": "繼承人"
+      },
+      {
+        "lemma": "heritage",
+        "partOfSpeech": "noun",
+        "meaningZh": "遺產；傳統"
       }
     ],
     "tags": [
@@ -90,14 +141,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "succeed to",
-        "noteZh": "承繼財產或頭銜"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_inheritance",
@@ -111,21 +155,47 @@
       {
         "id": "s_inheritance_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "money, property, or a title received from someone after they die, or a genetically transmitted characteristic",
         "definitionZh": "遺產；繼承物；遺傳（特質）",
         "usageExplanationZh": "常見 receive an inheritance（獲得遺產），法律及生物學脈絡皆可使用。",
-        "examples": [
-          {
-            "en": "He used his inheritance to start a small business.",
-            "zh": "他用繼承來的遺產開了一家小公司。"
-          }
+        "grammarPatterns": [
+          "receive an inheritance",
+          "an inheritance from sb"
         ],
         "collocations": [
           {
             "text": "genetic inheritance",
             "meaningZh": "基因遺傳"
           }
+        ],
+        "examples": [
+          {
+            "en": "He used his inheritance to start a small business.",
+            "zh": "他用繼承來的遺產開了一家小公司。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "legacy",
+        "noteZh": "遺留的財產或事物"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "inherit",
+        "partOfSpeech": "verb",
+        "meaningZh": "繼承"
+      },
+      {
+        "lemma": "heir",
+        "partOfSpeech": "noun",
+        "meaningZh": "繼承人"
       }
     ],
     "tags": [
@@ -138,14 +208,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "legacy",
-        "noteZh": "遺留的財產或事物"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_inhibit",
@@ -159,21 +222,53 @@
       {
         "id": "s_inhibit_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "to prevent or slow down a process, or to make someone unable to act naturally due to shyness or embarrassment",
         "definitionZh": "抑制；阻礙；使拘謹",
         "usageExplanationZh": "常見 inhibit growth（抑制生長）；心理學脈絡也指使人感到侷促不安，難以自然表現。",
-        "examples": [
-          {
-            "en": "Cold temperatures can inhibit plant growth.",
-            "zh": "低溫可能會抑制植物生長。"
-          }
+        "grammarPatterns": [
+          "inhibit + noun",
+          "inhibit sb from + V-ing"
         ],
         "collocations": [
           {
             "text": "inhibit growth",
             "meaningZh": "抑制生長"
           }
+        ],
+        "examples": [
+          {
+            "en": "Cold temperatures can inhibit plant growth.",
+            "zh": "低溫可能會抑制植物生長。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "restrain",
+        "noteZh": "抑制"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "encourage",
+        "noteZh": "促進；鼓勵"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "inhibition",
+        "partOfSpeech": "noun",
+        "meaningZh": "抑制；拘謹"
+      },
+      {
+        "lemma": "inhibitor",
+        "partOfSpeech": "noun",
+        "meaningZh": "抑制劑"
       }
     ],
     "tags": [
@@ -188,19 +283,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "restrain",
-        "noteZh": "抑制"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "encourage",
-        "noteZh": "促進；鼓勵"
-      }
-    ]
+    }
   },
   {
     "id": "w_initial",
@@ -214,59 +297,105 @@
       {
         "id": "s_initial_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "existing or occurring at the beginning",
         "definitionZh": "最初的；初步的",
         "usageExplanationZh": "常見 initial reaction（最初的反應）、initial stage（初期階段）。",
-        "examples": [
-          {
-            "en": "Her initial reaction to the news was disbelief.",
-            "zh": "她對這則消息的最初反應是難以置信。"
-          }
+        "grammarPatterns": [
+          "the initial + noun",
+          "sb's initial reaction to + noun"
         ],
         "collocations": [
           {
             "text": "an initial assessment",
             "meaningZh": "初步評估"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her initial reaction to the news was disbelief.",
+            "zh": "她對這則消息的最初反應是難以置信。"
+          }
         ]
       },
       {
         "id": "s_initial_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "the first letter of a name",
         "definitionZh": "（姓名的）首字母",
         "usageExplanationZh": "常用複數 initials，如 sign with your initials（用姓名縮寫簽名）。",
-        "examples": [
-          {
-            "en": "He monogrammed the towels with his initials.",
-            "zh": "他在毛巾上繡了自己姓名的首字母。"
-          }
+        "grammarPatterns": [
+          "sb's initials"
         ],
         "collocations": [
           {
             "text": "middle initial",
             "meaningZh": "中間名字的首字母"
           }
+        ],
+        "examples": [
+          {
+            "en": "He monogrammed the towels with his initials.",
+            "zh": "他在毛巾上繡了自己姓名的首字母。"
+          }
         ]
       },
       {
         "id": "s_initial_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to mark or sign something with one's initials",
         "definitionZh": "以姓名縮寫簽署",
         "usageExplanationZh": "常見於正式文件，如 initial each page（在每一頁上用縮寫簽名），語氣正式。",
-        "examples": [
-          {
-            "en": "Please initial each page of the contract to confirm you have read it.",
-            "zh": "請在合約的每一頁上簽署姓名縮寫，以確認你已閱讀過。"
-          }
+        "grammarPatterns": [
+          "initial + noun",
+          "initial each page of + noun"
         ],
         "collocations": [
           {
             "text": "initial each page",
             "meaningZh": "在每頁簽上姓名縮寫"
           }
+        ],
+        "examples": [
+          {
+            "en": "Please initial each page of the contract to confirm you have read it.",
+            "zh": "請在合約的每一頁上簽署姓名縮寫，以確認你已閱讀過。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "first",
+        "noteZh": "形容詞：最初的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "final",
+        "noteZh": "形容詞：最後的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "initially",
+        "partOfSpeech": "adverb",
+        "meaningZh": "最初"
+      },
+      {
+        "lemma": "initiate",
+        "partOfSpeech": "verb",
+        "meaningZh": "發起"
       }
     ],
     "tags": [
@@ -281,19 +410,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "first",
-        "noteZh": "形容詞：最初的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "final",
-        "noteZh": "形容詞：最後的"
-      }
-    ]
+    }
   },
   {
     "id": "w_initially",
@@ -307,21 +424,47 @@
       {
         "id": "s_initially_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "at the beginning; at first",
         "definitionZh": "最初；起初",
         "usageExplanationZh": "常置句首，如 Initially, the plan seemed simple.，強調後續有所轉變或發展。",
-        "examples": [
-          {
-            "en": "Initially, the project was expected to take only a few months.",
-            "zh": "這項專案原本預期只需要幾個月的時間。"
-          }
+        "grammarPatterns": [
+          "Initially, + clause"
         ],
         "collocations": [
           {
             "text": "initially reluctant",
             "meaningZh": "起初不情願的"
           }
+        ],
+        "examples": [
+          {
+            "en": "Initially, the project was expected to take only a few months.",
+            "zh": "這項專案原本預期只需要幾個月的時間。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "at first",
+        "noteZh": "起初"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "finally",
+        "noteZh": "最後"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "initial",
+        "partOfSpeech": "adjective",
+        "meaningZh": "最初的"
       }
     ],
     "tags": [
@@ -334,19 +477,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "at first",
-        "noteZh": "起初"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "finally",
-        "noteZh": "最後"
-      }
-    ]
+    }
   },
   {
     "id": "w_initiate",
@@ -360,55 +491,57 @@
       {
         "id": "s_initiate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to cause a process or action to begin, or to formally admit someone into a group",
         "definitionZh": "啟動；發起；使加入（團體，常有正式儀式）",
         "usageExplanationZh": "常接抽象名詞，如 initiate a discussion（發起討論）；也可指入會儀式。",
-        "examples": [
-          {
-            "en": "The company initiated a new policy to reduce waste.",
-            "zh": "這家公司啟動了一項減少浪費的新政策。"
-          }
+        "grammarPatterns": [
+          "initiate + noun",
+          "initiate proceedings against sb",
+          "initiate sb into + noun"
         ],
         "collocations": [
           {
             "text": "initiate proceedings",
             "meaningZh": "啟動訴訟程序"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company initiated a new policy to reduce waste.",
+            "zh": "這家公司啟動了一項減少浪費的新政策。"
+          }
         ]
       },
       {
         "id": "s_initiate_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a person who has recently been admitted into a group, especially one requiring specific knowledge",
         "definitionZh": "新入會者；剛入門者",
         "usageExplanationZh": "較少見用法，常見於正式團體或秘密組織脈絡。",
-        "examples": [
-          {
-            "en": "The initiates were welcomed into the society after the ceremony.",
-            "zh": "儀式結束後，這些新入會者被正式接納加入這個社團。"
-          }
+        "grammarPatterns": [
+          "an initiate into + noun"
         ],
         "collocations": [
           {
             "text": "a new initiate",
             "meaningZh": "新入會者"
           }
+        ],
+        "examples": [
+          {
+            "en": "The initiates were welcomed into the society after the ceremony.",
+            "zh": "儀式結束後，這些新入會者被正式接納加入這個社團。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "launch",
@@ -424,7 +557,32 @@
         "lemma": "terminate",
         "noteZh": "動詞：終止"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "initiation",
+        "partOfSpeech": "noun",
+        "meaningZh": "啟動；入會儀式"
+      },
+      {
+        "lemma": "initiative",
+        "partOfSpeech": "noun",
+        "meaningZh": "倡議"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_initiative",
@@ -438,35 +596,69 @@
       {
         "id": "s_initiative_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "a new plan or process to achieve something, or the ability to act independently",
         "definitionZh": "新方案；倡議；主動性",
         "usageExplanationZh": "常見 take the initiative（採取主動）、a government initiative（政府的一項倡議）。",
-        "examples": [
-          {
-            "en": "The city launched a new initiative to promote recycling.",
-            "zh": "這座城市推出了一項促進資源回收的新方案。"
-          }
+        "grammarPatterns": [
+          "launch an initiative",
+          "take the initiative",
+          "an initiative to + V"
         ],
         "collocations": [
           {
             "text": "take the initiative",
             "meaningZh": "採取主動"
           }
+        ],
+        "examples": [
+          {
+            "en": "The city launched a new initiative to promote recycling.",
+            "zh": "這座城市推出了一項促進資源回收的新方案。"
+          }
         ]
       },
       {
         "id": "s_initiative_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "relating to the ability to act independently and make decisions（較少見用法，多為名詞）",
         "definitionZh": "主動性的；創始的（較少見用法）",
         "usageExplanationZh": "此詞通常作名詞使用，形容詞用法極為罕見，常見場合仍以名詞片語 show initiative 表達。",
+        "grammarPatterns": [
+          "an initiative + noun"
+        ],
+        "collocations": [],
         "examples": [
           {
             "en": "Her initiative spirit was evident in every project she led.",
             "zh": "她主導的每個專案都展現出主動積極的精神。"
           }
-        ],
-        "collocations": []
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "proposal",
+        "noteZh": "指提出的新方案"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "initiate",
+        "partOfSpeech": "verb",
+        "meaningZh": "發起"
+      },
+      {
+        "lemma": "initiation",
+        "partOfSpeech": "noun",
+        "meaningZh": "開始；入會"
       }
     ],
     "tags": [
@@ -480,14 +672,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "proposal",
-        "noteZh": "指提出的新方案"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_inject",
@@ -501,21 +686,48 @@
       {
         "id": "s_inject_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "to introduce a substance into the body with a needle, or to introduce a new quality or element into something",
         "definitionZh": "注射；注入（新元素或資金）",
         "usageExplanationZh": "常見 inject a vaccine（注射疫苗）；比喻用法如 inject humor into a speech（在演講中加入幽默）。",
-        "examples": [
-          {
-            "en": "The nurse injected the vaccine into his arm.",
-            "zh": "護士將疫苗注射到他的手臂。"
-          }
+        "grammarPatterns": [
+          "inject sth into + noun",
+          "inject sb with + noun"
         ],
         "collocations": [
           {
             "text": "inject money into the economy",
             "meaningZh": "向經濟注入資金"
           }
+        ],
+        "examples": [
+          {
+            "en": "The nurse injected the vaccine into his arm.",
+            "zh": "護士將疫苗注射到他的手臂。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "introduce",
+        "noteZh": "注入新元素"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "injection",
+        "partOfSpeech": "noun",
+        "meaningZh": "注射"
+      },
+      {
+        "lemma": "injector",
+        "partOfSpeech": "noun",
+        "meaningZh": "噴射器"
       }
     ],
     "tags": [
@@ -529,14 +741,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "introduce",
-        "noteZh": "注入新元素"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_injection",
@@ -550,21 +755,43 @@
       {
         "id": "s_injection_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "the act of introducing a substance into the body with a needle, or the act of introducing something new",
         "definitionZh": "注射；（新元素或資金的）注入",
         "usageExplanationZh": "常見 a flu injection（流感疫苗注射）；也指資金挹注，如 a cash injection。",
-        "examples": [
-          {
-            "en": "The clinic administers flu injections every autumn.",
-            "zh": "這家診所每年秋天都會提供流感疫苗注射。"
-          }
+        "grammarPatterns": [
+          "give sb an injection",
+          "an injection of + noun"
         ],
         "collocations": [
           {
             "text": "a cash injection",
             "meaningZh": "資金挹注"
           }
+        ],
+        "examples": [
+          {
+            "en": "The clinic administers flu injections every autumn.",
+            "zh": "這家診所每年秋天都會提供流感疫苗注射。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "infusion",
+        "noteZh": "注入資金等"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "inject",
+        "partOfSpeech": "verb",
+        "meaningZh": "注射"
       }
     ],
     "tags": [
@@ -578,14 +805,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "infusion",
-        "noteZh": "注入資金等"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_injunction",
@@ -599,21 +819,43 @@
       {
         "id": "s_injunction_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "an official order issued by a court, usually requiring someone to do or stop doing something",
         "definitionZh": "（法院的）禁制令；強制令",
         "usageExplanationZh": "法律用語，常見 obtain an injunction against someone（取得針對某人的禁制令）。",
-        "examples": [
-          {
-            "en": "The company sought an injunction to stop the competitor's advertising campaign.",
-            "zh": "這家公司尋求禁制令，以阻止競爭對手的廣告宣傳活動。"
-          }
+        "grammarPatterns": [
+          "seek an injunction",
+          "an injunction against + noun"
         ],
         "collocations": [
           {
             "text": "seek an injunction",
             "meaningZh": "申請禁制令"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company sought an injunction to stop the competitor's advertising campaign.",
+            "zh": "這家公司尋求禁制令，以阻止競爭對手的廣告宣傳活動。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "court order",
+        "noteZh": "法院命令"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "enjoin",
+        "partOfSpeech": "verb",
+        "meaningZh": "命令；禁止"
       }
     ],
     "tags": [
@@ -626,14 +868,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "court order",
-        "noteZh": "法院命令"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_injure",
@@ -647,21 +882,52 @@
       {
         "id": "s_injure_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to cause physical harm to someone",
         "definitionZh": "使受傷；傷害",
         "usageExplanationZh": "常用被動語態 be injured，如 be injured in an accident，語氣中性，多指身體傷害。",
-        "examples": [
-          {
-            "en": "Two workers were injured in the factory accident.",
-            "zh": "兩名工人在這起工廠意外中受傷。"
-          }
+        "grammarPatterns": [
+          "injure + noun",
+          "be injured in + noun"
         ],
         "collocations": [
           {
             "text": "seriously injure someone",
             "meaningZh": "使某人嚴重受傷"
           }
+        ],
+        "examples": [
+          {
+            "en": "Two workers were injured in the factory accident.",
+            "zh": "兩名工人在這起工廠意外中受傷。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "hurt",
+        "noteZh": "使受傷"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "heal",
+        "noteZh": "使傷口癒合"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "injury",
+        "partOfSpeech": "noun",
+        "meaningZh": "傷害"
+      },
+      {
+        "lemma": "injurious",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有害的"
       }
     ],
     "tags": [
@@ -674,19 +940,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "hurt",
-        "noteZh": "使受傷"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "heal",
-        "noteZh": "使傷口癒合"
-      }
-    ]
+    }
   },
   {
     "id": "w_injustice",
@@ -700,21 +954,53 @@
       {
         "id": "s_injustice_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a lack of fairness or justice, or an unfair act",
         "definitionZh": "不公正；不公平的待遇",
         "usageExplanationZh": "常見 social injustice（社會不公）、do someone an injustice（對某人不公平），語氣正式。",
-        "examples": [
-          {
-            "en": "The protesters gathered to speak out against racial injustice.",
-            "zh": "抗議者聚集起來，發聲反對種族不公。"
-          }
+        "grammarPatterns": [
+          "the injustice of + noun",
+          "speak out against injustice"
         ],
         "collocations": [
           {
             "text": "social injustice",
             "meaningZh": "社會不公"
           }
+        ],
+        "examples": [
+          {
+            "en": "The protesters gathered to speak out against racial injustice.",
+            "zh": "抗議者聚集起來，發聲反對種族不公。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "unfairness",
+        "noteZh": "不公平"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "justice",
+        "noteZh": "公正"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "justice",
+        "partOfSpeech": "noun",
+        "meaningZh": "正義"
+      },
+      {
+        "lemma": "unjust",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不公正的"
       }
     ],
     "tags": [
@@ -727,19 +1013,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "unfairness",
-        "noteZh": "不公平"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "justice",
-        "noteZh": "公正"
-      }
-    ]
+    }
   },
   {
     "id": "w_inland",
@@ -753,21 +1027,40 @@
       {
         "id": "s_inland_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "located or happening in the interior part of a country, away from the coast or border",
         "definitionZh": "內陸的",
         "usageExplanationZh": "常見 inland areas（內陸地區）、inland waterways（內陸水路），與 coastal（沿海的）相對。",
-        "examples": [
-          {
-            "en": "The storm weakened as it moved further inland.",
-            "zh": "這場風暴向內陸移動時逐漸減弱。"
-          }
+        "grammarPatterns": [
+          "inland + noun"
         ],
         "collocations": [
           {
             "text": "an inland region",
             "meaningZh": "內陸地區"
           }
+        ],
+        "examples": [
+          {
+            "en": "The storm weakened as it moved further inland.",
+            "zh": "這場風暴向內陸移動時逐漸減弱。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "interior",
+        "noteZh": "內陸的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "coastal",
+        "noteZh": "沿海的"
       }
     ],
     "tags": [
@@ -781,19 +1074,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "interior",
-        "noteZh": "內陸的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "coastal",
-        "noteZh": "沿海的"
-      }
-    ]
+    }
   },
   {
     "id": "w_inner",
@@ -807,21 +1088,48 @@
       {
         "id": "s_inner_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "situated inside or closer to the center; relating to a person's private thoughts or feelings",
         "definitionZh": "內部的；內心的",
         "usageExplanationZh": "常見 inner city（市中心區）、inner peace（內心的平靜）；比喻用法非常普遍。",
-        "examples": [
-          {
-            "en": "Meditation helped her find a sense of inner peace.",
-            "zh": "冥想幫助她找到了內心的平靜。"
-          }
+        "grammarPatterns": [
+          "the inner + noun",
+          "a sense of inner + noun"
         ],
         "collocations": [
           {
             "text": "inner strength",
             "meaningZh": "內心的力量"
           }
+        ],
+        "examples": [
+          {
+            "en": "Meditation helped her find a sense of inner peace.",
+            "zh": "冥想幫助她找到了內心的平靜。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "internal",
+        "noteZh": "內部的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "outer",
+        "noteZh": "外部的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "innermost",
+        "partOfSpeech": "adjective",
+        "meaningZh": "最內部的"
       }
     ],
     "tags": [
@@ -834,19 +1142,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "internal",
-        "noteZh": "內部的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "outer",
-        "noteZh": "外部的"
-      }
-    ]
+    }
   },
   {
     "id": "w_innocence",
@@ -860,21 +1156,53 @@
       {
         "id": "s_innocence_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "the state of not being guilty of a crime, or a lack of experience or worldliness",
         "definitionZh": "清白；無罪；天真無邪",
         "usageExplanationZh": "常見 prove one's innocence（證明清白）；也可指童年般的純真，如 childhood innocence。",
-        "examples": [
-          {
-            "en": "The defendant maintained his innocence throughout the trial.",
-            "zh": "被告在整個審判過程中都堅稱自己清白。"
-          }
+        "grammarPatterns": [
+          "maintain one's innocence",
+          "prove sb's innocence",
+          "the innocence of + noun"
         ],
         "collocations": [
           {
             "text": "prove one's innocence",
             "meaningZh": "證明自己的清白"
           }
+        ],
+        "examples": [
+          {
+            "en": "The defendant maintained his innocence throughout the trial.",
+            "zh": "被告在整個審判過程中都堅稱自己清白。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "blamelessness",
+        "noteZh": "無罪；無過錯"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "guilt",
+        "noteZh": "有罪"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "innocent",
+        "partOfSpeech": "adjective",
+        "meaningZh": "無辜的"
+      },
+      {
+        "lemma": "innocently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "天真地"
       }
     ],
     "tags": [
@@ -887,19 +1215,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "blamelessness",
-        "noteZh": "無罪；無過錯"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "guilt",
-        "noteZh": "有罪"
-      }
-    ]
+    }
   },
   {
     "id": "w_innocent",
@@ -913,40 +1229,79 @@
       {
         "id": "s_innocent_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "not guilty of a crime, or free from moral wrong; naive",
         "definitionZh": "無罪的；無辜的；天真的",
         "usageExplanationZh": "常見 an innocent bystander（無辜的旁觀者）；也可形容缺乏世故的天真，如 an innocent question。",
-        "examples": [
-          {
-            "en": "The jury found her innocent of all charges.",
-            "zh": "陪審團判定她所有罪名皆不成立。"
-          }
+        "grammarPatterns": [
+          "be innocent of + noun",
+          "find sb innocent"
         ],
         "collocations": [
           {
             "text": "innocent of the crime",
             "meaningZh": "未犯下該罪行"
           }
+        ],
+        "examples": [
+          {
+            "en": "The jury found her innocent of all charges.",
+            "zh": "陪審團判定她所有罪名皆不成立。"
+          }
         ]
       },
       {
         "id": "s_innocent_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "a person who is not guilty of a crime or wrongdoing, especially one who is naive",
         "definitionZh": "無辜的人；天真的人",
         "usageExplanationZh": "較少見用法，常見於正式或文學語境，如 punish the innocent along with the guilty。",
-        "examples": [
-          {
-            "en": "The war left many innocents caught in the crossfire.",
-            "zh": "這場戰爭讓許多無辜的人陷入交火之中。"
-          }
+        "grammarPatterns": [
+          "an innocent caught up in + noun",
+          "protect the innocent"
         ],
         "collocations": [
           {
             "text": "protect the innocent",
             "meaningZh": "保護無辜者"
           }
+        ],
+        "examples": [
+          {
+            "en": "The war left many innocents caught in the crossfire.",
+            "zh": "這場戰爭讓許多無辜的人陷入交火之中。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "blameless",
+        "noteZh": "形容詞：無辜的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "guilty",
+        "noteZh": "形容詞：有罪的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "innocence",
+        "partOfSpeech": "noun",
+        "meaningZh": "清白"
+      },
+      {
+        "lemma": "innocently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "無辜地"
       }
     ],
     "tags": [
@@ -960,19 +1315,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "blameless",
-        "noteZh": "形容詞：無辜的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "guilty",
-        "noteZh": "形容詞：有罪的"
-      }
-    ]
+    }
   },
   {
     "id": "w_innovation",
@@ -986,21 +1329,53 @@
       {
         "id": "s_innovation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "academic"
+        ],
         "definitionEn": "the introduction of new ideas, methods, or products",
         "definitionZh": "創新；革新",
         "usageExplanationZh": "常見 technological innovation（科技創新），語氣正面，強調突破性的改變。",
-        "examples": [
-          {
-            "en": "The company is known for its innovation in renewable energy.",
-            "zh": "這家公司以在再生能源方面的創新而聞名。"
-          }
+        "grammarPatterns": [
+          "innovation in + noun",
+          "technological innovation"
         ],
         "collocations": [
           {
             "text": "technological innovation",
             "meaningZh": "技術創新"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company is known for its innovation in renewable energy.",
+            "zh": "這家公司以在再生能源方面的創新而聞名。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "invention",
+        "noteZh": "新發明；創新成果"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "innovate",
+        "partOfSpeech": "verb",
+        "meaningZh": "創新"
+      },
+      {
+        "lemma": "innovative",
+        "partOfSpeech": "adjective",
+        "meaningZh": "創新的"
+      },
+      {
+        "lemma": "innovator",
+        "partOfSpeech": "noun",
+        "meaningZh": "創新者"
       }
     ],
     "tags": [
@@ -1015,14 +1390,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "invention",
-        "noteZh": "新發明；創新成果"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_innovative",
@@ -1036,21 +1404,53 @@
       {
         "id": "s_innovative_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "business",
+          "neutral"
+        ],
         "definitionEn": "introducing new ideas or methods; original and creative",
         "definitionZh": "創新的；有創意的",
         "usageExplanationZh": "常修飾 idea、product、approach，如 an innovative solution，語氣正面。",
-        "examples": [
-          {
-            "en": "The startup developed an innovative app to help students learn languages.",
-            "zh": "這家新創公司開發了一款創新的應用程式，幫助學生學習語言。"
-          }
+        "grammarPatterns": [
+          "an innovative + noun",
+          "an innovative approach to + noun"
         ],
         "collocations": [
           {
             "text": "an innovative approach",
             "meaningZh": "創新的方法"
           }
+        ],
+        "examples": [
+          {
+            "en": "The startup developed an innovative app to help students learn languages.",
+            "zh": "這家新創公司開發了一款創新的應用程式，幫助學生學習語言。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "inventive",
+        "noteZh": "有創造力的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "conventional",
+        "noteZh": "遵循傳統的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "innovate",
+        "partOfSpeech": "verb",
+        "meaningZh": "創新"
+      },
+      {
+        "lemma": "innovation",
+        "partOfSpeech": "noun",
+        "meaningZh": "創新"
       }
     ],
     "tags": [
@@ -1064,19 +1464,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "inventive",
-        "noteZh": "有創造力的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "conventional",
-        "noteZh": "遵循傳統的"
-      }
-    ]
+    }
   },
   {
     "id": "w_inquire",
@@ -1090,21 +1478,48 @@
       {
         "id": "s_inquire_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to ask for information about something",
         "definitionZh": "詢問；打聽",
         "usageExplanationZh": "常接 about，如 inquire about a job（詢問一份工作的相關資訊），比 ask 稍正式。",
-        "examples": [
-          {
-            "en": "She called to inquire about the store's opening hours.",
-            "zh": "她打電話詢問商店的營業時間。"
-          }
+        "grammarPatterns": [
+          "inquire about + noun",
+          "inquire whether + clause",
+          "inquire into + noun"
         ],
         "collocations": [
           {
             "text": "inquire about a vacancy",
             "meaningZh": "詢問職缺"
           }
+        ],
+        "examples": [
+          {
+            "en": "She called to inquire about the store's opening hours.",
+            "zh": "她打電話詢問商店的營業時間。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "ask",
+        "noteZh": "詢問"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "inquiry",
+        "partOfSpeech": "noun",
+        "meaningZh": "詢問"
+      },
+      {
+        "lemma": "inquisitive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "好奇的"
       }
     ],
     "tags": [
@@ -1117,14 +1532,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "ask",
-        "noteZh": "詢問"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_inquiry",
@@ -1138,21 +1546,49 @@
       {
         "id": "s_inquiry_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "an act of asking for information, or an official investigation",
         "definitionZh": "詢問；查詢；（正式）調查",
         "usageExplanationZh": "常見 make an inquiry（提出詢問）；也指正式調查，如 launch an inquiry into。",
-        "examples": [
-          {
-            "en": "The government launched an inquiry into the cause of the accident.",
-            "zh": "政府對這起意外的原因展開了調查。"
-          }
+        "grammarPatterns": [
+          "an inquiry into + noun",
+          "launch an inquiry",
+          "make an inquiry about + noun"
         ],
         "collocations": [
           {
             "text": "launch an inquiry",
             "meaningZh": "展開調查"
           }
+        ],
+        "examples": [
+          {
+            "en": "The government launched an inquiry into the cause of the accident.",
+            "zh": "政府對這起意外的原因展開了調查。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "investigation",
+        "noteZh": "指正式調查"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "inquire",
+        "partOfSpeech": "verb",
+        "meaningZh": "詢問"
+      },
+      {
+        "lemma": "inquisitor",
+        "partOfSpeech": "noun",
+        "meaningZh": "審訊者"
       }
     ],
     "tags": [
@@ -1166,14 +1602,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "investigation",
-        "noteZh": "指正式調查"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_inquisitive",
@@ -1187,21 +1616,52 @@
       {
         "id": "s_inquisitive_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "having or showing a strong curiosity about things",
         "definitionZh": "好奇的；愛打聽的",
         "usageExplanationZh": "常修飾 child、mind 等，如 an inquisitive child（好奇心旺盛的孩子），語氣中性偏正面。",
-        "examples": [
-          {
-            "en": "The inquisitive toddler kept asking questions about everything.",
-            "zh": "這個好奇的小孩不停地對每件事提出問題。"
-          }
+        "grammarPatterns": [
+          "an inquisitive + noun",
+          "be inquisitive about + noun"
         ],
         "collocations": [
           {
             "text": "an inquisitive mind",
             "meaningZh": "好奇心強的頭腦"
           }
+        ],
+        "examples": [
+          {
+            "en": "The inquisitive toddler kept asking questions about everything.",
+            "zh": "這個好奇的小孩不停地對每件事提出問題。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "curious",
+        "noteZh": "好奇的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "uninterested",
+        "noteZh": "不感興趣的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "inquire",
+        "partOfSpeech": "verb",
+        "meaningZh": "詢問"
+      },
+      {
+        "lemma": "inquisitiveness",
+        "partOfSpeech": "noun",
+        "meaningZh": "好奇心"
       }
     ],
     "tags": [
@@ -1215,19 +1675,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "curious",
-        "noteZh": "好奇的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "uninterested",
-        "noteZh": "不感興趣的"
-      }
-    ]
+    }
   },
   {
     "id": "w_insane",
@@ -1241,21 +1689,58 @@
       {
         "id": "s_insane_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "seriously mentally ill, or (informally) extremely foolish or unreasonable",
         "definitionZh": "精神錯亂的；瘋狂的；（口語）荒謬的",
         "usageExplanationZh": "口語中常誇張使用，表示極其荒謬或不合理，如 that's insane（那太瘋狂了）。",
-        "examples": [
-          {
-            "en": "It would be insane to drive in this storm.",
-            "zh": "在這場暴風雨中開車實在太瘋狂了。"
-          }
+        "grammarPatterns": [
+          "it would be insane to + V",
+          "an insane + noun"
         ],
         "collocations": [
           {
             "text": "drive someone insane",
             "meaningZh": "把某人逼瘋"
           }
+        ],
+        "examples": [
+          {
+            "en": "It would be insane to drive in this storm.",
+            "zh": "在這場暴風雨中開車實在太瘋狂了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "mad",
+        "noteZh": "精神失常的；口語可指荒謬的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "sane",
+        "noteZh": "神智正常的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "insanity",
+        "partOfSpeech": "noun",
+        "meaningZh": "精神錯亂"
+      },
+      {
+        "lemma": "sane",
+        "partOfSpeech": "adjective",
+        "meaningZh": "神智清醒的"
+      },
+      {
+        "lemma": "insanely",
+        "partOfSpeech": "adverb",
+        "meaningZh": "瘋狂地"
       }
     ],
     "tags": [
@@ -1270,19 +1755,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "mad",
-        "noteZh": "精神失常的；口語可指荒謬的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "sane",
-        "noteZh": "神智正常的"
-      }
-    ]
+    }
   },
   {
     "id": "w_insanity",
@@ -1296,21 +1769,53 @@
       {
         "id": "s_insanity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "the state of being seriously mentally ill, or extreme foolishness",
         "definitionZh": "精神錯亂；瘋狂；荒謬",
         "usageExplanationZh": "常見 plead insanity（以精神失常為由抗辯），口語也可誇張形容荒謬的行為，如 sheer insanity。",
-        "examples": [
-          {
-            "en": "The defense argued a plea of insanity.",
-            "zh": "辯方以精神失常為由提出抗辯。"
-          }
+        "grammarPatterns": [
+          "a plea of insanity",
+          "the insanity of + V-ing"
         ],
         "collocations": [
           {
             "text": "a plea of insanity",
             "meaningZh": "以精神失常為由的抗辯"
           }
+        ],
+        "examples": [
+          {
+            "en": "The defense argued a plea of insanity.",
+            "zh": "辯方以精神失常為由提出抗辯。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "madness",
+        "noteZh": "精神失常；瘋狂"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "sanity",
+        "noteZh": "神智正常"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "insane",
+        "partOfSpeech": "adjective",
+        "meaningZh": "瘋狂的"
+      },
+      {
+        "lemma": "sanity",
+        "partOfSpeech": "noun",
+        "meaningZh": "神智清醒"
       }
     ],
     "tags": [
@@ -1324,19 +1829,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "madness",
-        "noteZh": "精神失常；瘋狂"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "sanity",
-        "noteZh": "神智正常"
-      }
-    ]
+    }
   },
   {
     "id": "w_insatiable",
@@ -1350,21 +1843,48 @@
       {
         "id": "s_insatiable_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "impossible to satisfy",
         "definitionZh": "無法滿足的；貪得無厭的",
         "usageExplanationZh": "常見 an insatiable appetite（無法滿足的胃口/慾望），比喻用法非常普遍，強調慾望永無止盡。",
-        "examples": [
-          {
-            "en": "He has an insatiable curiosity about how things work.",
-            "zh": "他對事物運作的方式有著無窮無盡的好奇心。"
-          }
+        "grammarPatterns": [
+          "an insatiable + noun",
+          "an insatiable appetite for + noun"
         ],
         "collocations": [
           {
             "text": "an insatiable appetite for knowledge",
             "meaningZh": "對知識的無盡渴求"
           }
+        ],
+        "examples": [
+          {
+            "en": "He has an insatiable curiosity about how things work.",
+            "zh": "他對事物運作的方式有著無窮無盡的好奇心。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "unquenchable",
+        "noteZh": "無法滿足或抑制的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "satiate",
+        "partOfSpeech": "verb",
+        "meaningZh": "使滿足"
+      },
+      {
+        "lemma": "insatiably",
+        "partOfSpeech": "adverb",
+        "meaningZh": "貪得無厭地"
       }
     ],
     "tags": [
@@ -1377,14 +1897,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "unquenchable",
-        "noteZh": "無法滿足或抑制的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_inscribe",
@@ -1398,21 +1911,43 @@
       {
         "id": "s_inscribe_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to write or carve words on a surface, especially as a permanent record",
         "definitionZh": "刻寫；題寫（於表面）",
         "usageExplanationZh": "常見 inscribe a name on a plaque（在牌匾上刻上名字），語氣正式，強調永久性的紀錄。",
-        "examples": [
-          {
-            "en": "The ring was inscribed with their wedding date.",
-            "zh": "這枚戒指上刻著他們的結婚日期。"
-          }
+        "grammarPatterns": [
+          "inscribe sth with + noun",
+          "be inscribed on + noun"
         ],
         "collocations": [
           {
             "text": "inscribe a name on a stone",
             "meaningZh": "把名字刻在石頭上"
           }
+        ],
+        "examples": [
+          {
+            "en": "The ring was inscribed with their wedding date.",
+            "zh": "這枚戒指上刻著他們的結婚日期。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "engrave",
+        "noteZh": "雕刻文字"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "inscription",
+        "partOfSpeech": "noun",
+        "meaningZh": "銘文；題詞"
       }
     ],
     "tags": [
@@ -1425,14 +1960,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "engrave",
-        "noteZh": "雕刻文字"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_insider",
@@ -1446,21 +1974,48 @@
       {
         "id": "s_insider_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "neutral"
+        ],
         "definitionEn": "a person who is a member of a group or organization, and has access to private information",
         "definitionZh": "內部人士；圈內人",
         "usageExplanationZh": "常見 insider trading（內線交易，商業犯罪術語），也可泛指了解內情的人。",
-        "examples": [
-          {
-            "en": "As a former employee, she has insider knowledge of the company's operations.",
-            "zh": "身為前員工，她對公司的營運內情知之甚詳。"
-          }
+        "grammarPatterns": [
+          "an insider at + noun",
+          "insider knowledge"
         ],
         "collocations": [
           {
             "text": "an industry insider",
             "meaningZh": "業內人士"
           }
+        ],
+        "examples": [
+          {
+            "en": "As a former employee, she has insider knowledge of the company's operations.",
+            "zh": "身為前員工，她對公司的營運內情知之甚詳。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "member",
+        "noteZh": "指團體內部成員"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "outsider",
+        "noteZh": "局外人"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "inside",
+        "partOfSpeech": "preposition",
+        "meaningZh": "在……裡面"
       }
     ],
     "tags": [
@@ -1473,19 +2028,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "member",
-        "noteZh": "指團體內部成員"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "outsider",
-        "noteZh": "局外人"
-      }
-    ]
+    }
   },
   {
     "id": "w_insidious",
@@ -1499,21 +2042,48 @@
       {
         "id": "s_insidious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "proceeding in a gradual, subtle way but with harmful effects",
         "definitionZh": "陰險的；潛伏漸進而有害的",
         "usageExplanationZh": "常修飾抽象威脅，如 an insidious disease（悄悄惡化的疾病），語氣書面正式，強調難以察覺的危害。",
-        "examples": [
-          {
-            "en": "Corruption can have an insidious effect on public trust.",
-            "zh": "貪腐會對公眾信任造成潛移默化的傷害。"
-          }
+        "grammarPatterns": [
+          "an insidious + noun",
+          "have an insidious effect on + noun"
         ],
         "collocations": [
           {
             "text": "an insidious disease",
             "meaningZh": "潛伏漸進的疾病"
           }
+        ],
+        "examples": [
+          {
+            "en": "Corruption can have an insidious effect on public trust.",
+            "zh": "貪腐會對公眾信任造成潛移默化的傷害。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "treacherous",
+        "noteZh": "暗中有害的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "insidiously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "陰險地"
+      },
+      {
+        "lemma": "insidiousness",
+        "partOfSpeech": "noun",
+        "meaningZh": "陰險"
       }
     ],
     "tags": [
@@ -1527,14 +2097,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "treacherous",
-        "noteZh": "暗中有害的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_insight",
@@ -1548,21 +2111,43 @@
       {
         "id": "s_insight_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "a clear, deep understanding of a complicated problem or situation",
         "definitionZh": "洞察力；深刻的見解",
         "usageExplanationZh": "常見 gain insight into（獲得對……的深入理解），語氣正面，強調對本質的理解。",
-        "examples": [
-          {
-            "en": "The book offers valuable insight into human behavior.",
-            "zh": "這本書對人類行為提供了寶貴的洞見。"
-          }
+        "grammarPatterns": [
+          "insight into + noun",
+          "gain an insight into + noun"
         ],
         "collocations": [
           {
             "text": "gain insight into",
             "meaningZh": "深入了解……"
           }
+        ],
+        "examples": [
+          {
+            "en": "The book offers valuable insight into human behavior.",
+            "zh": "這本書對人類行為提供了寶貴的洞見。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "perception",
+        "noteZh": "深入理解的能力"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "insightful",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有洞察力的"
       }
     ],
     "tags": [
@@ -1576,14 +2161,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "perception",
-        "noteZh": "深入理解的能力"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_insinuate",
@@ -1597,21 +2175,43 @@
       {
         "id": "s_insinuate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to suggest or imply something negative in an indirect and unpleasant way",
         "definitionZh": "暗示（負面的事）；影射",
         "usageExplanationZh": "常接 that 子句，如 insinuate that someone is lying，語氣帶負面意味，強調間接且令人不快的暗示。",
-        "examples": [
-          {
-            "en": "He insinuated that she had lied about her qualifications.",
-            "zh": "他影射她在資歷上撒了謊。"
-          }
+        "grammarPatterns": [
+          "insinuate that + clause",
+          "insinuate sth about sb"
         ],
         "collocations": [
           {
             "text": "insinuate that someone is lying",
             "meaningZh": "影射某人在說謊"
           }
+        ],
+        "examples": [
+          {
+            "en": "He insinuated that she had lied about her qualifications.",
+            "zh": "他影射她在資歷上撒了謊。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "imply",
+        "noteZh": "含蓄暗示"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "insinuation",
+        "partOfSpeech": "noun",
+        "meaningZh": "影射；暗示"
       }
     ],
     "tags": [
@@ -1625,14 +2225,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "imply",
-        "noteZh": "含蓄暗示"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_insoluble",
@@ -1646,21 +2239,53 @@
       {
         "id": "s_insoluble_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "impossible to solve, or (of a substance) unable to be dissolved",
         "definitionZh": "無法解決的；不可溶的",
         "usageExplanationZh": "常見 an insoluble problem（無解的問題）；化學語境指物質不溶於液體。",
-        "examples": [
-          {
-            "en": "The dispute seemed like an insoluble problem for years.",
-            "zh": "這場爭端多年來似乎都是無解的問題。"
-          }
+        "grammarPatterns": [
+          "an insoluble + noun",
+          "be insoluble in + noun"
         ],
         "collocations": [
           {
             "text": "insoluble in water",
             "meaningZh": "不溶於水"
           }
+        ],
+        "examples": [
+          {
+            "en": "The dispute seemed like an insoluble problem for years.",
+            "zh": "這場爭端多年來似乎都是無解的問題。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "unsolvable",
+        "noteZh": "指問題：無法解決的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "soluble",
+        "noteZh": "指物質：可溶的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "soluble",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可溶的"
+      },
+      {
+        "lemma": "solubility",
+        "partOfSpeech": "noun",
+        "meaningZh": "溶解度"
       }
     ],
     "tags": [
@@ -1673,19 +2298,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "unsolvable",
-        "noteZh": "指問題：無法解決的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "soluble",
-        "noteZh": "指物質：可溶的"
-      }
-    ]
+    }
   },
   {
     "id": "w_inspect",
@@ -1699,21 +2312,48 @@
       {
         "id": "s_inspect_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to examine something closely, especially for faults or to check quality",
         "definitionZh": "檢查；檢視",
         "usageExplanationZh": "常見 inspect a building（檢查建築物），語氣正式，常見於安全或品質檢驗語境。",
-        "examples": [
-          {
-            "en": "The building was inspected before the new tenants moved in.",
-            "zh": "新房客搬進去之前，這棟建築已經過檢查。"
-          }
+        "grammarPatterns": [
+          "inspect + noun",
+          "inspect sth for + noun"
         ],
         "collocations": [
           {
             "text": "inspect for damage",
             "meaningZh": "檢查有無損壞"
           }
+        ],
+        "examples": [
+          {
+            "en": "The building was inspected before the new tenants moved in.",
+            "zh": "新房客搬進去之前，這棟建築已經過檢查。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "examine",
+        "noteZh": "仔細檢查"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "inspection",
+        "partOfSpeech": "noun",
+        "meaningZh": "檢查"
+      },
+      {
+        "lemma": "inspector",
+        "partOfSpeech": "noun",
+        "meaningZh": "檢查員"
       }
     ],
     "tags": [
@@ -1726,14 +2366,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "examine",
-        "noteZh": "仔細檢查"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_inspection",
@@ -1747,21 +2380,49 @@
       {
         "id": "s_inspection_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "a careful examination or official check",
         "definitionZh": "檢查；視察",
         "usageExplanationZh": "常見 a safety inspection（安全檢查）、pass an inspection（通過檢查）。",
-        "examples": [
-          {
-            "en": "The factory failed its safety inspection last month.",
-            "zh": "這家工廠上個月的安全檢查沒有通過。"
-          }
+        "grammarPatterns": [
+          "carry out an inspection",
+          "an inspection of + noun",
+          "on closer inspection"
         ],
         "collocations": [
           {
             "text": "a safety inspection",
             "meaningZh": "安全檢查"
           }
+        ],
+        "examples": [
+          {
+            "en": "The factory failed its safety inspection last month.",
+            "zh": "這家工廠上個月的安全檢查沒有通過。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "examination",
+        "noteZh": "檢查"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "inspect",
+        "partOfSpeech": "verb",
+        "meaningZh": "檢查"
+      },
+      {
+        "lemma": "inspector",
+        "partOfSpeech": "noun",
+        "meaningZh": "檢查員"
       }
     ],
     "tags": [
@@ -1776,14 +2437,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "examination",
-        "noteZh": "檢查"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_inspector",
@@ -1797,21 +2451,48 @@
       {
         "id": "s_inspector_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "an official who checks that regulations are being followed, or a police officer of a certain rank",
         "definitionZh": "檢查員；督察員",
         "usageExplanationZh": "常見 a health inspector（衛生檢查員）；英式英語中也指警察職級，如 Detective Inspector。",
-        "examples": [
-          {
-            "en": "A building inspector came to check for code violations.",
-            "zh": "一名建築檢查員前來檢查是否有違反法規的情形。"
-          }
+        "grammarPatterns": [
+          "an inspector from + noun",
+          "a safety inspector"
         ],
         "collocations": [
           {
             "text": "a health inspector",
             "meaningZh": "衛生稽查員"
           }
+        ],
+        "examples": [
+          {
+            "en": "A building inspector came to check for code violations.",
+            "zh": "一名建築檢查員前來檢查是否有違反法規的情形。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "examiner",
+        "noteZh": "檢查人員"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "inspect",
+        "partOfSpeech": "verb",
+        "meaningZh": "檢查"
+      },
+      {
+        "lemma": "inspection",
+        "partOfSpeech": "noun",
+        "meaningZh": "檢查"
       }
     ],
     "tags": [
@@ -1824,14 +2505,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "examiner",
-        "noteZh": "檢查人員"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_inspiration",
@@ -1845,21 +2519,49 @@
       {
         "id": "s_inspiration_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "the process of being mentally stimulated to do or feel something creative, or a person or thing that provides this",
         "definitionZh": "靈感；啟發（來源）",
         "usageExplanationZh": "常見 draw inspiration from（從……汲取靈感），語氣正面。",
-        "examples": [
-          {
-            "en": "The artist drew inspiration from nature for her paintings.",
-            "zh": "這位藝術家從大自然汲取繪畫的靈感。"
-          }
+        "grammarPatterns": [
+          "draw inspiration from + noun",
+          "be an inspiration to sb",
+          "a source of inspiration"
         ],
         "collocations": [
           {
             "text": "a source of inspiration",
             "meaningZh": "靈感來源"
           }
+        ],
+        "examples": [
+          {
+            "en": "The artist drew inspiration from nature for her paintings.",
+            "zh": "這位藝術家從大自然汲取繪畫的靈感。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "stimulus",
+        "noteZh": "激發創作的事物"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "inspire",
+        "partOfSpeech": "verb",
+        "meaningZh": "啟發"
+      },
+      {
+        "lemma": "inspirational",
+        "partOfSpeech": "adjective",
+        "meaningZh": "激勵人心的"
       }
     ],
     "tags": [
@@ -1874,14 +2576,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "stimulus",
-        "noteZh": "激發創作的事物"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_inspire",
@@ -1895,21 +2590,52 @@
       {
         "id": "s_inspire_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to fill someone with the urge or ability to do or feel something, especially something creative",
         "definitionZh": "激勵；啟發；賦予靈感",
         "usageExplanationZh": "常接 someone to do something，如 inspire people to act，語氣正面積極。",
-        "examples": [
-          {
-            "en": "Her courage inspired others to speak up.",
-            "zh": "她的勇氣激勵了其他人挺身而出。"
-          }
+        "grammarPatterns": [
+          "inspire sb to + V",
+          "be inspired by + noun"
         ],
         "collocations": [
           {
             "text": "inspire confidence",
             "meaningZh": "激發信心"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her courage inspired others to speak up.",
+            "zh": "她的勇氣激勵了其他人挺身而出。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "motivate",
+        "noteZh": "激勵"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "discourage",
+        "noteZh": "使洩氣"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "inspiration",
+        "partOfSpeech": "noun",
+        "meaningZh": "靈感"
+      },
+      {
+        "lemma": "inspirational",
+        "partOfSpeech": "adjective",
+        "meaningZh": "鼓舞人心的"
       }
     ],
     "tags": [
@@ -1923,19 +2649,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "motivate",
-        "noteZh": "激勵"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "discourage",
-        "noteZh": "使洩氣"
-      }
-    ]
+    }
   },
   {
     "id": "w_install",
@@ -1949,21 +2663,53 @@
       {
         "id": "s_install_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "to place or fix equipment or software in position for use",
         "definitionZh": "安裝（設備或軟體）",
         "usageExplanationZh": "常見 install software（安裝軟體）、install a new heater（安裝新暖爐）。",
-        "examples": [
-          {
-            "en": "The technician installed the new software on all office computers.",
-            "zh": "技術人員在所有辦公室電腦上安裝了新軟體。"
-          }
+        "grammarPatterns": [
+          "install + noun",
+          "install sth on + noun"
         ],
         "collocations": [
           {
             "text": "install software",
             "meaningZh": "安裝軟體"
           }
+        ],
+        "examples": [
+          {
+            "en": "The technician installed the new software on all office computers.",
+            "zh": "技術人員在所有辦公室電腦上安裝了新軟體。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "set up",
+        "noteZh": "安裝妥當"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "uninstall",
+        "noteZh": "解除安裝軟體"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "installation",
+        "partOfSpeech": "noun",
+        "meaningZh": "安裝"
+      },
+      {
+        "lemma": "installer",
+        "partOfSpeech": "noun",
+        "meaningZh": "安裝程式；安裝人員"
       }
     ],
     "tags": [
@@ -1978,19 +2724,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "set up",
-        "noteZh": "安裝妥當"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "uninstall",
-        "noteZh": "解除安裝軟體"
-      }
-    ]
+    }
   },
   {
     "id": "w_instant",
@@ -2004,21 +2738,53 @@
       {
         "id": "s_instant_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "happening immediately",
         "definitionZh": "即時的；立即的",
         "usageExplanationZh": "常見 instant noodles（速食麵）、instant success（一炮而紅），依語境略有不同引申義。",
-        "examples": [
-          {
-            "en": "The app provides instant access to news updates.",
-            "zh": "這款應用程式提供即時的新聞更新存取。"
-          }
+        "grammarPatterns": [
+          "instant + noun",
+          "instant access to + noun"
         ],
         "collocations": [
           {
             "text": "instant access",
             "meaningZh": "即時存取"
           }
+        ],
+        "examples": [
+          {
+            "en": "The app provides instant access to news updates.",
+            "zh": "這款應用程式提供即時的新聞更新存取。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "immediate",
+        "noteZh": "立即的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "delayed",
+        "noteZh": "延遲的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "instantly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "立即"
+      },
+      {
+        "lemma": "instantaneous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "瞬間的"
       }
     ],
     "tags": [
@@ -2031,19 +2797,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "immediate",
-        "noteZh": "立即的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "delayed",
-        "noteZh": "延遲的"
-      }
-    ]
+    }
   },
   {
     "id": "w_instantaneous",
@@ -2057,21 +2811,53 @@
       {
         "id": "s_instantaneous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "formal"
+        ],
         "definitionEn": "occurring or done immediately, with no delay",
         "definitionZh": "瞬間的；即時發生的",
         "usageExplanationZh": "比 instant 更強調技術上完全沒有延遲，常見於科學或科技語境。",
-        "examples": [
-          {
-            "en": "The transfer of data between the servers was almost instantaneous.",
-            "zh": "伺服器之間的資料傳輸幾乎是瞬間完成的。"
-          }
+        "grammarPatterns": [
+          "almost instantaneous",
+          "an instantaneous + noun"
         ],
         "collocations": [
           {
             "text": "an instantaneous response",
             "meaningZh": "瞬間的反應"
           }
+        ],
+        "examples": [
+          {
+            "en": "The transfer of data between the servers was almost instantaneous.",
+            "zh": "伺服器之間的資料傳輸幾乎是瞬間完成的。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "immediate",
+        "noteZh": "即時的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "gradual",
+        "noteZh": "逐漸的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "instantaneously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "瞬間地"
+      },
+      {
+        "lemma": "instant",
+        "partOfSpeech": "adjective",
+        "meaningZh": "立即的"
       }
     ],
     "tags": [
@@ -2086,19 +2872,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "immediate",
-        "noteZh": "即時的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "gradual",
-        "noteZh": "逐漸的"
-      }
-    ]
+    }
   },
   {
     "id": "w_instill",
@@ -2112,21 +2886,42 @@
       {
         "id": "s_instill_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to gradually but firmly establish an idea, attitude, or habit in someone's mind",
         "definitionZh": "逐漸灌輸（觀念或習慣）",
         "usageExplanationZh": "常接 in/into，如 instill confidence in someone（培養某人的自信），語氣正面，強調長期潛移默化。",
-        "examples": [
-          {
-            "en": "Good parents instill a sense of responsibility in their children.",
-            "zh": "好的父母會在孩子心中灌輸責任感。"
-          }
+        "grammarPatterns": [
+          "instill sth in sb",
+          "instill a sense of + noun in sb"
         ],
         "collocations": [
           {
             "text": "instill confidence in someone",
             "meaningZh": "逐漸建立某人的信心"
           }
+        ],
+        "examples": [
+          {
+            "en": "Good parents instill a sense of responsibility in their children.",
+            "zh": "好的父母會在孩子心中灌輸責任感。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "inculcate",
+        "noteZh": "反覆灌輸"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "instillation",
+        "partOfSpeech": "noun",
+        "meaningZh": "逐漸灌輸"
       }
     ],
     "tags": [
@@ -2140,14 +2935,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "inculcate",
-        "noteZh": "反覆灌輸"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_instinct",
@@ -2161,21 +2949,49 @@
       {
         "id": "s_instinct_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "an innate, typically fixed pattern of behavior in response to certain stimuli",
         "definitionZh": "本能；直覺",
         "usageExplanationZh": "常見 trust your instincts（相信你的直覺）、maternal instinct（母性本能）。",
-        "examples": [
-          {
-            "en": "Her instinct told her something was wrong.",
-            "zh": "她的直覺告訴她事情不對勁。"
-          }
+        "grammarPatterns": [
+          "act on instinct",
+          "an instinct for + noun",
+          "sb's instinct tells sb that + clause"
         ],
         "collocations": [
           {
             "text": "trust your instinct",
             "meaningZh": "相信你的直覺"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her instinct told her something was wrong.",
+            "zh": "她的直覺告訴她事情不對勁。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "intuition",
+        "noteZh": "直覺"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "instinctive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "本能的"
+      },
+      {
+        "lemma": "instinctively",
+        "partOfSpeech": "adverb",
+        "meaningZh": "本能地"
       }
     ],
     "tags": [
@@ -2189,14 +3005,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "intuition",
-        "noteZh": "直覺"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_instinctive",
@@ -2210,21 +3019,53 @@
       {
         "id": "s_instinctive_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "relating to or prompted by instinct; natural and unlearned",
         "definitionZh": "本能的；出自本能的",
         "usageExplanationZh": "常修飾 reaction、response，如 an instinctive reaction，強調未經思考的自然反應。",
-        "examples": [
-          {
-            "en": "His instinctive reaction was to protect the child.",
-            "zh": "他本能的反應就是保護那個孩子。"
-          }
+        "grammarPatterns": [
+          "an instinctive + noun",
+          "an instinctive reaction to + noun"
         ],
         "collocations": [
           {
             "text": "an instinctive reaction",
             "meaningZh": "本能反應"
           }
+        ],
+        "examples": [
+          {
+            "en": "His instinctive reaction was to protect the child.",
+            "zh": "他本能的反應就是保護那個孩子。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "intuitive",
+        "noteZh": "憑直覺的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "learned",
+        "noteZh": "後天學習而得的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "instinct",
+        "partOfSpeech": "noun",
+        "meaningZh": "本能"
+      },
+      {
+        "lemma": "instinctively",
+        "partOfSpeech": "adverb",
+        "meaningZh": "本能地"
       }
     ],
     "tags": [
@@ -2238,19 +3079,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "intuitive",
-        "noteZh": "憑直覺的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "learned",
-        "noteZh": "後天學習而得的"
-      }
-    ]
+    }
   },
   {
     "id": "w_institute",
@@ -2264,40 +3093,75 @@
       {
         "id": "s_institute_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "an organization founded for a particular purpose, especially research or education",
         "definitionZh": "研究機構；學院",
         "usageExplanationZh": "常見 a research institute（研究機構），常出現於機構名稱中，如 Institute of Technology。",
-        "examples": [
-          {
-            "en": "She works at a prestigious research institute studying climate change.",
-            "zh": "她在一間知名研究機構從事氣候變遷的研究工作。"
-          }
+        "grammarPatterns": [
+          "a research institute",
+          "an institute for + noun"
         ],
         "collocations": [
           {
             "text": "a research institute",
             "meaningZh": "研究機構"
           }
+        ],
+        "examples": [
+          {
+            "en": "She works at a prestigious research institute studying climate change.",
+            "zh": "她在一間知名研究機構從事氣候變遷的研究工作。"
+          }
         ]
       },
       {
         "id": "s_institute_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to establish or introduce a system, policy, or practice",
         "definitionZh": "建立；設立；實施（制度或政策）",
         "usageExplanationZh": "常接抽象名詞，如 institute a new policy（實施新政策），語氣正式書面。",
-        "examples": [
-          {
-            "en": "The school instituted a new dress code this year.",
-            "zh": "這所學校今年實施了新的服裝規定。"
-          }
+        "grammarPatterns": [
+          "institute + noun",
+          "institute proceedings against sb"
         ],
         "collocations": [
           {
             "text": "institute legal proceedings",
             "meaningZh": "提起法律訴訟"
           }
+        ],
+        "examples": [
+          {
+            "en": "The school instituted a new dress code this year.",
+            "zh": "這所學校今年實施了新的服裝規定。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "establish",
+        "noteZh": "動詞：設立"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "institution",
+        "partOfSpeech": "noun",
+        "meaningZh": "機構"
+      },
+      {
+        "lemma": "institutional",
+        "partOfSpeech": "adjective",
+        "meaningZh": "機構的"
       }
     ],
     "tags": [
@@ -2312,14 +3176,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "establish",
-        "noteZh": "動詞：設立"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_institution",
@@ -2333,21 +3190,53 @@
       {
         "id": "s_institution_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "an organization founded for a particular purpose, especially educational, religious, or social; an established custom or practice",
         "definitionZh": "（教育、宗教或社會）機構；制度；慣例",
         "usageExplanationZh": "常見 a financial institution（金融機構）；也可指根深柢固的社會習俗，如 marriage as an institution。",
-        "examples": [
-          {
-            "en": "The bank is one of the oldest financial institutions in the country.",
-            "zh": "這間銀行是這個國家歷史最悠久的金融機構之一。"
-          }
+        "grammarPatterns": [
+          "a financial institution",
+          "the institution of + noun"
         ],
         "collocations": [
           {
             "text": "a financial institution",
             "meaningZh": "金融機構"
           }
+        ],
+        "examples": [
+          {
+            "en": "The bank is one of the oldest financial institutions in the country.",
+            "zh": "這間銀行是這個國家歷史最悠久的金融機構之一。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "organization",
+        "noteZh": "機構"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "institutional",
+        "partOfSpeech": "adjective",
+        "meaningZh": "制度的"
+      },
+      {
+        "lemma": "institutionalize",
+        "partOfSpeech": "verb",
+        "meaningZh": "使制度化"
+      },
+      {
+        "lemma": "institute",
+        "partOfSpeech": "noun",
+        "meaningZh": "學院；研究機構"
       }
     ],
     "tags": [
@@ -2362,14 +3251,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "organization",
-        "noteZh": "機構"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_instruct",
@@ -2383,21 +3265,57 @@
       {
         "id": "s_instruct_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to teach someone a skill, or to give someone an authoritative order or direction",
         "definitionZh": "教導；指示；命令",
         "usageExplanationZh": "常接 someone to do something，如 instruct the staff to follow the procedure，語氣正式。",
-        "examples": [
-          {
-            "en": "The manager instructed the team to complete the report by Friday.",
-            "zh": "經理指示團隊在週五前完成報告。"
-          }
+        "grammarPatterns": [
+          "instruct sb to + V",
+          "instruct sb in + noun"
         ],
         "collocations": [
           {
             "text": "instruct someone to do something",
             "meaningZh": "指示某人做某事"
           }
+        ],
+        "examples": [
+          {
+            "en": "The manager instructed the team to complete the report by Friday.",
+            "zh": "經理指示團隊在週五前完成報告。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "teach",
+        "noteZh": "教導"
+      },
+      {
+        "lemma": "direct",
+        "noteZh": "指示"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "instruction",
+        "partOfSpeech": "noun",
+        "meaningZh": "指示"
+      },
+      {
+        "lemma": "instructor",
+        "partOfSpeech": "noun",
+        "meaningZh": "講師"
+      },
+      {
+        "lemma": "instructive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有教育意義的"
       }
     ],
     "tags": [
@@ -2410,18 +3328,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "teach",
-        "noteZh": "教導"
-      },
-      {
-        "lemma": "direct",
-        "noteZh": "指示"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_instrument",
@@ -2435,21 +3342,48 @@
       {
         "id": "s_instrument_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a tool used for precise or delicate work, or a device used to produce musical sounds",
         "definitionZh": "（精密）儀器；工具；樂器",
         "usageExplanationZh": "常見 a musical instrument（樂器）、a surgical instrument（手術器械）。",
-        "examples": [
-          {
-            "en": "The surgeon carefully selected the right instrument for the procedure.",
-            "zh": "外科醫生仔細選擇了適合這項手術的器械。"
-          }
+        "grammarPatterns": [
+          "play an instrument",
+          "a surgical instrument"
         ],
         "collocations": [
           {
             "text": "a musical instrument",
             "meaningZh": "樂器"
           }
+        ],
+        "examples": [
+          {
+            "en": "The surgeon carefully selected the right instrument for the procedure.",
+            "zh": "外科醫生仔細選擇了適合這項手術的器械。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "tool",
+        "noteZh": "工具"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "instrumental",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有重要作用的；器樂的"
+      },
+      {
+        "lemma": "instrumentation",
+        "partOfSpeech": "noun",
+        "meaningZh": "儀器配置；配器"
       }
     ],
     "tags": [
@@ -2463,14 +3397,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "tool",
-        "noteZh": "工具"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_instrumental",
@@ -2484,21 +3411,48 @@
       {
         "id": "s_instrumental_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "serving as a crucial means or way to bring about a result, or (of music) performed without vocals",
         "definitionZh": "（在達成目標上）發揮重要作用的；（音樂）純器樂的",
         "usageExplanationZh": "常見 be instrumental in（在……中扮演關鍵角色）；音樂語境指沒有人聲的純樂器演奏曲。",
-        "examples": [
-          {
-            "en": "She was instrumental in negotiating the peace agreement.",
-            "zh": "她在協商這項和平協議中發揮了關鍵作用。"
-          }
+        "grammarPatterns": [
+          "be instrumental in + V-ing",
+          "play an instrumental role in + noun"
         ],
         "collocations": [
           {
             "text": "instrumental in achieving success",
             "meaningZh": "對取得成功發揮重要作用"
           }
+        ],
+        "examples": [
+          {
+            "en": "She was instrumental in negotiating the peace agreement.",
+            "zh": "她在協商這項和平協議中發揮了關鍵作用。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "crucial",
+        "noteZh": "指作用：至關重要的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "instrument",
+        "partOfSpeech": "noun",
+        "meaningZh": "工具；樂器"
+      },
+      {
+        "lemma": "instrumentally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "起重要作用地"
       }
     ],
     "tags": [
@@ -2513,14 +3467,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "crucial",
-        "noteZh": "指作用：至關重要的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_insufficient",
@@ -2534,21 +3481,58 @@
       {
         "id": "s_insufficient_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "not enough; inadequate",
         "definitionZh": "不足的；不夠的",
         "usageExplanationZh": "常見 insufficient evidence（證據不足）、insufficient funds（資金不足），語氣正式。",
-        "examples": [
-          {
-            "en": "The court ruled there was insufficient evidence to convict him.",
-            "zh": "法院裁定證據不足以將他定罪。"
-          }
+        "grammarPatterns": [
+          "insufficient evidence to + V",
+          "be insufficient for + noun"
         ],
         "collocations": [
           {
             "text": "insufficient evidence",
             "meaningZh": "證據不足"
           }
+        ],
+        "examples": [
+          {
+            "en": "The court ruled there was insufficient evidence to convict him.",
+            "zh": "法院裁定證據不足以將他定罪。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "inadequate",
+        "noteZh": "不足的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "sufficient",
+        "noteZh": "足夠的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "sufficient",
+        "partOfSpeech": "adjective",
+        "meaningZh": "足夠的"
+      },
+      {
+        "lemma": "insufficiency",
+        "partOfSpeech": "noun",
+        "meaningZh": "不足"
+      },
+      {
+        "lemma": "insufficiently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "不足地"
       }
     ],
     "tags": [
@@ -2562,19 +3546,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "inadequate",
-        "noteZh": "不足的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "sufficient",
-        "noteZh": "足夠的"
-      }
-    ]
+    }
   },
   {
     "id": "w_insure",
@@ -2588,21 +3560,48 @@
       {
         "id": "s_insure_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "to arrange for compensation in the event of loss or damage, in exchange for regular payments",
         "definitionZh": "為……投保；替……保險",
         "usageExplanationZh": "常見 insure a car（為汽車投保）、insure against loss；美式英語中常與 ensure 混淆，需留意拼寫。",
-        "examples": [
-          {
-            "en": "They insured their house against fire and flood damage.",
-            "zh": "他們為房屋投保了火災和水災險。"
-          }
+        "grammarPatterns": [
+          "insure sth against + noun",
+          "insure sth for + noun"
         ],
         "collocations": [
           {
             "text": "insure against theft",
             "meaningZh": "投保竊盜險"
           }
+        ],
+        "examples": [
+          {
+            "en": "They insured their house against fire and flood damage.",
+            "zh": "他們為房屋投保了火災和水災險。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "cover",
+        "noteZh": "提供保險保障"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "insurance",
+        "partOfSpeech": "noun",
+        "meaningZh": "保險"
+      },
+      {
+        "lemma": "insurer",
+        "partOfSpeech": "noun",
+        "meaningZh": "保險公司"
       }
     ],
     "tags": [
@@ -2615,14 +3614,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cover",
-        "noteZh": "提供保險保障"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_insurrection",
@@ -2636,21 +3628,43 @@
       {
         "id": "s_insurrection_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a violent uprising against an authority or government",
         "definitionZh": "武裝叛亂；起義",
         "usageExplanationZh": "政治語境用語，語氣正式且較 rebellion 更強調有組織的武力反抗政府。",
-        "examples": [
-          {
-            "en": "The government deployed troops to suppress the insurrection.",
-            "zh": "政府派遣軍隊鎮壓這場叛亂。"
-          }
+        "grammarPatterns": [
+          "suppress an insurrection",
+          "an insurrection against + noun"
         ],
         "collocations": [
           {
             "text": "an armed insurrection",
             "meaningZh": "武裝叛亂"
           }
+        ],
+        "examples": [
+          {
+            "en": "The government deployed troops to suppress the insurrection.",
+            "zh": "政府派遣軍隊鎮壓這場叛亂。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "uprising",
+        "noteZh": "起義；叛亂"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "insurrectionist",
+        "partOfSpeech": "noun",
+        "meaningZh": "叛亂者"
       }
     ],
     "tags": [
@@ -2663,13 +3677,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "uprising",
-        "noteZh": "起義；叛亂"
-      }
-    ],
-    "antonyms": []
+    }
   }
 ]

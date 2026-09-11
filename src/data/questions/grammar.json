@@ -4,23 +4,23 @@
     "type": "grammar",
     "cefr": "B2",
     "wordIds": ["w_preference"],
-    "prompt": "Which preposition normally follows \"preference\" here?",
-    "context": "Most reviewers have a strong preference ____ smaller pull requests.",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "Responses from the procurement team indicate a marked ____ for suppliers that can guarantee delivery within forty-eight hours.",
     "options": [
-      { "id": "a", "text": "for" },
-      { "id": "b", "text": "to" },
-      { "id": "c", "text": "of" },
-      { "id": "d", "text": "than" }
+      { "id": "a", "text": "preference" },
+      { "id": "b", "text": "preferable" },
+      { "id": "c", "text": "preferably" },
+      { "id": "d", "text": "preferred" }
     ],
     "correctOptionId": "a",
-    "explanation": "名詞 preference 接偏好的對象時固定用 for：a preference for X。",
+    "explanation": "空格前有冠詞 a 與形容詞 marked，後面接介系詞片語 for...，這個位置必須是名詞，因此選 preference；a preference for X 是固定搭配。",
     "distractorExplanations": {
-      "b": "to 只出現在固定片語 in preference to X（而非 X）之中，不能直接接在 preference 後面。",
-      "c": "of 用於所有格關係（the preference of the team），不用來引出偏好的對象。",
-      "d": "than 只用於比較級，不能接在名詞 preference 後面。"
+      "b": "preferable 是形容詞（更可取的），不能當名詞片語 a marked ____ 的中心語，本身也不能被 marked 修飾。",
+      "c": "preferably 是副詞，只能修飾動詞或整個句子，無法夾在冠詞與形容詞之後當受詞。",
+      "d": "preferred 是過去分詞轉成的形容詞（the preferred option），詞性仍不是名詞，不能當 indicate 的受詞中心語。"
     },
-    "difficulty": 2,
-    "tags": ["preposition", "collocation"],
+    "difficulty": 3,
+    "tags": ["word-form", "noun"],
     "source": "curated"
   },
   {
@@ -28,22 +28,23 @@
     "type": "grammar",
     "cefr": "B2",
     "wordIds": ["w_preference"],
-    "prompt": "Which sentence follows the standard pattern for the verb \"prefer\"?",
+    "prompt": "Choose the option that correctly completes the sentence.",
+    "context": "Given the short lead time, the logistics director said that she would prefer a staged rollout ____ a single company-wide launch.",
     "options": [
-      { "id": "a", "text": "I prefer explicit configuration to hidden defaults." },
-      { "id": "b", "text": "I prefer explicit configuration than hidden defaults." },
-      { "id": "c", "text": "I prefer explicit configuration from hidden defaults." },
-      { "id": "d", "text": "I prefer explicit configuration over than hidden defaults." }
+      { "id": "a", "text": "than" },
+      { "id": "b", "text": "to" },
+      { "id": "c", "text": "from" },
+      { "id": "d", "text": "for" }
     ],
-    "correctOptionId": "a",
-    "explanation": "標準句型是 prefer A to B。（口語中 prefer A over B 也可接受，但 to 是最標準的形式。）",
+    "correctOptionId": "b",
+    "explanation": "prefer A to B 是標準句型：被比下去的那一項由介系詞 to 引出。名詞形式 a preference for A over B 則改用 over。",
     "distractorExplanations": {
-      "b": "prefer 不能搭配 than，這是中文母語者最常見的錯誤之一。",
-      "c": "from 用於表示來源，不用於比較兩個選項。",
-      "d": "over than 是兩個介系詞疊用，語法上不成立。"
+      "a": "than 只能接在比較級形容詞或副詞（more、better、rather）之後，prefer 本身不是比較級，不能直接接 than。",
+      "c": "from 表示來源或起點，無法標示比較中被捨棄的另一個選項。",
+      "d": "for 是名詞 preference 的搭配（a preference for X），但動詞 prefer 的比較對象不能用 for 引出。"
     },
-    "difficulty": 2,
-    "tags": ["pattern", "verb"],
+    "difficulty": 3,
+    "tags": ["verb-pattern", "preposition"],
     "source": "curated"
   },
   {
@@ -51,23 +52,23 @@
     "type": "grammar",
     "cefr": "C1",
     "wordIds": ["w_consolidate"],
-    "prompt": "Which preposition completes the pattern?",
-    "context": "We consolidated several internal tools ____ a single platform.",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "Regulators have asked the bank to explain how the recent ____ of its three retail units will affect staffing levels at branch offices.",
     "options": [
-      { "id": "a", "text": "into" },
-      { "id": "b", "text": "to" },
-      { "id": "c", "text": "with" },
-      { "id": "d", "text": "onto" }
+      { "id": "a", "text": "consolidates" },
+      { "id": "b", "text": "consolidated" },
+      { "id": "c", "text": "consolidation" },
+      { "id": "d", "text": "consolidate" }
     ],
-    "correctOptionId": "a",
-    "explanation": "consolidate A into B 表示「把 A 合併成為 B 這個新的整體」，into 強調結果是一個整體。",
+    "correctOptionId": "c",
+    "explanation": "how 子句需要一個主詞來搭配述語 will affect，而 the recent ____ of... 這個框架只能放名詞，故選 consolidation；動詞句型則是 consolidate A into B。",
     "distractorExplanations": {
-      "b": "to 表示方向或目的地，無法傳達「合而為一」的結果。",
-      "c": "with 表示「與……一起」，暗示兩者並存，而非合併成一個。",
-      "d": "onto 表示「移到某個表面上」，是空間概念，不適用於整合。"
+      "a": "consolidates 是第三人稱單數的限定動詞，子句中已有述語 will affect，不能再出現第二個限定動詞。",
+      "b": "consolidated 是過去分詞轉成的形容詞（consolidated accounts 合併財報），只能修飾名詞，不能自己當主詞。",
+      "d": "consolidate 是原形動詞，名詞片語 the recent ____ 的中心語不能是動詞。"
     },
-    "difficulty": 2,
-    "tags": ["preposition", "pattern"],
+    "difficulty": 5,
+    "tags": ["word-form", "noun"],
     "source": "curated"
   },
   {
@@ -75,23 +76,23 @@
     "type": "grammar",
     "cefr": "C2",
     "wordIds": ["w_preclude"],
-    "prompt": "Which form correctly completes the sentence?",
-    "context": "The licence precludes us ____ redistributing the data commercially.",
+    "prompt": "Choose the option that correctly completes the sentence.",
+    "context": "Clause 14 of the distribution agreement precludes the contractor ____ any part of the work without the client's written consent.",
     "options": [
-      { "id": "a", "text": "from" },
-      { "id": "b", "text": "to" },
-      { "id": "c", "text": "of" },
-      { "id": "d", "text": "against" }
+      { "id": "a", "text": "to subcontract" },
+      { "id": "b", "text": "of subcontracting" },
+      { "id": "c", "text": "from subcontract" },
+      { "id": "d", "text": "from subcontracting" }
     ],
-    "correctOptionId": "a",
-    "explanation": "preclude somebody from doing something 是固定句型，from 後接動名詞。",
+    "correctOptionId": "d",
+    "explanation": "preclude somebody from doing something 是固定句型：先接人當受詞，再用介系詞 from，from 之後必須用動名詞。",
     "distractorExplanations": {
-      "b": "preclude 不接不定詞，這是與 allow / permit 等動詞不同之處。",
-      "c": "of 不用於表示「阻止某人做某事」。",
-      "d": "against 用於 warn against 或 protect against，不與 preclude 搭配。"
+      "a": "preclude 不接不定詞；allow、permit、enable 才用「受詞 + to + 原形動詞」的結構。",
+      "b": "of 是 accuse somebody of doing something 的搭配，preclude 只能用 from。",
+      "c": "from 是介系詞，後面必須接動名詞 subcontracting，不能接原形動詞。"
     },
-    "difficulty": 4,
-    "tags": ["preposition", "pattern"],
+    "difficulty": 5,
+    "tags": ["verb-pattern", "preposition"],
     "source": "curated"
   },
   {
@@ -99,23 +100,23 @@
     "type": "grammar",
     "cefr": "C1",
     "wordIds": ["w_contingent"],
-    "prompt": "Which preposition follows \"contingent\"?",
-    "context": "The launch date is contingent ____ passing the security review.",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "Payment of the final instalment remains ____ upon the supplier passing an independent quality audit before the end of the quarter.",
     "options": [
-      { "id": "a", "text": "on" },
-      { "id": "b", "text": "to" },
-      { "id": "c", "text": "for" },
-      { "id": "d", "text": "with" }
+      { "id": "a", "text": "contingent" },
+      { "id": "b", "text": "contingency" },
+      { "id": "c", "text": "contingently" },
+      { "id": "d", "text": "contingencies" }
     ],
     "correctOptionId": "a",
-    "explanation": "contingent 固定搭配 on（或較正式的 upon），意思是「取決於」。",
+    "explanation": "remains 是連綴動詞，後面要接形容詞當主詞補語，故選 contingent；其固定搭配是 contingent on／upon，表示「取決於」。",
     "distractorExplanations": {
-      "b": "to 不與 contingent 搭配，這是常見的介系詞誤用。",
-      "c": "for 表示目的或對象，不用來表示「取決於」的條件關係。",
-      "d": "with 表示伴隨關係，同樣無法表達依賴條件。"
+      "b": "contingency 是名詞（突發狀況、應變措施），當補語時必須有冠詞，而且名詞不能直接接 upon 構成這個意思。",
+      "c": "contingently 是副詞，連綴動詞 remains 後面不能用副詞當補語。",
+      "d": "contingencies 是複數名詞，詞性與單數形一樣不符合形容詞補語的位置。"
     },
-    "difficulty": 3,
-    "tags": ["preposition", "formal"],
+    "difficulty": 4,
+    "tags": ["word-form", "adjective"],
     "source": "curated"
   },
   {
@@ -123,23 +124,23 @@
     "type": "grammar",
     "cefr": "B2",
     "wordIds": ["w_distinction"],
-    "prompt": "Which phrase completes the sentence correctly?",
-    "context": "The paper draws a careful distinction ____ accuracy and precision.",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "The report draws a careful ____ between costs that recur every month and one-off charges arising from the office relocation.",
     "options": [
-      { "id": "a", "text": "between" },
-      { "id": "b", "text": "of" },
-      { "id": "c", "text": "among" },
-      { "id": "d", "text": "from" }
+      { "id": "a", "text": "distinctive" },
+      { "id": "b", "text": "distinction" },
+      { "id": "c", "text": "distinguish" },
+      { "id": "d", "text": "distinct" }
     ],
-    "correctOptionId": "a",
-    "explanation": "表示「兩者之間的區別」用 the distinction between A and B。",
+    "correctOptionId": "b",
+    "explanation": "冠詞 a 與形容詞 careful 之後需要名詞當 draws 的受詞；draw a distinction between A and B 是固定搭配。",
     "distractorExplanations": {
-      "b": "the distinction of 表示「……的殊榮」，意思完全不同。",
-      "c": "among 用於三者以上且不逐一列舉的情況，此處明確只有兩個項目。",
-      "d": "from 用於動詞 distinguish A from B，不用於名詞 distinction。"
+      "a": "distinctive 是形容詞（有特色的），不能放在 a careful 之後當名詞片語的中心語。",
+      "c": "distinguish 是動詞，句型為 distinguish A from B，不能出現在受詞名詞的位置。",
+      "d": "distinct 是形容詞（截然不同的），同樣不能當 draws 的受詞。"
     },
-    "difficulty": 2,
-    "tags": ["preposition", "pattern"],
+    "difficulty": 3,
+    "tags": ["word-form", "noun"],
     "source": "curated"
   },
   {
@@ -147,23 +148,23 @@
     "type": "grammar",
     "cefr": "B2",
     "wordIds": ["w_derive"],
-    "prompt": "Which preposition is correct?",
-    "context": "Most of our revenue is derived ____ enterprise contracts.",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "Nearly two-thirds of the group's operating revenue is ____ from long-term service contracts signed with public-sector clients.",
     "options": [
-      { "id": "a", "text": "from" },
-      { "id": "b", "text": "by" },
-      { "id": "c", "text": "of" },
-      { "id": "d", "text": "out" }
+      { "id": "a", "text": "derivation" },
+      { "id": "b", "text": "derivative" },
+      { "id": "c", "text": "derived" },
+      { "id": "d", "text": "derive" }
     ],
-    "correctOptionId": "a",
-    "explanation": "derive A from B 表示來源，被動語態同樣用 from。",
+    "correctOptionId": "c",
+    "explanation": "be 動詞加過去分詞構成被動語態，故用 derived；derive A from B 改成被動時仍保留介系詞 from。",
     "distractorExplanations": {
-      "b": "被動語態中的 by 表示執行動作的主體，但這裡要表達的是來源。",
-      "c": "of 不用於 derive 這個動詞。",
-      "d": "out 需要搭配 of 才是介系詞片語，且 derive out of 並非標準搭配。"
+      "a": "derivation 是名詞（推導、字源），放在 is 之後需要冠詞，也無法構成被動語態。",
+      "b": "derivative 當形容詞時搭配 of（is derivative of earlier work，指缺乏原創），不能接 from。",
+      "d": "derive 是原形動詞，be 動詞後面不能直接接原形動詞。"
     },
-    "difficulty": 2,
-    "tags": ["preposition", "pattern"],
+    "difficulty": 4,
+    "tags": ["word-form", "passive"],
     "source": "curated"
   },
   {
@@ -171,23 +172,23 @@
     "type": "grammar",
     "cefr": "C1",
     "wordIds": ["w_inherent"],
-    "prompt": "Which preposition normally follows \"inherent\"?",
-    "context": "A certain amount of latency is inherent ____ any network call.",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "Distributed systems are ____ harder to debug than single-process applications, because failures can occur in the network as well as in the code.",
     "options": [
-      { "id": "a", "text": "in" },
-      { "id": "b", "text": "on" },
-      { "id": "c", "text": "for" },
-      { "id": "d", "text": "with" }
+      { "id": "a", "text": "inheres" },
+      { "id": "b", "text": "inherent" },
+      { "id": "c", "text": "inherence" },
+      { "id": "d", "text": "inherently" }
     ],
-    "correctOptionId": "a",
-    "explanation": "inherent in（或 inherent to）表示「內建於……之中」。in 是最常見的搭配。",
+    "correctOptionId": "d",
+    "explanation": "空格修飾比較級形容詞 harder，這個位置只能放副詞，故選 inherently；形容詞形式的搭配則是 inherent in（latency is inherent in any network call）。",
     "distractorExplanations": {
-      "b": "on 表示接觸或依據，不用於表達「本質上內含」。",
-      "c": "for 表示目的或對象，語意不符。",
-      "d": "with 表示伴隨，暗示可以分離，與 inherent 的「不可分割」矛盾。"
+      "a": "inheres 是限定動詞（inhere in 表示內在於），句中已有 be 動詞 are，不能再放第二個限定動詞。",
+      "b": "inherent 是形容詞，形容詞不能修飾另一個形容詞 harder。",
+      "c": "inherence 是名詞，名詞不能夾在 be 動詞與比較級形容詞之間。"
     },
-    "difficulty": 3,
-    "tags": ["preposition", "academic"],
+    "difficulty": 4,
+    "tags": ["word-form", "adverb"],
     "source": "curated"
   },
   {
@@ -195,23 +196,23 @@
     "type": "grammar",
     "cefr": "B2",
     "wordIds": ["w_relevant"],
-    "prompt": "Which preposition completes the sentence?",
-    "context": "Please attach any documents relevant ____ the incident.",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "Please forward any correspondence ____ to the shipping delay so that the claims team can assess the supplier's liability before Friday.",
     "options": [
-      { "id": "a", "text": "to" },
-      { "id": "b", "text": "with" },
-      { "id": "c", "text": "for" },
-      { "id": "d", "text": "about" }
+      { "id": "a", "text": "relevant" },
+      { "id": "b", "text": "relevance" },
+      { "id": "c", "text": "relevantly" },
+      { "id": "d", "text": "relevancy" }
     ],
     "correctOptionId": "a",
-    "explanation": "relevant 固定搭配 to，表示「與……相關」。",
+    "explanation": "空格起的是後位修飾 correspondence 的形容詞片語，須用形容詞 relevant，其固定搭配是 relevant to X。",
     "distractorExplanations": {
-      "b": "with 是中文母語者常見的直譯錯誤，英文不用 relevant with。",
-      "c": "for 表示用途或受益者，不表示相關性。",
-      "d": "about 用於 information about X，但不與 relevant 連用。"
+      "b": "relevance 是抽象名詞，用法是 the relevance of X to Y，不能直接後位修飾另一個名詞。",
+      "c": "relevantly 是副詞，副詞不能後位修飾名詞 correspondence。",
+      "d": "relevancy 是 relevance 的名詞變體（多見於法律文件），詞性仍是名詞，一樣不能修飾名詞。"
     },
-    "difficulty": 1,
-    "tags": ["preposition", "common-error"],
+    "difficulty": 3,
+    "tags": ["word-form", "adjective"],
     "source": "curated"
   },
   {
@@ -219,23 +220,23 @@
     "type": "grammar",
     "cefr": "C1",
     "wordIds": ["w_reconcile"],
-    "prompt": "Which preposition completes the pattern?",
-    "context": "It is hard to reconcile the survey results ____ the actual usage data.",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "The auditors asked for a full ____ of the two ledgers before they would sign off on the year-end accounts.",
     "options": [
-      { "id": "a", "text": "with" },
-      { "id": "b", "text": "to" },
-      { "id": "c", "text": "against" },
-      { "id": "d", "text": "into" }
+      { "id": "a", "text": "reconcilable" },
+      { "id": "b", "text": "reconciliation" },
+      { "id": "c", "text": "reconciled" },
+      { "id": "d", "text": "reconciles" }
     ],
-    "correctOptionId": "a",
-    "explanation": "reconcile A with B 是標準句型，表示「讓 A 與 B 對得起來、不再衝突」。",
+    "correctOptionId": "b",
+    "explanation": "介系詞 for 之後的名詞片語 a full ____ of... 需要名詞中心語，故選 reconciliation；動詞句型則是 reconcile A with B。",
     "distractorExplanations": {
-      "b": "reconcile ... to 只用於 reconcile oneself to something（讓自己接受某事），與此處意思不同。",
-      "c": "against 可用於 check A against B（核對），但 reconcile 的標準搭配是 with。",
-      "d": "into 表示合併成一個整體，那是 consolidate 的用法。"
+      "a": "reconcilable 是形容詞（可調和的），形容詞不能接在 a full 之後當中心語。",
+      "c": "reconciled 是過去分詞，只能當修飾語（reconciled figures），不能當名詞片語的中心語。",
+      "d": "reconciles 是限定動詞形式，介系詞 for 後面不能接限定動詞。"
     },
-    "difficulty": 3,
-    "tags": ["preposition", "pattern"],
+    "difficulty": 4,
+    "tags": ["word-form", "noun"],
     "source": "curated"
   },
   {
@@ -243,23 +244,23 @@
     "type": "grammar",
     "cefr": "C1",
     "wordIds": ["w_proficiency"],
-    "prompt": "Which preposition is correct?",
-    "context": "The role requires proficiency ____ at least one systems language.",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "Applicants must be sufficiently ____ in spreadsheet modelling to build a three-year forecast without help from the finance team.",
     "options": [
-      { "id": "a", "text": "in" },
-      { "id": "b", "text": "of" },
-      { "id": "c", "text": "on" },
-      { "id": "d", "text": "at" }
+      { "id": "a", "text": "proficiently" },
+      { "id": "b", "text": "proficiency" },
+      { "id": "c", "text": "proficient" },
+      { "id": "d", "text": "proficiencies" }
     ],
-    "correctOptionId": "a",
-    "explanation": "proficiency 後面接能力領域時固定用 in：proficiency in English。",
+    "correctOptionId": "c",
+    "explanation": "程度副詞 sufficiently 之後需要形容詞當 be 的補語，故選 proficient；形容詞用 proficient in X，名詞用 proficiency in X，介系詞都是 in。",
     "distractorExplanations": {
-      "b": "proficiency of 是常見錯誤，英文不用 of 引出能力領域。",
-      "c": "on 用於主題（a book on X），不用於能力。",
-      "d": "at 可搭配形容詞 good at，但名詞 proficiency 要用 in。"
+      "a": "proficiently 是副詞，兩個副詞連用無法當 be 動詞的補語。",
+      "b": "proficiency 是名詞，副詞 sufficiently 不能修飾名詞，此處也沒有冠詞可以帶出名詞片語。",
+      "d": "proficiencies 是複數名詞，詞性同樣錯誤，也不能被 sufficiently 修飾。"
     },
     "difficulty": 3,
-    "tags": ["preposition", "common-error"],
+    "tags": ["word-form", "adjective"],
     "source": "curated"
   },
   {
@@ -267,22 +268,23 @@
     "type": "grammar",
     "cefr": "C1",
     "wordIds": ["w_delegate"],
-    "prompt": "Which sentence uses \"delegate\" with the correct structure?",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "The new director intends to ____ most routine approvals to her two deputies so that she can concentrate on the regulatory review.",
     "options": [
-      { "id": "a", "text": "She delegated the migration to two senior engineers." },
-      { "id": "b", "text": "She delegated two senior engineers the migration." },
-      { "id": "c", "text": "She delegated the migration for two senior engineers." },
-      { "id": "d", "text": "She delegated two senior engineers to the migration." }
+      { "id": "a", "text": "delegated" },
+      { "id": "b", "text": "delegating" },
+      { "id": "c", "text": "delegation" },
+      { "id": "d", "text": "delegate" }
     ],
-    "correctOptionId": "a",
-    "explanation": "delegate 的句型是 delegate + 任務 + to + 人，任務在前，人在 to 之後。",
+    "correctOptionId": "d",
+    "explanation": "intend 接不定詞（intend to do），所以這裡的 to 是不定詞記號而非介系詞，空格必須用原形動詞；delegate 的句型是 delegate + 任務 + to + 人。",
     "distractorExplanations": {
-      "b": "delegate 不能接雙受詞，不像 give somebody something。",
-      "c": "for 表示「為了某人的利益」，無法表達職責移轉。",
-      "d": "受詞順序顛倒：被委派出去的是任務，不是人。"
+      "a": "delegated 是過去式／過去分詞，不定詞記號 to 後面只能用原形動詞。",
+      "b": "delegating 是動名詞，只能接在真正的介系詞 to 之後（如 look forward to delegating），不能接在 intend to 的不定詞記號之後。",
+      "c": "delegation 是名詞，不定詞記號 to 後面不能接名詞。"
     },
-    "difficulty": 3,
-    "tags": ["pattern", "verb"],
+    "difficulty": 5,
+    "tags": ["verb-pattern", "infinitive"],
     "source": "curated"
   },
   {
@@ -290,22 +292,23 @@
     "type": "grammar",
     "cefr": "B2",
     "wordIds": ["w_subsequent"],
-    "prompt": "Which version is correct in formal writing?",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "All invoices issued in the ____ quarter must be re-checked against the revised tax tables before they are sent to clients.",
     "options": [
-      { "id": "a", "text": "Subsequent to the incident, we added monitoring." },
-      { "id": "b", "text": "Subsequent of the incident, we added monitoring." },
-      { "id": "c", "text": "Subsequent the incident, we added monitoring." },
-      { "id": "d", "text": "Subsequent from the incident, we added monitoring." }
+      { "id": "a", "text": "subsequent" },
+      { "id": "b", "text": "subsequently" },
+      { "id": "c", "text": "subsequence" },
+      { "id": "d", "text": "subsequences" }
     ],
     "correctOptionId": "a",
-    "explanation": "正式片語是 subsequent to + 名詞。（一般寫作用 After the incident 更自然。）",
+    "explanation": "空格夾在冠詞 the 與名詞 quarter 之間，這個位置要用形容詞，故選 subsequent；正式片語 subsequent to + 名詞則相當於 after。",
     "distractorExplanations": {
-      "b": "subsequent of 不是英文的搭配。",
-      "c": "subsequent 是形容詞，不能直接接名詞當介系詞用。",
-      "d": "from 表示來源，不表示時間先後。"
+      "b": "subsequently 是副詞，副詞不能修飾名詞 quarter。",
+      "c": "subsequence 是名詞（子序列），名詞雖然有時可以修飾名詞，但時間先後只能用形容詞 subsequent 表達。",
+      "d": "subsequences 是複數名詞，複數形不能當名詞修飾語。"
     },
     "difficulty": 3,
-    "tags": ["preposition", "formal"],
+    "tags": ["word-form", "adjective"],
     "source": "curated"
   },
   {
@@ -313,22 +316,22 @@
     "type": "grammar",
     "cefr": "C1",
     "wordIds": ["w_feasible"],
-    "prompt": "Which form follows \"feasible\" here?",
-    "context": "It is not feasible ____ the entire service before the end of the quarter.",
+    "prompt": "Choose the option that correctly completes the sentence.",
+    "context": "Given the current staffing constraints, it is simply not ____ the entire billing system before the end of the fiscal year.",
     "options": [
-      { "id": "a", "text": "to rewrite" },
-      { "id": "b", "text": "rewriting" },
-      { "id": "c", "text": "for rewriting" },
-      { "id": "d", "text": "rewrite" }
+      { "id": "a", "text": "feasibility to rewrite" },
+      { "id": "b", "text": "feasible to rewrite" },
+      { "id": "c", "text": "feasibly rewriting" },
+      { "id": "d", "text": "feasible rewriting" }
     ],
-    "correctOptionId": "a",
-    "explanation": "It is + 形容詞 + to + 原形動詞 是標準句型，feasible 也遵循這個規則。",
+    "correctOptionId": "b",
+    "explanation": "It is + 形容詞 + to + 原形動詞 是標準句型：it 是虛主詞，真正的主詞是後面的不定詞片語，因此形容詞 feasible 之後必須接 to rewrite。",
     "distractorExplanations": {
-      "b": "動名詞不能直接接在 It is feasible 之後。",
-      "c": "for + 動名詞用於表示用途，不用於這個句型。",
-      "d": "缺少 to，句子在語法上不完整。"
+      "a": "feasibility 是名詞，當 be 動詞的補語時需要冠詞，語意上也不能說「這件事是一種可行性」。",
+      "c": "feasibly 是副詞，不能當 is 的補語，虛主詞句型也不用動名詞。",
+      "d": "形容詞 feasible 後面不能直接接動名詞當真主詞，這個句型只接不定詞。"
     },
-    "difficulty": 3,
+    "difficulty": 5,
     "tags": ["pattern", "infinitive"],
     "source": "curated"
   },
@@ -337,22 +340,23 @@
     "type": "grammar",
     "cefr": "B2",
     "wordIds": ["w_respective"],
-    "prompt": "Which sentence uses \"respectively\" correctly?",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "After the briefing, the delegates returned to their ____ offices to draft the implementation plans that their ministries had requested.",
     "options": [
-      { "id": "a", "text": "The API and the worker run on ports 8080 and 8081 respectively." },
-      { "id": "b", "text": "The API runs on port 8080 respectively." },
-      { "id": "c", "text": "Respectively, the API runs on port 8080 and the worker on 8081." },
-      { "id": "d", "text": "The API and the worker run respectively on their ports." }
+      { "id": "a", "text": "respects" },
+      { "id": "b", "text": "respectively" },
+      { "id": "c", "text": "respective" },
+      { "id": "d", "text": "respect" }
     ],
-    "correctOptionId": "a",
-    "explanation": "respectively 用來對應兩組並列項目的順序，且通常放在句尾。這裡 API 對 8080、worker 對 8081。",
+    "correctOptionId": "c",
+    "explanation": "空格夾在所有格限定詞 their 與名詞 offices 之間，需要形容詞 respective（各自的）；副詞 respectively 則放在句尾，用來對應兩組並列項目的順序。",
     "distractorExplanations": {
-      "b": "只有一組項目時無從對應，respectively 沒有意義。",
-      "c": "句中已明確說出哪個對哪個，respectively 變成贅字，且不放句首。",
-      "d": "沒有列出兩組可供配對的清單，respectively 失去作用。"
+      "a": "respects 是複數名詞（in some respects 在某些方面），複數形不能當名詞修飾語。",
+      "b": "respectively 是副詞，不能修飾名詞 offices，位置通常也在句尾而非限定詞之後。",
+      "d": "respect 是名詞（尊重），英文沒有 respect offices 這種說法，此處需要的是形容詞。"
     },
     "difficulty": 3,
-    "tags": ["adverb", "pattern"],
+    "tags": ["word-form", "adjective"],
     "source": "curated"
   },
   {
@@ -360,22 +364,23 @@
     "type": "grammar",
     "cefr": "B2",
     "wordIds": ["w_retain"],
-    "prompt": "Which sentence is grammatically complete?",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "Under the revised policy, the company ____ transaction records for seven years and deletes them automatically once that period expires.",
     "options": [
-      { "id": "a", "text": "The system retains audit logs for ninety days." },
-      { "id": "b", "text": "The system retains for ninety days." },
-      { "id": "c", "text": "The system retains to audit logs for ninety days." },
-      { "id": "d", "text": "The system is retaining for ninety days of audit logs." }
+      { "id": "a", "text": "to retain" },
+      { "id": "b", "text": "retaining" },
+      { "id": "c", "text": "retention" },
+      { "id": "d", "text": "retains" }
     ],
-    "correctOptionId": "a",
-    "explanation": "retain 是及物動詞，必須有受詞說明「保留什麼」。",
+    "correctOptionId": "d",
+    "explanation": "主要子句需要限定動詞，而且要與 and 之後的 deletes 並列，主詞 the company 是第三人稱單數，故用 retains；retain 是及物動詞，後面直接接受詞，不加介系詞。",
     "distractorExplanations": {
-      "b": "缺少受詞，讀者不知道保留的是什麼。",
-      "c": "retain 是及物動詞，後面直接接受詞，不需要介系詞 to。",
-      "d": "語序錯誤，且 retain 仍然缺少直接受詞。"
+      "a": "to retain 是不定詞，不定詞不能當主要子句的述語動詞。",
+      "b": "retaining 是現在分詞，分詞不能單獨當主要動詞；要用進行式必須寫成 is retaining。",
+      "c": "retention 是名詞，選它整個主要子句就沒有動詞了。"
     },
-    "difficulty": 2,
-    "tags": ["transitivity", "verb"],
+    "difficulty": 4,
+    "tags": ["word-form", "verb"],
     "source": "curated"
   }
 ]

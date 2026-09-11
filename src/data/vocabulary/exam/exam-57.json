@@ -11,21 +11,49 @@
       {
         "id": "s_productivity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "academic"
+        ],
         "definitionEn": "the rate at which goods or services are produced, especially in relation to the resources used",
         "definitionZh": "生產力；生產效率",
         "usageExplanationZh": "常見搭配 increase/boost productivity、labor productivity；多用於經濟、職場情境，強調產出與投入的比例。",
-        "examples": [
-          {
-            "en": "The new software boosted the team's productivity significantly.",
-            "zh": "這款新軟體大幅提升了團隊的生產力。"
-          }
+        "grammarPatterns": [
+          "boost productivity",
+          "the productivity of + noun",
+          "a rise in productivity"
         ],
         "collocations": [
           {
             "text": "increase productivity",
             "meaningZh": "提升生產力"
           }
+        ],
+        "examples": [
+          {
+            "en": "The new software boosted the team's productivity significantly.",
+            "zh": "這款新軟體大幅提升了團隊的生產力。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "efficiency",
+        "noteZh": "效率，強調投入產出時近義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "productive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有生產力的"
+      },
+      {
+        "lemma": "produce",
+        "partOfSpeech": "verb",
+        "meaningZh": "生產"
       }
     ],
     "tags": [
@@ -39,14 +67,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "efficiency",
-        "noteZh": "效率，強調投入產出時近義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_profession",
@@ -60,21 +81,48 @@
       {
         "id": "s_profession_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "an occupation requiring specialized education and training, especially one regarded as respectable",
         "definitionZh": "專業；職業",
         "usageExplanationZh": "指需要專門訓練或證照的職業，如醫生、律師；常見 by profession（就職業而言）。",
-        "examples": [
-          {
-            "en": "She is a lawyer by profession.",
-            "zh": "她的職業是律師。"
-          }
+        "grammarPatterns": [
+          "by profession",
+          "enter a profession",
+          "the + adjective + profession"
         ],
         "collocations": [
           {
             "text": "the legal profession",
             "meaningZh": "法律界"
           }
+        ],
+        "examples": [
+          {
+            "en": "She is a lawyer by profession.",
+            "zh": "她的職業是律師。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "occupation",
+        "noteZh": "職業"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "professional",
+        "partOfSpeech": "adjective",
+        "meaningZh": "專業的"
+      },
+      {
+        "lemma": "professionalism",
+        "partOfSpeech": "noun",
+        "meaningZh": "專業精神"
       }
     ],
     "tags": [
@@ -88,14 +136,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "occupation",
-        "noteZh": "職業"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_proffer",
@@ -109,21 +150,41 @@
       {
         "id": "s_proffer_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to offer something for someone to accept",
         "definitionZh": "提供；提議",
         "usageExplanationZh": "正式用語，較 offer 更書面；常接建議、意見或協助等抽象事物。",
-        "examples": [
-          {
-            "en": "He proffered his resignation after the scandal.",
-            "zh": "醜聞爆發後，他提出了辭呈。"
-          }
+        "grammarPatterns": [
+          "proffer + noun",
+          "proffer sth to + sb"
         ],
         "collocations": [
           {
             "text": "proffer advice",
             "meaningZh": "提供建議"
           }
+        ],
+        "examples": [
+          {
+            "en": "He proffered his resignation after the scandal.",
+            "zh": "醜聞爆發後，他提出了辭呈。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "offer",
+        "noteZh": "提供"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "withhold",
+        "noteZh": "不予提供"
       }
     ],
     "tags": [
@@ -136,19 +197,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "offer",
-        "noteZh": "提供"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "withhold",
-        "noteZh": "不予提供"
-      }
-    ]
+    }
   },
   {
     "id": "w_proficient",
@@ -162,21 +211,54 @@
       {
         "id": "s_proficient_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "competent or skilled in doing something",
         "definitionZh": "精通的；熟練的",
         "usageExplanationZh": "常搭配 in/at，如 proficient in French；強調經訓練後達到的熟練程度。",
-        "examples": [
-          {
-            "en": "She is proficient in three languages.",
-            "zh": "她精通三種語言。"
-          }
+        "grammarPatterns": [
+          "be proficient in + noun",
+          "be proficient at + V-ing",
+          "a proficient + noun"
         ],
         "collocations": [
           {
             "text": "proficient in English",
             "meaningZh": "精通英語"
           }
+        ],
+        "examples": [
+          {
+            "en": "She is proficient in three languages.",
+            "zh": "她精通三種語言。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "skilled",
+        "noteZh": "熟練的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "incompetent",
+        "noteZh": "不稱職的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "proficiency",
+        "partOfSpeech": "noun",
+        "meaningZh": "熟練度；精通"
+      },
+      {
+        "lemma": "proficiently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "熟練地"
       }
     ],
     "tags": [
@@ -190,19 +272,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "skilled",
-        "noteZh": "熟練的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "incompetent",
-        "noteZh": "不稱職的"
-      }
-    ]
+    }
   },
   {
     "id": "w_profile",
@@ -216,23 +286,39 @@
       {
         "id": "s_profile_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "a brief written description of someone's or something's notable characteristics",
         "definitionZh": "簡介；概述",
         "usageExplanationZh": "常見 a profile of + 人/機構，或 social media profile（社群帳號檔案）。",
-        "examples": [
-          {
-            "en": "The magazine published a profile of the rising young chef.",
-            "zh": "這本雜誌刊登了一篇關於這位新銳主廚的簡介。"
-          }
+        "grammarPatterns": [
+          "a profile of + sb",
+          "publish a profile",
+          "write a profile of + noun"
         ],
         "collocations": [
           {
             "text": "a company profile",
             "meaningZh": "公司簡介"
           }
+        ],
+        "examples": [
+          {
+            "en": "The magazine published a profile of the rising young chef.",
+            "zh": "這本雜誌刊登了一篇關於這位新銳主廚的簡介。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "overview",
+        "noteZh": "概述"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -245,14 +331,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "overview",
-        "noteZh": "概述"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_profligate",
@@ -266,21 +345,47 @@
       {
         "id": "s_profligate_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "recklessly wasteful, especially with money",
         "definitionZh": "揮霍無度的；奢侈浪費的",
         "usageExplanationZh": "常修飾 spending、lifestyle；語氣帶批評，指毫無節制地花費金錢。",
-        "examples": [
-          {
-            "en": "The company's profligate spending led to its bankruptcy.",
-            "zh": "這家公司揮霍無度的花費最終導致破產。"
-          }
+        "grammarPatterns": [
+          "profligate + noun",
+          "profligate spending on + noun"
         ],
         "collocations": [
           {
             "text": "profligate spending",
             "meaningZh": "揮霍無度的開支"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company's profligate spending led to its bankruptcy.",
+            "zh": "這家公司揮霍無度的花費最終導致破產。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "extravagant",
+        "noteZh": "揮霍的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "frugal",
+        "noteZh": "節儉的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "profligacy",
+        "partOfSpeech": "noun",
+        "meaningZh": "揮霍；放蕩"
       }
     ],
     "tags": [
@@ -293,19 +398,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "extravagant",
-        "noteZh": "揮霍的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "frugal",
-        "noteZh": "節儉的"
-      }
-    ]
+    }
   },
   {
     "id": "w_profound",
@@ -319,21 +412,54 @@
       {
         "id": "s_profound_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "very great or intense; having deep insight or meaning",
         "definitionZh": "深遠的；深刻的",
         "usageExplanationZh": "可修飾情感、影響或思想，如 profound effect、profound insight，語氣正式。",
-        "examples": [
-          {
-            "en": "The book had a profound influence on her thinking.",
-            "zh": "這本書對她的思想產生了深遠的影響。"
-          }
+        "grammarPatterns": [
+          "a profound + noun",
+          "have a profound effect on + noun",
+          "a profound influence on + noun"
         ],
         "collocations": [
           {
             "text": "a profound impact",
             "meaningZh": "深遠的影響"
           }
+        ],
+        "examples": [
+          {
+            "en": "The book had a profound influence on her thinking.",
+            "zh": "這本書對她的思想產生了深遠的影響。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "deep",
+        "noteZh": "深刻的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "superficial",
+        "noteZh": "膚淺的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "profoundly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "深刻地；極為"
+      },
+      {
+        "lemma": "profundity",
+        "partOfSpeech": "noun",
+        "meaningZh": "深度；深刻"
       }
     ],
     "tags": [
@@ -348,19 +474,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "deep",
-        "noteZh": "深刻的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "superficial",
-        "noteZh": "膚淺的"
-      }
-    ]
+    }
   },
   {
     "id": "w_prognosis",
@@ -374,21 +488,49 @@
       {
         "id": "s_prognosis_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "formal"
+        ],
         "definitionEn": "a doctor's judgment about the likely course of a disease",
         "definitionZh": "預後；病情預測",
         "usageExplanationZh": "醫學用語，指對疾病未來發展的專業判斷；亦可比喻用於預測經濟情勢等。",
-        "examples": [
-          {
-            "en": "The doctor gave him a favorable prognosis after the surgery.",
-            "zh": "手術後醫生對他的預後表示樂觀。"
-          }
+        "grammarPatterns": [
+          "a + adjective + prognosis",
+          "the prognosis for + noun",
+          "give sb a prognosis"
         ],
         "collocations": [
           {
             "text": "a favorable prognosis",
             "meaningZh": "良好的預後"
           }
+        ],
+        "examples": [
+          {
+            "en": "The doctor gave him a favorable prognosis after the surgery.",
+            "zh": "手術後醫生對他的預後表示樂觀。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "outlook",
+        "noteZh": "病情展望"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "prognostic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "預後的；預測的"
+      },
+      {
+        "lemma": "prognosticate",
+        "partOfSpeech": "verb",
+        "meaningZh": "預測；預言"
       }
     ],
     "tags": [
@@ -401,14 +543,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "outlook",
-        "noteZh": "病情展望"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_progressive",
@@ -422,21 +557,59 @@
       {
         "id": "s_progressive_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "favoring new ideas, reform, or gradual social change",
         "definitionZh": "進步的；改革派的",
         "usageExplanationZh": "常修飾 policy、party，指支持社會改革或現代化的立場，與 conservative 相對。",
-        "examples": [
-          {
-            "en": "The city adopted progressive policies on public transportation.",
-            "zh": "這座城市在大眾運輸方面採取了進步的政策。"
-          }
+        "grammarPatterns": [
+          "progressive + noun",
+          "a progressive + noun",
+          "progressive policies on + noun"
         ],
         "collocations": [
           {
             "text": "progressive policies",
             "meaningZh": "進步的政策"
           }
+        ],
+        "examples": [
+          {
+            "en": "The city adopted progressive policies on public transportation.",
+            "zh": "這座城市在大眾運輸方面採取了進步的政策。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "reformist",
+        "noteZh": "改革派的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "conservative",
+        "noteZh": "保守的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "progress",
+        "partOfSpeech": "noun",
+        "meaningZh": "進步；進展"
+      },
+      {
+        "lemma": "progression",
+        "partOfSpeech": "noun",
+        "meaningZh": "發展；演進"
+      },
+      {
+        "lemma": "progressively",
+        "partOfSpeech": "adverb",
+        "meaningZh": "逐漸地"
       }
     ],
     "tags": [
@@ -449,19 +622,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "reformist",
-        "noteZh": "改革派的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "conservative",
-        "noteZh": "保守的"
-      }
-    ]
+    }
   },
   {
     "id": "w_prohibit",
@@ -475,21 +636,54 @@
       {
         "id": "s_prohibit_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to formally forbid something by law or rule",
         "definitionZh": "禁止",
         "usageExplanationZh": "正式用語，常用被動 be prohibited from doing something，或 prohibit smoking 等。",
-        "examples": [
-          {
-            "en": "Smoking is prohibited inside the building.",
-            "zh": "大樓內禁止吸菸。"
-          }
+        "grammarPatterns": [
+          "prohibit + noun",
+          "prohibit sb from + V-ing",
+          "be prohibited by law"
         ],
         "collocations": [
           {
             "text": "prohibit someone from doing something",
             "meaningZh": "禁止某人做某事"
           }
+        ],
+        "examples": [
+          {
+            "en": "Smoking is prohibited inside the building.",
+            "zh": "大樓內禁止吸菸。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "forbid",
+        "noteZh": "禁止"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "permit",
+        "noteZh": "允許"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "prohibition",
+        "partOfSpeech": "noun",
+        "meaningZh": "禁令；禁止"
+      },
+      {
+        "lemma": "prohibitive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "高得令人卻步的；禁止性的"
       }
     ],
     "tags": [
@@ -503,19 +697,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "forbid",
-        "noteZh": "禁止"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "permit",
-        "noteZh": "允許"
-      }
-    ]
+    }
   },
   {
     "id": "w_projectile",
@@ -529,21 +711,49 @@
       {
         "id": "s_projectile_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "formal"
+        ],
         "definitionEn": "an object that is thrown or launched through the air, especially as a weapon",
         "definitionZh": "發射物；拋射物",
         "usageExplanationZh": "多見於物理或軍事語境，指子彈、飛彈等被發射出去的物體。",
-        "examples": [
-          {
-            "en": "The catapult launched the projectile over the castle wall.",
-            "zh": "投石機將發射物射過了城牆。"
-          }
+        "grammarPatterns": [
+          "launch a projectile",
+          "fire a projectile at + noun",
+          "a projectile of + noun"
         ],
         "collocations": [
           {
             "text": "fire a projectile",
             "meaningZh": "發射拋射物"
           }
+        ],
+        "examples": [
+          {
+            "en": "The catapult launched the projectile over the castle wall.",
+            "zh": "投石機將發射物射過了城牆。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "missile",
+        "noteZh": "拋射物或飛彈"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "project",
+        "partOfSpeech": "verb",
+        "meaningZh": "投射；推算"
+      },
+      {
+        "lemma": "projection",
+        "partOfSpeech": "noun",
+        "meaningZh": "投射；預測"
       }
     ],
     "tags": [
@@ -556,14 +766,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "missile",
-        "noteZh": "拋射物或飛彈"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_projection",
@@ -577,21 +780,49 @@
       {
         "id": "s_projection_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "academic"
+        ],
         "definitionEn": "an estimate or forecast of a future situation based on current trends",
         "definitionZh": "預測；推算",
         "usageExplanationZh": "常見 sales projection、population projection，指依現有數據推估未來的結果。",
-        "examples": [
-          {
-            "en": "The company's sales projection for next year looks promising.",
-            "zh": "公司對明年銷售額的預測看起來相當樂觀。"
-          }
+        "grammarPatterns": [
+          "a projection of + noun",
+          "make a projection",
+          "sales projections for + noun"
         ],
         "collocations": [
           {
             "text": "sales projections",
             "meaningZh": "銷售預測"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company's sales projection for next year looks promising.",
+            "zh": "公司對明年銷售額的預測看起來相當樂觀。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "forecast",
+        "noteZh": "預測"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "project",
+        "partOfSpeech": "verb",
+        "meaningZh": "推算；投射"
+      },
+      {
+        "lemma": "projector",
+        "partOfSpeech": "noun",
+        "meaningZh": "投影機"
       }
     ],
     "tags": [
@@ -605,14 +836,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "forecast",
-        "noteZh": "預測"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_proliferate",
@@ -626,21 +850,49 @@
       {
         "id": "s_proliferate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "to increase rapidly in number or spread quickly",
         "definitionZh": "激增；擴散",
         "usageExplanationZh": "常用於描述問題、資訊或物種快速增加，如 weapons proliferate、rumors proliferate。",
-        "examples": [
-          {
-            "en": "Fake news has proliferated on social media in recent years.",
-            "zh": "近年來假新聞在社群媒體上迅速擴散。"
-          }
+        "grammarPatterns": [
+          "proliferate rapidly",
+          "proliferate in + noun",
+          "proliferate on + noun"
         ],
         "collocations": [
           {
             "text": "cells proliferate rapidly",
             "meaningZh": "細胞迅速增殖"
           }
+        ],
+        "examples": [
+          {
+            "en": "Fake news has proliferated on social media in recent years.",
+            "zh": "近年來假新聞在社群媒體上迅速擴散。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "multiply",
+        "noteZh": "大量增加"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "dwindle",
+        "noteZh": "逐漸減少"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "proliferation",
+        "partOfSpeech": "noun",
+        "meaningZh": "激增；擴散"
       }
     ],
     "tags": [
@@ -654,19 +906,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "multiply",
-        "noteZh": "大量增加"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "dwindle",
-        "noteZh": "逐漸減少"
-      }
-    ]
+    }
   },
   {
     "id": "w_prolong",
@@ -680,21 +920,53 @@
       {
         "id": "s_prolong_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to make something last longer",
         "definitionZh": "延長",
         "usageExplanationZh": "常接 life、meeting、agony 等，強調使某事持續更久的時間。",
-        "examples": [
-          {
-            "en": "The medication helped prolong her life by several years.",
-            "zh": "這種藥物幫助她延長了好幾年的壽命。"
-          }
+        "grammarPatterns": [
+          "prolong + noun",
+          "prolong sth by + noun",
+          "help prolong + noun"
         ],
         "collocations": [
           {
             "text": "prolong the agony",
             "meaningZh": "延長痛苦"
           }
+        ],
+        "examples": [
+          {
+            "en": "The medication helped prolong her life by several years.",
+            "zh": "這種藥物幫助她延長了好幾年的壽命。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "extend",
+        "noteZh": "延長"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "shorten",
+        "noteZh": "縮短"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "prolongation",
+        "partOfSpeech": "noun",
+        "meaningZh": "延長"
+      },
+      {
+        "lemma": "prolonged",
+        "partOfSpeech": "adjective",
+        "meaningZh": "長期的；持續很久的"
       }
     ],
     "tags": [
@@ -709,19 +981,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "extend",
-        "noteZh": "延長"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "shorten",
-        "noteZh": "縮短"
-      }
-    ]
+    }
   },
   {
     "id": "w_prominent",
@@ -735,36 +995,32 @@
       {
         "id": "s_prominent_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "important or well-known; noticeable or conspicuous",
         "definitionZh": "卓越的；顯眼的",
         "usageExplanationZh": "可指人（知名人士）或物（明顯的特徵），如 prominent figure、prominent nose。",
-        "examples": [
-          {
-            "en": "He is a prominent scientist in the field of genetics.",
-            "zh": "他是遺傳學領域中一位卓越的科學家。"
-          }
+        "grammarPatterns": [
+          "a prominent + noun",
+          "be prominent in + noun",
+          "play a prominent role in + noun"
         ],
         "collocations": [
           {
             "text": "a prominent figure",
             "meaningZh": "知名人物"
           }
+        ],
+        "examples": [
+          {
+            "en": "He is a prominent scientist in the field of genetics.",
+            "zh": "他是遺傳學領域中一位卓越的科學家。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "notable",
@@ -784,7 +1040,32 @@
         "lemma": "inconspicuous",
         "noteZh": "不顯眼的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "prominence",
+        "partOfSpeech": "noun",
+        "meaningZh": "顯著；卓越"
+      },
+      {
+        "lemma": "prominently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "顯著地"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_promoter",
@@ -798,21 +1079,48 @@
       {
         "id": "s_promoter_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "neutral"
+        ],
         "definitionEn": "a person who organizes or provides financial backing for an event",
         "definitionZh": "主辦人；發起人",
         "usageExplanationZh": "常見於演唱會、拳賽等活動的組織者，強調負責籌辦與宣傳。",
-        "examples": [
-          {
-            "en": "The boxing promoter arranged the championship fight in Las Vegas.",
-            "zh": "這位拳賽主辦人在拉斯維加斯安排了冠軍賽。"
-          }
+        "grammarPatterns": [
+          "a promoter of + noun",
+          "a + noun + promoter"
         ],
         "collocations": [
           {
             "text": "a concert promoter",
             "meaningZh": "演唱會主辦人"
           }
+        ],
+        "examples": [
+          {
+            "en": "The boxing promoter arranged the championship fight in Las Vegas.",
+            "zh": "這位拳賽主辦人在拉斯維加斯安排了冠軍賽。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "organizer",
+        "noteZh": "主辦人"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "promote",
+        "partOfSpeech": "verb",
+        "meaningZh": "促進；推廣"
+      },
+      {
+        "lemma": "promotion",
+        "partOfSpeech": "noun",
+        "meaningZh": "推廣；升遷"
       }
     ],
     "tags": [
@@ -825,14 +1133,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "organizer",
-        "noteZh": "主辦人"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_prompt",
@@ -846,40 +1147,80 @@
       {
         "id": "s_prompt_verb_cause",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to cause someone to do something or to make something happen",
         "definitionZh": "促使；引發",
         "usageExplanationZh": "常接 sb to do sth，表示某事件引發某人行動或某結果發生。",
-        "examples": [
-          {
-            "en": "The scandal prompted the CEO to resign.",
-            "zh": "這起醜聞促使執行長辭職。"
-          }
+        "grammarPatterns": [
+          "prompt sb to + V",
+          "prompt + noun",
+          "be prompted by + noun"
         ],
         "collocations": [
           {
             "text": "prompt someone to act",
             "meaningZh": "促使某人採取行動"
           }
+        ],
+        "examples": [
+          {
+            "en": "The scandal prompted the CEO to resign.",
+            "zh": "這起醜聞促使執行長辭職。"
+          }
         ]
       },
       {
         "id": "s_prompt_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a cue given to a performer, or a symbol on a computer screen indicating readiness to receive input",
         "definitionZh": "提示；提詞",
         "usageExplanationZh": "日常語境指演員的提詞，電腦科學語境指命令列的提示符號，如 command prompt。",
-        "examples": [
-          {
-            "en": "The actor forgot his lines and needed a prompt from backstage.",
-            "zh": "演員忘詞了，需要後台人員提詞。"
-          }
+        "grammarPatterns": [
+          "a prompt from + sb",
+          "give sb a prompt",
+          "at the prompt"
         ],
         "collocations": [
           {
             "text": "a command prompt",
             "meaningZh": "命令提示字元"
           }
+        ],
+        "examples": [
+          {
+            "en": "The actor forgot his lines and needed a prompt from backstage.",
+            "zh": "演員忘詞了，需要後台人員提詞。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "spur",
+        "noteZh": "促使"
+      },
+      {
+        "lemma": "cue",
+        "noteZh": "提示，對應名詞"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "promptly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "迅速地；立即"
+      },
+      {
+        "lemma": "promptness",
+        "partOfSpeech": "noun",
+        "meaningZh": "迅速；及時"
       }
     ],
     "tags": [
@@ -894,18 +1235,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "spur",
-        "noteZh": "促使"
-      },
-      {
-        "lemma": "cue",
-        "noteZh": "提示，對應名詞"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_promulgate",
@@ -919,21 +1249,44 @@
       {
         "id": "s_promulgate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to make a law or decree widely known officially",
         "definitionZh": "頒布；公布",
         "usageExplanationZh": "正式用語，多用於法律或政策的正式公告，常見 promulgate a law/decree。",
-        "examples": [
-          {
-            "en": "The new regulations were promulgated last month.",
-            "zh": "這項新法規上個月正式頒布。"
-          }
+        "grammarPatterns": [
+          "promulgate + noun",
+          "promulgate a law",
+          "be promulgated by + noun"
         ],
         "collocations": [
           {
             "text": "promulgate a new law",
             "meaningZh": "頒布新法律"
           }
+        ],
+        "examples": [
+          {
+            "en": "The new regulations were promulgated last month.",
+            "zh": "這項新法規上個月正式頒布。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "proclaim",
+        "noteZh": "正式公布"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "promulgation",
+        "partOfSpeech": "noun",
+        "meaningZh": "頒布；公布"
       }
     ],
     "tags": [
@@ -947,14 +1300,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "proclaim",
-        "noteZh": "正式公布"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_prone",
@@ -968,21 +1314,40 @@
       {
         "id": "s_prone_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "likely to suffer from or do something undesirable",
         "definitionZh": "容易發生……的；有……傾向的",
         "usageExplanationZh": "常見 prone to + N/Ving，如 accident-prone、prone to error，表示某種傾向性。",
-        "examples": [
-          {
-            "en": "He is prone to making careless mistakes under pressure.",
-            "zh": "他在壓力下容易犯粗心的錯誤。"
-          }
+        "grammarPatterns": [
+          "be prone to + noun",
+          "be prone to + V-ing"
         ],
         "collocations": [
           {
             "text": "prone to errors",
             "meaningZh": "容易出錯的"
           }
+        ],
+        "examples": [
+          {
+            "en": "He is prone to making careless mistakes under pressure.",
+            "zh": "他在壓力下容易犯粗心的錯誤。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "susceptible",
+        "noteZh": "易受影響的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "resistant",
+        "noteZh": "有抵抗力的"
       }
     ],
     "tags": [
@@ -997,19 +1362,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "susceptible",
-        "noteZh": "易受影響的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "resistant",
-        "noteZh": "有抵抗力的"
-      }
-    ]
+    }
   },
   {
     "id": "w_proof",
@@ -1023,21 +1376,43 @@
       {
         "id": "s_proof_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "evidence or an argument establishing a fact or the truth of a statement",
         "definitionZh": "證據；證明",
         "usageExplanationZh": "常見 proof of purchase、burden of proof；強調足以證實某事為真的具體證據。",
-        "examples": [
-          {
-            "en": "She asked for proof of his identity before letting him in.",
-            "zh": "她要求出示身分證明才讓他進入。"
-          }
+        "grammarPatterns": [
+          "proof of + noun",
+          "proof that + clause",
+          "provide proof"
         ],
         "collocations": [
           {
             "text": "proof of identity",
             "meaningZh": "身分證明"
           }
+        ],
+        "examples": [
+          {
+            "en": "She asked for proof of his identity before letting him in.",
+            "zh": "她要求出示身分證明才讓他進入。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "evidence",
+        "noteZh": "證據"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "prove",
+        "partOfSpeech": "verb",
+        "meaningZh": "證明"
       }
     ],
     "tags": [
@@ -1050,14 +1425,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "evidence",
-        "noteZh": "證據"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_prop",
@@ -1071,14 +1439,17 @@
       {
         "id": "s_prop_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "an object used to support or hold something up, or an item used in a play or film",
         "definitionZh": "支柱；道具",
         "usageExplanationZh": "日常語境指支撐物；戲劇、電影語境則指道具，如 stage props。",
-        "examples": [
-          {
-            "en": "The actors rehearsed with real props on the set.",
-            "zh": "演員們在片場用真實道具進行排練。"
-          }
+        "grammarPatterns": [
+          "a prop for + noun",
+          "use sth as a prop",
+          "rehearse with props"
         ],
         "collocations": [
           {
@@ -1089,9 +1460,22 @@
             "text": "stage props",
             "meaningZh": "舞臺道具"
           }
+        ],
+        "examples": [
+          {
+            "en": "The actors rehearsed with real props on the set.",
+            "zh": "演員們在片場用真實道具進行排練。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "support",
+        "noteZh": "支撐物"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1103,14 +1487,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "support",
-        "noteZh": "支撐物"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_propaganda",
@@ -1124,21 +1501,44 @@
       {
         "id": "s_propaganda_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "information, especially biased or misleading, used to promote a political cause or viewpoint",
         "definitionZh": "宣傳",
         "usageExplanationZh": "帶負面意涵，指刻意扭曲事實以影響大眾觀點的訊息，常見於政治語境。",
-        "examples": [
-          {
-            "en": "The regime used propaganda to control public opinion.",
-            "zh": "該政權利用宣傳來控制輿論。"
-          }
+        "grammarPatterns": [
+          "propaganda about + noun",
+          "use propaganda to + V",
+          "a propaganda campaign"
         ],
         "collocations": [
           {
             "text": "political propaganda",
             "meaningZh": "政治宣傳"
           }
+        ],
+        "examples": [
+          {
+            "en": "The regime used propaganda to control public opinion.",
+            "zh": "該政權利用宣傳來控制輿論。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "propagate",
+        "partOfSpeech": "verb",
+        "meaningZh": "傳播；宣傳"
+      },
+      {
+        "lemma": "propagandist",
+        "partOfSpeech": "noun",
+        "meaningZh": "宣傳者"
       }
     ],
     "tags": [
@@ -1151,9 +1551,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_propagation",
@@ -1167,21 +1565,52 @@
       {
         "id": "s_propagation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "the spreading of something, such as an idea, belief, or plant species, to a wider area",
         "definitionZh": "傳播；繁殖",
         "usageExplanationZh": "可指生物繁殖（如植物）或抽象概念的擴散，如 propagation of ideas。",
-        "examples": [
-          {
-            "en": "The propagation of invasive species has harmed the local ecosystem.",
-            "zh": "外來物種的繁殖已對當地生態系統造成傷害。"
-          }
+        "grammarPatterns": [
+          "the propagation of + noun",
+          "propagation through + noun"
         ],
         "collocations": [
           {
             "text": "plant propagation",
             "meaningZh": "植物繁殖"
           }
+        ],
+        "examples": [
+          {
+            "en": "The propagation of invasive species has harmed the local ecosystem.",
+            "zh": "外來物種的繁殖已對當地生態系統造成傷害。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "spread",
+        "noteZh": "傳播"
+      },
+      {
+        "lemma": "reproduction",
+        "noteZh": "繁殖"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "propagate",
+        "partOfSpeech": "verb",
+        "meaningZh": "傳播；繁殖"
+      },
+      {
+        "lemma": "propagator",
+        "partOfSpeech": "noun",
+        "meaningZh": "傳播者；繁殖器"
       }
     ],
     "tags": [
@@ -1194,18 +1623,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "spread",
-        "noteZh": "傳播"
-      },
-      {
-        "lemma": "reproduction",
-        "noteZh": "繁殖"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_propel",
@@ -1219,21 +1637,49 @@
       {
         "id": "s_propel_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to drive or push something forward",
         "definitionZh": "推進；推動",
         "usageExplanationZh": "常接受詞為交通工具或抽象事物，如 propel a boat、propel someone to success。",
-        "examples": [
-          {
-            "en": "The engine propels the boat through the water.",
-            "zh": "引擎推動船隻在水中前進。"
-          }
+        "grammarPatterns": [
+          "propel + noun",
+          "propel sth through + noun",
+          "propel sb to + noun"
         ],
         "collocations": [
           {
             "text": "propel someone to success",
             "meaningZh": "推動某人邁向成功"
           }
+        ],
+        "examples": [
+          {
+            "en": "The engine propels the boat through the water.",
+            "zh": "引擎推動船隻在水中前進。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "drive",
+        "noteZh": "推動"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "propeller",
+        "partOfSpeech": "noun",
+        "meaningZh": "螺旋槳"
+      },
+      {
+        "lemma": "propulsion",
+        "partOfSpeech": "noun",
+        "meaningZh": "推進力"
       }
     ],
     "tags": [
@@ -1248,14 +1694,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "drive",
-        "noteZh": "推動"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_propensity",
@@ -1269,21 +1708,41 @@
       {
         "id": "s_propensity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a natural tendency to behave in a particular way",
         "definitionZh": "傾向；癖好",
         "usageExplanationZh": "常見 propensity for/to，語氣較正式，多描述性格或行為上的固有傾向。",
-        "examples": [
-          {
-            "en": "He has a propensity for taking unnecessary risks.",
-            "zh": "他有冒不必要風險的傾向。"
-          }
+        "grammarPatterns": [
+          "a propensity for + noun",
+          "a propensity to + V"
         ],
         "collocations": [
           {
             "text": "a propensity for violence",
             "meaningZh": "暴力傾向"
           }
+        ],
+        "examples": [
+          {
+            "en": "He has a propensity for taking unnecessary risks.",
+            "zh": "他有冒不必要風險的傾向。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "tendency",
+        "noteZh": "傾向"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "aversion",
+        "noteZh": "厭惡或不願做的傾向"
       }
     ],
     "tags": [
@@ -1297,19 +1756,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "tendency",
-        "noteZh": "傾向"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "aversion",
-        "noteZh": "厭惡或不願做的傾向"
-      }
-    ]
+    }
   },
   {
     "id": "w_prophetic",
@@ -1323,21 +1770,53 @@
       {
         "id": "s_prophetic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "accurately predicting future events",
         "definitionZh": "預言的；有先見之明的",
         "usageExplanationZh": "常見於描述某言論或著作後來被證實準確，如 prophetic warning。",
-        "examples": [
-          {
-            "en": "Her warnings about the market crash proved prophetic.",
-            "zh": "她對市場崩盤的警告後來證實有先見之明。"
-          }
+        "grammarPatterns": [
+          "prove prophetic",
+          "a prophetic + noun"
         ],
         "collocations": [
           {
             "text": "prophetic words",
             "meaningZh": "預言般的話語"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her warnings about the market crash proved prophetic.",
+            "zh": "她對市場崩盤的警告後來證實有先見之明。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "prescient",
+        "noteZh": "有先見之明的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "prophet",
+        "partOfSpeech": "noun",
+        "meaningZh": "先知；預言者"
+      },
+      {
+        "lemma": "prophecy",
+        "partOfSpeech": "noun",
+        "meaningZh": "預言"
+      },
+      {
+        "lemma": "prophesy",
+        "partOfSpeech": "verb",
+        "meaningZh": "預言"
       }
     ],
     "tags": [
@@ -1350,14 +1829,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "prescient",
-        "noteZh": "有先見之明的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_propitious",
@@ -1371,21 +1843,41 @@
       {
         "id": "s_propitious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "favorable or likely to result in success",
         "definitionZh": "吉利的；順利的",
         "usageExplanationZh": "正式用語，常見 propitious time/moment，指有利於成功的時機或情況。",
-        "examples": [
-          {
-            "en": "It was a propitious time to launch the new product.",
-            "zh": "這是推出新產品的絕佳時機。"
-          }
+        "grammarPatterns": [
+          "a propitious + noun",
+          "propitious for + noun"
         ],
         "collocations": [
           {
             "text": "a propitious moment",
             "meaningZh": "有利的時機"
           }
+        ],
+        "examples": [
+          {
+            "en": "It was a propitious time to launch the new product.",
+            "zh": "這是推出新產品的絕佳時機。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "favorable",
+        "noteZh": "有利的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "inauspicious",
+        "noteZh": "不吉利的"
       }
     ],
     "tags": [
@@ -1398,19 +1890,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "favorable",
-        "noteZh": "有利的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "inauspicious",
-        "noteZh": "不吉利的"
-      }
-    ]
+    }
   },
   {
     "id": "w_proponent",
@@ -1424,21 +1904,53 @@
       {
         "id": "s_proponent_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a person who advocates for a particular cause or theory",
         "definitionZh": "支持者；提倡者",
         "usageExplanationZh": "常見 a proponent of + 理論/政策，強調積極為某主張辯護或推廣的人。",
-        "examples": [
-          {
-            "en": "She is a leading proponent of renewable energy.",
-            "zh": "她是再生能源的主要提倡者之一。"
-          }
+        "grammarPatterns": [
+          "a proponent of + noun",
+          "a leading proponent of + noun"
         ],
         "collocations": [
           {
             "text": "a proponent of reform",
             "meaningZh": "改革的支持者"
           }
+        ],
+        "examples": [
+          {
+            "en": "She is a leading proponent of renewable energy.",
+            "zh": "她是再生能源的主要提倡者之一。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "advocate",
+        "noteZh": "提倡者"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "opponent",
+        "noteZh": "反對者"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "propose",
+        "partOfSpeech": "verb",
+        "meaningZh": "提議；提出"
+      },
+      {
+        "lemma": "proposal",
+        "partOfSpeech": "noun",
+        "meaningZh": "提案；提議"
       }
     ],
     "tags": [
@@ -1451,19 +1963,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "advocate",
-        "noteZh": "提倡者"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "opponent",
-        "noteZh": "反對者"
-      }
-    ]
+    }
   },
   {
     "id": "w_proposition",
@@ -1477,21 +1977,49 @@
       {
         "id": "s_proposition_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "a statement or suggestion put forward for consideration, especially in business",
         "definitionZh": "提議；主張",
         "usageExplanationZh": "常見 business proposition，也可指邏輯上可判斷真偽的命題（較正式語境）。",
-        "examples": [
-          {
-            "en": "He made a business proposition that could double our profits.",
-            "zh": "他提出了一個可能讓我們獲利翻倍的商業提議。"
-          }
+        "grammarPatterns": [
+          "make a proposition",
+          "a business proposition",
+          "a proposition that + clause"
         ],
         "collocations": [
           {
             "text": "a business proposition",
             "meaningZh": "商業提案"
           }
+        ],
+        "examples": [
+          {
+            "en": "He made a business proposition that could double our profits.",
+            "zh": "他提出了一個可能讓我們獲利翻倍的商業提議。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "proposal",
+        "noteZh": "提議"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "propose",
+        "partOfSpeech": "verb",
+        "meaningZh": "提議；提出"
+      },
+      {
+        "lemma": "proposal",
+        "partOfSpeech": "noun",
+        "meaningZh": "提案；提議"
       }
     ],
     "tags": [
@@ -1506,14 +2034,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "proposal",
-        "noteZh": "提議"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_proprietary",
@@ -1527,21 +2048,53 @@
       {
         "id": "s_proprietary_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "business",
+          "technical"
+        ],
         "definitionEn": "relating to an owner or ownership, especially of a trademarked product or technology",
         "definitionZh": "專有的；私有的",
         "usageExplanationZh": "常修飾 software、technology，指受版權或商標保護、由特定公司擁有的產品。",
-        "examples": [
-          {
-            "en": "The company uses proprietary software to manage its inventory.",
-            "zh": "這家公司使用專有軟體來管理庫存。"
-          }
+        "grammarPatterns": [
+          "proprietary + noun",
+          "a proprietary + noun"
         ],
         "collocations": [
           {
             "text": "proprietary software",
             "meaningZh": "專有軟體"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company uses proprietary software to manage its inventory.",
+            "zh": "這家公司使用專有軟體來管理庫存。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "privately owned",
+        "noteZh": "私有的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "nonproprietary",
+        "noteZh": "非專有的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "proprietor",
+        "partOfSpeech": "noun",
+        "meaningZh": "所有人；業主"
+      },
+      {
+        "lemma": "property",
+        "partOfSpeech": "noun",
+        "meaningZh": "財產；所有物"
       }
     ],
     "tags": [
@@ -1554,19 +2107,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "privately owned",
-        "noteZh": "私有的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "nonproprietary",
-        "noteZh": "非專有的"
-      }
-    ]
+    }
   },
   {
     "id": "w_proprietor",
@@ -1580,21 +2121,48 @@
       {
         "id": "s_proprietor_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "the owner of a business, especially a shop or hotel",
         "definitionZh": "所有人；老闆",
         "usageExplanationZh": "多指小型商店、餐廳或旅館的業主，語氣較 owner 正式。",
-        "examples": [
-          {
-            "en": "The proprietor of the bakery greeted every customer by name.",
-            "zh": "這家麵包店的老闆會親自叫出每位顧客的名字打招呼。"
-          }
+        "grammarPatterns": [
+          "the proprietor of + noun",
+          "a + noun + proprietor"
         ],
         "collocations": [
           {
             "text": "the proprietor of a shop",
             "meaningZh": "商店老闆"
           }
+        ],
+        "examples": [
+          {
+            "en": "The proprietor of the bakery greeted every customer by name.",
+            "zh": "這家麵包店的老闆會親自叫出每位顧客的名字打招呼。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "owner",
+        "noteZh": "所有人"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "proprietary",
+        "partOfSpeech": "adjective",
+        "meaningZh": "專有的；私有的"
+      },
+      {
+        "lemma": "proprietorship",
+        "partOfSpeech": "noun",
+        "meaningZh": "所有權；獨資事業"
       }
     ],
     "tags": [
@@ -1607,14 +2175,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "owner",
-        "noteZh": "所有人"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_prosaic",
@@ -1628,21 +2189,53 @@
       {
         "id": "s_prosaic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "lacking imagination or excitement; dull",
         "definitionZh": "平淡乏味的；散文式的",
         "usageExplanationZh": "常修飾 life、style，指缺乏想像力或詩意，與 poetic 相對。",
-        "examples": [
-          {
-            "en": "He led a rather prosaic life in the suburbs.",
-            "zh": "他在郊區過著相當平淡乏味的生活。"
-          }
+        "grammarPatterns": [
+          "a prosaic + noun",
+          "rather prosaic"
         ],
         "collocations": [
           {
             "text": "a prosaic explanation",
             "meaningZh": "平淡無奇的解釋"
           }
+        ],
+        "examples": [
+          {
+            "en": "He led a rather prosaic life in the suburbs.",
+            "zh": "他在郊區過著相當平淡乏味的生活。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "mundane",
+        "noteZh": "平淡的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "imaginative",
+        "noteZh": "富想像力的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "prose",
+        "partOfSpeech": "noun",
+        "meaningZh": "散文"
+      },
+      {
+        "lemma": "prosaically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "平淡地"
       }
     ],
     "tags": [
@@ -1655,19 +2248,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "mundane",
-        "noteZh": "平淡的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "imaginative",
-        "noteZh": "富想像力的"
-      }
-    ]
+    }
   },
   {
     "id": "w_prose",
@@ -1681,21 +2262,44 @@
       {
         "id": "s_prose_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "academic"
+        ],
         "definitionEn": "written or spoken language in its ordinary form, without metrical structure",
         "definitionZh": "散文",
         "usageExplanationZh": "與 poetry（詩）相對，指沒有韻律規則的一般文字寫作形式。",
-        "examples": [
-          {
-            "en": "The novel is written in simple, elegant prose.",
-            "zh": "這部小說以簡潔優雅的散文寫成。"
-          }
+        "grammarPatterns": [
+          "be written in prose",
+          "adjective + prose",
+          "a piece of prose"
         ],
         "collocations": [
           {
             "text": "write in prose",
             "meaningZh": "以散文形式寫作"
           }
+        ],
+        "examples": [
+          {
+            "en": "The novel is written in simple, elegant prose.",
+            "zh": "這部小說以簡潔優雅的散文寫成。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [
+      {
+        "lemma": "verse",
+        "noteZh": "韻文"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "prosaic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "平淡無趣的"
       }
     ],
     "tags": [
@@ -1709,14 +2313,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": [
-      {
-        "lemma": "verse",
-        "noteZh": "韻文"
-      }
-    ]
+    }
   },
   {
     "id": "w_prosecute",
@@ -1730,21 +2327,54 @@
       {
         "id": "s_prosecute_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "formal"
+        ],
         "definitionEn": "to bring a criminal charge against someone in a court of law",
         "definitionZh": "起訴；告發",
         "usageExplanationZh": "法律用語，常用被動 be prosecuted for，強調正式提出刑事指控。",
-        "examples": [
-          {
-            "en": "He was prosecuted for tax evasion.",
-            "zh": "他因逃稅而被起訴。"
-          }
+        "grammarPatterns": [
+          "prosecute sb for + noun",
+          "be prosecuted for + V-ing",
+          "prosecute a case"
         ],
         "collocations": [
           {
             "text": "prosecute someone for fraud",
             "meaningZh": "以詐欺罪起訴某人"
           }
+        ],
+        "examples": [
+          {
+            "en": "He was prosecuted for tax evasion.",
+            "zh": "他因逃稅而被起訴。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "bring charges against",
+        "noteZh": "對……提起刑事控訴"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "defend",
+        "noteZh": "在法庭上為被告辯護"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "prosecution",
+        "partOfSpeech": "noun",
+        "meaningZh": "起訴；公訴"
+      },
+      {
+        "lemma": "prosecutor",
+        "partOfSpeech": "noun",
+        "meaningZh": "檢察官"
       }
     ],
     "tags": [
@@ -1759,19 +2389,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "bring charges against",
-        "noteZh": "對……提起刑事控訴"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "defend",
-        "noteZh": "在法庭上為被告辯護"
-      }
-    ]
+    }
   },
   {
     "id": "w_prosecution",
@@ -1785,21 +2403,49 @@
       {
         "id": "s_prosecution_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "formal"
+        ],
         "definitionEn": "the institution and carrying out of legal proceedings against a defendant",
         "definitionZh": "起訴；公訴",
         "usageExplanationZh": "法律用語，也可指檢方一方（the prosecution），與 the defense 相對。",
-        "examples": [
-          {
-            "en": "The prosecution presented strong evidence against the defendant.",
-            "zh": "公訴方提出了對被告不利的有力證據。"
-          }
+        "grammarPatterns": [
+          "face prosecution",
+          "the prosecution of + sb",
+          "the prosecution argued that + clause"
         ],
         "collocations": [
           {
             "text": "criminal prosecution",
             "meaningZh": "刑事起訴"
           }
+        ],
+        "examples": [
+          {
+            "en": "The prosecution presented strong evidence against the defendant.",
+            "zh": "公訴方提出了對被告不利的有力證據。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [
+      {
+        "lemma": "defense",
+        "noteZh": "刑事訴訟中的辯護方或辯護程序"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "prosecute",
+        "partOfSpeech": "verb",
+        "meaningZh": "起訴"
+      },
+      {
+        "lemma": "prosecutor",
+        "partOfSpeech": "noun",
+        "meaningZh": "檢察官"
       }
     ],
     "tags": [
@@ -1812,14 +2458,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": [
-      {
-        "lemma": "defense",
-        "noteZh": "刑事訴訟中的辯護方或辯護程序"
-      }
-    ]
+    }
   },
   {
     "id": "w_prospect",
@@ -1833,21 +2472,49 @@
       {
         "id": "s_prospect_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "the possibility or likelihood of something happening in the future",
         "definitionZh": "前景；可能性",
         "usageExplanationZh": "常見 job prospects、future prospects，多用複數形式描述未來的機會或展望。",
-        "examples": [
-          {
-            "en": "Her job prospects improved after she earned the certification.",
-            "zh": "取得證照後，她的求職前景有所改善。"
-          }
+        "grammarPatterns": [
+          "the prospect of + V-ing",
+          "little prospect of + noun",
+          "improve sb's prospects"
         ],
         "collocations": [
           {
             "text": "the prospect of success",
             "meaningZh": "成功的可能性"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her job prospects improved after she earned the certification.",
+            "zh": "取得證照後，她的求職前景有所改善。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "possibility",
+        "noteZh": "可能性"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "prospective",
+        "partOfSpeech": "adjective",
+        "meaningZh": "未來的；可能的"
+      },
+      {
+        "lemma": "prospectus",
+        "partOfSpeech": "noun",
+        "meaningZh": "簡介手冊；招股說明書"
       }
     ],
     "tags": [
@@ -1862,14 +2529,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "possibility",
-        "noteZh": "可能性"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_prospective",
@@ -1883,21 +2543,43 @@
       {
         "id": "s_prospective_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "expected or likely to happen or become something in the future",
         "definitionZh": "未來的；可能的",
         "usageExplanationZh": "常修飾 buyer、employer、student，指尚未確定但可能成為某身分的人。",
-        "examples": [
-          {
-            "en": "The real estate agent showed the house to prospective buyers.",
-            "zh": "房地產仲介向潛在買家展示了這棟房子。"
-          }
+        "grammarPatterns": [
+          "a prospective + noun",
+          "prospective + plural noun"
         ],
         "collocations": [
           {
             "text": "prospective customers",
             "meaningZh": "潛在顧客"
           }
+        ],
+        "examples": [
+          {
+            "en": "The real estate agent showed the house to prospective buyers.",
+            "zh": "房地產仲介向潛在買家展示了這棟房子。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "potential",
+        "noteZh": "可能成為的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "prospect",
+        "partOfSpeech": "noun",
+        "meaningZh": "前景；可能性"
       }
     ],
     "tags": [
@@ -1911,14 +2593,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "potential",
-        "noteZh": "可能成為的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_prosperity",
@@ -1932,21 +2607,54 @@
       {
         "id": "s_prosperity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "the state of being successful, especially financially",
         "definitionZh": "繁榮；興盛",
         "usageExplanationZh": "常見 economic prosperity，指整體經濟或生活狀況的富足與成功。",
-        "examples": [
-          {
-            "en": "The country enjoyed decades of peace and prosperity.",
-            "zh": "這個國家享有數十年的和平與繁榮。"
-          }
+        "grammarPatterns": [
+          "economic prosperity",
+          "a period of prosperity",
+          "bring prosperity to + noun"
         ],
         "collocations": [
           {
             "text": "economic prosperity",
             "meaningZh": "經濟繁榮"
           }
+        ],
+        "examples": [
+          {
+            "en": "The country enjoyed decades of peace and prosperity.",
+            "zh": "這個國家享有數十年的和平與繁榮。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "affluence",
+        "noteZh": "富裕"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "poverty",
+        "noteZh": "貧困"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "prosper",
+        "partOfSpeech": "verb",
+        "meaningZh": "繁榮；興旺"
+      },
+      {
+        "lemma": "prosperous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "繁榮的；富裕的"
       }
     ],
     "tags": [
@@ -1960,19 +2668,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "affluence",
-        "noteZh": "富裕"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "poverty",
-        "noteZh": "貧困"
-      }
-    ]
+    }
   },
   {
     "id": "w_protein",
@@ -1986,23 +2682,34 @@
       {
         "id": "s_protein_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "an essential nutrient made of amino acids, found in foods such as meat, eggs, and beans",
         "definitionZh": "蛋白質",
         "usageExplanationZh": "營養學常見詞彙，指身體組織生長修復所需的基本營養素。",
-        "examples": [
-          {
-            "en": "Eating enough protein is important for muscle recovery.",
-            "zh": "攝取足夠的蛋白質對肌肉恢復很重要。"
-          }
+        "grammarPatterns": [
+          "a source of protein",
+          "protein in + noun",
+          "eat enough protein"
         ],
         "collocations": [
           {
             "text": "a source of protein",
             "meaningZh": "蛋白質來源"
           }
+        ],
+        "examples": [
+          {
+            "en": "Eating enough protein is important for muscle recovery.",
+            "zh": "攝取足夠的蛋白質對肌肉恢復很重要。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2014,9 +2721,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_protocol",
@@ -2030,14 +2735,17 @@
       {
         "id": "s_protocol_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "formal"
+        ],
         "definitionEn": "a set of official or formal rules governing behavior, or a system of rules for data exchange",
         "definitionZh": "協定；禮儀規範",
         "usageExplanationZh": "外交場合指正式禮儀規則；科技語境則指資料傳輸的技術規範，如 internet protocol。",
-        "examples": [
-          {
-            "en": "Diplomats must follow strict protocol during state visits.",
-            "zh": "外交官在國事訪問期間必須遵守嚴格的禮儀規範。"
-          }
+        "grammarPatterns": [
+          "follow protocol",
+          "a protocol for + V-ing",
+          "strict protocol"
         ],
         "collocations": [
           {
@@ -2048,9 +2756,22 @@
             "text": "a communication protocol",
             "meaningZh": "通訊協定"
           }
+        ],
+        "examples": [
+          {
+            "en": "Diplomats must follow strict protocol during state visits.",
+            "zh": "外交官在國事訪問期間必須遵守嚴格的禮儀規範。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "procedure",
+        "noteZh": "規程"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -2062,14 +2783,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "procedure",
-        "noteZh": "規程"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_prototype",
@@ -2083,21 +2797,44 @@
       {
         "id": "s_prototype_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "business"
+        ],
         "definitionEn": "an original model on which later versions are based, especially of a machine or product",
         "definitionZh": "原型",
         "usageExplanationZh": "常見於工程、產品開發語境，指正式量產前製作的初步模型。",
-        "examples": [
-          {
-            "en": "The engineers tested the prototype before mass production.",
-            "zh": "工程師在量產前先測試了原型機。"
-          }
+        "grammarPatterns": [
+          "a prototype of + noun",
+          "build a prototype",
+          "test the prototype"
         ],
         "collocations": [
           {
             "text": "a working prototype",
             "meaningZh": "可運作的原型"
           }
+        ],
+        "examples": [
+          {
+            "en": "The engineers tested the prototype before mass production.",
+            "zh": "工程師在量產前先測試了原型機。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "model",
+        "noteZh": "原始模型"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "prototypical",
+        "partOfSpeech": "adjective",
+        "meaningZh": "原型的；典型的"
       }
     ],
     "tags": [
@@ -2112,14 +2849,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "model",
-        "noteZh": "原始模型"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_provenance",
@@ -2133,23 +2863,39 @@
       {
         "id": "s_provenance_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the place of origin or history of an object, especially of a work of art",
         "definitionZh": "來源；出處",
         "usageExplanationZh": "常見於藝術品鑑定語境，指作品的來歷與所有權歷史紀錄。",
-        "examples": [
-          {
-            "en": "The painting's provenance was traced back to a 17th-century collector.",
-            "zh": "這幅畫的來源被追溯到一位十七世紀的收藏家。"
-          }
+        "grammarPatterns": [
+          "the provenance of + noun",
+          "of + adjective + provenance",
+          "trace the provenance of + noun"
         ],
         "collocations": [
           {
             "text": "establish the provenance",
             "meaningZh": "查明來源"
           }
+        ],
+        "examples": [
+          {
+            "en": "The painting's provenance was traced back to a 17th-century collector.",
+            "zh": "這幅畫的來源被追溯到一位十七世紀的收藏家。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "origin",
+        "noteZh": "來源"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -2160,14 +2906,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "origin",
-        "noteZh": "來源"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_province",
@@ -2181,14 +2920,16 @@
       {
         "id": "s_province_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "an administrative division of a country, or an area of responsibility or expertise",
         "definitionZh": "省；領域；職權範圍",
         "usageExplanationZh": "地理上指行政區劃；引申義指某人的專業領域，如 that's not my province。",
-        "examples": [
-          {
-            "en": "Taxation policy falls within the province of the finance ministry.",
-            "zh": "稅務政策屬於財政部的職權範圍。"
-          }
+        "grammarPatterns": [
+          "a province of + noun",
+          "fall within the province of + noun",
+          "in the province of + noun"
         ],
         "collocations": [
           {
@@ -2199,7 +2940,31 @@
             "text": "within the province of",
             "meaningZh": "在……的職權範圍內"
           }
+        ],
+        "examples": [
+          {
+            "en": "Taxation policy falls within the province of the finance ministry.",
+            "zh": "稅務政策屬於財政部的職權範圍。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "region",
+        "noteZh": "行政區"
+      },
+      {
+        "lemma": "domain",
+        "noteZh": "職權領域"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "provincial",
+        "partOfSpeech": "adjective",
+        "meaningZh": "省的；偏狹的"
       }
     ],
     "tags": [
@@ -2212,18 +2977,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "region",
-        "noteZh": "行政區"
-      },
-      {
-        "lemma": "domain",
-        "noteZh": "職權領域"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_provincial",
@@ -2237,21 +2991,52 @@
       {
         "id": "s_provincial_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "having limited or narrow-minded views, typical of people from rural areas",
         "definitionZh": "偏狹的；土氣的",
         "usageExplanationZh": "帶輕微貶意，形容人思想狹隘、不見多識廣，也可單純指「省的、地方的」。",
-        "examples": [
-          {
-            "en": "His provincial attitude made him resistant to new ideas.",
-            "zh": "他偏狹的態度讓他抗拒新的想法。"
-          }
+        "grammarPatterns": [
+          "a provincial + noun",
+          "provincial attitudes"
         ],
         "collocations": [
           {
             "text": "a provincial outlook",
             "meaningZh": "狹隘的眼光"
           }
+        ],
+        "examples": [
+          {
+            "en": "His provincial attitude made him resistant to new ideas.",
+            "zh": "他偏狹的態度讓他抗拒新的想法。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "parochial",
+        "noteZh": "眼界狹隘的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "cosmopolitan",
+        "noteZh": "見多識廣的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "province",
+        "partOfSpeech": "noun",
+        "meaningZh": "省；領域"
+      },
+      {
+        "lemma": "provincialism",
+        "partOfSpeech": "noun",
+        "meaningZh": "地方主義；偏狹"
       }
     ],
     "tags": [
@@ -2264,19 +3049,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "parochial",
-        "noteZh": "眼界狹隘的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "cosmopolitan",
-        "noteZh": "見多識廣的"
-      }
-    ]
+    }
   },
   {
     "id": "w_provisional",
@@ -2290,21 +3063,53 @@
       {
         "id": "s_provisional_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "arranged or agreed on a temporary basis, subject to later confirmation",
         "definitionZh": "暫時的；臨時的",
         "usageExplanationZh": "常見 provisional government、provisional agreement，強調尚未正式定案。",
-        "examples": [
-          {
-            "en": "A provisional government was formed after the election dispute.",
-            "zh": "選舉爭議之後，成立了一個臨時政府。"
-          }
+        "grammarPatterns": [
+          "a provisional + noun",
+          "on a provisional basis"
         ],
         "collocations": [
           {
             "text": "a provisional agreement",
             "meaningZh": "臨時協議"
           }
+        ],
+        "examples": [
+          {
+            "en": "A provisional government was formed after the election dispute.",
+            "zh": "選舉爭議之後，成立了一個臨時政府。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "temporary",
+        "noteZh": "暫時的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "permanent",
+        "noteZh": "永久的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "provision",
+        "partOfSpeech": "noun",
+        "meaningZh": "條款；供應"
+      },
+      {
+        "lemma": "provisionally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "暫時地"
       }
     ],
     "tags": [
@@ -2318,19 +3123,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "temporary",
-        "noteZh": "暫時的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "permanent",
-        "noteZh": "永久的"
-      }
-    ]
+    }
   },
   {
     "id": "w_provoke",
@@ -2344,21 +3137,52 @@
       {
         "id": "s_provoke_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to cause a strong reaction, especially anger, or to deliberately annoy someone",
         "definitionZh": "激起；挑釁",
         "usageExplanationZh": "常接 anger、reaction 等抽象名詞，或指故意惹怒他人使其反應。",
-        "examples": [
-          {
-            "en": "His comments provoked outrage among the audience.",
-            "zh": "他的言論激起了聽眾的憤怒。"
-          }
+        "grammarPatterns": [
+          "provoke + noun",
+          "provoke sb into + V-ing",
+          "provoke outrage among + noun"
         ],
         "collocations": [
           {
             "text": "provoke a reaction",
             "meaningZh": "引發反應"
           }
+        ],
+        "examples": [
+          {
+            "en": "His comments provoked outrage among the audience.",
+            "zh": "他的言論激起了聽眾的憤怒。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "arouse",
+        "noteZh": "激起"
+      },
+      {
+        "lemma": "antagonize",
+        "noteZh": "挑釁"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "provocation",
+        "partOfSpeech": "noun",
+        "meaningZh": "挑釁；刺激"
+      },
+      {
+        "lemma": "provocative",
+        "partOfSpeech": "adjective",
+        "meaningZh": "挑釁的；煽動的"
       }
     ],
     "tags": [
@@ -2372,18 +3196,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "arouse",
-        "noteZh": "激起"
-      },
-      {
-        "lemma": "antagonize",
-        "noteZh": "挑釁"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_prowl",
@@ -2397,21 +3210,44 @@
       {
         "id": "s_prowl_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "to move around quietly and stealthily, especially while hunting or looking for something",
         "definitionZh": "潛行；徘徊尋找",
         "usageExplanationZh": "常用於描述動物覓食或人四處遊蕩伺機而動，帶有隱密、警戒的意味。",
-        "examples": [
-          {
-            "en": "A tiger was seen prowling near the village at night.",
-            "zh": "夜裡有人看見一隻老虎在村莊附近潛行。"
-          }
+        "grammarPatterns": [
+          "prowl around + noun",
+          "prowl near + noun",
+          "prowl the streets"
         ],
         "collocations": [
           {
             "text": "prowl the streets",
             "meaningZh": "在街上徘徊尋找"
           }
+        ],
+        "examples": [
+          {
+            "en": "A tiger was seen prowling near the village at night.",
+            "zh": "夜裡有人看見一隻老虎在村莊附近潛行。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "stalk",
+        "noteZh": "悄悄追蹤或潛行"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "prowler",
+        "partOfSpeech": "noun",
+        "meaningZh": "潛行者；徘徊的歹徒"
       }
     ],
     "tags": [
@@ -2424,14 +3260,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "stalk",
-        "noteZh": "悄悄追蹤或潛行"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_proximity",
@@ -2445,21 +3274,49 @@
       {
         "id": "s_proximity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "nearness in space, time, or relationship",
         "definitionZh": "接近；鄰近",
         "usageExplanationZh": "常見 in close proximity to，強調空間或關係上的靠近程度。",
-        "examples": [
-          {
-            "en": "The hotel's proximity to the airport makes it convenient for travelers.",
-            "zh": "這家飯店靠近機場，對旅客來說相當方便。"
-          }
+        "grammarPatterns": [
+          "the proximity of + noun",
+          "in close proximity to + noun",
+          "proximity to + noun"
         ],
         "collocations": [
           {
             "text": "in close proximity to",
             "meaningZh": "緊鄰……"
           }
+        ],
+        "examples": [
+          {
+            "en": "The hotel's proximity to the airport makes it convenient for travelers.",
+            "zh": "這家飯店靠近機場，對旅客來說相當方便。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "nearness",
+        "noteZh": "接近"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "distance",
+        "noteZh": "距離遙遠"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "proximate",
+        "partOfSpeech": "adjective",
+        "meaningZh": "最接近的；直接的"
       }
     ],
     "tags": [
@@ -2473,19 +3330,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "nearness",
-        "noteZh": "接近"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "distance",
-        "noteZh": "距離遙遠"
-      }
-    ]
+    }
   },
   {
     "id": "w_prudence",
@@ -2499,21 +3344,58 @@
       {
         "id": "s_prudence_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "careful and sensible behavior, especially in managing money or making decisions",
         "definitionZh": "審慎；謹慎",
         "usageExplanationZh": "正式用語，常見於財務或決策語境，強調小心考量後果。",
-        "examples": [
-          {
-            "en": "Financial prudence helped the family save for retirement.",
-            "zh": "財務上的審慎讓這個家庭得以為退休存錢。"
-          }
+        "grammarPatterns": [
+          "financial prudence",
+          "exercise prudence",
+          "the prudence of + V-ing"
         ],
         "collocations": [
           {
             "text": "exercise prudence",
             "meaningZh": "行事審慎"
           }
+        ],
+        "examples": [
+          {
+            "en": "Financial prudence helped the family save for retirement.",
+            "zh": "財務上的審慎讓這個家庭得以為退休存錢。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "caution",
+        "noteZh": "謹慎"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "recklessness",
+        "noteZh": "魯莽"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "prudent",
+        "partOfSpeech": "adjective",
+        "meaningZh": "審慎的；明智的"
+      },
+      {
+        "lemma": "prudently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "審慎地"
+      },
+      {
+        "lemma": "imprudent",
+        "partOfSpeech": "adjective",
+        "meaningZh": "輕率的；不謹慎的"
       }
     ],
     "tags": [
@@ -2526,19 +3408,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "caution",
-        "noteZh": "謹慎"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "recklessness",
-        "noteZh": "魯莽"
-      }
-    ]
+    }
   },
   {
     "id": "w_prudent",
@@ -2552,21 +3422,58 @@
       {
         "id": "s_prudent_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "acting with care and thought for the future; sensible",
         "definitionZh": "審慎的；明智的",
         "usageExplanationZh": "常修飾 decision、investment，強調基於長遠考量而做出的明智選擇。",
-        "examples": [
-          {
-            "en": "It would be prudent to save some money for emergencies.",
-            "zh": "為緊急狀況預留一些存款會是明智之舉。"
-          }
+        "grammarPatterns": [
+          "it is prudent to + V",
+          "a prudent + noun",
+          "be prudent about + noun"
         ],
         "collocations": [
           {
             "text": "a prudent decision",
             "meaningZh": "審慎的決定"
           }
+        ],
+        "examples": [
+          {
+            "en": "It would be prudent to save some money for emergencies.",
+            "zh": "為緊急狀況預留一些存款會是明智之舉。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "cautious",
+        "noteZh": "謹慎的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "imprudent",
+        "noteZh": "不謹慎的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "prudence",
+        "partOfSpeech": "noun",
+        "meaningZh": "審慎；謹慎"
+      },
+      {
+        "lemma": "prudently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "審慎地"
+      },
+      {
+        "lemma": "imprudent",
+        "partOfSpeech": "adjective",
+        "meaningZh": "輕率的"
       }
     ],
     "tags": [
@@ -2580,18 +3487,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cautious",
-        "noteZh": "謹慎的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "imprudent",
-        "noteZh": "不謹慎的"
-      }
-    ]
+    }
   }
 ]

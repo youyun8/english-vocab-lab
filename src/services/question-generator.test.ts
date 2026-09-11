@@ -11,37 +11,151 @@ const byId = new Map(entries.map((entry) => [entry.id, entry]));
 const rng = () => createRng(42);
 
 describe('generateQuestions', () => {
-  it('produces one question per entry per requested type', () => {
-    const sample = entries.slice(0, 10);
-    const types: QuestionType[] = ['meaning_en_to_zh', 'meaning_zh_to_en'];
-    const generated = generateQuestions(sample, { rng: rng(), types, pool: entries });
-    expect(generated).toHaveLength(sample.length * types.length);
-  });
-
-  it('provides recognition practice for every imported word', () => {
-    const imported = entries.filter((entry) => entry.dictionarySource);
-    const generated = generateQuestions(imported, { rng: rng(), pool: entries });
-    const typesByWord = new Map<string, Set<string>>();
+  it('produces at most one question per entry', () => {
+    // Three near-identical ways of asking "what does this word mean" is padding,
+    // not practice; each word gets the single hardest question it can support.
+    const generated = generateQuestions(entries, { rng: rng(), pool: entries });
+    const counts = new Map<string, number>();
     for (const question of generated) {
       const wordId = question.wordIds[0]!;
-      typesByWord.set(wordId, (typesByWord.get(wordId) ?? new Set()).add(question.type));
+      counts.set(wordId, (counts.get(wordId) ?? 0) + 1);
     }
-    for (const entry of imported) {
-      const types = typesByWord.get(entry.id) ?? new Set();
-      expect(types.has('meaning_en_to_zh'), entry.lemma).toBe(true);
-      expect(types.has('meaning_zh_to_en'), entry.lemma).toBe(true);
-    }
+    for (const [wordId, count] of counts) expect(count, wordId).toBe(1);
+    expect(generated.length).toBeLessThanOrEqual(entries.length);
   });
 
-  it('adds an English-definition question for nearly every entry', () => {
+  it('yields nothing for a word whose question is not of a requested type', () => {
+    // The type a word produces is fixed, so filtering can only drop words. If
+    // filtering could fall back to an easier framing, a question counted from
+    // the vocabulary index would materialise under a different id.
+    const sample = entries.slice(0, 40);
+    const types: QuestionType[] = ['meaning_zh_to_en'];
+    const generated = generateQuestions(sample, { rng: rng(), types, pool: entries });
+    const unfiltered = generateQuestions(sample, { rng: rng(), pool: entries });
+    for (const question of generated) expect(question.type).toBe('meaning_zh_to_en');
+    const expected = unfiltered.filter((question) => question.type === 'meaning_zh_to_en');
+    expect(generated.map((question) => question.id)).toEqual(expected.map((q) => q.id));
+  });
+
+  it('blanks the bare headword, never an inflected form of it', () => {
+    // The options are bare lemmas, so a gap holding "retained" makes the marked
+    // answer "retain" ungrammatical — the learner with the better ear is the
+    // one who gets it wrong.
     const generated = generateQuestions(entries, { rng: rng(), pool: entries });
-    const definitionQuestions = generated.filter(
-      (question) => question.type === 'definition_to_word',
-    );
-    // Entries whose imported definition is a stub ("become brisk") are skipped
-    // on purpose, so this is a large majority rather than the whole corpus.
-    expect(definitionQuestions.length).toBeGreaterThan(entries.length * 0.9);
-    expect(definitionQuestions.length).toBeLessThanOrEqual(entries.length);
+    const offenders: string[] = [];
+    for (const question of generated) {
+      if (!question.context?.includes('___')) continue;
+      const entry = byId.get(question.wordIds[0]!)!;
+      const lemma = entry.lemma.toLowerCase();
+      const stem = question.context.split(/\s+/);
+      const gap = stem.findIndex((token) => token.includes('___'));
+      // Identify the example the stem was cut from by matching every token but
+      // the gap: two senses of one word can have same-length examples, so the
+      // lengths alone would attribute the blank to the wrong sentence.
+      for (const example of entry.senses.flatMap((sense) => sense.examples)) {
+        const words = example.en.trim().split(/\s+/);
+        if (words.length !== stem.length) continue;
+        if (!stem.every((token, at) => at === gap || token === words[at])) continue;
+        // Substituting the answer into the gap has to give back the authored
+        // sentence. Comparing the whole token keeps "the ___'s leader" and
+        // "a ___-faced clerk" legal while still rejecting "are ___ for a year".
+        const filled = stem[gap]!.replace('___', lemma).toLowerCase();
+        if (filled !== words[gap]!.toLowerCase()) {
+          offenders.push(`${question.id}: gap "${words[gap]}" but answer "${lemma}"`);
+        }
+        break;
+      }
+    }
+    expect(offenders).toEqual([]);
+  });
+
+  it('draws look-alike distractors from the answer\'s own part of speech', () => {
+    // Prefix and suffix buckets are keyed on spelling alone. Left unfiltered
+    // they offer "retail" and "retailer" against "are ___ for ninety days",
+    // which a learner solves by grammar without knowing either word.
+    const generated = generateQuestions(entries, { rng: rng(), pool: entries });
+    const byLemma = new Map(entries.map((entry) => [entry.lemma.toLowerCase(), entry]));
+    let checked = 0;
+    let mismatched = 0;
+    for (const question of generated) {
+      const target = byId.get(question.wordIds[0]!)!;
+      const pos = target.senses[0]!.partOfSpeech;
+      for (const option of question.options) {
+        if (option.id === question.correctOptionId) continue;
+        const distractor = byLemma.get(option.text.trim().toLowerCase());
+        if (!distractor) continue;
+        checked += 1;
+        if (distractor.senses[0]!.partOfSpeech !== pos) mismatched += 1;
+      }
+    }
+    expect(checked).toBeGreaterThan(1000);
+    // Not zero: for a part of speech with too few words to fill the options —
+    // adverbs, chiefly — matching it exactly is impossible and the filter lifts.
+    expect(mismatched / checked).toBeLessThan(0.05);
+  });
+
+  it('gives recognition practice to the overwhelming majority of imported words', () => {
+    const imported = entries.filter((entry) => entry.dictionarySource);
+    const generated = generateQuestions(imported, { rng: rng(), pool: entries });
+    const covered = new Set(generated.map((question) => question.wordIds[0]!));
+    // The shortfall is the entries whose gloss is a bare function word; those
+    // cannot produce an item where exactly one option is defensible.
+    expect(covered.size / imported.length).toBeGreaterThan(0.95);
+  });
+
+  it('spreads words across the formats, sentence completion dominating', () => {
+    const generated = generateQuestions(entries, { rng: rng(), pool: entries });
+    const share = (type: QuestionType) =>
+      generated.filter((question) => question.type === type).length / generated.length;
+
+    // English sentence completion has no Chinese to fall back on, so it is the
+    // hardest framing and takes the bulk of the corpus. The other two still get
+    // a real slice: one type for four thousand words would make the question
+    // type filter meaningless and every session identical.
+    expect(share('definition_to_word')).toBeGreaterThan(0.6);
+    expect(share('meaning_en_to_zh')).toBeGreaterThan(0.1);
+    expect(share('meaning_zh_to_en')).toBeGreaterThan(0.05);
+  });
+
+  it('sets every generated question at exam difficulty', () => {
+    // The old scale started at 1, which called a C-level word easy because the
+    // format was simple. Ranked distractors mean no item is a giveaway now.
+    const generated = generateQuestions(entries, { rng: rng(), pool: entries });
+    for (const question of generated) {
+      expect(question.difficulty, question.id).toBeGreaterThanOrEqual(2);
+    }
+    const mean = generated.reduce((sum, q) => sum + q.difficulty, 0) / generated.length;
+    expect(mean).toBeGreaterThan(3);
+  });
+
+  it('builds its stem from a real sentence whenever the entry has one', () => {
+    const generated = generateQuestions(entries, { rng: rng(), pool: entries });
+    const withContext = generated.filter((question) => (question.context ?? '').trim());
+    expect(withContext.length / generated.length).toBeGreaterThan(0.9);
+  });
+
+  it('draws distractors that resemble the answer rather than random words', () => {
+    // A distractor picked at random from the same part of speech is usually
+    // eliminable on sight. These must at least share the answer's level or a
+    // topic tag — the property that makes an option worth considering.
+    const generated = generateQuestions(entries.slice(0, 300), { rng: rng(), pool: entries });
+    const byLemma = new Map(entries.map((entry) => [entry.lemma, entry]));
+    let related = 0;
+    let total = 0;
+    for (const question of generated) {
+      if (question.type !== 'definition_to_word') continue;
+      const target = byId.get(question.wordIds[0]!)!;
+      for (const option of question.options) {
+        if (option.id === question.correctOptionId) continue;
+        const other = byLemma.get(option.text);
+        if (!other) continue;
+        total += 1;
+        const sharesTag = other.tags.some((tag) => target.tags.includes(tag));
+        if (other.cefr === target.cefr || sharesTag) related += 1;
+      }
+    }
+    expect(total).toBeGreaterThan(0);
+    expect(related / total).toBeGreaterThan(0.85);
   });
 
   it('trims listed dictionary glosses down to a readable option', () => {
@@ -85,10 +199,18 @@ describe('generateQuestions', () => {
       stub('gamma', 'a third definition with plenty of words', '丙'),
     ];
     const generated = generateQuestions([target], { rng: rng(), pool });
-    expect(generated.map((question) => question.type)).toEqual([
-      'meaning_en_to_zh',
-      'meaning_zh_to_en',
-    ]);
+    expect(generated.map((question) => question.type)).toEqual(['meaning_en_to_zh']);
+  });
+
+  it('skips a word whose gloss is too thin to have a defensible answer', () => {
+    const base = entries.find((entry) => entry.lemma === 'eliminate') ?? entries[0]!;
+    const stub = (lemma: string, gloss: string) => ({
+      ...base, id: `w_${lemma}`, lemma, slug: lemma, synonyms: [],
+      senses: [{ ...base.senses[0]!, definitionEn: `a definition for ${lemma}`, definitionZh: gloss }],
+    });
+    const target = stub('particle', '的');
+    const pool = [target, stub('alpha', '甲類'), stub('beta', '乙類'), stub('gamma', '丙類')];
+    expect(generateQuestions([target], { rng: rng(), pool })).toEqual([]);
   });
 
   it('excludes partial gloss overlap, secondary senses, and reverse synonym links', () => {
@@ -104,7 +226,7 @@ describe('generateQuestions', () => {
     const reverse = { ...word('reverse', '削弱'), synonyms: [{ lemma: 'target' }] };
     const distinct = [word('first', '增加'), word('second', '支持'), word('third', '預測')];
     const generated = generateQuestions([target], { rng: rng(), pool: [target, overlap, secondary, reverse, ...distinct] });
-    expect(generated).toHaveLength(2);
+    expect(generated).toHaveLength(1);
     for (const question of generated) {
       const texts = question.options.map((option) => option.text);
       for (const excluded of [overlap, secondary, reverse]) {

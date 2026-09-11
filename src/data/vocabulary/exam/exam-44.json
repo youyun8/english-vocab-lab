@@ -11,14 +11,16 @@
       {
         "id": "s_liquid_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a substance that flows freely and takes the shape of its container",
         "definitionZh": "液體",
         "usageExplanationZh": "常見 a clear liquid（透明的液體），科學或日常語境皆常用，與 solid、gas 相對。",
-        "examples": [
-          {
-            "en": "Water is a liquid at room temperature.",
-            "zh": "水在室溫下是液體。"
-          }
+        "grammarPatterns": [
+          "turn into a liquid",
+          "a clear liquid"
         ],
         "collocations": [
           {
@@ -29,7 +31,37 @@
             "text": "washing-up liquid",
             "meaningZh": "洗碗精"
           }
+        ],
+        "examples": [
+          {
+            "en": "Water is a liquid at room temperature.",
+            "zh": "水在室溫下是液體。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "fluid",
+        "noteZh": "液體；fluid 也可涵蓋氣體"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "solid",
+        "noteZh": "固體"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "liquidity",
+        "partOfSpeech": "noun",
+        "meaningZh": "流動性"
+      },
+      {
+        "lemma": "liquefy",
+        "partOfSpeech": "verb",
+        "meaningZh": "使液化"
       }
     ],
     "tags": [
@@ -43,19 +75,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "fluid",
-        "noteZh": "液體；fluid 也可涵蓋氣體"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "solid",
-        "noteZh": "固體"
-      }
-    ]
+    }
   },
   {
     "id": "w_liquor",
@@ -69,14 +89,15 @@
       {
         "id": "s_liquor_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "strong distilled alcoholic drinks",
         "definitionZh": "（烈）酒；蒸餾酒",
         "usageExplanationZh": "美式英語常用，常見 hard liquor（烈酒）、a liquor store（酒類專賣店）。",
-        "examples": [
-          {
-            "en": "He rarely drinks liquor, preferring wine or beer instead.",
-            "zh": "他很少喝烈酒，比較喜歡喝葡萄酒或啤酒。"
-          }
+        "grammarPatterns": [
+          "drink liquor",
+          "a bottle of liquor"
         ],
         "collocations": [
           {
@@ -87,9 +108,22 @@
             "text": "a liquor store",
             "meaningZh": "酒類專賣店"
           }
+        ],
+        "examples": [
+          {
+            "en": "He rarely drinks liquor, preferring wine or beer instead.",
+            "zh": "他很少喝烈酒，比較喜歡喝葡萄酒或啤酒。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "spirits",
+        "noteZh": "蒸餾烈酒，通常用複數"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -100,14 +134,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "spirits",
-        "noteZh": "蒸餾烈酒，通常用複數"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_literacy",
@@ -121,14 +148,17 @@
       {
         "id": "s_literacy_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "the ability to read and write, or knowledge and competence in a particular area",
         "definitionZh": "識字（能力）；（特定領域的）素養",
         "usageExplanationZh": "常見 digital literacy（數位素養）、financial literacy（財務素養），常用於教育語境。",
-        "examples": [
-          {
-            "en": "The program aims to improve literacy rates among adults.",
-            "zh": "這項計畫旨在提高成人的識字率。"
-          }
+        "grammarPatterns": [
+          "literacy rates",
+          "improve literacy",
+          "digital literacy"
         ],
         "collocations": [
           {
@@ -139,7 +169,32 @@
             "text": "adult literacy",
             "meaningZh": "成人識字能力"
           }
+        ],
+        "examples": [
+          {
+            "en": "The program aims to improve literacy rates among adults.",
+            "zh": "這項計畫旨在提高成人的識字率。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [
+      {
+        "lemma": "illiteracy",
+        "noteZh": "不識字；缺乏讀寫能力"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "literate",
+        "partOfSpeech": "adjective",
+        "meaningZh": "識字的"
+      },
+      {
+        "lemma": "illiteracy",
+        "partOfSpeech": "noun",
+        "meaningZh": "文盲"
       }
     ],
     "tags": [
@@ -153,14 +208,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": [
-      {
-        "lemma": "illiteracy",
-        "noteZh": "不識字；缺乏讀寫能力"
-      }
-    ]
+    }
   },
   {
     "id": "w_literally",
@@ -174,14 +222,16 @@
       {
         "id": "s_literally_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "spoken",
+          "informal"
+        ],
         "definitionEn": "in a literal manner or sense; word for word",
         "definitionZh": "照字面意義地；確實地",
         "usageExplanationZh": "常用來強調某事真實發生（非誇飾），如 literally true；口語中也常被誤用來加強語氣（雖非嚴謹用法）。",
-        "examples": [
-          {
-            "en": "The bridge collapsed, and cars literally fell into the river.",
-            "zh": "這座橋倒塌了，車輛真的掉進了河裡。"
-          }
+        "grammarPatterns": [
+          "literally + V",
+          "translate sth literally"
         ],
         "collocations": [
           {
@@ -192,7 +242,32 @@
             "text": "literally translated",
             "meaningZh": "按字面翻譯的"
           }
+        ],
+        "examples": [
+          {
+            "en": "The bridge collapsed, and cars literally fell into the river.",
+            "zh": "這座橋倒塌了，車輛真的掉進了河裡。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "verbatim",
+        "noteZh": "指依原文逐字表達"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "figuratively",
+        "noteZh": "比喻地"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "literal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "字面的"
       }
     ],
     "tags": [
@@ -206,19 +281,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "verbatim",
-        "noteZh": "指依原文逐字表達"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "figuratively",
-        "noteZh": "比喻地"
-      }
-    ]
+    }
   },
   {
     "id": "w_literary",
@@ -232,14 +295,15 @@
       {
         "id": "s_literary_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "literary"
+        ],
         "definitionEn": "relating to literature or the writing, study, or appreciation of literature",
         "definitionZh": "文學的；文學性的",
         "usageExplanationZh": "常見 literary criticism（文學評論）、a literary award（文學獎），與通俗作品相對，強調藝術性或學術性。",
-        "examples": [
-          {
-            "en": "She has a strong interest in literary fiction.",
-            "zh": "她對文學小說有著濃厚的興趣。"
-          }
+        "grammarPatterns": [
+          "literary + noun"
         ],
         "collocations": [
           {
@@ -250,7 +314,22 @@
             "text": "a literary work",
             "meaningZh": "文學作品"
           }
+        ],
+        "examples": [
+          {
+            "en": "She has a strong interest in literary fiction.",
+            "zh": "她對文學小說有著濃厚的興趣。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "literature",
+        "partOfSpeech": "noun",
+        "meaningZh": "文學"
       }
     ],
     "tags": [
@@ -263,9 +342,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_literate",
@@ -279,14 +356,16 @@
       {
         "id": "s_literate_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "able to read and write, or knowledgeable and educated in a particular area",
         "definitionZh": "能讀寫的；識字的；有素養的",
         "usageExplanationZh": "常見 computer literate（懂電腦的），與 illiterate（不識字的）相對。",
-        "examples": [
-          {
-            "en": "The program helps adults become literate in basic reading and writing.",
-            "zh": "這項計畫幫助成人具備基本的讀寫能力。"
-          }
+        "grammarPatterns": [
+          "become literate",
+          "be literate in + noun"
         ],
         "collocations": [
           {
@@ -297,26 +376,63 @@
             "text": "highly literate",
             "meaningZh": "具高度讀寫素養的"
           }
+        ],
+        "examples": [
+          {
+            "en": "The program helps adults become literate in basic reading and writing.",
+            "zh": "這項計畫幫助成人具備基本的讀寫能力。"
+          }
         ]
       },
       {
         "id": "s_literate_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "a person who is able to read and write",
         "definitionZh": "識字的人",
         "usageExplanationZh": "名詞用法較少見，多見於統計或社會學語境，如 the number of literates in a population。",
-        "examples": [
-          {
-            "en": "The survey measured the number of literates in rural communities.",
-            "zh": "這項調查估計了農村社區中識字者的人數。"
-          }
+        "grammarPatterns": [
+          "the number of literates in + noun"
         ],
         "collocations": [
           {
             "text": "adult literates",
             "meaningZh": "識字的成年人"
           }
+        ],
+        "examples": [
+          {
+            "en": "The survey measured the number of literates in rural communities.",
+            "zh": "這項調查估計了農村社區中識字者的人數。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "educated",
+        "noteZh": "指受過教育而具讀寫能力的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "illiterate",
+        "noteZh": "不識字的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "literacy",
+        "partOfSpeech": "noun",
+        "meaningZh": "識字能力"
+      },
+      {
+        "lemma": "illiterate",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不識字的"
       }
     ],
     "tags": [
@@ -330,19 +446,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "educated",
-        "noteZh": "指受過教育而具讀寫能力的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "illiterate",
-        "noteZh": "不識字的"
-      }
-    ]
+    }
   },
   {
     "id": "w_litigation",
@@ -356,14 +460,16 @@
       {
         "id": "s_litigation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "the process of taking legal action in court",
         "definitionZh": "訴訟（程序）",
         "usageExplanationZh": "法律用語，常見 avoid litigation（避免訴訟），常用於商業糾紛或法律爭議的語境。",
-        "examples": [
-          {
-            "en": "The two companies settled the dispute without going to litigation.",
-            "zh": "這兩家公司未經訴訟就解決了這場爭議。"
-          }
+        "grammarPatterns": [
+          "go to litigation",
+          "be involved in litigation"
         ],
         "collocations": [
           {
@@ -374,7 +480,37 @@
             "text": "involved in litigation",
             "meaningZh": "捲入訴訟"
           }
+        ],
+        "examples": [
+          {
+            "en": "The two companies settled the dispute without going to litigation.",
+            "zh": "這兩家公司未經訴訟就解決了這場爭議。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "legal proceedings",
+        "noteZh": "法律訴訟程序"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "litigate",
+        "partOfSpeech": "verb",
+        "meaningZh": "進行訴訟"
+      },
+      {
+        "lemma": "litigant",
+        "partOfSpeech": "noun",
+        "meaningZh": "訴訟當事人"
+      },
+      {
+        "lemma": "litigious",
+        "partOfSpeech": "adjective",
+        "meaningZh": "好訴訟的"
       }
     ],
     "tags": [
@@ -387,14 +523,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "legal proceedings",
-        "noteZh": "法律訴訟程序"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_liver",
@@ -408,14 +537,16 @@
       {
         "id": "s_liver_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a large organ in the body that processes nutrients and filters toxins from the blood",
         "definitionZh": "肝臟",
         "usageExplanationZh": "醫學用語，常見 liver disease（肝病）、liver function（肝功能）。",
-        "examples": [
-          {
-            "en": "Excessive alcohol consumption can damage the liver.",
-            "zh": "過量飲酒會損害肝臟。"
-          }
+        "grammarPatterns": [
+          "damage the liver",
+          "liver + noun"
         ],
         "collocations": [
           {
@@ -426,9 +557,17 @@
             "text": "a liver transplant",
             "meaningZh": "肝臟移植"
           }
+        ],
+        "examples": [
+          {
+            "en": "Excessive alcohol consumption can damage the liver.",
+            "zh": "過量飲酒會損害肝臟。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -439,9 +578,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_livestock",
@@ -455,14 +592,16 @@
       {
         "id": "s_livestock_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "animals kept on a farm for use or profit, such as cattle, sheep, or pigs",
         "definitionZh": "牲畜；家畜",
         "usageExplanationZh": "農業用語，常見 raise livestock（飼養牲畜），不可數名詞。",
-        "examples": [
-          {
-            "en": "The farmer raises livestock, including cattle and sheep.",
-            "zh": "這位農夫飼養牲畜，包括牛和羊。"
-          }
+        "grammarPatterns": [
+          "raise livestock",
+          "livestock + noun"
         ],
         "collocations": [
           {
@@ -473,9 +612,22 @@
             "text": "livestock farming",
             "meaningZh": "畜牧業"
           }
+        ],
+        "examples": [
+          {
+            "en": "The farmer raises livestock, including cattle and sheep.",
+            "zh": "這位農夫飼養牲畜，包括牛和羊。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "farm animals",
+        "noteZh": "農場飼養的動物"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -487,14 +639,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "farm animals",
-        "noteZh": "農場飼養的動物"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_load",
@@ -508,14 +653,17 @@
       {
         "id": "s_load_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a heavy or bulky thing being carried or transported, or the amount of work or responsibility one has",
         "definitionZh": "負載；重擔；（工作的）負荷量",
         "usageExplanationZh": "常見 a heavy load（沉重的負擔）；比喻用法如 workload（工作量）。",
-        "examples": [
-          {
-            "en": "The truck was carrying a heavy load of construction materials.",
-            "zh": "這輛卡車載著沉重的建築材料。"
-          }
+        "grammarPatterns": [
+          "a heavy load",
+          "a load of + noun",
+          "carry a load"
         ],
         "collocations": [
           {
@@ -526,7 +674,32 @@
             "text": "carry a load",
             "meaningZh": "承擔負荷"
           }
+        ],
+        "examples": [
+          {
+            "en": "The truck was carrying a heavy load of construction materials.",
+            "zh": "這輛卡車載著沉重的建築材料。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "burden",
+        "noteZh": "指負擔或重物"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "unload",
+        "partOfSpeech": "verb",
+        "meaningZh": "卸下"
+      },
+      {
+        "lemma": "overload",
+        "partOfSpeech": "verb",
+        "meaningZh": "使超載"
       }
     ],
     "tags": [
@@ -539,14 +712,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "burden",
-        "noteZh": "指負擔或重物"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_lobby",
@@ -560,14 +726,16 @@
       {
         "id": "s_lobby_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "a large entrance hall in a building, or a group seeking to influence legislation",
         "definitionZh": "大廳；（施加政治影響力的）遊說團體",
         "usageExplanationZh": "常見 hotel lobby（飯店大廳）；政治語境指利益團體，如 the gun lobby（槍枝遊說團體）。",
-        "examples": [
-          {
-            "en": "They waited in the hotel lobby for their friends to arrive.",
-            "zh": "他們在飯店大廳等朋友抵達。"
-          }
+        "grammarPatterns": [
+          "wait in the lobby",
+          "a powerful lobby"
         ],
         "collocations": [
           {
@@ -578,19 +746,28 @@
             "text": "the gun lobby",
             "meaningZh": "槍枝利益遊說團體"
           }
+        ],
+        "examples": [
+          {
+            "en": "They waited in the hotel lobby for their friends to arrive.",
+            "zh": "他們在飯店大廳等朋友抵達。"
+          }
         ]
       },
       {
         "id": "s_lobby_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to seek to influence a politician or public official on an issue",
         "definitionZh": "遊說（政治人物或官員）",
         "usageExplanationZh": "政治用語，常接 for，如 lobby for stricter regulations（遊說要求更嚴格的法規）。",
-        "examples": [
-          {
-            "en": "Environmental groups lobbied the government for stronger climate policies.",
-            "zh": "環保團體遊說政府制定更強而有力的氣候政策。"
-          }
+        "grammarPatterns": [
+          "lobby for + noun",
+          "lobby sb to + V",
+          "lobby against + noun"
         ],
         "collocations": [
           {
@@ -601,7 +778,32 @@
             "text": "lobby the government",
             "meaningZh": "遊說政府"
           }
+        ],
+        "examples": [
+          {
+            "en": "Environmental groups lobbied the government for stronger climate policies.",
+            "zh": "環保團體遊說政府制定更強而有力的氣候政策。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "foyer",
+        "noteZh": "指建築物入口大廳"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "lobbyist",
+        "partOfSpeech": "noun",
+        "meaningZh": "遊說者"
+      },
+      {
+        "lemma": "lobbying",
+        "partOfSpeech": "noun",
+        "meaningZh": "遊說活動"
       }
     ],
     "tags": [
@@ -616,14 +818,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "foyer",
-        "noteZh": "指建築物入口大廳"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_lobster",
@@ -637,14 +832,15 @@
       {
         "id": "s_lobster_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a large marine crustacean with a hard shell and claws, often eaten as food",
         "definitionZh": "龍蝦",
         "usageExplanationZh": "常見於海鮮料理語境，如 lobster tail（龍蝦尾），也指這種生物本身。",
-        "examples": [
-          {
-            "en": "They ordered grilled lobster for their anniversary dinner.",
-            "zh": "他們在週年紀念晚餐點了烤龍蝦。"
-          }
+        "grammarPatterns": [
+          "order lobster",
+          "a live lobster"
         ],
         "collocations": [
           {
@@ -655,9 +851,17 @@
             "text": "grilled lobster",
             "meaningZh": "烤龍蝦"
           }
+        ],
+        "examples": [
+          {
+            "en": "They ordered grilled lobster for their anniversary dinner.",
+            "zh": "他們在週年紀念晚餐點了烤龍蝦。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -668,9 +872,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_locality",
@@ -684,14 +886,16 @@
       {
         "id": "s_locality_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "an area or neighborhood, especially with regard to its inhabitants or a particular feature",
         "definitionZh": "地區；當地",
         "usageExplanationZh": "常見 in this locality（在這個地區），語氣正式，常見於地理或行政脈絡。",
-        "examples": [
-          {
-            "en": "Crime rates vary significantly depending on the locality.",
-            "zh": "犯罪率因地區不同而有顯著差異。"
-          }
+        "grammarPatterns": [
+          "in the locality",
+          "a particular locality"
         ],
         "collocations": [
           {
@@ -702,7 +906,37 @@
             "text": "a rural locality",
             "meaningZh": "鄉村地區"
           }
+        ],
+        "examples": [
+          {
+            "en": "Crime rates vary significantly depending on the locality.",
+            "zh": "犯罪率因地區不同而有顯著差異。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "area",
+        "noteZh": "地區"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "local",
+        "partOfSpeech": "adjective",
+        "meaningZh": "當地的"
+      },
+      {
+        "lemma": "locally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "在當地"
+      },
+      {
+        "lemma": "localize",
+        "partOfSpeech": "verb",
+        "meaningZh": "在地化"
       }
     ],
     "tags": [
@@ -716,14 +950,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "area",
-        "noteZh": "地區"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_locally",
@@ -737,14 +964,16 @@
       {
         "id": "s_locally_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "in or to a particular area; not widely",
         "definitionZh": "在當地；於本地",
         "usageExplanationZh": "常見 grown locally（在地種植）、shop locally（在地消費），強調地理範圍侷限於附近。",
-        "examples": [
-          {
-            "en": "The vegetables sold at the market are grown locally.",
-            "zh": "市場上販售的蔬菜都是在地種植的。"
-          }
+        "grammarPatterns": [
+          "be produced locally",
+          "locally grown + noun"
         ],
         "collocations": [
           {
@@ -755,7 +984,27 @@
             "text": "shop locally",
             "meaningZh": "在當地購物"
           }
+        ],
+        "examples": [
+          {
+            "en": "The vegetables sold at the market are grown locally.",
+            "zh": "市場上販售的蔬菜都是在地種植的。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "local",
+        "partOfSpeech": "adjective",
+        "meaningZh": "當地的"
+      },
+      {
+        "lemma": "locality",
+        "partOfSpeech": "noun",
+        "meaningZh": "地區"
       }
     ],
     "tags": [
@@ -768,9 +1017,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_locate",
@@ -784,14 +1031,16 @@
       {
         "id": "s_locate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to discover the exact place or position of something, or to situate or place something",
         "definitionZh": "找出……的位置；使坐落於",
         "usageExplanationZh": "常見 locate a file（找到一個檔案）；也可指設立地點，如 the factory is located in the north。",
-        "examples": [
-          {
-            "en": "The rescue team managed to locate the missing hikers.",
-            "zh": "救援隊成功找到了失蹤的登山客。"
-          }
+        "grammarPatterns": [
+          "locate + noun",
+          "be located in + noun"
         ],
         "collocations": [
           {
@@ -802,7 +1051,32 @@
             "text": "centrally located",
             "meaningZh": "位於中心地帶"
           }
+        ],
+        "examples": [
+          {
+            "en": "The rescue team managed to locate the missing hikers.",
+            "zh": "救援隊成功找到了失蹤的登山客。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "find",
+        "noteZh": "指找出位置"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "location",
+        "partOfSpeech": "noun",
+        "meaningZh": "位置"
+      },
+      {
+        "lemma": "relocate",
+        "partOfSpeech": "verb",
+        "meaningZh": "搬遷"
       }
     ],
     "tags": [
@@ -815,14 +1089,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "find",
-        "noteZh": "指找出位置"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_locker",
@@ -836,14 +1103,15 @@
       {
         "id": "s_locker_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a small compartment or cabinet, usually lockable, for storing personal items",
         "definitionZh": "置物櫃；儲物櫃",
         "usageExplanationZh": "常見 a gym locker（健身房置物櫃）、a school locker（學校置物櫃）。",
-        "examples": [
-          {
-            "en": "He kept his gym clothes in a locker at the fitness center.",
-            "zh": "他把健身服裝放在健身中心的置物櫃裡。"
-          }
+        "grammarPatterns": [
+          "a locker at + noun",
+          "keep sth in a locker"
         ],
         "collocations": [
           {
@@ -854,7 +1122,22 @@
             "text": "a school locker",
             "meaningZh": "學校置物櫃"
           }
+        ],
+        "examples": [
+          {
+            "en": "He kept his gym clothes in a locker at the fitness center.",
+            "zh": "他把健身服裝放在健身中心的置物櫃裡。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "lock",
+        "partOfSpeech": "verb",
+        "meaningZh": "鎖上"
       }
     ],
     "tags": [
@@ -867,9 +1150,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_locomotive",
@@ -883,14 +1164,15 @@
       {
         "id": "s_locomotive_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a powered vehicle used for pulling trains along a railway",
         "definitionZh": "火車頭；機車",
         "usageExplanationZh": "常見 a steam locomotive（蒸汽火車頭），鐵路工程或歷史語境常用。",
-        "examples": [
-          {
-            "en": "The museum displays an old steam locomotive from the 1900s.",
-            "zh": "這座博物館展出了一輛來自 1900 年代的老式蒸汽火車頭。"
-          }
+        "grammarPatterns": [
+          "a steam locomotive"
         ],
         "collocations": [
           {
@@ -901,26 +1183,53 @@
             "text": "a diesel locomotive",
             "meaningZh": "柴油火車頭"
           }
+        ],
+        "examples": [
+          {
+            "en": "The museum displays an old steam locomotive from the 1900s.",
+            "zh": "這座博物館展出了一輛來自 1900 年代的老式蒸汽火車頭。"
+          }
         ]
       },
       {
         "id": "s_locomotive_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "relating to movement or the ability to move from place to place",
         "definitionZh": "運動的；有移動能力的（較正式或科學用語）",
         "usageExplanationZh": "較少見用法，多見於生物學或醫學語境，描述生物移動的能力，如 locomotive ability。",
-        "examples": [
-          {
-            "en": "Researchers studied the locomotive ability of the injured animal.",
-            "zh": "研究人員研究了這隻受傷動物的移動能力。"
-          }
+        "grammarPatterns": [
+          "locomotive + noun"
         ],
         "collocations": [
           {
             "text": "locomotive power",
             "meaningZh": "移動的動力"
           }
+        ],
+        "examples": [
+          {
+            "en": "Researchers studied the locomotive ability of the injured animal.",
+            "zh": "研究人員研究了這隻受傷動物的移動能力。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "engine",
+        "noteZh": "指火車的牽引機車"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "locomotion",
+        "partOfSpeech": "noun",
+        "meaningZh": "移動；運動"
       }
     ],
     "tags": [
@@ -935,14 +1244,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "engine",
-        "noteZh": "指火車的牽引機車"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_lodge",
@@ -956,14 +1258,15 @@
       {
         "id": "s_lodge_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a small house or cabin, especially one used for a particular purpose, such as a hunting or ski lodge",
         "definitionZh": "小屋；（特定用途的）度假屋",
         "usageExplanationZh": "常見 a ski lodge（滑雪小屋），常指位於偏遠地區的度假或休閒住所。",
-        "examples": [
-          {
-            "en": "They stayed at a cozy lodge in the mountains for the weekend.",
-            "zh": "他們週末住在山上一間舒適的小屋裡。"
-          }
+        "grammarPatterns": [
+          "stay at a lodge",
+          "a ski lodge"
         ],
         "collocations": [
           {
@@ -974,7 +1277,32 @@
             "text": "a ski lodge",
             "meaningZh": "滑雪度假屋"
           }
+        ],
+        "examples": [
+          {
+            "en": "They stayed at a cozy lodge in the mountains for the weekend.",
+            "zh": "他們週末住在山上一間舒適的小屋裡。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "cabin",
+        "noteZh": "小木屋"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "lodging",
+        "partOfSpeech": "noun",
+        "meaningZh": "住宿"
+      },
+      {
+        "lemma": "lodger",
+        "partOfSpeech": "noun",
+        "meaningZh": "房客"
       }
     ],
     "tags": [
@@ -988,14 +1316,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cabin",
-        "noteZh": "小木屋"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_lofty",
@@ -1009,14 +1330,16 @@
       {
         "id": "s_lofty_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "of imposing height, or (of ideas or aims) exalted and noble",
         "definitionZh": "高聳的；崇高的（理想或目標）",
         "usageExplanationZh": "常見 lofty goals（崇高的目標）；也可形容建築高聳，語氣書面正式。",
-        "examples": [
-          {
-            "en": "She has lofty ambitions to become a world-renowned scientist.",
-            "zh": "她懷有成為世界知名科學家的崇高抱負。"
-          }
+        "grammarPatterns": [
+          "lofty + noun",
+          "lofty ambitions to + V"
         ],
         "collocations": [
           {
@@ -1027,22 +1350,15 @@
             "text": "lofty peaks",
             "meaningZh": "高聳的山峰"
           }
+        ],
+        "examples": [
+          {
+            "en": "She has lofty ambitions to become a world-renowned scientist.",
+            "zh": "她懷有成為世界知名科學家的崇高抱負。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "towering",
@@ -1058,7 +1374,32 @@
         "lemma": "lowly",
         "noteZh": "低微的；與崇高義相對"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "loftily",
+        "partOfSpeech": "adverb",
+        "meaningZh": "高傲地"
+      },
+      {
+        "lemma": "loftiness",
+        "partOfSpeech": "noun",
+        "meaningZh": "崇高"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_logic",
@@ -1072,14 +1413,16 @@
       {
         "id": "s_logic_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "reasoning conducted according to strict principles of validity, or the underlying rationale behind something",
         "definitionZh": "邏輯；邏輯思維；（決策背後的）道理",
         "usageExplanationZh": "常見 by that logic（照這種邏輯來看）、the logic behind a decision（決策背後的邏輯）。",
-        "examples": [
-          {
-            "en": "I don't understand the logic behind this new policy.",
-            "zh": "我不明白這項新政策背後的邏輯。"
-          }
+        "grammarPatterns": [
+          "the logic behind + noun",
+          "the logic of + noun"
         ],
         "collocations": [
           {
@@ -1090,7 +1433,37 @@
             "text": "defy logic",
             "meaningZh": "違背邏輯"
           }
+        ],
+        "examples": [
+          {
+            "en": "I don't understand the logic behind this new policy.",
+            "zh": "我不明白這項新政策背後的邏輯。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "reasoning",
+        "noteZh": "推理思路"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "logical",
+        "partOfSpeech": "adjective",
+        "meaningZh": "合乎邏輯的"
+      },
+      {
+        "lemma": "logician",
+        "partOfSpeech": "noun",
+        "meaningZh": "邏輯學家"
+      },
+      {
+        "lemma": "logically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "邏輯上"
       }
     ],
     "tags": [
@@ -1104,14 +1477,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "reasoning",
-        "noteZh": "推理思路"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_logical",
@@ -1125,14 +1491,16 @@
       {
         "id": "s_logical_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "neutral"
+        ],
         "definitionEn": "following the rules of logic; reasonable and sensible",
         "definitionZh": "合乎邏輯的；合理的",
         "usageExplanationZh": "常見 a logical conclusion（合乎邏輯的結論），與 illogical（不合邏輯的）相對。",
-        "examples": [
-          {
-            "en": "It seems like the logical next step would be to test the product.",
-            "zh": "接下來合乎邏輯的步驟似乎應該是測試這項產品。"
-          }
+        "grammarPatterns": [
+          "a logical + noun",
+          "it is logical to + V"
         ],
         "collocations": [
           {
@@ -1143,7 +1511,42 @@
             "text": "the next logical step",
             "meaningZh": "合理的下一步"
           }
+        ],
+        "examples": [
+          {
+            "en": "It seems like the logical next step would be to test the product.",
+            "zh": "接下來合乎邏輯的步驟似乎應該是測試這項產品。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "rational",
+        "noteZh": "合理而合乎理性的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "illogical",
+        "noteZh": "不合邏輯的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "logic",
+        "partOfSpeech": "noun",
+        "meaningZh": "邏輯"
+      },
+      {
+        "lemma": "logically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "合邏輯地"
+      },
+      {
+        "lemma": "illogical",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不合邏輯的"
       }
     ],
     "tags": [
@@ -1156,19 +1559,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "rational",
-        "noteZh": "合理而合乎理性的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "illogical",
-        "noteZh": "不合邏輯的"
-      }
-    ]
+    }
   },
   {
     "id": "w_lone",
@@ -1182,14 +1573,15 @@
       {
         "id": "s_lone_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "solitary; without other people or things present",
         "definitionZh": "孤獨的；單獨的",
         "usageExplanationZh": "常修飾單一的人或物，如 a lone survivor（唯一的倖存者），語氣中性偏文學。",
-        "examples": [
-          {
-            "en": "A lone figure stood at the edge of the cliff.",
-            "zh": "一個孤獨的身影站在懸崖邊。"
-          }
+        "grammarPatterns": [
+          "a lone + noun"
         ],
         "collocations": [
           {
@@ -1200,7 +1592,37 @@
             "text": "a lone voice",
             "meaningZh": "孤立的聲音或意見"
           }
+        ],
+        "examples": [
+          {
+            "en": "A lone figure stood at the edge of the cliff.",
+            "zh": "一個孤獨的身影站在懸崖邊。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "solitary",
+        "noteZh": "單獨的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "lonely",
+        "partOfSpeech": "adjective",
+        "meaningZh": "孤單的"
+      },
+      {
+        "lemma": "loneliness",
+        "partOfSpeech": "noun",
+        "meaningZh": "孤獨"
+      },
+      {
+        "lemma": "alone",
+        "partOfSpeech": "adjective",
+        "meaningZh": "獨自的"
       }
     ],
     "tags": [
@@ -1213,14 +1635,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "solitary",
-        "noteZh": "單獨的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_longevity",
@@ -1234,14 +1649,16 @@
       {
         "id": "s_longevity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "long life, or the length of time something lasts or continues",
         "definitionZh": "長壽；持久性",
         "usageExplanationZh": "常見 increase longevity（延長壽命），也可指產品或事物的耐用性，如 the longevity of a product。",
-        "examples": [
-          {
-            "en": "Regular exercise is linked to greater longevity.",
-            "zh": "規律運動與更長的壽命有關。"
-          }
+        "grammarPatterns": [
+          "greater longevity",
+          "the longevity of + noun"
         ],
         "collocations": [
           {
@@ -1252,9 +1669,22 @@
             "text": "the longevity of a product",
             "meaningZh": "產品的持久性"
           }
+        ],
+        "examples": [
+          {
+            "en": "Regular exercise is linked to greater longevity.",
+            "zh": "規律運動與更長的壽命有關。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "long life",
+        "noteZh": "長壽或持久"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1266,14 +1696,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "long life",
-        "noteZh": "長壽或持久"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_loom",
@@ -1287,33 +1710,44 @@
       {
         "id": "s_loom_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a device used for weaving thread or yarn into cloth",
         "definitionZh": "織布機",
         "usageExplanationZh": "工藝或紡織用語，常見於傳統手工藝描述，如 a wooden loom。",
-        "examples": [
-          {
-            "en": "She learned to weave on a traditional wooden loom.",
-            "zh": "她學會了在傳統的木製織布機上織布。"
-          }
+        "grammarPatterns": [
+          "weave on a loom",
+          "a wooden loom"
         ],
         "collocations": [
           {
             "text": "a weaving loom",
             "meaningZh": "織布機"
           }
+        ],
+        "examples": [
+          {
+            "en": "She learned to weave on a traditional wooden loom.",
+            "zh": "她學會了在傳統的木製織布機上織布。"
+          }
         ]
       },
       {
         "id": "s_loom_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "to appear as a large, indistinct, and often threatening shape, or (of an event) to be imminent and worrying",
         "definitionZh": "（模糊而具威脅性地）隱約出現；（令人擔憂地）迫近",
         "usageExplanationZh": "常見 a crisis looms（危機迫近），比喻用法非常普遍，強調即將發生且令人不安。",
-        "examples": [
-          {
-            "en": "A recession seemed to loom on the horizon.",
-            "zh": "一場經濟衰退似乎正迫近眼前。"
-          }
+        "grammarPatterns": [
+          "loom over + noun",
+          "loom on the horizon",
+          "loom large"
         ],
         "collocations": [
           {
@@ -1324,9 +1758,17 @@
             "text": "loom on the horizon",
             "meaningZh": "隱約出現；迫在眉睫"
           }
+        ],
+        "examples": [
+          {
+            "en": "A recession seemed to loom on the horizon.",
+            "zh": "一場經濟衰退似乎正迫近眼前。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1339,9 +1781,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_loop",
@@ -1355,14 +1795,17 @@
       {
         "id": "s_loop_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a shape produced by a curve that bends around and crosses itself, or a repeated sequence",
         "definitionZh": "環；圈；（重複的）循環",
         "usageExplanationZh": "常見 a feedback loop（回饋循環）；口語 keep someone in the loop（讓某人隨時知情）。",
-        "examples": [
-          {
-            "en": "Please keep me in the loop about any updates.",
-            "zh": "若有任何最新消息，請讓我隨時知道。"
-          }
+        "grammarPatterns": [
+          "keep sb in the loop",
+          "a loop of + noun",
+          "in a loop"
         ],
         "collocations": [
           {
@@ -1373,7 +1816,27 @@
             "text": "an infinite loop",
             "meaningZh": "無限循環"
           }
+        ],
+        "examples": [
+          {
+            "en": "Please keep me in the loop about any updates.",
+            "zh": "若有任何最新消息，請讓我隨時知道。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "ring",
+        "noteZh": "指環形結構"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "loophole",
+        "partOfSpeech": "noun",
+        "meaningZh": "漏洞"
       }
     ],
     "tags": [
@@ -1388,14 +1851,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "ring",
-        "noteZh": "指環形結構"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_loose",
@@ -1409,14 +1865,15 @@
       {
         "id": "s_loose_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "not firmly fixed in place; not tight",
         "definitionZh": "鬆的；寬鬆的；不緊的",
         "usageExplanationZh": "常見 a loose screw（鬆脫的螺絲）、loose clothing（寬鬆的衣服），與 tight（緊的）相對。",
-        "examples": [
-          {
-            "en": "One of the chair's legs felt loose.",
-            "zh": "這張椅子的一隻腳感覺鬆動了。"
-          }
+        "grammarPatterns": [
+          "come loose",
+          "a loose + noun"
         ],
         "collocations": [
           {
@@ -1427,7 +1884,37 @@
             "text": "come loose",
             "meaningZh": "鬆脫"
           }
+        ],
+        "examples": [
+          {
+            "en": "One of the chair's legs felt loose.",
+            "zh": "這張椅子的一隻腳感覺鬆動了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "slack",
+        "noteZh": "鬆弛的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "tight",
+        "noteZh": "緊的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "loosen",
+        "partOfSpeech": "verb",
+        "meaningZh": "鬆開"
+      },
+      {
+        "lemma": "loosely",
+        "partOfSpeech": "adverb",
+        "meaningZh": "鬆散地"
       }
     ],
     "tags": [
@@ -1440,19 +1927,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "slack",
-        "noteZh": "鬆弛的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "tight",
-        "noteZh": "緊的"
-      }
-    ]
+    }
   },
   {
     "id": "w_loosen",
@@ -1466,14 +1941,15 @@
       {
         "id": "s_loosen_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to make or become less tight or firmly fixed",
         "definitionZh": "鬆開；放鬆",
         "usageExplanationZh": "常見 loosen a knot（鬆開一個結）；比喻用法如 loosen restrictions（放寬限制）。",
-        "examples": [
-          {
-            "en": "He loosened his tie after the long meeting.",
-            "zh": "冗長的會議結束後，他鬆開了領帶。"
-          }
+        "grammarPatterns": [
+          "loosen + noun",
+          "loosen one's grip on + noun"
         ],
         "collocations": [
           {
@@ -1484,7 +1960,37 @@
             "text": "loosen up",
             "meaningZh": "放鬆身心"
           }
+        ],
+        "examples": [
+          {
+            "en": "He loosened his tie after the long meeting.",
+            "zh": "冗長的會議結束後，他鬆開了領帶。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "slacken",
+        "noteZh": "使鬆弛"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "tighten",
+        "noteZh": "使變緊"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "loose",
+        "partOfSpeech": "adjective",
+        "meaningZh": "鬆的"
+      },
+      {
+        "lemma": "loosely",
+        "partOfSpeech": "adverb",
+        "meaningZh": "寬鬆地"
       }
     ],
     "tags": [
@@ -1498,19 +2004,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "slacken",
-        "noteZh": "使鬆弛"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "tighten",
-        "noteZh": "使變緊"
-      }
-    ]
+    }
   },
   {
     "id": "w_loquacious",
@@ -1524,21 +2018,47 @@
       {
         "id": "s_loquacious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "tending to talk a great deal; very talkative",
         "definitionZh": "多話的；喋喋不休的",
         "usageExplanationZh": "語氣書面，與 garrulous 相似，但 loquacious 較常帶中性甚至正面意味，強調健談。",
-        "examples": [
-          {
-            "en": "The loquacious tour guide entertained the group with endless stories.",
-            "zh": "這位健談的導遊用源源不絕的故事逗樂了整個團隊。"
-          }
+        "grammarPatterns": [
+          "a loquacious + noun"
         ],
         "collocations": [
           {
             "text": "a loquacious guest",
             "meaningZh": "健談的客人"
           }
+        ],
+        "examples": [
+          {
+            "en": "The loquacious tour guide entertained the group with endless stories.",
+            "zh": "這位健談的導遊用源源不絕的故事逗樂了整個團隊。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "talkative",
+        "noteZh": "健談多話的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "taciturn",
+        "noteZh": "沉默寡言的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "loquacity",
+        "partOfSpeech": "noun",
+        "meaningZh": "多話"
       }
     ],
     "tags": [
@@ -1551,19 +2071,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "talkative",
-        "noteZh": "健談多話的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "taciturn",
-        "noteZh": "沉默寡言的"
-      }
-    ]
+    }
   },
   {
     "id": "w_lottery",
@@ -1577,14 +2085,15 @@
       {
         "id": "s_lottery_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a game of chance in which numbered tickets are drawn at random for prizes, or a matter determined by chance",
         "definitionZh": "樂透彩；（比喻）碰運氣的事",
         "usageExplanationZh": "常見 win the lottery（中樂透）；比喻用法如 life is a lottery（人生充滿變數）。",
-        "examples": [
-          {
-            "en": "He dreams of winning the lottery someday.",
-            "zh": "他夢想著有一天能中樂透。"
-          }
+        "grammarPatterns": [
+          "win the lottery",
+          "a lottery ticket"
         ],
         "collocations": [
           {
@@ -1595,9 +2104,22 @@
             "text": "a lottery ticket",
             "meaningZh": "彩券"
           }
+        ],
+        "examples": [
+          {
+            "en": "He dreams of winning the lottery someday.",
+            "zh": "他夢想著有一天能中樂透。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "draw",
+        "noteZh": "指抽籤抽獎"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1610,14 +2132,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "draw",
-        "noteZh": "指抽籤抽獎"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_lounge",
@@ -1631,33 +2146,41 @@
       {
         "id": "s_lounge_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a room for relaxing, such as in a home, hotel, or airport",
         "definitionZh": "休息室；起居室",
         "usageExplanationZh": "常見 an airport lounge（機場貴賓室）、a living room lounge（客廳），依語境不同略有差異。",
-        "examples": [
-          {
-            "en": "They relaxed in the hotel lounge before checking in.",
-            "zh": "他們在辦理入住前，先在飯店的休息室休息片刻。"
-          }
+        "grammarPatterns": [
+          "in the lounge",
+          "a hotel lounge"
         ],
         "collocations": [
           {
             "text": "an airport lounge",
             "meaningZh": "機場貴賓休息室"
           }
+        ],
+        "examples": [
+          {
+            "en": "They relaxed in the hotel lounge before checking in.",
+            "zh": "他們在辦理入住前，先在飯店的休息室休息片刻。"
+          }
         ]
       },
       {
         "id": "s_lounge_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to sit, lie, or stand in a relaxed manner",
         "definitionZh": "懶洋洋地躺（或坐）著",
         "usageExplanationZh": "常接 around，如 lounge around all day（整天懶洋洋地待著），語氣輕鬆隨意。",
-        "examples": [
-          {
-            "en": "They spent the afternoon lounging by the pool.",
-            "zh": "他們整個下午都懶洋洋地躺在泳池邊。"
-          }
+        "grammarPatterns": [
+          "lounge by + noun",
+          "lounge around"
         ],
         "collocations": [
           {
@@ -1668,9 +2191,26 @@
             "text": "lounge on the sofa",
             "meaningZh": "懶散地躺在沙發上"
           }
+        ],
+        "examples": [
+          {
+            "en": "They spent the afternoon lounging by the pool.",
+            "zh": "他們整個下午都懶洋洋地躺在泳池邊。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "sitting room",
+        "noteZh": "指供休息會客的房間"
+      },
+      {
+        "lemma": "relax",
+        "noteZh": "指放鬆休息的動詞義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -1682,18 +2222,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "sitting room",
-        "noteZh": "指供休息會客的房間"
-      },
-      {
-        "lemma": "relax",
-        "noteZh": "指放鬆休息的動詞義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_loyal",
@@ -1707,14 +2236,15 @@
       {
         "id": "s_loyal_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "steadfast in allegiance or duty to a person, group, or cause",
         "definitionZh": "忠誠的；忠實的",
         "usageExplanationZh": "常搭配 loyal to，如 loyal to a friend／a country；也可修飾 customer、supporter 等名詞。",
-        "examples": [
-          {
-            "en": "She remained loyal to her friends even during hard times.",
-            "zh": "即使在困難時期，她對朋友依然忠誠。"
-          }
+        "grammarPatterns": [
+          "be loyal to + noun",
+          "remain loyal"
         ],
         "collocations": [
           {
@@ -1725,7 +2255,25 @@
             "text": "a loyal customer",
             "meaningZh": "忠實顧客"
           }
+        ],
+        "examples": [
+          {
+            "en": "She remained loyal to her friends even during hard times.",
+            "zh": "即使在困難時期，她對朋友依然忠誠。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "faithful",
+        "noteZh": "忠實的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "disloyal",
+        "noteZh": "不忠的"
       }
     ],
     "tags": [
@@ -1740,19 +2288,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "faithful",
-        "noteZh": "忠實的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "disloyal",
-        "noteZh": "不忠的"
-      }
-    ]
+    }
   },
   {
     "id": "w_lucid",
@@ -1766,14 +2302,16 @@
       {
         "id": "s_lucid_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "expressed clearly and easy to understand",
         "definitionZh": "清晰易懂的；條理分明的",
         "usageExplanationZh": "常修飾 explanation、writing 或 argument；也可形容人在神智清醒、思路清楚的狀態，如 a lucid moment。",
-        "examples": [
-          {
-            "en": "His lucid explanation made the complex topic easy to follow.",
-            "zh": "他清晰的解說讓這個複雜的主題變得容易理解。"
-          }
+        "grammarPatterns": [
+          "a lucid + noun",
+          "a lucid explanation of + noun"
         ],
         "collocations": [
           {
@@ -1784,7 +2322,25 @@
             "text": "lucid prose",
             "meaningZh": "條理清晰的文章"
           }
+        ],
+        "examples": [
+          {
+            "en": "His lucid explanation made the complex topic easy to follow.",
+            "zh": "他清晰的解說讓這個複雜的主題變得容易理解。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "clear",
+        "noteZh": "清楚易懂的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "confused",
+        "noteZh": "混亂不清的"
       }
     ],
     "tags": [
@@ -1798,19 +2354,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "clear",
-        "noteZh": "清楚易懂的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "confused",
-        "noteZh": "混亂不清的"
-      }
-    ]
+    }
   },
   {
     "id": "w_lucrative",
@@ -1824,14 +2368,16 @@
       {
         "id": "s_lucrative_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "producing a sizeable profit",
         "definitionZh": "獲利的；賺錢的",
         "usageExplanationZh": "常修飾 business、deal、career 等；強調金錢上的利益，語氣偏正式。",
-        "examples": [
-          {
-            "en": "They signed a lucrative contract with the software company.",
-            "zh": "他們與這家軟體公司簽下一份獲利豐厚的合約。"
-          }
+        "grammarPatterns": [
+          "a lucrative + noun",
+          "highly lucrative"
         ],
         "collocations": [
           {
@@ -1842,7 +2388,25 @@
             "text": "a lucrative contract",
             "meaningZh": "利潤豐厚的合約"
           }
+        ],
+        "examples": [
+          {
+            "en": "They signed a lucrative contract with the software company.",
+            "zh": "他們與這家軟體公司簽下一份獲利豐厚的合約。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "profitable",
+        "noteZh": "能帶來利潤的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "unprofitable",
+        "noteZh": "無利可圖的"
       }
     ],
     "tags": [
@@ -1857,19 +2421,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "profitable",
-        "noteZh": "能帶來利潤的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "unprofitable",
-        "noteZh": "無利可圖的"
-      }
-    ]
+    }
   },
   {
     "id": "w_ludicrous",
@@ -1883,14 +2435,16 @@
       {
         "id": "s_ludicrous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "so obviously absurd as to be laughable",
         "definitionZh": "荒謬可笑的；滑稽的",
         "usageExplanationZh": "語氣比 ridiculous 更強烈，常用於 It's ludicrous that...句型，帶有不可置信的語氣。",
-        "examples": [
-          {
-            "en": "It's ludicrous to think we could finish the project in one day.",
-            "zh": "認為我們能在一天內完成這個專案，簡直荒謬。"
-          }
+        "grammarPatterns": [
+          "it is ludicrous to + V",
+          "a ludicrous + noun"
         ],
         "collocations": [
           {
@@ -1901,7 +2455,25 @@
             "text": "utterly ludicrous",
             "meaningZh": "完全荒唐可笑"
           }
+        ],
+        "examples": [
+          {
+            "en": "It's ludicrous to think we could finish the project in one day.",
+            "zh": "認為我們能在一天內完成這個專案，簡直荒謬。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "absurd",
+        "noteZh": "荒謬的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "sensible",
+        "noteZh": "明智合理的"
       }
     ],
     "tags": [
@@ -1915,19 +2487,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "absurd",
-        "noteZh": "荒謬的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "sensible",
-        "noteZh": "明智合理的"
-      }
-    ]
+    }
   },
   {
     "id": "w_lukewarm",
@@ -1941,33 +2501,41 @@
       {
         "id": "s_lukewarm_sense_temperature",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "only moderately warm",
         "definitionZh": "微溫的",
         "usageExplanationZh": "常形容飲料、食物或水的溫度，如 lukewarm coffee，意指不夠熱也不冰。",
-        "examples": [
-          {
-            "en": "He complained that the soup was only lukewarm.",
-            "zh": "他抱怨這碗湯只是微溫的。"
-          }
+        "grammarPatterns": [
+          "lukewarm + noun",
+          "only lukewarm"
         ],
         "collocations": [
           {
             "text": "lukewarm water",
             "meaningZh": "微溫的水"
           }
+        ],
+        "examples": [
+          {
+            "en": "He complained that the soup was only lukewarm.",
+            "zh": "他抱怨這碗湯只是微溫的。"
+          }
         ]
       },
       {
         "id": "s_lukewarm_sense_enthusiasm",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "showing little enthusiasm or interest",
         "definitionZh": "不熱衷的；反應冷淡的",
         "usageExplanationZh": "常見 a lukewarm response／reception，形容態度不積極也不反對，介於支持與反對之間。",
-        "examples": [
-          {
-            "en": "The proposal received a lukewarm response from the committee.",
-            "zh": "這項提案得到委員會不冷不熱的回應。"
-          }
+        "grammarPatterns": [
+          "a lukewarm response to + noun",
+          "be lukewarm about + noun"
         ],
         "collocations": [
           {
@@ -1978,7 +2546,25 @@
             "text": "a lukewarm reception",
             "meaningZh": "不熱烈的接待"
           }
+        ],
+        "examples": [
+          {
+            "en": "The proposal received a lukewarm response from the committee.",
+            "zh": "這項提案得到委員會不冷不熱的回應。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "tepid",
+        "noteZh": "指微溫，也可指不熱情"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "enthusiastic",
+        "noteZh": "熱情的（對應反應義）"
       }
     ],
     "tags": [
@@ -1991,19 +2577,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "tepid",
-        "noteZh": "指微溫，也可指不熱情"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "enthusiastic",
-        "noteZh": "熱情的（對應反應義）"
-      }
-    ]
+    }
   },
   {
     "id": "w_lull",
@@ -2017,14 +2591,16 @@
       {
         "id": "s_lull_sense_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "a temporary period of quiet or reduced activity",
         "definitionZh": "暫時的平靜；間歇",
         "usageExplanationZh": "常見 a lull in the conversation／fighting，指原本活躍的狀態暫時停歇。",
-        "examples": [
-          {
-            "en": "There was a brief lull in the storm before it intensified again.",
-            "zh": "暴風雨曾有短暫的平息，隨後又再度增強。"
-          }
+        "grammarPatterns": [
+          "a lull in + noun",
+          "a brief lull"
         ],
         "collocations": [
           {
@@ -2035,28 +2611,53 @@
             "text": "a lull in the fighting",
             "meaningZh": "戰鬥的暫時平息"
           }
+        ],
+        "examples": [
+          {
+            "en": "There was a brief lull in the storm before it intensified again.",
+            "zh": "暴風雨曾有短暫的平息，隨後又再度增強。"
+          }
         ]
       },
       {
         "id": "s_lull_sense_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "to calm someone, often by deception, into complacency or sleep",
         "definitionZh": "哄騙使安心；使放鬆戒心",
         "usageExplanationZh": "常見 lull someone into a false sense of security，帶有欺騙、麻痺對方警覺的意味。",
-        "examples": [
-          {
-            "en": "The steady rocking lulled the baby to sleep.",
-            "zh": "規律的搖晃哄得寶寶睡著了。"
-          }
+        "grammarPatterns": [
+          "lull sb to sleep",
+          "lull sb into + noun"
         ],
         "collocations": [
           {
             "text": "lull someone into a false sense of security",
             "meaningZh": "使某人產生虛假的安全感"
           }
+        ],
+        "examples": [
+          {
+            "en": "The steady rocking lulled the baby to sleep.",
+            "zh": "規律的搖晃哄得寶寶睡著了。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "pause",
+        "noteZh": "指活動的暫時間歇"
+      },
+      {
+        "lemma": "soothe",
+        "noteZh": "指使人安靜或放鬆"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2069,18 +2670,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pause",
-        "noteZh": "指活動的暫時間歇"
-      },
-      {
-        "lemma": "soothe",
-        "noteZh": "指使人安靜或放鬆"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_lump",
@@ -2094,14 +2684,16 @@
       {
         "id": "s_lump_sense_together",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to put different things together into one group without distinguishing them",
         "definitionZh": "把…混為一談；歸併在一起",
         "usageExplanationZh": "常用 lump together，帶有草率、不加區分的意味，可能是中性或帶批評語氣。",
-        "examples": [
-          {
-            "en": "The report lumps all small businesses together regardless of their size.",
-            "zh": "這份報告不分規模，把所有小型企業都混為一談。"
-          }
+        "grammarPatterns": [
+          "lump A together with B",
+          "lump sth together",
+          "lump A in with B"
         ],
         "collocations": [
           {
@@ -2112,7 +2704,27 @@
             "text": "lump someone in with",
             "meaningZh": "把某人與……歸為同類"
           }
+        ],
+        "examples": [
+          {
+            "en": "The report lumps all small businesses together regardless of their size.",
+            "zh": "這份報告不分規模，把所有小型企業都混為一談。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "group",
+        "noteZh": "歸為一類"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "lumpy",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有結塊的"
       }
     ],
     "tags": [
@@ -2127,14 +2739,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "group",
-        "noteZh": "歸為一類"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_lunatic",
@@ -2148,53 +2753,57 @@
       {
         "id": "s_lunatic_sense_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "a person regarded as extremely foolish or reckless",
         "definitionZh": "瘋子；狂人",
         "usageExplanationZh": "口語用法，常帶強烈負面或誇張語氣，形容行為極度荒唐或危險的人。",
-        "examples": [
-          {
-            "en": "Only a lunatic would drive that fast in the snow.",
-            "zh": "只有瘋子才會在雪地裡開這麼快。"
-          }
+        "grammarPatterns": [
+          "only a lunatic would + V",
+          "a complete lunatic"
         ],
         "collocations": [
           {
             "text": "drive like a lunatic",
             "meaningZh": "像瘋子般開車"
           }
+        ],
+        "examples": [
+          {
+            "en": "Only a lunatic would drive that fast in the snow.",
+            "zh": "只有瘋子才會在雪地裡開這麼快。"
+          }
         ]
       },
       {
         "id": "s_lunatic_sense_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "extremely foolish or reckless",
         "definitionZh": "瘋狂的；荒唐的",
         "usageExplanationZh": "常修飾 idea、scheme 等，語氣誇張，表示極不合理或危險。",
-        "examples": [
-          {
-            "en": "They came up with a lunatic scheme to cross the desert on foot.",
-            "zh": "他們想出了一個瘋狂的計畫，要徒步穿越沙漠。"
-          }
+        "grammarPatterns": [
+          "a lunatic + noun"
         ],
         "collocations": [
           {
             "text": "a lunatic scheme",
             "meaningZh": "瘋狂荒唐的計畫"
           }
+        ],
+        "examples": [
+          {
+            "en": "They came up with a lunatic scheme to cross the desert on foot.",
+            "zh": "他們想出了一個瘋狂的計畫，要徒步穿越沙漠。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "madman",
@@ -2210,7 +2819,30 @@
         "lemma": "sane",
         "noteZh": "神志正常的（形容詞）"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "lunacy",
+        "partOfSpeech": "noun",
+        "meaningZh": "瘋狂"
+      },
+      {
+        "lemma": "lunar",
+        "partOfSpeech": "adjective",
+        "meaningZh": "月亮的"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_lung",
@@ -2224,14 +2856,16 @@
       {
         "id": "s_lung_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "either of the two organs in the chest used for breathing",
         "definitionZh": "肺；肺臟",
         "usageExplanationZh": "常見複數 lungs，用於呼吸系統相關語境，如 lung cancer、lung capacity。",
-        "examples": [
-          {
-            "en": "Smoking can seriously damage your lungs.",
-            "zh": "抽菸會嚴重傷害你的肺。"
-          }
+        "grammarPatterns": [
+          "damage one's lungs",
+          "lung + noun"
         ],
         "collocations": [
           {
@@ -2242,9 +2876,17 @@
             "text": "at the top of your lungs",
             "meaningZh": "扯開嗓門地"
           }
+        ],
+        "examples": [
+          {
+            "en": "Smoking can seriously damage your lungs.",
+            "zh": "抽菸會嚴重傷害你的肺。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -2255,9 +2897,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_lurid",
@@ -2271,14 +2911,16 @@
       {
         "id": "s_lurid_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "shockingly vivid or sensational, especially in describing something disturbing",
         "definitionZh": "聳人聽聞的；血腥渲染的",
         "usageExplanationZh": "常見 lurid details／headlines，形容媒體或敘述誇張渲染暴力、犯罪等細節。",
-        "examples": [
-          {
-            "en": "The newspaper published lurid details of the crime scene.",
-            "zh": "這家報紙刊登了案發現場聳人聽聞的細節。"
-          }
+        "grammarPatterns": [
+          "lurid + noun",
+          "the lurid details of + noun"
         ],
         "collocations": [
           {
@@ -2289,7 +2931,27 @@
             "text": "lurid headlines",
             "meaningZh": "煽情的標題"
           }
+        ],
+        "examples": [
+          {
+            "en": "The newspaper published lurid details of the crime scene.",
+            "zh": "這家報紙刊登了案發現場聳人聽聞的細節。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "sensational",
+        "noteZh": "指刻意渲染以吸引注意的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "luridly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "聳動地"
       }
     ],
     "tags": [
@@ -2302,14 +2964,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "sensational",
-        "noteZh": "指刻意渲染以吸引注意的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_luscious",
@@ -2323,14 +2978,15 @@
       {
         "id": "s_luscious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "informal"
+        ],
         "definitionEn": "extremely pleasing to taste or the senses",
         "definitionZh": "甘美多汁的；誘人可口的",
         "usageExplanationZh": "常形容水果、甜點等食物，強調味道濃郁、令人垂涎。",
-        "examples": [
-          {
-            "en": "The pie was filled with luscious, ripe strawberries.",
-            "zh": "這個派裡裝滿了甘美多汁的成熟草莓。"
-          }
+        "grammarPatterns": [
+          "luscious + noun"
         ],
         "collocations": [
           {
@@ -2341,9 +2997,22 @@
             "text": "a luscious dessert",
             "meaningZh": "誘人可口的甜點"
           }
+        ],
+        "examples": [
+          {
+            "en": "The pie was filled with luscious, ripe strawberries.",
+            "zh": "這個派裡裝滿了甘美多汁的成熟草莓。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "delicious",
+        "noteZh": "美味的"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -2354,14 +3023,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "delicious",
-        "noteZh": "美味的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_luxurious",
@@ -2375,14 +3037,15 @@
       {
         "id": "s_luxurious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "characterized by luxury and great comfort",
         "definitionZh": "豪華的；奢華的",
         "usageExplanationZh": "常修飾 hotel、lifestyle、fabric 等，強調高級舒適，帶正面評價語氣。",
-        "examples": [
-          {
-            "en": "They stayed in a luxurious suite overlooking the beach.",
-            "zh": "他們住在一間可俯瞰海灘的豪華套房。"
-          }
+        "grammarPatterns": [
+          "a luxurious + noun"
         ],
         "collocations": [
           {
@@ -2393,7 +3056,42 @@
             "text": "luxurious surroundings",
             "meaningZh": "奢華的環境"
           }
+        ],
+        "examples": [
+          {
+            "en": "They stayed in a luxurious suite overlooking the beach.",
+            "zh": "他們住在一間可俯瞰海灘的豪華套房。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "lavish",
+        "noteZh": "奢華鋪張的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "austere",
+        "noteZh": "簡樸的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "luxury",
+        "partOfSpeech": "noun",
+        "meaningZh": "奢華"
+      },
+      {
+        "lemma": "luxuriously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "奢華地"
+      },
+      {
+        "lemma": "luxuriate",
+        "partOfSpeech": "verb",
+        "meaningZh": "盡情享受"
       }
     ],
     "tags": [
@@ -2407,19 +3105,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "lavish",
-        "noteZh": "奢華鋪張的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "austere",
-        "noteZh": "簡樸的"
-      }
-    ]
+    }
   },
   {
     "id": "w_luxury",
@@ -2433,14 +3119,17 @@
       {
         "id": "s_luxury_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "a state of great comfort or elegance, especially one that is not necessary",
         "definitionZh": "奢侈；奢華的享受",
         "usageExplanationZh": "可數或不可數，常見 live in luxury、a luxury item，強調非必需卻令人愉悅的享受。",
-        "examples": [
-          {
-            "en": "Owning a car was once considered a luxury in that country.",
-            "zh": "在那個國家，擁有一輛車曾經被視為一種奢侈。"
-          }
+        "grammarPatterns": [
+          "live in luxury",
+          "a luxury + noun",
+          "the luxury of + V-ing"
         ],
         "collocations": [
           {
@@ -2451,7 +3140,32 @@
             "text": "a luxury item",
             "meaningZh": "奢侈品"
           }
+        ],
+        "examples": [
+          {
+            "en": "Owning a car was once considered a luxury in that country.",
+            "zh": "在那個國家，擁有一輛車曾經被視為一種奢侈。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "opulence",
+        "noteZh": "奢華富麗"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "luxurious",
+        "partOfSpeech": "adjective",
+        "meaningZh": "奢華的"
+      },
+      {
+        "lemma": "luxuriously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "奢華地"
       }
     ],
     "tags": [
@@ -2466,14 +3180,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "opulence",
-        "noteZh": "奢華富麗"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_lynch",
@@ -2487,14 +3194,15 @@
       {
         "id": "s_lynch_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to kill someone, especially by hanging, without a legal trial as an act of mob violence",
         "definitionZh": "私刑處死（尤指未經審判由暴民動用私刑）",
         "usageExplanationZh": "通常指群眾未經司法程序即施以私刑致死，帶有強烈的歷史與社會批判意味。",
-        "examples": [
-          {
-            "en": "The mob threatened to lynch the accused man before police intervened.",
-            "zh": "暴民威脅要對這名被控告的男子動用私刑，直到警方介入。"
-          }
+        "grammarPatterns": [
+          "lynch sb",
+          "threaten to lynch sb"
         ],
         "collocations": [
           {
@@ -2505,7 +3213,22 @@
             "text": "lynch an innocent man",
             "meaningZh": "對無辜男子施以私刑處死"
           }
+        ],
+        "examples": [
+          {
+            "en": "The mob threatened to lynch the accused man before police intervened.",
+            "zh": "暴民威脅要對這名被控告的男子動用私刑，直到警方介入。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "lynching",
+        "partOfSpeech": "noun",
+        "meaningZh": "私刑"
       }
     ],
     "tags": [
@@ -2518,9 +3241,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_lyric",
@@ -2534,14 +3255,15 @@
       {
         "id": "s_lyric_sense_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "the words of a song",
         "definitionZh": "歌詞",
         "usageExplanationZh": "常用複數 lyrics，指歌曲的文字部分，與旋律 melody 相對。",
-        "examples": [
-          {
-            "en": "She wrote the lyrics for the band's new single.",
-            "zh": "她為樂團的新單曲寫了歌詞。"
-          }
+        "grammarPatterns": [
+          "write the lyrics for + noun",
+          "the lyrics of + noun"
         ],
         "collocations": [
           {
@@ -2552,19 +3274,27 @@
             "text": "write lyrics",
             "meaningZh": "作詞"
           }
+        ],
+        "examples": [
+          {
+            "en": "She wrote the lyrics for the band's new single.",
+            "zh": "她為樂團的新單曲寫了歌詞。"
+          }
         ]
       },
       {
         "id": "s_lyric_sense_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "academic"
+        ],
         "definitionEn": "expressing personal emotion in a songlike or poetic way",
         "definitionZh": "抒情的",
         "usageExplanationZh": "常見 lyric poetry／poem，強調表達個人情感、風格優美的詩歌。",
-        "examples": [
-          {
-            "en": "The poet is known for his lyric verses about nature.",
-            "zh": "這位詩人以描寫自然的抒情詩聞名。"
-          }
+        "grammarPatterns": [
+          "lyric + noun",
+          "lyric poetry"
         ],
         "collocations": [
           {
@@ -2575,7 +3305,37 @@
             "text": "a lyric soprano",
             "meaningZh": "抒情女高音"
           }
+        ],
+        "examples": [
+          {
+            "en": "The poet is known for his lyric verses about nature.",
+            "zh": "這位詩人以描寫自然的抒情詩聞名。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "words",
+        "noteZh": "指歌曲的文字，通常用複數"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "lyrical",
+        "partOfSpeech": "adjective",
+        "meaningZh": "抒情的"
+      },
+      {
+        "lemma": "lyricist",
+        "partOfSpeech": "noun",
+        "meaningZh": "作詞者"
+      },
+      {
+        "lemma": "lyricism",
+        "partOfSpeech": "noun",
+        "meaningZh": "抒情性"
       }
     ],
     "tags": [
@@ -2589,14 +3349,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "words",
-        "noteZh": "指歌曲的文字，通常用複數"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_macabre",
@@ -2610,14 +3363,15 @@
       {
         "id": "s_macabre_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "disturbing because concerned with death or violence",
         "definitionZh": "以死亡或暴力為主題的；令人毛骨悚然的",
         "usageExplanationZh": "常修飾 tale、humor、scene 等，帶有詭異、令人不安的氣氛。",
-        "examples": [
-          {
-            "en": "The museum's macabre exhibit featured tools used in medieval executions.",
-            "zh": "博物館這個令人毛骨悚然的展覽展出了中世紀處決所用的工具。"
-          }
+        "grammarPatterns": [
+          "a macabre + noun"
         ],
         "collocations": [
           {
@@ -2628,9 +3382,22 @@
             "text": "macabre humour",
             "meaningZh": "涉及死亡的恐怖幽默"
           }
+        ],
+        "examples": [
+          {
+            "en": "The museum's macabre exhibit featured tools used in medieval executions.",
+            "zh": "博物館這個令人毛骨悚然的展覽展出了中世紀處決所用的工具。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "gruesome",
+        "noteZh": "令人毛骨悚然的"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -2641,14 +3408,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "gruesome",
-        "noteZh": "令人毛骨悚然的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_magical",
@@ -2662,14 +3422,15 @@
       {
         "id": "s_magical_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "having qualities suggestive of magic or producing a wonderful, enchanting effect",
         "definitionZh": "有魔力的；魔幻般的",
         "usageExplanationZh": "可形容真正的魔法，也可比喻氣氛、經驗美好得不可思議，如 a magical evening。",
-        "examples": [
-          {
-            "en": "They spent a magical evening watching the sunset together.",
-            "zh": "他們一起看著日落，度過了一個奇幻美好的夜晚。"
-          }
+        "grammarPatterns": [
+          "a magical + noun"
         ],
         "collocations": [
           {
@@ -2680,7 +3441,37 @@
             "text": "a magical experience",
             "meaningZh": "奇妙迷人的體驗"
           }
+        ],
+        "examples": [
+          {
+            "en": "They spent a magical evening watching the sunset together.",
+            "zh": "他們一起看著日落，度過了一個奇幻美好的夜晚。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "enchanting",
+        "noteZh": "指迷人得如同有魔法的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "magic",
+        "partOfSpeech": "noun",
+        "meaningZh": "魔法"
+      },
+      {
+        "lemma": "magically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "神奇地"
+      },
+      {
+        "lemma": "magician",
+        "partOfSpeech": "noun",
+        "meaningZh": "魔術師"
       }
     ],
     "tags": [
@@ -2693,14 +3484,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "enchanting",
-        "noteZh": "指迷人得如同有魔法的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_magnanimous",
@@ -2714,14 +3498,16 @@
       {
         "id": "s_magnanimous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "generous and forgiving, especially toward a rival or someone in a weaker position",
         "definitionZh": "寬宏大量的；慷慨大度的",
         "usageExplanationZh": "常見 magnanimous in victory，指在自己占優勢時仍展現大度，不趁人之危。",
-        "examples": [
-          {
-            "en": "The winning team was magnanimous in victory, praising their opponents.",
-            "zh": "獲勝的隊伍展現了寬宏大量的風度，稱讚了對手。"
-          }
+        "grammarPatterns": [
+          "be magnanimous in + noun",
+          "a magnanimous + noun"
         ],
         "collocations": [
           {
@@ -2732,7 +3518,37 @@
             "text": "a magnanimous gesture",
             "meaningZh": "寬厚的舉動"
           }
+        ],
+        "examples": [
+          {
+            "en": "The winning team was magnanimous in victory, praising their opponents.",
+            "zh": "獲勝的隊伍展現了寬宏大量的風度，稱讚了對手。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "generous",
+        "noteZh": "寬厚大方的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "petty",
+        "noteZh": "心胸狹窄、斤斤計較的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "magnanimity",
+        "partOfSpeech": "noun",
+        "meaningZh": "寬宏大量"
+      },
+      {
+        "lemma": "magnanimously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "寬宏地"
       }
     ],
     "tags": [
@@ -2746,19 +3562,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "generous",
-        "noteZh": "寬厚大方的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "petty",
-        "noteZh": "心胸狹窄、斤斤計較的"
-      }
-    ]
+    }
   },
   {
     "id": "w_magnetic",
@@ -2772,14 +3576,16 @@
       {
         "id": "s_magnetic_sense_physics",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "having the properties of a magnet, or relating to magnetism",
         "definitionZh": "有磁性的；磁力的",
         "usageExplanationZh": "常見 magnetic field、magnetic force，屬物理學語境，描述磁鐵或磁場的特性。",
-        "examples": [
-          {
-            "en": "The compass needle aligns with the Earth's magnetic field.",
-            "zh": "指南針的指針會與地球的磁場對齊。"
-          }
+        "grammarPatterns": [
+          "a magnetic field",
+          "magnetic + noun"
         ],
         "collocations": [
           {
@@ -2790,26 +3596,63 @@
             "text": "magnetic force",
             "meaningZh": "磁力"
           }
+        ],
+        "examples": [
+          {
+            "en": "The compass needle aligns with the Earth's magnetic field.",
+            "zh": "指南針的指針會與地球的磁場對齊。"
+          }
         ]
       },
       {
         "id": "s_magnetic_sense_personality",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "having a compelling and attractive quality that draws people in",
         "definitionZh": "有魅力的；吸引人的",
         "usageExplanationZh": "常見 magnetic personality／presence，比喻某人具有強烈吸引他人注意與喜愛的特質。",
-        "examples": [
-          {
-            "en": "The speaker had a magnetic presence that captivated the audience.",
-            "zh": "這位講者具有令人著迷的魅力，深深吸引了觀眾。"
-          }
+        "grammarPatterns": [
+          "a magnetic + noun"
         ],
         "collocations": [
           {
             "text": "a magnetic personality",
             "meaningZh": "極具魅力的個性"
           }
+        ],
+        "examples": [
+          {
+            "en": "The speaker had a magnetic presence that captivated the audience.",
+            "zh": "這位講者具有令人著迷的魅力，深深吸引了觀眾。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "charismatic",
+        "noteZh": "指人具有魅力的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "magnet",
+        "partOfSpeech": "noun",
+        "meaningZh": "磁鐵"
+      },
+      {
+        "lemma": "magnetism",
+        "partOfSpeech": "noun",
+        "meaningZh": "磁力；魅力"
+      },
+      {
+        "lemma": "magnetize",
+        "partOfSpeech": "verb",
+        "meaningZh": "使磁化"
       }
     ],
     "tags": [
@@ -2823,14 +3666,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "charismatic",
-        "noteZh": "指人具有魅力的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_magnificent",
@@ -2844,14 +3680,16 @@
       {
         "id": "s_magnificent_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "extremely beautiful, elaborate, or impressive",
         "definitionZh": "壯麗的；宏偉的；出色的",
         "usageExplanationZh": "常修飾 building、view、performance 等，語氣強烈，表達由衷讚嘆。",
-        "examples": [
-          {
-            "en": "The palace offers a magnificent view of the entire valley.",
-            "zh": "這座宮殿可以俯瞰整個山谷的壯麗景色。"
-          }
+        "grammarPatterns": [
+          "a magnificent + noun",
+          "a magnificent view of + noun"
         ],
         "collocations": [
           {
@@ -2862,7 +3700,32 @@
             "text": "a magnificent achievement",
             "meaningZh": "卓越成就"
           }
+        ],
+        "examples": [
+          {
+            "en": "The palace offers a magnificent view of the entire valley.",
+            "zh": "這座宮殿可以俯瞰整個山谷的壯麗景色。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "splendid",
+        "noteZh": "壯麗出色的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "magnificence",
+        "partOfSpeech": "noun",
+        "meaningZh": "壯麗"
+      },
+      {
+        "lemma": "magnificently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "壯麗地"
       }
     ],
     "tags": [
@@ -2877,13 +3740,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "splendid",
-        "noteZh": "壯麗出色的"
-      }
-    ],
-    "antonyms": []
+    }
   }
 ]

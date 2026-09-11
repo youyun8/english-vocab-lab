@@ -11,14 +11,16 @@
       {
         "id": "s_error_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a mistake, especially one that is not intentional",
         "definitionZh": "錯誤；過失",
         "usageExplanationZh": "常見 make an error、a typing/human error，泛指各種類型的錯誤，語氣比 mistake 稍正式。",
-        "examples": [
-          {
-            "en": "The report contained several factual errors.",
-            "zh": "這份報告有幾處事實上的錯誤。"
-          }
+        "grammarPatterns": [
+          "make an error",
+          "an error in + noun"
         ],
         "collocations": [
           {
@@ -29,7 +31,32 @@
             "text": "a margin of error",
             "meaningZh": "誤差範圍"
           }
+        ],
+        "examples": [
+          {
+            "en": "The report contained several factual errors.",
+            "zh": "這份報告有幾處事實上的錯誤。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "mistake",
+        "noteZh": "錯誤或過失"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "err",
+        "partOfSpeech": "verb",
+        "meaningZh": "犯錯；出錯"
+      },
+      {
+        "lemma": "erroneous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "錯誤的"
       }
     ],
     "tags": [
@@ -42,14 +69,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "mistake",
-        "noteZh": "錯誤或過失"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_erstwhile",
@@ -63,21 +83,41 @@
       {
         "id": "s_erstwhile_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "former; previous",
         "definitionZh": "以前的；昔日的",
         "usageExplanationZh": "正式書面用語，直接修飾名詞，如 erstwhile allies/rival，日常對話極少使用。",
-        "examples": [
-          {
-            "en": "The two erstwhile rivals eventually became close friends.",
-            "zh": "這兩位昔日的對手後來成了摯友。"
-          }
+        "grammarPatterns": [
+          "one's erstwhile + noun",
+          "erstwhile + plural noun"
         ],
         "collocations": [
           {
             "text": "an erstwhile ally",
             "meaningZh": "昔日的盟友"
           }
+        ],
+        "examples": [
+          {
+            "en": "The two erstwhile rivals eventually became close friends.",
+            "zh": "這兩位昔日的對手後來成了摯友。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "former",
+        "noteZh": "從前的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "current",
+        "noteZh": "目前的"
       }
     ],
     "tags": [
@@ -90,19 +130,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "former",
-        "noteZh": "從前的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "current",
-        "noteZh": "目前的"
-      }
-    ]
+    }
   },
   {
     "id": "w_erudite",
@@ -116,21 +144,48 @@
       {
         "id": "s_erudite_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "having or showing great knowledge, especially gained from books",
         "definitionZh": "博學的；學識淵博的",
         "usageExplanationZh": "正式用語，常修飾 scholar、essay、lecture，強調透過廣泛閱讀累積的深厚學識。",
-        "examples": [
-          {
-            "en": "The professor gave an erudite lecture on ancient philosophy.",
-            "zh": "這位教授就古代哲學發表了一場學識淵博的演講。"
-          }
+        "grammarPatterns": [
+          "an erudite + noun",
+          "be erudite in + noun"
         ],
         "collocations": [
           {
             "text": "an erudite scholar",
             "meaningZh": "博學的學者"
           }
+        ],
+        "examples": [
+          {
+            "en": "The professor gave an erudite lecture on ancient philosophy.",
+            "zh": "這位教授就古代哲學發表了一場學識淵博的演講。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "learned",
+        "noteZh": "學識淵博的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "ignorant",
+        "noteZh": "缺乏知識的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "erudition",
+        "partOfSpeech": "noun",
+        "meaningZh": "博學；學識"
       }
     ],
     "tags": [
@@ -144,19 +199,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "learned",
-        "noteZh": "學識淵博的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "ignorant",
-        "noteZh": "缺乏知識的"
-      }
-    ]
+    }
   },
   {
     "id": "w_erupt",
@@ -170,21 +213,43 @@
       {
         "id": "s_erupt_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "(of a volcano) to explode and release lava, ash, and gas suddenly and violently",
         "definitionZh": "（火山）爆發",
         "usageExplanationZh": "常見 the volcano erupted，也可比喻性地形容情緒、暴力或衝突突然爆發，如 violence erupted。",
-        "examples": [
-          {
-            "en": "The volcano erupted without warning, forcing residents to evacuate.",
-            "zh": "火山毫無預警地爆發，迫使居民撤離。"
-          }
+        "grammarPatterns": [
+          "a volcano erupts",
+          "erupt violently"
         ],
         "collocations": [
           {
             "text": "a volcano erupts",
             "meaningZh": "火山爆發"
           }
+        ],
+        "examples": [
+          {
+            "en": "The volcano erupted without warning, forcing residents to evacuate.",
+            "zh": "火山毫無預警地爆發，迫使居民撤離。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "eruption",
+        "partOfSpeech": "noun",
+        "meaningZh": "（火山）爆發"
+      },
+      {
+        "lemma": "eruptive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "噴發的"
       }
     ],
     "tags": [
@@ -199,9 +264,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_escalation",
@@ -215,21 +278,53 @@
       {
         "id": "s_escalation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "a rapid increase or worsening of something, especially a conflict",
         "definitionZh": "升高；惡化；升級",
         "usageExplanationZh": "常見 escalation of violence/tension，強調衝突或問題規模、程度快速加劇。",
-        "examples": [
-          {
-            "en": "Diplomats are trying to prevent further escalation of the conflict.",
-            "zh": "外交官正努力防止衝突進一步升級。"
-          }
+        "grammarPatterns": [
+          "an escalation in + noun",
+          "the escalation of + noun"
         ],
         "collocations": [
           {
             "text": "an escalation of violence",
             "meaningZh": "暴力升級"
           }
+        ],
+        "examples": [
+          {
+            "en": "Diplomats are trying to prevent further escalation of the conflict.",
+            "zh": "外交官正努力防止衝突進一步升級。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "intensification",
+        "noteZh": "程度加劇"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "de-escalation",
+        "noteZh": "緩和或降低衝突程度"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "escalate",
+        "partOfSpeech": "verb",
+        "meaningZh": "使升級；逐步上升"
+      },
+      {
+        "lemma": "escalator",
+        "partOfSpeech": "noun",
+        "meaningZh": "電扶梯"
       }
     ],
     "tags": [
@@ -242,19 +337,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "intensification",
-        "noteZh": "程度加劇"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "de-escalation",
-        "noteZh": "緩和或降低衝突程度"
-      }
-    ]
+    }
   },
   {
     "id": "w_escape",
@@ -268,21 +351,52 @@
       {
         "id": "s_escape_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "an act of breaking free from confinement or danger",
         "definitionZh": "逃脫；逃離",
         "usageExplanationZh": "常見 a narrow/prison escape；也可比喻性地指逃避現實，如 an escape from reality。",
-        "examples": [
-          {
-            "en": "The prisoners planned their escape for months.",
-            "zh": "囚犯們計畫這次逃獄已經好幾個月了。"
-          }
+        "grammarPatterns": [
+          "an escape from + noun",
+          "make one's escape"
         ],
         "collocations": [
           {
             "text": "a narrow escape",
             "meaningZh": "僥倖脫險"
           }
+        ],
+        "examples": [
+          {
+            "en": "The prisoners planned their escape for months.",
+            "zh": "囚犯們計畫這次逃獄已經好幾個月了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "getaway",
+        "noteZh": "成功脫身或逃走"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "escapee",
+        "partOfSpeech": "noun",
+        "meaningZh": "逃亡者"
+      },
+      {
+        "lemma": "escapism",
+        "partOfSpeech": "noun",
+        "meaningZh": "逃避現實"
+      },
+      {
+        "lemma": "inescapable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "無可避免的"
       }
     ],
     "tags": [
@@ -295,14 +409,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "getaway",
-        "noteZh": "成功脫身或逃走"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_esoteric",
@@ -316,21 +423,48 @@
       {
         "id": "s_esoteric_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "intended for or understood by only a small number of people with specialized knowledge",
         "definitionZh": "深奧難懂的；只有少數專家能懂的",
         "usageExplanationZh": "常修飾 subject、knowledge、interest，強調內容過於專門，一般人難以理解或接觸。",
-        "examples": [
-          {
-            "en": "The lecture covered some fairly esoteric aspects of quantum theory.",
-            "zh": "這場講座涵蓋了量子理論中相當深奧的部分。"
-          }
+        "grammarPatterns": [
+          "an esoteric + noun",
+          "esoteric + plural noun"
         ],
         "collocations": [
           {
             "text": "esoteric knowledge",
             "meaningZh": "深奧的專門知識"
           }
+        ],
+        "examples": [
+          {
+            "en": "The lecture covered some fairly esoteric aspects of quantum theory.",
+            "zh": "這場講座涵蓋了量子理論中相當深奧的部分。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "arcane",
+        "noteZh": "只有少數人了解的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "accessible",
+        "noteZh": "容易理解的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "esotericism",
+        "partOfSpeech": "noun",
+        "meaningZh": "祕傳學說；深奧之學"
       }
     ],
     "tags": [
@@ -343,19 +477,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "arcane",
-        "noteZh": "只有少數人了解的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "accessible",
-        "noteZh": "容易理解的"
-      }
-    ]
+    }
   },
   {
     "id": "w_espouse",
@@ -369,21 +491,48 @@
       {
         "id": "s_espouse_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to support or adopt a belief, cause, or way of life",
         "definitionZh": "支持；擁護（信念或主張）",
         "usageExplanationZh": "正式用語，常見 espouse a cause/philosophy，強調公開表態支持某種理念或立場。",
-        "examples": [
-          {
-            "en": "The organization espouses a policy of nonviolent resistance.",
-            "zh": "這個組織支持非暴力抵抗的政策。"
-          }
+        "grammarPatterns": [
+          "espouse + noun",
+          "espouse a policy of + noun"
         ],
         "collocations": [
           {
             "text": "espouse a cause",
             "meaningZh": "擁護一項理念"
           }
+        ],
+        "examples": [
+          {
+            "en": "The organization espouses a policy of nonviolent resistance.",
+            "zh": "這個組織支持非暴力抵抗的政策。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "advocate",
+        "noteZh": "公開支持主張"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "reject",
+        "noteZh": "拒絕接受主張"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "espousal",
+        "partOfSpeech": "noun",
+        "meaningZh": "支持；擁護"
       }
     ],
     "tags": [
@@ -396,19 +545,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "advocate",
-        "noteZh": "公開支持主張"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "reject",
-        "noteZh": "拒絕接受主張"
-      }
-    ]
+    }
   },
   {
     "id": "w_essence",
@@ -422,14 +559,16 @@
       {
         "id": "s_essence_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the most important quality or characteristic that makes something what it is",
         "definitionZh": "本質；精髓",
         "usageExplanationZh": "常見 the essence of something，也可用片語 in essence（本質上、基本上）作副詞用法。",
-        "examples": [
-          {
-            "en": "Simplicity is the essence of good design.",
-            "zh": "簡約是優良設計的精髓。"
-          }
+        "grammarPatterns": [
+          "the essence of + noun",
+          "in essence"
         ],
         "collocations": [
           {
@@ -440,7 +579,32 @@
             "text": "the essence of",
             "meaningZh": "……的精髓"
           }
+        ],
+        "examples": [
+          {
+            "en": "Simplicity is the essence of good design.",
+            "zh": "簡約是優良設計的精髓。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "core",
+        "noteZh": "最核心的特質"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "essential",
+        "partOfSpeech": "adjective",
+        "meaningZh": "必要的；本質的"
+      },
+      {
+        "lemma": "essentially",
+        "partOfSpeech": "adverb",
+        "meaningZh": "本質上；基本上"
       }
     ],
     "tags": [
@@ -454,14 +618,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "core",
-        "noteZh": "最核心的特質"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_etch",
@@ -475,23 +632,38 @@
       {
         "id": "s_etch_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "literary"
+        ],
         "definitionEn": "to cut or engrave a design onto a hard surface using acid or a sharp tool",
         "definitionZh": "蝕刻；雕刻",
         "usageExplanationZh": "常見於工藝或印刷技術，如 etch a pattern onto glass；也可比喻性地指深刻印在記憶中，如 etched in memory。",
-        "examples": [
-          {
-            "en": "The artist etched intricate patterns onto the metal plate.",
-            "zh": "這位藝術家在金屬板上蝕刻出精細的圖案。"
-          }
+        "grammarPatterns": [
+          "etch sth onto + noun",
+          "be etched in + noun"
         ],
         "collocations": [
           {
             "text": "etch a design into glass",
             "meaningZh": "在玻璃上蝕刻圖案"
           }
+        ],
+        "examples": [
+          {
+            "en": "The artist etched intricate patterns onto the metal plate.",
+            "zh": "這位藝術家在金屬板上蝕刻出精細的圖案。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "engrave",
+        "noteZh": "在表面刻出圖案或文字"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -503,14 +675,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "engrave",
-        "noteZh": "在表面刻出圖案或文字"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_eternal",
@@ -524,21 +689,53 @@
       {
         "id": "s_eternal_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "lasting forever; without beginning or end",
         "definitionZh": "永恆的；永久的",
         "usageExplanationZh": "常修飾 love、life、struggle，帶有詩意或誇飾語氣，也可用於宗教語境（eternal life）。",
-        "examples": [
-          {
-            "en": "Poets have long written about the idea of eternal love.",
-            "zh": "詩人長久以來一直書寫著永恆之愛的概念。"
-          }
+        "grammarPatterns": [
+          "eternal + noun",
+          "seem eternal"
         ],
         "collocations": [
           {
             "text": "eternal life",
             "meaningZh": "永生"
           }
+        ],
+        "examples": [
+          {
+            "en": "Poets have long written about the idea of eternal love.",
+            "zh": "詩人長久以來一直書寫著永恆之愛的概念。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "everlasting",
+        "noteZh": "永遠持續的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "temporary",
+        "noteZh": "暫時的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "eternity",
+        "partOfSpeech": "noun",
+        "meaningZh": "永恆"
+      },
+      {
+        "lemma": "eternally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "永遠地"
       }
     ],
     "tags": [
@@ -553,19 +750,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "everlasting",
-        "noteZh": "永遠持續的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "temporary",
-        "noteZh": "暫時的"
-      }
-    ]
+    }
   },
   {
     "id": "w_ethereal",
@@ -579,21 +764,42 @@
       {
         "id": "s_ethereal_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary"
+        ],
         "definitionEn": "extremely delicate and light in a way that seems too perfect for this world",
         "definitionZh": "空靈的；縹緲的",
         "usageExplanationZh": "常修飾 beauty、music、light，強調輕盈、脫俗，帶有夢幻或超凡的美感，語氣文學化。",
-        "examples": [
-          {
-            "en": "The singer's ethereal voice captivated the entire audience.",
-            "zh": "這位歌手空靈的嗓音迷倒了全場觀眾。"
-          }
+        "grammarPatterns": [
+          "an ethereal + noun",
+          "almost ethereal"
         ],
         "collocations": [
           {
             "text": "ethereal beauty",
             "meaningZh": "空靈之美"
           }
+        ],
+        "examples": [
+          {
+            "en": "The singer's ethereal voice captivated the entire audience.",
+            "zh": "這位歌手空靈的嗓音迷倒了全場觀眾。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "otherworldly",
+        "noteZh": "帶有超凡脫俗之感"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "ethereally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "空靈地；縹緲地"
       }
     ],
     "tags": [
@@ -606,14 +812,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "otherworldly",
-        "noteZh": "帶有超凡脫俗之感"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_ethics",
@@ -627,21 +826,53 @@
       {
         "id": "s_ethics_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "moral principles that govern a person's or group's behavior",
         "definitionZh": "倫理；道德規範",
         "usageExplanationZh": "常作不可數（單複數同形），如 medical/business ethics，指某領域的道德準則體系。",
-        "examples": [
-          {
-            "en": "Doctors must follow strict codes of medical ethics.",
-            "zh": "醫師必須遵守嚴格的醫學倫理規範。"
-          }
+        "grammarPatterns": [
+          "a code of ethics",
+          "the ethics of + noun"
         ],
         "collocations": [
           {
             "text": "professional ethics",
             "meaningZh": "職業倫理"
           }
+        ],
+        "examples": [
+          {
+            "en": "Doctors must follow strict codes of medical ethics.",
+            "zh": "醫師必須遵守嚴格的醫學倫理規範。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "moral principles",
+        "noteZh": "指行為所依循的道德原則"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "ethical",
+        "partOfSpeech": "adjective",
+        "meaningZh": "合乎道德的；倫理的"
+      },
+      {
+        "lemma": "ethically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "道德上地"
+      },
+      {
+        "lemma": "unethical",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不道德的"
       }
     ],
     "tags": [
@@ -655,14 +886,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "moral principles",
-        "noteZh": "指行為所依循的道德原則"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_eulogy",
@@ -676,21 +900,48 @@
       {
         "id": "s_eulogy_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "a speech or piece of writing that praises someone, especially someone who has recently died",
         "definitionZh": "悼詞；頌詞",
         "usageExplanationZh": "常見 deliver/give a eulogy，通常在葬禮上發表，讚揚逝者的生平與品德。",
-        "examples": [
-          {
-            "en": "Her closest friend delivered a moving eulogy at the funeral.",
-            "zh": "她最親近的朋友在葬禮上發表了一段感人的悼詞。"
-          }
+        "grammarPatterns": [
+          "deliver a eulogy",
+          "a eulogy for + noun"
         ],
         "collocations": [
           {
             "text": "deliver a eulogy",
             "meaningZh": "致悼詞"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her closest friend delivered a moving eulogy at the funeral.",
+            "zh": "她最親近的朋友在葬禮上發表了一段感人的悼詞。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "tribute",
+        "noteZh": "表示讚頌或追思的言辭"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "eulogize",
+        "partOfSpeech": "verb",
+        "meaningZh": "頌揚；致悼詞"
+      },
+      {
+        "lemma": "eulogistic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "頌揚的"
       }
     ],
     "tags": [
@@ -704,14 +955,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "tribute",
-        "noteZh": "表示讚頌或追思的言辭"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_evade",
@@ -725,14 +969,16 @@
       {
         "id": "s_evade_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to avoid dealing with or facing something, especially by cleverness or trickery",
         "definitionZh": "逃避；躲避；規避",
         "usageExplanationZh": "常見 evade taxes/responsibility/the question，強調用巧計或手段避開，帶有負面意味。",
-        "examples": [
-          {
-            "en": "The suspect managed to evade police for several weeks.",
-            "zh": "嫌犯設法躲避警方追捕長達數週。"
-          }
+        "grammarPatterns": [
+          "evade + noun",
+          "evade + V-ing"
         ],
         "collocations": [
           {
@@ -743,7 +989,37 @@
             "text": "evade taxes",
             "meaningZh": "逃稅"
           }
+        ],
+        "examples": [
+          {
+            "en": "The suspect managed to evade police for several weeks.",
+            "zh": "嫌犯設法躲避警方追捕長達數週。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "dodge",
+        "noteZh": "刻意躲避"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "confront",
+        "noteZh": "直接面對問題"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "evasion",
+        "partOfSpeech": "noun",
+        "meaningZh": "逃避；規避"
+      },
+      {
+        "lemma": "evasive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "迴避的；閃爍其詞的"
       }
     ],
     "tags": [
@@ -758,19 +1034,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "dodge",
-        "noteZh": "刻意躲避"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "confront",
-        "noteZh": "直接面對問題"
-      }
-    ]
+    }
   },
   {
     "id": "w_evaluate",
@@ -784,21 +1048,53 @@
       {
         "id": "s_evaluate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "academic",
+          "business"
+        ],
         "definitionEn": "to judge or assess the value, quality, or significance of something",
         "definitionZh": "評估；評鑑",
         "usageExplanationZh": "常見於學術或工作場合，如 evaluate performance/results，語氣中性正式。",
-        "examples": [
-          {
-            "en": "Teachers evaluate student progress at the end of each term.",
-            "zh": "老師在每學期末評估學生的學習進度。"
-          }
+        "grammarPatterns": [
+          "evaluate + noun",
+          "evaluate whether + clause"
         ],
         "collocations": [
           {
             "text": "evaluate the effectiveness of",
             "meaningZh": "評估……的成效"
           }
+        ],
+        "examples": [
+          {
+            "en": "Teachers evaluate student progress at the end of each term.",
+            "zh": "老師在每學期末評估學生的學習進度。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "assess",
+        "noteZh": "評定價值或品質"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "evaluation",
+        "partOfSpeech": "noun",
+        "meaningZh": "評估；評鑑"
+      },
+      {
+        "lemma": "evaluator",
+        "partOfSpeech": "noun",
+        "meaningZh": "評估者"
+      },
+      {
+        "lemma": "reevaluate",
+        "partOfSpeech": "verb",
+        "meaningZh": "重新評估"
       }
     ],
     "tags": [
@@ -812,14 +1108,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "assess",
-        "noteZh": "評定價值或品質"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_evaluation",
@@ -833,21 +1122,48 @@
       {
         "id": "s_evaluation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "business"
+        ],
         "definitionEn": "the process of judging or assessing the value, quality, or significance of something",
         "definitionZh": "評估；評鑑",
         "usageExplanationZh": "常見 a performance/risk evaluation，指評估的過程或結果，語氣正式。",
-        "examples": [
-          {
-            "en": "The company conducts an annual evaluation of all employees.",
-            "zh": "這家公司每年對所有員工進行一次評鑑。"
-          }
+        "grammarPatterns": [
+          "an evaluation of + noun",
+          "conduct an evaluation"
         ],
         "collocations": [
           {
             "text": "a performance evaluation",
             "meaningZh": "績效評估"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company conducts an annual evaluation of all employees.",
+            "zh": "這家公司每年對所有員工進行一次評鑑。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "assessment",
+        "noteZh": "評估過程或結果"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "evaluate",
+        "partOfSpeech": "verb",
+        "meaningZh": "評估；評鑑"
+      },
+      {
+        "lemma": "evaluative",
+        "partOfSpeech": "adjective",
+        "meaningZh": "評價性的"
       }
     ],
     "tags": [
@@ -860,14 +1176,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "assessment",
-        "noteZh": "評估過程或結果"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_evaporation",
@@ -881,21 +1190,53 @@
       {
         "id": "s_evaporation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "the process by which a liquid changes into a vapor",
         "definitionZh": "蒸發（作用）",
         "usageExplanationZh": "科學專有名詞，常見於描述水循環，如 evaporation of water from the ocean。",
-        "examples": [
-          {
-            "en": "Evaporation from the lake increases significantly in summer.",
-            "zh": "夏季時，湖水的蒸發量明顯增加。"
-          }
+        "grammarPatterns": [
+          "the evaporation of + noun",
+          "evaporation from + noun"
         ],
         "collocations": [
           {
             "text": "the rate of evaporation",
             "meaningZh": "蒸發速率"
           }
+        ],
+        "examples": [
+          {
+            "en": "Evaporation from the lake increases significantly in summer.",
+            "zh": "夏季時，湖水的蒸發量明顯增加。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "vaporization",
+        "noteZh": "汽化，範圍也包含沸騰"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "condensation",
+        "noteZh": "由氣體凝結為液體"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "evaporate",
+        "partOfSpeech": "verb",
+        "meaningZh": "蒸發"
+      },
+      {
+        "lemma": "vapor",
+        "partOfSpeech": "noun",
+        "meaningZh": "蒸氣"
       }
     ],
     "tags": [
@@ -908,19 +1249,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "vaporization",
-        "noteZh": "汽化，範圍也包含沸騰"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "condensation",
-        "noteZh": "由氣體凝結為液體"
-      }
-    ]
+    }
   },
   {
     "id": "w_evasive",
@@ -934,21 +1263,57 @@
       {
         "id": "s_evasive_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "deliberately vague or ambiguous in order to avoid answering directly",
         "definitionZh": "迴避的；閃爍其詞的",
         "usageExplanationZh": "常修飾 answer、response，或用 be evasive about，強調刻意不正面回應以避開問題。",
-        "examples": [
-          {
-            "en": "He gave an evasive answer when asked about the missing funds.",
-            "zh": "被問及失蹤資金時，他給出了一個閃爍其詞的答案。"
-          }
+        "grammarPatterns": [
+          "an evasive + noun",
+          "be evasive about + noun"
         ],
         "collocations": [
           {
             "text": "an evasive answer",
             "meaningZh": "閃爍其詞的回答"
           }
+        ],
+        "examples": [
+          {
+            "en": "He gave an evasive answer when asked about the missing funds.",
+            "zh": "被問及失蹤資金時，他給出了一個閃爍其詞的答案。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "noncommittal",
+        "noteZh": "不願明確表態的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "forthright",
+        "noteZh": "直接坦率的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "evade",
+        "partOfSpeech": "verb",
+        "meaningZh": "逃避；規避"
+      },
+      {
+        "lemma": "evasion",
+        "partOfSpeech": "noun",
+        "meaningZh": "規避；逃避"
+      },
+      {
+        "lemma": "evasively",
+        "partOfSpeech": "adverb",
+        "meaningZh": "閃爍其詞地"
       }
     ],
     "tags": [
@@ -962,19 +1327,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "noncommittal",
-        "noteZh": "不願明確表態的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "forthright",
-        "noteZh": "直接坦率的"
-      }
-    ]
+    }
   },
   {
     "id": "w_evenly",
@@ -988,21 +1341,53 @@
       {
         "id": "s_evenly_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "in a smooth, regular, or equal manner across an area or among a group",
         "definitionZh": "均勻地；平均地",
         "usageExplanationZh": "常見 spread evenly、divide evenly，強調分布或分配上沒有明顯差異。",
-        "examples": [
-          {
-            "en": "Spread the butter evenly across the bread.",
-            "zh": "把奶油均勻地塗抹在麵包上。"
-          }
+        "grammarPatterns": [
+          "spread sth evenly",
+          "evenly + past participle"
         ],
         "collocations": [
           {
             "text": "distribute evenly",
             "meaningZh": "均勻分配"
           }
+        ],
+        "examples": [
+          {
+            "en": "Spread the butter evenly across the bread.",
+            "zh": "把奶油均勻地塗抹在麵包上。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "uniformly",
+        "noteZh": "各處一致地"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "unevenly",
+        "noteZh": "不均勻地"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "even",
+        "partOfSpeech": "adjective",
+        "meaningZh": "平均的；平坦的"
+      },
+      {
+        "lemma": "evenness",
+        "partOfSpeech": "noun",
+        "meaningZh": "均勻；平坦"
       }
     ],
     "tags": [
@@ -1015,19 +1400,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "uniformly",
-        "noteZh": "各處一致地"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "unevenly",
-        "noteZh": "不均勻地"
-      }
-    ]
+    }
   },
   {
     "id": "w_eventual",
@@ -1041,21 +1414,51 @@
       {
         "id": "s_eventual_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "happening or existing at the end of a process or period of time",
         "definitionZh": "最終的；終究的",
         "usageExplanationZh": "只作修飾詞置於名詞前，不用於表語，如 the eventual outcome/winner。",
-        "examples": [
-          {
-            "en": "Despite early setbacks, the eventual outcome was positive.",
-            "zh": "儘管早期遭遇挫折，最終的結果仍是正面的。"
-          }
+        "grammarPatterns": [
+          "the eventual + noun"
         ],
         "collocations": [
           {
             "text": "the eventual winner",
             "meaningZh": "最終的贏家"
           }
+        ],
+        "examples": [
+          {
+            "en": "Despite early setbacks, the eventual outcome was positive.",
+            "zh": "儘管早期遭遇挫折，最終的結果仍是正面的。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "ultimate",
+        "noteZh": "最後出現或達到的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "initial",
+        "noteZh": "最初的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "eventually",
+        "partOfSpeech": "adverb",
+        "meaningZh": "最終；終於"
+      },
+      {
+        "lemma": "event",
+        "partOfSpeech": "noun",
+        "meaningZh": "事件"
       }
     ],
     "tags": [
@@ -1068,19 +1471,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "ultimate",
-        "noteZh": "最後出現或達到的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "initial",
-        "noteZh": "最初的"
-      }
-    ]
+    }
   },
   {
     "id": "w_evict",
@@ -1094,21 +1485,43 @@
       {
         "id": "s_evict_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to legally force someone to leave a property they are renting or occupying",
         "definitionZh": "驅逐；逐出（房客）",
         "usageExplanationZh": "法律用語，常見被動 be evicted from，通常指房東依法讓房客搬離。",
-        "examples": [
-          {
-            "en": "The landlord threatened to evict the tenants for unpaid rent.",
-            "zh": "房東威脅要因積欠房租而驅逐房客。"
-          }
+        "grammarPatterns": [
+          "evict sb from + noun",
+          "be evicted for + noun"
         ],
         "collocations": [
           {
             "text": "evict a tenant",
             "meaningZh": "驅逐房客"
           }
+        ],
+        "examples": [
+          {
+            "en": "The landlord threatened to evict the tenants for unpaid rent.",
+            "zh": "房東威脅要因積欠房租而驅逐房客。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "expel",
+        "noteZh": "強制逐出，語義較廣"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "eviction",
+        "partOfSpeech": "noun",
+        "meaningZh": "驅逐；逐出"
       }
     ],
     "tags": [
@@ -1122,14 +1535,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "expel",
-        "noteZh": "強制逐出，語義較廣"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_eviction",
@@ -1143,21 +1549,43 @@
       {
         "id": "s_eviction_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "the act of legally forcing someone to leave a property",
         "definitionZh": "驅逐；逐出（法律行動）",
         "usageExplanationZh": "常見 an eviction notice/order，指依法要求房客遷出的正式程序或通知。",
-        "examples": [
-          {
-            "en": "The family received an eviction notice from their landlord.",
-            "zh": "這戶人家收到了房東的驅逐通知。"
-          }
+        "grammarPatterns": [
+          "an eviction notice",
+          "the eviction of + noun"
         ],
         "collocations": [
           {
             "text": "an eviction notice",
             "meaningZh": "驅逐通知"
           }
+        ],
+        "examples": [
+          {
+            "en": "The family received an eviction notice from their landlord.",
+            "zh": "這戶人家收到了房東的驅逐通知。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "expulsion",
+        "noteZh": "強制逐出，語義較廣"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "evict",
+        "partOfSpeech": "verb",
+        "meaningZh": "驅逐；逐出"
       }
     ],
     "tags": [
@@ -1170,14 +1598,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "expulsion",
-        "noteZh": "強制逐出，語義較廣"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_evidence",
@@ -1191,21 +1612,48 @@
       {
         "id": "s_evidence_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "facts, objects, or information that indicate whether something is true or valid",
         "definitionZh": "證據；證明",
         "usageExplanationZh": "不可數名詞，常見 provide/lack evidence，也可用 evidence of 表示某事的跡象或證明。",
-        "examples": [
-          {
-            "en": "There is strong evidence to support the new theory.",
-            "zh": "有強而有力的證據支持這項新理論。"
-          }
+        "grammarPatterns": [
+          "evidence for + noun",
+          "evidence that + clause"
         ],
         "collocations": [
           {
             "text": "compelling evidence",
             "meaningZh": "有說服力的證據"
           }
+        ],
+        "examples": [
+          {
+            "en": "There is strong evidence to support the new theory.",
+            "zh": "有強而有力的證據支持這項新理論。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "proof",
+        "noteZh": "證明事實的材料，通常表示較確定的證據"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "evident",
+        "partOfSpeech": "adjective",
+        "meaningZh": "明顯的；顯而易見的"
+      },
+      {
+        "lemma": "evidently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "顯然地"
       }
     ],
     "tags": [
@@ -1219,14 +1667,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "proof",
-        "noteZh": "證明事實的材料，通常表示較確定的證據"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_evident",
@@ -1240,21 +1681,58 @@
       {
         "id": "s_evident_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "clearly seen or understood; obvious",
         "definitionZh": "明顯的；顯而易見的",
         "usageExplanationZh": "常用 it is evident that... 或 evident from，語氣比 obvious 略正式，常見於書面分析。",
-        "examples": [
-          {
-            "en": "It was evident from her expression that she was upset.",
-            "zh": "從她的表情可以明顯看出她很不高興。"
-          }
+        "grammarPatterns": [
+          "it is evident that + clause",
+          "be evident from + noun"
         ],
         "collocations": [
           {
             "text": "it is evident that",
             "meaningZh": "顯然"
           }
+        ],
+        "examples": [
+          {
+            "en": "It was evident from her expression that she was upset.",
+            "zh": "從她的表情可以明顯看出她很不高興。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "obvious",
+        "noteZh": "清楚明白的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "obscure",
+        "noteZh": "不明顯或難理解的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "evidence",
+        "partOfSpeech": "noun",
+        "meaningZh": "證據；證明"
+      },
+      {
+        "lemma": "evidently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "顯然地"
+      },
+      {
+        "lemma": "self-evident",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不證自明的"
       }
     ],
     "tags": [
@@ -1267,19 +1745,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "obvious",
-        "noteZh": "清楚明白的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "obscure",
-        "noteZh": "不明顯或難理解的"
-      }
-    ]
+    }
   },
   {
     "id": "w_evocative",
@@ -1293,21 +1759,48 @@
       {
         "id": "s_evocative_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "bringing strong images, memories, or feelings to mind",
         "definitionZh": "引人聯想的；喚起（回憶或情感）的",
         "usageExplanationZh": "常接 of，如 evocative of childhood，用於描述能喚起特定情感或回憶的事物，如音樂、氣味或文字。",
-        "examples": [
-          {
-            "en": "The old photographs were evocative of a simpler time.",
-            "zh": "那些老照片令人聯想起一個較單純的年代。"
-          }
+        "grammarPatterns": [
+          "be evocative of + noun",
+          "an evocative + noun"
         ],
         "collocations": [
           {
             "text": "evocative of",
             "meaningZh": "令人聯想到"
           }
+        ],
+        "examples": [
+          {
+            "en": "The old photographs were evocative of a simpler time.",
+            "zh": "那些老照片令人聯想起一個較單純的年代。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "suggestive",
+        "noteZh": "能讓人產生聯想的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "evoke",
+        "partOfSpeech": "verb",
+        "meaningZh": "喚起；引起"
+      },
+      {
+        "lemma": "evocation",
+        "partOfSpeech": "noun",
+        "meaningZh": "喚起；引發"
       }
     ],
     "tags": [
@@ -1320,14 +1813,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "suggestive",
-        "noteZh": "能讓人產生聯想的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_evoke",
@@ -1341,21 +1827,48 @@
       {
         "id": "s_evoke_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to bring a feeling, memory, or image into someone's mind",
         "definitionZh": "喚起；引起（情感、回憶或聯想）",
         "usageExplanationZh": "及物動詞，常接 memories、emotions、images，強調某事物觸發特定的心理反應。",
-        "examples": [
-          {
-            "en": "The scent of pine evokes memories of childhood winters.",
-            "zh": "松樹的氣味喚起了她對童年冬天的回憶。"
-          }
+        "grammarPatterns": [
+          "evoke + noun",
+          "evoke memories of + noun"
         ],
         "collocations": [
           {
             "text": "evoke memories",
             "meaningZh": "喚起回憶"
           }
+        ],
+        "examples": [
+          {
+            "en": "The scent of pine evokes memories of childhood winters.",
+            "zh": "松樹的氣味喚起了她對童年冬天的回憶。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "arouse",
+        "noteZh": "喚起情感或反應"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "evocative",
+        "partOfSpeech": "adjective",
+        "meaningZh": "引人聯想的"
+      },
+      {
+        "lemma": "evocation",
+        "partOfSpeech": "noun",
+        "meaningZh": "喚起；引發"
       }
     ],
     "tags": [
@@ -1370,14 +1883,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "arouse",
-        "noteZh": "喚起情感或反應"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_evolution",
@@ -1391,21 +1897,53 @@
       {
         "id": "s_evolution_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "the gradual process by which species develop over generations, or the gradual development of something over time",
         "definitionZh": "演化；（緩慢的）發展過程",
         "usageExplanationZh": "常見生物學語境（Darwin's theory of evolution），也可泛指任何事物隨時間逐漸發展，如 the evolution of technology。",
-        "examples": [
-          {
-            "en": "The evolution of smartphones has changed how we communicate.",
-            "zh": "智慧型手機的演變改變了我們的溝通方式。"
-          }
+        "grammarPatterns": [
+          "the evolution of + noun",
+          "the theory of evolution"
         ],
         "collocations": [
           {
             "text": "human evolution",
             "meaningZh": "人類演化"
           }
+        ],
+        "examples": [
+          {
+            "en": "The evolution of smartphones has changed how we communicate.",
+            "zh": "智慧型手機的演變改變了我們的溝通方式。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "development",
+        "noteZh": "指逐步發展之義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "evolve",
+        "partOfSpeech": "verb",
+        "meaningZh": "演化；逐漸發展"
+      },
+      {
+        "lemma": "evolutionary",
+        "partOfSpeech": "adjective",
+        "meaningZh": "演化的；漸進式的"
+      },
+      {
+        "lemma": "evolutionist",
+        "partOfSpeech": "noun",
+        "meaningZh": "進化論者"
       }
     ],
     "tags": [
@@ -1419,14 +1957,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "development",
-        "noteZh": "指逐步發展之義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_evolutionary",
@@ -1440,14 +1971,16 @@
       {
         "id": "s_evolutionary_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "relating to evolution, or occurring gradually rather than suddenly",
         "definitionZh": "演化的；漸進式的",
         "usageExplanationZh": "常見 evolutionary biology/theory，也可用於形容非生物領域的漸進式變化，與 revolutionary（革命性、突然的）相對。",
-        "examples": [
-          {
-            "en": "The company took an evolutionary rather than revolutionary approach to change.",
-            "zh": "這家公司採取的是漸進式而非革命性的變革方式。"
-          }
+        "grammarPatterns": [
+          "evolutionary + noun",
+          "an evolutionary approach to + noun"
         ],
         "collocations": [
           {
@@ -1458,7 +1991,37 @@
             "text": "evolutionary change",
             "meaningZh": "漸進的改變"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company took an evolutionary rather than revolutionary approach to change.",
+            "zh": "這家公司採取的是漸進式而非革命性的變革方式。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "gradual",
+        "noteZh": "限逐漸發展之義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "revolutionary",
+        "noteZh": "對應漸進之義，指劇烈變革的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "evolution",
+        "partOfSpeech": "noun",
+        "meaningZh": "演化；發展"
+      },
+      {
+        "lemma": "evolve",
+        "partOfSpeech": "verb",
+        "meaningZh": "演化；發展"
       }
     ],
     "tags": [
@@ -1471,19 +2034,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "gradual",
-        "noteZh": "限逐漸發展之義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "revolutionary",
-        "noteZh": "對應漸進之義，指劇烈變革的"
-      }
-    ]
+    }
   },
   {
     "id": "w_evolve",
@@ -1497,21 +2048,48 @@
       {
         "id": "s_evolve_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "academic",
+          "neutral"
+        ],
         "definitionEn": "to develop gradually, especially from a simpler to a more complex form",
         "definitionZh": "演化；逐漸發展",
         "usageExplanationZh": "不及物動詞，常見 evolve over time/into，可指生物演化，也可泛指任何事物的漸進發展。",
-        "examples": [
-          {
-            "en": "The company has evolved from a small startup into a global brand.",
-            "zh": "這家公司已經從一家小型新創企業發展成全球知名品牌。"
-          }
+        "grammarPatterns": [
+          "evolve from + noun",
+          "evolve into + noun"
         ],
         "collocations": [
           {
             "text": "evolve into",
             "meaningZh": "逐漸發展成"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company has evolved from a small startup into a global brand.",
+            "zh": "這家公司已經從一家小型新創企業發展成全球知名品牌。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "develop",
+        "noteZh": "逐步發展"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "evolution",
+        "partOfSpeech": "noun",
+        "meaningZh": "演化；發展過程"
+      },
+      {
+        "lemma": "evolutionary",
+        "partOfSpeech": "adjective",
+        "meaningZh": "演化的"
       }
     ],
     "tags": [
@@ -1525,14 +2103,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "develop",
-        "noteZh": "逐步發展"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_exact",
@@ -1546,14 +2117,16 @@
       {
         "id": "s_exact_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "precise and accurate in every detail",
         "definitionZh": "精確的；確切的",
         "usageExplanationZh": "常修飾 amount、time、location，強調毫無誤差，也可用 to be exact 作插入語補充精確資訊。",
-        "examples": [
-          {
-            "en": "I don't know the exact number of people who attended.",
-            "zh": "我不知道確切有多少人出席。"
-          }
+        "grammarPatterns": [
+          "the exact + noun",
+          "to be exact"
         ],
         "collocations": [
           {
@@ -1564,7 +2137,42 @@
             "text": "an exact match",
             "meaningZh": "完全相符"
           }
+        ],
+        "examples": [
+          {
+            "en": "I don't know the exact number of people who attended.",
+            "zh": "我不知道確切有多少人出席。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "precise",
+        "noteZh": "準確無誤的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "approximate",
+        "noteZh": "大約的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "exactly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "確切地；正是"
+      },
+      {
+        "lemma": "exactitude",
+        "partOfSpeech": "noun",
+        "meaningZh": "精確；準確"
+      },
+      {
+        "lemma": "inexact",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不精確的"
       }
     ],
     "tags": [
@@ -1578,19 +2186,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "precise",
-        "noteZh": "準確無誤的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "approximate",
-        "noteZh": "大約的"
-      }
-    ]
+    }
   },
   {
     "id": "w_exaggerate",
@@ -1604,21 +2200,48 @@
       {
         "id": "s_exaggerate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "spoken"
+        ],
         "definitionEn": "to represent something as being larger, better, worse, or more important than it really is",
         "definitionZh": "誇大；誇張",
         "usageExplanationZh": "及物或不及物動詞，常見 exaggerate the problem/risk，強調言過其實，帶有輕微負面意味。",
-        "examples": [
-          {
-            "en": "He tends to exaggerate his achievements when talking to clients.",
-            "zh": "他和客戶交談時往往會誇大自己的成就。"
-          }
+        "grammarPatterns": [
+          "exaggerate + noun",
+          "tend to exaggerate"
         ],
         "collocations": [
           {
             "text": "exaggerate the importance of",
             "meaningZh": "誇大……的重要性"
           }
+        ],
+        "examples": [
+          {
+            "en": "He tends to exaggerate his achievements when talking to clients.",
+            "zh": "他和客戶交談時往往會誇大自己的成就。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "overstate",
+        "noteZh": "把程度說得過高"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "understate",
+        "noteZh": "把程度說得過低"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "exaggeration",
+        "partOfSpeech": "noun",
+        "meaningZh": "誇張；誇大之詞"
       }
     ],
     "tags": [
@@ -1633,19 +2256,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "overstate",
-        "noteZh": "把程度說得過高"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "understate",
-        "noteZh": "把程度說得過低"
-      }
-    ]
+    }
   },
   {
     "id": "w_exaggeration",
@@ -1659,21 +2270,47 @@
       {
         "id": "s_exaggeration_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a statement that represents something as larger, better, or worse than it really is",
         "definitionZh": "誇張；誇大之詞",
         "usageExplanationZh": "常見 without exaggeration、it's no exaggeration to say...，用於強調敘述並非言過其實。",
-        "examples": [
-          {
-            "en": "It's not an exaggeration to say this was the best meal I've ever had.",
-            "zh": "說這是我吃過最棒的一餐，一點也不誇張。"
-          }
+        "grammarPatterns": [
+          "an exaggeration of + noun",
+          "it is no exaggeration to + V"
         ],
         "collocations": [
           {
             "text": "without exaggeration",
             "meaningZh": "毫不誇張地"
           }
+        ],
+        "examples": [
+          {
+            "en": "It's not an exaggeration to say this was the best meal I've ever had.",
+            "zh": "說這是我吃過最棒的一餐，一點也不誇張。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "overstatement",
+        "noteZh": "言過其實"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "understatement",
+        "noteZh": "輕描淡寫"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "exaggerate",
+        "partOfSpeech": "verb",
+        "meaningZh": "誇大；誇張"
       }
     ],
     "tags": [
@@ -1687,19 +2324,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "overstatement",
-        "noteZh": "言過其實"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "understatement",
-        "noteZh": "輕描淡寫"
-      }
-    ]
+    }
   },
   {
     "id": "w_exasperate",
@@ -1713,21 +2338,47 @@
       {
         "id": "s_exasperate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to make someone extremely irritated or annoyed",
         "definitionZh": "使惱怒；使極度不耐煩",
         "usageExplanationZh": "常見被動 be exasperated by/with，強調因反覆或無法解決的問題而感到氣憤沮喪。",
-        "examples": [
-          {
-            "en": "Her constant excuses exasperated her manager.",
-            "zh": "她不斷找藉口的行為讓她的主管非常惱怒。"
-          }
+        "grammarPatterns": [
+          "exasperate sb",
+          "be exasperated by + noun"
         ],
         "collocations": [
           {
             "text": "exasperate someone with delays",
             "meaningZh": "因延誤使某人惱怒"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her constant excuses exasperated her manager.",
+            "zh": "她不斷找藉口的行為讓她的主管非常惱怒。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "infuriate",
+        "noteZh": "使極度惱怒"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "soothe",
+        "noteZh": "安撫情緒"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "exasperation",
+        "partOfSpeech": "noun",
+        "meaningZh": "惱怒；氣憤"
       }
     ],
     "tags": [
@@ -1742,19 +2393,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "infuriate",
-        "noteZh": "使極度惱怒"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "soothe",
-        "noteZh": "安撫情緒"
-      }
-    ]
+    }
   },
   {
     "id": "w_excavation",
@@ -1768,21 +2407,48 @@
       {
         "id": "s_excavation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "the process of digging in the ground, especially to find buried objects",
         "definitionZh": "挖掘；發掘（考古）",
         "usageExplanationZh": "常見於考古學語境，如 an archaeological excavation，也可指一般的挖掘工程。",
-        "examples": [
-          {
-            "en": "The excavation uncovered pottery dating back centuries.",
-            "zh": "這次挖掘出土了可追溯至數世紀前的陶器。"
-          }
+        "grammarPatterns": [
+          "an archaeological excavation",
+          "the excavation of + noun"
         ],
         "collocations": [
           {
             "text": "an archaeological excavation",
             "meaningZh": "考古發掘"
           }
+        ],
+        "examples": [
+          {
+            "en": "The excavation uncovered pottery dating back centuries.",
+            "zh": "這次挖掘出土了可追溯至數世紀前的陶器。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "digging",
+        "noteZh": "挖掘活動"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "excavate",
+        "partOfSpeech": "verb",
+        "meaningZh": "挖掘；發掘"
+      },
+      {
+        "lemma": "excavator",
+        "partOfSpeech": "noun",
+        "meaningZh": "挖土機；發掘者"
       }
     ],
     "tags": [
@@ -1795,14 +2461,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "digging",
-        "noteZh": "挖掘活動"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_exceed",
@@ -1816,21 +2475,58 @@
       {
         "id": "s_exceed_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to be greater than a particular amount, number, or limit",
         "definitionZh": "超過；超越",
         "usageExplanationZh": "常接 expectations、limit、budget，強調數量或程度超出預期或規定範圍。",
-        "examples": [
-          {
-            "en": "The project's cost exceeded the original budget by 20%.",
-            "zh": "這項專案的成本超出原始預算百分之二十。"
-          }
+        "grammarPatterns": [
+          "exceed + noun",
+          "exceed sth by + noun"
         ],
         "collocations": [
           {
             "text": "exceed expectations",
             "meaningZh": "超出預期"
           }
+        ],
+        "examples": [
+          {
+            "en": "The project's cost exceeded the original budget by 20%.",
+            "zh": "這項專案的成本超出原始預算百分之二十。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "surpass",
+        "noteZh": "超越某數量或水準"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "fall short of",
+        "noteZh": "未達某標準"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "excess",
+        "partOfSpeech": "noun",
+        "meaningZh": "過量；過度"
+      },
+      {
+        "lemma": "excessive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "過度的"
+      },
+      {
+        "lemma": "exceedingly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "極為；非常"
       }
     ],
     "tags": [
@@ -1845,19 +2541,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "surpass",
-        "noteZh": "超越某數量或水準"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "fall short of",
-        "noteZh": "未達某標準"
-      }
-    ]
+    }
   },
   {
     "id": "w_exception",
@@ -1871,14 +2555,15 @@
       {
         "id": "s_exception_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a person or thing that is excluded from a general rule or does not follow the usual pattern",
         "definitionZh": "例外",
         "usageExplanationZh": "常見 with the exception of、make an exception，用於指出不符合一般規則的特殊情況。",
-        "examples": [
-          {
-            "en": "All students must attend, with the exception of those who are ill.",
-            "zh": "所有學生都必須出席，生病者除外。"
-          }
+        "grammarPatterns": [
+          "with the exception of + noun",
+          "an exception to + noun"
         ],
         "collocations": [
           {
@@ -1889,7 +2574,37 @@
             "text": "make an exception",
             "meaningZh": "破例"
           }
+        ],
+        "examples": [
+          {
+            "en": "All students must attend, with the exception of those who are ill.",
+            "zh": "所有學生都必須出席，生病者除外。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "anomaly",
+        "noteZh": "偏離一般情況的事物"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "except",
+        "partOfSpeech": "preposition",
+        "meaningZh": "除…之外"
+      },
+      {
+        "lemma": "exceptional",
+        "partOfSpeech": "adjective",
+        "meaningZh": "例外的；優異的"
+      },
+      {
+        "lemma": "exceptionally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "異常地；格外地"
       }
     ],
     "tags": [
@@ -1903,14 +2618,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "anomaly",
-        "noteZh": "偏離一般情況的事物"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_exceptional",
@@ -1924,21 +2632,58 @@
       {
         "id": "s_exceptional_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "unusually excellent, or not typical of what usually happens",
         "definitionZh": "非凡的；優異的；異常的",
         "usageExplanationZh": "可表示能力或表現極為出色（an exceptional talent），也可表示情況罕見或例外（exceptional circumstances）。",
-        "examples": [
-          {
-            "en": "She showed exceptional talent in mathematics from a young age.",
-            "zh": "她從小就在數學方面展現出非凡的才能。"
-          }
+        "grammarPatterns": [
+          "an exceptional + noun",
+          "in exceptional circumstances"
         ],
         "collocations": [
           {
             "text": "exceptional talent",
             "meaningZh": "傑出的才能"
           }
+        ],
+        "examples": [
+          {
+            "en": "She showed exceptional talent in mathematics from a young age.",
+            "zh": "她從小就在數學方面展現出非凡的才能。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "outstanding",
+        "noteZh": "指特別優秀的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "ordinary",
+        "noteZh": "一般的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "exception",
+        "partOfSpeech": "noun",
+        "meaningZh": "例外"
+      },
+      {
+        "lemma": "exceptionally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "格外地；異常地"
+      },
+      {
+        "lemma": "except",
+        "partOfSpeech": "preposition",
+        "meaningZh": "除…之外"
       }
     ],
     "tags": [
@@ -1953,19 +2698,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "outstanding",
-        "noteZh": "指特別優秀的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "ordinary",
-        "noteZh": "一般的"
-      }
-    ]
+    }
   },
   {
     "id": "w_exceptionally",
@@ -1979,21 +2712,47 @@
       {
         "id": "s_exceptionally_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "unusually or extremely, to a very high or notable degree",
         "definitionZh": "異常地；格外地",
         "usageExplanationZh": "常修飾形容詞，如 exceptionally talented/difficult，強調程度遠超一般水準。",
-        "examples": [
-          {
-            "en": "The weather has been exceptionally cold this winter.",
-            "zh": "今年冬天的天氣異常寒冷。"
-          }
+        "grammarPatterns": [
+          "exceptionally + adjective",
+          "exceptionally well"
         ],
         "collocations": [
           {
             "text": "exceptionally well",
             "meaningZh": "格外出色"
           }
+        ],
+        "examples": [
+          {
+            "en": "The weather has been exceptionally cold this winter.",
+            "zh": "今年冬天的天氣異常寒冷。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "unusually",
+        "noteZh": "超乎尋常地"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "exceptional",
+        "partOfSpeech": "adjective",
+        "meaningZh": "異常的；優異的"
+      },
+      {
+        "lemma": "exception",
+        "partOfSpeech": "noun",
+        "meaningZh": "例外"
       }
     ],
     "tags": [
@@ -2006,14 +2765,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "unusually",
-        "noteZh": "超乎尋常地"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_excerpt",
@@ -2027,42 +2779,65 @@
       {
         "id": "s_excerpt_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "literary"
+        ],
         "definitionEn": "a short extract from a book, film, piece of music, or other work",
         "definitionZh": "摘錄；節錄",
         "usageExplanationZh": "常接 from，如 an excerpt from a novel，指從較長作品中截取的一小段。",
-        "examples": [
-          {
-            "en": "The teacher read an excerpt from the novel aloud in class.",
-            "zh": "老師在課堂上朗讀了這部小說的一段摘錄。"
-          }
+        "grammarPatterns": [
+          "an excerpt from + noun",
+          "read an excerpt"
         ],
         "collocations": [
           {
             "text": "an excerpt from a novel",
             "meaningZh": "小說的節錄"
           }
+        ],
+        "examples": [
+          {
+            "en": "The teacher read an excerpt from the novel aloud in class.",
+            "zh": "老師在課堂上朗讀了這部小說的一段摘錄。"
+          }
         ]
       },
       {
         "id": "s_excerpt_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "to select and reproduce a short passage from a longer work",
         "definitionZh": "摘錄；節選（動詞用法）",
         "usageExplanationZh": "及物動詞，常見被動 be excerpted from，指從原文中選取片段加以引用或出版。",
-        "examples": [
-          {
-            "en": "The article was excerpted from her forthcoming book.",
-            "zh": "這篇文章是從她即將出版的新書中摘錄而來。"
-          }
+        "grammarPatterns": [
+          "be excerpted from + noun",
+          "excerpt sth from + noun"
         ],
         "collocations": [
           {
             "text": "excerpt a passage from a book",
             "meaningZh": "從書中節錄一段文字"
           }
+        ],
+        "examples": [
+          {
+            "en": "The article was excerpted from her forthcoming book.",
+            "zh": "這篇文章是從她即將出版的新書中摘錄而來。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "extract",
+        "noteZh": "從作品節錄的部分"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2075,14 +2850,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "extract",
-        "noteZh": "從作品節錄的部分"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_excess",
@@ -2096,40 +2864,85 @@
       {
         "id": "s_excess_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "an amount of something that is more than necessary, permitted, or reasonable",
         "definitionZh": "過量；過度",
         "usageExplanationZh": "常見 in excess of（超過）、to excess（過度地），強調數量或程度超出合理範圍。",
-        "examples": [
-          {
-            "en": "Drinking alcohol to excess can seriously harm your health.",
-            "zh": "過量飲酒會嚴重損害健康。"
-          }
+        "grammarPatterns": [
+          "an excess of + noun",
+          "in excess of + noun",
+          "to excess"
         ],
         "collocations": [
           {
             "text": "in excess of",
             "meaningZh": "超過"
           }
+        ],
+        "examples": [
+          {
+            "en": "Drinking alcohol to excess can seriously harm your health.",
+            "zh": "過量飲酒會嚴重損害健康。"
+          }
         ]
       },
       {
         "id": "s_excess_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "more than is necessary, usual, or specified",
         "definitionZh": "多餘的；額外的",
         "usageExplanationZh": "直接修飾名詞，如 excess baggage/weight，指超出正常或允許範圍的部分。",
-        "examples": [
-          {
-            "en": "Passengers must pay extra for excess baggage.",
-            "zh": "乘客的行李超重須額外付費。"
-          }
+        "grammarPatterns": [
+          "excess + noun"
         ],
         "collocations": [
           {
             "text": "excess baggage",
             "meaningZh": "超額行李"
           }
+        ],
+        "examples": [
+          {
+            "en": "Passengers must pay extra for excess baggage.",
+            "zh": "乘客的行李超重須額外付費。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "surplus",
+        "noteZh": "超過所需的部分"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "shortage",
+        "noteZh": "對應名詞的不足"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "exceed",
+        "partOfSpeech": "verb",
+        "meaningZh": "超過；超越"
+      },
+      {
+        "lemma": "excessive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "過度的；過分的"
+      },
+      {
+        "lemma": "excessively",
+        "partOfSpeech": "adverb",
+        "meaningZh": "過度地"
       }
     ],
     "tags": [
@@ -2144,19 +2957,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "surplus",
-        "noteZh": "超過所需的部分"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "shortage",
-        "noteZh": "對應名詞的不足"
-      }
-    ]
+    }
   },
   {
     "id": "w_excessive",
@@ -2170,21 +2971,58 @@
       {
         "id": "s_excessive_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "more than what is necessary, normal, or reasonable",
         "definitionZh": "過度的；過分的",
         "usageExplanationZh": "常修飾 amount、cost、force，帶有負面意味，強調程度超出合理範圍。",
-        "examples": [
-          {
-            "en": "The court ruled that the fine was excessive.",
-            "zh": "法院裁定這筆罰款過高。"
-          }
+        "grammarPatterns": [
+          "excessive + noun",
+          "excessive use of + noun"
         ],
         "collocations": [
           {
             "text": "excessive force",
             "meaningZh": "過度武力"
           }
+        ],
+        "examples": [
+          {
+            "en": "The court ruled that the fine was excessive.",
+            "zh": "法院裁定這筆罰款過高。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "undue",
+        "noteZh": "超過合理程度的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "moderate",
+        "noteZh": "適度的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "excess",
+        "partOfSpeech": "noun",
+        "meaningZh": "過量；過度"
+      },
+      {
+        "lemma": "exceed",
+        "partOfSpeech": "verb",
+        "meaningZh": "超過"
+      },
+      {
+        "lemma": "excessively",
+        "partOfSpeech": "adverb",
+        "meaningZh": "過分地"
       }
     ],
     "tags": [
@@ -2197,19 +3035,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "undue",
-        "noteZh": "超過合理程度的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "moderate",
-        "noteZh": "適度的"
-      }
-    ]
+    }
   },
   {
     "id": "w_excitement",
@@ -2223,21 +3049,53 @@
       {
         "id": "s_excitement_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "spoken"
+        ],
         "definitionEn": "a feeling of great enthusiasm and eagerness",
         "definitionZh": "興奮；激動",
         "usageExplanationZh": "不可數名詞，常見 with excitement、in excitement，描述因期待或高興而產生的情緒。",
-        "examples": [
-          {
-            "en": "The children could barely contain their excitement before the trip.",
-            "zh": "孩子們在出發前幾乎無法掩飾內心的興奮。"
-          }
+        "grammarPatterns": [
+          "excitement about + noun",
+          "with great excitement"
         ],
         "collocations": [
           {
             "text": "a sense of excitement",
             "meaningZh": "興奮感"
           }
+        ],
+        "examples": [
+          {
+            "en": "The children could barely contain their excitement before the trip.",
+            "zh": "孩子們在出發前幾乎無法掩飾內心的興奮。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "enthusiasm",
+        "noteZh": "熱切興奮的情緒"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "boredom",
+        "noteZh": "無聊的感覺"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "excite",
+        "partOfSpeech": "verb",
+        "meaningZh": "使興奮；激起"
+      },
+      {
+        "lemma": "excitable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "易激動的"
       }
     ],
     "tags": [
@@ -2251,19 +3109,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "enthusiasm",
-        "noteZh": "熱切興奮的情緒"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "boredom",
-        "noteZh": "無聊的感覺"
-      }
-    ]
+    }
   },
   {
     "id": "w_exclaim",
@@ -2277,21 +3123,48 @@
       {
         "id": "s_exclaim_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "literary",
+          "spoken"
+        ],
         "definitionEn": "to say something suddenly and loudly, especially out of surprise or strong emotion",
         "definitionZh": "喊叫；驚呼",
         "usageExplanationZh": "常見於引述句後，如 \"Wow!\" she exclaimed，強調因驚訝或激動而突然大聲說出。",
-        "examples": [
-          {
-            "en": "\"That's incredible!\" he exclaimed.",
-            "zh": "「太不可思議了！」他驚呼道。"
-          }
+        "grammarPatterns": [
+          "exclaim that + clause",
+          "sb exclaims"
         ],
         "collocations": [
           {
             "text": "exclaim in surprise",
             "meaningZh": "驚訝地叫出聲"
           }
+        ],
+        "examples": [
+          {
+            "en": "\"That's incredible!\" he exclaimed.",
+            "zh": "「太不可思議了！」他驚呼道。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "cry out",
+        "noteZh": "突然大聲說出"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "exclamation",
+        "partOfSpeech": "noun",
+        "meaningZh": "驚呼；感嘆"
+      },
+      {
+        "lemma": "exclamatory",
+        "partOfSpeech": "adjective",
+        "meaningZh": "感嘆的"
       }
     ],
     "tags": [
@@ -2306,14 +3179,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cry out",
-        "noteZh": "突然大聲說出"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_exclamation",
@@ -2327,21 +3193,48 @@
       {
         "id": "s_exclamation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "technical"
+        ],
         "definitionEn": "a sudden, short utterance expressing strong emotion, or the punctuation mark (!) used after it",
         "definitionZh": "驚嘆；感嘆詞；驚嘆號",
         "usageExplanationZh": "常見 an exclamation of surprise/joy，也可指標點符號 exclamation mark/point（驚嘆號）。",
-        "examples": [
-          {
-            "en": "She let out an exclamation of delight when she saw the gift.",
-            "zh": "她看到禮物時發出了一聲驚喜的歡呼。"
-          }
+        "grammarPatterns": [
+          "an exclamation of + noun",
+          "let out an exclamation"
         ],
         "collocations": [
           {
             "text": "an exclamation mark",
             "meaningZh": "驚嘆號"
           }
+        ],
+        "examples": [
+          {
+            "en": "She let out an exclamation of delight when she saw the gift.",
+            "zh": "她看到禮物時發出了一聲驚喜的歡呼。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "cry",
+        "noteZh": "表達強烈情緒的喊聲"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "exclaim",
+        "partOfSpeech": "verb",
+        "meaningZh": "驚呼；喊叫"
+      },
+      {
+        "lemma": "exclamatory",
+        "partOfSpeech": "adjective",
+        "meaningZh": "感嘆的"
       }
     ],
     "tags": [
@@ -2354,14 +3247,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cry",
-        "noteZh": "表達強烈情緒的喊聲"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_exclude",
@@ -2375,21 +3261,58 @@
       {
         "id": "s_exclude_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to prevent someone or something from being included, considered, or allowed",
         "definitionZh": "排除；排斥",
         "usageExplanationZh": "及物動詞，常見被動 be excluded from，強調刻意不將某人或某物納入。",
-        "examples": [
-          {
-            "en": "Vegetarians typically exclude meat and fish from their diet.",
-            "zh": "素食者通常會將肉類和魚類排除在飲食之外。"
-          }
+        "grammarPatterns": [
+          "exclude sb/sth from + noun",
+          "exclude + noun"
         ],
         "collocations": [
           {
             "text": "exclude someone from",
             "meaningZh": "將某人排除於……之外"
           }
+        ],
+        "examples": [
+          {
+            "en": "Vegetarians typically exclude meat and fish from their diet.",
+            "zh": "素食者通常會將肉類和魚類排除在飲食之外。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "leave out",
+        "noteZh": "不把某人事物包括在內"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "include",
+        "noteZh": "包括在內"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "exclusion",
+        "partOfSpeech": "noun",
+        "meaningZh": "排除；排斥"
+      },
+      {
+        "lemma": "exclusive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "排他的；獨家的"
+      },
+      {
+        "lemma": "exclusively",
+        "partOfSpeech": "adverb",
+        "meaningZh": "專門地；僅僅"
       }
     ],
     "tags": [
@@ -2404,19 +3327,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "leave out",
-        "noteZh": "不把某人事物包括在內"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "include",
-        "noteZh": "包括在內"
-      }
-    ]
+    }
   },
   {
     "id": "w_exclusion",
@@ -2430,21 +3341,53 @@
       {
         "id": "s_exclusion_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the act of deliberately not including or allowing someone or something",
         "definitionZh": "排除；排斥",
         "usageExplanationZh": "常見 the exclusion of，也可指社會層面的排斥，如 social exclusion（社會排斥）。",
-        "examples": [
-          {
-            "en": "The policy resulted in the exclusion of many low-income families.",
-            "zh": "這項政策導致許多低收入家庭被排除在外。"
-          }
+        "grammarPatterns": [
+          "the exclusion of + noun",
+          "to the exclusion of + noun"
         ],
         "collocations": [
           {
             "text": "social exclusion",
             "meaningZh": "社會排斥"
           }
+        ],
+        "examples": [
+          {
+            "en": "The policy resulted in the exclusion of many low-income families.",
+            "zh": "這項政策導致許多低收入家庭被排除在外。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "omission",
+        "noteZh": "指未納入的情況"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "inclusion",
+        "noteZh": "納入"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "exclude",
+        "partOfSpeech": "verb",
+        "meaningZh": "排除；排斥"
+      },
+      {
+        "lemma": "exclusive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "排他的"
       }
     ],
     "tags": [
@@ -2457,19 +3400,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "omission",
-        "noteZh": "指未納入的情況"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "inclusion",
-        "noteZh": "納入"
-      }
-    ]
+    }
   },
   {
     "id": "w_exclusive",
@@ -2483,21 +3414,58 @@
       {
         "id": "s_exclusive_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "limited to a particular group of people, especially because of high price or status",
         "definitionZh": "獨家的；專屬的；高級的",
         "usageExplanationZh": "常修飾 club、interview、rights，強調限定特定群體才能享有或取得，也隱含高檔、稀少的意味。",
-        "examples": [
-          {
-            "en": "The magazine got an exclusive interview with the celebrity.",
-            "zh": "這本雜誌獲得了與該名人的獨家專訪。"
-          }
+        "grammarPatterns": [
+          "an exclusive + noun",
+          "be exclusive to + noun"
         ],
         "collocations": [
           {
             "text": "exclusive access",
             "meaningZh": "專屬使用權"
           }
+        ],
+        "examples": [
+          {
+            "en": "The magazine got an exclusive interview with the celebrity.",
+            "zh": "這本雜誌獲得了與該名人的獨家專訪。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "restricted",
+        "noteZh": "限特定人使用的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "inclusive",
+        "noteZh": "廣泛接納的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "exclude",
+        "partOfSpeech": "verb",
+        "meaningZh": "排除"
+      },
+      {
+        "lemma": "exclusivity",
+        "partOfSpeech": "noun",
+        "meaningZh": "獨家性；排他性"
+      },
+      {
+        "lemma": "exclusively",
+        "partOfSpeech": "adverb",
+        "meaningZh": "專門地"
       }
     ],
     "tags": [
@@ -2512,19 +3480,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "restricted",
-        "noteZh": "限特定人使用的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "inclusive",
-        "noteZh": "廣泛接納的"
-      }
-    ]
+    }
   },
   {
     "id": "w_exclusively",
@@ -2538,21 +3494,48 @@
       {
         "id": "s_exclusively_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "only, and not involving anything or anyone else",
         "definitionZh": "專門地；僅僅",
         "usageExplanationZh": "常修飾動詞，如 available exclusively、used exclusively for，強調限定於單一對象或用途。",
-        "examples": [
-          {
-            "en": "This product is available exclusively online.",
-            "zh": "這項產品僅在網路上獨家販售。"
-          }
+        "grammarPatterns": [
+          "exclusively for + noun",
+          "be available exclusively + prepositional phrase"
         ],
         "collocations": [
           {
             "text": "exclusively for members",
             "meaningZh": "會員專用"
           }
+        ],
+        "examples": [
+          {
+            "en": "This product is available exclusively online.",
+            "zh": "這項產品僅在網路上獨家販售。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "solely",
+        "noteZh": "僅限於"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "exclusive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "獨家的；專屬的"
+      },
+      {
+        "lemma": "exclude",
+        "partOfSpeech": "verb",
+        "meaningZh": "排除"
       }
     ],
     "tags": [
@@ -2566,14 +3549,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "solely",
-        "noteZh": "僅限於"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_excursion",
@@ -2587,23 +3563,37 @@
       {
         "id": "s_excursion_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a short trip, especially one taken for pleasure",
         "definitionZh": "短途旅行；遠足",
         "usageExplanationZh": "常見 go on an excursion，指以娛樂為目的的短程外出，常見於旅遊團行程。",
-        "examples": [
-          {
-            "en": "The tour includes a day excursion to the nearby islands.",
-            "zh": "這趟行程包含一日的鄰近島嶼短途旅行。"
-          }
+        "grammarPatterns": [
+          "an excursion to + noun",
+          "go on an excursion"
         ],
         "collocations": [
           {
             "text": "a day excursion",
             "meaningZh": "一日遊"
           }
+        ],
+        "examples": [
+          {
+            "en": "The tour includes a day excursion to the nearby islands.",
+            "zh": "這趟行程包含一日的鄰近島嶼短途旅行。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "outing",
+        "noteZh": "短程遊覽活動"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2616,13 +3606,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "outing",
-        "noteZh": "短程遊覽活動"
-      }
-    ],
-    "antonyms": []
+    }
   }
 ]

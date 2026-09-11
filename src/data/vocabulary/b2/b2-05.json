@@ -60,12 +60,8 @@
             "highlight": "comprehensive"
           }
         ],
-        "commonMistakes": [
-          {
-            "incorrect": "She is very comprehensive about the details.",
-            "correct": "She is very thorough about the details.",
-            "explanationZh": "comprehensive 形容「內容涵蓋完整」，不形容人做事仔細。形容人請用 thorough 或 meticulous。"
-          }
+        "usageNotes": [
+          "comprehensive 形容「內容涵蓋完整」，不形容人做事仔細。形容人請用 thorough 或 meticulous。誤：She is very comprehensive about the details.／正：She is very thorough about the details."
         ]
       }
     ],
@@ -283,17 +279,9 @@
             "highlight": "an emphasis on"
           }
         ],
-        "commonMistakes": [
-          {
-            "incorrect": "We put emphasis in code quality.",
-            "correct": "We put emphasis on code quality.",
-            "explanationZh": "emphasis 固定搭配介系詞 on，不用 in 或 to。"
-          },
-          {
-            "incorrect": "The two emphasis of this report are…",
-            "correct": "The two emphases of this report are…",
-            "explanationZh": "emphasis 的複數是 emphases，不能直接當複數使用。"
-          }
+        "usageNotes": [
+          "emphasis 固定搭配介系詞 on，不用 in 或 to。誤：We put emphasis in code quality.／正：We put emphasis on code quality.",
+          "emphasis 的複數是 emphases，不能直接當複數使用。誤：The two emphasis of this report are…／正：The two emphases of this report are…"
         ]
       }
     ],
@@ -395,12 +383,8 @@
             "highlight": "ensure"
           }
         ],
-        "commonMistakes": [
-          {
-            "incorrect": "I want to ensure you that the data is safe.",
-            "correct": "I want to assure you that the data is safe.",
-            "explanationZh": "ensure 的受詞是「事情」，assure 的受詞才是「人」。向某人保證讓他安心要用 assure somebody that…。"
-          }
+        "usageNotes": [
+          "ensure 的受詞是「事情」，assure 的受詞才是「人」。向某人保證讓他安心要用 assure somebody that…。誤：I want to ensure you that the data is safe.／正：I want to assure you that the data is safe."
         ]
       }
     ],
@@ -508,6 +492,11 @@
         "definitionEn": "a software system that provides a structure for building applications, and calls your code rather than the other way round",
         "definitionZh": "框架（軟體）",
         "usageExplanationZh": "軟體語境中的 framework 與 library 有一個關鍵差別，常被稱為「控制反轉」：使用函式庫時是你的程式呼叫它；使用框架時是框架呼叫你的程式。理解這一點有助於在技術討論中準確用字。",
+        "grammarPatterns": [
+          "a + adjective + framework",
+          "build sth on top of a framework",
+          "migrate from one framework to another"
+        ],
         "collocations": [
           {
             "text": "a web framework",

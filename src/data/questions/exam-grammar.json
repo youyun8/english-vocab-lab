@@ -6,36 +6,36 @@
     "wordIds": [
       "w_abstain"
     ],
-    "prompt": "Which preposition completes the sentence?",
-    "context": "Three members chose to abstain ____ the vote.",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "Two directors declared a conflict of interest and, after a short discussion, ____ from the vote on the proposed merger.",
     "options": [
       {
         "id": "a",
-        "text": "from"
+        "text": "abstained"
       },
       {
         "id": "b",
-        "text": "of"
+        "text": "abstaining"
       },
       {
         "id": "c",
-        "text": "to"
+        "text": "abstention"
       },
       {
         "id": "d",
-        "text": "in"
+        "text": "abstain"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "abstain 固定接 from：abstain from voting／from alcohol，表示「刻意不做某事」。",
+    "explanation": "and 連接兩個並列的主要動詞，前一個是過去式 declared，所以空格也要用過去式限定動詞 abstained；abstain 的搭配是 abstain from + 名詞或動名詞。",
     "distractorExplanations": {
-      "b": "abstain of 不是英文搭配。",
-      "c": "abstain to 不是英文搭配。",
-      "d": "abstain in 不成立；要說 abstain from the vote。"
+      "b": "abstaining 是現在分詞，分詞不能與 declared 並列當主要動詞。",
+      "c": "abstention 是名詞，選它會讓 and 之後的子句沒有動詞。",
+      "d": "abstain 是原形動詞，與前半句的過去式時態不一致。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": [
-      "preposition",
+      "word-form",
       "exam",
       "formal"
     ],
@@ -48,36 +48,36 @@
     "wordIds": [
       "w_accuse"
     ],
-    "prompt": "Which preposition completes the sentence?",
-    "context": "The regulator accused the supplier ____ falsifying the test results.",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "The company has published a detailed response to the ____ that it falsified the results of at least three safety tests last year.",
     "options": [
       {
         "id": "a",
-        "text": "of"
+        "text": "accusatory"
       },
       {
         "id": "b",
-        "text": "for"
+        "text": "accusation"
       },
       {
         "id": "c",
-        "text": "with"
+        "text": "accusing"
       },
       {
         "id": "d",
-        "text": "about"
+        "text": "accused"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "accuse somebody of doing something 是固定句型，of 後面接名詞或動名詞。",
+    "correctOptionId": "b",
+    "explanation": "介系詞 to 後面需要名詞，而且只有抽象名詞 accusation 能接 that 同位語子句說明指控的內容；動詞句型則是 accuse somebody of doing something。",
     "distractorExplanations": {
-      "b": "for 是 blame somebody for something 的用法，不能用在 accuse。",
-      "c": "charge somebody with something 才用 with，accuse 不用。",
-      "d": "about 不與 accuse 搭配。"
+      "a": "accusatory 是形容詞（帶指責語氣的），形容詞不能當名詞片語的中心語。",
+      "c": "accusing 是現在分詞／動名詞，不能接在冠詞 the 之後再帶 that 子句。",
+      "d": "accused 是過去分詞；the accused 雖可指「被告」，但指的是人，人不能用 that 同位語子句說明內容。"
     },
-    "difficulty": 2,
+    "difficulty": 4,
     "tags": [
-      "preposition",
+      "word-form",
       "exam",
       "legal"
     ],
@@ -90,36 +90,36 @@
     "wordIds": [
       "w_blame"
     ],
-    "prompt": "Which preposition completes the sentence?",
-    "context": "It is easy to blame the delay ____ the supplier.",
+    "prompt": "Choose the option that correctly completes the sentence.",
+    "context": "It would be convenient to blame the delay ____ the shipping agent, but the specification itself was signed off three weeks late.",
     "options": [
       {
         "id": "a",
-        "text": "on"
-      },
-      {
-        "id": "b",
         "text": "to"
       },
       {
+        "id": "b",
+        "text": "for"
+      },
+      {
         "id": "c",
-        "text": "at"
+        "text": "on"
       },
       {
         "id": "d",
-        "text": "for"
+        "text": "at"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "兩種句型要分清楚：blame something on somebody 與 blame somebody for something。這裡受詞是 the delay（事），所以用 on 引出人。",
+    "correctOptionId": "c",
+    "explanation": "blame 有兩個互補的句型：blame something on somebody 與 blame somebody for something。這裡動詞後面的受詞是事（the delay），所以要用 on 引出人。",
     "distractorExplanations": {
-      "b": "blame to 不是英文搭配。",
-      "c": "blame at 不是英文搭配。",
-      "d": "for 的句型是 blame the supplier for the delay，人和事的位置要對調。"
+      "a": "blame to 不是英文搭配，to 無法標示責任歸屬的對象。",
+      "b": "for 的句型是 blame the shipping agent for the delay，人與事的位置必須對調才成立。",
+      "d": "blame at 不是英文搭配；at 只用於 shout at、laugh at 這類指向動作目標的動詞。"
     },
     "difficulty": 3,
     "tags": [
-      "preposition",
+      "verb-pattern",
       "exam",
       "business"
     ],
@@ -132,12 +132,12 @@
     "wordIds": [
       "w_entail"
     ],
-    "prompt": "Which form completes the sentence?",
-    "context": "Migrating the data would entail ____ every template by hand.",
+    "prompt": "Choose the option that correctly completes the sentence.",
+    "context": "Moving the archive to the new platform would entail ____ every template by hand, which the documentation team estimates at six weeks.",
     "options": [
       {
         "id": "a",
-        "text": "rewriting"
+        "text": "rewrite"
       },
       {
         "id": "b",
@@ -145,21 +145,21 @@
       },
       {
         "id": "c",
-        "text": "rewrite"
+        "text": "rewritten"
       },
       {
         "id": "d",
-        "text": "rewritten"
+        "text": "rewriting"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "entail 後面接動作時一律用動名詞（-ing），不接不定詞。",
+    "correctOptionId": "d",
+    "explanation": "entail 後面接動作時一律用動名詞，不接不定詞；動名詞 rewriting 仍保有動詞性質，因此可以直接帶受詞 every template。",
     "distractorExplanations": {
-      "b": "entail 不接不定詞，這是中文母語者最常見的錯誤。",
-      "c": "原形動詞不能直接當 entail 的受詞。",
-      "d": "過去分詞不能當受詞；被動要說 would entail being rewritten。"
+      "a": "rewrite 是原形動詞，及物動詞 entail 的受詞不能是原形動詞。",
+      "b": "entail 不接不定詞，這是中文母語者最常見的錯誤之一。",
+      "c": "rewritten 是過去分詞，不能當受詞；要表達被動必須寫成 would entail being rewritten。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": [
       "verb-pattern",
       "exam",
@@ -174,36 +174,36 @@
     "wordIds": [
       "w_resort"
     ],
-    "prompt": "Which preposition completes the sentence?",
-    "context": "If negotiation fails, the company may resort ____ legal action.",
+    "prompt": "Choose the option that correctly completes the sentence.",
+    "context": "If the negotiations break down completely, the company has said that it will resort ____ the distributor for breach of contract.",
     "options": [
       {
         "id": "a",
-        "text": "to"
+        "text": "to suing"
       },
       {
         "id": "b",
-        "text": "on"
+        "text": "to sue"
       },
       {
         "id": "c",
-        "text": "with"
+        "text": "in suing"
       },
       {
         "id": "d",
-        "text": "for"
+        "text": "on suing"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "resort to something 是固定句型；to 是介系詞，後面接名詞或動名詞（resort to suing）。",
+    "explanation": "resort to something 當中的 to 是介系詞而不是不定詞記號，因此後面要接動名詞 suing；同樣容易混淆的還有 be used to doing、look forward to doing、object to doing。",
     "distractorExplanations": {
-      "b": "resort on 不是英文搭配。",
-      "c": "resort with 不是英文搭配。",
-      "d": "resort for 不是英文搭配。"
+      "b": "這正是本題的陷阱：把 resort to 的 to 誤認為不定詞記號，於是接了原形動詞 sue。",
+      "c": "resort 不與 in 搭配，in 也無法引出所採取的手段。",
+      "d": "resort 不與 on 搭配；on 用於 rely on、depend on 這類動詞。"
     },
-    "difficulty": 3,
+    "difficulty": 5,
     "tags": [
-      "preposition",
+      "verb-pattern",
       "exam",
       "legal"
     ],
@@ -216,34 +216,34 @@
     "wordIds": [
       "w_cope"
     ],
-    "prompt": "Which preposition completes the sentence?",
-    "context": "New staff struggled to cope ____ the increased workload.",
+    "prompt": "Choose the option that correctly completes the sentence.",
+    "context": "Many smaller suppliers simply could not cope ____ the volume of orders generated by the new online store during the holiday season.",
     "options": [
       {
         "id": "a",
-        "text": "with"
+        "text": "against"
       },
       {
         "id": "b",
-        "text": "of"
+        "text": "with"
       },
       {
         "id": "c",
-        "text": "to"
+        "text": "for"
       },
       {
         "id": "d",
-        "text": "for"
+        "text": "to"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "cope 是不及物動詞，處理的對象一律用 with 引出：cope with pressure／with change。",
+    "correctOptionId": "b",
+    "explanation": "cope 是不及物動詞，不能直接接受詞；要處理的對象一律由介系詞 with 引出，如 cope with pressure、cope with change。",
     "distractorExplanations": {
-      "b": "cope of 不是英文搭配。",
-      "c": "cope to 不是英文搭配。",
-      "d": "cope for 不是英文搭配。"
+      "a": "cope against 不是英文搭配；against 用於 compete against、guard against 這類對抗性的動詞。",
+      "c": "cope for 不是英文搭配；for 表示目的或受益對象。",
+      "d": "cope to 不是英文搭配，to 無法引出所應付的困難。"
     },
-    "difficulty": 2,
+    "difficulty": 3,
     "tags": [
       "preposition",
       "exam",
@@ -258,36 +258,36 @@
     "wordIds": [
       "w_exempt"
     ],
-    "prompt": "Which preposition completes the sentence?",
-    "context": "Registered charities are exempt ____ this tax.",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "Charities registered before 2015 may apply for an ____ from the new reporting requirement, provided they file the form by March.",
     "options": [
       {
         "id": "a",
-        "text": "from"
+        "text": "exempted"
       },
       {
         "id": "b",
-        "text": "of"
+        "text": "exempting"
       },
       {
         "id": "c",
-        "text": "to"
+        "text": "exemption"
       },
       {
         "id": "d",
-        "text": "for"
+        "text": "exempt"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "be exempt from something 是固定用法，動詞形式 exempt somebody from something 也一樣用 from。",
+    "correctOptionId": "c",
+    "explanation": "冠詞 an 之後需要名詞當 apply for 的受詞，故選 exemption；名詞 exemption from、形容詞 be exempt from、動詞 exempt somebody from 三者的介系詞都是 from。",
     "distractorExplanations": {
-      "b": "exempt of 不是英文搭配。",
-      "c": "exempt to 不是英文搭配。",
-      "d": "exempt for 不是英文搭配。"
+      "a": "exempted 是過去分詞，只能當修飾語或構成被動語態，不能當名詞片語的中心語。",
+      "b": "exempting 是現在分詞／動名詞，不能直接接在冠詞 an 之後。",
+      "d": "exempt 是形容詞或動詞（be exempt from tax），不是名詞，因此不能接在冠詞 an 之後。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": [
-      "preposition",
+      "word-form",
       "exam",
       "legal"
     ],
@@ -300,36 +300,36 @@
     "wordIds": [
       "w_vulnerable"
     ],
-    "prompt": "Which preposition completes the sentence?",
-    "context": "Older systems are especially vulnerable ____ this kind of attack.",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "The security audit identified a serious ____ in the session handler, which would allow an attacker to reuse an expired token.",
     "options": [
       {
         "id": "a",
-        "text": "to"
+        "text": "vulnerable"
       },
       {
         "id": "b",
-        "text": "for"
+        "text": "vulnerabilities"
       },
       {
         "id": "c",
-        "text": "of"
+        "text": "vulnerably"
       },
       {
         "id": "d",
-        "text": "at"
+        "text": "vulnerability"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "vulnerable to X 是固定搭配，表示「易受 X 傷害」。",
+    "correctOptionId": "d",
+    "explanation": "冠詞 a 與形容詞 serious 之後需要單數可數名詞，故選 vulnerability；形容詞形式的固定搭配則是 vulnerable to attack。",
     "distractorExplanations": {
-      "b": "vulnerable for 不是英文搭配。",
-      "c": "vulnerable of 不是英文搭配。",
-      "d": "vulnerable at 不是英文搭配。"
+      "a": "vulnerable 是形容詞，形容詞不能當 identified 的受詞中心語。",
+      "b": "vulnerabilities 是複數名詞，與單數冠詞 a 不一致。",
+      "c": "vulnerably 是副詞，副詞不能接在冠詞與形容詞之後當名詞片語的中心語。"
     },
-    "difficulty": 2,
+    "difficulty": 3,
     "tags": [
-      "preposition",
+      "word-form",
       "exam",
       "technical"
     ],
@@ -342,36 +342,36 @@
     "wordIds": [
       "w_detrimental"
     ],
-    "prompt": "Which preposition completes the sentence?",
-    "context": "Consistently long hours are detrimental ____ health.",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "Working sixty-hour weeks month after month is ____ to both health and productivity, as several long-term studies of shift workers have shown.",
     "options": [
       {
         "id": "a",
-        "text": "to"
+        "text": "detrimental"
       },
       {
         "id": "b",
-        "text": "for"
+        "text": "detrimentally"
       },
       {
         "id": "c",
-        "text": "on"
+        "text": "detriments"
       },
       {
         "id": "d",
-        "text": "of"
+        "text": "detriment"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "detrimental to X 是固定搭配；同樣用 to 的還有 harmful to、beneficial to。",
+    "explanation": "be 動詞後面需要形容詞當主詞補語，故選 detrimental；detrimental to X 的用法與 harmful to X、beneficial to X 相同。",
     "distractorExplanations": {
-      "b": "bad for health 可以，但 detrimental 固定接 to。",
-      "c": "detrimental on 不是英文搭配（effect on 才用 on）。",
-      "d": "detrimental of 不是英文搭配。"
+      "b": "detrimentally 是副詞，副詞不能當 be 動詞的補語。",
+      "c": "detriments 是複數名詞，不能當形容詞補語，主詞是單數動名詞片語，數也不一致。",
+      "d": "detriment 是名詞，當補語時必須有冠詞；它最常見於片語 to the detriment of X。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": [
-      "preposition",
+      "word-form",
       "exam",
       "academic"
     ],
@@ -384,36 +384,36 @@
     "wordIds": [
       "w_pertinent"
     ],
-    "prompt": "Which preposition completes the sentence?",
-    "context": "Only evidence pertinent ____ the charge may be introduced.",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "Counsel argued that only evidence ____ to the charge itself should be admitted, and the judge accepted that submission without discussion.",
     "options": [
       {
         "id": "a",
-        "text": "to"
+        "text": "pertinently"
       },
       {
         "id": "b",
-        "text": "with"
+        "text": "pertinent"
       },
       {
         "id": "c",
-        "text": "for"
+        "text": "pertinence"
       },
       {
         "id": "d",
-        "text": "of"
+        "text": "pertains"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "pertinent to X 是固定搭配，意思是「與 X 相關、切題」；relevant to 用法相同。",
+    "correctOptionId": "b",
+    "explanation": "空格起的是後位修飾 evidence 的形容詞片語，須用形容詞 pertinent；pertinent to X 的用法與 relevant to X 相同。",
     "distractorExplanations": {
-      "b": "pertinent with 不是英文搭配。",
-      "c": "pertinent for 不是英文搭配。",
-      "d": "pertinent of 不是英文搭配。"
+      "a": "pertinently 是副詞，副詞不能後位修飾名詞 evidence。",
+      "c": "pertinence 是名詞（切題性），名詞不能直接後位修飾另一個名詞。",
+      "d": "pertains 是限定動詞，該子句已有述語 should be admitted；若要用動詞必須補上關係代名詞，寫成 evidence that pertains to..."
     },
-    "difficulty": 3,
+    "difficulty": 5,
     "tags": [
-      "preposition",
+      "word-form",
       "exam",
       "legal"
     ],
@@ -426,32 +426,32 @@
     "wordIds": [
       "w_compel"
     ],
-    "prompt": "Which form completes the sentence?",
-    "context": "The ruling compelled the committee ____ its earlier decision.",
+    "prompt": "Choose the option that correctly completes the sentence.",
+    "context": "The court's ruling compelled the committee ____ its earlier decision on the tender and to publish the revised scoring in full.",
     "options": [
       {
         "id": "a",
-        "text": "to reconsider"
-      },
-      {
-        "id": "b",
         "text": "reconsidering"
       },
       {
+        "id": "b",
+        "text": "to reconsidering"
+      },
+      {
         "id": "c",
-        "text": "reconsider"
+        "text": "to reconsider"
       },
       {
         "id": "d",
-        "text": "to reconsidering"
+        "text": "reconsider"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "compel somebody to do something 是固定句型，受詞後面接不定詞。",
+    "correctOptionId": "c",
+    "explanation": "compel somebody to do something 是固定句型，受詞之後接不定詞；句末並列的 and to publish 也提示空格必須是同形式的不定詞。",
     "distractorExplanations": {
-      "b": "compel 不接動名詞。",
-      "c": "只有 make／let／have 這類使役動詞才接原形動詞。",
-      "d": "to 後面接動名詞在這裡是錯的，to 是不定詞記號。"
+      "a": "compel 不接動名詞當受詞補語。",
+      "b": "to 在此是不定詞記號，後面只能接原形動詞，不能接動名詞。",
+      "d": "只有 make、let、have 這類使役動詞才接原形動詞，compel 一定要加 to。"
     },
     "difficulty": 3,
     "tags": [
@@ -468,36 +468,36 @@
     "wordIds": [
       "w_subordinate"
     ],
-    "prompt": "Which preposition completes the sentence?",
-    "context": "On a construction site, every other goal is subordinate ____ safety.",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "On any construction site, every other objective is ____ to safety, and site managers are expected to enforce that principle without exception.",
     "options": [
       {
         "id": "a",
-        "text": "to"
+        "text": "subordinates"
       },
       {
         "id": "b",
-        "text": "than"
+        "text": "subordinately"
       },
       {
         "id": "c",
-        "text": "for"
+        "text": "subordination"
       },
       {
         "id": "d",
-        "text": "of"
+        "text": "subordinate"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "subordinate to X 表示「次要於 X」；senior to、inferior to、prior to 也都用 to 而非 than。",
+    "correctOptionId": "d",
+    "explanation": "be 動詞後面需要形容詞當主詞補語，故選 subordinate；subordinate to X 表示「次要於 X」，同類的 senior to、inferior to、prior to 也都用 to 而不是 than。",
     "distractorExplanations": {
-      "b": "subordinate 不是比較級，不能接 than。",
-      "c": "subordinate for 不是英文搭配。",
-      "d": "subordinate of 不是英文搭配。"
+      "a": "subordinates 是複數名詞（下屬），與單數主詞 every other objective 不一致。",
+      "b": "subordinately 是副詞，副詞不能當 be 動詞的補語。",
+      "c": "subordination 是名詞，當補語時必須有冠詞，語意也不通。"
     },
-    "difficulty": 4,
+    "difficulty": 3,
     "tags": [
-      "preposition",
+      "word-form",
       "exam",
       "formal"
     ],
@@ -510,36 +510,36 @@
     "wordIds": [
       "w_dissent"
     ],
-    "prompt": "Which preposition completes the sentence?",
-    "context": "Two judges dissented ____ the majority opinion.",
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "Two of the seven judges ____ from the majority opinion, arguing that the statute had been read far too narrowly by the lower court.",
     "options": [
       {
         "id": "a",
-        "text": "from"
+        "text": "dissented"
       },
       {
         "id": "b",
-        "text": "of"
+        "text": "dissenting"
       },
       {
         "id": "c",
-        "text": "to"
+        "text": "dissension"
       },
       {
         "id": "d",
-        "text": "with"
+        "text": "dissents"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "dissent from X 是固定用法，表示「不同意 X 的意見」。",
+    "explanation": "句子需要一個限定動詞，而逗號後的 arguing 只是分詞構句，本身不能當主要動詞，因此空格要用過去式 dissented；dissent from X 表示「不同意 X」。",
     "distractorExplanations": {
-      "b": "dissent of 不是英文搭配。",
-      "c": "dissent to 不是英文搭配。",
-      "d": "disagree with 可以，但 dissent 固定接 from。"
+      "b": "dissenting 是現在分詞，選它整句就只剩兩個分詞構句，沒有主要動詞。",
+      "c": "dissension 是名詞（內部紛爭），選它句子同樣沒有動詞。",
+      "d": "dissents 是第三人稱單數形，主詞 two of the seven judges 是複數，主詞與動詞不一致。"
     },
     "difficulty": 4,
     "tags": [
-      "preposition",
+      "word-form",
       "exam",
       "legal"
     ],
@@ -552,16 +552,16 @@
     "wordIds": [
       "w_imperative"
     ],
-    "prompt": "Which form is required in formal written English?",
-    "context": "It is imperative that every change ____ reviewed before release.",
+    "prompt": "Choose the option that correctly completes the sentence.",
+    "context": "Given the number of recent outages, it is imperative that every configuration change ____ reviewed by a second engineer before release.",
     "options": [
       {
         "id": "a",
-        "text": "be"
+        "text": "will be"
       },
       {
         "id": "b",
-        "text": "is"
+        "text": "be"
       },
       {
         "id": "c",
@@ -569,15 +569,15 @@
       },
       {
         "id": "d",
-        "text": "will be"
+        "text": "is"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "imperative、essential、vital、necessary 這類形容詞後面的 that 子句用假設語氣，動詞一律用原形（be reviewed），不隨主詞變化。",
+    "correctOptionId": "b",
+    "explanation": "imperative、essential、vital、necessary 這類形容詞後面的 that 子句要用假設語氣，動詞一律用原形 be，不隨主詞人稱或時態變化。",
     "distractorExplanations": {
-      "b": "英式口語有時容許直說語氣，但正式寫作與考試要求原形動詞 be。",
-      "c": "假設語氣不使用過去式。",
-      "d": "假設語氣不使用未來式。"
+      "a": "假設語氣的 that 子句不使用未來式。",
+      "c": "假設語氣的 that 子句不使用過去式。",
+      "d": "is 是直說語氣；英式口語有時容許，但正式寫作與考試都要求原形動詞 be。"
     },
     "difficulty": 4,
     "tags": [
@@ -594,36 +594,36 @@
     "wordIds": [
       "w_penalize"
     ],
-    "prompt": "Which preposition completes the sentence?",
-    "context": "Teams are penalized ____ submitting their entries late.",
+    "prompt": "Choose the option that correctly completes the sentence.",
+    "context": "Under the revised rules, teams are penalized ____ their entries late, even when the delay is caused by a technical fault.",
     "options": [
       {
         "id": "a",
-        "text": "for"
+        "text": "to submitting"
       },
       {
         "id": "b",
-        "text": "of"
+        "text": "of submitting"
       },
       {
         "id": "c",
-        "text": "on"
+        "text": "for submitting"
       },
       {
         "id": "d",
-        "text": "with"
+        "text": "for submit"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "penalize somebody for doing something 是固定句型，for 後面接名詞或動名詞。",
+    "correctOptionId": "c",
+    "explanation": "penalize somebody for doing something 是固定句型；for 是介系詞，後面必須接動名詞，被動語態中同樣保留 for。",
     "distractorExplanations": {
-      "b": "penalize of 不是英文搭配（accuse 才接 of）。",
-      "c": "penalize on 不是英文搭配。",
-      "d": "penalize with 不是英文搭配；with 只用來說明處罰的手段，如 penalize them with a fine。"
+      "a": "penalize 不與 to 搭配，此處也不是不定詞的位置。",
+      "b": "of 是 accuse somebody of doing something 的搭配，penalize 不用 of。",
+      "d": "for 是介系詞，後面不能接原形動詞 submit。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": [
-      "preposition",
+      "verb-pattern",
       "exam",
       "everyday"
     ],

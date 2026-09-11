@@ -4,22 +4,23 @@
     "type": "usage",
     "cefr": "B2",
     "wordIds": ["w_acknowledge"],
-    "prompt": "Which sentence uses \"acknowledge\" most naturally?",
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "In the final paragraph the authors ____ that the sample was drawn entirely from one hospital, a limitation they had nowhere mentioned before.",
     "options": [
-      { "id": "a", "text": "Please acknowledge receipt of the contract by Friday." },
-      { "id": "b", "text": "Please acknowledge the contract to my desk by Friday." },
-      { "id": "c", "text": "Please acknowledge the contract into the archive." },
-      { "id": "d", "text": "Please acknowledge the contract for two more weeks." }
+      { "id": "a", "text": "notify" },
+      { "id": "b", "text": "inform" },
+      { "id": "c", "text": "acknowledge" },
+      { "id": "d", "text": "apprise" }
     ],
-    "correctOptionId": "a",
-    "explanation": "acknowledge receipt of something 是商務書信中確認收到的固定用語。",
+    "correctOptionId": "c",
+    "explanation": "acknowledge 可以直接接 that 子句（acknowledge that + 子句），不需要先交代對象，而且專指「承認一件自己不太願意承認的事」，正好對應句尾那項先前未提的限制。",
     "distractorExplanations": {
-      "b": "送到某處要用 send 或 deliver。",
-      "c": "歸檔要用 file 或 archive。",
-      "d": "延長期限要用 extend。"
+      "a": "notify 必須先接收訊的人：notify the committee that…，不能直接接 that 子句。",
+      "b": "inform 同樣要求 inform somebody that…，少了受詞就不合語法。",
+      "d": "apprise 的句型是 apprise somebody of something，既要有對象，也要用 of，不接 that 子句。"
     },
-    "difficulty": 3,
-    "tags": ["usage", "business"],
+    "difficulty": 4,
+    "tags": ["usage", "academic"],
     "source": "curated"
   },
   {
@@ -27,22 +28,23 @@
     "type": "usage",
     "cefr": "B2",
     "wordIds": ["w_implement"],
-    "prompt": "Which sentence uses \"implement\" correctly?",
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "The board approved the new privacy policy in March, but the regional offices were given until December to ____ it in full.",
     "options": [
-      { "id": "a", "text": "We implemented the feature last week but have not deployed it yet." },
-      { "id": "b", "text": "We implemented the feature to production last Friday." },
-      { "id": "c", "text": "We implemented the meeting until next Tuesday." },
-      { "id": "d", "text": "We implemented an idea that nobody has designed yet." }
+      { "id": "a", "text": "implement" },
+      { "id": "b", "text": "comply" },
+      { "id": "c", "text": "conform" },
+      { "id": "d", "text": "adhere" }
     ],
     "correctOptionId": "a",
-    "explanation": "implement 是「寫出來、做出來」，deploy 才是「送上線」。選項 A 正確地區分了兩者。",
+    "explanation": "四個選項都與「落實規定」有關，但只有 implement 是及物動詞，可以直接接 it；implement a policy 指把已核定的方案付諸實行。",
     "distractorExplanations": {
-      "b": "送上正式環境要用 deployed 或 released。",
-      "c": "延後會議要用 postponed。",
-      "d": "implement 的前提是已經有可執行的設計；還沒設計就無從實作。"
+      "b": "comply 是不及物動詞，必須說 comply with the policy。",
+      "c": "conform 要搭配 to：conform to the policy，不能直接接受詞。",
+      "d": "adhere 此義固定用 adhere to something，少了 to 就不成句。"
     },
     "difficulty": 3,
-    "tags": ["usage", "engineering"],
+    "tags": ["usage", "business"],
     "source": "curated"
   },
   {
@@ -52,19 +54,19 @@
     "wordIds": ["w_comprehensive"],
     "prompt": "Which sentence uses \"comprehensive\" correctly?",
     "options": [
-      { "id": "a", "text": "The guide gives comprehensive coverage of every public endpoint." },
-      { "id": "b", "text": "She is very comprehensive when she reviews code." },
-      { "id": "c", "text": "The explanation was comprehensive enough for me to understand it." },
-      { "id": "d", "text": "He speaks comprehensive English with a clear accent." }
+      { "id": "a", "text": "Our new analyst is extremely comprehensive whenever she reviews a contract." },
+      { "id": "b", "text": "After three rewrites the instructions were finally comprehensive to a beginner." },
+      { "id": "c", "text": "He speaks comprehensive English despite having lived abroad for only a year." },
+      { "id": "d", "text": "The report offers comprehensive coverage of every fund the trustees now hold." }
     ],
-    "correctOptionId": "a",
-    "explanation": "comprehensive 描述「涵蓋範圍完整」，修飾 coverage 是最典型的用法。",
+    "correctOptionId": "d",
+    "explanation": "comprehensive 形容「涵蓋範圍完整、該收的都收進去了」，主語限定為資料、報告、保險這類「內容物」，comprehensive coverage of + 名詞 是標準搭配。",
     "distractorExplanations": {
-      "b": "形容人做事仔細要用 thorough；comprehensive 不形容人。",
-      "c": "這裡想說的是「看得懂」，應該用 comprehensible。",
-      "d": "英文說得好要用 fluent 或 clear，不用 comprehensive。"
+      "a": "comprehensive 不形容人做事的態度；形容人仔細要用 thorough 或 meticulous。",
+      "b": "此處要說的是「看得懂」，應該用 comprehensible to a beginner；comprehensive 不接 to somebody。",
+      "c": "形容語言說得好要用 fluent 或 clear；comprehensive 不用來評價語言能力。"
     },
-    "difficulty": 4,
+    "difficulty": 3,
     "tags": ["usage", "common-error"],
     "source": "curated"
   },
@@ -73,22 +75,22 @@
     "type": "usage",
     "cefr": "C1",
     "wordIds": ["w_bias"],
-    "prompt": "Which sentence is grammatically correct?",
+    "prompt": "Which sentence uses \"bias\" (or \"biased\") correctly?",
     "options": [
-      { "id": "a", "text": "The sample is biased towards power users." },
-      { "id": "b", "text": "The sample is bias towards power users." },
-      { "id": "c", "text": "The sample is biasing towards power users." },
-      { "id": "d", "text": "The sample has bias of power users." }
+      { "id": "a", "text": "The results were clearly bias, so the committee commissioned a second study." },
+      { "id": "b", "text": "The sample is biased towards respondents who already own a smartphone." },
+      { "id": "c", "text": "The wording of the question introduced a bias of younger respondents." },
+      { "id": "d", "text": "A poorly worded question can bias towards the answers that it suggests." }
     ],
-    "correctOptionId": "a",
-    "explanation": "bias 是名詞，形容詞是 biased。描述樣本偏向某群體要用 is biased towards。",
+    "correctOptionId": "b",
+    "explanation": "bias 是名詞，形容詞形式是 biased；描述樣本或資料偏向某一群體時，固定說 be biased towards / against + 名詞。",
     "distractorExplanations": {
-      "b": "bias 是名詞，不能直接放在 be 動詞後當形容詞。",
-      "c": "bias 作動詞時是及物的，這裡的進行式用法不成立。",
-      "d": "介系詞錯誤，應為 a bias towards power users。"
+      "a": "be 動詞後面要用形容詞 biased，不能直接放名詞 bias。",
+      "c": "名詞 bias 後面接的介系詞是 towards、against 或 in favour of，不是 of。",
+      "d": "作動詞時 bias 是及物的，直接接受詞：can bias the answers，不加 towards。"
     },
-    "difficulty": 3,
-    "tags": ["usage", "common-error"],
+    "difficulty": 4,
+    "tags": ["usage", "research"],
     "source": "curated"
   },
   {
@@ -96,22 +98,23 @@
     "type": "usage",
     "cefr": "C1",
     "wordIds": ["w_exacerbate"],
-    "prompt": "Which sentence uses \"exacerbate\" correctly?",
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "The emergency rate cut was meant to calm the markets, but by signalling panic it only ____ the sell-off that was already under way.",
     "options": [
-      { "id": "a", "text": "The retry storm exacerbated an outage that would otherwise have been brief." },
-      { "id": "b", "text": "The new caching layer exacerbated our response times." },
-      { "id": "c", "text": "The training exacerbated the team's confidence." },
-      { "id": "d", "text": "We exacerbated the release to next week." }
+      { "id": "a", "text": "provoked" },
+      { "id": "b", "text": "triggered" },
+      { "id": "c", "text": "exacerbated" },
+      { "id": "d", "text": "instigated" }
     ],
-    "correctOptionId": "a",
-    "explanation": "exacerbate 的受詞必須是本來就存在的負面事物，outage 正是如此。",
+    "correctOptionId": "c",
+    "explanation": "exacerbate 的受詞必須是「已經存在而且是負面的」情況，由此把它推得更嚴重；句尾 already under way 明確指出賣壓早已開始，只有 exacerbate 的語意前提相符。",
     "distractorExplanations": {
-      "b": "若快取讓回應時間變好，應該用 improved；exacerbate 只能讓壞事更壞。",
-      "c": "confidence 是正面事物，提升應該用 boosted。",
-      "d": "延後發布要用 postponed。"
+      "a": "provoke 指促使某事開始發生，預設該事原本尚未出現，與 already under way 衝突。",
+      "b": "trigger 是「引爆、觸發」，同樣只用於事情的起點，不能用來描述使既有情況惡化。",
+      "d": "instigate 指主動發動、煽動某事，除了同樣要求「尚未開始」，還帶有蓄意策劃的意味。"
     },
     "difficulty": 4,
-    "tags": ["usage", "engineering"],
+    "tags": ["usage", "finance"],
     "source": "curated"
   },
   {
@@ -119,22 +122,23 @@
     "type": "usage",
     "cefr": "C1",
     "wordIds": ["w_marginal"],
-    "prompt": "Which sentence uses \"marginal\" most naturally?",
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "Economists compare the ____ cost of producing one more unit with the revenue that unit brings in, rather than looking at average cost.",
     "options": [
-      { "id": "a", "text": "Beyond four replicas the marginal benefit is close to zero." },
-      { "id": "b", "text": "The outage had a marginal impact that took down every region." },
-      { "id": "c", "text": "She wrote a marginal report of two hundred pages." },
-      { "id": "d", "text": "The team was marginal about the decision." }
+      { "id": "a", "text": "marginal" },
+      { "id": "b", "text": "minimal" },
+      { "id": "c", "text": "incidental" },
+      { "id": "d", "text": "peripheral" }
     ],
     "correctOptionId": "a",
-    "explanation": "marginal benefit（邊際效益）是標準用法，指「再多做一單位所增加的效益」。",
+    "explanation": "marginal cost 是經濟學術語，指「再多生產一單位所增加的成本」，與句尾 average cost 形成對照；此處用的是專業術語義，而不是日常的「微小」義。",
     "distractorExplanations": {
-      "b": "句子自相矛盾：影響若能拖垮所有區域，就絕非 marginal。",
-      "c": "marginal 不用來描述文件長度。",
-      "d": "形容人態度猶豫要用 ambivalent 或 undecided。"
+      "b": "minimal cost 是「最低的成本」，說的是金額大小，與「多做一單位的增量」無關，也無法和 average cost 對照。",
+      "c": "incidental costs 指伴隨產生的雜項支出（差旅、手續費），不是增量成本。",
+      "d": "peripheral 指位於邊緣、非核心的事物，不能用來指稱增量。"
     },
     "difficulty": 4,
-    "tags": ["usage", "business"],
+    "tags": ["usage", "economics"],
     "source": "curated"
   },
   {
@@ -142,21 +146,22 @@
     "type": "usage",
     "cefr": "C1",
     "wordIds": ["w_redundant"],
-    "prompt": "In which sentence does \"redundant\" carry a positive meaning?",
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "The second power supply is not an oversight but a ____ component: it does nothing until the first one fails, at which point it keeps the rack alive.",
     "options": [
-      { "id": "a", "text": "Each critical path has a redundant instance in another region." },
-      { "id": "b", "text": "The comment is redundant; it just restates the function name." },
-      { "id": "c", "text": "Two layers run the same validation, so one check is redundant." },
-      { "id": "d", "text": "The paragraph is redundant and should be deleted." }
+      { "id": "a", "text": "superfluous" },
+      { "id": "b", "text": "duplicate" },
+      { "id": "c", "text": "surplus" },
+      { "id": "d", "text": "redundant" }
     ],
-    "correctOptionId": "a",
-    "explanation": "在系統設計中，刻意的重複（備援）是為了提高可靠性，因此是正面的。其餘三句都是「無謂重複」的負面用法。",
+    "correctOptionId": "d",
+    "explanation": "redundant 在技術語域另有一個正面意思：刻意保留的備援，平時閒置、在主要元件失效時接手。句中 not an oversight but…、until the first one fails 就是這個語意的標記。",
     "distractorExplanations": {
-      "b": "註解重複函式名稱是浪費，屬於負面用法。",
-      "c": "兩層做同樣驗證是無謂重複，屬於負面用法。",
-      "d": "段落重複應該刪除，屬於負面用法。"
+      "a": "superfluous 只有負面義，指多出來、根本不需要的東西，與句首 not an oversight 的辯護語氣矛盾。",
+      "b": "duplicate 僅說明它是一份相同的複本，沒有「故障時自動頂替」的功能意涵。",
+      "c": "surplus 指數量超出需求的剩餘品（surplus stock），描述的是庫存而非系統設計。"
     },
-    "difficulty": 5,
+    "difficulty": 4,
     "tags": ["usage", "engineering"],
     "source": "curated"
   },
@@ -165,22 +170,23 @@
     "type": "usage",
     "cefr": "C1",
     "wordIds": ["w_intuitive"],
-    "prompt": "Which sentence uses \"counter-intuitive\" correctly?",
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "The revised layout proved ____ to first-time users: none of them opened the tutorial, and the support queue shrank by half within a month.",
     "options": [
-      { "id": "a", "text": "The result is counter-intuitive: adding threads made the job slower." },
-      { "id": "b", "text": "The result is counter-intuitive: adding threads made the job faster." },
-      { "id": "c", "text": "The button is counter-intuitive because it is bright red." },
-      { "id": "d", "text": "She is counter-intuitive and always trusts the data." }
+      { "id": "a", "text": "instinctive" },
+      { "id": "b", "text": "intuitive" },
+      { "id": "c", "text": "conspicuous" },
+      { "id": "d", "text": "perceptive" }
     ],
-    "correctOptionId": "a",
-    "explanation": "counter-intuitive 表示「與一般預期相反」。多數人預期加執行緒會變快，結果變慢，正符合。",
+    "correctOptionId": "b",
+    "explanation": "intuitive 的主語是介面或設計，表示「不必教就會用，因為它照使用者預期的方式運作」，並用 intuitive to somebody 指出對誰而言如此。",
     "distractorExplanations": {
-      "b": "加執行緒變快正是一般人的預期，並不反直覺。",
-      "c": "顏色鮮豔只是顯眼，與是否符合預期無關。",
-      "d": "counter-intuitive 描述結果或設計，不用來形容人的性格。"
+      "a": "instinctive 描述的是人或動物的本能反應（an instinctive reaction），主語不能是版面設計。",
+      "c": "conspicuous 說的是「顯眼、容易被看見」，與是否容易操作無關。",
+      "d": "perceptive 形容人觀察敏銳（a perceptive reviewer），主語必須是人。"
     },
-    "difficulty": 4,
-    "tags": ["usage", "engineering"],
+    "difficulty": 3,
+    "tags": ["usage", "design"],
     "source": "curated"
   },
   {
@@ -188,21 +194,22 @@
     "type": "usage",
     "cefr": "C2",
     "wordIds": ["w_obfuscate"],
-    "prompt": "Which sentence uses \"obfuscate\" correctly?",
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "The minister's reply seemed designed to ____ the issue rather than clarify it: every figure was given as a percentage of an unstated total.",
     "options": [
-      { "id": "a", "text": "The summary obfuscates the cause instead of naming it." },
-      { "id": "b", "text": "The summary obfuscates the cause so everyone finally understood." },
-      { "id": "c", "text": "She obfuscated the room before the presentation." },
-      { "id": "d", "text": "He obfuscated to the meeting ten minutes late." }
+      { "id": "a", "text": "mystify" },
+      { "id": "b", "text": "bewilder" },
+      { "id": "c", "text": "obfuscate" },
+      { "id": "d", "text": "perplex" }
     ],
-    "correctOptionId": "a",
-    "explanation": "obfuscate 是「刻意弄得讓人看不懂」，與 instead of naming it 的批評語氣完全吻合。",
+    "correctOptionId": "c",
+    "explanation": "四個字都與「讓人搞不清楚」有關，但受詞不同：obfuscate 的受詞是「議題、事實、程式碼」這類內容物，obfuscate rather than clarify 更是固定的對比句式。",
     "distractorExplanations": {
-      "b": "句子自相矛盾：obfuscate 使人更難懂，不會讓大家終於理解。",
-      "c": "obfuscate 的受詞是語言或程式碼，不是實體空間。",
-      "d": "obfuscate 是及物動詞，也不表示遲到。"
+      "a": "mystify 的受詞必須是人（mystified the audience），不能說 mystify the issue。",
+      "b": "bewilder 同樣以人為受詞，而且描述的是聽者的困惑狀態，不是說話者把事情弄糊塗的動作。",
+      "d": "perplex 的受詞也是人，且語氣中性、不含「刻意掩蓋」的指控，與 rather than clarify 的批評語氣不合。"
     },
-    "difficulty": 4,
+    "difficulty": 5,
     "tags": ["usage", "communication"],
     "source": "curated"
   },
@@ -211,21 +218,21 @@
     "type": "usage",
     "cefr": "C2",
     "wordIds": ["w_equivocal"],
-    "prompt": "Which sentence uses \"equivocal\" most appropriately?",
+    "prompt": "Which sentence uses \"equivocal\" correctly?",
     "options": [
-      { "id": "a", "text": "The test results were equivocal: the confidence interval spans zero." },
-      { "id": "b", "text": "The test results were equivocal and settled the debate for good." },
-      { "id": "c", "text": "The equivocal server returned a 500 error." },
-      { "id": "d", "text": "She gave an equivocal answer of exactly forty-two." }
+      { "id": "a", "text": "The biopsy results were equivocal, so the surgeon ordered a second test." },
+      { "id": "b", "text": "The committee remained equivocal of the evidence presented by both sides." },
+      { "id": "c", "text": "She gave an equivocal reply that left nobody in any doubt at all." },
+      { "id": "d", "text": "The equivocal scanner kept rejecting samples that had been correctly labelled." }
     ],
     "correctOptionId": "a",
-    "explanation": "equivocal 表示「無法下定論」，信賴區間跨越零正是統計上無定論的典型情況。",
+    "explanation": "equivocal 指「可以有兩種解讀、因此得不出定論」，典型主語就是檢驗或研究的 results；正因為無法定論，後面才需要再做一次檢查。",
     "distractorExplanations": {
-      "b": "無法下定論的結果不可能一舉終結辯論，句子自相矛盾。",
-      "c": "伺服器故障不是「模稜兩可」，這個字不修飾機器狀態。",
-      "d": "給出精確數字正是明確的答案，與 equivocal 相反。"
+      "b": "表達「對某事不表明立場」要用 be equivocal about something，介系詞是 about，不是 of。",
+      "c": "equivocal 的回答依定義會留下疑問，與 left nobody in any doubt 自相矛盾，該處應用 unequivocal。",
+      "d": "equivocal 只修飾說法、結果、態度這類可供解讀的對象，機器故障要說 faulty 或 unreliable。"
     },
-    "difficulty": 5,
+    "difficulty": 4,
     "tags": ["usage", "research"],
     "source": "curated"
   }

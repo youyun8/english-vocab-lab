@@ -11,21 +11,43 @@
       {
         "id": "s_plume_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "a long, soft feather, or a column of smoke or vapor rising into the air",
         "definitionZh": "羽毛；（煙、蒸氣的）柱狀物",
         "usageExplanationZh": "常見 a plume of smoke（一縷煙），也可指鳥類的長羽毛，需依語境判斷。",
-        "examples": [
-          {
-            "en": "A plume of black smoke rose from the burning building.",
-            "zh": "一縷黑煙從那棟燃燒的建築物中升起。"
-          }
+        "grammarPatterns": [
+          "a plume of + noun",
+          "plumes rise from + noun"
         ],
         "collocations": [
           {
             "text": "a plume of smoke",
             "meaningZh": "一柱煙"
           }
+        ],
+        "examples": [
+          {
+            "en": "A plume of black smoke rose from the burning building.",
+            "zh": "一縷黑煙從那棟燃燒的建築物中升起。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "feather",
+        "noteZh": "羽毛"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "plumage",
+        "partOfSpeech": "noun",
+        "meaningZh": "鳥的羽毛（全身）"
       }
     ],
     "tags": [
@@ -38,14 +60,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "feather",
-        "noteZh": "羽毛"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_plump",
@@ -59,40 +74,74 @@
       {
         "id": "s_plump_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "to choose or vote in favor of one option out of several, or to make something plump by shaking or patting",
         "definitionZh": "選定；投票支持；把（枕頭等）拍鬆使鼓起",
         "usageExplanationZh": "常接 for，如 plump for the cheaper option（選擇較便宜的選項），也可指 plump up a pillow（拍鬆枕頭）。",
-        "examples": [
-          {
-            "en": "After much thought, she plumped for the red sofa instead of the gray one.",
-            "zh": "經過一番考慮，她選定了紅色沙發而不是灰色的。"
-          }
+        "grammarPatterns": [
+          "plump for + noun",
+          "plump up + noun"
         ],
         "collocations": [
           {
             "text": "plump for an option",
             "meaningZh": "選定某個選項"
           }
+        ],
+        "examples": [
+          {
+            "en": "After much thought, she plumped for the red sofa instead of the gray one.",
+            "zh": "經過一番考慮，她選定了紅色沙發而不是灰色的。"
+          }
         ]
       },
       {
         "id": "s_plump_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "straight down, especially heavily or abruptly",
         "definitionZh": "重重地；突然地；直接地",
         "usageExplanationZh": "常見於 plump down，如 sit down plump（重重地坐下），強調動作突然且沉重。",
-        "examples": [
-          {
-            "en": "He sat down plump on the sofa after the long hike.",
-            "zh": "長途健行後，他重重地一屁股坐在沙發上。"
-          }
+        "grammarPatterns": [
+          "sit down plump on + noun",
+          "fall plump into + noun"
         ],
         "collocations": [
           {
             "text": "fall plump into the water",
             "meaningZh": "撲通一聲直落水中（較少見）"
           }
+        ],
+        "examples": [
+          {
+            "en": "He sat down plump on the sofa after the long hike.",
+            "zh": "長途健行後，他重重地一屁股坐在沙發上。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "opt",
+        "noteZh": "動詞：選擇"
+      },
+      {
+        "lemma": "fluff up",
+        "noteZh": "動詞：把枕頭等拍鬆"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "plumpness",
+        "partOfSpeech": "noun",
+        "meaningZh": "豐滿；圓胖"
       }
     ],
     "tags": [
@@ -106,18 +155,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "opt",
-        "noteZh": "動詞：選擇"
-      },
-      {
-        "lemma": "fluff up",
-        "noteZh": "動詞：把枕頭等拍鬆"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_plunge",
@@ -131,36 +169,32 @@
       {
         "id": "s_plunge_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "to jump or fall suddenly and dramatically, or (of prices, temperatures) to decrease sharply",
         "definitionZh": "驟然跳入（落下）；（價格、溫度）驟降",
         "usageExplanationZh": "常接 into，如 plunge into the water，也可指抽象事物急遽下降，如 stock prices plunged。",
-        "examples": [
-          {
-            "en": "Stock prices plunged after the disappointing earnings report.",
-            "zh": "股價在令人失望的財報公布後驟然下跌。"
-          }
+        "grammarPatterns": [
+          "plunge into + noun",
+          "plunge to + noun",
+          "plunge + adverb"
         ],
         "collocations": [
           {
             "text": "plunge into darkness",
             "meaningZh": "陷入一片黑暗"
           }
+        ],
+        "examples": [
+          {
+            "en": "Stock prices plunged after the disappointing earnings report.",
+            "zh": "股價在令人失望的財報公布後驟然下跌。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "dive",
@@ -176,7 +210,27 @@
         "lemma": "soar",
         "noteZh": "指價格：猛漲"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "plunger",
+        "partOfSpeech": "noun",
+        "meaningZh": "活塞；吸把"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_poach",
@@ -190,21 +244,39 @@
       {
         "id": "s_poach_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "to cook food gently in simmering liquid, or to hunt or fish illegally, or to lure away an employee",
         "definitionZh": "水煮（食物）；偷獵；（比喻）挖角",
         "usageExplanationZh": "常見 poach an egg（水煮蛋）、poach animals（非法狩獵）、poach an employee（挖角員工），需依語境判斷。",
-        "examples": [
-          {
-            "en": "The company was accused of poaching staff from its rival.",
-            "zh": "這家公司被指控從競爭對手那裡挖角員工。"
-          }
+        "grammarPatterns": [
+          "poach + noun",
+          "poach sb from + noun",
+          "poach sth in + noun"
         ],
         "collocations": [
           {
             "text": "poach an egg",
             "meaningZh": "做水波蛋"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company was accused of poaching staff from its rival.",
+            "zh": "這家公司被指控從競爭對手那裡挖角員工。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "poacher",
+        "partOfSpeech": "noun",
+        "meaningZh": "盜獵者；挖角者"
       }
     ],
     "tags": [
@@ -217,9 +289,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_poet",
@@ -233,21 +303,54 @@
       {
         "id": "s_poet_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "a person who writes poems",
         "definitionZh": "詩人",
         "usageExplanationZh": "指從事詩歌創作的人，常見於文學相關語境，如 a famous poet（知名詩人）。",
-        "examples": [
-          {
-            "en": "The poet read her latest work aloud at the event.",
-            "zh": "那位詩人在活動中朗讀了她的最新作品。"
-          }
+        "grammarPatterns": [
+          "a poet who + clause",
+          "the + adjective + poet",
+          "a poet of + noun"
         ],
         "collocations": [
           {
             "text": "a lyric poet",
             "meaningZh": "抒情詩人"
           }
+        ],
+        "examples": [
+          {
+            "en": "The poet read her latest work aloud at the event.",
+            "zh": "那位詩人在活動中朗讀了她的最新作品。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "verse writer",
+        "noteZh": "寫詩的人"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "poem",
+        "partOfSpeech": "noun",
+        "meaningZh": "詩"
+      },
+      {
+        "lemma": "poetry",
+        "partOfSpeech": "noun",
+        "meaningZh": "詩；詩歌"
+      },
+      {
+        "lemma": "poetic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "詩意的；富詩意的"
       }
     ],
     "tags": [
@@ -260,14 +363,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "verse writer",
-        "noteZh": "寫詩的人"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_poignant",
@@ -281,21 +377,48 @@
       {
         "id": "s_poignant_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "evoking a keen sense of sadness or regret",
         "definitionZh": "令人心酸的；感人的",
         "usageExplanationZh": "常修飾 moment、memory，形容深刻觸動情感、帶有淡淡哀傷的事物，語氣文學化。",
-        "examples": [
-          {
-            "en": "The film's ending was both poignant and beautiful.",
-            "zh": "這部電影的結局既感人又美麗。"
-          }
+        "grammarPatterns": [
+          "a poignant + noun",
+          "a poignant reminder of + noun"
         ],
         "collocations": [
           {
             "text": "a poignant reminder",
             "meaningZh": "令人心酸的提醒"
           }
+        ],
+        "examples": [
+          {
+            "en": "The film's ending was both poignant and beautiful.",
+            "zh": "這部電影的結局既感人又美麗。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "moving",
+        "noteZh": "令人感動的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "poignancy",
+        "partOfSpeech": "noun",
+        "meaningZh": "心酸；深刻動人"
+      },
+      {
+        "lemma": "poignantly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "令人心酸地"
       }
     ],
     "tags": [
@@ -308,14 +431,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "moving",
-        "noteZh": "令人感動的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_poise",
@@ -329,21 +445,48 @@
       {
         "id": "s_poise_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "graceful and calm behavior, especially under pressure",
         "definitionZh": "沉著；優雅的儀態",
         "usageExplanationZh": "常見 with poise（沉著自若地）、maintain poise，強調在壓力下仍能保持鎮定優雅的舉止。",
-        "examples": [
-          {
-            "en": "She handled the difficult questions with remarkable poise.",
-            "zh": "她以驚人的沉著應對這些棘手的問題。"
-          }
+        "grammarPatterns": [
+          "with poise",
+          "handle sth with poise",
+          "lose one's poise"
         ],
         "collocations": [
           {
             "text": "grace and poise",
             "meaningZh": "優雅與沉著"
           }
+        ],
+        "examples": [
+          {
+            "en": "She handled the difficult questions with remarkable poise.",
+            "zh": "她以驚人的沉著應對這些棘手的問題。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "composure",
+        "noteZh": "沉著"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "agitation",
+        "noteZh": "慌亂；焦躁"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "poised",
+        "partOfSpeech": "adjective",
+        "meaningZh": "鎮定的；蓄勢待發的"
       }
     ],
     "tags": [
@@ -358,19 +501,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "composure",
-        "noteZh": "沉著"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "agitation",
-        "noteZh": "慌亂；焦躁"
-      }
-    ]
+    }
   },
   {
     "id": "w_poison",
@@ -384,40 +515,70 @@
       {
         "id": "s_poison_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a substance that causes death or harm if it enters the body",
         "definitionZh": "毒藥；毒物",
         "usageExplanationZh": "常見 a slow-acting poison（慢性毒藥），泛指任何對身體有害甚至致命的物質。",
-        "examples": [
-          {
-            "en": "The detective discovered traces of poison in the victim's tea.",
-            "zh": "偵探在受害者的茶中發現了毒藥的痕跡。"
-          }
+        "grammarPatterns": [
+          "a deadly poison",
+          "traces of poison in + noun",
+          "take poison"
         ],
         "collocations": [
           {
             "text": "rat poison",
             "meaningZh": "老鼠藥"
           }
+        ],
+        "examples": [
+          {
+            "en": "The detective discovered traces of poison in the victim's tea.",
+            "zh": "偵探在受害者的茶中發現了毒藥的痕跡。"
+          }
         ]
       },
       {
         "id": "s_poison_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to give poison to someone in order to kill or harm them, or to corrupt something",
         "definitionZh": "下毒；毒害；（比喻）破壞",
         "usageExplanationZh": "常接受詞為人或抽象事物，如 poison the atmosphere（破壞氣氛），依語境判斷字面或比喻義。",
-        "examples": [
-          {
-            "en": "The rumors began to poison their friendship.",
-            "zh": "那些謠言開始破壞他們的友誼。"
-          }
+        "grammarPatterns": [
+          "poison + sb",
+          "poison sb with + noun",
+          "poison + noun"
         ],
         "collocations": [
           {
             "text": "poison the atmosphere",
             "meaningZh": "破壞氣氛"
           }
+        ],
+        "examples": [
+          {
+            "en": "The rumors began to poison their friendship.",
+            "zh": "那些謠言開始破壞他們的友誼。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "toxin",
+        "noteZh": "名詞：毒素"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "poisonous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有毒的"
       }
     ],
     "tags": [
@@ -430,14 +591,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "toxin",
-        "noteZh": "名詞：毒素"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_poisonous",
@@ -451,21 +605,49 @@
       {
         "id": "s_poisonous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "containing or producing poison; capable of causing harm or death",
         "definitionZh": "有毒的",
         "usageExplanationZh": "常修飾 snake、substance，形容具有毒性、可能致命或有害的事物。",
-        "examples": [
-          {
-            "en": "Some mushrooms in the forest are highly poisonous.",
-            "zh": "森林裡有些蘑菇具有劇毒。"
-          }
+        "grammarPatterns": [
+          "a poisonous + noun",
+          "be poisonous to + sb",
+          "highly poisonous"
         ],
         "collocations": [
           {
             "text": "poisonous mushrooms",
             "meaningZh": "毒蘑菇"
           }
+        ],
+        "examples": [
+          {
+            "en": "Some mushrooms in the forest are highly poisonous.",
+            "zh": "森林裡有些蘑菇具有劇毒。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "toxic",
+        "noteZh": "有毒的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "non-toxic",
+        "noteZh": "無毒的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "poison",
+        "partOfSpeech": "noun",
+        "meaningZh": "毒藥；毒物"
       }
     ],
     "tags": [
@@ -478,19 +660,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "toxic",
-        "noteZh": "有毒的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "non-toxic",
-        "noteZh": "無毒的"
-      }
-    ]
+    }
   },
   {
     "id": "w_poke",
@@ -504,23 +674,39 @@
       {
         "id": "s_poke_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "to jab or prod someone or something with a finger or pointed object",
         "definitionZh": "戳；捅",
         "usageExplanationZh": "常接 at，如 poke at the fire（撥弄火堆），也可指用手指輕戳他人，語氣輕鬆隨意。",
-        "examples": [
-          {
-            "en": "She poked him gently to wake him up.",
-            "zh": "她輕輕戳了他一下把他叫醒。"
-          }
+        "grammarPatterns": [
+          "poke + sb",
+          "poke sb with + noun",
+          "poke at + noun"
         ],
         "collocations": [
           {
             "text": "poke someone in the ribs",
             "meaningZh": "戳某人的肋部"
           }
+        ],
+        "examples": [
+          {
+            "en": "She poked him gently to wake him up.",
+            "zh": "她輕輕戳了他一下把他叫醒。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "prod",
+        "noteZh": "戳；捅"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -532,14 +718,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "prod",
-        "noteZh": "戳；捅"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_polarize",
@@ -553,21 +732,59 @@
       {
         "id": "s_polarize_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "to cause people or opinions to divide into two sharply contrasting groups",
         "definitionZh": "使兩極化；使分裂對立",
         "usageExplanationZh": "常見 political issue that polarizes public opinion（使輿論兩極化的政治議題），強調造成極端對立。",
-        "examples": [
-          {
-            "en": "The issue has polarized public opinion across the country.",
-            "zh": "這個議題使全國的輿論兩極化。"
-          }
+        "grammarPatterns": [
+          "polarize + noun",
+          "polarize opinion",
+          "be polarized between + noun"
         ],
         "collocations": [
           {
             "text": "polarize public opinion",
             "meaningZh": "使輿論兩極化"
           }
+        ],
+        "examples": [
+          {
+            "en": "The issue has polarized public opinion across the country.",
+            "zh": "這個議題使全國的輿論兩極化。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "divide",
+        "noteZh": "使分裂"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "unite",
+        "noteZh": "使團結"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "polarization",
+        "partOfSpeech": "noun",
+        "meaningZh": "兩極化；極化"
+      },
+      {
+        "lemma": "polar",
+        "partOfSpeech": "adjective",
+        "meaningZh": "兩極的；極地的"
+      },
+      {
+        "lemma": "polarity",
+        "partOfSpeech": "noun",
+        "meaningZh": "極性；對立性"
       }
     ],
     "tags": [
@@ -581,19 +798,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "divide",
-        "noteZh": "使分裂"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "unite",
-        "noteZh": "使團結"
-      }
-    ]
+    }
   },
   {
     "id": "w_poll",
@@ -607,21 +812,44 @@
       {
         "id": "s_poll_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "a survey of people's opinions, or the process of voting in an election",
         "definitionZh": "民調；投票",
         "usageExplanationZh": "常見 conduct a poll（進行民調）、go to the polls（去投票），依上下文判斷指調查或選舉活動。",
-        "examples": [
-          {
-            "en": "A recent poll shows growing support for the new policy.",
-            "zh": "最近一項民調顯示大眾對這項新政策的支持度正在上升。"
-          }
+        "grammarPatterns": [
+          "a poll of + noun",
+          "conduct a poll",
+          "a poll shows that + clause"
         ],
         "collocations": [
           {
             "text": "an opinion poll",
             "meaningZh": "民意調查"
           }
+        ],
+        "examples": [
+          {
+            "en": "A recent poll shows growing support for the new policy.",
+            "zh": "最近一項民調顯示大眾對這項新政策的支持度正在上升。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "survey",
+        "noteZh": "民意調查"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "pollster",
+        "partOfSpeech": "noun",
+        "meaningZh": "民調專家"
       }
     ],
     "tags": [
@@ -635,14 +863,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "survey",
-        "noteZh": "民意調查"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pollination",
@@ -656,21 +877,48 @@
       {
         "id": "s_pollination_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "the transfer of pollen from one flower to another, enabling fertilization",
         "definitionZh": "授粉",
         "usageExplanationZh": "生物學用語，常見 bee pollination（蜜蜂授粉），描述植物繁殖過程中花粉傳遞的機制。",
-        "examples": [
-          {
-            "en": "Bees play a crucial role in the pollination of many crops.",
-            "zh": "蜜蜂在許多農作物的授粉過程中扮演著關鍵角色。"
-          }
+        "grammarPatterns": [
+          "the pollination of + noun",
+          "depend on pollination"
         ],
         "collocations": [
           {
             "text": "cross-pollination",
             "meaningZh": "異花授粉"
           }
+        ],
+        "examples": [
+          {
+            "en": "Bees play a crucial role in the pollination of many crops.",
+            "zh": "蜜蜂在許多農作物的授粉過程中扮演著關鍵角色。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "pollinate",
+        "partOfSpeech": "verb",
+        "meaningZh": "為……授粉"
+      },
+      {
+        "lemma": "pollen",
+        "partOfSpeech": "noun",
+        "meaningZh": "花粉"
+      },
+      {
+        "lemma": "pollinator",
+        "partOfSpeech": "noun",
+        "meaningZh": "授粉媒介"
       }
     ],
     "tags": [
@@ -683,9 +931,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pollution",
@@ -699,21 +945,49 @@
       {
         "id": "s_pollution_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "the presence or introduction of harmful substances into the environment",
         "definitionZh": "污染",
         "usageExplanationZh": "常見 air pollution、water pollution，指環境中有害物質的存在或排放，是環境議題的常用詞。",
-        "examples": [
-          {
-            "en": "Air pollution in the city has reached dangerous levels.",
-            "zh": "這座城市的空氣污染已達到危險等級。"
-          }
+        "grammarPatterns": [
+          "pollution from + noun",
+          "reduce pollution",
+          "levels of pollution"
         ],
         "collocations": [
           {
             "text": "air pollution",
             "meaningZh": "空氣污染"
           }
+        ],
+        "examples": [
+          {
+            "en": "Air pollution in the city has reached dangerous levels.",
+            "zh": "這座城市的空氣污染已達到危險等級。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "contamination",
+        "noteZh": "污染"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "pollute",
+        "partOfSpeech": "verb",
+        "meaningZh": "污染"
+      },
+      {
+        "lemma": "pollutant",
+        "partOfSpeech": "noun",
+        "meaningZh": "污染物"
       }
     ],
     "tags": [
@@ -727,14 +1001,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "contamination",
-        "noteZh": "污染"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pompous",
@@ -748,21 +1015,57 @@
       {
         "id": "s_pompous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "self-important and arrogant, especially in speech or manner",
         "definitionZh": "自負的；浮誇做作的",
         "usageExplanationZh": "常修飾 tone、manner、person，形容言行過於自以為是、擺架子，帶貶意。",
-        "examples": [
-          {
-            "en": "His pompous speech annoyed most of the audience.",
-            "zh": "他那自負的演講讓多數聽眾感到厭煩。"
-          }
+        "grammarPatterns": [
+          "a pompous + noun",
+          "sound pompous"
         ],
         "collocations": [
           {
             "text": "a pompous speech",
             "meaningZh": "浮誇做作的演說"
           }
+        ],
+        "examples": [
+          {
+            "en": "His pompous speech annoyed most of the audience.",
+            "zh": "他那自負的演講讓多數聽眾感到厭煩。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "self-important",
+        "noteZh": "自以為重要的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "humble",
+        "noteZh": "謙遜的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "pomposity",
+        "partOfSpeech": "noun",
+        "meaningZh": "浮誇；自負"
+      },
+      {
+        "lemma": "pomp",
+        "partOfSpeech": "noun",
+        "meaningZh": "排場；盛況"
+      },
+      {
+        "lemma": "pompously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "浮誇地"
       }
     ],
     "tags": [
@@ -776,19 +1079,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "self-important",
-        "noteZh": "自以為重要的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "humble",
-        "noteZh": "謙遜的"
-      }
-    ]
+    }
   },
   {
     "id": "w_ponder",
@@ -802,21 +1093,44 @@
       {
         "id": "s_ponder_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to think about something carefully and thoroughly",
         "definitionZh": "仔細思考；沉思",
         "usageExplanationZh": "常接 on、over 或直接接受詞，如 ponder a question，強調深思熟慮的過程，語氣正式。",
-        "examples": [
-          {
-            "en": "She sat by the window, pondering her next move.",
-            "zh": "她坐在窗邊，仔細思考著下一步該怎麼做。"
-          }
+        "grammarPatterns": [
+          "ponder + noun",
+          "ponder whether + clause",
+          "ponder over + noun"
         ],
         "collocations": [
           {
             "text": "ponder over a question",
             "meaningZh": "仔細思考一個問題"
           }
+        ],
+        "examples": [
+          {
+            "en": "She sat by the window, pondering her next move.",
+            "zh": "她坐在窗邊，仔細思考著下一步該怎麼做。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "contemplate",
+        "noteZh": "仔細思考"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "ponderous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "笨重的；冗長沉悶的"
       }
     ],
     "tags": [
@@ -831,14 +1145,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "contemplate",
-        "noteZh": "仔細思考"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pony",
@@ -852,23 +1159,32 @@
       {
         "id": "s_pony_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a small breed of horse",
         "definitionZh": "小馬；矮種馬",
         "usageExplanationZh": "常見於兒童或農場情境，如 ride a pony（騎小馬），指體型較小的馬匹品種。",
-        "examples": [
-          {
-            "en": "The children took turns riding the pony at the farm.",
-            "zh": "孩子們在農場裡輪流騎小馬。"
-          }
+        "grammarPatterns": [
+          "ride a pony",
+          "a + adjective + pony"
         ],
         "collocations": [
           {
             "text": "a Shetland pony",
             "meaningZh": "雪特蘭矮種馬"
           }
+        ],
+        "examples": [
+          {
+            "en": "The children took turns riding the pony at the farm.",
+            "zh": "孩子們在農場裡輪流騎小馬。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -879,9 +1195,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_popularity",
@@ -895,21 +1209,58 @@
       {
         "id": "s_popularity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "the state of being liked, admired, or supported by many people",
         "definitionZh": "受歡迎程度；人氣",
         "usageExplanationZh": "常見 gain popularity（獲得人氣）、lose popularity（失去人氣），常用於描述人物、產品或趨勢的受歡迎程度。",
-        "examples": [
-          {
-            "en": "The singer's popularity soared after her latest album.",
-            "zh": "這位歌手在最新專輯發行後人氣飆升。"
-          }
+        "grammarPatterns": [
+          "the popularity of + noun",
+          "gain popularity",
+          "grow in popularity"
         ],
         "collocations": [
           {
             "text": "gain popularity",
             "meaningZh": "漸受歡迎"
           }
+        ],
+        "examples": [
+          {
+            "en": "The singer's popularity soared after her latest album.",
+            "zh": "這位歌手在最新專輯發行後人氣飆升。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "appeal",
+        "noteZh": "吸引力；受歡迎程度"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "unpopularity",
+        "noteZh": "不受歡迎"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "popular",
+        "partOfSpeech": "adjective",
+        "meaningZh": "受歡迎的；普及的"
+      },
+      {
+        "lemma": "popularize",
+        "partOfSpeech": "verb",
+        "meaningZh": "使普及；推廣"
+      },
+      {
+        "lemma": "popularly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "普遍地"
       }
     ],
     "tags": [
@@ -922,19 +1273,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "appeal",
-        "noteZh": "吸引力；受歡迎程度"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "unpopularity",
-        "noteZh": "不受歡迎"
-      }
-    ]
+    }
   },
   {
     "id": "w_populous",
@@ -948,21 +1287,53 @@
       {
         "id": "s_populous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "having a large population; densely inhabited",
         "definitionZh": "人口稠密的",
         "usageExplanationZh": "常修飾 city、region，如 the most populous country（人口最多的國家），強調人口數量龐大。",
-        "examples": [
-          {
-            "en": "China is the world's most populous country.",
-            "zh": "中國是世界上人口最多的國家。"
-          }
+        "grammarPatterns": [
+          "the most populous + noun",
+          "a populous + noun"
         ],
         "collocations": [
           {
             "text": "a populous city",
             "meaningZh": "人口眾多的城市"
           }
+        ],
+        "examples": [
+          {
+            "en": "China is the world's most populous country.",
+            "zh": "中國是世界上人口最多的國家。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "densely populated",
+        "noteZh": "人口稠密的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "sparsely populated",
+        "noteZh": "人口稀少的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "population",
+        "partOfSpeech": "noun",
+        "meaningZh": "人口"
+      },
+      {
+        "lemma": "populate",
+        "partOfSpeech": "verb",
+        "meaningZh": "居住於；使有人口"
       }
     ],
     "tags": [
@@ -976,19 +1347,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "densely populated",
-        "noteZh": "人口稠密的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "sparsely populated",
-        "noteZh": "人口稀少的"
-      }
-    ]
+    }
   },
   {
     "id": "w_porous",
@@ -1002,21 +1361,53 @@
       {
         "id": "s_porous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "having small holes that allow liquid or air to pass through, or (figuratively) easily penetrated",
         "definitionZh": "多孔的；（比喻）鬆散易滲透的",
         "usageExplanationZh": "常見 porous rock（多孔的岩石），也可比喻邊界或制度不夠嚴密，如 porous borders。",
-        "examples": [
-          {
-            "en": "The porous soil allowed rainwater to drain quickly.",
-            "zh": "多孔的土壤讓雨水能迅速排出。"
-          }
+        "grammarPatterns": [
+          "porous + noun",
+          "be porous to + noun"
         ],
         "collocations": [
           {
             "text": "porous rock",
             "meaningZh": "多孔岩石"
           }
+        ],
+        "examples": [
+          {
+            "en": "The porous soil allowed rainwater to drain quickly.",
+            "zh": "多孔的土壤讓雨水能迅速排出。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "permeable",
+        "noteZh": "可滲透的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "impermeable",
+        "noteZh": "不透水或氣的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "porosity",
+        "partOfSpeech": "noun",
+        "meaningZh": "多孔性"
+      },
+      {
+        "lemma": "pore",
+        "partOfSpeech": "noun",
+        "meaningZh": "毛孔；細孔"
       }
     ],
     "tags": [
@@ -1031,19 +1422,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "permeable",
-        "noteZh": "可滲透的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "impermeable",
-        "noteZh": "不透水或氣的"
-      }
-    ]
+    }
   },
   {
     "id": "w_portable",
@@ -1057,21 +1436,49 @@
       {
         "id": "s_portable_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "able to be easily carried or moved",
         "definitionZh": "可攜帶的；便攜式的",
         "usageExplanationZh": "常修飾 device、computer，形容體積輕巧、方便隨身攜帶的物品。",
-        "examples": [
-          {
-            "en": "She bought a portable speaker for her camping trip.",
-            "zh": "她為露營旅行買了一個便攜式喇叭。"
-          }
+        "grammarPatterns": [
+          "a portable + noun",
+          "be portable",
+          "easily portable"
         ],
         "collocations": [
           {
             "text": "a portable charger",
             "meaningZh": "攜帶式充電器"
           }
+        ],
+        "examples": [
+          {
+            "en": "She bought a portable speaker for her camping trip.",
+            "zh": "她為露營旅行買了一個便攜式喇叭。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "transportable",
+        "noteZh": "可搬運的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "fixed",
+        "noteZh": "固定不可移動的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "portability",
+        "partOfSpeech": "noun",
+        "meaningZh": "可攜性；可移植性"
       }
     ],
     "tags": [
@@ -1086,19 +1493,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "transportable",
-        "noteZh": "可搬運的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "fixed",
-        "noteZh": "固定不可移動的"
-      }
-    ]
+    }
   },
   {
     "id": "w_portfolio",
@@ -1112,23 +1507,39 @@
       {
         "id": "s_portfolio_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "neutral"
+        ],
         "definitionEn": "a collection of documents, artwork, or investments held by a person or institution",
         "definitionZh": "作品集；（投資）組合",
         "usageExplanationZh": "常見 an investment portfolio（投資組合）、a design portfolio（設計作品集），依上下文判斷具體所指。",
-        "examples": [
-          {
-            "en": "The photographer showed her portfolio to potential clients.",
-            "zh": "那位攝影師向潛在客戶展示了她的作品集。"
-          }
+        "grammarPatterns": [
+          "a portfolio of + noun",
+          "show one's portfolio",
+          "an investment portfolio"
         ],
         "collocations": [
           {
             "text": "an investment portfolio",
             "meaningZh": "投資組合"
           }
+        ],
+        "examples": [
+          {
+            "en": "The photographer showed her portfolio to potential clients.",
+            "zh": "那位攝影師向潛在客戶展示了她的作品集。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "collection",
+        "noteZh": "作品或資產的集合"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -1140,14 +1551,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "collection",
-        "noteZh": "作品或資產的集合"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_portion",
@@ -1161,21 +1565,47 @@
       {
         "id": "s_portion_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a part or share of a whole, especially of food",
         "definitionZh": "部分；（食物）份量",
         "usageExplanationZh": "常見 a portion of food（一份食物）、a large portion of the population，指整體中的一部分或特定量。",
-        "examples": [
-          {
-            "en": "Each guest was served a generous portion of cake.",
-            "zh": "每位賓客都得到了一大份蛋糕。"
-          }
+        "grammarPatterns": [
+          "a portion of + noun",
+          "a large portion of + noun",
+          "serve a portion"
         ],
         "collocations": [
           {
             "text": "a generous portion",
             "meaningZh": "一大份"
           }
+        ],
+        "examples": [
+          {
+            "en": "Each guest was served a generous portion of cake.",
+            "zh": "每位賓客都得到了一大份蛋糕。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "part",
+        "noteZh": "部分"
+      },
+      {
+        "lemma": "serving",
+        "noteZh": "一人份食物"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "apportion",
+        "partOfSpeech": "verb",
+        "meaningZh": "分配；分攤"
       }
     ],
     "tags": [
@@ -1189,18 +1619,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "part",
-        "noteZh": "部分"
-      },
-      {
-        "lemma": "serving",
-        "noteZh": "一人份食物"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_portrait",
@@ -1214,21 +1633,49 @@
       {
         "id": "s_portrait_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "a painting, drawing, or photograph of a person, especially of the face",
         "definitionZh": "肖像；人像畫",
         "usageExplanationZh": "常見 paint a portrait、a family portrait，指描繪人物（尤其是臉部）的藝術作品或照片。",
-        "examples": [
-          {
-            "en": "The artist painted a portrait of the queen.",
-            "zh": "這位畫家為女王畫了一幅肖像。"
-          }
+        "grammarPatterns": [
+          "a portrait of + sb",
+          "paint a portrait",
+          "sit for a portrait"
         ],
         "collocations": [
           {
             "text": "paint a portrait",
             "meaningZh": "畫肖像"
           }
+        ],
+        "examples": [
+          {
+            "en": "The artist painted a portrait of the queen.",
+            "zh": "這位畫家為女王畫了一幅肖像。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "likeness",
+        "noteZh": "描繪人物容貌的畫像"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "portray",
+        "partOfSpeech": "verb",
+        "meaningZh": "描繪；飾演"
+      },
+      {
+        "lemma": "portrayal",
+        "partOfSpeech": "noun",
+        "meaningZh": "描繪；刻畫"
       }
     ],
     "tags": [
@@ -1241,14 +1688,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "likeness",
-        "noteZh": "描繪人物容貌的畫像"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_portray",
@@ -1262,21 +1702,49 @@
       {
         "id": "s_portray_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to depict someone or something in a work of art, or (of an actor) to play a role",
         "definitionZh": "描繪；（演員）飾演",
         "usageExplanationZh": "常接受詞為人物或角色，如 portray a character（飾演一個角色），也可指文學或藝術中的描寫。",
-        "examples": [
-          {
-            "en": "The actor portrayed a troubled detective in the film.",
-            "zh": "那位演員在電影中飾演一名內心糾結的偵探。"
-          }
+        "grammarPatterns": [
+          "portray + noun",
+          "portray sb as + noun",
+          "portray sth in + noun"
         ],
         "collocations": [
           {
             "text": "portray someone as a hero",
             "meaningZh": "把某人描繪成英雄"
           }
+        ],
+        "examples": [
+          {
+            "en": "The actor portrayed a troubled detective in the film.",
+            "zh": "那位演員在電影中飾演一名內心糾結的偵探。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "depict",
+        "noteZh": "描繪"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "portrayal",
+        "partOfSpeech": "noun",
+        "meaningZh": "描繪；刻畫"
+      },
+      {
+        "lemma": "portrait",
+        "partOfSpeech": "noun",
+        "meaningZh": "肖像；人像"
       }
     ],
     "tags": [
@@ -1291,14 +1759,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "depict",
-        "noteZh": "描繪"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pose",
@@ -1312,42 +1773,69 @@
       {
         "id": "s_pose_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a particular position of the body, especially one adopted for a photograph or painting",
         "definitionZh": "姿勢；姿態",
         "usageExplanationZh": "常見 strike a pose（擺姿勢），指刻意為拍照或繪畫所擺出的身體姿勢。",
-        "examples": [
-          {
-            "en": "She struck a confident pose for the camera.",
-            "zh": "她為了拍照擺出了自信的姿勢。"
-          }
+        "grammarPatterns": [
+          "strike a pose",
+          "hold a pose",
+          "in a + adjective + pose"
         ],
         "collocations": [
           {
             "text": "strike a pose",
             "meaningZh": "擺出姿勢"
           }
+        ],
+        "examples": [
+          {
+            "en": "She struck a confident pose for the camera.",
+            "zh": "她為了拍照擺出了自信的姿勢。"
+          }
         ]
       },
       {
         "id": "s_pose_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to present a problem or risk, or to assume a particular position, or to pretend to be someone",
         "definitionZh": "構成（問題、威脅）；擺姿勢；假冒",
         "usageExplanationZh": "常接 a threat、a question，如 pose a risk（構成風險），也可指擺拍姿勢或假冒身分。",
-        "examples": [
-          {
-            "en": "The new virus poses a serious threat to public health.",
-            "zh": "這種新病毒對公共衛生構成嚴重威脅。"
-          }
+        "grammarPatterns": [
+          "pose a threat to + noun",
+          "pose a problem for + sb",
+          "pose as + noun"
         ],
         "collocations": [
           {
             "text": "pose a threat",
             "meaningZh": "構成威脅"
           }
+        ],
+        "examples": [
+          {
+            "en": "The new virus poses a serious threat to public health.",
+            "zh": "這種新病毒對公共衛生構成嚴重威脅。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "posture",
+        "noteZh": "名詞：姿態"
+      },
+      {
+        "lemma": "present",
+        "noteZh": "動詞：造成問題等"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1360,18 +1848,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "posture",
-        "noteZh": "名詞：姿態"
-      },
-      {
-        "lemma": "present",
-        "noteZh": "動詞：造成問題等"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_posit",
@@ -1385,23 +1862,39 @@
       {
         "id": "s_posit_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "to put forward an idea or theory as a basis for argument",
         "definitionZh": "假設；提出（論點）",
         "usageExplanationZh": "正式或學術用語，常接 that 子句，如 posit that，指提出一個作為論證基礎的假設或主張。",
-        "examples": [
-          {
-            "en": "The researchers posit that the decline is linked to climate change.",
-            "zh": "研究人員提出假設，認為這種衰退與氣候變遷有關。"
-          }
+        "grammarPatterns": [
+          "posit that + clause",
+          "posit + noun",
+          "posit a link between + noun"
         ],
         "collocations": [
           {
             "text": "posit a theory",
             "meaningZh": "提出理論"
           }
+        ],
+        "examples": [
+          {
+            "en": "The researchers posit that the decline is linked to climate change.",
+            "zh": "研究人員提出假設，認為這種衰退與氣候變遷有關。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "postulate",
+        "noteZh": "提出假設"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1412,14 +1905,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "postulate",
-        "noteZh": "提出假設"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_possess",
@@ -1433,21 +1919,58 @@
       {
         "id": "s_possess_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to have or own something, or (of a feeling) to control someone's actions",
         "definitionZh": "擁有；（情緒）支配（某人）",
         "usageExplanationZh": "常見 possess a quality（擁有某種特質），也可指強烈情緒控制某人的行為，如 what possessed you to do that?",
-        "examples": [
-          {
-            "en": "She possesses a rare talent for languages.",
-            "zh": "她擁有一種罕見的語言天賦。"
-          }
+        "grammarPatterns": [
+          "possess + noun",
+          "possess a talent for + noun",
+          "be possessed by + noun"
         ],
         "collocations": [
           {
             "text": "possess the necessary skills",
             "meaningZh": "具備所需技能"
           }
+        ],
+        "examples": [
+          {
+            "en": "She possesses a rare talent for languages.",
+            "zh": "她擁有一種罕見的語言天賦。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "own",
+        "noteZh": "擁有"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "lack",
+        "noteZh": "缺乏"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "possession",
+        "partOfSpeech": "noun",
+        "meaningZh": "擁有；持有"
+      },
+      {
+        "lemma": "possessive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "佔有慾強的"
+      },
+      {
+        "lemma": "possessor",
+        "partOfSpeech": "noun",
+        "meaningZh": "擁有者"
       }
     ],
     "tags": [
@@ -1460,19 +1983,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "own",
-        "noteZh": "擁有"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "lack",
-        "noteZh": "缺乏"
-      }
-    ]
+    }
   },
   {
     "id": "w_possession",
@@ -1486,21 +1997,48 @@
       {
         "id": "s_possession_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "the state of owning or having something, or (plural) belongings",
         "definitionZh": "擁有；持有；（複數）財物",
         "usageExplanationZh": "常見 in possession of（持有……）、personal possessions（個人財物），依上下文判斷抽象或具體意涵。",
-        "examples": [
-          {
-            "en": "He was found in possession of stolen goods.",
-            "zh": "他被發現持有贓物。"
-          }
+        "grammarPatterns": [
+          "in possession of + noun",
+          "take possession of + noun",
+          "one's possessions"
         ],
         "collocations": [
           {
             "text": "in possession of",
             "meaningZh": "持有……"
           }
+        ],
+        "examples": [
+          {
+            "en": "He was found in possession of stolen goods.",
+            "zh": "他被發現持有贓物。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "ownership",
+        "noteZh": "所有權"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "possess",
+        "partOfSpeech": "verb",
+        "meaningZh": "擁有；持有"
+      },
+      {
+        "lemma": "possessive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "佔有慾強的"
       }
     ],
     "tags": [
@@ -1514,14 +2052,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "ownership",
-        "noteZh": "所有權"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_poster",
@@ -1535,23 +2066,33 @@
       {
         "id": "s_poster_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a large printed picture or notice used for decoration or advertising",
         "definitionZh": "海報；廣告",
         "usageExplanationZh": "常見 put up a poster（張貼海報）、a movie poster，指用於裝飾或宣傳的大幅印刷品。",
-        "examples": [
-          {
-            "en": "She hung a poster of her favorite band on the wall.",
-            "zh": "她在牆上掛了一張她最喜歡的樂團海報。"
-          }
+        "grammarPatterns": [
+          "a poster of + noun",
+          "a poster for + noun",
+          "hang a poster on + noun"
         ],
         "collocations": [
           {
             "text": "a movie poster",
             "meaningZh": "電影海報"
           }
+        ],
+        "examples": [
+          {
+            "en": "She hung a poster of her favorite band on the wall.",
+            "zh": "她在牆上掛了一張她最喜歡的樂團海報。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1564,9 +2105,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_posterior",
@@ -1580,21 +2119,41 @@
       {
         "id": "s_posterior_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "situated at or toward the rear, or coming after in time",
         "definitionZh": "後面的；較晚的",
         "usageExplanationZh": "正式或學術用語，常見於解剖學（posterior side，後側）或時間序列（posterior to，晚於）。",
-        "examples": [
-          {
-            "en": "The posterior part of the brain controls balance and coordination.",
-            "zh": "大腦的後側部分控制平衡與協調。"
-          }
+        "grammarPatterns": [
+          "the posterior + noun",
+          "posterior to + noun"
         ],
         "collocations": [
           {
             "text": "the posterior surface",
             "meaningZh": "後側表面"
           }
+        ],
+        "examples": [
+          {
+            "en": "The posterior part of the brain controls balance and coordination.",
+            "zh": "大腦的後側部分控制平衡與協調。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "rear",
+        "noteZh": "後面的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "anterior",
+        "noteZh": "前面的"
       }
     ],
     "tags": [
@@ -1607,19 +2166,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "rear",
-        "noteZh": "後面的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "anterior",
-        "noteZh": "前面的"
-      }
-    ]
+    }
   },
   {
     "id": "w_postpone",
@@ -1633,21 +2180,48 @@
       {
         "id": "s_postpone_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to arrange for an event to take place at a later time",
         "definitionZh": "延後；延期",
         "usageExplanationZh": "常接具體事件，如 postpone the meeting，強調將原定時間往後移，語氣中性。",
-        "examples": [
-          {
-            "en": "The concert was postponed due to bad weather.",
-            "zh": "這場演唱會因天候不佳而延期。"
-          }
+        "grammarPatterns": [
+          "postpone + noun",
+          "postpone sth until + noun",
+          "be postponed due to + noun"
         ],
         "collocations": [
           {
             "text": "postpone until further notice",
             "meaningZh": "延期至另行通知"
           }
+        ],
+        "examples": [
+          {
+            "en": "The concert was postponed due to bad weather.",
+            "zh": "這場演唱會因天候不佳而延期。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "defer",
+        "noteZh": "延後"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "bring forward",
+        "noteZh": "把日期提前"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "postponement",
+        "partOfSpeech": "noun",
+        "meaningZh": "延期；延後"
       }
     ],
     "tags": [
@@ -1662,19 +2236,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "defer",
-        "noteZh": "延後"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "bring forward",
-        "noteZh": "把日期提前"
-      }
-    ]
+    }
   },
   {
     "id": "w_posture",
@@ -1688,21 +2250,43 @@
       {
         "id": "s_posture_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "the position in which someone holds their body, or an approach or attitude toward something",
         "definitionZh": "姿勢；體態；（比喻）態度、立場",
         "usageExplanationZh": "常見 good posture（良好姿勢）、a defensive posture（防禦性態度），依語境判斷字面或比喻義。",
-        "examples": [
-          {
-            "en": "Sitting for long hours can lead to poor posture.",
-            "zh": "長時間久坐可能導致姿勢不良。"
-          }
+        "grammarPatterns": [
+          "a + adjective + posture",
+          "maintain good posture",
+          "a posture of + noun"
         ],
         "collocations": [
           {
             "text": "good posture",
             "meaningZh": "良好的姿勢"
           }
+        ],
+        "examples": [
+          {
+            "en": "Sitting for long hours can lead to poor posture.",
+            "zh": "長時間久坐可能導致姿勢不良。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "stance",
+        "noteZh": "姿勢或立場"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "postural",
+        "partOfSpeech": "adjective",
+        "meaningZh": "姿勢的；體態的"
       }
     ],
     "tags": [
@@ -1717,14 +2301,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "stance",
-        "noteZh": "姿勢或立場"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_postwar",
@@ -1738,21 +2315,36 @@
       {
         "id": "s_postwar_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "relating to the period after a war, especially World War II",
         "definitionZh": "戰後的",
         "usageExplanationZh": "常見 postwar era（戰後時期）、postwar reconstruction，特指戰爭結束後的一段時期或相關事物。",
-        "examples": [
-          {
-            "en": "The postwar era saw rapid economic growth in many countries.",
-            "zh": "戰後時期許多國家經歷了快速的經濟成長。"
-          }
+        "grammarPatterns": [
+          "the postwar + noun",
+          "postwar + noun"
         ],
         "collocations": [
           {
             "text": "postwar reconstruction",
             "meaningZh": "戰後重建"
           }
+        ],
+        "examples": [
+          {
+            "en": "The postwar era saw rapid economic growth in many countries.",
+            "zh": "戰後時期許多國家經歷了快速的經濟成長。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [
+      {
+        "lemma": "prewar",
+        "noteZh": "戰前的"
       }
     ],
     "tags": [
@@ -1765,14 +2357,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": [
-      {
-        "lemma": "prewar",
-        "noteZh": "戰前的"
-      }
-    ]
+    }
   },
   {
     "id": "w_potent",
@@ -1786,21 +2371,54 @@
       {
         "id": "s_potent_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "having great power, influence, or effect",
         "definitionZh": "強而有力的；強效的",
         "usageExplanationZh": "常修飾 drug、argument、symbol，形容影響力或效力強大的事物。",
-        "examples": [
-          {
-            "en": "The medicine is potent and should be taken in small doses.",
-            "zh": "這種藥效力強，應少量服用。"
-          }
+        "grammarPatterns": [
+          "a potent + noun",
+          "be potent",
+          "a potent reminder of + noun"
         ],
         "collocations": [
           {
             "text": "a potent drug",
             "meaningZh": "強效藥物"
           }
+        ],
+        "examples": [
+          {
+            "en": "The medicine is potent and should be taken in small doses.",
+            "zh": "這種藥效力強，應少量服用。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "powerful",
+        "noteZh": "強效的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "weak",
+        "noteZh": "效力弱的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "potency",
+        "partOfSpeech": "noun",
+        "meaningZh": "效力；力量"
+      },
+      {
+        "lemma": "impotent",
+        "partOfSpeech": "adjective",
+        "meaningZh": "無力的；無能為力的"
       }
     ],
     "tags": [
@@ -1814,19 +2432,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "powerful",
-        "noteZh": "強效的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "weak",
-        "noteZh": "效力弱的"
-      }
-    ]
+    }
   },
   {
     "id": "w_pottery",
@@ -1840,21 +2446,48 @@
       {
         "id": "s_pottery_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "objects made from clay hardened by heat, or the craft of making such objects",
         "definitionZh": "陶器；製陶工藝",
         "usageExplanationZh": "常見 a piece of pottery（一件陶器）、make pottery，指陶製品本身或製作陶器的工藝，通常不可數。",
-        "examples": [
-          {
-            "en": "She took a class to learn how to make pottery.",
-            "zh": "她上了一堂課學習製作陶器。"
-          }
+        "grammarPatterns": [
+          "make pottery",
+          "a piece of pottery",
+          "a pottery class"
         ],
         "collocations": [
           {
             "text": "a pottery class",
             "meaningZh": "陶藝課"
           }
+        ],
+        "examples": [
+          {
+            "en": "She took a class to learn how to make pottery.",
+            "zh": "她上了一堂課學習製作陶器。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "ceramics",
+        "noteZh": "陶器及陶瓷工藝"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "potter",
+        "partOfSpeech": "noun",
+        "meaningZh": "陶匠；陶藝家"
+      },
+      {
+        "lemma": "pot",
+        "partOfSpeech": "noun",
+        "meaningZh": "鍋；罐"
       }
     ],
     "tags": [
@@ -1869,14 +2502,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "ceramics",
-        "noteZh": "陶器及陶瓷工藝"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_poverty",
@@ -1890,21 +2516,54 @@
       {
         "id": "s_poverty_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "the state of being extremely poor",
         "definitionZh": "貧窮；貧困",
         "usageExplanationZh": "常見 live in poverty（生活在貧困中）、poverty rate（貧困率），指缺乏足夠資源維持基本生活水準的狀態。",
-        "examples": [
-          {
-            "en": "Many families in the region live in extreme poverty.",
-            "zh": "該地區許多家庭生活在極度貧困之中。"
-          }
+        "grammarPatterns": [
+          "live in poverty",
+          "reduce poverty",
+          "in + adjective + poverty"
         ],
         "collocations": [
           {
             "text": "live in poverty",
             "meaningZh": "生活貧困"
           }
+        ],
+        "examples": [
+          {
+            "en": "Many families in the region live in extreme poverty.",
+            "zh": "該地區許多家庭生活在極度貧困之中。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "destitution",
+        "noteZh": "極度貧困"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "wealth",
+        "noteZh": "富裕"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "poor",
+        "partOfSpeech": "adjective",
+        "meaningZh": "貧窮的"
+      },
+      {
+        "lemma": "impoverish",
+        "partOfSpeech": "verb",
+        "meaningZh": "使貧窮；使枯竭"
       }
     ],
     "tags": [
@@ -1918,19 +2577,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "destitution",
-        "noteZh": "極度貧困"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "wealth",
-        "noteZh": "富裕"
-      }
-    ]
+    }
   },
   {
     "id": "w_powder",
@@ -1944,21 +2591,39 @@
       {
         "id": "s_powder_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a dry substance made of fine particles",
         "definitionZh": "粉末",
         "usageExplanationZh": "常見 baking powder（發粉）、face powder（粉餅），泛指任何細小顆粒狀的乾燥物質。",
-        "examples": [
-          {
-            "en": "She sprinkled some powder over the cake.",
-            "zh": "她在蛋糕上撒了一些糖粉。"
-          }
+        "grammarPatterns": [
+          "sprinkle powder over + noun",
+          "in powder form",
+          "a fine powder"
         ],
         "collocations": [
           {
             "text": "baking powder",
             "meaningZh": "泡打粉"
           }
+        ],
+        "examples": [
+          {
+            "en": "She sprinkled some powder over the cake.",
+            "zh": "她在蛋糕上撒了一些糖粉。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "powdery",
+        "partOfSpeech": "adjective",
+        "meaningZh": "粉狀的；像粉末的"
       }
     ],
     "tags": [
@@ -1971,9 +2636,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_practically",
@@ -1987,21 +2650,54 @@
       {
         "id": "s_practically_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "almost or nearly, or in a way relating to practice rather than theory",
         "definitionZh": "幾乎；實際上",
         "usageExplanationZh": "常見 practically impossible（幾乎不可能），也可指以實務、可行的方式，如 think practically。",
-        "examples": [
-          {
-            "en": "The store was practically empty when we arrived.",
-            "zh": "我們到達時，店裡幾乎空無一人。"
-          }
+        "grammarPatterns": [
+          "practically + adjective",
+          "practically all + noun",
+          "practically every + noun"
         ],
         "collocations": [
           {
             "text": "practically impossible",
             "meaningZh": "幾乎不可能"
           }
+        ],
+        "examples": [
+          {
+            "en": "The store was practically empty when we arrived.",
+            "zh": "我們到達時，店裡幾乎空無一人。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "virtually",
+        "noteZh": "幾乎"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "practical",
+        "partOfSpeech": "adjective",
+        "meaningZh": "實際的；實用的"
+      },
+      {
+        "lemma": "practice",
+        "partOfSpeech": "noun",
+        "meaningZh": "實踐；練習"
+      },
+      {
+        "lemma": "practicality",
+        "partOfSpeech": "noun",
+        "meaningZh": "實用性；可行性"
       }
     ],
     "tags": [
@@ -2015,14 +2711,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "virtually",
-        "noteZh": "幾乎"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_practitioner",
@@ -2036,21 +2725,49 @@
       {
         "id": "s_practitioner_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "a person actively engaged in a profession, especially medicine or law",
         "definitionZh": "從業人員；執業者",
         "usageExplanationZh": "常見 a medical practitioner（醫療從業人員）、a legal practitioner，指實際從事某專業工作的人。",
-        "examples": [
-          {
-            "en": "She is a licensed medical practitioner in the state.",
-            "zh": "她是該州持有執照的醫療從業人員。"
-          }
+        "grammarPatterns": [
+          "a practitioner of + noun",
+          "a medical practitioner",
+          "a licensed practitioner"
         ],
         "collocations": [
           {
             "text": "a general practitioner",
             "meaningZh": "一般科醫師"
           }
+        ],
+        "examples": [
+          {
+            "en": "She is a licensed medical practitioner in the state.",
+            "zh": "她是該州持有執照的醫療從業人員。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "professional",
+        "noteZh": "專業從業者"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "practice",
+        "partOfSpeech": "noun",
+        "meaningZh": "執業；實務"
+      },
+      {
+        "lemma": "practical",
+        "partOfSpeech": "adjective",
+        "meaningZh": "實務的；實用的"
       }
     ],
     "tags": [
@@ -2065,14 +2782,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "professional",
-        "noteZh": "專業從業者"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_prank",
@@ -2086,21 +2796,43 @@
       {
         "id": "s_prank_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "to play a mischievous trick on someone",
         "definitionZh": "惡作劇；捉弄",
         "usageExplanationZh": "常接受詞為人，如 prank a friend，語氣輕鬆詼諧，通常無惡意，僅為玩笑性質。",
-        "examples": [
-          {
-            "en": "The students pranked their teacher by hiding all the chalk.",
-            "zh": "學生們把粉筆全藏起來捉弄老師。"
-          }
+        "grammarPatterns": [
+          "prank + sb",
+          "prank sb by + V-ing"
         ],
         "collocations": [
           {
             "text": "prank a friend",
             "meaningZh": "捉弄朋友"
           }
+        ],
+        "examples": [
+          {
+            "en": "The students pranked their teacher by hiding all the chalk.",
+            "zh": "學生們把粉筆全藏起來捉弄老師。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "play a trick on",
+        "noteZh": "捉弄某人"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "prankster",
+        "partOfSpeech": "noun",
+        "meaningZh": "愛惡作劇的人"
       }
     ],
     "tags": [
@@ -2113,14 +2845,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "play a trick on",
-        "noteZh": "捉弄某人"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_preach",
@@ -2134,21 +2859,43 @@
       {
         "id": "s_preach_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to deliver a religious or moral sermon, or to advocate a course of action, often insistently",
         "definitionZh": "講道；宣揚（道理）；說教",
         "usageExplanationZh": "常見 preach a sermon（講道）、preach about honesty，也可帶貶意指過度說教、喋喋不休地勸誡。",
-        "examples": [
-          {
-            "en": "The pastor preached about the importance of forgiveness.",
-            "zh": "牧師講道談論寬恕的重要性。"
-          }
+        "grammarPatterns": [
+          "preach about + noun",
+          "preach to + sb",
+          "preach that + clause"
         ],
         "collocations": [
           {
             "text": "preach to the converted",
             "meaningZh": "對已有相同信念的人說教"
           }
+        ],
+        "examples": [
+          {
+            "en": "The pastor preached about the importance of forgiveness.",
+            "zh": "牧師講道談論寬恕的重要性。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "sermonize",
+        "noteZh": "說教"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "preacher",
+        "partOfSpeech": "noun",
+        "meaningZh": "傳道者；佈道者"
       }
     ],
     "tags": [
@@ -2163,14 +2910,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "sermonize",
-        "noteZh": "說教"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_precaution",
@@ -2184,21 +2924,48 @@
       {
         "id": "s_precaution_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "an action taken in advance to prevent something harmful from happening",
         "definitionZh": "預防措施；防範措施",
         "usageExplanationZh": "常見 take precautions（採取預防措施）、safety precautions，強調事先採取行動以避免風險。",
-        "examples": [
-          {
-            "en": "Wear a helmet as a precaution against head injuries.",
-            "zh": "戴上安全帽以防範頭部受傷。"
-          }
+        "grammarPatterns": [
+          "a precaution against + noun",
+          "take precautions",
+          "as a precaution"
         ],
         "collocations": [
           {
             "text": "take precautions against",
             "meaningZh": "採取措施防範……"
           }
+        ],
+        "examples": [
+          {
+            "en": "Wear a helmet as a precaution against head injuries.",
+            "zh": "戴上安全帽以防範頭部受傷。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "safeguard",
+        "noteZh": "防範措施"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "precautionary",
+        "partOfSpeech": "adjective",
+        "meaningZh": "預防性的"
+      },
+      {
+        "lemma": "caution",
+        "partOfSpeech": "noun",
+        "meaningZh": "謹慎；警告"
       }
     ],
     "tags": [
@@ -2212,14 +2979,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "safeguard",
-        "noteZh": "防範措施"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_precede",
@@ -2233,21 +2993,54 @@
       {
         "id": "s_precede_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to come before something in time, order, or importance",
         "definitionZh": "在……之前發生；先於",
         "usageExplanationZh": "常接具體事件或名詞，如 precede the meeting（在會議之前），強調時間或順序上的先後關係。",
-        "examples": [
-          {
-            "en": "A loud crash preceded the sudden power outage.",
-            "zh": "一聲巨響先於突然的停電發生。"
-          }
+        "grammarPatterns": [
+          "precede + noun",
+          "be preceded by + noun",
+          "immediately precede + noun"
         ],
         "collocations": [
           {
             "text": "immediately precede",
             "meaningZh": "緊接在……之前"
           }
+        ],
+        "examples": [
+          {
+            "en": "A loud crash preceded the sudden power outage.",
+            "zh": "一聲巨響先於突然的停電發生。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "come before",
+        "noteZh": "在前"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "follow",
+        "noteZh": "隨後發生"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "precedent",
+        "partOfSpeech": "noun",
+        "meaningZh": "先例；判例"
+      },
+      {
+        "lemma": "precedence",
+        "partOfSpeech": "noun",
+        "meaningZh": "優先；優先權"
       }
     ],
     "tags": [
@@ -2261,19 +3054,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "come before",
-        "noteZh": "在前"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "follow",
-        "noteZh": "隨後發生"
-      }
-    ]
+    }
   },
   {
     "id": "w_precious",
@@ -2287,21 +3068,47 @@
       {
         "id": "s_precious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "of great value, either financially or emotionally; not to be wasted",
         "definitionZh": "珍貴的；貴重的",
         "usageExplanationZh": "常見 precious metal（貴金屬）、precious time（寶貴的時間），可指物質上或情感上的珍貴。",
-        "examples": [
-          {
-            "en": "Every moment with her grandchildren is precious to her.",
-            "zh": "和孫子孫女相處的每一刻對她而言都很珍貴。"
-          }
+        "grammarPatterns": [
+          "a precious + noun",
+          "be precious to + sb"
         ],
         "collocations": [
           {
             "text": "precious metals",
             "meaningZh": "貴金屬"
           }
+        ],
+        "examples": [
+          {
+            "en": "Every moment with her grandchildren is precious to her.",
+            "zh": "和孫子孫女相處的每一刻對她而言都很珍貴。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "valuable",
+        "noteZh": "珍貴的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "worthless",
+        "noteZh": "毫無價值的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "preciousness",
+        "partOfSpeech": "noun",
+        "meaningZh": "珍貴；寶貴"
       }
     ],
     "tags": [
@@ -2315,19 +3122,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "valuable",
-        "noteZh": "珍貴的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "worthless",
-        "noteZh": "毫無價值的"
-      }
-    ]
+    }
   },
   {
     "id": "w_precipitate",
@@ -2341,21 +3136,49 @@
       {
         "id": "s_precipitate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to cause an event or situation to happen suddenly or prematurely",
         "definitionZh": "促成（突然發生）；加速（惡化）",
         "usageExplanationZh": "正式用語，常接具體事件為受詞，如 precipitate a crisis（引發危機），強調驟然造成某事發生。",
-        "examples": [
-          {
-            "en": "The scandal precipitated the resignation of several officials.",
-            "zh": "這起醜聞導致好幾位官員辭職。"
-          }
+        "grammarPatterns": [
+          "precipitate + noun",
+          "precipitate a crisis",
+          "precipitate the collapse of + noun"
         ],
         "collocations": [
           {
             "text": "precipitate a crisis",
             "meaningZh": "引發危機"
           }
+        ],
+        "examples": [
+          {
+            "en": "The scandal precipitated the resignation of several officials.",
+            "zh": "這起醜聞導致好幾位官員辭職。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "trigger",
+        "noteZh": "促使突然發生"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "precipitation",
+        "partOfSpeech": "noun",
+        "meaningZh": "降水；促成"
+      },
+      {
+        "lemma": "precipitous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "陡峭的；驟然的"
       }
     ],
     "tags": [
@@ -2370,14 +3193,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "trigger",
-        "noteZh": "促使突然發生"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_precipitation",
@@ -2391,21 +3207,44 @@
       {
         "id": "s_precipitation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "rain, snow, sleet, or hail that falls to the ground",
         "definitionZh": "降水；降雨",
         "usageExplanationZh": "氣象學用語，常見於天氣預報，如 heavy precipitation（強降雨），泛指從空中落下的水分。",
-        "examples": [
-          {
-            "en": "The region receives heavy precipitation during the monsoon season.",
-            "zh": "這個地區在季風季節會有大量降水。"
-          }
+        "grammarPatterns": [
+          "heavy precipitation",
+          "levels of precipitation",
+          "receive precipitation"
         ],
         "collocations": [
           {
             "text": "annual precipitation",
             "meaningZh": "年降水量"
           }
+        ],
+        "examples": [
+          {
+            "en": "The region receives heavy precipitation during the monsoon season.",
+            "zh": "這個地區在季風季節會有大量降水。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "rainfall",
+        "noteZh": "指雨的降水量"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "precipitate",
+        "partOfSpeech": "verb",
+        "meaningZh": "促成；使沉澱"
       }
     ],
     "tags": [
@@ -2419,14 +3258,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "rainfall",
-        "noteZh": "指雨的降水量"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_precipitous",
@@ -2440,21 +3272,53 @@
       {
         "id": "s_precipitous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "dangerously steep, or (of a change) happening suddenly and rapidly",
         "definitionZh": "陡峭的；驟然的（變化）",
         "usageExplanationZh": "常修飾 cliff、decline，可指地形極為陡峭，也可比喻急遽的下降或變化。",
-        "examples": [
-          {
-            "en": "The company experienced a precipitous decline in sales last quarter.",
-            "zh": "這家公司上一季的銷售額出現驟然下滑。"
-          }
+        "grammarPatterns": [
+          "a precipitous + noun",
+          "a precipitous decline in + noun"
         ],
         "collocations": [
           {
             "text": "a precipitous decline",
             "meaningZh": "急遽下滑"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company experienced a precipitous decline in sales last quarter.",
+            "zh": "這家公司上一季的銷售額出現驟然下滑。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "steep",
+        "noteZh": "陡峭的；急遽的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "gradual",
+        "noteZh": "緩慢漸進的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "precipice",
+        "partOfSpeech": "noun",
+        "meaningZh": "懸崖；險境"
+      },
+      {
+        "lemma": "precipitously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "陡峭地；驟然地"
       }
     ],
     "tags": [
@@ -2467,19 +3331,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "steep",
-        "noteZh": "陡峭的；急遽的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "gradual",
-        "noteZh": "緩慢漸進的"
-      }
-    ]
+    }
   },
   {
     "id": "w_precise",
@@ -2493,21 +3345,59 @@
       {
         "id": "s_precise_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "exact and accurate",
         "definitionZh": "精確的；精準的",
         "usageExplanationZh": "常見 precise instructions（精確的指示）、precise measurement，強調毫無誤差的準確性。",
-        "examples": [
-          {
-            "en": "She gave precise directions to the restaurant.",
-            "zh": "她給了到餐廳的精確路線指示。"
-          }
+        "grammarPatterns": [
+          "the precise + noun",
+          "be precise about + noun",
+          "to be precise"
         ],
         "collocations": [
           {
             "text": "to be precise",
             "meaningZh": "確切地說"
           }
+        ],
+        "examples": [
+          {
+            "en": "She gave precise directions to the restaurant.",
+            "zh": "她給了到餐廳的精確路線指示。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "exact",
+        "noteZh": "精確的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "imprecise",
+        "noteZh": "不精確的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "precision",
+        "partOfSpeech": "noun",
+        "meaningZh": "精確；精準"
+      },
+      {
+        "lemma": "precisely",
+        "partOfSpeech": "adverb",
+        "meaningZh": "精確地；正是"
+      },
+      {
+        "lemma": "imprecise",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不精確的"
       }
     ],
     "tags": [
@@ -2522,19 +3412,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "exact",
-        "noteZh": "精確的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "imprecise",
-        "noteZh": "不精確的"
-      }
-    ]
+    }
   },
   {
     "id": "w_precision",
@@ -2548,21 +3426,54 @@
       {
         "id": "s_precision_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "the quality of being exact and accurate",
         "definitionZh": "精確度；精準性",
         "usageExplanationZh": "常見 with great precision（極其精準地），指動作、測量或描述達到高度準確的程度。",
-        "examples": [
-          {
-            "en": "The surgeon performed the operation with remarkable precision.",
-            "zh": "這位外科醫生以驚人的精確度完成了這場手術。"
-          }
+        "grammarPatterns": [
+          "with precision",
+          "the precision of + noun",
+          "a high degree of precision"
         ],
         "collocations": [
           {
             "text": "with great precision",
             "meaningZh": "非常精確地"
           }
+        ],
+        "examples": [
+          {
+            "en": "The surgeon performed the operation with remarkable precision.",
+            "zh": "這位外科醫生以驚人的精確度完成了這場手術。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "exactness",
+        "noteZh": "精確性"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "imprecision",
+        "noteZh": "不精確"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "precise",
+        "partOfSpeech": "adjective",
+        "meaningZh": "精確的"
+      },
+      {
+        "lemma": "precisely",
+        "partOfSpeech": "adverb",
+        "meaningZh": "精確地"
       }
     ],
     "tags": [
@@ -2576,18 +3487,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "exactness",
-        "noteZh": "精確性"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "imprecision",
-        "noteZh": "不精確"
-      }
-    ]
+    }
   }
 ]

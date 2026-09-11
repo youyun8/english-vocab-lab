@@ -11,42 +11,66 @@
       {
         "id": "s_deck_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a floor of a ship or bus, or a flat wooden platform attached to a house",
         "definitionZh": "（船／巴士的）甲板；（住宅的）露台",
         "usageExplanationZh": "常見 on deck（在甲板上）、a wooden deck（木製露台），指船隻或建築的平面結構。",
-        "examples": [
-          {
-            "en": "They relaxed on the deck, watching the sunset over the ocean.",
-            "zh": "他們在甲板上放鬆，看著夕陽沉入海面。"
-          }
+        "grammarPatterns": [
+          "on deck",
+          "the upper deck",
+          "below deck"
         ],
         "collocations": [
           {
             "text": "on deck",
             "meaningZh": "在甲板上"
           }
+        ],
+        "examples": [
+          {
+            "en": "They relaxed on the deck, watching the sunset over the ocean.",
+            "zh": "他們在甲板上放鬆，看著夕陽沉入海面。"
+          }
         ]
       },
       {
         "id": "s_deck_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to decorate something, typically for a festive occasion",
         "definitionZh": "裝飾；佈置",
         "usageExplanationZh": "常見 deck out（把……裝飾一新），語氣輕鬆，多用於節慶場合。",
-        "examples": [
-          {
-            "en": "They decked the halls with festive decorations for Christmas.",
-            "zh": "他們用聖誕節的裝飾把大廳佈置一新。"
-          }
+        "grammarPatterns": [
+          "deck sth with + noun",
+          "be decked out in + noun"
         ],
         "collocations": [
           {
             "text": "deck the halls",
             "meaningZh": "裝飾大廳"
           }
+        ],
+        "examples": [
+          {
+            "en": "They decked the halls with festive decorations for Christmas.",
+            "zh": "他們用聖誕節的裝飾把大廳佈置一新。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "decorate",
+        "noteZh": "限動詞裝飾義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -58,14 +82,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "decorate",
-        "noteZh": "限動詞裝飾義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_declaration",
@@ -79,21 +96,49 @@
       {
         "id": "s_declaration_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "a formal or official statement or announcement",
         "definitionZh": "宣言；聲明",
         "usageExplanationZh": "常見 a declaration of independence（獨立宣言），指正式、公開的官方聲明。",
-        "examples": [
-          {
-            "en": "The country issued a formal declaration of independence in 1947.",
-            "zh": "這個國家在一九四七年發布了正式的獨立宣言。"
-          }
+        "grammarPatterns": [
+          "a declaration of + noun",
+          "make a declaration",
+          "issue a declaration"
         ],
         "collocations": [
           {
             "text": "a declaration of independence",
             "meaningZh": "獨立宣言"
           }
+        ],
+        "examples": [
+          {
+            "en": "The country issued a formal declaration of independence in 1947.",
+            "zh": "這個國家在一九四七年發布了正式的獨立宣言。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "announcement",
+        "noteZh": "公開聲明"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "declare",
+        "partOfSpeech": "verb",
+        "meaningZh": "宣布；聲明"
+      },
+      {
+        "lemma": "declarative",
+        "partOfSpeech": "adjective",
+        "meaningZh": "陳述的；宣告的"
       }
     ],
     "tags": [
@@ -107,14 +152,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "announcement",
-        "noteZh": "公開聲明"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_declare",
@@ -128,14 +166,17 @@
       {
         "id": "s_declare_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to state something formally or officially, or to announce clearly",
         "definitionZh": "宣布；聲明；申報",
         "usageExplanationZh": "常見 declare war（宣戰）、declare goods at customs（在海關申報物品），依語境略有不同。",
-        "examples": [
-          {
-            "en": "He declared his intention to run for office next year.",
-            "zh": "他宣布了明年將競選公職的意圖。"
-          }
+        "grammarPatterns": [
+          "declare that + clause",
+          "declare + noun",
+          "declare sth + adjective"
         ],
         "collocations": [
           {
@@ -146,7 +187,32 @@
             "text": "declare goods at customs",
             "meaningZh": "向海關申報物品"
           }
+        ],
+        "examples": [
+          {
+            "en": "He declared his intention to run for office next year.",
+            "zh": "他宣布了明年將競選公職的意圖。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "announce",
+        "noteZh": "公開宣布"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "declaration",
+        "partOfSpeech": "noun",
+        "meaningZh": "宣言；聲明"
+      },
+      {
+        "lemma": "declarative",
+        "partOfSpeech": "adjective",
+        "meaningZh": "宣告的"
       }
     ],
     "tags": [
@@ -160,14 +226,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "announce",
-        "noteZh": "公開宣布"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_decline",
@@ -181,33 +240,45 @@
       {
         "id": "s_decline_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "a gradual and continuous loss of strength, quality, or importance",
         "definitionZh": "衰退；下滑",
         "usageExplanationZh": "常見 a decline in sales/health，指數量或狀態逐漸下降的過程。",
-        "examples": [
-          {
-            "en": "The company experienced a steady decline in profits over the past year.",
-            "zh": "這家公司過去一年的利潤持續下滑。"
-          }
+        "grammarPatterns": [
+          "a decline in + noun",
+          "be in decline",
+          "a sharp decline"
         ],
         "collocations": [
           {
             "text": "a sharp decline",
             "meaningZh": "急遽下滑"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company experienced a steady decline in profits over the past year.",
+            "zh": "這家公司過去一年的利潤持續下滑。"
+          }
         ]
       },
       {
         "id": "s_decline_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to become smaller, weaker, or worse, or to politely refuse something",
         "definitionZh": "衰退；下降；婉拒",
         "usageExplanationZh": "一義指狀態逐漸變差（sales declined），另一義指有禮貌地拒絕（decline an invitation，婉拒邀請）。",
-        "examples": [
-          {
-            "en": "She politely declined the invitation to the party.",
-            "zh": "她禮貌地婉拒了這場派對的邀請。"
-          }
+        "grammarPatterns": [
+          "decline by + noun",
+          "decline to + V",
+          "decline + noun"
         ],
         "collocations": [
           {
@@ -218,7 +289,25 @@
             "text": "decline sharply",
             "meaningZh": "急遽下降"
           }
+        ],
+        "examples": [
+          {
+            "en": "She politely declined the invitation to the party.",
+            "zh": "她禮貌地婉拒了這場派對的邀請。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "decrease",
+        "noteZh": "指數量下滑"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "increase",
+        "noteZh": "增加"
       }
     ],
     "tags": [
@@ -233,19 +322,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "decrease",
-        "noteZh": "指數量下滑"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "increase",
-        "noteZh": "增加"
-      }
-    ]
+    }
   },
   {
     "id": "w_decode",
@@ -259,21 +336,54 @@
       {
         "id": "s_decode_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "to convert a coded message into ordinary language, or to interpret complex information",
         "definitionZh": "解碼；解讀",
         "usageExplanationZh": "常見 decode a message/signal，可指字面上的解碼，也可比喻指理解複雜訊息。",
-        "examples": [
-          {
-            "en": "The team worked to decode the encrypted transmission.",
-            "zh": "這支團隊致力於解讀這段加密的傳輸訊息。"
-          }
+        "grammarPatterns": [
+          "decode + noun",
+          "decode a message",
+          "be decoded as + noun"
         ],
         "collocations": [
           {
             "text": "decode a message",
             "meaningZh": "解碼訊息"
           }
+        ],
+        "examples": [
+          {
+            "en": "The team worked to decode the encrypted transmission.",
+            "zh": "這支團隊致力於解讀這段加密的傳輸訊息。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "decipher",
+        "noteZh": "解讀編碼或難懂內容"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "encode",
+        "noteZh": "編碼"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "decoder",
+        "partOfSpeech": "noun",
+        "meaningZh": "解碼器"
+      },
+      {
+        "lemma": "code",
+        "partOfSpeech": "noun",
+        "meaningZh": "密碼；代碼"
       }
     ],
     "tags": [
@@ -286,19 +396,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "decipher",
-        "noteZh": "解讀編碼或難懂內容"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "encode",
-        "noteZh": "編碼"
-      }
-    ]
+    }
   },
   {
     "id": "w_decompose",
@@ -312,21 +410,44 @@
       {
         "id": "s_decompose_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "to break down or rot through natural chemical processes",
         "definitionZh": "（使）分解；腐爛",
         "usageExplanationZh": "常見於生物或環境語境，如 organic matter decomposes（有機物質分解）。",
-        "examples": [
-          {
-            "en": "Fallen leaves decompose and enrich the soil over time.",
-            "zh": "落葉隨著時間分解，並使土壤更加肥沃。"
-          }
+        "grammarPatterns": [
+          "decompose into + noun",
+          "decompose naturally",
+          "decompose + noun"
         ],
         "collocations": [
           {
             "text": "decompose into simpler substances",
             "meaningZh": "分解成較簡單的物質"
           }
+        ],
+        "examples": [
+          {
+            "en": "Fallen leaves decompose and enrich the soil over time.",
+            "zh": "落葉隨著時間分解，並使土壤更加肥沃。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "decay",
+        "noteZh": "指腐爛分解"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "decomposition",
+        "partOfSpeech": "noun",
+        "meaningZh": "分解；腐爛"
       }
     ],
     "tags": [
@@ -341,14 +462,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "decay",
-        "noteZh": "指腐爛分解"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_decomposition",
@@ -362,21 +476,43 @@
       {
         "id": "s_decomposition_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "the process by which organic substances break down into simpler forms",
         "definitionZh": "（有機物的）分解；腐爛過程",
         "usageExplanationZh": "科學用語，常見 the decomposition of organic matter，指生物物質經自然過程分解。",
-        "examples": [
-          {
-            "en": "Scientists study the rate of decomposition to estimate time of death.",
-            "zh": "科學家研究分解的速率以推估死亡時間。"
-          }
+        "grammarPatterns": [
+          "the decomposition of + noun",
+          "the rate of decomposition"
         ],
         "collocations": [
           {
             "text": "organic decomposition",
             "meaningZh": "有機物分解"
           }
+        ],
+        "examples": [
+          {
+            "en": "Scientists study the rate of decomposition to estimate time of death.",
+            "zh": "科學家研究分解的速率以推估死亡時間。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "decay",
+        "noteZh": "有機物腐爛"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "decompose",
+        "partOfSpeech": "verb",
+        "meaningZh": "分解；腐爛"
       }
     ],
     "tags": [
@@ -390,14 +526,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "decay",
-        "noteZh": "有機物腐爛"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_decorate",
@@ -411,21 +540,53 @@
       {
         "id": "s_decorate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to make something look more attractive by adding ornamental features",
         "definitionZh": "裝飾；佈置",
         "usageExplanationZh": "日常用語，常見 decorate a room/cake，指添加裝飾使外觀更美觀。",
-        "examples": [
-          {
-            "en": "They decorated the classroom with balloons for the party.",
-            "zh": "他們用氣球佈置教室以準備派對。"
-          }
+        "grammarPatterns": [
+          "decorate + noun",
+          "decorate sth with + noun",
+          "decorate for + noun"
         ],
         "collocations": [
           {
             "text": "decorate a room",
             "meaningZh": "布置房間"
           }
+        ],
+        "examples": [
+          {
+            "en": "They decorated the classroom with balloons for the party.",
+            "zh": "他們用氣球佈置教室以準備派對。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "adorn",
+        "noteZh": "裝飾"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "decoration",
+        "partOfSpeech": "noun",
+        "meaningZh": "裝飾；裝飾品"
+      },
+      {
+        "lemma": "decorative",
+        "partOfSpeech": "adjective",
+        "meaningZh": "裝飾性的"
+      },
+      {
+        "lemma": "decorator",
+        "partOfSpeech": "noun",
+        "meaningZh": "裝潢師"
       }
     ],
     "tags": [
@@ -440,14 +601,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "adorn",
-        "noteZh": "裝飾"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_decoration",
@@ -461,21 +615,48 @@
       {
         "id": "s_decoration_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "an object or item used to make something more attractive",
         "definitionZh": "裝飾品；裝飾",
         "usageExplanationZh": "常見 Christmas decorations（聖誕裝飾），指用來美化空間或物品的物件。",
-        "examples": [
-          {
-            "en": "They hung colorful decorations around the room for the celebration.",
-            "zh": "他們在房間四周掛上五彩繽紛的裝飾品以慶祝。"
-          }
+        "grammarPatterns": [
+          "a decoration on + noun",
+          "Christmas decorations",
+          "for decoration"
         ],
         "collocations": [
           {
             "text": "Christmas decorations",
             "meaningZh": "聖誕裝飾品"
           }
+        ],
+        "examples": [
+          {
+            "en": "They hung colorful decorations around the room for the celebration.",
+            "zh": "他們在房間四周掛上五彩繽紛的裝飾品以慶祝。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "ornament",
+        "noteZh": "指裝飾品"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "decorate",
+        "partOfSpeech": "verb",
+        "meaningZh": "裝飾；佈置"
+      },
+      {
+        "lemma": "decorative",
+        "partOfSpeech": "adjective",
+        "meaningZh": "裝飾性的"
       }
     ],
     "tags": [
@@ -489,14 +670,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "ornament",
-        "noteZh": "指裝飾品"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_decorative",
@@ -510,21 +684,53 @@
       {
         "id": "s_decorative_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "serving to make something look more attractive; ornamental",
         "definitionZh": "裝飾性的；裝飾用的",
         "usageExplanationZh": "常修飾 item、pattern，強調物品的美觀功能而非實用功能。",
-        "examples": [
-          {
-            "en": "The vase is purely decorative and not meant to hold water.",
-            "zh": "這個花瓶純粹是裝飾用的，不是用來裝水的。"
-          }
+        "grammarPatterns": [
+          "a decorative + noun",
+          "purely decorative",
+          "decorative rather than functional"
         ],
         "collocations": [
           {
             "text": "decorative objects",
             "meaningZh": "裝飾物件"
           }
+        ],
+        "examples": [
+          {
+            "en": "The vase is purely decorative and not meant to hold water.",
+            "zh": "這個花瓶純粹是裝飾用的，不是用來裝水的。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "ornamental",
+        "noteZh": "供裝飾用的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "decorate",
+        "partOfSpeech": "verb",
+        "meaningZh": "裝飾"
+      },
+      {
+        "lemma": "decoration",
+        "partOfSpeech": "noun",
+        "meaningZh": "裝飾；裝飾品"
+      },
+      {
+        "lemma": "decoratively",
+        "partOfSpeech": "adverb",
+        "meaningZh": "裝飾性地"
       }
     ],
     "tags": [
@@ -537,14 +743,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "ornamental",
-        "noteZh": "供裝飾用的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_decorum",
@@ -558,21 +757,49 @@
       {
         "id": "s_decorum_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "behavior in keeping with good taste and propriety",
         "definitionZh": "得體的言行；禮儀規範",
         "usageExplanationZh": "正式書面用語，常見 maintain decorum（保持得體），強調符合社會禮節與場合的行為舉止。",
-        "examples": [
-          {
-            "en": "The judge asked the courtroom to maintain decorum during the trial.",
-            "zh": "法官要求法庭在審判期間保持應有的秩序與禮儀。"
-          }
+        "grammarPatterns": [
+          "observe decorum",
+          "a sense of decorum",
+          "behave with decorum"
         ],
         "collocations": [
           {
             "text": "maintain decorum",
             "meaningZh": "維持得體的舉止"
           }
+        ],
+        "examples": [
+          {
+            "en": "The judge asked the courtroom to maintain decorum during the trial.",
+            "zh": "法官要求法庭在審判期間保持應有的秩序與禮儀。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "propriety",
+        "noteZh": "符合禮節的行為"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "decorous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "得體的；端莊的"
+      },
+      {
+        "lemma": "indecorous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "失禮的；不得體的"
       }
     ],
     "tags": [
@@ -586,14 +813,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "propriety",
-        "noteZh": "符合禮節的行為"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_decoy",
@@ -607,42 +827,67 @@
       {
         "id": "s_decoy_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a person or thing used to lure someone into a trap",
         "definitionZh": "誘餌；圈套",
         "usageExplanationZh": "常見於軍事、狩獵或詐騙語境，指用來引誘目標上鉤的人或物。",
-        "examples": [
-          {
-            "en": "Hunters often use a duck decoy to attract real birds.",
-            "zh": "獵人經常使用鴨子誘餌來吸引真正的鳥類。"
-          }
+        "grammarPatterns": [
+          "use sth as a decoy",
+          "a decoy for + noun",
+          "act as a decoy"
         ],
         "collocations": [
           {
             "text": "use a decoy",
             "meaningZh": "使用誘餌"
           }
+        ],
+        "examples": [
+          {
+            "en": "Hunters often use a duck decoy to attract real birds.",
+            "zh": "獵人經常使用鴨子誘餌來吸引真正的鳥類。"
+          }
         ]
       },
       {
         "id": "s_decoy_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to lure someone or something into a trap by deception",
         "definitionZh": "引誘；誘騙（進入陷阱）",
         "usageExplanationZh": "較不常見的動詞用法，強調用計謀將目標引誘至特定位置。",
-        "examples": [
-          {
-            "en": "The soldiers used a fake radio signal to decoy the enemy into an ambush.",
-            "zh": "士兵們利用假的無線電訊號，把敵軍誘入埋伏。"
-          }
+        "grammarPatterns": [
+          "decoy sb into + noun",
+          "decoy + noun",
+          "decoy sb away from + noun"
         ],
         "collocations": [
           {
             "text": "decoy someone into a trap",
             "meaningZh": "誘使某人進入陷阱"
           }
+        ],
+        "examples": [
+          {
+            "en": "The soldiers used a fake radio signal to decoy the enemy into an ambush.",
+            "zh": "士兵們利用假的無線電訊號，把敵軍誘入埋伏。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "lure",
+        "noteZh": "誘餌或引誘"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -653,14 +898,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "lure",
-        "noteZh": "誘餌或引誘"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_decrease",
@@ -674,21 +912,42 @@
       {
         "id": "s_decrease_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "a reduction in the size, amount, or intensity of something",
         "definitionZh": "減少；下降",
         "usageExplanationZh": "常見 a decrease in，強調數量或程度上的下降，語氣中性正式。",
-        "examples": [
-          {
-            "en": "There has been a noticeable decrease in crime rates this year.",
-            "zh": "今年犯罪率明顯下降。"
-          }
+        "grammarPatterns": [
+          "a decrease in + noun",
+          "a sharp decrease",
+          "show a decrease of + noun"
         ],
         "collocations": [
           {
             "text": "a decrease in demand",
             "meaningZh": "需求下降"
           }
+        ],
+        "examples": [
+          {
+            "en": "There has been a noticeable decrease in crime rates this year.",
+            "zh": "今年犯罪率明顯下降。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "reduction",
+        "noteZh": "指減少的幅度或過程"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "increase",
+        "noteZh": "增加"
       }
     ],
     "tags": [
@@ -702,19 +961,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "reduction",
-        "noteZh": "指減少的幅度或過程"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "increase",
-        "noteZh": "增加"
-      }
-    ]
+    }
   },
   {
     "id": "w_decree",
@@ -728,42 +975,66 @@
       {
         "id": "s_decree_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "an official order issued by a legal authority",
         "definitionZh": "法令；命令；判決",
         "usageExplanationZh": "正式用語，常見 a presidential decree（總統令），指具法律效力的正式命令。",
-        "examples": [
-          {
-            "en": "The king issued a decree banning the export of grain.",
-            "zh": "國王頒布了一項禁止穀物出口的法令。"
-          }
+        "grammarPatterns": [
+          "issue a decree",
+          "by decree",
+          "a decree on + noun"
         ],
         "collocations": [
           {
             "text": "issue a decree",
             "meaningZh": "頒布法令"
           }
+        ],
+        "examples": [
+          {
+            "en": "The king issued a decree banning the export of grain.",
+            "zh": "國王頒布了一項禁止穀物出口的法令。"
+          }
         ]
       },
       {
         "id": "s_decree_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to order something by decree; to command officially",
         "definitionZh": "頒布法令；下令",
         "usageExplanationZh": "正式用語，強調透過具法律效力的方式做出命令。",
-        "examples": [
-          {
-            "en": "The government decreed that all schools would close for a week.",
-            "zh": "政府下令所有學校停課一週。"
-          }
+        "grammarPatterns": [
+          "decree that + clause",
+          "decree + noun"
         ],
         "collocations": [
           {
             "text": "decree that a law take effect",
             "meaningZh": "下令法律生效"
           }
+        ],
+        "examples": [
+          {
+            "en": "The government decreed that all schools would close for a week.",
+            "zh": "政府下令所有學校停課一週。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "edict",
+        "noteZh": "正式法令"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -776,14 +1047,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "edict",
-        "noteZh": "正式法令"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_dedicate",
@@ -797,21 +1061,43 @@
       {
         "id": "s_dedicate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to devote time and effort to a particular task or purpose, or to inscribe a work in someone's honor",
         "definitionZh": "奉獻；致力於；（將作品）獻給",
         "usageExplanationZh": "常見 dedicate oneself to（致力於），也可指把作品獻給某人（dedicate a book to）。",
-        "examples": [
-          {
-            "en": "She dedicated her entire career to helping underprivileged children.",
-            "zh": "她把整個職涯都奉獻給了幫助弱勢兒童的工作。"
-          }
+        "grammarPatterns": [
+          "dedicate sth to + noun",
+          "dedicate oneself to + V-ing",
+          "be dedicated to + noun"
         ],
         "collocations": [
           {
             "text": "dedicate oneself to a cause",
             "meaningZh": "投身某項事業"
           }
+        ],
+        "examples": [
+          {
+            "en": "She dedicated her entire career to helping underprivileged children.",
+            "zh": "她把整個職涯都奉獻給了幫助弱勢兒童的工作。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "devote",
+        "noteZh": "投入時間或精力"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "dedication",
+        "partOfSpeech": "noun",
+        "meaningZh": "奉獻；獻詞"
       }
     ],
     "tags": [
@@ -825,14 +1111,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "devote",
-        "noteZh": "投入時間或精力"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_deed",
@@ -846,14 +1125,17 @@
       {
         "id": "s_deed_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "an action that is performed intentionally, or a legal document showing ownership",
         "definitionZh": "行為；事蹟；（不動產）產權證書",
         "usageExplanationZh": "一義指所做的事（a good deed，善行），另一義為法律用語，指房地產所有權文件。",
-        "examples": [
-          {
-            "en": "He was praised for his brave deed in rescuing the drowning child.",
-            "zh": "他因救起溺水兒童的英勇行為而受到讚揚。"
-          }
+        "grammarPatterns": [
+          "a good deed",
+          "do a deed",
+          "the deed to + noun"
         ],
         "collocations": [
           {
@@ -864,9 +1146,22 @@
             "text": "title deeds",
             "meaningZh": "產權證書"
           }
+        ],
+        "examples": [
+          {
+            "en": "He was praised for his brave deed in rescuing the drowning child.",
+            "zh": "他因救起溺水兒童的英勇行為而受到讚揚。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "act",
+        "noteZh": "限行為義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -877,14 +1172,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "act",
-        "noteZh": "限行為義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_deem",
@@ -898,23 +1186,39 @@
       {
         "id": "s_deem_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to regard or consider something in a specified way",
         "definitionZh": "認為；視為",
         "usageExplanationZh": "正式書面用語，常見 deem it necessary/appropriate，語氣比 think 更正式。",
-        "examples": [
-          {
-            "en": "The committee deemed it necessary to postpone the event.",
-            "zh": "委員會認為有必要延後這場活動。"
-          }
+        "grammarPatterns": [
+          "deem sth + adjective",
+          "deem sth to be + noun",
+          "be deemed + adjective"
         ],
         "collocations": [
           {
             "text": "deem it necessary",
             "meaningZh": "認為有必要"
           }
+        ],
+        "examples": [
+          {
+            "en": "The committee deemed it necessary to postpone the event.",
+            "zh": "委員會認為有必要延後這場活動。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "consider",
+        "noteZh": "認為或視為"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -926,14 +1230,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "consider",
-        "noteZh": "認為或視為"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_default",
@@ -947,14 +1244,17 @@
       {
         "id": "s_default_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "business"
+        ],
         "definitionEn": "a failure to fulfill an obligation, especially a financial one, or a preset option",
         "definitionZh": "違約；（金融）拖欠；預設值",
         "usageExplanationZh": "一義指未履行義務（default on a loan，貸款違約），另一義指電腦系統的預設設定（default settings）。",
-        "examples": [
-          {
-            "en": "The company was forced into bankruptcy after defaulting on its loans.",
-            "zh": "該公司因貸款違約而被迫破產。"
-          }
+        "grammarPatterns": [
+          "by default",
+          "the default setting",
+          "a default on + noun"
         ],
         "collocations": [
           {
@@ -965,28 +1265,49 @@
             "text": "by default",
             "meaningZh": "按預設方式"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company was forced into bankruptcy after defaulting on its loans.",
+            "zh": "該公司因貸款違約而被迫破產。"
+          }
         ]
       },
       {
         "id": "s_default_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "business",
+          "technical"
+        ],
         "definitionEn": "to fail to fulfill an obligation, especially to repay a debt",
         "definitionZh": "違約；拖欠（債務）",
         "usageExplanationZh": "常見 default on a payment/loan，強調未能履行還款等義務。",
-        "examples": [
-          {
-            "en": "Many homeowners defaulted on their mortgages during the recession.",
-            "zh": "在經濟衰退期間，許多屋主未能履行房貸還款義務。"
-          }
+        "grammarPatterns": [
+          "default on + noun",
+          "default on a loan"
         ],
         "collocations": [
           {
             "text": "default on a loan",
             "meaningZh": "拖欠貸款"
           }
+        ],
+        "examples": [
+          {
+            "en": "Many homeowners defaulted on their mortgages during the recession.",
+            "zh": "在經濟衰退期間，許多屋主未能履行房貸還款義務。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "nonpayment",
+        "noteZh": "指未履行付款義務"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -999,14 +1320,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "nonpayment",
-        "noteZh": "指未履行付款義務"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_defeat",
@@ -1020,21 +1334,58 @@
       {
         "id": "s_defeat_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "failure to win or succeed, or the act of overcoming someone in a contest",
         "definitionZh": "失敗；擊敗",
         "usageExplanationZh": "常見 admit defeat（承認失敗）、suffer a defeat，指競賽或戰爭中的落敗。",
-        "examples": [
-          {
-            "en": "The team suffered a crushing defeat in the championship game.",
-            "zh": "這支隊伍在冠軍賽中慘敗。"
-          }
+        "grammarPatterns": [
+          "a defeat for sb",
+          "suffer a defeat",
+          "admit defeat"
         ],
         "collocations": [
           {
             "text": "suffer a defeat",
             "meaningZh": "遭遇失敗"
           }
+        ],
+        "examples": [
+          {
+            "en": "The team suffered a crushing defeat in the championship game.",
+            "zh": "這支隊伍在冠軍賽中慘敗。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "loss",
+        "noteZh": "限失敗的名詞義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "victory",
+        "noteZh": "勝利"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "defeatism",
+        "partOfSpeech": "noun",
+        "meaningZh": "失敗主義"
+      },
+      {
+        "lemma": "defeatist",
+        "partOfSpeech": "noun",
+        "meaningZh": "失敗主義者"
+      },
+      {
+        "lemma": "undefeated",
+        "partOfSpeech": "adjective",
+        "meaningZh": "未嘗敗績的"
       }
     ],
     "tags": [
@@ -1048,19 +1399,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "loss",
-        "noteZh": "限失敗的名詞義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "victory",
-        "noteZh": "勝利"
-      }
-    ]
+    }
   },
   {
     "id": "w_defect",
@@ -1074,21 +1413,44 @@
       {
         "id": "s_defect_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "formal"
+        ],
         "definitionEn": "a shortcoming, imperfection, or lack that impairs worth or utility",
         "definitionZh": "缺陷；瑕疵",
         "usageExplanationZh": "常見 a birth defect（先天缺陷）、a manufacturing defect（製造瑕疵），指產品或身體上的不完美之處。",
-        "examples": [
-          {
-            "en": "The car was recalled due to a defect in its braking system.",
-            "zh": "這輛車因煞車系統的瑕疵而被召回。"
-          }
+        "grammarPatterns": [
+          "a defect in + noun",
+          "a birth defect",
+          "correct a defect"
         ],
         "collocations": [
           {
             "text": "a manufacturing defect",
             "meaningZh": "製造瑕疵"
           }
+        ],
+        "examples": [
+          {
+            "en": "The car was recalled due to a defect in its braking system.",
+            "zh": "這輛車因煞車系統的瑕疵而被召回。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "flaw",
+        "noteZh": "缺陷"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "defective",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有缺陷的；故障的"
       }
     ],
     "tags": [
@@ -1103,14 +1465,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "flaw",
-        "noteZh": "缺陷"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_defend",
@@ -1124,14 +1479,16 @@
       {
         "id": "s_defend_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to resist an attack made on someone or something, or to speak in support of someone or something",
         "definitionZh": "防禦；捍衛；辯護",
         "usageExplanationZh": "常見 defend a country/decision，涵蓋實體防禦與言語上的辯護。",
-        "examples": [
-          {
-            "en": "The lawyer defended her client against the charges.",
-            "zh": "這名律師為她的當事人辯護，對抗這些指控。"
-          }
+        "grammarPatterns": [
+          "defend + noun",
+          "defend sb against + noun",
+          "defend oneself from + noun"
         ],
         "collocations": [
           {
@@ -1142,7 +1499,42 @@
             "text": "defend a client",
             "meaningZh": "為當事人辯護"
           }
+        ],
+        "examples": [
+          {
+            "en": "The lawyer defended her client against the charges.",
+            "zh": "這名律師為她的當事人辯護，對抗這些指控。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "protect",
+        "noteZh": "保護免受攻擊"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "attack",
+        "noteZh": "攻擊"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "defense",
+        "partOfSpeech": "noun",
+        "meaningZh": "防禦；辯護"
+      },
+      {
+        "lemma": "defender",
+        "partOfSpeech": "noun",
+        "meaningZh": "防守者；捍衛者"
+      },
+      {
+        "lemma": "defensive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "防禦的；防衛的"
       }
     ],
     "tags": [
@@ -1155,19 +1547,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "protect",
-        "noteZh": "保護免受攻擊"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "attack",
-        "noteZh": "攻擊"
-      }
-    ]
+    }
   },
   {
     "id": "w_defendant",
@@ -1181,21 +1561,44 @@
       {
         "id": "s_defendant_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "formal"
+        ],
         "definitionEn": "a person or entity accused of a crime or sued in a court of law",
         "definitionZh": "被告",
         "usageExplanationZh": "法律用語，與 plaintiff（原告）相對，指在訴訟中被指控或被起訴的一方。",
-        "examples": [
-          {
-            "en": "The defendant pleaded not guilty to all charges.",
-            "zh": "被告對所有指控都表示不認罪。"
-          }
+        "grammarPatterns": [
+          "the defendant in + noun",
+          "the defendant pleaded + adjective",
+          "find the defendant guilty"
         ],
         "collocations": [
           {
             "text": "a criminal defendant",
             "meaningZh": "刑事被告"
           }
+        ],
+        "examples": [
+          {
+            "en": "The defendant pleaded not guilty to all charges.",
+            "zh": "被告對所有指控都表示不認罪。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "defend",
+        "partOfSpeech": "verb",
+        "meaningZh": "辯護；防禦"
+      },
+      {
+        "lemma": "defense",
+        "partOfSpeech": "noun",
+        "meaningZh": "辯護；防禦"
       }
     ],
     "tags": [
@@ -1209,9 +1612,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_defensive",
@@ -1225,40 +1626,87 @@
       {
         "id": "s_defensive_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "used or intended to defend, or behaving in a way that suggests one feels attacked or criticized",
         "definitionZh": "防禦性的；防衛性的；（態度上）防備的",
         "usageExplanationZh": "一義指軍事或體育上的防守（a defensive strategy），另一義指人因感覺受批評而產生的抗拒態度（get defensive）。",
-        "examples": [
-          {
-            "en": "He became defensive when questioned about his decision.",
-            "zh": "被問及他的決定時，他變得有些防備。"
-          }
+        "grammarPatterns": [
+          "a defensive + noun",
+          "be defensive about + noun",
+          "defensive measures"
         ],
         "collocations": [
           {
             "text": "a defensive strategy",
             "meaningZh": "防禦策略"
           }
+        ],
+        "examples": [
+          {
+            "en": "He became defensive when questioned about his decision.",
+            "zh": "被問及他的決定時，他變得有些防備。"
+          }
         ]
       },
       {
         "id": "s_defensive_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a position or attitude of defense",
         "definitionZh": "防守狀態；防禦姿態",
         "usageExplanationZh": "常見 on the defensive（處於防禦狀態），指因感受到威脅或批評而採取自我保護的態度。",
-        "examples": [
-          {
-            "en": "Criticized publicly, she was immediately put on the defensive.",
-            "zh": "遭到公開批評後，她立刻採取了防禦姿態。"
-          }
+        "grammarPatterns": [
+          "on the defensive",
+          "put sb on the defensive",
+          "go on the defensive"
         ],
         "collocations": [
           {
             "text": "on the defensive",
             "meaningZh": "處於防守或辯解狀態"
           }
+        ],
+        "examples": [
+          {
+            "en": "Criticized publicly, she was immediately put on the defensive.",
+            "zh": "遭到公開批評後，她立刻採取了防禦姿態。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "protective",
+        "noteZh": "限保護防衛義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "offensive",
+        "noteZh": "攻擊性的或進攻的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "defend",
+        "partOfSpeech": "verb",
+        "meaningZh": "防禦；捍衛"
+      },
+      {
+        "lemma": "defense",
+        "partOfSpeech": "noun",
+        "meaningZh": "防禦；防守"
+      },
+      {
+        "lemma": "defensively",
+        "partOfSpeech": "adverb",
+        "meaningZh": "防守地；防備地"
       }
     ],
     "tags": [
@@ -1271,19 +1719,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "protective",
-        "noteZh": "限保護防衛義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "offensive",
-        "noteZh": "攻擊性的或進攻的"
-      }
-    ]
+    }
   },
   {
     "id": "w_defer",
@@ -1297,14 +1733,17 @@
       {
         "id": "s_defer_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to postpone something to a later time, or to yield to another's opinion or authority",
         "definitionZh": "延後；推遲；順從（他人意見）",
         "usageExplanationZh": "一義指延後執行（defer a decision），另一義指尊重並順從他人判斷（defer to someone's judgment）。",
-        "examples": [
-          {
-            "en": "They decided to defer the meeting until next month.",
-            "zh": "他們決定把會議延到下個月。"
-          }
+        "grammarPatterns": [
+          "defer + noun",
+          "defer sth until + noun",
+          "defer to sb"
         ],
         "collocations": [
           {
@@ -1315,7 +1754,37 @@
             "text": "defer to someone's judgment",
             "meaningZh": "尊重並聽從某人的判斷"
           }
+        ],
+        "examples": [
+          {
+            "en": "They decided to defer the meeting until next month.",
+            "zh": "他們決定把會議延到下個月。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "postpone",
+        "noteZh": "限延後義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "deferral",
+        "partOfSpeech": "noun",
+        "meaningZh": "延期；延後"
+      },
+      {
+        "lemma": "deference",
+        "partOfSpeech": "noun",
+        "meaningZh": "順從；敬重"
+      },
+      {
+        "lemma": "deferment",
+        "partOfSpeech": "noun",
+        "meaningZh": "延期；緩徵"
       }
     ],
     "tags": [
@@ -1330,14 +1799,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "postpone",
-        "noteZh": "限延後義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_deference",
@@ -1351,21 +1813,54 @@
       {
         "id": "s_deference_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "humble submission and respect shown toward someone",
         "definitionZh": "順從；敬重",
         "usageExplanationZh": "正式書面用語，常見 out of deference to（出於對……的敬重），強調對他人意見或地位的尊重。",
-        "examples": [
-          {
-            "en": "Out of deference to her elders, she remained silent during the discussion.",
-            "zh": "出於對長輩的敬重，她在討論中始終保持沉默。"
-          }
+        "grammarPatterns": [
+          "in deference to + noun",
+          "show deference to sb",
+          "out of deference"
         ],
         "collocations": [
           {
             "text": "out of deference to",
             "meaningZh": "出於對……的尊重"
           }
+        ],
+        "examples": [
+          {
+            "en": "Out of deference to her elders, she remained silent during the discussion.",
+            "zh": "出於對長輩的敬重，她在討論中始終保持沉默。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "respect",
+        "noteZh": "尊重他人的地位或意見"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "defiance",
+        "noteZh": "公然違抗"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "defer",
+        "partOfSpeech": "verb",
+        "meaningZh": "順從；延期"
+      },
+      {
+        "lemma": "deferential",
+        "partOfSpeech": "adjective",
+        "meaningZh": "恭敬的；順從的"
       }
     ],
     "tags": [
@@ -1379,19 +1874,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "respect",
-        "noteZh": "尊重他人的地位或意見"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "defiance",
-        "noteZh": "公然違抗"
-      }
-    ]
+    }
   },
   {
     "id": "w_defiance",
@@ -1405,21 +1888,59 @@
       {
         "id": "s_defiance_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "open resistance or bold disobedience",
         "definitionZh": "反抗；違抗",
         "usageExplanationZh": "常見 in defiance of（不顧……；公然違抗），強調公開且大膽地不服從權威或規則。",
-        "examples": [
-          {
-            "en": "The protesters marched in defiance of the government ban.",
-            "zh": "抗議者不顧政府的禁令，公然舉行遊行。"
-          }
+        "grammarPatterns": [
+          "in defiance of + noun",
+          "an act of defiance",
+          "open defiance"
         ],
         "collocations": [
           {
             "text": "in defiance of the law",
             "meaningZh": "公然違反法律"
           }
+        ],
+        "examples": [
+          {
+            "en": "The protesters marched in defiance of the government ban.",
+            "zh": "抗議者不顧政府的禁令，公然舉行遊行。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "resistance",
+        "noteZh": "對權威的反抗"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "obedience",
+        "noteZh": "服從"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "defy",
+        "partOfSpeech": "verb",
+        "meaningZh": "違抗；反抗"
+      },
+      {
+        "lemma": "defiant",
+        "partOfSpeech": "adjective",
+        "meaningZh": "反抗的；挑釁的"
+      },
+      {
+        "lemma": "defiantly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "挑釁地"
       }
     ],
     "tags": [
@@ -1433,19 +1954,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "resistance",
-        "noteZh": "對權威的反抗"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "obedience",
-        "noteZh": "服從"
-      }
-    ]
+    }
   },
   {
     "id": "w_deficiency",
@@ -1459,21 +1968,54 @@
       {
         "id": "s_deficiency_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a lack or shortage of something needed",
         "definitionZh": "缺乏；不足；（營養）缺乏症",
         "usageExplanationZh": "常見 a vitamin deficiency（維生素缺乏），指所需事物的量不足以達到正常標準。",
-        "examples": [
-          {
-            "en": "The doctor diagnosed her with an iron deficiency.",
-            "zh": "醫生診斷她患有缺鐵症。"
-          }
+        "grammarPatterns": [
+          "a deficiency in + noun",
+          "a vitamin deficiency",
+          "a deficiency of + noun"
         ],
         "collocations": [
           {
             "text": "vitamin deficiency",
             "meaningZh": "維生素缺乏"
           }
+        ],
+        "examples": [
+          {
+            "en": "The doctor diagnosed her with an iron deficiency.",
+            "zh": "醫生診斷她患有缺鐵症。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "shortage",
+        "noteZh": "不足"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "sufficiency",
+        "noteZh": "充足"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "deficient",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不足的；缺乏的"
+      },
+      {
+        "lemma": "deficit",
+        "partOfSpeech": "noun",
+        "meaningZh": "不足；赤字"
       }
     ],
     "tags": [
@@ -1488,19 +2030,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "shortage",
-        "noteZh": "不足"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "sufficiency",
-        "noteZh": "充足"
-      }
-    ]
+    }
   },
   {
     "id": "w_deficit",
@@ -1514,21 +2044,54 @@
       {
         "id": "s_deficit_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "academic"
+        ],
         "definitionEn": "the amount by which something, especially money, falls short of what is needed",
         "definitionZh": "赤字；（金額或數量的）不足",
         "usageExplanationZh": "財經用語，常見 a budget/trade deficit（預算／貿易赤字），指支出超過收入的差額。",
-        "examples": [
-          {
-            "en": "The government is struggling to reduce the national budget deficit.",
-            "zh": "政府正努力減少國家的預算赤字。"
-          }
+        "grammarPatterns": [
+          "a budget deficit",
+          "a deficit of + noun",
+          "run a deficit"
         ],
         "collocations": [
           {
             "text": "a budget deficit",
             "meaningZh": "預算赤字"
           }
+        ],
+        "examples": [
+          {
+            "en": "The government is struggling to reduce the national budget deficit.",
+            "zh": "政府正努力減少國家的預算赤字。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "shortfall",
+        "noteZh": "不足額"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "surplus",
+        "noteZh": "盈餘"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "deficient",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不足的"
+      },
+      {
+        "lemma": "deficiency",
+        "partOfSpeech": "noun",
+        "meaningZh": "缺乏；不足"
       }
     ],
     "tags": [
@@ -1543,19 +2106,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "shortfall",
-        "noteZh": "不足額"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "surplus",
-        "noteZh": "盈餘"
-      }
-    ]
+    }
   },
   {
     "id": "w_definite",
@@ -1569,21 +2120,58 @@
       {
         "id": "s_definite_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "clearly stated or decided; not vague or doubtful",
         "definitionZh": "明確的；肯定的",
         "usageExplanationZh": "常見 a definite answer/plan，強調確定無疑、不含糊，語氣正式或日常皆可。",
-        "examples": [
-          {
-            "en": "We need a definite answer by tomorrow morning.",
-            "zh": "我們明天早上之前需要一個明確的答覆。"
-          }
+        "grammarPatterns": [
+          "a definite + noun",
+          "be definite about + noun",
+          "definite plans"
         ],
         "collocations": [
           {
             "text": "a definite answer",
             "meaningZh": "明確答覆"
           }
+        ],
+        "examples": [
+          {
+            "en": "We need a definite answer by tomorrow morning.",
+            "zh": "我們明天早上之前需要一個明確的答覆。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "clear",
+        "noteZh": "清楚明確的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "indefinite",
+        "noteZh": "不明確的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "definitely",
+        "partOfSpeech": "adverb",
+        "meaningZh": "肯定地；無疑地"
+      },
+      {
+        "lemma": "indefinite",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不明確的；無限期的"
+      },
+      {
+        "lemma": "definition",
+        "partOfSpeech": "noun",
+        "meaningZh": "定義"
       }
     ],
     "tags": [
@@ -1598,19 +2186,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "clear",
-        "noteZh": "清楚明確的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "indefinite",
-        "noteZh": "不明確的"
-      }
-    ]
+    }
   },
   {
     "id": "w_definitely",
@@ -1624,21 +2200,49 @@
       {
         "id": "s_definitely_adverb",
         "partOfSpeech": "adverb",
-        "definitionEn": "without doubt; certainly",
+        "register": [
+          "spoken",
+          "informal"
+        ],
+        "definitionEn": "certainly and without any doubt, used to state a decision or answer firmly",
         "definitionZh": "肯定地；無疑地",
         "usageExplanationZh": "日常口語常用，語氣強烈肯定，用於加強語句的確定性。",
-        "examples": [
-          {
-            "en": "I will definitely attend the meeting tomorrow.",
-            "zh": "我明天肯定會出席這場會議。"
-          }
+        "grammarPatterns": [
+          "definitely + V",
+          "definitely not",
+          "will definitely + V"
         ],
         "collocations": [
           {
             "text": "definitely worth trying",
             "meaningZh": "絕對值得嘗試"
           }
+        ],
+        "examples": [
+          {
+            "en": "I will definitely attend the meeting tomorrow.",
+            "zh": "我明天肯定會出席這場會議。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "certainly",
+        "noteZh": "肯定地"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "definite",
+        "partOfSpeech": "adjective",
+        "meaningZh": "明確的；肯定的"
+      },
+      {
+        "lemma": "indefinitely",
+        "partOfSpeech": "adverb",
+        "meaningZh": "無限期地"
       }
     ],
     "tags": [
@@ -1651,14 +2255,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "certainly",
-        "noteZh": "肯定地"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_definition",
@@ -1672,14 +2269,17 @@
       {
         "id": "s_definition_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "a statement of the exact meaning of a word, or the degree of clarity in an image or sound",
         "definitionZh": "定義；（影像等的）清晰度",
         "usageExplanationZh": "一義指詞語的精確意義（by definition），另一義指影像或聲音的解析度（high definition，高畫質）。",
-        "examples": [
-          {
-            "en": "The dictionary provides a clear definition of the term.",
-            "zh": "這本字典對這個詞語提供了清楚的定義。"
-          }
+        "grammarPatterns": [
+          "the definition of + noun",
+          "by definition",
+          "a broad definition"
         ],
         "collocations": [
           {
@@ -1690,7 +2290,37 @@
             "text": "high definition",
             "meaningZh": "高解析度"
           }
+        ],
+        "examples": [
+          {
+            "en": "The dictionary provides a clear definition of the term.",
+            "zh": "這本字典對這個詞語提供了清楚的定義。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "meaning",
+        "noteZh": "限詞義的解釋"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "define",
+        "partOfSpeech": "verb",
+        "meaningZh": "定義；下定義"
+      },
+      {
+        "lemma": "definitive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "權威性的；決定性的"
+      },
+      {
+        "lemma": "definitional",
+        "partOfSpeech": "adjective",
+        "meaningZh": "定義上的"
       }
     ],
     "tags": [
@@ -1704,14 +2334,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "meaning",
-        "noteZh": "限詞義的解釋"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_definitive",
@@ -1725,21 +2348,54 @@
       {
         "id": "s_definitive_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "conclusive or authoritative and not able to be improved upon or questioned",
         "definitionZh": "決定性的；權威性的；最終版本的",
         "usageExplanationZh": "常見 a definitive answer/version，強調具有最終性、不容質疑的權威地位。",
-        "examples": [
-          {
-            "en": "This biography is considered the definitive account of her life.",
-            "zh": "這本傳記被視為關於她一生最具權威性的記述。"
-          }
+        "grammarPatterns": [
+          "a definitive + noun",
+          "the definitive guide to + noun",
+          "be definitive"
         ],
         "collocations": [
           {
             "text": "the definitive guide",
             "meaningZh": "權威指南"
           }
+        ],
+        "examples": [
+          {
+            "en": "This biography is considered the definitive account of her life.",
+            "zh": "這本傳記被視為關於她一生最具權威性的記述。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "authoritative",
+        "noteZh": "具有權威性的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "define",
+        "partOfSpeech": "verb",
+        "meaningZh": "定義"
+      },
+      {
+        "lemma": "definition",
+        "partOfSpeech": "noun",
+        "meaningZh": "定義"
+      },
+      {
+        "lemma": "definitively",
+        "partOfSpeech": "adverb",
+        "meaningZh": "決定性地"
       }
     ],
     "tags": [
@@ -1754,14 +2410,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "authoritative",
-        "noteZh": "具有權威性的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_deflect",
@@ -1775,21 +2424,49 @@
       {
         "id": "s_deflect_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to cause something to change direction, or to divert attention or criticism away from oneself",
         "definitionZh": "使偏轉；轉移（注意力或批評）",
         "usageExplanationZh": "一義指使物體改變方向（deflect a blow），另一義為比喻用法，指迴避批評或責難（deflect criticism）。",
-        "examples": [
-          {
-            "en": "He tried to deflect questions about his involvement in the scandal.",
-            "zh": "他試圖迴避有關他涉入這起醜聞的問題。"
-          }
+        "grammarPatterns": [
+          "deflect + noun",
+          "deflect attention from + noun",
+          "deflect criticism"
         ],
         "collocations": [
           {
             "text": "deflect criticism",
             "meaningZh": "轉移批評"
           }
+        ],
+        "examples": [
+          {
+            "en": "He tried to deflect questions about his involvement in the scandal.",
+            "zh": "他試圖迴避有關他涉入這起醜聞的問題。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "divert",
+        "noteZh": "使改變方向"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "deflection",
+        "partOfSpeech": "noun",
+        "meaningZh": "偏轉；轉移"
+      },
+      {
+        "lemma": "deflector",
+        "partOfSpeech": "noun",
+        "meaningZh": "偏轉器；導流板"
       }
     ],
     "tags": [
@@ -1804,14 +2481,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "divert",
-        "noteZh": "使改變方向"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_deforestation",
@@ -1825,21 +2495,54 @@
       {
         "id": "s_deforestation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "the action of clearing a wide area of trees",
         "definitionZh": "砍伐森林；森林濫伐",
         "usageExplanationZh": "環境用語，常見 deforestation rates（森林濫伐率），指大規模移除林木的行為。",
-        "examples": [
-          {
-            "en": "Deforestation in the Amazon has accelerated in recent years.",
-            "zh": "近年來亞馬遜雨林的濫伐速度加快了。"
-          }
+        "grammarPatterns": [
+          "the rate of deforestation",
+          "the deforestation of + noun",
+          "combat deforestation"
         ],
         "collocations": [
           {
             "text": "widespread deforestation",
             "meaningZh": "大規模森林砍伐"
           }
+        ],
+        "examples": [
+          {
+            "en": "Deforestation in the Amazon has accelerated in recent years.",
+            "zh": "近年來亞馬遜雨林的濫伐速度加快了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "forest clearance",
+        "noteZh": "清除森林"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "reforestation",
+        "noteZh": "重新造林"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "deforest",
+        "partOfSpeech": "verb",
+        "meaningZh": "砍伐森林"
+      },
+      {
+        "lemma": "forest",
+        "partOfSpeech": "noun",
+        "meaningZh": "森林"
       }
     ],
     "tags": [
@@ -1852,19 +2555,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "forest clearance",
-        "noteZh": "清除森林"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "reforestation",
-        "noteZh": "重新造林"
-      }
-    ]
+    }
   },
   {
     "id": "w_defraud",
@@ -1878,21 +2569,48 @@
       {
         "id": "s_defraud_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to illegally obtain money from someone by deception",
         "definitionZh": "詐騙；欺詐（取財）",
         "usageExplanationZh": "正式法律用語，常見 defraud investors/the government，強調以欺騙手段非法取得財物。",
-        "examples": [
-          {
-            "en": "He was charged with conspiring to defraud investors of millions of dollars.",
-            "zh": "他被控共謀詐騙投資人數百萬美元。"
-          }
+        "grammarPatterns": [
+          "defraud sb of + noun",
+          "defraud + noun"
         ],
         "collocations": [
           {
             "text": "defraud someone of money",
             "meaningZh": "詐騙某人的錢財"
           }
+        ],
+        "examples": [
+          {
+            "en": "He was charged with conspiring to defraud investors of millions of dollars.",
+            "zh": "他被控共謀詐騙投資人數百萬美元。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "swindle",
+        "noteZh": "騙取金錢"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "fraud",
+        "partOfSpeech": "noun",
+        "meaningZh": "詐騙；欺詐"
+      },
+      {
+        "lemma": "fraudulent",
+        "partOfSpeech": "adjective",
+        "meaningZh": "詐欺的"
       }
     ],
     "tags": [
@@ -1907,14 +2625,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "swindle",
-        "noteZh": "騙取金錢"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_deft",
@@ -1928,21 +2639,54 @@
       {
         "id": "s_deft_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "neatly skillful and quick in one's movements",
         "definitionZh": "靈巧的；熟練的",
         "usageExplanationZh": "常修飾 hands、touch，強調動作俐落精準，語氣正面。",
-        "examples": [
-          {
-            "en": "With a few deft strokes, the artist completed the portrait.",
-            "zh": "這位藝術家以幾筆靈巧的手法完成了這幅肖像畫。"
-          }
+        "grammarPatterns": [
+          "a deft + noun",
+          "deft at + V-ing",
+          "with a deft touch"
         ],
         "collocations": [
           {
             "text": "a deft touch",
             "meaningZh": "靈巧的手法"
           }
+        ],
+        "examples": [
+          {
+            "en": "With a few deft strokes, the artist completed the portrait.",
+            "zh": "這位藝術家以幾筆靈巧的手法完成了這幅肖像畫。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "skillful",
+        "noteZh": "熟練靈巧的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "clumsy",
+        "noteZh": "笨拙的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "deftly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "靈巧地；熟練地"
+      },
+      {
+        "lemma": "deftness",
+        "partOfSpeech": "noun",
+        "meaningZh": "靈巧；熟練"
       }
     ],
     "tags": [
@@ -1957,19 +2701,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "skillful",
-        "noteZh": "熟練靈巧的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "clumsy",
-        "noteZh": "笨拙的"
-      }
-    ]
+    }
   },
   {
     "id": "w_defunct",
@@ -1983,23 +2715,39 @@
       {
         "id": "s_defunct_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "no longer existing, functioning, or in use",
         "definitionZh": "不復存在的；已廢止的",
         "usageExplanationZh": "書面用語，常見 a defunct company/law，指組織、制度或事物已經停止運作或失效。",
-        "examples": [
-          {
-            "en": "The once-popular magazine is now defunct.",
-            "zh": "這本曾經風靡一時的雜誌如今已經停刊。"
-          }
+        "grammarPatterns": [
+          "a defunct + noun",
+          "now defunct",
+          "become defunct"
         ],
         "collocations": [
           {
             "text": "a now-defunct company",
             "meaningZh": "如今已停業的公司"
           }
+        ],
+        "examples": [
+          {
+            "en": "The once-popular magazine is now defunct.",
+            "zh": "這本曾經風靡一時的雜誌如今已經停刊。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "obsolete",
+        "noteZh": "指已不再使用的"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2011,14 +2759,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "obsolete",
-        "noteZh": "指已不再使用的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_defuse",
@@ -2032,14 +2773,16 @@
       {
         "id": "s_defuse_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to remove the fuse from an explosive device, or to reduce the tension in a difficult situation",
         "definitionZh": "拆除（炸彈的）引信；緩和（緊張局勢）",
         "usageExplanationZh": "一義為字面意義（defuse a bomb），另一義為比喻用法，指化解衝突或緊張氣氛（defuse a tense situation）。",
-        "examples": [
-          {
-            "en": "The diplomat's calm words helped defuse the tense negotiation.",
-            "zh": "這位外交官冷靜的言詞有助於緩和這場緊張的談判。"
-          }
+        "grammarPatterns": [
+          "defuse + noun",
+          "defuse a situation",
+          "defuse tension"
         ],
         "collocations": [
           {
@@ -2050,7 +2793,27 @@
             "text": "defuse tension",
             "meaningZh": "緩和緊張"
           }
+        ],
+        "examples": [
+          {
+            "en": "The diplomat's calm words helped defuse the tense negotiation.",
+            "zh": "這位外交官冷靜的言詞有助於緩和這場緊張的談判。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "de-escalate",
+        "noteZh": "限緩和局勢義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "fuse",
+        "partOfSpeech": "noun",
+        "meaningZh": "引信；保險絲"
       }
     ],
     "tags": [
@@ -2063,14 +2826,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "de-escalate",
-        "noteZh": "限緩和局勢義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_defy",
@@ -2084,14 +2840,17 @@
       {
         "id": "s_defy_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to openly resist or refuse to obey, or to challenge someone to do something believed impossible",
         "definitionZh": "公然反抗；違抗；挑戰（極限）",
         "usageExplanationZh": "常見 defy authority/expectations，強調公開不服從或超乎預期，語氣堅定。",
-        "examples": [
-          {
-            "en": "The workers defied the ban and continued their strike.",
-            "zh": "工人們不顧禁令，繼續進行罷工。"
-          }
+        "grammarPatterns": [
+          "defy + noun",
+          "defy sb to + V",
+          "defy description"
         ],
         "collocations": [
           {
@@ -2102,7 +2861,42 @@
             "text": "defy expectations",
             "meaningZh": "出乎預料"
           }
+        ],
+        "examples": [
+          {
+            "en": "The workers defied the ban and continued their strike.",
+            "zh": "工人們不顧禁令，繼續進行罷工。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "disobey",
+        "noteZh": "限違抗義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "obey",
+        "noteZh": "服從"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "defiance",
+        "partOfSpeech": "noun",
+        "meaningZh": "反抗；違抗"
+      },
+      {
+        "lemma": "defiant",
+        "partOfSpeech": "adjective",
+        "meaningZh": "違抗的"
+      },
+      {
+        "lemma": "defiantly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "反抗地"
       }
     ],
     "tags": [
@@ -2117,19 +2911,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "disobey",
-        "noteZh": "限違抗義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "obey",
-        "noteZh": "服從"
-      }
-    ]
+    }
   },
   {
     "id": "w_delay",
@@ -2143,42 +2925,67 @@
       {
         "id": "s_delay_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "a period of time by which something is late or postponed",
         "definitionZh": "延誤；延遲",
         "usageExplanationZh": "日常用語，常見 a flight delay（航班延誤），指事情發生的時間比預期晚。",
-        "examples": [
-          {
-            "en": "The flight experienced a two-hour delay due to bad weather.",
-            "zh": "這班航班因天氣不佳而延誤了兩個小時。"
-          }
+        "grammarPatterns": [
+          "a delay in + noun",
+          "without delay",
+          "a delay of + noun"
         ],
         "collocations": [
           {
             "text": "without delay",
             "meaningZh": "立即"
           }
+        ],
+        "examples": [
+          {
+            "en": "The flight experienced a two-hour delay due to bad weather.",
+            "zh": "這班航班因天氣不佳而延誤了兩個小時。"
+          }
         ]
       },
       {
         "id": "s_delay_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "to make something happen later than planned, or to make someone/something slow",
         "definitionZh": "延遲；耽擱",
         "usageExplanationZh": "常見 delay a decision/departure，強調把事情往後推延或使進度變慢。",
-        "examples": [
-          {
-            "en": "Heavy traffic delayed their arrival by an hour.",
-            "zh": "嚴重的交通壅塞讓他們的抵達時間延誤了一小時。"
-          }
+        "grammarPatterns": [
+          "delay + noun",
+          "delay V-ing",
+          "be delayed by + noun"
         ],
         "collocations": [
           {
             "text": "delay a decision",
             "meaningZh": "延後決定"
           }
+        ],
+        "examples": [
+          {
+            "en": "Heavy traffic delayed their arrival by an hour.",
+            "zh": "嚴重的交通壅塞讓他們的抵達時間延誤了一小時。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "postponement",
+        "noteZh": "限延遲的名詞義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2190,14 +2997,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "postponement",
-        "noteZh": "限延遲的名詞義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_delete",
@@ -2211,21 +3011,43 @@
       {
         "id": "s_delete_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "to remove or erase something, especially text or data",
         "definitionZh": "刪除",
         "usageExplanationZh": "日常科技用語，常見 delete a file/message，指移除文字、檔案或資料。",
-        "examples": [
-          {
-            "en": "She accidentally deleted an important document from her computer.",
-            "zh": "她不小心從電腦裡刪除了一份重要的文件。"
-          }
+        "grammarPatterns": [
+          "delete + noun",
+          "delete sth from + noun"
         ],
         "collocations": [
           {
             "text": "delete a file",
             "meaningZh": "刪除檔案"
           }
+        ],
+        "examples": [
+          {
+            "en": "She accidentally deleted an important document from her computer.",
+            "zh": "她不小心從電腦裡刪除了一份重要的文件。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "erase",
+        "noteZh": "刪去文字或資料"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "deletion",
+        "partOfSpeech": "noun",
+        "meaningZh": "刪除"
       }
     ],
     "tags": [
@@ -2239,14 +3061,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "erase",
-        "noteZh": "刪去文字或資料"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_deleterious",
@@ -2260,21 +3075,48 @@
       {
         "id": "s_deleterious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "causing harm or damage, especially in a subtle or gradual way",
         "definitionZh": "有害的；不良的（常指隱性或漸進的傷害）",
         "usageExplanationZh": "書面正式用語，常見 deleterious effects/consequences，強調負面影響可能不易立即察覺。",
-        "examples": [
-          {
-            "en": "Excessive screen time can have deleterious effects on children's sleep.",
-            "zh": "過度使用螢幕可能對兒童的睡眠產生不良影響。"
-          }
+        "grammarPatterns": [
+          "deleterious to + noun",
+          "a deleterious effect on + noun"
         ],
         "collocations": [
           {
             "text": "deleterious effects",
             "meaningZh": "有害的影響"
           }
+        ],
+        "examples": [
+          {
+            "en": "Excessive screen time can have deleterious effects on children's sleep.",
+            "zh": "過度使用螢幕可能對兒童的睡眠產生不良影響。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "harmful",
+        "noteZh": "造成傷害的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "beneficial",
+        "noteZh": "有益的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "deleteriously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "有害地"
       }
     ],
     "tags": [
@@ -2288,19 +3130,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "harmful",
-        "noteZh": "造成傷害的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "beneficial",
-        "noteZh": "有益的"
-      }
-    ]
+    }
   },
   {
     "id": "w_deliberately",
@@ -2314,21 +3144,53 @@
       {
         "id": "s_deliberately_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "on purpose; in a way that is planned or intended",
         "definitionZh": "故意地；蓄意地",
         "usageExplanationZh": "常修飾動詞，強調行為並非意外，而是經過思考或計畫，語氣中性至負面。",
-        "examples": [
-          {
-            "en": "He deliberately avoided answering the reporter's question.",
-            "zh": "他故意迴避了記者的問題。"
-          }
+        "grammarPatterns": [
+          "deliberately + V",
+          "act deliberately",
+          "deliberately mislead sb"
         ],
         "collocations": [
           {
             "text": "deliberately ignore",
             "meaningZh": "故意忽略"
           }
+        ],
+        "examples": [
+          {
+            "en": "He deliberately avoided answering the reporter's question.",
+            "zh": "他故意迴避了記者的問題。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "intentionally",
+        "noteZh": "有意地"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "accidentally",
+        "noteZh": "無意地"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "deliberate",
+        "partOfSpeech": "adjective",
+        "meaningZh": "故意的；慎重的"
+      },
+      {
+        "lemma": "deliberation",
+        "partOfSpeech": "noun",
+        "meaningZh": "審慎思考；商議"
       }
     ],
     "tags": [
@@ -2341,19 +3203,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "intentionally",
-        "noteZh": "有意地"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "accidentally",
-        "noteZh": "無意地"
-      }
-    ]
+    }
   },
   {
     "id": "w_delicate",
@@ -2367,14 +3217,16 @@
       {
         "id": "s_delicate_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "easily damaged or broken; fragile, or requiring careful handling",
         "definitionZh": "易碎的；纖細的；（情況）微妙的",
         "usageExplanationZh": "一義指物理上的脆弱（a delicate vase），另一義指需要謹慎處理的敏感狀況（a delicate situation）。",
-        "examples": [
-          {
-            "en": "The negotiations required a delicate balance of diplomacy and firmness.",
-            "zh": "這場談判需要在外交手腕和堅定立場之間取得微妙的平衡。"
-          }
+        "grammarPatterns": [
+          "a delicate + noun",
+          "a delicate situation",
+          "be delicate to handle"
         ],
         "collocations": [
           {
@@ -2385,7 +3237,37 @@
             "text": "a delicate situation",
             "meaningZh": "微妙的情況"
           }
+        ],
+        "examples": [
+          {
+            "en": "The negotiations required a delicate balance of diplomacy and firmness.",
+            "zh": "這場談判需要在外交手腕和堅定立場之間取得微妙的平衡。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "fragile",
+        "noteZh": "限易損壞義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "sturdy",
+        "noteZh": "堅固的，限物品義"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "delicacy",
+        "partOfSpeech": "noun",
+        "meaningZh": "精緻；微妙；珍饈"
+      },
+      {
+        "lemma": "delicately",
+        "partOfSpeech": "adverb",
+        "meaningZh": "精細地；微妙地"
       }
     ],
     "tags": [
@@ -2400,19 +3282,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "fragile",
-        "noteZh": "限易損壞義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "sturdy",
-        "noteZh": "堅固的，限物品義"
-      }
-    ]
+    }
   },
   {
     "id": "w_delinquent",
@@ -2426,40 +3296,71 @@
       {
         "id": "s_delinquent_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "a person, typically a young person, who commits illegal or antisocial acts",
         "definitionZh": "（尤指青少年）不良分子；違法者",
         "usageExplanationZh": "常見 a juvenile delinquent（青少年不良少年），指有違法或反社會行為傾向的人。",
-        "examples": [
-          {
-            "en": "The program aims to help juvenile delinquents reintegrate into society.",
-            "zh": "這項計畫旨在幫助青少年不良分子重新融入社會。"
-          }
+        "grammarPatterns": [
+          "a juvenile delinquent",
+          "deal with delinquents"
         ],
         "collocations": [
           {
             "text": "a juvenile delinquent",
             "meaningZh": "少年犯"
           }
+        ],
+        "examples": [
+          {
+            "en": "The program aims to help juvenile delinquents reintegrate into society.",
+            "zh": "這項計畫旨在幫助青少年不良分子重新融入社會。"
+          }
         ]
       },
       {
         "id": "s_delinquent_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "tending to commit crime, especially as a young person, or (of a debt) overdue",
         "definitionZh": "行為不良的；（債務）逾期未償的",
         "usageExplanationZh": "一義形容有違法傾向的行為，另一義為財務用語，指債務逾期未繳（a delinquent account）。",
-        "examples": [
-          {
-            "en": "Her account became delinquent after several missed payments.",
-            "zh": "她因多次未繳款，帳戶變成了逾期未償狀態。"
-          }
+        "grammarPatterns": [
+          "delinquent + noun",
+          "be delinquent on + noun",
+          "a delinquent account"
         ],
         "collocations": [
           {
             "text": "delinquent payments",
             "meaningZh": "逾期未付的款項"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her account became delinquent after several missed payments.",
+            "zh": "她因多次未繳款，帳戶變成了逾期未償狀態。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "offender",
+        "noteZh": "限違法者的名詞義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "delinquency",
+        "partOfSpeech": "noun",
+        "meaningZh": "違法行為；（債務）拖欠"
       }
     ],
     "tags": [
@@ -2472,14 +3373,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "offender",
-        "noteZh": "限違法者的名詞義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_delusion",
@@ -2493,21 +3387,49 @@
       {
         "id": "s_delusion_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "an idiosyncratic belief maintained despite being contradicted by reality",
         "definitionZh": "妄想；錯覺",
         "usageExplanationZh": "常見 under the delusion that（在……的錯覺之下），也可為精神醫學用語，指與現實脫節的堅信。",
-        "examples": [
-          {
-            "en": "He was under the delusion that he could become a professional athlete overnight.",
-            "zh": "他有種錯覺，以為自己能一夕之間成為職業運動員。"
-          }
+        "grammarPatterns": [
+          "a delusion that + clause",
+          "be under a delusion",
+          "delusions of + noun"
         ],
         "collocations": [
           {
             "text": "delusions of grandeur",
             "meaningZh": "誇大妄想"
           }
+        ],
+        "examples": [
+          {
+            "en": "He was under the delusion that he could become a professional athlete overnight.",
+            "zh": "他有種錯覺，以為自己能一夕之間成為職業運動員。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "misbelief",
+        "noteZh": "錯誤的信念"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "delude",
+        "partOfSpeech": "verb",
+        "meaningZh": "欺騙；使產生錯覺"
+      },
+      {
+        "lemma": "delusional",
+        "partOfSpeech": "adjective",
+        "meaningZh": "妄想的"
       }
     ],
     "tags": [
@@ -2520,14 +3442,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "misbelief",
-        "noteZh": "錯誤的信念"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_delve",
@@ -2541,23 +3456,38 @@
       {
         "id": "s_delve_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to research or examine something in detail",
         "definitionZh": "深入探究；鑽研",
         "usageExplanationZh": "書面用語，常見 delve into，強調深入挖掘某主題的細節或內涵。",
-        "examples": [
-          {
-            "en": "The documentary delves into the causes of the financial crisis.",
-            "zh": "這部紀錄片深入探究了這場金融危機的成因。"
-          }
+        "grammarPatterns": [
+          "delve into + noun",
+          "delve deeper into + noun"
         ],
         "collocations": [
           {
             "text": "delve into the details",
             "meaningZh": "深入探究細節"
           }
+        ],
+        "examples": [
+          {
+            "en": "The documentary delves into the causes of the financial crisis.",
+            "zh": "這部紀錄片深入探究了這場金融危機的成因。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "investigate",
+        "noteZh": "深入調查"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -2568,14 +3498,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "investigate",
-        "noteZh": "深入調查"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_demented",
@@ -2589,21 +3512,44 @@
       {
         "id": "s_demented_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal",
+          "technical"
+        ],
         "definitionEn": "suffering from severe mental impairment, or behaving in a wild or irrational manner",
         "definitionZh": "（精神上）失常的；瘋狂的",
         "usageExplanationZh": "醫學用語指患有失智症狀，也可口語用來形容行為瘋狂荒唐（常帶誇張語氣）。",
-        "examples": [
-          {
-            "en": "The elderly patient had become increasingly demented over the past year.",
-            "zh": "這位年長病患過去一年來的失智狀況日益嚴重。"
-          }
+        "grammarPatterns": [
+          "a demented + noun",
+          "sound demented",
+          "become demented"
         ],
         "collocations": [
           {
             "text": "a demented look",
             "meaningZh": "瘋狂的神情"
           }
+        ],
+        "examples": [
+          {
+            "en": "The elderly patient had become increasingly demented over the past year.",
+            "zh": "這位年長病患過去一年來的失智狀況日益嚴重。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "deranged",
+        "noteZh": "精神失常的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "dementia",
+        "partOfSpeech": "noun",
+        "meaningZh": "失智症"
       }
     ],
     "tags": [
@@ -2616,14 +3562,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "deranged",
-        "noteZh": "精神失常的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_democracy",
@@ -2637,21 +3576,59 @@
       {
         "id": "s_democracy_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "a system of government by the whole population, typically through elected representatives",
         "definitionZh": "民主；民主制度",
         "usageExplanationZh": "政治用語，常見 a parliamentary democracy（議會民主制），指人民透過選舉參與治理的政治體制。",
-        "examples": [
-          {
-            "en": "The country transitioned to democracy after decades of military rule.",
-            "zh": "這個國家在經歷數十年軍事統治後，轉型為民主制度。"
-          }
+        "grammarPatterns": [
+          "a parliamentary democracy",
+          "the transition to democracy",
+          "democracy in + noun"
         ],
         "collocations": [
           {
             "text": "a parliamentary democracy",
             "meaningZh": "議會民主制度"
           }
+        ],
+        "examples": [
+          {
+            "en": "The country transitioned to democracy after decades of military rule.",
+            "zh": "這個國家在經歷數十年軍事統治後，轉型為民主制度。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "self-government",
+        "noteZh": "由人民治理的制度"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "autocracy",
+        "noteZh": "獨裁統治"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "democratic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "民主的"
+      },
+      {
+        "lemma": "democrat",
+        "partOfSpeech": "noun",
+        "meaningZh": "民主主義者"
+      },
+      {
+        "lemma": "democratize",
+        "partOfSpeech": "verb",
+        "meaningZh": "使民主化"
       }
     ],
     "tags": [
@@ -2665,19 +3642,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "self-government",
-        "noteZh": "由人民治理的制度"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "autocracy",
-        "noteZh": "獨裁統治"
-      }
-    ]
+    }
   },
   {
     "id": "w_demolish",
@@ -2691,14 +3656,16 @@
       {
         "id": "s_demolish_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to pull down or destroy a building, or to disprove an argument thoroughly",
         "definitionZh": "拆除（建築物）；徹底駁倒（論點）",
         "usageExplanationZh": "一義指實體拆除（demolish a building），另一義為比喻用法，指徹底推翻論點（demolish an argument）。",
-        "examples": [
-          {
-            "en": "The old stadium was demolished to make way for a new one.",
-            "zh": "這座舊體育場被拆除，以便為新的體育場騰出空間。"
-          }
+        "grammarPatterns": [
+          "demolish + noun",
+          "demolish a building",
+          "demolish an argument"
         ],
         "collocations": [
           {
@@ -2709,7 +3676,32 @@
             "text": "demolish an argument",
             "meaningZh": "徹底駁倒論點"
           }
+        ],
+        "examples": [
+          {
+            "en": "The old stadium was demolished to make way for a new one.",
+            "zh": "這座舊體育場被拆除，以便為新的體育場騰出空間。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "raze",
+        "noteZh": "限拆除建物義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "construct",
+        "noteZh": "限建造建物義"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "demolition",
+        "partOfSpeech": "noun",
+        "meaningZh": "拆除；毀壞"
       }
     ],
     "tags": [
@@ -2724,18 +3716,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "raze",
-        "noteZh": "限拆除建物義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "construct",
-        "noteZh": "限建造建物義"
-      }
-    ]
+    }
   }
 ]

@@ -11,21 +11,42 @@
       {
         "id": "s_headmaster_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "the head teacher of a school, especially in Britain",
         "definitionZh": "（英式）中小學校長",
         "usageExplanationZh": "英式英語常用詞，美式英語通常用 principal；女性校長則稱 headmistress。",
-        "examples": [
-          {
-            "en": "The headmaster addressed the students at the morning assembly.",
-            "zh": "校長在朝會上向學生們致辭。"
-          }
+        "grammarPatterns": [
+          "the headmaster of + noun",
+          "be appointed headmaster"
         ],
         "collocations": [
           {
             "text": "a school headmaster",
             "meaningZh": "學校校長"
           }
+        ],
+        "examples": [
+          {
+            "en": "The headmaster addressed the students at the morning assembly.",
+            "zh": "校長在朝會上向學生們致辭。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "principal",
+        "noteZh": "校長"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "headmistress",
+        "partOfSpeech": "noun",
+        "meaningZh": "女校長"
       }
     ],
     "tags": [
@@ -38,14 +59,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "principal",
-        "noteZh": "校長"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_headquarters",
@@ -59,23 +73,39 @@
       {
         "id": "s_headquarters_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "the main office or center of operations of an organization",
         "definitionZh": "總部；總公司",
         "usageExplanationZh": "常見 company headquarters（公司總部）；作單複數同形，需視語境判斷數量。",
-        "examples": [
-          {
-            "en": "The company recently moved its headquarters to a larger building.",
-            "zh": "這家公司最近把總部搬到了一棟更大的建築物。"
-          }
+        "grammarPatterns": [
+          "the headquarters of + noun",
+          "move its headquarters to + noun",
+          "company headquarters"
         ],
         "collocations": [
           {
             "text": "corporate headquarters",
             "meaningZh": "企業總部"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company recently moved its headquarters to a larger building.",
+            "zh": "這家公司最近把總部搬到了一棟更大的建築物。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "head office",
+        "noteZh": "總公司"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -86,14 +116,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "head office",
-        "noteZh": "總公司"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_heal",
@@ -107,21 +130,54 @@
       {
         "id": "s_heal_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "to become healthy again, or to cause a wound or condition to become healthy",
         "definitionZh": "（傷口）癒合；治癒",
         "usageExplanationZh": "常見 heal quickly（癒合得快）；比喻用法如 time heals all wounds（時間能治癒一切傷痛）。",
-        "examples": [
-          {
-            "en": "The wound took about two weeks to heal.",
-            "zh": "這個傷口花了大約兩週才癒合。"
-          }
+        "grammarPatterns": [
+          "sth heals",
+          "heal + noun",
+          "heal from + noun"
         ],
         "collocations": [
           {
             "text": "heal a wound",
             "meaningZh": "治癒傷口"
           }
+        ],
+        "examples": [
+          {
+            "en": "The wound took about two weeks to heal.",
+            "zh": "這個傷口花了大約兩週才癒合。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "mend",
+        "noteZh": "癒合"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "healer",
+        "partOfSpeech": "noun",
+        "meaningZh": "治療者"
+      },
+      {
+        "lemma": "health",
+        "partOfSpeech": "noun",
+        "meaningZh": "健康"
+      },
+      {
+        "lemma": "healthy",
+        "partOfSpeech": "adjective",
+        "meaningZh": "健康的"
       }
     ],
     "tags": [
@@ -136,14 +192,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "mend",
-        "noteZh": "癒合"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_heap",
@@ -157,23 +206,39 @@
       {
         "id": "s_heap_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "to put things in a large, untidy pile, or to give a large amount of something",
         "definitionZh": "堆放；大量給予（讚美、責備等）",
         "usageExplanationZh": "常見 heap praise on someone（大力讚揚某人）；名詞用法 a heap of clothes 也很常見。",
-        "examples": [
-          {
-            "en": "Critics heaped praise on the director's latest film.",
-            "zh": "影評人對這位導演的最新作品大加讚揚。"
-          }
+        "grammarPatterns": [
+          "heap + noun + on/onto + noun",
+          "heap praise on sb",
+          "heap sth up"
         ],
         "collocations": [
           {
             "text": "heap praise on someone",
             "meaningZh": "大力讚揚某人"
           }
+        ],
+        "examples": [
+          {
+            "en": "Critics heaped praise on the director's latest film.",
+            "zh": "影評人對這位導演的最新作品大加讚揚。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "pile",
+        "noteZh": "堆放"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -184,14 +249,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pile",
-        "noteZh": "堆放"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_heater",
@@ -205,21 +263,42 @@
       {
         "id": "s_heater_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a device used to provide warmth",
         "definitionZh": "暖氣機；加熱器",
         "usageExplanationZh": "常見 a space heater（可攜式暖爐）、water heater（熱水器）。",
-        "examples": [
-          {
-            "en": "They turned on the heater as soon as the temperature dropped.",
-            "zh": "氣溫一下降，他們就打開了暖氣機。"
-          }
+        "grammarPatterns": [
+          "turn on the heater",
+          "a space heater"
         ],
         "collocations": [
           {
             "text": "an electric heater",
             "meaningZh": "電暖器"
           }
+        ],
+        "examples": [
+          {
+            "en": "They turned on the heater as soon as the temperature dropped.",
+            "zh": "氣溫一下降，他們就打開了暖氣機。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "heat",
+        "partOfSpeech": "noun",
+        "meaningZh": "熱；熱度"
+      },
+      {
+        "lemma": "heating",
+        "partOfSpeech": "noun",
+        "meaningZh": "暖氣設備"
       }
     ],
     "tags": [
@@ -232,9 +311,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_heave",
@@ -248,23 +325,34 @@
       {
         "id": "s_heave_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "a powerful pulling, pushing, or lifting motion, or a heaving movement",
         "definitionZh": "用力拉（推、舉）的動作；起伏",
         "usageExplanationZh": "常見 with a heave（用力一舉），描述需要出力的動作。",
-        "examples": [
-          {
-            "en": "With one final heave, they pulled the boat onto the shore.",
-            "zh": "他們最後用力一拉，把船拖上了岸。"
-          }
+        "grammarPatterns": [
+          "with a heave",
+          "one final heave",
+          "a heave of + noun"
         ],
         "collocations": [
           {
             "text": "with a mighty heave",
             "meaningZh": "用力一拉或一舉"
           }
+        ],
+        "examples": [
+          {
+            "en": "With one final heave, they pulled the boat onto the shore.",
+            "zh": "他們最後用力一拉，把船拖上了岸。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -277,9 +365,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_hectic",
@@ -293,21 +379,47 @@
       {
         "id": "s_hectic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "full of frantic activity; extremely busy",
         "definitionZh": "忙亂的；繁忙緊湊的",
         "usageExplanationZh": "常修飾 schedule、day 等，如 a hectic schedule（緊湊忙碌的行程）。",
-        "examples": [
-          {
-            "en": "Her days are hectic, juggling work and family responsibilities.",
-            "zh": "她的生活忙碌緊湊，要在工作與家庭責任之間兼顧。"
-          }
+        "grammarPatterns": [
+          "a hectic + noun",
+          "a hectic schedule"
         ],
         "collocations": [
           {
             "text": "a hectic schedule",
             "meaningZh": "繁忙緊湊的行程"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her days are hectic, juggling work and family responsibilities.",
+            "zh": "她的生活忙碌緊湊，要在工作與家庭責任之間兼顧。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "frantic",
+        "noteZh": "忙亂的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "calm",
+        "noteZh": "平靜的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "hectically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "忙亂地"
       }
     ],
     "tags": [
@@ -322,19 +434,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "frantic",
-        "noteZh": "忙亂的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "calm",
-        "noteZh": "平靜的"
-      }
-    ]
+    }
   },
   {
     "id": "w_hedge",
@@ -348,42 +448,61 @@
       {
         "id": "s_hedge_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a boundary formed by closely growing shrubs or bushes",
         "definitionZh": "樹籬；灌木籬笆",
         "usageExplanationZh": "常見於花園景觀描述，如 a garden hedge；金融用語 hedge fund（避險基金）源自不同引申義。",
-        "examples": [
-          {
-            "en": "They planted a hedge along the edge of the garden.",
-            "zh": "他們沿著花園邊緣種了一排樹籬。"
-          }
+        "grammarPatterns": [
+          "a hedge along/around + noun",
+          "plant a hedge",
+          "trim the hedge"
         ],
         "collocations": [
           {
             "text": "trim a hedge",
             "meaningZh": "修剪樹籬"
           }
+        ],
+        "examples": [
+          {
+            "en": "They planted a hedge along the edge of the garden.",
+            "zh": "他們沿著花園邊緣種了一排樹籬。"
+          }
         ]
       },
       {
         "id": "s_hedge_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to avoid giving a direct answer, or to protect oneself against financial loss by making balancing investments",
         "definitionZh": "含糊其詞；規避（風險，尤指金融）",
         "usageExplanationZh": "常見 hedge one's bets（兩面下注，避免風險）；金融語境常見 hedge against inflation。",
-        "examples": [
-          {
-            "en": "The politician hedged when asked directly about the tax increase.",
-            "zh": "被直接問到加稅問題時，這位政治人物含糊其詞地迴避了。"
-          }
+        "grammarPatterns": [
+          "hedge against + noun",
+          "hedge one's bets",
+          "sb hedges"
         ],
         "collocations": [
           {
             "text": "hedge against inflation",
             "meaningZh": "對沖通貨膨脹風險"
           }
+        ],
+        "examples": [
+          {
+            "en": "The politician hedged when asked directly about the tax increase.",
+            "zh": "被直接問到加稅問題時，這位政治人物含糊其詞地迴避了。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -395,9 +514,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_heed",
@@ -411,21 +528,54 @@
       {
         "id": "s_heed_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to pay close attention to advice or a warning",
         "definitionZh": "留意；聽從（勸告或警告）",
         "usageExplanationZh": "常接 advice、warning 等，如 heed the warning；語氣正式書面，日常口語較少用。",
-        "examples": [
-          {
-            "en": "The villagers failed to heed the evacuation warning.",
-            "zh": "村民們沒有聽從撤離的警告。"
-          }
+        "grammarPatterns": [
+          "heed + noun",
+          "heed a warning/advice",
+          "fail to heed + noun"
         ],
         "collocations": [
           {
             "text": "heed a warning",
             "meaningZh": "聽從警告"
           }
+        ],
+        "examples": [
+          {
+            "en": "The villagers failed to heed the evacuation warning.",
+            "zh": "村民們沒有聽從撤離的警告。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "obey",
+        "noteZh": "聽從"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "ignore",
+        "noteZh": "忽視"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "heedless",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不加注意的"
+      },
+      {
+        "lemma": "heedful",
+        "partOfSpeech": "adjective",
+        "meaningZh": "留意的"
       }
     ],
     "tags": [
@@ -439,19 +589,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "obey",
-        "noteZh": "聽從"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "ignore",
-        "noteZh": "忽視"
-      }
-    ]
+    }
   },
   {
     "id": "w_heel",
@@ -465,23 +603,33 @@
       {
         "id": "s_heel_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "the back part of the foot, or the raised part of a shoe supporting the heel",
         "definitionZh": "腳跟；鞋跟",
         "usageExplanationZh": "常見 high heels（高跟鞋）；比喻用法 dig in one's heels（堅持己見，不肯讓步）。",
-        "examples": [
-          {
-            "en": "She twisted her heel while running down the stairs.",
-            "zh": "她跑下樓梯時扭傷了腳跟。"
-          }
+        "grammarPatterns": [
+          "the heel of one's foot",
+          "a high heel",
+          "at sb's heels"
         ],
         "collocations": [
           {
             "text": "high heels",
             "meaningZh": "高跟鞋"
           }
+        ],
+        "examples": [
+          {
+            "en": "She twisted her heel while running down the stairs.",
+            "zh": "她跑下樓梯時扭傷了腳跟。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -492,9 +640,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_heinous",
@@ -508,21 +654,48 @@
       {
         "id": "s_heinous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "utterly odious or wicked, especially of a crime",
         "definitionZh": "極其邪惡的；十惡不赦的（尤指罪行）",
         "usageExplanationZh": "常見於法律或新聞語境，如 a heinous crime（滔天大罪），語氣強烈正式。",
-        "examples": [
-          {
-            "en": "He was convicted of a heinous crime that shocked the nation.",
-            "zh": "他被判犯下震驚全國的滔天大罪。"
-          }
+        "grammarPatterns": [
+          "a heinous + noun",
+          "a heinous crime"
         ],
         "collocations": [
           {
             "text": "a heinous crime",
             "meaningZh": "十惡不赦的罪行"
           }
+        ],
+        "examples": [
+          {
+            "en": "He was convicted of a heinous crime that shocked the nation.",
+            "zh": "他被判犯下震驚全國的滔天大罪。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "atrocious",
+        "noteZh": "極其殘暴的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "heinously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "兇殘地"
+      },
+      {
+        "lemma": "heinousness",
+        "partOfSpeech": "noun",
+        "meaningZh": "窮凶極惡"
       }
     ],
     "tags": [
@@ -535,14 +708,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "atrocious",
-        "noteZh": "極其殘暴的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_heir",
@@ -556,21 +722,53 @@
       {
         "id": "s_heir_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a person legally entitled to the property or rank of another after their death",
         "definitionZh": "繼承人",
         "usageExplanationZh": "常見 the heir to the throne（王位繼承人）；也可比喻性使用，指思想或風格的傳承者。",
-        "examples": [
-          {
-            "en": "As the eldest son, he was the heir to his father's fortune.",
-            "zh": "身為長子，他是父親財富的繼承人。"
-          }
+        "grammarPatterns": [
+          "the heir to + noun",
+          "an heir of + noun",
+          "name sb as one's heir"
         ],
         "collocations": [
           {
             "text": "heir to the throne",
             "meaningZh": "王位繼承人"
           }
+        ],
+        "examples": [
+          {
+            "en": "As the eldest son, he was the heir to his father's fortune.",
+            "zh": "身為長子，他是父親財富的繼承人。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "inheritor",
+        "noteZh": "繼承人"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "heiress",
+        "partOfSpeech": "noun",
+        "meaningZh": "女繼承人"
+      },
+      {
+        "lemma": "inherit",
+        "partOfSpeech": "verb",
+        "meaningZh": "繼承"
+      },
+      {
+        "lemma": "inheritance",
+        "partOfSpeech": "noun",
+        "meaningZh": "遺產；繼承"
       }
     ],
     "tags": [
@@ -585,14 +783,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "inheritor",
-        "noteZh": "繼承人"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_helm",
@@ -606,21 +797,38 @@
       {
         "id": "s_helm_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "a wheel or handle used to steer a ship, or a position of leadership",
         "definitionZh": "（船的）舵；領導地位",
         "usageExplanationZh": "常見比喻用法 at the helm of a company（掌舵一家公司，即擔任領導者）。",
-        "examples": [
-          {
-            "en": "She has been at the helm of the company for over a decade.",
-            "zh": "她掌管這家公司已超過十年。"
-          }
+        "grammarPatterns": [
+          "at the helm of + noun",
+          "take the helm"
         ],
         "collocations": [
           {
             "text": "at the helm",
             "meaningZh": "掌舵；掌管"
           }
+        ],
+        "examples": [
+          {
+            "en": "She has been at the helm of the company for over a decade.",
+            "zh": "她掌管這家公司已超過十年。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "helmsman",
+        "partOfSpeech": "noun",
+        "meaningZh": "舵手"
       }
     ],
     "tags": [
@@ -633,9 +841,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_helmet",
@@ -649,23 +855,32 @@
       {
         "id": "s_helmet_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a hard protective hat worn to protect the head",
         "definitionZh": "安全帽；頭盔",
         "usageExplanationZh": "常見 a bicycle helmet（自行車安全帽）、a motorcycle helmet（機車安全帽）。",
-        "examples": [
-          {
-            "en": "Always wear a helmet when riding a motorcycle.",
-            "zh": "騎機車時務必戴安全帽。"
-          }
+        "grammarPatterns": [
+          "wear a helmet",
+          "a safety helmet"
         ],
         "collocations": [
           {
             "text": "a safety helmet",
             "meaningZh": "安全帽"
           }
+        ],
+        "examples": [
+          {
+            "en": "Always wear a helmet when riding a motorcycle.",
+            "zh": "騎機車時務必戴安全帽。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -677,9 +892,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_hemisphere",
@@ -693,21 +906,43 @@
       {
         "id": "s_hemisphere_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "half of the earth, usually divided by the equator or a line of longitude, or half of the brain",
         "definitionZh": "半球（地球或大腦）",
         "usageExplanationZh": "常見 the northern hemisphere（北半球）；也指大腦的左右半球，如 the left hemisphere。",
-        "examples": [
-          {
-            "en": "Australia is located in the southern hemisphere.",
-            "zh": "澳洲位於南半球。"
-          }
+        "grammarPatterns": [
+          "the northern/southern hemisphere",
+          "in the + adjective + hemisphere"
         ],
         "collocations": [
           {
             "text": "the Northern Hemisphere",
             "meaningZh": "北半球"
           }
+        ],
+        "examples": [
+          {
+            "en": "Australia is located in the southern hemisphere.",
+            "zh": "澳洲位於南半球。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "hemispheric",
+        "partOfSpeech": "adjective",
+        "meaningZh": "半球的"
+      },
+      {
+        "lemma": "sphere",
+        "partOfSpeech": "noun",
+        "meaningZh": "球體；領域"
       }
     ],
     "tags": [
@@ -722,9 +957,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_hence",
@@ -738,21 +971,43 @@
       {
         "id": "s_hence_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "for this reason; therefore",
         "definitionZh": "因此；所以",
         "usageExplanationZh": "常見於書面或正式論述，置句首或句中，如 hence, we conclude that...；口語較少使用。",
-        "examples": [
-          {
-            "en": "The bridge is closed for repairs; hence, traffic has been rerouted.",
-            "zh": "這座橋正在維修，因此交通已改道。"
-          }
+        "grammarPatterns": [
+          "hence + clause",
+          "hence + noun"
         ],
         "collocations": [
           {
             "text": "hence the need for caution",
             "meaningZh": "因此有必要謹慎"
           }
+        ],
+        "examples": [
+          {
+            "en": "The bridge is closed for repairs; hence, traffic has been rerouted.",
+            "zh": "這座橋正在維修，因此交通已改道。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "therefore",
+        "noteZh": "因此"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "henceforth",
+        "partOfSpeech": "adverb",
+        "meaningZh": "今後；從此以後"
       }
     ],
     "tags": [
@@ -766,14 +1021,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "therefore",
-        "noteZh": "因此"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_herb",
@@ -787,21 +1035,49 @@
       {
         "id": "s_herb_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a plant used for flavoring food, medicine, or perfume",
         "definitionZh": "藥草；香草",
         "usageExplanationZh": "常見 fresh herbs（新鮮香草）、herbal tea（草本茶）；料理與醫療語境都常見。",
-        "examples": [
-          {
-            "en": "She grows basil and other herbs in her kitchen garden.",
-            "zh": "她在自家的廚房花園裡種植羅勒和其他香草。"
-          }
+        "grammarPatterns": [
+          "grow herbs",
+          "a medicinal herb",
+          "herbs and spices"
         ],
         "collocations": [
           {
             "text": "fresh herbs",
             "meaningZh": "新鮮香草"
           }
+        ],
+        "examples": [
+          {
+            "en": "She grows basil and other herbs in her kitchen garden.",
+            "zh": "她在自家的廚房花園裡種植羅勒和其他香草。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "herbal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "草本的；藥草的"
+      },
+      {
+        "lemma": "herbivore",
+        "partOfSpeech": "noun",
+        "meaningZh": "草食動物"
+      },
+      {
+        "lemma": "herbicide",
+        "partOfSpeech": "noun",
+        "meaningZh": "除草劑"
       }
     ],
     "tags": [
@@ -815,9 +1091,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_herd",
@@ -831,40 +1105,64 @@
       {
         "id": "s_herd_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a large group of animals that live and feed together",
         "definitionZh": "（動物的）群",
         "usageExplanationZh": "常見 a herd of cattle（一群牛）；比喻用法如 herd mentality（從眾心理），略帶負面意味。",
-        "examples": [
-          {
-            "en": "A herd of elephants crossed the savanna at dusk.",
-            "zh": "黃昏時，一群大象穿越了草原。"
-          }
+        "grammarPatterns": [
+          "a herd of + noun",
+          "in a herd"
         ],
         "collocations": [
           {
             "text": "a herd of cattle",
             "meaningZh": "一群牛"
           }
+        ],
+        "examples": [
+          {
+            "en": "A herd of elephants crossed the savanna at dusk.",
+            "zh": "黃昏時，一群大象穿越了草原。"
+          }
         ]
       },
       {
         "id": "s_herd_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to move animals or people in a group, typically in a particular direction",
         "definitionZh": "驅趕（動物或人群）",
         "usageExplanationZh": "常見 herd sheep（趕羊群）；比喻用法如 herd tourists onto a bus（把遊客趕上巴士）。",
-        "examples": [
-          {
-            "en": "The dog helped herd the sheep back into the pen.",
-            "zh": "這隻狗幫忙把羊群趕回了圍欄。"
-          }
+        "grammarPatterns": [
+          "herd + noun",
+          "herd sth into + noun",
+          "herd sb together"
         ],
         "collocations": [
           {
             "text": "herd sheep into a pen",
             "meaningZh": "把羊趕進圍欄"
           }
+        ],
+        "examples": [
+          {
+            "en": "The dog helped herd the sheep back into the pen.",
+            "zh": "這隻狗幫忙把羊群趕回了圍欄。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "herder",
+        "partOfSpeech": "noun",
+        "meaningZh": "牧人"
       }
     ],
     "tags": [
@@ -879,9 +1177,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_hereditary",
@@ -895,21 +1191,53 @@
       {
         "id": "s_hereditary_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "passed genetically from parent to offspring, or passed down through generations by title or right",
         "definitionZh": "遺傳的；世襲的",
         "usageExplanationZh": "醫學語境常見 a hereditary disease（遺傳性疾病）；也可指世襲的頭銜或地位，如 a hereditary title。",
-        "examples": [
-          {
-            "en": "The disease is hereditary and runs in her family.",
-            "zh": "這種疾病具有遺傳性，在她家族中一直存在。"
-          }
+        "grammarPatterns": [
+          "a hereditary + noun",
+          "be hereditary"
         ],
         "collocations": [
           {
             "text": "a hereditary disease",
             "meaningZh": "遺傳疾病"
           }
+        ],
+        "examples": [
+          {
+            "en": "The disease is hereditary and runs in her family.",
+            "zh": "這種疾病具有遺傳性，在她家族中一直存在。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "inherited",
+        "noteZh": "遺傳或繼承的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "heredity",
+        "partOfSpeech": "noun",
+        "meaningZh": "遺傳"
+      },
+      {
+        "lemma": "inherit",
+        "partOfSpeech": "verb",
+        "meaningZh": "繼承"
+      },
+      {
+        "lemma": "heir",
+        "partOfSpeech": "noun",
+        "meaningZh": "繼承人"
       }
     ],
     "tags": [
@@ -923,14 +1251,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "inherited",
-        "noteZh": "遺傳或繼承的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_heritage",
@@ -944,21 +1265,54 @@
       {
         "id": "s_heritage_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "traditions, achievements, and cultural features handed down from previous generations",
         "definitionZh": "文化遺產；傳統",
         "usageExplanationZh": "常見 cultural heritage（文化遺產）、a rich heritage（豐富的傳統），語氣正面莊重。",
-        "examples": [
-          {
-            "en": "The old temple is an important part of the country's cultural heritage.",
-            "zh": "這座古老的寺廟是該國文化遺產的重要組成部分。"
-          }
+        "grammarPatterns": [
+          "cultural heritage",
+          "part of sb's heritage",
+          "a heritage site"
         ],
         "collocations": [
           {
             "text": "cultural heritage",
             "meaningZh": "文化遺產"
           }
+        ],
+        "examples": [
+          {
+            "en": "The old temple is an important part of the country's cultural heritage.",
+            "zh": "這座古老的寺廟是該國文化遺產的重要組成部分。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "legacy",
+        "noteZh": "傳承下來的事物"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "inherit",
+        "partOfSpeech": "verb",
+        "meaningZh": "繼承"
+      },
+      {
+        "lemma": "inheritance",
+        "partOfSpeech": "noun",
+        "meaningZh": "遺產；繼承物"
+      },
+      {
+        "lemma": "heir",
+        "partOfSpeech": "noun",
+        "meaningZh": "繼承人"
       }
     ],
     "tags": [
@@ -972,14 +1326,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "legacy",
-        "noteZh": "傳承下來的事物"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_hesitate",
@@ -993,21 +1340,53 @@
       {
         "id": "s_hesitate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to pause before doing or saying something, often due to uncertainty",
         "definitionZh": "猶豫；遲疑",
         "usageExplanationZh": "常接 to do something，如 hesitate to ask；不加受詞的用法也很常見，如 she hesitated。",
-        "examples": [
-          {
-            "en": "Don't hesitate to contact us if you have any questions.",
-            "zh": "如果有任何問題，請不要猶豫，儘管與我們聯絡。"
-          }
+        "grammarPatterns": [
+          "hesitate to + V",
+          "hesitate before + V-ing",
+          "do not hesitate to + V"
         ],
         "collocations": [
           {
             "text": "hesitate to ask",
             "meaningZh": "猶豫是否開口詢問"
           }
+        ],
+        "examples": [
+          {
+            "en": "Don't hesitate to contact us if you have any questions.",
+            "zh": "如果有任何問題，請不要猶豫，儘管與我們聯絡。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "waver",
+        "noteZh": "猶豫"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "hesitation",
+        "partOfSpeech": "noun",
+        "meaningZh": "猶豫；遲疑"
+      },
+      {
+        "lemma": "hesitant",
+        "partOfSpeech": "adjective",
+        "meaningZh": "猶豫的"
+      },
+      {
+        "lemma": "hesitantly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "遲疑地"
       }
     ],
     "tags": [
@@ -1020,14 +1399,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "waver",
-        "noteZh": "猶豫"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_heterogeneous",
@@ -1041,21 +1413,53 @@
       {
         "id": "s_heterogeneous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "consisting of dissimilar or diverse elements",
         "definitionZh": "異質的；由不同成分組成的",
         "usageExplanationZh": "常見於學術語境，如 a heterogeneous population，與 homogeneous（同質的）相對。",
-        "examples": [
-          {
-            "en": "The study surveyed a heterogeneous group of participants from various backgrounds.",
-            "zh": "這項研究調查了一群來自不同背景的異質參與者。"
-          }
+        "grammarPatterns": [
+          "a heterogeneous + noun",
+          "a heterogeneous group/population"
         ],
         "collocations": [
           {
             "text": "a heterogeneous population",
             "meaningZh": "由不同背景族群組成的人口"
           }
+        ],
+        "examples": [
+          {
+            "en": "The study surveyed a heterogeneous group of participants from various backgrounds.",
+            "zh": "這項研究調查了一群來自不同背景的異質參與者。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "diverse",
+        "noteZh": "多樣的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "homogeneous",
+        "noteZh": "同質的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "heterogeneity",
+        "partOfSpeech": "noun",
+        "meaningZh": "異質性"
+      },
+      {
+        "lemma": "heterogeneously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "異質地"
       }
     ],
     "tags": [
@@ -1069,19 +1473,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "diverse",
-        "noteZh": "多樣的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "homogeneous",
-        "noteZh": "同質的"
-      }
-    ]
+    }
   },
   {
     "id": "w_hideous",
@@ -1095,21 +1487,53 @@
       {
         "id": "s_hideous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "informal"
+        ],
         "definitionEn": "extremely ugly or unpleasant",
         "definitionZh": "極其醜陋的；可怕的",
         "usageExplanationZh": "語氣強烈，常修飾外觀或行為，如 a hideous crime（駭人聽聞的罪行）。",
-        "examples": [
-          {
-            "en": "The old factory left a hideous scar on the landscape.",
-            "zh": "這座老舊工廠在地景上留下了醜陋的疤痕。"
-          }
+        "grammarPatterns": [
+          "a hideous + noun",
+          "look hideous"
         ],
         "collocations": [
           {
             "text": "a hideous monster",
             "meaningZh": "醜陋可怕的怪物"
           }
+        ],
+        "examples": [
+          {
+            "en": "The old factory left a hideous scar on the landscape.",
+            "zh": "這座老舊工廠在地景上留下了醜陋的疤痕。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "ugly",
+        "noteZh": "醜陋的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "beautiful",
+        "noteZh": "美麗的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "hideously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "醜陋地；可怕地"
+      },
+      {
+        "lemma": "hideousness",
+        "partOfSpeech": "noun",
+        "meaningZh": "醜惡；可怕"
       }
     ],
     "tags": [
@@ -1123,19 +1547,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "ugly",
-        "noteZh": "醜陋的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "beautiful",
-        "noteZh": "美麗的"
-      }
-    ]
+    }
   },
   {
     "id": "w_hierarchy",
@@ -1149,21 +1561,49 @@
       {
         "id": "s_hierarchy_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "business"
+        ],
         "definitionEn": "a system in which people or things are ranked one above another according to status or authority",
         "definitionZh": "階級制度；層級體系",
         "usageExplanationZh": "常見 corporate hierarchy（企業層級）、social hierarchy（社會階層）。",
-        "examples": [
-          {
-            "en": "Employees must follow the company's reporting hierarchy.",
-            "zh": "員工必須遵循公司的層級回報制度。"
-          }
+        "grammarPatterns": [
+          "a hierarchy of + noun",
+          "within the hierarchy",
+          "a rigid hierarchy"
         ],
         "collocations": [
           {
             "text": "a social hierarchy",
             "meaningZh": "社會階級體系"
           }
+        ],
+        "examples": [
+          {
+            "en": "Employees must follow the company's reporting hierarchy.",
+            "zh": "員工必須遵循公司的層級回報制度。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "ranking",
+        "noteZh": "等級排列"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "hierarchical",
+        "partOfSpeech": "adjective",
+        "meaningZh": "階級的；層級的"
+      },
+      {
+        "lemma": "hierarchically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "階層式地"
       }
     ],
     "tags": [
@@ -1178,14 +1618,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "ranking",
-        "noteZh": "等級排列"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_highlight",
@@ -1199,40 +1632,70 @@
       {
         "id": "s_highlight_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "the best or most memorable part of something",
         "definitionZh": "精彩部分；亮點",
         "usageExplanationZh": "常見 the highlight of the trip（這趟旅程的精彩片段）；體育語境也指 game highlights（精彩鏡頭）。",
-        "examples": [
-          {
-            "en": "Seeing the Grand Canyon was the highlight of our vacation.",
-            "zh": "看到大峽谷是我們這趟假期最精彩的部分。"
-          }
+        "grammarPatterns": [
+          "the highlight of + noun",
+          "one of the highlights"
         ],
         "collocations": [
           {
             "text": "the highlight of the trip",
             "meaningZh": "旅程中最精彩的部分"
           }
+        ],
+        "examples": [
+          {
+            "en": "Seeing the Grand Canyon was the highlight of our vacation.",
+            "zh": "看到大峽谷是我們這趟假期最精彩的部分。"
+          }
         ]
       },
       {
         "id": "s_highlight_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "academic",
+          "business"
+        ],
         "definitionEn": "to draw attention to or emphasize something important",
         "definitionZh": "強調；凸顯；標示重點",
         "usageExplanationZh": "常見 highlight an issue（凸顯一個問題）；也指用螢光筆標記文字。",
-        "examples": [
-          {
-            "en": "The report highlights several areas that need improvement.",
-            "zh": "這份報告凸顯了幾個需要改善的地方。"
-          }
+        "grammarPatterns": [
+          "highlight + noun",
+          "highlight the need for + noun",
+          "highlight that + clause"
         ],
         "collocations": [
           {
             "text": "highlight the importance of something",
             "meaningZh": "強調某事的重要性"
           }
+        ],
+        "examples": [
+          {
+            "en": "The report highlights several areas that need improvement.",
+            "zh": "這份報告凸顯了幾個需要改善的地方。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "emphasize",
+        "noteZh": "強調（動詞）"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "highlighter",
+        "partOfSpeech": "noun",
+        "meaningZh": "螢光筆"
       }
     ],
     "tags": [
@@ -1246,14 +1709,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "emphasize",
-        "noteZh": "強調（動詞）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_hike",
@@ -1267,40 +1723,76 @@
       {
         "id": "s_hike_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a long walk, especially in the countryside, or a sudden increase (especially in price)",
         "definitionZh": "健行；（價格的）大幅上漲",
         "usageExplanationZh": "常見 go for a hike（去健行）；也用於 a price hike（漲價），語氣中性偏口語。",
-        "examples": [
-          {
-            "en": "They went on a hike through the mountains over the weekend.",
-            "zh": "他們週末去山裡健行。"
-          }
+        "grammarPatterns": [
+          "go on a hike",
+          "a hike through/in + noun",
+          "a price hike"
         ],
         "collocations": [
           {
             "text": "go for a hike",
             "meaningZh": "去健行"
           }
+        ],
+        "examples": [
+          {
+            "en": "They went on a hike through the mountains over the weekend.",
+            "zh": "他們週末去山裡健行。"
+          }
         ]
       },
       {
         "id": "s_hike_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "to walk for a long distance, especially in the countryside, or to increase something suddenly (especially a price)",
         "definitionZh": "健行；徒步旅行；大幅提高（尤指價格）",
         "usageExplanationZh": "常見 hike a trail（沿著步道健行）；也可指漲價，如 hike prices。",
-        "examples": [
-          {
-            "en": "The company hiked prices by ten percent last month.",
-            "zh": "這家公司上個月將價格調漲了百分之十。"
-          }
+        "grammarPatterns": [
+          "hike through/across + noun",
+          "hike + noun",
+          "hike prices by + noun"
         ],
         "collocations": [
           {
             "text": "hike up a mountain",
             "meaningZh": "徒步爬山"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company hiked prices by ten percent last month.",
+            "zh": "這家公司上個月將價格調漲了百分之十。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "trek",
+        "noteZh": "健行（名詞或動詞）"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "hiker",
+        "partOfSpeech": "noun",
+        "meaningZh": "健行者"
+      },
+      {
+        "lemma": "hiking",
+        "partOfSpeech": "noun",
+        "meaningZh": "健行；徒步旅行"
       }
     ],
     "tags": [
@@ -1315,14 +1807,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "trek",
-        "noteZh": "健行（名詞或動詞）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_hinge",
@@ -1336,42 +1821,59 @@
       {
         "id": "s_hinge_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a jointed device that allows a door, lid, or door-like part to swing",
         "definitionZh": "鉸鏈；合頁",
         "usageExplanationZh": "常見於門窗結構描述，如 a squeaky door hinge。",
-        "examples": [
-          {
-            "en": "The old hinge squeaked every time the door opened.",
-            "zh": "門一打開，那個老舊的鉸鏈就會發出吱嘎聲。"
-          }
+        "grammarPatterns": [
+          "a hinge on + noun",
+          "oil the hinges"
         ],
         "collocations": [
           {
             "text": "a door hinge",
             "meaningZh": "門鉸鏈"
           }
+        ],
+        "examples": [
+          {
+            "en": "The old hinge squeaked every time the door opened.",
+            "zh": "門一打開，那個老舊的鉸鏈就會發出吱嘎聲。"
+          }
         ]
       },
       {
         "id": "s_hinge_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to depend entirely on a particular factor",
         "definitionZh": "（完全）取決於",
         "usageExplanationZh": "常接 on/upon，如 hinge on the outcome，語氣正式，強調結果的關鍵決定因素。",
-        "examples": [
-          {
-            "en": "Their success hinges on securing enough funding.",
-            "zh": "他們的成功完全取決於能否募集到足夠的資金。"
-          }
+        "grammarPatterns": [
+          "hinge on + noun",
+          "everything hinges on + noun"
         ],
         "collocations": [
           {
             "text": "hinge on something",
             "meaningZh": "取決於某事"
           }
+        ],
+        "examples": [
+          {
+            "en": "Their success hinges on securing enough funding.",
+            "zh": "他們的成功完全取決於能否募集到足夠的資金。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1384,9 +1886,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_hint",
@@ -1400,42 +1900,64 @@
       {
         "id": "s_hint_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a slight or indirect indication or suggestion, or a small amount of something",
         "definitionZh": "暗示；線索；一絲（味道或跡象）",
         "usageExplanationZh": "常見 give a hint（給個提示）、a hint of sarcasm（一絲諷刺）。",
-        "examples": [
-          {
-            "en": "She gave him a subtle hint about the surprise party.",
-            "zh": "她給了他一個關於驚喜派對的隱約暗示。"
-          }
+        "grammarPatterns": [
+          "a hint of + noun",
+          "give sb a hint",
+          "drop a hint"
         ],
         "collocations": [
           {
             "text": "a hint of sadness",
             "meaningZh": "一絲悲傷"
           }
+        ],
+        "examples": [
+          {
+            "en": "She gave him a subtle hint about the surprise party.",
+            "zh": "她給了他一個關於驚喜派對的隱約暗示。"
+          }
         ]
       },
       {
         "id": "s_hint_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to suggest something indirectly",
         "definitionZh": "暗示；示意",
         "usageExplanationZh": "常接 at，如 hint at a possibility；也可用 hint that... 的子句形式。",
-        "examples": [
-          {
-            "en": "He hinted that he might be leaving the company soon.",
-            "zh": "他暗示自己可能很快就會離開這家公司。"
-          }
+        "grammarPatterns": [
+          "hint at + noun",
+          "hint that + clause"
         ],
         "collocations": [
           {
             "text": "hint at a possibility",
             "meaningZh": "暗示某種可能"
           }
+        ],
+        "examples": [
+          {
+            "en": "He hinted that he might be leaving the company soon.",
+            "zh": "他暗示自己可能很快就會離開這家公司。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "clue",
+        "noteZh": "線索（名詞）"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1447,14 +1969,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "clue",
-        "noteZh": "線索（名詞）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_hitherto",
@@ -1468,21 +1983,43 @@
       {
         "id": "s_hitherto_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "until now or until the point in time being discussed",
         "definitionZh": "迄今為止；直到當時",
         "usageExplanationZh": "書面正式用語，常見於學術或法律文本，日常口語極少使用。",
-        "examples": [
-          {
-            "en": "The disease was hitherto unknown to medical science.",
-            "zh": "這種疾病在此之前一直不為醫學界所知。"
-          }
+        "grammarPatterns": [
+          "hitherto + past participle",
+          "hitherto unknown/unseen"
         ],
         "collocations": [
           {
             "text": "hitherto unknown",
             "meaningZh": "此前未知的"
           }
+        ],
+        "examples": [
+          {
+            "en": "The disease was hitherto unknown to medical science.",
+            "zh": "這種疾病在此之前一直不為醫學界所知。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "previously",
+        "noteZh": "此前"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "hither",
+        "partOfSpeech": "adverb",
+        "meaningZh": "到這裡；向此處"
       }
     ],
     "tags": [
@@ -1496,14 +2033,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "previously",
-        "noteZh": "此前"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_hoard",
@@ -1517,40 +2047,74 @@
       {
         "id": "s_hoard_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "a hidden stock of money, valuables, or supplies",
         "definitionZh": "（藏起來的）貯藏物；私藏",
         "usageExplanationZh": "常見 a hoard of treasure（一批寶藏）；也可比喻性使用，如 a hoard of information。",
-        "examples": [
-          {
-            "en": "Archaeologists discovered a hoard of ancient coins buried underground.",
-            "zh": "考古學家發現了一批埋在地下的古代錢幣。"
-          }
+        "grammarPatterns": [
+          "a hoard of + noun",
+          "discover a hoard"
         ],
         "collocations": [
           {
             "text": "a hoard of gold coins",
             "meaningZh": "一批藏起來的金幣"
           }
+        ],
+        "examples": [
+          {
+            "en": "Archaeologists discovered a hoard of ancient coins buried underground.",
+            "zh": "考古學家發現了一批埋在地下的古代錢幣。"
+          }
         ]
       },
       {
         "id": "s_hoard_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to accumulate and store away a large quantity of something, often secretly",
         "definitionZh": "囤積；私藏",
         "usageExplanationZh": "常見 hoard food（囤積食物）、hoard cash，語氣常帶輕微負面意味，暗示過度或自私的積累。",
-        "examples": [
-          {
-            "en": "People began to hoard supplies as soon as the storm warning was issued.",
-            "zh": "暴風警報一發布，人們就開始囤積物資。"
-          }
+        "grammarPatterns": [
+          "hoard + noun",
+          "hoard supplies/money"
         ],
         "collocations": [
           {
             "text": "hoard food",
             "meaningZh": "囤積食物"
           }
+        ],
+        "examples": [
+          {
+            "en": "People began to hoard supplies as soon as the storm warning was issued.",
+            "zh": "暴風警報一發布，人們就開始囤積物資。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "stockpile",
+        "noteZh": "囤積物或囤積"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "hoarder",
+        "partOfSpeech": "noun",
+        "meaningZh": "囤積者"
+      },
+      {
+        "lemma": "hoarding",
+        "partOfSpeech": "noun",
+        "meaningZh": "囤積"
       }
     ],
     "tags": [
@@ -1563,14 +2127,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "stockpile",
-        "noteZh": "囤積物或囤積"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_hoarse",
@@ -1584,21 +2141,48 @@
       {
         "id": "s_hoarse_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "(of a voice) rough and harsh sounding, typically as a result of a sore throat or shouting",
         "definitionZh": "（聲音）沙啞的",
         "usageExplanationZh": "常見 a hoarse voice、shout oneself hoarse（喊到聲音沙啞），描述聲帶受影響後的音質。",
-        "examples": [
-          {
-            "en": "Her voice was hoarse from shouting at the concert.",
-            "zh": "她在演唱會上大喊大叫，聲音都沙啞了。"
-          }
+        "grammarPatterns": [
+          "a hoarse + noun",
+          "be hoarse from + V-ing",
+          "sound hoarse"
         ],
         "collocations": [
           {
             "text": "a hoarse voice",
             "meaningZh": "沙啞的聲音"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her voice was hoarse from shouting at the concert.",
+            "zh": "她在演唱會上大喊大叫，聲音都沙啞了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "raspy",
+        "noteZh": "沙啞刺耳的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "hoarsely",
+        "partOfSpeech": "adverb",
+        "meaningZh": "沙啞地"
+      },
+      {
+        "lemma": "hoarseness",
+        "partOfSpeech": "noun",
+        "meaningZh": "聲音沙啞"
       }
     ],
     "tags": [
@@ -1612,14 +2196,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "raspy",
-        "noteZh": "沙啞刺耳的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_hoax",
@@ -1633,21 +2210,42 @@
       {
         "id": "s_hoax_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to deceive someone into believing something false, especially as a trick or joke",
         "definitionZh": "（惡作劇般地）欺騙；愚弄",
         "usageExplanationZh": "常見名詞用法 a hoax（騙局），動詞較少見，多見於新聞報導揭穿騙局的語境。",
-        "examples": [
-          {
-            "en": "The prank caller hoaxed the radio station into believing a celebrity had died.",
-            "zh": "這名惡作劇打電話者騙電台以為某位名人已經去世。"
-          }
+        "grammarPatterns": [
+          "hoax sb",
+          "hoax sb into + V-ing"
         ],
         "collocations": [
           {
             "text": "hoax someone into believing a story",
             "meaningZh": "用惡作劇騙某人相信一個故事"
           }
+        ],
+        "examples": [
+          {
+            "en": "The prank caller hoaxed the radio station into believing a celebrity had died.",
+            "zh": "這名惡作劇打電話者騙電台以為某位名人已經去世。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "dupe",
+        "noteZh": "愚弄"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "hoaxer",
+        "partOfSpeech": "noun",
+        "meaningZh": "惡作劇者；行騙者"
       }
     ],
     "tags": [
@@ -1661,14 +2259,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "dupe",
-        "noteZh": "愚弄"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_hobble",
@@ -1682,23 +2273,39 @@
       {
         "id": "s_hobble_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "to walk with difficulty, typically because of pain or injury",
         "definitionZh": "蹣跚而行；跛行",
         "usageExplanationZh": "常見於描述受傷後的行走方式，如 hobble across the room。",
-        "examples": [
-          {
-            "en": "After the surgery, he could only hobble around with a cane.",
-            "zh": "手術後，他只能拄著拐杖蹣跚而行。"
-          }
+        "grammarPatterns": [
+          "hobble around",
+          "hobble to + noun",
+          "hobble on + noun"
         ],
         "collocations": [
           {
             "text": "hobble along",
             "meaningZh": "蹣跚前行"
           }
+        ],
+        "examples": [
+          {
+            "en": "After the surgery, he could only hobble around with a cane.",
+            "zh": "手術後，他只能拄著拐杖蹣跚而行。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "limp",
+        "noteZh": "跛行"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1709,14 +2316,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "limp",
-        "noteZh": "跛行"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_homely",
@@ -1730,21 +2330,47 @@
       {
         "id": "s_homely_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "simple but comfortable and cozy, or (especially American English) plain in appearance",
         "definitionZh": "簡樸舒適的；（美式，指人）長相平凡的",
         "usageExplanationZh": "英式英語多指家常溫馨（正面），美式英語則常指容貌平凡（略帶負面），需依語境判斷。",
-        "examples": [
-          {
-            "en": "The inn had a homely atmosphere with a fireplace and worn armchairs.",
-            "zh": "這間旅店有著溫馨的家常氛圍，還有壁爐和舊沙發椅。"
-          }
+        "grammarPatterns": [
+          "a homely + noun",
+          "a homely atmosphere"
         ],
         "collocations": [
           {
             "text": "a homely atmosphere",
             "meaningZh": "樸實舒適的氣氛"
           }
+        ],
+        "examples": [
+          {
+            "en": "The inn had a homely atmosphere with a fireplace and worn armchairs.",
+            "zh": "這間旅店有著溫馨的家常氛圍，還有壁爐和舊沙發椅。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "cozy",
+        "noteZh": "舒適的（英式義）"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "home",
+        "partOfSpeech": "noun",
+        "meaningZh": "家；住所"
+      },
+      {
+        "lemma": "homeliness",
+        "partOfSpeech": "noun",
+        "meaningZh": "樸實；家常的溫馨"
       }
     ],
     "tags": [
@@ -1757,14 +2383,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cozy",
-        "noteZh": "舒適的（英式義）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_homemade",
@@ -1778,23 +2397,37 @@
       {
         "id": "s_homemade_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "made at home rather than bought from a store or factory",
         "definitionZh": "自製的；手工做的",
         "usageExplanationZh": "常見 homemade bread（自製麵包）、homemade jam，強調非工廠量產，語氣帶溫馨感。",
-        "examples": [
-          {
-            "en": "She brought a jar of homemade jam to the picnic.",
-            "zh": "她帶了一罐自製果醬去野餐。"
-          }
+        "grammarPatterns": [
+          "homemade + noun",
+          "a jar of homemade + noun"
         ],
         "collocations": [
           {
             "text": "homemade bread",
             "meaningZh": "自製麵包"
           }
+        ],
+        "examples": [
+          {
+            "en": "She brought a jar of homemade jam to the picnic.",
+            "zh": "她帶了一罐自製果醬去野餐。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "home-produced",
+        "noteZh": "在家製作的"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -1805,14 +2438,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "home-produced",
-        "noteZh": "在家製作的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_homicide",
@@ -1826,21 +2452,44 @@
       {
         "id": "s_homicide_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "the killing of one person by another",
         "definitionZh": "殺人（行為或案件）",
         "usageExplanationZh": "法律用語，常見 homicide detective（凶殺案偵探）；比 murder 更中性，未必涉及蓄意謀殺。",
-        "examples": [
-          {
-            "en": "The detective was assigned to investigate the homicide.",
-            "zh": "這名偵探被指派調查這起殺人案。"
-          }
+        "grammarPatterns": [
+          "commit homicide",
+          "investigate a homicide",
+          "a homicide case"
         ],
         "collocations": [
           {
             "text": "a homicide investigation",
             "meaningZh": "殺人案件調查"
           }
+        ],
+        "examples": [
+          {
+            "en": "The detective was assigned to investigate the homicide.",
+            "zh": "這名偵探被指派調查這起殺人案。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "killing",
+        "noteZh": "殺人，範圍較廣"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "homicidal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有殺人傾向的"
       }
     ],
     "tags": [
@@ -1853,14 +2502,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "killing",
-        "noteZh": "殺人，範圍較廣"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_homogeneity",
@@ -1874,21 +2516,53 @@
       {
         "id": "s_homogeneity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "the quality of being uniform or consisting of parts that are all the same",
         "definitionZh": "同質性；均一性",
         "usageExplanationZh": "常見於學術或統計語境，如 cultural homogeneity（文化同質性），與 heterogeneity（異質性）相對。",
-        "examples": [
-          {
-            "en": "The study assumed a degree of homogeneity within the sample group.",
-            "zh": "這項研究假定樣本群體之間具有一定程度的同質性。"
-          }
+        "grammarPatterns": [
+          "the homogeneity of + noun",
+          "a degree of homogeneity"
         ],
         "collocations": [
           {
             "text": "cultural homogeneity",
             "meaningZh": "文化同質性"
           }
+        ],
+        "examples": [
+          {
+            "en": "The study assumed a degree of homogeneity within the sample group.",
+            "zh": "這項研究假定樣本群體之間具有一定程度的同質性。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "uniformity",
+        "noteZh": "均一性"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "heterogeneity",
+        "noteZh": "異質性"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "homogeneous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "同質的；均一的"
+      },
+      {
+        "lemma": "homogenize",
+        "partOfSpeech": "verb",
+        "meaningZh": "使均質化"
       }
     ],
     "tags": [
@@ -1901,19 +2575,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "uniformity",
-        "noteZh": "均一性"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "heterogeneity",
-        "noteZh": "異質性"
-      }
-    ]
+    }
   },
   {
     "id": "w_homogeneous",
@@ -1927,21 +2589,58 @@
       {
         "id": "s_homogeneous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "consisting of parts or elements that are all the same",
         "definitionZh": "同質的；均一的",
         "usageExplanationZh": "常見 a homogeneous group、a homogeneous mixture，與 heterogeneous（異質的）相對。",
-        "examples": [
-          {
-            "en": "The classroom was fairly homogeneous in terms of students' academic backgrounds.",
-            "zh": "這個班級在學生的學術背景上相當同質。"
-          }
+        "grammarPatterns": [
+          "a homogeneous + noun",
+          "be homogeneous in terms of + noun"
         ],
         "collocations": [
           {
             "text": "a homogeneous mixture",
             "meaningZh": "均勻混合物"
           }
+        ],
+        "examples": [
+          {
+            "en": "The classroom was fairly homogeneous in terms of students' academic backgrounds.",
+            "zh": "這個班級在學生的學術背景上相當同質。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "uniform",
+        "noteZh": "均一的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "heterogeneous",
+        "noteZh": "異質的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "homogeneity",
+        "partOfSpeech": "noun",
+        "meaningZh": "同質性；均一性"
+      },
+      {
+        "lemma": "homogenize",
+        "partOfSpeech": "verb",
+        "meaningZh": "使均質化"
+      },
+      {
+        "lemma": "homogeneously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "均勻地"
       }
     ],
     "tags": [
@@ -1956,19 +2655,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "uniform",
-        "noteZh": "均一的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "heterogeneous",
-        "noteZh": "異質的"
-      }
-    ]
+    }
   },
   {
     "id": "w_hone",
@@ -1982,23 +2669,39 @@
       {
         "id": "s_hone_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to sharpen a blade, or to refine and improve a skill",
         "definitionZh": "磨（刀）；磨練、精進（技能）",
         "usageExplanationZh": "常見 hone one's skills（磨練技能），比喻用法比字面「磨刀」更常見。",
-        "examples": [
-          {
-            "en": "She spent years honing her craft as a novelist.",
-            "zh": "她花了多年時間磨練自己身為小說家的技藝。"
-          }
+        "grammarPatterns": [
+          "hone + noun",
+          "hone one's skills",
+          "hone sth to + noun"
         ],
         "collocations": [
           {
             "text": "hone one's skills",
             "meaningZh": "磨練技能"
           }
+        ],
+        "examples": [
+          {
+            "en": "She spent years honing her craft as a novelist.",
+            "zh": "她花了多年時間磨練自己身為小說家的技藝。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "sharpen",
+        "noteZh": "磨利；磨練"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -2009,14 +2712,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "sharpen",
-        "noteZh": "磨利；磨練"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_honor",
@@ -2030,21 +2726,59 @@
       {
         "id": "s_honor_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "high respect or great esteem, or a sense of ethical integrity",
         "definitionZh": "榮譽；名譽；正直的操守",
         "usageExplanationZh": "美式拼法，英式為 honour；常見 an honor to meet you、a sense of honor。",
-        "examples": [
-          {
-            "en": "It was a great honor to receive the award in front of my colleagues.",
-            "zh": "能在同事面前領獎，我深感榮幸。"
-          }
+        "grammarPatterns": [
+          "it is an honor to + V",
+          "in honor of + noun",
+          "a man of honor"
         ],
         "collocations": [
           {
             "text": "a matter of honor",
             "meaningZh": "關乎名譽的事"
           }
+        ],
+        "examples": [
+          {
+            "en": "It was a great honor to receive the award in front of my colleagues.",
+            "zh": "能在同事面前領獎，我深感榮幸。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "integrity",
+        "noteZh": "正直操守義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "dishonor",
+        "noteZh": "恥辱"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "honorable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可敬的；光榮的"
+      },
+      {
+        "lemma": "honorary",
+        "partOfSpeech": "adjective",
+        "meaningZh": "榮譽的；名譽上的"
+      },
+      {
+        "lemma": "dishonor",
+        "partOfSpeech": "noun",
+        "meaningZh": "恥辱；不名譽"
       }
     ],
     "tags": [
@@ -2057,19 +2791,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "integrity",
-        "noteZh": "正直操守義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "dishonor",
-        "noteZh": "恥辱"
-      }
-    ]
+    }
   },
   {
     "id": "w_hoof",
@@ -2083,23 +2805,33 @@
       {
         "id": "s_hoof_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "the hard part of the foot of animals such as horses, cattle, or deer",
         "definitionZh": "（馬、牛等動物的）蹄",
         "usageExplanationZh": "常見於描述有蹄動物，如 a horse's hoof；複數形為 hooves 或 hoofs。",
-        "examples": [
-          {
-            "en": "The horse's hoof struck a rock and it stumbled slightly.",
-            "zh": "那匹馬的蹄踩到石頭，稍微絆了一下。"
-          }
+        "grammarPatterns": [
+          "a horse's hoof",
+          "on the hoof"
         ],
         "collocations": [
           {
             "text": "a horse's hooves",
             "meaningZh": "馬蹄"
           }
+        ],
+        "examples": [
+          {
+            "en": "The horse's hoof struck a rock and it stumbled slightly.",
+            "zh": "那匹馬的蹄踩到石頭，稍微絆了一下。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -2110,9 +2842,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_hook",
@@ -2126,23 +2856,32 @@
       {
         "id": "s_hook_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a curved device used for catching, holding, or pulling something",
         "definitionZh": "鉤子",
         "usageExplanationZh": "常見 a fish hook（魚鉤）、a coat hook（掛衣鉤）；比喻用法如 off the hook（脫離困境）。",
-        "examples": [
-          {
-            "en": "She hung her jacket on the hook by the door.",
-            "zh": "她把外套掛在門邊的掛鉤上。"
-          }
+        "grammarPatterns": [
+          "hang sth on a hook",
+          "a hook for + noun"
         ],
         "collocations": [
           {
             "text": "a fishing hook",
             "meaningZh": "魚鉤"
           }
+        ],
+        "examples": [
+          {
+            "en": "She hung her jacket on the hook by the door.",
+            "zh": "她把外套掛在門邊的掛鉤上。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -2153,9 +2892,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_horizon",
@@ -2169,21 +2906,44 @@
       {
         "id": "s_horizon_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "the line where the earth's surface and the sky appear to meet, or the limit of one's knowledge or experience",
         "definitionZh": "地平線；（見識或經驗的）視野範圍",
         "usageExplanationZh": "常見 the sun set below the horizon；比喻用法如 broaden one's horizons（拓展視野）。",
-        "examples": [
-          {
-            "en": "Traveling abroad really broadened my horizons.",
-            "zh": "出國旅行真的拓展了我的視野。"
-          }
+        "grammarPatterns": [
+          "on the horizon",
+          "broaden one's horizons",
+          "above/below the horizon"
         ],
         "collocations": [
           {
             "text": "broaden one's horizons",
             "meaningZh": "拓展視野"
           }
+        ],
+        "examples": [
+          {
+            "en": "Traveling abroad really broadened my horizons.",
+            "zh": "出國旅行真的拓展了我的視野。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "horizontal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "水平的"
+      },
+      {
+        "lemma": "horizontally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "水平地"
       }
     ],
     "tags": [
@@ -2197,9 +2957,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_horizontal",
@@ -2213,21 +2971,53 @@
       {
         "id": "s_horizontal_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "parallel to the ground; level, not vertical",
         "definitionZh": "水平的；橫向的",
         "usageExplanationZh": "常見 a horizontal line（水平線），與 vertical（垂直的）相對，多用於幾何或設計語境。",
-        "examples": [
-          {
-            "en": "The chart uses a horizontal axis to represent time.",
-            "zh": "這張圖表用水平軸來表示時間。"
-          }
+        "grammarPatterns": [
+          "a horizontal + noun",
+          "a horizontal axis/line"
         ],
         "collocations": [
           {
             "text": "a horizontal line",
             "meaningZh": "水平線"
           }
+        ],
+        "examples": [
+          {
+            "en": "The chart uses a horizontal axis to represent time.",
+            "zh": "這張圖表用水平軸來表示時間。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "level",
+        "noteZh": "水平的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "vertical",
+        "noteZh": "垂直的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "horizon",
+        "partOfSpeech": "noun",
+        "meaningZh": "地平線"
+      },
+      {
+        "lemma": "horizontally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "水平地"
       }
     ],
     "tags": [
@@ -2241,19 +3031,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "level",
-        "noteZh": "水平的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "vertical",
-        "noteZh": "垂直的"
-      }
-    ]
+    }
   },
   {
     "id": "w_hormone",
@@ -2267,21 +3045,38 @@
       {
         "id": "s_hormone_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a chemical substance produced by a gland that regulates specific body functions",
         "definitionZh": "荷爾蒙；激素",
         "usageExplanationZh": "醫學用語，常見 growth hormone（生長激素）、stress hormone（壓力荷爾蒙）。",
-        "examples": [
-          {
-            "en": "Adrenaline is a hormone released during stress or excitement.",
-            "zh": "腎上腺素是一種在壓力或興奮時釋放的荷爾蒙。"
-          }
+        "grammarPatterns": [
+          "release a hormone",
+          "hormone levels"
         ],
         "collocations": [
           {
             "text": "growth hormone",
             "meaningZh": "生長激素"
           }
+        ],
+        "examples": [
+          {
+            "en": "Adrenaline is a hormone released during stress or excitement.",
+            "zh": "腎上腺素是一種在壓力或興奮時釋放的荷爾蒙。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "hormonal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "荷爾蒙的"
       }
     ],
     "tags": [
@@ -2295,9 +3090,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_horn",
@@ -2311,23 +3104,32 @@
       {
         "id": "s_horn_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a hard, pointed structure on the head of certain animals, or a device that makes a loud warning sound",
         "definitionZh": "（動物的）角；喇叭；號角",
         "usageExplanationZh": "常見 a car horn（汽車喇叭）；也指動物頭上的角，如 a bull's horn。",
-        "examples": [
-          {
-            "en": "The driver honked his horn to warn the pedestrian.",
-            "zh": "司機按喇叭警告那名行人。"
-          }
+        "grammarPatterns": [
+          "a pair of horns",
+          "honk/sound the horn"
         ],
         "collocations": [
           {
             "text": "sound the horn",
             "meaningZh": "鳴喇叭"
           }
+        ],
+        "examples": [
+          {
+            "en": "The driver honked his horn to warn the pedestrian.",
+            "zh": "司機按喇叭警告那名行人。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2339,9 +3141,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_horrendous",
@@ -2355,21 +3155,47 @@
       {
         "id": "s_horrendous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "extremely unpleasant, horrifying, or shocking",
         "definitionZh": "極其可怕的；駭人的",
         "usageExplanationZh": "語氣強烈，常修飾 accident、mistake 等，日常口語中也可誇張形容糟糕的情況。",
-        "examples": [
-          {
-            "en": "The traffic this morning was horrendous.",
-            "zh": "今早的交通糟糕透頂。"
-          }
+        "grammarPatterns": [
+          "a horrendous + noun",
+          "absolutely horrendous"
         ],
         "collocations": [
           {
             "text": "a horrendous accident",
             "meaningZh": "駭人的事故"
           }
+        ],
+        "examples": [
+          {
+            "en": "The traffic this morning was horrendous.",
+            "zh": "今早的交通糟糕透頂。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "appalling",
+        "noteZh": "極其可怕的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "horrendously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "可怕地；極糟地"
+      },
+      {
+        "lemma": "horror",
+        "partOfSpeech": "noun",
+        "meaningZh": "恐懼；驚駭"
       }
     ],
     "tags": [
@@ -2382,14 +3208,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "appalling",
-        "noteZh": "極其可怕的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_horrible",
@@ -2403,21 +3222,58 @@
       {
         "id": "s_horrible_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "causing horror; extremely unpleasant or disagreeable",
         "definitionZh": "可怕的；令人厭惡的",
         "usageExplanationZh": "口語中常用來誇張形容令人不快的人事物，如 horrible weather。",
-        "examples": [
-          {
-            "en": "The soup tasted horrible after being left out overnight.",
-            "zh": "這碗湯放了一整夜後味道糟透了。"
-          }
+        "grammarPatterns": [
+          "a horrible + noun",
+          "taste/look horrible"
         ],
         "collocations": [
           {
             "text": "a horrible smell",
             "meaningZh": "難聞的氣味"
           }
+        ],
+        "examples": [
+          {
+            "en": "The soup tasted horrible after being left out overnight.",
+            "zh": "這碗湯放了一整夜後味道糟透了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "dreadful",
+        "noteZh": "可怕的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "pleasant",
+        "noteZh": "令人愉快的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "horribly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "可怕地；糟糕地"
+      },
+      {
+        "lemma": "horror",
+        "partOfSpeech": "noun",
+        "meaningZh": "恐懼；驚駭"
+      },
+      {
+        "lemma": "horrify",
+        "partOfSpeech": "verb",
+        "meaningZh": "使驚駭"
       }
     ],
     "tags": [
@@ -2430,19 +3286,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "dreadful",
-        "noteZh": "可怕的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "pleasant",
-        "noteZh": "令人愉快的"
-      }
-    ]
+    }
   },
   {
     "id": "w_horrific",
@@ -2456,21 +3300,53 @@
       {
         "id": "s_horrific_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "causing horror; extremely shocking",
         "definitionZh": "駭人聽聞的；令人震驚恐懼的",
         "usageExplanationZh": "比 horrible 更強調震驚與恐懼，常修飾事故或災難，如 a horrific crash。",
-        "examples": [
-          {
-            "en": "The horrific crash left several vehicles completely destroyed.",
-            "zh": "這起駭人聽聞的車禍讓好幾輛車完全毀損。"
-          }
+        "grammarPatterns": [
+          "a horrific + noun",
+          "horrific injuries"
         ],
         "collocations": [
           {
             "text": "horrific injuries",
             "meaningZh": "駭人的傷勢"
           }
+        ],
+        "examples": [
+          {
+            "en": "The horrific crash left several vehicles completely destroyed.",
+            "zh": "這起駭人聽聞的車禍讓好幾輛車完全毀損。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "terrifying",
+        "noteZh": "令人驚恐的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "horrifically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "駭人地"
+      },
+      {
+        "lemma": "horrify",
+        "partOfSpeech": "verb",
+        "meaningZh": "使驚恐"
+      },
+      {
+        "lemma": "horror",
+        "partOfSpeech": "noun",
+        "meaningZh": "恐怖；驚駭"
       }
     ],
     "tags": [
@@ -2483,14 +3359,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "terrifying",
-        "noteZh": "令人驚恐的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_horror",
@@ -2504,21 +3373,54 @@
       {
         "id": "s_horror_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "an intense feeling of fear, shock, or disgust",
         "definitionZh": "恐懼；驚駭",
         "usageExplanationZh": "常見 to my horror（令我驚駭的是）、a horror movie（恐怖片）。",
-        "examples": [
-          {
-            "en": "To her horror, she realized she had left the stove on.",
-            "zh": "她驚駭地發現自己忘了關爐火。"
-          }
+        "grammarPatterns": [
+          "to sb's horror",
+          "in horror",
+          "the horror of + noun"
         ],
         "collocations": [
           {
             "text": "in horror",
             "meaningZh": "驚恐地"
           }
+        ],
+        "examples": [
+          {
+            "en": "To her horror, she realized she had left the stove on.",
+            "zh": "她驚駭地發現自己忘了關爐火。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "terror",
+        "noteZh": "恐懼"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "horrible",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可怕的"
+      },
+      {
+        "lemma": "horrify",
+        "partOfSpeech": "verb",
+        "meaningZh": "使恐懼"
+      },
+      {
+        "lemma": "horrific",
+        "partOfSpeech": "adjective",
+        "meaningZh": "駭人聽聞的"
       }
     ],
     "tags": [
@@ -2531,13 +3433,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "terror",
-        "noteZh": "恐懼"
-      }
-    ],
-    "antonyms": []
+    }
   }
 ]

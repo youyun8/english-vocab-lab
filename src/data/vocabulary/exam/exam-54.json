@@ -11,14 +11,16 @@
       {
         "id": "s_phantom_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "seeming to exist but actually not real; illusory",
         "definitionZh": "虛幻的；幻覺的；名義上的",
         "usageExplanationZh": "常見 phantom pain（幻肢痛）、a phantom limb，形容看似存在卻實際不存在的事物。",
-        "examples": [
-          {
-            "en": "She still feels phantom pain in the limb that was amputated.",
-            "zh": "她截肢後仍感覺到那條肢體有幻肢痛。"
-          }
+        "grammarPatterns": [
+          "phantom + noun",
+          "a phantom + noun"
         ],
         "collocations": [
           {
@@ -29,7 +31,25 @@
             "text": "a phantom pregnancy",
             "meaningZh": "假性懷孕"
           }
+        ],
+        "examples": [
+          {
+            "en": "She still feels phantom pain in the limb that was amputated.",
+            "zh": "她截肢後仍感覺到那條肢體有幻肢痛。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "illusory",
+        "noteZh": "虛幻的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "real",
+        "noteZh": "真實的"
       }
     ],
     "tags": [
@@ -42,19 +62,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "illusory",
-        "noteZh": "虛幻的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "real",
-        "noteZh": "真實的"
-      }
-    ]
+    }
   },
   {
     "id": "w_pharmaceutical",
@@ -68,21 +76,53 @@
       {
         "id": "s_pharmaceutical_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "business"
+        ],
         "definitionEn": "relating to the manufacture and sale of medicinal drugs",
         "definitionZh": "製藥的；醫藥的",
         "usageExplanationZh": "常見 pharmaceutical company（製藥公司）、pharmaceutical industry，用於描述與藥品生產相關的領域。",
-        "examples": [
-          {
-            "en": "She works for a large pharmaceutical company.",
-            "zh": "她在一家大型製藥公司工作。"
-          }
+        "grammarPatterns": [
+          "pharmaceutical + noun",
+          "the pharmaceutical industry"
         ],
         "collocations": [
           {
             "text": "the pharmaceutical industry",
             "meaningZh": "製藥業"
           }
+        ],
+        "examples": [
+          {
+            "en": "She works for a large pharmaceutical company.",
+            "zh": "她在一家大型製藥公司工作。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "medicinal",
+        "noteZh": "藥用的（側重治療用途）"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "pharmacy",
+        "partOfSpeech": "noun",
+        "meaningZh": "藥局；藥學"
+      },
+      {
+        "lemma": "pharmacist",
+        "partOfSpeech": "noun",
+        "meaningZh": "藥劑師"
+      },
+      {
+        "lemma": "pharmacology",
+        "partOfSpeech": "noun",
+        "meaningZh": "藥理學"
       }
     ],
     "tags": [
@@ -96,14 +136,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "medicinal",
-        "noteZh": "藥用的（側重治療用途）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_phase",
@@ -117,23 +150,39 @@
       {
         "id": "s_phase_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "a distinct period or stage in a process of change or development",
         "definitionZh": "階段；時期",
         "usageExplanationZh": "常見 in phases（分階段）、a new phase（新階段），強調過程中可劃分的時間段落。",
-        "examples": [
-          {
-            "en": "The project will be completed in three phases.",
-            "zh": "這項計畫將分三個階段完成。"
-          }
+        "grammarPatterns": [
+          "a phase of + noun",
+          "the + adjective + phase",
+          "go through a phase"
         ],
         "collocations": [
           {
             "text": "an initial phase",
             "meaningZh": "初始階段"
           }
+        ],
+        "examples": [
+          {
+            "en": "The project will be completed in three phases.",
+            "zh": "這項計畫將分三個階段完成。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "stage",
+        "noteZh": "階段"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -145,14 +194,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "stage",
-        "noteZh": "階段"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_phenomenal",
@@ -166,21 +208,52 @@
       {
         "id": "s_phenomenal_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "remarkable or extraordinary, especially in terms of achievement",
         "definitionZh": "非凡的；驚人的",
         "usageExplanationZh": "常修飾 success、growth，語氣強烈，強調程度上超乎尋常，接近口語誇飾用法。",
-        "examples": [
-          {
-            "en": "The band's phenomenal success surprised even their manager.",
-            "zh": "這個樂團驚人的成功連經紀人都感到意外。"
-          }
+        "grammarPatterns": [
+          "a phenomenal + noun",
+          "be phenomenal at + V-ing"
         ],
         "collocations": [
           {
             "text": "phenomenal success",
             "meaningZh": "驚人的成功"
           }
+        ],
+        "examples": [
+          {
+            "en": "The band's phenomenal success surprised even their manager.",
+            "zh": "這個樂團驚人的成功連經紀人都感到意外。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "extraordinary",
+        "noteZh": "非凡的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "ordinary",
+        "noteZh": "平凡的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "phenomenon",
+        "partOfSpeech": "noun",
+        "meaningZh": "現象"
+      },
+      {
+        "lemma": "phenomenally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "非凡地；驚人地"
       }
     ],
     "tags": [
@@ -194,19 +267,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "extraordinary",
-        "noteZh": "非凡的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "ordinary",
-        "noteZh": "平凡的"
-      }
-    ]
+    }
   },
   {
     "id": "w_phenomenon",
@@ -220,21 +281,49 @@
       {
         "id": "s_phenomenon_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "a fact or situation that is observed to exist or happen, especially one that is not fully understood",
         "definitionZh": "現象",
         "usageExplanationZh": "常見 a natural phenomenon（自然現象）、a social phenomenon，指值得注意或尚待解釋的事物或事件。",
-        "examples": [
-          {
-            "en": "Climate change is a global phenomenon affecting every country.",
-            "zh": "氣候變遷是影響每個國家的全球性現象。"
-          }
+        "grammarPatterns": [
+          "a + adjective + phenomenon",
+          "the phenomenon of + noun",
+          "the phenomenon that + clause"
         ],
         "collocations": [
           {
             "text": "a natural phenomenon",
             "meaningZh": "自然現象"
           }
+        ],
+        "examples": [
+          {
+            "en": "Climate change is a global phenomenon affecting every country.",
+            "zh": "氣候變遷是影響每個國家的全球性現象。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "occurrence",
+        "noteZh": "發生的現象"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "phenomenal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "非凡的；驚人的"
+      },
+      {
+        "lemma": "phenomenally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "驚人地"
       }
     ],
     "tags": [
@@ -248,14 +337,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "occurrence",
-        "noteZh": "發生的現象"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_philanthropic",
@@ -269,21 +351,47 @@
       {
         "id": "s_philanthropic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "relating to the generous donation of money or help to worthy causes",
         "definitionZh": "慈善的；博愛的",
         "usageExplanationZh": "常見 philanthropic foundation（慈善基金會）、philanthropic work，強調出於善意的捐助或幫助行為。",
-        "examples": [
-          {
-            "en": "The billionaire is known for his philanthropic activities.",
-            "zh": "這位億萬富翁以其慈善活動聞名。"
-          }
+        "grammarPatterns": [
+          "philanthropic + noun",
+          "a philanthropic + noun"
         ],
         "collocations": [
           {
             "text": "philanthropic work",
             "meaningZh": "慈善工作"
           }
+        ],
+        "examples": [
+          {
+            "en": "The billionaire is known for his philanthropic activities.",
+            "zh": "這位億萬富翁以其慈善活動聞名。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "charitable",
+        "noteZh": "慈善的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "philanthropy",
+        "partOfSpeech": "noun",
+        "meaningZh": "慈善事業；博愛"
+      },
+      {
+        "lemma": "philanthropist",
+        "partOfSpeech": "noun",
+        "meaningZh": "慈善家"
       }
     ],
     "tags": [
@@ -296,14 +404,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "charitable",
-        "noteZh": "慈善的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_philosopher",
@@ -317,21 +418,48 @@
       {
         "id": "s_philosopher_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "a person who studies or writes about fundamental questions of existence, knowledge, and ethics",
         "definitionZh": "哲學家",
         "usageExplanationZh": "常見於學術或歷史語境，指從事哲學思考與研究的人，如 Greek philosophers（古希臘哲學家）。",
-        "examples": [
-          {
-            "en": "Socrates is considered one of the greatest philosophers in history.",
-            "zh": "蘇格拉底被認為是歷史上最偉大的哲學家之一。"
-          }
+        "grammarPatterns": [
+          "a philosopher of + noun",
+          "the + adjective + philosopher"
         ],
         "collocations": [
           {
             "text": "a moral philosopher",
             "meaningZh": "道德哲學家"
           }
+        ],
+        "examples": [
+          {
+            "en": "Socrates is considered one of the greatest philosophers in history.",
+            "zh": "蘇格拉底被認為是歷史上最偉大的哲學家之一。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "thinker",
+        "noteZh": "思想家"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "philosophy",
+        "partOfSpeech": "noun",
+        "meaningZh": "哲學"
+      },
+      {
+        "lemma": "philosophical",
+        "partOfSpeech": "adjective",
+        "meaningZh": "哲學的；達觀的"
       }
     ],
     "tags": [
@@ -344,14 +472,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "thinker",
-        "noteZh": "思想家"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_philosophy",
@@ -365,21 +486,54 @@
       {
         "id": "s_philosophy_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "neutral"
+        ],
         "definitionEn": "the study of fundamental questions about existence, knowledge, and values, or a particular set of beliefs",
         "definitionZh": "哲學；人生哲學；信念",
         "usageExplanationZh": "常見 study philosophy（研讀哲學）、a philosophy of life（人生哲學），可指學術領域或個人信念體系。",
-        "examples": [
-          {
-            "en": "Her personal philosophy is to always be kind to others.",
-            "zh": "她的人生哲學是永遠對他人友善。"
-          }
+        "grammarPatterns": [
+          "the philosophy of + noun",
+          "a philosophy of + V-ing",
+          "study philosophy"
         ],
         "collocations": [
           {
             "text": "a philosophy of life",
             "meaningZh": "人生哲學"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her personal philosophy is to always be kind to others.",
+            "zh": "她的人生哲學是永遠對他人友善。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "outlook",
+        "noteZh": "人生觀（人生哲學義）"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "philosopher",
+        "partOfSpeech": "noun",
+        "meaningZh": "哲學家"
+      },
+      {
+        "lemma": "philosophical",
+        "partOfSpeech": "adjective",
+        "meaningZh": "哲學的"
+      },
+      {
+        "lemma": "philosophically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "從哲學上；達觀地"
       }
     ],
     "tags": [
@@ -392,14 +546,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "outlook",
-        "noteZh": "人生觀（人生哲學義）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_phlegmatic",
@@ -413,21 +560,48 @@
       {
         "id": "s_phlegmatic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "having a calm, unemotional temperament",
         "definitionZh": "冷靜的；沉著的；不易動情的",
         "usageExplanationZh": "正式或文學用語，形容性情平和、不易激動的人，常見於人物性格描寫。",
-        "examples": [
-          {
-            "en": "Despite the chaos, he remained phlegmatic and unruffled.",
-            "zh": "儘管一片混亂，他仍保持冷靜、不為所動。"
-          }
+        "grammarPatterns": [
+          "a phlegmatic + noun",
+          "remain phlegmatic"
         ],
         "collocations": [
           {
             "text": "a phlegmatic temperament",
             "meaningZh": "沉著的性格"
           }
+        ],
+        "examples": [
+          {
+            "en": "Despite the chaos, he remained phlegmatic and unruffled.",
+            "zh": "儘管一片混亂，他仍保持冷靜、不為所動。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "unflappable",
+        "noteZh": "沉著不慌的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "excitable",
+        "noteZh": "容易激動的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "phlegm",
+        "partOfSpeech": "noun",
+        "meaningZh": "痰；冷靜沉著"
       }
     ],
     "tags": [
@@ -441,19 +615,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "unflappable",
-        "noteZh": "沉著不慌的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "excitable",
-        "noteZh": "容易激動的"
-      }
-    ]
+    }
   },
   {
     "id": "w_phonetic",
@@ -467,21 +629,43 @@
       {
         "id": "s_phonetic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "relating to speech sounds or their representation in written symbols",
         "definitionZh": "語音的；表音的",
         "usageExplanationZh": "常見 phonetic symbol（音標）、phonetic spelling，用於語言學或發音教學情境。",
-        "examples": [
-          {
-            "en": "The dictionary provides a phonetic spelling for each word.",
-            "zh": "這本字典為每個單字提供音標拼寫。"
-          }
+        "grammarPatterns": [
+          "phonetic + noun",
+          "the phonetic form of + noun"
         ],
         "collocations": [
           {
             "text": "phonetic transcription",
             "meaningZh": "語音轉寫"
           }
+        ],
+        "examples": [
+          {
+            "en": "The dictionary provides a phonetic spelling for each word.",
+            "zh": "這本字典為每個單字提供音標拼寫。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "phonetics",
+        "partOfSpeech": "noun",
+        "meaningZh": "語音學"
+      },
+      {
+        "lemma": "phonetically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "按語音地"
       }
     ],
     "tags": [
@@ -495,9 +679,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_phony",
@@ -511,21 +693,48 @@
       {
         "id": "s_phony_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "not genuine or real; fake",
         "definitionZh": "假的；虛偽的",
         "usageExplanationZh": "口語用法，常修飾 excuse、smile 等，帶有負面評價，強調表裡不一、不真誠。",
-        "examples": [
-          {
-            "en": "He gave a phony excuse for missing the meeting.",
-            "zh": "他為缺席會議編造了一個虛假的藉口。"
-          }
+        "grammarPatterns": [
+          "a phony + noun",
+          "sound phony"
         ],
         "collocations": [
           {
             "text": "a phony excuse",
             "meaningZh": "虛假的藉口"
           }
+        ],
+        "examples": [
+          {
+            "en": "He gave a phony excuse for missing the meeting.",
+            "zh": "他為缺席會議編造了一個虛假的藉口。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "fake",
+        "noteZh": "假的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "genuine",
+        "noteZh": "真實的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "phoniness",
+        "partOfSpeech": "noun",
+        "meaningZh": "虛假；不真實"
       }
     ],
     "tags": [
@@ -538,19 +747,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "fake",
-        "noteZh": "假的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "genuine",
-        "noteZh": "真實的"
-      }
-    ]
+    }
   },
   {
     "id": "w_photosynthesis",
@@ -564,21 +761,39 @@
       {
         "id": "s_photosynthesis_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "the process by which green plants use sunlight to synthesize food from carbon dioxide and water",
         "definitionZh": "光合作用",
         "usageExplanationZh": "生物學專有名詞，常見於科學課文，描述植物利用陽光、水和二氧化碳製造養分的過程。",
-        "examples": [
-          {
-            "en": "Plants produce oxygen as a byproduct of photosynthesis.",
-            "zh": "植物在進行光合作用時會產生氧氣作為副產物。"
-          }
+        "grammarPatterns": [
+          "the process of photosynthesis",
+          "through photosynthesis",
+          "a byproduct of photosynthesis"
         ],
         "collocations": [
           {
             "text": "the process of photosynthesis",
             "meaningZh": "光合作用的過程"
           }
+        ],
+        "examples": [
+          {
+            "en": "Plants produce oxygen as a byproduct of photosynthesis.",
+            "zh": "植物在進行光合作用時會產生氧氣作為副產物。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "photosynthetic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "光合作用的"
       }
     ],
     "tags": [
@@ -592,9 +807,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_phrase",
@@ -608,40 +821,79 @@
       {
         "id": "s_phrase_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "a small group of words that together convey meaning, without forming a complete sentence",
         "definitionZh": "片語；詞組",
         "usageExplanationZh": "常見 a common phrase（常用片語）、idiomatic phrase，指語法上不構成完整句子的一組詞。",
-        "examples": [
-          {
-            "en": "\"Break a leg\" is a phrase used to wish someone good luck.",
-            "zh": "\"Break a leg\" 是一個用來祝人好運的片語。"
-          }
+        "grammarPatterns": [
+          "a + adjective + phrase",
+          "a phrase from + noun",
+          "use a phrase"
         ],
         "collocations": [
           {
             "text": "a common phrase",
             "meaningZh": "常用片語"
           }
+        ],
+        "examples": [
+          {
+            "en": "\"Break a leg\" is a phrase used to wish someone good luck.",
+            "zh": "\"Break a leg\" 是一個用來祝人好運的片語。"
+          }
         ]
       },
       {
         "id": "s_phrase_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to express something in a particular way using words",
         "definitionZh": "措辭；用言語表達",
         "usageExplanationZh": "常接 副詞修飾，如 phrase it carefully（謹慎地措辭），強調選擇特定方式表達想法。",
-        "examples": [
-          {
-            "en": "He phrased his criticism carefully to avoid offending anyone.",
-            "zh": "他措辭謹慎地表達批評，以免冒犯任何人。"
-          }
+        "grammarPatterns": [
+          "phrase sth + adverb",
+          "phrase sth as + noun"
         ],
         "collocations": [
           {
             "text": "phrase a question carefully",
             "meaningZh": "仔細斟酌問題的措辭"
           }
+        ],
+        "examples": [
+          {
+            "en": "He phrased his criticism carefully to avoid offending anyone.",
+            "zh": "他措辭謹慎地表達批評，以免冒犯任何人。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "expression",
+        "noteZh": "用語（名詞）"
+      },
+      {
+        "lemma": "word",
+        "noteZh": "措辭（動詞）"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "phrasal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "片語的；詞組的"
+      },
+      {
+        "lemma": "phraseology",
+        "partOfSpeech": "noun",
+        "meaningZh": "措辭；用語"
       }
     ],
     "tags": [
@@ -654,18 +906,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "expression",
-        "noteZh": "用語（名詞）"
-      },
-      {
-        "lemma": "word",
-        "noteZh": "措辭（動詞）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_physician",
@@ -679,23 +920,39 @@
       {
         "id": "s_physician_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "a medical doctor, especially one specializing in internal medicine as opposed to surgery",
         "definitionZh": "內科醫生；醫師",
         "usageExplanationZh": "正式用語，常見於美式英語，指持有醫學執照的醫生，尤指非外科醫師。",
-        "examples": [
-          {
-            "en": "She consulted her physician about the persistent headaches.",
-            "zh": "她就持續性頭痛的問題諮詢了她的醫師。"
-          }
+        "grammarPatterns": [
+          "consult a physician",
+          "a physician who + clause",
+          "see one's physician"
         ],
         "collocations": [
           {
             "text": "a family physician",
             "meaningZh": "家庭醫師"
           }
+        ],
+        "examples": [
+          {
+            "en": "She consulted her physician about the persistent headaches.",
+            "zh": "她就持續性頭痛的問題諮詢了她的醫師。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "doctor",
+        "noteZh": "醫生"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -707,14 +964,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "doctor",
-        "noteZh": "醫生"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_physicist",
@@ -728,21 +978,43 @@
       {
         "id": "s_physicist_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "a scientist who specializes in the study of physics",
         "definitionZh": "物理學家",
         "usageExplanationZh": "指專門研究物理學的科學家，常見於學術或科學新聞情境。",
-        "examples": [
-          {
-            "en": "The physicist won a Nobel Prize for her research on particles.",
-            "zh": "這位物理學家因粒子研究獲得諾貝爾獎。"
-          }
+        "grammarPatterns": [
+          "a physicist at + noun",
+          "a + adjective + physicist"
         ],
         "collocations": [
           {
             "text": "a theoretical physicist",
             "meaningZh": "理論物理學家"
           }
+        ],
+        "examples": [
+          {
+            "en": "The physicist won a Nobel Prize for her research on particles.",
+            "zh": "這位物理學家因粒子研究獲得諾貝爾獎。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "physics",
+        "partOfSpeech": "noun",
+        "meaningZh": "物理學"
+      },
+      {
+        "lemma": "physical",
+        "partOfSpeech": "adjective",
+        "meaningZh": "物理的；身體的"
       }
     ],
     "tags": [
@@ -755,9 +1027,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_physiological",
@@ -771,21 +1041,48 @@
       {
         "id": "s_physiological_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "relating to the normal functions of living organisms",
         "definitionZh": "生理的；生理學的",
         "usageExplanationZh": "常見 physiological response（生理反應）、physiological need，用於描述身體機能運作相關的事物。",
-        "examples": [
-          {
-            "en": "Stress can cause physiological changes such as increased heart rate.",
-            "zh": "壓力可能引起生理變化，例如心跳加快。"
-          }
+        "grammarPatterns": [
+          "physiological + noun",
+          "a physiological response to + noun"
         ],
         "collocations": [
           {
             "text": "a physiological response",
             "meaningZh": "生理反應"
           }
+        ],
+        "examples": [
+          {
+            "en": "Stress can cause physiological changes such as increased heart rate.",
+            "zh": "壓力可能引起生理變化，例如心跳加快。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "physiology",
+        "partOfSpeech": "noun",
+        "meaningZh": "生理學"
+      },
+      {
+        "lemma": "physiologist",
+        "partOfSpeech": "noun",
+        "meaningZh": "生理學家"
+      },
+      {
+        "lemma": "physiologically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "在生理上"
       }
     ],
     "tags": [
@@ -800,9 +1097,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pictorial",
@@ -816,21 +1111,47 @@
       {
         "id": "s_pictorial_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "relating to or expressed in pictures",
         "definitionZh": "圖畫的；以圖像呈現的",
         "usageExplanationZh": "常見 pictorial representation（圖像式表現）、a pictorial history，強調以圖片而非文字傳達資訊。",
-        "examples": [
-          {
-            "en": "The book gives a pictorial history of the city's development.",
-            "zh": "這本書以圖片呈現這座城市的發展歷史。"
-          }
+        "grammarPatterns": [
+          "a pictorial + noun",
+          "in pictorial form"
         ],
         "collocations": [
           {
             "text": "a pictorial guide",
             "meaningZh": "圖解指南"
           }
+        ],
+        "examples": [
+          {
+            "en": "The book gives a pictorial history of the city's development.",
+            "zh": "這本書以圖片呈現這座城市的發展歷史。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "illustrated",
+        "noteZh": "附有插圖的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "picture",
+        "partOfSpeech": "noun",
+        "meaningZh": "圖片；畫面"
+      },
+      {
+        "lemma": "pictorially",
+        "partOfSpeech": "adverb",
+        "meaningZh": "以圖像方式"
       }
     ],
     "tags": [
@@ -843,14 +1164,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "illustrated",
-        "noteZh": "附有插圖的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pier",
@@ -864,23 +1178,38 @@
       {
         "id": "s_pier_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a structure built out into the sea or a lake, used as a landing place or promenade",
         "definitionZh": "碼頭；棧橋",
         "usageExplanationZh": "常見 fish off the pier（在碼頭釣魚）、walk along the pier，指延伸入水中供人行走或停靠船隻的建築。",
-        "examples": [
-          {
-            "en": "Tourists enjoy walking along the pier at sunset.",
-            "zh": "遊客喜歡在日落時分沿著碼頭散步。"
-          }
+        "grammarPatterns": [
+          "walk along the pier",
+          "a pier at + noun",
+          "on the pier"
         ],
         "collocations": [
           {
             "text": "a fishing pier",
             "meaningZh": "釣魚棧橋"
           }
+        ],
+        "examples": [
+          {
+            "en": "Tourists enjoy walking along the pier at sunset.",
+            "zh": "遊客喜歡在日落時分沿著碼頭散步。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "jetty",
+        "noteZh": "突入水中的棧橋或碼頭"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -892,14 +1221,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "jetty",
-        "noteZh": "突入水中的棧橋或碼頭"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pigeon",
@@ -913,23 +1235,32 @@
       {
         "id": "s_pigeon_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a stout bird with a small head, common in cities",
         "definitionZh": "鴿子",
         "usageExplanationZh": "常見於城市場景，如 feed the pigeons（餵鴿子），指常見的城市鳥類。",
-        "examples": [
-          {
-            "en": "People in the park were feeding the pigeons.",
-            "zh": "公園裡的人們正在餵鴿子。"
-          }
+        "grammarPatterns": [
+          "feed the pigeons",
+          "a flock of pigeons"
         ],
         "collocations": [
           {
             "text": "a homing pigeon",
             "meaningZh": "信鴿"
           }
+        ],
+        "examples": [
+          {
+            "en": "People in the park were feeding the pigeons.",
+            "zh": "公園裡的人們正在餵鴿子。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -940,9 +1271,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pigment",
@@ -956,21 +1285,43 @@
       {
         "id": "s_pigment_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a substance that gives color to living tissue, paint, or other materials",
         "definitionZh": "色素；顏料",
         "usageExplanationZh": "常見 skin pigment（皮膚色素）、natural pigment，指使物體或生物組織呈現顏色的物質。",
-        "examples": [
-          {
-            "en": "Melanin is the pigment responsible for skin color.",
-            "zh": "黑色素是決定膚色的色素。"
-          }
+        "grammarPatterns": [
+          "a pigment in + noun",
+          "the pigment responsible for + noun"
         ],
         "collocations": [
           {
             "text": "skin pigment",
             "meaningZh": "皮膚色素"
           }
+        ],
+        "examples": [
+          {
+            "en": "Melanin is the pigment responsible for skin color.",
+            "zh": "黑色素是決定膚色的色素。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "colorant",
+        "noteZh": "著色劑"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "pigmentation",
+        "partOfSpeech": "noun",
+        "meaningZh": "色素沉著；著色"
       }
     ],
     "tags": [
@@ -985,14 +1336,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "colorant",
-        "noteZh": "著色劑"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pile",
@@ -1006,23 +1350,38 @@
       {
         "id": "s_pile_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a heap of things laid one on top of another",
         "definitionZh": "一堆；一疊",
         "usageExplanationZh": "常見 a pile of books、a pile of laundry，指物品堆疊在一起的形狀或數量。",
-        "examples": [
-          {
-            "en": "There was a huge pile of laundry waiting to be washed.",
-            "zh": "有一大堆待洗的衣物等著清洗。"
-          }
+        "grammarPatterns": [
+          "a pile of + noun",
+          "in a pile",
+          "a huge pile of + noun"
         ],
         "collocations": [
           {
             "text": "a pile of books",
             "meaningZh": "一堆書"
           }
+        ],
+        "examples": [
+          {
+            "en": "There was a huge pile of laundry waiting to be washed.",
+            "zh": "有一大堆待洗的衣物等著清洗。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "heap",
+        "noteZh": "堆"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -1033,14 +1392,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "heap",
-        "noteZh": "堆"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pill",
@@ -1054,23 +1406,38 @@
       {
         "id": "s_pill_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a small round tablet of medicine to be swallowed whole",
         "definitionZh": "藥丸；藥片",
         "usageExplanationZh": "常見 take a pill、a sleeping pill（安眠藥），指口服的固體藥物形式。",
-        "examples": [
-          {
-            "en": "She takes a pill every morning for her blood pressure.",
-            "zh": "她每天早上都會服用一顆控制血壓的藥丸。"
-          }
+        "grammarPatterns": [
+          "take a pill",
+          "a pill for + noun",
+          "swallow a pill"
         ],
         "collocations": [
           {
             "text": "take a pill",
             "meaningZh": "服用藥丸"
           }
+        ],
+        "examples": [
+          {
+            "en": "She takes a pill every morning for her blood pressure.",
+            "zh": "她每天早上都會服用一顆控制血壓的藥丸。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "tablet",
+        "noteZh": "藥片"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -1081,14 +1448,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "tablet",
-        "noteZh": "藥片"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pillar",
@@ -1102,23 +1462,38 @@
       {
         "id": "s_pillar_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a tall vertical structure used as a support for a building, or an important supporting member or part",
         "definitionZh": "柱子；支柱；重要支持者",
         "usageExplanationZh": "常見 a pillar of society（社會中堅）、marble pillars，可指建築構件或比喻重要的支持力量。",
-        "examples": [
-          {
-            "en": "He is regarded as a pillar of the local community.",
-            "zh": "他被視為當地社區的重要支柱。"
-          }
+        "grammarPatterns": [
+          "a pillar of + noun",
+          "support sth with pillars",
+          "stone pillars"
         ],
         "collocations": [
           {
             "text": "a pillar of the community",
             "meaningZh": "社區的中堅人物"
           }
+        ],
+        "examples": [
+          {
+            "en": "He is regarded as a pillar of the local community.",
+            "zh": "他被視為當地社區的重要支柱。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "column",
+        "noteZh": "柱子"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1131,14 +1506,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "column",
-        "noteZh": "柱子"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pillow",
@@ -1152,23 +1520,32 @@
       {
         "id": "s_pillow_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a cushion used to support the head while sleeping",
         "definitionZh": "枕頭",
         "usageExplanationZh": "常見 a soft pillow、fluff a pillow（拍鬆枕頭），指睡覺時支撐頭部用的物品。",
-        "examples": [
-          {
-            "en": "She fluffed up her pillow before going to sleep.",
-            "zh": "她在睡覺前把枕頭拍鬆了。"
-          }
+        "grammarPatterns": [
+          "a + adjective + pillow",
+          "rest one's head on a pillow"
         ],
         "collocations": [
           {
             "text": "a feather pillow",
             "meaningZh": "羽毛枕頭"
           }
+        ],
+        "examples": [
+          {
+            "en": "She fluffed up her pillow before going to sleep.",
+            "zh": "她在睡覺前把枕頭拍鬆了。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1180,9 +1557,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pine",
@@ -1196,23 +1571,33 @@
       {
         "id": "s_pine_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "an evergreen coniferous tree with needle-shaped leaves",
         "definitionZh": "松樹",
         "usageExplanationZh": "常見 pine forest（松樹林）、pine needles（松針），指常綠針葉樹種。",
-        "examples": [
-          {
-            "en": "The mountain trail was lined with tall pine trees.",
-            "zh": "那條山徑兩旁種滿了高聳的松樹。"
-          }
+        "grammarPatterns": [
+          "a pine tree",
+          "a forest of pines",
+          "tall pines"
         ],
         "collocations": [
           {
             "text": "a pine tree",
             "meaningZh": "松樹"
           }
+        ],
+        "examples": [
+          {
+            "en": "The mountain trail was lined with tall pine trees.",
+            "zh": "那條山徑兩旁種滿了高聳的松樹。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1225,9 +1610,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pinpoint",
@@ -1241,23 +1624,39 @@
       {
         "id": "s_pinpoint_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "to identify or locate something with great precision",
         "definitionZh": "精確指出；準確定位",
         "usageExplanationZh": "常接具體目標，如 pinpoint the cause（準確找出原因）、pinpoint the location，強調精準無誤。",
-        "examples": [
-          {
-            "en": "Investigators managed to pinpoint the exact cause of the crash.",
-            "zh": "調查人員成功找出這起事故的確切原因。"
-          }
+        "grammarPatterns": [
+          "pinpoint + noun",
+          "pinpoint the cause of + noun",
+          "pinpoint where + clause"
         ],
         "collocations": [
           {
             "text": "pinpoint the cause",
             "meaningZh": "精確找出原因"
           }
+        ],
+        "examples": [
+          {
+            "en": "Investigators managed to pinpoint the exact cause of the crash.",
+            "zh": "調查人員成功找出這起事故的確切原因。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "locate",
+        "noteZh": "找出確切位置"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1270,14 +1669,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "locate",
-        "noteZh": "找出確切位置"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pistol",
@@ -1291,23 +1683,39 @@
       {
         "id": "s_pistol_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a small handgun designed to be held and fired with one hand",
         "definitionZh": "手槍",
         "usageExplanationZh": "常見於描述武器或犯罪情境，如 fire a pistol，指單手操作的短槍。",
-        "examples": [
-          {
-            "en": "The officer drew his pistol before entering the building.",
-            "zh": "那名警官在進入建築物前拔出了手槍。"
-          }
+        "grammarPatterns": [
+          "draw a pistol",
+          "point a pistol at + sb",
+          "fire a pistol"
         ],
         "collocations": [
           {
             "text": "a loaded pistol",
             "meaningZh": "上膛的手槍"
           }
+        ],
+        "examples": [
+          {
+            "en": "The officer drew his pistol before entering the building.",
+            "zh": "那名警官在進入建築物前拔出了手槍。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "handgun",
+        "noteZh": "手槍"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1318,14 +1726,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "handgun",
-        "noteZh": "手槍"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pitch",
@@ -1339,14 +1740,17 @@
       {
         "id": "s_pitch_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "neutral"
+        ],
         "definitionEn": "the quality of a sound governed by the rate of vibrations, or a sports field, or a persuasive sales talk",
         "definitionZh": "音高；（運動）球場；推銷說詞",
         "usageExplanationZh": "常見 perfect pitch（絕對音感）、a football pitch（足球場）、a sales pitch（推銷話術），依上下文判斷語意。",
-        "examples": [
-          {
-            "en": "The company gave an impressive pitch to potential investors.",
-            "zh": "這家公司向潛在投資人做了一場令人印象深刻的推銷簡報。"
-          }
+        "grammarPatterns": [
+          "a sales pitch",
+          "make a pitch to + sb",
+          "a pitch for + noun"
         ],
         "collocations": [
           {
@@ -1357,7 +1761,27 @@
             "text": "perfect pitch",
             "meaningZh": "絕對音感"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company gave an impressive pitch to potential investors.",
+            "zh": "這家公司向潛在投資人做了一場令人印象深刻的推銷簡報。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "field",
+        "noteZh": "球場（英式運動義）"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "pitcher",
+        "partOfSpeech": "noun",
+        "meaningZh": "水壺；投手"
       }
     ],
     "tags": [
@@ -1372,14 +1796,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "field",
-        "noteZh": "球場（英式運動義）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pitcher",
@@ -1393,14 +1810,15 @@
       {
         "id": "s_pitcher_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a large container with a handle and spout for holding and pouring liquids, or (in baseball) the player who throws the ball",
         "definitionZh": "水壺；（棒球）投手",
         "usageExplanationZh": "常見 a pitcher of water（一壺水），美式英語中也指棒球比賽中負責投球的球員。",
-        "examples": [
-          {
-            "en": "The waiter brought a pitcher of iced tea to the table.",
-            "zh": "服務生端來一壺冰茶放在桌上。"
-          }
+        "grammarPatterns": [
+          "a pitcher of + noun",
+          "pour from a pitcher"
         ],
         "collocations": [
           {
@@ -1411,7 +1829,27 @@
             "text": "a baseball pitcher",
             "meaningZh": "棒球投手"
           }
+        ],
+        "examples": [
+          {
+            "en": "The waiter brought a pitcher of iced tea to the table.",
+            "zh": "服務生端來一壺冰茶放在桌上。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "jug",
+        "noteZh": "水壺（水容器義）"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "pitch",
+        "partOfSpeech": "verb",
+        "meaningZh": "投擲；推銷"
       }
     ],
     "tags": [
@@ -1425,14 +1863,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "jug",
-        "noteZh": "水壺（水容器義）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pitiful",
@@ -1446,21 +1877,52 @@
       {
         "id": "s_pitiful_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "deserving or arousing pity, especially through weakness or inadequacy",
         "definitionZh": "可憐的；令人同情的；差勁的",
         "usageExplanationZh": "常修飾 sight、excuse、performance，可指值得同情的處境，也可帶貶意指表現差勁。",
-        "examples": [
-          {
-            "en": "The team's pitiful performance disappointed all the fans.",
-            "zh": "這支球隊差勁的表現讓所有球迷都感到失望。"
-          }
+        "grammarPatterns": [
+          "a pitiful + noun",
+          "look pitiful"
         ],
         "collocations": [
           {
             "text": "a pitiful sight",
             "meaningZh": "令人憐憫的景象"
           }
+        ],
+        "examples": [
+          {
+            "en": "The team's pitiful performance disappointed all the fans.",
+            "zh": "這支球隊差勁的表現讓所有球迷都感到失望。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "pathetic",
+        "noteZh": "可憐或差勁的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "pity",
+        "partOfSpeech": "noun",
+        "meaningZh": "憐憫；同情"
+      },
+      {
+        "lemma": "pitifully",
+        "partOfSpeech": "adverb",
+        "meaningZh": "可憐地；差勁地"
+      },
+      {
+        "lemma": "pitiless",
+        "partOfSpeech": "adjective",
+        "meaningZh": "無情的；冷酷的"
       }
     ],
     "tags": [
@@ -1474,14 +1936,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pathetic",
-        "noteZh": "可憐或差勁的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pivot",
@@ -1495,33 +1950,44 @@
       {
         "id": "s_pivot_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a central point on which something turns or depends",
         "definitionZh": "樞紐；核心；支點",
         "usageExplanationZh": "常見 a pivot point（轉折點）、the pivot of the discussion（討論的核心），強調關鍵且具支撐作用的部分。",
-        "examples": [
-          {
-            "en": "Trust became the pivot of their entire relationship.",
-            "zh": "信任成為他們整段關係的核心。"
-          }
+        "grammarPatterns": [
+          "the pivot of + noun",
+          "turn on a pivot",
+          "become the pivot of + noun"
         ],
         "collocations": [
           {
             "text": "a central pivot",
             "meaningZh": "中心樞軸"
           }
+        ],
+        "examples": [
+          {
+            "en": "Trust became the pivot of their entire relationship.",
+            "zh": "信任成為他們整段關係的核心。"
+          }
         ]
       },
       {
         "id": "s_pivot_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "business",
+          "neutral"
+        ],
         "definitionEn": "to turn or rotate on a central point, or to change strategy or approach",
         "definitionZh": "轉動；（策略）轉向",
         "usageExplanationZh": "常接 on、around，如 pivot on a central idea，也可指企業或個人改變原有方向的比喻用法。",
-        "examples": [
-          {
-            "en": "The company decided to pivot to a subscription-based model.",
-            "zh": "這家公司決定轉向訂閱制商業模式。"
-          }
+        "grammarPatterns": [
+          "pivot to + noun",
+          "pivot toward + noun",
+          "pivot on + noun"
         ],
         "collocations": [
           {
@@ -1532,7 +1998,31 @@
             "text": "pivot to online sales",
             "meaningZh": "轉向線上銷售"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company decided to pivot to a subscription-based model.",
+            "zh": "這家公司決定轉向訂閱制商業模式。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "fulcrum",
+        "noteZh": "支點（名詞）"
+      },
+      {
+        "lemma": "rotate",
+        "noteZh": "旋轉（動詞）"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "pivotal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "關鍵的；樞紐的"
       }
     ],
     "tags": [
@@ -1547,18 +2037,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "fulcrum",
-        "noteZh": "支點（名詞）"
-      },
-      {
-        "lemma": "rotate",
-        "noteZh": "旋轉（動詞）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_placate",
@@ -1572,21 +2051,48 @@
       {
         "id": "s_placate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to make someone less angry or hostile",
         "definitionZh": "安撫；平息（怒氣）",
         "usageExplanationZh": "常接受詞為人，如 placate an angry customer，強調透過言語或行動使對方情緒平復。",
-        "examples": [
-          {
-            "en": "The manager tried to placate the furious customer with a refund.",
-            "zh": "經理試圖用退款來安撫那位憤怒的顧客。"
-          }
+        "grammarPatterns": [
+          "placate + sb",
+          "placate sb with + noun",
+          "try to placate + sb"
         ],
         "collocations": [
           {
             "text": "placate an angry customer",
             "meaningZh": "安撫憤怒的顧客"
           }
+        ],
+        "examples": [
+          {
+            "en": "The manager tried to placate the furious customer with a refund.",
+            "zh": "經理試圖用退款來安撫那位憤怒的顧客。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "appease",
+        "noteZh": "安撫"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "antagonize",
+        "noteZh": "引起反感或敵意"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "placatory",
+        "partOfSpeech": "adjective",
+        "meaningZh": "安撫的；懷柔的"
       }
     ],
     "tags": [
@@ -1600,19 +2106,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "appease",
-        "noteZh": "安撫"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "antagonize",
-        "noteZh": "引起反感或敵意"
-      }
-    ]
+    }
   },
   {
     "id": "w_placement",
@@ -1626,14 +2120,17 @@
       {
         "id": "s_placement_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "neutral"
+        ],
         "definitionEn": "the action of placing someone or something, or a job or position, especially temporary",
         "definitionZh": "安置；配置；（工作）實習職位",
         "usageExplanationZh": "常見 a work placement（實習職位）、product placement（置入性行銷），依上下文判斷具體意涵。",
-        "examples": [
-          {
-            "en": "She got a summer placement at a marketing firm.",
-            "zh": "她在一家行銷公司獲得了一個暑期實習職位。"
-          }
+        "grammarPatterns": [
+          "a placement at + noun",
+          "the placement of + noun",
+          "get a placement"
         ],
         "collocations": [
           {
@@ -1644,7 +2141,27 @@
             "text": "a work placement",
             "meaningZh": "工作實習"
           }
+        ],
+        "examples": [
+          {
+            "en": "She got a summer placement at a marketing firm.",
+            "zh": "她在一家行銷公司獲得了一個暑期實習職位。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "positioning",
+        "noteZh": "擺放安排"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "place",
+        "partOfSpeech": "verb",
+        "meaningZh": "放置；安置"
       }
     ],
     "tags": [
@@ -1657,14 +2174,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "positioning",
-        "noteZh": "擺放安排"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_placid",
@@ -1678,21 +2188,53 @@
       {
         "id": "s_placid_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "calm and peaceful, without much disturbance or excitement",
         "definitionZh": "平靜的；溫和的",
         "usageExplanationZh": "常修飾 lake、person，形容表面平靜、不易受擾動的事物或個性，語氣正面。",
-        "examples": [
-          {
-            "en": "The lake was placid and still in the early morning light.",
-            "zh": "清晨的湖面平靜無波。"
-          }
+        "grammarPatterns": [
+          "a placid + noun",
+          "remain placid"
         ],
         "collocations": [
           {
             "text": "a placid lake",
             "meaningZh": "平靜的湖"
           }
+        ],
+        "examples": [
+          {
+            "en": "The lake was placid and still in the early morning light.",
+            "zh": "清晨的湖面平靜無波。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "tranquil",
+        "noteZh": "平靜的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "agitated",
+        "noteZh": "焦躁不安的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "placidity",
+        "partOfSpeech": "noun",
+        "meaningZh": "平靜；溫和"
+      },
+      {
+        "lemma": "placidly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "平靜地"
       }
     ],
     "tags": [
@@ -1707,19 +2249,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "tranquil",
-        "noteZh": "平靜的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "agitated",
-        "noteZh": "焦躁不安的"
-      }
-    ]
+    }
   },
   {
     "id": "w_plague",
@@ -1733,14 +2263,16 @@
       {
         "id": "s_plague_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a contagious disease that spreads widely and causes many deaths, or something regarded as a widespread affliction",
         "definitionZh": "瘟疫；（比喻）禍害；大量湧現的困擾",
         "usageExplanationZh": "常見 the Black Plague（黑死病）、a plague of locusts，也可比喻大量令人困擾的事物。",
-        "examples": [
-          {
-            "en": "The region was struck by a plague that killed thousands.",
-            "zh": "這個地區遭受一場奪走數千人性命的瘟疫侵襲。"
-          }
+        "grammarPatterns": [
+          "a plague of + noun",
+          "be struck by a plague",
+          "spread a plague"
         ],
         "collocations": [
           {
@@ -1751,9 +2283,22 @@
             "text": "a plague of locusts",
             "meaningZh": "蝗蟲成災"
           }
+        ],
+        "examples": [
+          {
+            "en": "The region was struck by a plague that killed thousands.",
+            "zh": "這個地區遭受一場奪走數千人性命的瘟疫侵襲。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "pestilence",
+        "noteZh": "瘟疫"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1766,14 +2311,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pestilence",
-        "noteZh": "瘟疫"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_plaintiff",
@@ -1787,21 +2325,41 @@
       {
         "id": "s_plaintiff_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "formal"
+        ],
         "definitionEn": "a person who brings a case against another in a court of law",
         "definitionZh": "原告",
         "usageExplanationZh": "法律用語，與 defendant（被告）相對，指提出訴訟的一方。",
-        "examples": [
-          {
-            "en": "The plaintiff argued that the company had breached the contract.",
-            "zh": "原告主張該公司違反了合約。"
-          }
+        "grammarPatterns": [
+          "the plaintiff in + noun",
+          "the plaintiff argued that + clause"
         ],
         "collocations": [
           {
             "text": "the plaintiff's claim",
             "meaningZh": "原告的請求"
           }
+        ],
+        "examples": [
+          {
+            "en": "The plaintiff argued that the company had breached the contract.",
+            "zh": "原告主張該公司違反了合約。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "claimant",
+        "noteZh": "提出民事請求者"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "defendant",
+        "noteZh": "被告（訴訟相對方）"
       }
     ],
     "tags": [
@@ -1815,19 +2373,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "claimant",
-        "noteZh": "提出民事請求者"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "defendant",
-        "noteZh": "被告（訴訟相對方）"
-      }
-    ]
+    }
   },
   {
     "id": "w_planner",
@@ -1841,14 +2387,17 @@
       {
         "id": "s_planner_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "neutral"
+        ],
         "definitionEn": "a person who plans something, especially as a profession, or a notebook for scheduling",
         "definitionZh": "規劃者；策劃人員；行事曆",
         "usageExplanationZh": "常見 an urban planner（都市規劃師）、a daily planner（每日行事曆本），依上下文判斷指人或物品。",
-        "examples": [
-          {
-            "en": "The city hired a new urban planner to redesign the park.",
-            "zh": "市政府聘請了一位新的都市規劃師來重新設計這座公園。"
-          }
+        "grammarPatterns": [
+          "a + adjective + planner",
+          "an urban planner",
+          "work as a planner"
         ],
         "collocations": [
           {
@@ -1859,7 +2408,27 @@
             "text": "a daily planner",
             "meaningZh": "每日行事曆"
           }
+        ],
+        "examples": [
+          {
+            "en": "The city hired a new urban planner to redesign the park.",
+            "zh": "市政府聘請了一位新的都市規劃師來重新設計這座公園。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "organizer",
+        "noteZh": "籌劃者"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "plan",
+        "partOfSpeech": "verb",
+        "meaningZh": "計畫；規劃"
       }
     ],
     "tags": [
@@ -1872,14 +2441,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "organizer",
-        "noteZh": "籌劃者"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_plantation",
@@ -1893,21 +2455,48 @@
       {
         "id": "s_plantation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a large estate, especially in a tropical region, where crops are grown for sale",
         "definitionZh": "（熱帶）大農場；種植園",
         "usageExplanationZh": "常見 a rubber plantation、a coffee plantation，指大規模種植經濟作物的農場。",
-        "examples": [
-          {
-            "en": "The family owns a large coffee plantation in Brazil.",
-            "zh": "這家人在巴西擁有一座大型咖啡種植園。"
-          }
+        "grammarPatterns": [
+          "a plantation in + noun",
+          "a + noun + plantation",
+          "work on a plantation"
         ],
         "collocations": [
           {
             "text": "a tea plantation",
             "meaningZh": "茶園"
           }
+        ],
+        "examples": [
+          {
+            "en": "The family owns a large coffee plantation in Brazil.",
+            "zh": "這家人在巴西擁有一座大型咖啡種植園。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "estate",
+        "noteZh": "大型農園（土地義）"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "plant",
+        "partOfSpeech": "verb",
+        "meaningZh": "種植"
+      },
+      {
+        "lemma": "planter",
+        "partOfSpeech": "noun",
+        "meaningZh": "種植者；花盆"
       }
     ],
     "tags": [
@@ -1921,14 +2510,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "estate",
-        "noteZh": "大型農園（土地義）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_plasma",
@@ -1942,23 +2524,34 @@
       {
         "id": "s_plasma_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "the colorless liquid part of blood, or an ionized gas considered a state of matter",
         "definitionZh": "血漿；（物理）電漿",
         "usageExplanationZh": "常見 blood plasma（血漿）、plasma screen（電漿螢幕），依上下文判斷生物或物理意涵。",
-        "examples": [
-          {
-            "en": "Doctors transfused blood plasma to help the patient recover.",
-            "zh": "醫生輸入血漿以幫助病患康復。"
-          }
+        "grammarPatterns": [
+          "blood plasma",
+          "donate plasma",
+          "a plasma of ionized gas"
         ],
         "collocations": [
           {
             "text": "blood plasma",
             "meaningZh": "血漿"
           }
+        ],
+        "examples": [
+          {
+            "en": "Doctors transfused blood plasma to help the patient recover.",
+            "zh": "醫生輸入血漿以幫助病患康復。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -1969,9 +2562,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_plaster",
@@ -1985,14 +2576,17 @@
       {
         "id": "s_plaster_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a paste used for coating walls and ceilings, or (British English) an adhesive bandage",
         "definitionZh": "灰泥；石膏；（英式）OK繃",
         "usageExplanationZh": "常見 a plaster wall（灰泥牆）、put a plaster on a cut，英式英語中也指傷口貼的繃帶。",
-        "examples": [
-          {
-            "en": "He put a plaster on the small cut on his finger.",
-            "zh": "他在手指上的小傷口貼了一片OK繃。"
-          }
+        "grammarPatterns": [
+          "a layer of plaster",
+          "put a plaster on + noun",
+          "cover sth with plaster"
         ],
         "collocations": [
           {
@@ -2003,9 +2597,17 @@
             "text": "sticking plaster",
             "meaningZh": "黏貼式OK繃"
           }
+        ],
+        "examples": [
+          {
+            "en": "He put a plaster on the small cut on his finger.",
+            "zh": "他在手指上的小傷口貼了一片OK繃。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2018,9 +2620,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_platform",
@@ -2034,14 +2634,17 @@
       {
         "id": "s_platform_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "business"
+        ],
         "definitionEn": "a raised level surface, or a system used as a basis for launching something, such as software or a political program",
         "definitionZh": "平台；（政黨）政綱",
         "usageExplanationZh": "常見 a train platform（火車月台）、a software platform、a political platform，需依語境判斷具體所指。",
-        "examples": [
-          {
-            "en": "The company launched a new platform for online learning.",
-            "zh": "這家公司推出了一個新的線上學習平台。"
-          }
+        "grammarPatterns": [
+          "a platform for + noun",
+          "launch a platform",
+          "stand on a platform"
         ],
         "collocations": [
           {
@@ -2052,9 +2655,22 @@
             "text": "a political platform",
             "meaningZh": "政治綱領"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company launched a new platform for online learning.",
+            "zh": "這家公司推出了一個新的線上學習平台。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "stage",
+        "noteZh": "高台（實體義）"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2066,14 +2682,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "stage",
-        "noteZh": "高台（實體義）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_platitude",
@@ -2087,21 +2696,43 @@
       {
         "id": "s_platitude_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a remark that has been used too often to be interesting or thoughtful",
         "definitionZh": "陳腔濫調；老生常談",
         "usageExplanationZh": "常帶貶意，指缺乏新意、流於形式的說法，如 offer empty platitudes（說些空洞的場面話）。",
-        "examples": [
-          {
-            "en": "The politician's speech was full of empty platitudes.",
-            "zh": "那位政治人物的演講充滿了空洞的陳腔濫調。"
-          }
+        "grammarPatterns": [
+          "a platitude about + noun",
+          "be full of platitudes",
+          "utter platitudes"
         ],
         "collocations": [
           {
             "text": "utter platitudes",
             "meaningZh": "說些老生常談"
           }
+        ],
+        "examples": [
+          {
+            "en": "The politician's speech was full of empty platitudes.",
+            "zh": "那位政治人物的演講充滿了空洞的陳腔濫調。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "cliché",
+        "noteZh": "陳腔濫調"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "platitudinous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "陳腔濫調的"
       }
     ],
     "tags": [
@@ -2116,14 +2747,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cliché",
-        "noteZh": "陳腔濫調"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_plea",
@@ -2137,14 +2761,16 @@
       {
         "id": "s_plea_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "an emotional request, or a formal statement of guilt or innocence in court",
         "definitionZh": "懇求；（法律）答辯",
         "usageExplanationZh": "常見 a plea for help（求助的懇求）、enter a plea of guilty（提出認罪答辯），依語境判斷法律或一般用法。",
-        "examples": [
-          {
-            "en": "The charity issued an urgent plea for donations.",
-            "zh": "這個慈善機構發出緊急的捐款呼籲。"
-          }
+        "grammarPatterns": [
+          "a plea for + noun",
+          "make a plea to + sb",
+          "issue a plea"
         ],
         "collocations": [
           {
@@ -2155,7 +2781,27 @@
             "text": "a guilty plea",
             "meaningZh": "認罪答辯"
           }
+        ],
+        "examples": [
+          {
+            "en": "The charity issued an urgent plea for donations.",
+            "zh": "這個慈善機構發出緊急的捐款呼籲。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "appeal",
+        "noteZh": "懇求"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "plead",
+        "partOfSpeech": "verb",
+        "meaningZh": "懇求；答辯"
       }
     ],
     "tags": [
@@ -2169,14 +2815,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "appeal",
-        "noteZh": "懇求"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_plead",
@@ -2190,14 +2829,16 @@
       {
         "id": "s_plead_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to make an emotional appeal, or to state formally in court whether one is guilty",
         "definitionZh": "懇求；（法律）答辯",
         "usageExplanationZh": "常接 with someone、for something，如 plead for mercy（懇求寬恕），法律上也用 plead guilty（認罪）。",
-        "examples": [
-          {
-            "en": "She pleaded with the judge for a lighter sentence.",
-            "zh": "她懇求法官從輕量刑。"
-          }
+        "grammarPatterns": [
+          "plead with + sb",
+          "plead for + noun",
+          "plead guilty"
         ],
         "collocations": [
           {
@@ -2208,7 +2849,27 @@
             "text": "plead guilty",
             "meaningZh": "認罪"
           }
+        ],
+        "examples": [
+          {
+            "en": "She pleaded with the judge for a lighter sentence.",
+            "zh": "她懇求法官從輕量刑。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "beg",
+        "noteZh": "懇求"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "plea",
+        "partOfSpeech": "noun",
+        "meaningZh": "懇求；答辯"
       }
     ],
     "tags": [
@@ -2223,14 +2884,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "beg",
-        "noteZh": "懇求"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pleat",
@@ -2244,23 +2898,38 @@
       {
         "id": "s_pleat_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a fold in fabric made by doubling it back on itself",
         "definitionZh": "褶；褶襉",
         "usageExplanationZh": "常見於服裝描述，如 a pleated skirt（百褶裙），指布料摺疊而成的紋路。",
-        "examples": [
-          {
-            "en": "The skirt had neat pleats running down the front.",
-            "zh": "那條裙子前面有整齊的褶襉。"
-          }
+        "grammarPatterns": [
+          "a pleat in + noun",
+          "pleats down the front of + noun"
         ],
         "collocations": [
           {
             "text": "a box pleat",
             "meaningZh": "工字褶"
           }
+        ],
+        "examples": [
+          {
+            "en": "The skirt had neat pleats running down the front.",
+            "zh": "那條裙子前面有整齊的褶襉。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "fold",
+        "noteZh": "褶痕"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -2271,14 +2940,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "fold",
-        "noteZh": "褶痕"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pledge",
@@ -2292,42 +2954,65 @@
       {
         "id": "s_pledge_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a solemn promise or undertaking",
         "definitionZh": "誓言；承諾",
         "usageExplanationZh": "常見 make a pledge、a pledge of allegiance，強調正式且鄭重的承諾。",
-        "examples": [
-          {
-            "en": "The candidate made a pledge to lower taxes.",
-            "zh": "這位候選人承諾要降低稅賦。"
-          }
+        "grammarPatterns": [
+          "a pledge to + V",
+          "make a pledge",
+          "a pledge of + noun"
         ],
         "collocations": [
           {
             "text": "make a pledge",
             "meaningZh": "作出承諾"
           }
+        ],
+        "examples": [
+          {
+            "en": "The candidate made a pledge to lower taxes.",
+            "zh": "這位候選人承諾要降低稅賦。"
+          }
         ]
       },
       {
         "id": "s_pledge_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to solemnly promise to do or give something",
         "definitionZh": "承諾；發誓",
         "usageExplanationZh": "常接 to do something 或具體金額，如 pledge to donate $1,000，強調正式且具約束力的承諾。",
-        "examples": [
-          {
-            "en": "The company pledged to donate a portion of its profits to charity.",
-            "zh": "這家公司承諾將部分利潤捐給慈善機構。"
-          }
+        "grammarPatterns": [
+          "pledge to + V",
+          "pledge sth to + sb",
+          "pledge support for + noun"
         ],
         "collocations": [
           {
             "text": "pledge support",
             "meaningZh": "承諾支持"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company pledged to donate a portion of its profits to charity.",
+            "zh": "這家公司承諾將部分利潤捐給慈善機構。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "promise",
+        "noteZh": "承諾"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2340,14 +3025,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "promise",
-        "noteZh": "承諾"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_plethora",
@@ -2361,21 +3039,47 @@
       {
         "id": "s_plethora_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a large or excessive amount of something",
         "definitionZh": "過多；大量",
         "usageExplanationZh": "正式用語，常接 of，如 a plethora of options（過多的選擇），強調數量龐大甚至超出需要。",
-        "examples": [
-          {
-            "en": "The website offers a plethora of information on the topic.",
-            "zh": "這個網站提供了大量關於這個主題的資訊。"
-          }
+        "grammarPatterns": [
+          "a plethora of + noun"
         ],
         "collocations": [
           {
             "text": "a plethora of options",
             "meaningZh": "多得令人眼花撩亂的選項"
           }
+        ],
+        "examples": [
+          {
+            "en": "The website offers a plethora of information on the topic.",
+            "zh": "這個網站提供了大量關於這個主題的資訊。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "abundance",
+        "noteZh": "大量"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "scarcity",
+        "noteZh": "匱乏"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "plethoric",
+        "partOfSpeech": "adjective",
+        "meaningZh": "過多的；充斥的"
       }
     ],
     "tags": [
@@ -2388,19 +3092,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "abundance",
-        "noteZh": "大量"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "scarcity",
-        "noteZh": "匱乏"
-      }
-    ]
+    }
   },
   {
     "id": "w_plod",
@@ -2414,14 +3106,17 @@
       {
         "id": "s_plod_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "to walk slowly and heavily, or to work slowly and steadily",
         "definitionZh": "沉重緩慢地走；勤懇地做（乏味的工作）",
         "usageExplanationZh": "常接 along、through，如 plod through the mud（艱難地在泥濘中前行），也可比喻費力持續地做某事。",
-        "examples": [
-          {
-            "en": "The tired hikers plodded slowly up the final hill.",
-            "zh": "疲憊的健行者緩慢沉重地爬上最後一座山丘。"
-          }
+        "grammarPatterns": [
+          "plod through + noun",
+          "plod up + noun",
+          "plod on"
         ],
         "collocations": [
           {
@@ -2432,9 +3127,22 @@
             "text": "plod through paperwork",
             "meaningZh": "埋頭處理繁瑣文書"
           }
+        ],
+        "examples": [
+          {
+            "en": "The tired hikers plodded slowly up the final hill.",
+            "zh": "疲憊的健行者緩慢沉重地爬上最後一座山丘。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "trudge",
+        "noteZh": "步履沉重地走"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -2445,14 +3153,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "trudge",
-        "noteZh": "步履沉重地走"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_plot",
@@ -2466,14 +3167,17 @@
       {
         "id": "s_plot_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "the main sequence of events in a story, or a secret plan, or a small piece of land",
         "definitionZh": "情節；陰謀；地皮",
         "usageExplanationZh": "常見 the plot of a novel（小說情節）、a plot to overthrow the government（推翻政府的陰謀）、a plot of land（一塊地），依語境判斷。",
-        "examples": [
-          {
-            "en": "The plot of the movie twisted in an unexpected direction.",
-            "zh": "這部電影的情節出現了意想不到的轉折。"
-          }
+        "grammarPatterns": [
+          "the plot of + noun",
+          "a plot to + V",
+          "a plot of land"
         ],
         "collocations": [
           {
@@ -2484,7 +3188,27 @@
             "text": "a plot of land",
             "meaningZh": "一塊土地"
           }
+        ],
+        "examples": [
+          {
+            "en": "The plot of the movie twisted in an unexpected direction.",
+            "zh": "這部電影的情節出現了意想不到的轉折。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "storyline",
+        "noteZh": "故事情節"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "plotter",
+        "partOfSpeech": "noun",
+        "meaningZh": "密謀者"
       }
     ],
     "tags": [
@@ -2499,14 +3223,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "storyline",
-        "noteZh": "故事情節"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_plug",
@@ -2520,33 +3237,43 @@
       {
         "id": "s_plug_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a device inserted into a socket to make an electrical connection, or a stopper for a hole",
         "definitionZh": "插頭；塞子",
         "usageExplanationZh": "常見 pull the plug（拔插頭；比喻終止某事）、a bath plug（浴缸塞子），依上下文判斷具體所指。",
-        "examples": [
-          {
-            "en": "Make sure to unplug the plug before cleaning the appliance.",
-            "zh": "清潔電器前，請務必拔掉插頭。"
-          }
+        "grammarPatterns": [
+          "pull the plug",
+          "a plug for + noun",
+          "insert the plug into + noun"
         ],
         "collocations": [
           {
             "text": "an electrical plug",
             "meaningZh": "電源插頭"
           }
+        ],
+        "examples": [
+          {
+            "en": "Make sure to unplug the plug before cleaning the appliance.",
+            "zh": "清潔電器前，請務必拔掉插頭。"
+          }
         ]
       },
       {
         "id": "s_plug_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to block a hole with a plug, or to promote something",
         "definitionZh": "堵住；塞住；（口語）宣傳、推銷",
         "usageExplanationZh": "常接 a hole、a leak，也可口語用法如 plug a new movie（宣傳一部新電影）。",
-        "examples": [
-          {
-            "en": "He used a rag to plug the leak in the pipe.",
-            "zh": "他用一塊布堵住管子的漏水處。"
-          }
+        "grammarPatterns": [
+          "plug + noun",
+          "plug a hole in + noun",
+          "plug a gap"
         ],
         "collocations": [
           {
@@ -2557,9 +3284,22 @@
             "text": "plug a new book",
             "meaningZh": "宣傳新書"
           }
+        ],
+        "examples": [
+          {
+            "en": "He used a rag to plug the leak in the pipe.",
+            "zh": "他用一塊布堵住管子的漏水處。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "stopper",
+        "noteZh": "塞子（名詞）"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -2570,13 +3310,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "stopper",
-        "noteZh": "塞子（名詞）"
-      }
-    ],
-    "antonyms": []
+    }
   }
 ]

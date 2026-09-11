@@ -11,14 +11,15 @@
       {
         "id": "s_imaginative_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "having or showing creativity or a strong imagination",
         "definitionZh": "富有想像力的；創意十足的",
         "usageExplanationZh": "常見 an imaginative solution（有創意的解決方案），語氣正面，強調非傳統或富創造力的思維。",
-        "examples": [
-          {
-            "en": "The children came up with an imaginative story about a dragon.",
-            "zh": "孩子們編出了一個關於龍的富有想像力的故事。"
-          }
+        "grammarPatterns": [
+          "an imaginative + noun",
+          "highly imaginative"
         ],
         "collocations": [
           {
@@ -29,7 +30,42 @@
             "text": "imaginative writing",
             "meaningZh": "富有想像力的寫作"
           }
+        ],
+        "examples": [
+          {
+            "en": "The children came up with an imaginative story about a dragon.",
+            "zh": "孩子們編出了一個關於龍的富有想像力的故事。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "creative",
+        "noteZh": "富創意的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "unimaginative",
+        "noteZh": "缺乏想像力的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "imagination",
+        "partOfSpeech": "noun",
+        "meaningZh": "想像力"
+      },
+      {
+        "lemma": "imagine",
+        "partOfSpeech": "verb",
+        "meaningZh": "想像"
+      },
+      {
+        "lemma": "imaginary",
+        "partOfSpeech": "adjective",
+        "meaningZh": "虛構的"
       }
     ],
     "tags": [
@@ -43,19 +79,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "creative",
-        "noteZh": "富創意的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "unimaginative",
-        "noteZh": "缺乏想像力的"
-      }
-    ]
+    }
   },
   {
     "id": "w_imbue",
@@ -69,14 +93,16 @@
       {
         "id": "s_imbue_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to inspire or permeate someone or something with a feeling or quality",
         "definitionZh": "使充滿（某種感情或特質）；灌輸",
         "usageExplanationZh": "常用被動語態 be imbued with，如 imbued with hope，語氣書面正式。",
-        "examples": [
-          {
-            "en": "Her speech was imbued with a sense of hope and determination.",
-            "zh": "她的演講充滿了希望與決心。"
-          }
+        "grammarPatterns": [
+          "imbue sth with + noun",
+          "be imbued with + noun"
         ],
         "collocations": [
           {
@@ -87,9 +113,22 @@
             "text": "be imbued with confidence",
             "meaningZh": "充滿信心"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her speech was imbued with a sense of hope and determination.",
+            "zh": "她的演講充滿了希望與決心。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "infuse",
+        "noteZh": "注入某種特質"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -101,14 +140,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "infuse",
-        "noteZh": "注入某種特質"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_imitate",
@@ -122,14 +154,15 @@
       {
         "id": "s_imitate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to copy the behavior, appearance, or actions of someone or something",
         "definitionZh": "模仿；仿效",
         "usageExplanationZh": "常接人或風格作受詞，如 imitate a famous singer；也可指仿造物品。",
-        "examples": [
-          {
-            "en": "Young children often imitate their parents' behavior.",
-            "zh": "幼童經常模仿父母的行為。"
-          }
+        "grammarPatterns": [
+          "imitate + noun",
+          "imitate sb's + noun"
         ],
         "collocations": [
           {
@@ -140,7 +173,37 @@
             "text": "imitate a style",
             "meaningZh": "模仿風格"
           }
+        ],
+        "examples": [
+          {
+            "en": "Young children often imitate their parents' behavior.",
+            "zh": "幼童經常模仿父母的行為。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "mimic",
+        "noteZh": "模仿"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "imitation",
+        "partOfSpeech": "noun",
+        "meaningZh": "模仿；仿製品"
+      },
+      {
+        "lemma": "imitative",
+        "partOfSpeech": "adjective",
+        "meaningZh": "模仿的"
+      },
+      {
+        "lemma": "imitator",
+        "partOfSpeech": "noun",
+        "meaningZh": "模仿者"
       }
     ],
     "tags": [
@@ -154,14 +217,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "mimic",
-        "noteZh": "模仿"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_immaculate",
@@ -175,14 +231,15 @@
       {
         "id": "s_immaculate_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "perfectly clean, neat, or without any flaws",
         "definitionZh": "一塵不染的；完美無瑕的",
         "usageExplanationZh": "常修飾 condition、appearance，如 immaculate condition（狀況完美），語氣正面且強調極致的整潔。",
-        "examples": [
-          {
-            "en": "The car was in immaculate condition despite being ten years old.",
-            "zh": "儘管這輛車已經十年了，狀況卻依然完美如新。"
-          }
+        "grammarPatterns": [
+          "in immaculate condition",
+          "an immaculate + noun"
         ],
         "collocations": [
           {
@@ -193,7 +250,32 @@
             "text": "an immaculate room",
             "meaningZh": "一塵不染的房間"
           }
+        ],
+        "examples": [
+          {
+            "en": "The car was in immaculate condition despite being ten years old.",
+            "zh": "儘管這輛車已經十年了，狀況卻依然完美如新。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "spotless",
+        "noteZh": "一塵不染的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "filthy",
+        "noteZh": "骯髒的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "immaculately",
+        "partOfSpeech": "adverb",
+        "meaningZh": "一塵不染地"
       }
     ],
     "tags": [
@@ -206,19 +288,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "spotless",
-        "noteZh": "一塵不染的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "filthy",
-        "noteZh": "骯髒的"
-      }
-    ]
+    }
   },
   {
     "id": "w_immediate",
@@ -232,14 +302,15 @@
       {
         "id": "s_immediate_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "happening or done at once; occurring next in time or space",
         "definitionZh": "立即的；直接的；最接近的",
         "usageExplanationZh": "常見 immediate action（立即行動）、immediate family（直系親屬），依語境有不同引申義。",
-        "examples": [
-          {
-            "en": "The doctor recommended immediate treatment for the infection.",
-            "zh": "醫生建議立即對這起感染進行治療。"
-          }
+        "grammarPatterns": [
+          "immediate + noun",
+          "with immediate effect"
         ],
         "collocations": [
           {
@@ -250,7 +321,37 @@
             "text": "the immediate family",
             "meaningZh": "直系親屬"
           }
+        ],
+        "examples": [
+          {
+            "en": "The doctor recommended immediate treatment for the infection.",
+            "zh": "醫生建議立即對這起感染進行治療。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "instant",
+        "noteZh": "即時的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "delayed",
+        "noteZh": "延遲的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "immediately",
+        "partOfSpeech": "adverb",
+        "meaningZh": "立即"
+      },
+      {
+        "lemma": "immediacy",
+        "partOfSpeech": "noun",
+        "meaningZh": "即時性"
       }
     ],
     "tags": [
@@ -263,19 +364,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "instant",
-        "noteZh": "即時的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "delayed",
-        "noteZh": "延遲的"
-      }
-    ]
+    }
   },
   {
     "id": "w_immense",
@@ -289,14 +378,15 @@
       {
         "id": "s_immense_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "extremely large or great in size, degree, or amount",
         "definitionZh": "巨大的；廣大的",
         "usageExplanationZh": "常修飾 size、pressure、pride 等抽象或具體事物，如 immense pressure（巨大的壓力）。",
-        "examples": [
-          {
-            "en": "The project required an immense amount of time and resources.",
-            "zh": "這項專案需要投入巨大的時間與資源。"
-          }
+        "grammarPatterns": [
+          "an immense + noun",
+          "an immense amount of + noun"
         ],
         "collocations": [
           {
@@ -307,7 +397,37 @@
             "text": "an immense amount of",
             "meaningZh": "極大量的"
           }
+        ],
+        "examples": [
+          {
+            "en": "The project required an immense amount of time and resources.",
+            "zh": "這項專案需要投入巨大的時間與資源。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "enormous",
+        "noteZh": "巨大的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "tiny",
+        "noteZh": "極小的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "immensely",
+        "partOfSpeech": "adverb",
+        "meaningZh": "極大地"
+      },
+      {
+        "lemma": "immensity",
+        "partOfSpeech": "noun",
+        "meaningZh": "巨大"
       }
     ],
     "tags": [
@@ -322,19 +442,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "enormous",
-        "noteZh": "巨大的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "tiny",
-        "noteZh": "極小的"
-      }
-    ]
+    }
   },
   {
     "id": "w_immerse",
@@ -348,14 +456,15 @@
       {
         "id": "s_immerse_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to involve oneself deeply in an activity, or to submerge something in liquid",
         "definitionZh": "使沉浸（於某活動）；浸入（液體）",
         "usageExplanationZh": "常見 immerse oneself in（沉浸於……之中），比喻用法比字面「浸泡」更常見。",
-        "examples": [
-          {
-            "en": "She immersed herself in studying the local language before her trip.",
-            "zh": "她在旅行前全心投入學習當地語言。"
-          }
+        "grammarPatterns": [
+          "immerse oneself in + noun",
+          "immerse sth in + noun"
         ],
         "collocations": [
           {
@@ -366,7 +475,32 @@
             "text": "immerse something in water",
             "meaningZh": "把某物浸入水中"
           }
+        ],
+        "examples": [
+          {
+            "en": "She immersed herself in studying the local language before her trip.",
+            "zh": "她在旅行前全心投入學習當地語言。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "submerge",
+        "noteZh": "指浸入液體"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "immersion",
+        "partOfSpeech": "noun",
+        "meaningZh": "沉浸"
+      },
+      {
+        "lemma": "immersive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "沉浸式的"
       }
     ],
     "tags": [
@@ -381,14 +515,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "submerge",
-        "noteZh": "指浸入液體"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_immigrant",
@@ -402,14 +529,15 @@
       {
         "id": "s_immigrant_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a person who comes to live permanently in a country that is not their own",
         "definitionZh": "移民（者）",
         "usageExplanationZh": "常見 an illegal immigrant（非法移民）、immigrant community（移民社群），與 emigrant（移出者）視角相反。",
-        "examples": [
-          {
-            "en": "The city has a large immigrant population from various countries.",
-            "zh": "這座城市有大量來自不同國家的移民人口。"
-          }
+        "grammarPatterns": [
+          "an immigrant from + noun",
+          "the immigrant population"
         ],
         "collocations": [
           {
@@ -420,7 +548,37 @@
             "text": "first-generation immigrants",
             "meaningZh": "第一代移民"
           }
+        ],
+        "examples": [
+          {
+            "en": "The city has a large immigrant population from various countries.",
+            "zh": "這座城市有大量來自不同國家的移民人口。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "newcomer",
+        "noteZh": "指新到當地定居的人"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "emigrant",
+        "noteZh": "移出者，與移入者視角相反"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "immigrate",
+        "partOfSpeech": "verb",
+        "meaningZh": "移入（他國）"
+      },
+      {
+        "lemma": "immigration",
+        "partOfSpeech": "noun",
+        "meaningZh": "移民"
       }
     ],
     "tags": [
@@ -434,19 +592,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "newcomer",
-        "noteZh": "指新到當地定居的人"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "emigrant",
-        "noteZh": "移出者，與移入者視角相反"
-      }
-    ]
+    }
   },
   {
     "id": "w_immigration",
@@ -460,14 +606,15 @@
       {
         "id": "s_immigration_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "the process of coming to live permanently in a foreign country, or the government department handling this",
         "definitionZh": "移民（現象或程序）；入境檢查",
         "usageExplanationZh": "常見 immigration policy（移民政策）、pass through immigration（通過入境檢查）。",
-        "examples": [
-          {
-            "en": "The government announced new immigration policies last month.",
-            "zh": "政府上個月宣布了新的移民政策。"
-          }
+        "grammarPatterns": [
+          "immigration + noun",
+          "go through immigration"
         ],
         "collocations": [
           {
@@ -478,7 +625,32 @@
             "text": "go through immigration",
             "meaningZh": "通過入境查驗"
           }
+        ],
+        "examples": [
+          {
+            "en": "The government announced new immigration policies last month.",
+            "zh": "政府上個月宣布了新的移民政策。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [
+      {
+        "lemma": "emigration",
+        "noteZh": "移出某國"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "immigrant",
+        "partOfSpeech": "noun",
+        "meaningZh": "移民者"
+      },
+      {
+        "lemma": "immigrate",
+        "partOfSpeech": "verb",
+        "meaningZh": "移入（他國）"
       }
     ],
     "tags": [
@@ -491,14 +663,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": [
-      {
-        "lemma": "emigration",
-        "noteZh": "移出某國"
-      }
-    ]
+    }
   },
   {
     "id": "w_imminent",
@@ -512,14 +677,15 @@
       {
         "id": "s_imminent_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "about to happen very soon",
         "definitionZh": "即將發生的；迫在眉睫的",
         "usageExplanationZh": "常見 imminent danger（迫在眉睫的危險），語氣正式，強調事情近在眼前、無法避免。",
-        "examples": [
-          {
-            "en": "Forecasters warned that a major storm was imminent.",
-            "zh": "氣象預報員警告一場大風暴即將來襲。"
-          }
+        "grammarPatterns": [
+          "an imminent + noun",
+          "be imminent"
         ],
         "collocations": [
           {
@@ -530,7 +696,32 @@
             "text": "an imminent threat",
             "meaningZh": "即將發生的威脅"
           }
+        ],
+        "examples": [
+          {
+            "en": "Forecasters warned that a major storm was imminent.",
+            "zh": "氣象預報員警告一場大風暴即將來襲。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "impending",
+        "noteZh": "即將發生的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "imminence",
+        "partOfSpeech": "noun",
+        "meaningZh": "迫近"
+      },
+      {
+        "lemma": "imminently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "即將地"
       }
     ],
     "tags": [
@@ -545,14 +736,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "impending",
-        "noteZh": "即將發生的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_immune",
@@ -566,14 +750,16 @@
       {
         "id": "s_immune_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "protected against a particular disease or influence, or not affected by something",
         "definitionZh": "免疫的；有免疫力的；不受影響的",
         "usageExplanationZh": "常見 immune to criticism（不受批評影響），醫學脈絡指 immune to a disease（對疾病免疫）。",
-        "examples": [
-          {
-            "en": "No one is completely immune to stress.",
-            "zh": "沒有人完全不受壓力影響。"
-          }
+        "grammarPatterns": [
+          "be immune to + noun",
+          "be immune from + noun"
         ],
         "collocations": [
           {
@@ -584,21 +770,58 @@
             "text": "immune to criticism",
             "meaningZh": "不受批評影響"
           }
+        ],
+        "examples": [
+          {
+            "en": "No one is completely immune to stress.",
+            "zh": "沒有人完全不受壓力影響。"
+          }
         ]
       },
       {
         "id": "s_immune_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a substance or organism that provides immunity（較少見的名詞用法，多指免疫相關物質）",
         "definitionZh": "免疫物質（較少見用法）",
         "usageExplanationZh": "此詞多作形容詞使用，作名詞極為罕見，一般以 immune system（免疫系統）等複合詞表達相關概念。",
+        "grammarPatterns": [
+          "study immunes"
+        ],
+        "collocations": [],
         "examples": [
           {
             "en": "Researchers studied various immunes to understand disease resistance.",
             "zh": "研究人員研究了各種免疫物質，以了解疾病抵抗力。"
           }
-        ],
-        "collocations": []
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "resistant",
+        "noteZh": "能抵抗某種疾病或影響的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "susceptible",
+        "noteZh": "容易受到影響或感染的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "immunity",
+        "partOfSpeech": "noun",
+        "meaningZh": "免疫力"
+      },
+      {
+        "lemma": "immunize",
+        "partOfSpeech": "verb",
+        "meaningZh": "使免疫"
       }
     ],
     "tags": [
@@ -613,19 +836,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "resistant",
-        "noteZh": "能抵抗某種疾病或影響的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "susceptible",
-        "noteZh": "容易受到影響或感染的"
-      }
-    ]
+    }
   },
   {
     "id": "w_impart",
@@ -639,14 +850,15 @@
       {
         "id": "s_impart_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to communicate information or knowledge, or to give a particular quality to something",
         "definitionZh": "傳授（知識）；賦予（某種特質）",
         "usageExplanationZh": "常見 impart knowledge（傳授知識）、impart a flavor（賦予風味），語氣正式書面。",
-        "examples": [
-          {
-            "en": "The mentor imparted valuable wisdom to her students.",
-            "zh": "這位導師向學生傳授了寶貴的智慧。"
-          }
+        "grammarPatterns": [
+          "impart sth to sb",
+          "impart + noun"
         ],
         "collocations": [
           {
@@ -657,9 +869,26 @@
             "text": "impart flavor to something",
             "meaningZh": "賦予某物風味"
           }
+        ],
+        "examples": [
+          {
+            "en": "The mentor imparted valuable wisdom to her students.",
+            "zh": "這位導師向學生傳授了寶貴的智慧。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "convey",
+        "noteZh": "傳達"
+      },
+      {
+        "lemma": "bestow",
+        "noteZh": "賦予"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -672,18 +901,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "convey",
-        "noteZh": "傳達"
-      },
-      {
-        "lemma": "bestow",
-        "noteZh": "賦予"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_impassioned",
@@ -697,14 +915,16 @@
       {
         "id": "s_impassioned_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "filled with or showing great emotion or enthusiasm",
         "definitionZh": "慷慨激昂的；充滿熱情的",
         "usageExplanationZh": "常修飾 speech、plea 等，如 an impassioned speech（慷慨激昂的演講），語氣強烈正面。",
-        "examples": [
-          {
-            "en": "He gave an impassioned speech about the importance of education.",
-            "zh": "他發表了一場關於教育重要性的慷慨激昂的演講。"
-          }
+        "grammarPatterns": [
+          "an impassioned + noun",
+          "give an impassioned speech about + noun"
         ],
         "collocations": [
           {
@@ -715,7 +935,37 @@
             "text": "an impassioned speech",
             "meaningZh": "慷慨激昂的演說"
           }
+        ],
+        "examples": [
+          {
+            "en": "He gave an impassioned speech about the importance of education.",
+            "zh": "他發表了一場關於教育重要性的慷慨激昂的演講。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "fervent",
+        "noteZh": "熱情強烈的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "dispassionate",
+        "noteZh": "冷靜不帶感情的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "passion",
+        "partOfSpeech": "noun",
+        "meaningZh": "熱情"
+      },
+      {
+        "lemma": "passionate",
+        "partOfSpeech": "adjective",
+        "meaningZh": "熱情的"
       }
     ],
     "tags": [
@@ -729,19 +979,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "fervent",
-        "noteZh": "熱情強烈的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "dispassionate",
-        "noteZh": "冷靜不帶感情的"
-      }
-    ]
+    }
   },
   {
     "id": "w_impassive",
@@ -755,14 +993,16 @@
       {
         "id": "s_impassive_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "not feeling or showing emotion; expressionless",
         "definitionZh": "不動聲色的；冷漠的",
         "usageExplanationZh": "常修飾 face、expression，如 an impassive expression，強調刻意壓抑情緒不表露。",
-        "examples": [
-          {
-            "en": "Her impassive face gave no hint of what she was thinking.",
-            "zh": "她面無表情，讓人無法看出她在想什麼。"
-          }
+        "grammarPatterns": [
+          "an impassive + noun",
+          "remain impassive"
         ],
         "collocations": [
           {
@@ -773,7 +1013,37 @@
             "text": "remain impassive",
             "meaningZh": "保持不動聲色"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her impassive face gave no hint of what she was thinking.",
+            "zh": "她面無表情，讓人無法看出她在想什麼。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "expressionless",
+        "noteZh": "面無表情的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "expressive",
+        "noteZh": "表情豐富的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "impassively",
+        "partOfSpeech": "adverb",
+        "meaningZh": "面無表情地"
+      },
+      {
+        "lemma": "impassivity",
+        "partOfSpeech": "noun",
+        "meaningZh": "冷漠"
       }
     ],
     "tags": [
@@ -787,19 +1057,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "expressionless",
-        "noteZh": "面無表情的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "expressive",
-        "noteZh": "表情豐富的"
-      }
-    ]
+    }
   },
   {
     "id": "w_impeach",
@@ -813,14 +1071,16 @@
       {
         "id": "s_impeach_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to formally charge a public official with misconduct, potentially leading to removal from office",
         "definitionZh": "彈劾（公職人員）",
         "usageExplanationZh": "政治或法律用語，常見 impeach the president（彈劾總統），程序正式且具法律效力。",
-        "examples": [
-          {
-            "en": "Congress voted to impeach the official for abuse of power.",
-            "zh": "國會投票通過彈劾這名官員濫用職權。"
-          }
+        "grammarPatterns": [
+          "impeach sb",
+          "vote to impeach sb"
         ],
         "collocations": [
           {
@@ -831,7 +1091,27 @@
             "text": "impeach someone for misconduct",
             "meaningZh": "因行為不當彈劾某人"
           }
+        ],
+        "examples": [
+          {
+            "en": "Congress voted to impeach the official for abuse of power.",
+            "zh": "國會投票通過彈劾這名官員濫用職權。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "accuse",
+        "noteZh": "指正式指控；範圍較廣"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "impeachment",
+        "partOfSpeech": "noun",
+        "meaningZh": "彈劾"
       }
     ],
     "tags": [
@@ -845,14 +1125,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "accuse",
-        "noteZh": "指正式指控；範圍較廣"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_impede",
@@ -866,14 +1139,16 @@
       {
         "id": "s_impede_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to delay or prevent someone or something by obstructing them",
         "definitionZh": "阻礙；妨礙",
         "usageExplanationZh": "常接抽象名詞，如 impede progress（阻礙進展），語氣正式書面，與 hamper 相似。",
-        "examples": [
-          {
-            "en": "Heavy traffic impeded their journey to the airport.",
-            "zh": "嚴重的交通阻礙了他們前往機場的行程。"
-          }
+        "grammarPatterns": [
+          "impede + noun",
+          "impede sb from + V-ing"
         ],
         "collocations": [
           {
@@ -884,7 +1159,32 @@
             "text": "impede an investigation",
             "meaningZh": "妨礙調查"
           }
+        ],
+        "examples": [
+          {
+            "en": "Heavy traffic impeded their journey to the airport.",
+            "zh": "嚴重的交通阻礙了他們前往機場的行程。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "hinder",
+        "noteZh": "妨礙"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "facilitate",
+        "noteZh": "促進"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "impediment",
+        "partOfSpeech": "noun",
+        "meaningZh": "障礙"
       }
     ],
     "tags": [
@@ -899,19 +1199,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "hinder",
-        "noteZh": "妨礙"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "facilitate",
-        "noteZh": "促進"
-      }
-    ]
+    }
   },
   {
     "id": "w_impenetrable",
@@ -925,14 +1213,16 @@
       {
         "id": "s_impenetrable_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "impossible to enter or pass through, or impossible to understand",
         "definitionZh": "無法穿透的；難以理解的",
         "usageExplanationZh": "常見 an impenetrable forest（無法穿越的森林）；比喻用法如 impenetrable jargon（難懂的術語）。",
-        "examples": [
-          {
-            "en": "The legal document was full of impenetrable jargon.",
-            "zh": "這份法律文件充滿了難以理解的術語。"
-          }
+        "grammarPatterns": [
+          "an impenetrable + noun",
+          "be impenetrable to + noun"
         ],
         "collocations": [
           {
@@ -943,7 +1233,37 @@
             "text": "impenetrable jargon",
             "meaningZh": "難以理解的術語"
           }
+        ],
+        "examples": [
+          {
+            "en": "The legal document was full of impenetrable jargon.",
+            "zh": "這份法律文件充滿了難以理解的術語。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "incomprehensible",
+        "noteZh": "指難以理解的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "penetrable",
+        "noteZh": "可穿透的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "penetrate",
+        "partOfSpeech": "verb",
+        "meaningZh": "穿透"
+      },
+      {
+        "lemma": "impenetrability",
+        "partOfSpeech": "noun",
+        "meaningZh": "不可穿透性"
       }
     ],
     "tags": [
@@ -956,19 +1276,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "incomprehensible",
-        "noteZh": "指難以理解的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "penetrable",
-        "noteZh": "可穿透的"
-      }
-    ]
+    }
   },
   {
     "id": "w_imperative",
@@ -982,33 +1290,43 @@
       {
         "id": "s_imperative_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "extremely important or urgent; essential",
         "definitionZh": "極其重要的；必須的；迫切的",
         "usageExplanationZh": "常見 it is imperative that...（……是必要的），語氣正式強烈，強調不可忽視的急迫性。",
-        "examples": [
-          {
-            "en": "It is imperative that we address this issue immediately.",
-            "zh": "我們必須立即處理這個問題。"
-          }
+        "grammarPatterns": [
+          "it is imperative that + clause",
+          "it is imperative to + V"
         ],
         "collocations": [
           {
             "text": "it is imperative to",
             "meaningZh": "做某事是必要的"
           }
+        ],
+        "examples": [
+          {
+            "en": "It is imperative that we address this issue immediately.",
+            "zh": "我們必須立即處理這個問題。"
+          }
         ]
       },
       {
         "id": "s_imperative_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "an essential or urgent need or duty",
         "definitionZh": "當務之急；必要之事",
         "usageExplanationZh": "常見 a moral imperative（道德義務）、a business imperative（企業當務之急）。",
-        "examples": [
-          {
-            "en": "Reducing carbon emissions has become a global imperative.",
-            "zh": "減少碳排放已成為全球的當務之急。"
-          }
+        "grammarPatterns": [
+          "a moral imperative",
+          "an imperative to + V"
         ],
         "collocations": [
           {
@@ -1019,22 +1337,15 @@
             "text": "an economic imperative",
             "meaningZh": "經濟上的迫切需要"
           }
+        ],
+        "examples": [
+          {
+            "en": "Reducing carbon emissions has become a global imperative.",
+            "zh": "減少碳排放已成為全球的當務之急。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "essential",
@@ -1050,7 +1361,20 @@
         "lemma": "optional",
         "noteZh": "形容詞：可選擇的"
       }
-    ]
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_imperial",
@@ -1064,14 +1388,16 @@
       {
         "id": "s_imperial_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "relating to an empire or emperor, or (informally) majestic or grand",
         "definitionZh": "帝國的；皇帝的；（口語）雄偉壯麗的",
         "usageExplanationZh": "常見 imperial power（帝國勢力）、the imperial palace（皇宮），歷史或政治語境常用。",
-        "examples": [
-          {
-            "en": "The museum houses artifacts from the imperial era.",
-            "zh": "這間博物館收藏了帝國時代的文物。"
-          }
+        "grammarPatterns": [
+          "imperial + noun",
+          "the imperial era"
         ],
         "collocations": [
           {
@@ -1082,21 +1408,58 @@
             "text": "imperial units",
             "meaningZh": "英制單位"
           }
+        ],
+        "examples": [
+          {
+            "en": "The museum houses artifacts from the imperial era.",
+            "zh": "這間博物館收藏了帝國時代的文物。"
+          }
         ]
       },
       {
         "id": "s_imperial_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical"
+        ],
         "definitionEn": "a unit of measurement in the British imperial system（較少見，多指度量單位或帝國相關概念）",
         "definitionZh": "（英制度量衡的）帝國單位（較少見用法）",
         "usageExplanationZh": "此詞多作形容詞使用，名詞用法較罕見，常見於描述英制度量系統 imperial system 相關語境。",
+        "grammarPatterns": [
+          "measurements in imperial",
+          "convert to imperial"
+        ],
+        "collocations": [],
         "examples": [
           {
             "en": "The recipe still uses imperial measurements like pints and ounces.",
             "zh": "這份食譜仍使用品脫、盎司等英制度量單位。"
           }
-        ],
-        "collocations": []
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "regal",
+        "noteZh": "指皇室般莊嚴的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "empire",
+        "partOfSpeech": "noun",
+        "meaningZh": "帝國"
+      },
+      {
+        "lemma": "imperialism",
+        "partOfSpeech": "noun",
+        "meaningZh": "帝國主義"
+      },
+      {
+        "lemma": "emperor",
+        "partOfSpeech": "noun",
+        "meaningZh": "皇帝"
       }
     ],
     "tags": [
@@ -1110,14 +1473,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "regal",
-        "noteZh": "指皇室般莊嚴的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_impervious",
@@ -1131,14 +1487,16 @@
       {
         "id": "s_impervious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "not allowing something to pass through, or not affected by something",
         "definitionZh": "不可滲透的；不受影響的",
         "usageExplanationZh": "常接 to，如 impervious to criticism（不受批評影響），比喻用法非常常見。",
-        "examples": [
-          {
-            "en": "He seemed impervious to the harsh criticism from reporters.",
-            "zh": "他似乎完全不受記者嚴厲批評的影響。"
-          }
+        "grammarPatterns": [
+          "be impervious to + noun",
+          "an impervious + noun"
         ],
         "collocations": [
           {
@@ -1149,7 +1507,25 @@
             "text": "impervious to criticism",
             "meaningZh": "不受批評影響的"
           }
+        ],
+        "examples": [
+          {
+            "en": "He seemed impervious to the harsh criticism from reporters.",
+            "zh": "他似乎完全不受記者嚴厲批評的影響。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "impermeable",
+        "noteZh": "指不可滲透的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "pervious",
+        "noteZh": "可滲透的"
       }
     ],
     "tags": [
@@ -1163,19 +1539,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "impermeable",
-        "noteZh": "指不可滲透的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "pervious",
-        "noteZh": "可滲透的"
-      }
-    ]
+    }
   },
   {
     "id": "w_impinge",
@@ -1189,14 +1553,16 @@
       {
         "id": "s_impinge_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to have a negative effect on something, or to encroach on someone's rights or territory",
         "definitionZh": "對……造成不良影響；侵犯（權利）",
         "usageExplanationZh": "常接 on/upon，如 impinge on someone's rights，語氣正式書面。",
-        "examples": [
-          {
-            "en": "The new regulations impinge on individual freedoms.",
-            "zh": "這項新法規侵犯了個人自由。"
-          }
+        "grammarPatterns": [
+          "impinge on + noun",
+          "impinge upon + noun"
         ],
         "collocations": [
           {
@@ -1207,7 +1573,27 @@
             "text": "impinge upon privacy",
             "meaningZh": "侵犯隱私"
           }
+        ],
+        "examples": [
+          {
+            "en": "The new regulations impinge on individual freedoms.",
+            "zh": "這項新法規侵犯了個人自由。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "encroach",
+        "noteZh": "侵害或侵犯"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "impingement",
+        "partOfSpeech": "noun",
+        "meaningZh": "侵犯；撞擊"
       }
     ],
     "tags": [
@@ -1220,14 +1606,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "encroach",
-        "noteZh": "侵害或侵犯"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_implausible",
@@ -1241,14 +1620,17 @@
       {
         "id": "s_implausible_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "not seeming reasonable or probable; hard to believe",
         "definitionZh": "難以置信的；不合情理的",
         "usageExplanationZh": "常修飾 story、excuse 等，如 an implausible excuse，與 plausible（合理可信的）相對。",
-        "examples": [
-          {
-            "en": "His explanation for being late seemed highly implausible.",
-            "zh": "他遲到的理由聽起來非常難以置信。"
-          }
+        "grammarPatterns": [
+          "an implausible + noun",
+          "seem implausible",
+          "highly implausible"
         ],
         "collocations": [
           {
@@ -1259,7 +1641,37 @@
             "text": "highly implausible",
             "meaningZh": "極不合理的"
           }
+        ],
+        "examples": [
+          {
+            "en": "His explanation for being late seemed highly implausible.",
+            "zh": "他遲到的理由聽起來非常難以置信。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "unlikely",
+        "noteZh": "不太可能是真的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "plausible",
+        "noteZh": "看似合理的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "implausibility",
+        "partOfSpeech": "noun",
+        "meaningZh": "難以置信"
+      },
+      {
+        "lemma": "plausible",
+        "partOfSpeech": "adjective",
+        "meaningZh": "合理的"
       }
     ],
     "tags": [
@@ -1272,19 +1684,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "unlikely",
-        "noteZh": "不太可能是真的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "plausible",
-        "noteZh": "看似合理的"
-      }
-    ]
+    }
   },
   {
     "id": "w_implication",
@@ -1298,14 +1698,16 @@
       {
         "id": "s_implication_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "a conclusion that can be drawn from something, though not explicitly stated, or a possible effect",
         "definitionZh": "含意；言外之意；（可能的）影響",
         "usageExplanationZh": "常見 the implications of a decision（決定所帶來的影響），常用複數形。",
-        "examples": [
-          {
-            "en": "The policy change has serious implications for small businesses.",
-            "zh": "這項政策變動對小型企業有嚴重的影響。"
-          }
+        "grammarPatterns": [
+          "the implications of + noun",
+          "have implications for + noun"
         ],
         "collocations": [
           {
@@ -1316,7 +1718,32 @@
             "text": "by implication",
             "meaningZh": "含蓄地；由此推知"
           }
+        ],
+        "examples": [
+          {
+            "en": "The policy change has serious implications for small businesses.",
+            "zh": "這項政策變動對小型企業有嚴重的影響。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "consequence",
+        "noteZh": "指可能的後果"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "imply",
+        "partOfSpeech": "verb",
+        "meaningZh": "暗示"
+      },
+      {
+        "lemma": "implicit",
+        "partOfSpeech": "adjective",
+        "meaningZh": "含蓄的"
       }
     ],
     "tags": [
@@ -1330,14 +1757,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "consequence",
-        "noteZh": "指可能的後果"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_implore",
@@ -1351,14 +1771,16 @@
       {
         "id": "s_implore_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "to beg someone earnestly or desperately to do something",
         "definitionZh": "懇求；哀求",
         "usageExplanationZh": "常接 to do something，如 implore someone to stay，語氣比 ask 強烈許多，帶有絕望懇切的情感。",
-        "examples": [
-          {
-            "en": "She implored him not to leave without saying goodbye.",
-            "zh": "她懇求他別不告而別。"
-          }
+        "grammarPatterns": [
+          "implore sb to + V",
+          "implore sb not to + V"
         ],
         "collocations": [
           {
@@ -1369,9 +1791,22 @@
             "text": "implore someone for help",
             "meaningZh": "向某人懇求援助"
           }
+        ],
+        "examples": [
+          {
+            "en": "She implored him not to leave without saying goodbye.",
+            "zh": "她懇求他別不告而別。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "beg",
+        "noteZh": "懇求"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1382,14 +1817,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "beg",
-        "noteZh": "懇求"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_impose",
@@ -1403,14 +1831,16 @@
       {
         "id": "s_impose_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to force something to be accepted or put in place, especially a rule, tax, or opinion",
         "definitionZh": "強加；施加（規則、稅賦或意見）",
         "usageExplanationZh": "常接 on，如 impose a tax on，也可用 impose oneself on someone（強行打擾某人）。",
-        "examples": [
-          {
-            "en": "The government decided to impose a new tax on imported goods.",
-            "zh": "政府決定對進口商品課徵新稅。"
-          }
+        "grammarPatterns": [
+          "impose sth on + noun",
+          "impose a tax on + noun"
         ],
         "collocations": [
           {
@@ -1421,7 +1851,27 @@
             "text": "impose restrictions on",
             "meaningZh": "對某事施加限制"
           }
+        ],
+        "examples": [
+          {
+            "en": "The government decided to impose a new tax on imported goods.",
+            "zh": "政府決定對進口商品課徵新稅。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "enforce",
+        "noteZh": "指強制施行規則"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "imposition",
+        "partOfSpeech": "noun",
+        "meaningZh": "強加"
       }
     ],
     "tags": [
@@ -1436,14 +1886,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "enforce",
-        "noteZh": "指強制施行規則"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_impression",
@@ -1457,14 +1900,16 @@
       {
         "id": "s_impression_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "an idea or feeling about someone or something, based on how they appear",
         "definitionZh": "印象；感覺",
         "usageExplanationZh": "常見 make a good impression（留下好印象）、under the impression that...（誤以為）。",
-        "examples": [
-          {
-            "en": "She made a great first impression during the interview.",
-            "zh": "她在面試中留下了絕佳的第一印象。"
-          }
+        "grammarPatterns": [
+          "make a good impression on sb",
+          "the impression that + clause",
+          "give the impression of + V-ing"
         ],
         "collocations": [
           {
@@ -1475,7 +1920,37 @@
             "text": "be under the impression that",
             "meaningZh": "以為；有某種印象"
           }
+        ],
+        "examples": [
+          {
+            "en": "She made a great first impression during the interview.",
+            "zh": "她在面試中留下了絕佳的第一印象。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "perception",
+        "noteZh": "看法或印象"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "impress",
+        "partOfSpeech": "verb",
+        "meaningZh": "使印象深刻"
+      },
+      {
+        "lemma": "impressive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "令人印象深刻的"
+      },
+      {
+        "lemma": "impressionable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "易受影響的"
       }
     ],
     "tags": [
@@ -1488,14 +1963,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "perception",
-        "noteZh": "看法或印象"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_impressive",
@@ -1509,14 +1977,15 @@
       {
         "id": "s_impressive_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "evoking admiration through size, quality, or skill",
         "definitionZh": "令人印象深刻的；出色的",
         "usageExplanationZh": "常修飾成就、表演或能力，如 an impressive performance，語氣正面。",
-        "examples": [
-          {
-            "en": "His fluency in five languages is truly impressive.",
-            "zh": "他能流利地說五種語言，實在令人印象深刻。"
-          }
+        "grammarPatterns": [
+          "an impressive + noun",
+          "truly impressive"
         ],
         "collocations": [
           {
@@ -1527,7 +1996,42 @@
             "text": "an impressive performance",
             "meaningZh": "出色的表現"
           }
+        ],
+        "examples": [
+          {
+            "en": "His fluency in five languages is truly impressive.",
+            "zh": "他能流利地說五種語言，實在令人印象深刻。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "remarkable",
+        "noteZh": "非凡而令人印象深刻的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "unimpressive",
+        "noteZh": "無法留下深刻印象的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "impress",
+        "partOfSpeech": "verb",
+        "meaningZh": "使印象深刻"
+      },
+      {
+        "lemma": "impression",
+        "partOfSpeech": "noun",
+        "meaningZh": "印象"
+      },
+      {
+        "lemma": "impressively",
+        "partOfSpeech": "adverb",
+        "meaningZh": "令人印象深刻地"
       }
     ],
     "tags": [
@@ -1541,19 +2045,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "remarkable",
-        "noteZh": "非凡而令人印象深刻的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "unimpressive",
-        "noteZh": "無法留下深刻印象的"
-      }
-    ]
+    }
   },
   {
     "id": "w_imprisonment",
@@ -1567,14 +2059,16 @@
       {
         "id": "s_imprisonment_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "the state of being kept in prison as a punishment",
         "definitionZh": "監禁；入獄",
         "usageExplanationZh": "法律用語，常見 life imprisonment（終身監禁）、a sentence of imprisonment。",
-        "examples": [
-          {
-            "en": "He was sentenced to five years' imprisonment for fraud.",
-            "zh": "他因詐欺罪被判處五年監禁。"
-          }
+        "grammarPatterns": [
+          "be sentenced to imprisonment",
+          "life imprisonment"
         ],
         "collocations": [
           {
@@ -1585,7 +2079,37 @@
             "text": "a term of imprisonment",
             "meaningZh": "一段監禁刑期"
           }
+        ],
+        "examples": [
+          {
+            "en": "He was sentenced to five years' imprisonment for fraud.",
+            "zh": "他因詐欺罪被判處五年監禁。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "incarceration",
+        "noteZh": "監禁"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "release",
+        "noteZh": "釋放"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "imprison",
+        "partOfSpeech": "verb",
+        "meaningZh": "監禁"
+      },
+      {
+        "lemma": "prison",
+        "partOfSpeech": "noun",
+        "meaningZh": "監獄"
       }
     ],
     "tags": [
@@ -1598,19 +2122,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "incarceration",
-        "noteZh": "監禁"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "release",
-        "noteZh": "釋放"
-      }
-    ]
+    }
   },
   {
     "id": "w_improvise",
@@ -1624,14 +2136,15 @@
       {
         "id": "s_improvise_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to create or perform something spontaneously, without preparation",
         "definitionZh": "即興創作；臨場發揮",
         "usageExplanationZh": "常見 improvise a solution（臨場想出解決辦法）；音樂或戲劇領域常指即興演出。",
-        "examples": [
-          {
-            "en": "When the power went out, the band improvised an acoustic set.",
-            "zh": "停電時，樂團臨時即興演出了一場原音演唱。"
-          }
+        "grammarPatterns": [
+          "improvise + noun",
+          "have to improvise"
         ],
         "collocations": [
           {
@@ -1642,7 +2155,32 @@
             "text": "improvise with available materials",
             "meaningZh": "用手邊材料臨時應變"
           }
+        ],
+        "examples": [
+          {
+            "en": "When the power went out, the band improvised an acoustic set.",
+            "zh": "停電時，樂團臨時即興演出了一場原音演唱。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "ad-lib",
+        "noteZh": "即興說話或表演"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "improvisation",
+        "partOfSpeech": "noun",
+        "meaningZh": "即興創作"
+      },
+      {
+        "lemma": "improvisational",
+        "partOfSpeech": "adjective",
+        "meaningZh": "即興的"
       }
     ],
     "tags": [
@@ -1657,14 +2195,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "ad-lib",
-        "noteZh": "即興說話或表演"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_impulse",
@@ -1678,14 +2209,16 @@
       {
         "id": "s_impulse_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a sudden strong desire or urge to act, often without thinking",
         "definitionZh": "衝動；一時的念頭",
         "usageExplanationZh": "常見 act on impulse（憑一時衝動行事）、buy something on impulse（衝動購物）。",
-        "examples": [
-          {
-            "en": "She bought the dress on impulse and later regretted it.",
-            "zh": "她一時衝動買了那件洋裝，後來很後悔。"
-          }
+        "grammarPatterns": [
+          "on impulse",
+          "an impulse to + V",
+          "resist the impulse to + V"
         ],
         "collocations": [
           {
@@ -1696,7 +2229,32 @@
             "text": "resist the impulse to",
             "meaningZh": "克制想做某事的衝動"
           }
+        ],
+        "examples": [
+          {
+            "en": "She bought the dress on impulse and later regretted it.",
+            "zh": "她一時衝動買了那件洋裝，後來很後悔。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "urge",
+        "noteZh": "強烈的衝動"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "impulsive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "衝動的"
+      },
+      {
+        "lemma": "impulsively",
+        "partOfSpeech": "adverb",
+        "meaningZh": "衝動地"
       }
     ],
     "tags": [
@@ -1711,14 +2269,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "urge",
-        "noteZh": "強烈的衝動"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_impulsive",
@@ -1732,14 +2283,15 @@
       {
         "id": "s_impulsive_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "acting or done suddenly without careful thought",
         "definitionZh": "衝動的；不加思索的",
         "usageExplanationZh": "常修飾人的性格或行為，如 an impulsive decision（衝動的決定），語氣中性偏負面。",
-        "examples": [
-          {
-            "en": "His impulsive spending habits often got him into financial trouble.",
-            "zh": "他衝動的消費習慣經常讓他陷入財務困境。"
-          }
+        "grammarPatterns": [
+          "an impulsive + noun",
+          "be impulsive"
         ],
         "collocations": [
           {
@@ -1750,7 +2302,37 @@
             "text": "impulsive behavior",
             "meaningZh": "衝動的行為"
           }
+        ],
+        "examples": [
+          {
+            "en": "His impulsive spending habits often got him into financial trouble.",
+            "zh": "他衝動的消費習慣經常讓他陷入財務困境。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "rash",
+        "noteZh": "衝動欠考慮的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "deliberate",
+        "noteZh": "深思熟慮的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "impulse",
+        "partOfSpeech": "noun",
+        "meaningZh": "衝動"
+      },
+      {
+        "lemma": "impulsiveness",
+        "partOfSpeech": "noun",
+        "meaningZh": "衝動性"
       }
     ],
     "tags": [
@@ -1764,19 +2346,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "rash",
-        "noteZh": "衝動欠考慮的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "deliberate",
-        "noteZh": "深思熟慮的"
-      }
-    ]
+    }
   },
   {
     "id": "w_impunity",
@@ -1790,14 +2360,16 @@
       {
         "id": "s_impunity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "freedom from punishment or unpleasant consequences of an action",
         "definitionZh": "不受懲罰；免受制裁",
         "usageExplanationZh": "常見 with impunity（不受懲罰地），常用於描述有權勢者做壞事卻不受追究的情況。",
-        "examples": [
-          {
-            "en": "Corrupt officials often acted with impunity for years.",
-            "zh": "貪腐官員往往多年不受懲罰地為所欲為。"
-          }
+        "grammarPatterns": [
+          "with impunity",
+          "act with impunity"
         ],
         "collocations": [
           {
@@ -1808,9 +2380,22 @@
             "text": "a culture of impunity",
             "meaningZh": "違法者不受追究的風氣"
           }
+        ],
+        "examples": [
+          {
+            "en": "Corrupt officials often acted with impunity for years.",
+            "zh": "貪腐官員往往多年不受懲罰地為所欲為。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "immunity",
+        "noteZh": "指免受懲罰或法律制裁"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1822,14 +2407,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "immunity",
-        "noteZh": "指免受懲罰或法律制裁"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_inability",
@@ -1843,14 +2421,16 @@
       {
         "id": "s_inability_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the lack of ability or capacity to do something",
         "definitionZh": "無能力；做不到",
         "usageExplanationZh": "常見 inability to do something，如 his inability to communicate clearly（他無法清楚溝通的問題）。",
-        "examples": [
-          {
-            "en": "Her inability to speak the language made the trip difficult.",
-            "zh": "她無法說當地語言，讓這趟旅行變得困難重重。"
-          }
+        "grammarPatterns": [
+          "the inability to + V",
+          "sb's inability to + V"
         ],
         "collocations": [
           {
@@ -1861,7 +2441,42 @@
             "text": "an inability to concentrate",
             "meaningZh": "無法專心"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her inability to speak the language made the trip difficult.",
+            "zh": "她無法說當地語言，讓這趟旅行變得困難重重。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "incapacity",
+        "noteZh": "無能力"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "ability",
+        "noteZh": "能力"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "ability",
+        "partOfSpeech": "noun",
+        "meaningZh": "能力"
+      },
+      {
+        "lemma": "unable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不能的"
+      },
+      {
+        "lemma": "able",
+        "partOfSpeech": "adjective",
+        "meaningZh": "能夠的"
       }
     ],
     "tags": [
@@ -1875,19 +2490,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "incapacity",
-        "noteZh": "無能力"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "ability",
-        "noteZh": "能力"
-      }
-    ]
+    }
   },
   {
     "id": "w_inadequate",
@@ -1901,14 +2504,17 @@
       {
         "id": "s_inadequate_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "not sufficient or good enough for a particular purpose",
         "definitionZh": "不充分的；不足的；不勝任的",
         "usageExplanationZh": "常見 inadequate funding（資金不足）；也可形容人感到自己能力不足，如 feel inadequate。",
-        "examples": [
-          {
-            "en": "The old equipment proved inadequate for the new project.",
-            "zh": "舊設備證明不足以應付這項新專案的需求。"
-          }
+        "grammarPatterns": [
+          "be inadequate for + noun",
+          "prove inadequate",
+          "woefully inadequate"
         ],
         "collocations": [
           {
@@ -1919,7 +2525,37 @@
             "text": "feel inadequate",
             "meaningZh": "覺得自己能力不足"
           }
+        ],
+        "examples": [
+          {
+            "en": "The old equipment proved inadequate for the new project.",
+            "zh": "舊設備證明不足以應付這項新專案的需求。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "insufficient",
+        "noteZh": "不足的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "adequate",
+        "noteZh": "足夠的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "adequate",
+        "partOfSpeech": "adjective",
+        "meaningZh": "足夠的"
+      },
+      {
+        "lemma": "inadequacy",
+        "partOfSpeech": "noun",
+        "meaningZh": "不足"
       }
     ],
     "tags": [
@@ -1933,19 +2569,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "insufficient",
-        "noteZh": "不足的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "adequate",
-        "noteZh": "足夠的"
-      }
-    ]
+    }
   },
   {
     "id": "w_inanimate",
@@ -1959,14 +2583,16 @@
       {
         "id": "s_inanimate_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "not alive, especially not in the way people, animals, and plants are",
         "definitionZh": "無生命的；非生物的",
         "usageExplanationZh": "常見 an inanimate object（無生命的物體），與 animate（有生命的）相對，多用於哲學或語言學語境。",
-        "examples": [
-          {
-            "en": "The room was full of inanimate objects like furniture and boxes.",
-            "zh": "房間裡擺滿了像家具和箱子這樣的無生命物體。"
-          }
+        "grammarPatterns": [
+          "an inanimate + noun",
+          "inanimate objects"
         ],
         "collocations": [
           {
@@ -1977,7 +2603,37 @@
             "text": "inanimate matter",
             "meaningZh": "非生物物質"
           }
+        ],
+        "examples": [
+          {
+            "en": "The room was full of inanimate objects like furniture and boxes.",
+            "zh": "房間裡擺滿了像家具和箱子這樣的無生命物體。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "lifeless",
+        "noteZh": "無生命的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "animate",
+        "noteZh": "有生命的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "animate",
+        "partOfSpeech": "verb",
+        "meaningZh": "賦予生命"
+      },
+      {
+        "lemma": "animation",
+        "partOfSpeech": "noun",
+        "meaningZh": "動畫；生氣"
       }
     ],
     "tags": [
@@ -1991,19 +2647,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "lifeless",
-        "noteZh": "無生命的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "animate",
-        "noteZh": "有生命的"
-      }
-    ]
+    }
   },
   {
     "id": "w_inappropriate",
@@ -2017,14 +2661,15 @@
       {
         "id": "s_inappropriate_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "not suitable or proper in the circumstances",
         "definitionZh": "不恰當的；不合適的",
         "usageExplanationZh": "常見 inappropriate behavior（不當行為），語氣正式，常見於職場或禮儀相關語境。",
-        "examples": [
-          {
-            "en": "Wearing casual clothes to the funeral would be inappropriate.",
-            "zh": "穿便服參加葬禮是不恰當的。"
-          }
+        "grammarPatterns": [
+          "be inappropriate for + noun",
+          "it is inappropriate to + V"
         ],
         "collocations": [
           {
@@ -2035,7 +2680,37 @@
             "text": "inappropriate for children",
             "meaningZh": "不適合兒童的"
           }
+        ],
+        "examples": [
+          {
+            "en": "Wearing casual clothes to the funeral would be inappropriate.",
+            "zh": "穿便服參加葬禮是不恰當的。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "unsuitable",
+        "noteZh": "不合適的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "appropriate",
+        "noteZh": "合適的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "appropriate",
+        "partOfSpeech": "adjective",
+        "meaningZh": "適當的"
+      },
+      {
+        "lemma": "inappropriately",
+        "partOfSpeech": "adverb",
+        "meaningZh": "不恰當地"
       }
     ],
     "tags": [
@@ -2048,19 +2723,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "unsuitable",
-        "noteZh": "不合適的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "appropriate",
-        "noteZh": "合適的"
-      }
-    ]
+    }
   },
   {
     "id": "w_inaugural",
@@ -2074,14 +2737,15 @@
       {
         "id": "s_inaugural_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "marking the beginning of an organization, activity, or period of office",
         "definitionZh": "就職的；創始的；首次的",
         "usageExplanationZh": "常見 inaugural speech（就職演說）、inaugural meeting（首次會議），語氣正式莊重。",
-        "examples": [
-          {
-            "en": "The mayor delivered her inaugural address to a large crowd.",
-            "zh": "市長向大批群眾發表了她的就職演說。"
-          }
+        "grammarPatterns": [
+          "the inaugural + noun",
+          "an inaugural address"
         ],
         "collocations": [
           {
@@ -2092,7 +2756,32 @@
             "text": "an inaugural meeting",
             "meaningZh": "成立大會"
           }
+        ],
+        "examples": [
+          {
+            "en": "The mayor delivered her inaugural address to a large crowd.",
+            "zh": "市長向大批群眾發表了她的就職演說。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "first",
+        "noteZh": "首次的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "inaugurate",
+        "partOfSpeech": "verb",
+        "meaningZh": "為……舉行就職典禮"
+      },
+      {
+        "lemma": "inauguration",
+        "partOfSpeech": "noun",
+        "meaningZh": "就職典禮"
       }
     ],
     "tags": [
@@ -2105,14 +2794,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "first",
-        "noteZh": "首次的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_incarcerate",
@@ -2126,14 +2808,16 @@
       {
         "id": "s_incarcerate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to imprison or confine someone",
         "definitionZh": "監禁；關押",
         "usageExplanationZh": "比 imprison 更正式，常見於法律或新聞報導，如 be incarcerated for a crime。",
-        "examples": [
-          {
-            "en": "He was incarcerated for three years following his conviction.",
-            "zh": "他被判刑後遭監禁了三年。"
-          }
+        "grammarPatterns": [
+          "incarcerate sb",
+          "be incarcerated for + noun"
         ],
         "collocations": [
           {
@@ -2144,7 +2828,32 @@
             "text": "be incarcerated in prison",
             "meaningZh": "被關在監獄中"
           }
+        ],
+        "examples": [
+          {
+            "en": "He was incarcerated for three years following his conviction.",
+            "zh": "他被判刑後遭監禁了三年。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "imprison",
+        "noteZh": "監禁"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "release",
+        "noteZh": "釋放"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "incarceration",
+        "partOfSpeech": "noun",
+        "meaningZh": "監禁"
       }
     ],
     "tags": [
@@ -2158,19 +2867,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "imprison",
-        "noteZh": "監禁"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "release",
-        "noteZh": "釋放"
-      }
-    ]
+    }
   },
   {
     "id": "w_incentive",
@@ -2184,14 +2881,17 @@
       {
         "id": "s_incentive_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "something that motivates or encourages someone to do something",
         "definitionZh": "誘因；獎勵；激勵措施",
         "usageExplanationZh": "常見 tax incentive（稅務優惠）、financial incentive（經濟誘因），商業與政策語境常用。",
-        "examples": [
-          {
-            "en": "The company offers financial incentives to employees who exceed their goals.",
-            "zh": "這家公司為達成目標以上的員工提供經濟獎勵。"
-          }
+        "grammarPatterns": [
+          "an incentive to + V",
+          "offer incentives for + noun",
+          "financial incentives"
         ],
         "collocations": [
           {
@@ -2202,7 +2902,32 @@
             "text": "an incentive to work",
             "meaningZh": "工作的誘因"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company offers financial incentives to employees who exceed their goals.",
+            "zh": "這家公司為達成目標以上的員工提供經濟獎勵。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "motivation",
+        "noteZh": "促使行動的動機"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "disincentive",
+        "noteZh": "降低意願的因素"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "incentivize",
+        "partOfSpeech": "verb",
+        "meaningZh": "提供誘因；激勵"
       }
     ],
     "tags": [
@@ -2217,19 +2942,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "motivation",
-        "noteZh": "促使行動的動機"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "disincentive",
-        "noteZh": "降低意願的因素"
-      }
-    ]
+    }
   },
   {
     "id": "w_inception",
@@ -2243,14 +2956,16 @@
       {
         "id": "s_inception_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "the beginning or establishment of an organization or activity",
         "definitionZh": "開始；創立；起始",
         "usageExplanationZh": "常見 since its inception（自成立以來），語氣正式，常見於機構或計畫的歷史敘述。",
-        "examples": [
-          {
-            "en": "The company has grown significantly since its inception in 2005.",
-            "zh": "這家公司自 2005 年成立以來已大幅成長。"
-          }
+        "grammarPatterns": [
+          "since its inception",
+          "at the inception of + noun"
         ],
         "collocations": [
           {
@@ -2261,7 +2976,25 @@
             "text": "at the inception of",
             "meaningZh": "在某事開始之時"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company has grown significantly since its inception in 2005.",
+            "zh": "這家公司自 2005 年成立以來已大幅成長。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "beginning",
+        "noteZh": "開始"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "termination",
+        "noteZh": "終止"
       }
     ],
     "tags": [
@@ -2274,19 +3007,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "beginning",
-        "noteZh": "開始"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "termination",
-        "noteZh": "終止"
-      }
-    ]
+    }
   },
   {
     "id": "w_incessant",
@@ -2300,14 +3021,16 @@
       {
         "id": "s_incessant_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "continuing without pause or interruption",
         "definitionZh": "不斷的；不停的",
         "usageExplanationZh": "常修飾令人厭煩的持續事物，如 incessant noise（不停的噪音），語氣帶輕微負面。",
-        "examples": [
-          {
-            "en": "The incessant rain made the roads impossible to travel.",
-            "zh": "不停的降雨讓道路根本無法通行。"
-          }
+        "grammarPatterns": [
+          "incessant + noun",
+          "almost incessant"
         ],
         "collocations": [
           {
@@ -2318,7 +3041,32 @@
             "text": "incessant noise",
             "meaningZh": "持續不斷的噪音"
           }
+        ],
+        "examples": [
+          {
+            "en": "The incessant rain made the roads impossible to travel.",
+            "zh": "不停的降雨讓道路根本無法通行。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "constant",
+        "noteZh": "不停的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "intermittent",
+        "noteZh": "斷斷續續的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "incessantly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "不停地"
       }
     ],
     "tags": [
@@ -2332,19 +3080,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "constant",
-        "noteZh": "不停的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "intermittent",
-        "noteZh": "斷斷續續的"
-      }
-    ]
+    }
   },
   {
     "id": "w_inchoate",
@@ -2358,14 +3094,16 @@
       {
         "id": "s_inchoate_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "just begun and not yet fully formed or developed",
         "definitionZh": "初步的；未成形的",
         "usageExplanationZh": "語氣書面正式，常修飾 idea、plan 等尚在雛形階段的事物，日常口語極少使用。",
-        "examples": [
-          {
-            "en": "Her idea for the novel was still inchoate and needed more development.",
-            "zh": "她這部小說的構想還只是雛形，需要進一步發展。"
-          }
+        "grammarPatterns": [
+          "an inchoate + noun",
+          "still inchoate"
         ],
         "collocations": [
           {
@@ -2376,7 +3114,25 @@
             "text": "inchoate fears",
             "meaningZh": "模糊未明的恐懼"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her idea for the novel was still inchoate and needed more development.",
+            "zh": "她這部小說的構想還只是雛形，需要進一步發展。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "undeveloped",
+        "noteZh": "未成形的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "developed",
+        "noteZh": "充分發展的"
       }
     ],
     "tags": [
@@ -2389,19 +3145,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "undeveloped",
-        "noteZh": "未成形的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "developed",
-        "noteZh": "充分發展的"
-      }
-    ]
+    }
   },
   {
     "id": "w_incidence",
@@ -2415,14 +3159,16 @@
       {
         "id": "s_incidence_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "the frequency or rate of occurrence of something, especially something undesirable",
         "definitionZh": "發生率；發生次數",
         "usageExplanationZh": "常見 the incidence of a disease（疾病的發生率），常用於統計或醫學語境。",
-        "examples": [
-          {
-            "en": "The incidence of the disease has decreased significantly with vaccination.",
-            "zh": "接種疫苗後，這種疾病的發生率已顯著下降。"
-          }
+        "grammarPatterns": [
+          "the incidence of + noun",
+          "a high incidence of + noun"
         ],
         "collocations": [
           {
@@ -2433,7 +3179,32 @@
             "text": "the incidence of disease",
             "meaningZh": "疾病發生率"
           }
+        ],
+        "examples": [
+          {
+            "en": "The incidence of the disease has decreased significantly with vaccination.",
+            "zh": "接種疫苗後，這種疾病的發生率已顯著下降。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "frequency",
+        "noteZh": "發生頻率"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "incident",
+        "partOfSpeech": "noun",
+        "meaningZh": "事件"
+      },
+      {
+        "lemma": "incidental",
+        "partOfSpeech": "adjective",
+        "meaningZh": "附帶的"
       }
     ],
     "tags": [
@@ -2448,14 +3219,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "frequency",
-        "noteZh": "發生頻率"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_incident",
@@ -2469,14 +3233,16 @@
       {
         "id": "s_incident_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "an event, especially one that is unusual, unpleasant, or noteworthy",
         "definitionZh": "事件；事故",
         "usageExplanationZh": "常見 a minor incident（一起小事故）；也用於外交或安全語境，如 a diplomatic incident。",
-        "examples": [
-          {
-            "en": "Police were called to investigate the incident at the parking lot.",
-            "zh": "警方被叫去調查停車場的這起事件。"
-          }
+        "grammarPatterns": [
+          "an incident at + noun",
+          "investigate an incident",
+          "without incident"
         ],
         "collocations": [
           {
@@ -2487,26 +3253,59 @@
             "text": "an isolated incident",
             "meaningZh": "單一偶發事件"
           }
+        ],
+        "examples": [
+          {
+            "en": "Police were called to investigate the incident at the parking lot.",
+            "zh": "警方被叫去調查停車場的這起事件。"
+          }
         ]
       },
       {
         "id": "s_incident_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "naturally accompanying or related to something else, especially as a secondary effect",
         "definitionZh": "附帶發生的；伴隨而來的",
         "usageExplanationZh": "較少見用法，常見固定片語 incident to，強調某事作為另一事件自然伴隨的結果，多見於正式或法律文本。",
-        "examples": [
-          {
-            "en": "The risks incident to travel should not be underestimated.",
-            "zh": "旅行所伴隨而來的風險不應被低估。"
-          }
+        "grammarPatterns": [
+          "be incident to + noun",
+          "the risks incident to + noun"
         ],
         "collocations": [
           {
             "text": "risks incident to travel",
             "meaningZh": "旅行伴隨的風險"
           }
+        ],
+        "examples": [
+          {
+            "en": "The risks incident to travel should not be underestimated.",
+            "zh": "旅行所伴隨而來的風險不應被低估。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "event",
+        "noteZh": "名詞：事件"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "incidental",
+        "partOfSpeech": "adjective",
+        "meaningZh": "附帶的"
+      },
+      {
+        "lemma": "incidentally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "順帶一提"
       }
     ],
     "tags": [
@@ -2519,14 +3318,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "event",
-        "noteZh": "名詞：事件"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_incidentally",
@@ -2540,14 +3332,15 @@
       {
         "id": "s_incidentally_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "spoken",
+          "informal"
+        ],
         "definitionEn": "used to introduce a related but less important point, or by chance",
         "definitionZh": "順帶一提；附帶地",
         "usageExplanationZh": "常置句首作插入語，如 Incidentally, I forgot to mention...，用於引出補充資訊。",
-        "examples": [
-          {
-            "en": "Incidentally, the meeting has been moved to Thursday.",
-            "zh": "順帶一提，會議已改到週四舉行。"
-          }
+        "grammarPatterns": [
+          "Incidentally, + clause"
         ],
         "collocations": [
           {
@@ -2558,7 +3351,32 @@
             "text": "discovered incidentally",
             "meaningZh": "偶然發現的"
           }
+        ],
+        "examples": [
+          {
+            "en": "Incidentally, the meeting has been moved to Thursday.",
+            "zh": "順帶一提，會議已改到週四舉行。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "by the way",
+        "noteZh": "用於引入題外話"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "incidental",
+        "partOfSpeech": "adjective",
+        "meaningZh": "附帶的"
+      },
+      {
+        "lemma": "incident",
+        "partOfSpeech": "noun",
+        "meaningZh": "事件"
       }
     ],
     "tags": [
@@ -2572,14 +3390,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "by the way",
-        "noteZh": "用於引入題外話"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_incipient",
@@ -2593,14 +3404,16 @@
       {
         "id": "s_incipient_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "in an initial stage; beginning to happen or develop",
         "definitionZh": "初期的；剛萌芽的",
         "usageExplanationZh": "常修飾抽象事物，如 an incipient crisis（初現端倪的危機），語氣正式書面。",
-        "examples": [
-          {
-            "en": "Doctors detected signs of an incipient infection.",
-            "zh": "醫生偵測到初期感染的跡象。"
-          }
+        "grammarPatterns": [
+          "an incipient + noun",
+          "signs of an incipient + noun"
         ],
         "collocations": [
           {
@@ -2611,7 +3424,25 @@
             "text": "incipient rebellion",
             "meaningZh": "初萌的叛亂"
           }
+        ],
+        "examples": [
+          {
+            "en": "Doctors detected signs of an incipient infection.",
+            "zh": "醫生偵測到初期感染的跡象。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "emerging",
+        "noteZh": "初現的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "fully developed",
+        "noteZh": "充分發展的"
       }
     ],
     "tags": [
@@ -2626,19 +3457,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "emerging",
-        "noteZh": "初現的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "fully developed",
-        "noteZh": "充分發展的"
-      }
-    ]
+    }
   },
   {
     "id": "w_incision",
@@ -2652,14 +3471,16 @@
       {
         "id": "s_incision_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a cut made into tissue or an organ, especially during surgery",
         "definitionZh": "（外科手術的）切口",
         "usageExplanationZh": "醫學用語，常見 make an incision（開刀切口），語氣正式且技術性。",
-        "examples": [
-          {
-            "en": "The surgeon made a small incision to remove the appendix.",
-            "zh": "外科醫生開了一個小切口以摘除闌尾。"
-          }
+        "grammarPatterns": [
+          "make an incision",
+          "a small incision in + noun"
         ],
         "collocations": [
           {
@@ -2670,7 +3491,32 @@
             "text": "a surgical incision",
             "meaningZh": "外科手術切口"
           }
+        ],
+        "examples": [
+          {
+            "en": "The surgeon made a small incision to remove the appendix.",
+            "zh": "外科醫生開了一個小切口以摘除闌尾。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "cut",
+        "noteZh": "切口"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "incise",
+        "partOfSpeech": "verb",
+        "meaningZh": "切開；雕刻"
+      },
+      {
+        "lemma": "incisive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "犀利的"
       }
     ],
     "tags": [
@@ -2683,14 +3529,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cut",
-        "noteZh": "切口"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_inclusive",
@@ -2704,14 +3543,15 @@
       {
         "id": "s_inclusive_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "including everyone or everything, especially without discrimination",
         "definitionZh": "包容的；涵蓋在內的",
         "usageExplanationZh": "常見 an inclusive environment（包容的環境）；也可指價格已含所有費用，如 all-inclusive。",
-        "examples": [
-          {
-            "en": "The school aims to create an inclusive environment for all students.",
-            "zh": "這所學校致力於為所有學生創造一個包容的環境。"
-          }
+        "grammarPatterns": [
+          "an inclusive + noun",
+          "be inclusive of + noun"
         ],
         "collocations": [
           {
@@ -2722,7 +3562,42 @@
             "text": "inclusive of tax",
             "meaningZh": "包含稅金的"
           }
+        ],
+        "examples": [
+          {
+            "en": "The school aims to create an inclusive environment for all students.",
+            "zh": "這所學校致力於為所有學生創造一個包容的環境。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "comprehensive",
+        "noteZh": "涵蓋全面的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "exclusive",
+        "noteZh": "排外的或不包括其他人的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "include",
+        "partOfSpeech": "verb",
+        "meaningZh": "包括"
+      },
+      {
+        "lemma": "inclusion",
+        "partOfSpeech": "noun",
+        "meaningZh": "包含"
+      },
+      {
+        "lemma": "inclusively",
+        "partOfSpeech": "adverb",
+        "meaningZh": "包括地"
       }
     ],
     "tags": [
@@ -2737,19 +3612,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "comprehensive",
-        "noteZh": "涵蓋全面的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "exclusive",
-        "noteZh": "排外的或不包括其他人的"
-      }
-    ]
+    }
   },
   {
     "id": "w_incoming",
@@ -2763,14 +3626,15 @@
       {
         "id": "s_incoming_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "arriving or about to arrive, or about to begin a term of office",
         "definitionZh": "即將到來的；來電（來訊）的；即將上任的",
         "usageExplanationZh": "常見 incoming call（來電）、incoming president（即將上任的總統）。",
-        "examples": [
-          {
-            "en": "She screened the incoming calls before answering.",
-            "zh": "她先篩選來電，再決定要不要接聽。"
-          }
+        "grammarPatterns": [
+          "incoming + noun"
         ],
         "collocations": [
           {
@@ -2781,7 +3645,25 @@
             "text": "the incoming president",
             "meaningZh": "即將上任的總統"
           }
+        ],
+        "examples": [
+          {
+            "en": "She screened the incoming calls before answering.",
+            "zh": "她先篩選來電，再決定要不要接聽。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "arriving",
+        "noteZh": "即將抵達的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "outgoing",
+        "noteZh": "外出的或即將卸任的"
       }
     ],
     "tags": [
@@ -2794,19 +3676,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "arriving",
-        "noteZh": "即將抵達的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "outgoing",
-        "noteZh": "外出的或即將卸任的"
-      }
-    ]
+    }
   },
   {
     "id": "w_incompetent",
@@ -2820,14 +3690,15 @@
       {
         "id": "s_incompetent_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "lacking the necessary skills or ability to do something properly",
         "definitionZh": "無能的；不勝任的",
         "usageExplanationZh": "常修飾人或表現，如 an incompetent employee，語氣帶負面評價。",
-        "examples": [
-          {
-            "en": "The new manager was widely seen as incompetent.",
-            "zh": "新任經理普遍被認為能力不足。"
-          }
+        "grammarPatterns": [
+          "an incompetent + noun",
+          "be seen as incompetent"
         ],
         "collocations": [
           {
@@ -2838,26 +3709,63 @@
             "text": "professionally incompetent",
             "meaningZh": "專業能力不足的"
           }
+        ],
+        "examples": [
+          {
+            "en": "The new manager was widely seen as incompetent.",
+            "zh": "新任經理普遍被認為能力不足。"
+          }
         ]
       },
       {
         "id": "s_incompetent_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a person who lacks the necessary skills or ability",
         "definitionZh": "無能的人",
         "usageExplanationZh": "名詞用法帶強烈負面意味，語氣直接，使用時需留意場合。",
-        "examples": [
-          {
-            "en": "He was fired for being an incompetent who couldn't meet deadlines.",
-            "zh": "他因為是個無法準時完成工作的無能之人而被解雇。"
-          }
+        "grammarPatterns": [
+          "a complete incompetent",
+          "be an incompetent"
         ],
         "collocations": [
           {
             "text": "a complete incompetent",
             "meaningZh": "完全無能的人"
           }
+        ],
+        "examples": [
+          {
+            "en": "He was fired for being an incompetent who couldn't meet deadlines.",
+            "zh": "他因為是個無法準時完成工作的無能之人而被解雇。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "inept",
+        "noteZh": "形容詞：無能的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "competent",
+        "noteZh": "形容詞：有能力的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "incompetence",
+        "partOfSpeech": "noun",
+        "meaningZh": "無能"
+      },
+      {
+        "lemma": "competent",
+        "partOfSpeech": "adjective",
+        "meaningZh": "能勝任的"
       }
     ],
     "tags": [
@@ -2871,18 +3779,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "inept",
-        "noteZh": "形容詞：無能的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "competent",
-        "noteZh": "形容詞：有能力的"
-      }
-    ]
+    }
   }
 ]

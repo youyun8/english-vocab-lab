@@ -6,10 +6,15 @@ import {
 } from '@/domain/vocabulary';
 
 import { CollocationList } from './Collocations';
-import { CommonMistakeList } from './CommonMistakes';
 import { ExampleSentenceView } from './ExampleSentence';
 import { GrammarPatternList } from './GrammarPatterns';
 
+/**
+ * One sense of a word, laid out to a fixed spec so every entry in the corpus
+ * reads the same way: 詞性與語域 → 英文釋義 → 中文釋義 → 用法解析 → 文法句型 →
+ * 常用用法與片語 → 例句 → 使用注意. A section is omitted only when the data for
+ * it is genuinely absent; the order never varies between words.
+ */
 export function SenseSection({
   sense,
   index,
@@ -30,7 +35,7 @@ export function SenseSection({
         <span lang="en" className="text-xs text-ink-500 italic">
           {sense.partOfSpeech}
         </span>
-        {(sense.register ?? []).map((register) => (
+        {sense.register.map((register) => (
           <Badge key={register} tone="muted">
             {registerLabelZh[register]}
           </Badge>
@@ -52,12 +57,10 @@ export function SenseSection({
         </div>
       ) : null}
 
-      {sense.grammarPatterns && sense.grammarPatterns.length > 0 ? (
-        <div className="mt-5">
-          <SectionHeading>文法句型 · Grammar patterns</SectionHeading>
-          <GrammarPatternList patterns={sense.grammarPatterns} />
-        </div>
-      ) : null}
+      <div className="mt-5">
+        <SectionHeading>文法句型 · Grammar patterns</SectionHeading>
+        <GrammarPatternList patterns={sense.grammarPatterns} />
+      </div>
 
       {sense.collocations && sense.collocations.length > 0 ? (
         <div className="mt-5">
@@ -87,13 +90,6 @@ export function SenseSection({
               <li key={note}>{note}</li>
             ))}
           </ul>
-        </div>
-      ) : null}
-
-      {sense.commonMistakes && sense.commonMistakes.length > 0 ? (
-        <div className="mt-5">
-          <SectionHeading>常見錯誤 · Common mistakes</SectionHeading>
-          <CommonMistakeList mistakes={sense.commonMistakes} />
         </div>
       ) : null}
     </section>

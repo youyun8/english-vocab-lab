@@ -6,31 +6,32 @@
     "wordIds": [
       "w_sanction"
     ],
-    "prompt": "In which sentence does \"sanction\" mean \"officially approve\"?",
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "No payment of that size may be authorised without the express ____ of the finance committee, and any officer who ignores the rule faces dismissal.",
     "options": [
       {
         "id": "a",
-        "text": "The board sanctioned the new pay scale after a long debate."
+        "text": "penalty"
       },
       {
         "id": "b",
-        "text": "The alliance sanctioned the country for breaching the treaty."
+        "text": "sanction"
       },
       {
         "id": "c",
-        "text": "Several trading partners imposed sanctions on the exporter."
+        "text": "embargo"
       },
       {
         "id": "d",
-        "text": "The sanctions were lifted once the inspectors were admitted."
+        "text": "concession"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "sanction 是少見的「反義同形字」：當及物動詞用於規則、決策時是「批准」，用於國家或個人時是「制裁」，名詞複數 sanctions 幾乎一律是「制裁」。這裡董事會核准薪資級距，屬於「批准」。",
+    "correctOptionId": "b",
+    "explanation": "sanction 是著名的反義同形字：複數的 sanctions 幾乎一律指制裁，但單數不可數時（official sanction、without the sanction of…）指的是官方核准。此處 without the express ____ of the committee 需要的正是「核准」這一義。",
     "distractorExplanations": {
-      "b": "這裡的 sanction 是「制裁、處罰」，因為對象是違約的國家。",
-      "c": "名詞複數 sanctions 指「制裁措施」，不是批准。",
-      "d": "lift sanctions 是「解除制裁」，同樣是處罰的意思。"
+      "a": "penalty 是對違規者施加的處罰，句意會變成「未經委員會處罰就不得付款」，邏輯不通。",
+      "c": "embargo 專指禁運或禁令，是一種限制而非許可，而且要說 impose an embargo on something。",
+      "d": "concession 指談判中的讓步或政府特許經營權，不用來指例行的核准程序。"
     },
     "difficulty": 4,
     "tags": [
@@ -47,33 +48,34 @@
     "wordIds": [
       "w_impede"
     ],
-    "prompt": "Which sentence uses \"impede\" most naturally?",
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "Poor labelling of the samples seriously ____ the investigation, forcing the team to repeat three months of work before any conclusions could be drawn.",
     "options": [
       {
         "id": "a",
-        "text": "Heavy rain impeded the rescue effort for two days."
+        "text": "deterred"
       },
       {
         "id": "b",
-        "text": "The manager impeded the report to the board on Friday."
+        "text": "discouraged"
       },
       {
         "id": "c",
-        "text": "She impeded from the meeting before it ended."
+        "text": "dissuaded"
       },
       {
         "id": "d",
-        "text": "They impeded the contract for another twelve months."
+        "text": "impeded"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "impede 是及物動詞「妨礙、拖慢（進行中的事）」，主詞常是造成阻礙的因素。",
+    "correctOptionId": "d",
+    "explanation": "impede 的受詞是「正在進行的過程」（impede progress / an investigation），表示使其受阻、變慢但仍在進行；句中調查還得重做三個月的工作，正是被拖慢而非被勸退。",
     "distractorExplanations": {
-      "b": "把報告送交董事會要用 submit 或 present。",
-      "c": "提早離開會議要用 withdraw from 或 leave；impede 不接 from。",
-      "d": "延長合約要用 extend 或 renew。"
+      "a": "deter 作用在「人的意願」上，靠嚇阻使人打消念頭，因此該行為根本不會發生，與調查仍在繼續矛盾。",
+      "b": "discourage 同樣是讓人失去意願，受詞若不是人就得是「被勸退而未發生的行為」，無法描述進度受阻。",
+      "c": "dissuade 的句型固定為 dissuade somebody from doing something，受詞必須是人，不能接 the investigation。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": [
       "usage",
       "exam",
@@ -88,31 +90,32 @@
     "wordIds": [
       "w_curtail"
     ],
-    "prompt": "Which sentence uses \"curtail\" most naturally?",
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "Falling tax receipts forced the ministry to ____ spending on new infrastructure, cutting the programme from twelve projects to four over two years.",
     "options": [
       {
         "id": "a",
-        "text": "The airline curtailed its overseas routes to cut costs."
+        "text": "abbreviate"
       },
       {
         "id": "b",
-        "text": "He curtailed the door quietly behind him as he left."
+        "text": "truncate"
       },
       {
         "id": "c",
-        "text": "We curtailed the old files into a single archive."
+        "text": "curtail"
       },
       {
         "id": "d",
-        "text": "The train curtailed at every small station on the line."
+        "text": "abolish"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "curtail 是「縮減（規模、範圍、權利、支出）」，受詞是抽象的量或活動。",
+    "correctOptionId": "c",
+    "explanation": "curtail 的受詞是可增減的規模、數量或權利（curtail spending / services / freedoms），指「砍到剩下一部分」，與句尾從十二個專案減為四個完全吻合。",
     "distractorExplanations": {
-      "b": "關門要用 closed 或 pulled shut。",
-      "c": "把檔案合併要用 consolidated 或 merged。",
-      "d": "列車停靠要用 stopped；curtail 也不能當不及物動詞。"
+      "a": "abbreviate 只用於把字詞或文句縮短（abbreviate a title），不能以 spending 為受詞。",
+      "b": "truncate 指把末端截掉，受詞多為文字、資料或幾何形體，強調「被切斷」而非有計畫地縮減。",
+      "d": "abolish 是徹底廢除、一個不留，與句中「減為四個」的部分保留互相矛盾。"
     },
     "difficulty": 3,
     "tags": [
@@ -129,33 +132,34 @@
     "wordIds": [
       "w_augment"
     ],
-    "prompt": "Which sentence uses \"augment\" most naturally?",
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "Many junior lecturers ____ their salaries with consultancy work, since the university pay scale has not been revised for almost a decade.",
     "options": [
       {
         "id": "a",
-        "text": "She augmented her income with freelance editing."
+        "text": "compensate"
       },
       {
         "id": "b",
-        "text": "He augmented the meeting until Thursday afternoon."
+        "text": "subsidize"
       },
       {
         "id": "c",
-        "text": "The nurse augmented him a painkiller before the scan."
+        "text": "augment"
       },
       {
         "id": "d",
-        "text": "They augmented from the agreement without warning."
+        "text": "reimburse"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "augment 是正式用語「增添、補強（既有的量）」，常見於 augment income／staff／data。",
+    "correctOptionId": "c",
+    "explanation": "augment 的句型是 augment something with something：被增加的既有數量放在動詞後，用來增補的來源由 with 帶出，augment one’s income 正是最常見的搭配。",
     "distractorExplanations": {
-      "b": "延後會議要用 postpone 或 push back。",
-      "c": "給藥要用 gave 或 administered；augment 不接雙受詞。",
-      "d": "退出協議要用 withdrew from；augment 是及物動詞。"
+      "a": "compensate 的受詞若是人表示「補償某人」，若要說補足不足則須用 compensate for something，不能直接接 salaries。",
+      "b": "subsidize 的主語必須是提供補助的第三方（政府、學校），而不是自己去接案的講師本人。",
+      "d": "reimburse 指把某人已經墊付的費用退還給他，受詞是人（reimburse somebody for something），與加薪無關。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": [
       "usage",
       "exam",
@@ -170,33 +174,34 @@
     "wordIds": [
       "w_bolster"
     ],
-    "prompt": "Which sentence uses \"bolster\" most naturally?",
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "The fresh evidence from the second trial did much to ____ confidence in a drug that regulators had come close to withdrawing last year.",
     "options": [
       {
         "id": "a",
-        "text": "The new evidence bolstered their case considerably."
+        "text": "bolster"
       },
       {
         "id": "b",
-        "text": "The runner bolstered past the finish line in first place."
+        "text": "brace"
       },
       {
         "id": "c",
-        "text": "She bolstered the letter into the envelope and sealed it."
+        "text": "prop"
       },
       {
         "id": "d",
-        "text": "The committee bolstered him of any responsibility."
+        "text": "shore"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "bolster 是「支撐、強化（論點、信心、需求）」，受詞多半是抽象事物。",
+    "explanation": "bolster 是及物動詞，可直接接抽象受詞，bolster confidence in something 是固定搭配，語氣中性，指讓原本存在的信心更穩固。",
     "distractorExplanations": {
-      "b": "bolster 不是移動動詞；衝過終點線要用 surged 或 raced。",
-      "c": "把信放進信封要用 slipped 或 put。",
-      "d": "免除責任要用 cleared him of 或 absolved him of。"
+      "b": "brace 用於撐住實體結構，或以 brace oneself for something 表示做好心理準備，不能直接接 confidence。",
+      "c": "prop 此義必須用片語動詞 prop up，而且常帶有「靠外力勉強硬撐」的負面暗示。",
+      "d": "shore 同樣必須說 shore up something，單獨使用時是名詞「岸」，不具支撐之意。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": [
       "usage",
       "exam",
@@ -211,33 +216,33 @@
     "wordIds": [
       "w_meticulous"
     ],
-    "prompt": "Which sentence uses \"meticulous\" most naturally?",
+    "prompt": "Which sentence uses \"meticulous\" correctly?",
     "options": [
       {
         "id": "a",
-        "text": "He kept meticulous records of every transaction."
+        "text": "She is meticulous with checking every figure against the original invoices."
       },
       {
         "id": "b",
-        "text": "The weather stayed meticulous for the whole trip."
+        "text": "The archivist was meticulous to record the provenance of every single item."
       },
       {
         "id": "c",
-        "text": "She was meticulous to catch the early train."
+        "text": "The report was meticulous of every discrepancy that the auditors had found."
       },
       {
         "id": "d",
-        "text": "They arrived meticulous at the airport with time to spare."
+        "text": "He is meticulous in preparing the monthly accounts, and errors are very rare."
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "meticulous 形容「極度仔細、一絲不苟的（人或其成果）」，常搭配 records、planning、attention to detail。",
+    "correctOptionId": "d",
+    "explanation": "meticulous 有兩個標準句型：meticulous in + 動名詞（在做某事時一絲不苟）與 meticulous about + 名詞（對某事極為講究），另可直接修飾名詞（meticulous records）。",
     "distractorExplanations": {
-      "b": "天氣要用 fine 或 glorious；meticulous 不形容天氣。",
-      "c": "「很想趕上早班車」要用 eager 或 anxious。",
-      "d": "meticulous 不能當副詞修飾 arrived。"
+      "a": "接動名詞時要用 in，不是 with：meticulous in checking every figure。",
+      "b": "meticulous 不接不定詞；要表達「仔細記錄」應說 meticulous in recording the provenance。",
+      "c": "meticulous 不搭配 of；若要帶出講究的對象，介系詞是 about：meticulous about every discrepancy。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": [
       "usage",
       "exam",
@@ -252,33 +257,34 @@
     "wordIds": [
       "w_futile"
     ],
-    "prompt": "Which sentence uses \"futile\" most naturally?",
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "After the third round of talks collapsed, the mediators concluded that further negotiation would be ____ and recommended that the case go to arbitration.",
     "options": [
       {
         "id": "a",
-        "text": "Further negotiation proved futile, so the talks were called off."
+        "text": "futile"
       },
       {
         "id": "b",
-        "text": "The soup tasted futile without any salt in it."
+        "text": "idle"
       },
       {
         "id": "c",
-        "text": "He felt futile about his colleague's promotion."
+        "text": "feeble"
       },
       {
         "id": "d",
-        "text": "The motorway was futile with holiday traffic."
+        "text": "void"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "futile 形容「注定沒有結果的（努力、嘗試）」，常見搭配是 futile attempt／effort／gesture。",
+    "explanation": "futile 形容「不論再怎麼做都不會有結果」的行動，主語限定為 negotiation、attempt、effort 這類行為名詞，正好說明調解人為何改推仲裁。",
     "distractorExplanations": {
-      "b": "湯沒味道要用 bland 或 tasteless。",
-      "c": "對同事升遷的心情要用 resentful 或 envious。",
-      "d": "路上塞車要用 clogged 或 congested。"
+      "b": "idle 此義修飾的是言談（idle talk / threats / speculation），指「說說而已、不會付諸行動」，不用來評斷一項行動有無成效。",
+      "c": "feeble 說的是力道薄弱、不夠有力，一個薄弱的嘗試仍可能奏效，與「注定無用」不同。",
+      "d": "void 屬法律語域，指契約或條款失去效力（null and void），不能用來形容談判本身。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": [
       "usage",
       "exam",
@@ -293,37 +299,38 @@
     "wordIds": [
       "w_mundane"
     ],
-    "prompt": "Which sentence uses \"mundane\" most naturally?",
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "Most of the post is taken up with necessary but ____ administrative chores; the research that first attracted her occupies perhaps one afternoon a week.",
     "options": [
       {
         "id": "a",
-        "text": "Most of the job involves mundane administrative tasks."
+        "text": "trivial"
       },
       {
         "id": "b",
-        "text": "The mundane storm tore the roof off the barn."
+        "text": "menial"
       },
       {
         "id": "c",
-        "text": "He was mundane with anger after reading the email."
+        "text": "mundane"
       },
       {
         "id": "d",
-        "text": "They mundane the same report every quarter."
+        "text": "obscure"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "mundane 是「平淡無奇、例行的」，用來形容日常瑣事。",
+    "correctOptionId": "c",
+    "explanation": "mundane 的評價軸是「有趣／無趣」：指例行、平淡、缺乏刺激的事務，與句中令她嚮往的研究工作形成對照，也與前面的 necessary 並不衝突。",
     "distractorExplanations": {
-      "b": "猛烈的暴風雨要用 violent 或 severe。",
-      "c": "氣得發抖要用 shaking with anger；mundane 不表示情緒。",
-      "d": "mundane 是形容詞，不能當動詞用。"
+      "a": "trivial 的評價軸是「重不重要」，說某事無足輕重，與句中 necessary 直接牴觸。",
+      "b": "menial 指不需技術、地位低下的勞務（打掃、跑腿），帶有貶低身分的意味，不適用於行政事務。",
+      "d": "obscure 指晦澀難懂或默默無名，說的是理解難度或知名度，與工作是否乏味無關。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": [
       "usage",
       "exam",
-      "everyday"
+      "workplace"
     ],
     "source": "curated"
   },
@@ -334,33 +341,34 @@
     "wordIds": [
       "w_erratic"
     ],
-    "prompt": "Which sentence uses \"erratic\" most naturally?",
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "The pump's output became increasingly ____ over the week: it delivered the correct dose twice, then far too little, then nothing at all.",
     "options": [
       {
         "id": "a",
-        "text": "The sensor gave erratic readings all morning."
+        "text": "erroneous"
       },
       {
         "id": "b",
-        "text": "She was erratic to help us with the move."
+        "text": "errant"
       },
       {
         "id": "c",
-        "text": "The book was erratic of useful examples."
+        "text": "eccentric"
       },
       {
         "id": "d",
-        "text": "He erratic the schedule twice a week."
+        "text": "erratic"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "erratic 形容「時好時壞、毫無規律的」，常搭配 readings、behaviour、performance。",
+    "correctOptionId": "d",
+    "explanation": "erratic 說的是「毫無規律、時好時壞、無法預測」，主語可以是機器、表現或天候，冒號後三種截然不同的結果正是這種不規律性。",
     "distractorExplanations": {
-      "b": "樂意幫忙要用 willing 或 happy to help。",
-      "c": "「充滿實用範例」要用 full of；erratic 不接 of。",
-      "d": "erratic 是形容詞，不能當動詞；改變時程要用 changed。"
+      "a": "erroneous 指內容有誤（erroneous data / assumption），評斷的是對錯，無法描述忽多忽少的變動。",
+      "b": "errant 指偏離正軌的單一人事物（an errant email、an errant husband），不描述一連串起伏的表現。",
+      "c": "eccentric 形容人的行為舉止古怪，主語限於人，不能用來描述幫浦的輸出。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": [
       "usage",
       "exam",
@@ -375,37 +383,38 @@
     "wordIds": [
       "w_ominous"
     ],
-    "prompt": "Which sentence uses \"ominous\" most naturally?",
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "The sudden silence on the trading floor felt ____; within the hour, three of the largest banks had suspended withdrawals altogether.",
     "options": [
       {
         "id": "a",
-        "text": "The sudden silence in the control room felt ominous."
+        "text": "solemn"
       },
       {
         "id": "b",
-        "text": "The cake was ominous and everyone asked for more."
+        "text": "sombre"
       },
       {
         "id": "c",
-        "text": "She was ominous with the good news all afternoon."
+        "text": "grim"
       },
       {
         "id": "d",
-        "text": "They ominous the storm warning the day before."
+        "text": "ominous"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "ominous 是「不祥的、預示壞事的」，形容氣氛、跡象、雲層等。",
+    "correctOptionId": "d",
+    "explanation": "ominous 的核心是時間指向未來：它說某個跡象「預示壞事將要發生」。後半句在一小時內成真的擠兌，正是這個預兆應驗的結果。",
     "distractorExplanations": {
-      "b": "蛋糕好吃要用 delicious。",
-      "c": "帶著好消息很開心要用 delighted 或 thrilled。",
-      "d": "ominous 是形容詞，不能當動詞；發布警報要用 issued。"
+      "a": "solemn 指莊嚴肅穆的場合氣氛（葬禮、宣誓），是一種鄭重，不含任何不祥的預告。",
+      "b": "sombre 描述當下陰鬱低沉的情緒或色調，說的是此刻的心情，而不是對後續發展的預示。",
+      "c": "grim 評斷的是已經擺在眼前的嚴峻現況或表情（grim news / a grim look），同樣沒有「預兆」的時間指向。"
     },
-    "difficulty": 3,
+    "difficulty": 5,
     "tags": [
       "usage",
       "exam",
-      "everyday"
+      "nuance"
     ],
     "source": "curated"
   },
@@ -416,33 +425,33 @@
     "wordIds": [
       "w_candid"
     ],
-    "prompt": "Which sentence uses \"candid\" most naturally?",
+    "prompt": "Which sentence uses \"candid\" correctly?",
     "options": [
       {
         "id": "a",
-        "text": "In a candid interview, she admitted the project had failed."
+        "text": "The chief executive was unusually candid about the company's cash-flow problems."
       },
       {
         "id": "b",
-        "text": "The candid weather made the outdoor concert a success."
+        "text": "The chief executive was unusually candid of the company's cash-flow problems."
       },
       {
         "id": "c",
-        "text": "He was candid of the train times before we set off."
+        "text": "The chief executive candid the company's cash-flow problems to the whole board."
       },
       {
         "id": "d",
-        "text": "They candid their opinion at the end of the meeting."
+        "text": "The chief executive was candid with admitting that the forecasts had been optimistic."
       }
     ],
     "correctOptionId": "a",
-    "explanation": "candid 是「坦率、不避諱地說出實情的」，常搭配 candid interview／assessment／conversation。",
+    "explanation": "candid 指「對不好開口的事也照實說」，帶出所談主題時固定用 be candid about + 名詞，也可直接修飾名詞（a candid interview / assessment）。",
     "distractorExplanations": {
-      "b": "天氣晴朗要用 fine 或 clear。",
-      "c": "「清楚知道班車時刻」要用 aware of 或 sure of。",
-      "d": "candid 是形容詞；表達意見要用 voiced 或 gave。"
+      "b": "candid 不搭配 of；表示「對某事坦白」的介系詞是 about。",
+      "c": "candid 是形容詞，沒有動詞用法；向董事會說明應改用 disclosed 或 admitted。",
+      "d": "candid with 後面接的是傾訴的對象（be candid with somebody），不能接動名詞；此處應說 candid enough to admit。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": [
       "usage",
       "exam",
@@ -457,33 +466,33 @@
     "wordIds": [
       "w_ensue"
     ],
-    "prompt": "Which sentence uses \"ensue\" most naturally?",
+    "prompt": "Which sentence uses \"ensue\" correctly?",
     "options": [
       {
         "id": "a",
-        "text": "A long argument ensued, and the meeting overran by an hour."
+        "text": "The police ensued a chaotic scene outside the stadium later that evening."
       },
       {
         "id": "b",
-        "text": "They ensued a long argument for almost an hour."
+        "text": "The chaotic scene was ensued by the announcement of the cancellation."
       },
       {
         "id": "c",
-        "text": "The committee was ensued by a long argument."
+        "text": "A chaotic scene ensued as soon as the cancellation was finally announced."
       },
       {
         "id": "d",
-        "text": "She ensued to the argument as politely as she could."
+        "text": "The chaotic scene ensued to the announcement made over the loudspeakers."
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "ensue 是不及物動詞「（隨後）發生」，主詞就是後來發生的那件事，不接受詞，也沒有被動式。",
+    "correctOptionId": "c",
+    "explanation": "ensue 是不及物動詞，主語就是「後來發生的那件事」（chaos ensued、a debate ensued）；它沒有受詞，也沒有被動式，要點明起因時用 ensue from + 名詞。",
     "distractorExplanations": {
-      "b": "ensue 不能接受詞；要說 An argument ensued。",
-      "c": "ensue 沒有被動用法。",
-      "d": "ensue 不接 to；禮貌回應要用 responded to。"
+      "a": "ensue 不能帶受詞；要表達警方的作為應改用 broke up 或 attended。",
+      "b": "ensue 不及物，因此沒有被動式；此處應說 The announcement was followed by a chaotic scene。",
+      "d": "ensue 不搭配 to；交代起因要用 from：a chaotic scene ensued from the announcement。"
     },
-    "difficulty": 4,
+    "difficulty": 3,
     "tags": [
       "usage",
       "exam",
@@ -498,31 +507,32 @@
     "wordIds": [
       "w_emulate"
     ],
-    "prompt": "Which sentence uses \"emulate\" most naturally?",
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "Several younger architects openly seek to ____ the Finnish master whose handling of natural light they studied so closely as students.",
     "options": [
       {
         "id": "a",
-        "text": "Younger designers try to emulate her use of colour."
+        "text": "simulate"
       },
       {
         "id": "b",
-        "text": "The printer emulated to work again after a restart."
+        "text": "emulate"
       },
       {
         "id": "c",
-        "text": "He emulated with his brother over the prize."
+        "text": "replicate"
       },
       {
         "id": "d",
-        "text": "She emulated from the competition after one round."
+        "text": "impersonate"
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "emulate 是及物動詞「效法、以……為榜樣（並設法達到同樣水準）」。",
+    "correctOptionId": "b",
+    "explanation": "emulate 的受詞是令人景仰的人或其成就，意思是「以之為榜樣，設法追上甚至超越」，因此才能接 the Finnish master 這樣的人物受詞。",
     "distractorExplanations": {
-      "b": "機器恢復運作要用 started working；emulate 不接不定詞。",
-      "c": "與人競爭要用 competed with；emulate 不接 with。",
-      "d": "退出比賽要用 withdrew from。"
+      "a": "simulate 指用模型或裝置模擬某種狀態或過程（simulate daylight / an earthquake），受詞不能是一個人。",
+      "c": "replicate 的受詞是可以原樣重現的結果或實驗（replicate the findings），指精確複製，而非見賢思齊。",
+      "d": "impersonate 指假冒他人身分或模仿其言行以娛樂觀眾，語意與語域都與專業上的效法不同。"
     },
     "difficulty": 4,
     "tags": [
@@ -539,37 +549,37 @@
     "wordIds": [
       "w_render"
     ],
-    "prompt": "Which sentence uses \"render\" most naturally?",
+    "prompt": "Which sentence uses \"render\" correctly?",
     "options": [
       {
         "id": "a",
-        "text": "The injury rendered him unable to play for a whole season."
+        "text": "The new ruling rendered the clause to be unenforceable in every member state."
       },
       {
         "id": "b",
-        "text": "The injury rendered to him unable to play for a season."
+        "text": "The new ruling rendered that the clause was unenforceable in every member state."
       },
       {
         "id": "c",
-        "text": "The injury rendered that he was unable to play for a season."
+        "text": "The new ruling rendered the clause as unenforceable in every member state at once."
       },
       {
         "id": "d",
-        "text": "The injury rendered him for unable to play for a season."
+        "text": "The new ruling rendered the clause unenforceable in every member state overnight."
       }
     ],
-    "correctOptionId": "a",
-    "explanation": "render somebody/something + 形容詞 表示「使……變成某狀態」，受詞後面直接接形容詞，中間不加介系詞或連接詞。",
+    "correctOptionId": "d",
+    "explanation": "render 的論元結構是 render + 受詞 + 形容詞（render something useless、render somebody unable to work）：形容詞直接跟在受詞後面當補語，中間不插入任何字。",
     "distractorExplanations": {
-      "b": "render 不接 to；受詞直接跟在動詞後面。",
-      "c": "render 不接 that 子句。",
-      "d": "render 後面不加 for。"
+      "a": "render 不接 to be；補語直接用形容詞即可。接 to be 的是 consider、believe 這類動詞。",
+      "b": "render 不接 that 子句；要用子句必須改寫成 ruled that the clause was unenforceable。",
+      "c": "render 不搭配 as；接 as + 補語的是 regard、describe、see 這類動詞。"
     },
     "difficulty": 3,
     "tags": [
-      "verb-pattern",
+      "usage",
       "exam",
-      "formal"
+      "verb-pattern"
     ],
     "source": "curated"
   }

@@ -11,14 +11,16 @@
       {
         "id": "s_oath_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "a formal promise, especially to tell the truth or fulfill a duty",
         "definitionZh": "誓言；宣誓",
         "usageExplanationZh": "常見 take an oath、under oath（宣誓後作證），語氣正式，常用於法律或就職場合。",
-        "examples": [
-          {
-            "en": "The witness swore an oath to tell the truth.",
-            "zh": "證人宣誓要說出真相。"
-          }
+        "grammarPatterns": [
+          "swear an oath",
+          "under oath"
         ],
         "collocations": [
           {
@@ -29,9 +31,22 @@
             "text": "under oath",
             "meaningZh": "在宣誓後"
           }
+        ],
+        "examples": [
+          {
+            "en": "The witness swore an oath to tell the truth.",
+            "zh": "證人宣誓要說出真相。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "vow",
+        "noteZh": "莊嚴的誓言"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -44,14 +59,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "vow",
-        "noteZh": "莊嚴的誓言"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_obdurate",
@@ -65,21 +73,48 @@
       {
         "id": "s_obdurate_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "stubbornly refusing to change one's opinion or course of action",
         "definitionZh": "固執己見的；頑固不化的",
         "usageExplanationZh": "語氣正式書面，強調即使受到勸說或壓力仍拒絕改變，帶負面意味。",
-        "examples": [
-          {
-            "en": "Despite the criticism, he remained obdurate in his decision.",
-            "zh": "儘管受到批評，他仍然固執己見，不肯改變決定。"
-          }
+        "grammarPatterns": [
+          "remain obdurate",
+          "obdurate in + V-ing"
         ],
         "collocations": [
           {
             "text": "remain obdurate",
             "meaningZh": "依然頑固不化"
           }
+        ],
+        "examples": [
+          {
+            "en": "Despite the criticism, he remained obdurate in his decision.",
+            "zh": "儘管受到批評，他仍然固執己見，不肯改變決定。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "intransigent",
+        "noteZh": "不肯改變立場的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "yielding",
+        "noteZh": "願意讓步的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "obduracy",
+        "partOfSpeech": "noun",
+        "meaningZh": "頑固；固執"
       }
     ],
     "tags": [
@@ -92,19 +127,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "intransigent",
-        "noteZh": "不肯改變立場的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "yielding",
-        "noteZh": "願意讓步的"
-      }
-    ]
+    }
   },
   {
     "id": "w_obedient",
@@ -118,21 +141,57 @@
       {
         "id": "s_obedient_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "willing to comply with orders or requests; submissive to authority",
         "definitionZh": "服從的；聽話的",
         "usageExplanationZh": "常修飾 child、dog、citizen，強調願意遵守命令或規範，與 disobedient 相對。",
-        "examples": [
-          {
-            "en": "The dog is well-trained and obedient.",
-            "zh": "這隻狗訓練有素，非常聽話。"
-          }
+        "grammarPatterns": [
+          "obedient to + somebody",
+          "an obedient + noun"
         ],
         "collocations": [
           {
             "text": "obedient to authority",
             "meaningZh": "服從權威"
           }
+        ],
+        "examples": [
+          {
+            "en": "The dog is well-trained and obedient.",
+            "zh": "這隻狗訓練有素，非常聽話。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "compliant",
+        "noteZh": "願意服從的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "disobedient",
+        "noteZh": "不服從的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "obedience",
+        "partOfSpeech": "noun",
+        "meaningZh": "服從；順從"
+      },
+      {
+        "lemma": "obey",
+        "partOfSpeech": "verb",
+        "meaningZh": "服從；遵守"
+      },
+      {
+        "lemma": "disobedient",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不服從的"
       }
     ],
     "tags": [
@@ -146,19 +205,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "compliant",
-        "noteZh": "願意服從的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "disobedient",
-        "noteZh": "不服從的"
-      }
-    ]
+    }
   },
   {
     "id": "w_obese",
@@ -172,21 +219,38 @@
       {
         "id": "s_obese_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "having excessive body fat to the extent that it may harm health",
         "definitionZh": "肥胖的（醫學定義）",
         "usageExplanationZh": "醫學用語，比 fat 更正式且中性，常見於健康報告，如 clinically obese。",
-        "examples": [
-          {
-            "en": "The report shows a rise in the number of obese children.",
-            "zh": "這份報告顯示肥胖兒童的人數正在增加。"
-          }
+        "grammarPatterns": [
+          "become obese",
+          "obese + noun"
         ],
         "collocations": [
           {
             "text": "clinically obese",
             "meaningZh": "達到醫學肥胖標準的"
           }
+        ],
+        "examples": [
+          {
+            "en": "The report shows a rise in the number of obese children.",
+            "zh": "這份報告顯示肥胖兒童的人數正在增加。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "obesity",
+        "partOfSpeech": "noun",
+        "meaningZh": "肥胖"
       }
     ],
     "tags": [
@@ -199,9 +263,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_objection",
@@ -215,21 +277,52 @@
       {
         "id": "s_objection_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a statement expressing disagreement or opposition to something",
         "definitionZh": "反對；異議",
         "usageExplanationZh": "常見 raise an objection、have no objection，法律情境常用 objection! 表示反對某項證詞。",
-        "examples": [
-          {
-            "en": "The lawyer raised an objection to the witness's testimony.",
-            "zh": "律師對這名證人的證詞提出異議。"
-          }
+        "grammarPatterns": [
+          "raise an objection to + noun",
+          "have no objection to + V-ing"
         ],
         "collocations": [
           {
             "text": "raise an objection",
             "meaningZh": "提出異議"
           }
+        ],
+        "examples": [
+          {
+            "en": "The lawyer raised an objection to the witness's testimony.",
+            "zh": "律師對這名證人的證詞提出異議。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "protest",
+        "noteZh": "表示反對"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "approval",
+        "noteZh": "贊同"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "object",
+        "partOfSpeech": "verb",
+        "meaningZh": "反對；不贊成"
+      },
+      {
+        "lemma": "objectionable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "令人反感的"
       }
     ],
     "tags": [
@@ -244,19 +337,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "protest",
-        "noteZh": "表示反對"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "approval",
-        "noteZh": "贊同"
-      }
-    ]
+    }
   },
   {
     "id": "w_obligation",
@@ -270,21 +351,53 @@
       {
         "id": "s_obligation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "a duty or commitment that one is required to fulfill",
         "definitionZh": "義務；責任",
         "usageExplanationZh": "常見 legal obligation、feel an obligation to，強調基於法律、道德或承諾而必須履行的責任。",
-        "examples": [
-          {
-            "en": "Employers have a legal obligation to provide a safe workplace.",
-            "zh": "雇主有法律義務提供安全的工作場所。"
-          }
+        "grammarPatterns": [
+          "have an obligation to + V",
+          "a legal obligation"
         ],
         "collocations": [
           {
             "text": "a legal obligation",
             "meaningZh": "法律義務"
           }
+        ],
+        "examples": [
+          {
+            "en": "Employers have a legal obligation to provide a safe workplace.",
+            "zh": "雇主有法律義務提供安全的工作場所。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "duty",
+        "noteZh": "應盡的責任"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "oblige",
+        "partOfSpeech": "verb",
+        "meaningZh": "使負有義務"
+      },
+      {
+        "lemma": "obligatory",
+        "partOfSpeech": "adjective",
+        "meaningZh": "強制性的；義務的"
+      },
+      {
+        "lemma": "obligate",
+        "partOfSpeech": "verb",
+        "meaningZh": "使有義務"
       }
     ],
     "tags": [
@@ -299,14 +412,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "duty",
-        "noteZh": "應盡的責任"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_oblige",
@@ -320,14 +426,15 @@
       {
         "id": "s_oblige_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to make someone legally or morally bound to do something, or to do a favor for someone",
         "definitionZh": "使負有義務；（樂於）幫忙",
         "usageExplanationZh": "常見被動 be obliged to（有義務做某事）；主動用法如 happy to oblige，表示樂意幫忙。",
-        "examples": [
-          {
-            "en": "The contract obliges both parties to fulfill their commitments.",
-            "zh": "這份合約使雙方都負有履行承諾的義務。"
-          }
+        "grammarPatterns": [
+          "oblige sb to + V",
+          "be obliged to + V"
         ],
         "collocations": [
           {
@@ -338,7 +445,32 @@
             "text": "happy to oblige",
             "meaningZh": "樂意幫忙"
           }
+        ],
+        "examples": [
+          {
+            "en": "The contract obliges both parties to fulfill their commitments.",
+            "zh": "這份合約使雙方都負有履行承諾的義務。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "compel",
+        "noteZh": "限迫使履行義務義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "obligation",
+        "partOfSpeech": "noun",
+        "meaningZh": "義務；責任"
+      },
+      {
+        "lemma": "obligatory",
+        "partOfSpeech": "adjective",
+        "meaningZh": "義務的；必須的"
       }
     ],
     "tags": [
@@ -353,14 +485,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "compel",
-        "noteZh": "限迫使履行義務義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_oblique",
@@ -374,21 +499,48 @@
       {
         "id": "s_oblique_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "neither parallel nor at a right angle to something; indirect",
         "definitionZh": "斜的；（言語）拐彎抹角的",
         "usageExplanationZh": "字面指幾何角度傾斜；比喻用法如 an oblique reference，指間接、不直說的暗示。",
-        "examples": [
-          {
-            "en": "He made an oblique reference to the scandal without naming anyone.",
-            "zh": "他拐彎抹角地提到了這起醜聞，卻沒有指名道姓。"
-          }
+        "grammarPatterns": [
+          "an oblique reference to + noun",
+          "at an oblique angle"
         ],
         "collocations": [
           {
             "text": "an oblique reference",
             "meaningZh": "拐彎抹角的提及"
           }
+        ],
+        "examples": [
+          {
+            "en": "He made an oblique reference to the scandal without naming anyone.",
+            "zh": "他拐彎抹角地提到了這起醜聞，卻沒有指名道姓。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "indirect",
+        "noteZh": "限表達間接義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "direct",
+        "noteZh": "限表達直接義"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "obliquely",
+        "partOfSpeech": "adverb",
+        "meaningZh": "間接地；傾斜地"
       }
     ],
     "tags": [
@@ -402,19 +554,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "indirect",
-        "noteZh": "限表達間接義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "direct",
-        "noteZh": "限表達直接義"
-      }
-    ]
+    }
   },
   {
     "id": "w_oblivious",
@@ -428,21 +568,53 @@
       {
         "id": "s_oblivious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "not aware of or noticing something",
         "definitionZh": "未察覺的；渾然不知的",
         "usageExplanationZh": "常接 to，如 oblivious to the danger，強調完全沒有意識到周遭情況。",
-        "examples": [
-          {
-            "en": "She was completely oblivious to the danger around her.",
-            "zh": "她完全沒有察覺到周遭的危險。"
-          }
+        "grammarPatterns": [
+          "oblivious to + noun",
+          "oblivious of + noun"
         ],
         "collocations": [
           {
             "text": "oblivious to the danger",
             "meaningZh": "未察覺危險"
           }
+        ],
+        "examples": [
+          {
+            "en": "She was completely oblivious to the danger around her.",
+            "zh": "她完全沒有察覺到周遭的危險。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "unaware",
+        "noteZh": "未察覺的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "aware",
+        "noteZh": "察覺到的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "oblivion",
+        "partOfSpeech": "noun",
+        "meaningZh": "遺忘；湮沒無聞"
+      },
+      {
+        "lemma": "obliviously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "渾然不覺地"
       }
     ],
     "tags": [
@@ -456,19 +628,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "unaware",
-        "noteZh": "未察覺的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "aware",
-        "noteZh": "察覺到的"
-      }
-    ]
+    }
   },
   {
     "id": "w_obnoxious",
@@ -482,21 +642,53 @@
       {
         "id": "s_obnoxious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "extremely unpleasant, especially in a way that provokes anger or disgust",
         "definitionZh": "討人厭的；令人反感的",
         "usageExplanationZh": "語氣比 annoying 更強烈，常形容態度傲慢或行為惹人厭的人。",
-        "examples": [
-          {
-            "en": "His obnoxious behavior at the party embarrassed everyone.",
-            "zh": "他在派對上惹人厭的行為讓大家都很尷尬。"
-          }
+        "grammarPatterns": [
+          "an obnoxious + noun",
+          "obnoxious to + somebody"
         ],
         "collocations": [
           {
             "text": "obnoxious behavior",
             "meaningZh": "惹人厭的行為"
           }
+        ],
+        "examples": [
+          {
+            "en": "His obnoxious behavior at the party embarrassed everyone.",
+            "zh": "他在派對上惹人厭的行為讓大家都很尷尬。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "offensive",
+        "noteZh": "令人反感的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "agreeable",
+        "noteZh": "討人喜歡的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "obnoxiously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "令人反感地"
+      },
+      {
+        "lemma": "obnoxiousness",
+        "partOfSpeech": "noun",
+        "meaningZh": "討人厭；令人反感"
       }
     ],
     "tags": [
@@ -510,19 +702,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "offensive",
-        "noteZh": "令人反感的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "agreeable",
-        "noteZh": "討人喜歡的"
-      }
-    ]
+    }
   },
   {
     "id": "w_obscure",
@@ -536,21 +716,53 @@
       {
         "id": "s_obscure_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to make something difficult to see, understand, or discover; to hide",
         "definitionZh": "遮蔽；使模糊不清；隱藏",
         "usageExplanationZh": "常接具體物（如 obscure the view）或抽象概念（如 obscure the truth），強調刻意或無意地掩蓋。",
-        "examples": [
-          {
-            "en": "Thick fog obscured the view of the mountains.",
-            "zh": "濃霧遮蔽了群山的景色。"
-          }
+        "grammarPatterns": [
+          "obscure + noun",
+          "obscure the fact that + clause"
         ],
         "collocations": [
           {
             "text": "obscure the view",
             "meaningZh": "遮蔽視線"
           }
+        ],
+        "examples": [
+          {
+            "en": "Thick fog obscured the view of the mountains.",
+            "zh": "濃霧遮蔽了群山的景色。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "conceal",
+        "noteZh": "遮掩或隱藏"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "reveal",
+        "noteZh": "揭露"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "obscurity",
+        "partOfSpeech": "noun",
+        "meaningZh": "晦澀；默默無聞"
+      },
+      {
+        "lemma": "obscurely",
+        "partOfSpeech": "adverb",
+        "meaningZh": "含糊地；隱約地"
       }
     ],
     "tags": [
@@ -565,19 +777,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "conceal",
-        "noteZh": "遮掩或隱藏"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "reveal",
-        "noteZh": "揭露"
-      }
-    ]
+    }
   },
   {
     "id": "w_obscurity",
@@ -591,21 +791,48 @@
       {
         "id": "s_obscurity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "the state of being unknown, or the quality of being difficult to understand",
         "definitionZh": "默默無聞；晦澀難懂",
         "usageExplanationZh": "常見 fade into obscurity（漸漸沒沒無聞）；也可指文字或概念難以理解的狀態。",
-        "examples": [
-          {
-            "en": "The band rose from obscurity to become international stars.",
-            "zh": "這個樂團從默默無聞躍升為國際巨星。"
-          }
+        "grammarPatterns": [
+          "rise from obscurity",
+          "fade into obscurity"
         ],
         "collocations": [
           {
             "text": "fade into obscurity",
             "meaningZh": "逐漸被人遺忘"
           }
+        ],
+        "examples": [
+          {
+            "en": "The band rose from obscurity to become international stars.",
+            "zh": "這個樂團從默默無聞躍升為國際巨星。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "anonymity",
+        "noteZh": "限默默無聞義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "fame",
+        "noteZh": "限聲名顯赫義"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "obscure",
+        "partOfSpeech": "adjective",
+        "meaningZh": "晦澀的；不知名的"
       }
     ],
     "tags": [
@@ -618,19 +845,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "anonymity",
-        "noteZh": "限默默無聞義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "fame",
-        "noteZh": "限聲名顯赫義"
-      }
-    ]
+    }
   },
   {
     "id": "w_obsequious",
@@ -644,21 +859,48 @@
       {
         "id": "s_obsequious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "excessively eager to please or obey someone, in an insincere way",
         "definitionZh": "諂媚的；奉承的",
         "usageExplanationZh": "語氣負面，強調過度討好、缺乏真誠，常用來形容對上司或有權勢者的態度。",
-        "examples": [
-          {
-            "en": "The obsequious waiter kept complimenting every customer's choice.",
-            "zh": "那位諂媚的服務生一直恭維每位顧客的選擇。"
-          }
+        "grammarPatterns": [
+          "an obsequious + noun",
+          "obsequious to + somebody"
         ],
         "collocations": [
           {
             "text": "an obsequious manner",
             "meaningZh": "諂媚的態度"
           }
+        ],
+        "examples": [
+          {
+            "en": "The obsequious waiter kept complimenting every customer's choice.",
+            "zh": "那位諂媚的服務生一直恭維每位顧客的選擇。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "servile",
+        "noteZh": "卑躬屈膝的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "obsequiousness",
+        "partOfSpeech": "noun",
+        "meaningZh": "諂媚；奉承"
+      },
+      {
+        "lemma": "obsequiously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "諂媚地"
       }
     ],
     "tags": [
@@ -671,14 +913,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "servile",
-        "noteZh": "卑躬屈膝的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_observance",
@@ -692,14 +927,16 @@
       {
         "id": "s_observance_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "the act of following or celebrating a law, custom, or religious occasion",
         "definitionZh": "（法規、習俗的）遵守；（節日的）慶祝",
         "usageExplanationZh": "常見 religious observance、observance of the law，語氣正式，強調依照傳統或規定行事。",
-        "examples": [
-          {
-            "en": "The holiday observance includes fasting and prayer.",
-            "zh": "這個節日的慶祝活動包括齋戒與祈禱。"
-          }
+        "grammarPatterns": [
+          "the observance of + noun",
+          "religious observance"
         ],
         "collocations": [
           {
@@ -710,7 +947,37 @@
             "text": "religious observances",
             "meaningZh": "宗教慶典活動"
           }
+        ],
+        "examples": [
+          {
+            "en": "The holiday observance includes fasting and prayer.",
+            "zh": "這個節日的慶祝活動包括齋戒與祈禱。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "compliance",
+        "noteZh": "限遵守規範義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "violation",
+        "noteZh": "限違反規範義"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "observe",
+        "partOfSpeech": "verb",
+        "meaningZh": "遵守；觀察"
+      },
+      {
+        "lemma": "observant",
+        "partOfSpeech": "adjective",
+        "meaningZh": "嚴守（教規）的；善於觀察的"
       }
     ],
     "tags": [
@@ -725,19 +992,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "compliance",
-        "noteZh": "限遵守規範義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "violation",
-        "noteZh": "限違反規範義"
-      }
-    ]
+    }
   },
   {
     "id": "w_observation",
@@ -751,14 +1006,16 @@
       {
         "id": "s_observation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "the act of watching something carefully, or a remark based on what has been noticed",
         "definitionZh": "觀察；觀察所得的評論",
         "usageExplanationZh": "常見 under observation（受到觀察）；也可指依觀察提出的看法，如 a keen observation。",
-        "examples": [
-          {
-            "en": "The patient was kept under observation overnight.",
-            "zh": "病人被留院觀察一夜。"
-          }
+        "grammarPatterns": [
+          "under observation",
+          "make an observation about + noun"
         ],
         "collocations": [
           {
@@ -769,7 +1026,37 @@
             "text": "make an observation",
             "meaningZh": "提出觀察所得的看法"
           }
+        ],
+        "examples": [
+          {
+            "en": "The patient was kept under observation overnight.",
+            "zh": "病人被留院觀察一夜。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "remark",
+        "noteZh": "限觀察所得的評論義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "observe",
+        "partOfSpeech": "verb",
+        "meaningZh": "觀察；注意到"
+      },
+      {
+        "lemma": "observer",
+        "partOfSpeech": "noun",
+        "meaningZh": "觀察者；觀察員"
+      },
+      {
+        "lemma": "observant",
+        "partOfSpeech": "adjective",
+        "meaningZh": "善於觀察的"
       }
     ],
     "tags": [
@@ -783,14 +1070,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "remark",
-        "noteZh": "限觀察所得的評論義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_obsess",
@@ -804,21 +1084,47 @@
       {
         "id": "s_obsess_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to preoccupy someone's mind continually and intrusively",
         "definitionZh": "使痴迷；使無法擺脫地想著",
         "usageExplanationZh": "常見被動 be obsessed with，強調某件事持續佔據心思，難以擺脫。",
-        "examples": [
-          {
-            "en": "She became obsessed with finishing the puzzle before dinner.",
-            "zh": "她變得非常執著，一心想在晚餐前完成這個拼圖。"
-          }
+        "grammarPatterns": [
+          "be obsessed with + noun",
+          "obsess over + noun"
         ],
         "collocations": [
           {
             "text": "be obsessed with success",
             "meaningZh": "一心執著於成功"
           }
+        ],
+        "examples": [
+          {
+            "en": "She became obsessed with finishing the puzzle before dinner.",
+            "zh": "她變得非常執著，一心想在晚餐前完成這個拼圖。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "preoccupy",
+        "noteZh": "使心思被占據"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "obsession",
+        "partOfSpeech": "noun",
+        "meaningZh": "痴迷；執念"
+      },
+      {
+        "lemma": "obsessive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "強迫性的；著迷的"
       }
     ],
     "tags": [
@@ -833,14 +1139,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "preoccupy",
-        "noteZh": "使心思被占據"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_obsession",
@@ -854,21 +1153,47 @@
       {
         "id": "s_obsession_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a state in which someone's mind is completely filled with a particular idea or feeling",
         "definitionZh": "痴迷；執念",
         "usageExplanationZh": "常見 have an obsession with，語氣可中性描述興趣過度，也可帶病態意味。",
-        "examples": [
-          {
-            "en": "His obsession with cleanliness borders on a disorder.",
-            "zh": "他對整潔的執念幾乎到了強迫症的地步。"
-          }
+        "grammarPatterns": [
+          "an obsession with + noun",
+          "become an obsession"
         ],
         "collocations": [
           {
             "text": "an obsession with perfection",
             "meaningZh": "對完美的執著"
           }
+        ],
+        "examples": [
+          {
+            "en": "His obsession with cleanliness borders on a disorder.",
+            "zh": "他對整潔的執念幾乎到了強迫症的地步。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "fixation",
+        "noteZh": "難以擺脫的執著"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "obsess",
+        "partOfSpeech": "verb",
+        "meaningZh": "使痴迷"
+      },
+      {
+        "lemma": "obsessive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "執著的；強迫性的"
       }
     ],
     "tags": [
@@ -883,14 +1208,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "fixation",
-        "noteZh": "難以擺脫的執著"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_obstacle",
@@ -904,23 +1222,37 @@
       {
         "id": "s_obstacle_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "something that blocks progress or achievement",
         "definitionZh": "障礙；阻礙",
         "usageExplanationZh": "常見 overcome an obstacle、an obstacle to success，可指實體障礙物或抽象困難。",
-        "examples": [
-          {
-            "en": "Lack of funding was the biggest obstacle to the project's success.",
-            "zh": "資金不足是這項計畫成功的最大障礙。"
-          }
+        "grammarPatterns": [
+          "an obstacle to + noun",
+          "overcome an obstacle"
         ],
         "collocations": [
           {
             "text": "overcome an obstacle",
             "meaningZh": "克服障礙"
           }
+        ],
+        "examples": [
+          {
+            "en": "Lack of funding was the biggest obstacle to the project's success.",
+            "zh": "資金不足是這項計畫成功的最大障礙。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "barrier",
+        "noteZh": "阻礙前進的障礙"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -933,14 +1265,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "barrier",
-        "noteZh": "阻礙前進的障礙"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_obstruct",
@@ -954,14 +1279,16 @@
       {
         "id": "s_obstruct_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to block a path or process, preventing movement or progress",
         "definitionZh": "阻礙；妨礙；堵塞",
         "usageExplanationZh": "常接具體物（obstruct the road）或抽象過程（obstruct justice），法律上 obstruct justice 指妨礙司法。",
-        "examples": [
-          {
-            "en": "The fallen tree obstructed the main road for hours.",
-            "zh": "倒下的樹木堵塞主要道路長達數小時。"
-          }
+        "grammarPatterns": [
+          "obstruct + noun",
+          "obstruct the view of + noun"
         ],
         "collocations": [
           {
@@ -972,7 +1299,37 @@
             "text": "obstruct the entrance",
             "meaningZh": "堵住入口"
           }
+        ],
+        "examples": [
+          {
+            "en": "The fallen tree obstructed the main road for hours.",
+            "zh": "倒下的樹木堵塞主要道路長達數小時。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "block",
+        "noteZh": "阻擋"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "clear",
+        "noteZh": "清除阻塞，限通道義"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "obstruction",
+        "partOfSpeech": "noun",
+        "meaningZh": "阻礙；障礙物"
+      },
+      {
+        "lemma": "obstructive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "妨礙的；阻撓的"
       }
     ],
     "tags": [
@@ -987,19 +1344,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "block",
-        "noteZh": "阻擋"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "clear",
-        "noteZh": "清除阻塞，限通道義"
-      }
-    ]
+    }
   },
   {
     "id": "w_obviate",
@@ -1013,23 +1358,38 @@
       {
         "id": "s_obviate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to remove or prevent a difficulty or need in advance",
         "definitionZh": "消除（困難或需求）；預先避免",
         "usageExplanationZh": "語氣正式書面，常見 obviate the need for，強調事先預防使某事變得不再必要。",
-        "examples": [
-          {
-            "en": "Automating the process obviated the need for manual checks.",
-            "zh": "自動化這個流程消除了人工檢查的需求。"
-          }
+        "grammarPatterns": [
+          "obviate the need for + noun",
+          "obviate + noun"
         ],
         "collocations": [
           {
             "text": "obviate the need for",
             "meaningZh": "使……不再必要"
           }
+        ],
+        "examples": [
+          {
+            "en": "Automating the process obviated the need for manual checks.",
+            "zh": "自動化這個流程消除了人工檢查的需求。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "eliminate",
+        "noteZh": "消除問題或需求"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1041,14 +1401,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "eliminate",
-        "noteZh": "消除問題或需求"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_occasional",
@@ -1062,21 +1415,52 @@
       {
         "id": "s_occasional_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "happening irregularly and infrequently",
         "definitionZh": "偶爾的；不定期的",
         "usageExplanationZh": "常修飾 visit、rain shower，強調發生頻率低且無固定規律。",
-        "examples": [
-          {
-            "en": "He makes occasional visits to his hometown.",
-            "zh": "他偶爾會回一趟家鄉。"
-          }
+        "grammarPatterns": [
+          "an occasional + noun",
+          "occasional visits"
         ],
         "collocations": [
           {
             "text": "an occasional visitor",
             "meaningZh": "偶爾來訪的人"
           }
+        ],
+        "examples": [
+          {
+            "en": "He makes occasional visits to his hometown.",
+            "zh": "他偶爾會回一趟家鄉。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "infrequent",
+        "noteZh": "不常發生的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "frequent",
+        "noteZh": "頻繁的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "occasion",
+        "partOfSpeech": "noun",
+        "meaningZh": "場合；時機"
+      },
+      {
+        "lemma": "occasionally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "偶爾"
       }
     ],
     "tags": [
@@ -1089,19 +1473,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "infrequent",
-        "noteZh": "不常發生的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "frequent",
-        "noteZh": "頻繁的"
-      }
-    ]
+    }
   },
   {
     "id": "w_occasionally",
@@ -1115,21 +1487,52 @@
       {
         "id": "s_occasionally_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "sometimes but not often",
         "definitionZh": "偶爾",
         "usageExplanationZh": "常置於句中，描述發生頻率低，語氣中性口語與正式皆可使用。",
-        "examples": [
-          {
-            "en": "We occasionally go out for dinner on weekends.",
-            "zh": "我們週末偶爾會外出吃晚餐。"
-          }
+        "grammarPatterns": [
+          "occasionally + V",
+          "very occasionally"
         ],
         "collocations": [
           {
             "text": "only occasionally",
             "meaningZh": "只是偶爾"
           }
+        ],
+        "examples": [
+          {
+            "en": "We occasionally go out for dinner on weekends.",
+            "zh": "我們週末偶爾會外出吃晚餐。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "sometimes",
+        "noteZh": "有時候"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "frequently",
+        "noteZh": "經常"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "occasional",
+        "partOfSpeech": "adjective",
+        "meaningZh": "偶爾的；不定期的"
+      },
+      {
+        "lemma": "occasion",
+        "partOfSpeech": "noun",
+        "meaningZh": "場合"
       }
     ],
     "tags": [
@@ -1142,19 +1545,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "sometimes",
-        "noteZh": "有時候"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "frequently",
-        "noteZh": "經常"
-      }
-    ]
+    }
   },
   {
     "id": "w_occupation",
@@ -1168,14 +1559,16 @@
       {
         "id": "s_occupation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a person's job or profession, or the action of occupying a place",
         "definitionZh": "職業；佔領",
         "usageExplanationZh": "常見於表格欄位 occupation（職業）；軍事情境則指 the occupation of a territory（佔領某地）。",
-        "examples": [
-          {
-            "en": "Please state your name, age, and occupation on the form.",
-            "zh": "請在表格上填寫您的姓名、年齡與職業。"
-          }
+        "grammarPatterns": [
+          "state one's occupation",
+          "the occupation of + noun"
         ],
         "collocations": [
           {
@@ -1186,7 +1579,37 @@
             "text": "military occupation",
             "meaningZh": "軍事佔領"
           }
+        ],
+        "examples": [
+          {
+            "en": "Please state your name, age, and occupation on the form.",
+            "zh": "請在表格上填寫您的姓名、年齡與職業。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "profession",
+        "noteZh": "限職業義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "occupy",
+        "partOfSpeech": "verb",
+        "meaningZh": "佔據；佔領"
+      },
+      {
+        "lemma": "occupational",
+        "partOfSpeech": "adjective",
+        "meaningZh": "職業的"
+      },
+      {
+        "lemma": "occupant",
+        "partOfSpeech": "noun",
+        "meaningZh": "佔用者；居住者"
       }
     ],
     "tags": [
@@ -1201,14 +1624,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "profession",
-        "noteZh": "限職業義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_occupational",
@@ -1222,21 +1638,48 @@
       {
         "id": "s_occupational_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "relating to a person's job or profession",
         "definitionZh": "職業的；因職業而產生的",
         "usageExplanationZh": "常見 occupational hazard（職業傷害風險）、occupational therapy（職能治療），修飾與工作相關的事物。",
-        "examples": [
-          {
-            "en": "Back pain is a common occupational hazard for office workers.",
-            "zh": "背痛是上班族常見的職業傷害。"
-          }
+        "grammarPatterns": [
+          "an occupational hazard",
+          "occupational + noun"
         ],
         "collocations": [
           {
             "text": "occupational hazards",
             "meaningZh": "職業危害"
           }
+        ],
+        "examples": [
+          {
+            "en": "Back pain is a common occupational hazard for office workers.",
+            "zh": "背痛是上班族常見的職業傷害。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "work-related",
+        "noteZh": "與職業有關的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "occupation",
+        "partOfSpeech": "noun",
+        "meaningZh": "職業；佔領"
+      },
+      {
+        "lemma": "occupy",
+        "partOfSpeech": "verb",
+        "meaningZh": "佔據"
       }
     ],
     "tags": [
@@ -1249,14 +1692,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "work-related",
-        "noteZh": "與職業有關的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_occupy",
@@ -1270,14 +1706,15 @@
       {
         "id": "s_occupy_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to live in, use, or take control of a place, or to fill a period of time or someone's attention",
         "definitionZh": "佔據；居住於；佔領；使忙碌",
         "usageExplanationZh": "可指居住、軍事佔領、佔用空間或時間，如 occupy oneself with（讓自己忙於某事）。",
-        "examples": [
-          {
-            "en": "Soldiers occupied the town after the battle.",
-            "zh": "士兵在這場戰役後佔領了這座城鎮。"
-          }
+        "grammarPatterns": [
+          "occupy + noun",
+          "be occupied with + noun"
         ],
         "collocations": [
           {
@@ -1288,7 +1725,37 @@
             "text": "occupy oneself with work",
             "meaningZh": "忙於工作"
           }
+        ],
+        "examples": [
+          {
+            "en": "Soldiers occupied the town after the battle.",
+            "zh": "士兵在這場戰役後佔領了這座城鎮。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "inhabit",
+        "noteZh": "限居住義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "occupation",
+        "partOfSpeech": "noun",
+        "meaningZh": "職業；佔領"
+      },
+      {
+        "lemma": "occupant",
+        "partOfSpeech": "noun",
+        "meaningZh": "佔用者；居住者"
+      },
+      {
+        "lemma": "occupancy",
+        "partOfSpeech": "noun",
+        "meaningZh": "佔用；入住率"
       }
     ],
     "tags": [
@@ -1302,14 +1769,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "inhabit",
-        "noteZh": "限居住義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_occurrence",
@@ -1323,21 +1783,43 @@
       {
         "id": "s_occurrence_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "something that happens; an event or incident",
         "definitionZh": "事件；發生的事",
         "usageExplanationZh": "常見 a common/rare occurrence，強調事情發生的頻率，語氣中性正式。",
-        "examples": [
-          {
-            "en": "Traffic jams are a common occurrence during rush hour.",
-            "zh": "尖峰時段塞車是很常見的事。"
-          }
+        "grammarPatterns": [
+          "a common occurrence",
+          "the occurrence of + noun"
         ],
         "collocations": [
           {
             "text": "a common occurrence",
             "meaningZh": "常見的事情"
           }
+        ],
+        "examples": [
+          {
+            "en": "Traffic jams are a common occurrence during rush hour.",
+            "zh": "尖峰時段塞車是很常見的事。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "event",
+        "noteZh": "發生的事件"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "occur",
+        "partOfSpeech": "verb",
+        "meaningZh": "發生；出現"
       }
     ],
     "tags": [
@@ -1352,14 +1834,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "event",
-        "noteZh": "發生的事件"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_odor",
@@ -1373,21 +1848,48 @@
       {
         "id": "s_odor_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a distinctive smell, especially an unpleasant one",
         "definitionZh": "氣味；臭味",
         "usageExplanationZh": "美式拼法，常見 a foul odor、body odor，多用於負面或明顯的氣味。",
-        "examples": [
-          {
-            "en": "A strange odor filled the kitchen.",
-            "zh": "廚房裡瀰漫著一股奇怪的氣味。"
-          }
+        "grammarPatterns": [
+          "a strong odor",
+          "an odor of + noun"
         ],
         "collocations": [
           {
             "text": "a pungent odor",
             "meaningZh": "刺鼻的氣味"
           }
+        ],
+        "examples": [
+          {
+            "en": "A strange odor filled the kitchen.",
+            "zh": "廚房裡瀰漫著一股奇怪的氣味。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "smell",
+        "noteZh": "氣味"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "odorous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有氣味的"
+      },
+      {
+        "lemma": "deodorant",
+        "partOfSpeech": "noun",
+        "meaningZh": "除臭劑"
       }
     ],
     "tags": [
@@ -1400,14 +1902,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "smell",
-        "noteZh": "氣味"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_odour",
@@ -1421,21 +1916,48 @@
       {
         "id": "s_odour_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a distinctive smell, especially an unpleasant one",
         "definitionZh": "氣味；臭味",
         "usageExplanationZh": "英式拼法，與 odor 意義相同，常見於英式英語文本，如 body odour。",
-        "examples": [
-          {
-            "en": "The chemical spill left a strong odour in the air.",
-            "zh": "化學物質外洩後，空氣中留下了濃烈的氣味。"
-          }
+        "grammarPatterns": [
+          "a strong odour",
+          "an odour of + noun"
         ],
         "collocations": [
           {
             "text": "a pungent odour",
             "meaningZh": "刺鼻的氣味"
           }
+        ],
+        "examples": [
+          {
+            "en": "The chemical spill left a strong odour in the air.",
+            "zh": "化學物質外洩後，空氣中留下了濃烈的氣味。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "smell",
+        "noteZh": "氣味"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "odourless",
+        "partOfSpeech": "adjective",
+        "meaningZh": "無氣味的"
+      },
+      {
+        "lemma": "deodorant",
+        "partOfSpeech": "noun",
+        "meaningZh": "除臭劑"
       }
     ],
     "tags": [
@@ -1448,14 +1970,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "smell",
-        "noteZh": "氣味"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_offbeat",
@@ -1469,40 +1984,66 @@
       {
         "id": "s_offbeat_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "unconventional or unusual in a mildly interesting way",
         "definitionZh": "不落俗套的；另類的",
         "usageExplanationZh": "常修飾 humor、style，帶正面或中性意味，強調與眾不同但吸引人。",
-        "examples": [
-          {
-            "en": "The film has an offbeat sense of humor that fans love.",
-            "zh": "這部電影有種另類的幽默感，深受影迷喜愛。"
-          }
+        "grammarPatterns": [
+          "an offbeat + noun",
+          "offbeat humor"
         ],
         "collocations": [
           {
             "text": "offbeat humor",
             "meaningZh": "另類幽默"
           }
+        ],
+        "examples": [
+          {
+            "en": "The film has an offbeat sense of humor that fans love.",
+            "zh": "這部電影有種另類的幽默感，深受影迷喜愛。"
+          }
         ]
       },
       {
         "id": "s_offbeat_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical"
+        ],
         "definitionEn": "an unstressed beat in a musical rhythm",
         "definitionZh": "（音樂的）弱拍；後半拍",
         "usageExplanationZh": "音樂用語，常見於強調節奏重音落在非正拍上，如 reggae 音樂常見 emphasis on the offbeat。",
-        "examples": [
-          {
-            "en": "The drummer emphasized the offbeat throughout the song.",
-            "zh": "鼓手在整首歌中都強調了弱拍的節奏。"
-          }
+        "grammarPatterns": [
+          "on the offbeat",
+          "emphasize the offbeat"
         ],
         "collocations": [
           {
             "text": "on the offbeat",
             "meaningZh": "在弱拍上"
           }
+        ],
+        "examples": [
+          {
+            "en": "The drummer emphasized the offbeat throughout the song.",
+            "zh": "鼓手在整首歌中都強調了弱拍的節奏。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "unconventional",
+        "noteZh": "限不落俗套的形容詞義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "conventional",
+        "noteZh": "限遵循常規的形容詞義"
       }
     ],
     "tags": [
@@ -1515,19 +2056,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "unconventional",
-        "noteZh": "限不落俗套的形容詞義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "conventional",
-        "noteZh": "限遵循常規的形容詞義"
-      }
-    ]
+    }
   },
   {
     "id": "w_offend",
@@ -1541,21 +2070,52 @@
       {
         "id": "s_offend_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to cause someone to feel hurt, angry, or upset",
         "definitionZh": "冒犯；得罪",
         "usageExplanationZh": "常接人作受詞，如 offend someone by saying something，也可用被動 be offended by。",
-        "examples": [
-          {
-            "en": "His rude comment offended several guests at the party.",
-            "zh": "他無禮的評論冒犯了派對上的好幾位賓客。"
-          }
+        "grammarPatterns": [
+          "offend + somebody",
+          "be offended by + noun"
         ],
         "collocations": [
           {
             "text": "offend someone's sensibilities",
             "meaningZh": "冒犯某人的感受"
           }
+        ],
+        "examples": [
+          {
+            "en": "His rude comment offended several guests at the party.",
+            "zh": "他無禮的評論冒犯了派對上的好幾位賓客。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "insult",
+        "noteZh": "以言行冒犯"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "offense",
+        "partOfSpeech": "noun",
+        "meaningZh": "冒犯；罪行"
+      },
+      {
+        "lemma": "offensive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "冒犯的；無禮的"
+      },
+      {
+        "lemma": "offender",
+        "partOfSpeech": "noun",
+        "meaningZh": "犯罪者；冒犯者"
       }
     ],
     "tags": [
@@ -1569,14 +2129,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "insult",
-        "noteZh": "以言行冒犯"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_offensive",
@@ -1590,14 +2143,15 @@
       {
         "id": "s_offensive_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "causing someone to feel deeply hurt or upset, or relating to attacking rather than defending",
         "definitionZh": "冒犯的；無禮的；攻擊性的",
         "usageExplanationZh": "情感義如 an offensive remark（冒犯的言論）；軍事義如 an offensive strategy（攻勢策略），依語境不同。",
-        "examples": [
-          {
-            "en": "The comedian's offensive joke received widespread criticism.",
-            "zh": "這名喜劇演員冒犯人的笑話引來廣泛批評。"
-          }
+        "grammarPatterns": [
+          "offensive to + somebody",
+          "an offensive + noun"
         ],
         "collocations": [
           {
@@ -1608,21 +2162,15 @@
             "text": "offensive weapons",
             "meaningZh": "攻擊性武器"
           }
+        ],
+        "examples": [
+          {
+            "en": "The comedian's offensive joke received widespread criticism.",
+            "zh": "這名喜劇演員冒犯人的笑話引來廣泛批評。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "insulting",
@@ -1638,7 +2186,31 @@
         "lemma": "defensive",
         "noteZh": "限軍事防禦義"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "offend",
+        "partOfSpeech": "verb",
+        "meaningZh": "冒犯；得罪"
+      },
+      {
+        "lemma": "offense",
+        "partOfSpeech": "noun",
+        "meaningZh": "冒犯；攻勢"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_offspring",
@@ -1652,23 +2224,38 @@
       {
         "id": "s_offspring_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "a person's child or children, or an animal's young",
         "definitionZh": "子女；後代",
         "usageExplanationZh": "單複數同形，可用於人類子女或動物後代，語氣中性正式，常見於生物學或法律文本。",
-        "examples": [
-          {
-            "en": "The bird returned to feed its offspring.",
-            "zh": "這隻鳥回來餵養牠的後代。"
-          }
+        "grammarPatterns": [
+          "sb's offspring",
+          "produce offspring"
         ],
         "collocations": [
           {
             "text": "produce offspring",
             "meaningZh": "繁衍後代"
           }
+        ],
+        "examples": [
+          {
+            "en": "The bird returned to feed its offspring.",
+            "zh": "這隻鳥回來餵養牠的後代。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "progeny",
+        "noteZh": "後代，較正式"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1681,14 +2268,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "progeny",
-        "noteZh": "後代，較正式"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_ominous",
@@ -1702,21 +2282,53 @@
       {
         "id": "s_ominous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "giving the impression that something bad is going to happen",
         "definitionZh": "不祥的；預示凶兆的",
         "usageExplanationZh": "常修飾 sky、silence、sign，強調帶來不好預感的氣氛或跡象。",
-        "examples": [
-          {
-            "en": "Dark clouds gathered, giving the sky an ominous look.",
-            "zh": "烏雲聚集，讓天空呈現出不祥的樣貌。"
-          }
+        "grammarPatterns": [
+          "an ominous + noun",
+          "ominous signs"
         ],
         "collocations": [
           {
             "text": "an ominous silence",
             "meaningZh": "不祥的沉默"
           }
+        ],
+        "examples": [
+          {
+            "en": "Dark clouds gathered, giving the sky an ominous look.",
+            "zh": "烏雲聚集，讓天空呈現出不祥的樣貌。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "foreboding",
+        "noteZh": "預示不幸的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "auspicious",
+        "noteZh": "吉祥的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "omen",
+        "partOfSpeech": "noun",
+        "meaningZh": "預兆；徵兆"
+      },
+      {
+        "lemma": "ominously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "不祥地"
       }
     ],
     "tags": [
@@ -1730,19 +2342,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "foreboding",
-        "noteZh": "預示不幸的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "auspicious",
-        "noteZh": "吉祥的"
-      }
-    ]
+    }
   },
   {
     "id": "w_omit",
@@ -1756,21 +2356,48 @@
       {
         "id": "s_omit_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to leave out or fail to include something",
         "definitionZh": "省略；遺漏",
         "usageExplanationZh": "常接受詞，如 omit a name from a list，強調有意或無意地未列入某項內容。",
-        "examples": [
-          {
-            "en": "She omitted her previous job from her resume.",
-            "zh": "她在履歷上省略了之前的那份工作。"
-          }
+        "grammarPatterns": [
+          "omit + noun",
+          "omit sth from + noun"
         ],
         "collocations": [
           {
             "text": "omit important details",
             "meaningZh": "遺漏重要細節"
           }
+        ],
+        "examples": [
+          {
+            "en": "She omitted her previous job from her resume.",
+            "zh": "她在履歷上省略了之前的那份工作。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "leave out",
+        "noteZh": "省略或遺漏"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "include",
+        "noteZh": "包含"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "omission",
+        "partOfSpeech": "noun",
+        "meaningZh": "省略；遺漏"
       }
     ],
     "tags": [
@@ -1785,19 +2412,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "leave out",
-        "noteZh": "省略或遺漏"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "include",
-        "noteZh": "包含"
-      }
-    ]
+    }
   },
   {
     "id": "w_onerous",
@@ -1811,21 +2426,43 @@
       {
         "id": "s_onerous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "involving a great deal of effort and difficulty",
         "definitionZh": "繁重的；沉重的",
         "usageExplanationZh": "語氣正式書面，常修飾 task、duty、responsibility，強調負擔沉重、令人吃力。",
-        "examples": [
-          {
-            "en": "Filing taxes can be an onerous task for small business owners.",
-            "zh": "申報稅務對小企業主來說可能是一項繁重的任務。"
-          }
+        "grammarPatterns": [
+          "an onerous + noun",
+          "onerous obligations"
         ],
         "collocations": [
           {
             "text": "an onerous task",
             "meaningZh": "繁重的任務"
           }
+        ],
+        "examples": [
+          {
+            "en": "Filing taxes can be an onerous task for small business owners.",
+            "zh": "申報稅務對小企業主來說可能是一項繁重的任務。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "burdensome",
+        "noteZh": "負擔沉重的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "onus",
+        "partOfSpeech": "noun",
+        "meaningZh": "責任；負擔"
       }
     ],
     "tags": [
@@ -1838,14 +2475,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "burdensome",
-        "noteZh": "負擔沉重的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_ongoing",
@@ -1859,21 +2489,41 @@
       {
         "id": "s_ongoing_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "continuing to happen or develop; still in progress",
         "definitionZh": "持續進行的；正在進行中的",
         "usageExplanationZh": "常修飾 project、investigation、negotiation，強調事情尚未結束、仍在進行。",
-        "examples": [
-          {
-            "en": "The ongoing investigation has not yet reached a conclusion.",
-            "zh": "這項持續進行的調查尚未得出結論。"
-          }
+        "grammarPatterns": [
+          "an ongoing + noun",
+          "an ongoing investigation"
         ],
         "collocations": [
           {
             "text": "an ongoing investigation",
             "meaningZh": "持續進行的調查"
           }
+        ],
+        "examples": [
+          {
+            "en": "The ongoing investigation has not yet reached a conclusion.",
+            "zh": "這項持續進行的調查尚未得出結論。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "continuing",
+        "noteZh": "持續中的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "completed",
+        "noteZh": "已完成的"
       }
     ],
     "tags": [
@@ -1887,19 +2537,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "continuing",
-        "noteZh": "持續中的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "completed",
-        "noteZh": "已完成的"
-      }
-    ]
+    }
   },
   {
     "id": "w_onset",
@@ -1913,21 +2551,41 @@
       {
         "id": "s_onset_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "the beginning of something, especially something unpleasant",
         "definitionZh": "開始；發作（多指負面事件）",
         "usageExplanationZh": "常見 the onset of winter、the onset of a disease，強調不好的事情剛開始出現。",
-        "examples": [
-          {
-            "en": "Doctors detected the disease at an early onset.",
-            "zh": "醫生在疾病初期發作階段就發現了這種病。"
-          }
+        "grammarPatterns": [
+          "the onset of + noun",
+          "at an early onset"
         ],
         "collocations": [
           {
             "text": "the onset of symptoms",
             "meaningZh": "症狀開始出現"
           }
+        ],
+        "examples": [
+          {
+            "en": "Doctors detected the disease at an early onset.",
+            "zh": "醫生在疾病初期發作階段就發現了這種病。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "beginning",
+        "noteZh": "起始"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "end",
+        "noteZh": "結束"
       }
     ],
     "tags": [
@@ -1942,19 +2600,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "beginning",
-        "noteZh": "起始"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "end",
-        "noteZh": "結束"
-      }
-    ]
+    }
   },
   {
     "id": "w_opaque",
@@ -1968,14 +2614,16 @@
       {
         "id": "s_opaque_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "not able to be seen through; not transparent, or (of a situation) difficult to understand",
         "definitionZh": "不透明的；（比喻）晦澀難懂的",
         "usageExplanationZh": "字面義形容材質不透光，如 opaque glass；比喻義如 an opaque process，指過程不透明、難以理解。",
-        "examples": [
-          {
-            "en": "The bathroom window is made of opaque glass for privacy.",
-            "zh": "浴室的窗戶採用不透明玻璃以保護隱私。"
-          }
+        "grammarPatterns": [
+          "opaque + noun",
+          "opaque to + somebody"
         ],
         "collocations": [
           {
@@ -1986,7 +2634,32 @@
             "text": "opaque language",
             "meaningZh": "晦澀的語言"
           }
+        ],
+        "examples": [
+          {
+            "en": "The bathroom window is made of opaque glass for privacy.",
+            "zh": "浴室的窗戶採用不透明玻璃以保護隱私。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "unintelligible",
+        "noteZh": "限難以理解義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "transparent",
+        "noteZh": "透明或易懂的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "opacity",
+        "partOfSpeech": "noun",
+        "meaningZh": "不透明；晦澀"
       }
     ],
     "tags": [
@@ -2001,19 +2674,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "unintelligible",
-        "noteZh": "限難以理解義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "transparent",
-        "noteZh": "透明或易懂的"
-      }
-    ]
+    }
   },
   {
     "id": "w_opera",
@@ -2027,21 +2688,38 @@
       {
         "id": "s_opera_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "a dramatic work set to music, sung by singers with orchestral accompaniment",
         "definitionZh": "歌劇",
         "usageExplanationZh": "藝術用語，常見 go to the opera、an opera house，指結合音樂與戲劇表演的藝術形式。",
-        "examples": [
-          {
-            "en": "They attended a performance of a famous Italian opera.",
-            "zh": "他們去欣賞了一場知名義大利歌劇的演出。"
-          }
+        "grammarPatterns": [
+          "go to the opera",
+          "an opera by + somebody"
         ],
         "collocations": [
           {
             "text": "an opera house",
             "meaningZh": "歌劇院"
           }
+        ],
+        "examples": [
+          {
+            "en": "They attended a performance of a famous Italian opera.",
+            "zh": "他們去欣賞了一場知名義大利歌劇的演出。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "operatic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "歌劇的"
       }
     ],
     "tags": [
@@ -2054,9 +2732,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_operative",
@@ -2070,21 +2746,53 @@
       {
         "id": "s_operative_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "functioning or having effect; in use or operation",
         "definitionZh": "有效的；運作中的；（法律條文）具約束力的",
         "usageExplanationZh": "常見 the operative word（關鍵字眼）、an operative clause（生效條款），強調正在發揮作用的部分。",
-        "examples": [
-          {
-            "en": "The new law becomes operative next month.",
-            "zh": "這項新法將於下個月開始生效。"
-          }
+        "grammarPatterns": [
+          "become operative",
+          "the operative + noun"
         ],
         "collocations": [
           {
             "text": "the operative word",
             "meaningZh": "關鍵字"
           }
+        ],
+        "examples": [
+          {
+            "en": "The new law becomes operative next month.",
+            "zh": "這項新法將於下個月開始生效。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "effective",
+        "noteZh": "生效的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "inoperative",
+        "noteZh": "無法運作或無效的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "operate",
+        "partOfSpeech": "verb",
+        "meaningZh": "運作；操作"
+      },
+      {
+        "lemma": "operation",
+        "partOfSpeech": "noun",
+        "meaningZh": "運作；手術"
       }
     ],
     "tags": [
@@ -2097,19 +2805,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "effective",
-        "noteZh": "生效的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "inoperative",
-        "noteZh": "無法運作或無效的"
-      }
-    ]
+    }
   },
   {
     "id": "w_operator",
@@ -2123,14 +2819,16 @@
       {
         "id": "s_operator_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "business"
+        ],
         "definitionEn": "a person who works or controls a machine, process, or business",
         "definitionZh": "操作員；經營者",
         "usageExplanationZh": "常見 machine operator、tour operator，指負責操作設備或經營特定業務的人。",
-        "examples": [
-          {
-            "en": "The telephone operator connected the call promptly.",
-            "zh": "接線生迅速接通了這通電話。"
-          }
+        "grammarPatterns": [
+          "a machine operator",
+          "a tour operator"
         ],
         "collocations": [
           {
@@ -2141,7 +2839,27 @@
             "text": "a tour operator",
             "meaningZh": "旅行業者"
           }
+        ],
+        "examples": [
+          {
+            "en": "The telephone operator connected the call promptly.",
+            "zh": "接線生迅速接通了這通電話。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "operate",
+        "partOfSpeech": "verb",
+        "meaningZh": "操作；經營"
+      },
+      {
+        "lemma": "operation",
+        "partOfSpeech": "noun",
+        "meaningZh": "操作；運轉"
       }
     ],
     "tags": [
@@ -2154,9 +2872,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_opponent",
@@ -2170,21 +2886,48 @@
       {
         "id": "s_opponent_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "characterized by active hostility or opposition",
         "definitionZh": "敵對的；對立的",
         "usageExplanationZh": "多用於修飾與對手相關的名詞，如 opponent forces（敵對勢力），強調處於對抗立場。",
-        "examples": [
-          {
-            "en": "The two nations remained opponent powers throughout the conflict.",
-            "zh": "這兩國在整場衝突期間始終處於敵對的勢力關係。"
-          }
+        "grammarPatterns": [
+          "opponent + noun",
+          "opponent forces"
         ],
         "collocations": [
           {
             "text": "opponent processes",
             "meaningZh": "對抗歷程"
           }
+        ],
+        "examples": [
+          {
+            "en": "The two nations remained opponent powers throughout the conflict.",
+            "zh": "這兩國在整場衝突期間始終處於敵對的勢力關係。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "opposing",
+        "noteZh": "限形容詞：對立的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "oppose",
+        "partOfSpeech": "verb",
+        "meaningZh": "反對；抵制"
+      },
+      {
+        "lemma": "opposition",
+        "partOfSpeech": "noun",
+        "meaningZh": "反對；對立"
       }
     ],
     "tags": [
@@ -2199,14 +2942,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "opposing",
-        "noteZh": "限形容詞：對立的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_oppose",
@@ -2220,21 +2956,57 @@
       {
         "id": "s_oppose_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to disagree with or resist a plan, policy, or action",
         "definitionZh": "反對；抵制",
         "usageExplanationZh": "常接受詞，如 oppose a bill、oppose the decision，強調公開表達不贊同或加以抵制。",
-        "examples": [
-          {
-            "en": "Many residents opposed the construction of the new highway.",
-            "zh": "許多居民反對興建這條新高速公路。"
-          }
+        "grammarPatterns": [
+          "oppose + noun",
+          "be opposed to + V-ing"
         ],
         "collocations": [
           {
             "text": "strongly oppose the proposal",
             "meaningZh": "強烈反對提案"
           }
+        ],
+        "examples": [
+          {
+            "en": "Many residents opposed the construction of the new highway.",
+            "zh": "許多居民反對興建這條新高速公路。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "resist",
+        "noteZh": "反對或抵制"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "support",
+        "noteZh": "支持"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "opposition",
+        "partOfSpeech": "noun",
+        "meaningZh": "反對；反對派"
+      },
+      {
+        "lemma": "opponent",
+        "partOfSpeech": "noun",
+        "meaningZh": "對手；反對者"
+      },
+      {
+        "lemma": "opposite",
+        "partOfSpeech": "adjective",
+        "meaningZh": "相反的"
       }
     ],
     "tags": [
@@ -2249,19 +3021,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "resist",
-        "noteZh": "反對或抵制"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "support",
-        "noteZh": "支持"
-      }
-    ]
+    }
   },
   {
     "id": "w_opposite",
@@ -2275,21 +3035,52 @@
       {
         "id": "s_opposite_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "positioned or facing away in a different direction, or completely different in nature",
         "definitionZh": "相對的；相反的",
         "usageExplanationZh": "常見 the opposite direction、opposite opinions，也可用於描述位置相對或性質完全不同。",
-        "examples": [
-          {
-            "en": "They walked in opposite directions after saying goodbye.",
-            "zh": "他們道別後便朝相反的方向走去。"
-          }
+        "grammarPatterns": [
+          "the opposite + noun",
+          "opposite to + noun"
         ],
         "collocations": [
           {
             "text": "the opposite direction",
             "meaningZh": "相反方向"
           }
+        ],
+        "examples": [
+          {
+            "en": "They walked in opposite directions after saying goodbye.",
+            "zh": "他們道別後便朝相反的方向走去。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "contrary",
+        "noteZh": "相反的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "identical",
+        "noteZh": "相同的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "oppose",
+        "partOfSpeech": "verb",
+        "meaningZh": "反對"
+      },
+      {
+        "lemma": "opposition",
+        "partOfSpeech": "noun",
+        "meaningZh": "對立；反對"
       }
     ],
     "tags": [
@@ -2303,19 +3094,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "contrary",
-        "noteZh": "相反的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "identical",
-        "noteZh": "相同的"
-      }
-    ]
+    }
   },
   {
     "id": "w_oppress",
@@ -2329,21 +3108,58 @@
       {
         "id": "s_oppress_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to keep someone in a state of subjection through unjust use of power",
         "definitionZh": "壓迫；壓制",
         "usageExplanationZh": "常見被動 be oppressed by，強調長期以不公正的權力壓制他人，語氣正式且帶強烈負面色彩。",
-        "examples": [
-          {
-            "en": "The regime oppressed political dissidents for decades.",
-            "zh": "這個政權壓迫政治異議人士長達數十年。"
-          }
+        "grammarPatterns": [
+          "oppress + noun",
+          "be oppressed by + noun"
         ],
         "collocations": [
           {
             "text": "oppress a minority",
             "meaningZh": "壓迫少數族群"
           }
+        ],
+        "examples": [
+          {
+            "en": "The regime oppressed political dissidents for decades.",
+            "zh": "這個政權壓迫政治異議人士長達數十年。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "persecute",
+        "noteZh": "迫害或壓迫"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "liberate",
+        "noteZh": "解放"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "oppression",
+        "partOfSpeech": "noun",
+        "meaningZh": "壓迫；壓制"
+      },
+      {
+        "lemma": "oppressive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "壓迫的；令人窒息的"
+      },
+      {
+        "lemma": "oppressor",
+        "partOfSpeech": "noun",
+        "meaningZh": "壓迫者"
       }
     ],
     "tags": [
@@ -2357,19 +3173,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "persecute",
-        "noteZh": "迫害或壓迫"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "liberate",
-        "noteZh": "解放"
-      }
-    ]
+    }
   },
   {
     "id": "w_optical",
@@ -2383,21 +3187,43 @@
       {
         "id": "s_optical_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "relating to vision or the sense of sight, or relating to optics",
         "definitionZh": "視覺的；光學的",
         "usageExplanationZh": "常見 optical illusion（視覺錯覺）、optical device（光學儀器），依語境指視覺現象或光學技術。",
-        "examples": [
-          {
-            "en": "The painting creates an optical illusion of depth.",
-            "zh": "這幅畫營造出深度的視覺錯覺。"
-          }
+        "grammarPatterns": [
+          "an optical illusion",
+          "optical + noun"
         ],
         "collocations": [
           {
             "text": "an optical illusion",
             "meaningZh": "視覺錯覺"
           }
+        ],
+        "examples": [
+          {
+            "en": "The painting creates an optical illusion of depth.",
+            "zh": "這幅畫營造出深度的視覺錯覺。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "optics",
+        "partOfSpeech": "noun",
+        "meaningZh": "光學"
+      },
+      {
+        "lemma": "optician",
+        "partOfSpeech": "noun",
+        "meaningZh": "驗光師；眼鏡商"
       }
     ],
     "tags": [
@@ -2411,9 +3237,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_optimism",
@@ -2427,21 +3251,52 @@
       {
         "id": "s_optimism_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a feeling of hopefulness and confidence about the future",
         "definitionZh": "樂觀；樂觀主義",
         "usageExplanationZh": "常見 a sense of optimism、cautious optimism，強調對未來抱持正面期待的態度。",
-        "examples": [
-          {
-            "en": "Despite the setback, she maintained a sense of optimism.",
-            "zh": "儘管遭遇挫折，她仍保持樂觀的態度。"
-          }
+        "grammarPatterns": [
+          "a sense of optimism",
+          "optimism about + noun"
         ],
         "collocations": [
           {
             "text": "cautious optimism",
             "meaningZh": "審慎樂觀"
           }
+        ],
+        "examples": [
+          {
+            "en": "Despite the setback, she maintained a sense of optimism.",
+            "zh": "儘管遭遇挫折，她仍保持樂觀的態度。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "hopefulness",
+        "noteZh": "對未來抱持希望"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "pessimism",
+        "noteZh": "悲觀"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "optimistic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "樂觀的"
+      },
+      {
+        "lemma": "optimist",
+        "partOfSpeech": "noun",
+        "meaningZh": "樂觀主義者"
       }
     ],
     "tags": [
@@ -2455,19 +3310,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "hopefulness",
-        "noteZh": "對未來抱持希望"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "pessimism",
-        "noteZh": "悲觀"
-      }
-    ]
+    }
   },
   {
     "id": "w_optimistic",
@@ -2481,21 +3324,52 @@
       {
         "id": "s_optimistic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "hopeful and confident about the future or the success of something",
         "definitionZh": "樂觀的",
         "usageExplanationZh": "常接 about，如 optimistic about the future，語氣正面，與 pessimistic 相對。",
-        "examples": [
-          {
-            "en": "He remains optimistic about the company's growth prospects.",
-            "zh": "他對公司的成長前景仍保持樂觀。"
-          }
+        "grammarPatterns": [
+          "optimistic about + noun",
+          "remain optimistic that + clause"
         ],
         "collocations": [
           {
             "text": "optimistic about the future",
             "meaningZh": "對未來感到樂觀"
           }
+        ],
+        "examples": [
+          {
+            "en": "He remains optimistic about the company's growth prospects.",
+            "zh": "他對公司的成長前景仍保持樂觀。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "hopeful",
+        "noteZh": "抱持希望的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "pessimistic",
+        "noteZh": "悲觀的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "optimism",
+        "partOfSpeech": "noun",
+        "meaningZh": "樂觀；樂觀主義"
+      },
+      {
+        "lemma": "optimist",
+        "partOfSpeech": "noun",
+        "meaningZh": "樂觀的人"
       }
     ],
     "tags": [
@@ -2508,19 +3382,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "hopeful",
-        "noteZh": "抱持希望的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "pessimistic",
-        "noteZh": "悲觀的"
-      }
-    ]
+    }
   },
   {
     "id": "w_optional",
@@ -2534,21 +3396,58 @@
       {
         "id": "s_optional_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "available to be chosen but not compulsory",
         "definitionZh": "可選擇的；非強制的",
         "usageExplanationZh": "常見 an optional course、optional extras，與 mandatory/compulsory 相對，強調可自由選擇是否參與。",
-        "examples": [
-          {
-            "en": "Attendance at the workshop is optional.",
-            "zh": "參加這場工作坊是自由選擇的。"
-          }
+        "grammarPatterns": [
+          "be optional",
+          "an optional + noun"
         ],
         "collocations": [
           {
             "text": "an optional course",
             "meaningZh": "選修課"
           }
+        ],
+        "examples": [
+          {
+            "en": "Attendance at the workshop is optional.",
+            "zh": "參加這場工作坊是自由選擇的。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "elective",
+        "noteZh": "可自行選擇的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "mandatory",
+        "noteZh": "強制的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "option",
+        "partOfSpeech": "noun",
+        "meaningZh": "選擇；選項"
+      },
+      {
+        "lemma": "opt",
+        "partOfSpeech": "verb",
+        "meaningZh": "選擇"
+      },
+      {
+        "lemma": "optionally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "可選擇地"
       }
     ],
     "tags": [
@@ -2563,19 +3462,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "elective",
-        "noteZh": "可自行選擇的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "mandatory",
-        "noteZh": "強制的"
-      }
-    ]
+    }
   },
   {
     "id": "w_oral",
@@ -2589,14 +3476,16 @@
       {
         "id": "s_oral_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "spoken rather than written, or relating to the mouth",
         "definitionZh": "口頭的；口腔的",
         "usageExplanationZh": "語言義如 an oral exam（口試）；醫學義如 oral hygiene（口腔衛生），依語境判斷指涉範圍。",
-        "examples": [
-          {
-            "en": "Students must pass both a written and an oral exam.",
-            "zh": "學生必須通過筆試和口試兩項考試。"
-          }
+        "grammarPatterns": [
+          "an oral exam",
+          "oral + noun"
         ],
         "collocations": [
           {
@@ -2607,7 +3496,32 @@
             "text": "oral hygiene",
             "meaningZh": "口腔衛生"
           }
+        ],
+        "examples": [
+          {
+            "en": "Students must pass both a written and an oral exam.",
+            "zh": "學生必須通過筆試和口試兩項考試。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "spoken",
+        "noteZh": "限口頭表達義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "written",
+        "noteZh": "限書面表達義"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "orally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "口頭地；口服地"
       }
     ],
     "tags": [
@@ -2621,18 +3535,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "spoken",
-        "noteZh": "限口頭表達義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "written",
-        "noteZh": "限書面表達義"
-      }
-    ]
+    }
   }
 ]

@@ -11,42 +11,65 @@
       {
         "id": "s_waver_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to be uncertain or hesitate between different opinions or actions",
         "definitionZh": "動搖；猶豫",
         "usageExplanationZh": "常見 waver in one's resolve/support，強調決心或立場的不穩固，語氣書面。",
-        "examples": [
-          {
-            "en": "His support for the plan began to waver under pressure.",
-            "zh": "在壓力之下，他對這項計畫的支持開始動搖。"
-          }
+        "grammarPatterns": [
+          "waver between A and B",
+          "begin to waver"
         ],
         "collocations": [
           {
             "text": "waver in one's resolve",
             "meaningZh": "決心動搖"
           }
+        ],
+        "examples": [
+          {
+            "en": "His support for the plan began to waver under pressure.",
+            "zh": "在壓力之下，他對這項計畫的支持開始動搖。"
+          }
         ]
       },
       {
         "id": "s_waver_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "an unsteady or trembling movement, especially in one's voice",
         "definitionZh": "顫抖；動搖",
         "usageExplanationZh": "較少見，常指聲音或動作的不穩定，如 a waver in her voice。",
-        "examples": [
-          {
-            "en": "There was a slight waver in her voice as she spoke.",
-            "zh": "她說話時聲音略帶顫抖。"
-          }
+        "grammarPatterns": [
+          "a waver in sb's voice",
+          "a slight waver"
         ],
         "collocations": [
           {
             "text": "her voice wavered",
             "meaningZh": "她的聲音顫抖了"
           }
+        ],
+        "examples": [
+          {
+            "en": "There was a slight waver in her voice as she spoke.",
+            "zh": "她說話時聲音略帶顫抖。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "hesitate",
+        "noteZh": "限猶豫義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -59,14 +82,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "hesitate",
-        "noteZh": "限猶豫義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_wean",
@@ -80,14 +96,16 @@
       {
         "id": "s_wean_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "to accustom a baby or young animal to food other than its mother's milk, or to make someone gradually stop relying on something",
         "definitionZh": "使斷奶；使戒除（依賴）",
         "usageExplanationZh": "字面義指嬰兒斷奶；比喻用法如 wean someone off（讓某人逐漸戒除依賴）。",
-        "examples": [
-          {
-            "en": "She is trying to wean her toddler off the pacifier.",
-            "zh": "她正試著讓幼兒戒掉奶嘴。"
-          }
+        "grammarPatterns": [
+          "wean sb off + noun",
+          "wean a baby onto + noun"
         ],
         "collocations": [
           {
@@ -98,9 +116,17 @@
             "text": "wean someone off cigarettes",
             "meaningZh": "使某人逐漸戒菸"
           }
+        ],
+        "examples": [
+          {
+            "en": "She is trying to wean her toddler off the pacifier.",
+            "zh": "她正試著讓幼兒戒掉奶嘴。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -111,9 +137,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_weary",
@@ -127,40 +151,85 @@
       {
         "id": "s_weary_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "feeling or showing extreme tiredness, especially after a long period of exertion",
         "definitionZh": "疲倦的；厭倦的",
         "usageExplanationZh": "常接 weary of（對……感到厭倦），也可形容身體上的疲累，如 weary travelers。",
-        "examples": [
-          {
-            "en": "After the long journey, the weary travelers finally reached home.",
-            "zh": "經過漫長的旅途，這些疲憊的旅人終於到家了。"
-          }
+        "grammarPatterns": [
+          "a weary + noun",
+          "be weary of + noun"
         ],
         "collocations": [
           {
             "text": "weary of waiting",
             "meaningZh": "厭倦等待"
           }
+        ],
+        "examples": [
+          {
+            "en": "After the long journey, the weary travelers finally reached home.",
+            "zh": "經過漫長的旅途，這些疲憊的旅人終於到家了。"
+          }
         ]
       },
       {
         "id": "s_weary_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "to become or make someone tired or bored",
         "definitionZh": "使疲倦；使厭煩",
         "usageExplanationZh": "常接 weary of，強調因長時間承受或重複而感到疲乏或厭倦。",
-        "examples": [
-          {
-            "en": "She grew weary of his constant complaints.",
-            "zh": "她對他不斷的抱怨感到厭煩。"
-          }
+        "grammarPatterns": [
+          "weary of + noun",
+          "grow weary of + V-ing"
         ],
         "collocations": [
           {
             "text": "weary someone with complaints",
             "meaningZh": "用抱怨使某人厭煩"
           }
+        ],
+        "examples": [
+          {
+            "en": "She grew weary of his constant complaints.",
+            "zh": "她對他不斷的抱怨感到厭煩。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "tired",
+        "noteZh": "限疲倦的形容詞義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "rested",
+        "noteZh": "休息充足的，限形容詞義"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "weariness",
+        "partOfSpeech": "noun",
+        "meaningZh": "疲倦；厭倦"
+      },
+      {
+        "lemma": "wearily",
+        "partOfSpeech": "adverb",
+        "meaningZh": "疲倦地"
+      },
+      {
+        "lemma": "wearisome",
+        "partOfSpeech": "adjective",
+        "meaningZh": "令人厭倦的"
       }
     ],
     "tags": [
@@ -175,19 +244,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "tired",
-        "noteZh": "限疲倦的形容詞義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "rested",
-        "noteZh": "休息充足的，限形容詞義"
-      }
-    ]
+    }
   },
   {
     "id": "w_weave",
@@ -201,40 +258,70 @@
       {
         "id": "s_weave_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "to form fabric by interlacing threads, or to move in a winding pattern",
         "definitionZh": "編織；穿梭",
         "usageExplanationZh": "字面義指織布；比喻用法如 weave through traffic（在車陣中穿梭）。",
-        "examples": [
-          {
-            "en": "The cyclist weaved skillfully through the busy traffic.",
-            "zh": "這名自行車騎士熟練地在繁忙的車陣中穿梭。"
-          }
+        "grammarPatterns": [
+          "weave + noun",
+          "weave through + noun"
         ],
         "collocations": [
           {
             "text": "weave through traffic",
             "meaningZh": "在車陣中穿梭"
           }
+        ],
+        "examples": [
+          {
+            "en": "The cyclist weaved skillfully through the busy traffic.",
+            "zh": "這名自行車騎士熟練地在繁忙的車陣中穿梭。"
+          }
         ]
       },
       {
         "id": "s_weave_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "the way in which threads are woven together in fabric",
         "definitionZh": "織法；編織方式",
         "usageExplanationZh": "較少見，指布料經緯線交織的方式或紋理，常見於紡織業描述。",
-        "examples": [
-          {
-            "en": "The scarf has a tight, intricate weave.",
-            "zh": "這條圍巾有著細密精緻的織法。"
-          }
+        "grammarPatterns": [
+          "a tight weave",
+          "the weave of + noun"
         ],
         "collocations": [
           {
             "text": "a tight weave",
             "meaningZh": "緊密的織法"
           }
+        ],
+        "examples": [
+          {
+            "en": "The scarf has a tight, intricate weave.",
+            "zh": "這條圍巾有著細密精緻的織法。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "interlace",
+        "noteZh": "限交織的動詞義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "weaver",
+        "partOfSpeech": "noun",
+        "meaningZh": "織工；編織者"
       }
     ],
     "tags": [
@@ -248,14 +335,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "interlace",
-        "noteZh": "限交織的動詞義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_wedge",
@@ -269,42 +349,59 @@
       {
         "id": "s_wedge_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a piece of material with a pointed edge, thick at one end and thin at the other, used to secure or split something",
         "definitionZh": "楔子；三角形之物",
         "usageExplanationZh": "常見 a wedge of cheese/cake（一角起司／蛋糕），也可指用來固定或分開物體的三角工具。",
-        "examples": [
-          {
-            "en": "He used a wedge to keep the door open.",
-            "zh": "他用了一個楔子讓門保持開啟。"
-          }
+        "grammarPatterns": [
+          "a wedge of + noun",
+          "drive a wedge between A and B"
         ],
         "collocations": [
           {
             "text": "a wedge of cheese",
             "meaningZh": "一塊楔形乳酪"
           }
+        ],
+        "examples": [
+          {
+            "en": "He used a wedge to keep the door open.",
+            "zh": "他用了一個楔子讓門保持開啟。"
+          }
         ]
       },
       {
         "id": "s_wedge_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to fix something firmly in place with a wedge or by force",
         "definitionZh": "楔入；塞緊",
         "usageExplanationZh": "常接 wedge something into/between，強調用力將物體固定或塞入狹小空間。",
-        "examples": [
-          {
-            "en": "She wedged a book under the wobbly table leg.",
-            "zh": "她在搖晃的桌腳下塞了一本書來墊穩。"
-          }
+        "grammarPatterns": [
+          "wedge sth under + noun",
+          "wedge sth between A and B"
         ],
         "collocations": [
           {
             "text": "wedge the door open",
             "meaningZh": "用東西塞住門使其保持敞開"
           }
+        ],
+        "examples": [
+          {
+            "en": "She wedged a book under the wobbly table leg.",
+            "zh": "她在搖晃的桌腳下塞了一本書來墊穩。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -315,9 +412,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_weep",
@@ -331,21 +426,44 @@
       {
         "id": "s_weep_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "to cry, especially silently or quietly",
         "definitionZh": "哭泣；流淚",
         "usageExplanationZh": "語氣較 cry 更文學正式，常見 weep for joy/grief，強調情感深切的哭泣。",
-        "examples": [
-          {
-            "en": "She wept quietly at the funeral.",
-            "zh": "她在葬禮上靜靜地哭泣。"
-          }
+        "grammarPatterns": [
+          "weep for sb",
+          "weep quietly",
+          "weep over + noun"
         ],
         "collocations": [
           {
             "text": "weep for joy",
             "meaningZh": "喜極而泣"
           }
+        ],
+        "examples": [
+          {
+            "en": "She wept quietly at the funeral.",
+            "zh": "她在葬禮上靜靜地哭泣。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "cry",
+        "noteZh": "哭泣"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "weepy",
+        "partOfSpeech": "adjective",
+        "meaningZh": "愛哭的；淚汪汪的"
       }
     ],
     "tags": [
@@ -358,14 +476,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cry",
-        "noteZh": "哭泣"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_weird",
@@ -379,21 +490,58 @@
       {
         "id": "s_weird_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "strange or unusual, especially in an unsettling way",
         "definitionZh": "怪異的；詭異的",
         "usageExplanationZh": "口語常用詞，形容不尋常、令人感到不安或難以理解的事物。",
-        "examples": [
-          {
-            "en": "There was something weird about the way he acted.",
-            "zh": "他的舉止有種說不出的怪異感。"
-          }
+        "grammarPatterns": [
+          "a weird + noun",
+          "it is weird that + clause"
         ],
         "collocations": [
           {
             "text": "a weird feeling",
             "meaningZh": "奇怪的感覺"
           }
+        ],
+        "examples": [
+          {
+            "en": "There was something weird about the way he acted.",
+            "zh": "他的舉止有種說不出的怪異感。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "strange",
+        "noteZh": "奇怪的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "normal",
+        "noteZh": "正常的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "weirdly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "怪異地"
+      },
+      {
+        "lemma": "weirdness",
+        "partOfSpeech": "noun",
+        "meaningZh": "怪異；詭異"
+      },
+      {
+        "lemma": "weirdo",
+        "partOfSpeech": "noun",
+        "meaningZh": "怪人"
       }
     ],
     "tags": [
@@ -408,19 +556,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "strange",
-        "noteZh": "奇怪的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "normal",
-        "noteZh": "正常的"
-      }
-    ]
+    }
   },
   {
     "id": "w_welfare",
@@ -434,14 +570,16 @@
       {
         "id": "s_welfare_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the health, happiness, and safety of a person, or financial assistance given by the government to those in need",
         "definitionZh": "福祉；福利（金）",
         "usageExplanationZh": "常見 child welfare（兒童福祉）、welfare benefits（社會福利金），依語境略有不同。",
-        "examples": [
-          {
-            "en": "The organization works to improve the welfare of stray animals.",
-            "zh": "這個組織致力於改善流浪動物的福祉。"
-          }
+        "grammarPatterns": [
+          "the welfare of + noun",
+          "be on welfare"
         ],
         "collocations": [
           {
@@ -452,9 +590,22 @@
             "text": "on welfare",
             "meaningZh": "領取社會救濟金"
           }
+        ],
+        "examples": [
+          {
+            "en": "The organization works to improve the welfare of stray animals.",
+            "zh": "這個組織致力於改善流浪動物的福祉。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "well-being",
+        "noteZh": "限福祉義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -466,14 +617,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "well-being",
-        "noteZh": "限福祉義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_wetland",
@@ -487,23 +631,33 @@
       {
         "id": "s_wetland_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "an area of land saturated with water, such as a marsh or swamp",
         "definitionZh": "濕地",
         "usageExplanationZh": "生態學用語，常見 wetland conservation（濕地保育），泛指沼澤等長期積水的區域。",
-        "examples": [
-          {
-            "en": "The wetland is home to many rare bird species.",
-            "zh": "這片濕地是許多稀有鳥類的棲息地。"
-          }
+        "grammarPatterns": [
+          "a coastal wetland",
+          "protect wetlands"
         ],
         "collocations": [
           {
             "text": "wetland conservation",
             "meaningZh": "濕地保育"
           }
+        ],
+        "examples": [
+          {
+            "en": "The wetland is home to many rare bird species.",
+            "zh": "這片濕地是許多稀有鳥類的棲息地。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -514,9 +668,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_whereby",
@@ -530,23 +682,38 @@
       {
         "id": "s_whereby_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "by which; through which",
         "definitionZh": "藉以；憑藉（此）",
         "usageExplanationZh": "正式書面用語，常見於法律或學術文件，引導子句說明方式或途徑。",
-        "examples": [
-          {
-            "en": "They signed an agreement whereby both parties share the profits.",
-            "zh": "他們簽訂了一份協議，藉此讓雙方共享利潤。"
-          }
+        "grammarPatterns": [
+          "an agreement whereby + clause",
+          "a system whereby + clause"
         ],
         "collocations": [
           {
             "text": "a system whereby users can register",
             "meaningZh": "讓使用者得以註冊的制度"
           }
+        ],
+        "examples": [
+          {
+            "en": "They signed an agreement whereby both parties share the profits.",
+            "zh": "他們簽訂了一份協議，藉此讓雙方共享利潤。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "by which",
+        "noteZh": "藉由該方式"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -557,14 +724,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "by which",
-        "noteZh": "藉由該方式"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_whiff",
@@ -578,37 +738,58 @@
       {
         "id": "s_whiff_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a slight or brief smell of something",
         "definitionZh": "一絲氣味；一點跡象",
         "usageExplanationZh": "常接 a whiff of，字面指淡淡的氣味，也可比喻指些微跡象，如 a whiff of scandal。",
-        "examples": [
-          {
-            "en": "She caught a whiff of perfume as he walked by.",
-            "zh": "他走過時，她聞到了一絲香水味。"
-          }
+        "grammarPatterns": [
+          "a whiff of + noun",
+          "catch a whiff of + noun"
         ],
         "collocations": [
           {
             "text": "a whiff of smoke",
             "meaningZh": "一絲煙味"
           }
+        ],
+        "examples": [
+          {
+            "en": "She caught a whiff of perfume as he walked by.",
+            "zh": "他走過時，她聞到了一絲香水味。"
+          }
         ]
       },
       {
         "id": "s_whiff_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "literary"
+        ],
         "definitionEn": "to have or produce a slight smell of something",
         "definitionZh": "散發出（淡淡的）氣味",
         "usageExplanationZh": "較少見，常接 whiff of，強調輕微氣味的散發，語氣口語。",
+        "grammarPatterns": [
+          "whiff of + noun"
+        ],
+        "collocations": [],
         "examples": [
           {
             "en": "The kitchen whiffed of freshly baked bread.",
             "zh": "廚房裡飄散著剛烤好麵包的香氣。"
           }
-        ],
-        "collocations": []
+        ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "hint",
+        "noteZh": "限微弱跡象的名詞義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -619,14 +800,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "hint",
-        "noteZh": "限微弱跡象的名詞義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_whimsical",
@@ -640,21 +814,53 @@
       {
         "id": "s_whimsical_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "playfully quaint or fanciful, especially in an appealing or amusing way",
         "definitionZh": "異想天開的；奇特有趣的",
         "usageExplanationZh": "常修飾 design、story、person，強調帶有想像力和趣味性但不失怪誕的風格。",
-        "examples": [
-          {
-            "en": "The children's book had a whimsical illustration style.",
-            "zh": "這本童書有著異想天開的插畫風格。"
-          }
+        "grammarPatterns": [
+          "a whimsical + noun",
+          "whimsical in style"
         ],
         "collocations": [
           {
             "text": "a whimsical design",
             "meaningZh": "奇趣的設計"
           }
+        ],
+        "examples": [
+          {
+            "en": "The children's book had a whimsical illustration style.",
+            "zh": "這本童書有著異想天開的插畫風格。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "fanciful",
+        "noteZh": "富於奇幻想像的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "whim",
+        "partOfSpeech": "noun",
+        "meaningZh": "一時興起的念頭"
+      },
+      {
+        "lemma": "whimsy",
+        "partOfSpeech": "noun",
+        "meaningZh": "異想天開；怪念頭"
+      },
+      {
+        "lemma": "whimsically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "異想天開地"
       }
     ],
     "tags": [
@@ -667,14 +873,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "fanciful",
-        "noteZh": "富於奇幻想像的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_whip",
@@ -688,23 +887,32 @@
       {
         "id": "s_whip_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a length of leather or cord used for driving animals or as punishment",
         "definitionZh": "鞭子",
         "usageExplanationZh": "常見 crack a whip（甩鞭子），也可比喻指政黨中負責督導黨紀的人（政治用語 party whip）。",
-        "examples": [
-          {
-            "en": "The rider cracked the whip to urge the horse forward.",
-            "zh": "騎士甩動鞭子催促馬兒向前奔跑。"
-          }
+        "grammarPatterns": [
+          "crack a whip",
+          "a leather whip"
         ],
         "collocations": [
           {
             "text": "a leather whip",
             "meaningZh": "皮鞭"
           }
+        ],
+        "examples": [
+          {
+            "en": "The rider cracked the whip to urge the horse forward.",
+            "zh": "騎士甩動鞭子催促馬兒向前奔跑。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -715,9 +923,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_whisper",
@@ -731,42 +937,65 @@
       {
         "id": "s_whisper_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "a soft, quiet voice or sound, or a piece of gossip",
         "definitionZh": "耳語；低語聲；謠言",
         "usageExplanationZh": "常見 speak in a whisper（用耳語說話），也可指未經證實的傳言，如 whispers of a merger。",
-        "examples": [
-          {
-            "en": "She spoke in a whisper so as not to wake the baby.",
-            "zh": "她用耳語說話以免吵醒嬰兒。"
-          }
+        "grammarPatterns": [
+          "speak in a whisper",
+          "a whisper of + noun"
         ],
         "collocations": [
           {
             "text": "in a whisper",
             "meaningZh": "以耳語的聲音"
           }
+        ],
+        "examples": [
+          {
+            "en": "She spoke in a whisper so as not to wake the baby.",
+            "zh": "她用耳語說話以免吵醒嬰兒。"
+          }
         ]
       },
       {
         "id": "s_whisper_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "spoken"
+        ],
         "definitionEn": "to speak very quietly using one's breath rather than one's throat",
         "definitionZh": "低聲說；耳語",
         "usageExplanationZh": "常接 whisper something to someone，強調壓低聲音、不使他人聽見的說話方式。",
-        "examples": [
-          {
-            "en": "He whispered the secret into her ear.",
-            "zh": "他在她耳邊低聲說出了這個秘密。"
-          }
+        "grammarPatterns": [
+          "whisper sth to sb",
+          "whisper in sb's ear"
         ],
         "collocations": [
           {
             "text": "whisper in someone's ear",
             "meaningZh": "在某人耳邊低語"
           }
+        ],
+        "examples": [
+          {
+            "en": "He whispered the secret into her ear.",
+            "zh": "他在她耳邊低聲說出了這個秘密。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "murmur",
+        "noteZh": "輕柔低語"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -777,14 +1006,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "murmur",
-        "noteZh": "輕柔低語"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_whistle",
@@ -798,23 +1020,32 @@
       {
         "id": "s_whistle_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a device used to produce a shrill sound, or the sound itself",
         "definitionZh": "哨子；哨聲",
         "usageExplanationZh": "常見 blow a whistle（吹哨），字面指器具，也指其發出的聲音本身。",
-        "examples": [
-          {
-            "en": "The referee blew his whistle to signal the foul.",
-            "zh": "裁判吹響哨子示意犯規。"
-          }
+        "grammarPatterns": [
+          "blow a whistle",
+          "the whistle of + noun"
         ],
         "collocations": [
           {
             "text": "blow a whistle",
             "meaningZh": "吹哨子"
           }
+        ],
+        "examples": [
+          {
+            "en": "The referee blew his whistle to signal the foul.",
+            "zh": "裁判吹響哨子示意犯規。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -826,9 +1057,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_whittle",
@@ -842,23 +1071,38 @@
       {
         "id": "s_whittle_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "to carve wood by cutting small slices from it, or to gradually reduce something",
         "definitionZh": "削（木頭）；逐漸削減",
         "usageExplanationZh": "字面義指用刀削木頭；比喻用法如 whittle down a list（逐步縮減清單）。",
-        "examples": [
-          {
-            "en": "He whittled a small figure out of a piece of wood.",
-            "zh": "他用一塊木頭削出了一個小雕像。"
-          }
+        "grammarPatterns": [
+          "whittle sth out of + noun",
+          "whittle sth down to + noun"
         ],
         "collocations": [
           {
             "text": "whittle down the list",
             "meaningZh": "逐步縮短清單"
           }
+        ],
+        "examples": [
+          {
+            "en": "He whittled a small figure out of a piece of wood.",
+            "zh": "他用一塊木頭削出了一個小雕像。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "carve",
+        "noteZh": "限削刻義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -870,14 +1114,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "carve",
-        "noteZh": "限削刻義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_wholesome",
@@ -891,21 +1128,57 @@
       {
         "id": "s_wholesome_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "conducive to or promoting physical, mental, or moral well-being",
         "definitionZh": "有益健康的；正派的",
         "usageExplanationZh": "常修飾 food、entertainment、lifestyle，強調對身心有益且合乎道德的性質。",
-        "examples": [
-          {
-            "en": "The film promotes wholesome family values.",
-            "zh": "這部電影提倡有益身心的家庭價值觀。"
-          }
+        "grammarPatterns": [
+          "a wholesome + noun",
+          "wholesome and nutritious"
         ],
         "collocations": [
           {
             "text": "wholesome food",
             "meaningZh": "有益健康的食物"
           }
+        ],
+        "examples": [
+          {
+            "en": "The film promotes wholesome family values.",
+            "zh": "這部電影提倡有益身心的家庭價值觀。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "healthful",
+        "noteZh": "限有益健康義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "unwholesome",
+        "noteZh": "不健康或不正派的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "wholesomeness",
+        "partOfSpeech": "noun",
+        "meaningZh": "有益健康；正派"
+      },
+      {
+        "lemma": "unwholesome",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不健康的；不正派的"
+      },
+      {
+        "lemma": "whole",
+        "partOfSpeech": "adjective",
+        "meaningZh": "全部的；完整的"
       }
     ],
     "tags": [
@@ -920,19 +1193,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "healthful",
-        "noteZh": "限有益健康義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "unwholesome",
-        "noteZh": "不健康或不正派的"
-      }
-    ]
+    }
   },
   {
     "id": "w_wicked",
@@ -946,14 +1207,16 @@
       {
         "id": "s_wicked_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "informal"
+        ],
         "definitionEn": "morally wrong or bad, or (informal) excellent",
         "definitionZh": "邪惡的；（口語）超讚的",
         "usageExplanationZh": "傳統義指道德敗壞；現代口語中也可作正面誇獎，如 that's wicked!（那太酷了！）。",
-        "examples": [
-          {
-            "en": "The wicked witch cast a curse on the village.",
-            "zh": "這名邪惡的女巫對這座村莊下了詛咒。"
-          }
+        "grammarPatterns": [
+          "a wicked + noun",
+          "it is wicked to + verb"
         ],
         "collocations": [
           {
@@ -964,7 +1227,37 @@
             "text": "a wicked sense of humor",
             "meaningZh": "帶有淘氣意味的幽默感"
           }
+        ],
+        "examples": [
+          {
+            "en": "The wicked witch cast a curse on the village.",
+            "zh": "這名邪惡的女巫對這座村莊下了詛咒。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "evil",
+        "noteZh": "限邪惡義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "virtuous",
+        "noteZh": "限品德高尚義"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "wickedly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "邪惡地；淘氣地"
+      },
+      {
+        "lemma": "wickedness",
+        "partOfSpeech": "noun",
+        "meaningZh": "邪惡；惡行"
       }
     ],
     "tags": [
@@ -978,19 +1271,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "evil",
-        "noteZh": "限邪惡義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "virtuous",
-        "noteZh": "限品德高尚義"
-      }
-    ]
+    }
   },
   {
     "id": "w_widespread",
@@ -1004,21 +1285,41 @@
       {
         "id": "s_widespread_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "found or distributed over a large area or number of people",
         "definitionZh": "廣泛的；普遍的",
         "usageExplanationZh": "常修飾 belief、damage、use，強調影響範圍或分布程度極廣，語氣書面。",
-        "examples": [
-          {
-            "en": "The disease caused widespread panic across the country.",
-            "zh": "這場疾病在全國引發了廣泛的恐慌。"
-          }
+        "grammarPatterns": [
+          "widespread + noun",
+          "become widespread"
         ],
         "collocations": [
           {
             "text": "widespread support",
             "meaningZh": "廣泛的支持"
           }
+        ],
+        "examples": [
+          {
+            "en": "The disease caused widespread panic across the country.",
+            "zh": "這場疾病在全國引發了廣泛的恐慌。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "prevalent",
+        "noteZh": "廣泛存在的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "localized",
+        "noteZh": "侷限於局部的"
       }
     ],
     "tags": [
@@ -1031,19 +1332,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "prevalent",
-        "noteZh": "廣泛存在的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "localized",
-        "noteZh": "侷限於局部的"
-      }
-    ]
+    }
   },
   {
     "id": "w_widow",
@@ -1057,40 +1346,68 @@
       {
         "id": "s_widow_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a woman whose spouse has died and who has not remarried",
         "definitionZh": "寡婦",
         "usageExplanationZh": "常見於法律或社會描述，指配偶去世且尚未再婚的女性。",
-        "examples": [
-          {
-            "en": "She became a widow at a young age after her husband's accident.",
-            "zh": "她在丈夫因意外過世後，年紀輕輕就成了寡婦。"
-          }
+        "grammarPatterns": [
+          "become a widow",
+          "the widow of + noun"
         ],
         "collocations": [
           {
             "text": "a war widow",
             "meaningZh": "戰爭遺孀"
           }
+        ],
+        "examples": [
+          {
+            "en": "She became a widow at a young age after her husband's accident.",
+            "zh": "她在丈夫因意外過世後，年紀輕輕就成了寡婦。"
+          }
         ]
       },
       {
         "id": "s_widow_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to cause someone to become a widow or widower",
         "definitionZh": "使守寡；使喪偶",
         "usageExplanationZh": "較少見，常見被動語態 be widowed，指因配偶死亡而成為寡婦或鰥夫。",
-        "examples": [
-          {
-            "en": "She was widowed after only five years of marriage.",
-            "zh": "她結婚僅五年就喪偶了。"
-          }
+        "grammarPatterns": [
+          "be widowed",
+          "be widowed by + noun"
         ],
         "collocations": [
           {
             "text": "be widowed at a young age",
             "meaningZh": "年輕時喪偶"
           }
+        ],
+        "examples": [
+          {
+            "en": "She was widowed after only five years of marriage.",
+            "zh": "她結婚僅五年就喪偶了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "widower",
+        "partOfSpeech": "noun",
+        "meaningZh": "鰥夫"
+      },
+      {
+        "lemma": "widowhood",
+        "partOfSpeech": "noun",
+        "meaningZh": "守寡；孀居"
       }
     ],
     "tags": [
@@ -1103,9 +1420,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_width",
@@ -1119,21 +1434,53 @@
       {
         "id": "s_width_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "the measurement or extent of something from side to side",
         "definitionZh": "寬度",
         "usageExplanationZh": "常見 width and length（寬與長），日常度量用語，與 length、height 並列。",
-        "examples": [
-          {
-            "en": "Please measure the width of the doorway before buying the sofa.",
-            "zh": "買沙發之前請先測量一下這扇門的寬度。"
-          }
+        "grammarPatterns": [
+          "the width of + noun",
+          "measure the width"
         ],
         "collocations": [
           {
             "text": "in width",
             "meaningZh": "在寬度上"
           }
+        ],
+        "examples": [
+          {
+            "en": "Please measure the width of the doorway before buying the sofa.",
+            "zh": "買沙發之前請先測量一下這扇門的寬度。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "breadth",
+        "noteZh": "寬度"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "wide",
+        "partOfSpeech": "adjective",
+        "meaningZh": "寬的；廣的"
+      },
+      {
+        "lemma": "widen",
+        "partOfSpeech": "verb",
+        "meaningZh": "加寬；擴大"
+      },
+      {
+        "lemma": "widely",
+        "partOfSpeech": "adverb",
+        "meaningZh": "廣泛地"
       }
     ],
     "tags": [
@@ -1146,14 +1493,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "breadth",
-        "noteZh": "寬度"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_wilderness",
@@ -1167,21 +1507,43 @@
       {
         "id": "s_wilderness_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "academic"
+        ],
         "definitionEn": "an uncultivated, uninhabited region, especially a wild natural area",
         "definitionZh": "荒野；未開發之地",
         "usageExplanationZh": "常見 an untouched wilderness，強調人跡罕至、未經開發的自然環境。",
-        "examples": [
-          {
-            "en": "They hiked through miles of untouched wilderness.",
-            "zh": "他們徒步穿越了數英里未經開發的荒野。"
-          }
+        "grammarPatterns": [
+          "in the wilderness",
+          "miles of wilderness"
         ],
         "collocations": [
           {
             "text": "a wilderness area",
             "meaningZh": "荒野地區"
           }
+        ],
+        "examples": [
+          {
+            "en": "They hiked through miles of untouched wilderness.",
+            "zh": "他們徒步穿越了數英里未經開發的荒野。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "wilds",
+        "noteZh": "人煙罕至的荒野"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "wild",
+        "partOfSpeech": "adjective",
+        "meaningZh": "野生的；荒蕪的"
       }
     ],
     "tags": [
@@ -1194,14 +1556,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "wilds",
-        "noteZh": "人煙罕至的荒野"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_wildlife",
@@ -1215,23 +1570,38 @@
       {
         "id": "s_wildlife_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "neutral"
+        ],
         "definitionEn": "animals living wild in a natural environment",
         "definitionZh": "野生動物",
         "usageExplanationZh": "集合名詞，常見 wildlife conservation（野生動物保育），泛指自然環境中的動物。",
-        "examples": [
-          {
-            "en": "The national park is known for its diverse wildlife.",
-            "zh": "這座國家公園以其多樣的野生動物聞名。"
-          }
+        "grammarPatterns": [
+          "protect wildlife",
+          "wildlife + noun"
         ],
         "collocations": [
           {
             "text": "wildlife conservation",
             "meaningZh": "野生動物保育"
           }
+        ],
+        "examples": [
+          {
+            "en": "The national park is known for its diverse wildlife.",
+            "zh": "這座國家公園以其多樣的野生動物聞名。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "wild animals",
+        "noteZh": "自然環境中的野生動物"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1243,14 +1613,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "wild animals",
-        "noteZh": "自然環境中的野生動物"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_willful",
@@ -1264,14 +1627,16 @@
       {
         "id": "s_willful_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "deliberate or intentional, especially when causing harm, or stubbornly determined to have one's own way",
         "definitionZh": "蓄意的；任性固執的",
         "usageExplanationZh": "常修飾 misconduct（蓄意的不當行為），也可形容人固執己見、不聽勸阻。",
-        "examples": [
-          {
-            "en": "The judge ruled it a case of willful negligence.",
-            "zh": "法官裁定這是一起蓄意疏失的案件。"
-          }
+        "grammarPatterns": [
+          "willful + noun",
+          "a willful refusal to + verb"
         ],
         "collocations": [
           {
@@ -1282,7 +1647,42 @@
             "text": "willful misconduct",
             "meaningZh": "故意的不當行為"
           }
+        ],
+        "examples": [
+          {
+            "en": "The judge ruled it a case of willful negligence.",
+            "zh": "法官裁定這是一起蓄意疏失的案件。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "deliberate",
+        "noteZh": "限蓄意義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "accidental",
+        "noteZh": "限非蓄意義"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "willfully",
+        "partOfSpeech": "adverb",
+        "meaningZh": "蓄意地；任性地"
+      },
+      {
+        "lemma": "will",
+        "partOfSpeech": "noun",
+        "meaningZh": "意志；意願"
+      },
+      {
+        "lemma": "willfulness",
+        "partOfSpeech": "noun",
+        "meaningZh": "任性；固執"
       }
     ],
     "tags": [
@@ -1295,19 +1695,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "deliberate",
-        "noteZh": "限蓄意義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "accidental",
-        "noteZh": "限非蓄意義"
-      }
-    ]
+    }
   },
   {
     "id": "w_wilt",
@@ -1321,42 +1709,64 @@
       {
         "id": "s_wilt_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "(of a plant) to become limp through heat or lack of water, or (of a person) to lose energy",
         "definitionZh": "（植物）枯萎；（人）精神萎靡",
         "usageExplanationZh": "字面義指植物因缺水或高溫而萎蔫；比喻用法可形容人失去活力或信心。",
-        "examples": [
-          {
-            "en": "The flowers wilted in the afternoon heat.",
-            "zh": "這些花在下午的高溫下枯萎了。"
-          }
+        "grammarPatterns": [
+          "wilt in + noun",
+          "begin to wilt"
         ],
         "collocations": [
           {
             "text": "wilt in the heat",
             "meaningZh": "在高溫下萎蔫"
           }
+        ],
+        "examples": [
+          {
+            "en": "The flowers wilted in the afternoon heat.",
+            "zh": "這些花在下午的高溫下枯萎了。"
+          }
         ]
       },
       {
         "id": "s_wilt_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical"
+        ],
         "definitionEn": "a plant disease causing wilting, or an instance of wilting",
         "definitionZh": "枯萎（病）",
         "usageExplanationZh": "較少見，多用於植物病理學情境，指導致植物萎蔫的病害或狀態。",
-        "examples": [
-          {
-            "en": "The plants showed early signs of wilt disease.",
-            "zh": "這些植物顯現出枯萎病的早期徵兆。"
-          }
+        "grammarPatterns": [
+          "signs of wilt",
+          "wilt disease"
         ],
         "collocations": [
           {
             "text": "Fusarium wilt",
             "meaningZh": "鐮刀菌枯萎病"
           }
+        ],
+        "examples": [
+          {
+            "en": "The plants showed early signs of wilt disease.",
+            "zh": "這些植物顯現出枯萎病的早期徵兆。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "wither",
+        "noteZh": "限植物枯萎義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1367,14 +1777,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "wither",
-        "noteZh": "限植物枯萎義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_wince",
@@ -1388,42 +1791,65 @@
       {
         "id": "s_wince_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "to make a slight involuntary movement of the face in pain or distress",
         "definitionZh": "（因痛苦而）畏縮；皺眉",
         "usageExplanationZh": "常接 wince at/with pain，強調因疼痛或不悅而做出的短暫表情反應。",
-        "examples": [
-          {
-            "en": "He winced as the nurse gave him the injection.",
-            "zh": "護理師為他注射時，他不禁畏縮了一下。"
-          }
+        "grammarPatterns": [
+          "wince at + noun",
+          "wince in pain"
         ],
         "collocations": [
           {
             "text": "wince in pain",
             "meaningZh": "痛得皺眉"
           }
+        ],
+        "examples": [
+          {
+            "en": "He winced as the nurse gave him the injection.",
+            "zh": "護理師為他注射時，他不禁畏縮了一下。"
+          }
         ]
       },
       {
         "id": "s_wince_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "a slight involuntary facial movement expressing pain or distress",
         "definitionZh": "（痛苦的）畏縮表情",
         "usageExplanationZh": "較少見，指因疼痛或不悅而產生的短暫表情，常與 wince 動詞搭配使用。",
-        "examples": [
-          {
-            "en": "She gave a wince as she stepped on the broken glass.",
-            "zh": "她踩到碎玻璃時露出了痛苦畏縮的表情。"
-          }
+        "grammarPatterns": [
+          "give a wince",
+          "a wince of + noun"
         ],
         "collocations": [
           {
             "text": "a wince of pain",
             "meaningZh": "痛苦的畏縮表情"
           }
+        ],
+        "examples": [
+          {
+            "en": "She gave a wince as she stepped on the broken glass.",
+            "zh": "她踩到碎玻璃時露出了痛苦畏縮的表情。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "flinch",
+        "noteZh": "限因疼痛畏縮的動詞義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1434,14 +1860,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "flinch",
-        "noteZh": "限因疼痛畏縮的動詞義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_wistful",
@@ -1455,21 +1874,48 @@
       {
         "id": "s_wistful_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "having or showing a feeling of vague or regretful longing",
         "definitionZh": "若有所思的；惆悵的",
         "usageExplanationZh": "常修飾 look、smile，強調帶有淡淡遺憾或懷念之情的神態，語氣文學性。",
-        "examples": [
-          {
-            "en": "She gave a wistful smile as she recalled her childhood.",
-            "zh": "她回想起童年時露出了若有所思的微笑。"
-          }
+        "grammarPatterns": [
+          "a wistful + noun",
+          "be wistful about + noun"
         ],
         "collocations": [
           {
             "text": "a wistful smile",
             "meaningZh": "惆悵的微笑"
           }
+        ],
+        "examples": [
+          {
+            "en": "She gave a wistful smile as she recalled her childhood.",
+            "zh": "她回想起童年時露出了若有所思的微笑。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "yearning",
+        "noteZh": "帶有渴望的惆悵"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "wistfully",
+        "partOfSpeech": "adverb",
+        "meaningZh": "惆悵地；若有所思地"
+      },
+      {
+        "lemma": "wistfulness",
+        "partOfSpeech": "noun",
+        "meaningZh": "惆悵；眷戀"
       }
     ],
     "tags": [
@@ -1483,14 +1929,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "yearning",
-        "noteZh": "帶有渴望的惆悵"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_witch",
@@ -1504,21 +1943,48 @@
       {
         "id": "s_witch_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "a woman thought to have magic powers, especially evil ones",
         "definitionZh": "女巫",
         "usageExplanationZh": "常見於童話或傳說情境，如 a wicked witch，也可比喻指令人畏懼的女性（帶貶義，較少見）。",
-        "examples": [
-          {
-            "en": "In the fairy tale, the witch lived in a candy house.",
-            "zh": "在這個童話故事裡，女巫住在一棟糖果屋裡。"
-          }
+        "grammarPatterns": [
+          "a wicked witch",
+          "the witch in + noun"
         ],
         "collocations": [
           {
             "text": "a wicked witch",
             "meaningZh": "邪惡的女巫"
           }
+        ],
+        "examples": [
+          {
+            "en": "In the fairy tale, the witch lived in a candy house.",
+            "zh": "在這個童話故事裡，女巫住在一棟糖果屋裡。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "sorceress",
+        "noteZh": "施魔法的女性"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "witchcraft",
+        "partOfSpeech": "noun",
+        "meaningZh": "巫術"
+      },
+      {
+        "lemma": "bewitch",
+        "partOfSpeech": "verb",
+        "meaningZh": "對…施法；使著迷"
       }
     ],
     "tags": [
@@ -1531,14 +1997,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "sorceress",
-        "noteZh": "施魔法的女性"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_withdraw",
@@ -1552,14 +2011,17 @@
       {
         "id": "s_withdraw_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to remove or take something back, or to leave a place or activity",
         "definitionZh": "撤回；提取（款項）；退出",
         "usageExplanationZh": "常見 withdraw money（提款）、withdraw from a competition（退出比賽），依語境有不同用法。",
-        "examples": [
-          {
-            "en": "She withdrew a large sum of cash from her account.",
-            "zh": "她從帳戶裡提領了一大筆現金。"
-          }
+        "grammarPatterns": [
+          "withdraw + noun",
+          "withdraw from + noun",
+          "withdraw money from + noun"
         ],
         "collocations": [
           {
@@ -1570,7 +2032,27 @@
             "text": "withdraw from the competition",
             "meaningZh": "退出比賽"
           }
+        ],
+        "examples": [
+          {
+            "en": "She withdrew a large sum of cash from her account.",
+            "zh": "她從帳戶裡提領了一大筆現金。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "retract",
+        "noteZh": "限撤回言論義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "withdrawal",
+        "partOfSpeech": "noun",
+        "meaningZh": "撤回；提款"
       }
     ],
     "tags": [
@@ -1585,14 +2067,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "retract",
-        "noteZh": "限撤回言論義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_withdrawal",
@@ -1606,14 +2081,16 @@
       {
         "id": "s_withdrawal_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "the act of withdrawing, especially money from an account or from a substance one is addicted to",
         "definitionZh": "提款；撤回；戒斷（症狀）",
         "usageExplanationZh": "常見 a cash withdrawal（提款）、withdrawal symptoms（戒斷症狀），依語境指涉不同。",
-        "examples": [
-          {
-            "en": "He made a withdrawal from the ATM before the trip.",
-            "zh": "他在旅行前從自動提款機領了錢。"
-          }
+        "grammarPatterns": [
+          "a withdrawal from + noun",
+          "the withdrawal of + noun"
         ],
         "collocations": [
           {
@@ -1624,7 +2101,27 @@
             "text": "withdrawal symptoms",
             "meaningZh": "戒斷症狀"
           }
+        ],
+        "examples": [
+          {
+            "en": "He made a withdrawal from the ATM before the trip.",
+            "zh": "他在旅行前從自動提款機領了錢。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "retraction",
+        "noteZh": "限撤回聲明義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "withdraw",
+        "partOfSpeech": "verb",
+        "meaningZh": "撤回；提取"
       }
     ],
     "tags": [
@@ -1637,14 +2134,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "retraction",
-        "noteZh": "限撤回聲明義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_withhold",
@@ -1658,21 +2148,41 @@
       {
         "id": "s_withhold_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to refuse to give something that is due or requested",
         "definitionZh": "扣留；保留（不給）",
         "usageExplanationZh": "常見 withhold information/payment，強調故意不提供應給予的事物，語氣正式。",
-        "examples": [
-          {
-            "en": "The company withheld payment until the work was completed.",
-            "zh": "這家公司在工作完成之前一直扣留款項不付。"
-          }
+        "grammarPatterns": [
+          "withhold + noun",
+          "withhold sth from sb"
         ],
         "collocations": [
           {
             "text": "withhold information",
             "meaningZh": "隱瞞資訊"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company withheld payment until the work was completed.",
+            "zh": "這家公司在工作完成之前一直扣留款項不付。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "retain",
+        "noteZh": "保留而不交出"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "release",
+        "noteZh": "釋出或交付"
       }
     ],
     "tags": [
@@ -1686,19 +2196,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "retain",
-        "noteZh": "保留而不交出"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "release",
-        "noteZh": "釋出或交付"
-      }
-    ]
+    }
   },
   {
     "id": "w_witness",
@@ -1712,23 +2210,38 @@
       {
         "id": "s_witness_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "a person who sees an event, especially a crime, or someone who gives evidence in court",
         "definitionZh": "目擊者；證人",
         "usageExplanationZh": "常見 an eyewitness（目擊證人），法律及日常情境皆常見。",
-        "examples": [
-          {
-            "en": "The witness described the suspect to the police.",
-            "zh": "這名目擊者向警方描述了嫌疑人的樣貌。"
-          }
+        "grammarPatterns": [
+          "a witness to + noun",
+          "call a witness"
         ],
         "collocations": [
           {
             "text": "a key witness",
             "meaningZh": "關鍵證人"
           }
+        ],
+        "examples": [
+          {
+            "en": "The witness described the suspect to the police.",
+            "zh": "這名目擊者向警方描述了嫌疑人的樣貌。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "eyewitness",
+        "noteZh": "親眼目睹事件的人"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1741,14 +2254,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "eyewitness",
-        "noteZh": "親眼目睹事件的人"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_wobble",
@@ -1762,40 +2268,68 @@
       {
         "id": "s_wobble_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to move unsteadily from side to side",
         "definitionZh": "搖晃；晃動",
         "usageExplanationZh": "常見 the table wobbles，也可比喻指決心或立場的不穩固，如 her voice wobbled。",
-        "examples": [
-          {
-            "en": "The old chair wobbled every time he sat down.",
-            "zh": "他每次坐下時，那張舊椅子都會搖晃。"
-          }
+        "grammarPatterns": [
+          "wobble from side to side",
+          "start to wobble"
         ],
         "collocations": [
           {
             "text": "wobble on one's feet",
             "meaningZh": "站著搖搖晃晃"
           }
+        ],
+        "examples": [
+          {
+            "en": "The old chair wobbled every time he sat down.",
+            "zh": "他每次坐下時，那張舊椅子都會搖晃。"
+          }
         ]
       },
       {
         "id": "s_wobble_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "an unsteady movement from side to side",
         "definitionZh": "搖晃；不穩定的擺動",
         "usageExplanationZh": "較少見，指物體或聲音不穩定的擺動狀態，與動詞用法對應。",
-        "examples": [
-          {
-            "en": "There's a slight wobble in the front wheel of the bike.",
-            "zh": "這輛腳踏車的前輪有點輕微的搖晃。"
-          }
+        "grammarPatterns": [
+          "a slight wobble",
+          "a wobble in + noun"
         ],
         "collocations": [
           {
             "text": "a slight wobble",
             "meaningZh": "輕微的晃動"
           }
+        ],
+        "examples": [
+          {
+            "en": "There's a slight wobble in the front wheel of the bike.",
+            "zh": "這輛腳踏車的前輪有點輕微的搖晃。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "sway",
+        "noteZh": "限搖晃的動詞義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "wobbly",
+        "partOfSpeech": "adjective",
+        "meaningZh": "搖晃的；不穩的"
       }
     ],
     "tags": [
@@ -1808,14 +2342,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "sway",
-        "noteZh": "限搖晃的動詞義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_wool",
@@ -1829,21 +2356,42 @@
       {
         "id": "s_wool_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "the fine soft curly hair forming the coat of a sheep or goat, or fabric made from this",
         "definitionZh": "羊毛；羊毛製品",
         "usageExplanationZh": "常見 pure wool（純羊毛）、a wool sweater（羊毛衣），紡織品常用材質詞。",
-        "examples": [
-          {
-            "en": "This sweater is made of pure merino wool.",
-            "zh": "這件毛衣是用純美麗諾羊毛製成的。"
-          }
+        "grammarPatterns": [
+          "be made of wool",
+          "a wool + noun"
         ],
         "collocations": [
           {
             "text": "pure wool",
             "meaningZh": "純羊毛"
           }
+        ],
+        "examples": [
+          {
+            "en": "This sweater is made of pure merino wool.",
+            "zh": "這件毛衣是用純美麗諾羊毛製成的。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "woolen",
+        "partOfSpeech": "adjective",
+        "meaningZh": "羊毛的；羊毛製的"
+      },
+      {
+        "lemma": "woolly",
+        "partOfSpeech": "adjective",
+        "meaningZh": "羊毛般的；含糊不清的"
       }
     ],
     "tags": [
@@ -1856,9 +2404,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_worldwide",
@@ -1872,23 +2418,38 @@
       {
         "id": "s_worldwide_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "extending or applying throughout the world",
         "definitionZh": "全球性的；世界性的",
         "usageExplanationZh": "常修飾 phenomenon、network、sales，強調範圍涵蓋全世界，語氣中性書面。",
-        "examples": [
-          {
-            "en": "The company has a worldwide network of distributors.",
-            "zh": "這家公司擁有一個遍布全球的經銷商網絡。"
-          }
+        "grammarPatterns": [
+          "a worldwide + noun",
+          "on a worldwide scale"
         ],
         "collocations": [
           {
             "text": "worldwide recognition",
             "meaningZh": "全球認可"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company has a worldwide network of distributors.",
+            "zh": "這家公司擁有一個遍布全球的經銷商網絡。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "global",
+        "noteZh": "全球的"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -1899,14 +2460,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "global",
-        "noteZh": "全球的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_worm",
@@ -1920,14 +2474,16 @@
       {
         "id": "s_worm_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a long, thin, soft-bodied invertebrate animal with no limbs, or a type of computer malware",
         "definitionZh": "蟲；蠕蟲（電腦病毒）",
         "usageExplanationZh": "字面義指無足軟體動物；資訊科技語境則指自我複製的惡意程式。",
-        "examples": [
-          {
-            "en": "The gardener found several worms while digging in the soil.",
-            "zh": "這位園丁在挖土時發現了好幾條蟲。"
-          }
+        "grammarPatterns": [
+          "a computer worm",
+          "dig up worms"
         ],
         "collocations": [
           {
@@ -1938,9 +2494,17 @@
             "text": "a computer worm",
             "meaningZh": "電腦蠕蟲"
           }
+        ],
+        "examples": [
+          {
+            "en": "The gardener found several worms while digging in the soil.",
+            "zh": "這位園丁在挖土時發現了好幾條蟲。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -1951,9 +2515,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_worship",
@@ -1967,40 +2529,74 @@
       {
         "id": "s_worship_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "the feeling or expression of reverence and adoration for a deity",
         "definitionZh": "崇拜；敬拜",
         "usageExplanationZh": "常見 places of worship（禮拜場所），宗教語境常用詞，也可比喻指過度崇拜某人。",
-        "examples": [
-          {
-            "en": "They gathered at the temple for worship every Sunday.",
-            "zh": "他們每週日都聚集在寺廟裡進行敬拜。"
-          }
+        "grammarPatterns": [
+          "a place of worship",
+          "gather for worship"
         ],
         "collocations": [
           {
             "text": "a place of worship",
             "meaningZh": "禮拜場所"
           }
+        ],
+        "examples": [
+          {
+            "en": "They gathered at the temple for worship every Sunday.",
+            "zh": "他們每週日都聚集在寺廟裡進行敬拜。"
+          }
         ]
       },
       {
         "id": "s_worship_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to show reverence and adoration for a deity, or to admire someone excessively",
         "definitionZh": "敬拜；崇拜",
         "usageExplanationZh": "常見 worship God，也可比喻指過度崇拜某人，如 worship a celebrity。",
-        "examples": [
-          {
-            "en": "Millions of pilgrims travel each year to worship at the shrine.",
-            "zh": "每年有數百萬朝聖者前往這座聖殿敬拜。"
-          }
+        "grammarPatterns": [
+          "worship + noun",
+          "worship at + noun"
         ],
         "collocations": [
           {
             "text": "worship a deity",
             "meaningZh": "敬拜神祇"
           }
+        ],
+        "examples": [
+          {
+            "en": "Millions of pilgrims travel each year to worship at the shrine.",
+            "zh": "每年有數百萬朝聖者前往這座聖殿敬拜。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "adore",
+        "noteZh": "限崇拜的動詞義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "worshipper",
+        "partOfSpeech": "noun",
+        "meaningZh": "崇拜者；禮拜者"
+      },
+      {
+        "lemma": "worshipful",
+        "partOfSpeech": "adjective",
+        "meaningZh": "崇敬的；虔誠的"
       }
     ],
     "tags": [
@@ -2014,14 +2610,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "adore",
-        "noteZh": "限崇拜的動詞義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_worthwhile",
@@ -2035,21 +2624,53 @@
       {
         "id": "s_worthwhile_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "worth the time, money, or effort spent; useful or beneficial",
         "definitionZh": "值得的；有意義的",
         "usageExplanationZh": "常接 it's worthwhile to do something，強調投入的心力或資源能獲得相應的價值。",
-        "examples": [
-          {
-            "en": "Learning a new language is always worthwhile.",
-            "zh": "學習一門新語言永遠是值得的。"
-          }
+        "grammarPatterns": [
+          "be worthwhile",
+          "it is worthwhile to + verb",
+          "worthwhile + V-ing"
         ],
         "collocations": [
           {
             "text": "a worthwhile investment",
             "meaningZh": "值得的投資"
           }
+        ],
+        "examples": [
+          {
+            "en": "Learning a new language is always worthwhile.",
+            "zh": "學習一門新語言永遠是值得的。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "valuable",
+        "noteZh": "有價值的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "pointless",
+        "noteZh": "無意義的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "worth",
+        "partOfSpeech": "noun",
+        "meaningZh": "價值"
+      },
+      {
+        "lemma": "worthy",
+        "partOfSpeech": "adjective",
+        "meaningZh": "值得的；配得上的"
       }
     ],
     "tags": [
@@ -2062,19 +2683,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "valuable",
-        "noteZh": "有價值的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "pointless",
-        "noteZh": "無意義的"
-      }
-    ]
+    }
   },
   {
     "id": "w_worthy",
@@ -2088,40 +2697,85 @@
       {
         "id": "s_worthy_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "a person who is important or notable, often used ironically",
         "definitionZh": "（常帶諷刺意味的）名人；顯要人物",
         "usageExplanationZh": "較少見，多帶輕微諷刺或戲謔語氣，指自認重要或受尊崇的人物。",
-        "examples": [
-          {
-            "en": "Local worthies gathered for the ribbon-cutting ceremony.",
-            "zh": "當地的顯要人物齊聚一堂參加剪綵儀式。"
-          }
+        "grammarPatterns": [
+          "local worthies",
+          "the assembled worthies"
         ],
         "collocations": [
           {
             "text": "local worthies",
             "meaningZh": "地方名流"
           }
+        ],
+        "examples": [
+          {
+            "en": "Local worthies gathered for the ribbon-cutting ceremony.",
+            "zh": "當地的顯要人物齊聚一堂參加剪綵儀式。"
+          }
         ]
       },
       {
         "id": "s_worthy_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "deserving effort, attention, or respect",
         "definitionZh": "值得的；配得上的",
         "usageExplanationZh": "常接 worthy of，強調某事物或某人應得的尊重或關注，語氣正式。",
-        "examples": [
-          {
-            "en": "Her achievements are worthy of recognition.",
-            "zh": "她的成就值得受到肯定。"
-          }
+        "grammarPatterns": [
+          "be worthy of + noun",
+          "a worthy + noun"
         ],
         "collocations": [
           {
             "text": "worthy of praise",
             "meaningZh": "值得讚揚"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her achievements are worthy of recognition.",
+            "zh": "她的成就值得受到肯定。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "deserving",
+        "noteZh": "限值得的形容詞義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "unworthy",
+        "noteZh": "限不配的形容詞義"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "worth",
+        "partOfSpeech": "noun",
+        "meaningZh": "價值"
+      },
+      {
+        "lemma": "worthiness",
+        "partOfSpeech": "noun",
+        "meaningZh": "值得；有價值"
+      },
+      {
+        "lemma": "unworthy",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不值得的；不配的"
       }
     ],
     "tags": [
@@ -2134,19 +2788,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "deserving",
-        "noteZh": "限值得的形容詞義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "unworthy",
-        "noteZh": "限不配的形容詞義"
-      }
-    ]
+    }
   },
   {
     "id": "w_wrap",
@@ -2160,40 +2802,68 @@
       {
         "id": "s_wrap_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a piece of material used for wrapping something, or a type of sandwich rolled in a flatbread",
         "definitionZh": "包裝材料；捲餅（三明治）",
         "usageExplanationZh": "字面義指用來包裹物品的材料；食物語境則指用薄餅捲起的三明治。",
-        "examples": [
-          {
-            "en": "She ordered a chicken wrap for lunch.",
-            "zh": "她點了一份雞肉捲餅當午餐。"
-          }
+        "grammarPatterns": [
+          "a + noun + wrap",
+          "a wrap of + noun"
         ],
         "collocations": [
           {
             "text": "plastic wrap",
             "meaningZh": "保鮮膜"
           }
+        ],
+        "examples": [
+          {
+            "en": "She ordered a chicken wrap for lunch.",
+            "zh": "她點了一份雞肉捲餅當午餐。"
+          }
         ]
       },
       {
         "id": "s_wrap_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to cover something by folding or winding material around it",
         "definitionZh": "包裹；包裝",
         "usageExplanationZh": "常見 wrap a gift（包裝禮物），也可比喻指圍繞或包覆某物。",
-        "examples": [
-          {
-            "en": "She wrapped the present in colorful paper.",
-            "zh": "她用彩色的紙包裝了這份禮物。"
-          }
+        "grammarPatterns": [
+          "wrap sth in + noun",
+          "wrap sth around + noun"
         ],
         "collocations": [
           {
             "text": "wrap up a gift",
             "meaningZh": "把禮物包好"
           }
+        ],
+        "examples": [
+          {
+            "en": "She wrapped the present in colorful paper.",
+            "zh": "她用彩色的紙包裝了這份禮物。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "enclose",
+        "noteZh": "限包裹的動詞義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "wrapper",
+        "partOfSpeech": "noun",
+        "meaningZh": "包裝紙；外包裝"
       }
     ],
     "tags": [
@@ -2207,14 +2877,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "enclose",
-        "noteZh": "限包裹的動詞義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_wreak",
@@ -2228,23 +2891,38 @@
       {
         "id": "s_wreak_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to cause a large amount of damage or harm",
         "definitionZh": "造成（嚴重傷害或破壞）",
         "usageExplanationZh": "常見固定搭配 wreak havoc（造成大混亂），語氣書面，幾乎只與 havoc、damage 等詞連用。",
-        "examples": [
-          {
-            "en": "The storm wreaked havoc on the coastal town.",
-            "zh": "這場暴風雨對這座沿海小鎮造成了嚴重破壞。"
-          }
+        "grammarPatterns": [
+          "wreak havoc on + noun",
+          "wreak + noun"
         ],
         "collocations": [
           {
             "text": "wreak havoc",
             "meaningZh": "造成嚴重破壞"
           }
+        ],
+        "examples": [
+          {
+            "en": "The storm wreaked havoc on the coastal town.",
+            "zh": "這場暴風雨對這座沿海小鎮造成了嚴重破壞。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "inflict",
+        "noteZh": "造成傷害"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -2255,14 +2933,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "inflict",
-        "noteZh": "造成傷害"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_wrench",
@@ -2276,42 +2947,65 @@
       {
         "id": "s_wrench_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a tool for gripping and turning nuts and bolts, or a sudden violent twist, or a painful feeling of loss",
         "definitionZh": "扳手；猛扭；（離別的）痛楚",
         "usageExplanationZh": "字面義指工具或動作；比喻用法指離別造成的情感痛苦，如 it was a wrench to leave。",
-        "examples": [
-          {
-            "en": "Leaving her hometown was a real wrench for her.",
-            "zh": "離開故鄉對她來說真的是件痛苦的事。"
-          }
+        "grammarPatterns": [
+          "tighten sth with a wrench",
+          "be a real wrench for sb"
         ],
         "collocations": [
           {
             "text": "an adjustable wrench",
             "meaningZh": "活動扳手"
           }
+        ],
+        "examples": [
+          {
+            "en": "Leaving her hometown was a real wrench for her.",
+            "zh": "離開故鄉對她來說真的是件痛苦的事。"
+          }
         ]
       },
       {
         "id": "s_wrench_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "to pull or twist something suddenly and violently",
         "definitionZh": "猛拉；扭傷",
         "usageExplanationZh": "常見 wrench something free/open，也可指身體部位扭傷，如 wrench one's ankle。",
-        "examples": [
-          {
-            "en": "He wrenched the door open with all his strength.",
-            "zh": "他用盡全力猛力把門扭開。"
-          }
+        "grammarPatterns": [
+          "wrench sth open",
+          "wrench sth from sb"
         ],
         "collocations": [
           {
             "text": "wrench one's shoulder",
             "meaningZh": "扭傷肩膀"
           }
+        ],
+        "examples": [
+          {
+            "en": "He wrenched the door open with all his strength.",
+            "zh": "他用盡全力猛力把門扭開。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "spanner",
+        "noteZh": "限扳手義，英式用語"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -2323,14 +3017,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "spanner",
-        "noteZh": "限扳手義，英式用語"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_wrestle",
@@ -2344,40 +3031,68 @@
       {
         "id": "s_wrestle_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to fight by grappling with an opponent, or to struggle to deal with a difficult issue",
         "definitionZh": "摔角；搏鬥；努力應付（難題）",
         "usageExplanationZh": "字面義指運動摔角；比喻用法如 wrestle with a decision（為某個決定苦惱掙扎）。",
-        "examples": [
-          {
-            "en": "She wrestled with the decision for weeks before quitting her job.",
-            "zh": "在辭職之前，她為這個決定苦惱掙扎了好幾個星期。"
-          }
+        "grammarPatterns": [
+          "wrestle with + noun",
+          "wrestle sb to the ground"
         ],
         "collocations": [
           {
             "text": "wrestle with a problem",
             "meaningZh": "努力解決問題"
           }
+        ],
+        "examples": [
+          {
+            "en": "She wrestled with the decision for weeks before quitting her job.",
+            "zh": "在辭職之前，她為這個決定苦惱掙扎了好幾個星期。"
+          }
         ]
       },
       {
         "id": "s_wrestle_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a fight or contest involving grappling with an opponent",
         "definitionZh": "摔角比賽；搏鬥",
         "usageExplanationZh": "較少見，指摔角這項運動或一場搏鬥的過程，與動詞用法對應。",
-        "examples": [
-          {
-            "en": "The two boys had a friendly wrestle in the yard.",
-            "zh": "這兩個男孩在院子裡進行了一場友善的摔角。"
-          }
+        "grammarPatterns": [
+          "have a wrestle with sb",
+          "a friendly wrestle"
         ],
         "collocations": [
           {
             "text": "a wrestle for control",
             "meaningZh": "爭奪控制權的搏鬥"
           }
+        ],
+        "examples": [
+          {
+            "en": "The two boys had a friendly wrestle in the yard.",
+            "zh": "這兩個男孩在院子裡進行了一場友善的摔角。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "grapple",
+        "noteZh": "搏鬥或努力應付"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "wrestler",
+        "partOfSpeech": "noun",
+        "meaningZh": "摔角選手"
       }
     ],
     "tags": [
@@ -2390,14 +3105,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "grapple",
-        "noteZh": "搏鬥或努力應付"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_wrist",
@@ -2411,23 +3119,33 @@
       {
         "id": "s_wrist_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "the joint connecting the hand with the forearm",
         "definitionZh": "手腕",
         "usageExplanationZh": "常見 sprain one's wrist（扭傷手腕），日常身體部位用詞。",
-        "examples": [
-          {
-            "en": "She sprained her wrist while playing tennis.",
-            "zh": "她打網球時扭傷了手腕。"
-          }
+        "grammarPatterns": [
+          "sprain one's wrist",
+          "around sb's wrist"
         ],
         "collocations": [
           {
             "text": "a wrist injury",
             "meaningZh": "手腕受傷"
           }
+        ],
+        "examples": [
+          {
+            "en": "She sprained her wrist while playing tennis.",
+            "zh": "她打網球時扭傷了手腕。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2439,9 +3157,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_yacht",
@@ -2455,40 +3171,63 @@
       {
         "id": "s_yacht_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a medium-sized sailing boat used for racing or cruising",
         "definitionZh": "遊艇；帆船",
         "usageExplanationZh": "常見 sail a yacht，多與休閒航海或富裕生活方式連結。",
-        "examples": [
-          {
-            "en": "They spent the summer sailing their yacht around the coast.",
-            "zh": "他們整個夏天都駕著遊艇沿海岸航行。"
-          }
+        "grammarPatterns": [
+          "sail a yacht",
+          "on board a yacht"
         ],
         "collocations": [
           {
             "text": "a luxury yacht",
             "meaningZh": "豪華遊艇"
           }
+        ],
+        "examples": [
+          {
+            "en": "They spent the summer sailing their yacht around the coast.",
+            "zh": "他們整個夏天都駕著遊艇沿海岸航行。"
+          }
         ]
       },
       {
         "id": "s_yacht_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to sail or cruise in a yacht",
         "definitionZh": "駕遊艇航行",
         "usageExplanationZh": "較少見，動詞用法，指乘坐遊艇進行航行或度假的活動。",
-        "examples": [
-          {
-            "en": "They yachted along the Mediterranean coast for two weeks.",
-            "zh": "他們沿著地中海海岸駕遊艇航行了兩週。"
-          }
+        "grammarPatterns": [
+          "yacht along + noun",
+          "yacht around + noun"
         ],
         "collocations": [
           {
             "text": "go yachting",
             "meaningZh": "駕遊艇出遊"
           }
+        ],
+        "examples": [
+          {
+            "en": "They yachted along the Mediterranean coast for two weeks.",
+            "zh": "他們沿著地中海海岸駕遊艇航行了兩週。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "yachtsman",
+        "partOfSpeech": "noun",
+        "meaningZh": "駕駛帆船者"
       }
     ],
     "tags": [
@@ -2501,9 +3240,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_yell",
@@ -2517,23 +3254,38 @@
       {
         "id": "s_yell_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "to shout loudly, especially in anger, pain, or excitement",
         "definitionZh": "大叫；吼叫",
         "usageExplanationZh": "常接 yell at someone，強調因情緒激動而發出的大聲喊叫，語氣強烈。",
-        "examples": [
-          {
-            "en": "He yelled at the driver who cut him off.",
-            "zh": "他對那個超車搶道的駕駛大吼。"
-          }
+        "grammarPatterns": [
+          "yell at sb",
+          "yell for + noun"
         ],
         "collocations": [
           {
             "text": "yell at someone",
             "meaningZh": "對某人大吼"
           }
+        ],
+        "examples": [
+          {
+            "en": "He yelled at the driver who cut him off.",
+            "zh": "他對那個超車搶道的駕駛大吼。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "shout",
+        "noteZh": "大聲喊叫"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -2544,14 +3296,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "shout",
-        "noteZh": "大聲喊叫"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_yield",
@@ -2565,42 +3310,66 @@
       {
         "id": "s_yield_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "academic"
+        ],
         "definitionEn": "the amount produced of a crop, product, or investment",
         "definitionZh": "產量；收益",
         "usageExplanationZh": "常見 crop yield（作物產量）、bond yield（債券收益率），農業與財務用語。",
-        "examples": [
-          {
-            "en": "Farmers reported a higher yield this harvest season.",
-            "zh": "農民表示這個收穫季的產量較高。"
-          }
+        "grammarPatterns": [
+          "a high yield",
+          "the yield on + noun"
         ],
         "collocations": [
           {
             "text": "crop yield",
             "meaningZh": "作物產量"
           }
+        ],
+        "examples": [
+          {
+            "en": "Farmers reported a higher yield this harvest season.",
+            "zh": "農民表示這個收穫季的產量較高。"
+          }
         ]
       },
       {
         "id": "s_yield_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to produce or provide something, or to give way to pressure or demand",
         "definitionZh": "產生；讓步",
         "usageExplanationZh": "常見 yield a profit（產生利潤）、yield to pressure（屈服於壓力），依語境不同。",
-        "examples": [
-          {
-            "en": "The negotiations finally yielded a compromise.",
-            "zh": "這場談判最終產生了一項折衷方案。"
-          }
+        "grammarPatterns": [
+          "yield + noun",
+          "yield to + noun",
+          "yield results"
         ],
         "collocations": [
           {
             "text": "yield to pressure",
             "meaningZh": "向壓力讓步"
           }
+        ],
+        "examples": [
+          {
+            "en": "The negotiations finally yielded a compromise.",
+            "zh": "這場談判最終產生了一項折衷方案。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "produce",
+        "noteZh": "限動詞產生義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2612,14 +3381,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "produce",
-        "noteZh": "限動詞產生義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_youngster",
@@ -2633,21 +3395,47 @@
       {
         "id": "s_youngster_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a young person or child",
         "definitionZh": "年輕人；小孩",
         "usageExplanationZh": "口語用詞，泛指兒童或青少年，語氣親切隨意，常見於日常對話。",
-        "examples": [
-          {
-            "en": "The youngsters played happily in the park all afternoon.",
-            "zh": "這些小孩整個下午都在公園裡開心地玩耍。"
-          }
+        "grammarPatterns": [
+          "a group of youngsters",
+          "youngsters aged + noun"
         ],
         "collocations": [
           {
             "text": "a group of youngsters",
             "meaningZh": "一群年輕人"
           }
+        ],
+        "examples": [
+          {
+            "en": "The youngsters played happily in the park all afternoon.",
+            "zh": "這些小孩整個下午都在公園裡開心地玩耍。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "child",
+        "noteZh": "小孩"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "young",
+        "partOfSpeech": "adjective",
+        "meaningZh": "年輕的"
+      },
+      {
+        "lemma": "youth",
+        "partOfSpeech": "noun",
+        "meaningZh": "青年；青春"
       }
     ],
     "tags": [
@@ -2661,14 +3449,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "child",
-        "noteZh": "小孩"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_zealot",
@@ -2682,21 +3463,53 @@
       {
         "id": "s_zealot_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "a person who is fanatical and uncompromising in pursuit of their beliefs",
         "definitionZh": "狂熱分子；激進份子",
         "usageExplanationZh": "常帶負面意味，形容對信仰或理念過度執著、不知變通的人，語氣書面正式。",
-        "examples": [
-          {
-            "en": "The religious zealot refused to consider any other viewpoint.",
-            "zh": "這名宗教狂熱分子拒絕考慮任何其他觀點。"
-          }
+        "grammarPatterns": [
+          "a religious zealot",
+          "a zealot for + noun"
         ],
         "collocations": [
           {
             "text": "a religious zealot",
             "meaningZh": "宗教狂熱分子"
           }
+        ],
+        "examples": [
+          {
+            "en": "The religious zealot refused to consider any other viewpoint.",
+            "zh": "這名宗教狂熱分子拒絕考慮任何其他觀點。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "fanatic",
+        "noteZh": "狂熱信徒或支持者"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "zeal",
+        "partOfSpeech": "noun",
+        "meaningZh": "熱忱；熱情"
+      },
+      {
+        "lemma": "zealous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "熱衷的；狂熱的"
+      },
+      {
+        "lemma": "zealotry",
+        "partOfSpeech": "noun",
+        "meaningZh": "狂熱；盲信"
       }
     ],
     "tags": [
@@ -2709,14 +3522,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "fanatic",
-        "noteZh": "狂熱信徒或支持者"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_zone",
@@ -2730,21 +3536,48 @@
       {
         "id": "s_zone_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "an area or region with particular characteristics or boundaries",
         "definitionZh": "區域；地帶",
         "usageExplanationZh": "常見 a time zone（時區）、a war zone（戰區），泛指具有特定性質或界線的區域。",
-        "examples": [
-          {
-            "en": "The city created a pedestrian-only zone downtown.",
-            "zh": "這座城市在市中心規劃了一個行人專用區。"
-          }
+        "grammarPatterns": [
+          "a + noun + zone",
+          "within the zone"
         ],
         "collocations": [
           {
             "text": "a time zone",
             "meaningZh": "時區"
           }
+        ],
+        "examples": [
+          {
+            "en": "The city created a pedestrian-only zone downtown.",
+            "zh": "這座城市在市中心規劃了一個行人專用區。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "area",
+        "noteZh": "劃定的區域"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "zonal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "區域的；分區的"
+      },
+      {
+        "lemma": "zoning",
+        "partOfSpeech": "noun",
+        "meaningZh": "土地分區管制"
       }
     ],
     "tags": [
@@ -2758,13 +3591,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "area",
-        "noteZh": "劃定的區域"
-      }
-    ],
-    "antonyms": []
+    }
   }
 ]

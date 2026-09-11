@@ -4,22 +4,22 @@
     "type": "meaning_en_to_zh",
     "cefr": "C1",
     "wordIds": ["w_consolidate"],
-    "prompt": "What does \"consolidate\" most nearly mean here?",
-    "context": "After the acquisition, the group consolidated its three logistics teams.",
+    "prompt": "In this sentence, which meaning does \"consolidated\" carry?",
+    "context": "Having survived the price war, the regional carrier spent the following year consolidating its position in markets where its rivals had already withdrawn.",
     "options": [
-      { "id": "a", "text": "整合、合併成更集中的整體" },
-      { "id": "b", "text": "拆分成多個獨立單位" },
-      { "id": "c", "text": "外包給第三方廠商" },
-      { "id": "d", "text": "暫時凍結不做調整" }
+      { "id": "a", "text": "把數個單位合併成數量更少的整體" },
+      { "id": "b", "text": "鞏固既有的優勢，使它更難被動搖" },
+      { "id": "c", "text": "縮減規模，退出獲利不佳的市場" },
+      { "id": "d", "text": "與當地業者整合彼此的營運系統" }
     ],
-    "correctOptionId": "a",
-    "explanation": "consolidate 表示把分散的單位合併成更集中、更有效率的整體。",
+    "correctOptionId": "b",
+    "explanation": "受詞是 its position，前後又有 having survived the price war 與 rivals had already withdrawn，說明優勢已經到手，接下來一年做的是把這個位置坐穩。consolidate one's position 就是「鞏固地位」。",
     "distractorExplanations": {
-      "b": "拆分是 split 或 fragment，與 consolidate 相反。",
-      "c": "外包是 outsource，語意無關。",
-      "d": "凍結是 freeze 或 put on hold。"
+      "a": "那是 consolidate 的另一個常見意思，受詞會是 teams、tools、dashboards 這類可以被合併的複數單位，例如 consolidate twelve dashboards into three。本句的受詞是單一的 position，沒有東西可以合併。",
+      "c": "縮減規模是 scale back 或 downsize；本句說對手已經退出，該公司是留下來擴大優勢的一方。",
+      "d": "讓不同系統協同運作是 integrate，各部分仍保有獨立身分；consolidate 的結果是數量變少，而且本句沒有提到任何其他業者的系統。"
     },
-    "difficulty": 2,
+    "difficulty": 4,
     "tags": ["meaning", "business"],
     "source": "curated"
   },
@@ -28,22 +28,22 @@
     "type": "meaning_en_to_zh",
     "cefr": "C1",
     "wordIds": ["w_undermine"],
-    "prompt": "What does \"undermine\" mean in this sentence?",
-    "context": "Repeated outages steadily undermined users' confidence in the platform.",
+    "prompt": "In this sentence, which meaning does \"undermined\" carry?",
+    "context": "Although no single objection was decisive, the accumulated discrepancies in the dating evidence quietly undermined a chronology that specialists had treated as settled for decades.",
     "options": [
-      { "id": "a", "text": "逐漸削弱、從根本瓦解" },
-      { "id": "b", "text": "突然徹底摧毀" },
-      { "id": "c", "text": "公開反駁" },
-      { "id": "d", "text": "暗中支持" }
+      { "id": "a", "text": "蓄意破壞，暗中動手腳使其失敗" },
+      { "id": "b", "text": "公開駁斥，並提出相反的結論" },
+      { "id": "c", "text": "逐步侵蝕其立論基礎，使它不再站得住腳" },
+      { "id": "d", "text": "徹底推翻，並以新的說法取而代之" }
     ],
-    "correctOptionId": "a",
-    "explanation": "undermine 的字面意思是「在底下挖坑」，強調從基礎逐步瓦解，與 steadily 相符。",
+    "correctOptionId": "c",
+    "explanation": "no single objection was decisive 與 accumulated 說明作用是一點一滴累積的，quietly 又排除了正面衝突。undermine 的字面意思是「在底下挖坑」，正是從根基逐步瓦解一個說法。",
     "distractorExplanations": {
-      "b": "undermine 強調緩慢累積的過程，不是一次性的摧毀。",
-      "c": "公開反駁是 refute 或 contradict，undermine 不必然公開進行。",
-      "d": "暗中支持與 undermine 的削弱意涵完全相反。"
+      "a": "蓄意破壞是 sabotage，一定有惡意的行為者；本句的主語是證據上的不一致，沒有意圖可言，undermine 也可以是無心造成的後果。",
+      "b": "公開駁斥是 refute，必須明白提出反論；quietly 正好說明這個過程沒有浮上檯面。",
+      "d": "徹底推翻並取代是 overturn 或 supplant；本句只說這套年代框架不再穩固，既沒有任何一項反駁具決定性，也沒有出現替代的說法。"
     },
-    "difficulty": 2,
+    "difficulty": 4,
     "tags": ["meaning", "academic"],
     "source": "curated"
   },
@@ -52,22 +52,23 @@
     "type": "meaning_zh_to_en",
     "cefr": "B2",
     "wordIds": ["w_eliminate"],
-    "prompt": "哪一個英文單字最接近「徹底消除、根除」？",
+    "prompt": "「徹底消除，使某類問題完全不再存在」——哪一個字既是這個意思，又能填入空格？",
+    "context": "Rate limiting merely reduces the chance of a stampede; making the operation idempotent will ____ that class of failure entirely, leaving nothing for a retry to corrupt.",
     "options": [
       { "id": "a", "text": "eliminate" },
-      { "id": "b", "text": "relocate" },
-      { "id": "c", "text": "postpone" },
-      { "id": "d", "text": "duplicate" }
+      { "id": "b", "text": "mitigate" },
+      { "id": "c", "text": "contain" },
+      { "id": "d", "text": "curtail" }
     ],
     "correctOptionId": "a",
-    "explanation": "eliminate 強調「讓某個不想要的東西徹底不存在」。",
+    "explanation": "分號前的 merely reduces 已經把「變少」那個選項讓給了 rate limiting，分號後用 entirely 與 leaving nothing 對比，指出結果是這一類失敗根本不會發生。只有 eliminate 表示「讓它從此不存在」。",
     "distractorExplanations": {
-      "b": "relocate 是「遷移位置」，東西依然存在。",
-      "c": "postpone 是「延後」，與消除無關。",
-      "d": "duplicate 是「複製」，意思恰好相反。"
+      "b": "mitigate 是「減輕衝擊」，問題仍然存在，只是後果變小，這正是前半句 rate limiting 在做的事，與 entirely 互相矛盾。",
+      "c": "contain 是把問題侷限在一定範圍內不再擴散，用於事故、外洩、疫情；被控制住的東西並沒有消失。",
+      "d": "curtail 是「削減規模或次數」，受詞多為開支、權限、行程，結果是變少而不是歸零。"
     },
-    "difficulty": 1,
-    "tags": ["meaning", "basic"],
+    "difficulty": 3,
+    "tags": ["meaning", "engineering"],
     "source": "curated"
   },
   {
@@ -75,21 +76,22 @@
     "type": "meaning_zh_to_en",
     "cefr": "C1",
     "wordIds": ["w_criterion"],
-    "prompt": "哪一個英文單字最接近「判斷用的標準、判準」（單數形）？",
+    "prompt": "「用來判斷合格與否的單一標準」——哪一個字既是這個意思，又能填入空格？",
+    "context": "Reviewers disagreed about many details, but in the end a single ____ decided the case: whether the change could be rolled back without data loss.",
     "options": [
-      { "id": "a", "text": "criterion" },
-      { "id": "b", "text": "criteria" },
-      { "id": "c", "text": "critique" },
-      { "id": "d", "text": "credential" }
+      { "id": "a", "text": "benchmark" },
+      { "id": "b", "text": "criterion" },
+      { "id": "c", "text": "criteria" },
+      { "id": "d", "text": "precedent" }
     ],
-    "correctOptionId": "a",
-    "explanation": "criterion 是單數形的「標準」，複數才是 criteria。",
+    "correctOptionId": "b",
+    "explanation": "a single 要求單數形，冒號後面給的又是一個「符合就過、不符合就不過」的條件，正是 criterion 的用法；複數形才是 criteria。",
     "distractorExplanations": {
-      "b": "criteria 是複數形，題目明確要求單數。",
-      "c": "critique 是「評論、批評文章」。",
-      "d": "credential 是「資格證明、憑證」。"
+      "a": "benchmark 是用來比較的基準或測試，衡量的是高低快慢（a performance benchmark）；冒號後給的是一個是非題，不是可以量測比較的數值。",
+      "c": "criteria 是複數形，不能接在 a single 之後，搭配的動詞也得改成複數。",
+      "d": "precedent 是「前例」，若用它，決定案件的就會是過去的判例；但冒號後說明的是一項條件，與有沒有先例無關。"
     },
-    "difficulty": 2,
+    "difficulty": 3,
     "tags": ["meaning", "academic"],
     "source": "curated"
   },
@@ -98,19 +100,20 @@
     "type": "meaning_zh_to_en",
     "cefr": "C2",
     "wordIds": ["w_tenuous"],
-    "prompt": "哪一個英文單字最接近「薄弱的、站不住腳的」？",
+    "prompt": "「（關聯或論據）細弱到禁不起檢驗的」——哪一個字既是這個意思，又能填入空格？",
+    "context": "The review concluded that the link between the two datasets was ____ at best, resting on a single overlapping variable that the authors never explained.",
     "options": [
-      { "id": "a", "text": "tenuous" },
-      { "id": "b", "text": "tenacious" },
-      { "id": "c", "text": "tangible" },
-      { "id": "d", "text": "tentative" }
+      { "id": "a", "text": "tentative" },
+      { "id": "b", "text": "tangible" },
+      { "id": "c", "text": "tenacious" },
+      { "id": "d", "text": "tenuous" }
     ],
-    "correctOptionId": "a",
-    "explanation": "tenuous 形容關聯或立論細到快斷掉、經不起檢驗。",
+    "correctOptionId": "d",
+    "explanation": "resting on a single overlapping variable 說明這個關聯只靠一條線撐著，at best 又表示「講得客氣也不過如此」。tenuous at best 是固定說法，專門評價薄弱的關聯或論據。",
     "distractorExplanations": {
-      "b": "tenacious 是「頑強不放棄的」，語意相反。",
-      "c": "tangible 是「具體可觸的」。",
-      "d": "tentative 是「暫定的、試探性的」，描述確定程度而非強度。"
+      "a": "tentative 是「暫定的、試探性的」，描述的是結論定不定案（a tentative conclusion），而本句談的是連結本身的強度。",
+      "b": "tangible 是「具體而看得見實據的」，如 tangible benefits，方向恰好相反，也不能與 at best 這種示弱的說法連用。",
+      "c": "tenacious 是「頑強不放棄的」，形容人、努力或記憶力，與薄弱正好相反，只是拼字相近。"
     },
     "difficulty": 4,
     "tags": ["meaning", "academic"],
@@ -121,23 +124,23 @@
     "type": "meaning_en_to_zh",
     "cefr": "C1",
     "wordIds": ["w_negligible"],
-    "prompt": "What does \"negligible\" mean here?",
-    "context": "The added logging introduces negligible overhead.",
+    "prompt": "In this sentence, which meaning does \"negligible\" carry?",
+    "context": "Once the sample size exceeded ten thousand, the difference between the two estimators became negligible, and the committee dropped it from further consideration.",
     "options": [
-      { "id": "a", "text": "小到可以忽略不計的" },
-      { "id": "b", "text": "疏忽失職的" },
-      { "id": "c", "text": "難以測量的" },
-      { "id": "d", "text": "無法接受的" }
+      { "id": "a", "text": "難以測量、無法量化的" },
+      { "id": "b", "text": "疏忽而未盡責的" },
+      { "id": "c", "text": "小到在判斷時可以直接略去不計的" },
+      { "id": "d", "text": "容易處理、不需要技巧的" }
     ],
-    "correctOptionId": "a",
-    "explanation": "negligible 表示「小到在決策時可以直接不予考慮」。",
+    "correctOptionId": "c",
+    "explanation": "樣本數變大之後差異縮小，委員會因此把它從後續討論中拿掉。negligible 指「量小到不必納入考慮」，那個差異仍然存在，也量得出來。",
     "distractorExplanations": {
-      "b": "疏忽失職是 negligent，只差幾個字母但意思完全不同。",
-      "c": "negligible 的東西是可以測量的，只是量太小不重要。",
-      "d": "negligible 是正面或中性的評價，不表示無法接受。"
+      "a": "難以測量是 unmeasurable 或 imperceptible；樣本數愈大，估計反而愈精確，本句正是因為量得出來又太小才不予理會。",
+      "b": "疏忽失職是 negligent，只差幾個字母，但用來描述人的責任（a negligent review），不能形容一個差異。",
+      "d": "容易處理是 trivial 的語感，如 a trivial fix；trivial 講的是難度，negligible 講的是量的大小。"
     },
     "difficulty": 3,
-    "tags": ["meaning", "engineering"],
+    "tags": ["meaning", "statistics"],
     "source": "curated"
   },
   {
@@ -145,23 +148,23 @@
     "type": "meaning_en_to_zh",
     "cefr": "C2",
     "wordIds": ["w_salient"],
-    "prompt": "What does \"salient\" mean in this sentence?",
-    "context": "Let me summarize the salient points before we vote.",
+    "prompt": "In this sentence, which meaning does \"salient\" carry?",
+    "context": "Buried in nine pages of methodological caveats was the single salient objection: the control group had been recruited from the same clinic as the treatment group.",
     "options": [
-      { "id": "a", "text": "最顯著、最值得注意的" },
-      { "id": "b", "text": "有爭議的" },
-      { "id": "c", "text": "尚未確認的" },
-      { "id": "d", "text": "技術性很強的" }
+      { "id": "a", "text": "最關鍵、最該被注意的" },
+      { "id": "b", "text": "最顯眼、一眼就看得到的" },
+      { "id": "c", "text": "語氣最尖銳、最具攻擊性的" },
+      { "id": "d", "text": "唯一沒有得到回應的" }
     ],
     "correctOptionId": "a",
-    "explanation": "salient 指在眾多細節中最突出、最該注意的部分。",
+    "explanation": "這項異議被埋在九頁附註裡，卻足以動搖整份研究的對照設計。salient 是價值判斷，指在一堆細節中最重要、最值得停下來看的那一項。",
     "distractorExplanations": {
-      "b": "有爭議是 contentious 或 controversial。",
-      "c": "尚未確認是 unconfirmed 或 preliminary。",
-      "d": "技術性強是 technical，與「顯著」無關。"
+      "b": "視覺上突出、想不看到都難是 conspicuous；本句開頭的 buried in nine pages 正好說明它一點也不顯眼，卻依然是 salient。",
+      "c": "語氣尖銳是 scathing 或 pointed，用來形容批評的態度；salient 不評價語氣。",
+      "d": "唯一未獲回應是 unanswered，本句從頭到尾沒有提到有沒有人回應。"
     },
-    "difficulty": 3,
-    "tags": ["meaning", "presentation"],
+    "difficulty": 4,
+    "tags": ["meaning", "academic"],
     "source": "curated"
   },
   {
@@ -169,21 +172,22 @@
     "type": "meaning_zh_to_en",
     "cefr": "C1",
     "wordIds": ["w_plausible"],
-    "prompt": "哪一個英文單字最接近「看似合理、說得通（但尚未證實）」？",
+    "prompt": "「聽起來合理、姑且可以採信，但尚未得到證實」——哪一個字既是這個意思，又能填入空格？",
+    "context": "The suspect's account of the evening remained entirely ____ until investigators compared it with the timestamps recorded by the parking-garage cameras.",
     "options": [
-      { "id": "a", "text": "plausible" },
-      { "id": "b", "text": "feasible" },
-      { "id": "c", "text": "palpable" },
-      { "id": "d", "text": "permissible" }
+      { "id": "a", "text": "specious" },
+      { "id": "b", "text": "palpable" },
+      { "id": "c", "text": "feasible" },
+      { "id": "d", "text": "plausible" }
     ],
-    "correctOptionId": "a",
-    "explanation": "plausible 專門用來評價「說法聽起來合理，但還沒被證實」。",
+    "correctOptionId": "d",
+    "explanation": "remained entirely ____ until 說明在新證據出現之前，這段供述一直是可以採信的，之後才翻盤。plausible 正是評價「說法聽來合理但還沒被證實」的字。",
     "distractorExplanations": {
-      "b": "feasible 評價的是「行動做不做得到」，不是說法可不可信。",
-      "c": "palpable 是「明顯可感受到的」，例如 palpable tension。",
-      "d": "permissible 是「被允許的」，屬於規範層面。"
+      "a": "specious 是「似是而非」，指表面合理、實際上已可判定為錯；本句的 until 表示在比對錄影之前根本還沒有反證，當時的判斷並非如此。",
+      "b": "palpable 是「明顯到幾乎摸得到」，用於 palpable tension、palpable relief，形容感受得到的氣氛，不用來評價陳述的可信度。",
+      "c": "feasible 評價的是「做不做得到」，受詞是計畫或方案（a feasible plan）；一段供述無所謂可不可行。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": ["meaning", "logic"],
     "source": "curated"
   },
@@ -192,23 +196,23 @@
     "type": "meaning_en_to_zh",
     "cefr": "C2",
     "wordIds": ["w_cursory"],
-    "prompt": "What does \"cursory\" mean here?",
-    "context": "The pull request received only a cursory review before being merged.",
+    "prompt": "In this sentence, which meaning does \"cursory\" carry?",
+    "context": "Even a cursory comparison of the two manuscripts reveals that whole paragraphs were copied verbatim, which is why the committee's failure to notice is puzzling.",
     "options": [
-      { "id": "a", "text": "草率、不夠仔細的" },
-      { "id": "b", "text": "極為嚴格的" },
-      { "id": "c", "text": "由多人共同進行的" },
-      { "id": "d", "text": "自動化的" }
+      { "id": "a", "text": "敷衍了事、缺乏誠意的" },
+      { "id": "b", "text": "在決定做成之後才補做的" },
+      { "id": "c", "text": "逐行比對、極為仔細的" },
+      { "id": "d", "text": "只花很短時間、未深入細看的" }
     ],
-    "correctOptionId": "a",
-    "explanation": "cursory 指「看過但沒認真看」，帶有明顯的批評意味。",
+    "correctOptionId": "d",
+    "explanation": "even a cursory comparison ... reveals 這個句型的意思是「連隨便比一下都看得出來」，用最低標準來凸顯問題有多明顯。cursory 的核心是時間短、不細看。",
     "distractorExplanations": {
-      "b": "嚴格的審查是 thorough 或 rigorous，與 cursory 相反。",
-      "c": "多人共同進行與審查是否仔細無關。",
-      "d": "自動化是 automated，cursory 描述的是人的態度。"
+      "a": "敷衍了事、虛應故事是 perfunctory，重點在態度不誠懇；cursory 重點在速度，而且在 even a cursory... 這個句型裡並不帶責備。",
+      "b": "事後才補做是 retrospective 或 post hoc，描述的是時間順序，與看得仔不仔細無關。",
+      "c": "若是「極為仔細」，後半句「委員會竟然沒發現」就不奇怪了；even 需要搭配一個低標準，語意才成立。"
     },
-    "difficulty": 3,
-    "tags": ["meaning", "engineering"],
+    "difficulty": 4,
+    "tags": ["meaning", "academic"],
     "source": "curated"
   },
   {
@@ -216,22 +220,23 @@
     "type": "meaning_zh_to_en",
     "cefr": "C1",
     "wordIds": ["w_undermine", "w_reinforce"],
-    "prompt": "哪一個英文單字最接近「逐漸削弱、從根基動搖」？",
+    "prompt": "「使某個說法的可信基礎逐漸瓦解」——哪一個字既是這個意思，又能填入空格？",
+    "context": "The newly declassified cables did nothing to support the official timeline; if anything they ____ it, showing the ministry had known about the shortfall for months.",
     "options": [
-      { "id": "a", "text": "undermine" },
-      { "id": "b", "text": "reinforce" },
-      { "id": "c", "text": "underline" },
-      { "id": "d", "text": "undertake" }
+      { "id": "a", "text": "eroded" },
+      { "id": "b", "text": "undermined" },
+      { "id": "c", "text": "detracted" },
+      { "id": "d", "text": "reinforced" }
     ],
-    "correctOptionId": "a",
-    "explanation": "undermine 的字面意思是「在底下挖坑」，引申為從基礎逐步瓦解。",
+    "correctOptionId": "b",
+    "explanation": "did nothing to support 加上 if anything 指出作用方向是反的，而受詞 it 指的是 the official timeline 這個說法。undermine 是及物動詞，受詞正是 account、timeline、argument 這類需要長期建立的東西，意思是從根基動搖它；它的標準反義詞就是選項 d 的 reinforce。",
     "distractorExplanations": {
-      "b": "reinforce 是「強化」，意思恰好相反。",
-      "c": "underline 是「畫底線、強調」，同樣是加強而非削弱。",
-      "d": "undertake 是「著手進行」，語意無關。"
+      "a": "erode 雖然同樣是「緩慢削弱」，但受詞多半是可以一點一滴磨掉的抽象量：trust、support、margins。說 erode a timeline 搭配不通，該被動搖的是說法本身。",
+      "c": "detract 必須接 from（detract from its credibility），不能像這裡一樣直接接受詞 it，所以填進去句子不合文法。",
+      "d": "reinforce 是「讓原本就存在的說法更站得住腳」，與前半句 did nothing to support 直接矛盾；它是 undermine 的反義詞。"
     },
-    "difficulty": 2,
-    "tags": ["meaning", "academic"],
+    "difficulty": 4,
+    "tags": ["meaning", "argument"],
     "source": "curated"
   },
   {
@@ -239,23 +244,23 @@
     "type": "meaning_en_to_zh",
     "cefr": "C1",
     "wordIds": ["w_prevalent"],
-    "prompt": "What does \"prevalent\" mean here?",
-    "context": "This anti-pattern has become increasingly prevalent in large codebases.",
+    "prompt": "In this sentence, which meaning does \"prevalent\" carry?",
+    "context": "Chronic insomnia is markedly more prevalent among shift workers than among the general population, a gap that survives adjustment for age and income.",
     "options": [
-      { "id": "a", "text": "普遍存在、發生頻率高的" },
-      { "id": "b", "text": "被明令禁止的" },
-      { "id": "c", "text": "難以偵測的" },
-      { "id": "d", "text": "逐漸消失的" }
+      { "id": "a", "text": "滲透到生活各個層面、無孔不入的" },
+      { "id": "b", "text": "長期持續而難以根治的" },
+      { "id": "c", "text": "在該族群中發生率明顯較高的" },
+      { "id": "d", "text": "比較容易被察覺並確診出來的" }
     ],
-    "correctOptionId": "a",
-    "explanation": "prevalent 描述某現象在特定範圍內很常見。",
+    "correctOptionId": "c",
+    "explanation": "more prevalent among A than among B 是在比較兩個族群的比例，後面的 a gap that survives adjustment 更確認討論的是數字上的差距。prevalent 是統計意義上的「常見程度」。",
     "distractorExplanations": {
-      "b": "被禁止是 prohibited 或 banned。",
-      "c": "難以偵測是 subtle 或 hard to detect。",
-      "d": "逐漸消失與 increasingly prevalent 的方向相反。"
+      "a": "無孔不入、滲透到每個角落是 pervasive，描述的是影響的範圍與深度，而不是有多少比例的人罹病。",
+      "b": "長期持續難以根治是 chronic，這個字已經出現在 insomnia 前面，描述的是病程長短，不是盛行率。",
+      "d": "容易被診斷出來只會影響「觀察到的數字」；prevalent 說的是實際發生率，句尾還特別指出調整年齡與收入後差距依然存在。"
     },
-    "difficulty": 2,
-    "tags": ["meaning", "academic"],
+    "difficulty": 4,
+    "tags": ["meaning", "research"],
     "source": "curated"
   },
   {
@@ -263,22 +268,23 @@
     "type": "meaning_zh_to_en",
     "cefr": "C1",
     "wordIds": ["w_inherent"],
-    "prompt": "哪一個英文單字最接近「本質上就存在、無法移除的」？",
+    "prompt": "「本質上就存在、無法拿掉的」——哪一個字既是這個意思，又能填入空格？",
+    "context": "The trade-off between consistency and availability is ____ in any system whose nodes must keep working while the network between them fails.",
     "options": [
-      { "id": "a", "text": "inherent" },
-      { "id": "b", "text": "incidental" },
-      { "id": "c", "text": "inherited" },
-      { "id": "d", "text": "imminent" }
+      { "id": "a", "text": "innate" },
+      { "id": "b", "text": "intrinsic" },
+      { "id": "c", "text": "incidental" },
+      { "id": "d", "text": "inherent" }
     ],
-    "correctOptionId": "a",
-    "explanation": "inherent 表示某性質是事物本質的一部分，無法分割。",
+    "correctOptionId": "d",
+    "explanation": "空格後面接的是 in，inherent in + 名詞 是固定搭配；句子也說明只要節點必須在網路斷線時繼續運作，這個取捨就必然出現，設計不掉。",
     "distractorExplanations": {
-      "b": "incidental 是「附帶的、偶然的」，暗示可以避免。",
-      "c": "inherited 是「繼承而來的」，來源在外部而非本質。",
-      "d": "imminent 是「即將發生的」，屬於時間概念。"
+      "a": "innate 指「與生俱來」的天賦或本能，用於人與生物（an innate ability），不用來描述系統的結構性質。",
+      "b": "intrinsic 語意最接近，但習慣搭配 to：intrinsic to the design；而且多用於 intrinsic value、intrinsic motivation 這類「本身具有的價值」，接 in 並不自然。",
+      "c": "incidental 是「附帶而偶然的」，暗示可以避開；本句的 must 說明這個取捨是必然的結果，正好相反。"
     },
-    "difficulty": 3,
-    "tags": ["meaning", "academic"],
+    "difficulty": 4,
+    "tags": ["meaning", "engineering"],
     "source": "curated"
   }
 ]

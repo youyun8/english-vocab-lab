@@ -11,14 +11,16 @@
       {
         "id": "s_magnify_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "to make something appear larger than it is, or to increase its importance or effect",
         "definitionZh": "放大；誇大",
         "usageExplanationZh": "常接 image、problem 等；magnify a lens 用於實際放大影像，magnify a problem 則是誇大或加重其嚴重性。",
-        "examples": [
-          {
-            "en": "A microscope can magnify a cell thousands of times.",
-            "zh": "顯微鏡能將細胞放大數千倍。"
-          }
+        "grammarPatterns": [
+          "magnify + noun",
+          "magnify sth by + noun"
         ],
         "collocations": [
           {
@@ -29,7 +31,37 @@
             "text": "magnify a problem",
             "meaningZh": "誇大問題"
           }
+        ],
+        "examples": [
+          {
+            "en": "A microscope can magnify a cell thousands of times.",
+            "zh": "顯微鏡能將細胞放大數千倍。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "enlarge",
+        "noteZh": "指使影像變大"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "reduce",
+        "noteZh": "指縮小影像"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "magnification",
+        "partOfSpeech": "noun",
+        "meaningZh": "放大"
+      },
+      {
+        "lemma": "magnifier",
+        "partOfSpeech": "noun",
+        "meaningZh": "放大鏡"
       }
     ],
     "tags": [
@@ -44,19 +76,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "enlarge",
-        "noteZh": "指使影像變大"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "reduce",
-        "noteZh": "指縮小影像"
-      }
-    ]
+    }
   },
   {
     "id": "w_magnitude",
@@ -70,21 +90,43 @@
       {
         "id": "s_magnitude_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "the great size, extent, or importance of something",
         "definitionZh": "巨大；重要性；規模",
         "usageExplanationZh": "常見 the magnitude of a problem／disaster，強調事件規模或影響之大，語氣正式。",
-        "examples": [
-          {
-            "en": "No one had anticipated the magnitude of the economic crisis.",
-            "zh": "沒有人預料到這場經濟危機的規模會如此巨大。"
-          }
+        "grammarPatterns": [
+          "the magnitude of + noun",
+          "of the same magnitude"
         ],
         "collocations": [
           {
             "text": "the magnitude of the task",
             "meaningZh": "任務的艱鉅程度"
           }
+        ],
+        "examples": [
+          {
+            "en": "No one had anticipated the magnitude of the economic crisis.",
+            "zh": "沒有人預料到這場經濟危機的規模會如此巨大。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "scale",
+        "noteZh": "指規模或程度"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "magnify",
+        "partOfSpeech": "verb",
+        "meaningZh": "放大"
       }
     ],
     "tags": [
@@ -99,14 +141,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "scale",
-        "noteZh": "指規模或程度"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_maid",
@@ -120,21 +155,42 @@
       {
         "id": "s_maid_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a female servant employed to do housework",
         "definitionZh": "女僕；女傭",
         "usageExplanationZh": "常見於 hotel maid、housemaid，指受雇從事家務或清潔工作的女性。",
-        "examples": [
-          {
-            "en": "A maid comes twice a week to clean the house.",
-            "zh": "一名女傭每週來打掃房子兩次。"
-          }
+        "grammarPatterns": [
+          "work as a maid",
+          "hire a maid"
         ],
         "collocations": [
           {
             "text": "a hotel maid",
             "meaningZh": "飯店房務員"
           }
+        ],
+        "examples": [
+          {
+            "en": "A maid comes twice a week to clean the house.",
+            "zh": "一名女傭每週來打掃房子兩次。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "housemaid",
+        "noteZh": "指從事家務的女傭"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "maiden",
+        "partOfSpeech": "noun",
+        "meaningZh": "少女"
       }
     ],
     "tags": [
@@ -147,14 +203,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "housemaid",
-        "noteZh": "指從事家務的女傭"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_maintenance",
@@ -168,40 +217,71 @@
       {
         "id": "s_maintenance_sense_upkeep",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "business"
+        ],
         "definitionEn": "the process of keeping something in good working condition",
         "definitionZh": "維護；保養",
         "usageExplanationZh": "常見 routine maintenance、maintenance costs，用於機械、建築或系統的例行保養與維修。",
-        "examples": [
-          {
-            "en": "Regular maintenance can extend the lifespan of the equipment.",
-            "zh": "定期保養可以延長這項設備的使用壽命。"
-          }
+        "grammarPatterns": [
+          "regular maintenance",
+          "the maintenance of + noun",
+          "maintenance costs"
         ],
         "collocations": [
           {
             "text": "routine maintenance",
             "meaningZh": "例行保養"
           }
+        ],
+        "examples": [
+          {
+            "en": "Regular maintenance can extend the lifespan of the equipment.",
+            "zh": "定期保養可以延長這項設備的使用壽命。"
+          }
         ]
       },
       {
         "id": "s_maintenance_sense_support",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "financial support provided to a person, especially a former spouse or child",
         "definitionZh": "贍養費；生活費",
         "usageExplanationZh": "法律用語，常見於離婚後對配偶或子女的定期經濟支持，如 child maintenance。",
-        "examples": [
-          {
-            "en": "He is required to pay monthly maintenance to his ex-wife.",
-            "zh": "他必須每月支付贍養費給前妻。"
-          }
+        "grammarPatterns": [
+          "pay maintenance to sb",
+          "child maintenance"
         ],
         "collocations": [
           {
             "text": "maintenance payments",
             "meaningZh": "贍養費付款"
           }
+        ],
+        "examples": [
+          {
+            "en": "He is required to pay monthly maintenance to his ex-wife.",
+            "zh": "他必須每月支付贍養費給前妻。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "upkeep",
+        "noteZh": "指維護保養"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "maintain",
+        "partOfSpeech": "verb",
+        "meaningZh": "維持"
       }
     ],
     "tags": [
@@ -216,14 +296,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "upkeep",
-        "noteZh": "指維護保養"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_majesty",
@@ -237,40 +310,73 @@
       {
         "id": "s_majesty_sense_title",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a title used to address or refer to a king or queen",
         "definitionZh": "陛下（對君主的尊稱）",
         "usageExplanationZh": "通常大寫為 Majesty，前面加 His／Her／Your，用於正式稱呼君主。",
-        "examples": [
-          {
-            "en": "Her Majesty the Queen will address the nation tonight.",
-            "zh": "女王陛下今晚將對全國發表演說。"
-          }
+        "grammarPatterns": [
+          "Her Majesty the Queen",
+          "Your Majesty"
         ],
         "collocations": [
           {
             "text": "Your Majesty",
             "meaningZh": "陛下"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her Majesty the Queen will address the nation tonight.",
+            "zh": "女王陛下今晚將對全國發表演說。"
+          }
         ]
       },
       {
         "id": "s_majesty_sense_grandeur",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "impressive beauty, dignity, or grandeur",
         "definitionZh": "雄偉；莊嚴",
         "usageExplanationZh": "常見 the majesty of the mountains，形容景色或場面帶來的震撼與敬畏感。",
-        "examples": [
-          {
-            "en": "Visitors are awed by the majesty of the ancient cathedral.",
-            "zh": "遊客們對這座古老大教堂的莊嚴壯麗讚嘆不已。"
-          }
+        "grammarPatterns": [
+          "the majesty of + noun"
         ],
         "collocations": [
           {
             "text": "the majesty of the mountains",
             "meaningZh": "群山的雄偉"
           }
+        ],
+        "examples": [
+          {
+            "en": "Visitors are awed by the majesty of the ancient cathedral.",
+            "zh": "遊客們對這座古老大教堂的莊嚴壯麗讚嘆不已。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "grandeur",
+        "noteZh": "指雄偉莊嚴的詞義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "majestic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "雄偉的"
+      },
+      {
+        "lemma": "majestically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "雄偉地"
       }
     ],
     "tags": [
@@ -283,14 +389,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "grandeur",
-        "noteZh": "指雄偉莊嚴的詞義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_makeup",
@@ -304,14 +403,16 @@
       {
         "id": "s_makeup_sense_cosmetics",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "spoken"
+        ],
         "definitionEn": "cosmetics applied to the face",
         "definitionZh": "化妝品；妝容",
         "usageExplanationZh": "常見 wear makeup、put on makeup，指用於臉部的化妝用品或化妝後的樣貌。",
-        "examples": [
-          {
-            "en": "She rarely wears makeup except for special occasions.",
-            "zh": "除了特殊場合，她很少化妝。"
-          }
+        "grammarPatterns": [
+          "wear makeup",
+          "put on makeup"
         ],
         "collocations": [
           {
@@ -322,26 +423,54 @@
             "text": "remove makeup",
             "meaningZh": "卸妝"
           }
+        ],
+        "examples": [
+          {
+            "en": "She rarely wears makeup except for special occasions.",
+            "zh": "除了特殊場合，她很少化妝。"
+          }
         ]
       },
       {
         "id": "s_makeup_sense_composition",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "the way in which something is composed or the combination of qualities that form a character",
         "definitionZh": "組成；構成；性格特質",
         "usageExplanationZh": "常見 the makeup of a team／personality，指構成整體的成分或個人性格的組合。",
-        "examples": [
-          {
-            "en": "The genetic makeup of the two species is remarkably similar.",
-            "zh": "這兩個物種的基因組成極為相似。"
-          }
+        "grammarPatterns": [
+          "the makeup of + noun",
+          "genetic makeup"
         ],
         "collocations": [
           {
             "text": "genetic makeup",
             "meaningZh": "基因組成"
           }
+        ],
+        "examples": [
+          {
+            "en": "The genetic makeup of the two species is remarkably similar.",
+            "zh": "這兩個物種的基因組成極為相似。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "cosmetics",
+        "noteZh": "指化妝品的詞義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "make up",
+        "partOfSpeech": "phrase",
+        "meaningZh": "組成；化妝"
       }
     ],
     "tags": [
@@ -354,14 +483,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cosmetics",
-        "noteZh": "指化妝品的詞義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_malevolent",
@@ -375,21 +497,53 @@
       {
         "id": "s_malevolent_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "having or showing a wish to do harm to others",
         "definitionZh": "懷有惡意的；心懷不軌的",
         "usageExplanationZh": "常修飾 look、intent、force 等，語氣正式，強調蓄意的惡意，與單純 unkind 不同。",
-        "examples": [
-          {
-            "en": "The novel's villain has a malevolent desire to see others suffer.",
-            "zh": "這部小說裡的反派懷有讓別人受苦的惡毒念頭。"
-          }
+        "grammarPatterns": [
+          "a malevolent + noun",
+          "a malevolent desire to + V"
         ],
         "collocations": [
           {
             "text": "malevolent intentions",
             "meaningZh": "惡毒的意圖"
           }
+        ],
+        "examples": [
+          {
+            "en": "The novel's villain has a malevolent desire to see others suffer.",
+            "zh": "這部小說裡的反派懷有讓別人受苦的惡毒念頭。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "malicious",
+        "noteZh": "指懷有惡意的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "benevolent",
+        "noteZh": "仁慈的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "malevolence",
+        "partOfSpeech": "noun",
+        "meaningZh": "惡意"
+      },
+      {
+        "lemma": "benevolent",
+        "partOfSpeech": "adjective",
+        "meaningZh": "仁慈的"
       }
     ],
     "tags": [
@@ -403,19 +557,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "malicious",
-        "noteZh": "指懷有惡意的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "benevolent",
-        "noteZh": "仁慈的"
-      }
-    ]
+    }
   },
   {
     "id": "w_malfunction",
@@ -429,40 +571,73 @@
       {
         "id": "s_malfunction_sense_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical"
+        ],
         "definitionEn": "a failure to function normally",
         "definitionZh": "故障；失靈",
         "usageExplanationZh": "常見 equipment malfunction、a mechanical malfunction，多用於機械、電子系統等技術性語境。",
-        "examples": [
-          {
-            "en": "The crash was caused by a malfunction in the aircraft's software.",
-            "zh": "這起墜機事件是由飛機軟體故障所引起的。"
-          }
+        "grammarPatterns": [
+          "a malfunction in + noun",
+          "cause a malfunction"
         ],
         "collocations": [
           {
             "text": "a mechanical malfunction",
             "meaningZh": "機械故障"
           }
+        ],
+        "examples": [
+          {
+            "en": "The crash was caused by a malfunction in the aircraft's software.",
+            "zh": "這起墜機事件是由飛機軟體故障所引起的。"
+          }
         ]
       },
       {
         "id": "s_malfunction_sense_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical"
+        ],
         "definitionEn": "to fail to function correctly",
         "definitionZh": "發生故障；失靈",
         "usageExplanationZh": "及物或不及物皆可，主詞通常是機器或系統，如 The engine malfunctioned。",
-        "examples": [
-          {
-            "en": "The heating system malfunctioned during the coldest week of winter.",
-            "zh": "暖氣系統在冬天最冷的那一週發生了故障。"
-          }
+        "grammarPatterns": [
+          "sth malfunctions",
+          "begin to malfunction"
         ],
         "collocations": [
           {
             "text": "the equipment malfunctions",
             "meaningZh": "設備發生故障"
           }
+        ],
+        "examples": [
+          {
+            "en": "The heating system malfunctioned during the coldest week of winter.",
+            "zh": "暖氣系統在冬天最冷的那一週發生了故障。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "breakdown",
+        "noteZh": "指故障的名詞義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "function",
+        "partOfSpeech": "verb",
+        "meaningZh": "運作"
+      },
+      {
+        "lemma": "functional",
+        "partOfSpeech": "adjective",
+        "meaningZh": "功能正常的"
       }
     ],
     "tags": [
@@ -476,14 +651,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "breakdown",
-        "noteZh": "指故障的名詞義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_mall",
@@ -497,23 +665,37 @@
       {
         "id": "s_mall_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a large building or complex of shops, often with restaurants and parking",
         "definitionZh": "購物中心；商場",
         "usageExplanationZh": "常見 shopping mall，泛指集合眾多商店的大型建築或園區。",
-        "examples": [
-          {
-            "en": "Teenagers often hang out at the mall on weekends.",
-            "zh": "青少年週末經常聚在購物中心閒逛。"
-          }
+        "grammarPatterns": [
+          "at the mall",
+          "a shopping mall"
         ],
         "collocations": [
           {
             "text": "a shopping mall",
             "meaningZh": "購物中心"
           }
+        ],
+        "examples": [
+          {
+            "en": "Teenagers often hang out at the mall on weekends.",
+            "zh": "青少年週末經常聚在購物中心閒逛。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "shopping center",
+        "noteZh": "指大型購物場所"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -525,14 +707,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "shopping center",
-        "noteZh": "指大型購物場所"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_malleable",
@@ -546,40 +721,75 @@
       {
         "id": "s_malleable_sense_physical",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "capable of being shaped, bent, or hammered into different forms without breaking",
         "definitionZh": "可塑的；有延展性的",
         "usageExplanationZh": "常形容金屬，如 gold is highly malleable，強調材質可被加工塑形而不斷裂。",
-        "examples": [
-          {
-            "en": "Gold is one of the most malleable metals known.",
-            "zh": "黃金是已知延展性最佳的金屬之一。"
-          }
+        "grammarPatterns": [
+          "a malleable + noun",
+          "highly malleable"
         ],
         "collocations": [
           {
             "text": "malleable metal",
             "meaningZh": "可鍛塑的金屬"
           }
+        ],
+        "examples": [
+          {
+            "en": "Gold is one of the most malleable metals known.",
+            "zh": "黃金是已知延展性最佳的金屬之一。"
+          }
         ]
       },
       {
         "id": "s_malleable_sense_figurative",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "easily influenced or shaped, especially in character or opinion",
         "definitionZh": "易受影響的；可塑造的",
         "usageExplanationZh": "常形容 young minds、public opinion 等，比喻性格或想法容易被他人塑造改變。",
-        "examples": [
-          {
-            "en": "Young children are especially malleable and learn quickly from their surroundings.",
-            "zh": "幼童特別容易受影響，也很快就能從周遭環境中學習。"
-          }
+        "grammarPatterns": [
+          "a malleable + noun",
+          "especially malleable"
         ],
         "collocations": [
           {
             "text": "malleable young minds",
             "meaningZh": "易受塑造的年輕心靈"
           }
+        ],
+        "examples": [
+          {
+            "en": "Young children are especially malleable and learn quickly from their surroundings.",
+            "zh": "幼童特別容易受影響，也很快就能從周遭環境中學習。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "pliable",
+        "noteZh": "指可彎塑的；亦可指易受影響的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "rigid",
+        "noteZh": "指不易彎曲或改變的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "malleability",
+        "partOfSpeech": "noun",
+        "meaningZh": "可塑性"
       }
     ],
     "tags": [
@@ -594,19 +804,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pliable",
-        "noteZh": "指可彎塑的；亦可指易受影響的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "rigid",
-        "noteZh": "指不易彎曲或改變的"
-      }
-    ]
+    }
   },
   {
     "id": "w_mammal",
@@ -620,21 +818,38 @@
       {
         "id": "s_mammal_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a warm-blooded animal that has hair or fur and typically feeds its young with milk",
         "definitionZh": "哺乳動物",
         "usageExplanationZh": "生物學基本分類詞彙，常見於自然科學文章，如 humans are mammals。",
-        "examples": [
-          {
-            "en": "Whales are mammals, even though they live entirely in water.",
-            "zh": "鯨魚是哺乳動物，儘管牠們完全生活在水中。"
-          }
+        "grammarPatterns": [
+          "a marine mammal",
+          "be classified as a mammal"
         ],
         "collocations": [
           {
             "text": "marine mammals",
             "meaningZh": "海洋哺乳動物"
           }
+        ],
+        "examples": [
+          {
+            "en": "Whales are mammals, even though they live entirely in water.",
+            "zh": "鯨魚是哺乳動物，儘管牠們完全生活在水中。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "mammalian",
+        "partOfSpeech": "adjective",
+        "meaningZh": "哺乳類的"
       }
     ],
     "tags": [
@@ -649,9 +864,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_mandate",
@@ -665,40 +878,70 @@
       {
         "id": "s_mandate_sense_instruction",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "an official instruction or order from an authority",
         "definitionZh": "命令；指令",
         "usageExplanationZh": "常見 a legal mandate、a government mandate，指具約束力的正式命令或規定。",
-        "examples": [
-          {
-            "en": "The company issued a mandate requiring all staff to wear identification badges.",
-            "zh": "公司發布了一項規定，要求所有員工佩戴識別證。"
-          }
+        "grammarPatterns": [
+          "issue a mandate",
+          "a mandate requiring sb to + V"
         ],
         "collocations": [
           {
             "text": "a government mandate",
             "meaningZh": "政府命令"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company issued a mandate requiring all staff to wear identification badges.",
+            "zh": "公司發布了一項規定，要求所有員工佩戴識別證。"
+          }
         ]
       },
       {
         "id": "s_mandate_sense_electoral",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the authority given to an elected government or leader by voters",
         "definitionZh": "（選民賦予的）授權；付託",
         "usageExplanationZh": "常見 win a mandate，指選舉勝利後獲得推行政策的正當性與民意支持。",
-        "examples": [
-          {
-            "en": "The president claimed a mandate for sweeping economic reforms.",
-            "zh": "總統聲稱自己獲得了推動全面經濟改革的民意授權。"
-          }
+        "grammarPatterns": [
+          "a mandate for + noun",
+          "claim a mandate to + V"
         ],
         "collocations": [
           {
             "text": "an electoral mandate",
             "meaningZh": "選民的授權"
           }
+        ],
+        "examples": [
+          {
+            "en": "The president claimed a mandate for sweeping economic reforms.",
+            "zh": "總統聲稱自己獲得了推動全面經濟改革的民意授權。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "directive",
+        "noteZh": "指官方指令"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "mandatory",
+        "partOfSpeech": "adjective",
+        "meaningZh": "強制性的"
       }
     ],
     "tags": [
@@ -713,14 +956,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "directive",
-        "noteZh": "指官方指令"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_mandatory",
@@ -734,21 +970,48 @@
       {
         "id": "s_mandatory_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "required by law or a rule; compulsory",
         "definitionZh": "強制性的；必須遵守的",
         "usageExplanationZh": "常見 mandatory attendance、mandatory retirement，強調規定上沒有選擇餘地，與 optional 相對。",
-        "examples": [
-          {
-            "en": "Wearing a seatbelt is mandatory in most countries.",
-            "zh": "在大多數國家，繫安全帶是強制規定。"
-          }
+        "grammarPatterns": [
+          "be mandatory for + noun",
+          "it is mandatory to + V"
         ],
         "collocations": [
           {
             "text": "mandatory training",
             "meaningZh": "強制培訓"
           }
+        ],
+        "examples": [
+          {
+            "en": "Wearing a seatbelt is mandatory in most countries.",
+            "zh": "在大多數國家，繫安全帶是強制規定。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "compulsory",
+        "noteZh": "指規定必須的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "optional",
+        "noteZh": "可選擇的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "mandate",
+        "partOfSpeech": "noun",
+        "meaningZh": "命令；授權"
       }
     ],
     "tags": [
@@ -763,19 +1026,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "compulsory",
-        "noteZh": "指規定必須的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "optional",
-        "noteZh": "可選擇的"
-      }
-    ]
+    }
   },
   {
     "id": "w_manifest",
@@ -789,40 +1040,80 @@
       {
         "id": "s_manifest_sense_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to show a quality or feeling clearly through actions or appearance",
         "definitionZh": "顯露；表現出",
         "usageExplanationZh": "常見 manifest itself as、symptoms manifest，強調原本隱藏的特質或狀態變得明顯可見。",
-        "examples": [
-          {
-            "en": "Her anxiety manifested itself as constant restlessness.",
-            "zh": "她的焦慮表現為持續不安。"
-          }
+        "grammarPatterns": [
+          "manifest itself as + noun",
+          "manifest itself in + noun"
         ],
         "collocations": [
           {
             "text": "manifest itself in",
             "meaningZh": "表現在…上"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her anxiety manifested itself as constant restlessness.",
+            "zh": "她的焦慮表現為持續不安。"
+          }
         ]
       },
       {
         "id": "s_manifest_sense_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "business"
+        ],
         "definitionEn": "an official list of a ship or aircraft's cargo or passengers",
         "definitionZh": "載貨單；旅客名單",
         "usageExplanationZh": "運輸與貿易用語，常見 a cargo manifest／passenger manifest，用於記錄運送內容或人員名單。",
-        "examples": [
-          {
-            "en": "Customs officials checked the ship's manifest before allowing it to dock.",
-            "zh": "海關人員在允許這艘船靠岸前，先檢查了它的載貨單。"
-          }
+        "grammarPatterns": [
+          "a ship's manifest",
+          "check the manifest"
         ],
         "collocations": [
           {
             "text": "a passenger manifest",
             "meaningZh": "旅客名單"
           }
+        ],
+        "examples": [
+          {
+            "en": "Customs officials checked the ship's manifest before allowing it to dock.",
+            "zh": "海關人員在允許這艘船靠岸前，先檢查了它的載貨單。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "display",
+        "noteZh": "指顯露的動詞義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "conceal",
+        "noteZh": "指隱藏，與顯露義相反"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "manifestation",
+        "partOfSpeech": "noun",
+        "meaningZh": "顯現"
+      },
+      {
+        "lemma": "manifestly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "明顯地"
       }
     ],
     "tags": [
@@ -836,19 +1127,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "display",
-        "noteZh": "指顯露的動詞義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "conceal",
-        "noteZh": "指隱藏，與顯露義相反"
-      }
-    ]
+    }
   },
   {
     "id": "w_manifestation",
@@ -862,21 +1141,42 @@
       {
         "id": "s_manifestation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a visible or perceptible sign that something exists or is happening",
         "definitionZh": "顯現；表現；徵兆",
         "usageExplanationZh": "常見 a manifestation of，指某種情緒、狀態或問題以具體方式呈現出來。",
-        "examples": [
-          {
-            "en": "The rash was a manifestation of an underlying allergy.",
-            "zh": "這個疹子是潛在過敏反應的一種表現。"
-          }
+        "grammarPatterns": [
+          "a manifestation of + noun"
         ],
         "collocations": [
           {
             "text": "a manifestation of anxiety",
             "meaningZh": "焦慮的表現"
           }
+        ],
+        "examples": [
+          {
+            "en": "The rash was a manifestation of an underlying allergy.",
+            "zh": "這個疹子是潛在過敏反應的一種表現。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "sign",
+        "noteZh": "指某現象的表徵"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "manifest",
+        "partOfSpeech": "verb",
+        "meaningZh": "顯露"
       }
     ],
     "tags": [
@@ -890,14 +1190,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "sign",
-        "noteZh": "指某現象的表徵"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_manipulate",
@@ -911,40 +1204,79 @@
       {
         "id": "s_manipulate_sense_devious",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to control or influence someone unfairly or deviously for one's own advantage",
         "definitionZh": "操縱；操控（人）",
         "usageExplanationZh": "常帶負面意涵，指以不正當手段影響他人想法或行為，如 manipulate public opinion。",
-        "examples": [
-          {
-            "en": "The politician was accused of manipulating the media to boost his image.",
-            "zh": "這名政治人物被指控操縱媒體以提升自己的形象。"
-          }
+        "grammarPatterns": [
+          "manipulate sb into + V-ing",
+          "manipulate + noun"
         ],
         "collocations": [
           {
             "text": "manipulate public opinion",
             "meaningZh": "操縱輿論"
           }
+        ],
+        "examples": [
+          {
+            "en": "The politician was accused of manipulating the media to boost his image.",
+            "zh": "這名政治人物被指控操縱媒體以提升自己的形象。"
+          }
         ]
       },
       {
         "id": "s_manipulate_sense_physical",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "formal"
+        ],
         "definitionEn": "to handle or operate something skillfully, especially with the hands",
         "definitionZh": "（熟練地）操作；擺弄",
         "usageExplanationZh": "中性用法，常見於機械、工具或數據，如 manipulate the controls、manipulate data。",
-        "examples": [
-          {
-            "en": "The surgeon carefully manipulated the instrument during the procedure.",
-            "zh": "外科醫生在手術過程中小心地操作這件器械。"
-          }
+        "grammarPatterns": [
+          "manipulate + noun",
+          "manipulate sth with + noun"
         ],
         "collocations": [
           {
             "text": "manipulate a tool",
             "meaningZh": "熟練地操作工具"
           }
+        ],
+        "examples": [
+          {
+            "en": "The surgeon carefully manipulated the instrument during the procedure.",
+            "zh": "外科醫生在手術過程中小心地操作這件器械。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "exploit",
+        "noteZh": "指為私利操控他人的詞義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "manipulation",
+        "partOfSpeech": "noun",
+        "meaningZh": "操縱"
+      },
+      {
+        "lemma": "manipulative",
+        "partOfSpeech": "adjective",
+        "meaningZh": "善於操縱的"
+      },
+      {
+        "lemma": "manipulator",
+        "partOfSpeech": "noun",
+        "meaningZh": "操縱者"
       }
     ],
     "tags": [
@@ -959,14 +1291,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "exploit",
-        "noteZh": "指為私利操控他人的詞義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_manipulative",
@@ -980,21 +1305,47 @@
       {
         "id": "s_manipulative_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "skilled at influencing or controlling people in an unfair or dishonest way",
         "definitionZh": "善於操縱人的；工於心計的",
         "usageExplanationZh": "帶負面評價，形容人慣於利用手段操控他人以謀取私利。",
-        "examples": [
-          {
-            "en": "He has a manipulative side that makes it hard to trust him.",
-            "zh": "他有工於心計的一面，讓人很難信任他。"
-          }
+        "grammarPatterns": [
+          "a manipulative + noun",
+          "be manipulative"
         ],
         "collocations": [
           {
             "text": "manipulative behavior",
             "meaningZh": "操控他人的行為"
           }
+        ],
+        "examples": [
+          {
+            "en": "He has a manipulative side that makes it hard to trust him.",
+            "zh": "他有工於心計的一面，讓人很難信任他。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "scheming",
+        "noteZh": "指工於心計的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "manipulate",
+        "partOfSpeech": "verb",
+        "meaningZh": "操縱"
+      },
+      {
+        "lemma": "manipulation",
+        "partOfSpeech": "noun",
+        "meaningZh": "操控"
       }
     ],
     "tags": [
@@ -1007,14 +1358,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "scheming",
-        "noteZh": "指工於心計的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_mansion",
@@ -1028,23 +1372,37 @@
       {
         "id": "s_mansion_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a large, impressive house",
         "definitionZh": "大宅邸；豪宅",
         "usageExplanationZh": "常見 a country mansion，強調房屋規模宏大、氣派十足，暗示屋主富裕。",
-        "examples": [
-          {
-            "en": "The billionaire owns a mansion with over thirty rooms.",
-            "zh": "這位億萬富翁擁有一棟超過三十個房間的豪宅。"
-          }
+        "grammarPatterns": [
+          "a grand mansion",
+          "live in a mansion"
         ],
         "collocations": [
           {
             "text": "a luxurious mansion",
             "meaningZh": "豪華宅邸"
           }
+        ],
+        "examples": [
+          {
+            "en": "The billionaire owns a mansion with over thirty rooms.",
+            "zh": "這位億萬富翁擁有一棟超過三十個房間的豪宅。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "stately home",
+        "noteZh": "指宏偉的大宅邸"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1057,14 +1415,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "stately home",
-        "noteZh": "指宏偉的大宅邸"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_manual",
@@ -1078,33 +1429,43 @@
       {
         "id": "s_manual_sense_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a book of instructions, especially for a machine or process",
         "definitionZh": "手冊；指南",
         "usageExplanationZh": "常見 an instruction manual、a user manual，指說明如何操作或使用某物的書面資料。",
-        "examples": [
-          {
-            "en": "Please refer to the manual before assembling the furniture.",
-            "zh": "組裝家具前請先參閱說明手冊。"
-          }
+        "grammarPatterns": [
+          "refer to the manual",
+          "the manual for + noun"
         ],
         "collocations": [
           {
             "text": "an instruction manual",
             "meaningZh": "使用手冊"
           }
+        ],
+        "examples": [
+          {
+            "en": "Please refer to the manual before assembling the furniture.",
+            "zh": "組裝家具前請先參閱說明手冊。"
+          }
         ]
       },
       {
         "id": "s_manual_sense_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "done with the hands or by physical effort rather than by machine",
         "definitionZh": "手動的；需體力的",
         "usageExplanationZh": "常見 manual labor、manual transmission，強調以人力或雙手進行，而非自動化或機械操作。",
-        "examples": [
-          {
-            "en": "The factory replaced most manual tasks with automated machines.",
-            "zh": "這家工廠已將大部分的手工作業改由自動化機器取代。"
-          }
+        "grammarPatterns": [
+          "manual + noun",
+          "manual labor"
         ],
         "collocations": [
           {
@@ -1115,7 +1476,32 @@
             "text": "manual control",
             "meaningZh": "手動控制"
           }
+        ],
+        "examples": [
+          {
+            "en": "The factory replaced most manual tasks with automated machines.",
+            "zh": "這家工廠已將大部分的手工作業改由自動化機器取代。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "handbook",
+        "noteZh": "指手冊的名詞義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "automatic",
+        "noteZh": "自動的，與手動義相反"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "manually",
+        "partOfSpeech": "adverb",
+        "meaningZh": "手動地"
       }
     ],
     "tags": [
@@ -1129,19 +1515,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "handbook",
-        "noteZh": "指手冊的名詞義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "automatic",
-        "noteZh": "自動的，與手動義相反"
-      }
-    ]
+    }
   },
   {
     "id": "w_manufacture",
@@ -1155,21 +1529,48 @@
       {
         "id": "s_manufacture_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "business",
+          "technical"
+        ],
         "definitionEn": "to make goods in large quantities, usually with machinery",
         "definitionZh": "製造；生產",
         "usageExplanationZh": "常見 manufacture products／goods，多指工業化大量生產，主詞通常是公司或工廠。",
-        "examples": [
-          {
-            "en": "The company manufactures electronic components for smartphones.",
-            "zh": "這家公司為智慧型手機製造電子零件。"
-          }
+        "grammarPatterns": [
+          "manufacture + noun",
+          "be manufactured in + noun"
         ],
         "collocations": [
           {
             "text": "manufacture goods",
             "meaningZh": "製造商品"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company manufactures electronic components for smartphones.",
+            "zh": "這家公司為智慧型手機製造電子零件。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "produce",
+        "noteZh": "指工業生產"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "manufacturer",
+        "partOfSpeech": "noun",
+        "meaningZh": "製造商"
+      },
+      {
+        "lemma": "manufacturing",
+        "partOfSpeech": "noun",
+        "meaningZh": "製造業"
       }
     ],
     "tags": [
@@ -1183,14 +1584,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "produce",
-        "noteZh": "指工業生產"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_manure",
@@ -1204,23 +1598,38 @@
       {
         "id": "s_manure_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "animal or plant waste used to fertilize soil",
         "definitionZh": "肥料；糞肥",
         "usageExplanationZh": "農業用語，常見 spread manure，指施用於土壤以增進養分的有機肥料。",
-        "examples": [
-          {
-            "en": "The farmer spread manure over the field before planting.",
-            "zh": "農夫在播種前先在田裡施了肥料。"
-          }
+        "grammarPatterns": [
+          "spread manure on + noun",
+          "animal manure"
         ],
         "collocations": [
           {
             "text": "spread manure",
             "meaningZh": "撒糞肥"
           }
+        ],
+        "examples": [
+          {
+            "en": "The farmer spread manure over the field before planting.",
+            "zh": "農夫在播種前先在田裡施了肥料。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "dung",
+        "noteZh": "指用作肥料的動物糞便"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1233,14 +1642,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "dung",
-        "noteZh": "指用作肥料的動物糞便"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_manuscript",
@@ -1254,23 +1656,38 @@
       {
         "id": "s_manuscript_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "literary"
+        ],
         "definitionEn": "a handwritten or typed document, especially one submitted for publication",
         "definitionZh": "手稿；原稿",
         "usageExplanationZh": "常見 submit a manuscript to a publisher，指作者交付出版社審查前的原始文稿。",
-        "examples": [
-          {
-            "en": "She spent five years writing the manuscript for her first novel.",
-            "zh": "她花了五年時間寫出第一部小說的原稿。"
-          }
+        "grammarPatterns": [
+          "submit a manuscript",
+          "the manuscript of + noun"
         ],
         "collocations": [
           {
             "text": "submit a manuscript",
             "meaningZh": "提交原稿"
           }
+        ],
+        "examples": [
+          {
+            "en": "She spent five years writing the manuscript for her first novel.",
+            "zh": "她花了五年時間寫出第一部小說的原稿。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "draft",
+        "noteZh": "指待出版作品的原稿"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -1282,14 +1699,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "draft",
-        "noteZh": "指待出版作品的原稿"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_maple",
@@ -1303,14 +1713,15 @@
       {
         "id": "s_maple_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a tree known for its distinctive leaves and, in some species, sap used to make syrup",
         "definitionZh": "楓樹；楓木",
         "usageExplanationZh": "常見 maple syrup（楓糖漿）、maple leaf（楓葉），與加拿大文化意象密切相關。",
-        "examples": [
-          {
-            "en": "Maple syrup is made by boiling down the sap of maple trees.",
-            "zh": "楓糖漿是將楓樹的樹液煮沸濃縮而成的。"
-          }
+        "grammarPatterns": [
+          "a maple tree",
+          "maple syrup"
         ],
         "collocations": [
           {
@@ -1321,9 +1732,17 @@
             "text": "maple syrup",
             "meaningZh": "楓糖漿"
           }
+        ],
+        "examples": [
+          {
+            "en": "Maple syrup is made by boiling down the sap of maple trees.",
+            "zh": "楓糖漿是將楓樹的樹液煮沸濃縮而成的。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1334,9 +1753,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_marble",
@@ -1350,42 +1767,59 @@
       {
         "id": "s_marble_sense_stone",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a hard rock, often veined, used for sculpture and building",
         "definitionZh": "大理石",
         "usageExplanationZh": "常見 marble floor／statue，強調其光滑質感與高級建材形象。",
-        "examples": [
-          {
-            "en": "The lobby floor was made of polished white marble.",
-            "zh": "大廳的地板是用打磨過的白色大理石鋪成的。"
-          }
+        "grammarPatterns": [
+          "be made of marble",
+          "a marble + noun"
         ],
         "collocations": [
           {
             "text": "a marble statue",
             "meaningZh": "大理石雕像"
           }
+        ],
+        "examples": [
+          {
+            "en": "The lobby floor was made of polished white marble.",
+            "zh": "大廳的地板是用打磨過的白色大理石鋪成的。"
+          }
         ]
       },
       {
         "id": "s_marble_sense_toy",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a small ball, usually of glass, used in children's games",
         "definitionZh": "玻璃彈珠",
         "usageExplanationZh": "常見 play marbles，指用彈珠進行的傳統童玩遊戲。",
-        "examples": [
-          {
-            "en": "The children knelt on the ground playing marbles.",
-            "zh": "孩子們跪在地上玩彈珠。"
-          }
+        "grammarPatterns": [
+          "play marbles",
+          "a glass marble"
         ],
         "collocations": [
           {
             "text": "play marbles",
             "meaningZh": "玩彈珠"
           }
+        ],
+        "examples": [
+          {
+            "en": "The children knelt on the ground playing marbles.",
+            "zh": "孩子們跪在地上玩彈珠。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1398,9 +1832,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_margin",
@@ -1414,33 +1846,44 @@
       {
         "id": "s_margin_sense_page",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "the blank space around the edge of a printed or written page",
         "definitionZh": "（頁面的）邊界；留白處",
         "usageExplanationZh": "常見 write in the margin，指頁面文字周圍的空白部分。",
-        "examples": [
-          {
-            "en": "She scribbled notes in the margin of the textbook.",
-            "zh": "她在課本的頁邊空白處寫下了筆記。"
-          }
+        "grammarPatterns": [
+          "in the margin",
+          "write notes in the margin"
         ],
         "collocations": [
           {
             "text": "in the margin",
             "meaningZh": "在頁邊空白處"
           }
+        ],
+        "examples": [
+          {
+            "en": "She scribbled notes in the margin of the textbook.",
+            "zh": "她在課本的頁邊空白處寫下了筆記。"
+          }
         ]
       },
       {
         "id": "s_margin_sense_amount",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "academic"
+        ],
         "definitionEn": "an amount by which something exceeds or falls short of a given level; a degree of difference",
         "definitionZh": "差距；餘裕；利潤",
         "usageExplanationZh": "常見 win by a narrow margin、profit margin，強調數量或程度上的差距或空間。",
-        "examples": [
-          {
-            "en": "The team won the game by a narrow margin.",
-            "zh": "這支隊伍以些微差距贏得了比賽。"
-          }
+        "grammarPatterns": [
+          "by a narrow margin",
+          "a margin of + noun",
+          "profit margin"
         ],
         "collocations": [
           {
@@ -1451,7 +1894,37 @@
             "text": "profit margin",
             "meaningZh": "利潤率"
           }
+        ],
+        "examples": [
+          {
+            "en": "The team won the game by a narrow margin.",
+            "zh": "這支隊伍以些微差距贏得了比賽。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "edge",
+        "noteZh": "指頁面邊緣；範圍較廣"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "marginal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "邊緣的；些微的"
+      },
+      {
+        "lemma": "marginally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "稍微地"
+      },
+      {
+        "lemma": "marginalize",
+        "partOfSpeech": "verb",
+        "meaningZh": "使邊緣化"
       }
     ],
     "tags": [
@@ -1466,14 +1939,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "edge",
-        "noteZh": "指頁面邊緣；範圍較廣"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_marine",
@@ -1487,40 +1953,85 @@
       {
         "id": "s_marine_sense_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "relating to the sea",
         "definitionZh": "海的；海洋的",
         "usageExplanationZh": "常見 marine life、marine biology，泛指與海洋、海中生物相關的事物。",
-        "examples": [
-          {
-            "en": "Marine biologists study the creatures that live in the ocean.",
-            "zh": "海洋生物學家研究生活在海洋中的生物。"
-          }
+        "grammarPatterns": [
+          "marine + noun",
+          "marine life"
         ],
         "collocations": [
           {
             "text": "marine life",
             "meaningZh": "海洋生物"
           }
+        ],
+        "examples": [
+          {
+            "en": "Marine biologists study the creatures that live in the ocean.",
+            "zh": "海洋生物學家研究生活在海洋中的生物。"
+          }
         ]
       },
       {
         "id": "s_marine_sense_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a soldier trained to serve on land and at sea, especially in the Marine Corps",
         "definitionZh": "海軍陸戰隊隊員",
         "usageExplanationZh": "常大寫 Marine，特指海軍陸戰隊的成員，強調兩棲作戰訓練。",
-        "examples": [
-          {
-            "en": "He served as a Marine for eight years before retiring.",
-            "zh": "他在退伍前擔任了八年的海軍陸戰隊隊員。"
-          }
+        "grammarPatterns": [
+          "serve as a Marine",
+          "a former Marine"
         ],
         "collocations": [
           {
             "text": "a former marine",
             "meaningZh": "前海軍陸戰隊員"
           }
+        ],
+        "examples": [
+          {
+            "en": "He served as a Marine for eight years before retiring.",
+            "zh": "他在退伍前擔任了八年的海軍陸戰隊隊員。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "maritime",
+        "noteZh": "指與海洋有關的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "terrestrial",
+        "noteZh": "陸地的，與海洋義相反"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "mariner",
+        "partOfSpeech": "noun",
+        "meaningZh": "水手"
+      },
+      {
+        "lemma": "maritime",
+        "partOfSpeech": "adjective",
+        "meaningZh": "海事的"
+      },
+      {
+        "lemma": "submarine",
+        "partOfSpeech": "noun",
+        "meaningZh": "潛水艇"
       }
     ],
     "tags": [
@@ -1535,19 +2046,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "maritime",
-        "noteZh": "指與海洋有關的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "terrestrial",
-        "noteZh": "陸地的，與海洋義相反"
-      }
-    ]
+    }
   },
   {
     "id": "w_marital",
@@ -1561,21 +2060,47 @@
       {
         "id": "s_marital_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "relating to marriage",
         "definitionZh": "婚姻的；夫妻的",
         "usageExplanationZh": "常見 marital status（婚姻狀態）、marital problems，正式用語，多見於法律或表格文件。",
-        "examples": [
-          {
-            "en": "Please indicate your marital status on the form.",
-            "zh": "請在表格上註明你的婚姻狀態。"
-          }
+        "grammarPatterns": [
+          "marital + noun",
+          "one's marital status"
         ],
         "collocations": [
           {
             "text": "marital status",
             "meaningZh": "婚姻狀況"
           }
+        ],
+        "examples": [
+          {
+            "en": "Please indicate your marital status on the form.",
+            "zh": "請在表格上註明你的婚姻狀態。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "matrimonial",
+        "noteZh": "指婚姻相關的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "marriage",
+        "partOfSpeech": "noun",
+        "meaningZh": "婚姻；結婚"
+      },
+      {
+        "lemma": "marry",
+        "partOfSpeech": "verb",
+        "meaningZh": "結婚；娶；嫁"
       }
     ],
     "tags": [
@@ -1590,14 +2115,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "matrimonial",
-        "noteZh": "指婚姻相關的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_maroon",
@@ -1611,42 +2129,64 @@
       {
         "id": "s_maroon_sense_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "to leave someone stranded in an isolated place with little hope of escape",
         "definitionZh": "使孤立無援；棄置（於孤島等處）",
         "usageExplanationZh": "常見 be marooned on an island，強調被迫困於無法離開的環境。",
-        "examples": [
-          {
-            "en": "The sailors were marooned on a deserted island after the shipwreck.",
-            "zh": "船難後，這些水手被困在一座荒島上，無法離開。"
-          }
+        "grammarPatterns": [
+          "be marooned on + noun",
+          "maroon sb on + noun"
         ],
         "collocations": [
           {
             "text": "be marooned on an island",
             "meaningZh": "受困於島上"
           }
+        ],
+        "examples": [
+          {
+            "en": "The sailors were marooned on a deserted island after the shipwreck.",
+            "zh": "船難後，這些水手被困在一座荒島上，無法離開。"
+          }
         ]
       },
       {
         "id": "s_maroon_sense_color",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a dark brownish-red color",
         "definitionZh": "褐紫紅色",
         "usageExplanationZh": "描述顏色，介於紅與棕之間的深色調，常用於服裝或裝潢描述，可作名詞指這個顏色本身。",
-        "examples": [
-          {
-            "en": "The walls were painted a deep maroon.",
-            "zh": "牆壁被漆成了深褐紫紅色。"
-          }
+        "grammarPatterns": [
+          "a deep maroon",
+          "be painted maroon"
         ],
         "collocations": [
           {
             "text": "a deep shade of maroon",
             "meaningZh": "深褐紅色調"
           }
+        ],
+        "examples": [
+          {
+            "en": "The walls were painted a deep maroon.",
+            "zh": "牆壁被漆成了深褐紫紅色。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "strand",
+        "noteZh": "指使困在某處的動詞義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1657,14 +2197,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "strand",
-        "noteZh": "指使困在某處的動詞義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_marsh",
@@ -1678,21 +2211,48 @@
       {
         "id": "s_marsh_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "an area of low, wet land, often with grassy vegetation",
         "definitionZh": "沼澤；溼地",
         "usageExplanationZh": "常見 salt marsh、marshland，指介於陸地與水域之間的濕地生態系統。",
-        "examples": [
-          {
-            "en": "The birds nest in the marsh near the river.",
-            "zh": "這些鳥類在河邊的沼澤地築巢。"
-          }
+        "grammarPatterns": [
+          "a salt marsh",
+          "in the marsh"
         ],
         "collocations": [
           {
             "text": "a salt marsh",
             "meaningZh": "鹽沼"
           }
+        ],
+        "examples": [
+          {
+            "en": "The birds nest in the marsh near the river.",
+            "zh": "這些鳥類在河邊的沼澤地築巢。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "wetland",
+        "noteZh": "指濕地，範圍較廣"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "marshy",
+        "partOfSpeech": "adjective",
+        "meaningZh": "沼澤般的；泥濘的"
+      },
+      {
+        "lemma": "marshland",
+        "partOfSpeech": "noun",
+        "meaningZh": "沼澤地"
       }
     ],
     "tags": [
@@ -1707,14 +2267,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "wetland",
-        "noteZh": "指濕地，範圍較廣"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_marshal",
@@ -1728,42 +2281,64 @@
       {
         "id": "s_marshal_sense_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to organize or arrange people or things carefully, especially in preparation for something",
         "definitionZh": "整頓；調集；有條理地安排",
         "usageExplanationZh": "常見 marshal one's arguments／resources，強調有系統地集結或整理，以備使用。",
-        "examples": [
-          {
-            "en": "She carefully marshaled her arguments before the debate.",
-            "zh": "她在辯論前仔細整理了自己的論點。"
-          }
+        "grammarPatterns": [
+          "marshal + noun",
+          "marshal one's arguments"
         ],
         "collocations": [
           {
             "text": "marshal the evidence",
             "meaningZh": "整理證據"
           }
+        ],
+        "examples": [
+          {
+            "en": "She carefully marshaled her arguments before the debate.",
+            "zh": "她在辯論前仔細整理了自己的論點。"
+          }
         ]
       },
       {
         "id": "s_marshal_sense_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "an official responsible for enforcing court orders or organizing public events",
         "definitionZh": "執法官；典禮官",
         "usageExplanationZh": "常見 U.S. Marshal、fire marshal，依語境不同指不同類型的公務或治安人員。",
-        "examples": [
-          {
-            "en": "The fire marshal inspected the building for safety violations.",
-            "zh": "消防長官檢查了這棟建築物是否有安全違規之處。"
-          }
+        "grammarPatterns": [
+          "a fire marshal",
+          "the marshal of + noun"
         ],
         "collocations": [
           {
             "text": "a federal marshal",
             "meaningZh": "聯邦執法官"
           }
+        ],
+        "examples": [
+          {
+            "en": "The fire marshal inspected the building for safety violations.",
+            "zh": "消防長官檢查了這棟建築物是否有安全違規之處。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "organize",
+        "noteZh": "指有條理地安排的動詞義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1774,14 +2349,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "organize",
-        "noteZh": "指有條理地安排的動詞義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_martyr",
@@ -1795,40 +2363,65 @@
       {
         "id": "s_martyr_sense_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "a person who suffers or is killed for their beliefs or principles",
         "definitionZh": "烈士；殉道者",
         "usageExplanationZh": "常見宗教或政治語境，如 die a martyr，強調為信仰或理念犧牲。",
-        "examples": [
-          {
-            "en": "The soldier is remembered as a martyr who died defending his country.",
-            "zh": "這名士兵被人們紀念為捍衛國家而犧牲的烈士。"
-          }
+        "grammarPatterns": [
+          "a martyr for + noun",
+          "die a martyr"
         ],
         "collocations": [
           {
             "text": "a martyr for the cause",
             "meaningZh": "為理念犧牲的烈士"
           }
+        ],
+        "examples": [
+          {
+            "en": "The soldier is remembered as a martyr who died defending his country.",
+            "zh": "這名士兵被人們紀念為捍衛國家而犧牲的烈士。"
+          }
         ]
       },
       {
         "id": "s_martyr_sense_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to kill someone because of their beliefs, or to make them suffer greatly for a cause",
         "definitionZh": "使殉道；使受苦",
         "usageExplanationZh": "常見被動語態 be martyred，強調因信仰或理念而被迫害致死或受苦。",
-        "examples": [
-          {
-            "en": "Thousands were martyred during the religious persecutions.",
-            "zh": "數以千計的人在這場宗教迫害中殉道而死。"
-          }
+        "grammarPatterns": [
+          "be martyred for + noun",
+          "martyr + somebody"
         ],
         "collocations": [
           {
             "text": "be martyred for one's beliefs",
             "meaningZh": "因信仰而殉道"
           }
+        ],
+        "examples": [
+          {
+            "en": "Thousands were martyred during the religious persecutions.",
+            "zh": "數以千計的人在這場宗教迫害中殉道而死。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "martyrdom",
+        "partOfSpeech": "noun",
+        "meaningZh": "殉難；殉道"
       }
     ],
     "tags": [
@@ -1842,9 +2435,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_mask",
@@ -1858,40 +2449,73 @@
       {
         "id": "s_mask_sense_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a covering worn over the face to disguise, protect, or conceal identity",
         "definitionZh": "面具；口罩",
         "usageExplanationZh": "常見 wear a mask，依語境可指防護用口罩或化裝用面具。",
-        "examples": [
-          {
-            "en": "Surgeons wear a mask to prevent contamination during operations.",
-            "zh": "外科醫生手術時戴口罩以防止感染。"
-          }
+        "grammarPatterns": [
+          "wear a mask",
+          "a mask over + noun"
         ],
         "collocations": [
           {
             "text": "wear a face mask",
             "meaningZh": "戴口罩"
           }
+        ],
+        "examples": [
+          {
+            "en": "Surgeons wear a mask to prevent contamination during operations.",
+            "zh": "外科醫生手術時戴口罩以防止感染。"
+          }
         ]
       },
       {
         "id": "s_mask_sense_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to hide or disguise a feeling, quality, or problem",
         "definitionZh": "掩飾；掩蓋",
         "usageExplanationZh": "常見 mask one's feelings／mask a smell，指刻意隱藏真實情緒、氣味或問題。",
-        "examples": [
-          {
-            "en": "He tried to mask his disappointment with a smile.",
-            "zh": "他試圖用微笑掩飾自己的失望。"
-          }
+        "grammarPatterns": [
+          "mask + noun",
+          "mask sth with + noun"
         ],
         "collocations": [
           {
             "text": "mask the pain",
             "meaningZh": "掩飾痛苦"
           }
+        ],
+        "examples": [
+          {
+            "en": "He tried to mask his disappointment with a smile.",
+            "zh": "他試圖用微笑掩飾自己的失望。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "conceal",
+        "noteZh": "指掩飾的動詞義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "reveal",
+        "noteZh": "揭露，與掩飾義相反"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "unmask",
+        "partOfSpeech": "verb",
+        "meaningZh": "揭露；揭穿真面目"
       }
     ],
     "tags": [
@@ -1906,19 +2530,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "conceal",
-        "noteZh": "指掩飾的動詞義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "reveal",
-        "noteZh": "揭露，與掩飾義相反"
-      }
-    ]
+    }
   },
   {
     "id": "w_masquerade",
@@ -1932,40 +2544,69 @@
       {
         "id": "s_masquerade_sense_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "a false show or pretense of being something one is not",
         "definitionZh": "偽裝；假面舞會",
         "usageExplanationZh": "常見 a masquerade of，比喻表面掩飾真實身分或意圖的行為。",
-        "examples": [
-          {
-            "en": "Their friendly smiles were just a masquerade for their true intentions.",
-            "zh": "他們友善的笑容只是掩飾真實意圖的偽裝。"
-          }
+        "grammarPatterns": [
+          "a masquerade for + noun",
+          "be just a masquerade"
         ],
         "collocations": [
           {
             "text": "an elaborate masquerade",
             "meaningZh": "精心安排的偽裝"
           }
+        ],
+        "examples": [
+          {
+            "en": "Their friendly smiles were just a masquerade for their true intentions.",
+            "zh": "他們友善的笑容只是掩飾真實意圖的偽裝。"
+          }
         ]
       },
       {
         "id": "s_masquerade_sense_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to pretend to be someone or something one is not",
         "definitionZh": "偽裝成；假扮",
         "usageExplanationZh": "常見 masquerade as，強調刻意冒充另一種身分以達到欺騙目的。",
-        "examples": [
-          {
-            "en": "The scammer masqueraded as a bank employee to steal information.",
-            "zh": "這名詐騙犯偽裝成銀行員工以竊取資訊。"
-          }
+        "grammarPatterns": [
+          "masquerade as + noun",
+          "masquerade as sb"
         ],
         "collocations": [
           {
             "text": "masquerade as an expert",
             "meaningZh": "假扮專家"
           }
+        ],
+        "examples": [
+          {
+            "en": "The scammer masqueraded as a bank employee to steal information.",
+            "zh": "這名詐騙犯偽裝成銀行員工以竊取資訊。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "pretense",
+        "noteZh": "指偽裝的名詞義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "masquerader",
+        "partOfSpeech": "noun",
+        "meaningZh": "化裝者；假扮者"
       }
     ],
     "tags": [
@@ -1978,14 +2619,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pretense",
-        "noteZh": "指偽裝的名詞義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_mass",
@@ -1999,40 +2633,74 @@
       {
         "id": "s_mass_sense_physics",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "the quantity of matter in an object, related to its weight",
         "definitionZh": "質量",
         "usageExplanationZh": "物理學用語，與 weight（重量）不同，指物體所含物質的量，不受重力影響。",
-        "examples": [
-          {
-            "en": "The mass of the object remains constant regardless of location.",
-            "zh": "這個物體的質量無論在哪裡都保持不變。"
-          }
+        "grammarPatterns": [
+          "the mass of + noun",
+          "mass and weight"
         ],
         "collocations": [
           {
             "text": "body mass",
             "meaningZh": "身體質量"
           }
+        ],
+        "examples": [
+          {
+            "en": "The mass of the object remains constant regardless of location.",
+            "zh": "這個物體的質量無論在哪裡都保持不變。"
+          }
         ]
       },
       {
         "id": "s_mass_sense_large_amount",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a large quantity or number of something",
         "definitionZh": "大量；大批",
         "usageExplanationZh": "常見 a mass of people／data，泛指數量龐大的人或物，語氣中性。",
-        "examples": [
-          {
-            "en": "A mass of protesters gathered outside the parliament building.",
-            "zh": "大批抗議民眾聚集在國會大樓外。"
-          }
+        "grammarPatterns": [
+          "a mass of + noun",
+          "masses of + noun"
         ],
         "collocations": [
           {
             "text": "a mass of information",
             "meaningZh": "大量資訊"
           }
+        ],
+        "examples": [
+          {
+            "en": "A mass of protesters gathered outside the parliament building.",
+            "zh": "大批抗議民眾聚集在國會大樓外。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "quantity",
+        "noteZh": "指大量事物的詞義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "massive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "巨大的；大量的"
+      },
+      {
+        "lemma": "amass",
+        "partOfSpeech": "verb",
+        "meaningZh": "積聚；累積"
       }
     ],
     "tags": [
@@ -2046,14 +2714,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "quantity",
-        "noteZh": "指大量事物的詞義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_massacre",
@@ -2067,23 +2728,37 @@
       {
         "id": "s_massacre_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to kill a large number of people in a brutal and indiscriminate way",
         "definitionZh": "屠殺；殘殺",
         "usageExplanationZh": "語氣強烈，強調大規模且不分對象的殺戮，常見於戰爭或種族衝突的敘述。",
-        "examples": [
-          {
-            "en": "Soldiers massacred hundreds of unarmed civilians in the village.",
-            "zh": "士兵在這座村莊屠殺了數百名手無寸鐵的平民。"
-          }
+        "grammarPatterns": [
+          "massacre + noun",
+          "be massacred by + noun"
         ],
         "collocations": [
           {
             "text": "massacre civilians",
             "meaningZh": "屠殺平民"
           }
+        ],
+        "examples": [
+          {
+            "en": "Soldiers massacred hundreds of unarmed civilians in the village.",
+            "zh": "士兵在這座村莊屠殺了數百名手無寸鐵的平民。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "slaughter",
+        "noteZh": "指大規模殘殺"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -2095,14 +2770,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "slaughter",
-        "noteZh": "指大規模殘殺"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_massive",
@@ -2116,21 +2784,57 @@
       {
         "id": "s_massive_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "extremely large in size, amount, or degree",
         "definitionZh": "巨大的；大規模的",
         "usageExplanationZh": "常修飾 building、amount、attack 等，語氣比 big 更強烈，強調規模驚人。",
-        "examples": [
-          {
-            "en": "The company suffered a massive loss after the market crash.",
-            "zh": "這家公司在市場崩盤後蒙受了巨大的損失。"
-          }
+        "grammarPatterns": [
+          "a massive + noun",
+          "massive in + noun"
         ],
         "collocations": [
           {
             "text": "a massive increase",
             "meaningZh": "大幅增加"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company suffered a massive loss after the market crash.",
+            "zh": "這家公司在市場崩盤後蒙受了巨大的損失。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "huge",
+        "noteZh": "指非常巨大的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "tiny",
+        "noteZh": "極小的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "mass",
+        "partOfSpeech": "noun",
+        "meaningZh": "大量；質量"
+      },
+      {
+        "lemma": "massively",
+        "partOfSpeech": "adverb",
+        "meaningZh": "巨大地；大規模地"
+      },
+      {
+        "lemma": "massiveness",
+        "partOfSpeech": "noun",
+        "meaningZh": "巨大；厚重"
       }
     ],
     "tags": [
@@ -2145,19 +2849,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "huge",
-        "noteZh": "指非常巨大的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "tiny",
-        "noteZh": "極小的"
-      }
-    ]
+    }
   },
   {
     "id": "w_mate",
@@ -2171,14 +2863,15 @@
       {
         "id": "s_mate_sense_partner",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a breeding partner of an animal, or an informal term for a friend",
         "definitionZh": "配偶；夥伴；朋友（英式口語）",
         "usageExplanationZh": "常見 a mate for life（終身伴侶），也可指動物的交配對象；英式英語中常泛指朋友。",
-        "examples": [
-          {
-            "en": "Wolves usually stay with the same mate for life.",
-            "zh": "狼通常終身與同一隻配偶相伴。"
-          }
+        "grammarPatterns": [
+          "choose a mate",
+          "stay with the same mate"
         ],
         "collocations": [
           {
@@ -2189,28 +2882,48 @@
             "text": "an old mate",
             "meaningZh": "老朋友"
           }
+        ],
+        "examples": [
+          {
+            "en": "Wolves usually stay with the same mate for life.",
+            "zh": "狼通常終身與同一隻配偶相伴。"
+          }
         ]
       },
       {
         "id": "s_mate_sense_officer",
         "partOfSpeech": "noun",
+        "register": [
+          "technical"
+        ],
         "definitionEn": "an officer on a commercial ship who ranks below the captain",
         "definitionZh": "大副；船副",
         "usageExplanationZh": "航海用語，如 first mate，指商船上僅次於船長的職務。",
-        "examples": [
-          {
-            "en": "The first mate took over navigation while the captain rested.",
-            "zh": "船長休息時，大副接手負責航行。"
-          }
+        "grammarPatterns": [
+          "the first mate",
+          "a mate on + noun"
         ],
         "collocations": [
           {
             "text": "the first mate",
             "meaningZh": "大副"
           }
+        ],
+        "examples": [
+          {
+            "en": "The first mate took over navigation while the captain rested.",
+            "zh": "船長休息時，大副接手負責航行。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "companion",
+        "noteZh": "指夥伴的詞義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2222,14 +2935,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "companion",
-        "noteZh": "指夥伴的詞義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_materialize",
@@ -2243,21 +2949,47 @@
       {
         "id": "s_materialize_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to become real, actual, or apparent; to happen as expected",
         "definitionZh": "實現；成為現實",
         "usageExplanationZh": "常見 fail to materialize，指原本預期或計畫的事情最終並未發生或成真。",
-        "examples": [
-          {
-            "en": "Despite months of planning, the merger never materialized.",
-            "zh": "儘管籌劃了好幾個月，這樁併購案最終並未成真。"
-          }
+        "grammarPatterns": [
+          "sth never materialized",
+          "fail to materialize"
         ],
         "collocations": [
           {
             "text": "fail to materialize",
             "meaningZh": "未能實現"
           }
+        ],
+        "examples": [
+          {
+            "en": "Despite months of planning, the merger never materialized.",
+            "zh": "儘管籌劃了好幾個月，這樁併購案最終並未成真。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "come about",
+        "noteZh": "指事情成為現實"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "material",
+        "partOfSpeech": "noun",
+        "meaningZh": "材料；素材"
+      },
+      {
+        "lemma": "materialization",
+        "partOfSpeech": "noun",
+        "meaningZh": "實現；具體化"
       }
     ],
     "tags": [
@@ -2270,14 +3002,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "come about",
-        "noteZh": "指事情成為現實"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_matrix",
@@ -2291,14 +3016,16 @@
       {
         "id": "s_matrix_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "an environment or material in which something develops, or a rectangular array of numbers",
         "definitionZh": "母體；孕育環境；矩陣",
         "usageExplanationZh": "一般用法指孕育、產生某事物的環境或背景；數學用法則指由數字排列成的矩形陣列。",
-        "examples": [
-          {
-            "en": "The city's diverse culture provided a rich matrix for artistic innovation.",
-            "zh": "這座城市多元的文化為藝術創新提供了豐富的孕育環境。"
-          }
+        "grammarPatterns": [
+          "a matrix of + noun",
+          "within the matrix of + noun"
         ],
         "collocations": [
           {
@@ -2309,9 +3036,17 @@
             "text": "a matrix of numbers",
             "meaningZh": "數字矩陣"
           }
+        ],
+        "examples": [
+          {
+            "en": "The city's diverse culture provided a rich matrix for artistic innovation.",
+            "zh": "這座城市多元的文化為藝術創新提供了豐富的孕育環境。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -2322,9 +3057,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_mattress",
@@ -2338,23 +3071,32 @@
       {
         "id": "s_mattress_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a large, thick pad used as or on a bed for sleeping",
         "definitionZh": "床墊",
         "usageExplanationZh": "常見 a firm／soft mattress，描述床墊的軟硬度，日常生活常用詞彙。",
-        "examples": [
-          {
-            "en": "They bought a new mattress to help with his back pain.",
-            "zh": "他們買了一張新床墊來緩解他的背痛。"
-          }
+        "grammarPatterns": [
+          "a firm mattress",
+          "sleep on a mattress"
         ],
         "collocations": [
           {
             "text": "a firm mattress",
             "meaningZh": "硬床墊"
           }
+        ],
+        "examples": [
+          {
+            "en": "They bought a new mattress to help with his back pain.",
+            "zh": "他們買了一張新床墊來緩解他的背痛。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -2365,9 +3107,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_mature",
@@ -2381,33 +3121,42 @@
       {
         "id": "s_mature_sense_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "fully developed, either physically or emotionally",
         "definitionZh": "成熟的",
         "usageExplanationZh": "可形容人的心智發展，也可形容植物、動物等生理上的成熟，與 immature 相對。",
-        "examples": [
-          {
-            "en": "She has always been mature for her age.",
-            "zh": "她一直都比同齡人更成熟。"
-          }
+        "grammarPatterns": [
+          "a mature + noun",
+          "mature for one's age"
         ],
         "collocations": [
           {
             "text": "a mature adult",
             "meaningZh": "成熟的大人"
           }
+        ],
+        "examples": [
+          {
+            "en": "She has always been mature for her age.",
+            "zh": "她一直都比同齡人更成熟。"
+          }
         ]
       },
       {
         "id": "s_mature_sense_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to develop fully, or to become due for payment",
         "definitionZh": "成熟；發展成熟；（債券等）到期",
         "usageExplanationZh": "常見 mature over time；金融語境中 the bond matures 指債券到達應償還的期限。",
-        "examples": [
-          {
-            "en": "The bond will mature in ten years.",
-            "zh": "這張債券將在十年後到期。"
-          }
+        "grammarPatterns": [
+          "mature into + noun",
+          "the bond matures in + noun"
         ],
         "collocations": [
           {
@@ -2418,7 +3167,42 @@
             "text": "bonds mature",
             "meaningZh": "債券到期"
           }
+        ],
+        "examples": [
+          {
+            "en": "The bond will mature in ten years.",
+            "zh": "這張債券將在十年後到期。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "grown-up",
+        "noteZh": "指心智成熟的形容詞義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "immature",
+        "noteZh": "不成熟的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "maturity",
+        "partOfSpeech": "noun",
+        "meaningZh": "成熟；到期"
+      },
+      {
+        "lemma": "maturation",
+        "partOfSpeech": "noun",
+        "meaningZh": "成熟過程"
+      },
+      {
+        "lemma": "immature",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不成熟的"
       }
     ],
     "tags": [
@@ -2433,19 +3217,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "grown-up",
-        "noteZh": "指心智成熟的形容詞義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "immature",
-        "noteZh": "不成熟的"
-      }
-    ]
+    }
   },
   {
     "id": "w_maturity",
@@ -2459,14 +3231,16 @@
       {
         "id": "s_maturity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "the state of being fully developed, or the date a financial obligation becomes due",
         "definitionZh": "成熟；（債務等）到期",
         "usageExplanationZh": "可指心智或生理的成熟狀態，也可指金融工具到期償付的時間點。",
-        "examples": [
-          {
-            "en": "The certificate of deposit reaches maturity in two years.",
-            "zh": "這張定期存單將在兩年後到期。"
-          }
+        "grammarPatterns": [
+          "reach maturity",
+          "at maturity"
         ],
         "collocations": [
           {
@@ -2477,7 +3251,42 @@
             "text": "reach maturity",
             "meaningZh": "達到成熟期"
           }
+        ],
+        "examples": [
+          {
+            "en": "The certificate of deposit reaches maturity in two years.",
+            "zh": "這張定期存單將在兩年後到期。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "adulthood",
+        "noteZh": "指發育成熟的成年階段"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "immaturity",
+        "noteZh": "不成熟"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "mature",
+        "partOfSpeech": "adjective",
+        "meaningZh": "成熟的"
+      },
+      {
+        "lemma": "immaturity",
+        "partOfSpeech": "noun",
+        "meaningZh": "不成熟"
+      },
+      {
+        "lemma": "maturation",
+        "partOfSpeech": "noun",
+        "meaningZh": "成熟過程"
       }
     ],
     "tags": [
@@ -2490,19 +3299,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "adulthood",
-        "noteZh": "指發育成熟的成年階段"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "immaturity",
-        "noteZh": "不成熟"
-      }
-    ]
+    }
   },
   {
     "id": "w_mauve",
@@ -2516,42 +3313,62 @@
       {
         "id": "s_mauve_sense_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a pale purple color",
         "definitionZh": "淡紫色",
         "usageExplanationZh": "描述介於粉紫與灰紫之間的色調，常用於時尚、室內設計描述。",
-        "examples": [
-          {
-            "en": "The walls were painted a soft mauve.",
-            "zh": "牆壁被漆成柔和的淡紫色。"
-          }
+        "grammarPatterns": [
+          "a soft mauve",
+          "be painted mauve"
         ],
         "collocations": [
           {
             "text": "a shade of mauve",
             "meaningZh": "一種淡紫色調"
           }
+        ],
+        "examples": [
+          {
+            "en": "The walls were painted a soft mauve.",
+            "zh": "牆壁被漆成柔和的淡紫色。"
+          }
         ]
       },
       {
         "id": "s_mauve_sense_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "of a pale purple color",
         "definitionZh": "淡紫色的",
         "usageExplanationZh": "常修飾 dress、wall 等名詞，用來形容物品的顏色。",
-        "examples": [
-          {
-            "en": "She wore a mauve dress to the wedding.",
-            "zh": "她穿了一件淡紫色的洋裝去參加婚禮。"
-          }
+        "grammarPatterns": [
+          "a mauve + noun"
         ],
         "collocations": [
           {
             "text": "a mauve dress",
             "meaningZh": "淡紫色洋裝"
           }
+        ],
+        "examples": [
+          {
+            "en": "She wore a mauve dress to the wedding.",
+            "zh": "她穿了一件淡紫色的洋裝去參加婚禮。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "pale purple",
+        "noteZh": "指淡紫色"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -2562,14 +3379,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pale purple",
-        "noteZh": "指淡紫色"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_maximize",
@@ -2583,21 +3393,58 @@
       {
         "id": "s_maximize_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to make something as great or as large as possible",
         "definitionZh": "使最大化；充分利用",
         "usageExplanationZh": "常見 maximize profits／efficiency，強調在既有條件下追求最大成效。",
-        "examples": [
-          {
-            "en": "The company redesigned its website to maximize user engagement.",
-            "zh": "這家公司重新設計了網站，以最大化使用者的參與度。"
-          }
+        "grammarPatterns": [
+          "maximize + noun",
+          "maximize the potential of + noun"
         ],
         "collocations": [
           {
             "text": "maximize profits",
             "meaningZh": "使利潤最大化"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company redesigned its website to maximize user engagement.",
+            "zh": "這家公司重新設計了網站，以最大化使用者的參與度。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "optimize",
+        "noteZh": "指使效用達到最佳；著重品質而非單純數量"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "minimize",
+        "noteZh": "使最小化"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "maximum",
+        "partOfSpeech": "noun",
+        "meaningZh": "最大值；最大量"
+      },
+      {
+        "lemma": "maximal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "最大的"
+      },
+      {
+        "lemma": "maximization",
+        "partOfSpeech": "noun",
+        "meaningZh": "最大化"
       }
     ],
     "tags": [
@@ -2610,19 +3457,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "optimize",
-        "noteZh": "指使效用達到最佳；著重品質而非單純數量"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "minimize",
-        "noteZh": "使最小化"
-      }
-    ]
+    }
   },
   {
     "id": "w_maximum",
@@ -2636,21 +3471,53 @@
       {
         "id": "s_maximum_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "the greatest possible amount or degree",
         "definitionZh": "最大值；最大量",
         "usageExplanationZh": "常見 at maximum capacity、reach a maximum，與 minimum 相對，指上限或極大值。",
-        "examples": [
-          {
-            "en": "The elevator has a maximum capacity of ten people.",
-            "zh": "這台電梯的最大容納人數是十人。"
-          }
+        "grammarPatterns": [
+          "a maximum of + noun",
+          "reach the maximum"
         ],
         "collocations": [
           {
             "text": "to the maximum",
             "meaningZh": "達到最大限度"
           }
+        ],
+        "examples": [
+          {
+            "en": "The elevator has a maximum capacity of ten people.",
+            "zh": "這台電梯的最大容納人數是十人。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "upper limit",
+        "noteZh": "指可達的最高限度"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "minimum",
+        "noteZh": "最小值"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "maximize",
+        "partOfSpeech": "verb",
+        "meaningZh": "使最大化"
+      },
+      {
+        "lemma": "maximal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "最大的"
       }
     ],
     "tags": [
@@ -2664,19 +3531,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "upper limit",
-        "noteZh": "指可達的最高限度"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "minimum",
-        "noteZh": "最小值"
-      }
-    ]
+    }
   },
   {
     "id": "w_meadow",
@@ -2690,23 +3545,38 @@
       {
         "id": "s_meadow_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "a field of grass, especially one used for grazing or hay",
         "definitionZh": "草地；牧草地",
         "usageExplanationZh": "常見於鄉村景色描述，如 a green meadow，指自然生長草類的開闊土地。",
-        "examples": [
-          {
-            "en": "Cows grazed peacefully in the meadow.",
-            "zh": "牛群在草地上安靜地吃草。"
-          }
+        "grammarPatterns": [
+          "in the meadow",
+          "a meadow of + noun"
         ],
         "collocations": [
           {
             "text": "a wildflower meadow",
             "meaningZh": "野花草地"
           }
+        ],
+        "examples": [
+          {
+            "en": "Cows grazed peacefully in the meadow.",
+            "zh": "牛群在草地上安靜地吃草。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "grassland",
+        "noteZh": "指草地"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -2717,14 +3587,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "grassland",
-        "noteZh": "指草地"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_meager",
@@ -2738,21 +3601,48 @@
       {
         "id": "s_meager_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "lacking in quantity or quality; scant",
         "definitionZh": "貧乏的；微薄的",
         "usageExplanationZh": "常修飾 income、meal、resources 等，強調數量或品質嚴重不足。",
-        "examples": [
-          {
-            "en": "They survived on a meager diet of rice and beans.",
-            "zh": "他們靠著米飯和豆子這種微薄的飲食勉強維生。"
-          }
+        "grammarPatterns": [
+          "a meager + noun",
+          "survive on meager + noun"
         ],
         "collocations": [
           {
             "text": "a meager income",
             "meaningZh": "微薄的收入"
           }
+        ],
+        "examples": [
+          {
+            "en": "They survived on a meager diet of rice and beans.",
+            "zh": "他們靠著米飯和豆子這種微薄的飲食勉強維生。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "scant",
+        "noteZh": "指數量不足的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "abundant",
+        "noteZh": "充裕的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "meagerly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "貧乏地；微薄地"
       }
     ],
     "tags": [
@@ -2766,19 +3656,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "scant",
-        "noteZh": "指數量不足的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "abundant",
-        "noteZh": "充裕的"
-      }
-    ]
+    }
   },
   {
     "id": "w_meaningful",
@@ -2792,21 +3670,58 @@
       {
         "id": "s_meaningful_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "having a serious, useful, or important quality or purpose",
         "definitionZh": "有意義的；重要的",
         "usageExplanationZh": "常見 a meaningful relationship／conversation，強調具有深度或實質價值，而非表面形式。",
-        "examples": [
-          {
-            "en": "She wanted a career that felt meaningful, not just profitable.",
-            "zh": "她想要一份感覺有意義的工作，而不只是賺錢的工作。"
-          }
+        "grammarPatterns": [
+          "a meaningful + noun",
+          "meaningful to + somebody"
         ],
         "collocations": [
           {
             "text": "meaningful work",
             "meaningZh": "有意義的工作"
           }
+        ],
+        "examples": [
+          {
+            "en": "She wanted a career that felt meaningful, not just profitable.",
+            "zh": "她想要一份感覺有意義的工作，而不只是賺錢的工作。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "significant",
+        "noteZh": "指具有重要意義的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "meaningless",
+        "noteZh": "無意義的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "meaning",
+        "partOfSpeech": "noun",
+        "meaningZh": "意義；含義"
+      },
+      {
+        "lemma": "meaningless",
+        "partOfSpeech": "adjective",
+        "meaningZh": "無意義的"
+      },
+      {
+        "lemma": "meaningfully",
+        "partOfSpeech": "adverb",
+        "meaningZh": "有意義地"
       }
     ],
     "tags": [
@@ -2819,19 +3734,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "significant",
-        "noteZh": "指具有重要意義的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "meaningless",
-        "noteZh": "無意義的"
-      }
-    ]
+    }
   },
   {
     "id": "w_mechanical",
@@ -2845,14 +3748,16 @@
       {
         "id": "s_mechanical_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "relating to machines, or done automatically without much thought",
         "definitionZh": "機械的；機械性的",
         "usageExplanationZh": "常見 a mechanical failure（機械故障）；也可比喻性地形容動作呆板、缺乏情感，如 a mechanical response。",
-        "examples": [
-          {
-            "en": "The delay was caused by a mechanical failure in the engine.",
-            "zh": "這次延誤是由引擎的機械故障造成的。"
-          }
+        "grammarPatterns": [
+          "a mechanical + noun",
+          "mechanical failure"
         ],
         "collocations": [
           {
@@ -2863,7 +3768,37 @@
             "text": "a mechanical response",
             "meaningZh": "機械式的回應"
           }
+        ],
+        "examples": [
+          {
+            "en": "The delay was caused by a mechanical failure in the engine.",
+            "zh": "這次延誤是由引擎的機械故障造成的。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "automatic",
+        "noteZh": "指不加思考的機械反應"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "mechanic",
+        "partOfSpeech": "noun",
+        "meaningZh": "技工；機械師"
+      },
+      {
+        "lemma": "mechanism",
+        "partOfSpeech": "noun",
+        "meaningZh": "機制；機件"
+      },
+      {
+        "lemma": "mechanically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "機械地；機械性地"
       }
     ],
     "tags": [
@@ -2877,14 +3812,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "automatic",
-        "noteZh": "指不加思考的機械反應"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_mechanism",
@@ -2898,14 +3826,16 @@
       {
         "id": "s_mechanism_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "a system of parts working together, or a process by which something is achieved",
         "definitionZh": "機制；機構；機件",
         "usageExplanationZh": "可指實體機械裝置，也可比喻抽象的運作方式，如 a mechanism for resolving disputes。",
-        "examples": [
-          {
-            "en": "The government created a new mechanism for resolving trade disputes.",
-            "zh": "政府建立了一套解決貿易爭端的新機制。"
-          }
+        "grammarPatterns": [
+          "a mechanism for + V-ing",
+          "the mechanism by which + clause"
         ],
         "collocations": [
           {
@@ -2916,7 +3846,32 @@
             "text": "a locking mechanism",
             "meaningZh": "鎖定裝置"
           }
+        ],
+        "examples": [
+          {
+            "en": "The government created a new mechanism for resolving trade disputes.",
+            "zh": "政府建立了一套解決貿易爭端的新機制。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "process",
+        "noteZh": "指作用的過程或機制"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "mechanical",
+        "partOfSpeech": "adjective",
+        "meaningZh": "機械的"
+      },
+      {
+        "lemma": "mechanize",
+        "partOfSpeech": "verb",
+        "meaningZh": "使機械化"
       }
     ],
     "tags": [
@@ -2931,13 +3886,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "process",
-        "noteZh": "指作用的過程或機制"
-      }
-    ],
-    "antonyms": []
+    }
   }
 ]

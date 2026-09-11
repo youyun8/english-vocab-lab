@@ -2,9 +2,9 @@
 
 The corpus contains **4,120 distinct headwords**: the original 120 curated lessons and
 4,000 dictionary entries, **all 4,000 of which now have individually edited bilingual lessons**
-(4,774 separately aligned senses in total). There are 251 curated questions;
-the three recognition question types are also generated from the vocabulary at runtime,
-so the browsable question bank covers every headword that ships.
+(4,775 separately aligned senses in total). There are 251 curated questions, each written to a
+real exam format; one recognition question per headword is also generated from the vocabulary at
+runtime, so the browsable question bank reaches essentially every headword that ships.
 
 ## Content depth
 
@@ -13,6 +13,10 @@ collocations and comparisons. Imported entries have English definitions, Traditi
 Chinese glosses, parts of speech, KK pronunciation and exam tags. Every one of the 4,000
 imported headwords now has separately aligned bilingual meanings (one row per distinct
 sense, not a single merged gloss), a contextual translated example, and a usage explanation.
+Every sense in the corpus — curated and imported alike — also carries a register and at least one
+grammar pattern, so every word page is laid out to the same spec; 3,010 of the 4,000 imported
+headwords additionally carry a word family (5,534 members). The remaining 990 have no genuine
+derivational relative, and inventing one would teach English that does not exist.
 CEFR ratings remain frequency-based estimates rather than a verified assessment; no human
 editorial review beyond the language-review process described below is claimed.
 
@@ -29,7 +33,7 @@ entry is fetched from its chunk when the word is opened; the search file is fetc
 query. `npm run validate:data` fails if either generated file is out of date.
 
 The index also records which recognition question types each word can produce, so the question bank
-can count, order and filter all 12,508 questions without generating any of them, and build only the
+can count, order and filter all 4,363 questions without generating any of them, and build only the
 twenty on the page in front of the reader.
 The tag filter supports `toefl`, `gre`, `ielts` and `dictionary`. The word bank displays
 50 results per page, with filtering and sorting applied to the entire corpus first, and each

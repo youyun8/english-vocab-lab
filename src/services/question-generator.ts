@@ -13,29 +13,40 @@ import { shuffle } from '@/utils/random';
 /**
  * Generated questions.
  *
- * Only *simple recognition* questions are generated: English -> Chinese,
- * Chinese -> English, and English definition -> English word. Anything that
- * depends on nuance (usage, collocation, grammar, confusing words) stays
- * curated, because a generator cannot reliably guarantee that exactly one
- * option is defensible.
+ * Each entry yields **at most one** question, of the most demanding type it can
+ * support. An earlier version emitted all three recognition types for every
+ * word, which tripled the bank without teaching anything new: three near-identical
+ * ways of asking "what does this word mean" is padding, not practice.
  *
- * Every generated type works from fields the schema guarantees on *every*
- * entry (lemma, Chinese gloss, English definition), so the whole corpus —
- * imported dictionary words included — gets practice, not just the small
- * hand-written subset.
+ * The types, hardest first:
+ *  1. `definition_to_word` — the word is blanked out of its own example sentence
+ *     (or, failing that, out of its English definition) and the learner picks it
+ *     from four English words. This is the TOEFL/GRE sentence-completion format:
+ *     no Chinese to fall back on, and the sentence has to be read.
+ *  2. `meaning_en_to_zh` — the headword in a real sentence, four Chinese glosses.
+ *     Vocabulary in context rather than a flashcard.
+ *  3. `meaning_zh_to_en` — a Chinese gloss and four English words. The easiest
+ *     framing, used only for entries that cannot support the other two.
  *
- * Four safeguards keep generated questions fair:
- *  1. distractors are drawn from entries whose part of speech matches, so the
- *     answer can never be found by grammar alone;
+ * Distractors are *ranked*, not drawn at random. A randomly chosen same-part-of-speech
+ * word is usually unrelated enough to eliminate without knowing the answer, which
+ * is what made the old bank easy. Candidates are scored on how nearly they miss —
+ * shared prefix or suffix, same CEFR band, shared topic tags — and the three best
+ * are used.
+ *
+ * Four safeguards keep the result fair:
+ *  1. distractors match the answer's part of speech, so the answer can never be
+ *     found by grammar alone;
  *  2. any entry whose gloss collides with the answer's gloss is rejected, so a
  *     question can never have two correct options;
  *  3. a gloss that *contains* the answer's gloss is rejected too — 走失的家畜
  *     next to 家畜 is two defensible answers, not one;
- *  4. an English definition that spells out its own headword is masked, so the
- *     prompt never contains the answer.
+ *  4. an English definition or example that spells out its own headword is
+ *     masked, so the prompt never contains the answer.
  *
  * They cannot prove that two dictionary meanings differ: near-synonyms worded
- * differently in the source (驅逐 against 消滅) still get through. Generated
+ * differently in the source (驅逐 against 消滅) still get through, and ranking
+ * distractors by similarity deliberately pushes towards that boundary. Generated
  * questions are labelled as such throughout the app for that reason.
  */
 
@@ -43,21 +54,28 @@ export type GeneratedType = GeneratedQuestionType;
 
 export const GENERATED_TYPES: GeneratedType[] = [...generatedQuestionTypes];
 
+/** Hardest first. The first type an entry can support is the one it gets. */
+const TYPE_PRIORITY: GeneratedType[] = [
+  'definition_to_word',
+  'meaning_en_to_zh',
+  'meaning_zh_to_en',
+];
+
 const DISTRACTOR_COUNT = OPTIONS_PER_QUESTION - 1;
 
 /** Definitions longer than this are cut at a clause boundary before display. */
 const MAX_DEFINITION_LENGTH = 140;
-/** Placeholder written over the headword when a definition spells it out. */
+/** Placeholder written over the headword when a text spells it out. */
 const MASK = '___';
 /** Below these thresholds a masked definition no longer identifies one word. */
 const MIN_DEFINITION_WORDS = 3;
 const MIN_DEFINITION_LENGTH = 12;
+/** A sentence shorter than this carries too little context to complete. */
+const MIN_CLOZE_WORDS = 6;
 /** Shorter stems collide with unrelated words too often to mask on. */
 const MIN_STEM_LENGTH = 4;
 /** Imported glosses list every sense; a whole list makes an unreadable option. */
 const MAX_GLOSS_SEGMENTS = 3;
-/** Random draws allowed before falling back to a scan of the candidate pool. */
-const DRAW_BUDGET = 32;
 
 function primaryPos(entry: VocabularyEntry): string {
   return entry.senses[0]?.partOfSpeech ?? 'other';
@@ -103,10 +121,10 @@ function shortDefinitionEn(entry: VocabularyEntry): string {
 }
 
 /**
- * Blanks out the headword wherever the definition happens to spell it out
- * (ECDICT glosses such as "become brisk" do), so the prompt cannot give the
- * answer away. Derived forms count: "make an alteration to" would hand the
- * reader `alter`.
+ * Blanks out the headword wherever the text happens to spell it out (ECDICT
+ * glosses such as "become brisk" do, and an entry's own example always does),
+ * so the prompt cannot give the answer away. Derived forms count: "make an
+ * alteration to" would hand the reader `alter`.
  */
 function maskLemma(text: string, lemma: string): string {
   const stem = lemma.trim().toLowerCase().replace(/[^a-z]/g, '');
@@ -125,13 +143,98 @@ function sharesRoot(word: string, stem: string): boolean {
 }
 
 /**
- * A masked definition is only usable as a prompt when enough of it survives.
+ * A masked text is only usable as a prompt when enough of it survives.
  * "become ___" or "in a ___ manner" identify nothing, so those entries simply
- * get no definition question.
+ * fall through to an easier question type.
  */
 function isUsableDefinitionPrompt(text: string): boolean {
   const words = text.split(/\s+/).filter((word) => word && word !== MASK);
   return words.length >= MIN_DEFINITION_WORDS && words.join(' ').length >= MIN_DEFINITION_LENGTH;
+}
+
+function countMasks(text: string): number {
+  return text.split(MASK).length - 1;
+}
+
+/**
+ * The entry's own example sentence with the headword blanked out — the closest
+ * the corpus can get to a real sentence-completion item without hand authoring.
+ *
+ * A sentence with two blanks has two things to guess rather than one, and a
+ * sentence that never mentions the headword cannot be completed with it, so
+ * both are skipped in favour of the next candidate example.
+ *
+ * The gap must also hold the bare lemma. `maskLemma` blanks any inflected form,
+ * but the options are bare lemmas, so blanking "retained" and marking "retain"
+ * correct would ask the learner to accept a sentence that is not English.
+ */
+function clozeStem(entry: VocabularyEntry): string {
+  const lemma = entry.lemma.trim().toLowerCase();
+  for (const sense of entry.senses) {
+    for (const example of sense.examples) {
+      const source = example.en.trim();
+      const masked = maskLemma(source, entry.lemma);
+      if (masked === source) continue;
+      if (countMasks(masked) !== 1) continue;
+      const blanked = (source.match(/[A-Za-z]+/g) ?? [])
+        .find((word) => maskLemma(word, entry.lemma) === MASK);
+      if (blanked?.toLowerCase() !== lemma) continue;
+      if (masked.split(/\s+/).filter((word) => word && word !== MASK).length < MIN_CLOZE_WORDS) {
+        continue;
+      }
+      return masked;
+    }
+  }
+  return '';
+}
+
+/**
+ * The entry's own example, left intact — context for a meaning question.
+ *
+ * Only the primary sense's examples qualify. The correct option is the primary
+ * sense's gloss, so a sentence illustrating a later sense would mark the wrong
+ * meaning correct — on the one question type whose whole purpose is telling
+ * senses apart. The sentence must also contain the headword it asks about.
+ */
+function exampleSentence(entry: VocabularyEntry): string {
+  for (const example of entry.senses[0]?.examples ?? []) {
+    const text = example.en.trim();
+    if (text.split(/\s+/).filter(Boolean).length < MIN_CLOZE_WORDS) continue;
+    if (maskLemma(text, entry.lemma) === text) continue;
+    return text;
+  }
+  return '';
+}
+
+// ---------------------------------------------------------------------------
+// Quality gate
+// ---------------------------------------------------------------------------
+
+/** A gloss this short identifies nothing on its own. */
+const MIN_GLOSS_LENGTH = 2;
+/**
+ * Glosses that are bare grammatical residue rather than a meaning. An imported
+ * entry whose primary gloss is one of these cannot anchor a question: every
+ * distractor would be "wrong" for reasons the learner has no way to see.
+ */
+const VAGUE_GLOSS = /^(的|地|得|了|著|等|某|其|之|及|與|和|一個|一種|某種|這樣|那樣|如此|某些)$/;
+
+/**
+ * Whether an entry carries enough meaning to build a fair question from.
+ *
+ * Some imported entries are function words or one-character glosses. Generating
+ * for them produced items where no option was defensible, which is worse than
+ * having no question for the word at all — the word is still browsable and can
+ * still appear in curated questions, it just is not quizzed.
+ *
+ * A thin *English* definition is not disqualifying: it only rules out the
+ * definition question, which `stemRequired` already handles, and the entry can
+ * still be quizzed on its Chinese gloss.
+ */
+function isTestable(entry: VocabularyEntry): boolean {
+  const gloss = optionGlossZh(entry).trim();
+  if (gloss.length < MIN_GLOSS_LENGTH || VAGUE_GLOSS.test(gloss)) return false;
+  return primaryDefinitionEn(entry).length > 0;
 }
 
 interface MeaningIndex {
@@ -164,10 +267,17 @@ interface DistractorIndex {
   byGlossPart: Map<string, VocabularyEntry[]>;
   byDefinition: Map<string, VocabularyEntry[]>;
   reverseSynonyms: Map<string, VocabularyEntry[]>;
+  /** Lemmas that begin alike — the look-alikes an exam would put side by side. */
+  byPrefix: Map<string, VocabularyEntry[]>;
+  /** Lemmas that end alike, which is usually a shared derivational suffix. */
+  bySuffix: Map<string, VocabularyEntry[]>;
 }
 
 /** Shorter fragments match by coincidence rather than by meaning. */
 const MIN_GLOSS_FRAGMENT = 2;
+/** Lemma affixes indexed for look-alike lookup. */
+const PREFIX_LENGTH = 3;
+const SUFFIX_LENGTH = 4;
 
 /** Every substring of a gloss segment that is long enough to mean something. */
 function glossFragments(gloss: string): string[] {
@@ -183,7 +293,7 @@ function glossFragments(gloss: string): string[] {
 function indexDistractors(pool: VocabularyEntry[]): DistractorIndex {
   const index: DistractorIndex = {
     pool, byPos: new Map(), byLemma: new Map(), byGloss: new Map(), byGlossPart: new Map(),
-    byDefinition: new Map(), reverseSynonyms: new Map(),
+    byDefinition: new Map(), reverseSynonyms: new Map(), byPrefix: new Map(), bySuffix: new Map(),
   };
   const add = (map: Map<string, VocabularyEntry[]>, key: string, entry: VocabularyEntry) => {
     const values = map.get(key) ?? [];
@@ -192,8 +302,11 @@ function indexDistractors(pool: VocabularyEntry[]): DistractorIndex {
   };
   for (const entry of pool) {
     const meaning = meaningIndex(entry);
+    const lemma = entry.lemma.toLowerCase();
     add(index.byPos, primaryPos(entry), entry);
-    add(index.byLemma, entry.lemma.toLowerCase(), entry);
+    add(index.byLemma, lemma, entry);
+    if (lemma.length >= PREFIX_LENGTH) add(index.byPrefix, lemma.slice(0, PREFIX_LENGTH), entry);
+    if (lemma.length >= SUFFIX_LENGTH) add(index.bySuffix, lemma.slice(-SUFFIX_LENGTH), entry);
     for (const gloss of meaning.glosses) {
       add(index.byGloss, gloss, entry);
       for (const fragment of new Set(glossFragments(gloss))) {
@@ -206,9 +319,119 @@ function indexDistractors(pool: VocabularyEntry[]): DistractorIndex {
   return index;
 }
 
+// ---------------------------------------------------------------------------
+// Near-miss ranking
+// ---------------------------------------------------------------------------
+
+function sharedPrefixLength(a: string, b: string): number {
+  const limit = Math.min(a.length, b.length);
+  let shared = 0;
+  while (shared < limit && a[shared] === b[shared]) shared += 1;
+  return shared;
+}
+
+function sharedSuffixLength(a: string, b: string): number {
+  const limit = Math.min(a.length, b.length);
+  let shared = 0;
+  while (shared < limit && a[a.length - 1 - shared] === b[b.length - 1 - shared]) shared += 1;
+  return shared;
+}
+
+/**
+ * How nearly a candidate misses being the answer. Higher is a better distractor:
+ * a word that looks like the answer, sits at the same level and belongs to the
+ * same topic forces the learner to actually know the meaning, where an unrelated
+ * word can be dismissed on sight.
+ */
+function nearMissScore(target: VocabularyEntry, candidate: VocabularyEntry): number {
+  const a = target.lemma.toLowerCase();
+  const b = candidate.lemma.toLowerCase();
+  let score = 0;
+
+  const prefix = sharedPrefixLength(a, b);
+  if (prefix >= 4) score += 5;
+  else if (prefix >= 3) score += 3;
+
+  const suffix = sharedSuffixLength(a, b);
+  if (suffix >= 4) score += 3;
+  else if (suffix >= 3) score += 2;
+
+  if (candidate.cefr === target.cefr) score += 2;
+
+  const sharedTags = candidate.tags.filter((tag) => target.tags.includes(tag)).length;
+  score += Math.min(sharedTags, 2) * 2;
+
+  if (Math.abs(a.length - b.length) <= 2) score += 1;
+
+  return score;
+}
+
+/** Stable, seed-free hash so a word always samples the same slice of the pool. */
+function hashLemma(value: string): number {
+  let hash = 2166136261;
+  for (let index = 0; index < value.length; index += 1) {
+    hash ^= value.charCodeAt(index);
+    hash = Math.imul(hash, 16777619);
+  }
+  return hash >>> 0;
+}
+
+/** Look-alike buckets are read whole; the general pool is sampled this widely. */
+const POOL_SAMPLE = 96;
+/** An upper bound on scoring work per question. */
+const MAX_CANDIDATES = 48;
+
+/**
+ * The candidates worth scoring, without walking the whole corpus per question.
+ *
+ * Look-alike buckets are small and are taken whole. The rest is a strided sample
+ * of the same-part-of-speech pool, offset by a hash of the headword so different
+ * words sample different neighbourhoods rather than all reusing the first words
+ * in the corpus.
+ *
+ * The look-alike buckets are keyed on spelling alone, so they have to be filtered
+ * back down to the answer's part of speech: offering "retail" and "retailer"
+ * against "are ___ for ninety days" lets a learner find the answer by grammar
+ * without knowing the word. The filter lifts only when matching the part of
+ * speech would leave too few candidates to fill the options.
+ */
+function gatherCandidates(target: VocabularyEntry, index: DistractorIndex): VocabularyEntry[] {
+  const lemma = target.lemma.toLowerCase();
+  const pos = primaryPos(target);
+  const samePos = index.byPos.get(pos) ?? [];
+  const posOnly = samePos.length >= POOL_SAMPLE;
+  const seen = new Set<string>([target.id]);
+  const gathered: VocabularyEntry[] = [];
+  const take = (entries: VocabularyEntry[]) => {
+    for (const entry of entries) {
+      if (seen.has(entry.id)) continue;
+      if (posOnly && primaryPos(entry) !== pos) continue;
+      seen.add(entry.id);
+      gathered.push(entry);
+    }
+  };
+
+  take(index.byPrefix.get(lemma.slice(0, PREFIX_LENGTH)) ?? []);
+  take(index.bySuffix.get(lemma.slice(-SUFFIX_LENGTH)) ?? []);
+
+  const pool = samePos.length >= OPTIONS_PER_QUESTION ? samePos : index.pool;
+  if (pool.length > 0) {
+    const step = Math.max(1, Math.floor(pool.length / POOL_SAMPLE));
+    const start = hashLemma(lemma) % pool.length;
+    for (let taken = 0; taken < POOL_SAMPLE; taken += 1) {
+      const entry = pool[(start + taken * step) % pool.length];
+      if (entry) take([entry]);
+    }
+  }
+  return gathered;
+}
+
 /** The entries a question may draw distractors from, and those it must not. */
 interface CandidatePool {
+  /** Best near-misses first; scanned before `fallback`. */
   entries: VocabularyEntry[];
+  /** The rest of the same-part-of-speech pool, held unjoined — see below. */
+  fallback: VocabularyEntry[];
   forbidden: Set<string>;
 }
 
@@ -238,15 +461,32 @@ function candidateDistractors(target: VocabularyEntry, index: DistractorIndex): 
     }
     for (const definition of meaning.definitions) exclude(index.byDefinition.get(definition) ?? []);
   }
+
+  const ranked = gatherCandidates(target, index)
+    .filter((candidate) => !forbidden.has(candidate.id))
+    .map((candidate) => ({ candidate, score: nearMissScore(target, candidate) }))
+    .sort((a, b) => b.score - a.score || a.candidate.lemma.localeCompare(b.candidate.lemma))
+    .slice(0, MAX_CANDIDATES)
+    .map((scored) => scored.candidate);
+
   const samePos = index.byPos.get(primaryPos(target)) ?? [];
   // Matching the part of speech is preferred, but only while it can still
   // supply three usable distractors; otherwise the whole pool is fair game.
-  const entries = samePos.length - forbidden.size >= DISTRACTOR_COUNT ? samePos : index.pool;
-  return { entries, forbidden };
+  // Kept as its own array rather than spread onto `ranked`: joining them would
+  // copy the whole pool for every entry generated, and the scan almost never
+  // reaches past the ranked near-misses anyway.
+  const fallback = samePos.length - forbidden.size >= DISTRACTOR_COUNT ? samePos : index.pool;
+  return { entries: ranked, fallback, forbidden };
 }
 
 function buildOptions(texts: string[]): { id: string; text: string }[] {
   return texts.map((text, index) => ({ id: `o${index + 1}`, text }));
+}
+
+/** A question's stem: the text above the options, and the instruction for it. */
+interface Stem {
+  text: string;
+  prompt: string;
 }
 
 /**
@@ -255,42 +495,73 @@ function buildOptions(texts: string[]): { id: string; text: string }[] {
  */
 interface RecognitionSpec {
   idSuffix: string;
-  optionText: (entry: VocabularyEntry) => string;
-  prompt: (entry: VocabularyEntry) => string;
-  context?: (entry: VocabularyEntry) => string;
-  explanation: (entry: VocabularyEntry) => string;
   tag: string;
+  /** Added to the CEFR baseline: formats with no Chinese to lean on are harder. */
+  difficultyBonus: number;
+  optionText: (entry: VocabularyEntry) => string;
+  /** The stem, or null when this entry cannot produce one. */
+  stem: (entry: VocabularyEntry) => Stem | null;
+  /** When true, an entry with no stem cannot produce this type at all. */
+  stemRequired: boolean;
+  /** Used when `stem` returns null and the type does not require one. */
+  defaultPrompt: (entry: VocabularyEntry) => string;
+  explanation: (entry: VocabularyEntry) => string;
 }
 
 const SPECS: Record<GeneratedType, RecognitionSpec> = {
+  definition_to_word: {
+    idSuffix: 'd2w',
+    tag: 'definition',
+    difficultyBonus: 1,
+    optionText: (entry) => entry.lemma,
+    // A real sentence with a gap is the exam format; a masked definition is the
+    // fallback for entries whose example does not use the headword.
+    stem: (entry) => {
+      const sentence = clozeStem(entry);
+      if (sentence) return { text: sentence, prompt: '選出最適合填入空格的單字。' };
+      const masked = maskLemma(shortDefinitionEn(entry), entry.lemma);
+      if (!isUsableDefinitionPrompt(masked)) return null;
+      return { text: masked, prompt: '哪一個單字符合下面的英文釋義？' };
+    },
+    stemRequired: true,
+    defaultPrompt: () => '哪一個單字符合下面的英文釋義？',
+    explanation: (entry) =>
+      `${entry.lemma}（${entry.pronunciation.kk}）：${primaryDefinitionEn(entry)}｜${shortMeaningZh(entry)}`,
+  },
   meaning_en_to_zh: {
     idSuffix: 'e2z',
+    tag: 'meaning',
+    difficultyBonus: 1,
     optionText: (entry) => optionGlossZh(entry),
-    prompt: (entry) => `What does "${entry.lemma}" most nearly mean?`,
+    // The headword is left visible here: the question is which sense it carries
+    // in this sentence, so hiding it would change what is being tested.
+    stem: (entry) => {
+      const sentence = exampleSentence(entry);
+      if (!sentence) return null;
+      return { text: sentence, prompt: `在下面的句子中，"${entry.lemma}" 最接近哪個意思？` };
+    },
+    stemRequired: false,
+    defaultPrompt: (entry) => `"${entry.lemma}" 最接近下列哪個意思？`,
     explanation: (entry) =>
       `${entry.lemma}：${shortMeaningZh(entry)}。${primaryDefinitionEn(entry)}`,
-    tag: 'meaning',
   },
   meaning_zh_to_en: {
     idSuffix: 'z2e',
+    tag: 'meaning',
+    difficultyBonus: 0,
     optionText: (entry) => entry.lemma,
-    prompt: (entry) => `哪一個英文單字最接近「${optionGlossZh(entry)}」？`,
+    stem: (entry) => {
+      const sentence = clozeStem(entry);
+      if (!sentence) return null;
+      return {
+        text: sentence,
+        prompt: `哪一個單字意思是「${optionGlossZh(entry)}」，並且最適合填入空格？`,
+      };
+    },
+    stemRequired: false,
+    defaultPrompt: (entry) => `哪一個英文單字最接近「${optionGlossZh(entry)}」？`,
     explanation: (entry) =>
       `「${shortMeaningZh(entry)}」對應的英文是 ${entry.lemma}（${entry.pronunciation.kk}）。`,
-    tag: 'meaning',
-  },
-  definition_to_word: {
-    idSuffix: 'd2w',
-    optionText: (entry) => entry.lemma,
-    prompt: () => '哪一個單字符合下面的英文釋義？',
-    context: (entry) => {
-      const masked = maskLemma(shortDefinitionEn(entry), entry.lemma);
-      // An empty context makes `generateForEntry` skip this type for the entry.
-      return isUsableDefinitionPrompt(masked) ? masked : '';
-    },
-    explanation: (entry) =>
-      `${entry.lemma}（${entry.pronunciation.kk}）：${primaryDefinitionEn(entry)}｜${shortMeaningZh(entry)}`,
-    tag: 'definition',
   },
 };
 
@@ -302,6 +573,13 @@ export interface GeneratedQuestionMeta {
 }
 
 /**
+ * Difficulty baseline per band. The old scale bottomed out at 1, which said a
+ * C-level word was an easy question just because the format was simple; these
+ * items are all sentence-level with ranked distractors, so none of them is.
+ */
+const CEFR_BASE: Record<CefrLevel, number> = { B2: 2, C1: 3, C2: 4 };
+
+/**
  * Everything about a generated question except its options: id, difficulty and
  * tags. The question bank derives these from index records so it can count,
  * filter and order the whole bank without building any of it.
@@ -311,27 +589,67 @@ export function generatedQuestionMeta(
   type: GeneratedType,
 ): GeneratedQuestionMeta {
   const spec = SPECS[type];
+  const difficulty = Math.min(5, Math.max(1, CEFR_BASE[word.cefr] + spec.difficultyBonus));
   return {
     id: `q_gen_${word.id.replace(/^w_/, '')}_${spec.idSuffix}`,
-    difficulty: word.cefr === 'B2' ? 1 : word.cefr === 'C1' ? 2 : 3,
+    difficulty: difficulty as Difficulty,
     tags: ['generated', spec.tag, ...word.tags.slice(0, 2)],
   };
 }
 
 /**
- * Which types this entry can produce, ignoring the distractor pool.
+ * How the corpus is spread across the three formats, as cumulative percentiles
+ * of a hash of the headword.
  *
- * Both meaning types work from fields every entry has; the definition type
- * needs a definition that still identifies the word once its own headword is
- * masked out. The vocabulary index records the answer, so the question bank can
- * count and order its questions without generating any of them.
+ * Almost every entry can support the sentence-completion format, so choosing
+ * purely by difficulty would give all four thousand words the identical item
+ * and make the question-type filter meaningless. The split keeps that format
+ * dominant while still drilling sense discrimination (`meaning_en_to_zh`) and
+ * recall (`meaning_zh_to_en`) on a minority of words. It is a hash rather than
+ * a counter so a word's format never depends on what else was generated.
+ */
+const TYPE_SHARES: { type: GeneratedType; upTo: number }[] = [
+  { type: 'meaning_zh_to_en', upTo: 10 },
+  { type: 'meaning_en_to_zh', upTo: 30 },
+  { type: 'definition_to_word', upTo: 100 },
+];
+
+/** Whether this entry can carry this type, stem included. */
+function supports(entry: VocabularyEntry, type: GeneratedType): boolean {
+  const spec = SPECS[type];
+  if (!spec.optionText(entry).trim()) return false;
+  // A stem is insisted on even where the type does not strictly need one: an
+  // option list with no sentence above it is the flashcard this bank moved away
+  // from. Entries with no usable sentence fall through to the priority order.
+  return spec.stem(entry) != null;
+}
+
+/**
+ * The single type this entry produces, ignoring the distractor pool — an empty
+ * array when the entry is too thin to quiz fairly.
+ *
+ * The vocabulary index records the answer, so the question bank can count and
+ * order its questions without generating any of them. That makes this function
+ * a contract: it must return the same type here and at generation time, or a
+ * counted question would fail to materialise. Everything it reads is a property
+ * of the entry alone, so the two agree by construction.
  */
 export function generatedTypesFor(entry: VocabularyEntry): GeneratedType[] {
-  return GENERATED_TYPES.filter((type) => {
+  if (!isTestable(entry)) return [];
+
+  const bucket = hashLemma(entry.id) % 100;
+  const assigned = TYPE_SHARES.find((share) => bucket < share.upTo)?.type;
+  if (assigned && supports(entry, assigned)) return [assigned];
+
+  // The assigned format did not fit this word; fall back to the hardest one it
+  // can carry.
+  for (const type of TYPE_PRIORITY) {
     const spec = SPECS[type];
-    if (!spec.optionText(entry).trim()) return false;
-    return spec.context ? spec.context(entry).trim().length > 0 : true;
-  });
+    if (!spec.optionText(entry).trim()) continue;
+    if (spec.stemRequired && !spec.stem(entry)) continue;
+    return [type];
+  }
+  return [];
 }
 
 interface GenerateOptions {
@@ -344,40 +662,31 @@ function generateForEntry(
   type: GeneratedType,
   { rng, candidates }: GenerateOptions,
 ): QuizQuestion | null {
-  const pool = candidates.entries;
-  if (pool.length < DISTRACTOR_COUNT) return null;
+  if (candidates.entries.length + candidates.fallback.length < DISTRACTOR_COUNT) return null;
 
   const spec = SPECS[type];
   const answerText = spec.optionText(entry).trim();
   if (!answerText) return null;
 
-  const context = spec.context?.(entry).trim();
-  if (spec.context && !context) return null;
+  const stem = spec.stem(entry);
+  if (spec.stemRequired && !stem) return null;
 
-  // Random draws rather than a full shuffle: the candidate pool is the whole
-  // corpus for a part of speech, and shuffling it for every question made
-  // building the bank cost seconds rather than milliseconds.
+  // The pool arrives ranked, so a straight scan takes the three nearest misses
+  // that survive the ambiguity checks. Scanning beats random draws twice over:
+  // the distractors are better, and nothing depends on how lucky the seed was.
   const distractors: VocabularyEntry[] = [];
   const usedTexts = new Set<string>([answerText.toLowerCase()]);
-  const tried = new Set<number>();
-  const accept = (index: number): boolean => {
-    if (tried.has(index)) return false;
-    tried.add(index);
-    const candidate = pool[index];
-    if (!candidate || candidates.forbidden.has(candidate.id)) return false;
-    const text = spec.optionText(candidate).trim().toLowerCase();
-    if (!text || usedTexts.has(text)) return false;
-    usedTexts.add(text);
-    distractors.push(candidate);
-    return true;
-  };
-
-  for (let attempt = 0; attempt < DRAW_BUDGET && distractors.length < DISTRACTOR_COUNT; attempt += 1) {
-    accept(Math.floor(rng() * pool.length));
-  }
-  // Small or highly duplicated pools may not yield three draws; finish by scan.
-  for (let index = 0; index < pool.length && distractors.length < DISTRACTOR_COUNT; index += 1) {
-    accept(index);
+  const seen = new Set<string>();
+  for (const pool of [candidates.entries, candidates.fallback]) {
+    for (const candidate of pool) {
+      if (distractors.length >= DISTRACTOR_COUNT) break;
+      if (seen.has(candidate.id) || candidates.forbidden.has(candidate.id)) continue;
+      seen.add(candidate.id);
+      const text = spec.optionText(candidate).trim().toLowerCase();
+      if (!text || usedTexts.has(text)) continue;
+      usedTexts.add(text);
+      distractors.push(candidate);
+    }
   }
   if (distractors.length < DISTRACTOR_COUNT) return null;
 
@@ -397,8 +706,8 @@ function generateForEntry(
     type,
     cefr: entry.cefr,
     wordIds: [entry.id],
-    prompt: spec.prompt(entry),
-    ...(context ? { context } : {}),
+    prompt: stem?.prompt ?? spec.defaultPrompt(entry),
+    ...(stem ? { context: stem.text } : {}),
     options,
     correctOptionId: correct.id,
     explanation: spec.explanation(entry),
@@ -413,27 +722,33 @@ function isGeneratedType(type: QuestionType): type is GeneratedType {
 }
 
 /**
- * Generates recognition questions for the given entries.
- * Duplicate ids can never occur because the id is derived from
- * `entry.id` + question type, and each pair is visited at most once.
+ * Generates one recognition question per entry, for entries that can carry one.
+ *
+ * `types` filters which questions are wanted, but it cannot change which type an
+ * entry produces: a word whose type is not requested yields nothing rather than
+ * falling back to an easier framing, so an id counted from the index always
+ * matches the question built here.
+ *
+ * Duplicate ids can never occur because the id is derived from `entry.id` and
+ * the entry's single question type.
  */
 export function generateQuestions(
   entries: VocabularyEntry[],
   options: { rng: Rng; types?: QuestionType[]; pool?: VocabularyEntry[] },
 ): QuizQuestion[] {
-  const types = (options.types ?? GENERATED_TYPES).filter(isGeneratedType);
-  if (types.length === 0) return [];
+  const wanted = new Set((options.types ?? GENERATED_TYPES).filter(isGeneratedType));
+  if (wanted.size === 0) return [];
 
   const pool = options.pool ?? entries;
   const generated: QuizQuestion[] = [];
   const index = indexDistractors(pool);
 
   for (const entry of entries) {
+    const [type] = generatedTypesFor(entry);
+    if (!type || !wanted.has(type)) continue;
     const candidates = candidateDistractors(entry, index);
-    for (const type of types) {
-      const question = generateForEntry(entry, type, { rng: options.rng, candidates });
-      if (question) generated.push(question);
-    }
+    const question = generateForEntry(entry, type, { rng: options.rng, candidates });
+    if (question) generated.push(question);
   }
   return generated;
 }

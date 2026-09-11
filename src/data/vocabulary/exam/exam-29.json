@@ -11,40 +11,84 @@
       {
         "id": "s_execute_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to carry out or put into effect a plan, order, or task",
         "definitionZh": "執行；實行",
         "usageExplanationZh": "常見 execute a plan/strategy，強調將計畫付諸實際行動，語氣正式。",
-        "examples": [
-          {
-            "en": "The team executed the marketing plan flawlessly.",
-            "zh": "這個團隊完美地執行了這項行銷計畫。"
-          }
+        "grammarPatterns": [
+          "execute + noun",
+          "execute sth according to + noun"
         ],
         "collocations": [
           {
             "text": "execute a plan",
             "meaningZh": "執行計畫"
           }
+        ],
+        "examples": [
+          {
+            "en": "The team executed the marketing plan flawlessly.",
+            "zh": "這個團隊完美地執行了這項行銷計畫。"
+          }
         ]
       },
       {
         "id": "s_execute_verb_kill",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to kill someone as a legal punishment",
         "definitionZh": "處決；處死",
         "usageExplanationZh": "法律用語，常見被動 be executed for，指依法定程序執行死刑。",
-        "examples": [
-          {
-            "en": "The prisoner was executed for treason.",
-            "zh": "這名囚犯因叛國罪被處決。"
-          }
+        "grammarPatterns": [
+          "execute sb for + noun",
+          "be executed for + noun"
         ],
         "collocations": [
           {
             "text": "execute a prisoner",
             "meaningZh": "處決囚犯"
           }
+        ],
+        "examples": [
+          {
+            "en": "The prisoner was executed for treason.",
+            "zh": "這名囚犯因叛國罪被處決。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "implement",
+        "noteZh": "指執行計畫"
+      },
+      {
+        "lemma": "put to death",
+        "noteZh": "指處決"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "execution",
+        "partOfSpeech": "noun",
+        "meaningZh": "執行；處決"
+      },
+      {
+        "lemma": "executive",
+        "partOfSpeech": "noun",
+        "meaningZh": "主管；高階管理人員"
+      },
+      {
+        "lemma": "executioner",
+        "partOfSpeech": "noun",
+        "meaningZh": "劊子手；行刑者"
       }
     ],
     "tags": [
@@ -59,18 +103,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "implement",
-        "noteZh": "指執行計畫"
-      },
-      {
-        "lemma": "put to death",
-        "noteZh": "指處決"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_execution",
@@ -84,33 +117,43 @@
       {
         "id": "s_execution_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "the process of carrying out or putting into effect a plan or task",
         "definitionZh": "執行；實行",
         "usageExplanationZh": "常見 the execution of a plan，強調實際落實的過程與品質，如 flawless execution。",
-        "examples": [
-          {
-            "en": "The success of the project depends on careful execution.",
-            "zh": "這項專案的成功取決於謹慎的執行。"
-          }
+        "grammarPatterns": [
+          "the execution of + noun",
+          "careful execution"
         ],
         "collocations": [
           {
             "text": "the execution of a plan",
             "meaningZh": "計畫的執行"
           }
+        ],
+        "examples": [
+          {
+            "en": "The success of the project depends on careful execution.",
+            "zh": "這項專案的成功取決於謹慎的執行。"
+          }
         ]
       },
       {
         "id": "s_execution_noun_kill",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "the act of killing someone as a legal punishment",
         "definitionZh": "處決；死刑",
         "usageExplanationZh": "法律用語，常見 a public execution，指依法執行死刑的行動。",
-        "examples": [
-          {
-            "en": "The public execution drew a large crowd in the town square.",
-            "zh": "這場公開處決吸引了廣場上一大群人。"
-          }
+        "grammarPatterns": [
+          "the execution of + noun",
+          "carry out an execution"
         ],
         "collocations": [
           {
@@ -121,7 +164,36 @@
             "text": "stay of execution",
             "meaningZh": "暫緩執行死刑"
           }
+        ],
+        "examples": [
+          {
+            "en": "The public execution drew a large crowd in the town square.",
+            "zh": "這場公開處決吸引了廣場上一大群人。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "implementation",
+        "noteZh": "指計畫的執行"
+      },
+      {
+        "lemma": "putting to death",
+        "noteZh": "指處決"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "execute",
+        "partOfSpeech": "verb",
+        "meaningZh": "執行；處決"
+      },
+      {
+        "lemma": "executioner",
+        "partOfSpeech": "noun",
+        "meaningZh": "行刑者"
       }
     ],
     "tags": [
@@ -135,18 +207,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "implementation",
-        "noteZh": "指計畫的執行"
-      },
-      {
-        "lemma": "putting to death",
-        "noteZh": "指處決"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_exempt",
@@ -160,40 +221,69 @@
       {
         "id": "s_exempt_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "free from an obligation, duty, or liability that applies to others",
         "definitionZh": "被豁免的；免除義務的",
         "usageExplanationZh": "常接 from，如 exempt from tax/military service，指依法不必承擔某項一般性義務。",
-        "examples": [
-          {
-            "en": "Nonprofit organizations are often exempt from certain taxes.",
-            "zh": "非營利組織通常可以豁免某些稅賦。"
-          }
+        "grammarPatterns": [
+          "be exempt from + noun",
+          "exempt + noun"
         ],
         "collocations": [
           {
             "text": "exempt from tax",
             "meaningZh": "免稅的"
           }
+        ],
+        "examples": [
+          {
+            "en": "Nonprofit organizations are often exempt from certain taxes.",
+            "zh": "非營利組織通常可以豁免某些稅賦。"
+          }
         ]
       },
       {
         "id": "s_exempt_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to officially free someone from an obligation or duty",
         "definitionZh": "使豁免；免除（義務）",
         "usageExplanationZh": "及物動詞，常見 exempt someone from something，指官方正式給予某人免除義務的資格。",
-        "examples": [
-          {
-            "en": "The new law exempts small businesses from the reporting requirement.",
-            "zh": "這項新法規免除了小型企業的申報義務。"
-          }
+        "grammarPatterns": [
+          "exempt sb from + noun"
         ],
         "collocations": [
           {
             "text": "exempt someone from",
             "meaningZh": "豁免某人的……義務"
           }
+        ],
+        "examples": [
+          {
+            "en": "The new law exempts small businesses from the reporting requirement.",
+            "zh": "這項新法規免除了小型企業的申報義務。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "excused",
+        "noteZh": "獲准免除義務的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "exemption",
+        "partOfSpeech": "noun",
+        "meaningZh": "豁免；免除"
       }
     ],
     "tags": [
@@ -208,14 +298,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "excused",
-        "noteZh": "獲准免除義務的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_exemption",
@@ -229,14 +312,16 @@
       {
         "id": "s_exemption_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "official permission to be freed from an obligation, duty, or liability",
         "definitionZh": "豁免；免除（義務或稅賦）",
         "usageExplanationZh": "常見 a tax exemption，指依法獲准不須履行某項一般性義務。",
-        "examples": [
-          {
-            "en": "Students may qualify for a tuition exemption based on income.",
-            "zh": "學生可能依收入資格獲得學費減免。"
-          }
+        "grammarPatterns": [
+          "an exemption from + noun",
+          "qualify for an exemption"
         ],
         "collocations": [
           {
@@ -247,7 +332,27 @@
             "text": "claim an exemption",
             "meaningZh": "申請豁免"
           }
+        ],
+        "examples": [
+          {
+            "en": "Students may qualify for a tuition exemption based on income.",
+            "zh": "學生可能依收入資格獲得學費減免。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "waiver",
+        "noteZh": "指正式免除要求或義務"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "exempt",
+        "partOfSpeech": "verb",
+        "meaningZh": "使豁免；免除"
       }
     ],
     "tags": [
@@ -260,14 +365,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "waiver",
-        "noteZh": "指正式免除要求或義務"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_exert",
@@ -281,14 +379,16 @@
       {
         "id": "s_exert_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to apply or make use of a force, influence, or effort",
         "definitionZh": "施加（力量、影響）；運用（努力）",
         "usageExplanationZh": "常見 exert pressure/influence/effort，也可用 exert oneself 表示「盡力、努力」。",
-        "examples": [
-          {
-            "en": "The company exerts significant influence over local politics.",
-            "zh": "這家公司對地方政治施加了相當大的影響力。"
-          }
+        "grammarPatterns": [
+          "exert influence over + noun",
+          "exert + noun on + noun"
         ],
         "collocations": [
           {
@@ -299,7 +399,27 @@
             "text": "exert yourself",
             "meaningZh": "努力；盡力"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company exerts significant influence over local politics.",
+            "zh": "這家公司對地方政治施加了相當大的影響力。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "apply",
+        "noteZh": "指施加力量或壓力"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "exertion",
+        "partOfSpeech": "noun",
+        "meaningZh": "努力；施力"
       }
     ],
     "tags": [
@@ -314,14 +434,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "apply",
-        "noteZh": "指施加力量或壓力"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_exhaust",
@@ -335,14 +448,16 @@
       {
         "id": "s_exhaust_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "the waste gases produced by an engine, or the pipe through which they are released",
         "definitionZh": "廢氣；排氣管",
         "usageExplanationZh": "常見 car/vehicle exhaust，指引擎排出的廢氣或排放廢氣的裝置。",
-        "examples": [
-          {
-            "en": "The car's exhaust was emitting a thick black smoke.",
-            "zh": "這輛車的排氣管冒出濃濃黑煙。"
-          }
+        "grammarPatterns": [
+          "exhaust fumes",
+          "the exhaust from + noun"
         ],
         "collocations": [
           {
@@ -353,19 +468,26 @@
             "text": "an exhaust pipe",
             "meaningZh": "排氣管"
           }
+        ],
+        "examples": [
+          {
+            "en": "The car's exhaust was emitting a thick black smoke.",
+            "zh": "這輛車的排氣管冒出濃濃黑煙。"
+          }
         ]
       },
       {
         "id": "s_exhaust_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to make someone extremely tired, or to use up a resource completely",
         "definitionZh": "使精疲力竭；耗盡（資源）",
         "usageExplanationZh": "及物動詞，可指使人筋疲力盡（exhaust oneself），也可指用盡資源（exhaust all options/supplies）。",
-        "examples": [
-          {
-            "en": "The long hike completely exhausted the hikers.",
-            "zh": "這趟長途健行讓登山客們筋疲力竭。"
-          }
+        "grammarPatterns": [
+          "exhaust sb",
+          "exhaust + noun"
         ],
         "collocations": [
           {
@@ -376,7 +498,32 @@
             "text": "exhaust yourself",
             "meaningZh": "使自己筋疲力盡"
           }
+        ],
+        "examples": [
+          {
+            "en": "The long hike completely exhausted the hikers.",
+            "zh": "這趟長途健行讓登山客們筋疲力竭。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "deplete",
+        "noteZh": "指耗盡資源"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "exhaustion",
+        "partOfSpeech": "noun",
+        "meaningZh": "精疲力竭；耗盡"
+      },
+      {
+        "lemma": "exhaustive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "徹底詳盡的"
       }
     ],
     "tags": [
@@ -391,14 +538,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "deplete",
-        "noteZh": "指耗盡資源"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_exhibit",
@@ -412,33 +552,43 @@
       {
         "id": "s_exhibit_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "an object or collection of objects displayed to the public, especially in a museum or gallery",
         "definitionZh": "展覽品；陳列品",
         "usageExplanationZh": "常見 a museum exhibit，指在博物館或展覽中公開展示的物件。",
-        "examples": [
-          {
-            "en": "The dinosaur exhibit is the museum's most popular attraction.",
-            "zh": "這件恐龍展覽品是這座博物館最受歡迎的展示品。"
-          }
+        "grammarPatterns": [
+          "an exhibit of + noun",
+          "on exhibit"
         ],
         "collocations": [
           {
             "text": "a museum exhibit",
             "meaningZh": "博物館展品"
           }
+        ],
+        "examples": [
+          {
+            "en": "The dinosaur exhibit is the museum's most popular attraction.",
+            "zh": "這件恐龍展覽品是這座博物館最受歡迎的展示品。"
+          }
         ]
       },
       {
         "id": "s_exhibit_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to display or show a quality, feeling, or ability publicly",
         "definitionZh": "展現；表現出",
         "usageExplanationZh": "及物動詞，常見 exhibit signs/symptoms of，指公開展現某種特質、情感或跡象。",
-        "examples": [
-          {
-            "en": "The patient began to exhibit signs of improvement.",
-            "zh": "這名病患開始表現出好轉的跡象。"
-          }
+        "grammarPatterns": [
+          "exhibit + noun",
+          "exhibit signs of + noun"
         ],
         "collocations": [
           {
@@ -449,7 +599,32 @@
             "text": "exhibit symptoms",
             "meaningZh": "呈現症狀"
           }
+        ],
+        "examples": [
+          {
+            "en": "The patient began to exhibit signs of improvement.",
+            "zh": "這名病患開始表現出好轉的跡象。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "display",
+        "noteZh": "指展示或陳列"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "exhibition",
+        "partOfSpeech": "noun",
+        "meaningZh": "展覽；展出"
+      },
+      {
+        "lemma": "exhibitor",
+        "partOfSpeech": "noun",
+        "meaningZh": "參展者"
       }
     ],
     "tags": [
@@ -462,14 +637,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "display",
-        "noteZh": "指展示或陳列"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_exhort",
@@ -483,21 +651,42 @@
       {
         "id": "s_exhort_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to strongly urge or encourage someone to do something",
         "definitionZh": "力勸；敦促",
         "usageExplanationZh": "正式書面用語，常見 exhort someone to do something，語氣比 urge 更強烈，常見於演講或號召。",
-        "examples": [
-          {
-            "en": "The coach exhorted the team to give their best effort.",
-            "zh": "教練力勸球隊全力以赴。"
-          }
+        "grammarPatterns": [
+          "exhort sb to + V"
         ],
         "collocations": [
           {
             "text": "exhort someone to act",
             "meaningZh": "敦促某人採取行動"
           }
+        ],
+        "examples": [
+          {
+            "en": "The coach exhorted the team to give their best effort.",
+            "zh": "教練力勸球隊全力以赴。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "urge",
+        "noteZh": "敦促；力勸"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "exhortation",
+        "partOfSpeech": "noun",
+        "meaningZh": "勸誡；敦促"
       }
     ],
     "tags": [
@@ -511,14 +700,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "urge",
-        "noteZh": "敦促；力勸"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_exile",
@@ -532,14 +714,16 @@
       {
         "id": "s_exile_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "the state of being forced to live away from one's home country, or a person in that state",
         "definitionZh": "流放；流亡；流亡者",
         "usageExplanationZh": "常見 in exile、send someone into exile，指因政治等原因被迫離開祖國的狀態或人。",
-        "examples": [
-          {
-            "en": "The former president spent twenty years in exile.",
-            "zh": "這位前總統流亡了二十年。"
-          }
+        "grammarPatterns": [
+          "in exile",
+          "go into exile"
         ],
         "collocations": [
           {
@@ -550,9 +734,22 @@
             "text": "go into exile",
             "meaningZh": "流亡國外"
           }
+        ],
+        "examples": [
+          {
+            "en": "The former president spent twenty years in exile.",
+            "zh": "這位前總統流亡了二十年。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "banishment",
+        "noteZh": "指被流放的處境"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -564,14 +761,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "banishment",
-        "noteZh": "指被流放的處境"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_existential",
@@ -585,14 +775,16 @@
       {
         "id": "s_existential_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "relating to human existence, especially concerning meaning, purpose, or the fundamental threat to survival",
         "definitionZh": "存在主義的；攸關存亡的",
         "usageExplanationZh": "常見 existential crisis/threat，可指哲學上的存在議題，也可比喻性地形容嚴重到威脅生存的危機。",
-        "examples": [
-          {
-            "en": "Climate change poses an existential threat to many coastal cities.",
-            "zh": "氣候變遷對許多沿海城市構成攸關存亡的威脅。"
-          }
+        "grammarPatterns": [
+          "an existential + noun",
+          "pose an existential threat to + noun"
         ],
         "collocations": [
           {
@@ -603,7 +795,32 @@
             "text": "an existential crisis",
             "meaningZh": "存在意義的危機"
           }
+        ],
+        "examples": [
+          {
+            "en": "Climate change poses an existential threat to many coastal cities.",
+            "zh": "氣候變遷對許多沿海城市構成攸關存亡的威脅。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "exist",
+        "partOfSpeech": "verb",
+        "meaningZh": "存在"
+      },
+      {
+        "lemma": "existence",
+        "partOfSpeech": "noun",
+        "meaningZh": "存在"
+      },
+      {
+        "lemma": "existentialism",
+        "partOfSpeech": "noun",
+        "meaningZh": "存在主義"
       }
     ],
     "tags": [
@@ -616,9 +833,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_exit",
@@ -632,14 +847,15 @@
       {
         "id": "s_exit_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a way out of a building or vehicle, or the act of leaving",
         "definitionZh": "出口；離開",
         "usageExplanationZh": "常見 emergency exit（緊急出口），也可指離開某場合的行為，如 make a quick exit。",
-        "examples": [
-          {
-            "en": "Please locate the nearest emergency exit before the flight departs.",
-            "zh": "請在飛機起飛前找到最近的緊急出口。"
-          }
+        "grammarPatterns": [
+          "an exit from + noun",
+          "make an exit"
         ],
         "collocations": [
           {
@@ -650,19 +866,26 @@
             "text": "make an exit",
             "meaningZh": "離開"
           }
+        ],
+        "examples": [
+          {
+            "en": "Please locate the nearest emergency exit before the flight departs.",
+            "zh": "請在飛機起飛前找到最近的緊急出口。"
+          }
         ]
       },
       {
         "id": "s_exit_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to leave a place, especially a building or vehicle",
         "definitionZh": "離開；退出",
         "usageExplanationZh": "及物或不及物動詞，如 exit the building/highway，語氣中性，常見於指示或標示語。",
-        "examples": [
-          {
-            "en": "Please exit the building calmly during the drill.",
-            "zh": "演習期間請冷靜地離開這棟建築。"
-          }
+        "grammarPatterns": [
+          "exit + noun",
+          "exit through + noun"
         ],
         "collocations": [
           {
@@ -673,20 +896,15 @@
             "text": "exit a program",
             "meaningZh": "退出程式"
           }
+        ],
+        "examples": [
+          {
+            "en": "Please exit the building calmly during the drill.",
+            "zh": "演習期間請冷靜地離開這棟建築。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "way out",
@@ -706,7 +924,18 @@
         "lemma": "enter",
         "noteZh": "進入（動詞）"
       }
-    ]
+    ],
+    "tags": [
+      "dictionary",
+      "toefl"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_exonerate",
@@ -720,14 +949,16 @@
       {
         "id": "s_exonerate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to officially declare that someone is not guilty of a crime or wrongdoing they were blamed for",
         "definitionZh": "宣告無罪；免除罪責",
         "usageExplanationZh": "法律用語，常見被動 be exonerated of/from，指正式證明某人清白，洗清罪嫌。",
-        "examples": [
-          {
-            "en": "New DNA evidence exonerated the man after ten years in prison.",
-            "zh": "新的DNA證據在這名男子入獄十年後證明了他的清白。"
-          }
+        "grammarPatterns": [
+          "exonerate sb of + noun",
+          "be exonerated by + noun"
         ],
         "collocations": [
           {
@@ -738,7 +969,32 @@
             "text": "fully exonerate",
             "meaningZh": "完全洗清罪嫌"
           }
+        ],
+        "examples": [
+          {
+            "en": "New DNA evidence exonerated the man after ten years in prison.",
+            "zh": "新的DNA證據在這名男子入獄十年後證明了他的清白。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "clear",
+        "noteZh": "洗清罪嫌"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "incriminate",
+        "noteZh": "使牽涉罪行"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "exoneration",
+        "partOfSpeech": "noun",
+        "meaningZh": "免除罪責；平反"
       }
     ],
     "tags": [
@@ -751,19 +1007,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "clear",
-        "noteZh": "洗清罪嫌"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "incriminate",
-        "noteZh": "使牽涉罪行"
-      }
-    ]
+    }
   },
   {
     "id": "w_exotic",
@@ -777,14 +1021,16 @@
       {
         "id": "s_exotic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "originating from or characteristic of a distant foreign country, especially in an unusual or attractive way",
         "definitionZh": "異國情調的；奇特的（外來的）",
         "usageExplanationZh": "常修飾 fruit、animal、location，強調帶有外國、罕見或新奇的吸引力。",
-        "examples": [
-          {
-            "en": "The resort is known for its exotic birds and lush gardens.",
-            "zh": "這座度假村以其奇特的鳥類和茂密的花園聞名。"
-          }
+        "grammarPatterns": [
+          "an exotic + noun",
+          "exotic + plural noun"
         ],
         "collocations": [
           {
@@ -795,7 +1041,32 @@
             "text": "an exotic destination",
             "meaningZh": "充滿異國風情的目的地"
           }
+        ],
+        "examples": [
+          {
+            "en": "The resort is known for its exotic birds and lush gardens.",
+            "zh": "這座度假村以其奇特的鳥類和茂密的花園聞名。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "foreign",
+        "noteZh": "指來自異國的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "exoticism",
+        "partOfSpeech": "noun",
+        "meaningZh": "異國情調"
+      },
+      {
+        "lemma": "exotically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "帶異國風情地"
       }
     ],
     "tags": [
@@ -810,14 +1081,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "foreign",
-        "noteZh": "指來自異國的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_expand",
@@ -831,14 +1095,16 @@
       {
         "id": "s_expand_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "to increase in size, number, or extent",
         "definitionZh": "擴大；擴展",
         "usageExplanationZh": "常見 expand a business/market，也可用 expand on 表示「進一步闡述」。",
-        "examples": [
-          {
-            "en": "The company plans to expand into international markets next year.",
-            "zh": "這家公司計畫明年拓展至國際市場。"
-          }
+        "grammarPatterns": [
+          "expand into + noun",
+          "expand + noun"
         ],
         "collocations": [
           {
@@ -849,7 +1115,42 @@
             "text": "expand on an idea",
             "meaningZh": "詳述一個想法"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company plans to expand into international markets next year.",
+            "zh": "這家公司計畫明年拓展至國際市場。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "enlarge",
+        "noteZh": "擴大"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "shrink",
+        "noteZh": "縮小"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "expansion",
+        "partOfSpeech": "noun",
+        "meaningZh": "擴張；擴大"
+      },
+      {
+        "lemma": "expansive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "廣闊的"
+      },
+      {
+        "lemma": "expandable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可擴充的"
       }
     ],
     "tags": [
@@ -864,19 +1165,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "enlarge",
-        "noteZh": "擴大"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "shrink",
-        "noteZh": "縮小"
-      }
-    ]
+    }
   },
   {
     "id": "w_expansion",
@@ -890,14 +1179,16 @@
       {
         "id": "s_expansion_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "academic"
+        ],
         "definitionEn": "the process of increasing in size, number, or extent",
         "definitionZh": "擴張；擴大",
         "usageExplanationZh": "常見 business/economic expansion，指規模、範圍或數量增加的過程。",
-        "examples": [
-          {
-            "en": "The company's rapid expansion led to hundreds of new jobs.",
-            "zh": "這家公司的快速擴張創造了數百個新工作機會。"
-          }
+        "grammarPatterns": [
+          "the expansion of + noun",
+          "rapid expansion"
         ],
         "collocations": [
           {
@@ -908,7 +1199,37 @@
             "text": "rapid expansion",
             "meaningZh": "快速擴展"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company's rapid expansion led to hundreds of new jobs.",
+            "zh": "這家公司的快速擴張創造了數百個新工作機會。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "growth",
+        "noteZh": "規模的增長"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "contraction",
+        "noteZh": "收縮"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "expand",
+        "partOfSpeech": "verb",
+        "meaningZh": "擴大；擴展"
+      },
+      {
+        "lemma": "expansive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "廣闊的"
       }
     ],
     "tags": [
@@ -922,19 +1243,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "growth",
-        "noteZh": "規模的增長"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "contraction",
-        "noteZh": "收縮"
-      }
-    ]
+    }
   },
   {
     "id": "w_expansive",
@@ -948,14 +1257,16 @@
       {
         "id": "s_expansive_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "covering a large area, or (of a person) open and willing to talk freely",
         "definitionZh": "廣闊的；（人）健談豪爽的",
         "usageExplanationZh": "可形容空間廣大（an expansive view），也可形容人開朗健談、暢所欲言（in an expansive mood）。",
-        "examples": [
-          {
-            "en": "The house has an expansive view of the valley below.",
-            "zh": "這棟房子擁有俯瞰山谷的廣闊視野。"
-          }
+        "grammarPatterns": [
+          "an expansive + noun",
+          "in an expansive mood"
         ],
         "collocations": [
           {
@@ -966,21 +1277,15 @@
             "text": "in an expansive mood",
             "meaningZh": "心情開朗健談"
           }
+        ],
+        "examples": [
+          {
+            "en": "The house has an expansive view of the valley below.",
+            "zh": "這棟房子擁有俯瞰山谷的廣闊視野。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "extensive",
@@ -996,7 +1301,36 @@
         "lemma": "reserved",
         "noteZh": "指個性含蓄寡言的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "expand",
+        "partOfSpeech": "verb",
+        "meaningZh": "擴展；擴大"
+      },
+      {
+        "lemma": "expansion",
+        "partOfSpeech": "noun",
+        "meaningZh": "擴張"
+      },
+      {
+        "lemma": "expansiveness",
+        "partOfSpeech": "noun",
+        "meaningZh": "廣闊；豪爽健談"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_expatriate",
@@ -1010,21 +1344,43 @@
       {
         "id": "s_expatriate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to leave one's own country to live in another, or to force someone to do so",
         "definitionZh": "（使）僑居國外；（使）移居海外",
         "usageExplanationZh": "此詞常見的名詞用法（an expatriate，僑民）在本語料庫僅登記為動詞，指離開本國到他國生活的行為。",
-        "examples": [
-          {
-            "en": "Many young professionals expatriate to Southeast Asia for work.",
-            "zh": "許多年輕專業人士為了工作移居到東南亞。"
-          }
+        "grammarPatterns": [
+          "expatriate to + noun",
+          "be expatriated from + noun"
         ],
         "collocations": [
           {
             "text": "expatriate oneself",
             "meaningZh": "移居海外"
           }
+        ],
+        "examples": [
+          {
+            "en": "Many young professionals expatriate to Southeast Asia for work.",
+            "zh": "許多年輕專業人士為了工作移居到東南亞。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "emigrate",
+        "noteZh": "指移居外國的不及物動詞"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "expatriation",
+        "partOfSpeech": "noun",
+        "meaningZh": "移居國外"
       }
     ],
     "tags": [
@@ -1037,14 +1393,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "emigrate",
-        "noteZh": "指移居外國的不及物動詞"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_expedient",
@@ -1058,55 +1407,58 @@
       {
         "id": "s_expedient_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "a means of achieving a particular end, especially one that is convenient but not necessarily right or moral",
         "definitionZh": "權宜之計；應急手段",
         "usageExplanationZh": "常見 a political/temporary expedient，強調為求方便或速效而採取的手段，未必合乎道德或長久之計。",
-        "examples": [
-          {
-            "en": "Raising taxes was seen as a short-term expedient rather than a real solution.",
-            "zh": "加稅被視為一種短期的權宜之計，而非真正的解決方案。"
-          }
+        "grammarPatterns": [
+          "a short-term expedient",
+          "resort to an expedient"
         ],
         "collocations": [
           {
             "text": "a temporary expedient",
             "meaningZh": "臨時權宜之計"
           }
+        ],
+        "examples": [
+          {
+            "en": "Raising taxes was seen as a short-term expedient rather than a real solution.",
+            "zh": "加稅被視為一種短期的權宜之計，而非真正的解決方案。"
+          }
         ]
       },
       {
         "id": "s_expedient_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "convenient and practical, though not necessarily right or moral",
         "definitionZh": "權宜的；方便行事的",
         "usageExplanationZh": "常見 politically expedient，帶有隱含批評意味，指僅考慮方便有效而非道德是非。",
-        "examples": [
-          {
-            "en": "The politician chose the expedient answer rather than the honest one.",
-            "zh": "這位政治人物選擇了權宜的答案，而非誠實的答案。"
-          }
+        "grammarPatterns": [
+          "be expedient to + V",
+          "a politically expedient + noun"
         ],
         "collocations": [
           {
             "text": "politically expedient",
             "meaningZh": "政治上有利而權宜的"
           }
+        ],
+        "examples": [
+          {
+            "en": "The politician chose the expedient answer rather than the honest one.",
+            "zh": "這位政治人物選擇了權宜的答案，而非誠實的答案。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "stopgap",
@@ -1122,7 +1474,32 @@
         "lemma": "inexpedient",
         "noteZh": "不合宜的；不利的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "expediency",
+        "partOfSpeech": "noun",
+        "meaningZh": "權宜；方便"
+      },
+      {
+        "lemma": "expediently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "權宜地"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_expedition",
@@ -1136,14 +1513,16 @@
       {
         "id": "s_expedition_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "a journey or voyage undertaken for a specific purpose, especially exploration",
         "definitionZh": "遠征；探險（隊）",
         "usageExplanationZh": "常見 a scientific/mountaineering expedition，指有明確目的的長途旅行或探索行動。",
-        "examples": [
-          {
-            "en": "The team is preparing for an expedition to the South Pole.",
-            "zh": "這支團隊正在為前往南極的探險做準備。"
-          }
+        "grammarPatterns": [
+          "an expedition to + noun",
+          "go on an expedition"
         ],
         "collocations": [
           {
@@ -1154,7 +1533,27 @@
             "text": "go on an expedition",
             "meaningZh": "展開探險"
           }
+        ],
+        "examples": [
+          {
+            "en": "The team is preparing for an expedition to the South Pole.",
+            "zh": "這支團隊正在為前往南極的探險做準備。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "exploratory journey",
+        "noteZh": "探險旅行"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "expeditionary",
+        "partOfSpeech": "adjective",
+        "meaningZh": "遠征的"
       }
     ],
     "tags": [
@@ -1168,14 +1567,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "exploratory journey",
-        "noteZh": "探險旅行"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_expel",
@@ -1189,14 +1581,16 @@
       {
         "id": "s_expel_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to officially force someone to leave a school, organization, or country",
         "definitionZh": "開除；驅逐",
         "usageExplanationZh": "常見被動 be expelled from school/the country，語氣正式，指依規定或命令強制驅離。",
-        "examples": [
-          {
-            "en": "He was expelled from school for cheating on the exam.",
-            "zh": "他因考試作弊被學校開除。"
-          }
+        "grammarPatterns": [
+          "expel sb from + noun",
+          "be expelled for + V-ing"
         ],
         "collocations": [
           {
@@ -1207,7 +1601,32 @@
             "text": "expel air",
             "meaningZh": "排出空氣"
           }
+        ],
+        "examples": [
+          {
+            "en": "He was expelled from school for cheating on the exam.",
+            "zh": "他因考試作弊被學校開除。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "eject",
+        "noteZh": "驅逐；逐出"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "admit",
+        "noteZh": "准許進入或入學"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "expulsion",
+        "partOfSpeech": "noun",
+        "meaningZh": "開除；驅逐"
       }
     ],
     "tags": [
@@ -1222,19 +1641,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "eject",
-        "noteZh": "驅逐；逐出"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "admit",
-        "noteZh": "准許進入或入學"
-      }
-    ]
+    }
   },
   {
     "id": "w_expend",
@@ -1248,14 +1655,16 @@
       {
         "id": "s_expend_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to spend or use up time, money, or effort",
         "definitionZh": "花費；耗費（時間、金錢或精力）",
         "usageExplanationZh": "正式用語，常見 expend energy/resources on，語氣比 spend 更正式，常見於書面。",
-        "examples": [
-          {
-            "en": "They expended considerable effort trying to fix the old engine.",
-            "zh": "他們花費了相當大的精力試圖修好這台老舊引擎。"
-          }
+        "grammarPatterns": [
+          "expend + noun on + noun",
+          "expend considerable effort"
         ],
         "collocations": [
           {
@@ -1266,7 +1675,37 @@
             "text": "expend effort",
             "meaningZh": "付出努力"
           }
+        ],
+        "examples": [
+          {
+            "en": "They expended considerable effort trying to fix the old engine.",
+            "zh": "他們花費了相當大的精力試圖修好這台老舊引擎。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "spend",
+        "noteZh": "花費"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "expenditure",
+        "partOfSpeech": "noun",
+        "meaningZh": "支出；花費"
+      },
+      {
+        "lemma": "expense",
+        "partOfSpeech": "noun",
+        "meaningZh": "費用；開支"
+      },
+      {
+        "lemma": "expensive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "昂貴的"
       }
     ],
     "tags": [
@@ -1280,14 +1719,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "spend",
-        "noteZh": "花費"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_expenditure",
@@ -1301,14 +1733,16 @@
       {
         "id": "s_expenditure_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "academic"
+        ],
         "definitionEn": "an amount of money spent, or the act of spending money",
         "definitionZh": "支出；花費",
         "usageExplanationZh": "常見 government/public expenditure，多用於財務、預算相關語境，較 spending 正式。",
-        "examples": [
-          {
-            "en": "Government expenditure on education increased significantly this year.",
-            "zh": "政府今年在教育方面的支出大幅增加。"
-          }
+        "grammarPatterns": [
+          "expenditure on + noun",
+          "government expenditure"
         ],
         "collocations": [
           {
@@ -1319,7 +1753,32 @@
             "text": "capital expenditure",
             "meaningZh": "資本支出"
           }
+        ],
+        "examples": [
+          {
+            "en": "Government expenditure on education increased significantly this year.",
+            "zh": "政府今年在教育方面的支出大幅增加。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "spending",
+        "noteZh": "支出"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "expend",
+        "partOfSpeech": "verb",
+        "meaningZh": "花費；耗費"
+      },
+      {
+        "lemma": "expense",
+        "partOfSpeech": "noun",
+        "meaningZh": "開支；費用"
       }
     ],
     "tags": [
@@ -1334,14 +1793,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "spending",
-        "noteZh": "支出"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_expertise",
@@ -1355,14 +1807,16 @@
       {
         "id": "s_expertise_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "academic"
+        ],
         "definitionEn": "specialized knowledge or skill in a particular field",
         "definitionZh": "專業知識；專門技能",
         "usageExplanationZh": "不可數名詞，常見 technical/legal expertise，指某領域深厚且專業的知識或能力。",
-        "examples": [
-          {
-            "en": "The company hired a consultant for her expertise in marketing.",
-            "zh": "這家公司聘請了一位在行銷方面具有專業知識的顧問。"
-          }
+        "grammarPatterns": [
+          "expertise in + noun",
+          "have the expertise to + V"
         ],
         "collocations": [
           {
@@ -1373,7 +1827,32 @@
             "text": "expertise in",
             "meaningZh": "在……方面的專業知識"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company hired a consultant for her expertise in marketing.",
+            "zh": "這家公司聘請了一位在行銷方面具有專業知識的顧問。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "specialist knowledge",
+        "noteZh": "專門知識"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "expert",
+        "partOfSpeech": "noun",
+        "meaningZh": "專家"
+      },
+      {
+        "lemma": "expertly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "熟練地；內行地"
       }
     ],
     "tags": [
@@ -1388,14 +1867,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "specialist knowledge",
-        "noteZh": "專門知識"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_expire",
@@ -1409,14 +1881,16 @@
       {
         "id": "s_expire_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to come to an end or no longer be valid, especially referring to a contract, license, or period of time",
         "definitionZh": "期滿；到期；失效",
         "usageExplanationZh": "常見 the contract/license expires，指效期屆滿而失去法律效力或功能。",
-        "examples": [
-          {
-            "en": "Her passport expires at the end of next month.",
-            "zh": "她的護照下個月底就要到期了。"
-          }
+        "grammarPatterns": [
+          "sth expires",
+          "expire at the end of + noun"
         ],
         "collocations": [
           {
@@ -1427,7 +1901,32 @@
             "text": "expire at midnight",
             "meaningZh": "午夜到期"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her passport expires at the end of next month.",
+            "zh": "她的護照下個月底就要到期了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "lapse",
+        "noteZh": "指有效期限結束"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "expiration",
+        "partOfSpeech": "noun",
+        "meaningZh": "到期；期滿"
+      },
+      {
+        "lemma": "expiry",
+        "partOfSpeech": "noun",
+        "meaningZh": "到期日；屆滿"
       }
     ],
     "tags": [
@@ -1442,14 +1941,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "lapse",
-        "noteZh": "指有效期限結束"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_explode",
@@ -1463,14 +1955,16 @@
       {
         "id": "s_explode_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "to burst apart suddenly and violently, often with a loud noise",
         "definitionZh": "爆炸",
         "usageExplanationZh": "常見 a bomb explodes，也可比喻性地指情緒突然爆發（explode with anger）或數量急遽增加（population explodes）。",
-        "examples": [
-          {
-            "en": "The old boiler exploded, damaging the entire kitchen.",
-            "zh": "那台老舊鍋爐爆炸，損毀了整個廚房。"
-          }
+        "grammarPatterns": [
+          "sth explodes",
+          "explode into + noun"
         ],
         "collocations": [
           {
@@ -1481,7 +1975,37 @@
             "text": "explode on impact",
             "meaningZh": "撞擊時爆炸"
           }
+        ],
+        "examples": [
+          {
+            "en": "The old boiler exploded, damaging the entire kitchen.",
+            "zh": "那台老舊鍋爐爆炸，損毀了整個廚房。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "detonate",
+        "noteZh": "引爆或爆炸"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "implode",
+        "noteZh": "向內爆裂（相對於向外爆炸）"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "explosion",
+        "partOfSpeech": "noun",
+        "meaningZh": "爆炸"
+      },
+      {
+        "lemma": "explosive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "爆炸性的"
       }
     ],
     "tags": [
@@ -1495,19 +2019,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "detonate",
-        "noteZh": "引爆或爆炸"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "implode",
-        "noteZh": "向內爆裂（相對於向外爆炸）"
-      }
-    ]
+    }
   },
   {
     "id": "w_exploitation",
@@ -1521,14 +2033,16 @@
       {
         "id": "s_exploitation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "the act of unfairly using someone or something for one's own advantage",
         "definitionZh": "剝削；利用（不公平地）",
         "usageExplanationZh": "帶負面含意，常見 exploitation of workers/resources，指不公平地利用他人或資源以謀取自身利益。",
-        "examples": [
-          {
-            "en": "The report exposed the exploitation of migrant workers in the industry.",
-            "zh": "這份報告揭露了該產業對移工的剝削。"
-          }
+        "grammarPatterns": [
+          "the exploitation of + noun",
+          "exploitation by + noun"
         ],
         "collocations": [
           {
@@ -1539,7 +2053,32 @@
             "text": "the exploitation of children",
             "meaningZh": "剝削兒童"
           }
+        ],
+        "examples": [
+          {
+            "en": "The report exposed the exploitation of migrant workers in the industry.",
+            "zh": "這份報告揭露了該產業對移工的剝削。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "abuse",
+        "noteZh": "不公平地利用或對待"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "exploit",
+        "partOfSpeech": "verb",
+        "meaningZh": "剝削；利用"
+      },
+      {
+        "lemma": "exploitative",
+        "partOfSpeech": "adjective",
+        "meaningZh": "剝削的"
       }
     ],
     "tags": [
@@ -1552,14 +2091,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "abuse",
-        "noteZh": "不公平地利用或對待"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_exploration",
@@ -1573,14 +2105,16 @@
       {
         "id": "s_exploration_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "neutral"
+        ],
         "definitionEn": "the act of traveling through an unfamiliar area or subject in order to learn more about it",
         "definitionZh": "探索；探勘",
         "usageExplanationZh": "常見 space/scientific exploration，指為了了解未知領域而進行的探查行動。",
-        "examples": [
-          {
-            "en": "Space exploration has led to many technological breakthroughs.",
-            "zh": "太空探索帶來了許多科技上的突破。"
-          }
+        "grammarPatterns": [
+          "the exploration of + noun",
+          "space exploration"
         ],
         "collocations": [
           {
@@ -1591,7 +2125,37 @@
             "text": "oil exploration",
             "meaningZh": "石油探勘"
           }
+        ],
+        "examples": [
+          {
+            "en": "Space exploration has led to many technological breakthroughs.",
+            "zh": "太空探索帶來了許多科技上的突破。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "investigation",
+        "noteZh": "指深入探究"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "explore",
+        "partOfSpeech": "verb",
+        "meaningZh": "探索；勘查"
+      },
+      {
+        "lemma": "explorer",
+        "partOfSpeech": "noun",
+        "meaningZh": "探險家"
+      },
+      {
+        "lemma": "exploratory",
+        "partOfSpeech": "adjective",
+        "meaningZh": "探索性的"
       }
     ],
     "tags": [
@@ -1604,14 +2168,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "investigation",
-        "noteZh": "指深入探究"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_explore",
@@ -1625,14 +2182,16 @@
       {
         "id": "s_explore_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "academic",
+          "neutral"
+        ],
         "definitionEn": "to travel through an unfamiliar place in order to learn about it, or to examine a subject or idea thoroughly",
         "definitionZh": "探索；勘查；深入研究",
         "usageExplanationZh": "及物動詞，可指實地探勘（explore the jungle），也可指深入研究議題（explore an idea/option）。",
-        "examples": [
-          {
-            "en": "The team explored the cave system for several days.",
-            "zh": "這支隊伍花了好幾天探勘這個洞穴系統。"
-          }
+        "grammarPatterns": [
+          "explore + noun",
+          "explore whether + clause"
         ],
         "collocations": [
           {
@@ -1643,7 +2202,37 @@
             "text": "explore new territory",
             "meaningZh": "探索新領域"
           }
+        ],
+        "examples": [
+          {
+            "en": "The team explored the cave system for several days.",
+            "zh": "這支隊伍花了好幾天探勘這個洞穴系統。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "investigate",
+        "noteZh": "深入研究"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "exploration",
+        "partOfSpeech": "noun",
+        "meaningZh": "探索；探勘"
+      },
+      {
+        "lemma": "explorer",
+        "partOfSpeech": "noun",
+        "meaningZh": "探險家"
+      },
+      {
+        "lemma": "exploratory",
+        "partOfSpeech": "adjective",
+        "meaningZh": "探索性的"
       }
     ],
     "tags": [
@@ -1657,14 +2246,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "investigate",
-        "noteZh": "深入研究"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_explosive",
@@ -1678,14 +2260,15 @@
       {
         "id": "s_explosive_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical"
+        ],
         "definitionEn": "a substance that can cause an explosion",
         "definitionZh": "炸藥；爆裂物",
         "usageExplanationZh": "常見 a powerful/plastic explosive，指用於製造爆炸的物質。",
-        "examples": [
-          {
-            "en": "Police found several kilograms of explosive hidden in the warehouse.",
-            "zh": "警方在倉庫中發現了數公斤藏匿的炸藥。"
-          }
+        "grammarPatterns": [
+          "plant an explosive",
+          "a high explosive"
         ],
         "collocations": [
           {
@@ -1696,19 +2279,27 @@
             "text": "an explosive device",
             "meaningZh": "爆炸裝置"
           }
+        ],
+        "examples": [
+          {
+            "en": "Police found several kilograms of explosive hidden in the warehouse.",
+            "zh": "警方在倉庫中發現了數公斤藏匿的炸藥。"
+          }
         ]
       },
       {
         "id": "s_explosive_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "able to explode, or (of a situation) likely to result in sudden violence or strong reactions",
         "definitionZh": "爆炸性的；一觸即發的",
         "usageExplanationZh": "可形容實際物質（explosive material），也可比喻性地形容局勢緊張、隨時可能爆發衝突（an explosive situation）。",
-        "examples": [
-          {
-            "en": "Tensions between the two groups reached an explosive level.",
-            "zh": "兩派人馬之間的緊張情勢已達一觸即發的地步。"
-          }
+        "grammarPatterns": [
+          "an explosive + noun",
+          "prove explosive"
         ],
         "collocations": [
           {
@@ -1719,7 +2310,32 @@
             "text": "explosive growth",
             "meaningZh": "爆炸性成長"
           }
+        ],
+        "examples": [
+          {
+            "en": "Tensions between the two groups reached an explosive level.",
+            "zh": "兩派人馬之間的緊張情勢已達一觸即發的地步。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "volatile",
+        "noteZh": "指局勢容易爆發衝突的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "explode",
+        "partOfSpeech": "verb",
+        "meaningZh": "爆炸"
+      },
+      {
+        "lemma": "explosion",
+        "partOfSpeech": "noun",
+        "meaningZh": "爆炸"
       }
     ],
     "tags": [
@@ -1734,14 +2350,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "volatile",
-        "noteZh": "指局勢容易爆發衝突的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_expose",
@@ -1755,14 +2364,16 @@
       {
         "id": "s_expose_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to reveal or make known something hidden, especially something illegal, dishonest, or dangerous",
         "definitionZh": "揭露；暴露（醜聞或危險）",
         "usageExplanationZh": "常見 expose corruption/a scandal，也可指身體暴露於環境，如 expose skin to the sun。",
-        "examples": [
-          {
-            "en": "The investigation exposed widespread corruption within the department.",
-            "zh": "這項調查揭露了該部門內部普遍存在的貪腐問題。"
-          }
+        "grammarPatterns": [
+          "expose + noun",
+          "expose sb to + noun"
         ],
         "collocations": [
           {
@@ -1773,7 +2384,37 @@
             "text": "expose corruption",
             "meaningZh": "揭發貪腐"
           }
+        ],
+        "examples": [
+          {
+            "en": "The investigation exposed widespread corruption within the department.",
+            "zh": "這項調查揭露了該部門內部普遍存在的貪腐問題。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "reveal",
+        "noteZh": "指揭露隱情"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "conceal",
+        "noteZh": "隱藏"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "exposure",
+        "partOfSpeech": "noun",
+        "meaningZh": "暴露；曝光"
+      },
+      {
+        "lemma": "exposition",
+        "partOfSpeech": "noun",
+        "meaningZh": "闡述；展覽會"
       }
     ],
     "tags": [
@@ -1787,19 +2428,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "reveal",
-        "noteZh": "指揭露隱情"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "conceal",
-        "noteZh": "隱藏"
-      }
-    ]
+    }
   },
   {
     "id": "w_exposure",
@@ -1813,14 +2442,16 @@
       {
         "id": "s_exposure_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "the state of being exposed to something, especially something harmful, or the fact of being made known publicly",
         "definitionZh": "暴露（於某物）；曝光",
         "usageExplanationZh": "常見 exposure to sunlight/risk，也可指媒體曝光度，如 media exposure。",
-        "examples": [
-          {
-            "en": "Prolonged exposure to loud noise can damage your hearing.",
-            "zh": "長時間暴露於噪音環境中會損害聽力。"
-          }
+        "grammarPatterns": [
+          "exposure to + noun",
+          "prolonged exposure"
         ],
         "collocations": [
           {
@@ -1831,7 +2462,22 @@
             "text": "media exposure",
             "meaningZh": "媒體曝光"
           }
+        ],
+        "examples": [
+          {
+            "en": "Prolonged exposure to loud noise can damage your hearing.",
+            "zh": "長時間暴露於噪音環境中會損害聽力。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "expose",
+        "partOfSpeech": "verb",
+        "meaningZh": "暴露；揭露"
       }
     ],
     "tags": [
@@ -1846,9 +2492,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_expound",
@@ -1862,14 +2506,16 @@
       {
         "id": "s_expound_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to explain a theory or idea in detail",
         "definitionZh": "詳細闡述；闡明",
         "usageExplanationZh": "正式用語，常見 expound on a theory/view，語氣書面化，多用於學術或演講場合。",
-        "examples": [
-          {
-            "en": "The professor expounded on his theory of economic growth for over an hour.",
-            "zh": "這位教授花了一個多小時詳細闡述他的經濟成長理論。"
-          }
+        "grammarPatterns": [
+          "expound on + noun",
+          "expound a + noun"
         ],
         "collocations": [
           {
@@ -1880,7 +2526,27 @@
             "text": "expound on a topic",
             "meaningZh": "詳論一個主題"
           }
+        ],
+        "examples": [
+          {
+            "en": "The professor expounded on his theory of economic growth for over an hour.",
+            "zh": "這位教授花了一個多小時詳細闡述他的經濟成長理論。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "elaborate",
+        "noteZh": "詳細闡述"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "exposition",
+        "partOfSpeech": "noun",
+        "meaningZh": "闡述；解說"
       }
     ],
     "tags": [
@@ -1894,14 +2560,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "elaborate",
-        "noteZh": "詳細闡述"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_expulsion",
@@ -1915,14 +2574,16 @@
       {
         "id": "s_expulsion_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the act of officially forcing someone to leave a school, organization, or country",
         "definitionZh": "開除；驅逐（正式行動）",
         "usageExplanationZh": "常見 expulsion from school，指依規定或程序將某人正式除名或驅離。",
-        "examples": [
-          {
-            "en": "His violent behavior led to his expulsion from the university.",
-            "zh": "他的暴力行為導致他被大學開除。"
-          }
+        "grammarPatterns": [
+          "expulsion from + noun",
+          "face expulsion"
         ],
         "collocations": [
           {
@@ -1933,7 +2594,32 @@
             "text": "the expulsion of diplomats",
             "meaningZh": "驅逐外交官"
           }
+        ],
+        "examples": [
+          {
+            "en": "His violent behavior led to his expulsion from the university.",
+            "zh": "他的暴力行為導致他被大學開除。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "ejection",
+        "noteZh": "逐出"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "admission",
+        "noteZh": "准入；入學"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "expel",
+        "partOfSpeech": "verb",
+        "meaningZh": "開除；驅逐"
       }
     ],
     "tags": [
@@ -1947,19 +2633,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "ejection",
-        "noteZh": "逐出"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "admission",
-        "noteZh": "准入；入學"
-      }
-    ]
+    }
   },
   {
     "id": "w_exquisite",
@@ -1973,14 +2647,16 @@
       {
         "id": "s_exquisite_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "extremely beautiful, delicate, or finely made",
         "definitionZh": "精緻的；優美的",
         "usageExplanationZh": "常修飾 craftsmanship、detail、beauty，強調工藝或美感極為細膩、令人讚嘆。",
-        "examples": [
-          {
-            "en": "The dress was made with exquisite lace detailing.",
-            "zh": "這件洋裝以精緻的蕾絲細節製成。"
-          }
+        "grammarPatterns": [
+          "an exquisite + noun",
+          "of exquisite + noun"
         ],
         "collocations": [
           {
@@ -1991,7 +2667,27 @@
             "text": "exquisite detail",
             "meaningZh": "精緻的細節"
           }
+        ],
+        "examples": [
+          {
+            "en": "The dress was made with exquisite lace detailing.",
+            "zh": "這件洋裝以精緻的蕾絲細節製成。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "beautiful",
+        "noteZh": "精美的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "exquisitely",
+        "partOfSpeech": "adverb",
+        "meaningZh": "精緻地；極其"
       }
     ],
     "tags": [
@@ -2006,14 +2702,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "beautiful",
-        "noteZh": "精美的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_extant",
@@ -2027,14 +2716,16 @@
       {
         "id": "s_extant_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "still in existence; not destroyed or lost",
         "definitionZh": "現存的；尚存的",
         "usageExplanationZh": "正式書面用語，常修飾 manuscript、species，強調某物歷經時間仍然存在，多見於學術或歷史文本。",
-        "examples": [
-          {
-            "en": "This is the oldest extant manuscript of the poem.",
-            "zh": "這是這首詩現存最古老的手稿。"
-          }
+        "grammarPatterns": [
+          "the oldest extant + noun",
+          "extant + plural noun"
         ],
         "collocations": [
           {
@@ -2045,7 +2736,25 @@
             "text": "the oldest extant example",
             "meaningZh": "現存最古老的實例"
           }
+        ],
+        "examples": [
+          {
+            "en": "This is the oldest extant manuscript of the poem.",
+            "zh": "這是這首詩現存最古老的手稿。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "surviving",
+        "noteZh": "仍然留存的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "extinct",
+        "noteZh": "已滅絕的"
       }
     ],
     "tags": [
@@ -2059,19 +2768,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "surviving",
-        "noteZh": "仍然留存的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "extinct",
-        "noteZh": "已滅絕的"
-      }
-    ]
+    }
   },
   {
     "id": "w_extension",
@@ -2085,14 +2782,16 @@
       {
         "id": "s_extension_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "an additional period of time, or an added part that makes something longer or larger",
         "definitionZh": "延長；延期；擴建部分",
         "usageExplanationZh": "常見 a deadline extension（延期）、a house extension（房屋擴建），也可指電話分機（phone extension）。",
-        "examples": [
-          {
-            "en": "She requested a two-week extension on her thesis deadline.",
-            "zh": "她申請將論文繳交期限延長兩週。"
-          }
+        "grammarPatterns": [
+          "an extension on + noun",
+          "request an extension"
         ],
         "collocations": [
           {
@@ -2103,7 +2802,37 @@
             "text": "a house extension",
             "meaningZh": "房屋擴建部分"
           }
+        ],
+        "examples": [
+          {
+            "en": "She requested a two-week extension on her thesis deadline.",
+            "zh": "她申請將論文繳交期限延長兩週。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "prolongation",
+        "noteZh": "指時間的延長"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "extend",
+        "partOfSpeech": "verb",
+        "meaningZh": "延長；擴展"
+      },
+      {
+        "lemma": "extensive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "廣泛的"
+      },
+      {
+        "lemma": "extensively",
+        "partOfSpeech": "adverb",
+        "meaningZh": "廣泛地"
       }
     ],
     "tags": [
@@ -2117,14 +2846,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "prolongation",
-        "noteZh": "指時間的延長"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_extensive",
@@ -2138,14 +2860,16 @@
       {
         "id": "s_extensive_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "covering a large area, or involving a great amount or detail",
         "definitionZh": "廣泛的；大範圍的",
         "usageExplanationZh": "常修飾 damage、research、network，強調規模、範圍或程度相當大。",
-        "examples": [
-          {
-            "en": "The flood caused extensive damage to the town.",
-            "zh": "這場洪水對小鎮造成了廣泛的破壞。"
-          }
+        "grammarPatterns": [
+          "extensive + noun",
+          "cause extensive damage"
         ],
         "collocations": [
           {
@@ -2156,7 +2880,42 @@
             "text": "extensive damage",
             "meaningZh": "大範圍損害"
           }
+        ],
+        "examples": [
+          {
+            "en": "The flood caused extensive damage to the town.",
+            "zh": "這場洪水對小鎮造成了廣泛的破壞。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "wide-ranging",
+        "noteZh": "涉及範圍廣泛的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "limited",
+        "noteZh": "範圍有限的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "extend",
+        "partOfSpeech": "verb",
+        "meaningZh": "延伸；延長"
+      },
+      {
+        "lemma": "extension",
+        "partOfSpeech": "noun",
+        "meaningZh": "延長；擴建部分"
+      },
+      {
+        "lemma": "extensively",
+        "partOfSpeech": "adverb",
+        "meaningZh": "廣泛地"
       }
     ],
     "tags": [
@@ -2170,19 +2929,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "wide-ranging",
-        "noteZh": "涉及範圍廣泛的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "limited",
-        "noteZh": "範圍有限的"
-      }
-    ]
+    }
   },
   {
     "id": "w_external",
@@ -2196,33 +2943,43 @@
       {
         "id": "s_external_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "an outward appearance or an external circumstance, usually used in the plural",
         "definitionZh": "外表；外在因素（複數形式）",
         "usageExplanationZh": "通常以複數 externals 出現，指表面或外在的事物，日常對話較少見，多用於書面對比內在與外在。",
-        "examples": [
-          {
-            "en": "One should not judge a person by mere externals.",
-            "zh": "不應該僅憑外表來評斷一個人。"
-          }
+        "grammarPatterns": [
+          "judge sb by externals",
+          "mere externals"
         ],
         "collocations": [
           {
             "text": "judge by externals",
             "meaningZh": "憑外表判斷"
           }
+        ],
+        "examples": [
+          {
+            "en": "One should not judge a person by mere externals.",
+            "zh": "不應該僅憑外表來評斷一個人。"
+          }
         ]
       },
       {
         "id": "s_external_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "coming from or existing outside a particular place, person, or organization",
         "definitionZh": "外部的；外在的",
         "usageExplanationZh": "常見 external factors/pressure，與 internal（內部的）相對，強調來源或影響來自組織或個體之外。",
-        "examples": [
-          {
-            "en": "The company's growth was largely driven by external factors.",
-            "zh": "這家公司的成長主要是受到外部因素驅動。"
-          }
+        "grammarPatterns": [
+          "external + plural noun",
+          "be external to + noun"
         ],
         "collocations": [
           {
@@ -2233,7 +2990,37 @@
             "text": "external use only",
             "meaningZh": "僅限外用"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company's growth was largely driven by external factors.",
+            "zh": "這家公司的成長主要是受到外部因素驅動。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "outward",
+        "noteZh": "指外在的形容詞義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "internal",
+        "noteZh": "內部的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "externally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "在外部地"
+      },
+      {
+        "lemma": "externalize",
+        "partOfSpeech": "verb",
+        "meaningZh": "使外在化；表露於外"
       }
     ],
     "tags": [
@@ -2247,19 +3034,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "outward",
-        "noteZh": "指外在的形容詞義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "internal",
-        "noteZh": "內部的"
-      }
-    ]
+    }
   },
   {
     "id": "w_extinct",
@@ -2273,14 +3048,16 @@
       {
         "id": "s_extinct_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "(of a species) no longer existing; having died out completely",
         "definitionZh": "滅絕的",
         "usageExplanationZh": "常見 an extinct species/volcano，指物種完全消失不復存在，也可用於火山（不再活動）。",
-        "examples": [
-          {
-            "en": "The dodo bird has been extinct for centuries.",
-            "zh": "渡渡鳥已經滅絕好幾個世紀了。"
-          }
+        "grammarPatterns": [
+          "become extinct",
+          "an extinct + noun"
         ],
         "collocations": [
           {
@@ -2291,7 +3068,32 @@
             "text": "an extinct species",
             "meaningZh": "已滅絕的物種"
           }
+        ],
+        "examples": [
+          {
+            "en": "The dodo bird has been extinct for centuries.",
+            "zh": "渡渡鳥已經滅絕好幾個世紀了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "died out",
+        "noteZh": "指物種已滅絕"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "extant",
+        "noteZh": "現存的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "extinction",
+        "partOfSpeech": "noun",
+        "meaningZh": "滅絕"
       }
     ],
     "tags": [
@@ -2306,19 +3108,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "died out",
-        "noteZh": "指物種已滅絕"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "extant",
-        "noteZh": "現存的"
-      }
-    ]
+    }
   },
   {
     "id": "w_extinction",
@@ -2332,14 +3122,16 @@
       {
         "id": "s_extinction_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "the state or process of a species dying out completely",
         "definitionZh": "滅絕（狀態或過程）",
         "usageExplanationZh": "常見 on the brink of extinction，指物種瀕臨或已經完全消失。",
-        "examples": [
-          {
-            "en": "Conservationists are working to prevent the species' extinction.",
-            "zh": "保育人士正努力防止這個物種滅絕。"
-          }
+        "grammarPatterns": [
+          "the extinction of + noun",
+          "face extinction"
         ],
         "collocations": [
           {
@@ -2350,7 +3142,27 @@
             "text": "mass extinction",
             "meaningZh": "大規模滅絕"
           }
+        ],
+        "examples": [
+          {
+            "en": "Conservationists are working to prevent the species' extinction.",
+            "zh": "保育人士正努力防止這個物種滅絕。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "disappearance",
+        "noteZh": "指物種消失"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "extinct",
+        "partOfSpeech": "adjective",
+        "meaningZh": "滅絕的"
       }
     ],
     "tags": [
@@ -2364,14 +3176,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "disappearance",
-        "noteZh": "指物種消失"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_extol",
@@ -2385,21 +3190,41 @@
       {
         "id": "s_extol_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to praise someone or something enthusiastically",
         "definitionZh": "讚揚；歌頌",
         "usageExplanationZh": "正式書面用語，常見 extol the virtues/benefits of，語氣比 praise 更強烈、正式。",
-        "examples": [
-          {
-            "en": "The reviewer extolled the virtues of the new restaurant.",
-            "zh": "這位評論家熱情讚揚了這家新餐廳的優點。"
-          }
+        "grammarPatterns": [
+          "extol + noun",
+          "extol the virtues of + noun"
         ],
         "collocations": [
           {
             "text": "extol the virtues of",
             "meaningZh": "讚揚……的優點"
           }
+        ],
+        "examples": [
+          {
+            "en": "The reviewer extolled the virtues of the new restaurant.",
+            "zh": "這位評論家熱情讚揚了這家新餐廳的優點。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "praise",
+        "noteZh": "讚美"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "denigrate",
+        "noteZh": "貶低；詆毀"
       }
     ],
     "tags": [
@@ -2413,19 +3238,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "praise",
-        "noteZh": "讚美"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "denigrate",
-        "noteZh": "貶低；詆毀"
-      }
-    ]
+    }
   },
   {
     "id": "w_extraordinary",
@@ -2439,14 +3252,15 @@
       {
         "id": "s_extraordinary_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "very unusual or remarkable, especially in a way that is impressive",
         "definitionZh": "非凡的；不尋常的",
         "usageExplanationZh": "常修飾 talent、achievement、circumstances，強調程度遠超一般，帶有正面驚嘆的語氣。",
-        "examples": [
-          {
-            "en": "She showed extraordinary courage during the crisis.",
-            "zh": "她在這場危機中展現出非凡的勇氣。"
-          }
+        "grammarPatterns": [
+          "an extraordinary + noun",
+          "it is extraordinary that + clause"
         ],
         "collocations": [
           {
@@ -2457,7 +3271,37 @@
             "text": "extraordinary circumstances",
             "meaningZh": "特殊情況"
           }
+        ],
+        "examples": [
+          {
+            "en": "She showed extraordinary courage during the crisis.",
+            "zh": "她在這場危機中展現出非凡的勇氣。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "remarkable",
+        "noteZh": "非凡而引人注意的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "ordinary",
+        "noteZh": "普通的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "extraordinarily",
+        "partOfSpeech": "adverb",
+        "meaningZh": "非凡地；異常地"
+      },
+      {
+        "lemma": "ordinary",
+        "partOfSpeech": "adjective",
+        "meaningZh": "普通的；平凡的"
       }
     ],
     "tags": [
@@ -2470,19 +3314,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "remarkable",
-        "noteZh": "非凡而引人注意的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "ordinary",
-        "noteZh": "普通的"
-      }
-    ]
+    }
   },
   {
     "id": "w_extrapolate",
@@ -2496,14 +3328,17 @@
       {
         "id": "s_extrapolate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "to estimate or predict something by extending known information or data",
         "definitionZh": "推斷；外推（依據已知資料）",
         "usageExplanationZh": "常見於統計或研究語境，如 extrapolate from the data，指依據現有資訊推論未知的結果或趨勢。",
-        "examples": [
-          {
-            "en": "Researchers extrapolated future trends from the survey data.",
-            "zh": "研究人員根據調查數據推斷未來的趨勢。"
-          }
+        "grammarPatterns": [
+          "extrapolate + noun",
+          "extrapolate sth from sth",
+          "extrapolate from + noun"
         ],
         "collocations": [
           {
@@ -2514,7 +3349,27 @@
             "text": "extrapolate trends",
             "meaningZh": "外推趨勢"
           }
+        ],
+        "examples": [
+          {
+            "en": "Researchers extrapolated future trends from the survey data.",
+            "zh": "研究人員根據調查數據推斷未來的趨勢。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "infer",
+        "noteZh": "根據資料推論"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "extrapolation",
+        "partOfSpeech": "noun",
+        "meaningZh": "外推；依據已知資料的推斷"
       }
     ],
     "tags": [
@@ -2527,14 +3382,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "infer",
-        "noteZh": "根據資料推論"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_extravagance",
@@ -2548,14 +3396,15 @@
       {
         "id": "s_extravagance_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "excessive or unnecessary spending of money, or an instance of this",
         "definitionZh": "奢侈；浪費（金錢）",
         "usageExplanationZh": "常見 a life of extravagance，指過度或不必要的花費，帶有輕微負面意味。",
-        "examples": [
-          {
-            "en": "Critics accused the mayor of extravagance in the city's renovation project.",
-            "zh": "批評者指責市長在這項城市翻新計畫中揮霍無度。"
-          }
+        "grammarPatterns": [
+          "the extravagance of + noun",
+          "accuse sb of extravagance"
         ],
         "collocations": [
           {
@@ -2566,7 +3415,37 @@
             "text": "an unnecessary extravagance",
             "meaningZh": "不必要的奢侈開銷"
           }
+        ],
+        "examples": [
+          {
+            "en": "Critics accused the mayor of extravagance in the city's renovation project.",
+            "zh": "批評者指責市長在這項城市翻新計畫中揮霍無度。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "lavishness",
+        "noteZh": "奢華鋪張"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "frugality",
+        "noteZh": "節儉"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "extravagant",
+        "partOfSpeech": "adjective",
+        "meaningZh": "奢侈的；揮霍的"
+      },
+      {
+        "lemma": "extravagantly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "奢侈地；揮霍地"
       }
     ],
     "tags": [
@@ -2579,19 +3458,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "lavishness",
-        "noteZh": "奢華鋪張"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "frugality",
-        "noteZh": "節儉"
-      }
-    ]
+    }
   },
   {
     "id": "w_extricate",
@@ -2605,14 +3472,15 @@
       {
         "id": "s_extricate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to free someone or oneself from a difficult or complicated situation",
         "definitionZh": "使脫離（困境）；解救",
         "usageExplanationZh": "常見 extricate oneself from，也可指實際上把人從危險物理狀況中救出，如卡住的車禍現場。",
-        "examples": [
-          {
-            "en": "It took hours to extricate the driver from the wreckage.",
-            "zh": "花了好幾個小時才把司機從殘骸中救出。"
-          }
+        "grammarPatterns": [
+          "extricate sb/sth from + noun",
+          "extricate oneself from + noun"
         ],
         "collocations": [
           {
@@ -2623,7 +3491,37 @@
             "text": "extricate someone from the wreckage",
             "meaningZh": "把某人從殘骸中救出"
           }
+        ],
+        "examples": [
+          {
+            "en": "It took hours to extricate the driver from the wreckage.",
+            "zh": "花了好幾個小時才把司機從殘骸中救出。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "free",
+        "noteZh": "使擺脫束縛"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "entangle",
+        "noteZh": "使陷入糾纏"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "extrication",
+        "partOfSpeech": "noun",
+        "meaningZh": "脫離；解救"
+      },
+      {
+        "lemma": "inextricable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "無法擺脫的；糾纏不清的"
       }
     ],
     "tags": [
@@ -2637,19 +3535,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "free",
-        "noteZh": "使擺脫束縛"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "entangle",
-        "noteZh": "使陷入糾纏"
-      }
-    ]
+    }
   },
   {
     "id": "w_exuberance",
@@ -2663,14 +3549,16 @@
       {
         "id": "s_exuberance_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "the quality of being full of energy, enthusiasm, and excitement",
         "definitionZh": "熱情洋溢；活力充沛",
         "usageExplanationZh": "常見 youthful exuberance，強調充滿朝氣與熱忱的表現。",
-        "examples": [
-          {
-            "en": "The children greeted the news with youthful exuberance.",
-            "zh": "孩子們以充滿朝氣的熱情迎接這個消息。"
-          }
+        "grammarPatterns": [
+          "the exuberance of + noun",
+          "with + adjective + exuberance"
         ],
         "collocations": [
           {
@@ -2681,7 +3569,37 @@
             "text": "irrational exuberance",
             "meaningZh": "非理性繁榮或過度樂觀"
           }
+        ],
+        "examples": [
+          {
+            "en": "The children greeted the news with youthful exuberance.",
+            "zh": "孩子們以充滿朝氣的熱情迎接這個消息。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "enthusiasm",
+        "noteZh": "熱情洋溢"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "apathy",
+        "noteZh": "冷漠；缺乏熱情"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "exuberant",
+        "partOfSpeech": "adjective",
+        "meaningZh": "熱情洋溢的；興高采烈的"
+      },
+      {
+        "lemma": "exuberantly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "興高采烈地"
       }
     ],
     "tags": [
@@ -2694,19 +3612,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "enthusiasm",
-        "noteZh": "熱情洋溢"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "apathy",
-        "noteZh": "冷漠；缺乏熱情"
-      }
-    ]
+    }
   },
   {
     "id": "w_exuberant",
@@ -2720,14 +3626,16 @@
       {
         "id": "s_exuberant_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "full of energy, enthusiasm, and excitement",
         "definitionZh": "熱情洋溢的；興高采烈的",
         "usageExplanationZh": "常修飾 crowd、mood、welcome，強調外顯的活力與興奮之情。",
-        "examples": [
-          {
-            "en": "The team received an exuberant welcome from their fans.",
-            "zh": "這支球隊受到球迷們熱情洋溢的歡迎。"
-          }
+        "grammarPatterns": [
+          "an exuberant + noun",
+          "be exuberant about + noun"
         ],
         "collocations": [
           {
@@ -2738,7 +3646,37 @@
             "text": "exuberant celebrations",
             "meaningZh": "熱鬧歡騰的慶祝活動"
           }
+        ],
+        "examples": [
+          {
+            "en": "The team received an exuberant welcome from their fans.",
+            "zh": "這支球隊受到球迷們熱情洋溢的歡迎。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "ebullient",
+        "noteZh": "興高采烈的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "subdued",
+        "noteZh": "情緒低落而內斂的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "exuberance",
+        "partOfSpeech": "noun",
+        "meaningZh": "熱情洋溢；活力充沛"
+      },
+      {
+        "lemma": "exuberantly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "興高采烈地"
       }
     ],
     "tags": [
@@ -2753,19 +3691,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "ebullient",
-        "noteZh": "興高采烈的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "subdued",
-        "noteZh": "情緒低落而內斂的"
-      }
-    ]
+    }
   },
   {
     "id": "w_exude",
@@ -2779,14 +3705,17 @@
       {
         "id": "s_exude_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to clearly display a quality or feeling, or to release a liquid or smell gradually",
         "definitionZh": "散發出（特質、情感）；滲出（液體或氣味）",
         "usageExplanationZh": "常見 exude confidence/charm，也可用於實際物質滲出，如 exude sweat。",
-        "examples": [
-          {
-            "en": "The new manager exudes confidence in every meeting.",
-            "zh": "這位新任經理在每次會議中都散發出自信。"
-          }
+        "grammarPatterns": [
+          "exude + noun",
+          "exude confidence/charm",
+          "sth exudes from + noun"
         ],
         "collocations": [
           {
@@ -2797,7 +3726,31 @@
             "text": "exude an aroma",
             "meaningZh": "散發香氣"
           }
+        ],
+        "examples": [
+          {
+            "en": "The new manager exudes confidence in every meeting.",
+            "zh": "這位新任經理在每次會議中都散發出自信。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "radiate",
+        "noteZh": "指散發情感或特質"
+      },
+      {
+        "lemma": "ooze",
+        "noteZh": "指緩緩滲出液體"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "exudation",
+        "partOfSpeech": "noun",
+        "meaningZh": "滲出；滲出物"
       }
     ],
     "tags": [
@@ -2811,18 +3764,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "radiate",
-        "noteZh": "指散發情感或特質"
-      },
-      {
-        "lemma": "ooze",
-        "noteZh": "指緩緩滲出液體"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_fabric",
@@ -2836,14 +3778,17 @@
       {
         "id": "s_fabric_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "cloth produced by weaving or knitting fibers, or the basic structure of something",
         "definitionZh": "布料；織物；（社會或結構的）構造",
         "usageExplanationZh": "常見具體用法（cotton fabric），也可比喻性地指基本架構，如 the fabric of society（社會結構）。",
-        "examples": [
-          {
-            "en": "The dress is made from a soft, lightweight fabric.",
-            "zh": "這件洋裝是用柔軟輕盈的布料製成的。"
-          }
+        "grammarPatterns": [
+          "a + adjective + fabric",
+          "the fabric of + noun",
+          "be made of/from + noun + fabric"
         ],
         "collocations": [
           {
@@ -2854,7 +3799,32 @@
             "text": "the fabric of society",
             "meaningZh": "社會結構"
           }
+        ],
+        "examples": [
+          {
+            "en": "The dress is made from a soft, lightweight fabric.",
+            "zh": "這件洋裝是用柔軟輕盈的布料製成的。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "cloth",
+        "noteZh": "指布料"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "fabricate",
+        "partOfSpeech": "verb",
+        "meaningZh": "製造；捏造"
+      },
+      {
+        "lemma": "fabrication",
+        "partOfSpeech": "noun",
+        "meaningZh": "製造；捏造之詞"
       }
     ],
     "tags": [
@@ -2869,14 +3839,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cloth",
-        "noteZh": "指布料"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_fabulous",
@@ -2890,14 +3853,16 @@
       {
         "id": "s_fabulous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "extremely good or impressive, or (in older usage) resembling a fable and hard to believe",
         "definitionZh": "極好的；棒極了的；（舊義）神話般的、難以置信的",
         "usageExplanationZh": "日常口語常用來表示「很棒」，如 a fabulous time；較正式或文學用法則指近乎神話、難以置信的事物。",
-        "examples": [
-          {
-            "en": "We had a fabulous time at the beach last weekend.",
-            "zh": "我們上週末在海灘玩得非常開心。"
-          }
+        "grammarPatterns": [
+          "a fabulous + noun",
+          "look/sound fabulous"
         ],
         "collocations": [
           {
@@ -2908,7 +3873,37 @@
             "text": "a fabulous creature",
             "meaningZh": "神話中的生物"
           }
+        ],
+        "examples": [
+          {
+            "en": "We had a fabulous time at the beach last weekend.",
+            "zh": "我們上週末在海灘玩得非常開心。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "wonderful",
+        "noteZh": "極棒的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "awful",
+        "noteZh": "很糟的（與極好義相對）"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "fable",
+        "partOfSpeech": "noun",
+        "meaningZh": "寓言；神話故事"
+      },
+      {
+        "lemma": "fabulously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "極好地；驚人地"
       }
     ],
     "tags": [
@@ -2922,18 +3917,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "wonderful",
-        "noteZh": "極棒的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "awful",
-        "noteZh": "很糟的（與極好義相對）"
-      }
-    ]
+    }
   }
 ]

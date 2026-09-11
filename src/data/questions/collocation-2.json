@@ -4,21 +4,22 @@
     "type": "collocation",
     "cefr": "B2",
     "wordIds": ["w_assess"],
-    "prompt": "Which combination is the most natural?",
+    "prompt": "Which verb takes \"the impact\" as its object in regulatory English?",
+    "context": "The regulator has asked the bank to ____ the impact of the proposed fee structure on customers who currently hold more than one account.",
     "options": [
-      { "id": "a", "text": "assess the impact of the change" },
-      { "id": "b", "text": "assess the weight of the change" },
-      { "id": "c", "text": "assess the volume of the change" },
-      { "id": "d", "text": "assess the height of the change" }
+      { "id": "a", "text": "arbitrate" },
+      { "id": "b", "text": "assess" },
+      { "id": "c", "text": "adjudicate" },
+      { "id": "d", "text": "deliberate" }
     ],
-    "correctOptionId": "a",
-    "explanation": "assess the impact 是商務與工程寫作中最高頻的搭配之一。",
+    "correctOptionId": "b",
+    "explanation": "assess the impact 是商務、工程與政策寫作中最高頻的搭配之一，assess 的意思是「仔細判斷某事物的性質、品質或規模」，所以它也接 assess the risk，名詞形是 a risk assessment。其餘三個都是正式的「評斷」動詞，但它們評斷的一律是「爭議」而不是「影響」。",
     "distractorExplanations": {
-      "b": "weight 指實體重量，不用來衡量變更的效應。",
-      "c": "volume 指數量或音量，與變更造成的影響無關。",
-      "d": "height 是高度，完全不適用於抽象的變更。"
+      "a": "arbitrate 是「以仲裁者身分在兩造之間裁決」：arbitrate a dispute、arbitrate between the union and management。它需要對立的雙方，影響評估沒有對造。",
+      "c": "adjudicate 是「依規則判定某項請求成立與否」：adjudicate a claim、adjudicate a competition。它的產出是一個是非判決，而不是一份影響分析。",
+      "d": "deliberate 當動詞是不及物的「審慎討論」，必須加介系詞：the jury deliberated for six hours、deliberate on a proposal，不能直接接受詞。"
     },
-    "difficulty": 2,
+    "difficulty": 3,
     "tags": ["collocation", "business"],
     "source": "curated"
   },
@@ -27,21 +28,22 @@
     "type": "collocation",
     "cefr": "B2",
     "wordIds": ["w_emphasis"],
-    "prompt": "Which phrase is correct?",
+    "prompt": "Which verb combines with \"emphasis on\"?",
+    "context": "The revised curriculum ____ particular emphasis on collaborative problem-solving, at the expense of the individual written assignments that dominated the old syllabus.",
     "options": [
-      { "id": "a", "text": "place emphasis on code quality" },
-      { "id": "b", "text": "place emphasis in code quality" },
-      { "id": "c", "text": "place emphasis to code quality" },
-      { "id": "d", "text": "place emphasis for code quality" }
+      { "id": "a", "text": "sets" },
+      { "id": "b", "text": "attaches" },
+      { "id": "c", "text": "places" },
+      { "id": "d", "text": "applies" }
     ],
-    "correctOptionId": "a",
-    "explanation": "emphasis 固定搭配介系詞 on：place / put emphasis on something。",
+    "correctOptionId": "c",
+    "explanation": "emphasis 的固定句型是 place／put emphasis on something，介系詞一律用 on。place 在這裡取的是「把重量放到某一邊」的意象，因此重點轉移就說 a shift in emphasis。另一個常見變體是 with an emphasis on + 名詞。注意四個選項都是「放置」類動詞，但英文只授權 place 與 put。",
     "distractorExplanations": {
-      "b": "in 不與 emphasis 搭配。",
-      "c": "to 不與 emphasis 搭配。",
-      "d": "for 不與 emphasis 搭配。"
+      "a": "set 的受詞是可以被訂立的標的：set a target、set a deadline、set a precedent。emphasis 是分配出去的注意力，不是被訂下來的數值。",
+      "b": "attach 的確與抽象名詞連用，但固定組合是 attach importance to something，介系詞是 to；英文沒有 attach emphasis 的說法。",
+      "d": "apply 用於把某種規則或物質施加到對象上：apply a rule、apply pressure、apply a filter。用在 emphasis 上只會讓人想到排版加粗。"
     },
-    "difficulty": 2,
+    "difficulty": 3,
     "tags": ["collocation", "preposition"],
     "source": "curated"
   },
@@ -50,20 +52,20 @@
     "type": "collocation",
     "cefr": "C1",
     "wordIds": ["w_precedent"],
-    "prompt": "Which verb goes with \"precedent\"?",
-    "context": "Approving this exception would ____ a precedent.",
+    "prompt": "Which verb goes with \"a precedent\"?",
+    "context": "Granting this exception would ____ a precedent that the committee might find very difficult to resist when the next department submits a similar request.",
     "options": [
-      { "id": "a", "text": "set" },
-      { "id": "b", "text": "make" },
-      { "id": "c", "text": "build" },
-      { "id": "d", "text": "place" }
+      { "id": "a", "text": "found" },
+      { "id": "b", "text": "institute" },
+      { "id": "c", "text": "lay" },
+      { "id": "d", "text": "set" }
     ],
-    "correctOptionId": "a",
-    "explanation": "set a precedent 是固定搭配，意思是「開先例」。",
+    "correctOptionId": "d",
+    "explanation": "set a precedent 是固定搭配，意思是「開先例」，常與 dangerous、worrying 等形容詞連用：set a dangerous precedent。相關說法還有 follow precedent（循例）與 there is no precedent for（史無前例）。四個選項都表示「創立」，但先例是被「擺在那裡供後人參照」的，所以英文只用 set。",
     "distractorExplanations": {
-      "b": "make 不與 precedent 形成慣用搭配。",
-      "c": "build 用於建造具體或抽象結構，不用於先例。",
-      "d": "place 用於 place emphasis，不用於 precedent。"
+      "a": "found 的受詞是機構或組織：found a company、found a university、found a movement。先例不是一個有實體的機構。",
+      "b": "institute 指「正式啟動一套程序或政策」：institute proceedings、institute a ban、institute reforms。它啟動的是規則本身，而先例是規則被套用後留下的參照。",
+      "c": "lay 與抽象名詞的固定組合是 lay the foundations／lay the groundwork／lay blame，沒有 lay a precedent 這個說法。"
     },
     "difficulty": 3,
     "tags": ["collocation", "business"],
@@ -74,22 +76,22 @@
     "type": "collocation",
     "cefr": "C1",
     "wordIds": ["w_threshold"],
-    "prompt": "Which verb collocates with \"threshold\"?",
-    "context": "The alert fires when the error rate ____ the threshold.",
+    "prompt": "Which verb collocates with \"the threshold\"?",
+    "context": "The alert is configured to fire only when the five-minute error rate ____ the threshold on three consecutive polling intervals, which suppresses most transient spikes.",
     "options": [
       { "id": "a", "text": "exceeds" },
-      { "id": "b", "text": "overtakes" },
-      { "id": "c", "text": "overcomes" },
-      { "id": "d", "text": "outgrows" }
+      { "id": "b", "text": "transcends" },
+      { "id": "c", "text": "outstrips" },
+      { "id": "d", "text": "surpasses" }
     ],
     "correctOptionId": "a",
-    "explanation": "exceed / cross a threshold 是監控語境中的標準搭配。",
+    "explanation": "exceed a threshold（或 cross a threshold）是監控與統計語境的標準搭配，因為 exceed 專門用於「數值超過某條界線」：exceed the limit、exceed the budget、exceed expectations。相關搭配還有 set a threshold at、below the threshold、a low threshold for。其餘三個動詞都表示「超越」，但都不是用來比對數值與門檻的。",
     "distractorExplanations": {
-      "b": "overtake 是「超車、趕過（某人）」，用於競爭對象而非數值門檻。",
-      "c": "overcome 是「克服（困難）」，門檻不是要被克服的對象。",
-      "d": "outgrow 是「長大到不再適合」，語意不符。"
+      "b": "transcend 指「超脫到更高的層次」：transcend cultural boundaries、transcend the limits of language。它帶有哲學意味，不能用來描述錯誤率越線。",
+      "c": "outstrip 用於兩個成長中的量互相拉開差距：demand outstripped supply、costs outstripped revenue。門檻是靜止的定值，沒有可以被拉開的競賽關係。",
+      "d": "surpass 用於超越紀錄或他人的表現：surpass a record、surpass all expectations、surpass its rivals。它帶有「表現更優秀」的褒義，而超過門檻通常是警訊。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": ["collocation", "monitoring"],
     "source": "curated"
   },
@@ -98,21 +100,22 @@
     "type": "collocation",
     "cefr": "C1",
     "wordIds": ["w_empirical"],
-    "prompt": "Which combination is standard in research writing?",
+    "prompt": "Which adjective modifies \"evidence\" in research writing?",
+    "context": "The claim is intuitively appealing, but after two decades of fieldwork there is still surprisingly little ____ evidence that the intervention changes behaviour.",
     "options": [
-      { "id": "a", "text": "empirical evidence" },
-      { "id": "b", "text": "empirical opinion" },
-      { "id": "c", "text": "empirical belief" },
-      { "id": "d", "text": "empirical guess" }
+      { "id": "a", "text": "experiential" },
+      { "id": "b", "text": "practical" },
+      { "id": "c", "text": "empirical" },
+      { "id": "d", "text": "pragmatic" }
     ],
-    "correctOptionId": "a",
-    "explanation": "empirical evidence（實證證據）是學術寫作中的固定搭配，指來自觀測或量測的證據。",
+    "correctOptionId": "c",
+    "explanation": "empirical evidence（實證證據）是學術寫作的固定術語，指來自觀察或量測、而非來自理論推導的證據，正好與句中的 intuitively appealing 形成對比。同組搭配還有 an empirical study、empirical data、purely empirical。四個選項都與「實際經驗」有關，但只有 empirical 是研究方法學上的正式用語。",
     "distractorExplanations": {
-      "b": "opinion 是個人看法，依定義就不是實證得來的。",
-      "c": "belief 是信念，與觀測資料相對。",
-      "d": "guess 是猜測，與 empirical 的嚴謹意涵矛盾。"
+      "a": "experiential 指「透過親身經歷去學習的」，幾乎只出現在 experiential learning 這個教育術語中，強調的是個人主觀體驗，正是實證研究要排除的東西。",
+      "b": "practical 的反義是 theoretical，指「實際可行、用得上的」：practical advice、practical difficulties。證據不分好不好用，只分是否來自觀測。",
+      "d": "pragmatic 形容處事態度務實：a pragmatic approach、be pragmatic about costs。它評價的是人的決策風格，不能拿來形容證據的來源。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": ["collocation", "research"],
     "source": "curated"
   },
@@ -121,21 +124,22 @@
     "type": "collocation",
     "cefr": "C1",
     "wordIds": ["w_pragmatic"],
-    "prompt": "Which phrase is idiomatic?",
+    "prompt": "Which verb combines with \"a pragmatic approach\"?",
+    "context": "Faced with a fixed launch date and an incomplete specification, the team ____ a pragmatic approach and shipped only the two features customers had actually asked for.",
     "options": [
-      { "id": "a", "text": "take a pragmatic approach" },
-      { "id": "b", "text": "make a pragmatic approach" },
-      { "id": "c", "text": "do a pragmatic approach" },
-      { "id": "d", "text": "hold a pragmatic approach" }
+      { "id": "a", "text": "entertained" },
+      { "id": "b", "text": "exercised" },
+      { "id": "c", "text": "assumed" },
+      { "id": "d", "text": "took" }
     ],
-    "correctOptionId": "a",
-    "explanation": "take an approach 是固定搭配，pragmatic 只是修飾語。",
+    "correctOptionId": "d",
+    "explanation": "take an approach 是固定搭配（較正式時也可說 adopt an approach），pragmatic 只是修飾語：take a pragmatic approach to something。這是英文所謂「輕動詞」搭配的典型例子——動詞本身幾乎沒有意義，全靠慣例決定，因此無法靠語意推理，只能記住。相關的還有 be pragmatic about、a pragmatic compromise。",
     "distractorExplanations": {
-      "b": "英文不說 make an approach（除非指靠近某物的動作）。",
-      "c": "do an approach 不是英文搭配。",
-      "d": "hold 用於 hold a view / hold a position，不用於 approach。"
+      "a": "entertain 與抽象名詞連用時指「願意考慮」：entertain an idea、entertain the possibility、entertain a proposal。它表示還在考慮階段，與句中已經出貨的事實矛盾。",
+      "b": "exercise 的受詞是可以「行使」的權力或美德：exercise caution、exercise judgement、exercise restraint、exercise the right to。approach 不是一項可以行使的權能。",
+      "c": "assume 與「姿態」類名詞連用：assume a role、assume responsibility、assume a defensive stance。approach 指的是做事的方法路線，不是擺出來的姿態。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": ["collocation", "business"],
     "source": "curated"
   },
@@ -144,21 +148,22 @@
     "type": "collocation",
     "cefr": "C1",
     "wordIds": ["w_facilitate"],
-    "prompt": "Which noun collocates with \"facilitate\"?",
+    "prompt": "Which verb takes \"discussion\" as its object?",
+    "context": "An external moderator was brought in to ____ discussion between the two departments, since every previous meeting had ended without a single agreed action point.",
     "options": [
-      { "id": "a", "text": "facilitate discussion" },
-      { "id": "b", "text": "facilitate the manager" },
-      { "id": "c", "text": "facilitate a laptop" },
-      { "id": "d", "text": "facilitate a deadline" }
+      { "id": "a", "text": "facilitate" },
+      { "id": "b", "text": "precipitate" },
+      { "id": "c", "text": "expedite" },
+      { "id": "d", "text": "catalyse" }
     ],
     "correctOptionId": "a",
-    "explanation": "facilitate 的受詞必須是過程或活動；discussion 是最典型的搭配。",
+    "explanation": "facilitate discussion 是職場與研究場合的標準搭配。facilitate 的定義是「讓一個過程更容易發生，但自己不代為執行」，這正好說明主持人的角色，所以 facilitator 就是「引導者」。同組搭配還有 facilitate collaboration、facilitate a workshop。四個選項都表示「讓事情更快或更容易發生」，差別在於各自要求的受詞類型。",
     "distractorExplanations": {
-      "b": "facilitate 的受詞不能是人。要說「使某人能夠做某事」請用 enable somebody to do。",
-      "c": "laptop 是實體物品，不是可以被促進的過程。",
-      "d": "deadline 通常用 set 或 meet，不會被 facilitate。"
+      "b": "precipitate 指「突然引發一件壞事」：precipitate a crisis、precipitate a sell-off、precipitate the collapse。用它會變成主持人把會議搞砸了。",
+      "c": "expedite 指「加快既有流程的速度」：expedite a shipment、expedite an application、expedite the approval process。它處理的是速度，而這裡的問題是雙方談不攏，不是談得太慢。",
+      "d": "catalyse 指「作為觸媒引發一連串變化」：catalyse change、catalyse a reaction。它強調的是一次性的引爆，而不是全程陪著把討論帶順。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": ["collocation", "business"],
     "source": "curated"
   },
@@ -167,22 +172,22 @@
     "type": "collocation",
     "cefr": "C1",
     "wordIds": ["w_bias"],
-    "prompt": "Which preposition follows \"bias\" here?",
-    "context": "Our sample has a clear bias ____ power users.",
+    "prompt": "Which adjective modifies \"bias\" as a methodological term?",
+    "context": "Because the survey was distributed only through the product newsletter, the results carry a ____ bias towards users who already engage with the brand daily.",
     "options": [
-      { "id": "a", "text": "towards" },
-      { "id": "b", "text": "onto" },
-      { "id": "c", "text": "into" },
-      { "id": "d", "text": "over" }
+      { "id": "a", "text": "methodical" },
+      { "id": "b", "text": "systematic" },
+      { "id": "c", "text": "orderly" },
+      { "id": "d", "text": "routine" }
     ],
-    "correctOptionId": "a",
-    "explanation": "bias 搭配 towards（偏向）或 against（不利於），此處是偏向重度使用者。",
+    "correctOptionId": "b",
+    "explanation": "systematic bias 是研究方法學的固定術語，指「每次都朝同一方向偏、不會靠增加樣本數抵銷掉」的偏誤，與隨機誤差相對。bias 的介系詞則是 towards（偏向）或 against（不利於）。其餘三個選項都來自「有條理」這個語意場，很容易被誤選，但它們形容的是人做事的方式，而不是誤差的結構性質。",
     "distractorExplanations": {
-      "b": "onto 表示移動到某表面，與偏誤方向無關。",
-      "c": "into 表示進入，不與 bias 搭配。",
-      "d": "over 用於 preference over，不用於 bias。"
+      "a": "methodical 形容人做事一步一步不遺漏：a methodical researcher、a methodical search。偏誤不是一個有意識按步驟工作的行為者。",
+      "c": "orderly 形容場面整齊有秩序：an orderly queue、an orderly transition、an orderly withdrawal。它描述外在的秩序，與統計性質無關。",
+      "d": "routine 指「例行的、每次照做的」：a routine inspection、routine maintenance。它強調頻率固定，卻沒有 systematic 所指的「朝同一方向持續偏移」。"
     },
-    "difficulty": 3,
+    "difficulty": 4,
     "tags": ["collocation", "preposition"],
     "source": "curated"
   },
@@ -191,19 +196,20 @@
     "type": "collocation",
     "cefr": "C1",
     "wordIds": ["w_legitimate"],
-    "prompt": "Which phrase would you use to acknowledge someone's point politely?",
+    "prompt": "Which adjective pairs with \"concern\" when conceding a point?",
+    "context": "Rather than dismissing the objection outright, the project lead acknowledged it as a ____ concern and added a rollback plan to the deployment checklist.",
     "options": [
-      { "id": "a", "text": "That is a legitimate concern." },
-      { "id": "b", "text": "That is a legitimate complaint." },
-      { "id": "c", "text": "That is a legitimate accusation." },
-      { "id": "d", "text": "That is a legitimate objection to reject." }
+      { "id": "a", "text": "rightful" },
+      { "id": "b", "text": "lawful" },
+      { "id": "c", "text": "legitimate" },
+      { "id": "d", "text": "licit" }
     ],
-    "correctOptionId": "a",
-    "explanation": "a legitimate concern 是職場中承認對方顧慮合情合理的標準說法，語氣得體。",
+    "correctOptionId": "c",
+    "explanation": "a legitimate concern 是職場上承認對方顧慮「合情合理、站得住腳」的標準說法。關鍵在於 legitimate 有兩層意思：除了「合法的」之外，還有更常用的「有正當理由的」，而只有這一層能修飾 concern、question、use case、traffic 這類名詞。其餘三個選項都只保留了狹義的「合法」，因此配不上顧慮。",
     "distractorExplanations": {
-      "b": "complaint 帶有抱怨的意味，語氣不如 concern 中性。",
-      "c": "accusation 是「指控」，語氣過重，會讓討論升溫。",
-      "d": "句子自相矛盾：既承認正當又說要駁回。"
+      "a": "rightful 指「依法擁有所有權或頭銜的」：the rightful owner、the rightful heir、the rightful place。它修飾的是人或位置的歸屬，不是想法是否有道理。",
+      "b": "lawful 是純粹的法律判定，指不違反法規：a lawful order、lawful arrest、lawful residence。一項顧慮無所謂違不違法。",
+      "d": "licit 是 illicit 的正式反義詞，幾乎只出現在 licit drugs、licit trade 這類與非法買賣對舉的語境，日常職場英文不會用它。"
     },
     "difficulty": 4,
     "tags": ["collocation", "workplace"],
@@ -214,21 +220,22 @@
     "type": "collocation",
     "cefr": "C2",
     "wordIds": ["w_untenable"],
-    "prompt": "Which noun most commonly follows \"untenable\"?",
+    "prompt": "Which adjective modifies \"position\" here?",
+    "context": "Once the internal memo was leaked to the press, the chief executive was left defending an ____ position and resigned before the board could even meet.",
     "options": [
-      { "id": "a", "text": "an untenable position" },
-      { "id": "b", "text": "an untenable location" },
-      { "id": "c", "text": "an untenable direction" },
-      { "id": "d", "text": "an untenable distance" }
+      { "id": "a", "text": "unworkable" },
+      { "id": "b", "text": "impracticable" },
+      { "id": "c", "text": "unfeasible" },
+      { "id": "d", "text": "untenable" }
     ],
-    "correctOptionId": "a",
-    "explanation": "an untenable position 是固定搭配，指「守不住的立場或處境」。",
+    "correctOptionId": "d",
+    "explanation": "an untenable position 是固定搭配。untenable 源自軍事用語 tenable（守得住的），所以它專門搭配可以「防守」的東西：position、argument、claim。句中的 defending 正好呼應這個意象。其餘三個選項都表示「行不通」，但它們評斷的是計畫能不能執行，而不是立場守不守得住。",
     "distractorExplanations": {
-      "b": "location 是實際地點，untenable 的抽象義不適用。",
-      "c": "direction 指方向，不與 untenable 搭配。",
-      "d": "distance 是距離，語意不符。"
+      "a": "unworkable 的受詞是具體的安排或方案：an unworkable arrangement、an unworkable compromise、an unworkable timetable。它說的是這套做法運轉不起來。",
+      "b": "impracticable 是正式的「窒礙難行」，用於 an impracticable plan、impracticable proposals，重點在於現實條件不允許執行，而立場並不是拿來執行的。",
+      "c": "unfeasible 指「達不成、做不到」，多用於 an unfeasible target、unfeasible deadlines，關注的是可行性評估，與能否在輿論壓力下守住位置無關。"
     },
-    "difficulty": 4,
+    "difficulty": 5,
     "tags": ["collocation", "argument"],
     "source": "curated"
   },
@@ -237,21 +244,22 @@
     "type": "collocation",
     "cefr": "C2",
     "wordIds": ["w_tacit"],
-    "prompt": "Which combination is standard?",
+    "prompt": "Which adjective combines with \"agreement\" to mean an unspoken one?",
+    "context": "There was a ____ agreement among the senior engineers that nobody would deploy on a Friday afternoon, though no such rule appeared in any written policy.",
     "options": [
-      { "id": "a", "text": "a tacit agreement" },
-      { "id": "b", "text": "a tacit contract" },
-      { "id": "c", "text": "a tacit signature" },
-      { "id": "d", "text": "a tacit announcement" }
+      { "id": "a", "text": "tacit" },
+      { "id": "b", "text": "taciturn" },
+      { "id": "c", "text": "reticent" },
+      { "id": "d", "text": "mute" }
     ],
     "correctOptionId": "a",
-    "explanation": "tacit agreement（默契）是固定搭配，指未明說卻共同遵守的共識。",
+    "explanation": "tacit agreement（默契）是固定搭配，指未經明說卻共同遵守的共識，同組還有 tacit approval 與知識管理上的 tacit knowledge（內隱知識）。關鍵區別在於：tacit 形容的是「事情本身沒有被說出口」，而其餘三個選項全部形容「人不愛說話」，主詞必須是人，因此都不能修飾 agreement。",
     "distractorExplanations": {
-      "b": "contract 依定義需要明示條款，與 tacit 矛盾。",
-      "c": "signature 是具體的簽名動作，不可能是默示的。",
-      "d": "announcement 是公開宣告，與「未說出口」直接衝突。"
+      "b": "taciturn 形容一個人天性寡言：a taciturn colleague、taciturn by nature。它描述人的性格，共識沒有性格可言。",
+      "c": "reticent 形容某人在特定話題上有所保留，而且要接介系詞：reticent about his past。它同樣以人為主詞，也不能直接修飾名詞 agreement。",
+      "d": "mute 指「無法或選擇不發出聲音」：a mute appeal、fall mute、the mute button。它談的是聲音的有無，而默契的重點是內容未被明文化。"
     },
-    "difficulty": 4,
+    "difficulty": 5,
     "tags": ["collocation", "workplace"],
     "source": "curated"
   },
@@ -260,19 +268,20 @@
     "type": "collocation",
     "cefr": "C2",
     "wordIds": ["w_spurious"],
-    "prompt": "Which phrase is the standard statistical term?",
+    "prompt": "Which adjective forms the standard statistical term with \"correlation\"?",
+    "context": "Once the researchers controlled for household income, the apparently strong relationship between the two variables turned out to be a ____ correlation.",
     "options": [
-      { "id": "a", "text": "a spurious correlation" },
-      { "id": "b", "text": "a spurious coincidence" },
-      { "id": "c", "text": "a spurious connection" },
-      { "id": "d", "text": "a spurious comparison" }
+      { "id": "a", "text": "counterfeit" },
+      { "id": "b", "text": "spurious" },
+      { "id": "c", "text": "fraudulent" },
+      { "id": "d", "text": "bogus" }
     ],
-    "correctOptionId": "a",
-    "explanation": "a spurious correlation（偽相關）是統計學的固定術語，指看似相關實則由第三因素造成。",
+    "correctOptionId": "b",
+    "explanation": "a spurious correlation（偽相關）是統計學的專有術語，指兩個變項看似相關，實際上是被第三個變項同時牽動的結果——句中的 controlled for household income 正是揭穿它的標準做法。spurious 的獨特之處在於它不指控任何人造假，只說「這個結果不是真的」，因此也用於 spurious errors、a spurious claim。",
     "distractorExplanations": {
-      "b": "coincidence 本身就是「巧合」，加上 spurious 便顯得贅餘。",
-      "c": "connection 語意可通，但不是統計學的標準術語。",
-      "d": "comparison 是「比較」，不是統計關聯的名稱。"
+      "a": "counterfeit 專指仿冒的實體物品：counterfeit banknotes、counterfeit goods、counterfeit passports。相關係數不是可以被仿製的物件。",
+      "c": "fraudulent 指出於欺騙意圖的不法行為：a fraudulent claim、fraudulent transactions。偽相關是研究者自己也被誤導的統計假象，沒有人在行騙。",
+      "d": "bogus 是偏口語的「假的、唬人的」：a bogus company、a bogus phone call。它的語域太隨便，不會出現在統計方法的正式術語中。"
     },
     "difficulty": 4,
     "tags": ["collocation", "statistics"],
@@ -283,21 +292,22 @@
     "type": "collocation",
     "cefr": "C2",
     "wordIds": ["w_innocuous"],
-    "prompt": "Which adverb most naturally precedes \"innocuous\" in an incident report?",
+    "prompt": "Which adverb precedes \"innocuous\" in an incident report?",
+    "context": "The outage was eventually traced to a ____ innocuous configuration change that had been reviewed, approved and deployed without anyone querying its blast radius.",
     "options": [
-      { "id": "a", "text": "seemingly innocuous" },
-      { "id": "b", "text": "extremely innocuous" },
-      { "id": "c", "text": "densely innocuous" },
-      { "id": "d", "text": "roughly innocuous" }
+      { "id": "a", "text": "manifestly" },
+      { "id": "b", "text": "evidently" },
+      { "id": "c", "text": "seemingly" },
+      { "id": "d", "text": "visibly" }
     ],
-    "correctOptionId": "a",
-    "explanation": "seemingly innocuous 是事故敘述的經典開場，預告「看似無害的事其實闖了大禍」。",
+    "correctOptionId": "c",
+    "explanation": "seemingly innocuous 是事故報告的經典開場，因為 seemingly 專門用來「表面上如此，實際上並非如此」，剛好為後面的災難埋下伏筆；同義的 apparently innocuous 也很常見。其餘三個副詞雖然同樣屬於「看起來」這個語意場，卻都在「斷定事情確實如此」，與句子後半的轉折互相牴觸。",
     "distractorExplanations": {
-      "b": "extremely 與 innocuous 搭配很不自然，也失去了伏筆效果。",
-      "c": "densely 用於密度，不能修飾 innocuous。",
-      "d": "roughly 表示「大約」，語意不符。"
+      "a": "manifestly 是強力的斷言，意思是「顯而易見地確實如此」：manifestly unfair、manifestly false。用了它就等於作者保證這項變更真的無害，但整句正在說它造成了停機。",
+      "b": "evidently 表示「根據證據可以判定」，同樣是在確認事實：he was evidently annoyed。它缺少 seemingly 那層「但事實不然」的暗示。",
+      "d": "visibly 指「肉眼可以看見地」，修飾的是外顯的生理或物理跡象：visibly shaken、visibly upset。無害與否不是看得見的狀態。"
     },
-    "difficulty": 4,
+    "difficulty": 3,
     "tags": ["collocation", "engineering"],
     "source": "curated"
   },
@@ -306,21 +316,22 @@
     "type": "collocation",
     "cefr": "C2",
     "wordIds": ["w_cogent"],
-    "prompt": "Which noun does \"cogent\" most naturally modify?",
+    "prompt": "Which noun does \"cogent\" modify?",
+    "context": "The minority opinion runs to barely two pages, yet its cogent ____ has since been cited approvingly in three separate appellate rulings.",
     "options": [
-      { "id": "a", "text": "a cogent argument" },
-      { "id": "b", "text": "a cogent colour" },
-      { "id": "c", "text": "a cogent distance" },
-      { "id": "d", "text": "a cogent appetite" }
+      { "id": "a", "text": "sentiment" },
+      { "id": "b", "text": "conviction" },
+      { "id": "c", "text": "intuition" },
+      { "id": "d", "text": "reasoning" }
     ],
-    "correctOptionId": "a",
-    "explanation": "cogent 專門稱讚推理的品質，因此幾乎只修飾 argument、case、reason 這類名詞。",
+    "correctOptionId": "d",
+    "explanation": "cogent 專門稱讚「推理過程嚴密因而具說服力」，所以它只修飾看得見論證步驟的名詞：cogent reasoning、a cogent argument、a cogent explanation。其餘三個選項都是心智內容，但它們指的是「結論或直覺」而不是「推導過程」——沒有步驟可檢視，自然無從評斷是否嚴密。",
     "distractorExplanations": {
-      "b": "colour 沒有推理可言，無法被評價為論理嚴密。",
-      "c": "distance 是量度，與說服力無關。",
-      "d": "appetite 是食慾，語意完全不符。"
+      "a": "sentiment 指一種普遍的情緒或看法：public sentiment、a noble sentiment。情緒可以真摯或強烈，卻不能被評為論理嚴密。",
+      "b": "conviction 指「堅定的信念」，強調的是相信的強度：a deep conviction、speak with conviction。信得多堅定與推理多嚴密是兩回事。",
+      "c": "intuition 依定義就是「跳過推理直接得到的判斷」：trust your intuition、a good intuition for。既然沒有推理步驟，就與 cogent 的意思直接矛盾。"
     },
-    "difficulty": 4,
+    "difficulty": 3,
     "tags": ["collocation", "argument"],
     "source": "curated"
   }

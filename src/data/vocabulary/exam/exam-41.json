@@ -11,14 +11,15 @@
       {
         "id": "s_intact_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "not damaged or broken; complete",
         "definitionZh": "完好無損的；未受損的",
         "usageExplanationZh": "常見 remain intact（保持完好），強調沒有經歷破壞或遺失部分，語氣中性。",
-        "examples": [
-          {
-            "en": "Despite the crash, the package arrived intact.",
-            "zh": "儘管發生了車禍，這個包裹依然完好無損地送達。"
-          }
+        "grammarPatterns": [
+          "remain intact",
+          "arrive intact"
         ],
         "collocations": [
           {
@@ -29,22 +30,15 @@
             "text": "leave something intact",
             "meaningZh": "使某物保持原狀"
           }
+        ],
+        "examples": [
+          {
+            "en": "Despite the crash, the package arrived intact.",
+            "zh": "儘管發生了車禍，這個包裹依然完好無損地送達。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "undamaged",
@@ -60,7 +54,20 @@
         "lemma": "damaged",
         "noteZh": "受損的"
       }
-    ]
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_intangible",
@@ -74,14 +81,16 @@
       {
         "id": "s_intangible_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "unable to be touched or physically grasped, or difficult to define precisely",
         "definitionZh": "無形的；難以捉摸的",
         "usageExplanationZh": "常見 intangible assets（無形資產，商業用語）；也可形容難以言喻的特質，如 an intangible quality。",
-        "examples": [
-          {
-            "en": "Brand reputation is an important intangible asset for the company.",
-            "zh": "品牌聲譽是這家公司重要的無形資產。"
-          }
+        "grammarPatterns": [
+          "an intangible + noun",
+          "intangible assets"
         ],
         "collocations": [
           {
@@ -92,20 +101,15 @@
             "text": "intangible benefits",
             "meaningZh": "無形的好處"
           }
+        ],
+        "examples": [
+          {
+            "en": "Brand reputation is an important intangible asset for the company.",
+            "zh": "品牌聲譽是這家公司重要的無形資產。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "impalpable",
@@ -121,7 +125,25 @@
         "lemma": "tangible",
         "noteZh": "有形可觸的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "tangible",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有形的"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_integral",
@@ -135,33 +157,43 @@
       {
         "id": "s_integral_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "necessary and important as a part of a whole",
         "definitionZh": "不可或缺的；構成整體必要部分的",
         "usageExplanationZh": "常接 to，如 integral to the success of the project（對這項專案的成功不可或缺）。",
-        "examples": [
-          {
-            "en": "Trust is integral to any successful relationship.",
-            "zh": "信任對任何成功的關係都是不可或缺的。"
-          }
+        "grammarPatterns": [
+          "be integral to + noun",
+          "an integral part of + noun"
         ],
         "collocations": [
           {
             "text": "an integral part of",
             "meaningZh": "……不可或缺的一部分"
           }
+        ],
+        "examples": [
+          {
+            "en": "Trust is integral to any successful relationship.",
+            "zh": "信任對任何成功的關係都是不可或缺的。"
+          }
         ]
       },
       {
         "id": "s_integral_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a mathematical function related to the summing of infinitesimal parts",
         "definitionZh": "積分（數學用語）",
         "usageExplanationZh": "數學用語，指微積分中的積分運算，較少見於一般日常語境。",
-        "examples": [
-          {
-            "en": "Students learn to calculate integrals in advanced calculus.",
-            "zh": "學生在進階微積分課程中學習計算積分。"
-          }
+        "grammarPatterns": [
+          "calculate an integral",
+          "the integral of + noun"
         ],
         "collocations": [
           {
@@ -172,22 +204,15 @@
             "text": "evaluate an integral",
             "meaningZh": "計算積分"
           }
+        ],
+        "examples": [
+          {
+            "en": "Students learn to calculate integrals in advanced calculus.",
+            "zh": "學生在進階微積分課程中學習計算積分。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "essential",
@@ -203,39 +228,17 @@
         "lemma": "inessential",
         "noteZh": "形容詞，非必要的"
       }
-    ]
-  },
-  {
-    "id": "w_integrate",
-    "lemma": "integrate",
-    "slug": "integrate",
-    "cefr": "B2",
-    "pronunciation": {
-      "kk": "/ˈɪntəˌgret/"
-    },
-    "senses": [
+    ],
+    "wordFamily": [
       {
-        "id": "s_integrate_verb",
+        "lemma": "integrate",
         "partOfSpeech": "verb",
-        "definitionEn": "to combine two or more things so that they work together as a whole, or to become part of a larger group",
-        "definitionZh": "使結合；使融入（群體）",
-        "usageExplanationZh": "常見 integrate into society（融入社會）、integrate data from multiple sources。",
-        "examples": [
-          {
-            "en": "New employees are given training to help them integrate into the company culture.",
-            "zh": "新員工會接受培訓，幫助他們融入公司文化。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "integrate into society",
-            "meaningZh": "融入社會"
-          },
-          {
-            "text": "integrate theory with practice",
-            "meaningZh": "結合理論與實務"
-          }
-        ]
+        "meaningZh": "整合"
+      },
+      {
+        "lemma": "integrally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "不可或缺地"
       }
     ],
     "tags": [
@@ -250,7 +253,50 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
+    }
+  },
+  {
+    "id": "w_integrate",
+    "lemma": "integrate",
+    "slug": "integrate",
+    "cefr": "B2",
+    "pronunciation": {
+      "kk": "/ˈɪntəˌgret/"
     },
+    "senses": [
+      {
+        "id": "s_integrate_verb",
+        "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
+        "definitionEn": "to combine two or more things so that they work together as a whole, or to become part of a larger group",
+        "definitionZh": "使結合；使融入（群體）",
+        "usageExplanationZh": "常見 integrate into society（融入社會）、integrate data from multiple sources。",
+        "grammarPatterns": [
+          "integrate A into B",
+          "integrate with + noun",
+          "integrate A and B"
+        ],
+        "collocations": [
+          {
+            "text": "integrate into society",
+            "meaningZh": "融入社會"
+          },
+          {
+            "text": "integrate theory with practice",
+            "meaningZh": "結合理論與實務"
+          }
+        ],
+        "examples": [
+          {
+            "en": "New employees are given training to help them integrate into the company culture.",
+            "zh": "新員工會接受培訓，幫助他們融入公司文化。"
+          }
+        ]
+      }
+    ],
     "synonyms": [
       {
         "lemma": "combine",
@@ -270,39 +316,17 @@
         "lemma": "separate",
         "noteZh": "分開"
       }
-    ]
-  },
-  {
-    "id": "w_integrity",
-    "lemma": "integrity",
-    "slug": "integrity",
-    "cefr": "B2",
-    "pronunciation": {
-      "kk": "/ˌɪnˈtɛgrəti/"
-    },
-    "senses": [
+    ],
+    "wordFamily": [
       {
-        "id": "s_integrity_noun",
+        "lemma": "integration",
         "partOfSpeech": "noun",
-        "definitionEn": "the quality of being honest and having strong moral principles, or the state of being whole and undivided",
-        "definitionZh": "正直；誠信；完整性",
-        "usageExplanationZh": "常見 act with integrity（正直行事）；也可指結構上的完整，如 structural integrity。",
-        "examples": [
-          {
-            "en": "She is known for her honesty and integrity in business dealings.",
-            "zh": "她在商業往來中以誠實正直聞名。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "personal integrity",
-            "meaningZh": "個人操守"
-          },
-          {
-            "text": "structural integrity",
-            "meaningZh": "結構完整性"
-          }
-        ]
+        "meaningZh": "整合"
+      },
+      {
+        "lemma": "integral",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不可或缺的"
       }
     ],
     "tags": [
@@ -317,7 +341,49 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
+    }
+  },
+  {
+    "id": "w_integrity",
+    "lemma": "integrity",
+    "slug": "integrity",
+    "cefr": "B2",
+    "pronunciation": {
+      "kk": "/ˌɪnˈtɛgrəti/"
     },
+    "senses": [
+      {
+        "id": "s_integrity_noun",
+        "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
+        "definitionEn": "the quality of being honest and having strong moral principles, or the state of being whole and undivided",
+        "definitionZh": "正直；誠信；完整性",
+        "usageExplanationZh": "常見 act with integrity（正直行事）；也可指結構上的完整，如 structural integrity。",
+        "grammarPatterns": [
+          "a person of integrity",
+          "the integrity of + noun"
+        ],
+        "collocations": [
+          {
+            "text": "personal integrity",
+            "meaningZh": "個人操守"
+          },
+          {
+            "text": "structural integrity",
+            "meaningZh": "結構完整性"
+          }
+        ],
+        "examples": [
+          {
+            "en": "She is known for her honesty and integrity in business dealings.",
+            "zh": "她在商業往來中以誠實正直聞名。"
+          }
+        ]
+      }
+    ],
     "synonyms": [
       {
         "lemma": "honesty",
@@ -333,54 +399,12 @@
         "lemma": "dishonesty",
         "noteZh": "不誠實"
       }
-    ]
-  },
-  {
-    "id": "w_intellectual",
-    "lemma": "intellectual",
-    "slug": "intellectual",
-    "cefr": "B2",
-    "pronunciation": {
-      "kk": "/ˌɪntəˈlɛktʃuəl/"
-    },
-    "senses": [
+    ],
+    "wordFamily": [
       {
-        "id": "s_intellectual_adjective",
+        "lemma": "integral",
         "partOfSpeech": "adjective",
-        "definitionEn": "relating to the ability to think and reason, rather than physical or emotional",
-        "definitionZh": "智力的；理智的",
-        "usageExplanationZh": "常見 intellectual property（智慧財產權）、intellectual curiosity（求知欲）。",
-        "examples": [
-          {
-            "en": "The debate was a stimulating intellectual exercise.",
-            "zh": "這場辯論是一次令人腦力激盪的智識活動。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "intellectual curiosity",
-            "meaningZh": "求知慾"
-          }
-        ]
-      },
-      {
-        "id": "s_intellectual_noun",
-        "partOfSpeech": "noun",
-        "definitionEn": "a person who values and engages in the pursuit of knowledge and ideas",
-        "definitionZh": "知識分子",
-        "usageExplanationZh": "常見於描述學者或思想家，語氣中性偏正面，強調對知識和思想的重視。",
-        "examples": [
-          {
-            "en": "The café was a popular gathering place for intellectuals and artists.",
-            "zh": "這家咖啡館是知識分子和藝術家喜愛聚集的地方。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "a public intellectual",
-            "meaningZh": "公共知識分子"
-          }
-        ]
+        "meaningZh": "完整的；不可或缺的"
       }
     ],
     "tags": [
@@ -395,7 +419,72 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
+    }
+  },
+  {
+    "id": "w_intellectual",
+    "lemma": "intellectual",
+    "slug": "intellectual",
+    "cefr": "B2",
+    "pronunciation": {
+      "kk": "/ˌɪntəˈlɛktʃuəl/"
     },
+    "senses": [
+      {
+        "id": "s_intellectual_adjective",
+        "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "formal"
+        ],
+        "definitionEn": "relating to the ability to think and reason, rather than physical or emotional",
+        "definitionZh": "智力的；理智的",
+        "usageExplanationZh": "常見 intellectual property（智慧財產權）、intellectual curiosity（求知欲）。",
+        "grammarPatterns": [
+          "intellectual + noun",
+          "an intellectual approach to + noun"
+        ],
+        "collocations": [
+          {
+            "text": "intellectual curiosity",
+            "meaningZh": "求知慾"
+          }
+        ],
+        "examples": [
+          {
+            "en": "The debate was a stimulating intellectual exercise.",
+            "zh": "這場辯論是一次令人腦力激盪的智識活動。"
+          }
+        ]
+      },
+      {
+        "id": "s_intellectual_noun",
+        "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
+        "definitionEn": "a person who values and engages in the pursuit of knowledge and ideas",
+        "definitionZh": "知識分子",
+        "usageExplanationZh": "常見於描述學者或思想家，語氣中性偏正面，強調對知識和思想的重視。",
+        "grammarPatterns": [
+          "a leading intellectual",
+          "a public intellectual"
+        ],
+        "collocations": [
+          {
+            "text": "a public intellectual",
+            "meaningZh": "公共知識分子"
+          }
+        ],
+        "examples": [
+          {
+            "en": "The café was a popular gathering place for intellectuals and artists.",
+            "zh": "這家咖啡館是知識分子和藝術家喜愛聚集的地方。"
+          }
+        ]
+      }
+    ],
     "synonyms": [
       {
         "lemma": "mental",
@@ -411,7 +500,32 @@
         "lemma": "physical",
         "noteZh": "對應身體的而非智力的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "intellect",
+        "partOfSpeech": "noun",
+        "meaningZh": "智力"
+      },
+      {
+        "lemma": "intellectually",
+        "partOfSpeech": "adverb",
+        "meaningZh": "智力上"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_intelligent",
@@ -425,14 +539,15 @@
       {
         "id": "s_intelligent_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "having or showing a high level of understanding, reasoning, or mental capacity",
         "definitionZh": "聰明的；有智慧的",
         "usageExplanationZh": "常修飾人或動物，如 an intelligent student；也可用於機器，如 artificial intelligent systems（此處常見 intelligent 修飾系統）。",
-        "examples": [
-          {
-            "en": "Dolphins are considered highly intelligent animals.",
-            "zh": "海豚被認為是高度聰明的動物。"
-          }
+        "grammarPatterns": [
+          "a highly intelligent + noun",
+          "be intelligent enough to + V"
         ],
         "collocations": [
           {
@@ -443,21 +558,15 @@
             "text": "intelligent decision",
             "meaningZh": "明智的決定"
           }
+        ],
+        "examples": [
+          {
+            "en": "Dolphins are considered highly intelligent animals.",
+            "zh": "海豚被認為是高度聰明的動物。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "clever",
@@ -473,7 +582,31 @@
         "lemma": "unintelligent",
         "noteZh": "缺乏智力的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "intelligence",
+        "partOfSpeech": "noun",
+        "meaningZh": "智力"
+      },
+      {
+        "lemma": "intelligently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "聰明地"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_intelligible",
@@ -487,14 +620,16 @@
       {
         "id": "s_intelligible_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "able to be understood; clear",
         "definitionZh": "可理解的；清晰易懂的",
         "usageExplanationZh": "常接 to，如 intelligible to a general audience（一般大眾都能理解），與 unintelligible（無法理解的）相對。",
-        "examples": [
-          {
-            "en": "His explanation was finally intelligible to the students.",
-            "zh": "他的解釋終於讓學生們都能理解了。"
-          }
+        "grammarPatterns": [
+          "be intelligible to sb",
+          "barely intelligible"
         ],
         "collocations": [
           {
@@ -505,22 +640,15 @@
             "text": "barely intelligible",
             "meaningZh": "幾乎聽不懂的"
           }
+        ],
+        "examples": [
+          {
+            "en": "His explanation was finally intelligible to the students.",
+            "zh": "他的解釋終於讓學生們都能理解了。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "understandable",
@@ -536,7 +664,32 @@
         "lemma": "unintelligible",
         "noteZh": "無法理解的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "intelligibility",
+        "partOfSpeech": "noun",
+        "meaningZh": "可理解性"
+      },
+      {
+        "lemma": "unintelligible",
+        "partOfSpeech": "adjective",
+        "meaningZh": "難以理解的"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_intense",
@@ -550,14 +703,15 @@
       {
         "id": "s_intense_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "very strong or extreme in degree or quality",
         "definitionZh": "強烈的；劇烈的",
         "usageExplanationZh": "常修飾 emotion、pressure、heat 等，如 intense heat（酷熱），語氣強烈。",
-        "examples": [
-          {
-            "en": "She felt an intense sense of relief when the test results came back negative.",
-            "zh": "當檢測結果呈陰性時，她感到一種強烈的如釋重負。"
-          }
+        "grammarPatterns": [
+          "an intense + noun",
+          "an intense sense of + noun"
         ],
         "collocations": [
           {
@@ -568,21 +722,15 @@
             "text": "intense pain",
             "meaningZh": "劇痛"
           }
+        ],
+        "examples": [
+          {
+            "en": "She felt an intense sense of relief when the test results came back negative.",
+            "zh": "當檢測結果呈陰性時，她感到一種強烈的如釋重負。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "extreme",
@@ -598,7 +746,36 @@
         "lemma": "mild",
         "noteZh": "輕微的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "intensity",
+        "partOfSpeech": "noun",
+        "meaningZh": "強度"
+      },
+      {
+        "lemma": "intensify",
+        "partOfSpeech": "verb",
+        "meaningZh": "加劇"
+      },
+      {
+        "lemma": "intensely",
+        "partOfSpeech": "adverb",
+        "meaningZh": "強烈地"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_intensify",
@@ -612,14 +789,16 @@
       {
         "id": "s_intensify_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to become or make something more intense or extreme",
         "definitionZh": "（使）加劇；（使）增強",
         "usageExplanationZh": "常接抽象名詞，如 intensify efforts（加強努力），語氣正式。",
-        "examples": [
-          {
-            "en": "The government intensified its efforts to combat inflation.",
-            "zh": "政府加強了對抗通膨的力度。"
-          }
+        "grammarPatterns": [
+          "intensify + noun",
+          "intensify one's efforts to + V"
         ],
         "collocations": [
           {
@@ -630,22 +809,15 @@
             "text": "the conflict intensifies",
             "meaningZh": "衝突加劇"
           }
+        ],
+        "examples": [
+          {
+            "en": "The government intensified its efforts to combat inflation.",
+            "zh": "政府加強了對抗通膨的力度。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "heighten",
@@ -665,92 +837,17 @@
         "lemma": "weaken",
         "noteZh": "削弱"
       }
-    ]
-  },
-  {
-    "id": "w_intensive",
-    "lemma": "intensive",
-    "slug": "intensive",
-    "cefr": "B2",
-    "pronunciation": {
-      "kk": "/ˌɪnˈtɛnsɪv/"
-    },
-    "senses": [
+    ],
+    "wordFamily": [
       {
-        "id": "s_intensive_adjective",
+        "lemma": "intense",
         "partOfSpeech": "adjective",
-        "definitionEn": "involving a great deal of concentrated effort or resources in a short time",
-        "definitionZh": "密集的；精深的",
-        "usageExplanationZh": "常見 an intensive course（密集課程）、intensive care（加護病房）。",
-        "examples": [
-          {
-            "en": "She took an intensive Spanish course over the summer.",
-            "zh": "她在暑假上了一門密集的西班牙語課程。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "intensive care",
-            "meaningZh": "加護照護"
-          },
-          {
-            "text": "intensive training",
-            "meaningZh": "密集訓練"
-          }
-        ]
-      }
-    ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
-    "synonyms": [
+        "meaningZh": "強烈的"
+      },
       {
-      "lemma": "concentrated",
-      "noteZh": "集中投入的"
-    }
-  ],
-    "antonyms": []
-  },
-  {
-    "id": "w_intent",
-    "lemma": "intent",
-    "slug": "intent",
-    "cefr": "B2",
-    "pronunciation": {
-      "kk": "/ˌɪnˈtɛnt/"
-    },
-    "senses": [
-      {
-        "id": "s_intent_noun",
+        "lemma": "intensity",
         "partOfSpeech": "noun",
-        "definitionEn": "an aim or purpose, or the state of mind that must accompany certain criminal acts",
-        "definitionZh": "意圖；目的；（法律上的）犯意",
-        "usageExplanationZh": "常見 with intent to（帶有……的意圖），法律語境常用於描述蓄意犯罪的心理狀態。",
-        "examples": [
-          {
-            "en": "He was charged with assault with intent to harm.",
-            "zh": "他被控傷害罪並帶有傷人的意圖。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "with intent to",
-            "meaningZh": "意圖……"
-          },
-          {
-            "text": "criminal intent",
-            "meaningZh": "犯罪意圖"
-          }
-        ]
+        "meaningZh": "強度"
       }
     ],
     "tags": [
@@ -765,7 +862,122 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
+    }
+  },
+  {
+    "id": "w_intensive",
+    "lemma": "intensive",
+    "slug": "intensive",
+    "cefr": "B2",
+    "pronunciation": {
+      "kk": "/ˌɪnˈtɛnsɪv/"
     },
+    "senses": [
+      {
+        "id": "s_intensive_adjective",
+        "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "formal"
+        ],
+        "definitionEn": "involving a great deal of concentrated effort or resources in a short time",
+        "definitionZh": "密集的；精深的",
+        "usageExplanationZh": "常見 an intensive course（密集課程）、intensive care（加護病房）。",
+        "grammarPatterns": [
+          "an intensive + noun",
+          "an intensive course in + noun"
+        ],
+        "collocations": [
+          {
+            "text": "intensive care",
+            "meaningZh": "加護照護"
+          },
+          {
+            "text": "intensive training",
+            "meaningZh": "密集訓練"
+          }
+        ],
+        "examples": [
+          {
+            "en": "She took an intensive Spanish course over the summer.",
+            "zh": "她在暑假上了一門密集的西班牙語課程。"
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "concentrated",
+        "noteZh": "集中投入的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "intensively",
+        "partOfSpeech": "adverb",
+        "meaningZh": "密集地"
+      },
+      {
+        "lemma": "intense",
+        "partOfSpeech": "adjective",
+        "meaningZh": "強烈的"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
+  },
+  {
+    "id": "w_intent",
+    "lemma": "intent",
+    "slug": "intent",
+    "cefr": "B2",
+    "pronunciation": {
+      "kk": "/ˌɪnˈtɛnt/"
+    },
+    "senses": [
+      {
+        "id": "s_intent_noun",
+        "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
+        "definitionEn": "an aim or purpose, or the state of mind that must accompany certain criminal acts",
+        "definitionZh": "意圖；目的；（法律上的）犯意",
+        "usageExplanationZh": "常見 with intent to（帶有……的意圖），法律語境常用於描述蓄意犯罪的心理狀態。",
+        "grammarPatterns": [
+          "with intent to + V",
+          "the intent of + noun"
+        ],
+        "collocations": [
+          {
+            "text": "with intent to",
+            "meaningZh": "意圖……"
+          },
+          {
+            "text": "criminal intent",
+            "meaningZh": "犯罪意圖"
+          }
+        ],
+        "examples": [
+          {
+            "en": "He was charged with assault with intent to harm.",
+            "zh": "他被控傷害罪並帶有傷人的意圖。"
+          }
+        ]
+      }
+    ],
     "synonyms": [
       {
         "lemma": "intention",
@@ -776,7 +988,37 @@
         "noteZh": "目的"
       }
     ],
-    "antonyms": []
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "intention",
+        "partOfSpeech": "noun",
+        "meaningZh": "意圖"
+      },
+      {
+        "lemma": "intentional",
+        "partOfSpeech": "adjective",
+        "meaningZh": "故意的"
+      },
+      {
+        "lemma": "intend",
+        "partOfSpeech": "verb",
+        "meaningZh": "打算"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_intentional",
@@ -790,14 +1032,15 @@
       {
         "id": "s_intentional_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "done on purpose; deliberate",
         "definitionZh": "故意的；有意的",
         "usageExplanationZh": "常見 intentional damage（故意的損害），與 accidental（意外的）相對。",
-        "examples": [
-          {
-            "en": "The judge ruled that the damage was intentional, not accidental.",
-            "zh": "法官裁定這項損害是故意的，而非意外造成。"
-          }
+        "grammarPatterns": [
+          "an intentional + noun",
+          "be intentional rather than accidental"
         ],
         "collocations": [
           {
@@ -808,20 +1051,15 @@
             "text": "intentional act",
             "meaningZh": "故意的行為"
           }
+        ],
+        "examples": [
+          {
+            "en": "The judge ruled that the damage was intentional, not accidental.",
+            "zh": "法官裁定這項損害是故意的，而非意外造成。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "deliberate",
@@ -841,7 +1079,35 @@
         "lemma": "unintentional",
         "noteZh": "無意的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "intention",
+        "partOfSpeech": "noun",
+        "meaningZh": "意圖"
+      },
+      {
+        "lemma": "intentionally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "故意地"
+      },
+      {
+        "lemma": "intend",
+        "partOfSpeech": "verb",
+        "meaningZh": "打算"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_inter",
@@ -855,14 +1121,16 @@
       {
         "id": "s_inter_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to bury a dead body in the ground or a tomb",
         "definitionZh": "埋葬（遺體）",
         "usageExplanationZh": "語氣正式書面，多用於正式葬禮或歷史文本，日常口語通常用 bury。",
-        "examples": [
-          {
-            "en": "The ancient king was interred in a grand tomb.",
-            "zh": "這位古代國王被安葬在一座宏偉的陵墓中。"
-          }
+        "grammarPatterns": [
+          "inter sb in + noun",
+          "be interred in + noun"
         ],
         "collocations": [
           {
@@ -873,20 +1141,15 @@
             "text": "be interred in a cemetery",
             "meaningZh": "安葬於墓園"
           }
+        ],
+        "examples": [
+          {
+            "en": "The ancient king was interred in a grand tomb.",
+            "zh": "這位古代國王被安葬在一座宏偉的陵墓中。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "bury",
@@ -902,7 +1165,25 @@
         "lemma": "exhume",
         "noteZh": "挖掘出遺體"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "interment",
+        "partOfSpeech": "noun",
+        "meaningZh": "埋葬"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_interact",
@@ -916,14 +1197,16 @@
       {
         "id": "s_interact_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "to communicate with or react to each other",
         "definitionZh": "互動；相互作用",
         "usageExplanationZh": "常見 interact with others（與他人互動）；科學語境也指物質間的相互作用。",
-        "examples": [
-          {
-            "en": "Children learn important social skills as they interact with their peers.",
-            "zh": "孩子們在與同儕互動的過程中學習重要的社交技能。"
-          }
+        "grammarPatterns": [
+          "interact with + noun",
+          "interact with each other"
         ],
         "collocations": [
           {
@@ -934,7 +1217,36 @@
             "text": "interact with medication",
             "meaningZh": "與藥物產生交互作用"
           }
+        ],
+        "examples": [
+          {
+            "en": "Children learn important social skills as they interact with their peers.",
+            "zh": "孩子們在與同儕互動的過程中學習重要的社交技能。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "communicate",
+        "noteZh": "交流"
+      },
+      {
+        "lemma": "engage",
+        "noteZh": "與人互動"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "interaction",
+        "partOfSpeech": "noun",
+        "meaningZh": "互動"
+      },
+      {
+        "lemma": "interactive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "互動的"
       }
     ],
     "tags": [
@@ -948,18 +1260,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "communicate",
-        "noteZh": "交流"
-      },
-      {
-        "lemma": "engage",
-        "noteZh": "與人互動"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_interaction",
@@ -973,14 +1274,17 @@
       {
         "id": "s_interaction_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "neutral"
+        ],
         "definitionEn": "communication or reaction between two or more people or things",
         "definitionZh": "互動；相互作用",
         "usageExplanationZh": "常見 social interaction（社交互動）；也可指藥物或化學物質之間的交互作用。",
-        "examples": [
-          {
-            "en": "Regular social interaction is important for mental health.",
-            "zh": "規律的社交互動對心理健康很重要。"
-          }
+        "grammarPatterns": [
+          "interaction between A and B",
+          "social interaction",
+          "interaction with + noun"
         ],
         "collocations": [
           {
@@ -991,7 +1295,36 @@
             "text": "drug interaction",
             "meaningZh": "藥物交互作用"
           }
+        ],
+        "examples": [
+          {
+            "en": "Regular social interaction is important for mental health.",
+            "zh": "規律的社交互動對心理健康很重要。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "communication",
+        "noteZh": "相互交流"
+      },
+      {
+        "lemma": "interplay",
+        "noteZh": "因素間的相互作用"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "interact",
+        "partOfSpeech": "verb",
+        "meaningZh": "互動"
+      },
+      {
+        "lemma": "interactive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "互動的"
       }
     ],
     "tags": [
@@ -1005,18 +1338,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "communication",
-        "noteZh": "相互交流"
-      },
-      {
-        "lemma": "interplay",
-        "noteZh": "因素間的相互作用"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_interactive",
@@ -1030,14 +1352,15 @@
       {
         "id": "s_interactive_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "allowing two-way communication or engagement, especially between a computer and a user",
         "definitionZh": "互動式的；可互動的",
         "usageExplanationZh": "常見 an interactive whiteboard（互動式白板）、interactive learning。",
-        "examples": [
-          {
-            "en": "The museum features an interactive exhibit for children.",
-            "zh": "這座博物館設有一個給孩子的互動式展覽。"
-          }
+        "grammarPatterns": [
+          "an interactive + noun"
         ],
         "collocations": [
           {
@@ -1048,7 +1371,42 @@
             "text": "interactive website",
             "meaningZh": "互動式網站"
           }
+        ],
+        "examples": [
+          {
+            "en": "The museum features an interactive exhibit for children.",
+            "zh": "這座博物館設有一個給孩子的互動式展覽。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "participatory",
+        "noteZh": "允許使用者參與的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "noninteractive",
+        "noteZh": "不具互動性的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "interact",
+        "partOfSpeech": "verb",
+        "meaningZh": "互動"
+      },
+      {
+        "lemma": "interaction",
+        "partOfSpeech": "noun",
+        "meaningZh": "互動"
+      },
+      {
+        "lemma": "interactively",
+        "partOfSpeech": "adverb",
+        "meaningZh": "互動地"
       }
     ],
     "tags": [
@@ -1061,19 +1419,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "participatory",
-        "noteZh": "允許使用者參與的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "noninteractive",
-        "noteZh": "不具互動性的"
-      }
-    ]
+    }
   },
   {
     "id": "w_interchangeable",
@@ -1087,14 +1433,16 @@
       {
         "id": "s_interchangeable_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "able to be exchanged or used in place of each other",
         "definitionZh": "可互換的；可通用的",
         "usageExplanationZh": "常見 use A and B interchangeably（將 A 和 B 交替使用），強調兩者功能或意義上相同。",
-        "examples": [
-          {
-            "en": "The two terms are often used interchangeably in casual speech.",
-            "zh": "這兩個詞在日常口語中經常被交替使用。"
-          }
+        "grammarPatterns": [
+          "be interchangeable with + noun",
+          "interchangeable + noun"
         ],
         "collocations": [
           {
@@ -1105,7 +1453,37 @@
             "text": "interchangeable with",
             "meaningZh": "可與……互換的"
           }
+        ],
+        "examples": [
+          {
+            "en": "The two terms are often used interchangeably in casual speech.",
+            "zh": "這兩個詞在日常口語中經常被交替使用。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "exchangeable",
+        "noteZh": "可互換的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "noninterchangeable",
+        "noteZh": "不可互換的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "interchange",
+        "partOfSpeech": "verb",
+        "meaningZh": "互換"
+      },
+      {
+        "lemma": "interchangeably",
+        "partOfSpeech": "adverb",
+        "meaningZh": "可互換地"
       }
     ],
     "tags": [
@@ -1118,19 +1496,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "exchangeable",
-        "noteZh": "可互換的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "noninterchangeable",
-        "noteZh": "不可互換的"
-      }
-    ]
+    }
   },
   {
     "id": "w_interfere",
@@ -1144,14 +1510,15 @@
       {
         "id": "s_interfere_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to become involved in and prevent or hinder a process or situation, without invitation",
         "definitionZh": "干涉；干預；妨礙",
         "usageExplanationZh": "常接 with/in，如 interfere with someone's plans（干擾某人的計畫），語氣帶負面意味。",
-        "examples": [
-          {
-            "en": "Please don't interfere in matters that don't concern you.",
-            "zh": "請不要干涉和你無關的事。"
-          }
+        "grammarPatterns": [
+          "interfere in + noun",
+          "interfere with + noun"
         ],
         "collocations": [
           {
@@ -1162,7 +1529,31 @@
             "text": "interfere in someone's affairs",
             "meaningZh": "干涉他人的事"
           }
+        ],
+        "examples": [
+          {
+            "en": "Please don't interfere in matters that don't concern you.",
+            "zh": "請不要干涉和你無關的事。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "meddle",
+        "noteZh": "擅自干涉"
+      },
+      {
+        "lemma": "hinder",
+        "noteZh": "妨礙進程"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "interference",
+        "partOfSpeech": "noun",
+        "meaningZh": "干擾"
       }
     ],
     "tags": [
@@ -1175,18 +1566,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "meddle",
-        "noteZh": "擅自干涉"
-      },
-      {
-        "lemma": "hinder",
-        "noteZh": "妨礙進程"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_interference",
@@ -1200,14 +1580,17 @@
       {
         "id": "s_interference_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "formal"
+        ],
         "definitionEn": "the act of interfering, or unwanted disturbance affecting a signal or process",
         "definitionZh": "干涉；干擾",
         "usageExplanationZh": "常見 radio interference（無線電干擾）；也指他人的不必要介入，如 parental interference。",
-        "examples": [
-          {
-            "en": "Static electricity caused interference with the radio signal.",
-            "zh": "靜電對無線電訊號造成了干擾。"
-          }
+        "grammarPatterns": [
+          "interference with + noun",
+          "interference in + noun",
+          "cause interference"
         ],
         "collocations": [
           {
@@ -1218,7 +1601,31 @@
             "text": "radio interference",
             "meaningZh": "無線電干擾"
           }
+        ],
+        "examples": [
+          {
+            "en": "Static electricity caused interference with the radio signal.",
+            "zh": "靜電對無線電訊號造成了干擾。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "meddling",
+        "noteZh": "多管閒事的干涉"
+      },
+      {
+        "lemma": "disruption",
+        "noteZh": "干擾"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "interfere",
+        "partOfSpeech": "verb",
+        "meaningZh": "干涉"
       }
     ],
     "tags": [
@@ -1232,18 +1639,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "meddling",
-        "noteZh": "多管閒事的干涉"
-      },
-      {
-        "lemma": "disruption",
-        "noteZh": "干擾"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_interim",
@@ -1257,14 +1653,16 @@
       {
         "id": "s_interim_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "temporary, especially during a period before something permanent is established",
         "definitionZh": "臨時的；過渡期的",
         "usageExplanationZh": "常見 an interim manager（臨時經理）、an interim report（期中報告）。",
-        "examples": [
-          {
-            "en": "They appointed an interim CEO while searching for a permanent replacement.",
-            "zh": "他們任命了一位臨時執行長，同時尋找永久接任人選。"
-          }
+        "grammarPatterns": [
+          "an interim + noun",
+          "on an interim basis"
         ],
         "collocations": [
           {
@@ -1275,40 +1673,42 @@
             "text": "interim government",
             "meaningZh": "過渡政府"
           }
+        ],
+        "examples": [
+          {
+            "en": "They appointed an interim CEO while searching for a permanent replacement.",
+            "zh": "他們任命了一位臨時執行長，同時尋找永久接任人選。"
+          }
         ]
       },
       {
         "id": "s_interim_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "a temporary period between one event or state and another",
         "definitionZh": "過渡期；中間時期",
         "usageExplanationZh": "常見 in the interim（在此期間），語氣正式，強調事情尚未確定的過渡狀態。",
-        "examples": [
-          {
-            "en": "In the interim, please direct all inquiries to my assistant.",
-            "zh": "在此期間，如有任何詢問，請直接聯絡我的助理。"
-          }
+        "grammarPatterns": [
+          "in the interim",
+          "during the interim"
         ],
         "collocations": [
           {
             "text": "in the interim",
             "meaningZh": "在此期間"
           }
+        ],
+        "examples": [
+          {
+            "en": "In the interim, please direct all inquiries to my assistant.",
+            "zh": "在此期間，如有任何詢問，請直接聯絡我的助理。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "temporary",
@@ -1324,7 +1724,19 @@
         "lemma": "permanent",
         "noteZh": "形容詞，永久的"
       }
-    ]
+    ],
+    "tags": [
+      "dictionary",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_interior",
@@ -1338,14 +1750,15 @@
       {
         "id": "s_interior_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "situated inside or within; relating to the inside of a place",
         "definitionZh": "內部的；室內的",
         "usageExplanationZh": "常見 interior design（室內設計）、the interior of a car（車內），與 exterior（外部的）相對。",
-        "examples": [
-          {
-            "en": "The interior design of the hotel was elegant and modern.",
-            "zh": "這間飯店的室內設計典雅又現代。"
-          }
+        "grammarPatterns": [
+          "the interior + noun"
         ],
         "collocations": [
           {
@@ -1356,21 +1769,15 @@
             "text": "interior walls",
             "meaningZh": "內牆"
           }
+        ],
+        "examples": [
+          {
+            "en": "The interior design of the hotel was elegant and modern.",
+            "zh": "這間飯店的室內設計典雅又現代。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "internal",
@@ -1386,7 +1793,19 @@
         "lemma": "exterior",
         "noteZh": "外部的"
       }
-    ]
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_intermediate",
@@ -1400,33 +1819,43 @@
       {
         "id": "s_intermediate_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "neutral"
+        ],
         "definitionEn": "a level or stage between two others, especially in skill or difficulty",
         "definitionZh": "中間程度（者）；中級",
         "usageExplanationZh": "常見於課程分級，如 an intermediate（中級學員），與 beginner、advanced 對應。",
-        "examples": [
-          {
-            "en": "The class is designed for intermediates who already know the basics.",
-            "zh": "這門課程是為已具備基礎的中級學員設計的。"
-          }
+        "grammarPatterns": [
+          "a course for intermediates"
         ],
         "collocations": [
           {
             "text": "a course for intermediates",
             "meaningZh": "適合中等程度學習者的課程"
           }
+        ],
+        "examples": [
+          {
+            "en": "The class is designed for intermediates who already know the basics.",
+            "zh": "這門課程是為已具備基礎的中級學員設計的。"
+          }
         ]
       },
       {
         "id": "s_intermediate_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "neutral"
+        ],
         "definitionEn": "coming between two things in time, place, order, or degree",
         "definitionZh": "中間的；中級的",
         "usageExplanationZh": "常見 an intermediate level（中級程度）、an intermediate step（中間步驟）。",
-        "examples": [
-          {
-            "en": "She enrolled in an intermediate French class.",
-            "zh": "她報名了一堂中級法語課。"
-          }
+        "grammarPatterns": [
+          "an intermediate + noun",
+          "at an intermediate level",
+          "intermediate between A and B"
         ],
         "collocations": [
           {
@@ -1437,7 +1866,27 @@
             "text": "intermediate stage",
             "meaningZh": "中間階段"
           }
+        ],
+        "examples": [
+          {
+            "en": "She enrolled in an intermediate French class.",
+            "zh": "她報名了一堂中級法語課。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "middle",
+        "noteZh": "形容詞，中間的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "intermediary",
+        "partOfSpeech": "noun",
+        "meaningZh": "中間人"
       }
     ],
     "tags": [
@@ -1451,14 +1900,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "middle",
-        "noteZh": "形容詞，中間的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_interminable",
@@ -1472,14 +1914,16 @@
       {
         "id": "s_interminable_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "seemingly endless, especially because it is tedious or boring",
         "definitionZh": "冗長乏味的；沒完沒了的",
         "usageExplanationZh": "常修飾 meeting、wait 等，如 an interminable meeting，語氣帶負面意味，強調過程令人厭煩。",
-        "examples": [
-          {
-            "en": "The interminable meeting left everyone exhausted.",
-            "zh": "這場冗長乏味的會議讓所有人都筋疲力盡。"
-          }
+        "grammarPatterns": [
+          "an interminable + noun",
+          "seem interminable"
         ],
         "collocations": [
           {
@@ -1490,20 +1934,15 @@
             "text": "interminable wait",
             "meaningZh": "漫長難熬的等待"
           }
+        ],
+        "examples": [
+          {
+            "en": "The interminable meeting left everyone exhausted.",
+            "zh": "這場冗長乏味的會議讓所有人都筋疲力盡。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "endless",
@@ -1519,7 +1958,30 @@
         "lemma": "brief",
         "noteZh": "簡短的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "interminably",
+        "partOfSpeech": "adverb",
+        "meaningZh": "沒完沒了地"
+      },
+      {
+        "lemma": "terminate",
+        "partOfSpeech": "verb",
+        "meaningZh": "終止"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_intern",
@@ -1533,33 +1995,43 @@
       {
         "id": "s_intern_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "neutral"
+        ],
         "definitionEn": "a student or trainee who works, sometimes without pay, to gain practical experience",
         "definitionZh": "實習生",
         "usageExplanationZh": "常見 a summer intern（暑期實習生），常見於商業或醫療領域的實習制度。",
-        "examples": [
-          {
-            "en": "She worked as an intern at a marketing firm last summer.",
-            "zh": "她去年夏天在一家行銷公司擔任實習生。"
-          }
+        "grammarPatterns": [
+          "work as an intern",
+          "an intern at + noun"
         ],
         "collocations": [
           {
             "text": "summer intern",
             "meaningZh": "暑期實習生"
           }
+        ],
+        "examples": [
+          {
+            "en": "She worked as an intern at a marketing firm last summer.",
+            "zh": "她去年夏天在一家行銷公司擔任實習生。"
+          }
         ]
       },
       {
         "id": "s_intern_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to confine someone, especially in wartime, without trial",
         "definitionZh": "拘留；監禁（尤指戰時未經審判）",
         "usageExplanationZh": "多見於歷史或政治語境，如 intern civilians during wartime，語氣正式且帶沉重歷史意涵。",
-        "examples": [
-          {
-            "en": "Thousands of civilians were interned during the war.",
-            "zh": "戰爭期間，數千名平民被拘留監禁。"
-          }
+        "grammarPatterns": [
+          "intern sb",
+          "be interned in + noun"
         ],
         "collocations": [
           {
@@ -1570,20 +2042,15 @@
             "text": "be interned in a camp",
             "meaningZh": "被關押在拘留營"
           }
+        ],
+        "examples": [
+          {
+            "en": "Thousands of civilians were interned during the war.",
+            "zh": "戰爭期間，數千名平民被拘留監禁。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "trainee",
@@ -1599,7 +2066,30 @@
         "lemma": "release",
         "noteZh": "動詞，釋放被拘留者"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "internship",
+        "partOfSpeech": "noun",
+        "meaningZh": "實習"
+      },
+      {
+        "lemma": "internment",
+        "partOfSpeech": "noun",
+        "meaningZh": "拘留"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_interpret",
@@ -1613,14 +2103,17 @@
       {
         "id": "s_interpret_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to explain the meaning of something, or to translate spoken language orally",
         "definitionZh": "解讀；詮釋；口譯",
         "usageExplanationZh": "常接 as，如 interpret silence as agreement（把沉默解讀為同意）；也指擔任口譯員。",
-        "examples": [
-          {
-            "en": "She works as a translator, interpreting between English and Mandarin speakers.",
-            "zh": "她從事翻譯工作，為說英語和中文的人士進行口譯。"
-          }
+        "grammarPatterns": [
+          "interpret + noun",
+          "interpret sth as + noun",
+          "interpret between A and B"
         ],
         "collocations": [
           {
@@ -1631,7 +2124,36 @@
             "text": "interpret for someone",
             "meaningZh": "替某人口譯"
           }
+        ],
+        "examples": [
+          {
+            "en": "She works as a translator, interpreting between English and Mandarin speakers.",
+            "zh": "她從事翻譯工作，為說英語和中文的人士進行口譯。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "explain",
+        "noteZh": "解釋含義"
+      },
+      {
+        "lemma": "translate",
+        "noteZh": "對應口頭翻譯義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "interpretation",
+        "partOfSpeech": "noun",
+        "meaningZh": "詮釋"
+      },
+      {
+        "lemma": "interpreter",
+        "partOfSpeech": "noun",
+        "meaningZh": "口譯員"
       }
     ],
     "tags": [
@@ -1645,18 +2167,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "explain",
-        "noteZh": "解釋含義"
-      },
-      {
-        "lemma": "translate",
-        "noteZh": "對應口頭翻譯義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_interpretation",
@@ -1670,14 +2181,16 @@
       {
         "id": "s_interpretation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "an explanation or way of understanding something, or a performer's rendering of a piece of music or art",
         "definitionZh": "解讀；詮釋；（表演的）演繹",
         "usageExplanationZh": "常見 open to interpretation（可有多種解讀），也指藝術表演上的獨特詮釋方式。",
-        "examples": [
-          {
-            "en": "The play's ending is open to multiple interpretations.",
-            "zh": "這齣戲的結局可以有多種不同的解讀。"
-          }
+        "grammarPatterns": [
+          "an interpretation of + noun",
+          "be open to interpretation"
         ],
         "collocations": [
           {
@@ -1688,7 +2201,36 @@
             "text": "open to interpretation",
             "meaningZh": "可有不同解讀"
           }
+        ],
+        "examples": [
+          {
+            "en": "The play's ending is open to multiple interpretations.",
+            "zh": "這齣戲的結局可以有多種不同的解讀。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "explanation",
+        "noteZh": "解釋"
+      },
+      {
+        "lemma": "reading",
+        "noteZh": "對文本的理解方式"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "interpret",
+        "partOfSpeech": "verb",
+        "meaningZh": "詮釋"
+      },
+      {
+        "lemma": "interpretive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "解釋性的"
       }
     ],
     "tags": [
@@ -1701,18 +2243,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "explanation",
-        "noteZh": "解釋"
-      },
-      {
-        "lemma": "reading",
-        "noteZh": "對文本的理解方式"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_interrupt",
@@ -1726,14 +2257,16 @@
       {
         "id": "s_interrupt_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "spoken"
+        ],
         "definitionEn": "to stop someone from speaking or an activity from continuing by breaking in",
         "definitionZh": "打斷；使中斷",
         "usageExplanationZh": "常見 interrupt someone while they are speaking，語氣中性，強調行為造成的干擾。",
-        "examples": [
-          {
-            "en": "Please don't interrupt me while I'm on the phone.",
-            "zh": "我講電話的時候請不要打斷我。"
-          }
+        "grammarPatterns": [
+          "interrupt sb",
+          "be interrupted by + noun"
         ],
         "collocations": [
           {
@@ -1744,19 +2277,26 @@
             "text": "interrupt someone mid-sentence",
             "meaningZh": "在某人說到一半時打斷"
           }
+        ],
+        "examples": [
+          {
+            "en": "Please don't interrupt me while I'm on the phone.",
+            "zh": "我講電話的時候請不要打斷我。"
+          }
         ]
       },
       {
         "id": "s_interrupt_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical"
+        ],
         "definitionEn": "a signal that stops a computer's normal processing to attend to an urgent task",
         "definitionZh": "中斷（電腦術語）",
         "usageExplanationZh": "電腦科學專業用語，指硬體或軟體發出的中斷訊號，日常口語極少用此名詞義。",
-        "examples": [
-          {
-            "en": "The processor handles each interrupt according to its priority level.",
-            "zh": "處理器會依優先順序處理每一個中斷訊號。"
-          }
+        "grammarPatterns": [
+          "handle an interrupt",
+          "generate an interrupt"
         ],
         "collocations": [
           {
@@ -1767,7 +2307,31 @@
             "text": "interrupt handler",
             "meaningZh": "中斷處理程式"
           }
+        ],
+        "examples": [
+          {
+            "en": "The processor handles each interrupt according to its priority level.",
+            "zh": "處理器會依優先順序處理每一個中斷訊號。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "disrupt",
+        "noteZh": "動詞，使中斷"
+      },
+      {
+        "lemma": "break in",
+        "noteZh": "插話"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "interruption",
+        "partOfSpeech": "noun",
+        "meaningZh": "打斷"
       }
     ],
     "tags": [
@@ -1781,18 +2345,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "disrupt",
-        "noteZh": "動詞，使中斷"
-      },
-      {
-        "lemma": "break in",
-        "noteZh": "插話"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_intersection",
@@ -1806,14 +2359,16 @@
       {
         "id": "s_intersection_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a place where two or more roads or lines cross, or the point at which two things meet or overlap",
         "definitionZh": "交叉路口；交會點",
         "usageExplanationZh": "常見 a busy intersection（繁忙的路口）；也可比喻兩個抽象概念的交會，如 the intersection of art and science。",
-        "examples": [
-          {
-            "en": "The accident happened at a busy intersection downtown.",
-            "zh": "這起意外發生在市中心一個繁忙的路口。"
-          }
+        "grammarPatterns": [
+          "at an intersection",
+          "the intersection of A and B"
         ],
         "collocations": [
           {
@@ -1824,7 +2379,31 @@
             "text": "the intersection of art and science",
             "meaningZh": "藝術與科學的交會"
           }
+        ],
+        "examples": [
+          {
+            "en": "The accident happened at a busy intersection downtown.",
+            "zh": "這起意外發生在市中心一個繁忙的路口。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "junction",
+        "noteZh": "道路交會處"
+      },
+      {
+        "lemma": "crossing",
+        "noteZh": "交叉處"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "intersect",
+        "partOfSpeech": "verb",
+        "meaningZh": "交叉"
       }
     ],
     "tags": [
@@ -1838,18 +2417,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "junction",
-        "noteZh": "道路交會處"
-      },
-      {
-        "lemma": "crossing",
-        "noteZh": "交叉處"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_intersperse",
@@ -1863,14 +2431,16 @@
       {
         "id": "s_intersperse_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to scatter or distribute among or between other things",
         "definitionZh": "穿插；散布其間",
         "usageExplanationZh": "常見被動語態 be interspersed with，如 the speech was interspersed with jokes（演講中穿插著笑話）。",
-        "examples": [
-          {
-            "en": "The lecture was interspersed with short video clips.",
-            "zh": "這場演講中穿插著簡短的影片片段。"
-          }
+        "grammarPatterns": [
+          "intersperse A with B",
+          "be interspersed with + noun"
         ],
         "collocations": [
           {
@@ -1881,20 +2451,15 @@
             "text": "be interspersed with",
             "meaningZh": "穿插著……"
           }
+        ],
+        "examples": [
+          {
+            "en": "The lecture was interspersed with short video clips.",
+            "zh": "這場演講中穿插著簡短的影片片段。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "scatter",
@@ -1905,7 +2470,18 @@
         "noteZh": "混合穿插"
       }
     ],
-    "antonyms": []
+    "antonyms": [],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_intertwine",
@@ -1919,14 +2495,16 @@
       {
         "id": "s_intertwine_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to twist or twine together, or to become closely connected",
         "definitionZh": "（使）交纏；使緊密相連",
         "usageExplanationZh": "常用被動語態 be intertwined with，比喻用法常見，如 our fates are intertwined（我們的命運交織在一起）。",
-        "examples": [
-          {
-            "en": "Their lives became deeply intertwined after they started working together.",
-            "zh": "自從開始一起共事後，他們的生活變得緊密交織在一起。"
-          }
+        "grammarPatterns": [
+          "be intertwined with + noun",
+          "intertwine A and B"
         ],
         "collocations": [
           {
@@ -1937,20 +2515,15 @@
             "text": "intertwine fingers",
             "meaningZh": "十指交纏"
           }
+        ],
+        "examples": [
+          {
+            "en": "Their lives became deeply intertwined after they started working together.",
+            "zh": "自從開始一起共事後，他們的生活變得緊密交織在一起。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "interweave",
@@ -1966,7 +2539,25 @@
         "lemma": "untangle",
         "noteZh": "解開纏結"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "twine",
+        "partOfSpeech": "verb",
+        "meaningZh": "纏繞"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_interval",
@@ -1980,14 +2571,17 @@
       {
         "id": "s_interval_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a period of time between two events, or a pause between parts of a performance",
         "definitionZh": "間隔；（演出中的）中場休息",
         "usageExplanationZh": "常見 at regular intervals（定期地）；英式英語中也指戲劇或音樂會的中場休息（美式常用 intermission）。",
-        "examples": [
-          {
-            "en": "Take the medicine at regular intervals throughout the day.",
-            "zh": "一天之中請按固定間隔時間服藥。"
-          }
+        "grammarPatterns": [
+          "at regular intervals",
+          "an interval of + noun",
+          "during the interval"
         ],
         "collocations": [
           {
@@ -1998,9 +2592,26 @@
             "text": "a short interval",
             "meaningZh": "短暫間隔"
           }
+        ],
+        "examples": [
+          {
+            "en": "Take the medicine at regular intervals throughout the day.",
+            "zh": "一天之中請按固定間隔時間服藥。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "gap",
+        "noteZh": "時間間隔"
+      },
+      {
+        "lemma": "intermission",
+        "noteZh": "演出中場休息"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2012,18 +2623,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "gap",
-        "noteZh": "時間間隔"
-      },
-      {
-        "lemma": "intermission",
-        "noteZh": "演出中場休息"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_intervene",
@@ -2037,14 +2637,16 @@
       {
         "id": "s_intervene_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to become involved in a situation in order to change or influence its outcome",
         "definitionZh": "介入；干預",
         "usageExplanationZh": "常見 intervene in a conflict（介入衝突），語氣正式，強調為了改變結果而採取行動。",
-        "examples": [
-          {
-            "en": "The teacher intervened before the argument escalated.",
-            "zh": "老師在爭執升級之前就介入了。"
-          }
+        "grammarPatterns": [
+          "intervene in + noun",
+          "intervene to + V"
         ],
         "collocations": [
           {
@@ -2055,7 +2657,31 @@
             "text": "intervene to prevent violence",
             "meaningZh": "介入以防止暴力"
           }
+        ],
+        "examples": [
+          {
+            "en": "The teacher intervened before the argument escalated.",
+            "zh": "老師在爭執升級之前就介入了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "intercede",
+        "noteZh": "代為調解"
+      },
+      {
+        "lemma": "step in",
+        "noteZh": "出面介入"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "intervention",
+        "partOfSpeech": "noun",
+        "meaningZh": "干預"
       }
     ],
     "tags": [
@@ -2070,18 +2696,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "intercede",
-        "noteZh": "代為調解"
-      },
-      {
-        "lemma": "step in",
-        "noteZh": "出面介入"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_intervention",
@@ -2095,14 +2710,17 @@
       {
         "id": "s_intervention_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the act of becoming involved in a situation to influence its outcome, especially to help",
         "definitionZh": "介入；干預（措施）",
         "usageExplanationZh": "常見 military intervention（軍事介入）、early intervention（早期介入）。",
-        "examples": [
-          {
-            "en": "Early intervention can greatly improve outcomes for children with learning disabilities.",
-            "zh": "早期介入能大幅改善學習障礙兒童的狀況。"
-          }
+        "grammarPatterns": [
+          "intervention in + noun",
+          "early intervention",
+          "military intervention"
         ],
         "collocations": [
           {
@@ -2113,7 +2731,36 @@
             "text": "military intervention",
             "meaningZh": "軍事干預"
           }
+        ],
+        "examples": [
+          {
+            "en": "Early intervention can greatly improve outcomes for children with learning disabilities.",
+            "zh": "早期介入能大幅改善學習障礙兒童的狀況。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "involvement",
+        "noteZh": "介入"
+      },
+      {
+        "lemma": "mediation",
+        "noteZh": "指調解式介入"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "intervene",
+        "partOfSpeech": "verb",
+        "meaningZh": "介入"
+      },
+      {
+        "lemma": "interventionist",
+        "partOfSpeech": "adjective",
+        "meaningZh": "干預主義的"
       }
     ],
     "tags": [
@@ -2127,18 +2774,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "involvement",
-        "noteZh": "介入"
-      },
-      {
-        "lemma": "mediation",
-        "noteZh": "指調解式介入"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_interviewer",
@@ -2152,14 +2788,16 @@
       {
         "id": "s_interviewer_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "neutral"
+        ],
         "definitionEn": "a person who conducts an interview",
         "definitionZh": "採訪者；面試官",
         "usageExplanationZh": "常見於新聞或求職語境，如 the interviewer asked several questions。",
-        "examples": [
-          {
-            "en": "The interviewer asked her about her previous work experience.",
-            "zh": "面試官問了她過去的工作經歷。"
-          }
+        "grammarPatterns": [
+          "a skilled interviewer",
+          "the interviewer asked sb about + noun"
         ],
         "collocations": [
           {
@@ -2170,7 +2808,37 @@
             "text": "experienced interviewer",
             "meaningZh": "經驗豐富的採訪者"
           }
+        ],
+        "examples": [
+          {
+            "en": "The interviewer asked her about her previous work experience.",
+            "zh": "面試官問了她過去的工作經歷。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "questioner",
+        "noteZh": "提問者"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "interviewee",
+        "noteZh": "受訪者或應徵者，相對角色"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "interview",
+        "partOfSpeech": "noun",
+        "meaningZh": "面試；採訪"
+      },
+      {
+        "lemma": "interviewee",
+        "partOfSpeech": "noun",
+        "meaningZh": "受訪者"
       }
     ],
     "tags": [
@@ -2183,19 +2851,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "questioner",
-        "noteZh": "提問者"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "interviewee",
-        "noteZh": "受訪者或應徵者，相對角色"
-      }
-    ]
+    }
   },
   {
     "id": "w_intimacy",
@@ -2209,14 +2865,17 @@
       {
         "id": "s_intimacy_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "close familiarity or friendship; closeness in a relationship",
         "definitionZh": "親密；親密關係",
         "usageExplanationZh": "常見 emotional intimacy（情感上的親密），語氣正面，強調人際或情感上的緊密連結。",
-        "examples": [
-          {
-            "en": "Years of friendship had built a deep sense of intimacy between them.",
-            "zh": "多年的友誼在他們之間建立了深厚的親密感。"
-          }
+        "grammarPatterns": [
+          "intimacy between A and B",
+          "a sense of intimacy",
+          "intimacy with sb"
         ],
         "collocations": [
           {
@@ -2227,20 +2886,15 @@
             "text": "physical intimacy",
             "meaningZh": "身體上的親密"
           }
+        ],
+        "examples": [
+          {
+            "en": "Years of friendship had built a deep sense of intimacy between them.",
+            "zh": "多年的友誼在他們之間建立了深厚的親密感。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "closeness",
@@ -2256,7 +2910,30 @@
         "lemma": "distance",
         "noteZh": "感情上的疏離"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "intimate",
+        "partOfSpeech": "adjective",
+        "meaningZh": "親密的"
+      },
+      {
+        "lemma": "intimately",
+        "partOfSpeech": "adverb",
+        "meaningZh": "親密地"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_intimidate",
@@ -2270,14 +2947,15 @@
       {
         "id": "s_intimidate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to frighten someone, especially in order to make them do what one wants",
         "definitionZh": "恐嚇；威嚇；使膽怯",
         "usageExplanationZh": "常用被動語態 be intimidated by，如 be intimidated by someone's confidence，語氣帶負面意味。",
-        "examples": [
-          {
-            "en": "The bully tried to intimidate the younger students.",
-            "zh": "那個惡霸試圖恐嚇年紀較小的學生。"
-          }
+        "grammarPatterns": [
+          "intimidate sb",
+          "intimidate sb into + V-ing"
         ],
         "collocations": [
           {
@@ -2288,22 +2966,15 @@
             "text": "feel intimidated by",
             "meaningZh": "因……感到膽怯"
           }
+        ],
+        "examples": [
+          {
+            "en": "The bully tried to intimidate the younger students.",
+            "zh": "那個惡霸試圖恐嚇年紀較小的學生。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "frighten",
@@ -2319,7 +2990,27 @@
         "lemma": "reassure",
         "noteZh": "使安心"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "intimidation",
+        "partOfSpeech": "noun",
+        "meaningZh": "恐嚇"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_intractable",
@@ -2333,14 +3024,16 @@
       {
         "id": "s_intractable_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "hard to control or deal with; difficult to solve",
         "definitionZh": "難以處理的；棘手的",
         "usageExplanationZh": "常修飾 problem、conflict，如 an intractable dispute，語氣正式，強調長期無法解決的困難。",
-        "examples": [
-          {
-            "en": "Poverty remains an intractable problem in many parts of the world.",
-            "zh": "貧窮在世界許多地方仍然是一個棘手的問題。"
-          }
+        "grammarPatterns": [
+          "an intractable + noun",
+          "remain intractable"
         ],
         "collocations": [
           {
@@ -2351,20 +3044,15 @@
             "text": "intractable pain",
             "meaningZh": "頑固性疼痛"
           }
+        ],
+        "examples": [
+          {
+            "en": "Poverty remains an intractable problem in many parts of the world.",
+            "zh": "貧窮在世界許多地方仍然是一個棘手的問題。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "unmanageable",
@@ -2380,7 +3068,30 @@
         "lemma": "tractable",
         "noteZh": "容易處理的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "intractability",
+        "partOfSpeech": "noun",
+        "meaningZh": "棘手"
+      },
+      {
+        "lemma": "tractable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "易處理的"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_intransigent",
@@ -2394,14 +3105,16 @@
       {
         "id": "s_intransigent_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "unwilling to change one's views or agree about something",
         "definitionZh": "不妥協的；固執己見的",
         "usageExplanationZh": "常修飾人的態度，如 an intransigent attitude，語氣正式且帶負面意味，強調拒絕讓步。",
-        "examples": [
-          {
-            "en": "The union leader remained intransigent during the negotiations.",
-            "zh": "這位工會領袖在談判過程中始終不肯讓步。"
-          }
+        "grammarPatterns": [
+          "remain intransigent",
+          "an intransigent + noun"
         ],
         "collocations": [
           {
@@ -2412,20 +3125,15 @@
             "text": "remain intransigent",
             "meaningZh": "仍然堅持不妥協"
           }
+        ],
+        "examples": [
+          {
+            "en": "The union leader remained intransigent during the negotiations.",
+            "zh": "這位工會領袖在談判過程中始終不肯讓步。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "uncompromising",
@@ -2441,7 +3149,25 @@
         "lemma": "flexible",
         "noteZh": "願意變通的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "intransigence",
+        "partOfSpeech": "noun",
+        "meaningZh": "不妥協"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_intrepid",
@@ -2455,14 +3181,15 @@
       {
         "id": "s_intrepid_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "fearless and adventurous, especially in facing danger",
         "definitionZh": "勇敢無畏的；大膽的",
         "usageExplanationZh": "常修飾 explorer、traveler，如 an intrepid explorer，語氣正面，帶英勇冒險的色彩。",
-        "examples": [
-          {
-            "en": "The intrepid explorer trekked across the frozen tundra alone.",
-            "zh": "這位勇敢無畏的探險家獨自穿越了冰凍的凍原。"
-          }
+        "grammarPatterns": [
+          "an intrepid + noun"
         ],
         "collocations": [
           {
@@ -2473,21 +3200,15 @@
             "text": "intrepid traveler",
             "meaningZh": "大膽的旅行者"
           }
+        ],
+        "examples": [
+          {
+            "en": "The intrepid explorer trekked across the frozen tundra alone.",
+            "zh": "這位勇敢無畏的探險家獨自穿越了冰凍的凍原。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "fearless",
@@ -2503,39 +3224,17 @@
         "lemma": "timid",
         "noteZh": "膽怯的"
       }
-    ]
-  },
-  {
-    "id": "w_intrude",
-    "lemma": "intrude",
-    "slug": "intrude",
-    "cefr": "C1",
-    "pronunciation": {
-      "kk": "/ˌɪnˈtrud/"
-    },
-    "senses": [
+    ],
+    "wordFamily": [
       {
-        "id": "s_intrude_verb",
-        "partOfSpeech": "verb",
-        "definitionEn": "to enter or become involved in a place or situation without permission or invitation",
-        "definitionZh": "闖入；侵擾；打擾",
-        "usageExplanationZh": "常接 on/into，如 intrude on someone's privacy（侵犯某人的隱私）。",
-        "examples": [
-          {
-            "en": "I don't want to intrude on your family time.",
-            "zh": "我不想打擾你們的家庭時光。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "intrude on someone's privacy",
-            "meaningZh": "侵犯他人隱私"
-          },
-          {
-            "text": "intrude into a conversation",
-            "meaningZh": "擅自插入談話"
-          }
-        ]
+        "lemma": "intrepidly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "無畏地"
+      },
+      {
+        "lemma": "intrepidity",
+        "partOfSpeech": "noun",
+        "meaningZh": "無畏"
       }
     ],
     "tags": [
@@ -2549,7 +3248,48 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
+    }
+  },
+  {
+    "id": "w_intrude",
+    "lemma": "intrude",
+    "slug": "intrude",
+    "cefr": "C1",
+    "pronunciation": {
+      "kk": "/ˌɪnˈtrud/"
     },
+    "senses": [
+      {
+        "id": "s_intrude_verb",
+        "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
+        "definitionEn": "to enter or become involved in a place or situation without permission or invitation",
+        "definitionZh": "闖入；侵擾；打擾",
+        "usageExplanationZh": "常接 on/into，如 intrude on someone's privacy（侵犯某人的隱私）。",
+        "grammarPatterns": [
+          "intrude on + noun",
+          "intrude into + noun"
+        ],
+        "collocations": [
+          {
+            "text": "intrude on someone's privacy",
+            "meaningZh": "侵犯他人隱私"
+          },
+          {
+            "text": "intrude into a conversation",
+            "meaningZh": "擅自插入談話"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I don't want to intrude on your family time.",
+            "zh": "我不想打擾你們的家庭時光。"
+          }
+        ]
+      }
+    ],
     "synonyms": [
       {
         "lemma": "trespass",
@@ -2560,7 +3300,36 @@
         "noteZh": "侵占或侵擾"
       }
     ],
-    "antonyms": []
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "intrusion",
+        "partOfSpeech": "noun",
+        "meaningZh": "侵擾"
+      },
+      {
+        "lemma": "intrusive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "打擾的"
+      },
+      {
+        "lemma": "intruder",
+        "partOfSpeech": "noun",
+        "meaningZh": "闖入者"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_inundate",
@@ -2574,14 +3343,16 @@
       {
         "id": "s_inundate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to overwhelm someone with things or people to deal with, or to flood a place with water",
         "definitionZh": "使應接不暇；淹沒",
         "usageExplanationZh": "常用被動語態 be inundated with，如 be inundated with requests（被大量請求淹沒），比喻用法比字面淹水更常見。",
-        "examples": [
-          {
-            "en": "The customer service team was inundated with complaints after the outage.",
-            "zh": "停機事件後，客服團隊被大量投訴淹沒。"
-          }
+        "grammarPatterns": [
+          "be inundated with + noun",
+          "inundate sb with + noun"
         ],
         "collocations": [
           {
@@ -2592,7 +3363,31 @@
             "text": "inundate coastal areas",
             "meaningZh": "淹沒沿海地區"
           }
+        ],
+        "examples": [
+          {
+            "en": "The customer service team was inundated with complaints after the outage.",
+            "zh": "停機事件後，客服團隊被大量投訴淹沒。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "overwhelm",
+        "noteZh": "使應接不暇"
+      },
+      {
+        "lemma": "flood",
+        "noteZh": "淹沒"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "inundation",
+        "partOfSpeech": "noun",
+        "meaningZh": "氾濫；淹沒"
       }
     ],
     "tags": [
@@ -2607,18 +3402,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "overwhelm",
-        "noteZh": "使應接不暇"
-      },
-      {
-        "lemma": "flood",
-        "noteZh": "淹沒"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_invade",
@@ -2632,14 +3416,15 @@
       {
         "id": "s_invade_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to enter a country or territory using military force in order to take control of it, or to intrude on someone's privacy",
         "definitionZh": "入侵；侵犯（隱私）",
         "usageExplanationZh": "軍事語境常見 invade a country；也可比喻性地指侵犯隱私，如 invade someone's privacy。",
-        "examples": [
-          {
-            "en": "Enemy forces invaded the neighboring country at dawn.",
-            "zh": "敵軍在黎明時分入侵了鄰國。"
-          }
+        "grammarPatterns": [
+          "invade + noun",
+          "invade sb's privacy"
         ],
         "collocations": [
           {
@@ -2650,7 +3435,41 @@
             "text": "invade someone's privacy",
             "meaningZh": "侵犯某人的隱私"
           }
+        ],
+        "examples": [
+          {
+            "en": "Enemy forces invaded the neighboring country at dawn.",
+            "zh": "敵軍在黎明時分入侵了鄰國。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "attack",
+        "noteZh": "軍事進攻"
+      },
+      {
+        "lemma": "intrude on",
+        "noteZh": "侵犯隱私"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "invasion",
+        "partOfSpeech": "noun",
+        "meaningZh": "入侵"
+      },
+      {
+        "lemma": "invader",
+        "partOfSpeech": "noun",
+        "meaningZh": "入侵者"
+      },
+      {
+        "lemma": "invasive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "侵入性的"
       }
     ],
     "tags": [
@@ -2665,18 +3484,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "attack",
-        "noteZh": "軍事進攻"
-      },
-      {
-        "lemma": "intrude on",
-        "noteZh": "侵犯隱私"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_invaluable",
@@ -2690,14 +3498,15 @@
       {
         "id": "s_invaluable_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "extremely useful; indispensable",
         "definitionZh": "非常寶貴的；無價的",
         "usageExplanationZh": "注意此詞為正面詞彙，不同於字面「無價值」，常見 invaluable advice（極為寶貴的建議）。",
-        "examples": [
-          {
-            "en": "Her mentorship proved invaluable to my career.",
-            "zh": "她的指導對我的職涯發展極為寶貴。"
-          }
+        "grammarPatterns": [
+          "prove invaluable to sb",
+          "an invaluable + noun"
         ],
         "collocations": [
           {
@@ -2708,21 +3517,15 @@
             "text": "prove invaluable",
             "meaningZh": "證明非常有用"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her mentorship proved invaluable to my career.",
+            "zh": "她的指導對我的職涯發展極為寶貴。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "priceless",
@@ -2738,39 +3541,17 @@
         "lemma": "worthless",
         "noteZh": "毫無價值的"
       }
-    ]
-  },
-  {
-    "id": "w_invariably",
-    "lemma": "invariably",
-    "slug": "invariably",
-    "cefr": "B2",
-    "pronunciation": {
-      "kk": "/ˌɪnˈvɛriəbli/"
-    },
-    "senses": [
+    ],
+    "wordFamily": [
       {
-        "id": "s_invariably_adverb",
-        "partOfSpeech": "adverb",
-        "definitionEn": "in every case or on every occasion; always",
-        "definitionZh": "總是；一貫地",
-        "usageExplanationZh": "常見於描述固定不變的模式，如 invariably late（總是遲到），語氣正式書面。",
-        "examples": [
-          {
-            "en": "He invariably arrives ten minutes early for every meeting.",
-            "zh": "他每次開會總是提早十分鐘到。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "almost invariably",
-            "meaningZh": "幾乎總是"
-          },
-          {
-            "text": "invariably lead to",
-            "meaningZh": "總是導致……"
-          }
-        ]
+        "lemma": "value",
+        "partOfSpeech": "noun",
+        "meaningZh": "價值"
+      },
+      {
+        "lemma": "valuable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有價值的"
       }
     ],
     "tags": [
@@ -2784,7 +3565,49 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
+    }
+  },
+  {
+    "id": "w_invariably",
+    "lemma": "invariably",
+    "slug": "invariably",
+    "cefr": "B2",
+    "pronunciation": {
+      "kk": "/ˌɪnˈvɛriəbli/"
     },
+    "senses": [
+      {
+        "id": "s_invariably_adverb",
+        "partOfSpeech": "adverb",
+        "register": [
+          "formal",
+          "academic"
+        ],
+        "definitionEn": "in every case or on every occasion; always",
+        "definitionZh": "總是；一貫地",
+        "usageExplanationZh": "常見於描述固定不變的模式，如 invariably late（總是遲到），語氣正式書面。",
+        "grammarPatterns": [
+          "invariably + V",
+          "Invariably, + clause"
+        ],
+        "collocations": [
+          {
+            "text": "almost invariably",
+            "meaningZh": "幾乎總是"
+          },
+          {
+            "text": "invariably lead to",
+            "meaningZh": "總是導致……"
+          }
+        ],
+        "examples": [
+          {
+            "en": "He invariably arrives ten minutes early for every meeting.",
+            "zh": "他每次開會總是提早十分鐘到。"
+          }
+        ]
+      }
+    ],
     "synonyms": [
       {
         "lemma": "always",
@@ -2800,7 +3623,31 @@
         "lemma": "never",
         "noteZh": "從不"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "invariable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不變的"
+      },
+      {
+        "lemma": "vary",
+        "partOfSpeech": "verb",
+        "meaningZh": "變化"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_invasion",
@@ -2814,14 +3661,16 @@
       {
         "id": "s_invasion_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "an act of invading a country or region with an armed force, or an intrusion into a person's privacy or affairs",
         "definitionZh": "入侵；侵犯（隱私）",
         "usageExplanationZh": "軍事語境常見 a military invasion；也可比喻性地指隱私被侵犯，如 an invasion of privacy。",
-        "examples": [
-          {
-            "en": "The country suffered a devastating invasion during the war.",
-            "zh": "這個國家在戰爭期間遭受了毀滅性的入侵。"
-          }
+        "grammarPatterns": [
+          "an invasion of + noun",
+          "launch an invasion"
         ],
         "collocations": [
           {
@@ -2832,7 +3681,36 @@
             "text": "invasion of privacy",
             "meaningZh": "侵犯隱私"
           }
+        ],
+        "examples": [
+          {
+            "en": "The country suffered a devastating invasion during the war.",
+            "zh": "這個國家在戰爭期間遭受了毀滅性的入侵。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "incursion",
+        "noteZh": "侵入"
+      },
+      {
+        "lemma": "intrusion",
+        "noteZh": "侵擾"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "invade",
+        "partOfSpeech": "verb",
+        "meaningZh": "入侵"
+      },
+      {
+        "lemma": "invasive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "侵入的"
       }
     ],
     "tags": [
@@ -2845,18 +3723,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "incursion",
-        "noteZh": "侵入"
-      },
-      {
-        "lemma": "intrusion",
-        "noteZh": "侵擾"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_inventory",
@@ -2870,14 +3737,16 @@
       {
         "id": "s_inventory_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "technical"
+        ],
         "definitionEn": "a complete list of goods or items in stock, or the items themselves",
         "definitionZh": "庫存清單；存貨",
         "usageExplanationZh": "常見 take inventory（盤點庫存）；商業用語，常見於零售或倉儲管理語境。",
-        "examples": [
-          {
-            "en": "The store manager conducted a full inventory before the holiday sale.",
-            "zh": "店經理在假期促銷前進行了完整的庫存盤點。"
-          }
+        "grammarPatterns": [
+          "take inventory",
+          "an inventory of + noun"
         ],
         "collocations": [
           {
@@ -2888,28 +3757,52 @@
             "text": "inventory management",
             "meaningZh": "庫存管理"
           }
+        ],
+        "examples": [
+          {
+            "en": "The store manager conducted a full inventory before the holiday sale.",
+            "zh": "店經理在假期促銷前進行了完整的庫存盤點。"
+          }
         ]
       },
       {
         "id": "s_inventory_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "business",
+          "technical"
+        ],
         "definitionEn": "to make a complete list of goods or items",
         "definitionZh": "盤點；列清單",
         "usageExplanationZh": "及物動詞，較少見用法，多見於商業或倉儲語境。",
-        "examples": [
-          {
-            "en": "Staff spent the weekend inventorying the warehouse stock.",
-            "zh": "員工花了整個週末盤點倉庫的存貨。"
-          }
+        "grammarPatterns": [
+          "inventory + noun"
         ],
         "collocations": [
           {
             "text": "inventory the equipment",
             "meaningZh": "盤點設備"
           }
+        ],
+        "examples": [
+          {
+            "en": "Staff spent the weekend inventorying the warehouse stock.",
+            "zh": "員工花了整個週末盤點倉庫的存貨。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "stock",
+        "noteZh": "名詞，存貨"
+      },
+      {
+        "lemma": "catalog",
+        "noteZh": "動詞，逐項列出"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2922,18 +3815,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "stock",
-        "noteZh": "名詞，存貨"
-      },
-      {
-        "lemma": "catalog",
-        "noteZh": "動詞，逐項列出"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_inverse",
@@ -2947,14 +3829,16 @@
       {
         "id": "s_inverse_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "opposite in effect, order, or direction",
         "definitionZh": "相反的；逆向的",
         "usageExplanationZh": "常見 an inverse relationship（反向關係，即一者增加另一者減少），數學或科學語境常用。",
-        "examples": [
-          {
-            "en": "There is an inverse relationship between price and demand.",
-            "zh": "價格與需求之間存在反向關係。"
-          }
+        "grammarPatterns": [
+          "an inverse relationship between A and B",
+          "be inverse to + noun"
         ],
         "collocations": [
           {
@@ -2965,40 +3849,41 @@
             "text": "inverse proportion",
             "meaningZh": "反比"
           }
+        ],
+        "examples": [
+          {
+            "en": "There is an inverse relationship between price and demand.",
+            "zh": "價格與需求之間存在反向關係。"
+          }
         ]
       },
       {
         "id": "s_inverse_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "something that is the opposite or reverse of another thing",
         "definitionZh": "相反的事物；逆命題",
         "usageExplanationZh": "數學用語，常見 the inverse of a function（函數的反函數），也可泛指某事的相反面。",
-        "examples": [
-          {
-            "en": "The inverse of the statement is not necessarily true.",
-            "zh": "這個陳述的逆命題不一定成立。"
-          }
+        "grammarPatterns": [
+          "the inverse of + noun"
         ],
         "collocations": [
           {
             "text": "the inverse of a matrix",
             "meaningZh": "矩陣的反矩陣"
           }
+        ],
+        "examples": [
+          {
+            "en": "The inverse of the statement is not necessarily true.",
+            "zh": "這個陳述的逆命題不一定成立。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "opposite",
@@ -3014,7 +3899,36 @@
         "lemma": "direct",
         "noteZh": "對應數學關係的正向"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "invert",
+        "partOfSpeech": "verb",
+        "meaningZh": "使顛倒"
+      },
+      {
+        "lemma": "inversion",
+        "partOfSpeech": "noun",
+        "meaningZh": "倒置"
+      },
+      {
+        "lemma": "inversely",
+        "partOfSpeech": "adverb",
+        "meaningZh": "相反地"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_investigate",
@@ -3028,14 +3942,16 @@
       {
         "id": "s_investigate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to carry out a systematic inquiry to discover and examine the facts of a situation",
         "definitionZh": "調查；研究",
         "usageExplanationZh": "常接名詞受詞，如 investigate a crime（調查一起犯罪案件），語氣正式。",
-        "examples": [
-          {
-            "en": "Police are investigating the cause of the fire.",
-            "zh": "警方正在調查這起火災的起因。"
-          }
+        "grammarPatterns": [
+          "investigate + noun",
+          "investigate whether + clause"
         ],
         "collocations": [
           {
@@ -3046,7 +3962,41 @@
             "text": "investigate the cause of",
             "meaningZh": "調查……的原因"
           }
+        ],
+        "examples": [
+          {
+            "en": "Police are investigating the cause of the fire.",
+            "zh": "警方正在調查這起火災的起因。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "examine",
+        "noteZh": "仔細檢視"
+      },
+      {
+        "lemma": "look into",
+        "noteZh": "調查"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "investigation",
+        "partOfSpeech": "noun",
+        "meaningZh": "調查"
+      },
+      {
+        "lemma": "investigator",
+        "partOfSpeech": "noun",
+        "meaningZh": "調查員"
+      },
+      {
+        "lemma": "investigative",
+        "partOfSpeech": "adjective",
+        "meaningZh": "調查的"
       }
     ],
     "tags": [
@@ -3061,18 +4011,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "examine",
-        "noteZh": "仔細檢視"
-      },
-      {
-        "lemma": "look into",
-        "noteZh": "調查"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_invisible",
@@ -3086,14 +4025,16 @@
       {
         "id": "s_invisible_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "unable to be seen",
         "definitionZh": "看不見的；隱形的",
         "usageExplanationZh": "常見 invisible to the naked eye（肉眼看不見的），比喻用法如 an invisible barrier（無形的障礙）。",
-        "examples": [
-          {
-            "en": "Some bacteria are invisible to the naked eye.",
-            "zh": "有些細菌是肉眼看不見的。"
-          }
+        "grammarPatterns": [
+          "be invisible to + noun",
+          "virtually invisible"
         ],
         "collocations": [
           {
@@ -3104,20 +4045,15 @@
             "text": "become invisible",
             "meaningZh": "變得看不見"
           }
+        ],
+        "examples": [
+          {
+            "en": "Some bacteria are invisible to the naked eye.",
+            "zh": "有些細菌是肉眼看不見的。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "unseen",
@@ -3133,6 +4069,29 @@
         "lemma": "visible",
         "noteZh": "可見的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "visible",
+        "partOfSpeech": "adjective",
+        "meaningZh": "看得見的"
+      },
+      {
+        "lemma": "invisibility",
+        "partOfSpeech": "noun",
+        "meaningZh": "隱形"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   }
 ]

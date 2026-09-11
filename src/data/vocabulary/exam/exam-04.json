@@ -11,21 +11,53 @@
       {
         "id": "s_ambiguity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "the quality of having more than one possible meaning or interpretation",
         "definitionZh": "歧義；可有多種解讀的含糊性",
         "usageExplanationZh": "泛指性質時不可數；具體不明確之處可數，如 ambiguities in a contract。",
-        "examples": [
-          {
-            "en": "The revised wording removes the ambiguity in the original sentence.",
-            "zh": "修訂後的措辭消除了原句的歧義。"
-          }
+        "grammarPatterns": [
+          "the ambiguity of + noun",
+          "remove the ambiguity in + noun"
         ],
         "collocations": [
           {
             "text": "avoid ambiguity",
             "meaningZh": "避免歧義"
           }
+        ],
+        "examples": [
+          {
+            "en": "The revised wording removes the ambiguity in the original sentence.",
+            "zh": "修訂後的措辭消除了原句的歧義。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "vagueness",
+        "noteZh": "指含糊、不明確"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "clarity",
+        "noteZh": "清楚明確"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "ambiguous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "模稜兩可的"
+      },
+      {
+        "lemma": "ambiguously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "含糊地"
       }
     ],
     "tags": [
@@ -38,19 +70,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "vagueness",
-        "noteZh": "指含糊、不明確"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "clarity",
-        "noteZh": "清楚明確"
-      }
-    ]
+    }
   },
   {
     "id": "w_ambition",
@@ -64,40 +84,69 @@
       {
         "id": "s_ambition_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a strong desire to achieve a particular goal",
         "definitionZh": "志向；想達成的目標",
         "usageExplanationZh": "具體目標可數，常用 an ambition to do something；不一定帶「野心」的負面意味。",
-        "examples": [
-          {
-            "en": "Her ambition is to become a marine biologist.",
-            "zh": "她的志向是成為海洋生物學家。"
-          }
+        "grammarPatterns": [
+          "sb's ambition is to + V",
+          "achieve an ambition"
         ],
         "collocations": [
           {
             "text": "fulfil an ambition",
             "meaningZh": "實現志向"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her ambition is to become a marine biologist.",
+            "zh": "她的志向是成為海洋生物學家。"
+          }
         ]
       },
       {
         "id": "s_ambition_noun_drive",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "the determination to achieve success or power",
         "definitionZh": "企圖心；追求成功或權力的強烈動力",
         "usageExplanationZh": "此義通常不可數，常見 personal ambition；語氣可正可負，依行動與動機判斷。",
-        "examples": [
-          {
-            "en": "He has talent but lacks the ambition to seek promotion.",
-            "zh": "他有才華，卻缺少爭取升遷的企圖心。"
-          }
+        "grammarPatterns": [
+          "lack ambition",
+          "the ambition to + V"
         ],
         "collocations": [
           {
             "text": "personal ambition",
             "meaningZh": "個人的企圖心"
           }
+        ],
+        "examples": [
+          {
+            "en": "He has talent but lacks the ambition to seek promotion.",
+            "zh": "他有才華，卻缺少爭取升遷的企圖心。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "aspiration",
+        "noteZh": "指想達成的目標"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "ambitious",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有抱負的"
       }
     ],
     "tags": [
@@ -111,14 +160,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "aspiration",
-        "noteZh": "指想達成的目標"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_ambitious",
@@ -132,40 +174,80 @@
       {
         "id": "s_ambitious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "determined to achieve success or a difficult goal",
         "definitionZh": "有抱負的；有企圖心的",
         "usageExplanationZh": "可用 ambitious for someone，表示對某人的前途寄予厚望；不一定含貶義。",
-        "examples": [
-          {
-            "en": "The ambitious student applied for several competitive scholarships.",
-            "zh": "這位有抱負的學生申請了幾項競爭激烈的獎學金。"
-          }
+        "grammarPatterns": [
+          "an ambitious + noun",
+          "be ambitious to + V"
         ],
         "collocations": [
           {
             "text": "ambitious young people",
             "meaningZh": "有抱負的年輕人"
           }
+        ],
+        "examples": [
+          {
+            "en": "The ambitious student applied for several competitive scholarships.",
+            "zh": "這位有抱負的學生申請了幾項競爭激烈的獎學金。"
+          }
         ]
       },
       {
         "id": "s_ambitious_adjective_plan",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "requiring considerable effort or resources to achieve",
         "definitionZh": "目標遠大且難度高的",
         "usageExplanationZh": "常修飾 plan、project 或 target，重點是實現目標所需的努力與資源。",
-        "examples": [
-          {
-            "en": "The city announced an ambitious plan to cut emissions.",
-            "zh": "市政府宣布了一項目標遠大的減排計畫。"
-          }
+        "grammarPatterns": [
+          "an ambitious + noun",
+          "an ambitious plan to + V"
         ],
         "collocations": [
           {
             "text": "an ambitious project",
             "meaningZh": "目標遠大的計畫"
           }
+        ],
+        "examples": [
+          {
+            "en": "The city announced an ambitious plan to cut emissions.",
+            "zh": "市政府宣布了一項目標遠大的減排計畫。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "aspiring",
+        "noteZh": "指有抱負的人"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "unambitious",
+        "noteZh": "缺乏抱負的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "ambition",
+        "partOfSpeech": "noun",
+        "meaningZh": "抱負；企圖心"
+      },
+      {
+        "lemma": "ambitiously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "雄心勃勃地"
       }
     ],
     "tags": [
@@ -179,19 +261,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "aspiring",
-        "noteZh": "指有抱負的人"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "unambitious",
-        "noteZh": "缺乏抱負的"
-      }
-    ]
+    }
   },
   {
     "id": "w_ambivalence",
@@ -205,21 +275,43 @@
       {
         "id": "s_ambivalence_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "the presence of conflicting feelings about the same person or thing",
         "definitionZh": "對同一人事物並存的矛盾感受",
         "usageExplanationZh": "不可數名詞，常接 about 或 toward；不同於 ambiguity「語意不明確」。",
-        "examples": [
-          {
-            "en": "She felt ambivalence about leaving a secure job.",
-            "zh": "對於離開一份穩定的工作，她心情矛盾。"
-          }
+        "grammarPatterns": [
+          "ambivalence about + noun",
+          "ambivalence toward + noun"
         ],
         "collocations": [
           {
             "text": "ambivalence about change",
             "meaningZh": "對改變抱持矛盾感受"
           }
+        ],
+        "examples": [
+          {
+            "en": "She felt ambivalence about leaving a secure job.",
+            "zh": "對於離開一份穩定的工作，她心情矛盾。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "mixed feelings",
+        "noteZh": "指並存的矛盾感受"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "ambivalent",
+        "partOfSpeech": "adjective",
+        "meaningZh": "矛盾的"
       }
     ],
     "tags": [
@@ -233,14 +325,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "mixed feelings",
-        "noteZh": "指並存的矛盾感受"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_ambivalent",
@@ -254,21 +339,48 @@
       {
         "id": "s_ambivalent_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "having mixed or conflicting feelings about something",
         "definitionZh": "心情矛盾的；同時有相反感受的",
         "usageExplanationZh": "常用 ambivalent about 或 toward；不等於 indifferent「漠不關心的」。",
-        "examples": [
-          {
-            "en": "I am ambivalent about moving to a larger city.",
-            "zh": "對於搬到更大的城市，我有矛盾的感受。"
-          }
+        "grammarPatterns": [
+          "be ambivalent about + noun",
+          "be ambivalent toward + noun"
         ],
         "collocations": [
           {
             "text": "feel ambivalent about",
             "meaningZh": "對……感到矛盾"
           }
+        ],
+        "examples": [
+          {
+            "en": "I am ambivalent about moving to a larger city.",
+            "zh": "對於搬到更大的城市，我有矛盾的感受。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "conflicted",
+        "noteZh": "指內心矛盾的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "ambivalence",
+        "partOfSpeech": "noun",
+        "meaningZh": "矛盾心理"
+      },
+      {
+        "lemma": "ambivalently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "帶著矛盾心情地"
       }
     ],
     "tags": [
@@ -282,14 +394,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "conflicted",
-        "noteZh": "指內心矛盾的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_amble",
@@ -303,61 +408,91 @@
       {
         "id": "s_amble_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "a slow, relaxed walk",
         "definitionZh": "悠閒的散步",
         "usageExplanationZh": "可數名詞，常用 go for an amble；速度比 brisk walk「快步走」慢。",
-        "examples": [
-          {
-            "en": "We went for an amble through the village.",
-            "zh": "我們在村裡悠閒地散步。"
-          }
+        "grammarPatterns": [
+          "go for an amble",
+          "an amble through + noun"
         ],
         "collocations": [
           {
             "text": "go for an amble",
             "meaningZh": "去悠閒散步"
           }
+        ],
+        "examples": [
+          {
+            "en": "We went for an amble through the village.",
+            "zh": "我們在村裡悠閒地散步。"
+          }
         ]
       },
       {
         "id": "s_amble_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "to walk slowly and in a relaxed way",
         "definitionZh": "從容漫步",
         "usageExplanationZh": "不及物動詞，常接 along、through 或 toward，說明行走路線。",
-        "examples": [
-          {
-            "en": "They ambled along the river after lunch.",
-            "zh": "午餐後，他們沿著河邊悠閒漫步。"
-          }
+        "grammarPatterns": [
+          "amble along + noun",
+          "amble through + noun"
         ],
         "collocations": [
           {
             "text": "amble along",
             "meaningZh": "慢悠悠地走"
           }
+        ],
+        "examples": [
+          {
+            "en": "They ambled along the river after lunch.",
+            "zh": "午餐後，他們沿著河邊悠閒漫步。"
+          }
         ]
       },
       {
         "id": "s_amble_noun_gait",
         "partOfSpeech": "noun",
+        "register": [
+          "technical"
+        ],
         "definitionEn": "a smooth four-beat gait used by some horses",
         "definitionZh": "某些馬匹平穩的四拍步態",
         "usageExplanationZh": "馬術中的專門用法；一般日常語境多指人的悠閒步行。",
-        "examples": [
-          {
-            "en": "The horse moved at a comfortable amble.",
-            "zh": "那匹馬以舒適平穩的四拍步態前行。"
-          }
+        "grammarPatterns": [
+          "move at an amble",
+          "a comfortable amble"
         ],
         "collocations": [
           {
             "text": "a smooth amble",
             "meaningZh": "平穩的四拍步態"
           }
+        ],
+        "examples": [
+          {
+            "en": "The horse moved at a comfortable amble.",
+            "zh": "那匹馬以舒適平穩的四拍步態前行。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "stroll",
+        "noteZh": "指悠閒散步的名詞或動詞"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -369,14 +504,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "stroll",
-        "noteZh": "指悠閒散步的名詞或動詞"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_ambulance",
@@ -390,23 +518,33 @@
       {
         "id": "s_ambulance_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a vehicle equipped to transport sick or injured people for medical care",
         "definitionZh": "救護車",
         "usageExplanationZh": "可數名詞，常用 call an ambulance 或 by ambulance；不泛指所有接送病人的一般車輛。",
-        "examples": [
-          {
-            "en": "An ambulance arrived within minutes of the call.",
-            "zh": "報案後幾分鐘內，救護車就抵達了。"
-          }
+        "grammarPatterns": [
+          "call an ambulance",
+          "by ambulance"
         ],
         "collocations": [
           {
             "text": "call an ambulance",
             "meaningZh": "叫救護車"
           }
+        ],
+        "examples": [
+          {
+            "en": "An ambulance arrived within minutes of the call.",
+            "zh": "報案後幾分鐘內，救護車就抵達了。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -417,9 +555,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_ameliorate",
@@ -433,21 +569,48 @@
       {
         "id": "s_ameliorate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to make an unpleasant or difficult situation better",
         "definitionZh": "改善不良或困難的情況",
         "usageExplanationZh": "正式用語，常接 conditions、effects 或 a problem；未必表示完全解決。",
-        "examples": [
-          {
-            "en": "The new drainage system should ameliorate the flooding problem.",
-            "zh": "新的排水系統應能改善淹水問題。"
-          }
+        "grammarPatterns": [
+          "ameliorate + noun",
+          "ameliorate the effects of + noun"
         ],
         "collocations": [
           {
             "text": "ameliorate the effects of",
             "meaningZh": "減輕……的不良影響"
           }
+        ],
+        "examples": [
+          {
+            "en": "The new drainage system should ameliorate the flooding problem.",
+            "zh": "新的排水系統應能改善淹水問題。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "improve",
+        "noteZh": "改善不良情況"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "worsen",
+        "noteZh": "使惡化"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "amelioration",
+        "partOfSpeech": "noun",
+        "meaningZh": "改善"
       }
     ],
     "tags": [
@@ -460,19 +623,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "improve",
-        "noteZh": "改善不良情況"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "worsen",
-        "noteZh": "使惡化"
-      }
-    ]
+    }
   },
   {
     "id": "w_amend",
@@ -486,40 +637,70 @@
       {
         "id": "s_amend_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to change a document or proposal to correct or improve it",
         "definitionZh": "修訂文件或提案",
         "usageExplanationZh": "常接 law、contract 或 proposal；議事語境中的 amend 指提出或作出具體修正。",
-        "examples": [
-          {
-            "en": "The committee amended the proposal before approving it.",
-            "zh": "委員會先修訂提案，再予以通過。"
-          }
+        "grammarPatterns": [
+          "amend + noun",
+          "amend sth to + V"
         ],
         "collocations": [
           {
             "text": "amend a law",
             "meaningZh": "修訂法律"
           }
+        ],
+        "examples": [
+          {
+            "en": "The committee amended the proposal before approving it.",
+            "zh": "委員會先修訂提案，再予以通過。"
+          }
         ]
       },
       {
         "id": "s_amend_verb_conduct",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to improve or correct one's behavior",
         "definitionZh": "改正行為",
         "usageExplanationZh": "常見 amend one's ways；名詞片語 make amends 表示彌補過失，結構不同。",
-        "examples": [
-          {
-            "en": "He promised to amend his ways after the warning.",
-            "zh": "受到警告後，他承諾改正自己的行為。"
-          }
+        "grammarPatterns": [
+          "amend one's ways",
+          "amend + noun"
         ],
         "collocations": [
           {
             "text": "amend one's ways",
             "meaningZh": "改正自己的行為"
           }
+        ],
+        "examples": [
+          {
+            "en": "He promised to amend his ways after the warning.",
+            "zh": "受到警告後，他承諾改正自己的行為。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "revise",
+        "noteZh": "指修訂文件"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "amendment",
+        "partOfSpeech": "noun",
+        "meaningZh": "修正；修正案"
       }
     ],
     "tags": [
@@ -534,14 +715,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "revise",
-        "noteZh": "指修訂文件"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_amendment",
@@ -555,21 +729,43 @@
       {
         "id": "s_amendment_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "a change made to a document, law, or proposal",
         "definitionZh": "文件、法律或提案的修正",
         "usageExplanationZh": "可數名詞，常用 an amendment to；正式提出修改可說 propose an amendment。",
-        "examples": [
-          {
-            "en": "The amendment to the law takes effect in January.",
-            "zh": "這項法律修正案將於一月生效。"
-          }
+        "grammarPatterns": [
+          "an amendment to + noun",
+          "propose an amendment"
         ],
         "collocations": [
           {
             "text": "a constitutional amendment",
             "meaningZh": "憲法修正案"
           }
+        ],
+        "examples": [
+          {
+            "en": "The amendment to the law takes effect in January.",
+            "zh": "這項法律修正案將於一月生效。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "revision",
+        "noteZh": "指文件的修訂"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "amend",
+        "partOfSpeech": "verb",
+        "meaningZh": "修訂"
       }
     ],
     "tags": [
@@ -583,14 +779,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "revision",
-        "noteZh": "指文件的修訂"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_amicable",
@@ -604,21 +793,52 @@
       {
         "id": "s_amicable_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "friendly and free from serious disagreement",
         "definitionZh": "友善和睦的",
         "usageExplanationZh": "常描述 agreement、settlement 或 relations；比起人的性情，更常形容協商或關係。",
-        "examples": [
-          {
-            "en": "The dispute ended with an amicable settlement.",
-            "zh": "這場爭議以和解收場。"
-          }
+        "grammarPatterns": [
+          "an amicable + noun",
+          "reach an amicable settlement"
         ],
         "collocations": [
           {
             "text": "an amicable settlement",
             "meaningZh": "和解"
           }
+        ],
+        "examples": [
+          {
+            "en": "The dispute ended with an amicable settlement.",
+            "zh": "這場爭議以和解收場。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "friendly",
+        "noteZh": "友善的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "hostile",
+        "noteZh": "敵對的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "amicably",
+        "partOfSpeech": "adverb",
+        "meaningZh": "友好地"
+      },
+      {
+        "lemma": "amity",
+        "partOfSpeech": "noun",
+        "meaningZh": "友好關係"
       }
     ],
     "tags": [
@@ -632,19 +852,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "friendly",
-        "noteZh": "友善的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "hostile",
-        "noteZh": "敵對的"
-      }
-    ]
+    }
   },
   {
     "id": "w_amiss",
@@ -658,40 +866,67 @@
       {
         "id": "s_amiss_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "wrong or not as it should be",
         "definitionZh": "不對勁的；出差錯的",
         "usageExplanationZh": "通常放在 be、seem 等動詞後，常用 something is amiss，不常直接修飾名詞。",
-        "examples": [
-          {
-            "en": "She sensed that something was amiss.",
-            "zh": "她感覺到有些不對勁。"
-          }
+        "grammarPatterns": [
+          "something is amiss",
+          "sense that sth is amiss"
         ],
         "collocations": [
           {
             "text": "something is amiss",
             "meaningZh": "有些不對勁"
           }
+        ],
+        "examples": [
+          {
+            "en": "She sensed that something was amiss.",
+            "zh": "她感覺到有些不對勁。"
+          }
         ]
       },
       {
         "id": "s_amiss_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "in a wrong or inappropriate way",
         "definitionZh": "不妥地；錯誤地",
         "usageExplanationZh": "常見 take something amiss「因某事感到受冒犯」；not go amiss 表示會有幫助或正合需要。",
-        "examples": [
-          {
-            "en": "I hope you will not take my suggestion amiss.",
-            "zh": "希望你不會因我的建議而感到冒犯。"
-          }
+        "grammarPatterns": [
+          "take sth amiss",
+          "go amiss"
         ],
         "collocations": [
           {
             "text": "take something amiss",
             "meaningZh": "因某事而不悅或誤會"
           }
+        ],
+        "examples": [
+          {
+            "en": "I hope you will not take my suggestion amiss.",
+            "zh": "希望你不會因我的建議而感到冒犯。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "wrong",
+        "noteZh": "指情況不對勁"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "right",
+        "noteZh": "指情況正常妥當"
       }
     ],
     "tags": [
@@ -704,19 +939,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "wrong",
-        "noteZh": "指情況不對勁"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "right",
-        "noteZh": "指情況正常妥當"
-      }
-    ]
+    }
   },
   {
     "id": "w_amnesty",
@@ -730,42 +953,65 @@
       {
         "id": "s_amnesty_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "an official pardon for a group of offenders",
         "definitionZh": "對一群違法者的赦免；大赦",
         "usageExplanationZh": "可數或不可數，常用 grant amnesty to；通常是針對特定群體或事件。",
-        "examples": [
-          {
-            "en": "The government granted amnesty to several political prisoners.",
-            "zh": "政府赦免了幾名政治犯。"
-          }
+        "grammarPatterns": [
+          "grant amnesty to + sb",
+          "an amnesty for + noun"
         ],
         "collocations": [
           {
             "text": "grant an amnesty",
             "meaningZh": "頒布大赦"
           }
+        ],
+        "examples": [
+          {
+            "en": "The government granted amnesty to several political prisoners.",
+            "zh": "政府赦免了幾名政治犯。"
+          }
         ]
       },
       {
         "id": "s_amnesty_noun_period",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "a period during which people can disclose an offense or surrender prohibited items without certain penalties",
         "definitionZh": "可申報違規或繳交違禁物而免受特定處罰的期間",
         "usageExplanationZh": "常見 tax amnesty 或 weapons amnesty；具體免罰範圍依方案而定。",
-        "examples": [
-          {
-            "en": "The city announced a one-month amnesty for returning illegal weapons.",
-            "zh": "市政府宣布一個月的違法武器繳交免罰期。"
-          }
+        "grammarPatterns": [
+          "declare an amnesty",
+          "a one-month amnesty"
         ],
         "collocations": [
           {
             "text": "a tax amnesty",
             "meaningZh": "稅務特赦期間"
           }
+        ],
+        "examples": [
+          {
+            "en": "The city announced a one-month amnesty for returning illegal weapons.",
+            "zh": "市政府宣布一個月的違法武器繳交免罰期。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "pardon",
+        "noteZh": "指赦免罪行"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -777,14 +1023,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pardon",
-        "noteZh": "指赦免罪行"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_amorphous",
@@ -798,40 +1037,68 @@
       {
         "id": "s_amorphous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "without a clear shape, form, or organization",
         "definitionZh": "無明確形狀的；缺乏組織的",
         "usageExplanationZh": "可描述物體或抽象事物，常見 an amorphous mass 或 amorphous ideas。",
-        "examples": [
-          {
-            "en": "The proposal was still an amorphous collection of ideas.",
-            "zh": "這份提案仍只是一堆缺乏組織的想法。"
-          }
+        "grammarPatterns": [
+          "an amorphous + noun",
+          "remain amorphous"
         ],
         "collocations": [
           {
             "text": "an amorphous mass",
             "meaningZh": "無定形的一團"
           }
+        ],
+        "examples": [
+          {
+            "en": "The proposal was still an amorphous collection of ideas.",
+            "zh": "這份提案仍只是一堆缺乏組織的想法。"
+          }
         ]
       },
       {
         "id": "s_amorphous_adjective_material",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "lacking a regular long-range crystalline structure",
         "definitionZh": "非晶質的",
         "usageExplanationZh": "材料科學用語，與 crystalline「結晶的」相對；不表示材料必定是液體。",
-        "examples": [
-          {
-            "en": "Glass is usually an amorphous solid.",
-            "zh": "玻璃通常是一種非晶質固體。"
-          }
+        "grammarPatterns": [
+          "an amorphous solid",
+          "amorphous + noun"
         ],
         "collocations": [
           {
             "text": "amorphous silicon",
             "meaningZh": "非晶矽"
           }
+        ],
+        "examples": [
+          {
+            "en": "Glass is usually an amorphous solid.",
+            "zh": "玻璃通常是一種非晶質固體。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "shapeless",
+        "noteZh": "指無明確形狀"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "crystalline",
+        "noteZh": "限非晶質義的反義"
       }
     ],
     "tags": [
@@ -844,19 +1111,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "shapeless",
-        "noteZh": "指無明確形狀"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "crystalline",
-        "noteZh": "限非晶質義的反義"
-      }
-    ]
+    }
   },
   {
     "id": "w_ample",
@@ -870,21 +1125,47 @@
       {
         "id": "s_ample_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "more than enough in quantity, size, or capacity",
         "definitionZh": "充足有餘的；寬大的",
         "usageExplanationZh": "常見 ample time、ample evidence 或 ample space；通常表示足夠且有餘裕。",
-        "examples": [
-          {
-            "en": "There is ample time to review the report before Friday.",
-            "zh": "星期五之前有充足時間審閱報告。"
-          }
+        "grammarPatterns": [
+          "ample + noun",
+          "ample time to + V"
         ],
         "collocations": [
           {
             "text": "ample opportunity",
             "meaningZh": "充分的機會"
           }
+        ],
+        "examples": [
+          {
+            "en": "There is ample time to review the report before Friday.",
+            "zh": "星期五之前有充足時間審閱報告。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "abundant",
+        "noteZh": "指數量充足"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "insufficient",
+        "noteZh": "不足的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "amply",
+        "partOfSpeech": "adverb",
+        "meaningZh": "充分地"
       }
     ],
     "tags": [
@@ -899,19 +1180,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "abundant",
-        "noteZh": "指數量充足"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "insufficient",
-        "noteZh": "不足的"
-      }
-    ]
+    }
   },
   {
     "id": "w_amplify",
@@ -925,59 +1194,106 @@
       {
         "id": "s_amplify_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical"
+        ],
         "definitionEn": "to make a sound or signal stronger",
         "definitionZh": "放大聲音或訊號",
         "usageExplanationZh": "常接 sound、signal 或 voltage；設備 amplifier 指放大器。",
-        "examples": [
-          {
-            "en": "The microphone system amplifies the speaker's voice.",
-            "zh": "麥克風系統會放大講者的聲音。"
-          }
+        "grammarPatterns": [
+          "amplify + noun",
+          "amplify the signal"
         ],
         "collocations": [
           {
             "text": "amplify a signal",
             "meaningZh": "放大訊號"
           }
+        ],
+        "examples": [
+          {
+            "en": "The microphone system amplifies the speaker's voice.",
+            "zh": "麥克風系統會放大講者的聲音。"
+          }
         ]
       },
       {
         "id": "s_amplify_verb_effect",
         "partOfSpeech": "verb",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "to increase the strength or impact of something",
         "definitionZh": "增強作用；擴大影響",
         "usageExplanationZh": "常接 effect、risk 或 a message；不一定涉及實際音量。",
-        "examples": [
-          {
-            "en": "Social media amplified the impact of the announcement.",
-            "zh": "社群媒體擴大了這項公告的影響。"
-          }
+        "grammarPatterns": [
+          "amplify + noun",
+          "amplify the impact of + noun"
         ],
         "collocations": [
           {
             "text": "amplify the impact",
             "meaningZh": "擴大影響"
           }
+        ],
+        "examples": [
+          {
+            "en": "Social media amplified the impact of the announcement.",
+            "zh": "社群媒體擴大了這項公告的影響。"
+          }
         ]
       },
       {
         "id": "s_amplify_verb_explain",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to explain something in more detail",
         "definitionZh": "詳加說明",
         "usageExplanationZh": "正式用法，可直接接 a point，也可用 amplify on a statement，表示補充細節。",
-        "examples": [
-          {
-            "en": "Could you amplify on your earlier remarks?",
-            "zh": "你能進一步說明剛才的發言嗎？"
-          }
+        "grammarPatterns": [
+          "amplify on + noun",
+          "amplify + noun"
         ],
         "collocations": [
           {
             "text": "amplify on a point",
             "meaningZh": "就某個重點詳加說明"
           }
+        ],
+        "examples": [
+          {
+            "en": "Could you amplify on your earlier remarks?",
+            "zh": "你能進一步說明剛才的發言嗎？"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "magnify",
+        "noteZh": "指增強作用"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "attenuate",
+        "noteZh": "指減弱訊號或作用"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "amplification",
+        "partOfSpeech": "noun",
+        "meaningZh": "放大；擴大"
+      },
+      {
+        "lemma": "amplifier",
+        "partOfSpeech": "noun",
+        "meaningZh": "擴大機"
       }
     ],
     "tags": [
@@ -992,19 +1308,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "magnify",
-        "noteZh": "指增強作用"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "attenuate",
-        "noteZh": "指減弱訊號或作用"
-      }
-    ]
+    }
   },
   {
     "id": "w_amuse",
@@ -1018,40 +1322,73 @@
       {
         "id": "s_amuse_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to make someone laugh or smile",
         "definitionZh": "逗樂；使發笑",
         "usageExplanationZh": "人作受詞，常用 be amused by；amusing 形容有趣的事物，amused 形容感到好笑的人。",
-        "examples": [
-          {
-            "en": "The child's unexpected answer amused everyone.",
-            "zh": "孩子出人意料的回答逗樂了大家。"
-          }
+        "grammarPatterns": [
+          "amuse + sb",
+          "be amused by + noun"
         ],
         "collocations": [
           {
             "text": "amuse the audience",
             "meaningZh": "逗樂觀眾"
           }
+        ],
+        "examples": [
+          {
+            "en": "The child's unexpected answer amused everyone.",
+            "zh": "孩子出人意料的回答逗樂了大家。"
+          }
         ]
       },
       {
         "id": "s_amuse_verb_entertain",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to keep someone pleasantly occupied",
         "definitionZh": "使愉快地消磨時間",
         "usageExplanationZh": "常用 amuse oneself with something，或 amuse oneself by doing something。",
-        "examples": [
-          {
-            "en": "The children amused themselves with a board game.",
-            "zh": "孩子們玩桌遊自娛。"
-          }
+        "grammarPatterns": [
+          "amuse oneself with + noun",
+          "keep sb amused"
         ],
         "collocations": [
           {
             "text": "amuse oneself with",
             "meaningZh": "以……自娛"
           }
+        ],
+        "examples": [
+          {
+            "en": "The children amused themselves with a board game.",
+            "zh": "孩子們玩桌遊自娛。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "entertain",
+        "noteZh": "指使人愉快地消磨時間"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "bore",
+        "noteZh": "使感到無聊"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "amusement",
+        "partOfSpeech": "noun",
+        "meaningZh": "娛樂；樂趣"
       }
     ],
     "tags": [
@@ -1065,19 +1402,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "entertain",
-        "noteZh": "指使人愉快地消磨時間"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "bore",
-        "noteZh": "使感到無聊"
-      }
-    ]
+    }
   },
   {
     "id": "w_analogous",
@@ -1091,40 +1416,75 @@
       {
         "id": "s_analogous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "similar in a way that allows a useful comparison",
         "definitionZh": "可類比的；在某方面相似的",
         "usageExplanationZh": "通常接 to，如 analogous to a familiar process；有可比性不表示完全相同。",
-        "examples": [
-          {
-            "en": "The role of a conductor is analogous to that of a team leader.",
-            "zh": "指揮家的角色可類比為團隊領導者的角色。"
-          }
+        "grammarPatterns": [
+          "be analogous to + noun",
+          "an analogous + noun"
         ],
         "collocations": [
           {
             "text": "analogous to",
             "meaningZh": "與……相似"
           }
+        ],
+        "examples": [
+          {
+            "en": "The role of a conductor is analogous to that of a team leader.",
+            "zh": "指揮家的角色可類比為團隊領導者的角色。"
+          }
         ]
       },
       {
         "id": "s_analogous_adjective_biology",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "similar in function but different in evolutionary origin",
         "definitionZh": "功能相似但演化起源不同的",
         "usageExplanationZh": "生物學用語，與 homologous「同源的」區分；常見 analogous structures。",
-        "examples": [
-          {
-            "en": "Bird wings and insect wings are analogous structures.",
-            "zh": "鳥翼與昆蟲翅膀是功能相似但演化起源不同的構造。"
-          }
+        "grammarPatterns": [
+          "analogous structures",
+          "be analogous to + noun"
         ],
         "collocations": [
           {
             "text": "analogous structures",
             "meaningZh": "同功構造"
           }
+        ],
+        "examples": [
+          {
+            "en": "Bird wings and insect wings are analogous structures.",
+            "zh": "鳥翼與昆蟲翅膀是功能相似但演化起源不同的構造。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "comparable",
+        "noteZh": "指可作類比的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "analogy",
+        "partOfSpeech": "noun",
+        "meaningZh": "類比"
+      },
+      {
+        "lemma": "analogously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "類似地"
       }
     ],
     "tags": [
@@ -1138,14 +1498,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "comparable",
-        "noteZh": "指可作類比的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_analogy",
@@ -1159,21 +1512,48 @@
       {
         "id": "s_analogy_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "a comparison used to explain something through a relevant similarity",
         "definitionZh": "類比；藉相似之處所作的比較",
         "usageExplanationZh": "常用 an analogy between A and B，或 draw an analogy with；類比有助理解，但不是完整證明。",
-        "examples": [
-          {
-            "en": "The teacher used an analogy to explain electrical resistance.",
-            "zh": "老師用類比來解釋電阻。"
-          }
+        "grammarPatterns": [
+          "an analogy between A and B",
+          "draw an analogy with + noun"
         ],
         "collocations": [
           {
             "text": "draw an analogy between",
             "meaningZh": "將……作類比"
           }
+        ],
+        "examples": [
+          {
+            "en": "The teacher used an analogy to explain electrical resistance.",
+            "zh": "老師用類比來解釋電阻。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "comparison",
+        "noteZh": "指用來說明的比較"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "analogous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "類似的；可類比的"
+      },
+      {
+        "lemma": "analogical",
+        "partOfSpeech": "adjective",
+        "meaningZh": "類推的"
       }
     ],
     "tags": [
@@ -1188,14 +1568,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "comparison",
-        "noteZh": "指用來說明的比較"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_analysis",
@@ -1209,21 +1582,53 @@
       {
         "id": "s_analysis_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "a detailed examination of something and its parts to understand it",
         "definitionZh": "分析；對整體及組成部分的詳細研究",
         "usageExplanationZh": "單數 analysis，複數 analyses；常用 an analysis of data 或 carry out an analysis。",
-        "examples": [
-          {
-            "en": "The analysis revealed a consistent pattern in the data.",
-            "zh": "分析顯示資料中有一致的模式。"
-          }
+        "grammarPatterns": [
+          "an analysis of + noun",
+          "carry out an analysis"
         ],
         "collocations": [
           {
             "text": "data analysis",
             "meaningZh": "資料分析"
           }
+        ],
+        "examples": [
+          {
+            "en": "The analysis revealed a consistent pattern in the data.",
+            "zh": "分析顯示資料中有一致的模式。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "examination",
+        "noteZh": "指仔細研究"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "analyze",
+        "partOfSpeech": "verb",
+        "meaningZh": "分析"
+      },
+      {
+        "lemma": "analytical",
+        "partOfSpeech": "adjective",
+        "meaningZh": "分析的"
+      },
+      {
+        "lemma": "analyst",
+        "partOfSpeech": "noun",
+        "meaningZh": "分析師"
       }
     ],
     "tags": [
@@ -1237,14 +1642,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "examination",
-        "noteZh": "指仔細研究"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_analytical",
@@ -1258,40 +1656,85 @@
       {
         "id": "s_analytical_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "business"
+        ],
         "definitionEn": "relating to detailed examination or showing skill in it",
         "definitionZh": "分析的；善於分析的",
         "usageExplanationZh": "常見 analytical skills、analytical thinking 或 analytical methods。",
-        "examples": [
-          {
-            "en": "The role requires strong analytical skills.",
-            "zh": "這個職位需要良好的分析能力。"
-          }
+        "grammarPatterns": [
+          "analytical + noun",
+          "strong analytical skills"
         ],
         "collocations": [
           {
             "text": "analytical skills",
             "meaningZh": "分析能力"
           }
+        ],
+        "examples": [
+          {
+            "en": "The role requires strong analytical skills.",
+            "zh": "這個職位需要良好的分析能力。"
+          }
         ]
       },
       {
         "id": "s_analytical_adjective_philosophy",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "true by virtue of the meanings of its terms rather than empirical observation",
         "definitionZh": "依詞義即可成立的；分析性的",
         "usageExplanationZh": "哲學用語，也常寫作 analytic；與 synthetic「綜合性的」區分。",
-        "examples": [
-          {
-            "en": "The philosopher used \"All bachelors are unmarried\" as an analytical statement.",
-            "zh": "哲學家以「所有單身漢都未婚」作為分析性陳述的例子。"
-          }
+        "grammarPatterns": [
+          "an analytical + noun",
+          "analytically true"
         ],
         "collocations": [
           {
             "text": "an analytical proposition",
             "meaningZh": "分析命題"
           }
+        ],
+        "examples": [
+          {
+            "en": "The philosopher used \"All bachelors are unmarried\" as an analytical statement.",
+            "zh": "哲學家以「所有單身漢都未婚」作為分析性陳述的例子。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "logical",
+        "noteZh": "指善於條理分析"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "synthetic",
+        "noteZh": "限哲學中綜合命題的相對概念"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "analysis",
+        "partOfSpeech": "noun",
+        "meaningZh": "分析"
+      },
+      {
+        "lemma": "analyze",
+        "partOfSpeech": "verb",
+        "meaningZh": "分析"
+      },
+      {
+        "lemma": "analytically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "以分析方式"
       }
     ],
     "tags": [
@@ -1304,19 +1747,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "logical",
-        "noteZh": "指善於條理分析"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "synthetic",
-        "noteZh": "限哲學中綜合命題的相對概念"
-      }
-    ]
+    }
   },
   {
     "id": "w_analyze",
@@ -1330,21 +1761,48 @@
       {
         "id": "s_analyze_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "to examine something carefully by considering its parts or details",
         "definitionZh": "分析；仔細研究",
         "usageExplanationZh": "美式拼法為 analyze，英式常用 analyse；及物動詞，直接接 data、results 或 a problem。",
-        "examples": [
-          {
-            "en": "The researchers analyzed samples from three sites.",
-            "zh": "研究人員分析了三個地點的樣本。"
-          }
+        "grammarPatterns": [
+          "analyze + noun",
+          "analyze how + clause"
         ],
         "collocations": [
           {
             "text": "analyze the results",
             "meaningZh": "分析結果"
           }
+        ],
+        "examples": [
+          {
+            "en": "The researchers analyzed samples from three sites.",
+            "zh": "研究人員分析了三個地點的樣本。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "examine",
+        "noteZh": "指仔細研究"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "analysis",
+        "partOfSpeech": "noun",
+        "meaningZh": "分析"
+      },
+      {
+        "lemma": "analyst",
+        "partOfSpeech": "noun",
+        "meaningZh": "分析師"
       }
     ],
     "tags": [
@@ -1358,14 +1816,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "examine",
-        "noteZh": "指仔細研究"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_anatomical",
@@ -1379,21 +1830,43 @@
       {
         "id": "s_anatomical_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "relating to the structure of a body or the study of that structure",
         "definitionZh": "身體構造的；解剖學的",
         "usageExplanationZh": "常見 anatomical features 或 anatomical diagrams；不只指實際進行解剖的動作。",
-        "examples": [
-          {
-            "en": "The textbook includes detailed anatomical drawings.",
-            "zh": "這本教科書包含詳細的解剖構造圖。"
-          }
+        "grammarPatterns": [
+          "anatomical + noun",
+          "anatomically + adjective"
         ],
         "collocations": [
           {
             "text": "anatomical structure",
             "meaningZh": "解剖構造"
           }
+        ],
+        "examples": [
+          {
+            "en": "The textbook includes detailed anatomical drawings.",
+            "zh": "這本教科書包含詳細的解剖構造圖。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "anatomy",
+        "partOfSpeech": "noun",
+        "meaningZh": "解剖學；身體構造"
+      },
+      {
+        "lemma": "anatomist",
+        "partOfSpeech": "noun",
+        "meaningZh": "解剖學家"
       }
     ],
     "tags": [
@@ -1406,9 +1879,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_ancestor",
@@ -1422,40 +1893,80 @@
       {
         "id": "s_ancestor_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "neutral"
+        ],
         "definitionEn": "a person or organism from which another is descended",
         "definitionZh": "祖先；祖先物種",
         "usageExplanationZh": "可數名詞；談人類家系或生物演化都可使用，descendant 則指後代。",
-        "examples": [
-          {
-            "en": "These birds share a common ancestor.",
-            "zh": "這些鳥類具有共同祖先。"
-          }
+        "grammarPatterns": [
+          "a common ancestor",
+          "sb's ancestors"
         ],
         "collocations": [
           {
             "text": "a common ancestor",
             "meaningZh": "共同祖先"
           }
+        ],
+        "examples": [
+          {
+            "en": "These birds share a common ancestor.",
+            "zh": "這些鳥類具有共同祖先。"
+          }
         ]
       },
       {
         "id": "s_ancestor_noun_precursor",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "an earlier form from which a later thing developed",
         "definitionZh": "後來事物的前身",
         "usageExplanationZh": "比喻用法，常用 an ancestor of modern technology；表示發展上的前身。",
-        "examples": [
-          {
-            "en": "The device was an ancestor of the modern computer.",
-            "zh": "這項裝置是現代電腦的前身。"
-          }
+        "grammarPatterns": [
+          "an ancestor of + noun",
+          "the ancestor of the modern + noun"
         ],
         "collocations": [
           {
             "text": "the ancestor of the modern computer",
             "meaningZh": "現代電腦的前身"
           }
+        ],
+        "examples": [
+          {
+            "en": "The device was an ancestor of the modern computer.",
+            "zh": "這項裝置是現代電腦的前身。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "forebear",
+        "noteZh": "指家族祖先"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "descendant",
+        "noteZh": "限祖先義，指後代"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "ancestral",
+        "partOfSpeech": "adjective",
+        "meaningZh": "祖先的"
+      },
+      {
+        "lemma": "ancestry",
+        "partOfSpeech": "noun",
+        "meaningZh": "祖先；血統"
       }
     ],
     "tags": [
@@ -1470,19 +1981,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "forebear",
-        "noteZh": "指家族祖先"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "descendant",
-        "noteZh": "限祖先義，指後代"
-      }
-    ]
+    }
   },
   {
     "id": "w_anchor",
@@ -1496,78 +1995,124 @@
       {
         "id": "s_anchor_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a heavy device used to keep a boat in place",
         "definitionZh": "錨",
         "usageExplanationZh": "可數名詞，常見 drop anchor「下錨」或 at anchor「下錨停泊中」。",
-        "examples": [
-          {
-            "en": "The crew lowered the anchor near the shore.",
-            "zh": "船員在岸邊附近下錨。"
-          }
+        "grammarPatterns": [
+          "drop anchor",
+          "lower the anchor"
         ],
         "collocations": [
           {
             "text": "drop anchor",
             "meaningZh": "下錨"
           }
+        ],
+        "examples": [
+          {
+            "en": "The crew lowered the anchor near the shore.",
+            "zh": "船員在岸邊附近下錨。"
+          }
         ]
       },
       {
         "id": "s_anchor_noun_support",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "a source of stability or support",
         "definitionZh": "穩定的依靠；支柱",
         "usageExplanationZh": "比喻用法，常指人、制度或信念；不一定是實體固定裝置。",
-        "examples": [
-          {
-            "en": "Her family was an anchor during the difficult months.",
-            "zh": "在那幾個艱難的月份裡，家人是她穩定的依靠。"
-          }
+        "grammarPatterns": [
+          "an anchor for + sb",
+          "be an anchor in + noun"
         ],
         "collocations": [
           {
             "text": "an emotional anchor",
             "meaningZh": "情感上的支柱"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her family was an anchor during the difficult months.",
+            "zh": "在那幾個艱難的月份裡，家人是她穩定的依靠。"
+          }
         ]
       },
       {
         "id": "s_anchor_noun_presenter",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "technical"
+        ],
         "definitionEn": "a person who presents a television or radio news program",
         "definitionZh": "新聞主播",
         "usageExplanationZh": "常見 news anchor；在此義中指節目主持播報者，不是所有新聞採訪記者。",
-        "examples": [
-          {
-            "en": "The anchor introduced a live report from the scene.",
-            "zh": "主播介紹了來自現場的即時報導。"
-          }
+        "grammarPatterns": [
+          "a news anchor",
+          "the anchor of + noun"
         ],
         "collocations": [
           {
             "text": "a news anchor",
             "meaningZh": "新聞主播"
           }
+        ],
+        "examples": [
+          {
+            "en": "The anchor introduced a live report from the scene.",
+            "zh": "主播介紹了來自現場的即時報導。"
+          }
         ]
       },
       {
         "id": "s_anchor_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "to secure something in place, especially a boat with an anchor",
         "definitionZh": "固定；使船下錨停泊",
         "usageExplanationZh": "可及物或不及物；anchor something to something 表示將物體固定在某處。",
-        "examples": [
-          {
-            "en": "The cables anchor the platform to the seabed.",
-            "zh": "纜繩將平台固定在海床上。"
-          }
+        "grammarPatterns": [
+          "anchor sth to + noun",
+          "anchor + noun"
         ],
         "collocations": [
           {
             "text": "anchor a boat",
             "meaningZh": "把船下錨固定"
           }
+        ],
+        "examples": [
+          {
+            "en": "The cables anchor the platform to the seabed.",
+            "zh": "纜繩將平台固定在海床上。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "mainstay",
+        "noteZh": "限支柱義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "anchorage",
+        "partOfSpeech": "noun",
+        "meaningZh": "錨地；固定處"
       }
     ],
     "tags": [
@@ -1581,14 +2126,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "mainstay",
-        "noteZh": "限支柱義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_ancillary",
@@ -1602,21 +2140,41 @@
       {
         "id": "s_ancillary_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "providing additional support for a main activity",
         "definitionZh": "輔助的；附屬的",
         "usageExplanationZh": "常見 ancillary services 或 ancillary equipment；不是主要業務，但可能仍不可或缺。",
-        "examples": [
-          {
-            "en": "The hospital provides transport and other ancillary services.",
-            "zh": "醫院提供接送及其他輔助服務。"
-          }
+        "grammarPatterns": [
+          "ancillary + noun",
+          "be ancillary to + noun"
         ],
         "collocations": [
           {
             "text": "ancillary services",
             "meaningZh": "輔助服務"
           }
+        ],
+        "examples": [
+          {
+            "en": "The hospital provides transport and other ancillary services.",
+            "zh": "醫院提供接送及其他輔助服務。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "auxiliary",
+        "noteZh": "輔助的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "primary",
+        "noteZh": "主要的"
       }
     ],
     "tags": [
@@ -1629,19 +2187,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "auxiliary",
-        "noteZh": "輔助的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "primary",
-        "noteZh": "主要的"
-      }
-    ]
+    }
   },
   {
     "id": "w_angle",
@@ -1655,97 +2201,150 @@
       {
         "id": "s_angle_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "the amount of turn between two intersecting lines or surfaces",
         "definitionZh": "角；角度",
         "usageExplanationZh": "可數名詞，通常以 degrees「度」或 radians「弧度」測量；at an angle 表示傾斜。",
-        "examples": [
-          {
-            "en": "The two beams meet at a right angle.",
-            "zh": "這兩根樑以直角相交。"
-          }
+        "grammarPatterns": [
+          "a right angle",
+          "at an angle of + noun"
         ],
         "collocations": [
           {
             "text": "a right angle",
             "meaningZh": "直角"
           }
+        ],
+        "examples": [
+          {
+            "en": "The two beams meet at a right angle.",
+            "zh": "這兩根樑以直角相交。"
+          }
         ]
       },
       {
         "id": "s_angle_noun_perspective",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "a particular way of viewing or approaching a subject",
         "definitionZh": "觀點；切入角度",
         "usageExplanationZh": "常用 from another angle 或 a different angle on a story；不是幾何上的角。",
-        "examples": [
-          {
-            "en": "Let's examine the problem from another angle.",
-            "zh": "我們換個角度檢視這個問題吧。"
-          }
+        "grammarPatterns": [
+          "from another angle",
+          "a new angle on + noun"
         ],
         "collocations": [
           {
             "text": "from a different angle",
             "meaningZh": "從不同角度"
           }
+        ],
+        "examples": [
+          {
+            "en": "Let's examine the problem from another angle.",
+            "zh": "我們換個角度檢視這個問題吧。"
+          }
         ]
       },
       {
         "id": "s_angle_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "to position or move something at a slant",
         "definitionZh": "使傾斜；斜向移動",
         "usageExplanationZh": "可用 angle something toward something，說明朝向；常見於燈光、攝影或位置調整。",
-        "examples": [
-          {
-            "en": "She angled the lamp toward the page.",
-            "zh": "她把燈斜向書頁。"
-          }
+        "grammarPatterns": [
+          "angle sth toward + noun",
+          "angle + noun"
         ],
         "collocations": [
           {
             "text": "angle the camera",
             "meaningZh": "調整相機的傾斜角度"
           }
+        ],
+        "examples": [
+          {
+            "en": "She angled the lamp toward the page.",
+            "zh": "她把燈斜向書頁。"
+          }
         ]
       },
       {
         "id": "s_angle_verb_fish",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "to fish with a line and hook",
         "definitionZh": "用釣線與魚鉤釣魚",
         "usageExplanationZh": "不及物動詞，常見 angle for trout；釣客可稱 angler。",
-        "examples": [
-          {
-            "en": "They angled for trout in the river.",
-            "zh": "他們在河裡釣鱒魚。"
-          }
+        "grammarPatterns": [
+          "angle for + noun",
+          "angle in + noun"
         ],
         "collocations": [
           {
             "text": "angle for trout",
             "meaningZh": "垂釣鱒魚"
           }
+        ],
+        "examples": [
+          {
+            "en": "They angled for trout in the river.",
+            "zh": "他們在河裡釣鱒魚。"
+          }
         ]
       },
       {
         "id": "s_angle_verb_seek",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "to try indirectly to obtain something",
         "definitionZh": "拐彎抹角地謀求",
         "usageExplanationZh": "用 angle for，常接 a promotion、an invitation 或 compliments；帶刻意試探的意味。",
-        "examples": [
-          {
-            "en": "He was clearly angling for an invitation.",
-            "zh": "他顯然在拐彎抹角地想獲得邀請。"
-          }
+        "grammarPatterns": [
+          "angle for + noun"
         ],
         "collocations": [
           {
             "text": "angle for a promotion",
             "meaningZh": "拐彎抹角地謀求升遷"
           }
+        ],
+        "examples": [
+          {
+            "en": "He was clearly angling for an invitation.",
+            "zh": "他顯然在拐彎抹角地想獲得邀請。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "perspective",
+        "noteZh": "限觀點義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "angular",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有稜角的；角度的"
       }
     ],
     "tags": [
@@ -1758,14 +2357,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "perspective",
-        "noteZh": "限觀點義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_animate",
@@ -1779,59 +2371,106 @@
       {
         "id": "s_animate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to give energy, interest, or liveliness to something",
         "definitionZh": "使有活力；使生動",
         "usageExplanationZh": "常接 discussion、scene 或 face；形容故事或討論因某事而活躍。",
-        "examples": [
-          {
-            "en": "Her questions animated the discussion.",
-            "zh": "她的提問讓討論活躍起來。"
-          }
+        "grammarPatterns": [
+          "animate + noun",
+          "animate the discussion"
         ],
         "collocations": [
           {
             "text": "animate a discussion",
             "meaningZh": "使討論活躍起來"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her questions animated the discussion.",
+            "zh": "她的提問讓討論活躍起來。"
+          }
         ]
       },
       {
         "id": "s_animate_verb_film",
         "partOfSpeech": "verb",
+        "register": [
+          "technical"
+        ],
         "definitionEn": "to make images appear to move in a film or digital sequence",
         "definitionZh": "製作動畫；使影像呈現動態",
         "usageExplanationZh": "常接 characters 或 a sequence；此義指影像製作，不是讓真實物體獲得生命。",
-        "examples": [
-          {
-            "en": "The team animated the character using motion-capture data.",
-            "zh": "團隊使用動作捕捉資料製作角色動畫。"
-          }
+        "grammarPatterns": [
+          "animate + noun",
+          "animate sth using + noun"
         ],
         "collocations": [
           {
             "text": "animate a character",
             "meaningZh": "製作角色動畫"
           }
+        ],
+        "examples": [
+          {
+            "en": "The team animated the character using motion-capture data.",
+            "zh": "團隊使用動作捕捉資料製作角色動畫。"
+          }
         ]
       },
       {
         "id": "s_animate_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "alive, or referring to living beings in grammatical classification",
         "definitionZh": "有生命的；文法上指有生事物的",
         "usageExplanationZh": "與 inanimate「無生命的」相對；文法中的 animate nouns 通常指人或動物的名詞。",
-        "examples": [
-          {
-            "en": "The language distinguishes animate from inanimate nouns.",
-            "zh": "這種語言區分有生名詞與無生名詞。"
-          }
+        "grammarPatterns": [
+          "animate + plural noun",
+          "animate and inanimate nouns"
         ],
         "collocations": [
           {
             "text": "animate beings",
             "meaningZh": "有生命的個體"
           }
+        ],
+        "examples": [
+          {
+            "en": "The language distinguishes animate from inanimate nouns.",
+            "zh": "這種語言區分有生名詞與無生名詞。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "enliven",
+        "noteZh": "限使生動義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "inanimate",
+        "noteZh": "限形容詞，指無生命的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "animation",
+        "partOfSpeech": "noun",
+        "meaningZh": "動畫；生氣"
+      },
+      {
+        "lemma": "animator",
+        "partOfSpeech": "noun",
+        "meaningZh": "動畫師"
       }
     ],
     "tags": [
@@ -1844,19 +2483,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "enliven",
-        "noteZh": "限使生動義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "inanimate",
-        "noteZh": "限形容詞，指無生命的"
-      }
-    ]
+    }
   },
   {
     "id": "w_ankle",
@@ -1870,23 +2497,33 @@
       {
         "id": "s_ankle_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "the joint connecting the foot to the lower leg",
         "definitionZh": "腳踝；踝關節",
         "usageExplanationZh": "可數名詞，常見 sprain an ankle「扭傷腳踝」；不要與 wrist「手腕」混淆。",
-        "examples": [
-          {
-            "en": "She sprained her ankle while running.",
-            "zh": "她跑步時扭傷了腳踝。"
-          }
+        "grammarPatterns": [
+          "sprain one's ankle",
+          "a broken ankle"
         ],
         "collocations": [
           {
             "text": "sprain an ankle",
             "meaningZh": "扭傷腳踝"
           }
+        ],
+        "examples": [
+          {
+            "en": "She sprained her ankle while running.",
+            "zh": "她跑步時扭傷了腳踝。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -1897,9 +2534,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_annexation",
@@ -1913,21 +2548,43 @@
       {
         "id": "s_annexation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the incorporation of territory into another state or administrative area",
         "definitionZh": "領土併入；兼併",
         "usageExplanationZh": "常用 the annexation of territory；可涉及武力或行政程序，是否合法需依具體情況判斷。",
-        "examples": [
-          {
-            "en": "The annexation of the territory drew international criticism.",
-            "zh": "該領土遭兼併引發國際批評。"
-          }
+        "grammarPatterns": [
+          "the annexation of + noun",
+          "annexation by + noun"
         ],
         "collocations": [
           {
             "text": "the annexation of territory",
             "meaningZh": "領土兼併"
           }
+        ],
+        "examples": [
+          {
+            "en": "The annexation of the territory drew international criticism.",
+            "zh": "該領土遭兼併引發國際批評。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "incorporation",
+        "noteZh": "指領土併入"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "annex",
+        "partOfSpeech": "verb",
+        "meaningZh": "兼併；附加"
       }
     ],
     "tags": [
@@ -1940,14 +2597,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "incorporation",
-        "noteZh": "指領土併入"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_annihilate",
@@ -1961,40 +2611,70 @@
       {
         "id": "s_annihilate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to destroy something completely",
         "definitionZh": "徹底摧毀；殲滅",
         "usageExplanationZh": "程度強烈，常接 a force、a population 或 an ecosystem；不用來指一般廢止規則。",
-        "examples": [
-          {
-            "en": "The eruption annihilated the settlement.",
-            "zh": "火山爆發徹底摧毀了聚落。"
-          }
+        "grammarPatterns": [
+          "annihilate + noun",
+          "be annihilated by + noun"
         ],
         "collocations": [
           {
             "text": "annihilate the enemy",
             "meaningZh": "殲滅敵軍"
           }
+        ],
+        "examples": [
+          {
+            "en": "The eruption annihilated the settlement.",
+            "zh": "火山爆發徹底摧毀了聚落。"
+          }
         ]
       },
       {
         "id": "s_annihilate_verb_defeat",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "to defeat an opponent very decisively",
         "definitionZh": "徹底擊敗；大勝",
         "usageExplanationZh": "運動或競賽中是誇張用法，不表示實際造成身體毀滅。",
-        "examples": [
-          {
-            "en": "The champions annihilated their opponents in the final.",
-            "zh": "冠軍隊在決賽中大勝對手。"
-          }
+        "grammarPatterns": [
+          "annihilate + noun",
+          "annihilate the opposition"
         ],
         "collocations": [
           {
             "text": "annihilate the opposition",
             "meaningZh": "徹底擊敗對手"
           }
+        ],
+        "examples": [
+          {
+            "en": "The champions annihilated their opponents in the final.",
+            "zh": "冠軍隊在決賽中大勝對手。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "destroy",
+        "noteZh": "指徹底摧毀"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "annihilation",
+        "partOfSpeech": "noun",
+        "meaningZh": "殲滅；湮滅"
       }
     ],
     "tags": [
@@ -2009,14 +2689,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "destroy",
-        "noteZh": "指徹底摧毀"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_announcement",
@@ -2030,21 +2703,48 @@
       {
         "id": "s_announcement_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "a public or formal statement giving information",
         "definitionZh": "公告；正式宣布",
         "usageExplanationZh": "可數名詞，常用 make an announcement 或 an announcement about something。",
-        "examples": [
-          {
-            "en": "The school made an announcement about the revised timetable.",
-            "zh": "學校公布了修訂後的課表。"
-          }
+        "grammarPatterns": [
+          "make an announcement",
+          "an announcement about + noun"
         ],
         "collocations": [
           {
             "text": "make an announcement",
             "meaningZh": "發布公告"
           }
+        ],
+        "examples": [
+          {
+            "en": "The school made an announcement about the revised timetable.",
+            "zh": "學校公布了修訂後的課表。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "declaration",
+        "noteZh": "指正式宣告"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "announce",
+        "partOfSpeech": "verb",
+        "meaningZh": "宣布"
+      },
+      {
+        "lemma": "announcer",
+        "partOfSpeech": "noun",
+        "meaningZh": "播報員"
       }
     ],
     "tags": [
@@ -2058,14 +2758,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "declaration",
-        "noteZh": "指正式宣告"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_annually",
@@ -2079,21 +2772,43 @@
       {
         "id": "s_annually_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "every year or once a year",
         "definitionZh": "每年；一年一次",
         "usageExplanationZh": "常修飾 review、publish 或 hold；與 biannually「一年兩次」不同。",
-        "examples": [
-          {
-            "en": "The safety procedures are reviewed annually.",
-            "zh": "安全程序每年檢討一次。"
-          }
+        "grammarPatterns": [
+          "be reviewed annually",
+          "meet annually"
         ],
         "collocations": [
           {
             "text": "held annually",
             "meaningZh": "每年舉辦"
           }
+        ],
+        "examples": [
+          {
+            "en": "The safety procedures are reviewed annually.",
+            "zh": "安全程序每年檢討一次。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "yearly",
+        "noteZh": "每年"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "annual",
+        "partOfSpeech": "adjective",
+        "meaningZh": "每年的；年度的"
       }
     ],
     "tags": [
@@ -2106,14 +2821,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "yearly",
-        "noteZh": "每年"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_anomalous",
@@ -2127,21 +2835,48 @@
       {
         "id": "s_anomalous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "different from what is usual or expected",
         "definitionZh": "異常的；不符合預期的",
         "usageExplanationZh": "正式用語，常見 anomalous results 或 anomalous behavior；異常結果可能需要調查，不能直接當成錯誤。",
-        "examples": [
-          {
-            "en": "The team repeated the experiment to investigate the anomalous result.",
-            "zh": "團隊重做實驗，以查明異常結果的原因。"
-          }
+        "grammarPatterns": [
+          "an anomalous + noun",
+          "appear anomalous"
         ],
         "collocations": [
           {
             "text": "an anomalous result",
             "meaningZh": "異常結果"
           }
+        ],
+        "examples": [
+          {
+            "en": "The team repeated the experiment to investigate the anomalous result.",
+            "zh": "團隊重做實驗，以查明異常結果的原因。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "abnormal",
+        "noteZh": "異常的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "normal",
+        "noteZh": "正常的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "anomaly",
+        "partOfSpeech": "noun",
+        "meaningZh": "異常現象"
       }
     ],
     "tags": [
@@ -2155,19 +2890,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "abnormal",
-        "noteZh": "異常的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "normal",
-        "noteZh": "正常的"
-      }
-    ]
+    }
   },
   {
     "id": "w_anonymous",
@@ -2181,40 +2904,73 @@
       {
         "id": "s_anonymous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "having an unknown or undisclosed identity",
         "definitionZh": "身分不明的；匿名的",
         "usageExplanationZh": "常修飾 donor、source 或 survey；anonymous survey 通常指不揭露填答者身分。",
-        "examples": [
-          {
-            "en": "An anonymous donor paid for the repairs.",
-            "zh": "一位匿名捐款人支付了修繕費用。"
-          }
+        "grammarPatterns": [
+          "an anonymous + noun",
+          "remain anonymous"
         ],
         "collocations": [
           {
             "text": "remain anonymous",
             "meaningZh": "保持匿名"
           }
+        ],
+        "examples": [
+          {
+            "en": "An anonymous donor paid for the repairs.",
+            "zh": "一位匿名捐款人支付了修繕費用。"
+          }
         ]
       },
       {
         "id": "s_anonymous_adjective_unremarkable",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "lacking distinctive or recognizable features",
         "definitionZh": "缺乏特色的；難以辨識的",
         "usageExplanationZh": "常形容建築、城市空間或外觀，並非指拒絕透露姓名。",
-        "examples": [
-          {
-            "en": "They met in an anonymous office building near the station.",
-            "zh": "他們在車站附近一棟毫不起眼的辦公大樓見面。"
-          }
+        "grammarPatterns": [
+          "an anonymous + noun"
         ],
         "collocations": [
           {
             "text": "an anonymous office block",
             "meaningZh": "毫無特色的辦公大樓"
           }
+        ],
+        "examples": [
+          {
+            "en": "They met in an anonymous office building near the station.",
+            "zh": "他們在車站附近一棟毫不起眼的辦公大樓見面。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "unidentified",
+        "noteZh": "限身分不明義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "anonymity",
+        "partOfSpeech": "noun",
+        "meaningZh": "匿名"
+      },
+      {
+        "lemma": "anonymously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "匿名地"
       }
     ],
     "tags": [
@@ -2229,14 +2985,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "unidentified",
-        "noteZh": "限身分不明義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_anterior",
@@ -2250,40 +2999,67 @@
       {
         "id": "s_anterior_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "located toward the front of the body or a structure",
         "definitionZh": "位於前方的；前側的",
         "usageExplanationZh": "解剖學中與 posterior「後側的」相對；實際方向依所描述的構造與標準姿勢判斷。",
-        "examples": [
-          {
-            "en": "The scan showed damage to the anterior part of the brain.",
-            "zh": "掃描顯示大腦前部受損。"
-          }
+        "grammarPatterns": [
+          "the anterior + noun",
+          "anterior to + noun"
         ],
         "collocations": [
           {
             "text": "the anterior surface",
             "meaningZh": "前側表面"
           }
+        ],
+        "examples": [
+          {
+            "en": "The scan showed damage to the anterior part of the brain.",
+            "zh": "掃描顯示大腦前部受損。"
+          }
         ]
       },
       {
         "id": "s_anterior_adjective_time",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "earlier in time",
         "definitionZh": "時間上較早的；先前的",
         "usageExplanationZh": "正式且較少見，常用 anterior to；一般日常表達多用 earlier than 或 before。",
-        "examples": [
-          {
-            "en": "The documents refer to events anterior to the revolution.",
-            "zh": "這些文件提及革命之前的事件。"
-          }
+        "grammarPatterns": [
+          "anterior to + noun"
         ],
         "collocations": [
           {
             "text": "anterior to the event",
             "meaningZh": "早於該事件"
           }
+        ],
+        "examples": [
+          {
+            "en": "The documents refer to events anterior to the revolution.",
+            "zh": "這些文件提及革命之前的事件。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "earlier",
+        "noteZh": "限時間上較早義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "posterior",
+        "noteZh": "限位置上後側義"
       }
     ],
     "tags": [
@@ -2296,19 +3072,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "earlier",
-        "noteZh": "限時間上較早義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "posterior",
-        "noteZh": "限位置上後側義"
-      }
-    ]
+    }
   },
   {
     "id": "w_anthropologist",
@@ -2322,21 +3086,42 @@
       {
         "id": "s_anthropologist_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic"
+        ],
         "definitionEn": "a researcher who studies humans, their societies, cultures, or biological development",
         "definitionZh": "人類學家",
         "usageExplanationZh": "可數名詞；研究範圍可能包括文化、語言、考古或生物人類學。",
-        "examples": [
-          {
-            "en": "The anthropologist spent a year studying local food traditions.",
-            "zh": "這位人類學家花了一年研究當地的飲食傳統。"
-          }
+        "grammarPatterns": [
+          "a social anthropologist",
+          "anthropologists studying + noun"
         ],
         "collocations": [
           {
             "text": "a cultural anthropologist",
             "meaningZh": "文化人類學家"
           }
+        ],
+        "examples": [
+          {
+            "en": "The anthropologist spent a year studying local food traditions.",
+            "zh": "這位人類學家花了一年研究當地的飲食傳統。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "anthropology",
+        "partOfSpeech": "noun",
+        "meaningZh": "人類學"
+      },
+      {
+        "lemma": "anthropological",
+        "partOfSpeech": "adjective",
+        "meaningZh": "人類學的"
       }
     ],
     "tags": [
@@ -2349,9 +3134,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_anthropology",
@@ -2365,21 +3148,42 @@
       {
         "id": "s_anthropology_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic"
+        ],
         "definitionEn": "the study of humans, their societies, cultures, and biological development",
         "definitionZh": "人類學",
         "usageExplanationZh": "學科名稱通常不可數；常見 cultural anthropology「文化人類學」，不只是研究古代人類。",
-        "examples": [
-          {
-            "en": "She studies anthropology at university.",
-            "zh": "她在大學讀人類學。"
-          }
+        "grammarPatterns": [
+          "study anthropology",
+          "cultural anthropology"
         ],
         "collocations": [
           {
             "text": "social anthropology",
             "meaningZh": "社會人類學"
           }
+        ],
+        "examples": [
+          {
+            "en": "She studies anthropology at university.",
+            "zh": "她在大學讀人類學。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "anthropologist",
+        "partOfSpeech": "noun",
+        "meaningZh": "人類學家"
+      },
+      {
+        "lemma": "anthropological",
+        "partOfSpeech": "adjective",
+        "meaningZh": "人類學的"
       }
     ],
     "tags": [
@@ -2393,9 +3197,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_antibiotic",
@@ -2409,42 +3211,59 @@
       {
         "id": "s_antibiotic_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical"
+        ],
         "definitionEn": "a medicine that kills bacteria or inhibits their growth",
         "definitionZh": "抗生素；殺死細菌或抑制其生長的藥物",
         "usageExplanationZh": "可數名詞，常用複數 antibiotics；抗生素不治療病毒感染本身。",
-        "examples": [
-          {
-            "en": "The doctor prescribed an antibiotic for the bacterial infection.",
-            "zh": "醫師開立抗生素來治療這次細菌感染。"
-          }
+        "grammarPatterns": [
+          "prescribe an antibiotic",
+          "a course of antibiotics"
         ],
         "collocations": [
           {
             "text": "prescribe an antibiotic",
             "meaningZh": "開立抗生素處方"
           }
+        ],
+        "examples": [
+          {
+            "en": "The doctor prescribed an antibiotic for the bacterial infection.",
+            "zh": "醫師開立抗生素來治療這次細菌感染。"
+          }
         ]
       },
       {
         "id": "s_antibiotic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "relating to medicines that kill bacteria or inhibit their growth",
         "definitionZh": "抗生素的；抗菌藥物的",
         "usageExplanationZh": "常見 antibiotic treatment 或 antibiotic resistance「抗生素抗藥性」。",
-        "examples": [
-          {
-            "en": "The study tracks antibiotic resistance in hospitals.",
-            "zh": "這項研究追蹤醫院中的抗生素抗藥性問題。"
-          }
+        "grammarPatterns": [
+          "antibiotic + noun",
+          "antibiotic resistance"
         ],
         "collocations": [
           {
             "text": "antibiotic resistance",
             "meaningZh": "抗生素抗藥性"
           }
+        ],
+        "examples": [
+          {
+            "en": "The study tracks antibiotic resistance in hospitals.",
+            "zh": "這項研究追蹤醫院中的抗生素抗藥性問題。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2457,9 +3276,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_antibody",
@@ -2473,23 +3290,33 @@
       {
         "id": "s_antibody_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a protein produced by the immune system that binds to a particular antigen",
         "definitionZh": "抗體；由免疫系統產生、能與特定抗原結合的蛋白質",
         "usageExplanationZh": "可數名詞，常見 antibody levels 或 antibodies against a virus；抗原則是 antigen。",
-        "examples": [
-          {
-            "en": "The blood test measured antibodies against the virus.",
-            "zh": "血液檢查測量了針對該病毒的抗體。"
-          }
+        "grammarPatterns": [
+          "antibodies against + noun",
+          "produce antibodies"
         ],
         "collocations": [
           {
             "text": "produce antibodies",
             "meaningZh": "產生抗體"
           }
+        ],
+        "examples": [
+          {
+            "en": "The blood test measured antibodies against the virus.",
+            "zh": "血液檢查測量了針對該病毒的抗體。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -2500,9 +3327,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_antic",
@@ -2516,42 +3341,64 @@
       {
         "id": "s_antic_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "a silly, playful, or attention-seeking action",
         "definitionZh": "滑稽、嬉鬧或引人注意的動作",
         "usageExplanationZh": "現代英語通常用複數 antics，常見 children's antics；也可帶批評意味。",
-        "examples": [
-          {
-            "en": "The puppy's antics made everyone laugh.",
-            "zh": "小狗的滑稽動作逗得大家發笑。"
-          }
+        "grammarPatterns": [
+          "sb's antics",
+          "the antics of + noun"
         ],
         "collocations": [
           {
             "text": "childish antics",
             "meaningZh": "幼稚的嬉鬧舉動"
           }
+        ],
+        "examples": [
+          {
+            "en": "The puppy's antics made everyone laugh.",
+            "zh": "小狗的滑稽動作逗得大家發笑。"
+          }
         ]
       },
       {
         "id": "s_antic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "grotesquely or playfully odd",
         "definitionZh": "滑稽古怪的",
         "usageExplanationZh": "較少見、偏文學性的用法，常修飾 gestures 或 humor；日常更常用 comical。",
-        "examples": [
-          {
-            "en": "The actor's antic gestures enlivened the scene.",
-            "zh": "演員滑稽古怪的手勢讓這一幕活潑起來。"
-          }
+        "grammarPatterns": [
+          "antic + noun"
         ],
         "collocations": [
           {
             "text": "antic gestures",
             "meaningZh": "滑稽古怪的手勢"
           }
+        ],
+        "examples": [
+          {
+            "en": "The actor's antic gestures enlivened the scene.",
+            "zh": "演員滑稽古怪的手勢讓這一幕活潑起來。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "prank",
+        "noteZh": "限名詞，指嬉鬧動作"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -2562,14 +3409,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "prank",
-        "noteZh": "限名詞，指嬉鬧動作"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_anticipation",
@@ -2583,40 +3423,74 @@
       {
         "id": "s_anticipation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "the expectation of a future event, often with excitement",
         "definitionZh": "預期；期待",
         "usageExplanationZh": "通常不可數，常用 in anticipation of；期待的事可能令人興奮，也可能令人擔心。",
-        "examples": [
-          {
-            "en": "The children waited in eager anticipation of the trip.",
-            "zh": "孩子們熱切期待著這趟旅行。"
-          }
+        "grammarPatterns": [
+          "eager anticipation",
+          "the anticipation of + noun"
         ],
         "collocations": [
           {
             "text": "eager anticipation",
             "meaningZh": "熱切期待"
           }
+        ],
+        "examples": [
+          {
+            "en": "The children waited in eager anticipation of the trip.",
+            "zh": "孩子們熱切期待著這趟旅行。"
+          }
         ]
       },
       {
         "id": "s_anticipation_noun_preparation",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "action taken in advance because something is expected",
         "definitionZh": "預先因應；事先準備",
         "usageExplanationZh": "常用 in anticipation of，強調在預料的事件發生前採取行動。",
-        "examples": [
-          {
-            "en": "Extra staff were hired in anticipation of higher demand.",
-            "zh": "預期需求會增加，因此增聘了人手。"
-          }
+        "grammarPatterns": [
+          "in anticipation of + noun",
+          "in anticipation that + clause"
         ],
         "collocations": [
           {
             "text": "in anticipation of",
             "meaningZh": "預先因應……"
           }
+        ],
+        "examples": [
+          {
+            "en": "Extra staff were hired in anticipation of higher demand.",
+            "zh": "預期需求會增加，因此增聘了人手。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "expectation",
+        "noteZh": "限預期義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "anticipate",
+        "partOfSpeech": "verb",
+        "meaningZh": "預期；預料"
+      },
+      {
+        "lemma": "anticipatory",
+        "partOfSpeech": "adjective",
+        "meaningZh": "預期的"
       }
     ],
     "tags": [
@@ -2630,14 +3504,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "expectation",
-        "noteZh": "限預期義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_antipathy",
@@ -2651,21 +3518,48 @@
       {
         "id": "s_antipathy_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a strong feeling of dislike or hostility",
         "definitionZh": "強烈反感；厭惡",
         "usageExplanationZh": "常用 antipathy toward 或 antipathy to；與 sympathy「同情、認同」不同。",
-        "examples": [
-          {
-            "en": "He expressed deep antipathy toward the proposed restrictions.",
-            "zh": "他對擬議中的限制表達了強烈反感。"
-          }
+        "grammarPatterns": [
+          "antipathy toward + noun",
+          "antipathy between + noun"
         ],
         "collocations": [
           {
             "text": "antipathy towards",
             "meaningZh": "對……的反感"
           }
+        ],
+        "examples": [
+          {
+            "en": "He expressed deep antipathy toward the proposed restrictions.",
+            "zh": "他對擬議中的限制表達了強烈反感。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "aversion",
+        "noteZh": "強烈厭惡"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "affinity",
+        "noteZh": "親近喜愛之感"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "antipathetic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "反感的"
       }
     ],
     "tags": [
@@ -2679,19 +3573,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "aversion",
-        "noteZh": "強烈厭惡"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "affinity",
-        "noteZh": "親近喜愛之感"
-      }
-    ]
+    }
   },
   {
     "id": "w_antique",
@@ -2705,40 +3587,68 @@
       {
         "id": "s_antique_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "an old object valued for its age, quality, or rarity",
         "definitionZh": "古董",
         "usageExplanationZh": "可數名詞，常指家具、器物或收藏品；並不是所有舊東西都值得稱為 antique。",
-        "examples": [
-          {
-            "en": "The dealer confirmed that the clock was a genuine antique.",
-            "zh": "古董商確認這座鐘是真正的古董。"
-          }
+        "grammarPatterns": [
+          "a genuine antique",
+          "deal in antiques"
         ],
         "collocations": [
           {
             "text": "an antique dealer",
             "meaningZh": "古董商"
           }
+        ],
+        "examples": [
+          {
+            "en": "The dealer confirmed that the clock was a genuine antique.",
+            "zh": "古董商確認這座鐘是真正的古董。"
+          }
         ]
       },
       {
         "id": "s_antique_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "old and valued because of its age or historical character",
         "definitionZh": "古董的；具有年代價值的",
         "usageExplanationZh": "常見 antique furniture 或 an antique vase；一般陳舊物品則可用 old。",
-        "examples": [
-          {
-            "en": "They restored an antique wooden desk.",
-            "zh": "他們修復了一張古董木書桌。"
-          }
+        "grammarPatterns": [
+          "an antique + noun"
         ],
         "collocations": [
           {
             "text": "antique furniture",
             "meaningZh": "古董家具"
           }
+        ],
+        "examples": [
+          {
+            "en": "They restored an antique wooden desk.",
+            "zh": "他們修復了一張古董木書桌。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "antiquity",
+        "partOfSpeech": "noun",
+        "meaningZh": "古代；古物"
+      },
+      {
+        "lemma": "antiquarian",
+        "partOfSpeech": "noun",
+        "meaningZh": "古物研究者"
       }
     ],
     "tags": [
@@ -2753,9 +3663,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_antiquity",
@@ -2769,59 +3677,96 @@
       {
         "id": "s_antiquity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "literary"
+        ],
         "definitionEn": "the ancient past, especially the civilizations before the Middle Ages",
         "definitionZh": "古代，尤指中世紀以前的古文明時期",
         "usageExplanationZh": "不可數名詞，常見 in antiquity 或 classical antiquity「古典時代」。",
-        "examples": [
-          {
-            "en": "The practice was already known in antiquity.",
-            "zh": "這種做法在古代就已為人所知。"
-          }
+        "grammarPatterns": [
+          "in antiquity",
+          "from antiquity to + noun"
         ],
         "collocations": [
           {
             "text": "classical antiquity",
             "meaningZh": "古典時代"
           }
+        ],
+        "examples": [
+          {
+            "en": "The practice was already known in antiquity.",
+            "zh": "這種做法在古代就已為人所知。"
+          }
         ]
       },
       {
         "id": "s_antiquity_noun_age",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the state of being very old",
         "definitionZh": "年代久遠；古老性",
         "usageExplanationZh": "常用 the antiquity of a building 或 of a tradition，著重年代久遠這項性質。",
-        "examples": [
-          {
-            "en": "The antiquity of the temple attracts historians.",
-            "zh": "這座寺廟歷史悠久，吸引了歷史學者。"
-          }
+        "grammarPatterns": [
+          "the antiquity of + noun"
         ],
         "collocations": [
           {
             "text": "of great antiquity",
             "meaningZh": "年代非常久遠的"
           }
+        ],
+        "examples": [
+          {
+            "en": "The antiquity of the temple attracts historians.",
+            "zh": "這座寺廟歷史悠久，吸引了歷史學者。"
+          }
         ]
       },
       {
         "id": "s_antiquity_noun_object",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "an object surviving from ancient times",
         "definitionZh": "古代遺物；文物",
         "usageExplanationZh": "此義可數，通常用複數 antiquities，常見於博物館與文物保存語境。",
-        "examples": [
-          {
-            "en": "The museum returned several antiquities to their country of origin.",
-            "zh": "博物館將幾件古代文物歸還給原屬國。"
-          }
+        "grammarPatterns": [
+          "classical antiquities",
+          "a collection of antiquities"
         ],
         "collocations": [
           {
             "text": "Egyptian antiquities",
             "meaningZh": "埃及古文物"
           }
+        ],
+        "examples": [
+          {
+            "en": "The museum returned several antiquities to their country of origin.",
+            "zh": "博物館將幾件古代文物歸還給原屬國。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "ancient times",
+        "noteZh": "限古代義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "antique",
+        "partOfSpeech": "noun",
+        "meaningZh": "古董"
       }
     ],
     "tags": [
@@ -2835,14 +3780,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "ancient times",
-        "noteZh": "限古代義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_antithesis",
@@ -2856,40 +3794,70 @@
       {
         "id": "s_antithesis_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the exact opposite of something",
         "definitionZh": "完全相反的事物；對立面",
         "usageExplanationZh": "通常用 the antithesis of；比 difference 更強，強調根本相反。",
-        "examples": [
-          {
-            "en": "His cautious approach is the antithesis of her impulsive style.",
-            "zh": "他謹慎的做法與她衝動的作風截然相反。"
-          }
+        "grammarPatterns": [
+          "the antithesis of + noun",
+          "be the very antithesis of + noun"
         ],
         "collocations": [
           {
             "text": "the antithesis of",
             "meaningZh": "……的完全相反面"
           }
+        ],
+        "examples": [
+          {
+            "en": "His cautious approach is the antithesis of her impulsive style.",
+            "zh": "他謹慎的做法與她衝動的作風截然相反。"
+          }
         ]
       },
       {
         "id": "s_antithesis_noun_rhetoric",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "literary"
+        ],
         "definitionEn": "the placement of contrasting ideas in a balanced verbal structure",
         "definitionZh": "以平衡句式並列相反概念的對比修辭",
         "usageExplanationZh": "修辭術語；包含意義上的對比，不是所有中文對偶句都屬於 antithesis。",
-        "examples": [
-          {
-            "en": "\"Many are called, but few are chosen\" is an example of antithesis.",
-            "zh": "「被召喚的人多，被選上的人少」是一個對比修辭的例子。"
-          }
+        "grammarPatterns": [
+          "an example of antithesis",
+          "use antithesis"
         ],
         "collocations": [
           {
             "text": "the use of antithesis",
             "meaningZh": "對比修辭的運用"
           }
+        ],
+        "examples": [
+          {
+            "en": "\"Many are called, but few are chosen\" is an example of antithesis.",
+            "zh": "「被召喚的人多，被選上的人少」是一個對比修辭的例子。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "opposite",
+        "noteZh": "限對立面義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "antithetical",
+        "partOfSpeech": "adjective",
+        "meaningZh": "對立的；恰恰相反的"
       }
     ],
     "tags": [
@@ -2902,14 +3870,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "opposite",
-        "noteZh": "限對立面義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_anxiety",
@@ -2923,40 +3884,79 @@
       {
         "id": "s_anxiety_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a feeling of worry, nervousness, or unease about what may happen",
         "definitionZh": "焦慮；對未來可能發生之事的憂慮",
         "usageExplanationZh": "通常不可數；anxiety about 指擔心的事情。一般焦慮感不等於已被診斷為焦慮症。",
-        "examples": [
-          {
-            "en": "Waiting for the results caused considerable anxiety.",
-            "zh": "等待結果讓人十分焦慮。"
-          }
+        "grammarPatterns": [
+          "anxiety about + noun",
+          "cause anxiety"
         ],
         "collocations": [
           {
             "text": "suffer from anxiety",
             "meaningZh": "受焦慮所苦"
           }
+        ],
+        "examples": [
+          {
+            "en": "Waiting for the results caused considerable anxiety.",
+            "zh": "等待結果讓人十分焦慮。"
+          }
         ]
       },
       {
         "id": "s_anxiety_noun_concern",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a particular worry or concern",
         "definitionZh": "一項憂慮；掛心的事",
         "usageExplanationZh": "此義可數，常用複數 anxieties，如 financial anxieties「財務上的憂慮」。",
-        "examples": [
-          {
-            "en": "She shared her anxieties about the new role with a friend.",
-            "zh": "她向朋友訴說自己對新職位的種種憂慮。"
-          }
+        "grammarPatterns": [
+          "anxieties about + noun",
+          "share one's anxieties with + sb"
         ],
         "collocations": [
           {
             "text": "financial anxieties",
             "meaningZh": "財務方面的憂慮"
           }
+        ],
+        "examples": [
+          {
+            "en": "She shared her anxieties about the new role with a friend.",
+            "zh": "她向朋友訴說自己對新職位的種種憂慮。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "worry",
+        "noteZh": "指憂慮或掛心的事"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "calm",
+        "noteZh": "限焦慮情緒義的反義"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "anxious",
+        "partOfSpeech": "adjective",
+        "meaningZh": "焦慮的"
+      },
+      {
+        "lemma": "anxiously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "焦急地"
       }
     ],
     "tags": [
@@ -2970,19 +3970,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "worry",
-        "noteZh": "指憂慮或掛心的事"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "calm",
-        "noteZh": "限焦慮情緒義的反義"
-      }
-    ]
+    }
   },
   {
     "id": "w_anxious",
@@ -2996,40 +3984,78 @@
       {
         "id": "s_anxious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "worried or uneasy about something",
         "definitionZh": "焦慮的；擔心的",
         "usageExplanationZh": "常用 anxious about a problem 或 anxious for someone's safety；不要與 eager「熱切的」完全混用。",
-        "examples": [
-          {
-            "en": "He felt anxious about the upcoming interview.",
-            "zh": "他對即將到來的面試感到焦慮。"
-          }
+        "grammarPatterns": [
+          "be anxious about + noun",
+          "feel anxious"
         ],
         "collocations": [
           {
             "text": "anxious about the future",
             "meaningZh": "擔心未來"
           }
+        ],
+        "examples": [
+          {
+            "en": "He felt anxious about the upcoming interview.",
+            "zh": "他對即將到來的面試感到焦慮。"
+          }
         ]
       },
       {
         "id": "s_anxious_adjective_eager",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "strongly wishing to do something or for something to happen",
         "definitionZh": "渴望的；急切希望的",
         "usageExplanationZh": "常用 anxious to do something；若要避免帶出焦慮意味，可依語境選 eager。",
-        "examples": [
-          {
-            "en": "The volunteers were anxious to begin helping.",
-            "zh": "志工們急切希望開始提供協助。"
-          }
+        "grammarPatterns": [
+          "be anxious to + V",
+          "be anxious for + noun"
         ],
         "collocations": [
           {
             "text": "anxious to please",
             "meaningZh": "急於討好"
           }
+        ],
+        "examples": [
+          {
+            "en": "The volunteers were anxious to begin helping.",
+            "zh": "志工們急切希望開始提供協助。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "worried",
+        "noteZh": "限焦慮義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "unconcerned",
+        "noteZh": "限不擔心義"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "anxiety",
+        "partOfSpeech": "noun",
+        "meaningZh": "焦慮"
+      },
+      {
+        "lemma": "anxiously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "焦慮地"
       }
     ],
     "tags": [
@@ -3042,19 +4068,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "worried",
-        "noteZh": "限焦慮義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "unconcerned",
-        "noteZh": "限不擔心義"
-      }
-    ]
+    }
   },
   {
     "id": "w_apologize",
@@ -3068,21 +4082,47 @@
       {
         "id": "s_apologize_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to express regret for causing harm, trouble, or offense",
         "definitionZh": "道歉",
         "usageExplanationZh": "用 apologize to someone for something 或 for doing something；英式也常拼作 apologise。",
-        "examples": [
-          {
-            "en": "I apologized to her for arriving late.",
-            "zh": "我為遲到向她道歉。"
-          }
+        "grammarPatterns": [
+          "apologize to sb for + noun",
+          "apologize for + V-ing"
         ],
         "collocations": [
           {
             "text": "apologize to someone for something",
             "meaningZh": "為某事向某人道歉"
           }
+        ],
+        "examples": [
+          {
+            "en": "I apologized to her for arriving late.",
+            "zh": "我為遲到向她道歉。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "say sorry",
+        "noteZh": "表達歉意"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "apology",
+        "partOfSpeech": "noun",
+        "meaningZh": "道歉"
+      },
+      {
+        "lemma": "apologetic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "表示歉意的"
       }
     ],
     "tags": [
@@ -3096,14 +4136,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "say sorry",
-        "noteZh": "表達歉意"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_apology",
@@ -3117,59 +4150,100 @@
       {
         "id": "s_apology_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a statement expressing regret for causing harm or offense",
         "definitionZh": "道歉；歉意的表達",
         "usageExplanationZh": "可數名詞，常用 offer an apology 或 an apology for；複數 my apologies 常用來致歉。",
-        "examples": [
-          {
-            "en": "He offered a sincere apology for the mistake.",
-            "zh": "他為這個錯誤誠懇道歉。"
-          }
+        "grammarPatterns": [
+          "an apology for + noun",
+          "offer an apology to + sb"
         ],
         "collocations": [
           {
             "text": "make an apology",
             "meaningZh": "道歉"
           }
+        ],
+        "examples": [
+          {
+            "en": "He offered a sincere apology for the mistake.",
+            "zh": "他為這個錯誤誠懇道歉。"
+          }
         ]
       },
       {
         "id": "s_apology_noun_defense",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "literary"
+        ],
         "definitionEn": "a formal argument defending a belief or position",
         "definitionZh": "對信念或立場的正式辯護",
         "usageExplanationZh": "較少見的正式用法，常用 an apology for；此義不是承認做錯事。",
-        "examples": [
-          {
-            "en": "The essay is an apology for the author's political beliefs.",
-            "zh": "這篇文章是作者對自身政治信念的辯護。"
-          }
+        "grammarPatterns": [
+          "an apology for + noun"
         ],
         "collocations": [
           {
             "text": "an apology for Christianity",
             "meaningZh": "為基督教所作的辯護"
           }
+        ],
+        "examples": [
+          {
+            "en": "The essay is an apology for the author's political beliefs.",
+            "zh": "這篇文章是作者對自身政治信念的辯護。"
+          }
         ]
       },
       {
         "id": "s_apology_noun_poor",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "a very poor example of something",
         "definitionZh": "某事物的拙劣版本",
         "usageExplanationZh": "固定用法 an apology for a something，帶強烈貶義；不是為該事物道歉。",
-        "examples": [
-          {
-            "en": "The tiny room was a poor apology for an office.",
-            "zh": "那個狹小房間實在稱不上像樣的辦公室。"
-          }
+        "grammarPatterns": [
+          "a poor apology for + noun",
+          "an apology for + noun"
         ],
         "collocations": [
           {
             "text": "a poor apology for a meal",
             "meaningZh": "一頓不像樣的餐點"
           }
+        ],
+        "examples": [
+          {
+            "en": "The tiny room was a poor apology for an office.",
+            "zh": "那個狹小房間實在稱不上像樣的辦公室。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "defence",
+        "noteZh": "限正式辯護義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "apologize",
+        "partOfSpeech": "verb",
+        "meaningZh": "道歉"
+      },
+      {
+        "lemma": "apologetic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "歉疚的"
       }
     ],
     "tags": [
@@ -3182,13 +4256,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "defence",
-        "noteZh": "限正式辯護義"
-      }
-    ],
-    "antonyms": []
+    }
   }
 ]

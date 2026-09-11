@@ -5,19 +5,19 @@
     "cefr": "B2",
     "wordIds": ["w_ensure"],
     "prompt": "Which word completes the sentence correctly?",
-    "context": "I want to ____ you that your data has not been exposed.",
+    "context": "The deployment checklist exists to ____ that no release reaches production without a signed-off rollback plan, whatever the schedule pressure.",
     "options": [
-      { "id": "a", "text": "assure" },
-      { "id": "b", "text": "ensure" },
+      { "id": "a", "text": "ensure" },
+      { "id": "b", "text": "assure" },
       { "id": "c", "text": "insure" },
       { "id": "d", "text": "secure" }
     ],
     "correctOptionId": "a",
-    "explanation": "受詞是「人」（you）時必須用 assure，意思是「向某人保證，讓他放心」。",
+    "explanation": "ensure 的受詞是「一件事」，句型是 ensure that + 子句，意思是「確保某事一定會成立」。這裡確保的是流程結果，不是安撫某個人。",
     "distractorExplanations": {
-      "b": "ensure 的受詞是「事情」，不能直接接人：ensure that the data is safe 才正確。",
-      "c": "insure 是「投保」，屬於保險語境。",
-      "d": "secure 是「使安全、取得」，不能接「人 + that 子句」。"
+      "b": "assure 的受詞永遠是人：assure the board that…（向董事會保證，讓他們放心）。此處 to ____ that 之間沒有人，句型就不成立。",
+      "c": "insure 是「投保」，搭配 insure against loss、insure a building，屬於保險語境。",
+      "d": "secure 是「取得」或「使安全」，是及物動詞，受詞要是名詞（secure funding），不能接 that 子句。"
     },
     "difficulty": 3,
     "tags": ["confusables", "common-error"],
@@ -28,20 +28,20 @@
     "type": "confusing_words",
     "cefr": "B2",
     "wordIds": ["w_adequate", "w_sufficient"],
-    "prompt": "Which word carries a mild note of criticism here?",
-    "context": "Her performance this quarter was ____ — it met the bar and nothing more.",
+    "prompt": "Which word carries the mild reservation the sentence implies?",
+    "context": "Her quarterly results met every target and exceeded none; the review called her contribution ____, a word her manager chose deliberately.",
     "options": [
-      { "id": "a", "text": "adequate" },
-      { "id": "b", "text": "sufficient" },
-      { "id": "c", "text": "outstanding" },
-      { "id": "d", "text": "comprehensive" }
+      { "id": "a", "text": "sufficient" },
+      { "id": "b", "text": "adequate" },
+      { "id": "c", "text": "ample" },
+      { "id": "d", "text": "requisite" }
     ],
-    "correctOptionId": "a",
-    "explanation": "adequate 表示「達標但談不上好」，正好對應 met the bar and nothing more 的保留語氣。",
+    "correctOptionId": "b",
+    "explanation": "adequate 除了「夠用」之外還多一層品質判斷：達到門檻但不出色。met every target and exceeded none 與 chose deliberately 都指向這種刻意的保留語氣。",
     "distractorExplanations": {
-      "b": "sufficient 純粹陳述數量足夠，用來評價人的表現並不自然。",
-      "c": "outstanding 是高度讚美，與後半句的保留語氣矛盾。",
-      "d": "comprehensive 描述「涵蓋完整」，不用來評價整體表現水準。"
+      "a": "sufficient 只客觀陳述「數量上足夠」，不含評價；用它形容一個人的貢獻既不自然，也表達不出主管的弦外之音。",
+      "c": "ample 表示「充裕、綽綽有餘」，明顯是正面且有餘裕的評價，與 exceeded none 直接矛盾。",
+      "d": "requisite 指「所需的、必備的」，只說明某物是條件之一，通常置於名詞前（the requisite experience），不當評語用。"
     },
     "difficulty": 4,
     "tags": ["confusables", "register"],
@@ -53,19 +53,19 @@
     "cefr": "B2",
     "wordIds": ["w_outcome"],
     "prompt": "Which word fits the contrast the sentence is drawing?",
-    "context": "Shipping ten features is an output; reducing customer churn is the ____ we actually care about.",
+    "context": "Shipping forty features is merely an output; the ____ the board asks about is whether customer churn actually fell as a result.",
     "options": [
-      { "id": "a", "text": "outcome" },
+      { "id": "a", "text": "outlook" },
       { "id": "b", "text": "output" },
-      { "id": "c", "text": "income" },
-      { "id": "d", "text": "outline" }
+      { "id": "c", "text": "outcome" },
+      { "id": "d", "text": "outset" }
     ],
-    "correctOptionId": "a",
-    "explanation": "output 是產出的東西，outcome 是那些產出造成的實際改變。句子正是在對比這兩者。",
+    "correctOptionId": "c",
+    "explanation": "output 是產出的東西，可以直接計數；outcome 是那些產出最終造成的改變，才是真正被追問的目的。句子正是在建立這組對比。",
     "distractorExplanations": {
-      "b": "重複使用 output 就消解了句子想建立的對比。",
-      "c": "income 是「收入」，與此處的產出／成果之分無關。",
-      "d": "outline 是「大綱」，語意不符。"
+      "a": "outlook 是「前景、展望」，指對未來的預期，而不是已經發生的實際改變。",
+      "b": "重複使用 output 會使 merely an output 與後半句的對比整個消失，句子失去意義。",
+      "d": "outset 是「開端、起點」，指事情開始的那一刻，與成果無關。"
     },
     "difficulty": 3,
     "tags": ["confusables", "business"],
@@ -77,19 +77,19 @@
     "cefr": "C1",
     "wordIds": ["w_attribute"],
     "prompt": "Which word completes the sentence?",
-    "context": "We ____ most of the speed-up to caching rather than to the rewrite.",
+    "context": "Having ruled out the rewrite and the new hardware, the team ____ almost all of the speed-up to the caching layer added in March.",
     "options": [
-      { "id": "a", "text": "attribute" },
-      { "id": "b", "text": "contribute" },
-      { "id": "c", "text": "distribute" },
-      { "id": "d", "text": "constitute" }
+      { "id": "a", "text": "imputed" },
+      { "id": "b", "text": "contributed" },
+      { "id": "c", "text": "distributed" },
+      { "id": "d", "text": "attributed" }
     ],
-    "correctOptionId": "a",
-    "explanation": "由結果回推原因用 attribute A to B。這裡是把「加速」這個結果歸因於快取。",
+    "correctOptionId": "d",
+    "explanation": "由結果回推原因用 attribute A to B：把「加速」這個結果歸因於快取層。主詞是做出判斷的人，受詞是結果。",
     "distractorExplanations": {
-      "b": "contribute 的方向相反：是原因對結果有貢獻（caching contributed to the speed-up）。",
-      "c": "distribute 是「分送」，語意不符。",
-      "d": "constitute 是「構成」，句型與意思都不對。"
+      "a": "impute 雖然也是 impute A to B，但用於把過錯、不良動機或推定數值加諸某人，不用於正面的效能改善。",
+      "b": "contribute 的方向相反，是由因指果：the caching layer contributed to the speed-up；主詞必須是原因本身，不能是下判斷的團隊。",
+      "c": "distribute 是「分送、分配」，distribute A to B 指把東西發給某方，與歸因無關。"
     },
     "difficulty": 4,
     "tags": ["confusables", "analysis"],
@@ -100,19 +100,20 @@
     "type": "confusing_words",
     "cefr": "C1",
     "wordIds": ["w_comprise"],
-    "prompt": "Which sentence is correct in formal writing?",
+    "prompt": "Which option is correct in formal writing?",
+    "context": "The advisory board ____ seven members drawn from three departments, a composition the charter has not altered since the committee was founded.",
     "options": [
-      { "id": "a", "text": "The pipeline comprises three stages." },
-      { "id": "b", "text": "The pipeline is comprised of three stages." },
-      { "id": "c", "text": "Three stages comprise of the pipeline." },
-      { "id": "d", "text": "The pipeline comprises of three stages." }
+      { "id": "a", "text": "comprises" },
+      { "id": "b", "text": "comprises of" },
+      { "id": "c", "text": "consists" },
+      { "id": "d", "text": "composes" }
     ],
     "correctOptionId": "a",
-    "explanation": "comprise 本身已含「由……組成」之意，整體作主詞，直接接各部分。",
+    "explanation": "comprise 本身已含「由……組成」之意，是及物動詞：整體當主詞，直接接各部分，因此 The board comprises seven members 正確。",
     "distractorExplanations": {
-      "b": "is comprised of 雖常見，但多數編輯手冊視為錯誤；正式寫作用 comprises 或 is composed of。",
-      "c": "方向顛倒，且 comprise 不接 of。",
-      "d": "comprise 是及物動詞，後面不加 of。"
+      "b": "comprise 後面永遠不加 of，comprises of 是把 consist of 的句型硬套過來的典型錯誤。",
+      "c": "consist 是不及物動詞，一定要說 consists of，單獨的 consists 後面不能直接接受詞。",
+      "d": "compose 的方向相反：部分 compose 整體（Seven members compose the board），若以整體為主詞須改成 is composed of。"
     },
     "difficulty": 4,
     "tags": ["confusables", "common-error"],
@@ -123,22 +124,22 @@
     "type": "confusing_words",
     "cefr": "C1",
     "wordIds": ["w_refute"],
-    "prompt": "Which word is appropriate when you have no evidence?",
-    "context": "I ____ your claim, though I admit I have nothing to back that up.",
+    "prompt": "Which word matches the strength of the claim being made?",
+    "context": "Three independent replications failed to reproduce the effect, so the follow-up paper does not merely question the original finding but ____ it outright.",
     "options": [
-      { "id": "a", "text": "dispute" },
-      { "id": "b", "text": "refute" },
-      { "id": "c", "text": "disprove" },
-      { "id": "d", "text": "rebut" }
+      { "id": "a", "text": "disputes" },
+      { "id": "b", "text": "refutes" },
+      { "id": "c", "text": "denies" },
+      { "id": "d", "text": "rebuts" }
     ],
-    "correctOptionId": "a",
-    "explanation": "dispute 只表示「不同意、提出異議」，不宣稱已證明對方錯誤，符合後半句坦承沒有證據的語氣。",
+    "correctOptionId": "b",
+    "explanation": "refute 是「拿出證據證明其為假」，強度最高。三次獨立重現失敗就是那份證據，也正好承接 not merely question … but … outright 的遞進。",
     "distractorExplanations": {
-      "b": "refute 宣稱「已用證據駁倒」，與「沒有證據」直接矛盾。",
-      "c": "disprove 同樣宣稱已經證明其為假。",
-      "d": "rebut 指提出反駁論點，仍需要拿出說法，此處也不合適。"
+      "a": "dispute 只表示「提出異議、不同意」，強度等同前半句的 question，放進 not merely … but … 的遞進就沒有遞進了。",
+      "c": "deny 只是「聲稱那不是真的」，重點在態度而非證據，通常用於否認指控，無法承載三次實驗的份量。",
+      "d": "rebut 指針對對方的論點提出反駁說法，重點在「回應」，提出反駁不等於已經證明對方為假。"
     },
-    "difficulty": 4,
+    "difficulty": 5,
     "tags": ["confusables", "argument"],
     "source": "curated"
   },
@@ -148,19 +149,19 @@
     "cefr": "C1",
     "wordIds": ["w_resilient", "w_robust"],
     "prompt": "Which word matches the emphasis on recovery?",
-    "context": "Nodes still crash, but the cluster brings them back within seconds; the design is very ____.",
+    "context": "Individual nodes still crash several times a week, but the cluster restores full capacity within seconds of each failure, which is what makes it ____.",
     "options": [
-      { "id": "a", "text": "resilient" },
+      { "id": "a", "text": "redundant" },
       { "id": "b", "text": "robust" },
-      { "id": "c", "text": "redundant" },
-      { "id": "d", "text": "rigid" }
+      { "id": "c", "text": "resilient" },
+      { "id": "d", "text": "durable" }
     ],
-    "correctOptionId": "a",
-    "explanation": "句子明說「節點仍會故障，但能迅速恢復」，重點在復原能力，正是 resilient。",
+    "correctOptionId": "c",
+    "explanation": "resilient 說的是「出事之後能迅速恢復」，句中 still crash 加上 restores full capacity within seconds 正是這個組合：壞得了，但站得回來。",
     "distractorExplanations": {
-      "b": "robust 強調「不容易出錯」，但句子承認節點仍會當掉。",
-      "c": "redundant 描述「有備份副本」，是達成韌性的手段之一，但不是在描述復原這件事。",
-      "d": "rigid 是「僵硬、不易調整」，在系統設計中通常是負評。"
+      "a": "redundant 指「有備援副本」，那是實現快速復原的手段之一，描述的是資源配置，不是復原這件事本身。",
+      "b": "robust 是「不容易壞」，強調在壓力下不出錯，但句子明說節點每週仍當機數次。",
+      "d": "durable 指「耐用、經久不壞」，同樣否定了句中承認的頻繁故障。"
     },
     "difficulty": 4,
     "tags": ["confusables", "engineering"],
@@ -172,21 +173,21 @@
     "cefr": "C1",
     "wordIds": ["w_supersede"],
     "prompt": "Which word signals that the older document is now invalid?",
-    "context": "This policy ____ the 2024 edition, which should no longer be followed.",
+    "context": "This edition ____ the 2024 policy, which is withdrawn from the handbook and may no longer be cited in any disciplinary hearing.",
     "options": [
-      { "id": "a", "text": "supersedes" },
+      { "id": "a", "text": "supplants" },
       { "id": "b", "text": "replaces" },
-      { "id": "c", "text": "resembles" },
-      { "id": "d", "text": "precedes" }
+      { "id": "c", "text": "succeeds" },
+      { "id": "d", "text": "supersedes" }
     ],
-    "correctOptionId": "a",
-    "explanation": "supersede 帶有「舊者自此失效」的權威意味，正好呼應 should no longer be followed。",
+    "correctOptionId": "d",
+    "explanation": "supersede 帶有「新的一出，舊的即正式失效」的權威意味，常用於文件、規範與版本，正好呼應 withdrawn 與 may no longer be cited。",
     "distractorExplanations": {
-      "b": "replace 只是「換成另一個」，不必然表示舊的失效，語氣較弱。",
-      "c": "resemble 是「相似」，與取代無關。",
-      "d": "precede 是「早於」，時間方向完全相反。"
+      "a": "supplant 強調把原本占據位置者擠下來取而代之，帶競爭或排擠的意味，不用於規章的正式廢止。",
+      "b": "replace 只是「換成另一個」，兩者可以並存，也不必然表示舊版從此無效，語氣太弱。",
+      "c": "succeed 表示「接續在後、繼任」，重點在順位先後，前任並不會因此變成無效。"
     },
-    "difficulty": 4,
+    "difficulty": 3,
     "tags": ["confusables", "documentation"],
     "source": "curated"
   },
@@ -195,8 +196,8 @@
     "type": "confusing_words",
     "cefr": "C1",
     "wordIds": ["w_precedent"],
-    "prompt": "Which spelling is correct here?",
-    "context": "Approving this exception would set a ____ we cannot maintain.",
+    "prompt": "Which word completes the sentence?",
+    "context": "If the committee grants this exception, it will set a ____ that every applicant with a comparable case will be entitled to invoke.",
     "options": [
       { "id": "a", "text": "precedent" },
       { "id": "b", "text": "president" },
@@ -204,11 +205,11 @@
       { "id": "d", "text": "precedents" }
     ],
     "correctOptionId": "a",
-    "explanation": "set a precedent（開先例）是固定片語，指日後會被援引的前例。",
+    "explanation": "set a precedent 是固定片語，指「開了一個日後會被援引的先例」，與後半句 entitled to invoke 完全對應。",
     "distractorExplanations": {
-      "b": "president 是「總統、總裁」，拼字接近但意思完全不同。",
-      "c": "precedence 是「優先權」，用於 take precedence over。",
-      "d": "冠詞 a 之後必須用單數形。"
+      "b": "president 是「總統、總裁」，拼字只差一個字母，差別在第二音節是 /z/ 音；意思與先例毫無關聯。",
+      "c": "precedence 是「優先次序、優先權」，用於 take precedence over something，不能被 set 和不定冠詞搭配成先例。",
+      "d": "不定冠詞 a 之後必須接單數名詞，precedents 是複數形。"
     },
     "difficulty": 3,
     "tags": ["confusables", "spelling"],
@@ -219,22 +220,22 @@
     "type": "confusing_words",
     "cefr": "C1",
     "wordIds": ["w_premise", "w_assumption"],
-    "prompt": "Which word describes something nobody ever wrote down?",
-    "context": "The bug came from a hidden ____ that requests would always arrive in order.",
+    "prompt": "Which word describes something nobody ever stated?",
+    "context": "Nobody ever wrote it down or argued for it, yet the whole scheduler rests on the unexamined ____ that requests arrive in the order they were sent.",
     "options": [
-      { "id": "a", "text": "assumption" },
-      { "id": "b", "text": "premise" },
-      { "id": "c", "text": "conclusion" },
-      { "id": "d", "text": "inference" }
+      { "id": "a", "text": "premise" },
+      { "id": "b", "text": "assumption" },
+      { "id": "c", "text": "presumption" },
+      { "id": "d", "text": "postulate" }
     ],
-    "correctOptionId": "a",
-    "explanation": "assumption 可以是無意識、沒說出口的，因此能被 hidden 修飾；除錯時挖出來的正是這種東西。",
+    "correctOptionId": "b",
+    "explanation": "assumption 是「沒有證明就接受並據以推論的事」，而且可以是無意識、從未說出口的，因此能被 unexamined 修飾；除錯時挖出來的正是這種東西。",
     "distractorExplanations": {
-      "b": "premise 通常是明白寫出、作為論證起點的陳述，與 hidden 有些矛盾。",
-      "c": "conclusion 是推論的終點，不是起點。",
-      "d": "inference 是推論得出的結果，不是預設的前提。"
+      "a": "premise 是論證中明白列出、作為推理起點的陳述，前提是有人把它說出來，與 Nobody ever wrote it down 矛盾。",
+      "c": "presumption 指「在有相反證據之前先如此認定」，是有理由、可被推翻的正式推定（如法律上的無罪推定），不是無意識的預設。",
+      "d": "postulate 是為建立理論而明白提出的公設，同樣必須被明確陳述才能作為推導的基礎。"
     },
-    "difficulty": 4,
+    "difficulty": 5,
     "tags": ["confusables", "logic"],
     "source": "curated"
   },
@@ -243,20 +244,20 @@
     "type": "confusing_words",
     "cefr": "C1",
     "wordIds": ["w_threshold"],
-    "prompt": "Which word fits a value that causes something to fire?",
-    "context": "The alert fires as soon as the error rate crosses the ____.",
+    "prompt": "Which word fits a value that triggers something?",
+    "context": "Nothing is blocked when the error rate rises above two percent; crossing that ____ merely pages the on-call engineer for investigation.",
     "options": [
-      { "id": "a", "text": "threshold" },
+      { "id": "a", "text": "ceiling" },
       { "id": "b", "text": "limit" },
-      { "id": "c", "text": "margin" },
+      { "id": "c", "text": "threshold" },
       { "id": "d", "text": "quota" }
     ],
-    "correctOptionId": "a",
-    "explanation": "threshold 是「跨過就會觸發某事」的臨界點，與 crosses 和 fires 完全吻合。",
+    "correctOptionId": "c",
+    "explanation": "threshold 是「一跨過就會觸發某件事」的臨界點，越過本身不代表違規；Nothing is blocked 與 merely pages 正是這個語感。",
     "distractorExplanations": {
-      "b": "limit 是「不可超過的上限」，越過代表違規，而不是觸發通知。",
-      "c": "margin 是「餘裕、利潤空間」，不是觸發點。",
-      "d": "quota 是「配額」，指分配到的額度。"
+      "a": "ceiling 同樣是不得突破的天花板值，常用於 a spending ceiling，重點仍在禁止而非觸發。",
+      "b": "limit 是「不得超過的上限」，越過就是違規並會被擋下，與 Nothing is blocked 直接矛盾。",
+      "d": "quota 是分配給某方的「配額」，講的是可用額度多寡，不是監控系統的觸發點。"
     },
     "difficulty": 3,
     "tags": ["confusables", "monitoring"],
@@ -267,22 +268,22 @@
     "type": "confusing_words",
     "cefr": "C1",
     "wordIds": ["w_empirical"],
-    "prompt": "Which word describes evidence gathered systematically?",
-    "context": "We replaced ____ impressions with measurements from ten thousand requests.",
+    "prompt": "Which word completes the sentence?",
+    "context": "We stopped arguing from the handful of complaints we happened to remember and replaced them with ____ evidence drawn from ten thousand logged sessions.",
     "options": [
-      { "id": "a", "text": "anecdotal" },
-      { "id": "b", "text": "empirical" },
+      { "id": "a", "text": "circumstantial" },
+      { "id": "b", "text": "anecdotal" },
       { "id": "c", "text": "theoretical" },
-      { "id": "d", "text": "statistical" }
+      { "id": "d", "text": "empirical" }
     ],
-    "correctOptionId": "a",
-    "explanation": "句子說「用一萬次請求的量測取代了……印象」，被取代的正是零星個別的 anecdotal 印象。",
+    "correctOptionId": "d",
+    "explanation": "empirical 指「有方法地蒐集、可重複驗證的觀測資料」。一萬筆記錄下來的 session 正是系統性量測，與前半句零星的印象形成對比。",
     "distractorExplanations": {
-      "b": "empirical 描述的是取代後的量測資料，不是被取代的印象。",
-      "c": "theoretical 指從原理推導，而非個人印象。",
-      "d": "statistical 描述的同樣是取代後的嚴謹資料。"
+      "a": "circumstantial 指間接的旁證，需要靠推論才能連到結論；它談的是證據與結論的關係，不是蒐集方式是否系統化。",
+      "b": "anecdotal 指零星個別的見聞，正是句中被取代掉的那一種（the handful of complaints we happened to remember）。",
+      "c": "theoretical 指從原理推導而來，不涉及實地觀測，與 drawn from ten thousand logged sessions 相反。"
     },
-    "difficulty": 4,
+    "difficulty": 3,
     "tags": ["confusables", "research"],
     "source": "curated"
   },
@@ -291,22 +292,22 @@
     "type": "confusing_words",
     "cefr": "C2",
     "wordIds": ["w_tacit"],
-    "prompt": "Which word describes an agreement nobody ever stated?",
-    "context": "There is a ____ agreement on this team that nobody deploys on Friday.",
+    "prompt": "Which word completes the sentence?",
+    "context": "The manager never authorised the workaround in writing, but by ignoring it for six months he effectively gave the practice his ____ approval.",
     "options": [
       { "id": "a", "text": "tacit" },
-      { "id": "b", "text": "explicit" },
-      { "id": "c", "text": "written" },
-      { "id": "d", "text": "formal" }
+      { "id": "b", "text": "taciturn" },
+      { "id": "c", "text": "tactful" },
+      { "id": "d", "text": "tactical" }
     ],
     "correctOptionId": "a",
-    "explanation": "tacit agreement 指「大家心知肚明卻沒說出口」的默契，正是此處的意思。",
+    "explanation": "tacit 指「未經明說卻彼此心知肚明的許可或共識」，幾乎只搭配 approval、agreement、consent、knowledge；長期默不作聲即構成 tacit approval。",
     "distractorExplanations": {
-      "b": "explicit 表示白紙黑字說清楚，與「沒有人明說」相反。",
-      "c": "written 表示有書面紀錄，同樣與默契的前提矛盾。",
-      "d": "formal 暗示有正式程序，與不成文的默契不符。"
+      "b": "taciturn 形容人「沉默寡言」，講的是性格，可以說 a taciturn manager，但不能修飾 approval。",
+      "c": "tactful 指「說話做事圓融得體、懂得分寸」，談的是表達方式，不是有沒有說出口。",
+      "d": "tactical 指「戰術性的、出於策略考量的」，強調動機算計，與是否明示無關。"
     },
-    "difficulty": 4,
+    "difficulty": 3,
     "tags": ["confusables", "workplace"],
     "source": "curated"
   },
@@ -315,20 +316,20 @@
     "type": "confusing_words",
     "cefr": "C2",
     "wordIds": ["w_spurious"],
-    "prompt": "Which word describes a correlation with no real causal link?",
-    "context": "Ice cream sales and drowning deaths rise together, but the relationship is ____.",
+    "prompt": "Which word completes the sentence?",
+    "context": "Ice-cream sales and drowning deaths rise together every July, yet neither causes the other; statisticians call such a relationship ____.",
     "options": [
-      { "id": "a", "text": "spurious" },
-      { "id": "b", "text": "significant" },
+      { "id": "a", "text": "specious" },
+      { "id": "b", "text": "spurious" },
       { "id": "c", "text": "spontaneous" },
-      { "id": "d", "text": "reciprocal" }
+      { "id": "d", "text": "speculative" }
     ],
-    "correctOptionId": "a",
-    "explanation": "a spurious correlation（偽相關）正是這個經典例子：兩者的關聯其實來自第三個因素（天氣）。",
+    "correctOptionId": "b",
+    "explanation": "a spurious correlation（偽相關）是統計學固定術語：關聯看似為真，實際源自第三個變項（此處是天氣），兩者之間並無因果。",
     "distractorExplanations": {
-      "b": "significant 表示統計上顯著，但偽相關往往也是顯著的——顯著不代表有因果。",
-      "c": "spontaneous 是「自發的」，與真偽無關。",
-      "d": "reciprocal 是「互惠、雙向的」，此處並無雙向作用。"
+      "a": "specious 形容「乍聽有理、細究卻站不住腳」的論證或說法，評價的是推理，不是兩個變項之間的統計關聯。",
+      "c": "spontaneous 是「自發的、未經安排的」，描述事情如何發生，與關聯的真偽無關。",
+      "d": "speculative 指「純屬臆測、尚無根據」，但這裡的關聯確實存在且量得出來，問題出在它不代表因果。"
     },
     "difficulty": 5,
     "tags": ["confusables", "statistics"],
@@ -339,20 +340,20 @@
     "type": "confusing_words",
     "cefr": "C2",
     "wordIds": ["w_innocuous"],
-    "prompt": "Which word describes a change that appeared to do no harm?",
-    "context": "A seemingly ____ whitespace edit broke the parser in production.",
+    "prompt": "Which word completes the sentence?",
+    "context": "The change was approved without discussion because it touched nothing but whitespace, yet that seemingly ____ commit brought down the parser in production.",
     "options": [
-      { "id": "a", "text": "innocuous" },
+      { "id": "a", "text": "ingenuous" },
       { "id": "b", "text": "innocent" },
-      { "id": "c", "text": "ingenious" },
-      { "id": "d", "text": "innovative" }
+      { "id": "c", "text": "innocuous" },
+      { "id": "d", "text": "ingenious" }
     ],
-    "correctOptionId": "a",
-    "explanation": "innocuous 形容「看似無害」的事物，且常帶有「結果並非如此」的伏筆，完全符合句意。",
+    "correctOptionId": "c",
+    "explanation": "innocuous 形容「不會造成傷害的事物」，描述的是影響力；配上 seemingly 更帶出「看似無害、結果不然」的伏筆，正合句意。",
     "distractorExplanations": {
-      "b": "innocent 描述人「無罪、天真」，不用來形容一項變更的危害性。",
-      "c": "ingenious 是「精巧的」，是稱讚，與句意不符。",
-      "d": "innovative 是「創新的」，與有無危害無關。"
+      "a": "ingenuous 指人「天真坦率、毫無心機」，同樣只用於人的性情，不能形容一次提交。",
+      "b": "innocent 描述人的責任或心態（無罪的、天真的），談的是該不該受責備，不用來評估一段程式碼會不會造成損害。",
+      "d": "ingenious 指「構思巧妙的」，是對設計的稱讚，與這次變更是否具危害性無關。"
     },
     "difficulty": 4,
     "tags": ["confusables", "engineering"],
@@ -364,19 +365,19 @@
     "cefr": "C2",
     "wordIds": ["w_untenable"],
     "prompt": "Which word fits a position that cannot be maintained?",
-    "context": "Supporting four incompatible versions with three engineers is ____.",
+    "context": "The team has kept four incompatible versions alive for two years, so it is plainly possible; but with three engineers left, the arrangement is ____.",
     "options": [
-      { "id": "a", "text": "untenable" },
+      { "id": "a", "text": "unprecedented" },
       { "id": "b", "text": "infeasible" },
-      { "id": "c", "text": "unprecedented" },
-      { "id": "d", "text": "indispensable" }
+      { "id": "c", "text": "impracticable" },
+      { "id": "d", "text": "untenable" }
     ],
-    "correctOptionId": "a",
-    "explanation": "untenable 指「守不住、難以為繼」，正好描述一個表面上做得到、但長期撐不下去的處境。",
+    "correctOptionId": "d",
+    "explanation": "untenable 指「守不住、難以為繼」，用於一個做得到卻撐不下去、也辯護不了的處境，正好承接 plainly possible 與人力縮減之間的轉折。",
     "distractorExplanations": {
-      "b": "infeasible 是「做不到」，但這件事其實做得到，只是撐不久。",
-      "c": "unprecedented 是「史無前例的」，與能否維持無關。",
-      "d": "indispensable 是「不可或缺的」，語意完全相反。"
+      "a": "unprecedented 是「史無前例的」，談的是有沒有前例，與這個安排能否維持下去無關。",
+      "b": "infeasible 是「做不到」，但句子已用兩年的實績證明這件事做得到，只是撐不久。",
+      "c": "impracticable 同樣指「實際上無法執行」，與前半句 plainly possible 正面衝突。"
     },
     "difficulty": 5,
     "tags": ["confusables", "business"],

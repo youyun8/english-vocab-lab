@@ -20,7 +20,7 @@ import { QuizRunner } from '@/features/quiz/components/QuizRunner';
 import { useSettings } from '@/features/settings/settings-context';
 import { useVocabulary } from '@/features/vocabulary/vocabulary-context';
 import { apiFetch } from '@/services/api-client';
-import { buildQuizSession, selectQuizWords } from '@/services/quiz-engine';
+import { buildQuizSession, selectQuizWords, wordIdsForMode } from '@/services/quiz-engine';
 import { GENERATED_TYPES } from '@/services/question-generator';
 
 type Phase = 'configure' | 'running' | 'results';
@@ -86,23 +86,32 @@ export function QuizPage() {
 
   /**
    * How many questions this configuration could produce, counted from the
-   * index: every eligible word yields one question per generated type, plus the
-   * curated questions that match. Counting beats building a preview session,
-   * which would have to download the words first.
+   * index: a word yields at most one generated question, of the single type the
+   * index records for it, plus the curated questions that match. Counting beats
+   * building a preview session, which would have to download the words first.
    */
   const availableCount = useMemo(() => {
     if (!ready || !questions) return 0;
     const { targetIds, poolIds } = selectQuizWords({ summaries, config, progress, now });
     if (targetIds.length + poolIds.length < OPTIONS_PER_QUESTION) return 0;
-    const generatedTypes = config.questionTypes.filter((type) =>
-      (GENERATED_TYPES as QuestionType[]).includes(type),
+    const wanted = new Set(
+      config.questionTypes.filter((type) => (GENERATED_TYPES as QuestionType[]).includes(type)),
+    );
+    const byId = new Map(summaries.map((summary) => [summary.id, summary]));
+    const generatedMatches = targetIds.filter((id) =>
+      byId.get(id)?.generatedTypes.some((type) => wanted.has(type)),
     ).length;
+    // The generated half is already narrowed to the mode by `selectQuizWords`,
+    // so the curated half has to honour the same restriction: otherwise two
+    // bookmarked words still promise a full session's worth of questions.
+    const allowed = wordIdsForMode(config, progress, now);
     const curatedMatches = questions.filter(
       (question) =>
         config.cefrLevels.includes(question.cefr)
-        && config.questionTypes.includes(question.type),
+        && config.questionTypes.includes(question.type)
+        && (!allowed || question.wordIds.some((id) => allowed.has(id))),
     ).length;
-    return Math.min(PREVIEW_LIMIT, targetIds.length * generatedTypes + curatedMatches);
+    return Math.min(PREVIEW_LIMIT, generatedMatches + curatedMatches);
   }, [ready, questions, summaries, config, progress, now]);
 
   const start = useCallback(async () => {

@@ -11,21 +11,59 @@
       {
         "id": "s_skeptical_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "having doubts about whether something is true, good, or right",
         "definitionZh": "懷疑的",
         "usageExplanationZh": "常見 skeptical of/about，強調對主張、承諾或說法不輕易相信的態度。",
-        "examples": [
-          {
-            "en": "Investors remain skeptical about the company's growth projections.",
-            "zh": "投資者對這家公司的成長預測仍抱持懷疑態度。"
-          }
+        "grammarPatterns": [
+          "be skeptical about + noun",
+          "be skeptical of + noun",
+          "remain skeptical that + clause"
         ],
         "collocations": [
           {
             "text": "skeptical of the claims",
             "meaningZh": "對這些說法持懷疑態度的"
           }
+        ],
+        "examples": [
+          {
+            "en": "Investors remain skeptical about the company's growth projections.",
+            "zh": "投資者對這家公司的成長預測仍抱持懷疑態度。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "doubtful",
+        "noteZh": "懷疑的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "convinced",
+        "noteZh": "確信的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "skepticism",
+        "partOfSpeech": "noun",
+        "meaningZh": "懷疑態度；懷疑論"
+      },
+      {
+        "lemma": "skeptic",
+        "partOfSpeech": "noun",
+        "meaningZh": "懷疑論者"
+      },
+      {
+        "lemma": "skeptically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "懷疑地"
       }
     ],
     "tags": [
@@ -38,19 +76,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "doubtful",
-        "noteZh": "懷疑的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "convinced",
-        "noteZh": "確信的"
-      }
-    ]
+    }
   },
   {
     "id": "w_sketch",
@@ -64,21 +90,43 @@
       {
         "id": "s_sketch_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a rough or quick drawing that shows the main features of something",
         "definitionZh": "素描；草圖",
         "usageExplanationZh": "常見 make a sketch of，也可指簡短的文字描述（a character sketch）。",
-        "examples": [
-          {
-            "en": "The architect made a quick sketch of the building design.",
-            "zh": "建築師快速畫了一張建築設計的草圖。"
-          }
+        "grammarPatterns": [
+          "a sketch of + noun",
+          "make a sketch",
+          "a rough sketch"
         ],
         "collocations": [
           {
             "text": "a rough sketch",
             "meaningZh": "草圖"
           }
+        ],
+        "examples": [
+          {
+            "en": "The architect made a quick sketch of the building design.",
+            "zh": "建築師快速畫了一張建築設計的草圖。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "drawing",
+        "noteZh": "圖畫"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "sketchy",
+        "partOfSpeech": "adjective",
+        "meaningZh": "粗略的；不完整的"
       }
     ],
     "tags": [
@@ -92,14 +140,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "drawing",
-        "noteZh": "圖畫"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_skew",
@@ -113,21 +154,44 @@
       {
         "id": "s_skew_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "to distort or bias something so it does not represent the true picture",
         "definitionZh": "扭曲；使偏斜",
         "usageExplanationZh": "常見 skew the results/data，強調使數據或觀點因某因素而失去客觀性。",
-        "examples": [
-          {
-            "en": "A small sample size can skew the survey results.",
-            "zh": "樣本數過小可能會扭曲問卷調查的結果。"
-          }
+        "grammarPatterns": [
+          "skew + noun",
+          "skew the results",
+          "skew sth toward + noun"
         ],
         "collocations": [
           {
             "text": "skew the results",
             "meaningZh": "使結果失真"
           }
+        ],
+        "examples": [
+          {
+            "en": "A small sample size can skew the survey results.",
+            "zh": "樣本數過小可能會扭曲問卷調查的結果。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "distort",
+        "noteZh": "扭曲"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "skewness",
+        "partOfSpeech": "noun",
+        "meaningZh": "偏態；偏斜度"
       }
     ],
     "tags": [
@@ -140,14 +204,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "distort",
-        "noteZh": "扭曲"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_skewer",
@@ -161,23 +218,32 @@
       {
         "id": "s_skewer_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a long thin metal or wooden stick used to hold pieces of food together for cooking",
         "definitionZh": "串肉籤；烤肉叉",
         "usageExplanationZh": "常見於烤肉語境，如 chicken skewers，指用來串起食材的細棒。",
-        "examples": [
-          {
-            "en": "They grilled vegetables and meat on skewers over the fire.",
-            "zh": "他們用烤肉叉串起蔬菜和肉在火上烤。"
-          }
+        "grammarPatterns": [
+          "on a skewer",
+          "thread sth onto a skewer"
         ],
         "collocations": [
           {
             "text": "a metal skewer",
             "meaningZh": "金屬串肉籤"
           }
+        ],
+        "examples": [
+          {
+            "en": "They grilled vegetables and meat on skewers over the fire.",
+            "zh": "他們用烤肉叉串起蔬菜和肉在火上烤。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -188,9 +254,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_skillet",
@@ -204,23 +268,37 @@
       {
         "id": "s_skillet_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a flat frying pan with a handle, used for cooking on a stove",
         "definitionZh": "平底鍋",
         "usageExplanationZh": "美式用語，常見 cast-iron skillet（鑄鐵平底鍋），指用於煎炒食物的廚具。",
-        "examples": [
-          {
-            "en": "She fried the eggs in a cast-iron skillet.",
-            "zh": "她用一只鑄鐵平底鍋煎蛋。"
-          }
+        "grammarPatterns": [
+          "in a skillet",
+          "a cast-iron skillet"
         ],
         "collocations": [
           {
             "text": "a cast-iron skillet",
             "meaningZh": "鑄鐵平底鍋"
           }
+        ],
+        "examples": [
+          {
+            "en": "She fried the eggs in a cast-iron skillet.",
+            "zh": "她用一只鑄鐵平底鍋煎蛋。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "frying pan",
+        "noteZh": "平底煎鍋"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -231,14 +309,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "frying pan",
-        "noteZh": "平底煎鍋"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_skim",
@@ -252,23 +323,39 @@
       {
         "id": "s_skim_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "to read or look through something quickly without reading every detail",
         "definitionZh": "略讀；瀏覽",
         "usageExplanationZh": "常見 skim an article/report，強調快速瀏覽以掌握大意，而非逐字閱讀。",
-        "examples": [
-          {
-            "en": "He skimmed the report before the meeting to save time.",
-            "zh": "他為了節省時間，在會議前快速瀏覽了這份報告。"
-          }
+        "grammarPatterns": [
+          "skim + noun",
+          "skim through + noun",
+          "skim sth for + noun"
         ],
         "collocations": [
           {
             "text": "skim through a report",
             "meaningZh": "快速瀏覽報告"
           }
+        ],
+        "examples": [
+          {
+            "en": "He skimmed the report before the meeting to save time.",
+            "zh": "他為了節省時間，在會議前快速瀏覽了這份報告。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "scan",
+        "noteZh": "快速瀏覽，常為尋找資訊"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -281,14 +368,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "scan",
-        "noteZh": "快速瀏覽，常為尋找資訊"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_skip",
@@ -302,23 +382,39 @@
       {
         "id": "s_skip_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "to miss out or omit something, or to move by jumping lightly from one foot to the other",
         "definitionZh": "跳過；略過",
         "usageExplanationZh": "常見 skip a meal/class，也可指身體動作（skip rope），依語境判斷。",
-        "examples": [
-          {
-            "en": "She decided to skip breakfast because she was running late.",
-            "zh": "她因為快遲到了，決定不吃早餐。"
-          }
+        "grammarPatterns": [
+          "skip + noun",
+          "skip over + noun",
+          "skip + V-ing"
         ],
         "collocations": [
           {
             "text": "skip breakfast",
             "meaningZh": "不吃早餐"
           }
+        ],
+        "examples": [
+          {
+            "en": "She decided to skip breakfast because she was running late.",
+            "zh": "她因為快遲到了，決定不吃早餐。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "omit",
+        "noteZh": "省略"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -330,14 +426,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "omit",
-        "noteZh": "省略"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_skirmish",
@@ -351,23 +440,38 @@
       {
         "id": "s_skirmish_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to fight in a brief and minor way, especially between small groups",
         "definitionZh": "小規模交戰；發生小衝突",
         "usageExplanationZh": "軍事用語較常見，也可比喻用於一般爭執，如兩派人馬的小衝突。",
-        "examples": [
-          {
-            "en": "The two patrols skirmished briefly before retreating.",
-            "zh": "這兩支巡邏隊短暫交火後便撤退了。"
-          }
+        "grammarPatterns": [
+          "skirmish with + noun",
+          "skirmish briefly"
         ],
         "collocations": [
           {
             "text": "skirmish with enemy forces",
             "meaningZh": "與敵軍小規模交戰"
           }
+        ],
+        "examples": [
+          {
+            "en": "The two patrols skirmished briefly before retreating.",
+            "zh": "這兩支巡邏隊短暫交火後便撤退了。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "clash",
+        "noteZh": "發生短暫衝突"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -378,14 +482,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "clash",
-        "noteZh": "發生短暫衝突"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_skull",
@@ -399,23 +496,38 @@
       {
         "id": "s_skull_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "the bony structure of the head that protects the brain",
         "definitionZh": "頭骨；顱骨",
         "usageExplanationZh": "常見 skull and crossbones（骷髏標誌），也可口語泛指「腦袋」，如 knock some sense into his skull。",
-        "examples": [
-          {
-            "en": "The X-ray showed no fractures in the skull.",
-            "zh": "X 光顯示頭骨並無骨折。"
-          }
+        "grammarPatterns": [
+          "fracture one's skull",
+          "the human skull"
         ],
         "collocations": [
           {
             "text": "a skull fracture",
             "meaningZh": "顱骨骨折"
           }
+        ],
+        "examples": [
+          {
+            "en": "The X-ray showed no fractures in the skull.",
+            "zh": "X 光顯示頭骨並無骨折。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "cranium",
+        "noteZh": "顱骨"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -426,14 +538,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cranium",
-        "noteZh": "顱骨"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_slab",
@@ -447,23 +552,33 @@
       {
         "id": "s_slab_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a thick, flat piece of a hard material such as stone, concrete, or meat",
         "definitionZh": "厚板；厚片",
         "usageExplanationZh": "常見 a slab of concrete/marble，指厚實且平坦的固體塊狀物。",
-        "examples": [
-          {
-            "en": "The patio is made from large stone slabs.",
-            "zh": "這座露臺是用大塊石板鋪成的。"
-          }
+        "grammarPatterns": [
+          "a slab of + noun",
+          "a stone slab"
         ],
         "collocations": [
           {
             "text": "a slab of concrete",
             "meaningZh": "一塊厚混凝土板"
           }
+        ],
+        "examples": [
+          {
+            "en": "The patio is made from large stone slabs.",
+            "zh": "這座露臺是用大塊石板鋪成的。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -476,9 +591,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_slacken",
@@ -492,21 +605,53 @@
       {
         "id": "s_slacken_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to become or make less tight, fast, or intense",
         "definitionZh": "鬆弛；放慢",
         "usageExplanationZh": "常見 slacken one's pace/grip，強調速度、力道或緊繃程度的降低。",
-        "examples": [
-          {
-            "en": "The runner slackened her pace as she approached the finish line.",
-            "zh": "這位跑者接近終點時放慢了步伐。"
-          }
+        "grammarPatterns": [
+          "slacken + noun",
+          "slacken off",
+          "slacken one's pace"
         ],
         "collocations": [
           {
             "text": "slacken the pace",
             "meaningZh": "放慢步調"
           }
+        ],
+        "examples": [
+          {
+            "en": "The runner slackened her pace as she approached the finish line.",
+            "zh": "這位跑者接近終點時放慢了步伐。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "loosen",
+        "noteZh": "鬆開"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "tighten",
+        "noteZh": "拉緊"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "slack",
+        "partOfSpeech": "adjective",
+        "meaningZh": "鬆弛的；蕭條的"
+      },
+      {
+        "lemma": "slackness",
+        "partOfSpeech": "noun",
+        "meaningZh": "鬆弛；鬆懈"
       }
     ],
     "tags": [
@@ -520,19 +665,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "loosen",
-        "noteZh": "鬆開"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "tighten",
-        "noteZh": "拉緊"
-      }
-    ]
+    }
   },
   {
     "id": "w_slant",
@@ -546,23 +679,38 @@
       {
         "id": "s_slant_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a particular way of presenting information that reflects a specific viewpoint or bias",
         "definitionZh": "觀點；偏向",
         "usageExplanationZh": "常見 put a slant on，指以特定角度或立場呈現資訊，暗示可能帶有主觀色彩。",
-        "examples": [
-          {
-            "en": "The article has a clear political slant.",
-            "zh": "這篇文章明顯帶有政治立場的偏向。"
-          }
+        "grammarPatterns": [
+          "a political slant",
+          "a slant on + noun",
+          "give sth a slant"
         ],
         "collocations": [
           {
             "text": "a different slant on the issue",
             "meaningZh": "對議題的不同看法"
           }
+        ],
+        "examples": [
+          {
+            "en": "The article has a clear political slant.",
+            "zh": "這篇文章明顯帶有政治立場的偏向。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "angle",
+        "noteZh": "看待事情的角度"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -574,14 +722,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "angle",
-        "noteZh": "看待事情的角度"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_slap",
@@ -595,23 +736,34 @@
       {
         "id": "s_slap_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "a quick hit with the flat part of the hand",
         "definitionZh": "掌摑；一巴掌",
         "usageExplanationZh": "常見 give sb a slap，也可比喻指嚴厲的批評或懲罰，如 a slap on the wrist（輕微懲戒）。",
-        "examples": [
-          {
-            "en": "She gave him a slap across the face for his rude comment.",
-            "zh": "她因他的無禮言論賞了他一巴掌。"
-          }
+        "grammarPatterns": [
+          "give sb a slap",
+          "a slap in the face",
+          "a slap across + noun"
         ],
         "collocations": [
           {
             "text": "a slap in the face",
             "meaningZh": "一記耳光；侮辱或打擊"
           }
+        ],
+        "examples": [
+          {
+            "en": "She gave him a slap across the face for his rude comment.",
+            "zh": "她因他的無禮言論賞了他一巴掌。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -623,9 +775,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_slash",
@@ -639,23 +789,39 @@
       {
         "id": "s_slash_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "business",
+          "neutral"
+        ],
         "definitionEn": "to make a long, deep cut with a sharp object, or to greatly reduce something such as a price or budget",
         "definitionZh": "猛砍；大幅削減",
         "usageExplanationZh": "字面指用利器猛烈劃割；比喻指大幅刪減，如 slash prices/budgets。",
-        "examples": [
-          {
-            "en": "The company slashed prices to attract more customers.",
-            "zh": "這家公司大幅降價以吸引更多顧客。"
-          }
+        "grammarPatterns": [
+          "slash + noun",
+          "slash prices by + number",
+          "slash sth to + noun"
         ],
         "collocations": [
           {
             "text": "slash prices",
             "meaningZh": "大幅降價"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company slashed prices to attract more customers.",
+            "zh": "這家公司大幅降價以吸引更多顧客。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "cut",
+        "noteZh": "砍；削減"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -666,14 +832,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cut",
-        "noteZh": "砍；削減"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_slate",
@@ -687,23 +846,34 @@
       {
         "id": "s_slate_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a fine-grained gray rock that splits into thin flat layers, used for roofing, or a list of candidates for an election",
         "definitionZh": "板岩；候選人名單",
         "usageExplanationZh": "兩義：建材用語（slate roof）；政治語境指提名參選的候選人名冊。",
-        "examples": [
-          {
-            "en": "The party announced its slate of candidates for the upcoming election.",
-            "zh": "該政黨公布了即將到來的選舉候選人名單。"
-          }
+        "grammarPatterns": [
+          "a slate + noun",
+          "a slate of candidates",
+          "announce a slate"
         ],
         "collocations": [
           {
             "text": "a slate roof",
             "meaningZh": "板岩屋頂"
           }
+        ],
+        "examples": [
+          {
+            "en": "The party announced its slate of candidates for the upcoming election.",
+            "zh": "該政黨公布了即將到來的選舉候選人名單。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -715,9 +885,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_slave",
@@ -731,21 +899,49 @@
       {
         "id": "s_slave_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "a person who is legally owned by another and forced to work for them without pay",
         "definitionZh": "奴隸",
         "usageExplanationZh": "常見於歷史語境，也可比喻用於形容過度受某事物控制的人，如 a slave to fashion。",
-        "examples": [
-          {
-            "en": "The museum exhibit tells the story of slaves who escaped to freedom.",
-            "zh": "這座博物館的展覽講述了逃向自由的奴隸的故事。"
-          }
+        "grammarPatterns": [
+          "a slave to + noun",
+          "free the slaves",
+          "work as a slave"
         ],
         "collocations": [
           {
             "text": "a slave owner",
             "meaningZh": "奴隸主"
           }
+        ],
+        "examples": [
+          {
+            "en": "The museum exhibit tells the story of slaves who escaped to freedom.",
+            "zh": "這座博物館的展覽講述了逃向自由的奴隸的故事。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "slavery",
+        "partOfSpeech": "noun",
+        "meaningZh": "奴隸制"
+      },
+      {
+        "lemma": "enslave",
+        "partOfSpeech": "verb",
+        "meaningZh": "奴役；束縛"
+      },
+      {
+        "lemma": "slavish",
+        "partOfSpeech": "adjective",
+        "meaningZh": "盲從的；奴性的"
       }
     ],
     "tags": [
@@ -758,9 +954,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_slay",
@@ -774,21 +968,43 @@
       {
         "id": "s_slay_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "to kill someone or something violently, especially deliberately",
         "definitionZh": "殺害；屠殺",
         "usageExplanationZh": "正式或文學用語，常見於敘事或新聞標題，語氣比 kill 更戲劇化、正式。",
-        "examples": [
-          {
-            "en": "The knight set out to slay the dragon that terrorized the village.",
-            "zh": "這位騎士出發去屠殺那隻恐嚇村莊的巨龍。"
-          }
+        "grammarPatterns": [
+          "slay + noun",
+          "be slain by + noun"
         ],
         "collocations": [
           {
             "text": "slay a dragon",
             "meaningZh": "殺死一條龍"
           }
+        ],
+        "examples": [
+          {
+            "en": "The knight set out to slay the dragon that terrorized the village.",
+            "zh": "這位騎士出發去屠殺那隻恐嚇村莊的巨龍。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "kill",
+        "noteZh": "殺死"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "slayer",
+        "partOfSpeech": "noun",
+        "meaningZh": "殺手；屠戮者"
       }
     ],
     "tags": [
@@ -801,14 +1017,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "kill",
-        "noteZh": "殺死"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sleazy",
@@ -822,21 +1031,53 @@
       {
         "id": "s_sleazy_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "dishonest, low in moral or social standards, and often unpleasant",
         "definitionZh": "低俗的；不入流的",
         "usageExplanationZh": "常修飾 bar、deal、character，形容場所或人帶有不道德、令人反感的氣息。",
-        "examples": [
-          {
-            "en": "They avoided the sleazy nightclub down the street.",
-            "zh": "他們避開了那條街上那家不入流的夜店。"
-          }
+        "grammarPatterns": [
+          "a sleazy + noun",
+          "look sleazy"
         ],
         "collocations": [
           {
             "text": "a sleazy nightclub",
             "meaningZh": "低俗的夜店"
           }
+        ],
+        "examples": [
+          {
+            "en": "They avoided the sleazy nightclub down the street.",
+            "zh": "他們避開了那條街上那家不入流的夜店。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "sordid",
+        "noteZh": "骯髒卑劣的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "respectable",
+        "noteZh": "正派體面的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "sleaze",
+        "partOfSpeech": "noun",
+        "meaningZh": "腐敗；低俗"
+      },
+      {
+        "lemma": "sleaziness",
+        "partOfSpeech": "noun",
+        "meaningZh": "低俗；不入流"
       }
     ],
     "tags": [
@@ -849,19 +1090,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "sordid",
-        "noteZh": "骯髒卑劣的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "respectable",
-        "noteZh": "正派體面的"
-      }
-    ]
+    }
   },
   {
     "id": "w_slender",
@@ -875,21 +1104,44 @@
       {
         "id": "s_slender_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "pleasingly thin, or very small in amount",
         "definitionZh": "苗條的；微薄的",
         "usageExplanationZh": "常修飾 figure（身材苗條）或 chance/margin（機會、差距微小），依語境判斷。",
-        "examples": [
-          {
-            "en": "She has a slender figure from years of dancing.",
-            "zh": "她因多年跳舞而擁有苗條的身材。"
-          }
+        "grammarPatterns": [
+          "a slender + noun",
+          "a slender figure",
+          "a slender chance of + V-ing"
         ],
         "collocations": [
           {
             "text": "a slender figure",
             "meaningZh": "苗條的身材"
           }
+        ],
+        "examples": [
+          {
+            "en": "She has a slender figure from years of dancing.",
+            "zh": "她因多年跳舞而擁有苗條的身材。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "slim",
+        "noteZh": "苗條的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "slenderness",
+        "partOfSpeech": "noun",
+        "meaningZh": "苗條；纖細"
       }
     ],
     "tags": [
@@ -903,14 +1155,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "slim",
-        "noteZh": "苗條的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_slice",
@@ -924,23 +1169,32 @@
       {
         "id": "s_slice_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a thin, flat piece cut from something larger, such as bread or meat",
         "definitionZh": "薄片；一片",
         "usageExplanationZh": "常見 a slice of bread/pizza，也可比喻指某整體中的一部分，如 a slice of the profits。",
-        "examples": [
-          {
-            "en": "She cut the cake into eight equal slices.",
-            "zh": "她把蛋糕切成八等份的薄片。"
-          }
+        "grammarPatterns": [
+          "a slice of + noun",
+          "cut sth into slices"
         ],
         "collocations": [
           {
             "text": "a slice of bread",
             "meaningZh": "一片麵包"
           }
+        ],
+        "examples": [
+          {
+            "en": "She cut the cake into eight equal slices.",
+            "zh": "她把蛋糕切成八等份的薄片。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -953,9 +1207,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_slide",
@@ -969,23 +1221,34 @@
       {
         "id": "s_slide_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "a single image displayed as part of a presentation, or a smooth playground structure children slide down",
         "definitionZh": "投影片；溜滑梯",
         "usageExplanationZh": "兩義：簡報中的單張畫面（PowerPoint slide）；遊樂場設施。",
-        "examples": [
-          {
-            "en": "He added a chart to the third slide of his presentation.",
-            "zh": "他在簡報的第三張投影片中加入了一張圖表。"
-          }
+        "grammarPatterns": [
+          "the next slide",
+          "a slide in a presentation",
+          "go down a slide"
         ],
         "collocations": [
           {
             "text": "a slide presentation",
             "meaningZh": "投影片簡報"
           }
+        ],
+        "examples": [
+          {
+            "en": "He added a chart to the third slide of his presentation.",
+            "zh": "他在簡報的第三張投影片中加入了一張圖表。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -997,9 +1260,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_slight",
@@ -1013,21 +1274,48 @@
       {
         "id": "s_slight_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to treat someone with disrespect by ignoring them or failing to give them proper attention",
         "definitionZh": "怠慢；輕視",
         "usageExplanationZh": "常見 feel slighted，強調因被忽略或不受重視而感到受冒犯。",
-        "examples": [
-          {
-            "en": "She felt slighted when her contribution wasn't mentioned in the report.",
-            "zh": "她的貢獻沒有在報告中被提及，讓她覺得受到了怠慢。"
-          }
+        "grammarPatterns": [
+          "slight + sb",
+          "feel slighted by + noun"
         ],
         "collocations": [
           {
             "text": "feel slighted",
             "meaningZh": "覺得受到怠慢"
           }
+        ],
+        "examples": [
+          {
+            "en": "She felt slighted when her contribution wasn't mentioned in the report.",
+            "zh": "她的貢獻沒有在報告中被提及，讓她覺得受到了怠慢。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "snub",
+        "noteZh": "冷落；怠慢"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "honor",
+        "noteZh": "尊重；禮遇"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "slightly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "輕微地；稍微"
       }
     ],
     "tags": [
@@ -1042,19 +1330,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "snub",
-        "noteZh": "冷落；怠慢"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "honor",
-        "noteZh": "尊重；禮遇"
-      }
-    ]
+    }
   },
   {
     "id": "w_slim",
@@ -1068,21 +1344,43 @@
       {
         "id": "s_slim_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "thin in an attractive way, or very small in size or amount",
         "definitionZh": "苗條的；渺茫的",
         "usageExplanationZh": "常見 slim chance（機會渺茫）、slim figure（身材苗條），依語境判斷字面或比喻義。",
-        "examples": [
-          {
-            "en": "There is only a slim chance of finding survivors.",
-            "zh": "找到生還者的機會十分渺茫。"
-          }
+        "grammarPatterns": [
+          "a slim + noun",
+          "a slim chance of + V-ing",
+          "stay slim"
         ],
         "collocations": [
           {
             "text": "a slim chance",
             "meaningZh": "渺茫的機會"
           }
+        ],
+        "examples": [
+          {
+            "en": "There is only a slim chance of finding survivors.",
+            "zh": "找到生還者的機會十分渺茫。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "slender",
+        "noteZh": "苗條的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "slimness",
+        "partOfSpeech": "noun",
+        "meaningZh": "苗條；纖細"
       }
     ],
     "tags": [
@@ -1096,14 +1394,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "slender",
-        "noteZh": "苗條的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sling",
@@ -1117,23 +1408,33 @@
       {
         "id": "s_sling_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a piece of cloth used to support an injured arm, or a device used to throw an object with force",
         "definitionZh": "吊帶；投石器",
         "usageExplanationZh": "醫療語境指懸吊受傷手臂的三角巾；也可指古代投擲武器（如大衛與歌利亞故事中的投石器）。",
-        "examples": [
-          {
-            "en": "He had his arm in a sling after the accident.",
-            "zh": "意外發生後，他的手臂用吊帶固定著。"
-          }
+        "grammarPatterns": [
+          "have one's arm in a sling",
+          "put sth in a sling"
         ],
         "collocations": [
           {
             "text": "an arm in a sling",
             "meaningZh": "用吊帶吊著的手臂"
           }
+        ],
+        "examples": [
+          {
+            "en": "He had his arm in a sling after the accident.",
+            "zh": "意外發生後，他的手臂用吊帶固定著。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1144,9 +1445,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_slip",
@@ -1160,21 +1459,53 @@
       {
         "id": "s_slip_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a small mistake, especially one made unintentionally in speech or action",
         "definitionZh": "失誤；口誤",
         "usageExplanationZh": "常見 a slip of the tongue（口誤），也可指物理上的滑倒（slip on ice）。",
-        "examples": [
-          {
-            "en": "It was just a slip of the tongue; he didn't mean to say her name.",
-            "zh": "那只是個口誤，他並不是故意說出她的名字。"
-          }
+        "grammarPatterns": [
+          "a slip of the tongue",
+          "make a slip",
+          "a slip in + noun"
         ],
         "collocations": [
           {
             "text": "a slip of the tongue",
             "meaningZh": "口誤"
           }
+        ],
+        "examples": [
+          {
+            "en": "It was just a slip of the tongue; he didn't mean to say her name.",
+            "zh": "那只是個口誤，他並不是故意說出她的名字。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "error",
+        "noteZh": "失誤"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "slippery",
+        "partOfSpeech": "adjective",
+        "meaningZh": "滑的；狡猾的"
+      },
+      {
+        "lemma": "slipper",
+        "partOfSpeech": "noun",
+        "meaningZh": "拖鞋"
+      },
+      {
+        "lemma": "slippage",
+        "partOfSpeech": "noun",
+        "meaningZh": "滑移；下滑"
       }
     ],
     "tags": [
@@ -1188,14 +1519,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "error",
-        "noteZh": "失誤"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_slither",
@@ -1209,23 +1533,38 @@
       {
         "id": "s_slither_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "to move smoothly with a twisting motion, like a snake",
         "definitionZh": "蜿蜒滑行",
         "usageExplanationZh": "常見於描述蛇類移動，也可比喻指人或物以類似的方式悄悄移動。",
-        "examples": [
-          {
-            "en": "The snake slithered silently through the tall grass.",
-            "zh": "那條蛇悄無聲息地在高高的草叢中蜿蜒滑行。"
-          }
+        "grammarPatterns": [
+          "slither through + noun",
+          "slither across + noun"
         ],
         "collocations": [
           {
             "text": "slither through the grass",
             "meaningZh": "蜿蜒滑過草叢"
           }
+        ],
+        "examples": [
+          {
+            "en": "The snake slithered silently through the tall grass.",
+            "zh": "那條蛇悄無聲息地在高高的草叢中蜿蜒滑行。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "slide",
+        "noteZh": "滑行"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1236,14 +1575,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "slide",
-        "noteZh": "滑行"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sliver",
@@ -1257,23 +1589,38 @@
       {
         "id": "s_sliver_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "formal"
+        ],
         "definitionEn": "to break or cut something into small, thin pieces",
         "definitionZh": "切成薄片；裂成細片",
         "usageExplanationZh": "常見 sliver wood/glass，指將物體切割或裂解成細小碎片的動作。",
-        "examples": [
-          {
-            "en": "The impact slivered the windshield into countless fragments.",
-            "zh": "這次撞擊把擋風玻璃震裂成無數碎片。"
-          }
+        "grammarPatterns": [
+          "sliver + noun",
+          "sliver sth into + plural noun"
         ],
         "collocations": [
           {
             "text": "sliver the almonds",
             "meaningZh": "把杏仁切成細片"
           }
+        ],
+        "examples": [
+          {
+            "en": "The impact slivered the windshield into countless fragments.",
+            "zh": "這次撞擊把擋風玻璃震裂成無數碎片。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "splinter",
+        "noteZh": "裂成細片"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1284,14 +1631,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "splinter",
-        "noteZh": "裂成細片"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_slogan",
@@ -1305,23 +1645,39 @@
       {
         "id": "s_slogan_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "neutral"
+        ],
         "definitionEn": "a short, memorable phrase used in advertising or by a group to express its aims",
         "definitionZh": "口號；標語",
         "usageExplanationZh": "常見 advertising slogan、political slogan，指用來宣傳理念或商品的簡短標語。",
-        "examples": [
-          {
-            "en": "The company's new slogan appeared on billboards across the city。",
-            "zh": "這家公司的新標語出現在全市各地的看板上。"
-          }
+        "grammarPatterns": [
+          "a catchy slogan",
+          "a slogan for + noun",
+          "chant a slogan"
         ],
         "collocations": [
           {
             "text": "a campaign slogan",
             "meaningZh": "競選口號"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company's new slogan appeared on billboards across the city。",
+            "zh": "這家公司的新標語出現在全市各地的看板上。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "catchphrase",
+        "noteZh": "醒目的宣傳語"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1333,14 +1689,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "catchphrase",
-        "noteZh": "醒目的宣傳語"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_slope",
@@ -1354,23 +1703,39 @@
       {
         "id": "s_slope_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a surface that goes up or down at an angle, or the degree of such an incline",
         "definitionZh": "斜坡；坡度",
         "usageExplanationZh": "常見 ski slope，數學語境也指直線的斜率（gradient）。",
-        "examples": [
-          {
-            "en": "Skiers raced down the steep slope.",
-            "zh": "滑雪者沿著陡峭的斜坡飛速滑下。"
-          }
+        "grammarPatterns": [
+          "a steep slope",
+          "the slope of + noun",
+          "ski down a slope"
         ],
         "collocations": [
           {
             "text": "a steep slope",
             "meaningZh": "陡坡"
           }
+        ],
+        "examples": [
+          {
+            "en": "Skiers raced down the steep slope.",
+            "zh": "滑雪者沿著陡峭的斜坡飛速滑下。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "incline",
+        "noteZh": "斜坡"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1382,14 +1747,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "incline",
-        "noteZh": "斜坡"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sloppy",
@@ -1403,21 +1761,48 @@
       {
         "id": "s_sloppy_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "careless and lacking neatness or precision in work or appearance",
         "definitionZh": "草率的；邋遢的",
         "usageExplanationZh": "常修飾 work、handwriting，形容做事馬虎、不夠仔細或外表不整潔。",
-        "examples": [
-          {
-            "en": "The report was full of sloppy mistakes and typos.",
-            "zh": "這份報告充滿了草率的錯誤和打字失誤。"
-          }
+        "grammarPatterns": [
+          "a sloppy + noun",
+          "be sloppy about + noun"
         ],
         "collocations": [
           {
             "text": "sloppy work",
             "meaningZh": "草率的工作"
           }
+        ],
+        "examples": [
+          {
+            "en": "The report was full of sloppy mistakes and typos.",
+            "zh": "這份報告充滿了草率的錯誤和打字失誤。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "careless",
+        "noteZh": "草率的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "meticulous",
+        "noteZh": "一絲不苟的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "sloppiness",
+        "partOfSpeech": "noun",
+        "meaningZh": "草率；邋遢"
       }
     ],
     "tags": [
@@ -1431,19 +1816,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "careless",
-        "noteZh": "草率的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "meticulous",
-        "noteZh": "一絲不苟的"
-      }
-    ]
+    }
   },
   {
     "id": "w_slot",
@@ -1457,23 +1830,34 @@
       {
         "id": "s_slot_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "a narrow opening for inserting something, or an allocated time or position within a schedule",
         "definitionZh": "投幣口；時段",
         "usageExplanationZh": "常見 time slot（時段）、parking slot（停車位），也可指投幣機的窄縫。",
-        "examples": [
-          {
-            "en": "Please insert your coin into the slot.",
-            "zh": "請把硬幣投入投幣口。"
-          }
+        "grammarPatterns": [
+          "insert sth into the slot",
+          "a time slot",
+          "a slot for + noun"
         ],
         "collocations": [
           {
             "text": "a time slot",
             "meaningZh": "一個時段"
           }
+        ],
+        "examples": [
+          {
+            "en": "Please insert your coin into the slot.",
+            "zh": "請把硬幣投入投幣口。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -1485,9 +1869,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_slouch",
@@ -1501,23 +1883,39 @@
       {
         "id": "s_slouch_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "to stand, sit, or walk with a drooping posture, showing poor posture or low energy",
         "definitionZh": "無精打采地站/坐/走",
         "usageExplanationZh": "常見 slouch in a chair，強調身體姿勢鬆垮、缺乏精神。",
-        "examples": [
-          {
-            "en": "Don't slouch at your desk; sit up straight.",
-            "zh": "不要在桌前無精打采地垂著肩，坐直一點。"
-          }
+        "grammarPatterns": [
+          "slouch in + noun",
+          "slouch over + noun",
+          "do not slouch"
         ],
         "collocations": [
           {
             "text": "slouch in a chair",
             "meaningZh": "懶散地坐在椅子上"
           }
+        ],
+        "examples": [
+          {
+            "en": "Don't slouch at your desk; sit up straight.",
+            "zh": "不要在桌前無精打采地垂著肩，坐直一點。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "slump",
+        "noteZh": "垂肩弓背地坐"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1528,14 +1926,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "slump",
-        "noteZh": "垂肩弓背地坐"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_slump",
@@ -1549,21 +1940,42 @@
       {
         "id": "s_slump_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "business",
+          "neutral"
+        ],
         "definitionEn": "to fall or sink suddenly, or to decline sharply in value, performance, or activity",
         "definitionZh": "驟降；暴跌",
         "usageExplanationZh": "常見 sales slump、slump into a chair，字面指身體突然癱坐；比喻指經濟、業績等急劇下滑。",
-        "examples": [
-          {
-            "en": "The company's profits slumped after losing its biggest client.",
-            "zh": "這家公司失去最大的客戶後，利潤大幅下滑。"
-          }
+        "grammarPatterns": [
+          "slump by + number",
+          "slump to + noun",
+          "profits slump"
         ],
         "collocations": [
           {
             "text": "sales slump",
             "meaningZh": "銷售量驟降"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company's profits slumped after losing its biggest client.",
+            "zh": "這家公司失去最大的客戶後，利潤大幅下滑。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "plummet",
+        "noteZh": "暴跌"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "surge",
+        "noteZh": "急遽上升"
       }
     ],
     "tags": [
@@ -1577,19 +1989,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "plummet",
-        "noteZh": "暴跌"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "surge",
-        "noteZh": "急遽上升"
-      }
-    ]
+    }
   },
   {
     "id": "w_slur",
@@ -1603,23 +2003,37 @@
       {
         "id": "s_slur_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to speak indistinctly so that words are difficult to understand, or to make a damaging remark about someone",
         "definitionZh": "口齒不清地說；詆毀",
         "usageExplanationZh": "常見 slur one's words（喝醉後口齒不清），也可指誹謗性言論（racial slur 為名詞用法）。",
-        "examples": [
-          {
-            "en": "He was so drunk that he began to slur his words.",
-            "zh": "他喝得太醉，開始口齒不清。"
-          }
+        "grammarPatterns": [
+          "slur one's words",
+          "slur + noun"
         ],
         "collocations": [
           {
             "text": "slur one's words",
             "meaningZh": "說話含糊不清"
           }
+        ],
+        "examples": [
+          {
+            "en": "He was so drunk that he began to slur his words.",
+            "zh": "他喝得太醉，開始口齒不清。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "mumble",
+        "noteZh": "含糊地說"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1630,14 +2044,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "mumble",
-        "noteZh": "含糊地說"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_smash",
@@ -1651,23 +2058,38 @@
       {
         "id": "s_smash_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to break something violently into many pieces, or to hit something with great force",
         "definitionZh": "打碎；猛擊",
         "usageExplanationZh": "常見 smash a window、smash a record（打破紀錄），強調猛烈的力道。",
-        "examples": [
-          {
-            "en": "The ball smashed through the window.",
-            "zh": "那顆球猛力砸破了窗戶。"
-          }
+        "grammarPatterns": [
+          "smash + noun",
+          "smash through + noun",
+          "smash sth to pieces"
         ],
         "collocations": [
           {
             "text": "smash into a wall",
             "meaningZh": "猛撞上牆"
           }
+        ],
+        "examples": [
+          {
+            "en": "The ball smashed through the window.",
+            "zh": "那顆球猛力砸破了窗戶。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "shatter",
+        "noteZh": "打碎"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1679,14 +2101,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "shatter",
-        "noteZh": "打碎"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_smear",
@@ -1700,23 +2115,38 @@
       {
         "id": "s_smear_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to spread a soft or liquid substance over a surface, or to damage someone's reputation with false claims",
         "definitionZh": "塗抹；抹黑",
         "usageExplanationZh": "字面指塗抹物質（smear paint）；比喻指以不實言論詆毀他人名譽（a smear campaign）。",
-        "examples": [
-          {
-            "en": "Someone smeared paint on the wall overnight.",
-            "zh": "有人在夜裡把油漆塗抹在牆上。"
-          }
+        "grammarPatterns": [
+          "smear + noun on + noun",
+          "smear sb as + noun",
+          "smear sb's reputation"
         ],
         "collocations": [
           {
             "text": "smear someone's reputation",
             "meaningZh": "抹黑某人的名聲"
           }
+        ],
+        "examples": [
+          {
+            "en": "Someone smeared paint on the wall overnight.",
+            "zh": "有人在夜裡把油漆塗抹在牆上。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "daub",
+        "noteZh": "塗抹"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1728,14 +2158,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "daub",
-        "noteZh": "塗抹"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_smirk",
@@ -1749,23 +2172,33 @@
       {
         "id": "s_smirk_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "literary"
+        ],
         "definitionEn": "to smile in an unpleasant way that shows satisfaction or superiority",
         "definitionZh": "得意地假笑；奸笑",
         "usageExplanationZh": "帶負面意涵，形容帶著自滿或輕蔑意味的笑容，與真誠的微笑不同。",
-        "examples": [
-          {
-            "en": "He smirked when he heard that his rival had failed.",
-            "zh": "聽到對手失敗的消息，他露出了得意的假笑。"
-          }
+        "grammarPatterns": [
+          "smirk at + sb",
+          "smirk and + verb"
         ],
         "collocations": [
           {
             "text": "smirk at someone",
             "meaningZh": "對某人得意地假笑"
           }
+        ],
+        "examples": [
+          {
+            "en": "He smirked when he heard that his rival had failed.",
+            "zh": "聽到對手失敗的消息，他露出了得意的假笑。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1776,9 +2209,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_smoothly",
@@ -1792,21 +2223,49 @@
       {
         "id": "s_smoothly_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "without difficulty, interruption, or problems",
         "definitionZh": "順利地；流暢地",
         "usageExplanationZh": "常見 run smoothly、go smoothly，強調過程沒有阻礙或問題。",
-        "examples": [
-          {
-            "en": "The event went smoothly thanks to careful planning.",
-            "zh": "多虧了周密的規劃，這場活動進行得十分順利。"
-          }
+        "grammarPatterns": [
+          "go smoothly",
+          "run smoothly",
+          "operate smoothly"
         ],
         "collocations": [
           {
             "text": "run smoothly",
             "meaningZh": "運作順利"
           }
+        ],
+        "examples": [
+          {
+            "en": "The event went smoothly thanks to careful planning.",
+            "zh": "多虧了周密的規劃，這場活動進行得十分順利。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "easily",
+        "noteZh": "順暢無礙地"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "smooth",
+        "partOfSpeech": "adjective",
+        "meaningZh": "平滑的；順暢的"
+      },
+      {
+        "lemma": "smoothness",
+        "partOfSpeech": "noun",
+        "meaningZh": "平滑；流暢"
       }
     ],
     "tags": [
@@ -1819,14 +2278,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "easily",
-        "noteZh": "順暢無礙地"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_smug",
@@ -1840,21 +2292,54 @@
       {
         "id": "s_smug_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "showing excessive satisfaction with oneself, in an annoying way",
         "definitionZh": "自鳴得意的；沾沾自喜的",
         "usageExplanationZh": "帶負面意涵，形容因自身成就或優越感而顯得過度自滿，令人反感。",
-        "examples": [
-          {
-            "en": "He had a smug expression after winning the argument.",
-            "zh": "贏了這場爭論後，他露出了自鳴得意的表情。"
-          }
+        "grammarPatterns": [
+          "a smug + noun",
+          "look smug",
+          "be smug about + noun"
         ],
         "collocations": [
           {
             "text": "a smug expression",
             "meaningZh": "沾沾自喜的表情"
           }
+        ],
+        "examples": [
+          {
+            "en": "He had a smug expression after winning the argument.",
+            "zh": "贏了這場爭論後，他露出了自鳴得意的表情。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "self-satisfied",
+        "noteZh": "自我滿足的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "humble",
+        "noteZh": "謙遜的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "smugness",
+        "partOfSpeech": "noun",
+        "meaningZh": "自滿；沾沾自喜"
+      },
+      {
+        "lemma": "smugly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "自鳴得意地"
       }
     ],
     "tags": [
@@ -1868,19 +2353,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "self-satisfied",
-        "noteZh": "自我滿足的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "humble",
-        "noteZh": "謙遜的"
-      }
-    ]
+    }
   },
   {
     "id": "w_smuggle",
@@ -1894,21 +2367,43 @@
       {
         "id": "s_smuggle_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to take goods or people illegally into or out of a country",
         "definitionZh": "走私；偷運",
         "usageExplanationZh": "常見 smuggle drugs/weapons，強調違法地秘密運送物品或人員跨越邊境。",
-        "examples": [
-          {
-            "en": "They were arrested for trying to smuggle drugs across the border.",
-            "zh": "他們因企圖走私毒品越境而被逮捕。"
-          }
+        "grammarPatterns": [
+          "smuggle + noun",
+          "smuggle sth into + noun",
+          "smuggle sth across + noun"
         ],
         "collocations": [
           {
             "text": "smuggle goods across the border",
             "meaningZh": "跨境走私貨物"
           }
+        ],
+        "examples": [
+          {
+            "en": "They were arrested for trying to smuggle drugs across the border.",
+            "zh": "他們因企圖走私毒品越境而被逮捕。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "smuggler",
+        "partOfSpeech": "noun",
+        "meaningZh": "走私者"
+      },
+      {
+        "lemma": "smuggling",
+        "partOfSpeech": "noun",
+        "meaningZh": "走私"
       }
     ],
     "tags": [
@@ -1923,9 +2418,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_snack",
@@ -1939,23 +2432,39 @@
       {
         "id": "s_snack_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "a small amount of food eaten between meals",
         "definitionZh": "點心；零食",
         "usageExplanationZh": "常見 have a snack、snack bar，指正餐之間食用的簡便食物。",
-        "examples": [
-          {
-            "en": "She grabbed a snack before heading to the gym.",
-            "zh": "她在去健身房前先吃了點零食。"
-          }
+        "grammarPatterns": [
+          "grab a snack",
+          "a healthy snack",
+          "a snack between meals"
         ],
         "collocations": [
           {
             "text": "a quick snack",
             "meaningZh": "簡單吃的小點心"
           }
+        ],
+        "examples": [
+          {
+            "en": "She grabbed a snack before heading to the gym.",
+            "zh": "她在去健身房前先吃了點零食。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "light refreshment",
+        "noteZh": "少量點心"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -1966,14 +2475,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "light refreshment",
-        "noteZh": "少量點心"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_snap",
@@ -1987,21 +2489,43 @@
       {
         "id": "s_snap_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "a sudden breaking sound, or an informal photograph",
         "definitionZh": "啪的一聲；快照",
         "usageExplanationZh": "常見 take a snap（拍張快照，英式口語），也可指物體斷裂發出的清脆聲響。",
-        "examples": [
-          {
-            "en": "She took a quick snap of the sunset with her phone.",
-            "zh": "她用手機拍了一張夕陽的快照。"
-          }
+        "grammarPatterns": [
+          "take a snap of + noun",
+          "with a snap"
         ],
         "collocations": [
           {
             "text": "a holiday snap",
             "meaningZh": "度假快照"
           }
+        ],
+        "examples": [
+          {
+            "en": "She took a quick snap of the sunset with her phone.",
+            "zh": "她用手機拍了一張夕陽的快照。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "snapshot",
+        "noteZh": "快照"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "snappy",
+        "partOfSpeech": "adjective",
+        "meaningZh": "俐落的；簡潔有力的"
       }
     ],
     "tags": [
@@ -2014,14 +2538,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "snapshot",
-        "noteZh": "快照"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_snatch",
@@ -2035,23 +2552,38 @@
       {
         "id": "s_snatch_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to take or grab something suddenly and quickly, often without permission",
         "definitionZh": "搶奪；一把抓住",
         "usageExplanationZh": "常見 snatch a purse/opportunity，強調動作迅速、突然，可指字面搶奪或抓住機會。",
-        "examples": [
-          {
-            "en": "The thief snatched her bag and ran off.",
-            "zh": "那名小偷搶走了她的包包後逃跑了。"
-          }
+        "grammarPatterns": [
+          "snatch + noun",
+          "snatch sth from + sb",
+          "snatch at + noun"
         ],
         "collocations": [
           {
             "text": "snatch victory from the jaws of defeat",
             "meaningZh": "反敗為勝"
           }
+        ],
+        "examples": [
+          {
+            "en": "The thief snatched her bag and ran off.",
+            "zh": "那名小偷搶走了她的包包後逃跑了。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "grab",
+        "noteZh": "一把抓住"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -2063,14 +2595,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "grab",
-        "noteZh": "一把抓住"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sneak",
@@ -2084,21 +2609,49 @@
       {
         "id": "s_sneak_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "to move or do something quietly and secretly, in order to avoid being noticed",
         "definitionZh": "偷偷地做；悄悄行動",
         "usageExplanationZh": "常見 sneak out/in，強調刻意不被人發現的隱密行動。",
-        "examples": [
-          {
-            "en": "The children snuck out of the house after their parents fell asleep.",
-            "zh": "父母睡著後，孩子們偷偷溜出了家門。"
-          }
+        "grammarPatterns": [
+          "sneak into + noun",
+          "sneak out of + noun",
+          "sneak a look at + noun"
         ],
         "collocations": [
           {
             "text": "sneak out of the house",
             "meaningZh": "偷偷溜出屋子"
           }
+        ],
+        "examples": [
+          {
+            "en": "The children snuck out of the house after their parents fell asleep.",
+            "zh": "父母睡著後，孩子們偷偷溜出了家門。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "creep",
+        "noteZh": "悄悄行動"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "sneaky",
+        "partOfSpeech": "adjective",
+        "meaningZh": "鬼鬼祟祟的"
+      },
+      {
+        "lemma": "sneaker",
+        "partOfSpeech": "noun",
+        "meaningZh": "運動鞋"
       }
     ],
     "tags": [
@@ -2111,14 +2664,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "creep",
-        "noteZh": "悄悄行動"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sneer",
@@ -2132,23 +2678,38 @@
       {
         "id": "s_sneer_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "literary",
+          "informal"
+        ],
         "definitionEn": "to smile or speak in a way that shows contempt or mockery",
         "definitionZh": "冷笑；嘲笑",
         "usageExplanationZh": "常見 sneer at，形容帶著輕蔑、看不起他人的表情或言語。",
-        "examples": [
-          {
-            "en": "He sneered at her attempt to fix the engine herself.",
-            "zh": "他對她試圖自己修引擎的舉動嗤之以鼻。"
-          }
+        "grammarPatterns": [
+          "sneer at + sb",
+          "sneer that + clause"
         ],
         "collocations": [
           {
             "text": "sneer at someone's efforts",
             "meaningZh": "嘲笑某人的努力"
           }
+        ],
+        "examples": [
+          {
+            "en": "He sneered at her attempt to fix the engine herself.",
+            "zh": "他對她試圖自己修引擎的舉動嗤之以鼻。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "scoff",
+        "noteZh": "嘲笑"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2160,14 +2721,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "scoff",
-        "noteZh": "嘲笑"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sniff",
@@ -2181,21 +2735,43 @@
       {
         "id": "s_sniff_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "spoken"
+        ],
         "definitionEn": "to breathe in through the nose in short breaths, especially to smell something",
         "definitionZh": "嗅；聞",
         "usageExplanationZh": "常見 sniff the air、sniff out（察覺出），強調透過鼻子吸氣以感知氣味或線索。",
-        "examples": [
-          {
-            "en": "The dog sniffed the ground, following the scent.",
-            "zh": "這隻狗嗅著地面，跟著氣味前進。"
-          }
+        "grammarPatterns": [
+          "sniff + noun",
+          "sniff at + noun"
         ],
         "collocations": [
           {
             "text": "sniff at a flower",
             "meaningZh": "嗅一朵花"
           }
+        ],
+        "examples": [
+          {
+            "en": "The dog sniffed the ground, following the scent.",
+            "zh": "這隻狗嗅著地面，跟著氣味前進。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "smell",
+        "noteZh": "嗅聞"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "sniffle",
+        "partOfSpeech": "verb",
+        "meaningZh": "抽鼻子；吸鼻涕"
       }
     ],
     "tags": [
@@ -2208,14 +2784,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "smell",
-        "noteZh": "嗅聞"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_snip",
@@ -2229,21 +2798,43 @@
       {
         "id": "s_snip_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to cut something with quick, small strokes using scissors",
         "definitionZh": "剪；修剪",
         "usageExplanationZh": "常見 snip off a thread，強調用剪刀快速、俐落地剪去一小部分。",
-        "examples": [
-          {
-            "en": "She snipped the loose threads off the sweater.",
-            "zh": "她把毛衣上鬆脫的線頭剪掉了。"
-          }
+        "grammarPatterns": [
+          "snip + noun",
+          "snip sth off",
+          "snip through + noun"
         ],
         "collocations": [
           {
             "text": "snip off the ends",
             "meaningZh": "剪掉末端"
           }
+        ],
+        "examples": [
+          {
+            "en": "She snipped the loose threads off the sweater.",
+            "zh": "她把毛衣上鬆脫的線頭剪掉了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "clip",
+        "noteZh": "剪掉"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "snippet",
+        "partOfSpeech": "noun",
+        "meaningZh": "片段；小段"
       }
     ],
     "tags": [
@@ -2256,14 +2847,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "clip",
-        "noteZh": "剪掉"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_snuggle",
@@ -2277,21 +2861,43 @@
       {
         "id": "s_snuggle_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "to settle into a warm, comfortable position, often close to another person",
         "definitionZh": "依偎；蜷縮",
         "usageExplanationZh": "常見 snuggle up to someone/under a blanket，形容因舒適或親近感而緊靠、蜷縮。",
-        "examples": [
-          {
-            "en": "The child snuggled up to her mother on the couch.",
-            "zh": "這個孩子在沙發上依偎著媽媽。"
-          }
+        "grammarPatterns": [
+          "snuggle up to + sb",
+          "snuggle into + noun"
         ],
         "collocations": [
           {
             "text": "snuggle up to someone",
             "meaningZh": "依偎在某人身邊"
           }
+        ],
+        "examples": [
+          {
+            "en": "The child snuggled up to her mother on the couch.",
+            "zh": "這個孩子在沙發上依偎著媽媽。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "nestle",
+        "noteZh": "舒適地依偎"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "snug",
+        "partOfSpeech": "adjective",
+        "meaningZh": "舒適溫暖的"
       }
     ],
     "tags": [
@@ -2304,14 +2910,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "nestle",
-        "noteZh": "舒適地依偎"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_soak",
@@ -2325,23 +2924,38 @@
       {
         "id": "s_soak_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to leave something in liquid for a period of time, or to become thoroughly wet",
         "definitionZh": "浸泡；浸溼",
         "usageExplanationZh": "常見 soak beans overnight、get soaked（被淋濕），強調長時間浸泡或大量吸水。",
-        "examples": [
-          {
-            "en": "She soaked the beans in water overnight before cooking.",
-            "zh": "她把豆子在水中浸泡了一整晚才煮。"
-          }
+        "grammarPatterns": [
+          "soak + noun in + noun",
+          "soak sth overnight",
+          "be soaked through"
         ],
         "collocations": [
           {
             "text": "soak in warm water",
             "meaningZh": "浸泡在溫水中"
           }
+        ],
+        "examples": [
+          {
+            "en": "She soaked the beans in water overnight before cooking.",
+            "zh": "她把豆子在水中浸泡了一整晚才煮。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "immerse",
+        "noteZh": "浸入"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -2353,14 +2967,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "immerse",
-        "noteZh": "浸入"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_soar",
@@ -2374,21 +2981,42 @@
       {
         "id": "s_soar_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "literary",
+          "business"
+        ],
         "definitionEn": "to rise quickly and smoothly into the air, or to increase rapidly in amount or level",
         "definitionZh": "翱翔；急遽上升",
         "usageExplanationZh": "字面指鳥類、飛機等高飛；比喻指價格、數量等大幅攀升，如 prices soar。",
-        "examples": [
-          {
-            "en": "Eagles soared high above the canyon.",
-            "zh": "老鷹在峽谷上空高高翱翔。"
-          }
+        "grammarPatterns": [
+          "soar above + noun",
+          "soar to + noun",
+          "prices soar"
         ],
         "collocations": [
           {
             "text": "prices soar",
             "meaningZh": "價格飆升"
           }
+        ],
+        "examples": [
+          {
+            "en": "Eagles soared high above the canyon.",
+            "zh": "老鷹在峽谷上空高高翱翔。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "rocket",
+        "noteZh": "急遽上升"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "plummet",
+        "noteZh": "急遽下跌"
       }
     ],
     "tags": [
@@ -2402,18 +3030,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "rocket",
-        "noteZh": "急遽上升"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "plummet",
-        "noteZh": "急遽下跌"
-      }
-    ]
+    }
   }
 ]

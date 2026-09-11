@@ -26,6 +26,8 @@
     "merge:vocab": "tsx scripts/merge-vocabulary-fields.ts",
     "edit:bilingual": "tsx scripts/apply-bilingual-lessons.ts && npm run build:index",
     "validate:bilingual-file": "tsx scripts/validate-bilingual-lesson-file.ts",
+    "validate:question-file": "tsx scripts/validate-question-file.ts",
+    "validate:slice": "tsx scripts/validate-slice.ts",
     "import:exam": "tsx scripts/import-exam-vocabulary.ts"
   },
   "dependencies": {

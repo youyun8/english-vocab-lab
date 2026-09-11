@@ -89,13 +89,6 @@ export const collocationSchema = z.object({
 });
 export type Collocation = z.infer<typeof collocationSchema>;
 
-export const commonMistakeSchema = z.object({
-  incorrect: z.string().trim().min(1).optional(),
-  correct: z.string().trim().min(1).optional(),
-  explanationZh: nonEmpty('commonMistake.explanationZh'),
-});
-export type CommonMistake = z.infer<typeof commonMistakeSchema>;
-
 export const wordFamilyItemSchema = z.object({
   lemma: nonEmpty('wordFamily.lemma'),
   partOfSpeech: partOfSpeechSchema,
@@ -110,20 +103,39 @@ export const confusedWordSchema = z.object({
 });
 export type ConfusedWord = z.infer<typeof confusedWordSchema>;
 
+/**
+ * Every word page is laid out to one spec, so `register` and `grammarPatterns`
+ * are required rather than optional: a sense that cannot say how it is used or
+ * at what level of formality is not finished, and a page that silently omits
+ * those sections reads differently from every other page in the corpus.
+ * `collocations`, `usageNotes` and `wordFamily` stay optional because a word can
+ * genuinely have none — inventing them would teach English that does not exist.
+ */
 export const vocabularySenseSchema = z.object({
   id: nonEmpty('sense.id'),
   partOfSpeech: partOfSpeechSchema,
-  register: z.array(registerSchema).nonempty().optional(),
+  register: z.array(registerSchema).nonempty(),
   definitionEn: nonEmpty('sense.definitionEn'),
   definitionZh: nonEmpty('sense.definitionZh'),
   usageExplanationZh: nonEmpty('sense.usageExplanationZh').optional(),
-  grammarPatterns: z.array(nonEmpty('grammarPattern')).optional(),
+  grammarPatterns: z.array(nonEmpty('grammarPattern')).nonempty(),
   collocations: z.array(collocationSchema).optional(),
   examples: z.array(exampleSentenceSchema),
   usageNotes: z.array(nonEmpty('usageNote')).optional(),
-  commonMistakes: z.array(commonMistakeSchema).optional(),
 });
 export type VocabularySense = z.infer<typeof vocabularySenseSchema>;
+
+/**
+ * A sense fresh out of the source dictionary, before anyone has decided how the
+ * word is actually used. The import scripts work in this shape; nothing in the
+ * app does, because `vocabularyEntrySchema` is what a chunk file has to satisfy
+ * before it ships, and that still demands the authored fields.
+ */
+export const draftVocabularySenseSchema = vocabularySenseSchema.omit({
+  register: true,
+  grammarPatterns: true,
+});
+export type DraftVocabularySense = z.infer<typeof draftVocabularySenseSchema>;
 
 /**
  * Pronunciation is intentionally an object rather than a bare string so that
@@ -152,7 +164,12 @@ export const slugSchema = z
   .string()
   .regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, 'slug must be lowercase kebab-case');
 
-export const vocabularyEntrySchema = z.object({
+/**
+ * The entry's fields, before the cross-field rule below is attached. Kept
+ * separate only so the draft schema can swap `senses` out: a refined schema
+ * cannot be extended, and duplicating the field list would let the two drift.
+ */
+const vocabularyEntryFields = z.object({
   id: z
     .string()
     .regex(/^w_[a-z0-9_]+$/, 'id must look like "w_consolidate"'),
@@ -176,7 +193,13 @@ export const vocabularyEntrySchema = z.object({
     license: z.literal('MIT'),
     cefrEstimated: z.literal(true),
   }).optional(),
-}).superRefine((entry, ctx) => {
+});
+
+/** An edited entry owes every sense usage guidance and a translated example. */
+function checkCuratedSenses(
+  entry: { dictionarySource?: unknown; contentRevision?: unknown; senses: VocabularySense[] | DraftVocabularySense[] },
+  ctx: z.RefinementCtx,
+) {
   if (entry.dictionarySource && !entry.contentRevision) return;
   entry.senses.forEach((sense, index) => {
     if (!sense.usageExplanationZh) {
@@ -186,8 +209,20 @@ export const vocabularyEntrySchema = z.object({
       ctx.addIssue({ code: 'custom', path: ['senses', index, 'examples'], message: 'curated senses require a translated example' });
     }
   });
-});
+}
+
+export const vocabularyEntrySchema = vocabularyEntryFields.superRefine(checkCuratedSenses);
 export type VocabularyEntry = z.infer<typeof vocabularyEntrySchema>;
+
+/**
+ * An imported entry whose senses have not been authored yet. It is held to the
+ * same cross-field rule as a finished entry; only `register` and
+ * `grammarPatterns` are still outstanding.
+ */
+export const draftVocabularyEntrySchema = vocabularyEntryFields
+  .extend({ senses: z.array(draftVocabularySenseSchema).min(1, 'entry must have at least one sense') })
+  .superRefine(checkCuratedSenses);
+export type DraftVocabularyEntry = z.infer<typeof draftVocabularyEntrySchema>;
 
 /**
  * The list-level projection of an entry.

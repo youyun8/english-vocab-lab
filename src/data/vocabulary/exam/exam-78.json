@@ -11,42 +11,69 @@
       {
         "id": "s_vacuum_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a space entirely empty of matter, or a device for cleaning by suction",
         "definitionZh": "真空；吸塵器",
         "usageExplanationZh": "常見 a power vacuum（權力真空），也可指 vacuum cleaner 的簡稱。",
-        "examples": [
-          {
-            "en": "Nature abhors a vacuum, both literally and figuratively.",
-            "zh": "無論是字面上還是比喻上，自然界都厭惡真空狀態。"
-          }
+        "grammarPatterns": [
+          "create a vacuum",
+          "in a vacuum",
+          "a power vacuum"
         ],
         "collocations": [
           {
             "text": "a power vacuum",
             "meaningZh": "權力真空"
           }
+        ],
+        "examples": [
+          {
+            "en": "Nature abhors a vacuum, both literally and figuratively.",
+            "zh": "無論是字面上還是比喻上，自然界都厭惡真空狀態。"
+          }
         ]
       },
       {
         "id": "s_vacuum_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to clean a surface using a vacuum cleaner",
         "definitionZh": "用吸塵器清潔",
         "usageExplanationZh": "日常家務動詞，直接接受詞，如 vacuum the carpet。",
-        "examples": [
-          {
-            "en": "She vacuums the living room every Saturday morning.",
-            "zh": "她每週六早上都會用吸塵器清潔客廳。"
-          }
+        "grammarPatterns": [
+          "vacuum + noun",
+          "vacuum the floor"
         ],
         "collocations": [
           {
             "text": "vacuum the carpet",
             "meaningZh": "用吸塵器清潔地毯"
           }
+        ],
+        "examples": [
+          {
+            "en": "She vacuums the living room every Saturday morning.",
+            "zh": "她每週六早上都會用吸塵器清潔客廳。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "void",
+        "noteZh": "空無物質的空間"
+      },
+      {
+        "lemma": "hoover",
+        "noteZh": "用吸塵器清潔，英式口語"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -58,18 +85,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "void",
-        "noteZh": "空無物質的空間"
-      },
-      {
-        "lemma": "hoover",
-        "noteZh": "用吸塵器清潔，英式口語"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_vague",
@@ -83,35 +99,30 @@
       {
         "id": "s_vague_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "not clearly expressed or defined; uncertain",
         "definitionZh": "模糊的；含糊的",
         "usageExplanationZh": "常修飾 description、idea、memory，強調不明確、不具體的性質。",
-        "examples": [
-          {
-            "en": "His explanation was too vague to be useful.",
-            "zh": "他的解釋太過模糊，沒有實際幫助。"
-          }
+        "grammarPatterns": [
+          "a vague + noun",
+          "be vague about + noun"
         ],
         "collocations": [
           {
             "text": "a vague idea",
             "meaningZh": "模糊的概念"
           }
+        ],
+        "examples": [
+          {
+            "en": "His explanation was too vague to be useful.",
+            "zh": "他的解釋太過模糊，沒有實際幫助。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "unclear",
@@ -127,7 +138,31 @@
         "lemma": "precise",
         "noteZh": "精確明確的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "vaguely",
+        "partOfSpeech": "adverb",
+        "meaningZh": "模糊地；含糊地"
+      },
+      {
+        "lemma": "vagueness",
+        "partOfSpeech": "noun",
+        "meaningZh": "模糊；含糊"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_vain",
@@ -141,35 +176,31 @@
       {
         "id": "s_vain_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "having excessive pride in one's appearance or achievements, or producing no result",
         "definitionZh": "自負的；徒勞的",
         "usageExplanationZh": "兩義：形容人愛慕虛榮（she is vain），或指努力沒有效果（in vain）。",
-        "examples": [
-          {
-            "en": "They tried in vain to revive the drowning victim.",
-            "zh": "他們試圖搶救溺水者，卻徒勞無功。"
-          }
+        "grammarPatterns": [
+          "in vain",
+          "try in vain to + verb"
         ],
         "collocations": [
           {
             "text": "in vain",
             "meaningZh": "徒勞地"
           }
+        ],
+        "examples": [
+          {
+            "en": "They tried in vain to revive the drowning victim.",
+            "zh": "他們試圖搶救溺水者，卻徒勞無功。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "conceited",
@@ -189,7 +220,31 @@
         "lemma": "effective",
         "noteZh": "有成效的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "vanity",
+        "partOfSpeech": "noun",
+        "meaningZh": "虛榮心；自負"
+      },
+      {
+        "lemma": "vainly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "徒勞地；白費力氣地"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_valiant",
@@ -203,21 +258,53 @@
       {
         "id": "s_valiant_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "showing courage or determination",
         "definitionZh": "勇敢的；英勇的",
         "usageExplanationZh": "常修飾 effort、attempt，強調面對困難仍堅持不懈的勇氣，語氣書面。",
-        "examples": [
-          {
-            "en": "Despite a valiant effort, the team lost the final match.",
-            "zh": "儘管付出英勇的努力，這支隊伍仍輸掉了決賽。"
-          }
+        "grammarPatterns": [
+          "a valiant + noun",
+          "a valiant effort to + verb"
         ],
         "collocations": [
           {
             "text": "a valiant effort",
             "meaningZh": "英勇堅毅的努力"
           }
+        ],
+        "examples": [
+          {
+            "en": "Despite a valiant effort, the team lost the final match.",
+            "zh": "儘管付出英勇的努力，這支隊伍仍輸掉了決賽。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "brave",
+        "noteZh": "勇敢的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "cowardly",
+        "noteZh": "怯懦的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "valiantly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "英勇地"
+      },
+      {
+        "lemma": "valor",
+        "partOfSpeech": "noun",
+        "meaningZh": "英勇；勇氣"
       }
     ],
     "tags": [
@@ -231,19 +318,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "brave",
-        "noteZh": "勇敢的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "cowardly",
-        "noteZh": "怯懦的"
-      }
-    ]
+    }
   },
   {
     "id": "w_valid",
@@ -257,34 +332,31 @@
       {
         "id": "s_valid_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "legally or officially acceptable, or based on sound reasoning",
         "definitionZh": "有效的；合理的",
         "usageExplanationZh": "常見 a valid passport（有效護照）、a valid argument（合理的論點），依語境略有不同。",
-        "examples": [
-          {
-            "en": "Your driver's license is no longer valid after it expires.",
-            "zh": "你的駕照過期後就不再有效。"
-          }
+        "grammarPatterns": [
+          "a valid + noun",
+          "remain valid for + noun"
         ],
         "collocations": [
           {
             "text": "a valid reason",
             "meaningZh": "正當理由"
           }
+        ],
+        "examples": [
+          {
+            "en": "Your driver's license is no longer valid after it expires.",
+            "zh": "你的駕照過期後就不再有效。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "legitimate",
@@ -300,7 +372,35 @@
         "lemma": "invalid",
         "noteZh": "無效或不成立的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "validity",
+        "partOfSpeech": "noun",
+        "meaningZh": "有效性；正當性"
+      },
+      {
+        "lemma": "validate",
+        "partOfSpeech": "verb",
+        "meaningZh": "驗證；使生效"
+      },
+      {
+        "lemma": "invalid",
+        "partOfSpeech": "adjective",
+        "meaningZh": "無效的"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_validity",
@@ -314,21 +414,53 @@
       {
         "id": "s_validity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "the quality of being legally or officially acceptable, or logically sound",
         "definitionZh": "有效性；正當性",
         "usageExplanationZh": "常見 question the validity of，指對某事合法性或論證正確性的質疑。",
-        "examples": [
-          {
-            "en": "The researchers questioned the validity of the survey's methodology.",
-            "zh": "研究人員質疑這項調查方法的有效性。"
-          }
+        "grammarPatterns": [
+          "the validity of + noun",
+          "question the validity of + noun"
         ],
         "collocations": [
           {
             "text": "question the validity of",
             "meaningZh": "質疑某事的有效性"
           }
+        ],
+        "examples": [
+          {
+            "en": "The researchers questioned the validity of the survey's methodology.",
+            "zh": "研究人員質疑這項調查方法的有效性。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "legitimacy",
+        "noteZh": "正當有效的性質"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "invalidity",
+        "noteZh": "無效性"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "valid",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有效的；合理的"
+      },
+      {
+        "lemma": "validate",
+        "partOfSpeech": "verb",
+        "meaningZh": "證實；確認有效"
       }
     ],
     "tags": [
@@ -342,19 +474,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "legitimacy",
-        "noteZh": "正當有效的性質"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "invalidity",
-        "noteZh": "無效性"
-      }
-    ]
+    }
   },
   {
     "id": "w_valuation",
@@ -368,21 +488,53 @@
       {
         "id": "s_valuation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "an estimation of the worth or value of something",
         "definitionZh": "估價；評估價值",
         "usageExplanationZh": "常見於財務或房地產情境，如 property valuation（房產估價）。",
-        "examples": [
-          {
-            "en": "The company's valuation rose sharply after the merger.",
-            "zh": "這家公司的估值在合併後大幅上升。"
-          }
+        "grammarPatterns": [
+          "a valuation of + noun",
+          "sb's valuation rose to + noun"
         ],
         "collocations": [
           {
             "text": "a property valuation",
             "meaningZh": "房產估價"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company's valuation rose sharply after the merger.",
+            "zh": "這家公司的估值在合併後大幅上升。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "appraisal",
+        "noteZh": "評估財產價值"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "value",
+        "partOfSpeech": "noun",
+        "meaningZh": "價值"
+      },
+      {
+        "lemma": "valuable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有價值的；貴重的"
+      },
+      {
+        "lemma": "evaluate",
+        "partOfSpeech": "verb",
+        "meaningZh": "評估；評價"
       }
     ],
     "tags": [
@@ -395,14 +547,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "appraisal",
-        "noteZh": "評估財產價值"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_valve",
@@ -416,23 +561,32 @@
       {
         "id": "s_valve_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical"
+        ],
         "definitionEn": "a device that regulates the flow of a liquid or gas by opening or closing a passage",
         "definitionZh": "閥門；活門",
         "usageExplanationZh": "常見於機械、水管或心臟結構描述，如 heart valve（心臟瓣膜）。",
-        "examples": [
-          {
-            "en": "The plumber replaced the faulty valve in the water pipe.",
-            "zh": "水管工更換了水管中故障的閥門。"
-          }
+        "grammarPatterns": [
+          "open a valve",
+          "a faulty valve"
         ],
         "collocations": [
           {
             "text": "a heart valve",
             "meaningZh": "心臟瓣膜"
           }
+        ],
+        "examples": [
+          {
+            "en": "The plumber replaced the faulty valve in the water pipe.",
+            "zh": "水管工更換了水管中故障的閥門。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -445,9 +599,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_vandalism",
@@ -461,21 +613,47 @@
       {
         "id": "s_vandalism_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "deliberate destruction of or damage to public or private property",
         "definitionZh": "蓄意破壞（財物）",
         "usageExplanationZh": "常見 an act of vandalism，強調惡意毀損他人財物的行為，語氣負面。",
-        "examples": [
-          {
-            "en": "The playground was closed after an act of vandalism.",
-            "zh": "這座遊樂場在遭到蓄意破壞後便關閉了。"
-          }
+        "grammarPatterns": [
+          "an act of vandalism",
+          "damage caused by vandalism"
         ],
         "collocations": [
           {
             "text": "an act of vandalism",
             "meaningZh": "蓄意破壞行為"
           }
+        ],
+        "examples": [
+          {
+            "en": "The playground was closed after an act of vandalism.",
+            "zh": "這座遊樂場在遭到蓄意破壞後便關閉了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "defacement",
+        "noteZh": "蓄意毀損外觀的行為"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "vandal",
+        "partOfSpeech": "noun",
+        "meaningZh": "蓄意破壞財物者"
+      },
+      {
+        "lemma": "vandalize",
+        "partOfSpeech": "verb",
+        "meaningZh": "蓄意破壞"
       }
     ],
     "tags": [
@@ -488,14 +666,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "defacement",
-        "noteZh": "蓄意毀損外觀的行為"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_vanilla",
@@ -509,23 +680,32 @@
       {
         "id": "s_vanilla_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a flavoring derived from the pods of a tropical orchid, or something plain and ordinary",
         "definitionZh": "香草；（比喻）平淡無奇之物",
         "usageExplanationZh": "字面義指香草口味；口語比喻用法指普通、無特色的事物，如 a vanilla plan。",
-        "examples": [
-          {
-            "en": "She ordered a scoop of vanilla ice cream.",
-            "zh": "她點了一球香草冰淇淋。"
-          }
+        "grammarPatterns": [
+          "vanilla + noun",
+          "a hint of vanilla"
         ],
         "collocations": [
           {
             "text": "vanilla extract",
             "meaningZh": "香草精"
           }
+        ],
+        "examples": [
+          {
+            "en": "She ordered a scoop of vanilla ice cream.",
+            "zh": "她點了一球香草冰淇淋。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -536,9 +716,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_vanish",
@@ -552,21 +730,41 @@
       {
         "id": "s_vanish_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "to disappear suddenly and completely",
         "definitionZh": "消失；突然不見",
         "usageExplanationZh": "常見 vanish into thin air（憑空消失），語氣帶有戲劇性或神秘感。",
-        "examples": [
-          {
-            "en": "The magician made the coin vanish before our eyes.",
-            "zh": "魔術師讓那枚硬幣在我們眼前消失了。"
-          }
+        "grammarPatterns": [
+          "vanish into + noun",
+          "vanish without a trace"
         ],
         "collocations": [
           {
             "text": "vanish into thin air",
             "meaningZh": "消失得無影無蹤"
           }
+        ],
+        "examples": [
+          {
+            "en": "The magician made the coin vanish before our eyes.",
+            "zh": "魔術師讓那枚硬幣在我們眼前消失了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "disappear",
+        "noteZh": "消失"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "appear",
+        "noteZh": "出現"
       }
     ],
     "tags": [
@@ -580,19 +778,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "disappear",
-        "noteZh": "消失"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "appear",
-        "noteZh": "出現"
-      }
-    ]
+    }
   },
   {
     "id": "w_vanity",
@@ -606,21 +792,53 @@
       {
         "id": "s_vanity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "excessive pride in one's own appearance or achievements",
         "definitionZh": "虛榮心；自負",
         "usageExplanationZh": "常見 out of vanity（出於虛榮心），語氣帶輕微負面評價。",
-        "examples": [
-          {
-            "en": "He refused to wear glasses out of sheer vanity.",
-            "zh": "他純粹出於虛榮心而拒絕戴眼鏡。"
-          }
+        "grammarPatterns": [
+          "out of vanity",
+          "sheer vanity"
         ],
         "collocations": [
           {
             "text": "appeal to someone's vanity",
             "meaningZh": "迎合某人的虛榮心"
           }
+        ],
+        "examples": [
+          {
+            "en": "He refused to wear glasses out of sheer vanity.",
+            "zh": "他純粹出於虛榮心而拒絕戴眼鏡。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "conceit",
+        "noteZh": "自負自滿"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "modesty",
+        "noteZh": "謙遜"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "vain",
+        "partOfSpeech": "adjective",
+        "meaningZh": "自負的；徒勞的"
+      },
+      {
+        "lemma": "vainly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "徒然地"
       }
     ],
     "tags": [
@@ -635,19 +853,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "conceit",
-        "noteZh": "自負自滿"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "modesty",
-        "noteZh": "謙遜"
-      }
-    ]
+    }
   },
   {
     "id": "w_variable",
@@ -661,54 +867,58 @@
       {
         "id": "s_variable_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "an element or factor that is liable to vary or change",
         "definitionZh": "變數；可變因素",
         "usageExplanationZh": "常見於科學、數學或統計語境，指可能改變的量或條件。",
-        "examples": [
-          {
-            "en": "Weather is a major variable that could affect the outcome.",
-            "zh": "天氣是可能影響結果的一項主要變數。"
-          }
+        "grammarPatterns": [
+          "a key variable",
+          "a variable that affects + noun"
         ],
         "collocations": [
           {
             "text": "an independent variable",
             "meaningZh": "自變數"
           }
+        ],
+        "examples": [
+          {
+            "en": "Weather is a major variable that could affect the outcome.",
+            "zh": "天氣是可能影響結果的一項主要變數。"
+          }
         ]
       },
       {
         "id": "s_variable_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "not consistent or having a fixed pattern; likely to change",
         "definitionZh": "多變的；可變的",
         "usageExplanationZh": "常修飾 weather、rate、quality，強調不穩定、容易改變的特性。",
-        "examples": [
-          {
-            "en": "The interest rate on this loan is variable, not fixed.",
-            "zh": "這筆貸款的利率是浮動的，並非固定利率。"
-          }
+        "grammarPatterns": [
+          "a variable + noun",
+          "variable rather than fixed"
         ],
         "collocations": [
           {
             "text": "variable weather",
             "meaningZh": "多變的天氣"
           }
+        ],
+        "examples": [
+          {
+            "en": "The interest rate on this loan is variable, not fixed.",
+            "zh": "這筆貸款的利率是浮動的，並非固定利率。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "factor",
@@ -724,7 +934,36 @@
         "lemma": "constant",
         "noteZh": "恆定的或固定量"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "vary",
+        "partOfSpeech": "verb",
+        "meaningZh": "變化；不同"
+      },
+      {
+        "lemma": "variability",
+        "partOfSpeech": "noun",
+        "meaningZh": "可變性；變異度"
+      },
+      {
+        "lemma": "variation",
+        "partOfSpeech": "noun",
+        "meaningZh": "變化；差異"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_variance",
@@ -738,35 +977,31 @@
       {
         "id": "s_variance_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the fact or quality of being different, divergent, or inconsistent",
         "definitionZh": "差異；不一致",
         "usageExplanationZh": "常見 at variance with（與……不一致），語氣正式書面。",
-        "examples": [
-          {
-            "en": "Her account of events was at variance with the witness's testimony.",
-            "zh": "她對事件的描述與這名證人的證詞不一致。"
-          }
+        "grammarPatterns": [
+          "be at variance with + noun",
+          "the variance between A and B"
         ],
         "collocations": [
           {
             "text": "at variance with",
             "meaningZh": "與某事不一致"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her account of events was at variance with the witness's testimony.",
+            "zh": "她對事件的描述與這名證人的證詞不一致。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "difference",
@@ -782,7 +1017,36 @@
         "lemma": "agreement",
         "noteZh": "一致"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "vary",
+        "partOfSpeech": "verb",
+        "meaningZh": "不同；變化"
+      },
+      {
+        "lemma": "variant",
+        "partOfSpeech": "adjective",
+        "meaningZh": "變異的；不同版本的"
+      },
+      {
+        "lemma": "variable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可變的；多變的"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_variant",
@@ -796,21 +1060,53 @@
       {
         "id": "s_variant_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "differing from a standard or type, but similar in most respects",
         "definitionZh": "不同版本的；變異的",
         "usageExplanationZh": "常修飾 spelling、form、virus strain，強調與標準略有差異的版本。",
-        "examples": [
-          {
-            "en": "\"Colour\" is a variant spelling of \"color.\"",
-            "zh": "\"colour\" 是 \"color\" 的一種變體拼法。"
-          }
+        "grammarPatterns": [
+          "a variant + noun",
+          "a variant form of + noun"
         ],
         "collocations": [
           {
             "text": "a variant spelling",
             "meaningZh": "異體拼法"
           }
+        ],
+        "examples": [
+          {
+            "en": "\"Colour\" is a variant spelling of \"color.\"",
+            "zh": "\"colour\" 是 \"color\" 的一種變體拼法。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "alternative",
+        "noteZh": "不同版本的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "vary",
+        "partOfSpeech": "verb",
+        "meaningZh": "變化；有所不同"
+      },
+      {
+        "lemma": "variation",
+        "partOfSpeech": "noun",
+        "meaningZh": "變體；變化"
+      },
+      {
+        "lemma": "variance",
+        "partOfSpeech": "noun",
+        "meaningZh": "差異；不一致"
       }
     ],
     "tags": [
@@ -824,14 +1120,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "alternative",
-        "noteZh": "不同版本的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_variation",
@@ -845,21 +1134,57 @@
       {
         "id": "s_variation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "a change or difference in condition, amount, or level",
         "definitionZh": "變化；差異",
         "usageExplanationZh": "常見 variation in temperature/price，指某事物在程度或狀態上的改變或不同。",
-        "examples": [
-          {
-            "en": "There was significant variation in exam scores between classes.",
-            "zh": "各班之間的考試成績存在顯著差異。"
-          }
+        "grammarPatterns": [
+          "variation in + noun",
+          "a variation of + noun"
         ],
         "collocations": [
           {
             "text": "seasonal variation",
             "meaningZh": "季節性變化"
           }
+        ],
+        "examples": [
+          {
+            "en": "There was significant variation in exam scores between classes.",
+            "zh": "各班之間的考試成績存在顯著差異。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "difference",
+        "noteZh": "不同之處"
+      },
+      {
+        "lemma": "change",
+        "noteZh": "變化"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "vary",
+        "partOfSpeech": "verb",
+        "meaningZh": "變化；不同"
+      },
+      {
+        "lemma": "variable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可變的"
+      },
+      {
+        "lemma": "variant",
+        "partOfSpeech": "noun",
+        "meaningZh": "變體；異體"
       }
     ],
     "tags": [
@@ -873,18 +1198,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "difference",
-        "noteZh": "不同之處"
-      },
-      {
-        "lemma": "change",
-        "noteZh": "變化"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_varnish",
@@ -898,42 +1212,65 @@
       {
         "id": "s_varnish_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a liquid that dries to form a hard, clear, shiny surface on wood",
         "definitionZh": "亮光漆；清漆",
         "usageExplanationZh": "常見於木工或美術用語，用於保護並增加木材表面的光澤。",
-        "examples": [
-          {
-            "en": "He applied a coat of varnish to protect the wooden table.",
-            "zh": "他塗了一層亮光漆來保護這張木桌。"
-          }
+        "grammarPatterns": [
+          "a coat of varnish",
+          "apply varnish to + noun"
         ],
         "collocations": [
           {
             "text": "a coat of varnish",
             "meaningZh": "一層清漆"
           }
+        ],
+        "examples": [
+          {
+            "en": "He applied a coat of varnish to protect the wooden table.",
+            "zh": "他塗了一層亮光漆來保護這張木桌。"
+          }
         ]
       },
       {
         "id": "s_varnish_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "to coat something with varnish",
         "definitionZh": "上漆；塗亮光漆",
         "usageExplanationZh": "直接接受詞，如 varnish the floor，指塗覆保護性亮光塗料的動作。",
-        "examples": [
-          {
-            "en": "She varnished the shelves before putting the books back.",
-            "zh": "她在把書放回去之前先為架子上了亮光漆。"
-          }
+        "grammarPatterns": [
+          "varnish + noun",
+          "varnish sth with + noun"
         ],
         "collocations": [
           {
             "text": "varnish the wood",
             "meaningZh": "為木材上清漆"
           }
+        ],
+        "examples": [
+          {
+            "en": "She varnished the shelves before putting the books back.",
+            "zh": "她在把書放回去之前先為架子上了亮光漆。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "lacquer",
+        "noteZh": "塗在表面形成亮膜的漆；成分可不同"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -945,14 +1282,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "lacquer",
-        "noteZh": "塗在表面形成亮膜的漆；成分可不同"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_vary",
@@ -966,21 +1296,58 @@
       {
         "id": "s_vary_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "academic",
+          "neutral"
+        ],
         "definitionEn": "to differ or become different in size, amount, degree, or nature",
         "definitionZh": "不同；變化",
         "usageExplanationZh": "常接 vary from A to B 或 vary depending on，強調事物之間或隨條件而有的差異。",
-        "examples": [
-          {
-            "en": "Prices vary depending on the season and demand.",
-            "zh": "價格會依季節與需求而有所不同。"
-          }
+        "grammarPatterns": [
+          "vary from A to B",
+          "vary depending on + noun",
+          "vary in + noun"
         ],
         "collocations": [
           {
             "text": "vary from person to person",
             "meaningZh": "因人而異"
           }
+        ],
+        "examples": [
+          {
+            "en": "Prices vary depending on the season and demand.",
+            "zh": "價格會依季節與需求而有所不同。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "differ",
+        "noteZh": "有所不同"
+      },
+      {
+        "lemma": "fluctuate",
+        "noteZh": "上下變動"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "variation",
+        "partOfSpeech": "noun",
+        "meaningZh": "變化；差異"
+      },
+      {
+        "lemma": "variable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可變的；多變的"
+      },
+      {
+        "lemma": "various",
+        "partOfSpeech": "adjective",
+        "meaningZh": "各式各樣的"
       }
     ],
     "tags": [
@@ -994,18 +1361,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "differ",
-        "noteZh": "有所不同"
-      },
-      {
-        "lemma": "fluctuate",
-        "noteZh": "上下變動"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_vascular",
@@ -1019,21 +1375,43 @@
       {
         "id": "s_vascular_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "relating to blood vessels or veins in the body or in plants",
         "definitionZh": "血管的；脈管的",
         "usageExplanationZh": "醫學或生物用語，常見 vascular disease/system，指與血管系統相關的事物。",
-        "examples": [
-          {
-            "en": "He was diagnosed with a vascular disease affecting his legs.",
-            "zh": "他被診斷出患有影響雙腿的血管疾病。"
-          }
+        "grammarPatterns": [
+          "vascular + noun",
+          "the vascular system"
         ],
         "collocations": [
           {
             "text": "vascular disease",
             "meaningZh": "血管疾病"
           }
+        ],
+        "examples": [
+          {
+            "en": "He was diagnosed with a vascular disease affecting his legs.",
+            "zh": "他被診斷出患有影響雙腿的血管疾病。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "blood-vessel-related",
+        "noteZh": "與血管有關的解釋性說法"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "cardiovascular",
+        "partOfSpeech": "adjective",
+        "meaningZh": "心血管的"
       }
     ],
     "tags": [
@@ -1046,14 +1424,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "blood-vessel-related",
-        "noteZh": "與血管有關的解釋性說法"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_vast",
@@ -1067,21 +1438,52 @@
       {
         "id": "s_vast_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "extremely large in area, size, amount, or extent",
         "definitionZh": "廣大的；巨大的",
         "usageExplanationZh": "常修飾 area、amount、majority，強調規模或數量極為龐大，語氣書面。",
-        "examples": [
-          {
-            "en": "The vast majority of students passed the exam.",
-            "zh": "絕大多數學生都通過了這場考試。"
-          }
+        "grammarPatterns": [
+          "a vast + noun",
+          "the vast majority of + noun"
         ],
         "collocations": [
           {
             "text": "the vast majority",
             "meaningZh": "絕大多數"
           }
+        ],
+        "examples": [
+          {
+            "en": "The vast majority of students passed the exam.",
+            "zh": "絕大多數學生都通過了這場考試。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "immense",
+        "noteZh": "極其廣大的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "tiny",
+        "noteZh": "極小的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "vastly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "極大地；大大地"
+      },
+      {
+        "lemma": "vastness",
+        "partOfSpeech": "noun",
+        "meaningZh": "廣闊；浩瀚"
       }
     ],
     "tags": [
@@ -1094,19 +1496,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "immense",
-        "noteZh": "極其廣大的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "tiny",
-        "noteZh": "極小的"
-      }
-    ]
+    }
   },
   {
     "id": "w_veer",
@@ -1120,23 +1510,38 @@
       {
         "id": "s_veer_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "to change direction suddenly",
         "definitionZh": "突然轉向；偏離",
         "usageExplanationZh": "常見 veer off course/to the left，也可比喻指話題或計畫突然改變方向。",
-        "examples": [
-          {
-            "en": "The car veered off the road to avoid the deer.",
-            "zh": "那輛車為了閃避那隻鹿而突然偏離道路。"
-          }
+        "grammarPatterns": [
+          "veer off + noun",
+          "veer toward + noun"
         ],
         "collocations": [
           {
             "text": "veer off course",
             "meaningZh": "偏離路線"
           }
+        ],
+        "examples": [
+          {
+            "en": "The car veered off the road to avoid the deer.",
+            "zh": "那輛車為了閃避那隻鹿而突然偏離道路。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "swerve",
+        "noteZh": "突然改變方向"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1148,14 +1553,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "swerve",
-        "noteZh": "突然改變方向"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_vegetation",
@@ -1169,21 +1567,53 @@
       {
         "id": "s_vegetation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "plants collectively, especially those found in a particular area",
         "definitionZh": "植被；草木",
         "usageExplanationZh": "集合名詞，泛指某地區的植物整體，常見於地理或生態描述。",
-        "examples": [
-          {
-            "en": "Thick vegetation covered the hillside after years of neglect.",
-            "zh": "多年疏於整理後，濃密的植被覆蓋了這座山坡。"
-          }
+        "grammarPatterns": [
+          "dense vegetation",
+          "vegetation cover"
         ],
         "collocations": [
           {
             "text": "dense vegetation",
             "meaningZh": "茂密植被"
           }
+        ],
+        "examples": [
+          {
+            "en": "Thick vegetation covered the hillside after years of neglect.",
+            "zh": "多年疏於整理後，濃密的植被覆蓋了這座山坡。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "plant life",
+        "noteZh": "某地區的植物總稱"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "vegetate",
+        "partOfSpeech": "verb",
+        "meaningZh": "生長；過單調的生活"
+      },
+      {
+        "lemma": "vegetable",
+        "partOfSpeech": "noun",
+        "meaningZh": "蔬菜"
+      },
+      {
+        "lemma": "vegetative",
+        "partOfSpeech": "adjective",
+        "meaningZh": "植物的；植物性的"
       }
     ],
     "tags": [
@@ -1197,14 +1627,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "plant life",
-        "noteZh": "某地區的植物總稱"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_vein",
@@ -1218,21 +1641,48 @@
       {
         "id": "s_vein_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "literary"
+        ],
         "definitionEn": "one of the tubes that carry blood to the heart, or a distinctive style or quality",
         "definitionZh": "靜脈；（比喻）風格；一絲",
         "usageExplanationZh": "字面義指血管；比喻用法如 in a similar vein（以類似的風格），也可指 a vein of humor（一絲幽默）。",
-        "examples": [
-          {
-            "en": "The nurse found it difficult to locate a vein for the injection.",
-            "zh": "護理師發現很難找到血管以進行注射。"
-          }
+        "grammarPatterns": [
+          "a vein in + noun",
+          "in a similar vein"
         ],
         "collocations": [
           {
             "text": "in a similar vein",
             "meaningZh": "以類似的風格"
           }
+        ],
+        "examples": [
+          {
+            "en": "The nurse found it difficult to locate a vein for the injection.",
+            "zh": "護理師發現很難找到血管以進行注射。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "streak",
+        "noteZh": "一絲特質，限比喻義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "venous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "靜脈的"
+      },
+      {
+        "lemma": "intravenous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "靜脈注射的"
       }
     ],
     "tags": [
@@ -1246,14 +1696,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "streak",
-        "noteZh": "一絲特質，限比喻義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_velocity",
@@ -1267,23 +1710,38 @@
       {
         "id": "s_velocity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "the speed of something in a given direction",
         "definitionZh": "速度；速率",
         "usageExplanationZh": "物理學用語，強調含方向性的速度，常見 high velocity（高速）。",
-        "examples": [
-          {
-            "en": "The bullet traveled at an extremely high velocity.",
-            "zh": "這顆子彈以極高的速度飛行。"
-          }
+        "grammarPatterns": [
+          "at high velocity",
+          "the velocity of + noun"
         ],
         "collocations": [
           {
             "text": "terminal velocity",
             "meaningZh": "終端速度"
           }
+        ],
+        "examples": [
+          {
+            "en": "The bullet traveled at an extremely high velocity.",
+            "zh": "這顆子彈以極高的速度飛行。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "speed",
+        "noteZh": "移動快慢；物理學上不包含方向"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1296,14 +1754,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "speed",
-        "noteZh": "移動快慢；物理學上不包含方向"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_velvet",
@@ -1317,21 +1768,38 @@
       {
         "id": "s_velvet_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "a fabric with a thick, soft pile on one side",
         "definitionZh": "絲絨；天鵝絨",
         "usageExplanationZh": "常見於布料描述，如 a velvet dress，質感柔軟厚實。",
-        "examples": [
-          {
-            "en": "The curtains were made of deep red velvet.",
-            "zh": "這些窗簾是用深紅色的絲絨製成的。"
-          }
+        "grammarPatterns": [
+          "be made of velvet",
+          "a velvet + noun"
         ],
         "collocations": [
           {
             "text": "soft velvet",
             "meaningZh": "柔軟的天鵝絨"
           }
+        ],
+        "examples": [
+          {
+            "en": "The curtains were made of deep red velvet.",
+            "zh": "這些窗簾是用深紅色的絲絨製成的。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "velvety",
+        "partOfSpeech": "adjective",
+        "meaningZh": "如天鵝絨般柔滑的"
       }
     ],
     "tags": [
@@ -1344,9 +1812,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_vendor",
@@ -1360,34 +1826,31 @@
       {
         "id": "s_vendor_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "neutral"
+        ],
         "definitionEn": "a person or company that sells goods or services",
         "definitionZh": "小販；供應商",
         "usageExplanationZh": "常見 a street vendor（街頭小販）、a software vendor（軟體供應商），依語境指販售者。",
-        "examples": [
-          {
-            "en": "Street vendors sold fresh fruit along the market road.",
-            "zh": "街頭小販沿著市場道路販售新鮮水果。"
-          }
+        "grammarPatterns": [
+          "a street vendor",
+          "a vendor of + noun"
         ],
         "collocations": [
           {
             "text": "a street vendor",
             "meaningZh": "街頭小販"
           }
+        ],
+        "examples": [
+          {
+            "en": "Street vendors sold fresh fruit along the market road.",
+            "zh": "街頭小販沿著市場道路販售新鮮水果。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "seller",
@@ -1403,7 +1866,25 @@
         "lemma": "buyer",
         "noteZh": "買方"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "vend",
+        "partOfSpeech": "verb",
+        "meaningZh": "販賣；出售"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_veneer",
@@ -1417,53 +1898,58 @@
       {
         "id": "s_veneer_noun_material",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a thin decorative layer of fine wood covering a coarser one",
         "definitionZh": "（木材）貼皮；薄板",
         "usageExplanationZh": "家具工藝用語，指覆蓋在較粗糙材質表面的薄層裝飾木材。",
-        "examples": [
-          {
-            "en": "The table's oak veneer gave it an expensive look.",
-            "zh": "這張桌子的橡木貼皮讓它看起來很高級。"
-          }
+        "grammarPatterns": [
+          "an oak veneer",
+          "a veneer of + noun"
         ],
         "collocations": [
           {
             "text": "wood veneer",
             "meaningZh": "木材貼皮"
           }
+        ],
+        "examples": [
+          {
+            "en": "The table's oak veneer gave it an expensive look.",
+            "zh": "這張桌子的橡木貼皮讓它看起來很高級。"
+          }
         ]
       },
       {
         "id": "s_veneer_noun_figurative",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "a superficial or false appearance of a good quality",
         "definitionZh": "（比喻）表面的假象；外表",
         "usageExplanationZh": "比喻用法，指掩蓋真實本質的表面裝飾，如 a veneer of civility。",
-        "examples": [
-          {
-            "en": "Beneath his veneer of politeness lay real hostility.",
-            "zh": "在他表面的禮貌之下，其實藏著真正的敵意。"
-          }
+        "grammarPatterns": [
+          "a veneer of + noun",
+          "beneath sb's veneer of + noun"
         ],
         "collocations": [
           {
             "text": "a veneer of respectability",
             "meaningZh": "體面的假象"
           }
+        ],
+        "examples": [
+          {
+            "en": "Beneath his veneer of politeness lay real hostility.",
+            "zh": "在他表面的禮貌之下，其實藏著真正的敵意。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "facing",
@@ -1474,7 +1960,18 @@
         "noteZh": "掩飾真實情況的外表"
       }
     ],
-    "antonyms": []
+    "antonyms": [],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_venerable",
@@ -1488,21 +1985,48 @@
       {
         "id": "s_venerable_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "accorded great respect, especially because of age, wisdom, or character",
         "definitionZh": "受人尊敬的；德高望重的",
         "usageExplanationZh": "常修飾年長或資深人士，如 a venerable scholar，語氣正式且帶敬意。",
-        "examples": [
-          {
-            "en": "The venerable professor had taught at the university for fifty years.",
-            "zh": "這位德高望重的教授已在這所大學任教五十年。"
-          }
+        "grammarPatterns": [
+          "a venerable + noun",
+          "the venerable + noun"
         ],
         "collocations": [
           {
             "text": "a venerable institution",
             "meaningZh": "歷史悠久而備受尊敬的機構"
           }
+        ],
+        "examples": [
+          {
+            "en": "The venerable professor had taught at the university for fifty years.",
+            "zh": "這位德高望重的教授已在這所大學任教五十年。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "respected",
+        "noteZh": "受人尊敬的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "venerate",
+        "partOfSpeech": "verb",
+        "meaningZh": "崇敬；敬仰"
+      },
+      {
+        "lemma": "veneration",
+        "partOfSpeech": "noun",
+        "meaningZh": "崇敬；敬仰"
       }
     ],
     "tags": [
@@ -1515,14 +2039,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "respected",
-        "noteZh": "受人尊敬的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_venerate",
@@ -1536,21 +2053,53 @@
       {
         "id": "s_venerate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to regard with great respect or reverence",
         "definitionZh": "崇敬；敬仰",
         "usageExplanationZh": "常接 venerate someone/something as，語氣正式書面，強調深切的敬意。",
-        "examples": [
-          {
-            "en": "The ancient philosopher is still venerated by scholars today.",
-            "zh": "這位古代哲學家至今仍受到學者的崇敬。"
-          }
+        "grammarPatterns": [
+          "venerate sb",
+          "be venerated as + noun"
         ],
         "collocations": [
           {
             "text": "venerate the ancestors",
             "meaningZh": "崇敬祖先"
           }
+        ],
+        "examples": [
+          {
+            "en": "The ancient philosopher is still venerated by scholars today.",
+            "zh": "這位古代哲學家至今仍受到學者的崇敬。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "revere",
+        "noteZh": "深深敬仰"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "despise",
+        "noteZh": "鄙視"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "veneration",
+        "partOfSpeech": "noun",
+        "meaningZh": "崇敬"
+      },
+      {
+        "lemma": "venerable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "德高望重的"
       }
     ],
     "tags": [
@@ -1565,19 +2114,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "revere",
-        "noteZh": "深深敬仰"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "despise",
-        "noteZh": "鄙視"
-      }
-    ]
+    }
   },
   {
     "id": "w_vengeance",
@@ -1591,21 +2128,58 @@
       {
         "id": "s_vengeance_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "punishment inflicted in retaliation for an injury or wrong",
         "definitionZh": "復仇；報復",
         "usageExplanationZh": "常見 seek/take vengeance，語氣強烈，強調因受害而採取的報復行為。",
-        "examples": [
-          {
-            "en": "He swore vengeance against those who had betrayed him.",
-            "zh": "他發誓要向那些背叛他的人復仇。"
-          }
+        "grammarPatterns": [
+          "swear vengeance against sb",
+          "take vengeance on sb"
         ],
         "collocations": [
           {
             "text": "take vengeance on",
             "meaningZh": "向某人報復"
           }
+        ],
+        "examples": [
+          {
+            "en": "He swore vengeance against those who had betrayed him.",
+            "zh": "他發誓要向那些背叛他的人復仇。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "revenge",
+        "noteZh": "對傷害的報復"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "forgiveness",
+        "noteZh": "寬恕"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "avenge",
+        "partOfSpeech": "verb",
+        "meaningZh": "替…報仇"
+      },
+      {
+        "lemma": "vengeful",
+        "partOfSpeech": "adjective",
+        "meaningZh": "報復心強的"
+      },
+      {
+        "lemma": "revenge",
+        "partOfSpeech": "noun",
+        "meaningZh": "報復；復仇"
       }
     ],
     "tags": [
@@ -1619,19 +2193,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "revenge",
-        "noteZh": "對傷害的報復"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "forgiveness",
-        "noteZh": "寬恕"
-      }
-    ]
+    }
   },
   {
     "id": "w_ventral",
@@ -1645,21 +2207,41 @@
       {
         "id": "s_ventral_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "relating to or situated on the underside of an animal or plant",
         "definitionZh": "腹部的；腹側的",
         "usageExplanationZh": "生物學用語，與 dorsal（背部的）相對，常用於描述動物身體構造。",
-        "examples": [
-          {
-            "en": "The fish has distinctive markings on its ventral surface.",
-            "zh": "這隻魚的腹側表面有明顯的斑紋。"
-          }
+        "grammarPatterns": [
+          "the ventral surface",
+          "ventral + noun"
         ],
         "collocations": [
           {
             "text": "the ventral surface",
             "meaningZh": "腹側表面"
           }
+        ],
+        "examples": [
+          {
+            "en": "The fish has distinctive markings on its ventral surface.",
+            "zh": "這隻魚的腹側表面有明顯的斑紋。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "abdominal",
+        "noteZh": "與腹部有關的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "dorsal",
+        "noteZh": "背側的"
       }
     ],
     "tags": [
@@ -1672,19 +2254,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "abdominal",
-        "noteZh": "與腹部有關的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "dorsal",
-        "noteZh": "背側的"
-      }
-    ]
+    }
   },
   {
     "id": "w_venture",
@@ -1698,40 +2268,79 @@
       {
         "id": "s_venture_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "a risky or daring undertaking, especially in business",
         "definitionZh": "冒險；創業（事業）",
         "usageExplanationZh": "常見 a business venture（創業計畫），強調帶有風險的新事業或行動。",
-        "examples": [
-          {
-            "en": "Their new business venture required significant startup capital.",
-            "zh": "他們的新創業計畫需要大量的創業資金。"
-          }
+        "grammarPatterns": [
+          "a business venture",
+          "a joint venture with + noun"
         ],
         "collocations": [
           {
             "text": "a joint venture",
             "meaningZh": "合資事業"
           }
+        ],
+        "examples": [
+          {
+            "en": "Their new business venture required significant startup capital.",
+            "zh": "他們的新創業計畫需要大量的創業資金。"
+          }
         ]
       },
       {
         "id": "s_venture_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to undertake something risky, or to dare to go somewhere",
         "definitionZh": "冒險（去做）；敢於前往",
         "usageExplanationZh": "常接 venture into/out，強調不顧風險嘗試或前往某處。",
-        "examples": [
-          {
-            "en": "Few explorers dared to venture into the uncharted jungle.",
-            "zh": "很少有探險家敢冒險進入這片未經探勘的叢林。"
-          }
+        "grammarPatterns": [
+          "venture into + noun",
+          "venture to + verb"
         ],
         "collocations": [
           {
             "text": "venture into",
             "meaningZh": "冒險進入"
           }
+        ],
+        "examples": [
+          {
+            "en": "Few explorers dared to venture into the uncharted jungle.",
+            "zh": "很少有探險家敢冒險進入這片未經探勘的叢林。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "enterprise",
+        "noteZh": "帶有風險的事業"
+      },
+      {
+        "lemma": "dare",
+        "noteZh": "敢於嘗試"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "venturesome",
+        "partOfSpeech": "adjective",
+        "meaningZh": "大膽的；愛冒險的"
+      },
+      {
+        "lemma": "adventure",
+        "partOfSpeech": "noun",
+        "meaningZh": "冒險；奇遇"
       }
     ],
     "tags": [
@@ -1745,18 +2354,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "enterprise",
-        "noteZh": "帶有風險的事業"
-      },
-      {
-        "lemma": "dare",
-        "noteZh": "敢於嘗試"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_venue",
@@ -1770,23 +2368,38 @@
       {
         "id": "s_venue_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "neutral"
+        ],
         "definitionEn": "the place where an event or meeting takes place",
         "definitionZh": "場地；地點",
         "usageExplanationZh": "常見於活動、比賽、婚禮等安排，如 a wedding venue（婚禮場地）。",
-        "examples": [
-          {
-            "en": "They booked a venue for the conference months in advance.",
-            "zh": "他們提前好幾個月就預訂了這場會議的場地。"
-          }
+        "grammarPatterns": [
+          "a venue for + noun",
+          "book a venue"
         ],
         "collocations": [
           {
             "text": "a concert venue",
             "meaningZh": "演唱會場地"
           }
+        ],
+        "examples": [
+          {
+            "en": "They booked a venue for the conference months in advance.",
+            "zh": "他們提前好幾個月就預訂了這場會議的場地。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "location",
+        "noteZh": "活動所在的地點"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -1797,14 +2410,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "location",
-        "noteZh": "活動所在的地點"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_verbal",
@@ -1818,21 +2424,58 @@
       {
         "id": "s_verbal_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "relating to or in the form of words, especially spoken rather than written",
         "definitionZh": "言語的；口頭的",
         "usageExplanationZh": "常見 verbal agreement（口頭協議）、verbal skills（言語表達能力），與 written 相對。",
-        "examples": [
-          {
-            "en": "They reached a verbal agreement before signing the contract.",
-            "zh": "他們在簽約前先達成了口頭協議。"
-          }
+        "grammarPatterns": [
+          "a verbal + noun",
+          "verbal rather than written"
         ],
         "collocations": [
           {
             "text": "verbal communication",
             "meaningZh": "言語溝通"
           }
+        ],
+        "examples": [
+          {
+            "en": "They reached a verbal agreement before signing the contract.",
+            "zh": "他們在簽約前先達成了口頭協議。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "oral",
+        "noteZh": "口頭表達的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "nonverbal",
+        "noteZh": "非言語的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "verbally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "口頭上；以言語"
+      },
+      {
+        "lemma": "verb",
+        "partOfSpeech": "noun",
+        "meaningZh": "動詞"
+      },
+      {
+        "lemma": "verbose",
+        "partOfSpeech": "adjective",
+        "meaningZh": "冗長囉嗦的"
       }
     ],
     "tags": [
@@ -1847,19 +2490,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "oral",
-        "noteZh": "口頭表達的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "nonverbal",
-        "noteZh": "非言語的"
-      }
-    ]
+    }
   },
   {
     "id": "w_verdict",
@@ -1873,23 +2504,39 @@
       {
         "id": "s_verdict_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "a decision on a disputed issue in a court case, or an opinion or judgment",
         "definitionZh": "裁決；判決；定論",
         "usageExplanationZh": "法律用語常見 reach a verdict（做出裁決），也可泛指對某事的整體評價。",
-        "examples": [
-          {
-            "en": "The jury reached a guilty verdict after three days of deliberation.",
-            "zh": "陪審團經過三天的商議後做出了有罪的裁決。"
-          }
+        "grammarPatterns": [
+          "reach a verdict",
+          "a guilty verdict",
+          "the verdict on + noun"
         ],
         "collocations": [
           {
             "text": "reach a verdict",
             "meaningZh": "作出裁決"
           }
+        ],
+        "examples": [
+          {
+            "en": "The jury reached a guilty verdict after three days of deliberation.",
+            "zh": "陪審團經過三天的商議後做出了有罪的裁決。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "judgment",
+        "noteZh": "裁決或定論"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1902,14 +2549,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "judgment",
-        "noteZh": "裁決或定論"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_verge",
@@ -1923,42 +2563,67 @@
       {
         "id": "s_verge_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "the edge or brink of something, especially a point beyond which something will happen",
         "definitionZh": "邊緣；瀕臨",
         "usageExplanationZh": "常見 on the verge of（瀕臨……的邊緣），後接 tears、collapse 等，強調即將發生的狀態。",
-        "examples": [
-          {
-            "en": "The company was on the verge of bankruptcy last year.",
-            "zh": "這家公司去年一度瀕臨破產邊緣。"
-          }
+        "grammarPatterns": [
+          "on the verge of + noun",
+          "on the verge of + V-ing"
         ],
         "collocations": [
           {
             "text": "on the verge of",
             "meaningZh": "瀕臨或即將"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company was on the verge of bankruptcy last year.",
+            "zh": "這家公司去年一度瀕臨破產邊緣。"
+          }
         ]
       },
       {
         "id": "s_verge_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to be close to becoming or being something",
         "definitionZh": "接近；瀕於",
         "usageExplanationZh": "常接 verge on，如 verge on the absurd（近乎荒謬），語氣書面。",
-        "examples": [
-          {
-            "en": "His enthusiasm verged on obsession.",
-            "zh": "他的熱忱幾乎到了著迷的程度。"
-          }
+        "grammarPatterns": [
+          "verge on + noun"
         ],
         "collocations": [
           {
             "text": "verge on",
             "meaningZh": "接近某種程度"
           }
+        ],
+        "examples": [
+          {
+            "en": "His enthusiasm verged on obsession.",
+            "zh": "他的熱忱幾乎到了著迷的程度。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "brink",
+        "noteZh": "即將發生事情的邊緣"
+      },
+      {
+        "lemma": "border on",
+        "noteZh": "接近某種狀態"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -1970,18 +2635,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "brink",
-        "noteZh": "即將發生事情的邊緣"
-      },
-      {
-        "lemma": "border on",
-        "noteZh": "接近某種狀態"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_verify",
@@ -1995,21 +2649,52 @@
       {
         "id": "s_verify_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to make sure or demonstrate that something is true or accurate",
         "definitionZh": "核實；驗證",
         "usageExplanationZh": "常見 verify information/identity，強調確認事實或身分的正確性。",
-        "examples": [
-          {
-            "en": "Please verify your email address to complete registration.",
-            "zh": "請驗證您的電子郵件地址以完成註冊。"
-          }
+        "grammarPatterns": [
+          "verify + noun",
+          "verify that + clause"
         ],
         "collocations": [
           {
             "text": "verify someone's identity",
             "meaningZh": "核實某人的身分"
           }
+        ],
+        "examples": [
+          {
+            "en": "Please verify your email address to complete registration.",
+            "zh": "請驗證您的電子郵件地址以完成註冊。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "confirm",
+        "noteZh": "確認真實性"
+      },
+      {
+        "lemma": "check",
+        "noteZh": "核對"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "verification",
+        "partOfSpeech": "noun",
+        "meaningZh": "驗證；核實"
+      },
+      {
+        "lemma": "verifiable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可驗證的"
       }
     ],
     "tags": [
@@ -2023,18 +2708,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "confirm",
-        "noteZh": "確認真實性"
-      },
-      {
-        "lemma": "check",
-        "noteZh": "核對"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_veritable",
@@ -2048,21 +2722,47 @@
       {
         "id": "s_veritable_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "used to emphasize the aptness of a metaphor or description",
         "definitionZh": "名副其實的；真正的",
         "usageExplanationZh": "常置於名詞前加強語氣，如 a veritable feast（名副其實的盛宴），語氣帶修辭性。",
-        "examples": [
-          {
-            "en": "The buffet was a veritable feast of international cuisine.",
-            "zh": "這場自助餐堪稱是一場名副其實的國際美食盛宴。"
-          }
+        "grammarPatterns": [
+          "a veritable + noun"
         ],
         "collocations": [
           {
             "text": "a veritable treasure trove",
             "meaningZh": "名副其實的寶庫"
           }
+        ],
+        "examples": [
+          {
+            "en": "The buffet was a veritable feast of international cuisine.",
+            "zh": "這場自助餐堪稱是一場名副其實的國際美食盛宴。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "true",
+        "noteZh": "名副其實的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "verity",
+        "partOfSpeech": "noun",
+        "meaningZh": "真實；真理"
+      },
+      {
+        "lemma": "veritably",
+        "partOfSpeech": "adverb",
+        "meaningZh": "確實地；名副其實地"
       }
     ],
     "tags": [
@@ -2075,14 +2775,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "true",
-        "noteZh": "名副其實的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_versatile",
@@ -2096,21 +2789,47 @@
       {
         "id": "s_versatile_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "able to adapt or be adapted to many different functions or activities",
         "definitionZh": "多才多藝的；用途廣泛的",
         "usageExplanationZh": "常修飾 person、tool、material，強調適應多種用途或角色的能力。",
-        "examples": [
-          {
-            "en": "She is a versatile actress who can play both comedy and drama.",
-            "zh": "她是位多才多藝的女演員，喜劇和正劇都能勝任。"
-          }
+        "grammarPatterns": [
+          "a versatile + noun",
+          "be versatile enough to + verb"
         ],
         "collocations": [
           {
             "text": "a versatile performer",
             "meaningZh": "多才多藝的表演者"
           }
+        ],
+        "examples": [
+          {
+            "en": "She is a versatile actress who can play both comedy and drama.",
+            "zh": "她是位多才多藝的女演員，喜劇和正劇都能勝任。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "adaptable",
+        "noteZh": "能適應多種用途的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "inflexible",
+        "noteZh": "缺乏適應變化能力的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "versatility",
+        "partOfSpeech": "noun",
+        "meaningZh": "多才多藝；多功能性"
       }
     ],
     "tags": [
@@ -2125,19 +2844,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "adaptable",
-        "noteZh": "能適應多種用途的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "inflexible",
-        "noteZh": "缺乏適應變化能力的"
-      }
-    ]
+    }
   },
   {
     "id": "w_verse",
@@ -2151,40 +2858,78 @@
       {
         "id": "s_verse_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "academic"
+        ],
         "definitionEn": "writing arranged with a metrical rhythm, or a group of lines in a poem or song",
         "definitionZh": "詩；（詩歌或歌曲的）段落",
         "usageExplanationZh": "常見 free verse（自由詩），也可指歌曲或聖經中的一節、一段。",
-        "examples": [
-          {
-            "en": "He memorized every verse of his favorite poem.",
-            "zh": "他把自己最喜歡那首詩的每一段都背了下來。"
-          }
+        "grammarPatterns": [
+          "write in verse",
+          "a verse of + noun"
         ],
         "collocations": [
           {
             "text": "free verse",
             "meaningZh": "自由詩"
           }
+        ],
+        "examples": [
+          {
+            "en": "He memorized every verse of his favorite poem.",
+            "zh": "他把自己最喜歡那首詩的每一段都背了下來。"
+          }
         ]
       },
       {
         "id": "s_verse_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to make someone familiar with a subject through experience or study",
         "definitionZh": "使熟悉；使精通",
         "usageExplanationZh": "較少見，常見被動語態 be versed in（精通於……），語氣書面正式。",
-        "examples": [
-          {
-            "en": "She is well versed in international law.",
-            "zh": "她非常精通國際法。"
-          }
+        "grammarPatterns": [
+          "be well versed in + noun"
         ],
         "collocations": [
           {
             "text": "be well versed in",
             "meaningZh": "精通某個領域"
           }
+        ],
+        "examples": [
+          {
+            "en": "She is well versed in international law.",
+            "zh": "她非常精通國際法。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "poetry",
+        "noteZh": "詩作"
+      },
+      {
+        "lemma": "familiarize",
+        "noteZh": "使熟悉，對應動詞義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "versify",
+        "partOfSpeech": "verb",
+        "meaningZh": "作詩；以詩表達"
+      },
+      {
+        "lemma": "versification",
+        "partOfSpeech": "noun",
+        "meaningZh": "作詩法；韻文寫作"
       }
     ],
     "tags": [
@@ -2198,18 +2943,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "poetry",
-        "noteZh": "詩作"
-      },
-      {
-        "lemma": "familiarize",
-        "noteZh": "使熟悉，對應動詞義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_vertical",
@@ -2223,21 +2957,53 @@
       {
         "id": "s_vertical_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "at a right angle to a horizontal surface; upright",
         "definitionZh": "垂直的；豎直的",
         "usageExplanationZh": "與 horizontal（水平的）相對，常見 vertical line/axis，用於幾何、建築等描述。",
-        "examples": [
-          {
-            "en": "The climbers scaled a nearly vertical rock face.",
-            "zh": "這些攀岩者攀爬了一面近乎垂直的岩壁。"
-          }
+        "grammarPatterns": [
+          "a vertical + noun",
+          "almost vertical"
         ],
         "collocations": [
           {
             "text": "a vertical line",
             "meaningZh": "垂直線"
           }
+        ],
+        "examples": [
+          {
+            "en": "The climbers scaled a nearly vertical rock face.",
+            "zh": "這些攀岩者攀爬了一面近乎垂直的岩壁。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "upright",
+        "noteZh": "直立的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "horizontal",
+        "noteZh": "水平的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "vertically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "垂直地"
+      },
+      {
+        "lemma": "verticality",
+        "partOfSpeech": "noun",
+        "meaningZh": "垂直性"
       }
     ],
     "tags": [
@@ -2252,19 +3018,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "upright",
-        "noteZh": "直立的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "horizontal",
-        "noteZh": "水平的"
-      }
-    ]
+    }
   },
   {
     "id": "w_vessel",
@@ -2278,23 +3032,42 @@
       {
         "id": "s_vessel_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "a ship or large boat, or a container for liquid",
         "definitionZh": "船隻；容器",
         "usageExplanationZh": "常見 a fishing vessel（漁船），也可指盛裝液體的容器，如 a blood vessel（血管）。",
-        "examples": [
-          {
-            "en": "The cargo vessel docked at the port early in the morning.",
-            "zh": "這艘貨船在清晨時分靠了港。"
-          }
+        "grammarPatterns": [
+          "a cargo vessel",
+          "a vessel of + noun"
         ],
         "collocations": [
           {
             "text": "a cargo vessel",
             "meaningZh": "貨船"
           }
+        ],
+        "examples": [
+          {
+            "en": "The cargo vessel docked at the port early in the morning.",
+            "zh": "這艘貨船在清晨時分靠了港。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "ship",
+        "noteZh": "船隻"
+      },
+      {
+        "lemma": "container",
+        "noteZh": "容器"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2307,18 +3080,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "ship",
-        "noteZh": "船隻"
-      },
-      {
-        "lemma": "container",
-        "noteZh": "容器"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_veteran",
@@ -2332,21 +3094,40 @@
       {
         "id": "s_veteran_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a person who has had long experience in a particular field, especially former military service",
         "definitionZh": "老手；資深人士；退伍軍人",
         "usageExplanationZh": "常見 a war veteran（退伍軍人），也可泛指某領域經驗豐富的人，如 a veteran journalist。",
-        "examples": [
-          {
-            "en": "The war veteran shared his experiences with the students.",
-            "zh": "這位退伍軍人和學生們分享了他的經歷。"
-          }
+        "grammarPatterns": [
+          "a veteran of + noun",
+          "a war veteran"
         ],
         "collocations": [
           {
             "text": "a war veteran",
             "meaningZh": "退伍軍人"
           }
+        ],
+        "examples": [
+          {
+            "en": "The war veteran shared his experiences with the students.",
+            "zh": "這位退伍軍人和學生們分享了他的經歷。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "old hand",
+        "noteZh": "經驗豐富的老手"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "rookie",
+        "noteZh": "新手"
       }
     ],
     "tags": [
@@ -2361,19 +3142,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "old hand",
-        "noteZh": "經驗豐富的老手"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "rookie",
-        "noteZh": "新手"
-      }
-    ]
+    }
   },
   {
     "id": "w_viability",
@@ -2387,21 +3156,43 @@
       {
         "id": "s_viability_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "academic"
+        ],
         "definitionEn": "the ability to work successfully; feasibility",
         "definitionZh": "可行性；生存能力",
         "usageExplanationZh": "常見 assess the viability of a plan（評估計畫的可行性），語氣正式，多用於商業或科學語境。",
-        "examples": [
-          {
-            "en": "Investors questioned the long-term viability of the startup.",
-            "zh": "投資人質疑這家新創公司長期的可行性。"
-          }
+        "grammarPatterns": [
+          "the viability of + noun",
+          "long-term viability"
         ],
         "collocations": [
           {
             "text": "commercial viability",
             "meaningZh": "商業可行性"
           }
+        ],
+        "examples": [
+          {
+            "en": "Investors questioned the long-term viability of the startup.",
+            "zh": "投資人質疑這家新創公司長期的可行性。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "feasibility",
+        "noteZh": "實際可行的程度"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "viable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可行的；能存活的"
       }
     ],
     "tags": [
@@ -2415,14 +3206,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "feasibility",
-        "noteZh": "實際可行的程度"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_vibrate",
@@ -2436,21 +3220,48 @@
       {
         "id": "s_vibrate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "to move with small rapid movements back and forth",
         "definitionZh": "震動；顫動",
         "usageExplanationZh": "常見 the phone vibrates（手機震動），也可用於物理學描述分子或聲音的振動。",
-        "examples": [
-          {
-            "en": "Her phone vibrated silently in her pocket during the meeting.",
-            "zh": "會議期間，她的手機在口袋裡靜靜地震動著。"
-          }
+        "grammarPatterns": [
+          "vibrate + adverb",
+          "cause sth to vibrate"
         ],
         "collocations": [
           {
             "text": "vibrate with energy",
             "meaningZh": "充滿活力地顫動"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her phone vibrated silently in her pocket during the meeting.",
+            "zh": "會議期間，她的手機在口袋裡靜靜地震動著。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "oscillate",
+        "noteZh": "來回振動"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "vibration",
+        "partOfSpeech": "noun",
+        "meaningZh": "震動；振動"
+      },
+      {
+        "lemma": "vibrant",
+        "partOfSpeech": "adjective",
+        "meaningZh": "充滿活力的；鮮明的"
       }
     ],
     "tags": [
@@ -2465,14 +3276,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "oscillate",
-        "noteZh": "來回振動"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_vicar",
@@ -2486,21 +3290,42 @@
       {
         "id": "s_vicar_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a priest in the Church of England responsible for a parish",
         "definitionZh": "（英國國教）教區牧師",
         "usageExplanationZh": "英國國教特有職稱，指負責某教區事務的神職人員，文化特定詞彙。",
-        "examples": [
-          {
-            "en": "The vicar delivered a moving sermon at Sunday service.",
-            "zh": "這位教區牧師在週日禮拜中發表了一場動人的講道。"
-          }
+        "grammarPatterns": [
+          "the local vicar",
+          "the vicar of + noun"
         ],
         "collocations": [
           {
             "text": "the local vicar",
             "meaningZh": "當地教區牧師"
           }
+        ],
+        "examples": [
+          {
+            "en": "The vicar delivered a moving sermon at Sunday service.",
+            "zh": "這位教區牧師在週日禮拜中發表了一場動人的講道。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "parish priest",
+        "noteZh": "教區牧師；不同宗派的職稱有別"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "vicarage",
+        "partOfSpeech": "noun",
+        "meaningZh": "牧師住宅"
       }
     ],
     "tags": [
@@ -2513,14 +3338,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "parish priest",
-        "noteZh": "教區牧師；不同宗派的職稱有別"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_vicious",
@@ -2534,35 +3352,31 @@
       {
         "id": "s_vicious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "cruel or violent, or (of an animal) dangerously aggressive",
         "definitionZh": "兇惡的；惡毒的",
         "usageExplanationZh": "常修飾 attack、dog、rumor，強調殘暴或惡意的性質，語氣強烈負面。",
-        "examples": [
-          {
-            "en": "The vicious dog attacked the mail carrier.",
-            "zh": "那隻兇惡的狗攻擊了郵差。"
-          }
+        "grammarPatterns": [
+          "a vicious + noun",
+          "a vicious attack on + noun"
         ],
         "collocations": [
           {
             "text": "a vicious attack",
             "meaningZh": "兇狠的攻擊"
           }
+        ],
+        "examples": [
+          {
+            "en": "The vicious dog attacked the mail carrier.",
+            "zh": "那隻兇惡的狗攻擊了郵差。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "savage",
@@ -2582,7 +3396,36 @@
         "lemma": "benevolent",
         "noteZh": "善意的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "viciously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "兇狠地；惡毒地"
+      },
+      {
+        "lemma": "viciousness",
+        "partOfSpeech": "noun",
+        "meaningZh": "兇惡；惡毒"
+      },
+      {
+        "lemma": "vice",
+        "partOfSpeech": "noun",
+        "meaningZh": "惡習；缺點"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_victimize",
@@ -2596,21 +3439,48 @@
       {
         "id": "s_victimize_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to single someone out for cruel or unjust treatment",
         "definitionZh": "使受害；欺凌",
         "usageExplanationZh": "常見被動語態 be victimized，強調因偏見或不公而受到不當對待。",
-        "examples": [
-          {
-            "en": "She felt victimized by her coworkers' constant criticism.",
-            "zh": "她覺得自己因同事持續的批評而受到欺凌。"
-          }
+        "grammarPatterns": [
+          "victimize sb",
+          "feel victimized by + noun"
         ],
         "collocations": [
           {
             "text": "victimize vulnerable people",
             "meaningZh": "欺凌弱勢者"
           }
+        ],
+        "examples": [
+          {
+            "en": "She felt victimized by her coworkers' constant criticism.",
+            "zh": "她覺得自己因同事持續的批評而受到欺凌。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "persecute",
+        "noteZh": "反覆迫害或欺凌"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "victim",
+        "partOfSpeech": "noun",
+        "meaningZh": "受害者"
+      },
+      {
+        "lemma": "victimization",
+        "partOfSpeech": "noun",
+        "meaningZh": "受害；受欺凌"
       }
     ],
     "tags": [
@@ -2623,14 +3493,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "persecute",
-        "noteZh": "反覆迫害或欺凌"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_victor",
@@ -2644,21 +3507,53 @@
       {
         "id": "s_victor_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "a person who defeats an enemy or opponent; a winner",
         "definitionZh": "勝利者；獲勝者",
         "usageExplanationZh": "語氣較 winner 正式，常見於戰爭、比賽等競爭性情境。",
-        "examples": [
-          {
-            "en": "History is often written by the victors.",
-            "zh": "歷史往往是由勝利者所書寫的。"
-          }
+        "grammarPatterns": [
+          "emerge as the victor",
+          "the victor of + noun"
         ],
         "collocations": [
           {
             "text": "emerge as the victor",
             "meaningZh": "最終獲勝"
           }
+        ],
+        "examples": [
+          {
+            "en": "History is often written by the victors.",
+            "zh": "歷史往往是由勝利者所書寫的。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "winner",
+        "noteZh": "獲勝者"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "loser",
+        "noteZh": "落敗者"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "victory",
+        "partOfSpeech": "noun",
+        "meaningZh": "勝利"
+      },
+      {
+        "lemma": "victorious",
+        "partOfSpeech": "adjective",
+        "meaningZh": "勝利的；獲勝的"
       }
     ],
     "tags": [
@@ -2671,19 +3566,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "winner",
-        "noteZh": "獲勝者"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "loser",
-        "noteZh": "落敗者"
-      }
-    ]
+    }
   },
   {
     "id": "w_vigorous",
@@ -2697,21 +3580,58 @@
       {
         "id": "s_vigorous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "strong, healthy, and full of energy, or carried out with great physical effort",
         "definitionZh": "精力充沛的；強而有力的",
         "usageExplanationZh": "常修飾 exercise、debate、defense，強調充滿活力或力道十足的性質。",
-        "examples": [
-          {
-            "en": "She gave a vigorous defense of her research findings.",
-            "zh": "她強而有力地為自己的研究成果辯護。"
-          }
+        "grammarPatterns": [
+          "a vigorous + noun",
+          "be vigorous in + V-ing"
         ],
         "collocations": [
           {
             "text": "vigorous exercise",
             "meaningZh": "劇烈運動"
           }
+        ],
+        "examples": [
+          {
+            "en": "She gave a vigorous defense of her research findings.",
+            "zh": "她強而有力地為自己的研究成果辯護。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "energetic",
+        "noteZh": "精力旺盛的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "feeble",
+        "noteZh": "衰弱無力的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "vigor",
+        "partOfSpeech": "noun",
+        "meaningZh": "活力；精力"
+      },
+      {
+        "lemma": "vigorously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "精力充沛地；強烈地"
+      },
+      {
+        "lemma": "invigorate",
+        "partOfSpeech": "verb",
+        "meaningZh": "使有活力；振奮"
       }
     ],
     "tags": [
@@ -2726,18 +3646,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "energetic",
-        "noteZh": "精力旺盛的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "feeble",
-        "noteZh": "衰弱無力的"
-      }
-    ]
+    }
   }
 ]

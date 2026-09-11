@@ -116,9 +116,9 @@ describe('vocabulary corpus', () => {
     expect(withComparison.length / curatedEntries.length).toBeGreaterThanOrEqual(0.9);
   });
 
-  it('gives a healthy share of entries usage notes or common mistakes', () => {
+  it('gives a healthy share of entries usage notes', () => {
     const withGuidance = curatedEntries.filter((entry) =>
-      entry.senses.some((sense) => sense.usageNotes?.length || sense.commonMistakes?.length),
+      entry.senses.some((sense) => sense.usageNotes?.length),
     );
     expect(withGuidance.length / curatedEntries.length).toBeGreaterThanOrEqual(0.6);
   });

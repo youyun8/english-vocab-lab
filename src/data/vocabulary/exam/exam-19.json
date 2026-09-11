@@ -11,21 +11,54 @@
       {
         "id": "s_cryptic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "having a meaning that is mysterious or obscure",
         "definitionZh": "難解的；含糊隱晦的",
         "usageExplanationZh": "常修飾 message、remark，強調言辭故意模糊、不易理解，帶神秘感。",
-        "examples": [
-          {
-            "en": "He left a cryptic note that no one could quite understand.",
-            "zh": "他留下一張令人費解的字條，沒人能完全看懂。"
-          }
+        "grammarPatterns": [
+          "a cryptic + noun",
+          "a cryptic remark",
+          "be cryptic about + noun"
         ],
         "collocations": [
           {
             "text": "a cryptic message",
             "meaningZh": "隱晦難解的訊息"
           }
+        ],
+        "examples": [
+          {
+            "en": "He left a cryptic note that no one could quite understand.",
+            "zh": "他留下一張令人費解的字條，沒人能完全看懂。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "enigmatic",
+        "noteZh": "難解的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "clear",
+        "noteZh": "清楚易懂的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "cryptically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "隱晦地"
+      },
+      {
+        "lemma": "cryptography",
+        "partOfSpeech": "noun",
+        "meaningZh": "密碼學"
       }
     ],
     "tags": [
@@ -39,19 +72,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "enigmatic",
-        "noteZh": "難解的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "clear",
-        "noteZh": "清楚易懂的"
-      }
-    ]
+    }
   },
   {
     "id": "w_crystal",
@@ -65,21 +86,44 @@
       {
         "id": "s_crystal_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a clear, transparent mineral or a piece of high-quality glass, or a solid with a regular geometric structure",
         "definitionZh": "水晶；結晶（體）",
         "usageExplanationZh": "一義指晶瑩剔透的礦物或玻璃製品（crystal glassware），另一義指分子規則排列的固體（sugar crystals，糖的結晶）。",
-        "examples": [
-          {
-            "en": "Snowflakes are beautiful examples of ice crystals.",
-            "zh": "雪花是冰晶美麗的實例。"
-          }
+        "grammarPatterns": [
+          "a crystal of + noun",
+          "crystal formation",
+          "lead crystal"
         ],
         "collocations": [
           {
             "text": "a quartz crystal",
             "meaningZh": "石英晶體"
           }
+        ],
+        "examples": [
+          {
+            "en": "Snowflakes are beautiful examples of ice crystals.",
+            "zh": "雪花是冰晶美麗的實例。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "crystallize",
+        "partOfSpeech": "verb",
+        "meaningZh": "結晶；使明確成形"
+      },
+      {
+        "lemma": "crystalline",
+        "partOfSpeech": "adjective",
+        "meaningZh": "結晶的；晶瑩剔透的"
       }
     ],
     "tags": [
@@ -93,9 +137,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_cube",
@@ -109,21 +151,44 @@
       {
         "id": "s_cube_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a three-dimensional shape with six equal square sides, or a cube-shaped piece of something",
         "definitionZh": "立方體；（切成）方塊",
         "usageExplanationZh": "常見 an ice cube（冰塊）、a sugar cube（方糖），也指數學上的立方體。",
-        "examples": [
-          {
-            "en": "She dropped a few ice cubes into her drink.",
-            "zh": "她往飲料裡放了幾塊冰塊。"
-          }
+        "grammarPatterns": [
+          "a cube of + noun",
+          "an ice cube",
+          "in the shape of a cube"
         ],
         "collocations": [
           {
             "text": "an ice cube",
             "meaningZh": "冰塊"
           }
+        ],
+        "examples": [
+          {
+            "en": "She dropped a few ice cubes into her drink.",
+            "zh": "她往飲料裡放了幾塊冰塊。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "cubic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "立方的"
+      },
+      {
+        "lemma": "cubical",
+        "partOfSpeech": "adjective",
+        "meaningZh": "立方體形的"
       }
     ],
     "tags": [
@@ -137,9 +202,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_cuddle",
@@ -153,40 +216,71 @@
       {
         "id": "s_cuddle_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "an act of holding someone closely and affectionately",
         "definitionZh": "擁抱；依偎",
         "usageExplanationZh": "口語用語，常見 give someone a cuddle，強調親密溫柔的身體接觸。",
-        "examples": [
-          {
-            "en": "The child asked for a cuddle before going to bed.",
-            "zh": "孩子在睡前要求要抱一下。"
-          }
+        "grammarPatterns": [
+          "give sb a cuddle",
+          "have a cuddle"
         ],
         "collocations": [
           {
             "text": "give someone a cuddle",
             "meaningZh": "抱抱某人"
           }
+        ],
+        "examples": [
+          {
+            "en": "The child asked for a cuddle before going to bed.",
+            "zh": "孩子在睡前要求要抱一下。"
+          }
         ]
       },
       {
         "id": "s_cuddle_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "to hold someone or something closely and affectionately",
         "definitionZh": "依偎；擁抱",
         "usageExplanationZh": "常見 cuddle up (to/with someone)，強調親密溫暖的肢體接觸，多用於親子、情侶。",
-        "examples": [
-          {
-            "en": "The couple cuddled together under a blanket while watching a movie.",
-            "zh": "這對情侶依偎在毯子下看電影。"
-          }
+        "grammarPatterns": [
+          "cuddle up to sb",
+          "cuddle sb",
+          "cuddle together"
         ],
         "collocations": [
           {
             "text": "cuddle up to",
             "meaningZh": "依偎著……"
           }
+        ],
+        "examples": [
+          {
+            "en": "The couple cuddled together under a blanket while watching a movie.",
+            "zh": "這對情侶依偎在毯子下看電影。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "hug",
+        "noteZh": "指親暱的擁抱"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "cuddly",
+        "partOfSpeech": "adjective",
+        "meaningZh": "惹人想抱的；毛茸茸的"
       }
     ],
     "tags": [
@@ -199,14 +293,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "hug",
-        "noteZh": "指親暱的擁抱"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_culminate",
@@ -220,21 +307,43 @@
       {
         "id": "s_culminate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to reach a climax or final result after a series of events",
         "definitionZh": "達到頂點；最終導致（某結果）",
         "usageExplanationZh": "常見 culminate in，強調一連串事件發展到最終結果，語氣正式書面。",
-        "examples": [
-          {
-            "en": "Years of hard work culminated in her winning the championship.",
-            "zh": "多年的努力最終讓她贏得了冠軍。"
-          }
+        "grammarPatterns": [
+          "culminate in + noun",
+          "culminate with + noun"
         ],
         "collocations": [
           {
             "text": "culminate in",
             "meaningZh": "最終導致……"
           }
+        ],
+        "examples": [
+          {
+            "en": "Years of hard work culminated in her winning the championship.",
+            "zh": "多年的努力最終讓她贏得了冠軍。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "climax",
+        "noteZh": "指達到頂點"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "culmination",
+        "partOfSpeech": "noun",
+        "meaningZh": "頂點；高潮"
       }
     ],
     "tags": [
@@ -248,14 +357,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "climax",
-        "noteZh": "指達到頂點"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_cult",
@@ -269,21 +371,39 @@
       {
         "id": "s_cult_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "a system of religious devotion directed toward a particular figure or object, often regarded as extreme or false",
         "definitionZh": "（宗教）異端教派；狂熱崇拜團體",
         "usageExplanationZh": "常帶負面意味，指教義偏激或以個人崇拜為核心的團體，也可形容次文化現象（a cult classic，邪典經典）。",
-        "examples": [
-          {
-            "en": "The documentary exposed the manipulative tactics used by the cult's leader.",
-            "zh": "這部紀錄片揭露了這個邪教教主所使用的操控手段。"
-          }
+        "grammarPatterns": [
+          "a cult of + noun",
+          "join a cult",
+          "a cult leader"
         ],
         "collocations": [
           {
             "text": "a religious cult",
             "meaningZh": "宗教崇拜團體"
           }
+        ],
+        "examples": [
+          {
+            "en": "The documentary exposed the manipulative tactics used by the cult's leader.",
+            "zh": "這部紀錄片揭露了這個邪教教主所使用的操控手段。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "cultish",
+        "partOfSpeech": "adjective",
+        "meaningZh": "狂熱崇拜的；邪教般的"
       }
     ],
     "tags": [
@@ -297,9 +417,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_cultivate",
@@ -313,14 +431,17 @@
       {
         "id": "s_cultivate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to prepare and use land for growing crops, or to develop a skill, relationship, or quality",
         "definitionZh": "耕種；培養（技能、關係或特質）",
         "usageExplanationZh": "一義指農業耕作（cultivate the soil），另一義為比喻用法，指培養能力或人際關係（cultivate a friendship）。",
-        "examples": [
-          {
-            "en": "It takes years of practice to cultivate true expertise in any field.",
-            "zh": "在任何領域培養真正的專業技能都需要多年的練習。"
-          }
+        "grammarPatterns": [
+          "cultivate + noun",
+          "cultivate a relationship with sb",
+          "cultivate land"
         ],
         "collocations": [
           {
@@ -331,7 +452,32 @@
             "text": "cultivate good habits",
             "meaningZh": "培養好習慣"
           }
+        ],
+        "examples": [
+          {
+            "en": "It takes years of practice to cultivate true expertise in any field.",
+            "zh": "在任何領域培養真正的專業技能都需要多年的練習。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "develop",
+        "noteZh": "限培養能力或特質義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "cultivation",
+        "partOfSpeech": "noun",
+        "meaningZh": "耕作；培養"
+      },
+      {
+        "lemma": "cultivator",
+        "partOfSpeech": "noun",
+        "meaningZh": "耕作者；中耕機"
       }
     ],
     "tags": [
@@ -346,14 +492,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "develop",
-        "noteZh": "限培養能力或特質義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_cultivation",
@@ -367,14 +506,17 @@
       {
         "id": "s_cultivation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "the act of preparing land and growing crops, or the development of a skill or quality over time",
         "definitionZh": "耕作；栽培；（能力等的）培養",
         "usageExplanationZh": "涵蓋農業種植（rice cultivation，稻米栽培）與抽象能力的養成（the cultivation of good habits，好習慣的養成）。",
-        "examples": [
-          {
-            "en": "The region is famous for its cultivation of high-quality tea.",
-            "zh": "這個地區以優質茶葉的栽培聞名。"
-          }
+        "grammarPatterns": [
+          "the cultivation of + noun",
+          "under cultivation",
+          "rice cultivation"
         ],
         "collocations": [
           {
@@ -385,7 +527,27 @@
             "text": "the cultivation of talent",
             "meaningZh": "人才培育"
           }
+        ],
+        "examples": [
+          {
+            "en": "The region is famous for its cultivation of high-quality tea.",
+            "zh": "這個地區以優質茶葉的栽培聞名。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "farming",
+        "noteZh": "限耕作義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "cultivate",
+        "partOfSpeech": "verb",
+        "meaningZh": "耕種；培養"
       }
     ],
     "tags": [
@@ -399,14 +561,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "farming",
-        "noteZh": "限耕作義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_cunning",
@@ -420,21 +575,49 @@
       {
         "id": "s_cunning_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "skilled at achieving one's aims through deceit or trickery",
         "definitionZh": "狡猾的；詭計多端的",
         "usageExplanationZh": "帶負面意味，強調用心機或欺瞞手段達成目的，語氣接近 crafty。",
-        "examples": [
-          {
-            "en": "The cunning fox managed to escape the trap every time.",
-            "zh": "那隻狡猾的狐狸每次都能設法逃脫陷阱。"
-          }
+        "grammarPatterns": [
+          "a cunning + noun",
+          "a cunning plan",
+          "cunning enough to + V"
         ],
         "collocations": [
           {
             "text": "a cunning plan",
             "meaningZh": "狡詐的計謀"
           }
+        ],
+        "examples": [
+          {
+            "en": "The cunning fox managed to escape the trap every time.",
+            "zh": "那隻狡猾的狐狸每次都能設法逃脫陷阱。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "crafty",
+        "noteZh": "狡猾的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "guileless",
+        "noteZh": "毫無心機的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "cunningly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "狡猾地"
       }
     ],
     "tags": [
@@ -449,19 +632,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "crafty",
-        "noteZh": "狡猾的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "guileless",
-        "noteZh": "毫無心機的"
-      }
-    ]
+    }
   },
   {
     "id": "w_cupboard",
@@ -475,23 +646,38 @@
       {
         "id": "s_cupboard_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a piece of furniture or a small closet with doors and shelves for storage",
         "definitionZh": "櫥櫃；碗櫃",
         "usageExplanationZh": "日常用語，常見 kitchen cupboard（廚房櫥櫃），指用來收納物品的有門櫃子。",
-        "examples": [
-          {
-            "en": "She keeps all the plates and cups in the kitchen cupboard.",
-            "zh": "她把所有的盤子和杯子都放在廚房的櫥櫃裡。"
-          }
+        "grammarPatterns": [
+          "in the cupboard",
+          "a kitchen cupboard",
+          "open the cupboard"
         ],
         "collocations": [
           {
             "text": "a kitchen cupboard",
             "meaningZh": "廚房櫥櫃"
           }
+        ],
+        "examples": [
+          {
+            "en": "She keeps all the plates and cups in the kitchen cupboard.",
+            "zh": "她把所有的盤子和杯子都放在廚房的櫥櫃裡。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "cabinet",
+        "noteZh": "指儲物櫃"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -503,14 +689,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cabinet",
-        "noteZh": "指儲物櫃"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_curator",
@@ -524,21 +703,49 @@
       {
         "id": "s_curator_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a keeper or custodian of a museum or other collection",
         "definitionZh": "（博物館等的）館長；策展人",
         "usageExplanationZh": "常見於藝文語境，如 a museum curator（博物館館長），負責管理與規劃展覽內容。",
-        "examples": [
-          {
-            "en": "The museum's curator selected the paintings for the new exhibition.",
-            "zh": "這間博物館的策展人挑選了新展覽的畫作。"
-          }
+        "grammarPatterns": [
+          "the curator of + noun",
+          "a museum curator",
+          "serve as curator"
         ],
         "collocations": [
           {
             "text": "a museum curator",
             "meaningZh": "博物館策展人"
           }
+        ],
+        "examples": [
+          {
+            "en": "The museum's curator selected the paintings for the new exhibition.",
+            "zh": "這間博物館的策展人挑選了新展覽的畫作。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "custodian",
+        "noteZh": "指收藏品的保管人"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "curate",
+        "partOfSpeech": "verb",
+        "meaningZh": "策展；精選編排"
+      },
+      {
+        "lemma": "curatorial",
+        "partOfSpeech": "adjective",
+        "meaningZh": "策展的；館藏管理的"
       }
     ],
     "tags": [
@@ -552,14 +759,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "custodian",
-        "noteZh": "指收藏品的保管人"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_curb",
@@ -573,42 +773,66 @@
       {
         "id": "s_curb_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a check or restraint on something, or the edge of a raised path along a street",
         "definitionZh": "抑制；限制；（人行道）路緣",
         "usageExplanationZh": "一義指對某事物的節制（a curb on spending，對支出的限制），另一義指街道路面邊緣（美式用法，同英式 kerb）。",
-        "examples": [
-          {
-            "en": "The government introduced new curbs on plastic bag usage.",
-            "zh": "政府針對塑膠袋的使用祭出了新的限制措施。"
-          }
+        "grammarPatterns": [
+          "a curb on + noun",
+          "put a curb on + noun",
+          "park at the curb"
         ],
         "collocations": [
           {
             "text": "curbs on spending",
             "meaningZh": "開支限制"
           }
+        ],
+        "examples": [
+          {
+            "en": "The government introduced new curbs on plastic bag usage.",
+            "zh": "政府針對塑膠袋的使用祭出了新的限制措施。"
+          }
         ]
       },
       {
         "id": "s_curb_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to restrain or keep something in check",
         "definitionZh": "抑制；控制；遏止",
         "usageExplanationZh": "常見 curb one's appetite/spending，強調主動限制或壓抑某種行為或衝動。",
-        "examples": [
-          {
-            "en": "She tried to curb her spending habits after going over budget.",
-            "zh": "她在超支後試著控制自己的消費習慣。"
-          }
+        "grammarPatterns": [
+          "curb + noun",
+          "curb spending",
+          "curb the spread of + noun"
         ],
         "collocations": [
           {
             "text": "curb inflation",
             "meaningZh": "抑制通貨膨脹"
           }
+        ],
+        "examples": [
+          {
+            "en": "She tried to curb her spending habits after going over budget.",
+            "zh": "她在超支後試著控制自己的消費習慣。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "restraint",
+        "noteZh": "限名詞的限制義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -621,14 +845,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "restraint",
-        "noteZh": "限名詞的限制義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_cure",
@@ -642,21 +859,54 @@
       {
         "id": "s_cure_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "to relieve a person of the symptoms of a disease, or to solve a problem",
         "definitionZh": "治癒；治療；解決（問題）",
         "usageExplanationZh": "常見 cure a disease/illness，也可比喻指解決棘手的問題（cure the economy's woes）。",
-        "examples": [
-          {
-            "en": "The new medication has helped cure many patients of the infection.",
-            "zh": "這種新藥已幫助許多病人治癒了這種感染。"
-          }
+        "grammarPatterns": [
+          "cure + noun",
+          "cure sb of + noun",
+          "be cured completely"
         ],
         "collocations": [
           {
             "text": "cure someone of a disease",
             "meaningZh": "治好某人的疾病"
           }
+        ],
+        "examples": [
+          {
+            "en": "The new medication has helped cure many patients of the infection.",
+            "zh": "這種新藥已幫助許多病人治癒了這種感染。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "heal",
+        "noteZh": "限治療疾病義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "curable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可治癒的"
+      },
+      {
+        "lemma": "incurable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "無法治癒的"
+      },
+      {
+        "lemma": "curative",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有療效的"
       }
     ],
     "tags": [
@@ -670,14 +920,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "heal",
-        "noteZh": "限治療疾病義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_curiosity",
@@ -691,21 +934,54 @@
       {
         "id": "s_curiosity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "a strong desire to know or learn something",
         "definitionZh": "好奇心",
         "usageExplanationZh": "常見 out of curiosity（出於好奇）、arouse curiosity（激起好奇心），描述對未知事物的求知慾望。",
-        "examples": [
-          {
-            "en": "Her curiosity about ancient civilizations led her to study archaeology.",
-            "zh": "她對古文明的好奇心引領她投身考古學研究。"
-          }
+        "grammarPatterns": [
+          "curiosity about + noun",
+          "out of curiosity",
+          "arouse sb's curiosity"
         ],
         "collocations": [
           {
             "text": "out of curiosity",
             "meaningZh": "出於好奇"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her curiosity about ancient civilizations led her to study archaeology.",
+            "zh": "她對古文明的好奇心引領她投身考古學研究。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "inquisitiveness",
+        "noteZh": "求知欲"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "indifference",
+        "noteZh": "漠不關心"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "curious",
+        "partOfSpeech": "adjective",
+        "meaningZh": "好奇的；奇特的"
+      },
+      {
+        "lemma": "curiously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "好奇地；奇怪地"
       }
     ],
     "tags": [
@@ -718,19 +994,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "inquisitiveness",
-        "noteZh": "求知欲"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "indifference",
-        "noteZh": "漠不關心"
-      }
-    ]
+    }
   },
   {
     "id": "w_curious",
@@ -744,14 +1008,16 @@
       {
         "id": "s_curious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "eager to know or learn something, or strange and unusual",
         "definitionZh": "好奇的；奇特的",
         "usageExplanationZh": "一義形容渴望了解的心態（curious about），另一義形容事物本身怪異（a curious coincidence，奇特的巧合）。",
-        "examples": [
-          {
-            "en": "The curious child kept asking questions about how things worked.",
-            "zh": "這個好奇的孩子一直問東西是怎麼運作的。"
-          }
+        "grammarPatterns": [
+          "curious about + noun",
+          "curious to + V",
+          "a curious + noun"
         ],
         "collocations": [
           {
@@ -762,20 +1028,15 @@
             "text": "a curious coincidence",
             "meaningZh": "奇妙的巧合"
           }
+        ],
+        "examples": [
+          {
+            "en": "The curious child kept asking questions about how things worked.",
+            "zh": "這個好奇的孩子一直問東西是怎麼運作的。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "inquisitive",
@@ -791,7 +1052,30 @@
         "lemma": "indifferent",
         "noteZh": "限缺乏興趣義"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "curiosity",
+        "partOfSpeech": "noun",
+        "meaningZh": "好奇心"
+      },
+      {
+        "lemma": "curiously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "好奇地"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_curl",
@@ -805,21 +1089,48 @@
       {
         "id": "s_curl_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to form or cause to form a curved or spiral shape",
         "definitionZh": "使捲曲；蜷曲",
         "usageExplanationZh": "常見 curl one's hair（把頭髮弄捲）、curl up（蜷縮身體），描述彎曲成螺旋或圓弧狀。",
-        "examples": [
-          {
-            "en": "She curled up on the sofa with a good book.",
-            "zh": "她蜷縮在沙發上看一本好書。"
-          }
+        "grammarPatterns": [
+          "curl up",
+          "curl around + noun",
+          "curl one's hair"
         ],
         "collocations": [
           {
             "text": "curl up",
             "meaningZh": "蜷縮起來"
           }
+        ],
+        "examples": [
+          {
+            "en": "She curled up on the sofa with a good book.",
+            "zh": "她蜷縮在沙發上看一本好書。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "coil",
+        "noteZh": "捲成螺旋狀"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "straighten",
+        "noteZh": "使變直"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "curly",
+        "partOfSpeech": "adjective",
+        "meaningZh": "捲曲的"
       }
     ],
     "tags": [
@@ -832,19 +1143,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "coil",
-        "noteZh": "捲成螺旋狀"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "straighten",
-        "noteZh": "使變直"
-      }
-    ]
+    }
   },
   {
     "id": "w_currency",
@@ -858,14 +1157,17 @@
       {
         "id": "s_currency_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "technical"
+        ],
         "definitionEn": "a system of money used in a particular country, or general acceptance or use",
         "definitionZh": "貨幣；通用；流通程度",
         "usageExplanationZh": "一義指某國使用的貨幣系統（foreign currency，外幣），另一義為比喻用法，指想法或說法被廣泛接受（gain currency，逐漸流行）。",
-        "examples": [
-          {
-            "en": "The idea of remote work has gained currency since the pandemic.",
-            "zh": "自疫情爆發以來，遠距工作的概念已逐漸普及。"
-          }
+        "grammarPatterns": [
+          "a foreign currency",
+          "gain currency",
+          "the currency of + noun"
         ],
         "collocations": [
           {
@@ -876,7 +1178,32 @@
             "text": "gain currency",
             "meaningZh": "開始廣為流傳"
           }
+        ],
+        "examples": [
+          {
+            "en": "The idea of remote work has gained currency since the pandemic.",
+            "zh": "自疫情爆發以來，遠距工作的概念已逐漸普及。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "money",
+        "noteZh": "限貨幣義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "current",
+        "partOfSpeech": "adjective",
+        "meaningZh": "現行的；通用的"
+      },
+      {
+        "lemma": "currently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "目前；現在"
       }
     ],
     "tags": [
@@ -890,14 +1217,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "money",
-        "noteZh": "限貨幣義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_curriculum",
@@ -911,21 +1231,49 @@
       {
         "id": "s_curriculum_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "the subjects comprising a course of study in a school or college",
         "definitionZh": "課程；教學大綱",
         "usageExplanationZh": "教育用語，常見 the school curriculum、a curriculum designer，指整體規劃的教學內容。",
-        "examples": [
-          {
-            "en": "The new curriculum places greater emphasis on critical thinking skills.",
-            "zh": "這套新課程更加著重培養批判性思考能力。"
-          }
+        "grammarPatterns": [
+          "the school curriculum",
+          "on the curriculum",
+          "a curriculum in + noun"
         ],
         "collocations": [
           {
             "text": "the school curriculum",
             "meaningZh": "學校課程"
           }
+        ],
+        "examples": [
+          {
+            "en": "The new curriculum places greater emphasis on critical thinking skills.",
+            "zh": "這套新課程更加著重培養批判性思考能力。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "syllabus",
+        "noteZh": "課程綱要，通常範圍較小"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "curricular",
+        "partOfSpeech": "adjective",
+        "meaningZh": "課程的"
+      },
+      {
+        "lemma": "extracurricular",
+        "partOfSpeech": "adjective",
+        "meaningZh": "課外的"
       }
     ],
     "tags": [
@@ -940,14 +1288,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "syllabus",
-        "noteZh": "課程綱要，通常範圍較小"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_curse",
@@ -961,40 +1302,70 @@
       {
         "id": "s_curse_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "a solemn utterance calling for harm to befall someone, or a source of trouble",
         "definitionZh": "詛咒；（導致不幸的）根源",
         "usageExplanationZh": "一義指惡意咒語（put a curse on someone），另一義指帶來不斷麻煩的事物（a curse rather than a blessing）。",
-        "examples": [
-          {
-            "en": "According to legend, the tomb carried an ancient curse.",
-            "zh": "根據傳說，這座陵墓帶有古老的詛咒。"
-          }
+        "grammarPatterns": [
+          "a curse on sb",
+          "put a curse on sb",
+          "be a curse for sb"
         ],
         "collocations": [
           {
             "text": "put a curse on",
             "meaningZh": "對……下詛咒"
           }
+        ],
+        "examples": [
+          {
+            "en": "According to legend, the tomb carried an ancient curse.",
+            "zh": "根據傳說，這座陵墓帶有古老的詛咒。"
+          }
         ]
       },
       {
         "id": "s_curse_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "spoken"
+        ],
         "definitionEn": "to utter a curse against, or to swear angrily",
         "definitionZh": "詛咒；咒罵",
         "usageExplanationZh": "常見 curse someone/something，強調用惡意語言表達憤怒或詛咒對方。",
-        "examples": [
-          {
-            "en": "He cursed under his breath when he missed the bus.",
-            "zh": "他錯過公車時，小聲地咒罵了一句。"
-          }
+        "grammarPatterns": [
+          "curse at sb",
+          "curse sb",
+          "curse one's luck"
         ],
         "collocations": [
           {
             "text": "curse under one's breath",
             "meaningZh": "低聲咒罵"
           }
+        ],
+        "examples": [
+          {
+            "en": "He cursed under his breath when he missed the bus.",
+            "zh": "他錯過公車時，小聲地咒罵了一句。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "hex",
+        "noteZh": "限詛咒義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "blessing",
+        "noteZh": "限名詞，指祝福"
       }
     ],
     "tags": [
@@ -1007,19 +1378,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "hex",
-        "noteZh": "限詛咒義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "blessing",
-        "noteZh": "限名詞，指祝福"
-      }
-    ]
+    }
   },
   {
     "id": "w_curtail",
@@ -1033,21 +1392,49 @@
       {
         "id": "s_curtail_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to reduce in extent or quantity; impose a restriction on",
         "definitionZh": "削減；縮減；限制",
         "usageExplanationZh": "正式書面用語，常見 curtail spending/rights，強調縮小範圍或程度。",
-        "examples": [
-          {
-            "en": "The budget cuts forced the department to curtail its research programs.",
-            "zh": "預算刪減迫使該部門不得不縮減其研究計畫。"
-          }
+        "grammarPatterns": [
+          "curtail + noun",
+          "curtail spending",
+          "be curtailed by + noun"
         ],
         "collocations": [
           {
             "text": "curtail spending",
             "meaningZh": "削減開支"
           }
+        ],
+        "examples": [
+          {
+            "en": "The budget cuts forced the department to curtail its research programs.",
+            "zh": "預算刪減迫使該部門不得不縮減其研究計畫。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "reduce",
+        "noteZh": "削減"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "extend",
+        "noteZh": "延長或擴大"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "curtailment",
+        "partOfSpeech": "noun",
+        "meaningZh": "削減；縮短"
       }
     ],
     "tags": [
@@ -1062,19 +1449,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "reduce",
-        "noteZh": "削減"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "extend",
-        "noteZh": "延長或擴大"
-      }
-    ]
+    }
   },
   {
     "id": "w_curtain",
@@ -1088,42 +1463,65 @@
       {
         "id": "s_curtain_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a piece of fabric hung to cover a window or door, or something marking the start/end of a performance",
         "definitionZh": "窗簾；布幕；（戲劇的）幕",
         "usageExplanationZh": "常見 draw the curtains（拉上窗簾），劇場語境中也指開演或落幕的布幕（the curtain rises/falls）。",
-        "examples": [
-          {
-            "en": "She drew the curtains to block out the morning sun.",
-            "zh": "她拉上窗簾以遮擋清晨的陽光。"
-          }
+        "grammarPatterns": [
+          "draw the curtains",
+          "behind the curtain",
+          "a curtain of + noun"
         ],
         "collocations": [
           {
             "text": "draw the curtains",
             "meaningZh": "拉上或拉開窗簾"
           }
+        ],
+        "examples": [
+          {
+            "en": "She drew the curtains to block out the morning sun.",
+            "zh": "她拉上窗簾以遮擋清晨的陽光。"
+          }
         ]
       },
       {
         "id": "s_curtain_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to provide or screen with a curtain",
         "definitionZh": "用簾子遮蔽；以布幕隔開",
         "usageExplanationZh": "較不常見的動詞用法，常見 curtain off an area（用簾子隔出一塊區域）。",
-        "examples": [
-          {
-            "en": "The nurse curtained off the bed to give the patient some privacy.",
-            "zh": "護理師拉上簾子把病床隔開，讓病人有些隱私。"
-          }
+        "grammarPatterns": [
+          "curtain + noun",
+          "curtain sth off"
         ],
         "collocations": [
           {
             "text": "curtain off a room",
             "meaningZh": "用簾子隔開房間"
           }
+        ],
+        "examples": [
+          {
+            "en": "The nurse curtained off the bed to give the patient some privacy.",
+            "zh": "護理師拉上簾子把病床隔開，讓病人有些隱私。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "drape",
+        "noteZh": "指窗簾或布幔"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -1134,14 +1532,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "drape",
-        "noteZh": "指窗簾或布幔"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_curve",
@@ -1155,21 +1546,49 @@
       {
         "id": "s_curve_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a line or surface that bends gradually without sharp angles",
         "definitionZh": "曲線；彎道",
         "usageExplanationZh": "常見 a sharp curve（急轉彎）、a learning curve（學習曲線，比喻用法）。",
-        "examples": [
-          {
-            "en": "The road has a sharp curve just past the bridge.",
-            "zh": "過了橋之後，這條路有一個急轉彎。"
-          }
+        "grammarPatterns": [
+          "a curve in + noun",
+          "a sharp curve",
+          "plot a curve"
         ],
         "collocations": [
           {
             "text": "a sharp curve",
             "meaningZh": "急彎"
           }
+        ],
+        "examples": [
+          {
+            "en": "The road has a sharp curve just past the bridge.",
+            "zh": "過了橋之後，這條路有一個急轉彎。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "bend",
+        "noteZh": "指彎曲部分"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "curvature",
+        "partOfSpeech": "noun",
+        "meaningZh": "曲率；彎曲"
+      },
+      {
+        "lemma": "curvy",
+        "partOfSpeech": "adjective",
+        "meaningZh": "曲線起伏的"
       }
     ],
     "tags": [
@@ -1183,14 +1602,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "bend",
-        "noteZh": "指彎曲部分"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_cushion",
@@ -1204,42 +1616,66 @@
       {
         "id": "s_cushion_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a soft bag of fabric filled with padding, used for comfort",
         "definitionZh": "靠墊；坐墊",
         "usageExplanationZh": "日常用語，常見 a sofa cushion（沙發靠墊），也可比喻指緩衝作用（a financial cushion）。",
-        "examples": [
-          {
-            "en": "She fluffed up the cushions on the couch before guests arrived.",
-            "zh": "她在客人到來前把沙發上的靠墊拍鬆。"
-          }
+        "grammarPatterns": [
+          "sit on a cushion",
+          "a cushion on + noun",
+          "plump up the cushion"
         ],
         "collocations": [
           {
             "text": "a seat cushion",
             "meaningZh": "坐墊"
           }
+        ],
+        "examples": [
+          {
+            "en": "She fluffed up the cushions on the couch before guests arrived.",
+            "zh": "她在客人到來前把沙發上的靠墊拍鬆。"
+          }
         ]
       },
       {
         "id": "s_cushion_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to soften the effect of an impact or hardship",
         "definitionZh": "緩和（衝擊）；為……提供緩衝",
         "usageExplanationZh": "常比喻用法，如 cushion the blow（減輕打擊），強調降低負面影響的程度。",
-        "examples": [
-          {
-            "en": "The government introduced subsidies to cushion the impact of rising fuel prices.",
-            "zh": "政府推出補貼措施，以緩和油價上漲的衝擊。"
-          }
+        "grammarPatterns": [
+          "cushion + noun",
+          "cushion the impact of + noun",
+          "cushion sb against + noun"
         ],
         "collocations": [
           {
             "text": "cushion the blow",
             "meaningZh": "減輕打擊"
           }
+        ],
+        "examples": [
+          {
+            "en": "The government introduced subsidies to cushion the impact of rising fuel prices.",
+            "zh": "政府推出補貼措施，以緩和油價上漲的衝擊。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "pad",
+        "noteZh": "限名詞，指軟墊"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1252,14 +1688,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pad",
-        "noteZh": "限名詞，指軟墊"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_custody",
@@ -1273,14 +1702,17 @@
       {
         "id": "s_custody_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "the state of being detained by the police, or the legal right to care for a child",
         "definitionZh": "（警方的）拘留；（子女的）監護權",
         "usageExplanationZh": "一義指遭警方羈押（in police custody），另一義指離婚後對子女的法定監護權（child custody）。",
-        "examples": [
-          {
-            "en": "After the divorce, she was granted full custody of their two children.",
-            "zh": "離婚後，她獲得了兩個孩子的完全監護權。"
-          }
+        "grammarPatterns": [
+          "take sb into custody",
+          "be held in custody",
+          "custody of + noun"
         ],
         "collocations": [
           {
@@ -1291,7 +1723,32 @@
             "text": "joint custody",
             "meaningZh": "共同監護權"
           }
+        ],
+        "examples": [
+          {
+            "en": "After the divorce, she was granted full custody of their two children.",
+            "zh": "離婚後，她獲得了兩個孩子的完全監護權。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "detention",
+        "noteZh": "限警方拘留義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "custodian",
+        "partOfSpeech": "noun",
+        "meaningZh": "管理員；監護人"
+      },
+      {
+        "lemma": "custodial",
+        "partOfSpeech": "adjective",
+        "meaningZh": "監護的；拘留的"
       }
     ],
     "tags": [
@@ -1304,14 +1761,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "detention",
-        "noteZh": "限警方拘留義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_custom",
@@ -1325,21 +1775,54 @@
       {
         "id": "s_custom_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "neutral"
+        ],
         "definitionEn": "a traditional way of behaving or doing something particular to a society or people",
         "definitionZh": "習俗；慣例",
         "usageExplanationZh": "常見 a local custom（當地習俗）、customs and traditions，強調長期形成的社會行為模式。",
-        "examples": [
-          {
-            "en": "It is a custom in many cultures to remove shoes before entering a home.",
-            "zh": "在許多文化中，進屋前脫鞋是一種習俗。"
-          }
+        "grammarPatterns": [
+          "a local custom",
+          "it is the custom to + V",
+          "by custom"
         ],
         "collocations": [
           {
             "text": "local customs",
             "meaningZh": "當地習俗"
           }
+        ],
+        "examples": [
+          {
+            "en": "It is a custom in many cultures to remove shoes before entering a home.",
+            "zh": "在許多文化中，進屋前脫鞋是一種習俗。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "tradition",
+        "noteZh": "指相沿成習的做法"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "customary",
+        "partOfSpeech": "adjective",
+        "meaningZh": "習慣上的；慣例的"
+      },
+      {
+        "lemma": "customize",
+        "partOfSpeech": "verb",
+        "meaningZh": "客製化；訂做"
+      },
+      {
+        "lemma": "customarily",
+        "partOfSpeech": "adverb",
+        "meaningZh": "按照慣例"
       }
     ],
     "tags": [
@@ -1353,14 +1836,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "tradition",
-        "noteZh": "指相沿成習的做法"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_customary",
@@ -1374,21 +1850,54 @@
       {
         "id": "s_customary_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "according to custom; usual or habitual",
         "definitionZh": "習慣上的；慣例的",
         "usageExplanationZh": "常見 it is customary to（依慣例應該……），強調符合社會或個人的固定作法。",
-        "examples": [
-          {
-            "en": "It is customary to tip the waiter in many countries.",
-            "zh": "在許多國家，給服務生小費是一種慣例。"
-          }
+        "grammarPatterns": [
+          "it is customary to + V",
+          "customary + noun",
+          "customary practice"
         ],
         "collocations": [
           {
             "text": "it is customary to",
             "meaningZh": "慣例是……"
           }
+        ],
+        "examples": [
+          {
+            "en": "It is customary to tip the waiter in many countries.",
+            "zh": "在許多國家，給服務生小費是一種慣例。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "usual",
+        "noteZh": "通常的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "unusual",
+        "noteZh": "不尋常的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "custom",
+        "partOfSpeech": "noun",
+        "meaningZh": "習俗；慣例"
+      },
+      {
+        "lemma": "customarily",
+        "partOfSpeech": "adverb",
+        "meaningZh": "按慣例地"
       }
     ],
     "tags": [
@@ -1402,19 +1911,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "usual",
-        "noteZh": "通常的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "unusual",
-        "noteZh": "不尋常的"
-      }
-    ]
+    }
   },
   {
     "id": "w_cute",
@@ -1428,21 +1925,49 @@
       {
         "id": "s_cute_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "attractive in a pretty or endearing way",
         "definitionZh": "可愛的；討喜的",
         "usageExplanationZh": "日常口語用語，常修飾外貌或行為，語氣輕鬆親切，如 a cute puppy（可愛的小狗）。",
-        "examples": [
-          {
-            "en": "Everyone thought the puppy was incredibly cute.",
-            "zh": "每個人都覺得這隻小狗超級可愛。"
-          }
+        "grammarPatterns": [
+          "a cute + noun",
+          "look cute",
+          "so cute"
         ],
         "collocations": [
           {
             "text": "a cute puppy",
             "meaningZh": "可愛的小狗"
           }
+        ],
+        "examples": [
+          {
+            "en": "Everyone thought the puppy was incredibly cute.",
+            "zh": "每個人都覺得這隻小狗超級可愛。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "adorable",
+        "noteZh": "惹人喜愛的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "cuteness",
+        "partOfSpeech": "noun",
+        "meaningZh": "可愛"
+      },
+      {
+        "lemma": "cutely",
+        "partOfSpeech": "adverb",
+        "meaningZh": "可愛地"
       }
     ],
     "tags": [
@@ -1455,14 +1980,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "adorable",
-        "noteZh": "惹人喜愛的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_cyclical",
@@ -1476,21 +1994,49 @@
       {
         "id": "s_cyclical_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "occurring in cycles; recurring at regular intervals",
         "definitionZh": "循環的；週期性的",
         "usageExplanationZh": "常見於經濟或自然現象描述，如 cyclical trends（週期性趨勢），強調反覆出現的模式。",
-        "examples": [
-          {
-            "en": "Economists often study cyclical patterns in the stock market.",
-            "zh": "經濟學家經常研究股市中的週期性模式。"
-          }
+        "grammarPatterns": [
+          "a cyclical + noun",
+          "cyclical patterns",
+          "be cyclical in nature"
         ],
         "collocations": [
           {
             "text": "cyclical changes",
             "meaningZh": "週期性變化"
           }
+        ],
+        "examples": [
+          {
+            "en": "Economists often study cyclical patterns in the stock market.",
+            "zh": "經濟學家經常研究股市中的週期性模式。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "periodic",
+        "noteZh": "週期性的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "cycle",
+        "partOfSpeech": "noun",
+        "meaningZh": "循環；週期"
+      },
+      {
+        "lemma": "cyclically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "週期性地"
       }
     ],
     "tags": [
@@ -1503,14 +2049,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "periodic",
-        "noteZh": "週期性的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_cylinder",
@@ -1524,21 +2063,38 @@
       {
         "id": "s_cylinder_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical"
+        ],
         "definitionEn": "a solid or hollow object with straight parallel sides and a circular cross section",
         "definitionZh": "圓柱體；汽缸",
         "usageExplanationZh": "幾何學或機械用語，常見於工程語境，如 a car engine's cylinders（汽車引擎的汽缸）。",
-        "examples": [
-          {
-            "en": "The engine has four cylinders arranged in a row.",
-            "zh": "這具引擎有四個並排的汽缸。"
-          }
+        "grammarPatterns": [
+          "a cylinder of + noun",
+          "a four-cylinder engine",
+          "in the shape of a cylinder"
         ],
         "collocations": [
           {
             "text": "a gas cylinder",
             "meaningZh": "氣瓶"
           }
+        ],
+        "examples": [
+          {
+            "en": "The engine has four cylinders arranged in a row.",
+            "zh": "這具引擎有四個並排的汽缸。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "cylindrical",
+        "partOfSpeech": "adjective",
+        "meaningZh": "圓柱形的"
       }
     ],
     "tags": [
@@ -1553,9 +2109,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_cynical",
@@ -1569,21 +2123,58 @@
       {
         "id": "s_cynical_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "believing that people are motivated by self-interest; distrustful of sincerity or goodness",
         "definitionZh": "憤世嫉俗的；不信任他人善意的",
         "usageExplanationZh": "常見 a cynical attitude，強調對他人動機抱持懷疑或不信任的態度，語氣偏負面。",
-        "examples": [
-          {
-            "en": "After years in politics, he became increasingly cynical about people's motives.",
-            "zh": "在政壇打滾多年後，他對人們的動機變得越來越憤世嫉俗。"
-          }
+        "grammarPatterns": [
+          "cynical about + noun",
+          "a cynical + noun",
+          "deeply cynical"
         ],
         "collocations": [
           {
             "text": "cynical about politics",
             "meaningZh": "對政治抱持懷疑態度"
           }
+        ],
+        "examples": [
+          {
+            "en": "After years in politics, he became increasingly cynical about people's motives.",
+            "zh": "在政壇打滾多年後，他對人們的動機變得越來越憤世嫉俗。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "distrustful",
+        "noteZh": "不信任他人善意的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "trusting",
+        "noteZh": "信任他人的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "cynicism",
+        "partOfSpeech": "noun",
+        "meaningZh": "憤世嫉俗"
+      },
+      {
+        "lemma": "cynic",
+        "partOfSpeech": "noun",
+        "meaningZh": "憤世嫉俗者"
+      },
+      {
+        "lemma": "cynically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "憤世嫉俗地"
       }
     ],
     "tags": [
@@ -1597,19 +2188,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "distrustful",
-        "noteZh": "不信任他人善意的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "trusting",
-        "noteZh": "信任他人的"
-      }
-    ]
+    }
   },
   {
     "id": "w_dabble",
@@ -1623,21 +2202,37 @@
       {
         "id": "s_dabble_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to engage in an activity casually or superficially, without serious commitment",
         "definitionZh": "涉獵；淺嘗（某活動）",
         "usageExplanationZh": "常見 dabble in painting/writing，強調非專業、隨興嘗試某件事，沒有深入投入。",
-        "examples": [
-          {
-            "en": "She dabbled in photography before deciding to pursue it seriously.",
-            "zh": "她在決定認真投入之前，先是隨興地涉獵了攝影。"
-          }
+        "grammarPatterns": [
+          "dabble in + noun",
+          "dabble with + noun"
         ],
         "collocations": [
           {
             "text": "dabble in painting",
             "meaningZh": "淺嘗繪畫"
           }
+        ],
+        "examples": [
+          {
+            "en": "She dabbled in photography before deciding to pursue it seriously.",
+            "zh": "她在決定認真投入之前，先是隨興地涉獵了攝影。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "dabbler",
+        "partOfSpeech": "noun",
+        "meaningZh": "涉獵者；業餘愛好者"
       }
     ],
     "tags": [
@@ -1650,9 +2245,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_dainty",
@@ -1666,21 +2259,53 @@
       {
         "id": "s_dainty_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "delicately small and pretty",
         "definitionZh": "精緻小巧的；纖弱優美的",
         "usageExplanationZh": "常修飾外觀或動作，如 dainty fingers（纖細的手指），語氣帶有優雅細膩的意味。",
-        "examples": [
-          {
-            "en": "She served tea in dainty porcelain cups.",
-            "zh": "她用精緻小巧的瓷杯端上了茶。"
-          }
+        "grammarPatterns": [
+          "a dainty + noun",
+          "dainty little + noun"
         ],
         "collocations": [
           {
             "text": "dainty fingers",
             "meaningZh": "纖細的手指"
           }
+        ],
+        "examples": [
+          {
+            "en": "She served tea in dainty porcelain cups.",
+            "zh": "她用精緻小巧的瓷杯端上了茶。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "delicate",
+        "noteZh": "精緻小巧的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "clumsy",
+        "noteZh": "限動作或外形笨拙義"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "daintily",
+        "partOfSpeech": "adverb",
+        "meaningZh": "精緻地；優雅地"
+      },
+      {
+        "lemma": "daintiness",
+        "partOfSpeech": "noun",
+        "meaningZh": "精緻；嬌美"
       }
     ],
     "tags": [
@@ -1693,19 +2318,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "delicate",
-        "noteZh": "精緻小巧的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "clumsy",
-        "noteZh": "限動作或外形笨拙義"
-      }
-    ]
+    }
   },
   {
     "id": "w_dairy",
@@ -1719,23 +2332,34 @@
       {
         "id": "s_dairy_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "milk and products made from milk, or a place where these are produced/sold",
         "definitionZh": "乳製品；乳品業（相關產業）",
         "usageExplanationZh": "常見 dairy products（乳製品）、a dairy farm（酪農場），指與牛奶相關的食品或產業。",
-        "examples": [
-          {
-            "en": "She avoids dairy products because she is lactose intolerant.",
-            "zh": "她因為乳糖不耐症而避免食用乳製品。"
-          }
+        "grammarPatterns": [
+          "dairy products",
+          "a dairy farm",
+          "the dairy industry"
         ],
         "collocations": [
           {
             "text": "avoid dairy",
             "meaningZh": "避免食用乳製品"
           }
+        ],
+        "examples": [
+          {
+            "en": "She avoids dairy products because she is lactose intolerant.",
+            "zh": "她因為乳糖不耐症而避免食用乳製品。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1747,9 +2371,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_damn",
@@ -1763,21 +2385,38 @@
       {
         "id": "s_damn_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "the least amount or degree, used in negative expressions of indifference (informal)",
         "definitionZh": "一丁點（用於否定，表毫不在乎）",
         "usageExplanationZh": "口語且略帶粗俗，常見 not give a damn（毫不在乎），語氣隨意，正式場合應避免使用。",
-        "examples": [
-          {
-            "en": "He said he didn't give a damn what other people thought of him.",
-            "zh": "他說他根本不在乎別人怎麼看他。"
-          }
+        "grammarPatterns": [
+          "not give a damn about + noun",
+          "not be worth a damn"
         ],
         "collocations": [
           {
             "text": "not give a damn",
             "meaningZh": "一點也不在乎"
           }
+        ],
+        "examples": [
+          {
+            "en": "He said he didn't give a damn what other people thought of him.",
+            "zh": "他說他根本不在乎別人怎麼看他。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "damnation",
+        "partOfSpeech": "noun",
+        "meaningZh": "詛咒；永罰"
       }
     ],
     "tags": [
@@ -1790,9 +2429,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_damp",
@@ -1806,59 +2443,109 @@
       {
         "id": "s_damp_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "slightly wet",
         "definitionZh": "潮濕的",
         "usageExplanationZh": "日常用語，程度介於 wet（濕）與 dry（乾）之間，常見 damp weather（潮濕的天氣）。",
-        "examples": [
-          {
-            "en": "The towel was still damp from this morning's shower.",
-            "zh": "這條毛巾因今早洗澡還是濕的。"
-          }
+        "grammarPatterns": [
+          "a damp + noun",
+          "feel damp",
+          "damp with + noun"
         ],
         "collocations": [
           {
             "text": "a damp cloth",
             "meaningZh": "微濕的布"
           }
+        ],
+        "examples": [
+          {
+            "en": "The towel was still damp from this morning's shower.",
+            "zh": "這條毛巾因今早洗澡還是濕的。"
+          }
         ]
       },
       {
         "id": "s_damp_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "moisture in the air or on a surface, especially causing an unpleasant effect",
         "definitionZh": "潮氣；濕氣",
         "usageExplanationZh": "常見於描述建築物或環境的濕氣問題，如 rising damp（地面滲上來的濕氣）。",
-        "examples": [
-          {
-            "en": "The old house suffered from damp in the basement walls.",
-            "zh": "這棟老房子的地下室牆壁飽受濕氣困擾。"
-          }
+        "grammarPatterns": [
+          "rising damp",
+          "the damp in + noun",
+          "a smell of damp"
         ],
         "collocations": [
           {
             "text": "rising damp",
             "meaningZh": "由地面上升的濕氣"
           }
+        ],
+        "examples": [
+          {
+            "en": "The old house suffered from damp in the basement walls.",
+            "zh": "這棟老房子的地下室牆壁飽受濕氣困擾。"
+          }
         ]
       },
       {
         "id": "s_damp_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to make something slightly wet, or to reduce the intensity of a feeling or reaction",
         "definitionZh": "使潮濕；抑制（情緒或反應）",
         "usageExplanationZh": "常見 damp someone's spirits/enthusiasm，比喻削弱熱情或士氣。",
-        "examples": [
-          {
-            "en": "The bad news dampened everyone's enthusiasm for the project.",
-            "zh": "這個壞消息澆熄了大家對這個專案的熱情。"
-          }
+        "grammarPatterns": [
+          "damp + noun",
+          "damp sth down",
+          "damp the enthusiasm of + noun"
         ],
         "collocations": [
           {
             "text": "damp down enthusiasm",
             "meaningZh": "抑制熱情"
           }
+        ],
+        "examples": [
+          {
+            "en": "The bad news dampened everyone's enthusiasm for the project.",
+            "zh": "這個壞消息澆熄了大家對這個專案的熱情。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "moist",
+        "noteZh": "限形容詞，指微濕的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "dry",
+        "noteZh": "限形容詞，指乾燥的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "dampen",
+        "partOfSpeech": "verb",
+        "meaningZh": "使潮濕；使減弱"
+      },
+      {
+        "lemma": "dampness",
+        "partOfSpeech": "noun",
+        "meaningZh": "潮濕"
       }
     ],
     "tags": [
@@ -1873,19 +2560,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "moist",
-        "noteZh": "限形容詞，指微濕的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "dry",
-        "noteZh": "限形容詞，指乾燥的"
-      }
-    ]
+    }
   },
   {
     "id": "w_dancer",
@@ -1899,21 +2574,38 @@
       {
         "id": "s_dancer_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a person who dances, especially professionally",
         "definitionZh": "舞者；舞蹈家",
         "usageExplanationZh": "日常用語，指從事舞蹈表演的人，可為職業或業餘，如 a ballet dancer（芭蕾舞者）。",
-        "examples": [
-          {
-            "en": "She trained for years to become a professional ballet dancer.",
-            "zh": "她訓練了好幾年才成為一名職業芭蕾舞者。"
-          }
+        "grammarPatterns": [
+          "a professional dancer",
+          "a dancer in + noun",
+          "train as a dancer"
         ],
         "collocations": [
           {
             "text": "a ballet dancer",
             "meaningZh": "芭蕾舞者"
           }
+        ],
+        "examples": [
+          {
+            "en": "She trained for years to become a professional ballet dancer.",
+            "zh": "她訓練了好幾年才成為一名職業芭蕾舞者。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "dance",
+        "partOfSpeech": "verb",
+        "meaningZh": "跳舞"
       }
     ],
     "tags": [
@@ -1926,9 +2618,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_dangle",
@@ -1942,14 +2632,16 @@
       {
         "id": "s_dangle_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to hang or swing loosely, or to offer something as an enticement",
         "definitionZh": "懸掛；晃蕩；（比喻）以……來誘惑",
         "usageExplanationZh": "一義指物體鬆散地垂掛擺動（legs dangling），另一義為比喻用法，指用利益吸引他人（dangle a promotion）。",
-        "examples": [
-          {
-            "en": "Her feet dangled off the edge of the dock.",
-            "zh": "她的雙腳懸在碼頭邊緣晃蕩著。"
-          }
+        "grammarPatterns": [
+          "dangle from + noun",
+          "dangle sth in front of sb",
+          "dangle sth before sb"
         ],
         "collocations": [
           {
@@ -1960,9 +2652,22 @@
             "text": "dangle a carrot",
             "meaningZh": "以好處誘惑"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her feet dangled off the edge of the dock.",
+            "zh": "她的雙腳懸在碼頭邊緣晃蕩著。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "hang",
+        "noteZh": "限懸掛義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1974,14 +2679,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "hang",
-        "noteZh": "限懸掛義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_dash",
@@ -1995,14 +2693,16 @@
       {
         "id": "s_dash_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a sudden quick movement or short distance run, or a small amount of something added",
         "definitionZh": "衝刺；急奔；少量（添加物）",
         "usageExplanationZh": "一義指突然快速的動作（make a dash for the door），另一義指少量添加的東西（a dash of salt，一小撮鹽）。",
-        "examples": [
-          {
-            "en": "He made a dash for the last train just before the doors closed.",
-            "zh": "他在車門關閉前，衝去趕上最後一班列車。"
-          }
+        "grammarPatterns": [
+          "make a dash for + noun",
+          "a dash of + noun",
+          "the hundred-meter dash"
         ],
         "collocations": [
           {
@@ -2013,9 +2713,22 @@
             "text": "a dash of salt",
             "meaningZh": "少量鹽"
           }
+        ],
+        "examples": [
+          {
+            "en": "He made a dash for the last train just before the doors closed.",
+            "zh": "他在車門關閉前，衝去趕上最後一班列車。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "sprint",
+        "noteZh": "限急奔義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -2026,14 +2739,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "sprint",
-        "noteZh": "限急奔義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_dawn",
@@ -2047,40 +2753,70 @@
       {
         "id": "s_dawn_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "the first appearance of light in the sky before sunrise, or the beginning of something",
         "definitionZh": "黎明；（事物的）開端",
         "usageExplanationZh": "一義指清晨天亮之時（at dawn），另一義為比喻用法，指新時代或新階段的開始（the dawn of a new era）。",
-        "examples": [
-          {
-            "en": "They woke up before dawn to catch the sunrise from the mountain.",
-            "zh": "他們在黎明前就醒來，為了在山上看日出。"
-          }
+        "grammarPatterns": [
+          "at dawn",
+          "before dawn",
+          "the dawn of + noun"
         ],
         "collocations": [
           {
             "text": "at dawn",
             "meaningZh": "在黎明時分"
           }
+        ],
+        "examples": [
+          {
+            "en": "They woke up before dawn to catch the sunrise from the mountain.",
+            "zh": "他們在黎明前就醒來，為了在山上看日出。"
+          }
         ]
       },
       {
         "id": "s_dawn_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "to begin to grow light in the morning, or to begin to be understood or realized",
         "definitionZh": "破曉；（真相或想法）逐漸明朗",
         "usageExplanationZh": "常見 it dawned on me that...（我突然明白了……），強調某個想法或事實逐漸浮現在意識中。",
-        "examples": [
-          {
-            "en": "It slowly dawned on her that she had been misled all along.",
-            "zh": "她漸漸明白，自己一直以來都被誤導了。"
-          }
+        "grammarPatterns": [
+          "it dawns on sb that + clause",
+          "dawn on sb",
+          "the day dawned + adjective"
         ],
         "collocations": [
           {
             "text": "dawn on someone",
             "meaningZh": "使某人漸漸明白"
           }
+        ],
+        "examples": [
+          {
+            "en": "It slowly dawned on her that she had been misled all along.",
+            "zh": "她漸漸明白，自己一直以來都被誤導了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "daybreak",
+        "noteZh": "限黎明義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "dusk",
+        "noteZh": "限黎明義的反義"
       }
     ],
     "tags": [
@@ -2094,19 +2830,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "daybreak",
-        "noteZh": "限黎明義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "dusk",
-        "noteZh": "限黎明義的反義"
-      }
-    ]
+    }
   },
   {
     "id": "w_deadline",
@@ -2120,23 +2844,39 @@
       {
         "id": "s_deadline_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "neutral"
+        ],
         "definitionEn": "the latest time or date by which something must be completed",
         "definitionZh": "截止日期；期限",
         "usageExplanationZh": "日常與職場用語，常見 meet a deadline（趕上截止日期）、miss a deadline（錯過期限）。",
-        "examples": [
-          {
-            "en": "The team worked overtime to meet the project deadline.",
-            "zh": "團隊加班趕工，以便在專案截止日期前完成。"
-          }
+        "grammarPatterns": [
+          "meet a deadline",
+          "miss the deadline",
+          "a deadline for + noun"
         ],
         "collocations": [
           {
             "text": "meet a deadline",
             "meaningZh": "如期完成"
           }
+        ],
+        "examples": [
+          {
+            "en": "The team worked overtime to meet the project deadline.",
+            "zh": "團隊加班趕工，以便在專案截止日期前完成。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "time limit",
+        "noteZh": "指時間限制"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -2147,14 +2887,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "time limit",
-        "noteZh": "指時間限制"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_deadly",
@@ -2168,21 +2901,54 @@
       {
         "id": "s_deadly_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "likely to cause death, or extremely serious or intense",
         "definitionZh": "致命的；極度嚴重的",
         "usageExplanationZh": "常修飾 disease、weapon 等，也可比喻用於強調程度極端，如 deadly serious（非常認真）。",
-        "examples": [
-          {
-            "en": "The region was hit by a deadly outbreak of the disease.",
-            "zh": "這個地區爆發了一場致命的疫情。"
-          }
+        "grammarPatterns": [
+          "a deadly + noun",
+          "deadly to + noun",
+          "prove deadly"
         ],
         "collocations": [
           {
             "text": "a deadly disease",
             "meaningZh": "致命疾病"
           }
+        ],
+        "examples": [
+          {
+            "en": "The region was hit by a deadly outbreak of the disease.",
+            "zh": "這個地區爆發了一場致命的疫情。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "lethal",
+        "noteZh": "致命的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "harmless",
+        "noteZh": "無害的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "dead",
+        "partOfSpeech": "adjective",
+        "meaningZh": "死的；無生氣的"
+      },
+      {
+        "lemma": "deaden",
+        "partOfSpeech": "verb",
+        "meaningZh": "使減弱；使麻木"
       }
     ],
     "tags": [
@@ -2196,19 +2962,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "lethal",
-        "noteZh": "致命的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "harmless",
-        "noteZh": "無害的"
-      }
-    ]
+    }
   },
   {
     "id": "w_dealer",
@@ -2222,21 +2976,49 @@
       {
         "id": "s_dealer_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "neutral"
+        ],
         "definitionEn": "a person or company whose business is trading in a particular commodity, or someone who illegally sells drugs",
         "definitionZh": "經銷商；交易商；（毒品）販子",
         "usageExplanationZh": "一義為合法商業用語（a car dealer，汽車經銷商），另一義帶負面意味，指非法販售毒品的人（a drug dealer）。",
-        "examples": [
-          {
-            "en": "He works as a used car dealer in the city.",
-            "zh": "他在這座城市擔任二手車經銷商。"
-          }
+        "grammarPatterns": [
+          "a car dealer",
+          "a dealer in + noun",
+          "a drug dealer"
         ],
         "collocations": [
           {
             "text": "a car dealer",
             "meaningZh": "汽車經銷商"
           }
+        ],
+        "examples": [
+          {
+            "en": "He works as a used car dealer in the city.",
+            "zh": "他在這座城市擔任二手車經銷商。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "trader",
+        "noteZh": "從事買賣的人"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "deal",
+        "partOfSpeech": "verb",
+        "meaningZh": "交易；處理"
+      },
+      {
+        "lemma": "dealership",
+        "partOfSpeech": "noun",
+        "meaningZh": "經銷權；經銷商"
       }
     ],
     "tags": [
@@ -2249,14 +3031,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "trader",
-        "noteZh": "從事買賣的人"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_dean",
@@ -2270,21 +3045,39 @@
       {
         "id": "s_dean_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "the head of a university faculty or department, or a senior clergy official",
         "definitionZh": "（大學）院長；（教會）主任牧師",
         "usageExplanationZh": "學術用語，常見 the dean of the medical school（醫學院院長），也可指教會中的資深神職人員。",
-        "examples": [
-          {
-            "en": "She was recently appointed dean of the College of Engineering.",
-            "zh": "她最近被任命為工學院院長。"
-          }
+        "grammarPatterns": [
+          "the dean of + noun",
+          "be appointed dean",
+          "report to the dean"
         ],
         "collocations": [
           {
             "text": "the dean of the faculty",
             "meaningZh": "學院院長"
           }
+        ],
+        "examples": [
+          {
+            "en": "She was recently appointed dean of the College of Engineering.",
+            "zh": "她最近被任命為工學院院長。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "deanship",
+        "partOfSpeech": "noun",
+        "meaningZh": "院長職位"
       }
     ],
     "tags": [
@@ -2297,9 +3090,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_debris",
@@ -2313,23 +3104,39 @@
       {
         "id": "s_debris_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "scattered pieces of rubbish, wreckage, or discarded material",
         "definitionZh": "碎片；殘骸；瓦礫",
         "usageExplanationZh": "常見於災難或事故報導中，如 flood/storm debris（洪水／暴風雨造成的殘骸），為不可數名詞。",
-        "examples": [
-          {
-            "en": "Rescue workers searched through the debris for survivors.",
-            "zh": "救難人員在瓦礫堆中搜尋倖存者。"
-          }
+        "grammarPatterns": [
+          "clear the debris",
+          "debris from + noun",
+          "be buried under debris"
         ],
         "collocations": [
           {
             "text": "clear away debris",
             "meaningZh": "清除瓦礫"
           }
+        ],
+        "examples": [
+          {
+            "en": "Rescue workers searched through the debris for survivors.",
+            "zh": "救難人員在瓦礫堆中搜尋倖存者。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "wreckage",
+        "noteZh": "指事故後的殘骸"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2342,14 +3149,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "wreckage",
-        "noteZh": "指事故後的殘骸"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_debtor",
@@ -2363,21 +3163,54 @@
       {
         "id": "s_debtor_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "technical"
+        ],
         "definitionEn": "a person or entity who owes money",
         "definitionZh": "債務人",
         "usageExplanationZh": "金融與法律用語，與 creditor（債權人）相對，指有償還義務的一方。",
-        "examples": [
-          {
-            "en": "The bank sent a notice to the debtor requesting immediate payment.",
-            "zh": "銀行寄送通知給債務人，要求立即還款。"
-          }
+        "grammarPatterns": [
+          "a debtor of + noun",
+          "debtors and creditors",
+          "pursue a debtor"
         ],
         "collocations": [
           {
             "text": "a debtor nation",
             "meaningZh": "債務國"
           }
+        ],
+        "examples": [
+          {
+            "en": "The bank sent a notice to the debtor requesting immediate payment.",
+            "zh": "銀行寄送通知給債務人，要求立即還款。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "borrower",
+        "noteZh": "指借款者"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "creditor",
+        "noteZh": "債權人"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "debt",
+        "partOfSpeech": "noun",
+        "meaningZh": "債務；欠款"
+      },
+      {
+        "lemma": "indebted",
+        "partOfSpeech": "adjective",
+        "meaningZh": "負債的；感恩的"
       }
     ],
     "tags": [
@@ -2390,19 +3223,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "borrower",
-        "noteZh": "指借款者"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "creditor",
-        "noteZh": "債權人"
-      }
-    ]
+    }
   },
   {
     "id": "w_debut",
@@ -2416,40 +3237,71 @@
       {
         "id": "s_debut_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a person's first public appearance or performance",
         "definitionZh": "首次登場；初次亮相",
         "usageExplanationZh": "常見 make one's debut（首次登場），也可指產品或作品的首次發表（a debut album，首張專輯）。",
-        "examples": [
-          {
-            "en": "The young pianist made her concert debut at age twelve.",
-            "zh": "這位年輕鋼琴家在十二歲時首次登台演出。"
-          }
+        "grammarPatterns": [
+          "make one's debut",
+          "sb's debut as + noun",
+          "a debut album"
         ],
         "collocations": [
           {
             "text": "make one's debut",
             "meaningZh": "首次亮相"
           }
+        ],
+        "examples": [
+          {
+            "en": "The young pianist made her concert debut at age twelve.",
+            "zh": "這位年輕鋼琴家在十二歲時首次登台演出。"
+          }
         ]
       },
       {
         "id": "s_debut_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "to make a first public appearance or performance",
         "definitionZh": "首次登場；初次亮相",
         "usageExplanationZh": "常見 debut at/in，強調人或作品在特定場合首次公開呈現。",
-        "examples": [
-          {
-            "en": "The band debuted their new single at the music festival.",
-            "zh": "這支樂團在音樂節上首次發表了他們的新單曲。"
-          }
+        "grammarPatterns": [
+          "debut at + noun",
+          "debut + noun",
+          "debut in + noun"
         ],
         "collocations": [
           {
             "text": "debut as a singer",
             "meaningZh": "以歌手身分首次登場"
           }
+        ],
+        "examples": [
+          {
+            "en": "The band debuted their new single at the music festival.",
+            "zh": "這支樂團在音樂節上首次發表了他們的新單曲。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "first appearance",
+        "noteZh": "指首次登場"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "debutante",
+        "partOfSpeech": "noun",
+        "meaningZh": "初次進入社交界的女子"
       }
     ],
     "tags": [
@@ -2462,14 +3314,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "first appearance",
-        "noteZh": "指首次登場"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_decay",
@@ -2483,14 +3328,17 @@
       {
         "id": "s_decay_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "literary"
+        ],
         "definitionEn": "the process of rotting or gradual decline in quality or condition",
         "definitionZh": "腐爛；衰敗；（狀態的）逐漸惡化",
         "usageExplanationZh": "常見 tooth decay（蛀牙）、urban decay（城市衰敗），指物質腐壞或整體狀態的衰退。",
-        "examples": [
-          {
-            "en": "Years of neglect led to the building's slow decay.",
-            "zh": "多年的疏於維護導致這棟建築逐漸破敗。"
-          }
+        "grammarPatterns": [
+          "tooth decay",
+          "the decay of + noun",
+          "fall into decay"
         ],
         "collocations": [
           {
@@ -2501,9 +3349,22 @@
             "text": "urban decay",
             "meaningZh": "都市衰敗"
           }
+        ],
+        "examples": [
+          {
+            "en": "Years of neglect led to the building's slow decay.",
+            "zh": "多年的疏於維護導致這棟建築逐漸破敗。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "deterioration",
+        "noteZh": "指逐漸惡化"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2515,14 +3376,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "deterioration",
-        "noteZh": "指逐漸惡化"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_decent",
@@ -2536,14 +3390,17 @@
       {
         "id": "s_decent_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "spoken"
+        ],
         "definitionEn": "conforming to accepted standards of respectable behavior, or satisfactory in quality",
         "definitionZh": "正派的；體面的；還不錯的",
         "usageExplanationZh": "常見 a decent person（正派的人）、a decent salary（不錯的薪水），語氣中性偏正面，口語常用。",
-        "examples": [
-          {
-            "en": "He earns a decent salary that allows him to live comfortably.",
-            "zh": "他賺取不錯的薪水，足以讓他過上舒適的生活。"
-          }
+        "grammarPatterns": [
+          "a decent + noun",
+          "decent enough to + V",
+          "it is decent of sb to + V"
         ],
         "collocations": [
           {
@@ -2554,7 +3411,42 @@
             "text": "a decent salary",
             "meaningZh": "還不錯的薪水"
           }
+        ],
+        "examples": [
+          {
+            "en": "He earns a decent salary that allows him to live comfortably.",
+            "zh": "他賺取不錯的薪水，足以讓他過上舒適的生活。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "respectable",
+        "noteZh": "限正派體面義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "indecent",
+        "noteZh": "限不合禮教或有失體統義"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "decency",
+        "partOfSpeech": "noun",
+        "meaningZh": "得體；禮儀"
+      },
+      {
+        "lemma": "decently",
+        "partOfSpeech": "adverb",
+        "meaningZh": "體面地；像樣地"
+      },
+      {
+        "lemma": "indecent",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不合宜的；猥褻的"
       }
     ],
     "tags": [
@@ -2569,19 +3461,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "respectable",
-        "noteZh": "限正派體面義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "indecent",
-        "noteZh": "限不合禮教或有失體統義"
-      }
-    ]
+    }
   },
   {
     "id": "w_decimate",
@@ -2595,21 +3475,43 @@
       {
         "id": "s_decimate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to destroy or kill a large proportion of something",
         "definitionZh": "大量消滅；重創（人口或數量）",
         "usageExplanationZh": "書面用語，語氣強烈，常見 decimate the population，強調大規模的破壞或損失。",
-        "examples": [
-          {
-            "en": "The disease decimated the local deer population within a few years.",
-            "zh": "這種疾病在短短幾年內就大量消滅了當地的鹿群。"
-          }
+        "grammarPatterns": [
+          "decimate + noun",
+          "be decimated by + noun"
         ],
         "collocations": [
           {
             "text": "decimate the population",
             "meaningZh": "使人口銳減"
           }
+        ],
+        "examples": [
+          {
+            "en": "The disease decimated the local deer population within a few years.",
+            "zh": "這種疾病在短短幾年內就大量消滅了當地的鹿群。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "devastate",
+        "noteZh": "指嚴重破壞"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "decimation",
+        "partOfSpeech": "noun",
+        "meaningZh": "大量毀滅；銳減"
       }
     ],
     "tags": [
@@ -2622,14 +3524,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "devastate",
-        "noteZh": "指嚴重破壞"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_decipher",
@@ -2643,21 +3538,49 @@
       {
         "id": "s_decipher_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to succeed in understanding, interpreting, or identifying something obscure or unclear",
         "definitionZh": "破解；解讀（難懂的內容）",
         "usageExplanationZh": "常見 decipher a code/handwriting，強調解開原本難以理解或辨識的內容。",
-        "examples": [
-          {
-            "en": "Historians worked for years to decipher the ancient inscriptions.",
-            "zh": "歷史學家花了好幾年才破解這些古代的碑文。"
-          }
+        "grammarPatterns": [
+          "decipher + noun",
+          "decipher what/how + clause",
+          "be hard to decipher"
         ],
         "collocations": [
           {
             "text": "decipher a message",
             "meaningZh": "解讀訊息"
           }
+        ],
+        "examples": [
+          {
+            "en": "Historians worked for years to decipher the ancient inscriptions.",
+            "zh": "歷史學家花了好幾年才破解這些古代的碑文。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "decode",
+        "noteZh": "指破解密碼"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "decipherable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可辨讀的"
+      },
+      {
+        "lemma": "indecipherable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "無法辨讀的"
       }
     ],
     "tags": [
@@ -2671,13 +3594,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "decode",
-        "noteZh": "指破解密碼"
-      }
-    ],
-    "antonyms": []
+    }
   }
 ]

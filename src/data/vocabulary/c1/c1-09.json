@@ -161,14 +161,8 @@
           }
         ],
         "usageNotes": [
-          "optimal 在嚴格意義上沒有比較級：某個方案要嘛是最佳，要嘛不是。more optimal 在技術寫作中會被視為用語不嚴謹，建議改用 better。"
-        ],
-        "commonMistakes": [
-          {
-            "incorrect": "This approach is more optimal than the old one.",
-            "correct": "This approach is better than the old one.",
-            "explanationZh": "optimal 本身已是最高級的概念，不應再加比較級。要比較請用 better。"
-          }
+          "optimal 在嚴格意義上沒有比較級：某個方案要嘛是最佳，要嘛不是。more optimal 在技術寫作中會被視為用語不嚴謹，建議改用 better。",
+          "optimal 本身已是最高級的概念，不應再加比較級。要比較請用 better。誤：This approach is more optimal than the old one.／正：This approach is better than the old one."
         ]
       }
     ],
@@ -389,12 +383,8 @@
             "highlight": "precedent"
           }
         ],
-        "commonMistakes": [
-          {
-            "incorrect": "This sets a president for future requests.",
-            "correct": "This sets a precedent for future requests.",
-            "explanationZh": "precedent（先例）與 president（總統）拼字相近但完全不同，是拼寫檢查抓不到的典型錯誤。"
-          }
+        "usageNotes": [
+          "precedent（先例）與 president（總統）拼字相近但完全不同，是拼寫檢查抓不到的典型錯誤。誤：This sets a president for future requests.／正：This sets a precedent for future requests."
         ]
       }
     ],
@@ -596,6 +586,10 @@
         "definitionEn": "duplicated on purpose, so that the system keeps working if one copy fails",
         "definitionZh": "備援的（刻意重複以提高可靠性）",
         "usageExplanationZh": "在系統設計語境中，redundancy 是設計目標而非缺點：多準備一份，是為了在其中一份故障時仍能運作。RAID 中的 R 就是 redundant。判斷褒貶的關鍵是問：這個重複是無意的浪費，還是刻意的保險？",
+        "grammarPatterns": [
+          "a redundant + noun",
+          "keep + noun + redundant across + plural noun"
+        ],
         "collocations": [
           {
             "text": "a redundant power supply",

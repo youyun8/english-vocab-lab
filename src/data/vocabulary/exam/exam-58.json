@@ -11,21 +11,43 @@
       {
         "id": "s_psalm_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "a sacred song or poem of praise, especially one from the Book of Psalms in the Bible",
         "definitionZh": "聖詩；詩篇",
         "usageExplanationZh": "多指《舊約聖經》〈詩篇〉中的宗教詩歌，常用於禮拜或讚美儀式。",
-        "examples": [
-          {
-            "en": "The congregation sang a psalm before the sermon began.",
-            "zh": "會眾在講道開始前唱了一首詩篇。"
-          }
+        "grammarPatterns": [
+          "sing a psalm",
+          "a psalm from + noun"
         ],
         "collocations": [
           {
             "text": "sing a psalm",
             "meaningZh": "唱聖詩"
           }
+        ],
+        "examples": [
+          {
+            "en": "The congregation sang a psalm before the sermon began.",
+            "zh": "會眾在講道開始前唱了一首詩篇。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "hymn",
+        "noteZh": "同指宗教讚美詩，但不一定出自《詩篇》"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "psalmist",
+        "partOfSpeech": "noun",
+        "meaningZh": "聖詩作者"
       }
     ],
     "tags": [
@@ -38,14 +60,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "hymn",
-        "noteZh": "同指宗教讚美詩，但不一定出自《詩篇》"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_psychiatric",
@@ -59,21 +74,43 @@
       {
         "id": "s_psychiatric_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "relating to the diagnosis and treatment of mental illness",
         "definitionZh": "精神病學的；精神科的",
         "usageExplanationZh": "常修飾 hospital、treatment、disorder，屬醫學正式用語，與 psychological 不同，後者較廣泛指心理層面。",
-        "examples": [
-          {
-            "en": "He was admitted to a psychiatric hospital after the breakdown.",
-            "zh": "他在精神崩潰後被送進了精神科醫院。"
-          }
+        "grammarPatterns": [
+          "psychiatric + noun",
+          "a psychiatric + noun"
         ],
         "collocations": [
           {
             "text": "psychiatric treatment",
             "meaningZh": "精神科治療"
           }
+        ],
+        "examples": [
+          {
+            "en": "He was admitted to a psychiatric hospital after the breakdown.",
+            "zh": "他在精神崩潰後被送進了精神科醫院。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "psychiatry",
+        "partOfSpeech": "noun",
+        "meaningZh": "精神醫學"
+      },
+      {
+        "lemma": "psychiatrist",
+        "partOfSpeech": "noun",
+        "meaningZh": "精神科醫師"
       }
     ],
     "tags": [
@@ -86,9 +123,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_psychologist",
@@ -102,21 +137,44 @@
       {
         "id": "s_psychologist_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "a person who studies or specializes in the science of the mind and behavior",
         "definitionZh": "心理學家",
         "usageExplanationZh": "指以心理學為專業的人，須與 psychiatrist（精神科醫師，可開藥）區分。",
-        "examples": [
-          {
-            "en": "The psychologist helped her work through her anxiety.",
-            "zh": "這位心理學家協助她克服了焦慮。"
-          }
+        "grammarPatterns": [
+          "a psychologist at + noun",
+          "consult a psychologist",
+          "a clinical psychologist"
         ],
         "collocations": [
           {
             "text": "a clinical psychologist",
             "meaningZh": "臨床心理師"
           }
+        ],
+        "examples": [
+          {
+            "en": "The psychologist helped her work through her anxiety.",
+            "zh": "這位心理學家協助她克服了焦慮。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "psychology",
+        "partOfSpeech": "noun",
+        "meaningZh": "心理學"
+      },
+      {
+        "lemma": "psychological",
+        "partOfSpeech": "adjective",
+        "meaningZh": "心理的"
       }
     ],
     "tags": [
@@ -129,9 +187,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_psychology",
@@ -145,21 +201,48 @@
       {
         "id": "s_psychology_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic"
+        ],
         "definitionEn": "the scientific study of the human mind and its functions",
         "definitionZh": "心理學",
         "usageExplanationZh": "學術領域名稱；也可口語指某人或某群體的「心理狀態」，如 team psychology。",
-        "examples": [
-          {
-            "en": "She is majoring in psychology at university.",
-            "zh": "她在大學主修心理學。"
-          }
+        "grammarPatterns": [
+          "the psychology of + noun",
+          "study psychology",
+          "a degree in psychology"
         ],
         "collocations": [
           {
             "text": "developmental psychology",
             "meaningZh": "發展心理學"
           }
+        ],
+        "examples": [
+          {
+            "en": "She is majoring in psychology at university.",
+            "zh": "她在大學主修心理學。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "psychologist",
+        "partOfSpeech": "noun",
+        "meaningZh": "心理學家"
+      },
+      {
+        "lemma": "psychological",
+        "partOfSpeech": "adjective",
+        "meaningZh": "心理的"
+      },
+      {
+        "lemma": "psychologically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "在心理上"
       }
     ],
     "tags": [
@@ -174,9 +257,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_publication",
@@ -190,21 +271,49 @@
       {
         "id": "s_publication_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "a book, magazine, or other printed work made available to the public",
         "definitionZh": "出版品；刊物",
         "usageExplanationZh": "可數名詞，指具體的書刊；不可數時指出版這項行為，如 the publication of the report。",
-        "examples": [
-          {
-            "en": "The scientific journal is a respected academic publication.",
-            "zh": "這份科學期刊是備受敬重的學術出版品。"
-          }
+        "grammarPatterns": [
+          "an academic publication",
+          "a publication about + noun",
+          "appear in a publication"
         ],
         "collocations": [
           {
             "text": "an academic publication",
             "meaningZh": "學術刊物"
           }
+        ],
+        "examples": [
+          {
+            "en": "The scientific journal is a respected academic publication.",
+            "zh": "這份科學期刊是備受敬重的學術出版品。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "printed work",
+        "noteZh": "指公開發行的印刷作品"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "publish",
+        "partOfSpeech": "verb",
+        "meaningZh": "出版；發表"
+      },
+      {
+        "lemma": "publisher",
+        "partOfSpeech": "noun",
+        "meaningZh": "出版商；出版者"
       }
     ],
     "tags": [
@@ -218,14 +327,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "printed work",
-        "noteZh": "指公開發行的印刷作品"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_publicity",
@@ -239,21 +341,49 @@
       {
         "id": "s_publicity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "neutral"
+        ],
         "definitionEn": "public attention or media coverage given to someone or something",
         "definitionZh": "公開報導；宣傳",
         "usageExplanationZh": "不可數名詞，常見 get publicity、bad publicity；多指媒體曝光而非刻意的廣告宣傳。",
-        "examples": [
-          {
-            "en": "The film received a lot of publicity before its release.",
-            "zh": "這部電影上映前受到了大量的媒體報導。"
-          }
+        "grammarPatterns": [
+          "publicity for + noun",
+          "receive publicity",
+          "a publicity campaign"
         ],
         "collocations": [
           {
             "text": "generate publicity",
             "meaningZh": "引起媒體關注"
           }
+        ],
+        "examples": [
+          {
+            "en": "The film received a lot of publicity before its release.",
+            "zh": "這部電影上映前受到了大量的媒體報導。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "media coverage",
+        "noteZh": "指媒體報導與關注"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "publicize",
+        "partOfSpeech": "verb",
+        "meaningZh": "宣傳；公開"
+      },
+      {
+        "lemma": "public",
+        "partOfSpeech": "adjective",
+        "meaningZh": "公眾的；公開的"
       }
     ],
     "tags": [
@@ -267,14 +397,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "media coverage",
-        "noteZh": "指媒體報導與關注"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_puddle",
@@ -288,23 +411,38 @@
       {
         "id": "s_puddle_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a small pool of liquid, especially rainwater, on the ground",
         "definitionZh": "水坑；小水窪",
         "usageExplanationZh": "常見 rain puddle；日常用語，指路面積水形成的小水池。",
-        "examples": [
-          {
-            "en": "The children jumped in puddles after the storm.",
-            "zh": "暴風雨過後，孩子們在水坑裡跳來跳去。"
-          }
+        "grammarPatterns": [
+          "a puddle of + noun",
+          "jump in puddles",
+          "step in a puddle"
         ],
         "collocations": [
           {
             "text": "a puddle of water",
             "meaningZh": "一灘水"
           }
+        ],
+        "examples": [
+          {
+            "en": "The children jumped in puddles after the storm.",
+            "zh": "暴風雨過後，孩子們在水坑裡跳來跳去。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "pool",
+        "noteZh": "小片積水，pool 的範圍較廣"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -316,14 +454,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pool",
-        "noteZh": "小片積水，pool 的範圍較廣"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_puerile",
@@ -337,21 +468,47 @@
       {
         "id": "s_puerile_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "childish and silly in a way that is inappropriate for an adult",
         "definitionZh": "幼稚的；孩子氣的",
         "usageExplanationZh": "帶負面含意，形容成年人的行為或言論不成熟，比 childish 語氣更正式且更貶意。",
-        "examples": [
-          {
-            "en": "His puerile jokes annoyed the other guests at the dinner party.",
-            "zh": "他幼稚的笑話讓晚宴上的其他賓客感到厭煩。"
-          }
+        "grammarPatterns": [
+          "puerile + noun",
+          "a puerile + noun"
         ],
         "collocations": [
           {
             "text": "puerile jokes",
             "meaningZh": "幼稚的笑話"
           }
+        ],
+        "examples": [
+          {
+            "en": "His puerile jokes annoyed the other guests at the dinner party.",
+            "zh": "他幼稚的笑話讓晚宴上的其他賓客感到厭煩。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "childish",
+        "noteZh": "幼稚而不成熟的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "mature",
+        "noteZh": "成熟的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "puerility",
+        "partOfSpeech": "noun",
+        "meaningZh": "幼稚；孩子氣"
       }
     ],
     "tags": [
@@ -364,19 +521,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "childish",
-        "noteZh": "幼稚而不成熟的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "mature",
-        "noteZh": "成熟的"
-      }
-    ]
+    }
   },
   {
     "id": "w_pugnacious",
@@ -390,21 +535,48 @@
       {
         "id": "s_pugnacious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "eager or quick to argue or fight",
         "definitionZh": "好鬥的；好戰的",
         "usageExplanationZh": "形容人個性或言論帶有攻擊性，常修飾 attitude、manner。",
-        "examples": [
-          {
-            "en": "The senator was known for his pugnacious debating style.",
-            "zh": "這位參議員以好鬥的辯論風格聞名。"
-          }
+        "grammarPatterns": [
+          "a pugnacious + noun",
+          "a pugnacious style of + noun"
         ],
         "collocations": [
           {
             "text": "a pugnacious attitude",
             "meaningZh": "好鬥的態度"
           }
+        ],
+        "examples": [
+          {
+            "en": "The senator was known for his pugnacious debating style.",
+            "zh": "這位參議員以好鬥的辯論風格聞名。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "belligerent",
+        "noteZh": "好鬥好戰的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "peaceable",
+        "noteZh": "愛好和平的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "pugnacity",
+        "partOfSpeech": "noun",
+        "meaningZh": "好鬥；好戰"
       }
     ],
     "tags": [
@@ -417,19 +589,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "belligerent",
-        "noteZh": "好鬥好戰的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "peaceable",
-        "noteZh": "愛好和平的"
-      }
-    ]
+    }
   },
   {
     "id": "w_pulse",
@@ -443,21 +603,49 @@
       {
         "id": "s_pulse_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "the regular beating of blood through the arteries, felt especially at the wrist or neck",
         "definitionZh": "脈搏",
         "usageExplanationZh": "醫學及日常用語，常見 take/feel someone's pulse；也可比喻指事物的節奏或動態，如 the pulse of the city。",
-        "examples": [
-          {
-            "en": "The nurse checked the patient's pulse every hour.",
-            "zh": "護理師每小時檢查一次病人的脈搏。"
-          }
+        "grammarPatterns": [
+          "take sb's pulse",
+          "check sb's pulse",
+          "a + adjective + pulse"
         ],
         "collocations": [
           {
             "text": "take someone's pulse",
             "meaningZh": "替某人量脈搏"
           }
+        ],
+        "examples": [
+          {
+            "en": "The nurse checked the patient's pulse every hour.",
+            "zh": "護理師每小時檢查一次病人的脈搏。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "heartbeat",
+        "noteZh": "與脈搏相應的心跳，兩者測量部位不同"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "pulsate",
+        "partOfSpeech": "verb",
+        "meaningZh": "搏動；跳動"
+      },
+      {
+        "lemma": "pulsation",
+        "partOfSpeech": "noun",
+        "meaningZh": "搏動；脈動"
       }
     ],
     "tags": [
@@ -471,14 +659,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "heartbeat",
-        "noteZh": "與脈搏相應的心跳，兩者測量部位不同"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pummel",
@@ -492,23 +673,38 @@
       {
         "id": "s_pummel_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "to hit someone repeatedly, especially with the fists",
         "definitionZh": "連續猛擊；痛打",
         "usageExplanationZh": "口語用法，強調重複、有力的擊打動作，常用於描述拳打或比喻猛烈攻擊（如媒體抨擊）。",
-        "examples": [
-          {
-            "en": "The boxer pummeled his opponent in the final round.",
-            "zh": "這位拳擊手在最後一回合痛打了對手。"
-          }
+        "grammarPatterns": [
+          "pummel + sb",
+          "pummel sb with + noun"
         ],
         "collocations": [
           {
             "text": "pummel someone with your fists",
             "meaningZh": "用拳頭連續猛擊某人"
           }
+        ],
+        "examples": [
+          {
+            "en": "The boxer pummeled his opponent in the final round.",
+            "zh": "這位拳擊手在最後一回合痛打了對手。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "batter",
+        "noteZh": "連續猛打"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -519,14 +715,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "batter",
-        "noteZh": "連續猛打"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pump",
@@ -540,23 +729,34 @@
       {
         "id": "s_pump_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a device used to move liquid or gas from one place to another, or to force air into something",
         "definitionZh": "幫浦；抽水機；打氣筒",
         "usageExplanationZh": "常見 water pump、bicycle pump；也可作動詞 pump water/air，表示用幫浦輸送或加壓。",
-        "examples": [
-          {
-            "en": "The gas station has several pumps for different fuel types.",
-            "zh": "這座加油站有好幾個不同油種的加油幫浦。"
-          }
+        "grammarPatterns": [
+          "a pump for + noun",
+          "a water pump",
+          "install a pump"
         ],
         "collocations": [
           {
             "text": "a water pump",
             "meaningZh": "抽水幫浦"
           }
+        ],
+        "examples": [
+          {
+            "en": "The gas station has several pumps for different fuel types.",
+            "zh": "這座加油站有好幾個不同油種的加油幫浦。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -568,9 +768,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pumpkin",
@@ -584,23 +782,33 @@
       {
         "id": "s_pumpkin_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a large round orange fruit with a thick shell, often used in cooking or as a Halloween decoration",
         "definitionZh": "南瓜",
         "usageExplanationZh": "常見於萬聖節裝飾（jack-o'-lantern）或秋季料理，如 pumpkin pie。",
-        "examples": [
-          {
-            "en": "They carved a pumpkin for Halloween.",
-            "zh": "他們雕刻了一顆南瓜來過萬聖節。"
-          }
+        "grammarPatterns": [
+          "carve a pumpkin",
+          "a pumpkin pie",
+          "grow pumpkins"
         ],
         "collocations": [
           {
             "text": "pumpkin pie",
             "meaningZh": "南瓜派"
           }
+        ],
+        "examples": [
+          {
+            "en": "They carved a pumpkin for Halloween.",
+            "zh": "他們雕刻了一顆南瓜來過萬聖節。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -611,9 +819,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_punch",
@@ -627,23 +833,38 @@
       {
         "id": "s_punch_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a quick, hard blow with a closed fist",
         "definitionZh": "拳擊；一拳",
         "usageExplanationZh": "常見 throw a punch、a punch in the face；也可作動詞 punch someone，指用拳頭擊打。",
-        "examples": [
-          {
-            "en": "He landed a punch square on his opponent's jaw.",
-            "zh": "他一拳正中對手的下巴。"
-          }
+        "grammarPatterns": [
+          "throw a punch",
+          "land a punch on + noun",
+          "a punch to + noun"
         ],
         "collocations": [
           {
             "text": "throw a punch",
             "meaningZh": "揮拳"
           }
+        ],
+        "examples": [
+          {
+            "en": "He landed a punch square on his opponent's jaw.",
+            "zh": "他一拳正中對手的下巴。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "blow",
+        "noteZh": "一記重擊，範圍較廣"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -655,14 +876,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "blow",
-        "noteZh": "一記重擊，範圍較廣"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_punctilious",
@@ -676,21 +890,47 @@
       {
         "id": "s_punctilious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "very careful and precise about details, especially rules of behavior",
         "definitionZh": "一絲不苟的；拘泥細節的",
         "usageExplanationZh": "常修飾 person、attention to detail，語氣正式，強調近乎苛求的謹慎與規矩。",
-        "examples": [
-          {
-            "en": "She was punctilious about following office etiquette.",
-            "zh": "她對遵守辦公室禮儀一絲不苟。"
-          }
+        "grammarPatterns": [
+          "be punctilious about + noun",
+          "a punctilious + noun"
         ],
         "collocations": [
           {
             "text": "punctilious about etiquette",
             "meaningZh": "非常講究禮節"
           }
+        ],
+        "examples": [
+          {
+            "en": "She was punctilious about following office etiquette.",
+            "zh": "她對遵守辦公室禮儀一絲不苟。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "meticulous",
+        "noteZh": "注重細節且一絲不苟的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "careless",
+        "noteZh": "粗心的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "punctiliously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "一絲不苟地"
       }
     ],
     "tags": [
@@ -703,19 +943,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "meticulous",
-        "noteZh": "注重細節且一絲不苟的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "careless",
-        "noteZh": "粗心的"
-      }
-    ]
+    }
   },
   {
     "id": "w_puncture",
@@ -729,23 +957,39 @@
       {
         "id": "s_puncture_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a small hole made by a sharp object, especially in a tire",
         "definitionZh": "刺孔；戳破的洞",
         "usageExplanationZh": "常見 tire puncture，也可作動詞 puncture a tire/balloon，表示戳破、刺穿。",
-        "examples": [
-          {
-            "en": "He got a puncture on his bike tire during the ride.",
-            "zh": "他騎車途中，腳踏車輪胎被戳破了一個洞。"
-          }
+        "grammarPatterns": [
+          "get a puncture",
+          "a puncture in + noun",
+          "repair a puncture"
         ],
         "collocations": [
           {
             "text": "a tire puncture",
             "meaningZh": "輪胎破孔"
           }
+        ],
+        "examples": [
+          {
+            "en": "He got a puncture on his bike tire during the ride.",
+            "zh": "他騎車途中，腳踏車輪胎被戳破了一個洞。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "perforation",
+        "noteZh": "被刺穿的小孔"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -758,14 +1002,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "perforation",
-        "noteZh": "被刺穿的小孔"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pungent",
@@ -779,21 +1016,48 @@
       {
         "id": "s_pungent_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "having a sharp, strong smell or taste",
         "definitionZh": "刺激性的；辛辣的",
         "usageExplanationZh": "常修飾 smell、odor、taste，形容味道或氣味濃烈刺鼻，如 garlic's pungent aroma。",
-        "examples": [
-          {
-            "en": "The pungent smell of garlic filled the kitchen.",
-            "zh": "廚房裡瀰漫著大蒜刺鼻的氣味。"
-          }
+        "grammarPatterns": [
+          "a pungent + noun",
+          "the pungent smell of + noun"
         ],
         "collocations": [
           {
             "text": "a pungent smell",
             "meaningZh": "刺鼻的氣味"
           }
+        ],
+        "examples": [
+          {
+            "en": "The pungent smell of garlic filled the kitchen.",
+            "zh": "廚房裡瀰漫著大蒜刺鼻的氣味。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "acrid",
+        "noteZh": "指刺鼻的氣味"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "mild",
+        "noteZh": "氣味或味道溫和的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "pungency",
+        "partOfSpeech": "noun",
+        "meaningZh": "辛辣；刺激性"
       }
     ],
     "tags": [
@@ -808,19 +1072,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "acrid",
-        "noteZh": "指刺鼻的氣味"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "mild",
-        "noteZh": "氣味或味道溫和的"
-      }
-    ]
+    }
   },
   {
     "id": "w_puny",
@@ -834,21 +1086,40 @@
       {
         "id": "s_puny_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "small and weak, especially in a way that seems inadequate",
         "definitionZh": "瘦弱的；微不足道的",
         "usageExplanationZh": "常帶輕視語氣，形容身體弱小或力量、規模不足，如 puny effort。",
-        "examples": [
-          {
-            "en": "His puny arms could barely lift the box.",
-            "zh": "他瘦弱的手臂幾乎抬不動那個箱子。"
-          }
+        "grammarPatterns": [
+          "a puny + noun",
+          "look puny"
         ],
         "collocations": [
           {
             "text": "a puny effort",
             "meaningZh": "微不足道的努力"
           }
+        ],
+        "examples": [
+          {
+            "en": "His puny arms could barely lift the box.",
+            "zh": "他瘦弱的手臂幾乎抬不動那個箱子。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "feeble",
+        "noteZh": "弱小無力的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "robust",
+        "noteZh": "強健的"
       }
     ],
     "tags": [
@@ -861,19 +1132,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "feeble",
-        "noteZh": "弱小無力的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "robust",
-        "noteZh": "強健的"
-      }
-    ]
+    }
   },
   {
     "id": "w_purchase",
@@ -887,14 +1146,17 @@
       {
         "id": "s_purchase_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "something bought, or the act of buying something",
         "definitionZh": "購買；購買的物品",
         "usageExplanationZh": "常見 make a purchase；也可作動詞 purchase something，語氣比 buy 正式。",
-        "examples": [
-          {
-            "en": "She was happy with her new purchase.",
-            "zh": "她對自己新買的東西感到滿意。"
-          }
+        "grammarPatterns": [
+          "make a purchase",
+          "the purchase of + noun",
+          "a recent purchase"
         ],
         "collocations": [
           {
@@ -905,7 +1167,27 @@
             "text": "proof of purchase",
             "meaningZh": "購買證明"
           }
+        ],
+        "examples": [
+          {
+            "en": "She was happy with her new purchase.",
+            "zh": "她對自己新買的東西感到滿意。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "acquisition",
+        "noteZh": "指購得的物品或購置行為"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "purchaser",
+        "partOfSpeech": "noun",
+        "meaningZh": "購買者；買方"
       }
     ],
     "tags": [
@@ -919,14 +1201,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "acquisition",
-        "noteZh": "指購得的物品或購置行為"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pure",
@@ -940,14 +1215,15 @@
       {
         "id": "s_pure_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "not mixed with anything else; complete and total",
         "definitionZh": "純的；純粹的",
         "usageExplanationZh": "常修飾物質（pure gold）或抽象程度（pure luck），強調不含雜質或百分之百的性質。",
-        "examples": [
-          {
-            "en": "The necklace is made of pure gold.",
-            "zh": "這條項鍊是純金打造的。"
-          }
+        "grammarPatterns": [
+          "pure + noun",
+          "be made of pure + noun"
         ],
         "collocations": [
           {
@@ -958,7 +1234,42 @@
             "text": "pure coincidence",
             "meaningZh": "純屬巧合"
           }
+        ],
+        "examples": [
+          {
+            "en": "The necklace is made of pure gold.",
+            "zh": "這條項鍊是純金打造的。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "unmixed",
+        "noteZh": "未摻雜其他物質的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "impure",
+        "noteZh": "不純的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "purity",
+        "partOfSpeech": "noun",
+        "meaningZh": "純度；純淨"
+      },
+      {
+        "lemma": "purify",
+        "partOfSpeech": "verb",
+        "meaningZh": "淨化；提純"
+      },
+      {
+        "lemma": "purely",
+        "partOfSpeech": "adverb",
+        "meaningZh": "純粹地；完全地"
       }
     ],
     "tags": [
@@ -972,19 +1283,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "unmixed",
-        "noteZh": "未摻雜其他物質的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "impure",
-        "noteZh": "不純的"
-      }
-    ]
+    }
   },
   {
     "id": "w_purport",
@@ -998,21 +1297,43 @@
       {
         "id": "s_purport_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to claim to be or do something, especially when this may not be true",
         "definitionZh": "聲稱；意圖是",
         "usageExplanationZh": "常見 purport to be/do，語氣帶懷疑，暗示所聲稱的內容可能不實。",
-        "examples": [
-          {
-            "en": "The document purports to be an official government report.",
-            "zh": "這份文件聲稱是一份官方政府報告。"
-          }
+        "grammarPatterns": [
+          "purport to be + noun",
+          "purport to + V"
         ],
         "collocations": [
           {
             "text": "purport to be",
             "meaningZh": "聲稱是"
           }
+        ],
+        "examples": [
+          {
+            "en": "The document purports to be an official government report.",
+            "zh": "這份文件聲稱是一份官方政府報告。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "claim",
+        "noteZh": "聲稱某事為真"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "purportedly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "據稱；據說"
       }
     ],
     "tags": [
@@ -1026,14 +1347,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "claim",
-        "noteZh": "聲稱某事為真"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pursue",
@@ -1047,21 +1361,54 @@
       {
         "id": "s_pursue_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to follow or work toward achieving a goal, career, or activity over time",
         "definitionZh": "追求；從事",
         "usageExplanationZh": "常接抽象受詞，如 pursue a career、pursue happiness，強調長期投入努力達成目標。",
-        "examples": [
-          {
-            "en": "She decided to pursue a career in medicine.",
-            "zh": "她決定投身醫學這項職業。"
-          }
+        "grammarPatterns": [
+          "pursue + noun",
+          "pursue a career in + noun",
+          "pursue sth further"
         ],
         "collocations": [
           {
             "text": "pursue a career in",
             "meaningZh": "從事……方面的職業"
           }
+        ],
+        "examples": [
+          {
+            "en": "She decided to pursue a career in medicine.",
+            "zh": "她決定投身醫學這項職業。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "seek",
+        "noteZh": "設法取得或達成"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "abandon",
+        "noteZh": "放棄追求"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "pursuit",
+        "partOfSpeech": "noun",
+        "meaningZh": "追求；追逐"
+      },
+      {
+        "lemma": "pursuer",
+        "partOfSpeech": "noun",
+        "meaningZh": "追趕者"
       }
     ],
     "tags": [
@@ -1075,19 +1422,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "seek",
-        "noteZh": "設法取得或達成"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "abandon",
-        "noteZh": "放棄追求"
-      }
-    ]
+    }
   },
   {
     "id": "w_pursuit",
@@ -1101,14 +1436,17 @@
       {
         "id": "s_pursuit_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "an activity that someone spends time on, especially for pleasure; the act of chasing something",
         "definitionZh": "追求的活動；愛好；追逐",
         "usageExplanationZh": "常見 leisure pursuits（休閒活動）或 in pursuit of（追求某事）。",
-        "examples": [
-          {
-            "en": "Gardening is one of her favorite pursuits.",
-            "zh": "園藝是她最喜愛的休閒活動之一。"
-          }
+        "grammarPatterns": [
+          "the pursuit of + noun",
+          "in pursuit of + noun",
+          "a + adjective + pursuit"
         ],
         "collocations": [
           {
@@ -1119,7 +1457,31 @@
             "text": "leisure pursuits",
             "meaningZh": "休閒活動"
           }
+        ],
+        "examples": [
+          {
+            "en": "Gardening is one of her favorite pursuits.",
+            "zh": "園藝是她最喜愛的休閒活動之一。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "chase",
+        "noteZh": "指追逐"
+      },
+      {
+        "lemma": "pastime",
+        "noteZh": "指休閒活動"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "pursue",
+        "partOfSpeech": "verb",
+        "meaningZh": "追求；從事"
       }
     ],
     "tags": [
@@ -1132,18 +1494,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "chase",
-        "noteZh": "指追逐"
-      },
-      {
-        "lemma": "pastime",
-        "noteZh": "指休閒活動"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_putative",
@@ -1157,21 +1508,43 @@
       {
         "id": "s_putative_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "generally believed or assumed to be the case, though not proven",
         "definitionZh": "據稱的；推定的",
         "usageExplanationZh": "正式、法律語境常見，如 putative father，指未經證實但普遍被認定的身分或事實。",
-        "examples": [
-          {
-            "en": "He is the putative author of the anonymous letter.",
-            "zh": "他被推定是這封匿名信的作者。"
-          }
+        "grammarPatterns": [
+          "the putative + noun",
+          "a putative + noun"
         ],
         "collocations": [
           {
             "text": "the putative cause",
             "meaningZh": "推定的原因"
           }
+        ],
+        "examples": [
+          {
+            "en": "He is the putative author of the anonymous letter.",
+            "zh": "他被推定是這封匿名信的作者。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "presumed",
+        "noteZh": "被推定為如此的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "putatively",
+        "partOfSpeech": "adverb",
+        "meaningZh": "據推測地"
       }
     ],
     "tags": [
@@ -1184,14 +1557,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "presumed",
-        "noteZh": "被推定為如此的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_puzzle",
@@ -1205,21 +1571,43 @@
       {
         "id": "s_puzzle_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a game or problem designed to test ingenuity or knowledge",
         "definitionZh": "謎題；拼圖",
         "usageExplanationZh": "常見 jigsaw puzzle、crossword puzzle；也可指令人困惑不解的情況。",
-        "examples": [
-          {
-            "en": "She spent the afternoon working on a jigsaw puzzle.",
-            "zh": "她花了一整個下午拼拼圖。"
-          }
+        "grammarPatterns": [
+          "solve a puzzle",
+          "work on a puzzle",
+          "a jigsaw puzzle"
         ],
         "collocations": [
           {
             "text": "a jigsaw puzzle",
             "meaningZh": "拼圖"
           }
+        ],
+        "examples": [
+          {
+            "en": "She spent the afternoon working on a jigsaw puzzle.",
+            "zh": "她花了一整個下午拼拼圖。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "riddle",
+        "noteZh": "需動腦解答的謎題"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "puzzlement",
+        "partOfSpeech": "noun",
+        "meaningZh": "困惑；迷惑"
       }
     ],
     "tags": [
@@ -1233,14 +1621,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "riddle",
-        "noteZh": "需動腦解答的謎題"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_pyramid",
@@ -1254,21 +1635,39 @@
       {
         "id": "s_pyramid_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "a large stone structure with a square base and four triangular sides, especially those built in ancient Egypt",
         "definitionZh": "金字塔",
         "usageExplanationZh": "常指埃及古蹟；也可比喻指組織架構，如 pyramid scheme（老鼠會、金字塔騙局）。",
-        "examples": [
-          {
-            "en": "Tourists from around the world visit the pyramids of Egypt.",
-            "zh": "來自世界各地的遊客造訪埃及的金字塔。"
-          }
+        "grammarPatterns": [
+          "build a pyramid",
+          "the pyramids of + noun",
+          "in the shape of a pyramid"
         ],
         "collocations": [
           {
             "text": "the Egyptian pyramids",
             "meaningZh": "埃及金字塔"
           }
+        ],
+        "examples": [
+          {
+            "en": "Tourists from around the world visit the pyramids of Egypt.",
+            "zh": "來自世界各地的遊客造訪埃及的金字塔。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "pyramidal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "金字塔形的"
       }
     ],
     "tags": [
@@ -1281,9 +1680,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_qualification",
@@ -1297,21 +1694,49 @@
       {
         "id": "s_qualification_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "a skill, quality, or official record that makes someone suitable for a job or task",
         "definitionZh": "資格；條件",
         "usageExplanationZh": "常見 job qualifications、academic qualifications，指達成某職位或任務所需的能力或證明。",
-        "examples": [
-          {
-            "en": "A teaching qualification is required for this position.",
-            "zh": "這個職位需要教師資格。"
-          }
+        "grammarPatterns": [
+          "a qualification in + noun",
+          "have the qualifications for + noun",
+          "a teaching qualification"
         ],
         "collocations": [
           {
             "text": "academic qualifications",
             "meaningZh": "學歷"
           }
+        ],
+        "examples": [
+          {
+            "en": "A teaching qualification is required for this position.",
+            "zh": "這個職位需要教師資格。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "credential",
+        "noteZh": "證明能力或資格的文件"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "qualify",
+        "partOfSpeech": "verb",
+        "meaningZh": "取得資格"
+      },
+      {
+        "lemma": "qualified",
+        "partOfSpeech": "adjective",
+        "meaningZh": "合格的；有資格的"
       }
     ],
     "tags": [
@@ -1325,14 +1750,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "credential",
-        "noteZh": "證明能力或資格的文件"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_qualify",
@@ -1346,14 +1764,16 @@
       {
         "id": "s_qualify_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to have the right skills or meet the requirements needed for something",
         "definitionZh": "取得資格；具備資格",
         "usageExplanationZh": "常見 qualify for/as，如 qualify for a loan、qualify as a doctor。",
-        "examples": [
-          {
-            "en": "She qualified as a lawyer after passing the bar exam.",
-            "zh": "她通過律師考試後取得了律師資格。"
-          }
+        "grammarPatterns": [
+          "qualify as + noun",
+          "qualify for + noun",
+          "qualify to + V"
         ],
         "collocations": [
           {
@@ -1364,7 +1784,37 @@
             "text": "qualify as a teacher",
             "meaningZh": "取得教師資格"
           }
+        ],
+        "examples": [
+          {
+            "en": "She qualified as a lawyer after passing the bar exam.",
+            "zh": "她通過律師考試後取得了律師資格。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "be eligible",
+        "noteZh": "符合參加或取得資格的條件"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "qualification",
+        "partOfSpeech": "noun",
+        "meaningZh": "資格；條件"
+      },
+      {
+        "lemma": "qualified",
+        "partOfSpeech": "adjective",
+        "meaningZh": "合格的"
+      },
+      {
+        "lemma": "unqualified",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不合格的；無條件的"
       }
     ],
     "tags": [
@@ -1378,14 +1828,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "be eligible",
-        "noteZh": "符合參加或取得資格的條件"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_qualitative",
@@ -1399,21 +1842,43 @@
       {
         "id": "s_qualitative_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "relating to the nature or quality of something rather than its quantity",
         "definitionZh": "性質上的；定性的",
         "usageExplanationZh": "常與 quantitative 相對，用於研究方法語境，如 qualitative research（質性研究）。",
-        "examples": [
-          {
-            "en": "The study used qualitative research methods, such as interviews.",
-            "zh": "這項研究採用了質性研究方法，例如訪談。"
-          }
+        "grammarPatterns": [
+          "qualitative + noun",
+          "qualitative research on + noun"
         ],
         "collocations": [
           {
             "text": "qualitative research",
             "meaningZh": "質性研究"
           }
+        ],
+        "examples": [
+          {
+            "en": "The study used qualitative research methods, such as interviews.",
+            "zh": "這項研究採用了質性研究方法，例如訪談。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "quality",
+        "partOfSpeech": "noun",
+        "meaningZh": "品質；特質"
+      },
+      {
+        "lemma": "qualitatively",
+        "partOfSpeech": "adverb",
+        "meaningZh": "在性質上"
       }
     ],
     "tags": [
@@ -1426,9 +1891,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_quantitative",
@@ -1442,21 +1905,48 @@
       {
         "id": "s_quantitative_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "relating to or measured by quantity or amount",
         "definitionZh": "數量上的；定量的",
         "usageExplanationZh": "與 qualitative 相對，強調可用數字衡量的資料，如 quantitative analysis（量化分析）。",
-        "examples": [
-          {
-            "en": "The report relies heavily on quantitative data from surveys.",
-            "zh": "這份報告大量依賴問卷調查的量化資料。"
-          }
+        "grammarPatterns": [
+          "quantitative + noun",
+          "quantitative data on + noun"
         ],
         "collocations": [
           {
             "text": "quantitative analysis",
             "meaningZh": "定量分析"
           }
+        ],
+        "examples": [
+          {
+            "en": "The report relies heavily on quantitative data from surveys.",
+            "zh": "這份報告大量依賴問卷調查的量化資料。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "quantity",
+        "partOfSpeech": "noun",
+        "meaningZh": "數量"
+      },
+      {
+        "lemma": "quantify",
+        "partOfSpeech": "verb",
+        "meaningZh": "量化"
+      },
+      {
+        "lemma": "quantitatively",
+        "partOfSpeech": "adverb",
+        "meaningZh": "在數量上"
       }
     ],
     "tags": [
@@ -1470,9 +1960,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_quantity",
@@ -1486,21 +1974,49 @@
       {
         "id": "s_quantity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "an amount or number of something, especially one that can be measured",
         "definitionZh": "數量；量",
         "usageExplanationZh": "常見 a large/small quantity of，強調可測量或計算的「量」，與 quality（品質）相對。",
-        "examples": [
-          {
-            "en": "The factory produces a large quantity of goods each day.",
-            "zh": "這家工廠每天生產大量商品。"
-          }
+        "grammarPatterns": [
+          "a quantity of + noun",
+          "in large quantities",
+          "the quantity of + noun"
         ],
         "collocations": [
           {
             "text": "in large quantities",
             "meaningZh": "大量地"
           }
+        ],
+        "examples": [
+          {
+            "en": "The factory produces a large quantity of goods each day.",
+            "zh": "這家工廠每天生產大量商品。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "amount",
+        "noteZh": "可量度的數量"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "quantify",
+        "partOfSpeech": "verb",
+        "meaningZh": "量化"
+      },
+      {
+        "lemma": "quantitative",
+        "partOfSpeech": "adjective",
+        "meaningZh": "定量的；數量上的"
       }
     ],
     "tags": [
@@ -1513,14 +2029,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "amount",
-        "noteZh": "可量度的數量"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_quantum",
@@ -1534,23 +2043,33 @@
       {
         "id": "s_quantum_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "the smallest possible discrete amount of a physical property, or a required amount or portion",
         "definitionZh": "量子；量",
         "usageExplanationZh": "物理學術語（quantum physics）；日常用語中也可指「一定的量」，如 a quantum of truth。",
-        "examples": [
-          {
-            "en": "Quantum theory revolutionized our understanding of physics.",
-            "zh": "量子理論徹底改變了我們對物理學的理解。"
-          }
+        "grammarPatterns": [
+          "quantum theory",
+          "a quantum of + noun"
         ],
         "collocations": [
           {
             "text": "a quantum of energy",
             "meaningZh": "一個能量量子"
           }
+        ],
+        "examples": [
+          {
+            "en": "Quantum theory revolutionized our understanding of physics.",
+            "zh": "量子理論徹底改變了我們對物理學的理解。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1561,9 +2080,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_quarantine",
@@ -1577,23 +2094,39 @@
       {
         "id": "s_quarantine_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "formal"
+        ],
         "definitionEn": "a period of isolation imposed on people or animals to prevent the spread of disease",
         "definitionZh": "隔離；檢疫",
         "usageExplanationZh": "常見 put someone in quarantine；也可作動詞 quarantine a patient，指強制隔離以防疾病傳播。",
-        "examples": [
-          {
-            "en": "The travelers were placed in quarantine for two weeks.",
-            "zh": "這些旅客被隔離檢疫了兩週。"
-          }
+        "grammarPatterns": [
+          "in quarantine",
+          "place sb in quarantine",
+          "a quarantine period"
         ],
         "collocations": [
           {
             "text": "in quarantine",
             "meaningZh": "處於隔離中"
           }
+        ],
+        "examples": [
+          {
+            "en": "The travelers were placed in quarantine for two weeks.",
+            "zh": "這些旅客被隔離檢疫了兩週。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "isolation",
+        "noteZh": "為防止傳染而隔離，醫學上可能區分接觸者與患者"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1604,14 +2137,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "isolation",
-        "noteZh": "為防止傳染而隔離，醫學上可能區分接觸者與患者"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_quarry",
@@ -1625,23 +2151,38 @@
       {
         "id": "s_quarry_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "formal"
+        ],
         "definitionEn": "to dig stone, sand, or other material out of the ground",
         "definitionZh": "開採（石材等）",
         "usageExplanationZh": "常接 stone、marble 等受詞，指從地表挖掘石材；名詞則指採石場。",
-        "examples": [
-          {
-            "en": "Workers quarried marble from the hillside.",
-            "zh": "工人們從山坡上開採大理石。"
-          }
+        "grammarPatterns": [
+          "quarry + noun",
+          "quarry sth from + noun"
         ],
         "collocations": [
           {
             "text": "quarry stone",
             "meaningZh": "開採石材"
           }
+        ],
+        "examples": [
+          {
+            "en": "Workers quarried marble from the hillside.",
+            "zh": "工人們從山坡上開採大理石。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "extract",
+        "noteZh": "指從地底取出石材等"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1654,14 +2195,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "extract",
-        "noteZh": "指從地底取出石材等"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_quash",
@@ -1675,34 +2209,32 @@
       {
         "id": "s_quash_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to officially reject a legal decision, or to stop something forcefully",
         "definitionZh": "撤銷（判決）；鎮壓",
         "usageExplanationZh": "法律語境指撤銷判決（quash a conviction）；一般語境則指強力平息（quash a rumor/rebellion）。",
-        "examples": [
-          {
-            "en": "The appeals court quashed his conviction.",
-            "zh": "上訴法院撤銷了他的定罪判決。"
-          }
+        "grammarPatterns": [
+          "quash + noun",
+          "quash a conviction",
+          "quash a rebellion"
         ],
         "collocations": [
           {
             "text": "quash a conviction",
             "meaningZh": "撤銷定罪"
           }
+        ],
+        "examples": [
+          {
+            "en": "The appeals court quashed his conviction.",
+            "zh": "上訴法院撤銷了他的定罪判決。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "annul",
@@ -1718,7 +2250,18 @@
         "lemma": "uphold",
         "noteZh": "對應法律裁決之義，指維持原判"
       }
-    ]
+    ],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_queasy",
@@ -1732,21 +2275,47 @@
       {
         "id": "s_queasy_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "feeling as if you are going to vomit, or feeling uneasy about something",
         "definitionZh": "反胃的；不安的",
         "usageExplanationZh": "常見 feel queasy，可指生理上的噁心想吐，也可比喻指心理上的不安、緊張。",
-        "examples": [
-          {
-            "en": "The rough boat ride made her feel queasy.",
-            "zh": "船隻顛簸的航程讓她感到反胃。"
-          }
+        "grammarPatterns": [
+          "feel queasy",
+          "be queasy about + noun"
         ],
         "collocations": [
           {
             "text": "feel queasy",
             "meaningZh": "覺得反胃"
           }
+        ],
+        "examples": [
+          {
+            "en": "The rough boat ride made her feel queasy.",
+            "zh": "船隻顛簸的航程讓她感到反胃。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "nauseous",
+        "noteZh": "感到噁心的"
+      },
+      {
+        "lemma": "uneasy",
+        "noteZh": "指心裡不安的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "queasiness",
+        "partOfSpeech": "noun",
+        "meaningZh": "反胃；不安"
       }
     ],
     "tags": [
@@ -1759,18 +2328,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "nauseous",
-        "noteZh": "感到噁心的"
-      },
-      {
-        "lemma": "uneasy",
-        "noteZh": "指心裡不安的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_quell",
@@ -1784,14 +2342,17 @@
       {
         "id": "s_quell_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to stop or suppress something, especially a feeling or a disturbance",
         "definitionZh": "平息；壓制",
         "usageExplanationZh": "常接 fear、rebellion、rumor 等，語氣正式，指用力量或行動使某事平息下來。",
-        "examples": [
-          {
-            "en": "The government sent troops to quell the uprising.",
-            "zh": "政府派遣軍隊鎮壓了這場暴動。"
-          }
+        "grammarPatterns": [
+          "quell + noun",
+          "quell an uprising",
+          "quell fears about + noun"
         ],
         "collocations": [
           {
@@ -1802,7 +2363,25 @@
             "text": "quell fears",
             "meaningZh": "消除恐懼"
           }
+        ],
+        "examples": [
+          {
+            "en": "The government sent troops to quell the uprising.",
+            "zh": "政府派遣軍隊鎮壓了這場暴動。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "suppress",
+        "noteZh": "壓制騷動或情緒"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "incite",
+        "noteZh": "煽動騷亂"
       }
     ],
     "tags": [
@@ -1816,19 +2395,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "suppress",
-        "noteZh": "壓制騷動或情緒"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "incite",
-        "noteZh": "煽動騷亂"
-      }
-    ]
+    }
   },
   {
     "id": "w_querulous",
@@ -1842,21 +2409,48 @@
       {
         "id": "s_querulous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "complaining a lot in an irritable or whining way",
         "definitionZh": "愛抱怨的；牢騷滿腹的",
         "usageExplanationZh": "形容人習慣性地抱怨、語氣不滿，常修飾 tone、voice。",
-        "examples": [
-          {
-            "en": "The querulous old man complained about everything at dinner.",
-            "zh": "這位愛抱怨的老人在晚餐時對每件事都有意見。"
-          }
+        "grammarPatterns": [
+          "a querulous + noun",
+          "in a querulous tone"
         ],
         "collocations": [
           {
             "text": "a querulous tone",
             "meaningZh": "牢騷滿腹的口氣"
           }
+        ],
+        "examples": [
+          {
+            "en": "The querulous old man complained about everything at dinner.",
+            "zh": "這位愛抱怨的老人在晚餐時對每件事都有意見。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "complaining",
+        "noteZh": "愛發牢騷的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "uncomplaining",
+        "noteZh": "不抱怨的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "querulously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "抱怨地；牢騷地"
       }
     ],
     "tags": [
@@ -1869,19 +2463,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "complaining",
-        "noteZh": "愛發牢騷的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "uncomplaining",
-        "noteZh": "不抱怨的"
-      }
-    ]
+    }
   },
   {
     "id": "w_query",
@@ -1895,23 +2477,39 @@
       {
         "id": "s_query_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "a question, especially one expressing doubt or requesting information",
         "definitionZh": "疑問；詢問",
         "usageExplanationZh": "常見 a query about，也可作動詞 query something，表示對某事提出質疑或詢問。",
-        "examples": [
-          {
-            "en": "He sent a query to customer support about his order.",
-            "zh": "他向客服提出了關於訂單的詢問。"
-          }
+        "grammarPatterns": [
+          "a query about + noun",
+          "send a query to + sb",
+          "raise a query"
         ],
         "collocations": [
           {
             "text": "raise a query",
             "meaningZh": "提出疑問"
           }
+        ],
+        "examples": [
+          {
+            "en": "He sent a query to customer support about his order.",
+            "zh": "他向客服提出了關於訂單的詢問。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "inquiry",
+        "noteZh": "為取得資訊而詢問"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1923,14 +2521,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "inquiry",
-        "noteZh": "為取得資訊而詢問"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_quest",
@@ -1944,23 +2535,39 @@
       {
         "id": "s_quest_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "a long search for something that is difficult to find, often for a specific purpose",
         "definitionZh": "追尋；探索",
         "usageExplanationZh": "常見 quest for + N，如 quest for knowledge/truth，語氣帶有史詩、冒險色彩。",
-        "examples": [
-          {
-            "en": "Her quest for the perfect recipe took years.",
-            "zh": "她追尋完美食譜的過程花了好幾年。"
-          }
+        "grammarPatterns": [
+          "a quest for + noun",
+          "in quest of + noun",
+          "go on a quest"
         ],
         "collocations": [
           {
             "text": "a quest for knowledge",
             "meaningZh": "對知識的追求"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her quest for the perfect recipe took years.",
+            "zh": "她追尋完美食譜的過程花了好幾年。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "search",
+        "noteZh": "尋求難以找到的事物"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1973,14 +2580,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "search",
-        "noteZh": "尋求難以找到的事物"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_questionable",
@@ -1994,21 +2594,58 @@
       {
         "id": "s_questionable_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "not certain to be true, appropriate, or of good quality; possibly wrong or dishonest",
         "definitionZh": "可疑的；有問題的",
         "usageExplanationZh": "常修飾 decision、ethics、quality，表示對某事的正當性或真實性有所質疑。",
-        "examples": [
-          {
-            "en": "The company's accounting practices were highly questionable.",
-            "zh": "這家公司的會計作法非常可疑。"
-          }
+        "grammarPatterns": [
+          "a questionable + noun",
+          "highly questionable",
+          "it is questionable whether + clause"
         ],
         "collocations": [
           {
             "text": "questionable motives",
             "meaningZh": "可疑的動機"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company's accounting practices were highly questionable.",
+            "zh": "這家公司的會計作法非常可疑。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "dubious",
+        "noteZh": "值得懷疑的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "unquestionable",
+        "noteZh": "無可置疑的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "question",
+        "partOfSpeech": "noun",
+        "meaningZh": "問題；疑問"
+      },
+      {
+        "lemma": "questionably",
+        "partOfSpeech": "adverb",
+        "meaningZh": "可疑地"
+      },
+      {
+        "lemma": "unquestionable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "無庸置疑的"
       }
     ],
     "tags": [
@@ -2021,19 +2658,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "dubious",
-        "noteZh": "值得懷疑的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "unquestionable",
-        "noteZh": "無可置疑的"
-      }
-    ]
+    }
   },
   {
     "id": "w_questionnaire",
@@ -2047,21 +2672,44 @@
       {
         "id": "s_questionnaire_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "a set of written questions used to collect information from people",
         "definitionZh": "問卷",
         "usageExplanationZh": "常見 fill out a questionnaire，指用於調查或研究的書面問題表。",
-        "examples": [
-          {
-            "en": "Participants were asked to complete a questionnaire about their eating habits.",
-            "zh": "參與者被要求填寫一份關於飲食習慣的問卷。"
-          }
+        "grammarPatterns": [
+          "complete a questionnaire",
+          "a questionnaire about + noun",
+          "fill in a questionnaire"
         ],
         "collocations": [
           {
             "text": "fill out a questionnaire",
             "meaningZh": "填寫問卷"
           }
+        ],
+        "examples": [
+          {
+            "en": "Participants were asked to complete a questionnaire about their eating habits.",
+            "zh": "參與者被要求填寫一份關於飲食習慣的問卷。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "survey form",
+        "noteZh": "用來蒐集回答的調查表"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "question",
+        "partOfSpeech": "noun",
+        "meaningZh": "問題；提問"
       }
     ],
     "tags": [
@@ -2075,14 +2723,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "survey form",
-        "noteZh": "用來蒐集回答的調查表"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_queue",
@@ -2096,23 +2737,38 @@
       {
         "id": "s_queue_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a line of people or vehicles waiting for something",
         "definitionZh": "隊伍；排隊",
         "usageExplanationZh": "英式用語（美式常用 line）；電腦科學語境中則指等待處理的工作序列。",
-        "examples": [
-          {
-            "en": "We had to wait in a long queue to buy tickets.",
-            "zh": "我們必須排一條長長的隊伍才能買到票。"
-          }
+        "grammarPatterns": [
+          "a queue of + noun",
+          "wait in a queue",
+          "join the queue"
         ],
         "collocations": [
           {
             "text": "join the queue",
             "meaningZh": "加入隊伍"
           }
+        ],
+        "examples": [
+          {
+            "en": "We had to wait in a long queue to buy tickets.",
+            "zh": "我們必須排一條長長的隊伍才能買到票。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "line",
+        "noteZh": "美式英語常用來指排隊人龍"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -2123,14 +2779,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "line",
-        "noteZh": "美式英語常用來指排隊人龍"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_quilt",
@@ -2144,23 +2793,38 @@
       {
         "id": "s_quilt_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a warm bed covering made of two layers of fabric with soft material stitched between them",
         "definitionZh": "棉被；被子",
         "usageExplanationZh": "常見 patchwork quilt（拼布被），強調手工縫製、有厚度的寢具，與薄毯 blanket 不同。",
-        "examples": [
-          {
-            "en": "Her grandmother made her a beautiful patchwork quilt.",
-            "zh": "她的祖母為她做了一床美麗的拼布被。"
-          }
+        "grammarPatterns": [
+          "make a quilt",
+          "a patchwork quilt",
+          "under a quilt"
         ],
         "collocations": [
           {
             "text": "a patchwork quilt",
             "meaningZh": "拼布被"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her grandmother made her a beautiful patchwork quilt.",
+            "zh": "她的祖母為她做了一床美麗的拼布被。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "comforter",
+        "noteZh": "美式英語指厚棉被，未必有拼布或絎縫"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -2171,14 +2835,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "comforter",
-        "noteZh": "美式英語指厚棉被，未必有拼布或絎縫"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_quip",
@@ -2192,23 +2849,39 @@
       {
         "id": "s_quip_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal",
+          "literary"
+        ],
         "definitionEn": "a short, clever, and amusing remark",
         "definitionZh": "妙語；俏皮話",
         "usageExplanationZh": "常見 make a quip，強調簡短機智、帶點諷刺幽默的話語。",
-        "examples": [
-          {
-            "en": "He made a witty quip that had everyone laughing.",
-            "zh": "他說了一句機智的妙語，逗得大家哈哈大笑。"
-          }
+        "grammarPatterns": [
+          "make a quip",
+          "a quip about + noun",
+          "a witty quip"
         ],
         "collocations": [
           {
             "text": "make a quip",
             "meaningZh": "說一句俏皮話"
           }
+        ],
+        "examples": [
+          {
+            "en": "He made a witty quip that had everyone laughing.",
+            "zh": "他說了一句機智的妙語，逗得大家哈哈大笑。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "wisecrack",
+        "noteZh": "俏皮而機智的話，較口語"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -2219,14 +2892,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "wisecrack",
-        "noteZh": "俏皮而機智的話，較口語"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_quixotic",
@@ -2240,21 +2906,41 @@
       {
         "id": "s_quixotic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "having idealistic goals that are impractical or unlikely to succeed",
         "definitionZh": "不切實際的；空想的",
         "usageExplanationZh": "源自唐吉軻德（Don Quixote），形容理想過於浪漫但脫離現實，常修飾 plan、pursuit。",
-        "examples": [
-          {
-            "en": "His quixotic plan to reform the entire industry alone was doomed to fail.",
-            "zh": "他企圖獨自改革整個產業的不切實際計畫注定會失敗。"
-          }
+        "grammarPatterns": [
+          "a quixotic + noun",
+          "a quixotic attempt to + V"
         ],
         "collocations": [
           {
             "text": "a quixotic quest",
             "meaningZh": "不切實際的追求"
           }
+        ],
+        "examples": [
+          {
+            "en": "His quixotic plan to reform the entire industry alone was doomed to fail.",
+            "zh": "他企圖獨自改革整個產業的不切實際計畫注定會失敗。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "impractical",
+        "noteZh": "想法脫離現實的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "pragmatic",
+        "noteZh": "務實的"
       }
     ],
     "tags": [
@@ -2267,19 +2953,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "impractical",
-        "noteZh": "想法脫離現實的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "pragmatic",
-        "noteZh": "務實的"
-      }
-    ]
+    }
   },
   {
     "id": "w_quota",
@@ -2293,23 +2967,39 @@
       {
         "id": "s_quota_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "an official limit on the number or amount of something that is allowed",
         "definitionZh": "限額；配額",
         "usageExplanationZh": "常見 import quota、sales quota，指官方或組織設定的數量上限或目標。",
-        "examples": [
-          {
-            "en": "The company set a monthly sales quota for each employee.",
-            "zh": "公司為每位員工設定了每月的銷售配額。"
-          }
+        "grammarPatterns": [
+          "a quota of + noun",
+          "meet a quota",
+          "set a quota on + noun"
         ],
         "collocations": [
           {
             "text": "an import quota",
             "meaningZh": "進口配額"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company set a monthly sales quota for each employee.",
+            "zh": "公司為每位員工設定了每月的銷售配額。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "allocation",
+        "noteZh": "指分配到的數額"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2322,14 +3012,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "allocation",
-        "noteZh": "指分配到的數額"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_quotation",
@@ -2343,14 +3026,17 @@
       {
         "id": "s_quotation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "a sentence or phrase taken from a book or speech, or an official price estimate for a job",
         "definitionZh": "引文；報價",
         "usageExplanationZh": "兩義：文學／演講中的引用語句；商業語境中承包商或供應商提供的價格估算。",
-        "examples": [
-          {
-            "en": "He began his speech with a quotation from Lincoln.",
-            "zh": "他以林肯的一句話作為演講的開場引文。"
-          }
+        "grammarPatterns": [
+          "a quotation from + noun",
+          "begin with a quotation",
+          "get a quotation for + noun"
         ],
         "collocations": [
           {
@@ -2361,7 +3047,31 @@
             "text": "a quotation from a speech",
             "meaningZh": "演說的引文"
           }
+        ],
+        "examples": [
+          {
+            "en": "He began his speech with a quotation from Lincoln.",
+            "zh": "他以林肯的一句話作為演講的開場引文。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "citation",
+        "noteZh": "指引文"
+      },
+      {
+        "lemma": "estimate",
+        "noteZh": "指價格估算"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "quote",
+        "partOfSpeech": "verb",
+        "meaningZh": "引用；報價"
       }
     ],
     "tags": [
@@ -2374,18 +3084,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "citation",
-        "noteZh": "指引文"
-      },
-      {
-        "lemma": "estimate",
-        "noteZh": "指價格估算"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_quote",
@@ -2399,21 +3098,44 @@
       {
         "id": "s_quote_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "academic",
+          "neutral"
+        ],
         "definitionEn": "to repeat exactly what someone else has said or written",
         "definitionZh": "引述；引用",
         "usageExplanationZh": "常接 sb as saying、quote from a book；也可作名詞 a quote，指引文或報價。",
-        "examples": [
-          {
-            "en": "She quoted a famous line from Shakespeare in her essay.",
-            "zh": "她在文章中引用了莎士比亞的一句名言。"
-          }
+        "grammarPatterns": [
+          "quote + noun",
+          "quote from + noun",
+          "quote sb as saying + clause"
         ],
         "collocations": [
           {
             "text": "quote someone verbatim",
             "meaningZh": "逐字引述某人的話"
           }
+        ],
+        "examples": [
+          {
+            "en": "She quoted a famous line from Shakespeare in her essay.",
+            "zh": "她在文章中引用了莎士比亞的一句名言。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "cite",
+        "noteZh": "引述作為依據"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "quotation",
+        "partOfSpeech": "noun",
+        "meaningZh": "引文；報價"
       }
     ],
     "tags": [
@@ -2426,14 +3148,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cite",
-        "noteZh": "引述作為依據"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_rack",
@@ -2447,23 +3162,38 @@
       {
         "id": "s_rack_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a frame or structure with bars or hooks used for holding or storing things",
         "definitionZh": "架子；擱架",
         "usageExplanationZh": "常見 towel rack、luggage rack；片語 rack one's brains 指絞盡腦汁。",
-        "examples": [
-          {
-            "en": "He hung his coat on the rack by the door.",
-            "zh": "他把外套掛在門邊的架子上。"
-          }
+        "grammarPatterns": [
+          "a rack for + noun",
+          "hang sth on a rack",
+          "a + noun + rack"
         ],
         "collocations": [
           {
             "text": "a luggage rack",
             "meaningZh": "行李架"
           }
+        ],
+        "examples": [
+          {
+            "en": "He hung his coat on the rack by the door.",
+            "zh": "他把外套掛在門邊的架子上。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "stand",
+        "noteZh": "用來支撐或存放物品的架子"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2475,13 +3205,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "stand",
-        "noteZh": "用來支撐或存放物品的架子"
-      }
-    ],
-    "antonyms": []
+    }
   }
 ]

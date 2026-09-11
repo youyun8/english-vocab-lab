@@ -11,21 +11,53 @@
       {
         "id": "s_nationwide_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "extending or applying throughout a whole nation",
         "definitionZh": "全國性的",
         "usageExplanationZh": "常修飾 survey、campaign、shortage，強調範圍涵蓋整個國家。",
-        "examples": [
-          {
-            "en": "The company launched a nationwide advertising campaign.",
-            "zh": "這家公司發起了一場全國性的廣告宣傳活動。"
-          }
+        "grammarPatterns": [
+          "a nationwide + noun",
+          "a nationwide campaign"
         ],
         "collocations": [
           {
             "text": "a nationwide survey",
             "meaningZh": "全國性調查"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company launched a nationwide advertising campaign.",
+            "zh": "這家公司發起了一場全國性的廣告宣傳活動。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "countrywide",
+        "noteZh": "遍及全國的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "local",
+        "noteZh": "限範圍，指地方性的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "nation",
+        "partOfSpeech": "noun",
+        "meaningZh": "國家"
+      },
+      {
+        "lemma": "national",
+        "partOfSpeech": "adjective",
+        "meaningZh": "全國的"
       }
     ],
     "tags": [
@@ -38,19 +70,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "countrywide",
-        "noteZh": "遍及全國的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "local",
-        "noteZh": "限範圍，指地方性的"
-      }
-    ]
+    }
   },
   {
     "id": "w_naval",
@@ -64,21 +84,38 @@
       {
         "id": "s_naval_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "formal"
+        ],
         "definitionEn": "relating to a navy or navies",
         "definitionZh": "海軍的",
         "usageExplanationZh": "常修飾 base、fleet、officer，專指與海軍相關的事物，不可與 national 混淆。",
-        "examples": [
-          {
-            "en": "The naval base is located near the harbor.",
-            "zh": "這座海軍基地位於港口附近。"
-          }
+        "grammarPatterns": [
+          "a naval base",
+          "naval + noun"
         ],
         "collocations": [
           {
             "text": "a naval base",
             "meaningZh": "海軍基地"
           }
+        ],
+        "examples": [
+          {
+            "en": "The naval base is located near the harbor.",
+            "zh": "這座海軍基地位於港口附近。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "navy",
+        "partOfSpeech": "noun",
+        "meaningZh": "海軍"
       }
     ],
     "tags": [
@@ -92,9 +129,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_neat",
@@ -108,14 +143,15 @@
       {
         "id": "s_neat_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "arranged carefully and tidily, or (of a solution or idea) clever and efficient",
         "definitionZh": "整潔的；巧妙的",
         "usageExplanationZh": "常形容房間、外表整齊，也可口語表示想法或解決方案很棒，如 a neat trick。",
-        "examples": [
-          {
-            "en": "Her desk is always neat and organized.",
-            "zh": "她的書桌總是整潔有序。"
-          }
+        "grammarPatterns": [
+          "neat and tidy",
+          "keep sth neat"
         ],
         "collocations": [
           {
@@ -126,7 +162,37 @@
             "text": "a neat solution",
             "meaningZh": "巧妙的解決方法"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her desk is always neat and organized.",
+            "zh": "她的書桌總是整潔有序。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "tidy",
+        "noteZh": "限整潔義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "messy",
+        "noteZh": "限整潔義的反義"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "neatly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "整潔地；巧妙地"
+      },
+      {
+        "lemma": "neatness",
+        "partOfSpeech": "noun",
+        "meaningZh": "整潔；工整"
       }
     ],
     "tags": [
@@ -140,19 +206,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "tidy",
-        "noteZh": "限整潔義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "messy",
-        "noteZh": "限整潔義的反義"
-      }
-    ]
+    }
   },
   {
     "id": "w_necessity",
@@ -166,21 +220,58 @@
       {
         "id": "s_necessity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "something that is essential or absolutely needed",
         "definitionZh": "必需品；必要性",
         "usageExplanationZh": "常見 out of necessity（出於必要）、a necessity for survival，強調不可或缺的重要性。",
-        "examples": [
-          {
-            "en": "Clean water is a basic necessity for life.",
-            "zh": "乾淨的水是生活的基本必需品。"
-          }
+        "grammarPatterns": [
+          "a basic necessity",
+          "out of necessity"
         ],
         "collocations": [
           {
             "text": "basic necessities",
             "meaningZh": "基本必需品"
           }
+        ],
+        "examples": [
+          {
+            "en": "Clean water is a basic necessity for life.",
+            "zh": "乾淨的水是生活的基本必需品。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "essential",
+        "noteZh": "作名詞指必需品"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "luxury",
+        "noteZh": "非必要的奢侈品"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "necessary",
+        "partOfSpeech": "adjective",
+        "meaningZh": "必要的；必需的"
+      },
+      {
+        "lemma": "necessitate",
+        "partOfSpeech": "verb",
+        "meaningZh": "使成為必要"
+      },
+      {
+        "lemma": "necessarily",
+        "partOfSpeech": "adverb",
+        "meaningZh": "必然地"
       }
     ],
     "tags": [
@@ -193,19 +284,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "essential",
-        "noteZh": "作名詞指必需品"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "luxury",
-        "noteZh": "非必要的奢侈品"
-      }
-    ]
+    }
   },
   {
     "id": "w_needle",
@@ -219,42 +298,65 @@
       {
         "id": "s_needle_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a thin pointed piece of metal used for sewing or medical injections",
         "definitionZh": "針；縫衣針；注射針",
         "usageExplanationZh": "常見 sewing needle、a needle and thread；medical 情境常指打針用的針頭。",
-        "examples": [
-          {
-            "en": "The nurse used a fine needle to draw blood.",
-            "zh": "護士用細針抽血。"
-          }
+        "grammarPatterns": [
+          "thread a needle",
+          "a needle and thread"
         ],
         "collocations": [
           {
             "text": "a sewing needle",
             "meaningZh": "縫衣針"
           }
+        ],
+        "examples": [
+          {
+            "en": "The nurse used a fine needle to draw blood.",
+            "zh": "護士用細針抽血。"
+          }
         ]
       },
       {
         "id": "s_needle_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "to provoke or irritate someone persistently, often in a teasing way",
         "definitionZh": "不斷激怒或挑逗（某人）",
         "usageExplanationZh": "口語用法，常見 needle someone about something，語氣帶挑釁或調侃意味。",
-        "examples": [
-          {
-            "en": "His coworkers kept needling him about his mistake.",
-            "zh": "同事們一直拿他的錯誤來調侃他。"
-          }
+        "grammarPatterns": [
+          "needle sb about + noun",
+          "keep needling + somebody"
         ],
         "collocations": [
           {
             "text": "needle someone about",
             "meaningZh": "拿……的事不斷逗弄某人"
           }
+        ],
+        "examples": [
+          {
+            "en": "His coworkers kept needling him about his mistake.",
+            "zh": "同事們一直拿他的錯誤來調侃他。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "tease",
+        "noteZh": "限動詞，指挑逗或惹惱"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -265,14 +367,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "tease",
-        "noteZh": "限動詞，指挑逗或惹惱"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_needy",
@@ -286,14 +381,15 @@
       {
         "id": "s_needy_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "lacking basic necessities such as food, money, or shelter, or (informally) emotionally dependent",
         "definitionZh": "貧困的；（口語）過度依賴他人情感的",
         "usageExplanationZh": "常見 the needy（貧困者）；口語也可形容人在感情上黏人、缺乏安全感。",
-        "examples": [
-          {
-            "en": "The charity provides food and shelter for needy families.",
-            "zh": "這個慈善機構為貧困家庭提供食物與住所。"
-          }
+        "grammarPatterns": [
+          "needy families",
+          "the needy"
         ],
         "collocations": [
           {
@@ -304,7 +400,37 @@
             "text": "emotionally needy",
             "meaningZh": "情感上過度依賴的"
           }
+        ],
+        "examples": [
+          {
+            "en": "The charity provides food and shelter for needy families.",
+            "zh": "這個慈善機構為貧困家庭提供食物與住所。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "impoverished",
+        "noteZh": "限貧困義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "wealthy",
+        "noteZh": "限貧困義的反義"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "need",
+        "partOfSpeech": "noun",
+        "meaningZh": "需要；需求"
+      },
+      {
+        "lemma": "neediness",
+        "partOfSpeech": "noun",
+        "meaningZh": "匱乏；過度依賴"
       }
     ],
     "tags": [
@@ -318,19 +444,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "impoverished",
-        "noteZh": "限貧困義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "wealthy",
-        "noteZh": "限貧困義的反義"
-      }
-    ]
+    }
   },
   {
     "id": "w_nefarious",
@@ -344,21 +458,48 @@
       {
         "id": "s_nefarious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "extremely wicked or criminal",
         "definitionZh": "極其邪惡的；奸詐的",
         "usageExplanationZh": "語氣正式書面，常修飾 plot、scheme，強調帶有犯罪或不道德的意圖。",
-        "examples": [
-          {
-            "en": "The detective uncovered the gang's nefarious plans.",
-            "zh": "偵探揭發了這個幫派邪惡的計畫。"
-          }
+        "grammarPatterns": [
+          "nefarious + noun",
+          "nefarious schemes"
         ],
         "collocations": [
           {
             "text": "nefarious activities",
             "meaningZh": "邪惡勾當"
           }
+        ],
+        "examples": [
+          {
+            "en": "The detective uncovered the gang's nefarious plans.",
+            "zh": "偵探揭發了這個幫派邪惡的計畫。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "wicked",
+        "noteZh": "邪惡的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "virtuous",
+        "noteZh": "品德高尚的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "nefariously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "邪惡地"
       }
     ],
     "tags": [
@@ -371,19 +512,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "wicked",
-        "noteZh": "邪惡的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "virtuous",
-        "noteZh": "品德高尚的"
-      }
-    ]
+    }
   },
   {
     "id": "w_negate",
@@ -397,21 +526,53 @@
       {
         "id": "s_negate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to make something ineffective or cancel out its effect",
         "definitionZh": "使無效；抵銷",
         "usageExplanationZh": "常見 negate the effect of，強調某因素完全抵銷或否定另一項效果。",
-        "examples": [
-          {
-            "en": "The high sugar content negates the drink's health benefits.",
-            "zh": "高糖含量抵銷了這款飲料的健康益處。"
-          }
+        "grammarPatterns": [
+          "negate + noun",
+          "negate the effect of + noun"
         ],
         "collocations": [
           {
             "text": "negate the benefits",
             "meaningZh": "抵銷益處"
           }
+        ],
+        "examples": [
+          {
+            "en": "The high sugar content negates the drink's health benefits.",
+            "zh": "高糖含量抵銷了這款飲料的健康益處。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "nullify",
+        "noteZh": "使無效"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "reinforce",
+        "noteZh": "指強化作用"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "negation",
+        "partOfSpeech": "noun",
+        "meaningZh": "否定；否認"
+      },
+      {
+        "lemma": "negative",
+        "partOfSpeech": "adjective",
+        "meaningZh": "否定的；負面的"
       }
     ],
     "tags": [
@@ -425,19 +586,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "nullify",
-        "noteZh": "使無效"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "reinforce",
-        "noteZh": "指強化作用"
-      }
-    ]
+    }
   },
   {
     "id": "w_neglect",
@@ -451,40 +600,83 @@
       {
         "id": "s_neglect_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to fail to give proper care or attention to someone or something",
         "definitionZh": "疏忽；忽視；照顧不周",
         "usageExplanationZh": "常接人或物作受詞，如 neglect a child、neglect one's duties，語氣偏負面且正式。",
-        "examples": [
-          {
-            "en": "The landlord was accused of neglecting the building's maintenance.",
-            "zh": "房東被控疏於維護這棟建築物。"
-          }
+        "grammarPatterns": [
+          "neglect + noun",
+          "neglect to + V"
         ],
         "collocations": [
           {
             "text": "neglect one's duties",
             "meaningZh": "疏於職守"
           }
+        ],
+        "examples": [
+          {
+            "en": "The landlord was accused of neglecting the building's maintenance.",
+            "zh": "房東被控疏於維護這棟建築物。"
+          }
         ]
       },
       {
         "id": "s_neglect_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a lack of proper care or attention",
         "definitionZh": "疏忽；忽視",
         "usageExplanationZh": "常見 child neglect、suffer from neglect，指長期未受到應有照顧的狀態。",
-        "examples": [
-          {
-            "en": "The garden showed signs of years of neglect.",
-            "zh": "這座花園顯露出多年疏於照料的痕跡。"
-          }
+        "grammarPatterns": [
+          "years of neglect",
+          "suffer from neglect"
         ],
         "collocations": [
           {
             "text": "child neglect",
             "meaningZh": "疏於照顧兒童"
           }
+        ],
+        "examples": [
+          {
+            "en": "The garden showed signs of years of neglect.",
+            "zh": "這座花園顯露出多年疏於照料的痕跡。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "disregard",
+        "noteZh": "忽視"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "attend to",
+        "noteZh": "限動詞，指照顧或留意"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "negligence",
+        "partOfSpeech": "noun",
+        "meaningZh": "疏忽；過失"
+      },
+      {
+        "lemma": "negligent",
+        "partOfSpeech": "adjective",
+        "meaningZh": "疏忽的；玩忽職守的"
+      },
+      {
+        "lemma": "negligible",
+        "partOfSpeech": "adjective",
+        "meaningZh": "微不足道的"
       }
     ],
     "tags": [
@@ -498,19 +690,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "disregard",
-        "noteZh": "忽視"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "attend to",
-        "noteZh": "限動詞，指照顧或留意"
-      }
-    ]
+    }
   },
   {
     "id": "w_negligence",
@@ -524,21 +704,53 @@
       {
         "id": "s_negligence_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "a failure to take proper care, especially resulting in harm or damage",
         "definitionZh": "疏忽；過失",
         "usageExplanationZh": "法律用語，常見 medical negligence、negligence lawsuit，強調應盡注意義務卻未盡到。",
-        "examples": [
-          {
-            "en": "The hospital was sued for negligence after the surgical error.",
-            "zh": "醫院因這起手術失誤而被控疏失。"
-          }
+        "grammarPatterns": [
+          "sue sb for negligence",
+          "gross negligence"
         ],
         "collocations": [
           {
             "text": "medical negligence",
             "meaningZh": "醫療過失"
           }
+        ],
+        "examples": [
+          {
+            "en": "The hospital was sued for negligence after the surgical error.",
+            "zh": "醫院因這起手術失誤而被控疏失。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "carelessness",
+        "noteZh": "疏忽大意"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "diligence",
+        "noteZh": "勤勉審慎"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "negligent",
+        "partOfSpeech": "adjective",
+        "meaningZh": "疏忽的"
+      },
+      {
+        "lemma": "neglect",
+        "partOfSpeech": "verb",
+        "meaningZh": "疏忽；忽視"
       }
     ],
     "tags": [
@@ -553,19 +765,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "carelessness",
-        "noteZh": "疏忽大意"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "diligence",
-        "noteZh": "勤勉審慎"
-      }
-    ]
+    }
   },
   {
     "id": "w_negotiable",
@@ -579,21 +779,53 @@
       {
         "id": "s_negotiable_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "open to discussion or change, especially regarding price or terms",
         "definitionZh": "可協商的；可談判的",
         "usageExplanationZh": "常見 the price is negotiable，也可比喻表示條件或立場仍有討論空間。",
-        "examples": [
-          {
-            "en": "The salary is negotiable depending on experience.",
-            "zh": "薪資可依經驗協商。"
-          }
+        "grammarPatterns": [
+          "the price is negotiable",
+          "negotiable terms"
         ],
         "collocations": [
           {
             "text": "the price is negotiable",
             "meaningZh": "價格可以商量"
           }
+        ],
+        "examples": [
+          {
+            "en": "The salary is negotiable depending on experience.",
+            "zh": "薪資可依經驗協商。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "flexible",
+        "noteZh": "指條件可調整"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "non-negotiable",
+        "noteZh": "不可協商的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "negotiate",
+        "partOfSpeech": "verb",
+        "meaningZh": "談判；協商"
+      },
+      {
+        "lemma": "negotiation",
+        "partOfSpeech": "noun",
+        "meaningZh": "談判；協商"
       }
     ],
     "tags": [
@@ -607,19 +839,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "flexible",
-        "noteZh": "指條件可調整"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "non-negotiable",
-        "noteZh": "不可協商的"
-      }
-    ]
+    }
   },
   {
     "id": "w_negotiate",
@@ -633,14 +853,16 @@
       {
         "id": "s_negotiate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "to discuss something with others in order to reach an agreement",
         "definitionZh": "談判；協商",
         "usageExplanationZh": "常見 negotiate a deal、negotiate with someone，強調透過討論達成共識或交易。",
-        "examples": [
-          {
-            "en": "The union negotiated a better contract for the workers.",
-            "zh": "工會為工人爭取到更好的合約條件。"
-          }
+        "grammarPatterns": [
+          "negotiate with + somebody",
+          "negotiate + noun"
         ],
         "collocations": [
           {
@@ -651,7 +873,37 @@
             "text": "negotiate a deal",
             "meaningZh": "協商達成交易"
           }
+        ],
+        "examples": [
+          {
+            "en": "The union negotiated a better contract for the workers.",
+            "zh": "工會為工人爭取到更好的合約條件。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "bargain",
+        "noteZh": "指協商條件"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "negotiation",
+        "partOfSpeech": "noun",
+        "meaningZh": "談判"
+      },
+      {
+        "lemma": "negotiator",
+        "partOfSpeech": "noun",
+        "meaningZh": "談判者"
+      },
+      {
+        "lemma": "negotiable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可協商的"
       }
     ],
     "tags": [
@@ -665,14 +917,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "bargain",
-        "noteZh": "指協商條件"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_negotiation",
@@ -686,21 +931,48 @@
       {
         "id": "s_negotiation_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "the process of discussing something to reach an agreement",
         "definitionZh": "談判；協商",
         "usageExplanationZh": "常見複數 negotiations，如 peace negotiations（和平談判），指正式的協商過程。",
-        "examples": [
-          {
-            "en": "The peace negotiations lasted several months.",
-            "zh": "這場和平談判持續了好幾個月。"
-          }
+        "grammarPatterns": [
+          "enter into negotiations",
+          "negotiations between A and B"
         ],
         "collocations": [
           {
             "text": "enter into negotiations",
             "meaningZh": "展開談判"
           }
+        ],
+        "examples": [
+          {
+            "en": "The peace negotiations lasted several months.",
+            "zh": "這場和平談判持續了好幾個月。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "bargaining",
+        "noteZh": "協商條件"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "negotiate",
+        "partOfSpeech": "verb",
+        "meaningZh": "談判；協商"
+      },
+      {
+        "lemma": "negotiator",
+        "partOfSpeech": "noun",
+        "meaningZh": "談判代表"
       }
     ],
     "tags": [
@@ -713,14 +985,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "bargaining",
-        "noteZh": "協商條件"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_nemesis",
@@ -734,23 +999,38 @@
       {
         "id": "s_nemesis_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "a long-standing rival or an inescapable cause of one's downfall",
         "definitionZh": "宿敵；剋星",
         "usageExplanationZh": "語氣書面帶戲劇性，常見 arch-nemesis，指難以擊敗的對手或注定帶來失敗的因素。",
-        "examples": [
-          {
-            "en": "The hero finally confronted his nemesis in the final battle.",
-            "zh": "英雄終於在最後一戰中面對他的宿敵。"
-          }
+        "grammarPatterns": [
+          "sb's nemesis",
+          "meet one's nemesis"
         ],
         "collocations": [
           {
             "text": "meet one's nemesis",
             "meaningZh": "遇上自己的剋星"
           }
+        ],
+        "examples": [
+          {
+            "en": "The hero finally confronted his nemesis in the final battle.",
+            "zh": "英雄終於在最後一戰中面對他的宿敵。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "archenemy",
+        "noteZh": "限宿敵義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -761,14 +1041,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "archenemy",
-        "noteZh": "限宿敵義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_nerve",
@@ -782,14 +1055,15 @@
       {
         "id": "s_nerve_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a fiber or bundle of fibers that transmits signals in the body, or courage in a difficult situation",
         "definitionZh": "神經；（口語）勇氣、膽量",
         "usageExplanationZh": "medical 義如 a pinched nerve；口語義如 lose one's nerve（失去勇氣）、have the nerve to（有膽子做某事）。",
-        "examples": [
-          {
-            "en": "It took a lot of nerve to speak up in front of the board.",
-            "zh": "在董事會前發言需要很大的勇氣。"
-          }
+        "grammarPatterns": [
+          "have the nerve to + V",
+          "a nerve in + noun"
         ],
         "collocations": [
           {
@@ -800,7 +1074,32 @@
             "text": "lose one's nerve",
             "meaningZh": "失去勇氣"
           }
+        ],
+        "examples": [
+          {
+            "en": "It took a lot of nerve to speak up in front of the board.",
+            "zh": "在董事會前發言需要很大的勇氣。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "courage",
+        "noteZh": "限勇氣義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "nervous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "緊張的；神經的"
+      },
+      {
+        "lemma": "nervy",
+        "partOfSpeech": "adjective",
+        "meaningZh": "大膽的；神經緊張的"
       }
     ],
     "tags": [
@@ -813,14 +1112,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "courage",
-        "noteZh": "限勇氣義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_nestle",
@@ -834,14 +1126,16 @@
       {
         "id": "s_nestle_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "to settle comfortably within or against something, often in a sheltered position",
         "definitionZh": "依偎；坐落於（隱蔽處）",
         "usageExplanationZh": "常見 nestle against/into，也可形容小鎮或建築物坐落於山谷等隱蔽地形。",
-        "examples": [
-          {
-            "en": "The kitten nestled against its mother for warmth.",
-            "zh": "小貓依偎著媽媽取暖。"
-          }
+        "grammarPatterns": [
+          "nestle against + noun",
+          "be nestled in + noun"
         ],
         "collocations": [
           {
@@ -852,7 +1146,27 @@
             "text": "nestled in the hills",
             "meaningZh": "坐落在群山之中"
           }
+        ],
+        "examples": [
+          {
+            "en": "The kitten nestled against its mother for warmth.",
+            "zh": "小貓依偎著媽媽取暖。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "snuggle",
+        "noteZh": "限舒適地依偎義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "nest",
+        "partOfSpeech": "noun",
+        "meaningZh": "巢；窩"
       }
     ],
     "tags": [
@@ -865,14 +1179,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "snuggle",
-        "noteZh": "限舒適地依偎義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_neurosis",
@@ -886,21 +1193,38 @@
       {
         "id": "s_neurosis_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a mental or emotional disorder involving anxiety or obsessive behavior, without loss of touch with reality",
         "definitionZh": "精神官能症；神經症",
         "usageExplanationZh": "精神醫學用語，強調患者仍具現實感，與精神病（psychosis）不同，語氣偏學術。",
-        "examples": [
-          {
-            "en": "Years of stress led to a mild neurosis.",
-            "zh": "多年的壓力導致他出現輕微的精神官能症狀。"
-          }
+        "grammarPatterns": [
+          "develop a neurosis",
+          "a mild neurosis"
         ],
         "collocations": [
           {
             "text": "obsessional neurosis",
             "meaningZh": "強迫性神經症"
           }
+        ],
+        "examples": [
+          {
+            "en": "Years of stress led to a mild neurosis.",
+            "zh": "多年的壓力導致他出現輕微的精神官能症狀。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "neurotic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "神經質的；神經官能症的"
       }
     ],
     "tags": [
@@ -914,9 +1238,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_neutral",
@@ -930,40 +1252,84 @@
       {
         "id": "s_neutral_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "not supporting either side in a conflict or disagreement",
         "definitionZh": "中立的",
         "usageExplanationZh": "常見 remain neutral、a neutral party，強調不偏袒任何一方的立場。",
-        "examples": [
-          {
-            "en": "Switzerland remained neutral during both world wars.",
-            "zh": "瑞士在兩次世界大戰期間都保持中立。"
-          }
+        "grammarPatterns": [
+          "remain neutral",
+          "neutral on + noun"
         ],
         "collocations": [
           {
             "text": "remain neutral",
             "meaningZh": "保持中立"
           }
+        ],
+        "examples": [
+          {
+            "en": "Switzerland remained neutral during both world wars.",
+            "zh": "瑞士在兩次世界大戰期間都保持中立。"
+          }
         ]
       },
       {
         "id": "s_neutral_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a gear position in a vehicle in which power is not transmitted to the wheels",
         "definitionZh": "（車輛排檔的）空檔",
         "usageExplanationZh": "汽車用語，常見 put the car in neutral，指引擎與輪胎脫離動力連結的狀態。",
-        "examples": [
-          {
-            "en": "He shifted the car into neutral at the red light.",
-            "zh": "他在紅燈前把車排入空檔。"
-          }
+        "grammarPatterns": [
+          "in neutral",
+          "shift into neutral"
         ],
         "collocations": [
           {
             "text": "put the car in neutral",
             "meaningZh": "把汽車排入空檔"
           }
+        ],
+        "examples": [
+          {
+            "en": "He shifted the car into neutral at the red light.",
+            "zh": "他在紅燈前把車排入空檔。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "impartial",
+        "noteZh": "限立場不偏袒義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "partisan",
+        "noteZh": "限立場偏袒義"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "neutrality",
+        "partOfSpeech": "noun",
+        "meaningZh": "中立"
+      },
+      {
+        "lemma": "neutralize",
+        "partOfSpeech": "verb",
+        "meaningZh": "中和；使無效"
+      },
+      {
+        "lemma": "neutrally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "中立地"
       }
     ],
     "tags": [
@@ -976,19 +1342,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "impartial",
-        "noteZh": "限立場不偏袒義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "partisan",
-        "noteZh": "限立場偏袒義"
-      }
-    ]
+    }
   },
   {
     "id": "w_niche",
@@ -1002,14 +1356,16 @@
       {
         "id": "s_niche_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "a specialized segment of the market for a particular kind of product, or a comfortable or suitable position",
         "definitionZh": "利基市場；（比喻）合適的位置",
         "usageExplanationZh": "商業用語常見 find a niche、niche market，指針對特定小眾需求的市場區塊。",
-        "examples": [
-          {
-            "en": "The company found its niche selling eco-friendly packaging.",
-            "zh": "這家公司找到了販售環保包裝的利基市場。"
-          }
+        "grammarPatterns": [
+          "find one's niche",
+          "a niche market"
         ],
         "collocations": [
           {
@@ -1020,9 +1376,17 @@
             "text": "find one's niche",
             "meaningZh": "找到適合自己的位置"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company found its niche selling eco-friendly packaging.",
+            "zh": "這家公司找到了販售環保包裝的利基市場。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1034,9 +1398,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_nick",
@@ -1050,42 +1412,64 @@
       {
         "id": "s_nick_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a small cut or notch in a surface",
         "definitionZh": "小刻痕；小缺口",
         "usageExplanationZh": "常見 in the nick of time（千鈞一髮之際），是常見的慣用語表示恰好及時。",
-        "examples": [
-          {
-            "en": "He arrived in the nick of time to catch the train.",
-            "zh": "他在千鈞一髮之際趕上了火車。"
-          }
+        "grammarPatterns": [
+          "in the nick of time",
+          "a nick in + noun"
         ],
         "collocations": [
           {
             "text": "a nick in the blade",
             "meaningZh": "刀刃上的小缺口"
           }
+        ],
+        "examples": [
+          {
+            "en": "He arrived in the nick of time to catch the train.",
+            "zh": "他在千鈞一髮之際趕上了火車。"
+          }
         ]
       },
       {
         "id": "s_nick_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "to make a small cut in something, or (informal, British) to steal",
         "definitionZh": "刻出小缺口；（英式口語）偷竊",
         "usageExplanationZh": "物理義如 nick oneself while shaving；英式俚語義指小額偷竊，語氣輕鬆隨意。",
-        "examples": [
-          {
-            "en": "Someone nicked my bike from outside the shop.",
-            "zh": "有人把我的腳踏車從店外偷走了。"
-          }
+        "grammarPatterns": [
+          "nick sth from + noun",
+          "nick + noun"
         ],
         "collocations": [
           {
             "text": "nick oneself while shaving",
             "meaningZh": "刮鬍子時割傷自己"
           }
+        ],
+        "examples": [
+          {
+            "en": "Someone nicked my bike from outside the shop.",
+            "zh": "有人把我的腳踏車從店外偷走了。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "notch",
+        "noteZh": "限名詞，指小缺口"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1096,14 +1480,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "notch",
-        "noteZh": "限名詞，指小缺口"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_nickname",
@@ -1117,23 +1494,38 @@
       {
         "id": "s_nickname_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "an informal, often affectionate or humorous name for a person, place, or thing",
         "definitionZh": "綽號；暱稱",
         "usageExplanationZh": "常見 give someone a nickname，通常帶親暱或幽默意味，不同於正式名字。",
-        "examples": [
-          {
-            "en": "His friends gave him the nickname \"Tiny\" because he was so tall.",
-            "zh": "朋友們給他取了「小不點」這個綽號，因為他個子特別高。"
-          }
+        "grammarPatterns": [
+          "give sb the nickname + noun",
+          "be known by the nickname + noun"
         ],
         "collocations": [
           {
             "text": "give someone a nickname",
             "meaningZh": "給某人取綽號"
           }
+        ],
+        "examples": [
+          {
+            "en": "His friends gave him the nickname \"Tiny\" because he was so tall.",
+            "zh": "朋友們給他取了「小不點」這個綽號，因為他個子特別高。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "moniker",
+        "noteZh": "指非正式的名字"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -1144,14 +1536,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "moniker",
-        "noteZh": "指非正式的名字"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_nightmare",
@@ -1165,14 +1550,15 @@
       {
         "id": "s_nightmare_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a frightening dream, or an extremely unpleasant or difficult experience",
         "definitionZh": "惡夢；（比喻）極為糟糕的經歷",
         "usageExplanationZh": "字面義指睡夢中的惡夢；比喻用法如 a logistical nightmare，形容過程極度混亂或困難。",
-        "examples": [
-          {
-            "en": "The traffic this morning was an absolute nightmare.",
-            "zh": "今天早上的交通簡直是一場惡夢。"
-          }
+        "grammarPatterns": [
+          "have a nightmare",
+          "a nightmare for + somebody"
         ],
         "collocations": [
           {
@@ -1183,7 +1569,27 @@
             "text": "a logistical nightmare",
             "meaningZh": "極難處理的後勤問題"
           }
+        ],
+        "examples": [
+          {
+            "en": "The traffic this morning was an absolute nightmare.",
+            "zh": "今天早上的交通簡直是一場惡夢。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "bad dream",
+        "noteZh": "限夢境義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "nightmarish",
+        "partOfSpeech": "adjective",
+        "meaningZh": "惡夢般的"
       }
     ],
     "tags": [
@@ -1197,14 +1603,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "bad dream",
-        "noteZh": "限夢境義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_nimble",
@@ -1218,21 +1617,53 @@
       {
         "id": "s_nimble_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "able to move quickly and easily, or (of the mind) quick to understand and react",
         "definitionZh": "敏捷的；（思維）靈活的",
         "usageExplanationZh": "可形容身體動作，如 nimble fingers；也可比喻思維反應快，如 a nimble mind。",
-        "examples": [
-          {
-            "en": "Her nimble fingers flew across the piano keys.",
-            "zh": "她靈巧的手指在琴鍵上飛快地移動。"
-          }
+        "grammarPatterns": [
+          "nimble fingers",
+          "nimble enough to + V"
         ],
         "collocations": [
           {
             "text": "nimble fingers",
             "meaningZh": "靈巧的手指"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her nimble fingers flew across the piano keys.",
+            "zh": "她靈巧的手指在琴鍵上飛快地移動。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "agile",
+        "noteZh": "敏捷靈活的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "clumsy",
+        "noteZh": "笨拙的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "nimbly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "敏捷地"
+      },
+      {
+        "lemma": "nimbleness",
+        "partOfSpeech": "noun",
+        "meaningZh": "敏捷；靈巧"
       }
     ],
     "tags": [
@@ -1246,19 +1677,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "agile",
-        "noteZh": "敏捷靈活的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "clumsy",
-        "noteZh": "笨拙的"
-      }
-    ]
+    }
   },
   {
     "id": "w_nitrogen",
@@ -1272,21 +1691,43 @@
       {
         "id": "s_nitrogen_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a chemical element that makes up most of the Earth's atmosphere, symbol N",
         "definitionZh": "氮；氮氣",
         "usageExplanationZh": "化學元素用語，常見 liquid nitrogen（液態氮）、nitrogen gas，語氣中性專業。",
-        "examples": [
-          {
-            "en": "Plants need nitrogen to grow healthily.",
-            "zh": "植物需要氮才能健康生長。"
-          }
+        "grammarPatterns": [
+          "nitrogen in the atmosphere",
+          "liquid nitrogen"
         ],
         "collocations": [
           {
             "text": "liquid nitrogen",
             "meaningZh": "液態氮"
           }
+        ],
+        "examples": [
+          {
+            "en": "Plants need nitrogen to grow healthily.",
+            "zh": "植物需要氮才能健康生長。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "nitrate",
+        "partOfSpeech": "noun",
+        "meaningZh": "硝酸鹽"
+      },
+      {
+        "lemma": "nitric",
+        "partOfSpeech": "adjective",
+        "meaningZh": "含氮的；硝酸的"
       }
     ],
     "tags": [
@@ -1300,9 +1741,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_noble",
@@ -1316,14 +1755,16 @@
       {
         "id": "s_noble_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "having high moral qualities, or belonging to a hereditary aristocratic class",
         "definitionZh": "高尚的；貴族的",
         "usageExplanationZh": "常見 a noble cause（崇高的理念）；歷史或社會脈絡下也指世襲貴族身分。",
-        "examples": [
-          {
-            "en": "She dedicated her life to the noble cause of education reform.",
-            "zh": "她將一生奉獻給教育改革這個崇高的理念。"
-          }
+        "grammarPatterns": [
+          "a noble + noun",
+          "a noble cause"
         ],
         "collocations": [
           {
@@ -1334,7 +1775,37 @@
             "text": "a noble family",
             "meaningZh": "貴族世家"
           }
+        ],
+        "examples": [
+          {
+            "en": "She dedicated her life to the noble cause of education reform.",
+            "zh": "她將一生奉獻給教育改革這個崇高的理念。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "honourable",
+        "noteZh": "限品格高尚義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "ignoble",
+        "noteZh": "限品格卑劣義"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "nobility",
+        "partOfSpeech": "noun",
+        "meaningZh": "貴族；高尚"
+      },
+      {
+        "lemma": "nobly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "高尚地"
       }
     ],
     "tags": [
@@ -1347,19 +1818,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "honourable",
-        "noteZh": "限品格高尚義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "ignoble",
-        "noteZh": "限品格卑劣義"
-      }
-    ]
+    }
   },
   {
     "id": "w_nocturnal",
@@ -1373,21 +1832,48 @@
       {
         "id": "s_nocturnal_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "active during the night rather than the day",
         "definitionZh": "夜行性的",
         "usageExplanationZh": "生物學常用語，形容動物在夜間活動，如 nocturnal animals（夜行動物）。",
-        "examples": [
-          {
-            "en": "Owls are nocturnal birds that hunt at night.",
-            "zh": "貓頭鷹是夜間狩獵的夜行性鳥類。"
-          }
+        "grammarPatterns": [
+          "nocturnal + noun",
+          "nocturnal animals"
         ],
         "collocations": [
           {
             "text": "nocturnal animals",
             "meaningZh": "夜行性動物"
           }
+        ],
+        "examples": [
+          {
+            "en": "Owls are nocturnal birds that hunt at night.",
+            "zh": "貓頭鷹是夜間狩獵的夜行性鳥類。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [
+      {
+        "lemma": "diurnal",
+        "noteZh": "日行性的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "nocturne",
+        "partOfSpeech": "noun",
+        "meaningZh": "夜曲"
+      },
+      {
+        "lemma": "nocturnally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "在夜間"
       }
     ],
     "tags": [
@@ -1401,14 +1887,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": [
-      {
-        "lemma": "diurnal",
-        "noteZh": "日行性的"
-      }
-    ]
+    }
   },
   {
     "id": "w_noisy",
@@ -1422,21 +1901,52 @@
       {
         "id": "s_noisy_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "making a lot of noise, or full of noise",
         "definitionZh": "吵鬧的；喧鬧的",
         "usageExplanationZh": "常修飾 street、classroom、engine，強調聲音大或環境嘈雜。",
-        "examples": [
-          {
-            "en": "The classroom got noisy as soon as the teacher left.",
-            "zh": "老師一離開，教室就變得吵鬧起來。"
-          }
+        "grammarPatterns": [
+          "a noisy + noun",
+          "get noisy"
         ],
         "collocations": [
           {
             "text": "noisy neighbours",
             "meaningZh": "吵鬧的鄰居"
           }
+        ],
+        "examples": [
+          {
+            "en": "The classroom got noisy as soon as the teacher left.",
+            "zh": "老師一離開，教室就變得吵鬧起來。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "loud",
+        "noteZh": "吵鬧的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "quiet",
+        "noteZh": "安靜的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "noise",
+        "partOfSpeech": "noun",
+        "meaningZh": "噪音；聲響"
+      },
+      {
+        "lemma": "noisily",
+        "partOfSpeech": "adverb",
+        "meaningZh": "吵鬧地"
       }
     ],
     "tags": [
@@ -1450,19 +1960,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "loud",
-        "noteZh": "吵鬧的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "quiet",
-        "noteZh": "安靜的"
-      }
-    ]
+    }
   },
   {
     "id": "w_nominal",
@@ -1476,14 +1974,16 @@
       {
         "id": "s_nominal_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "in name only, not in reality; or (of a fee) very small",
         "definitionZh": "名義上的；（費用）象徵性的",
         "usageExplanationZh": "常見 nominal leader（名義上的領導者）、a nominal fee（象徵性的費用），強調與實質不符或極少。",
-        "examples": [
-          {
-            "en": "He remains the nominal head of the company, though his son runs it.",
-            "zh": "他仍是公司名義上的負責人，實際上是他兒子在經營。"
-          }
+        "grammarPatterns": [
+          "a nominal + noun",
+          "the nominal head of + noun"
         ],
         "collocations": [
           {
@@ -1494,7 +1994,37 @@
             "text": "nominal control",
             "meaningZh": "名義上的控制權"
           }
+        ],
+        "examples": [
+          {
+            "en": "He remains the nominal head of the company, though his son runs it.",
+            "zh": "他仍是公司名義上的負責人，實際上是他兒子在經營。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "token",
+        "noteZh": "限象徵性費用義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "substantial",
+        "noteZh": "限金額可觀義"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "nominally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "名義上地"
+      },
+      {
+        "lemma": "nominate",
+        "partOfSpeech": "verb",
+        "meaningZh": "提名"
       }
     ],
     "tags": [
@@ -1508,19 +2038,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "token",
-        "noteZh": "限象徵性費用義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "substantial",
-        "noteZh": "限金額可觀義"
-      }
-    ]
+    }
   },
   {
     "id": "w_nominate",
@@ -1534,21 +2052,52 @@
       {
         "id": "s_nominate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to formally propose someone for a position, award, or election",
         "definitionZh": "提名",
         "usageExplanationZh": "常見 nominate someone for an award/position，強調正式推薦某人參與競選或角逐獎項。",
-        "examples": [
-          {
-            "en": "The committee nominated her for the best director award.",
-            "zh": "委員會提名她角逐最佳導演獎。"
-          }
+        "grammarPatterns": [
+          "nominate sb for + noun",
+          "nominate sb as + noun"
         ],
         "collocations": [
           {
             "text": "nominate someone for an award",
             "meaningZh": "提名某人角逐獎項"
           }
+        ],
+        "examples": [
+          {
+            "en": "The committee nominated her for the best director award.",
+            "zh": "委員會提名她角逐最佳導演獎。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "propose",
+        "noteZh": "指提出某人作人選"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "nomination",
+        "partOfSpeech": "noun",
+        "meaningZh": "提名"
+      },
+      {
+        "lemma": "nominee",
+        "partOfSpeech": "noun",
+        "meaningZh": "被提名人"
+      },
+      {
+        "lemma": "nominal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "名義上的"
       }
     ],
     "tags": [
@@ -1563,14 +2112,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "propose",
-        "noteZh": "指提出某人作人選"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_nominee",
@@ -1584,21 +2126,48 @@
       {
         "id": "s_nominee_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "a person who has been nominated for a position or award",
         "definitionZh": "被提名人；候選人",
         "usageExplanationZh": "常見 Oscar nominee（奧斯卡提名人），指已被正式推薦但尚未確定是否獲選的人。",
-        "examples": [
-          {
-            "en": "All five nominees attended the award ceremony.",
-            "zh": "所有五位被提名人都出席了頒獎典禮。"
-          }
+        "grammarPatterns": [
+          "the nominee for + noun",
+          "a presidential nominee"
         ],
         "collocations": [
           {
             "text": "an Oscar nominee",
             "meaningZh": "奧斯卡獎入圍者"
           }
+        ],
+        "examples": [
+          {
+            "en": "All five nominees attended the award ceremony.",
+            "zh": "所有五位被提名人都出席了頒獎典禮。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "candidate",
+        "noteZh": "候選人"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "nominate",
+        "partOfSpeech": "verb",
+        "meaningZh": "提名"
+      },
+      {
+        "lemma": "nomination",
+        "partOfSpeech": "noun",
+        "meaningZh": "提名"
       }
     ],
     "tags": [
@@ -1612,14 +2181,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "candidate",
-        "noteZh": "候選人"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_nonconformist",
@@ -1633,40 +2195,80 @@
       {
         "id": "s_nonconformist_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a person who does not follow generally accepted beliefs or behavior",
         "definitionZh": "不墨守成規的人；特立獨行者",
         "usageExplanationZh": "常用來形容拒絕遵循社會傳統或體制規範的人，語氣中性偏正面。",
-        "examples": [
-          {
-            "en": "As a teenager, she was a proud nonconformist who refused to follow trends.",
-            "zh": "她青少年時期是個以特立獨行為傲的人，拒絕跟隨潮流。"
-          }
+        "grammarPatterns": [
+          "a proud nonconformist",
+          "become a nonconformist"
         ],
         "collocations": [
           {
             "text": "a lifelong nonconformist",
             "meaningZh": "一生不隨俗的人"
           }
+        ],
+        "examples": [
+          {
+            "en": "As a teenager, she was a proud nonconformist who refused to follow trends.",
+            "zh": "她青少年時期是個以特立獨行為傲的人，拒絕跟隨潮流。"
+          }
         ]
       },
       {
         "id": "s_nonconformist_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "not conforming to generally accepted beliefs or behavior",
         "definitionZh": "不墨守成規的；特立獨行的",
         "usageExplanationZh": "常修飾 attitude、lifestyle，強調與主流價值或習慣不同。",
-        "examples": [
-          {
-            "en": "He has always had a nonconformist attitude toward authority.",
-            "zh": "他對權威一向抱持特立獨行的態度。"
-          }
+        "grammarPatterns": [
+          "a nonconformist + noun",
+          "a nonconformist attitude"
         ],
         "collocations": [
           {
             "text": "nonconformist views",
             "meaningZh": "不隨俗的觀點"
           }
+        ],
+        "examples": [
+          {
+            "en": "He has always had a nonconformist attitude toward authority.",
+            "zh": "他對權威一向抱持特立獨行的態度。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "maverick",
+        "noteZh": "限名詞，指特立獨行者"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "conformist",
+        "noteZh": "墨守成規的人或墨守成規的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "conform",
+        "partOfSpeech": "verb",
+        "meaningZh": "遵從；順從"
+      },
+      {
+        "lemma": "nonconformity",
+        "partOfSpeech": "noun",
+        "meaningZh": "不墨守成規；不遵從"
       }
     ],
     "tags": [
@@ -1680,19 +2282,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "maverick",
-        "noteZh": "限名詞，指特立獨行者"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "conformist",
-        "noteZh": "墨守成規的人或墨守成規的"
-      }
-    ]
+    }
   },
   {
     "id": "w_nonetheless",
@@ -1706,23 +2296,38 @@
       {
         "id": "s_nonetheless_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "in spite of what has just been said; nevertheless",
         "definitionZh": "儘管如此；然而",
         "usageExplanationZh": "用於連接前後語意轉折的句子，語氣正式，常置於句首或句中，與 nevertheless 可互換。",
-        "examples": [
-          {
-            "en": "The trip was expensive; nonetheless, they decided it was worth it.",
-            "zh": "這趟旅行很貴，儘管如此，他們還是認為值得。"
-          }
+        "grammarPatterns": [
+          "nonetheless, + clause",
+          "sth is nonetheless + adjective"
         ],
         "collocations": [
           {
             "text": "difficult but nonetheless rewarding",
             "meaningZh": "雖然困難卻仍有收穫"
           }
+        ],
+        "examples": [
+          {
+            "en": "The trip was expensive; nonetheless, they decided it was worth it.",
+            "zh": "這趟旅行很貴，儘管如此，他們還是認為值得。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "nevertheless",
+        "noteZh": "儘管如此"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -1733,14 +2338,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "nevertheless",
-        "noteZh": "儘管如此"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_nonsense",
@@ -1754,21 +2352,48 @@
       {
         "id": "s_nonsense_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "ideas, statements, or behavior that is foolish or has no meaning",
         "definitionZh": "胡說；無意義的話",
         "usageExplanationZh": "常見 talk nonsense、stop this nonsense，語氣可正式可口語，表示不合邏輯或荒謬。",
-        "examples": [
-          {
-            "en": "Don't listen to him — he's talking complete nonsense.",
-            "zh": "別聽他的，他根本在胡說八道。"
-          }
+        "grammarPatterns": [
+          "talk nonsense",
+          "complete nonsense"
         ],
         "collocations": [
           {
             "text": "talk nonsense",
             "meaningZh": "胡說八道"
           }
+        ],
+        "examples": [
+          {
+            "en": "Don't listen to him — he's talking complete nonsense.",
+            "zh": "別聽他的，他根本在胡說八道。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "rubbish",
+        "noteZh": "指胡說，較口語"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "nonsensical",
+        "partOfSpeech": "adjective",
+        "meaningZh": "荒謬的；無意義的"
+      },
+      {
+        "lemma": "sense",
+        "partOfSpeech": "noun",
+        "meaningZh": "意義；意識"
       }
     ],
     "tags": [
@@ -1781,14 +2406,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "rubbish",
-        "noteZh": "指胡說，較口語"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_noose",
@@ -1802,23 +2420,33 @@
       {
         "id": "s_noose_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "a loop of rope that tightens as it is pulled, especially used for hanging",
         "definitionZh": "（絞刑用的）套索",
         "usageExplanationZh": "常見 tighten the noose，字面指繩圈；也可比喻處境愈來愈危險或受限。",
-        "examples": [
-          {
-            "en": "The noose was placed around the prisoner's neck.",
-            "zh": "那條套索被套在了囚犯的脖子上。"
-          }
+        "grammarPatterns": [
+          "a noose around + noun",
+          "tighten the noose"
         ],
         "collocations": [
           {
             "text": "tighten the noose",
             "meaningZh": "收緊套索"
           }
+        ],
+        "examples": [
+          {
+            "en": "The noose was placed around the prisoner's neck.",
+            "zh": "那條套索被套在了囚犯的脖子上。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1829,9 +2457,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_norm",
@@ -1845,14 +2471,16 @@
       {
         "id": "s_norm_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "a standard or pattern of behavior that is typical or expected",
         "definitionZh": "常態；規範",
         "usageExplanationZh": "常見 social norm、the norm，指普遍被接受的行為模式或標準。",
-        "examples": [
-          {
-            "en": "Working from home has become the norm for many companies.",
-            "zh": "在家工作對許多公司來說已成為常態。"
-          }
+        "grammarPatterns": [
+          "become the norm",
+          "social norms"
         ],
         "collocations": [
           {
@@ -1863,7 +2491,37 @@
             "text": "become the norm",
             "meaningZh": "成為常態"
           }
+        ],
+        "examples": [
+          {
+            "en": "Working from home has become the norm for many companies.",
+            "zh": "在家工作對許多公司來說已成為常態。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "standard",
+        "noteZh": "規範或標準"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "normal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "正常的；標準的"
+      },
+      {
+        "lemma": "normative",
+        "partOfSpeech": "adjective",
+        "meaningZh": "規範性的"
+      },
+      {
+        "lemma": "normalize",
+        "partOfSpeech": "verb",
+        "meaningZh": "使正常化；使標準化"
       }
     ],
     "tags": [
@@ -1878,14 +2536,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "standard",
-        "noteZh": "規範或標準"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_notable",
@@ -1899,21 +2550,53 @@
       {
         "id": "s_notable_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "worthy of attention or notice; remarkable",
         "definitionZh": "值得注意的；顯著的",
         "usageExplanationZh": "常修飾 achievement、exception，語氣正式，強調某事物突出或值得一提。",
-        "examples": [
-          {
-            "en": "She has made notable contributions to the field of medicine.",
-            "zh": "她在醫學領域做出了顯著的貢獻。"
-          }
+        "grammarPatterns": [
+          "a notable + noun",
+          "notable for + noun"
         ],
         "collocations": [
           {
             "text": "a notable achievement",
             "meaningZh": "顯著的成就"
           }
+        ],
+        "examples": [
+          {
+            "en": "She has made notable contributions to the field of medicine.",
+            "zh": "她在醫學領域做出了顯著的貢獻。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "remarkable",
+        "noteZh": "顯著而值得注意的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "unremarkable",
+        "noteZh": "平凡無奇的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "notably",
+        "partOfSpeech": "adverb",
+        "meaningZh": "尤其；顯著地"
+      },
+      {
+        "lemma": "notability",
+        "partOfSpeech": "noun",
+        "meaningZh": "顯著；知名人士"
       }
     ],
     "tags": [
@@ -1928,19 +2611,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "remarkable",
-        "noteZh": "顯著而值得注意的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "unremarkable",
-        "noteZh": "平凡無奇的"
-      }
-    ]
+    }
   },
   {
     "id": "w_notably",
@@ -1954,21 +2625,48 @@
       {
         "id": "s_notably_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "used to draw attention to something particularly important",
         "definitionZh": "尤其；特別是",
         "usageExplanationZh": "常置於句中或句首，用於列舉時強調其中一項特別重要或值得注意的例子。",
-        "examples": [
-          {
-            "en": "Several countries, most notably Japan, have seen a decline in birth rates.",
-            "zh": "好幾個國家的出生率都在下降，日本尤其明顯。"
-          }
+        "grammarPatterns": [
+          "most notably + noun",
+          "notably, + clause"
         ],
         "collocations": [
           {
             "text": "most notably",
             "meaningZh": "尤其顯著的是"
           }
+        ],
+        "examples": [
+          {
+            "en": "Several countries, most notably Japan, have seen a decline in birth rates.",
+            "zh": "好幾個國家的出生率都在下降，日本尤其明顯。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "especially",
+        "noteZh": "尤其"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "notable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "值得注意的；顯著的"
+      },
+      {
+        "lemma": "note",
+        "partOfSpeech": "verb",
+        "meaningZh": "注意到；指出"
       }
     ],
     "tags": [
@@ -1981,14 +2679,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "especially",
-        "noteZh": "尤其"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_notch",
@@ -2002,23 +2693,38 @@
       {
         "id": "s_notch_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a V-shaped cut or indentation in a surface or edge",
         "definitionZh": "刻痕；凹口",
         "usageExplanationZh": "常見於物理描述，如 a notch in a belt；也用於慣用語 a notch above，表示程度更高。",
-        "examples": [
-          {
-            "en": "He cut a notch in the wooden post to mark the height.",
-            "zh": "他在木柱上刻了一道刻痕來標記高度。"
-          }
+        "grammarPatterns": [
+          "cut a notch in + noun",
+          "a notch above + noun"
         ],
         "collocations": [
           {
             "text": "cut a notch in",
             "meaningZh": "在……刻出凹口"
           }
+        ],
+        "examples": [
+          {
+            "en": "He cut a notch in the wooden post to mark the height.",
+            "zh": "他在木柱上刻了一道刻痕來標記高度。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "nick",
+        "noteZh": "指小缺口"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2031,14 +2737,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "nick",
-        "noteZh": "指小缺口"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_notify",
@@ -2052,21 +2751,48 @@
       {
         "id": "s_notify_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to formally inform someone of something",
         "definitionZh": "通知；告知",
         "usageExplanationZh": "常見 notify someone of/about something，語氣正式，常用於官方或法律情境。",
-        "examples": [
-          {
-            "en": "The bank will notify you if any suspicious activity is detected.",
-            "zh": "若偵測到可疑活動，銀行將會通知您。"
-          }
+        "grammarPatterns": [
+          "notify sb of + noun",
+          "notify sb that + clause"
         ],
         "collocations": [
           {
             "text": "notify someone of a change",
             "meaningZh": "通知某人某項變更"
           }
+        ],
+        "examples": [
+          {
+            "en": "The bank will notify you if any suspicious activity is detected.",
+            "zh": "若偵測到可疑活動，銀行將會通知您。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "inform",
+        "noteZh": "告知"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "notification",
+        "partOfSpeech": "noun",
+        "meaningZh": "通知；通知書"
+      },
+      {
+        "lemma": "notice",
+        "partOfSpeech": "noun",
+        "meaningZh": "通知；注意"
       }
     ],
     "tags": [
@@ -2079,14 +2805,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "inform",
-        "noteZh": "告知"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_notorious",
@@ -2100,21 +2819,47 @@
       {
         "id": "s_notorious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "famous or well known for something bad",
         "definitionZh": "惡名昭彰的；聲名狼藉的",
         "usageExplanationZh": "常接 for，如 notorious for corruption，帶明顯負面意味，與 famous 的中性語氣不同。",
-        "examples": [
-          {
-            "en": "The area is notorious for its high crime rate.",
-            "zh": "這個地區以高犯罪率而惡名昭彰。"
-          }
+        "grammarPatterns": [
+          "notorious for + noun",
+          "a notorious + noun"
         ],
         "collocations": [
           {
             "text": "notorious for",
             "meaningZh": "因……而惡名昭彰"
           }
+        ],
+        "examples": [
+          {
+            "en": "The area is notorious for its high crime rate.",
+            "zh": "這個地區以高犯罪率而惡名昭彰。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "infamous",
+        "noteZh": "惡名昭彰的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "notoriety",
+        "partOfSpeech": "noun",
+        "meaningZh": "惡名；臭名"
+      },
+      {
+        "lemma": "notoriously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "眾所周知地（多指負面）"
       }
     ],
     "tags": [
@@ -2129,14 +2874,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "infamous",
-        "noteZh": "惡名昭彰的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_novel",
@@ -2150,40 +2888,80 @@
       {
         "id": "s_novel_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "a fictional prose narrative of book length",
         "definitionZh": "小說",
         "usageExplanationZh": "文學用語，泛指長篇虛構故事作品，與 short story（短篇小說）相對。",
-        "examples": [
-          {
-            "en": "She spent five years writing her first novel.",
-            "zh": "她花了五年時間寫出她的第一部小說。"
-          }
+        "grammarPatterns": [
+          "write a novel",
+          "a novel about + noun"
         ],
         "collocations": [
           {
             "text": "a historical novel",
             "meaningZh": "歷史小說"
           }
+        ],
+        "examples": [
+          {
+            "en": "She spent five years writing her first novel.",
+            "zh": "她花了五年時間寫出她的第一部小說。"
+          }
         ]
       },
       {
         "id": "s_novel_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "new and original, not resembling something formerly known or used",
         "definitionZh": "新穎的；新奇的",
         "usageExplanationZh": "常修飾 idea、approach、solution，強調前所未見的創新性。",
-        "examples": [
-          {
-            "en": "The researchers proposed a novel approach to treating the disease.",
-            "zh": "研究人員提出了一種治療這種疾病的新穎方法。"
-          }
+        "grammarPatterns": [
+          "a novel + noun",
+          "a novel approach to + noun"
         ],
         "collocations": [
           {
             "text": "a novel approach",
             "meaningZh": "新穎的方法"
           }
+        ],
+        "examples": [
+          {
+            "en": "The researchers proposed a novel approach to treating the disease.",
+            "zh": "研究人員提出了一種治療這種疾病的新穎方法。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "original",
+        "noteZh": "限形容詞，指新穎的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "conventional",
+        "noteZh": "限形容詞，指傳統的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "novelty",
+        "partOfSpeech": "noun",
+        "meaningZh": "新奇；新穎"
+      },
+      {
+        "lemma": "novelist",
+        "partOfSpeech": "noun",
+        "meaningZh": "小說家"
       }
     ],
     "tags": [
@@ -2197,19 +2975,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "original",
-        "noteZh": "限形容詞，指新穎的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "conventional",
-        "noteZh": "限形容詞，指傳統的"
-      }
-    ]
+    }
   },
   {
     "id": "w_nowadays",
@@ -2223,23 +2989,38 @@
       {
         "id": "s_nowadays_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "neutral",
+          "spoken"
+        ],
         "definitionEn": "at the present time, in contrast with the past",
         "definitionZh": "現今；如今",
         "usageExplanationZh": "常置於句首，用於比較現在與過去的差異，語氣中性口語。",
-        "examples": [
-          {
-            "en": "Nowadays, most people rely on smartphones for daily tasks.",
-            "zh": "如今，大多數人都依賴智慧型手機處理日常事務。"
-          }
+        "grammarPatterns": [
+          "nowadays, + clause",
+          "sth is + adjective + nowadays"
         ],
         "collocations": [
           {
             "text": "nowadays people tend to",
             "meaningZh": "如今人們傾向於……"
           }
+        ],
+        "examples": [
+          {
+            "en": "Nowadays, most people rely on smartphones for daily tasks.",
+            "zh": "如今，大多數人都依賴智慧型手機處理日常事務。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "these days",
+        "noteZh": "現今"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -2250,14 +3031,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "these days",
-        "noteZh": "現今"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_noxious",
@@ -2271,21 +3045,41 @@
       {
         "id": "s_noxious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "harmful or poisonous, especially to health",
         "definitionZh": "有毒的；有害的",
         "usageExplanationZh": "常修飾 fumes、gas、substance，強調對健康或環境造成傷害。",
-        "examples": [
-          {
-            "en": "The factory released noxious fumes into the air.",
-            "zh": "這家工廠向空氣中排放了有毒的煙霧。"
-          }
+        "grammarPatterns": [
+          "noxious + noun",
+          "noxious fumes"
         ],
         "collocations": [
           {
             "text": "noxious fumes",
             "meaningZh": "有毒煙霧"
           }
+        ],
+        "examples": [
+          {
+            "en": "The factory released noxious fumes into the air.",
+            "zh": "這家工廠向空氣中排放了有毒的煙霧。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "toxic",
+        "noteZh": "有毒的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "harmless",
+        "noteZh": "無害的"
       }
     ],
     "tags": [
@@ -2300,19 +3094,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "toxic",
-        "noteZh": "有毒的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "harmless",
-        "noteZh": "無害的"
-      }
-    ]
+    }
   },
   {
     "id": "w_nucleus",
@@ -2326,14 +3108,16 @@
       {
         "id": "s_nucleus_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "the central part of an atom or cell, or the central or most important part of a group",
         "definitionZh": "（原子或細胞的）核；核心；中心",
         "usageExplanationZh": "科學用語指原子核或細胞核；也可比喻指團體或系統的核心部分。",
-        "examples": [
-          {
-            "en": "The nucleus of a cell contains most of its genetic material.",
-            "zh": "細胞核含有細胞大部分的遺傳物質。"
-          }
+        "grammarPatterns": [
+          "the nucleus of + noun",
+          "inside the nucleus"
         ],
         "collocations": [
           {
@@ -2344,7 +3128,27 @@
             "text": "an atomic nucleus",
             "meaningZh": "原子核"
           }
+        ],
+        "examples": [
+          {
+            "en": "The nucleus of a cell contains most of its genetic material.",
+            "zh": "細胞核含有細胞大部分的遺傳物質。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "core",
+        "noteZh": "限核心義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "nuclear",
+        "partOfSpeech": "adjective",
+        "meaningZh": "核的；原子能的"
       }
     ],
     "tags": [
@@ -2359,14 +3163,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "core",
-        "noteZh": "限核心義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_numb",
@@ -2380,40 +3177,74 @@
       {
         "id": "s_numb_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "unable to feel physical sensation, or emotionally unresponsive",
         "definitionZh": "麻木的；（情感上）無感的",
         "usageExplanationZh": "physical 義如 numb with cold；情感義如 numb with grief，形容因強烈情緒而失去感覺。",
-        "examples": [
-          {
-            "en": "Her fingers were numb from the cold.",
-            "zh": "她的手指冷到麻木了。"
-          }
+        "grammarPatterns": [
+          "go numb",
+          "numb with + noun"
         ],
         "collocations": [
           {
             "text": "numb with cold",
             "meaningZh": "凍得麻木"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her fingers were numb from the cold.",
+            "zh": "她的手指冷到麻木了。"
+          }
         ]
       },
       {
         "id": "s_numb_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "to cause a loss of feeling, or to make someone emotionally unresponsive",
         "definitionZh": "使麻木；使失去知覺",
         "usageExplanationZh": "常用被動 be numbed by，也可指用藥物使部位失去知覺，如 numb the pain。",
-        "examples": [
-          {
-            "en": "The anesthetic numbed the area before the surgery.",
-            "zh": "麻醉藥在手術前讓那個部位失去了知覺。"
-          }
+        "grammarPatterns": [
+          "numb + noun",
+          "numb the pain"
         ],
         "collocations": [
           {
             "text": "numb the pain",
             "meaningZh": "麻痺痛覺"
           }
+        ],
+        "examples": [
+          {
+            "en": "The anesthetic numbed the area before the surgery.",
+            "zh": "麻醉藥在手術前讓那個部位失去了知覺。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "insensible",
+        "noteZh": "限形容詞，指失去知覺的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "numbness",
+        "partOfSpeech": "noun",
+        "meaningZh": "麻木；失去知覺"
+      },
+      {
+        "lemma": "numbly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "麻木地"
       }
     ],
     "tags": [
@@ -2428,14 +3259,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "insensible",
-        "noteZh": "限形容詞，指失去知覺的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_numerous",
@@ -2449,21 +3273,58 @@
       {
         "id": "s_numerous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "existing in large numbers; many",
         "definitionZh": "眾多的",
         "usageExplanationZh": "語氣較 many 正式，常修飾 occasions、studies、attempts。",
-        "examples": [
-          {
-            "en": "She has won numerous awards throughout her career.",
-            "zh": "她在職業生涯中贏得了眾多獎項。"
-          }
+        "grammarPatterns": [
+          "numerous + noun",
+          "on numerous occasions"
         ],
         "collocations": [
           {
             "text": "on numerous occasions",
             "meaningZh": "在許多場合"
           }
+        ],
+        "examples": [
+          {
+            "en": "She has won numerous awards throughout her career.",
+            "zh": "她在職業生涯中贏得了眾多獎項。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "many",
+        "noteZh": "眾多的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "few",
+        "noteZh": "少數的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "number",
+        "partOfSpeech": "noun",
+        "meaningZh": "數字；數目"
+      },
+      {
+        "lemma": "numerical",
+        "partOfSpeech": "adjective",
+        "meaningZh": "數字的；數值的"
+      },
+      {
+        "lemma": "numeral",
+        "partOfSpeech": "noun",
+        "meaningZh": "數字；數詞"
       }
     ],
     "tags": [
@@ -2478,19 +3339,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "many",
-        "noteZh": "眾多的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "few",
-        "noteZh": "少數的"
-      }
-    ]
+    }
   },
   {
     "id": "w_nurture",
@@ -2504,40 +3353,68 @@
       {
         "id": "s_nurture_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to care for and encourage the growth or development of someone or something",
         "definitionZh": "培育；養育；扶植",
         "usageExplanationZh": "常接 child、talent、relationship 等，強調長期悉心栽培以促進成長。",
-        "examples": [
-          {
-            "en": "Teachers play a key role in nurturing students' curiosity.",
-            "zh": "老師在培養學生的好奇心方面扮演關鍵角色。"
-          }
+        "grammarPatterns": [
+          "nurture + noun",
+          "nurture sb's talent"
         ],
         "collocations": [
           {
             "text": "nurture talent",
             "meaningZh": "培育人才"
           }
+        ],
+        "examples": [
+          {
+            "en": "Teachers play a key role in nurturing students' curiosity.",
+            "zh": "老師在培養學生的好奇心方面扮演關鍵角色。"
+          }
         ]
       },
       {
         "id": "s_nurture_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "the process of caring for and encouraging the growth of someone, especially a child",
         "definitionZh": "養育；培育",
         "usageExplanationZh": "常見於 nature versus nurture（先天與後天之爭），指環境與教養對成長的影響。",
-        "examples": [
-          {
-            "en": "The debate over nature versus nurture continues among psychologists.",
-            "zh": "先天與後天之爭仍在心理學家之間持續。"
-          }
+        "grammarPatterns": [
+          "nature versus nurture",
+          "the nurture of + noun"
         ],
         "collocations": [
           {
             "text": "nature and nurture",
             "meaningZh": "先天與後天教養"
           }
+        ],
+        "examples": [
+          {
+            "en": "The debate over nature versus nurture continues among psychologists.",
+            "zh": "先天與後天之爭仍在心理學家之間持續。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "foster",
+        "noteZh": "限動詞，指培育"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "neglect",
+        "noteZh": "疏於照顧"
       }
     ],
     "tags": [
@@ -2552,19 +3429,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "foster",
-        "noteZh": "限動詞，指培育"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "neglect",
-        "noteZh": "疏於照顧"
-      }
-    ]
+    }
   },
   {
     "id": "w_nutrient",
@@ -2578,21 +3443,48 @@
       {
         "id": "s_nutrient_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a substance that provides nourishment necessary for growth and health",
         "definitionZh": "營養素",
         "usageExplanationZh": "常見複數 nutrients，指食物中對身體有益的成分，如維生素、礦物質等。",
-        "examples": [
-          {
-            "en": "Leafy greens are rich in essential nutrients.",
-            "zh": "綠葉蔬菜富含重要的營養素。"
-          }
+        "grammarPatterns": [
+          "essential nutrients",
+          "be rich in nutrients"
         ],
         "collocations": [
           {
             "text": "essential nutrients",
             "meaningZh": "必需營養素"
           }
+        ],
+        "examples": [
+          {
+            "en": "Leafy greens are rich in essential nutrients.",
+            "zh": "綠葉蔬菜富含重要的營養素。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "nutrition",
+        "partOfSpeech": "noun",
+        "meaningZh": "營養；營養學"
+      },
+      {
+        "lemma": "nutritious",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有營養的"
+      },
+      {
+        "lemma": "nutritional",
+        "partOfSpeech": "adjective",
+        "meaningZh": "營養的"
       }
     ],
     "tags": [
@@ -2606,9 +3498,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_nutrition",
@@ -2622,21 +3512,53 @@
       {
         "id": "s_nutrition_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "the process of providing or obtaining food necessary for health and growth",
         "definitionZh": "營養；營養學",
         "usageExplanationZh": "常見 good nutrition、a degree in nutrition，指攝取食物以維持健康的過程或學科。",
-        "examples": [
-          {
-            "en": "Proper nutrition is essential for a child's development.",
-            "zh": "適當的營養對孩子的發育至關重要。"
-          }
+        "grammarPatterns": [
+          "proper nutrition",
+          "nutrition and health"
         ],
         "collocations": [
           {
             "text": "good nutrition",
             "meaningZh": "良好的營養"
           }
+        ],
+        "examples": [
+          {
+            "en": "Proper nutrition is essential for a child's development.",
+            "zh": "適當的營養對孩子的發育至關重要。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "nourishment",
+        "noteZh": "營養供給"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "nutrient",
+        "partOfSpeech": "noun",
+        "meaningZh": "營養素"
+      },
+      {
+        "lemma": "nutritious",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有營養的"
+      },
+      {
+        "lemma": "nutritionist",
+        "partOfSpeech": "noun",
+        "meaningZh": "營養師"
       }
     ],
     "tags": [
@@ -2651,14 +3573,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "nourishment",
-        "noteZh": "營養供給"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_oasis",
@@ -2672,14 +3587,16 @@
       {
         "id": "s_oasis_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "a fertile area in a desert where water is found, or a peaceful place amid difficulty",
         "definitionZh": "綠洲；（比喻）令人安心的一片天地",
         "usageExplanationZh": "字面指沙漠中有水源之處；比喻用法如 an oasis of calm，指喧囂中一處平靜之地。",
-        "examples": [
-          {
-            "en": "The garden was an oasis of calm in the busy city.",
-            "zh": "這座花園是繁忙城市中一片寧靜的綠洲。"
-          }
+        "grammarPatterns": [
+          "an oasis of + noun",
+          "an oasis in + noun"
         ],
         "collocations": [
           {
@@ -2690,9 +3607,22 @@
             "text": "an oasis of calm",
             "meaningZh": "一處寧靜之所"
           }
+        ],
+        "examples": [
+          {
+            "en": "The garden was an oasis of calm in the busy city.",
+            "zh": "這座花園是繁忙城市中一片寧靜的綠洲。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "haven",
+        "noteZh": "限比喻的安適之所義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -2704,13 +3634,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "haven",
-        "noteZh": "限比喻的安適之所義"
-      }
-    ],
-    "antonyms": []
+    }
   }
 ]

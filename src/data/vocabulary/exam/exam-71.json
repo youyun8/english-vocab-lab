@@ -11,14 +11,16 @@
       {
         "id": "s_sublime_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "of such excellence, beauty, or greatness as to inspire awe",
         "definitionZh": "崇高的；壯麗的",
         "usageExplanationZh": "正式用語，常修飾 beauty、experience，強調令人讚嘆敬畏的極致美好。",
-        "examples": [
-          {
-            "en": "The view from the mountaintop was truly sublime.",
-            "zh": "山頂的景色真是壯麗絕倫。"
-          }
+        "grammarPatterns": [
+          "a sublime + noun",
+          "truly sublime"
         ],
         "collocations": [
           {
@@ -29,7 +31,36 @@
             "text": "sublime landscape",
             "meaningZh": "壯麗的景觀"
           }
+        ],
+        "examples": [
+          {
+            "en": "The view from the mountaintop was truly sublime.",
+            "zh": "山頂的景色真是壯麗絕倫。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "magnificent",
+        "noteZh": "壯麗的"
+      },
+      {
+        "lemma": "exalted",
+        "noteZh": "崇高的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "sublimity",
+        "partOfSpeech": "noun",
+        "meaningZh": "崇高；壯麗"
+      },
+      {
+        "lemma": "sublimely",
+        "partOfSpeech": "adverb",
+        "meaningZh": "崇高地；極其地"
       }
     ],
     "tags": [
@@ -42,18 +73,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "magnificent",
-        "noteZh": "壯麗的"
-      },
-      {
-        "lemma": "exalted",
-        "noteZh": "崇高的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_submarine",
@@ -67,14 +87,17 @@
       {
         "id": "s_submarine_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a ship that can operate underwater, especially one used for military purposes",
         "definitionZh": "潛水艇",
         "usageExplanationZh": "軍事、航海用語，常見 nuclear submarine（核子潛艇）。",
-        "examples": [
-          {
-            "en": "The navy deployed a submarine to patrol the coastal waters.",
-            "zh": "海軍派遣了一艘潛水艇巡邏沿海水域。"
-          }
+        "grammarPatterns": [
+          "a nuclear submarine",
+          "aboard a submarine",
+          "deploy a submarine"
         ],
         "collocations": [
           {
@@ -85,7 +108,27 @@
             "text": "submarine crew",
             "meaningZh": "潛水艇船員"
           }
+        ],
+        "examples": [
+          {
+            "en": "The navy deployed a submarine to patrol the coastal waters.",
+            "zh": "海軍派遣了一艘潛水艇巡邏沿海水域。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "sub",
+        "noteZh": "潛水艇的口語簡稱"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "marine",
+        "partOfSpeech": "adjective",
+        "meaningZh": "海洋的；海事的"
       }
     ],
     "tags": [
@@ -99,14 +142,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "sub",
-        "noteZh": "潛水艇的口語簡稱"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_submission",
@@ -120,14 +156,17 @@
       {
         "id": "s_submission_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "the act of presenting something, such as a document or proposal, for consideration, or the state of accepting another's authority",
         "definitionZh": "提交；屈服",
         "usageExplanationZh": "兩義：提交作品或文件供審核（essay submission）；向他人權威低頭（submission to authority）。",
-        "examples": [
-          {
-            "en": "The deadline for essay submission is next Friday.",
-            "zh": "論文提交的截止日期是下週五。"
-          }
+        "grammarPatterns": [
+          "the submission of + noun",
+          "a submission to + noun",
+          "the deadline for submission"
         ],
         "collocations": [
           {
@@ -138,21 +177,15 @@
             "text": "force someone into submission",
             "meaningZh": "迫使某人屈服"
           }
+        ],
+        "examples": [
+          {
+            "en": "The deadline for essay submission is next Friday.",
+            "zh": "論文提交的截止日期是下週五。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "surrender",
@@ -168,7 +201,31 @@
         "lemma": "resistance",
         "noteZh": "對應反抗而不屈服"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "submit",
+        "partOfSpeech": "verb",
+        "meaningZh": "提交；屈服"
+      },
+      {
+        "lemma": "submissive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "順從的；服從的"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_submit",
@@ -182,14 +239,17 @@
       {
         "id": "s_submit_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to formally present something for consideration or approval, or to accept someone else's authority or control",
         "definitionZh": "提交；屈服",
         "usageExplanationZh": "常見 submit an application/report，也可指服從、屈就於他人意志，如 submit to pressure。",
-        "examples": [
-          {
-            "en": "She submitted her resignation letter this morning.",
-            "zh": "她今天早上提交了辭職信。"
-          }
+        "grammarPatterns": [
+          "submit + noun",
+          "submit sth to + sb",
+          "submit an application for + noun"
         ],
         "collocations": [
           {
@@ -200,22 +260,15 @@
             "text": "submit to authority",
             "meaningZh": "服從權威"
           }
+        ],
+        "examples": [
+          {
+            "en": "She submitted her resignation letter this morning.",
+            "zh": "她今天早上提交了辭職信。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "present",
@@ -231,7 +284,32 @@
         "lemma": "resist",
         "noteZh": "對應反抗而不屈服"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "submission",
+        "partOfSpeech": "noun",
+        "meaningZh": "提交；屈服"
+      },
+      {
+        "lemma": "submissive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "順從的"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_subordinate",
@@ -245,14 +323,17 @@
       {
         "id": "s_subordinate_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "lower in rank, importance, or power than someone or something else",
         "definitionZh": "下屬的；次要的",
         "usageExplanationZh": "常見 subordinate to，也可作名詞 a subordinate，指職位較低、聽命於上級的人。",
-        "examples": [
-          {
-            "en": "In this hierarchy, managers are subordinate to the CEO.",
-            "zh": "在這個層級中，經理們的職位低於執行長。"
-          }
+        "grammarPatterns": [
+          "be subordinate to + noun",
+          "a subordinate + noun",
+          "play a subordinate role in + noun"
         ],
         "collocations": [
           {
@@ -263,21 +344,15 @@
             "text": "subordinate role",
             "meaningZh": "次要角色"
           }
+        ],
+        "examples": [
+          {
+            "en": "In this hierarchy, managers are subordinate to the CEO.",
+            "zh": "在這個層級中，經理們的職位低於執行長。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "inferior",
@@ -293,7 +368,31 @@
         "lemma": "superior",
         "noteZh": "地位較高的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "subordination",
+        "partOfSpeech": "noun",
+        "meaningZh": "從屬；隸屬"
+      },
+      {
+        "lemma": "insubordinate",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不服從的"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_subpoena",
@@ -307,14 +406,17 @@
       {
         "id": "s_subpoena_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "a legal document ordering someone to appear in court or provide evidence",
         "definitionZh": "傳票",
         "usageExplanationZh": "法律用語，常見 issue a subpoena，指法院正式要求某人出庭或提供證據的文件。",
-        "examples": [
-          {
-            "en": "The witness was served a subpoena to testify in the trial.",
-            "zh": "這位證人收到傳票，須出庭作證。"
-          }
+        "grammarPatterns": [
+          "serve a subpoena on + sb",
+          "issue a subpoena",
+          "be under subpoena"
         ],
         "collocations": [
           {
@@ -325,9 +427,22 @@
             "text": "comply with a subpoena",
             "meaningZh": "遵從傳票要求"
           }
+        ],
+        "examples": [
+          {
+            "en": "The witness was served a subpoena to testify in the trial.",
+            "zh": "這位證人收到傳票，須出庭作證。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "summons",
+        "noteZh": "法院傳喚令，法律用途較廣"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -338,14 +453,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "summons",
-        "noteZh": "法院傳喚令，法律用途較廣"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_subsequently",
@@ -359,14 +467,16 @@
       {
         "id": "s_subsequently_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "afterward; at a later time than something already mentioned",
         "definitionZh": "隨後；接著",
         "usageExplanationZh": "正式用語，常用於敘述事件先後順序，連接前後發生的事情。",
-        "examples": [
-          {
-            "en": "The company was fined and subsequently went bankrupt.",
-            "zh": "這家公司被罰款後，隨後便宣告破產。"
-          }
+        "grammarPatterns": [
+          "subsequently + verb",
+          "be subsequently + past participle"
         ],
         "collocations": [
           {
@@ -377,20 +487,15 @@
             "text": "subsequently became",
             "meaningZh": "後來成為……"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company was fined and subsequently went bankrupt.",
+            "zh": "這家公司被罰款後，隨後便宣告破產。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "afterward",
@@ -406,7 +511,25 @@
         "lemma": "previously",
         "noteZh": "先前"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "subsequent",
+        "partOfSpeech": "adjective",
+        "meaningZh": "隨後的；接著的"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_subside",
@@ -420,14 +543,16 @@
       {
         "id": "s_subside_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to become gradually less intense, or to sink to a lower level",
         "definitionZh": "平息；減退",
         "usageExplanationZh": "常見 the pain subsided、the flood subsided，強調逐漸減弱或水位下降的過程。",
-        "examples": [
-          {
-            "en": "The storm finally subsided after several hours.",
-            "zh": "這場暴風雨經過數小時後終於平息。"
-          }
+        "grammarPatterns": [
+          "subside after + noun",
+          "gradually subside",
+          "the pain subsides"
         ],
         "collocations": [
           {
@@ -438,22 +563,15 @@
             "text": "floodwaters subside",
             "meaningZh": "洪水退去"
           }
+        ],
+        "examples": [
+          {
+            "en": "The storm finally subsided after several hours.",
+            "zh": "這場暴風雨經過數小時後終於平息。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "abate",
@@ -473,7 +591,27 @@
         "lemma": "rise",
         "noteZh": "水位上升"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "subsidence",
+        "partOfSpeech": "noun",
+        "meaningZh": "下陷；平息"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_subsidiary",
@@ -487,14 +625,17 @@
       {
         "id": "s_subsidiary_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "a company that is owned or controlled by another, larger company",
         "definitionZh": "子公司",
         "usageExplanationZh": "商業用語，常見 a wholly-owned subsidiary，指隸屬於母公司旗下的公司。",
-        "examples": [
-          {
-            "en": "The tech giant acquired the startup as a subsidiary.",
-            "zh": "這家科技巨頭將這家新創公司收購為其子公司。"
-          }
+        "grammarPatterns": [
+          "a subsidiary of + noun",
+          "a wholly owned subsidiary",
+          "acquire sth as a subsidiary"
         ],
         "collocations": [
           {
@@ -505,7 +646,27 @@
             "text": "overseas subsidiary",
             "meaningZh": "海外子公司"
           }
+        ],
+        "examples": [
+          {
+            "en": "The tech giant acquired the startup as a subsidiary.",
+            "zh": "這家科技巨頭將這家新創公司收購為其子公司。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "subsidize",
+        "partOfSpeech": "verb",
+        "meaningZh": "補助；資助"
+      },
+      {
+        "lemma": "subsidy",
+        "partOfSpeech": "noun",
+        "meaningZh": "補助金；津貼"
       }
     ],
     "tags": [
@@ -520,9 +681,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_subsidy",
@@ -536,14 +695,17 @@
       {
         "id": "s_subsidy_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "academic"
+        ],
         "definitionEn": "money given by a government or organization to help reduce the cost of something",
         "definitionZh": "補助金；津貼",
         "usageExplanationZh": "常見 government subsidy，指為降低成本或支持特定產業而提供的財政援助。",
-        "examples": [
-          {
-            "en": "Farmers received a subsidy to offset rising fuel costs.",
-            "zh": "農民獲得了一筆補助金，以抵消上漲的燃料成本。"
-          }
+        "grammarPatterns": [
+          "a subsidy for + noun",
+          "receive a subsidy",
+          "government subsidies"
         ],
         "collocations": [
           {
@@ -554,7 +716,36 @@
             "text": "agricultural subsidies",
             "meaningZh": "農業補助"
           }
+        ],
+        "examples": [
+          {
+            "en": "Farmers received a subsidy to offset rising fuel costs.",
+            "zh": "農民獲得了一筆補助金，以抵消上漲的燃料成本。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "grant",
+        "noteZh": "補助款"
+      },
+      {
+        "lemma": "financial aid",
+        "noteZh": "財政援助"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "subsidize",
+        "partOfSpeech": "verb",
+        "meaningZh": "補助；資助"
+      },
+      {
+        "lemma": "subsidiary",
+        "partOfSpeech": "noun",
+        "meaningZh": "子公司"
       }
     ],
     "tags": [
@@ -569,18 +760,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "grant",
-        "noteZh": "補助款"
-      },
-      {
-        "lemma": "financial aid",
-        "noteZh": "財政援助"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_subsistence",
@@ -594,14 +774,17 @@
       {
         "id": "s_subsistence_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "the minimum amount of food and resources needed to stay alive",
         "definitionZh": "維生；基本生存所需",
         "usageExplanationZh": "常見 subsistence farming（維生型農業），指僅足以維持生存、缺乏盈餘的狀態。",
-        "examples": [
-          {
-            "en": "Many rural families rely on subsistence farming to survive.",
-            "zh": "許多鄉村家庭仰賴自給自足的農耕維生。"
-          }
+        "grammarPatterns": [
+          "subsistence farming",
+          "live at subsistence level",
+          "the means of subsistence"
         ],
         "collocations": [
           {
@@ -612,7 +795,31 @@
             "text": "subsistence level",
             "meaningZh": "最低生活水準"
           }
+        ],
+        "examples": [
+          {
+            "en": "Many rural families rely on subsistence farming to survive.",
+            "zh": "許多鄉村家庭仰賴自給自足的農耕維生。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "survival",
+        "noteZh": "維持生存"
+      },
+      {
+        "lemma": "sustenance",
+        "noteZh": "維持生命的食物資源"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "subsist",
+        "partOfSpeech": "verb",
+        "meaningZh": "維持生活；勉強度日"
       }
     ],
     "tags": [
@@ -626,18 +833,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "survival",
-        "noteZh": "維持生存"
-      },
-      {
-        "lemma": "sustenance",
-        "noteZh": "維持生命的食物資源"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_substance",
@@ -651,14 +847,17 @@
       {
         "id": "s_substance_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "a particular type of matter with specific physical properties, or the real meaning or importance of something",
         "definitionZh": "物質；實質內容",
         "usageExplanationZh": "常見 a chemical substance；也可指言論、論點的實質內涵，如 lack substance（空洞乏味）。",
-        "examples": [
-          {
-            "en": "The report lacked substance and offered no real solutions.",
-            "zh": "這份報告內容空洞，沒有提出任何實質的解決方案。"
-          }
+        "grammarPatterns": [
+          "a chemical substance",
+          "the substance of + noun",
+          "lack substance"
         ],
         "collocations": [
           {
@@ -669,7 +868,41 @@
             "text": "a claim without substance",
             "meaningZh": "缺乏實質根據的主張"
           }
+        ],
+        "examples": [
+          {
+            "en": "The report lacked substance and offered no real solutions.",
+            "zh": "這份報告內容空洞，沒有提出任何實質的解決方案。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "material",
+        "noteZh": "指物質"
+      },
+      {
+        "lemma": "essence",
+        "noteZh": "指實質內容"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "substantial",
+        "partOfSpeech": "adjective",
+        "meaningZh": "大量的；實質的"
+      },
+      {
+        "lemma": "substantive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "實質性的"
+      },
+      {
+        "lemma": "substantially",
+        "partOfSpeech": "adverb",
+        "meaningZh": "大幅地；實質上"
       }
     ],
     "tags": [
@@ -682,18 +915,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "material",
-        "noteZh": "指物質"
-      },
-      {
-        "lemma": "essence",
-        "noteZh": "指實質內容"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_substantially",
@@ -707,14 +929,17 @@
       {
         "id": "s_substantially_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to a large degree; considerably",
         "definitionZh": "大幅地；實質上",
         "usageExplanationZh": "常修飾動詞或形容詞，如 substantially increase，強調變化程度顯著。",
-        "examples": [
-          {
-            "en": "Sales have increased substantially since the new product launch.",
-            "zh": "自從新產品上市以來，銷售額大幅成長。"
-          }
+        "grammarPatterns": [
+          "increase substantially",
+          "substantially + comparative adjective",
+          "substantially + past participle"
         ],
         "collocations": [
           {
@@ -725,20 +950,15 @@
             "text": "substantially higher",
             "meaningZh": "高出許多的"
           }
+        ],
+        "examples": [
+          {
+            "en": "Sales have increased substantially since the new product launch.",
+            "zh": "自從新產品上市以來，銷售額大幅成長。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "considerably",
@@ -754,7 +974,30 @@
         "lemma": "slightly",
         "noteZh": "些微地"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "substantial",
+        "partOfSpeech": "adjective",
+        "meaningZh": "大量的；可觀的"
+      },
+      {
+        "lemma": "substance",
+        "partOfSpeech": "noun",
+        "meaningZh": "物質；實質內容"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_substantive",
@@ -768,14 +1011,16 @@
       {
         "id": "s_substantive_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "having a real and important effect or existence; dealing with matters of real importance",
         "definitionZh": "實質性的；重要的",
         "usageExplanationZh": "常修飾 change、discussion，強調具有實際意義，而非表面或形式上的變化。",
-        "examples": [
-          {
-            "en": "The two sides made substantive progress in the negotiations.",
-            "zh": "雙方在談判中取得了實質性的進展。"
-          }
+        "grammarPatterns": [
+          "substantive + noun",
+          "make substantive progress on + noun"
         ],
         "collocations": [
           {
@@ -786,21 +1031,15 @@
             "text": "substantive discussion",
             "meaningZh": "深入實質內容的討論"
           }
+        ],
+        "examples": [
+          {
+            "en": "The two sides made substantive progress in the negotiations.",
+            "zh": "雙方在談判中取得了實質性的進展。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "meaningful",
@@ -820,7 +1059,31 @@
         "lemma": "insubstantial",
         "noteZh": "缺乏實質的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "substance",
+        "partOfSpeech": "noun",
+        "meaningZh": "實質；內容"
+      },
+      {
+        "lemma": "substantively",
+        "partOfSpeech": "adverb",
+        "meaningZh": "實質上地"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_substitute",
@@ -834,14 +1097,17 @@
       {
         "id": "s_substitute_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "a person or thing that takes the place of another",
         "definitionZh": "替代品；代替者",
         "usageExplanationZh": "常見 a substitute teacher（代課老師）、sugar substitute（代糖），指用來取代原本事物的人或物。",
-        "examples": [
-          {
-            "en": "Honey can be used as a substitute for sugar in this recipe.",
-            "zh": "這份食譜中可以用蜂蜜代替糖。"
-          }
+        "grammarPatterns": [
+          "a substitute for + noun",
+          "use sth as a substitute",
+          "find a substitute"
         ],
         "collocations": [
           {
@@ -852,7 +1118,36 @@
             "text": "substitute teacher",
             "meaningZh": "代課教師"
           }
+        ],
+        "examples": [
+          {
+            "en": "Honey can be used as a substitute for sugar in this recipe.",
+            "zh": "這份食譜中可以用蜂蜜代替糖。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "replacement",
+        "noteZh": "替代者或替代品"
+      },
+      {
+        "lemma": "alternative",
+        "noteZh": "可替代的選擇"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "substitution",
+        "partOfSpeech": "noun",
+        "meaningZh": "替換；代換"
+      },
+      {
+        "lemma": "substitutable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可替代的"
       }
     ],
     "tags": [
@@ -867,18 +1162,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "replacement",
-        "noteZh": "替代者或替代品"
-      },
-      {
-        "lemma": "alternative",
-        "noteZh": "可替代的選擇"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_subterranean",
@@ -892,14 +1176,16 @@
       {
         "id": "s_subterranean_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "literary"
+        ],
         "definitionEn": "existing or occurring below the surface of the earth",
         "definitionZh": "地下的",
         "usageExplanationZh": "常修飾 tunnel、river，也可比喻指隱密、不公開的活動，較少見用法。",
-        "examples": [
-          {
-            "en": "Explorers discovered a vast subterranean cave system.",
-            "zh": "探險家發現了一個巨大的地下洞穴系統。"
-          }
+        "grammarPatterns": [
+          "a subterranean + noun",
+          "deep subterranean + plural noun"
         ],
         "collocations": [
           {
@@ -910,7 +1196,25 @@
             "text": "subterranean passage",
             "meaningZh": "地下通道"
           }
+        ],
+        "examples": [
+          {
+            "en": "Explorers discovered a vast subterranean cave system.",
+            "zh": "探險家發現了一個巨大的地下洞穴系統。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "underground",
+        "noteZh": "地下的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "aboveground",
+        "noteZh": "地面上的"
       }
     ],
     "tags": [
@@ -924,19 +1228,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "underground",
-        "noteZh": "地下的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "aboveground",
-        "noteZh": "地面上的"
-      }
-    ]
+    }
   },
   {
     "id": "w_suburb",
@@ -950,14 +1242,16 @@
       {
         "id": "s_suburb_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a residential area located on the outskirts of a city",
         "definitionZh": "郊區",
         "usageExplanationZh": "常見 live in the suburbs，指城市周邊、以住宅為主的地區，與 downtown 相對。",
-        "examples": [
-          {
-            "en": "They moved to a quiet suburb to raise their children.",
-            "zh": "他們搬到一個安靜的郊區養育孩子。"
-          }
+        "grammarPatterns": [
+          "a suburb of + noun",
+          "live in the suburbs",
+          "move to a suburb"
         ],
         "collocations": [
           {
@@ -968,7 +1262,32 @@
             "text": "live in the suburbs",
             "meaningZh": "住在郊區"
           }
+        ],
+        "examples": [
+          {
+            "en": "They moved to a quiet suburb to raise their children.",
+            "zh": "他們搬到一個安靜的郊區養育孩子。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "outskirts",
+        "noteZh": "城郊周邊，範圍較廣"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "suburban",
+        "partOfSpeech": "adjective",
+        "meaningZh": "郊區的"
+      },
+      {
+        "lemma": "suburbia",
+        "partOfSpeech": "noun",
+        "meaningZh": "郊區；郊區生活"
       }
     ],
     "tags": [
@@ -982,14 +1301,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "outskirts",
-        "noteZh": "城郊周邊，範圍較廣"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_subway",
@@ -1003,14 +1315,16 @@
       {
         "id": "s_subway_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "an underground railway system used for transporting passengers in a city",
         "definitionZh": "地鐵",
         "usageExplanationZh": "美式用語（英式常用 underground 或 tube），指城市地下運行的大眾運輸系統。",
-        "examples": [
-          {
-            "en": "She takes the subway to work every day.",
-            "zh": "她每天搭地鐵上班。"
-          }
+        "grammarPatterns": [
+          "take the subway",
+          "on the subway",
+          "a subway station"
         ],
         "collocations": [
           {
@@ -1021,20 +1335,15 @@
             "text": "subway station",
             "meaningZh": "地鐵站"
           }
+        ],
+        "examples": [
+          {
+            "en": "She takes the subway to work every day.",
+            "zh": "她每天搭地鐵上班。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "metro",
@@ -1045,7 +1354,18 @@
         "noteZh": "英式用語，地鐵"
       }
     ],
-    "antonyms": []
+    "antonyms": [],
+    "tags": [
+      "dictionary",
+      "toefl"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_succession",
@@ -1059,14 +1379,17 @@
       {
         "id": "s_succession_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a number of people or things following one after another, or the process of inheriting a position or title",
         "definitionZh": "連續；繼承",
         "usageExplanationZh": "常見 in succession（接連地）、line of succession（王位繼承順序），依語境判斷。",
-        "examples": [
-          {
-            "en": "The team won five championships in succession.",
-            "zh": "這支隊伍連續贏得五次冠軍。"
-          }
+        "grammarPatterns": [
+          "in succession",
+          "a succession of + noun",
+          "the succession to + noun"
         ],
         "collocations": [
           {
@@ -1077,7 +1400,37 @@
             "text": "succession to the throne",
             "meaningZh": "王位繼承"
           }
+        ],
+        "examples": [
+          {
+            "en": "The team won five championships in succession.",
+            "zh": "這支隊伍連續贏得五次冠軍。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "sequence",
+        "noteZh": "連續的系列"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "successive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "連續的；相繼的"
+      },
+      {
+        "lemma": "succeed",
+        "partOfSpeech": "verb",
+        "meaningZh": "繼任；接續"
+      },
+      {
+        "lemma": "successor",
+        "partOfSpeech": "noun",
+        "meaningZh": "繼任者；接班人"
       }
     ],
     "tags": [
@@ -1090,14 +1443,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "sequence",
-        "noteZh": "連續的系列"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_successive",
@@ -1111,14 +1457,16 @@
       {
         "id": "s_successive_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "following one after another without interruption",
         "definitionZh": "連續的；相繼的",
         "usageExplanationZh": "常修飾 years、attempts，強調事件緊接著發生，中間沒有間斷。",
-        "examples": [
-          {
-            "en": "The company reported profits for five successive quarters.",
-            "zh": "這家公司連續五季都公布獲利。"
-          }
+        "grammarPatterns": [
+          "successive + plural noun",
+          "for + number + successive + plural noun"
         ],
         "collocations": [
           {
@@ -1129,20 +1477,15 @@
             "text": "three successive years",
             "meaningZh": "連續三年"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company reported profits for five successive quarters.",
+            "zh": "這家公司連續五季都公布獲利。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "consecutive",
@@ -1158,7 +1501,30 @@
         "lemma": "nonconsecutive",
         "noteZh": "不連續的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "succession",
+        "partOfSpeech": "noun",
+        "meaningZh": "連續；接續"
+      },
+      {
+        "lemma": "successively",
+        "partOfSpeech": "adverb",
+        "meaningZh": "連續地"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_suck",
@@ -1172,14 +1538,17 @@
       {
         "id": "s_suck_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "spoken"
+        ],
         "definitionEn": "to draw liquid or air into the mouth by creating suction",
         "definitionZh": "吸；吮吸",
         "usageExplanationZh": "常見 suck through a straw，也可比喻指強力吸入或捲入，如 sucked into a conflict。",
-        "examples": [
-          {
-            "en": "The baby sucked contentedly on the pacifier.",
-            "zh": "這個嬰兒心滿意足地吸吮著奶嘴。"
-          }
+        "grammarPatterns": [
+          "suck on + noun",
+          "suck sth through + noun",
+          "suck sth up"
         ],
         "collocations": [
           {
@@ -1190,7 +1559,32 @@
             "text": "suck on a sweet",
             "meaningZh": "含吮糖果"
           }
+        ],
+        "examples": [
+          {
+            "en": "The baby sucked contentedly on the pacifier.",
+            "zh": "這個嬰兒心滿意足地吸吮著奶嘴。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "draw in",
+        "noteZh": "吸入"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "blow",
+        "noteZh": "吹出氣體"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "suction",
+        "partOfSpeech": "noun",
+        "meaningZh": "吸力；抽吸"
       }
     ],
     "tags": [
@@ -1203,19 +1597,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "draw in",
-        "noteZh": "吸入"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "blow",
-        "noteZh": "吹出氣體"
-      }
-    ]
+    }
   },
   {
     "id": "w_suffocate",
@@ -1229,14 +1611,17 @@
       {
         "id": "s_suffocate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "to die or cause someone to die from lack of air, or to make someone feel unable to breathe freely",
         "definitionZh": "使窒息",
         "usageExplanationZh": "字面指缺氧致死；比喻指使人感到壓抑、喘不過氣，如 suffocate creativity。",
-        "examples": [
-          {
-            "en": "The trapped miners nearly suffocated before rescuers arrived.",
-            "zh": "受困的礦工在救援人員抵達前差點窒息而死。"
-          }
+        "grammarPatterns": [
+          "suffocate + sb",
+          "suffocate in + noun",
+          "nearly suffocate"
         ],
         "collocations": [
           {
@@ -1247,7 +1632,31 @@
             "text": "suffocate to death",
             "meaningZh": "窒息而死"
           }
+        ],
+        "examples": [
+          {
+            "en": "The trapped miners nearly suffocated before rescuers arrived.",
+            "zh": "受困的礦工在救援人員抵達前差點窒息而死。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "asphyxiate",
+        "noteZh": "因缺氧而窒息"
+      },
+      {
+        "lemma": "smother",
+        "noteZh": "使悶死或無法呼吸"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "suffocation",
+        "partOfSpeech": "noun",
+        "meaningZh": "窒息"
       }
     ],
     "tags": [
@@ -1260,18 +1669,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "asphyxiate",
-        "noteZh": "因缺氧而窒息"
-      },
-      {
-        "lemma": "smother",
-        "noteZh": "使悶死或無法呼吸"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_suggestive",
@@ -1285,14 +1683,16 @@
       {
         "id": "s_suggestive_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "tending to suggest something, especially something sexual or improper",
         "definitionZh": "暗示性的；引人遐想的",
         "usageExplanationZh": "常見 suggestive remark/gesture，帶輕微負面或曖昧意味，暗指不便明說的意涵。",
-        "examples": [
-          {
-            "en": "Her suggestive comment made everyone at the table uncomfortable.",
-            "zh": "她那句意有所指的話讓餐桌上的每個人都感到不自在。"
-          }
+        "grammarPatterns": [
+          "a suggestive + noun",
+          "be suggestive of + noun"
         ],
         "collocations": [
           {
@@ -1303,7 +1703,36 @@
             "text": "suggestive remarks",
             "meaningZh": "帶有性暗示的話語"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her suggestive comment made everyone at the table uncomfortable.",
+            "zh": "她那句意有所指的話讓餐桌上的每個人都感到不自在。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "indicative",
+        "noteZh": "暗示某種狀況的"
+      },
+      {
+        "lemma": "risqué",
+        "noteZh": "帶有性暗示的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "suggest",
+        "partOfSpeech": "verb",
+        "meaningZh": "暗示；建議"
+      },
+      {
+        "lemma": "suggestion",
+        "partOfSpeech": "noun",
+        "meaningZh": "建議；暗示"
       }
     ],
     "tags": [
@@ -1316,18 +1745,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "indicative",
-        "noteZh": "暗示某種狀況的"
-      },
-      {
-        "lemma": "risqué",
-        "noteZh": "帶有性暗示的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_suitable",
@@ -1341,14 +1759,16 @@
       {
         "id": "s_suitable_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "right or appropriate for a particular purpose or occasion",
         "definitionZh": "合適的；適當的",
         "usageExplanationZh": "常見 suitable for，強調符合特定用途、對象或場合的要求。",
-        "examples": [
-          {
-            "en": "This movie is not suitable for young children.",
-            "zh": "這部電影不適合幼童觀看。"
-          }
+        "grammarPatterns": [
+          "be suitable for + noun",
+          "a suitable + noun",
+          "be suitable to + V"
         ],
         "collocations": [
           {
@@ -1359,21 +1779,15 @@
             "text": "suitable candidate",
             "meaningZh": "合適的候選人"
           }
+        ],
+        "examples": [
+          {
+            "en": "This movie is not suitable for young children.",
+            "zh": "這部電影不適合幼童觀看。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "appropriate",
@@ -1389,7 +1803,36 @@
         "lemma": "unsuitable",
         "noteZh": "不合適的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "suit",
+        "partOfSpeech": "verb",
+        "meaningZh": "適合；相稱"
+      },
+      {
+        "lemma": "suitability",
+        "partOfSpeech": "noun",
+        "meaningZh": "適合性；合適度"
+      },
+      {
+        "lemma": "unsuitable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不合適的"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_suitcase",
@@ -1403,14 +1846,16 @@
       {
         "id": "s_suitcase_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a rectangular case with a handle, used for carrying clothes and personal items while traveling",
         "definitionZh": "手提箱；行李箱",
         "usageExplanationZh": "日常旅行用語，常見 pack a suitcase，指用於裝載衣物與個人物品的箱子。",
-        "examples": [
-          {
-            "en": "She packed her suitcase the night before the trip.",
-            "zh": "她在出發前一晚打包好了行李箱。"
-          }
+        "grammarPatterns": [
+          "pack a suitcase",
+          "a heavy suitcase",
+          "put sth in a suitcase"
         ],
         "collocations": [
           {
@@ -1421,9 +1866,22 @@
             "text": "carry-on suitcase",
             "meaningZh": "登機行李箱"
           }
+        ],
+        "examples": [
+          {
+            "en": "She packed her suitcase the night before the trip.",
+            "zh": "她在出發前一晚打包好了行李箱。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "travel case",
+        "noteZh": "旅行用箱子"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1436,14 +1894,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "travel case",
-        "noteZh": "旅行用箱子"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_suite",
@@ -1457,14 +1908,17 @@
       {
         "id": "s_suite_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "a set of connected rooms, especially in a hotel, or a set of matching furniture",
         "definitionZh": "套房；成套家具",
         "usageExplanationZh": "常見 hotel suite（飯店套房），也可指軟體套件（software suite），依語境判斷。",
-        "examples": [
-          {
-            "en": "They booked a suite for their honeymoon.",
-            "zh": "他們為蜜月旅行訂了一間套房。"
-          }
+        "grammarPatterns": [
+          "book a suite",
+          "a hotel suite",
+          "a suite of + noun"
         ],
         "collocations": [
           {
@@ -1475,9 +1929,17 @@
             "text": "three-piece suite",
             "meaningZh": "三件式沙發組"
           }
+        ],
+        "examples": [
+          {
+            "en": "They booked a suite for their honeymoon.",
+            "zh": "他們為蜜月旅行訂了一間套房。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1489,9 +1951,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sullen",
@@ -1505,14 +1965,17 @@
       {
         "id": "s_sullen_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "informal"
+        ],
         "definitionEn": "bad-tempered and unwilling to smile or be pleasant, often silently",
         "definitionZh": "慍怒的；悶悶不樂的",
         "usageExplanationZh": "常修飾 expression、silence，形容人因不滿而沉默、面帶怒氣。",
-        "examples": [
-          {
-            "en": "The teenager gave a sullen look when asked to clean his room.",
-            "zh": "被要求打掃房間時，這個青少年露出了慍怒的表情。"
-          }
+        "grammarPatterns": [
+          "a sullen + noun",
+          "look sullen",
+          "in a sullen mood"
         ],
         "collocations": [
           {
@@ -1523,21 +1986,15 @@
             "text": "sullen expression",
             "meaningZh": "陰沉的表情"
           }
+        ],
+        "examples": [
+          {
+            "en": "The teenager gave a sullen look when asked to clean his room.",
+            "zh": "被要求打掃房間時，這個青少年露出了慍怒的表情。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "morose",
@@ -1553,39 +2010,17 @@
         "lemma": "cheerful",
         "noteZh": "開朗愉快的"
       }
-    ]
-  },
-  {
-    "id": "w_sultry",
-    "lemma": "sultry",
-    "slug": "sultry",
-    "cefr": "C2",
-    "pronunciation": {
-      "kk": "/ˈsʌltri/"
-    },
-    "senses": [
+    ],
+    "wordFamily": [
       {
-        "id": "s_sultry_adjective",
-        "partOfSpeech": "adjective",
-        "definitionEn": "(of weather) hot and humid in an uncomfortable way",
-        "definitionZh": "悶熱的；濕熱的",
-        "usageExplanationZh": "常修飾 weather、afternoon，形容天氣又熱又潮濕，令人不適；也可形容人性感撩人（較少見）。",
-        "examples": [
-          {
-            "en": "The sultry summer afternoon made everyone feel lethargic.",
-            "zh": "悶熱的夏日午後讓每個人都昏昏欲睡。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "sultry summer evening",
-            "meaningZh": "悶熱的夏日夜晚"
-          },
-          {
-            "text": "sultry heat",
-            "meaningZh": "濕悶的暑氣"
-          }
-        ]
+        "lemma": "sullenly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "慍怒地"
+      },
+      {
+        "lemma": "sullenness",
+        "partOfSpeech": "noun",
+        "meaningZh": "悶悶不樂；慍怒"
       }
     ],
     "tags": [
@@ -1599,7 +2034,49 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
+    }
+  },
+  {
+    "id": "w_sultry",
+    "lemma": "sultry",
+    "slug": "sultry",
+    "cefr": "C2",
+    "pronunciation": {
+      "kk": "/ˈsʌltri/"
     },
+    "senses": [
+      {
+        "id": "s_sultry_adjective",
+        "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "neutral"
+        ],
+        "definitionEn": "(of weather) hot and humid in an uncomfortable way",
+        "definitionZh": "悶熱的；濕熱的",
+        "usageExplanationZh": "常修飾 weather、afternoon，形容天氣又熱又潮濕，令人不適；也可形容人性感撩人（較少見）。",
+        "grammarPatterns": [
+          "a sultry + noun",
+          "hot and sultry"
+        ],
+        "collocations": [
+          {
+            "text": "sultry summer evening",
+            "meaningZh": "悶熱的夏日夜晚"
+          },
+          {
+            "text": "sultry heat",
+            "meaningZh": "濕悶的暑氣"
+          }
+        ],
+        "examples": [
+          {
+            "en": "The sultry summer afternoon made everyone feel lethargic.",
+            "zh": "悶熱的夏日午後讓每個人都昏昏欲睡。"
+          }
+        ]
+      }
+    ],
     "synonyms": [
       {
         "lemma": "muggy",
@@ -1615,7 +2092,19 @@
         "lemma": "cool",
         "noteZh": "涼爽的"
       }
-    ]
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_summary",
@@ -1629,14 +2118,17 @@
       {
         "id": "s_summary_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "business"
+        ],
         "definitionEn": "a short statement giving the main points of something without the details",
         "definitionZh": "摘要；概要",
         "usageExplanationZh": "常見 executive summary、in summary，指濃縮呈現要點而省略細節的簡短敘述。",
-        "examples": [
-          {
-            "en": "Please provide a summary of the report's key findings.",
-            "zh": "請提供這份報告主要發現的摘要。"
-          }
+        "grammarPatterns": [
+          "a summary of + noun",
+          "in summary",
+          "provide a summary"
         ],
         "collocations": [
           {
@@ -1647,7 +2139,31 @@
             "text": "in summary",
             "meaningZh": "概括而言"
           }
+        ],
+        "examples": [
+          {
+            "en": "Please provide a summary of the report's key findings.",
+            "zh": "請提供這份報告主要發現的摘要。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "synopsis",
+        "noteZh": "概要"
+      },
+      {
+        "lemma": "outline",
+        "noteZh": "大綱"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "summarize",
+        "partOfSpeech": "verb",
+        "meaningZh": "總結；摘要說明"
       }
     ],
     "tags": [
@@ -1661,18 +2177,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "synopsis",
-        "noteZh": "概要"
-      },
-      {
-        "lemma": "outline",
-        "noteZh": "大綱"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_summit",
@@ -1686,14 +2191,16 @@
       {
         "id": "s_summit_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "the highest point of a mountain, or a formal meeting between leaders of governments",
         "definitionZh": "山頂；高峰會",
         "usageExplanationZh": "字面指山的最高點；也常見於政治語境，如 climate summit（氣候高峰會）。",
-        "examples": [
-          {
-            "en": "The climbers finally reached the summit after six hours.",
-            "zh": "登山者在六小時後終於登上山頂。"
-          }
+        "grammarPatterns": [
+          "reach the summit",
+          "a summit on + noun",
+          "hold a summit"
         ],
         "collocations": [
           {
@@ -1704,21 +2211,15 @@
             "text": "summit meeting",
             "meaningZh": "高峰會議"
           }
+        ],
+        "examples": [
+          {
+            "en": "The climbers finally reached the summit after six hours.",
+            "zh": "登山者在六小時後終於登上山頂。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "peak",
@@ -1734,7 +2235,19 @@
         "lemma": "base",
         "noteZh": "指山底，與山頂相對"
       }
-    ]
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_summon",
@@ -1748,14 +2261,17 @@
       {
         "id": "s_summon_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to officially order someone to come to a particular place, or to call up an inner quality such as courage",
         "definitionZh": "召喚；喚起（勇氣等）",
         "usageExplanationZh": "常見 summon the courage to，也可指正式傳喚，如 summon a witness。",
-        "examples": [
-          {
-            "en": "She summoned the courage to speak up during the meeting.",
-            "zh": "她鼓起勇氣在會議中發言。"
-          }
+        "grammarPatterns": [
+          "summon + sb",
+          "summon sb to + noun",
+          "summon the courage to + V"
         ],
         "collocations": [
           {
@@ -1766,7 +2282,31 @@
             "text": "summon up courage",
             "meaningZh": "鼓起勇氣"
           }
+        ],
+        "examples": [
+          {
+            "en": "She summoned the courage to speak up during the meeting.",
+            "zh": "她鼓起勇氣在會議中發言。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "call",
+        "noteZh": "召喚"
+      },
+      {
+        "lemma": "muster",
+        "noteZh": "指鼓起勇氣等"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "summons",
+        "partOfSpeech": "noun",
+        "meaningZh": "傳票；傳喚"
       }
     ],
     "tags": [
@@ -1781,18 +2321,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "call",
-        "noteZh": "召喚"
-      },
-      {
-        "lemma": "muster",
-        "noteZh": "指鼓起勇氣等"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sumptuous",
@@ -1806,14 +2335,16 @@
       {
         "id": "s_sumptuous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "extremely expensive, luxurious, and impressive",
         "definitionZh": "奢華的；豪華的",
         "usageExplanationZh": "常修飾 feast、decor，形容極盡奢華、令人印象深刻的排場或裝潢。",
-        "examples": [
-          {
-            "en": "They enjoyed a sumptuous banquet at the palace.",
-            "zh": "他們在皇宮享用了一場奢華的宴席。"
-          }
+        "grammarPatterns": [
+          "a sumptuous + noun",
+          "sumptuous + plural noun"
         ],
         "collocations": [
           {
@@ -1824,21 +2355,15 @@
             "text": "sumptuous surroundings",
             "meaningZh": "奢華的環境"
           }
+        ],
+        "examples": [
+          {
+            "en": "They enjoyed a sumptuous banquet at the palace.",
+            "zh": "他們在皇宮享用了一場奢華的宴席。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "luxurious",
@@ -1854,7 +2379,26 @@
         "lemma": "austere",
         "noteZh": "簡樸無華的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "sumptuously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "奢華地"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_sundry",
@@ -1868,14 +2412,16 @@
       {
         "id": "s_sundry_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "of various kinds; miscellaneous",
         "definitionZh": "各式各樣的；雜項的",
         "usageExplanationZh": "常見 sundry items/expenses，指種類混雜、無法歸為單一類別的事物。",
-        "examples": [
-          {
-            "en": "The invoice listed sundry expenses such as postage and supplies.",
-            "zh": "這份帳單列出了郵資、用品等各項雜支。"
-          }
+        "grammarPatterns": [
+          "sundry + plural noun",
+          "sundry expenses such as + noun"
         ],
         "collocations": [
           {
@@ -1886,20 +2432,15 @@
             "text": "sundry items",
             "meaningZh": "各式雜物"
           }
+        ],
+        "examples": [
+          {
+            "en": "The invoice listed sundry expenses such as postage and supplies.",
+            "zh": "這份帳單列出了郵資、用品等各項雜支。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "various",
@@ -1910,7 +2451,18 @@
         "noteZh": "雜項的"
       }
     ],
-    "antonyms": []
+    "antonyms": [],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_sunlight",
@@ -1924,14 +2476,16 @@
       {
         "id": "s_sunlight_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "light that comes from the sun",
         "definitionZh": "陽光；日光",
         "usageExplanationZh": "日常用語，常見 direct sunlight、bask in sunlight，指來自太陽的光線。",
-        "examples": [
-          {
-            "en": "Plants need sunlight to grow properly.",
-            "zh": "植物需要陽光才能正常生長。"
-          }
+        "grammarPatterns": [
+          "in direct sunlight",
+          "exposure to sunlight",
+          "sunlight falls on + noun"
         ],
         "collocations": [
           {
@@ -1942,7 +2496,31 @@
             "text": "exposure to sunlight",
             "meaningZh": "曝曬於陽光"
           }
+        ],
+        "examples": [
+          {
+            "en": "Plants need sunlight to grow properly.",
+            "zh": "植物需要陽光才能正常生長。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "sunshine",
+        "noteZh": "陽光"
+      },
+      {
+        "lemma": "daylight",
+        "noteZh": "日間自然光"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "sunlit",
+        "partOfSpeech": "adjective",
+        "meaningZh": "陽光照射的"
       }
     ],
     "tags": [
@@ -1956,18 +2534,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "sunshine",
-        "noteZh": "陽光"
-      },
-      {
-        "lemma": "daylight",
-        "noteZh": "日間自然光"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sunset",
@@ -1981,14 +2548,17 @@
       {
         "id": "s_sunset_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "the time when the sun goes down below the horizon in the evening",
         "definitionZh": "日落",
         "usageExplanationZh": "常見 watch the sunset，指傍晚太陽落下的時刻，也可比喻指某事物的終結階段。",
-        "examples": [
-          {
-            "en": "They watched the sunset from the balcony.",
-            "zh": "他們從陽台上欣賞日落。"
-          }
+        "grammarPatterns": [
+          "at sunset",
+          "watch the sunset",
+          "before sunset"
         ],
         "collocations": [
           {
@@ -1999,7 +2569,25 @@
             "text": "watch the sunset",
             "meaningZh": "看夕陽"
           }
+        ],
+        "examples": [
+          {
+            "en": "They watched the sunset from the balcony.",
+            "zh": "他們從陽台上欣賞日落。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "sundown",
+        "noteZh": "太陽下山"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "sunrise",
+        "noteZh": "日出"
       }
     ],
     "tags": [
@@ -2012,19 +2600,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "sundown",
-        "noteZh": "太陽下山"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "sunrise",
-        "noteZh": "日出"
-      }
-    ]
+    }
   },
   {
     "id": "w_sunshine",
@@ -2038,14 +2614,16 @@
       {
         "id": "s_sunshine_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "sunlight, especially when bright and warm",
         "definitionZh": "陽光；晴天",
         "usageExplanationZh": "常見 bask in the sunshine，也可比喻指帶來歡樂的人或事，如 you are my sunshine。",
-        "examples": [
-          {
-            "en": "The children played outside in the warm sunshine.",
-            "zh": "孩子們在溫暖的陽光下到戶外玩耍。"
-          }
+        "grammarPatterns": [
+          "in the sunshine",
+          "bright sunshine",
+          "hours of sunshine"
         ],
         "collocations": [
           {
@@ -2056,7 +2634,27 @@
             "text": "a ray of sunshine",
             "meaningZh": "一縷陽光；帶來喜悅的人"
           }
+        ],
+        "examples": [
+          {
+            "en": "The children played outside in the warm sunshine.",
+            "zh": "孩子們在溫暖的陽光下到戶外玩耍。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "sunlight",
+        "noteZh": "陽光"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "sunny",
+        "partOfSpeech": "adjective",
+        "meaningZh": "晴朗的；陽光充足的"
       }
     ],
     "tags": [
@@ -2069,14 +2667,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "sunlight",
-        "noteZh": "陽光"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_superb",
@@ -2090,14 +2681,15 @@
       {
         "id": "s_superb_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "extremely good; excellent",
         "definitionZh": "極好的；卓越的",
         "usageExplanationZh": "常修飾 performance、view，語氣強烈正面，強調品質或表現超乎尋常地優秀。",
-        "examples": [
-          {
-            "en": "The chef prepared a superb five-course meal.",
-            "zh": "主廚準備了一頓極為出色的五道菜大餐。"
-          }
+        "grammarPatterns": [
+          "a superb + noun",
+          "absolutely superb"
         ],
         "collocations": [
           {
@@ -2108,22 +2700,15 @@
             "text": "superb quality",
             "meaningZh": "卓越的品質"
           }
+        ],
+        "examples": [
+          {
+            "en": "The chef prepared a superb five-course meal.",
+            "zh": "主廚準備了一頓極為出色的五道菜大餐。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "excellent",
@@ -2139,39 +2724,12 @@
         "lemma": "poor",
         "noteZh": "品質差的"
       }
-    ]
-  },
-  {
-    "id": "w_superficial",
-    "lemma": "superficial",
-    "slug": "superficial",
-    "cefr": "C1",
-    "pronunciation": {
-      "kk": "/ˌsupɚˈfɪʃəl/"
-    },
-    "senses": [
+    ],
+    "wordFamily": [
       {
-        "id": "s_superficial_adjective",
-        "partOfSpeech": "adjective",
-        "definitionEn": "involving only what is on the surface, without deep understanding or importance",
-        "definitionZh": "表面的；膚淺的",
-        "usageExplanationZh": "常修飾 wound（表面傷口）或 knowledge/analysis（膚淺的了解），依語境判斷。",
-        "examples": [
-          {
-            "en": "Her understanding of the topic is only superficial.",
-            "zh": "她對這個主題的了解只是表面而已。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "superficial understanding",
-            "meaningZh": "膚淺的理解"
-          },
-          {
-            "text": "superficial resemblance",
-            "meaningZh": "表面相似"
-          }
-        ]
+        "lemma": "superbly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "極好地；出色地"
       }
     ],
     "tags": [
@@ -2186,7 +2744,50 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
+    }
+  },
+  {
+    "id": "w_superficial",
+    "lemma": "superficial",
+    "slug": "superficial",
+    "cefr": "C1",
+    "pronunciation": {
+      "kk": "/ˌsupɚˈfɪʃəl/"
     },
+    "senses": [
+      {
+        "id": "s_superficial_adjective",
+        "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "formal"
+        ],
+        "definitionEn": "involving only what is on the surface, without deep understanding or importance",
+        "definitionZh": "表面的；膚淺的",
+        "usageExplanationZh": "常修飾 wound（表面傷口）或 knowledge/analysis（膚淺的了解），依語境判斷。",
+        "grammarPatterns": [
+          "a superficial + noun",
+          "a superficial understanding of + noun",
+          "only superficial"
+        ],
+        "collocations": [
+          {
+            "text": "superficial understanding",
+            "meaningZh": "膚淺的理解"
+          },
+          {
+            "text": "superficial resemblance",
+            "meaningZh": "表面相似"
+          }
+        ],
+        "examples": [
+          {
+            "en": "Her understanding of the topic is only superficial.",
+            "zh": "她對這個主題的了解只是表面而已。"
+          }
+        ]
+      }
+    ],
     "synonyms": [
       {
         "lemma": "shallow",
@@ -2206,39 +2807,17 @@
         "lemma": "thorough",
         "noteZh": "深入徹底的"
       }
-    ]
-  },
-  {
-    "id": "w_superfluous",
-    "lemma": "superfluous",
-    "slug": "superfluous",
-    "cefr": "C2",
-    "pronunciation": {
-      "kk": "/ˈsupɚflˌwʌs/"
-    },
-    "senses": [
+    ],
+    "wordFamily": [
       {
-        "id": "s_superfluous_adjective",
-        "partOfSpeech": "adjective",
-        "definitionEn": "more than what is needed or necessary",
-        "definitionZh": "多餘的；過剩的",
-        "usageExplanationZh": "正式用語，常見 superfluous detail/information，強調不必要、可省略的部分。",
-        "examples": [
-          {
-            "en": "The report contained a lot of superfluous information that could have been cut.",
-            "zh": "這份報告包含了許多可以刪減的多餘資訊。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "superfluous details",
-            "meaningZh": "多餘的細節"
-          },
-          {
-            "text": "render something superfluous",
-            "meaningZh": "使某物變得多餘"
-          }
-        ]
+        "lemma": "superficiality",
+        "partOfSpeech": "noun",
+        "meaningZh": "膚淺；表面性"
+      },
+      {
+        "lemma": "superficially",
+        "partOfSpeech": "adverb",
+        "meaningZh": "表面上地"
       }
     ],
     "tags": [
@@ -2253,7 +2832,50 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
+    }
+  },
+  {
+    "id": "w_superfluous",
+    "lemma": "superfluous",
+    "slug": "superfluous",
+    "cefr": "C2",
+    "pronunciation": {
+      "kk": "/ˈsupɚflˌwʌs/"
     },
+    "senses": [
+      {
+        "id": "s_superfluous_adjective",
+        "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
+        "definitionEn": "more than what is needed or necessary",
+        "definitionZh": "多餘的；過剩的",
+        "usageExplanationZh": "正式用語，常見 superfluous detail/information，強調不必要、可省略的部分。",
+        "grammarPatterns": [
+          "superfluous + noun",
+          "be superfluous to + noun",
+          "render sth superfluous"
+        ],
+        "collocations": [
+          {
+            "text": "superfluous details",
+            "meaningZh": "多餘的細節"
+          },
+          {
+            "text": "render something superfluous",
+            "meaningZh": "使某物變得多餘"
+          }
+        ],
+        "examples": [
+          {
+            "en": "The report contained a lot of superfluous information that could have been cut.",
+            "zh": "這份報告包含了許多可以刪減的多餘資訊。"
+          }
+        ]
+      }
+    ],
     "synonyms": [
       {
         "lemma": "unnecessary",
@@ -2269,7 +2891,32 @@
         "lemma": "essential",
         "noteZh": "必要的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "superfluity",
+        "partOfSpeech": "noun",
+        "meaningZh": "過剩；多餘"
+      },
+      {
+        "lemma": "superfluously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "多餘地"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_superimpose",
@@ -2283,14 +2930,16 @@
       {
         "id": "s_superimpose_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "to place one image or layer on top of another so both are visible",
         "definitionZh": "疊加；重疊放置",
         "usageExplanationZh": "常見 superimpose an image on，多用於攝影、設計語境，指將一物覆蓋於另一物之上。",
-        "examples": [
-          {
-            "en": "The designer superimposed the logo onto the photo background.",
-            "zh": "設計師將標誌疊加在照片背景上。"
-          }
+        "grammarPatterns": [
+          "superimpose A on B",
+          "superimpose sth onto + noun"
         ],
         "collocations": [
           {
@@ -2301,7 +2950,27 @@
             "text": "superimpose text on a photograph",
             "meaningZh": "在照片上疊加文字"
           }
+        ],
+        "examples": [
+          {
+            "en": "The designer superimposed the logo onto the photo background.",
+            "zh": "設計師將標誌疊加在照片背景上。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "overlay",
+        "noteZh": "覆疊"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "superimposition",
+        "partOfSpeech": "noun",
+        "meaningZh": "疊加；重疊"
       }
     ],
     "tags": [
@@ -2314,14 +2983,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "overlay",
-        "noteZh": "覆疊"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_superintendent",
@@ -2335,14 +2997,17 @@
       {
         "id": "s_superintendent_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "a person who manages or oversees a building, organization, or department",
         "definitionZh": "管理人；主管",
         "usageExplanationZh": "常見 school superintendent（學區督導）、building superintendent（大樓管理員），依語境不同層級各異。",
-        "examples": [
-          {
-            "en": "The school superintendent announced new policies for the district.",
-            "zh": "這位學區督導宣布了該學區的新政策。"
-          }
+        "grammarPatterns": [
+          "the superintendent of + noun",
+          "a school superintendent",
+          "report to the superintendent"
         ],
         "collocations": [
           {
@@ -2353,7 +3018,31 @@
             "text": "building superintendent",
             "meaningZh": "大樓管理員"
           }
+        ],
+        "examples": [
+          {
+            "en": "The school superintendent announced new policies for the district.",
+            "zh": "這位學區督導宣布了該學區的新政策。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "supervisor",
+        "noteZh": "監督管理者"
+      },
+      {
+        "lemma": "administrator",
+        "noteZh": "行政主管"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "superintend",
+        "partOfSpeech": "verb",
+        "meaningZh": "監督；管理"
       }
     ],
     "tags": [
@@ -2366,18 +3055,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "supervisor",
-        "noteZh": "監督管理者"
-      },
-      {
-        "lemma": "administrator",
-        "noteZh": "行政主管"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_superior",
@@ -2391,14 +3069,17 @@
       {
         "id": "s_superior_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "higher in rank, quality, or ability compared to others",
         "definitionZh": "上級的；優越的",
         "usageExplanationZh": "常見 superior quality/officer，與 inferior 相對，可指品質優良或職位較高。",
-        "examples": [
-          {
-            "en": "This model offers superior performance compared to the older version.",
-            "zh": "這款機型的性能比舊款更為優越。"
-          }
+        "grammarPatterns": [
+          "be superior to + noun",
+          "a superior + noun",
+          "offer superior + noun"
         ],
         "collocations": [
           {
@@ -2409,21 +3090,15 @@
             "text": "superior quality",
             "meaningZh": "較優的品質"
           }
+        ],
+        "examples": [
+          {
+            "en": "This model offers superior performance compared to the older version.",
+            "zh": "這款機型的性能比舊款更為優越。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "better",
@@ -2439,7 +3114,26 @@
         "lemma": "inferior",
         "noteZh": "較差或地位較低的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "superiority",
+        "partOfSpeech": "noun",
+        "meaningZh": "優越性；優勢"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_supervise",
@@ -2453,14 +3147,17 @@
       {
         "id": "s_supervise_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "business",
+          "formal"
+        ],
         "definitionEn": "to watch over and direct the work of others to ensure it is done correctly",
         "definitionZh": "監督；督導",
         "usageExplanationZh": "常見 supervise employees/students，強調負責監看並指導他人完成工作或任務。",
-        "examples": [
-          {
-            "en": "The manager supervises a team of ten employees.",
-            "zh": "這位經理督導一支十人的團隊。"
-          }
+        "grammarPatterns": [
+          "supervise + noun",
+          "supervise sb's work",
+          "closely supervise + noun"
         ],
         "collocations": [
           {
@@ -2471,7 +3168,41 @@
             "text": "closely supervise",
             "meaningZh": "密切監督"
           }
+        ],
+        "examples": [
+          {
+            "en": "The manager supervises a team of ten employees.",
+            "zh": "這位經理督導一支十人的團隊。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "oversee",
+        "noteZh": "監督"
+      },
+      {
+        "lemma": "monitor",
+        "noteZh": "監看"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "supervision",
+        "partOfSpeech": "noun",
+        "meaningZh": "監督；督導"
+      },
+      {
+        "lemma": "supervisor",
+        "partOfSpeech": "noun",
+        "meaningZh": "主管；督導員"
+      },
+      {
+        "lemma": "supervisory",
+        "partOfSpeech": "adjective",
+        "meaningZh": "監督的"
       }
     ],
     "tags": [
@@ -2486,18 +3217,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "oversee",
-        "noteZh": "監督"
-      },
-      {
-        "lemma": "monitor",
-        "noteZh": "監看"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_supervision",
@@ -2511,14 +3231,17 @@
       {
         "id": "s_supervision_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "the act of overseeing and directing the activities of a person or group",
         "definitionZh": "監督；督導",
         "usageExplanationZh": "常見 under close supervision，強調對某項工作或人員進行持續的監管。",
-        "examples": [
-          {
-            "en": "The children played in the pool under adult supervision.",
-            "zh": "孩子們在大人的監督下在泳池裡玩耍。"
-          }
+        "grammarPatterns": [
+          "under supervision",
+          "the supervision of + noun",
+          "close supervision"
         ],
         "collocations": [
           {
@@ -2529,7 +3252,36 @@
             "text": "adult supervision",
             "meaningZh": "成人監督"
           }
+        ],
+        "examples": [
+          {
+            "en": "The children played in the pool under adult supervision.",
+            "zh": "孩子們在大人的監督下在泳池裡玩耍。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "oversight",
+        "noteZh": "監督"
+      },
+      {
+        "lemma": "superintendence",
+        "noteZh": "管理監督，較正式"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "supervise",
+        "partOfSpeech": "verb",
+        "meaningZh": "監督；督導"
+      },
+      {
+        "lemma": "supervisor",
+        "partOfSpeech": "noun",
+        "meaningZh": "主管；督導員"
       }
     ],
     "tags": [
@@ -2542,18 +3294,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "oversight",
-        "noteZh": "監督"
-      },
-      {
-        "lemma": "superintendence",
-        "noteZh": "管理監督，較正式"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_supervisor",
@@ -2567,14 +3308,17 @@
       {
         "id": "s_supervisor_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "neutral"
+        ],
         "definitionEn": "a person whose job is to oversee and direct the work of other employees",
         "definitionZh": "主管；督導員",
         "usageExplanationZh": "常見 direct supervisor（直屬主管），指負責管理特定團隊或部門日常運作的人。",
-        "examples": [
-          {
-            "en": "She reported the incident to her supervisor immediately.",
-            "zh": "她立刻向她的主管回報了這起事件。"
-          }
+        "grammarPatterns": [
+          "report to one's supervisor",
+          "a supervisor of + noun",
+          "sb's immediate supervisor"
         ],
         "collocations": [
           {
@@ -2585,7 +3329,41 @@
             "text": "shift supervisor",
             "meaningZh": "輪班主管"
           }
+        ],
+        "examples": [
+          {
+            "en": "She reported the incident to her supervisor immediately.",
+            "zh": "她立刻向她的主管回報了這起事件。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "overseer",
+        "noteZh": "監督者"
+      },
+      {
+        "lemma": "manager",
+        "noteZh": "管理工作的人"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "supervise",
+        "partOfSpeech": "verb",
+        "meaningZh": "監督；督導"
+      },
+      {
+        "lemma": "supervision",
+        "partOfSpeech": "noun",
+        "meaningZh": "監督；督導"
+      },
+      {
+        "lemma": "supervisory",
+        "partOfSpeech": "adjective",
+        "meaningZh": "監督的"
       }
     ],
     "tags": [
@@ -2599,18 +3377,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "overseer",
-        "noteZh": "監督者"
-      },
-      {
-        "lemma": "manager",
-        "noteZh": "管理工作的人"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_supplant",
@@ -2624,14 +3391,16 @@
       {
         "id": "s_supplant_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to take the place of something or someone, especially by force or through gradual replacement",
         "definitionZh": "取代；排擠",
         "usageExplanationZh": "正式用語，常見 supplant an old system/technology，強調逐漸或強行取而代之。",
-        "examples": [
-          {
-            "en": "Digital cameras have largely supplanted traditional film cameras.",
-            "zh": "數位相機已大幅取代了傳統底片相機。"
-          }
+        "grammarPatterns": [
+          "supplant + noun",
+          "be supplanted by + noun"
         ],
         "collocations": [
           {
@@ -2642,9 +3411,26 @@
             "text": "be supplanted by",
             "meaningZh": "被……取代"
           }
+        ],
+        "examples": [
+          {
+            "en": "Digital cameras have largely supplanted traditional film cameras.",
+            "zh": "數位相機已大幅取代了傳統底片相機。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "replace",
+        "noteZh": "取代"
+      },
+      {
+        "lemma": "displace",
+        "noteZh": "排擠並取代"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2656,18 +3442,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "replace",
-        "noteZh": "取代"
-      },
-      {
-        "lemma": "displace",
-        "noteZh": "排擠並取代"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_supple",
@@ -2681,23 +3456,39 @@
       {
         "id": "s_supple_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "formal"
+        ],
         "definitionEn": "to make something soft and flexible, or to become so",
         "definitionZh": "使柔軟；變柔韌",
         "usageExplanationZh": "較少見的動詞用法，強調透過處理使原本僵硬的物體變得柔軟易彎，如皮革保養。",
+        "grammarPatterns": [
+          "supple + noun"
+        ],
+        "collocations": [],
         "examples": [
           {
             "en": "Regular conditioning helps supple the leather over time.",
             "zh": "定期保養能讓皮革隨時間逐漸變得柔軟。"
           }
-        ],
-        "collocations": []
+        ]
       },
       {
         "id": "s_supple_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "able to bend or move easily without becoming stiff or breaking",
         "definitionZh": "柔軟的；柔韌的；靈活的",
         "usageExplanationZh": "常用來形容皮革等材料柔軟易彎，或身體、四肢靈活柔韌；例如 supple leather（柔軟的皮革）。",
+        "grammarPatterns": [
+          "a supple + noun",
+          "keep sth supple",
+          "remain supple"
+        ],
         "collocations": [
           {
             "text": "supple leather",
@@ -2716,18 +3507,6 @@
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "soften",
@@ -2751,39 +3530,12 @@
         "lemma": "stiff",
         "noteZh": "形容詞，僵硬的"
       }
-    ]
-  },
-  {
-    "id": "w_supplement",
-    "lemma": "supplement",
-    "slug": "supplement",
-    "cefr": "B2",
-    "pronunciation": {
-      "kk": "/ˈsʌpləmənt/"
-    },
-    "senses": [
+    ],
+    "wordFamily": [
       {
-        "id": "s_supplement_noun",
+        "lemma": "suppleness",
         "partOfSpeech": "noun",
-        "definitionEn": "something added to something else to complete or improve it, such as a nutritional product",
-        "definitionZh": "補充物；營養補充品",
-        "usageExplanationZh": "常見 vitamin supplement，也可指額外附加的資訊或內容，如 a supplement to the textbook。",
-        "examples": [
-          {
-            "en": "She takes a daily vitamin supplement to stay healthy.",
-            "zh": "她每天服用維他命補充品以維持健康。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "dietary supplement",
-            "meaningZh": "膳食補充品"
-          },
-          {
-            "text": "vitamin supplement",
-            "meaningZh": "維生素補充品"
-          }
-        ]
+        "meaningZh": "柔軟；柔韌"
       }
     ],
     "tags": [
@@ -2797,7 +3549,50 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
+    }
+  },
+  {
+    "id": "w_supplement",
+    "lemma": "supplement",
+    "slug": "supplement",
+    "cefr": "B2",
+    "pronunciation": {
+      "kk": "/ˈsʌpləmənt/"
     },
+    "senses": [
+      {
+        "id": "s_supplement_noun",
+        "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
+        "definitionEn": "something added to something else to complete or improve it, such as a nutritional product",
+        "definitionZh": "補充物；營養補充品",
+        "usageExplanationZh": "常見 vitamin supplement，也可指額外附加的資訊或內容，如 a supplement to the textbook。",
+        "grammarPatterns": [
+          "a supplement to + noun",
+          "take a supplement",
+          "a dietary supplement"
+        ],
+        "collocations": [
+          {
+            "text": "dietary supplement",
+            "meaningZh": "膳食補充品"
+          },
+          {
+            "text": "vitamin supplement",
+            "meaningZh": "維生素補充品"
+          }
+        ],
+        "examples": [
+          {
+            "en": "She takes a daily vitamin supplement to stay healthy.",
+            "zh": "她每天服用維他命補充品以維持健康。"
+          }
+        ]
+      }
+    ],
     "synonyms": [
       {
         "lemma": "addition",
@@ -2808,7 +3603,31 @@
         "noteZh": "文件的補充部分"
       }
     ],
-    "antonyms": []
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "supplementary",
+        "partOfSpeech": "adjective",
+        "meaningZh": "補充的；追加的"
+      },
+      {
+        "lemma": "supplementation",
+        "partOfSpeech": "noun",
+        "meaningZh": "補充；增補"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_supplementary",
@@ -2822,14 +3641,17 @@
       {
         "id": "s_supplementary_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "added to something else in order to complete or improve it",
         "definitionZh": "補充的；追加的",
         "usageExplanationZh": "常見 supplementary material/income，強調並非主要部分，而是額外附加以求完整。",
-        "examples": [
-          {
-            "en": "The teacher provided supplementary materials for students who needed extra help.",
-            "zh": "老師為需要額外協助的學生提供了補充教材。"
-          }
+        "grammarPatterns": [
+          "supplementary + noun",
+          "be supplementary to + noun",
+          "provide supplementary + plural noun"
         ],
         "collocations": [
           {
@@ -2840,7 +3662,31 @@
             "text": "supplementary income",
             "meaningZh": "額外收入"
           }
+        ],
+        "examples": [
+          {
+            "en": "The teacher provided supplementary materials for students who needed extra help.",
+            "zh": "老師為需要額外協助的學生提供了補充教材。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "additional",
+        "noteZh": "額外的"
+      },
+      {
+        "lemma": "extra",
+        "noteZh": "追加的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "supplement",
+        "partOfSpeech": "noun",
+        "meaningZh": "補充物；增補"
       }
     ],
     "tags": [
@@ -2854,18 +3700,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "additional",
-        "noteZh": "額外的"
-      },
-      {
-        "lemma": "extra",
-        "noteZh": "追加的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_supposedly",
@@ -2879,14 +3714,16 @@
       {
         "id": "s_supposedly_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "according to what is generally believed or claimed, though this may not be true",
         "definitionZh": "據稱；按理說",
         "usageExplanationZh": "常用於表達對某說法的保留態度，暗示消息未經證實，如 supposedly true。",
-        "examples": [
-          {
-            "en": "The medicine is supposedly effective, but there's little scientific evidence.",
-            "zh": "這種藥據稱有效，但科學證據卻很少。"
-          }
+        "grammarPatterns": [
+          "supposedly + adjective",
+          "be supposedly + past participle"
         ],
         "collocations": [
           {
@@ -2897,7 +3734,36 @@
             "text": "supposedly harmless",
             "meaningZh": "據稱無害的"
           }
+        ],
+        "examples": [
+          {
+            "en": "The medicine is supposedly effective, but there's little scientific evidence.",
+            "zh": "這種藥據稱有效，但科學證據卻很少。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "allegedly",
+        "noteZh": "據稱但未證實"
+      },
+      {
+        "lemma": "presumably",
+        "noteZh": "推測如此，較少懷疑意味"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "suppose",
+        "partOfSpeech": "verb",
+        "meaningZh": "假定；認為"
+      },
+      {
+        "lemma": "supposition",
+        "partOfSpeech": "noun",
+        "meaningZh": "推測；假定"
       }
     ],
     "tags": [
@@ -2911,17 +3777,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "allegedly",
-        "noteZh": "據稱但未證實"
-      },
-      {
-        "lemma": "presumably",
-        "noteZh": "推測如此，較少懷疑意味"
-      }
-    ],
-    "antonyms": []
+    }
   }
 ]

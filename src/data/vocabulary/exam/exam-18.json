@@ -11,21 +11,49 @@
       {
         "id": "s_cosmic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "literary"
+        ],
         "definitionEn": "relating to the universe, especially as distinct from Earth",
         "definitionZh": "宇宙的；廣袤無垠的",
         "usageExplanationZh": "常見 cosmic rays（宇宙射線）、cosmic scale（宇宙規模），也可比喻用於形容極為宏大或深遠。",
-        "examples": [
-          {
-            "en": "Scientists study cosmic radiation to understand the origins of the universe.",
-            "zh": "科學家研究宇宙射線以了解宇宙的起源。"
-          }
+        "grammarPatterns": [
+          "cosmic + noun",
+          "cosmic radiation",
+          "on a cosmic scale"
         ],
         "collocations": [
           {
             "text": "cosmic radiation",
             "meaningZh": "宇宙輻射"
           }
+        ],
+        "examples": [
+          {
+            "en": "Scientists study cosmic radiation to understand the origins of the universe.",
+            "zh": "科學家研究宇宙射線以了解宇宙的起源。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "universal",
+        "noteZh": "涉及整個宇宙的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "cosmos",
+        "partOfSpeech": "noun",
+        "meaningZh": "宇宙"
+      },
+      {
+        "lemma": "cosmology",
+        "partOfSpeech": "noun",
+        "meaningZh": "宇宙論；宇宙學"
       }
     ],
     "tags": [
@@ -40,14 +68,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "universal",
-        "noteZh": "涉及整個宇宙的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_cosmopolitan",
@@ -61,40 +82,75 @@
       {
         "id": "s_cosmopolitan_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "familiar with and at ease in many different countries and cultures",
         "definitionZh": "見多識廣的；國際化的",
         "usageExplanationZh": "常修飾 city、outlook，強調文化多元融合、不受單一國家侷限的特質。",
-        "examples": [
-          {
-            "en": "New York is known for its cosmopolitan atmosphere and diverse population.",
-            "zh": "紐約以其國際化的氛圍和多元的人口組成聞名。"
-          }
+        "grammarPatterns": [
+          "a cosmopolitan + noun",
+          "a cosmopolitan city",
+          "distinctly cosmopolitan"
         ],
         "collocations": [
           {
             "text": "a cosmopolitan city",
             "meaningZh": "國際化都市"
           }
+        ],
+        "examples": [
+          {
+            "en": "New York is known for its cosmopolitan atmosphere and diverse population.",
+            "zh": "紐約以其國際化的氛圍和多元的人口組成聞名。"
+          }
         ]
       },
       {
         "id": "s_cosmopolitan_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "a person who has lived in and is familiar with many countries and cultures",
         "definitionZh": "見識廣博的世界主義者",
         "usageExplanationZh": "書面用語，指經歷豐富、對多國文化都熟悉的人。",
-        "examples": [
-          {
-            "en": "As a true cosmopolitan, she felt at home in almost any city.",
-            "zh": "身為一位真正的世界主義者，她幾乎在任何城市都覺得自在。"
-          }
+        "grammarPatterns": [
+          "a true cosmopolitan"
         ],
         "collocations": [
           {
             "text": "a true cosmopolitan",
             "meaningZh": "真正具有世界眼光的人"
           }
+        ],
+        "examples": [
+          {
+            "en": "As a true cosmopolitan, she felt at home in almost any city.",
+            "zh": "身為一位真正的世界主義者，她幾乎在任何城市都覺得自在。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "worldly",
+        "noteZh": "見多識廣的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "provincial",
+        "noteZh": "見識狹隘的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "cosmopolitanism",
+        "partOfSpeech": "noun",
+        "meaningZh": "世界主義"
       }
     ],
     "tags": [
@@ -109,19 +165,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "worldly",
-        "noteZh": "見多識廣的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "provincial",
-        "noteZh": "見識狹隘的"
-      }
-    ]
+    }
   },
   {
     "id": "w_costly",
@@ -135,21 +179,49 @@
       {
         "id": "s_costly_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "expensive, or resulting in a great loss or disadvantage",
         "definitionZh": "昂貴的；代價高的",
         "usageExplanationZh": "除指金錢花費大之外，也常比喻造成重大損失，如 a costly mistake（代價高昂的錯誤）。",
-        "examples": [
-          {
-            "en": "Ignoring the warning signs turned out to be a costly mistake.",
-            "zh": "忽略這些警訊最終證明是一個代價高昂的錯誤。"
-          }
+        "grammarPatterns": [
+          "a costly + noun",
+          "prove costly",
+          "costly to + V"
         ],
         "collocations": [
           {
             "text": "a costly mistake",
             "meaningZh": "代價高昂的錯誤"
           }
+        ],
+        "examples": [
+          {
+            "en": "Ignoring the warning signs turned out to be a costly mistake.",
+            "zh": "忽略這些警訊最終證明是一個代價高昂的錯誤。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "expensive",
+        "noteZh": "價格高的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "cheap",
+        "noteZh": "便宜的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "cost",
+        "partOfSpeech": "noun",
+        "meaningZh": "成本；代價"
       }
     ],
     "tags": [
@@ -162,19 +234,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "expensive",
-        "noteZh": "價格高的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "cheap",
-        "noteZh": "便宜的"
-      }
-    ]
+    }
   },
   {
     "id": "w_costume",
@@ -188,23 +248,38 @@
       {
         "id": "s_costume_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a set of clothes typical of a particular period, place, or character, especially for a performance",
         "definitionZh": "戲服；服裝（表演或特定場合用）",
         "usageExplanationZh": "常見 a Halloween costume（萬聖節裝扮）、a period costume（古裝），強調非日常穿著的特殊服裝。",
-        "examples": [
-          {
-            "en": "She wore a pirate costume to the Halloween party.",
-            "zh": "她穿著海盜裝扮去參加萬聖節派對。"
-          }
+        "grammarPatterns": [
+          "wear a costume",
+          "in costume",
+          "a + noun + costume"
         ],
         "collocations": [
           {
             "text": "a traditional costume",
             "meaningZh": "傳統服飾"
           }
+        ],
+        "examples": [
+          {
+            "en": "She wore a pirate costume to the Halloween party.",
+            "zh": "她穿著海盜裝扮去參加萬聖節派對。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "outfit",
+        "noteZh": "特定場合的一套服裝"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -217,14 +292,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "outfit",
-        "noteZh": "特定場合的一套服裝"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_counsel",
@@ -238,40 +306,81 @@
       {
         "id": "s_counsel_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "advice, especially given formally, or a legal advisor",
         "definitionZh": "忠告；建議；法律顧問（律師）",
         "usageExplanationZh": "一義指正式建議（seek counsel），另一義指法庭上代表當事人的律師（defense counsel）。",
-        "examples": [
-          {
-            "en": "The young manager sought counsel from a mentor before making the decision.",
-            "zh": "這位年輕主管在做決定前，先向一位導師徵詢了建議。"
-          }
+        "grammarPatterns": [
+          "seek counsel from sb",
+          "legal counsel",
+          "counsel for the defense"
         ],
         "collocations": [
           {
             "text": "legal counsel",
             "meaningZh": "法律顧問"
           }
+        ],
+        "examples": [
+          {
+            "en": "The young manager sought counsel from a mentor before making the decision.",
+            "zh": "這位年輕主管在做決定前，先向一位導師徵詢了建議。"
+          }
         ]
       },
       {
         "id": "s_counsel_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to give advice to someone, especially on personal or psychological matters",
         "definitionZh": "勸告；輔導；提供諮商",
         "usageExplanationZh": "常見 counsel someone on/about，多用於心理輔導、法律或專業建議的語境。",
-        "examples": [
-          {
-            "en": "The therapist counseled the couple on how to improve their communication.",
-            "zh": "這位治療師輔導這對夫妻如何改善彼此的溝通。"
-          }
+        "grammarPatterns": [
+          "counsel sb on + noun",
+          "counsel sb to + V",
+          "counsel sb about + noun"
         ],
         "collocations": [
           {
             "text": "counsel someone on",
             "meaningZh": "就某事輔導某人"
           }
+        ],
+        "examples": [
+          {
+            "en": "The therapist counseled the couple on how to improve their communication.",
+            "zh": "這位治療師輔導這對夫妻如何改善彼此的溝通。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "advice",
+        "noteZh": "忠告"
+      },
+      {
+        "lemma": "advise",
+        "noteZh": "提供建議"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "counselor",
+        "partOfSpeech": "noun",
+        "meaningZh": "顧問；輔導員"
+      },
+      {
+        "lemma": "counseling",
+        "partOfSpeech": "noun",
+        "meaningZh": "諮商；輔導"
       }
     ],
     "tags": [
@@ -285,18 +394,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "advice",
-        "noteZh": "忠告"
-      },
-      {
-        "lemma": "advise",
-        "noteZh": "提供建議"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_counseling",
@@ -310,21 +408,49 @@
       {
         "id": "s_counseling_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "professional guidance to help resolve personal, social, or psychological problems",
         "definitionZh": "諮商；輔導",
         "usageExplanationZh": "常見 marriage counseling（婚姻諮商）、career counseling（職涯輔導），指專業人員提供的協助。",
-        "examples": [
-          {
-            "en": "They attended couples counseling to work through their disagreements.",
-            "zh": "他們接受伴侶諮商，以解決彼此的歧見。"
-          }
+        "grammarPatterns": [
+          "receive counseling",
+          "counseling for + noun",
+          "offer counseling to sb"
         ],
         "collocations": [
           {
             "text": "marriage counseling",
             "meaningZh": "婚姻諮商"
           }
+        ],
+        "examples": [
+          {
+            "en": "They attended couples counseling to work through their disagreements.",
+            "zh": "他們接受伴侶諮商，以解決彼此的歧見。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "guidance",
+        "noteZh": "提供協助的輔導"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "counsel",
+        "partOfSpeech": "verb",
+        "meaningZh": "輔導；勸告"
+      },
+      {
+        "lemma": "counselor",
+        "partOfSpeech": "noun",
+        "meaningZh": "諮商師"
       }
     ],
     "tags": [
@@ -337,14 +463,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "guidance",
-        "noteZh": "提供協助的輔導"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_counselor",
@@ -358,21 +477,48 @@
       {
         "id": "s_counselor_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a person trained to give guidance on personal, social, or psychological problems",
         "definitionZh": "輔導員；諮商師",
         "usageExplanationZh": "常見 school counselor（學校輔導老師）、marriage counselor（婚姻諮商師）。",
-        "examples": [
-          {
-            "en": "The school counselor helped him deal with his anxiety about exams.",
-            "zh": "這位學校輔導老師協助他處理對考試的焦慮。"
-          }
+        "grammarPatterns": [
+          "see a counselor",
+          "a school counselor",
+          "a counselor at + noun"
         ],
         "collocations": [
           {
             "text": "a school counselor",
             "meaningZh": "學校輔導員"
           }
+        ],
+        "examples": [
+          {
+            "en": "The school counselor helped him deal with his anxiety about exams.",
+            "zh": "這位學校輔導老師協助他處理對考試的焦慮。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "adviser",
+        "noteZh": "提供指導建議的人"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "counsel",
+        "partOfSpeech": "noun",
+        "meaningZh": "建議；法律顧問"
+      },
+      {
+        "lemma": "counseling",
+        "partOfSpeech": "noun",
+        "meaningZh": "輔導；諮商"
       }
     ],
     "tags": [
@@ -385,14 +531,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "adviser",
-        "noteZh": "提供指導建議的人"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_countenance",
@@ -406,34 +545,32 @@
       {
         "id": "s_countenance_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "a person's face or facial expression",
         "definitionZh": "面容；神情",
         "usageExplanationZh": "書面用語，常見於文學作品，如 maintain a calm countenance（保持鎮定的神情）。",
-        "examples": [
-          {
-            "en": "Despite the bad news, she kept a calm countenance throughout the meeting.",
-            "zh": "儘管收到壞消息，她在整場會議中仍保持鎮定的神情。"
-          }
+        "grammarPatterns": [
+          "a + adjective + countenance",
+          "sb's countenance changed",
+          "a stern countenance"
         ],
         "collocations": [
           {
             "text": "a calm countenance",
             "meaningZh": "平靜的神情"
           }
+        ],
+        "examples": [
+          {
+            "en": "Despite the bad news, she kept a calm countenance throughout the meeting.",
+            "zh": "儘管收到壞消息，她在整場會議中仍保持鎮定的神情。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "face",
@@ -444,7 +581,18 @@
         "noteZh": "臉上的神情"
       }
     ],
-    "antonyms": []
+    "antonyms": [],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_counteract",
@@ -458,35 +606,31 @@
       {
         "id": "s_counteract_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to reduce or negate the effect of something by countering it with an opposing force",
         "definitionZh": "抵消；抵銷；對抗（負面影響）",
         "usageExplanationZh": "常見 counteract the effects of，強調用相反的作用力來削弱或消除某種影響。",
-        "examples": [
-          {
-            "en": "Regular exercise can help counteract the effects of a sedentary lifestyle.",
-            "zh": "規律運動有助於抵消久坐生活型態帶來的影響。"
-          }
+        "grammarPatterns": [
+          "counteract + noun",
+          "counteract the effects of + noun"
         ],
         "collocations": [
           {
             "text": "counteract the effects of",
             "meaningZh": "抵消某事的影響"
           }
+        ],
+        "examples": [
+          {
+            "en": "Regular exercise can help counteract the effects of a sedentary lifestyle.",
+            "zh": "規律運動有助於抵消久坐生活型態帶來的影響。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "offset",
@@ -502,7 +646,31 @@
         "lemma": "reinforce",
         "noteZh": "加強原有作用"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "counteraction",
+        "partOfSpeech": "noun",
+        "meaningZh": "抵消作用"
+      },
+      {
+        "lemma": "counteractive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "抵消的"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_counterproductive",
@@ -516,21 +684,54 @@
       {
         "id": "s_counterproductive_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "having the opposite effect from the one intended, hindering rather than helping",
         "definitionZh": "適得其反的；產生反效果的",
         "usageExplanationZh": "常見於描述政策或做法未達到預期目的，反而造成阻礙，如 counterproductive policy（適得其反的政策）。",
-        "examples": [
-          {
-            "en": "Micromanaging employees often proves counterproductive to team morale.",
-            "zh": "過度微觀管理員工往往會對團隊士氣造成反效果。"
-          }
+        "grammarPatterns": [
+          "be counterproductive",
+          "prove counterproductive",
+          "a counterproductive + noun"
         ],
         "collocations": [
           {
             "text": "a counterproductive approach",
             "meaningZh": "適得其反的做法"
           }
+        ],
+        "examples": [
+          {
+            "en": "Micromanaging employees often proves counterproductive to team morale.",
+            "zh": "過度微觀管理員工往往會對團隊士氣造成反效果。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "self-defeating",
+        "noteZh": "使自身目的受挫的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "productive",
+        "noteZh": "有成效的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "productive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有生產力的"
+      },
+      {
+        "lemma": "produce",
+        "partOfSpeech": "verb",
+        "meaningZh": "生產；產生"
       }
     ],
     "tags": [
@@ -543,19 +744,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "self-defeating",
-        "noteZh": "使自身目的受挫的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "productive",
-        "noteZh": "有成效的"
-      }
-    ]
+    }
   },
   {
     "id": "w_countless",
@@ -569,21 +758,53 @@
       {
         "id": "s_countless_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "too many to be counted; very numerous",
         "definitionZh": "無數的；數不清的",
         "usageExplanationZh": "強調數量極多，常修飾 times、people、attempts 等，語氣較誇張強調。",
-        "examples": [
-          {
-            "en": "She has spent countless hours perfecting her craft.",
-            "zh": "她花了無數個小時精進自己的技藝。"
-          }
+        "grammarPatterns": [
+          "countless + noun",
+          "countless hours of + noun"
         ],
         "collocations": [
           {
             "text": "countless times",
             "meaningZh": "無數次"
           }
+        ],
+        "examples": [
+          {
+            "en": "She has spent countless hours perfecting her craft.",
+            "zh": "她花了無數個小時精進自己的技藝。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "innumerable",
+        "noteZh": "多得數不清的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "few",
+        "noteZh": "數量很少的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "count",
+        "partOfSpeech": "verb",
+        "meaningZh": "計算；數"
+      },
+      {
+        "lemma": "countable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可數的"
       }
     ],
     "tags": [
@@ -596,19 +817,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "innumerable",
-        "noteZh": "多得數不清的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "few",
-        "noteZh": "數量很少的"
-      }
-    ]
+    }
   },
   {
     "id": "w_coup",
@@ -622,23 +831,38 @@
       {
         "id": "s_coup_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a sudden, illegal, and often violent seizure of power from a government",
         "definitionZh": "政變",
         "usageExplanationZh": "常見 a military coup（軍事政變），指以非法或暴力手段推翻政府奪取政權。",
-        "examples": [
-          {
-            "en": "The military staged a coup and seized control of the capital overnight.",
-            "zh": "軍方發動政變，一夜之間就掌控了首都。"
-          }
+        "grammarPatterns": [
+          "stage a coup",
+          "a military coup",
+          "a coup against sb"
         ],
         "collocations": [
           {
             "text": "a military coup",
             "meaningZh": "軍事政變"
           }
+        ],
+        "examples": [
+          {
+            "en": "The military staged a coup and seized control of the capital overnight.",
+            "zh": "軍方發動政變，一夜之間就掌控了首都。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "putsch",
+        "noteZh": "以武力奪權的政變"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -649,14 +873,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "putsch",
-        "noteZh": "以武力奪權的政變"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_coupon",
@@ -670,23 +887,39 @@
       {
         "id": "s_coupon_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "a voucher entitling the holder to a discount or gift",
         "definitionZh": "折價券；優惠券",
         "usageExplanationZh": "日常用語，常見 use a coupon（使用折價券），與商業促銷相關。",
-        "examples": [
-          {
-            "en": "She clipped coupons from the newspaper to save money on groceries.",
-            "zh": "她從報紙上剪下折價券，以節省買菜的花費。"
-          }
+        "grammarPatterns": [
+          "a coupon for + noun",
+          "clip coupons",
+          "redeem a coupon"
         ],
         "collocations": [
           {
             "text": "a discount coupon",
             "meaningZh": "折價券"
           }
+        ],
+        "examples": [
+          {
+            "en": "She clipped coupons from the newspaper to save money on groceries.",
+            "zh": "她從報紙上剪下折價券，以節省買菜的花費。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "voucher",
+        "noteZh": "可兌換優惠的票券"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -697,14 +930,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "voucher",
-        "noteZh": "可兌換優惠的票券"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_courtesy",
@@ -718,21 +944,58 @@
       {
         "id": "s_courtesy_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "polite behavior or a polite gesture showing respect for others",
         "definitionZh": "禮貌；禮節；好意之舉",
         "usageExplanationZh": "常見 as a courtesy（作為一種禮貌）、common courtesy（基本禮貌），強調對他人的尊重與體貼。",
-        "examples": [
-          {
-            "en": "He extended the courtesy of calling ahead before visiting.",
-            "zh": "他事先打電話告知，展現了拜訪前的禮貌。"
-          }
+        "grammarPatterns": [
+          "out of courtesy",
+          "common courtesy",
+          "have the courtesy to + V"
         ],
         "collocations": [
           {
             "text": "common courtesy",
             "meaningZh": "基本禮貌"
           }
+        ],
+        "examples": [
+          {
+            "en": "He extended the courtesy of calling ahead before visiting.",
+            "zh": "他事先打電話告知，展現了拜訪前的禮貌。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "politeness",
+        "noteZh": "待人的禮貌"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "rudeness",
+        "noteZh": "粗魯無禮"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "courteous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有禮貌的"
+      },
+      {
+        "lemma": "courteously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "有禮貌地"
+      },
+      {
+        "lemma": "discourtesy",
+        "partOfSpeech": "noun",
+        "meaningZh": "無禮；失禮"
       }
     ],
     "tags": [
@@ -745,19 +1008,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "politeness",
-        "noteZh": "待人的禮貌"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "rudeness",
-        "noteZh": "粗魯無禮"
-      }
-    ]
+    }
   },
   {
     "id": "w_courthouse",
@@ -771,21 +1022,43 @@
       {
         "id": "s_courthouse_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a building in which a court of law is held",
         "definitionZh": "法院大樓",
         "usageExplanationZh": "中性用語，指審理案件的建築物，如 the county courthouse（郡法院）。",
-        "examples": [
-          {
-            "en": "The trial will take place at the county courthouse next month.",
-            "zh": "審判將於下個月在郡法院舉行。"
-          }
+        "grammarPatterns": [
+          "outside the courthouse",
+          "the county courthouse",
+          "at the courthouse"
         ],
         "collocations": [
           {
             "text": "the county courthouse",
             "meaningZh": "郡法院大樓"
           }
+        ],
+        "examples": [
+          {
+            "en": "The trial will take place at the county courthouse next month.",
+            "zh": "審判將於下個月在郡法院舉行。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "court building",
+        "noteZh": "法院所在的大樓"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "court",
+        "partOfSpeech": "noun",
+        "meaningZh": "法院；法庭"
       }
     ],
     "tags": [
@@ -798,14 +1071,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "court building",
-        "noteZh": "法院所在的大樓"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_covenant",
@@ -819,40 +1085,75 @@
       {
         "id": "s_covenant_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "a formal, binding agreement, especially a solemn one",
         "definitionZh": "（正式的）盟約；契約",
         "usageExplanationZh": "書面或法律用語，常見於宗教或法律文件中，強調具約束力的正式承諾。",
-        "examples": [
-          {
-            "en": "The two nations signed a covenant to maintain peace along their shared border.",
-            "zh": "這兩國簽署了一項盟約，以維持共同邊界的和平。"
-          }
+        "grammarPatterns": [
+          "a covenant with sb",
+          "enter into a covenant",
+          "a covenant between A and B"
         ],
         "collocations": [
           {
             "text": "a binding covenant",
             "meaningZh": "具有約束力的契約"
           }
+        ],
+        "examples": [
+          {
+            "en": "The two nations signed a covenant to maintain peace along their shared border.",
+            "zh": "這兩國簽署了一項盟約，以維持共同邊界的和平。"
+          }
         ]
       },
       {
         "id": "s_covenant_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "to promise formally or solemnly to do something",
         "definitionZh": "立約承諾；正式約定",
         "usageExplanationZh": "正式用語，多見於法律或宗教文件中，指以正式方式做出承諾。",
-        "examples": [
-          {
-            "en": "The company covenanted to reduce its carbon emissions by 2030.",
-            "zh": "該公司正式承諾要在二〇三〇年前減少碳排放。"
-          }
+        "grammarPatterns": [
+          "covenant to + V",
+          "covenant with sb"
         ],
         "collocations": [
           {
             "text": "covenant to pay",
             "meaningZh": "立約承諾付款"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company covenanted to reduce its carbon emissions by 2030.",
+            "zh": "該公司正式承諾要在二〇三〇年前減少碳排放。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "pact",
+        "noteZh": "正式協定"
+      },
+      {
+        "lemma": "pledge",
+        "noteZh": "正式承諾"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "covenantal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "盟約的；契約的"
       }
     ],
     "tags": [
@@ -865,18 +1166,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "pact",
-        "noteZh": "正式協定"
-      },
-      {
-        "lemma": "pledge",
-        "noteZh": "正式承諾"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_coverage",
@@ -890,21 +1180,48 @@
       {
         "id": "s_coverage_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "the reporting of news or events, or the extent of protection provided by insurance",
         "definitionZh": "報導（新聞）；（保險）承保範圍",
         "usageExplanationZh": "一義指媒體對事件的報導程度（media coverage），另一義指保險涵蓋的範圍（insurance coverage）。",
-        "examples": [
-          {
-            "en": "The election received extensive media coverage across the country.",
-            "zh": "這場選舉在全國各地都受到廣泛的媒體報導。"
-          }
+        "grammarPatterns": [
+          "coverage of + noun",
+          "media coverage",
+          "insurance coverage"
         ],
         "collocations": [
           {
             "text": "media coverage",
             "meaningZh": "媒體報導"
           }
+        ],
+        "examples": [
+          {
+            "en": "The election received extensive media coverage across the country.",
+            "zh": "這場選舉在全國各地都受到廣泛的媒體報導。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "reporting",
+        "noteZh": "新聞報導"
+      },
+      {
+        "lemma": "insurance protection",
+        "noteZh": "保險提供的保障"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "cover",
+        "partOfSpeech": "verb",
+        "meaningZh": "涵蓋；報導"
       }
     ],
     "tags": [
@@ -918,18 +1235,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "reporting",
-        "noteZh": "新聞報導"
-      },
-      {
-        "lemma": "insurance protection",
-        "noteZh": "保險提供的保障"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_covert",
@@ -943,53 +1249,59 @@
       {
         "id": "s_covert_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "not openly acknowledged or displayed; secret",
         "definitionZh": "秘密的；隱蔽的",
         "usageExplanationZh": "常見 covert operation（秘密行動），與 overt（公開的）相對，強調不對外公開的行動。",
-        "examples": [
-          {
-            "en": "The agency conducted a covert operation to gather intelligence.",
-            "zh": "該機構進行了一項秘密行動以蒐集情報。"
-          }
+        "grammarPatterns": [
+          "covert + noun",
+          "a covert operation",
+          "remain covert"
         ],
         "collocations": [
           {
             "text": "a covert operation",
             "meaningZh": "秘密行動"
           }
+        ],
+        "examples": [
+          {
+            "en": "The agency conducted a covert operation to gather intelligence.",
+            "zh": "該機構進行了一項秘密行動以蒐集情報。"
+          }
         ]
       },
       {
         "id": "s_covert_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "literary"
+        ],
         "definitionEn": "a thicket or shelter providing cover for animals, especially game",
         "definitionZh": "（供動物藏身的）灌木叢；隱蔽處",
         "usageExplanationZh": "較少見的名詞用法，多見於狩獵或自然描寫語境，指動物躲藏的隱蔽處。",
-        "examples": [
-          {
-            "en": "The hunting dogs flushed a pheasant out of the covert.",
-            "zh": "獵犬把一隻雉雞從灌木叢中驚趕出來。"
-          }
+        "grammarPatterns": [
+          "hide in the covert",
+          "a thick covert"
         ],
         "collocations": [
           {
             "text": "dense covert",
             "meaningZh": "茂密的藏身灌木叢"
           }
+        ],
+        "examples": [
+          {
+            "en": "The hunting dogs flushed a pheasant out of the covert.",
+            "zh": "獵犬把一隻雉雞從灌木叢中驚趕出來。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "secret",
@@ -1005,7 +1317,25 @@
         "lemma": "overt",
         "noteZh": "公開的，對應形容詞義"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "covertly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "秘密地；暗中地"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_covet",
@@ -1019,21 +1349,49 @@
       {
         "id": "s_covet_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to yearn to possess something, especially something belonging to another",
         "definitionZh": "垂涎；渴望擁有（他人之物）",
         "usageExplanationZh": "書面用語，帶有貪念意味，常見 covet someone's success/possessions。",
-        "examples": [
-          {
-            "en": "He openly coveted his neighbor's new sports car.",
-            "zh": "他毫不掩飾地垂涎鄰居那輛新跑車。"
-          }
+        "grammarPatterns": [
+          "covet + noun",
+          "covet sth belonging to sb",
+          "be coveted by + noun"
         ],
         "collocations": [
           {
             "text": "covet someone's position",
             "meaningZh": "覬覦某人的職位"
           }
+        ],
+        "examples": [
+          {
+            "en": "He openly coveted his neighbor's new sports car.",
+            "zh": "他毫不掩飾地垂涎鄰居那輛新跑車。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "crave",
+        "noteZh": "強烈渴望擁有"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "covetous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "貪求的；垂涎的"
+      },
+      {
+        "lemma": "covetousness",
+        "partOfSpeech": "noun",
+        "meaningZh": "貪婪；覬覦"
       }
     ],
     "tags": [
@@ -1046,14 +1404,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "crave",
-        "noteZh": "強烈渴望擁有"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_cowboy",
@@ -1067,23 +1418,38 @@
       {
         "id": "s_cowboy_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a man who herds and tends cattle, especially in the western United States",
         "definitionZh": "牛仔",
         "usageExplanationZh": "常見於美國西部文化語境，也可比喻粗魯魯莽做事、不守規矩的人（貶義）。",
-        "examples": [
-          {
-            "en": "He grew up on a ranch and dreamed of becoming a cowboy.",
-            "zh": "他在牧場長大，夢想成為一名牛仔。"
-          }
+        "grammarPatterns": [
+          "work as a cowboy",
+          "a cowboy on + noun",
+          "cowboy boots"
         ],
         "collocations": [
           {
             "text": "a cowboy hat",
             "meaningZh": "牛仔帽"
           }
+        ],
+        "examples": [
+          {
+            "en": "He grew up on a ranch and dreamed of becoming a cowboy.",
+            "zh": "他在牧場長大，夢想成為一名牛仔。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "cowhand",
+        "noteZh": "牧場上照料牛隻的人"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -1094,14 +1460,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cowhand",
-        "noteZh": "牧場上照料牛隻的人"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_cower",
@@ -1115,23 +1474,39 @@
       {
         "id": "s_cower_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "to crouch down in fear, especially in front of a threatening person or thing",
         "definitionZh": "畏縮；蜷縮（因害怕）",
         "usageExplanationZh": "常見 cower in fear/corner，強調因恐懼而縮起身體、不敢面對。",
-        "examples": [
-          {
-            "en": "The dog cowered in the corner during the thunderstorm.",
-            "zh": "那隻狗在雷雨期間畏縮地躲在角落。"
-          }
+        "grammarPatterns": [
+          "cower in + noun",
+          "cower before sb",
+          "cower in fear"
         ],
         "collocations": [
           {
             "text": "cower in fear",
             "meaningZh": "害怕得畏縮"
           }
+        ],
+        "examples": [
+          {
+            "en": "The dog cowered in the corner during the thunderstorm.",
+            "zh": "那隻狗在雷雨期間畏縮地躲在角落。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "cringe",
+        "noteZh": "因恐懼而畏縮"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1143,14 +1518,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cringe",
-        "noteZh": "因恐懼而畏縮"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_crab",
@@ -1164,23 +1532,33 @@
       {
         "id": "s_crab_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a crustacean with a broad shell and a pair of pincers",
         "definitionZh": "螃蟹",
         "usageExplanationZh": "常見於海鮮或海洋生物語境，如 a crab cake（蟹肉餅）。",
-        "examples": [
-          {
-            "en": "They ordered fresh crab at the seafood restaurant.",
-            "zh": "他們在這家海鮮餐廳點了新鮮的螃蟹。"
-          }
+        "grammarPatterns": [
+          "catch crabs",
+          "a crab's claws",
+          "a giant crab"
         ],
         "collocations": [
           {
             "text": "a hermit crab",
             "meaningZh": "寄居蟹"
           }
+        ],
+        "examples": [
+          {
+            "en": "They ordered fresh crab at the seafood restaurant.",
+            "zh": "他們在這家海鮮餐廳點了新鮮的螃蟹。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1192,9 +1570,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_crack",
@@ -1208,23 +1584,38 @@
       {
         "id": "s_crack_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a line on the surface of something where it has split without breaking apart",
         "definitionZh": "裂縫；裂痕",
         "usageExplanationZh": "常見 a crack in the wall（牆上的裂縫），也可比喻用於關係或系統的裂痕（a crack in their friendship）。",
-        "examples": [
-          {
-            "en": "There was a small crack in the windshield after the hailstorm.",
-            "zh": "冰雹過後，擋風玻璃上出現了一道小裂縫。"
-          }
+        "grammarPatterns": [
+          "a crack in + noun",
+          "cracks appear in + noun",
+          "a hairline crack"
         ],
         "collocations": [
           {
             "text": "a crack in the wall",
             "meaningZh": "牆上的裂縫"
           }
+        ],
+        "examples": [
+          {
+            "en": "There was a small crack in the windshield after the hailstorm.",
+            "zh": "冰雹過後，擋風玻璃上出現了一道小裂縫。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "fissure",
+        "noteZh": "細長的裂縫"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1237,14 +1628,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "fissure",
-        "noteZh": "細長的裂縫"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_craft",
@@ -1258,21 +1642,52 @@
       {
         "id": "s_craft_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "an activity involving skill in making things by hand, or a vessel/aircraft",
         "definitionZh": "工藝；手藝；（船／飛行器）",
         "usageExplanationZh": "一義指需要技巧的手工活動（arts and crafts），另一義指船隻或飛行器（a small craft）。",
-        "examples": [
-          {
-            "en": "She sells handmade jewelry as part of her craft business.",
-            "zh": "她經營手工藝品事業，出售自製的珠寶。"
-          }
+        "grammarPatterns": [
+          "the craft of + V-ing",
+          "traditional crafts",
+          "master a craft"
         ],
         "collocations": [
           {
             "text": "traditional crafts",
             "meaningZh": "傳統工藝"
           }
+        ],
+        "examples": [
+          {
+            "en": "She sells handmade jewelry as part of her craft business.",
+            "zh": "她經營手工藝品事業，出售自製的珠寶。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "handicraft",
+        "noteZh": "手工藝"
+      },
+      {
+        "lemma": "vessel",
+        "noteZh": "船隻，限船艇義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "crafty",
+        "partOfSpeech": "adjective",
+        "meaningZh": "狡猾的；精明的"
+      },
+      {
+        "lemma": "craftsman",
+        "partOfSpeech": "noun",
+        "meaningZh": "工匠；手藝人"
       }
     ],
     "tags": [
@@ -1287,18 +1702,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "handicraft",
-        "noteZh": "手工藝"
-      },
-      {
-        "lemma": "vessel",
-        "noteZh": "船隻，限船艇義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_crafty",
@@ -1312,21 +1716,53 @@
       {
         "id": "s_crafty_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "skilled at achieving one's aims through cunning or deception",
         "definitionZh": "狡猾的；奸詐的",
         "usageExplanationZh": "帶負面含意，強調用計謀或欺瞞手段達成目的，與 clever 的中性意味不同。",
-        "examples": [
-          {
-            "en": "The crafty salesman convinced her to buy a product she didn't need.",
-            "zh": "那位狡猾的推銷員說服她買了一件她根本不需要的產品。"
-          }
+        "grammarPatterns": [
+          "a crafty + noun",
+          "crafty enough to + V",
+          "a crafty move"
         ],
         "collocations": [
           {
             "text": "a crafty plan",
             "meaningZh": "狡猾的計畫"
           }
+        ],
+        "examples": [
+          {
+            "en": "The crafty salesman convinced her to buy a product she didn't need.",
+            "zh": "那位狡猾的推銷員說服她買了一件她根本不需要的產品。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "cunning",
+        "noteZh": "狡猾而善於算計的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "guileless",
+        "noteZh": "坦率而不狡詐的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "craft",
+        "partOfSpeech": "noun",
+        "meaningZh": "手藝；詭計"
+      },
+      {
+        "lemma": "craftily",
+        "partOfSpeech": "adverb",
+        "meaningZh": "狡猾地"
       }
     ],
     "tags": [
@@ -1340,19 +1776,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cunning",
-        "noteZh": "狡猾而善於算計的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "guileless",
-        "noteZh": "坦率而不狡詐的"
-      }
-    ]
+    }
   },
   {
     "id": "w_cramp",
@@ -1366,53 +1790,59 @@
       {
         "id": "s_cramp_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a sudden, involuntary contraction of a muscle causing pain",
         "definitionZh": "抽筋；痙攣",
         "usageExplanationZh": "常見 a leg cramp（腿抽筋）、stomach cramps（腹部絞痛），指肌肉突然痛性收縮。",
-        "examples": [
-          {
-            "en": "She had to stop running because of a sudden cramp in her leg.",
-            "zh": "她因為腿突然抽筋而不得不停止跑步。"
-          }
+        "grammarPatterns": [
+          "get a cramp",
+          "muscle cramps",
+          "suffer from cramps"
         ],
         "collocations": [
           {
             "text": "a muscle cramp",
             "meaningZh": "肌肉抽筋"
           }
+        ],
+        "examples": [
+          {
+            "en": "She had to stop running because of a sudden cramp in her leg.",
+            "zh": "她因為腿突然抽筋而不得不停止跑步。"
+          }
         ]
       },
       {
         "id": "s_cramp_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to restrict or hinder the space, movement, or development of something",
         "definitionZh": "妨礙；限制（空間或發展）",
         "usageExplanationZh": "常見 cramp someone's style（比喻用法，妨礙某人發揮），強調造成拘束或不便。",
-        "examples": [
-          {
-            "en": "Living in such a small apartment really cramps our lifestyle.",
-            "zh": "住在這麼小的公寓裡，真的限制了我們的生活方式。"
-          }
+        "grammarPatterns": [
+          "cramp sb's style",
+          "be cramped by + noun",
+          "cramp + noun"
         ],
         "collocations": [
           {
             "text": "cramp someone's style",
             "meaningZh": "妨礙某人自在發揮"
           }
+        ],
+        "examples": [
+          {
+            "en": "Living in such a small apartment really cramps our lifestyle.",
+            "zh": "住在這麼小的公寓裡，真的限制了我們的生活方式。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "spasm",
@@ -1428,7 +1858,18 @@
         "lemma": "facilitate",
         "noteZh": "促進，對應限制義"
       }
-    ]
+    ],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_cranky",
@@ -1442,21 +1883,49 @@
       {
         "id": "s_cranky_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "irritable or bad-tempered, often due to tiredness",
         "definitionZh": "易怒的；脾氣暴躁的",
         "usageExplanationZh": "口語用語，常見於描述因疲累或不適而情緒不佳，如 a cranky toddler（鬧脾氣的小小孩）。",
-        "examples": [
-          {
-            "en": "The baby gets cranky when he misses his afternoon nap.",
-            "zh": "這個嬰兒錯過午睡時就會變得脾氣暴躁。"
-          }
+        "grammarPatterns": [
+          "get cranky",
+          "a cranky + noun",
+          "cranky from + noun"
         ],
         "collocations": [
           {
             "text": "feel cranky",
             "meaningZh": "感到煩躁"
           }
+        ],
+        "examples": [
+          {
+            "en": "The baby gets cranky when he misses his afternoon nap.",
+            "zh": "這個嬰兒錯過午睡時就會變得脾氣暴躁。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "irritable",
+        "noteZh": "容易發怒的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "easygoing",
+        "noteZh": "隨和的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "crank",
+        "partOfSpeech": "noun",
+        "meaningZh": "怪人；曲柄"
       }
     ],
     "tags": [
@@ -1469,19 +1938,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "irritable",
-        "noteZh": "容易發怒的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "easygoing",
-        "noteZh": "隨和的"
-      }
-    ]
+    }
   },
   {
     "id": "w_crash",
@@ -1495,23 +1952,42 @@
       {
         "id": "s_crash_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a sudden violent collision, loud noise, or a sudden failure (as of a computer or market)",
         "definitionZh": "墜毀；撞擊；（電腦或市場）崩潰",
         "usageExplanationZh": "常見 a car crash（車禍）、a stock market crash（股市崩盤）、a computer crash（電腦當機），依語境略有不同。",
-        "examples": [
-          {
-            "en": "The stock market crash wiped out years of savings for many investors.",
-            "zh": "這次股市崩盤讓許多投資人多年的積蓄化為烏有。"
-          }
+        "grammarPatterns": [
+          "a car crash",
+          "a crash in + noun",
+          "the crash of + noun"
         ],
         "collocations": [
           {
             "text": "a plane crash",
             "meaningZh": "飛機失事"
           }
+        ],
+        "examples": [
+          {
+            "en": "The stock market crash wiped out years of savings for many investors.",
+            "zh": "這次股市崩盤讓許多投資人多年的積蓄化為烏有。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "collision",
+        "noteZh": "猛烈撞擊"
+      },
+      {
+        "lemma": "collapse",
+        "noteZh": "系統或市場崩潰"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1523,18 +1999,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "collision",
-        "noteZh": "猛烈撞擊"
-      },
-      {
-        "lemma": "collapse",
-        "noteZh": "系統或市場崩潰"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_craven",
@@ -1548,21 +2013,49 @@
       {
         "id": "s_craven_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "lacking courage; contemptibly cowardly",
         "definitionZh": "怯懦的；卑劣懦弱的",
         "usageExplanationZh": "書面用語，語氣強烈負面，比 cowardly 更帶輕蔑意味。",
-        "examples": [
-          {
-            "en": "His craven refusal to defend his colleague disappointed everyone in the office.",
-            "zh": "他怯懦地拒絕為同事挺身而出，讓辦公室裡的每個人都很失望。"
-          }
+        "grammarPatterns": [
+          "a craven + noun",
+          "craven behavior",
+          "utterly craven"
         ],
         "collocations": [
           {
             "text": "a craven act",
             "meaningZh": "懦弱的行為"
           }
+        ],
+        "examples": [
+          {
+            "en": "His craven refusal to defend his colleague disappointed everyone in the office.",
+            "zh": "他怯懦地拒絕為同事挺身而出，讓辦公室裡的每個人都很失望。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "cowardly",
+        "noteZh": "怯懦的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "brave",
+        "noteZh": "勇敢的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "cravenly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "怯懦地"
       }
     ],
     "tags": [
@@ -1575,19 +2068,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cowardly",
-        "noteZh": "怯懦的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "brave",
-        "noteZh": "勇敢的"
-      }
-    ]
+    }
   },
   {
     "id": "w_crawl",
@@ -1601,42 +2082,65 @@
       {
         "id": "s_crawl_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a very slow pace of movement, or a swimming stroke",
         "definitionZh": "緩慢移動；（游泳）自由式",
         "usageExplanationZh": "一義指移動極慢（traffic crawl，車流緩慢），另一義指游泳姿勢（the front crawl，自由式）。",
-        "examples": [
-          {
-            "en": "Traffic slowed to a crawl during the rush hour.",
-            "zh": "尖峰時段車流緩慢得像爬行一樣。"
-          }
+        "grammarPatterns": [
+          "at a crawl",
+          "slow to a crawl",
+          "swim the front crawl"
         ],
         "collocations": [
           {
             "text": "at a crawl",
             "meaningZh": "以極慢的速度"
           }
+        ],
+        "examples": [
+          {
+            "en": "Traffic slowed to a crawl during the rush hour.",
+            "zh": "尖峰時段車流緩慢得像爬行一樣。"
+          }
         ]
       },
       {
         "id": "s_crawl_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to move slowly on hands and knees, or (of a vehicle/vehicle traffic) to move very slowly",
         "definitionZh": "爬行；緩慢移動",
         "usageExplanationZh": "常見嬰兒學爬（the baby crawls）或形容車流極慢（traffic crawled along）。",
-        "examples": [
-          {
-            "en": "The baby crawled across the living room floor toward her toys.",
-            "zh": "嬰兒在客廳地板上爬向她的玩具。"
-          }
+        "grammarPatterns": [
+          "crawl along + noun",
+          "crawl on one's hands and knees",
+          "traffic crawls"
         ],
         "collocations": [
           {
             "text": "crawl on all fours",
             "meaningZh": "四肢著地爬行"
           }
+        ],
+        "examples": [
+          {
+            "en": "The baby crawled across the living room floor toward her toys.",
+            "zh": "嬰兒在客廳地板上爬向她的玩具。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "creep",
+        "noteZh": "緩慢爬行"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1648,14 +2152,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "creep",
-        "noteZh": "緩慢爬行"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_crease",
@@ -1669,42 +2166,69 @@
       {
         "id": "s_crease_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a line or ridge made by folding or crushing a flexible material",
         "definitionZh": "摺痕；皺褶",
         "usageExplanationZh": "常見 iron out the creases（燙平皺褶），指衣物或紙張因摺疊產生的線條。",
-        "examples": [
-          {
-            "en": "He carefully ironed out the creases in his shirt before the interview.",
-            "zh": "他在面試前仔細燙平了襯衫上的皺褶。"
-          }
+        "grammarPatterns": [
+          "a crease in + noun",
+          "iron out the creases",
+          "a sharp crease"
         ],
         "collocations": [
           {
             "text": "a sharp crease",
             "meaningZh": "明顯的摺痕"
           }
+        ],
+        "examples": [
+          {
+            "en": "He carefully ironed out the creases in his shirt before the interview.",
+            "zh": "他在面試前仔細燙平了襯衫上的皺褶。"
+          }
         ]
       },
       {
         "id": "s_crease_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to make lines or folds in something, especially fabric or paper",
         "definitionZh": "使起皺；折出摺痕",
         "usageExplanationZh": "常見 crease a shirt/paper，指衣物或紙張因擠壓或折疊而產生皺褶。",
-        "examples": [
-          {
-            "en": "Don't fold the map that way; it will crease the paper badly.",
-            "zh": "不要那樣折地圖，會讓紙張皺得很嚴重。"
-          }
+        "grammarPatterns": [
+          "crease + noun",
+          "crease easily",
+          "be badly creased"
         ],
         "collocations": [
           {
             "text": "crease easily",
             "meaningZh": "容易起皺"
           }
+        ],
+        "examples": [
+          {
+            "en": "Don't fold the map that way; it will crease the paper badly.",
+            "zh": "不要那樣折地圖，會讓紙張皺得很嚴重。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "fold",
+        "noteZh": "衣物等的摺痕"
+      },
+      {
+        "lemma": "wrinkle",
+        "noteZh": "使起皺"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -1716,18 +2240,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "fold",
-        "noteZh": "衣物等的摺痕"
-      },
-      {
-        "lemma": "wrinkle",
-        "noteZh": "使起皺"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_credence",
@@ -1741,21 +2254,59 @@
       {
         "id": "s_credence_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "acceptance that something is true or valid",
         "definitionZh": "相信；採信",
         "usageExplanationZh": "書面用語，常見 give/lend credence to（使……可信），多用於描述說法或理論被接受的程度。",
-        "examples": [
-          {
-            "en": "New evidence lent credence to the witness's original testimony.",
-            "zh": "新證據使這名證人最初的證詞更加可信。"
-          }
+        "grammarPatterns": [
+          "give credence to + noun",
+          "lend credence to + noun",
+          "gain credence"
         ],
         "collocations": [
           {
             "text": "give credence to",
             "meaningZh": "相信某個說法"
           }
+        ],
+        "examples": [
+          {
+            "en": "New evidence lent credence to the witness's original testimony.",
+            "zh": "新證據使這名證人最初的證詞更加可信。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "belief",
+        "noteZh": "對說法的相信"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "disbelief",
+        "noteZh": "不相信"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "credible",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可信的"
+      },
+      {
+        "lemma": "credibility",
+        "partOfSpeech": "noun",
+        "meaningZh": "可信度"
+      },
+      {
+        "lemma": "credulous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "輕信的"
       }
     ],
     "tags": [
@@ -1769,19 +2320,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "belief",
-        "noteZh": "對說法的相信"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "disbelief",
-        "noteZh": "不相信"
-      }
-    ]
+    }
   },
   {
     "id": "w_credential",
@@ -1795,34 +2334,32 @@
       {
         "id": "s_credential_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "a qualification, achievement, or quality that entitles someone to trust or authority",
         "definitionZh": "資格；證書；憑證",
         "usageExplanationZh": "常見複數形 credentials，指學歷、證照等能證明能力或身分的文件或經歷。",
-        "examples": [
-          {
-            "en": "She presented her academic credentials during the job interview.",
-            "zh": "她在求職面試中出示了自己的學歷證明。"
-          }
+        "grammarPatterns": [
+          "academic credentials",
+          "check sb's credentials",
+          "the credentials to + V"
         ],
         "collocations": [
           {
             "text": "an academic credential",
             "meaningZh": "學歷證明"
           }
+        ],
+        "examples": [
+          {
+            "en": "She presented her academic credentials during the job interview.",
+            "zh": "她在求職面試中出示了自己的學歷證明。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "qualification",
@@ -1833,7 +2370,18 @@
         "noteZh": "資格證書"
       }
     ],
-    "antonyms": []
+    "antonyms": [],
+    "tags": [
+      "dictionary",
+      "toefl"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_creditor",
@@ -1847,21 +2395,54 @@
       {
         "id": "s_creditor_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "business",
+          "technical"
+        ],
         "definitionEn": "a person or organization to whom money is owed",
         "definitionZh": "債權人",
         "usageExplanationZh": "金融用語，與 debtor（債務人）相對，指借出款項、有權要求償還的一方。",
-        "examples": [
-          {
-            "en": "The company had to negotiate new terms with its creditors to avoid bankruptcy.",
-            "zh": "該公司必須與債權人協商新的條件，以避免破產。"
-          }
+        "grammarPatterns": [
+          "repay one's creditors",
+          "a creditor of + noun",
+          "negotiate with creditors"
         ],
         "collocations": [
           {
             "text": "a secured creditor",
             "meaningZh": "有擔保債權人"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company had to negotiate new terms with its creditors to avoid bankruptcy.",
+            "zh": "該公司必須與債權人協商新的條件，以避免破產。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "lender",
+        "noteZh": "借出款項的人"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "debtor",
+        "noteZh": "負有債務的人"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "credit",
+        "partOfSpeech": "noun",
+        "meaningZh": "信用；賒帳"
+      },
+      {
+        "lemma": "creditworthy",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有信用的；信用良好的"
       }
     ],
     "tags": [
@@ -1874,19 +2455,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "lender",
-        "noteZh": "借出款項的人"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "debtor",
-        "noteZh": "負有債務的人"
-      }
-    ]
+    }
   },
   {
     "id": "w_credulous",
@@ -1900,21 +2469,59 @@
       {
         "id": "s_credulous_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "too ready to believe things without sufficient evidence",
         "definitionZh": "輕信的；易受騙的",
         "usageExplanationZh": "書面用語，帶輕微負面意味，強調過於天真、缺乏懷疑精神。",
-        "examples": [
-          {
-            "en": "The credulous investors believed his promises of guaranteed returns.",
-            "zh": "這些輕信的投資人竟然相信了他保證獲利的承諾。"
-          }
+        "grammarPatterns": [
+          "a credulous + noun",
+          "credulous enough to + V",
+          "the credulous public"
         ],
         "collocations": [
           {
             "text": "a credulous audience",
             "meaningZh": "輕信的聽眾"
           }
+        ],
+        "examples": [
+          {
+            "en": "The credulous investors believed his promises of guaranteed returns.",
+            "zh": "這些輕信的投資人竟然相信了他保證獲利的承諾。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "gullible",
+        "noteZh": "容易輕信受騙的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "skeptical",
+        "noteZh": "抱持懷疑態度的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "credulity",
+        "partOfSpeech": "noun",
+        "meaningZh": "輕信；易受騙"
+      },
+      {
+        "lemma": "incredulous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不肯相信的；懷疑的"
+      },
+      {
+        "lemma": "credulously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "輕信地"
       }
     ],
     "tags": [
@@ -1928,19 +2535,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "gullible",
-        "noteZh": "容易輕信受騙的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "skeptical",
-        "noteZh": "抱持懷疑態度的"
-      }
-    ]
+    }
   },
   {
     "id": "w_creek",
@@ -1954,23 +2549,38 @@
       {
         "id": "s_creek_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a small stream or narrow waterway",
         "definitionZh": "小溪；小河",
         "usageExplanationZh": "日常用語，常見於自然地理描述，如 fish in the creek（在小溪釣魚）。",
-        "examples": [
-          {
-            "en": "The children spent the afternoon wading in the shallow creek.",
-            "zh": "孩子們一整個下午都在淺淺的小溪裡玩水。"
-          }
+        "grammarPatterns": [
+          "along the creek",
+          "a small creek",
+          "cross the creek"
         ],
         "collocations": [
           {
             "text": "a shallow creek",
             "meaningZh": "淺溪"
           }
+        ],
+        "examples": [
+          {
+            "en": "The children spent the afternoon wading in the shallow creek.",
+            "zh": "孩子們一整個下午都在淺淺的小溪裡玩水。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "stream",
+        "noteZh": "小溪"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1982,14 +2592,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "stream",
-        "noteZh": "小溪"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_creep",
@@ -2003,40 +2606,75 @@
       {
         "id": "s_creep_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "an unpleasant or creepy person, or a slow, gradual movement",
         "definitionZh": "討厭的人；令人毛骨悚然的人；（比喻）緩慢滲透",
         "usageExplanationZh": "一義指令人不悅或怪異的人（口語貶義），另一義指緩慢漸進的變化（scope creep，範圍逐漸擴大）。",
-        "examples": [
-          {
-            "en": "She felt uneasy around him; he was such a creep.",
-            "zh": "她跟他在一起感到不自在；他真是個令人毛骨悚然的人。"
-          }
+        "grammarPatterns": [
+          "a real creep",
+          "the slow creep of + noun"
         ],
         "collocations": [
           {
             "text": "mission creep",
             "meaningZh": "任務範圍逐漸擴張"
           }
+        ],
+        "examples": [
+          {
+            "en": "She felt uneasy around him; he was such a creep.",
+            "zh": "她跟他在一起感到不自在；他真是個令人毛骨悚然的人。"
+          }
         ]
       },
       {
         "id": "s_creep_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "to move slowly, quietly, and carefully, especially to avoid being noticed",
         "definitionZh": "躡手躡腳地移動；悄悄爬行",
         "usageExplanationZh": "常見 creep up on someone（悄悄接近某人），也可比喻用於變化緩慢地發生（doubts crept in）。",
-        "examples": [
-          {
-            "en": "He crept up the stairs so as not to wake the sleeping baby.",
-            "zh": "他躡手躡腳地上樓，以免吵醒熟睡的嬰兒。"
-          }
+        "grammarPatterns": [
+          "creep into + noun",
+          "creep up on sb",
+          "creep along + noun"
         ],
         "collocations": [
           {
             "text": "creep up on",
             "meaningZh": "悄悄接近"
           }
+        ],
+        "examples": [
+          {
+            "en": "He crept up the stairs so as not to wake the sleeping baby.",
+            "zh": "他躡手躡腳地上樓，以免吵醒熟睡的嬰兒。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "weirdo",
+        "noteZh": "令人不舒服的怪人，口語"
+      },
+      {
+        "lemma": "crawl",
+        "noteZh": "緩慢移動"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "creepy",
+        "partOfSpeech": "adjective",
+        "meaningZh": "令人毛骨悚然的"
       }
     ],
     "tags": [
@@ -2051,18 +2689,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "weirdo",
-        "noteZh": "令人不舒服的怪人，口語"
-      },
-      {
-        "lemma": "crawl",
-        "noteZh": "緩慢移動"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_crew",
@@ -2076,23 +2703,39 @@
       {
         "id": "s_crew_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a group of people who work together, especially on a ship, aircraft, or a specific task",
         "definitionZh": "（船／飛機的）機組人員；工作團隊",
         "usageExplanationZh": "常見 flight crew（機組人員）、a film crew（拍攝團隊），強調共同執行特定任務的一群人。",
-        "examples": [
-          {
-            "en": "The film crew worked overtime to finish shooting before the deadline.",
-            "zh": "這支拍攝團隊加班趕工，以便在截止日前完成拍攝。"
-          }
+        "grammarPatterns": [
+          "a crew of + noun",
+          "the crew of + noun",
+          "join the crew"
         ],
         "collocations": [
           {
             "text": "a cabin crew",
             "meaningZh": "客艙機組人員"
           }
+        ],
+        "examples": [
+          {
+            "en": "The film crew worked overtime to finish shooting before the deadline.",
+            "zh": "這支拍攝團隊加班趕工，以便在截止日前完成拍攝。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "team",
+        "noteZh": "共同工作的團隊"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -2103,14 +2746,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "team",
-        "noteZh": "共同工作的團隊"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_cringe",
@@ -2124,21 +2760,44 @@
       {
         "id": "s_cringe_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "to feel embarrassment or disgust, often shrinking back physically",
         "definitionZh": "畏縮；感到尷尬（常伴隨身體退縮）",
         "usageExplanationZh": "口語用法，常見 cringe at/when，強調對令人尷尬或不適的事物產生反射性的不悅反應。",
-        "examples": [
-          {
-            "en": "She cringed when she saw the embarrassing photo posted online.",
-            "zh": "她看到那張尷尬的照片被貼到網上時，忍不住畏縮了一下。"
-          }
+        "grammarPatterns": [
+          "cringe at + noun",
+          "cringe when + clause",
+          "make sb cringe"
         ],
         "collocations": [
           {
             "text": "cringe at the thought of",
             "meaningZh": "一想到就感到尷尬或畏縮"
           }
+        ],
+        "examples": [
+          {
+            "en": "She cringed when she saw the embarrassing photo posted online.",
+            "zh": "她看到那張尷尬的照片被貼到網上時，忍不住畏縮了一下。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "flinch",
+        "noteZh": "因害怕或不適而退縮"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "cringeworthy",
+        "partOfSpeech": "adjective",
+        "meaningZh": "令人尷尬到難以直視的"
       }
     ],
     "tags": [
@@ -2151,14 +2810,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "flinch",
-        "noteZh": "因害怕或不適而退縮"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_cripple",
@@ -2172,42 +2824,69 @@
       {
         "id": "s_cripple_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "a person who is unable to walk or move properly due to injury or disability (dated, now considered offensive)",
         "definitionZh": "殘障人士（現已被視為冒犯用語，較少使用）",
         "usageExplanationZh": "此用法現今被視為冒犯性用語，正式或禮貌場合建議改用 a person with a disability，多見於歷史文本。",
-        "examples": [
-          {
-            "en": "In older texts, the word \"cripple\" was used, but it is now considered offensive.",
-            "zh": "在較早的文本中曾使用「cripple」一詞，但現在已被視為冒犯性用語。"
-          }
+        "grammarPatterns": [
+          "be left a cripple",
+          "treat sb as a cripple"
         ],
         "collocations": [
           {
             "text": "a term such as cripple",
             "meaningZh": "像 cripple 這類具冒犯性的稱呼"
           }
+        ],
+        "examples": [
+          {
+            "en": "In older texts, the word \"cripple\" was used, but it is now considered offensive.",
+            "zh": "在較早的文本中曾使用「cripple」一詞，但現在已被視為冒犯性用語。"
+          }
         ]
       },
       {
         "id": "s_cripple_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to severely damage or weaken something, or to cause someone to lose the ability to move normally",
         "definitionZh": "使殘廢；使嚴重受損；使癱瘓（比喻）",
         "usageExplanationZh": "常見比喻用法，如 cripple the economy（重創經濟），強調造成嚴重且難以恢復的損害。",
-        "examples": [
-          {
-            "en": "The prolonged strike crippled the country's transportation system.",
-            "zh": "這場長期罷工重創了該國的交通運輸系統。"
-          }
+        "grammarPatterns": [
+          "cripple + noun",
+          "be crippled by + noun",
+          "cripple the economy"
         ],
         "collocations": [
           {
             "text": "cripple the economy",
             "meaningZh": "使經濟癱瘓"
           }
+        ],
+        "examples": [
+          {
+            "en": "The prolonged strike crippled the country's transportation system.",
+            "zh": "這場長期罷工重創了該國的交通運輸系統。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "disabled person",
+        "noteZh": "指身心障礙者的較中性說法，原詞具冒犯性"
+      },
+      {
+        "lemma": "disable",
+        "noteZh": "使喪失功能"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2220,18 +2899,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "disabled person",
-        "noteZh": "指身心障礙者的較中性說法，原詞具冒犯性"
-      },
-      {
-        "lemma": "disable",
-        "noteZh": "使喪失功能"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_crisp",
@@ -2245,35 +2913,31 @@
       {
         "id": "s_crisp_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "firm, dry, and brittle, or (of weather) cold and invigorating",
         "definitionZh": "酥脆的；（天氣）清爽涼冽的",
         "usageExplanationZh": "一義形容食物口感（a crisp apple，脆的蘋果），另一義形容天氣（a crisp autumn morning，清爽的秋日早晨）。",
-        "examples": [
-          {
-            "en": "They enjoyed a crisp autumn morning walk in the park.",
-            "zh": "他們在公園享受了一個清爽的秋日早晨散步。"
-          }
+        "grammarPatterns": [
+          "a crisp + noun",
+          "a crisp morning",
+          "stay crisp"
         ],
         "collocations": [
           {
             "text": "crisp lettuce",
             "meaningZh": "爽脆的生菜"
           }
+        ],
+        "examples": [
+          {
+            "en": "They enjoyed a crisp autumn morning walk in the park.",
+            "zh": "他們在公園享受了一個清爽的秋日早晨散步。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "crunchy",
@@ -2289,7 +2953,31 @@
         "lemma": "soggy",
         "noteZh": "食物濕軟的"
       }
-    ]
+    ],
+    "wordFamily": [
+      {
+        "lemma": "crispness",
+        "partOfSpeech": "noun",
+        "meaningZh": "酥脆；清爽"
+      },
+      {
+        "lemma": "crisply",
+        "partOfSpeech": "adverb",
+        "meaningZh": "乾脆俐落地"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_critique",
@@ -2303,21 +2991,58 @@
       {
         "id": "s_critique_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "a detailed analysis and assessment of something, especially a literary or artistic work",
         "definitionZh": "評論；評析",
         "usageExplanationZh": "書面用語，常見 a critique of，強調有系統、深入的分析與評價，語氣較 criticism 中性。",
-        "examples": [
-          {
-            "en": "The professor offered a thoughtful critique of the student's thesis.",
-            "zh": "這位教授對學生的論文提出了深思熟慮的評析。"
-          }
+        "grammarPatterns": [
+          "a critique of + noun",
+          "offer a critique",
+          "write a critique"
         ],
         "collocations": [
           {
             "text": "a detailed critique",
             "meaningZh": "詳細的評析"
           }
+        ],
+        "examples": [
+          {
+            "en": "The professor offered a thoughtful critique of the student's thesis.",
+            "zh": "這位教授對學生的論文提出了深思熟慮的評析。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "review",
+        "noteZh": "評論作品或觀點的文章"
+      },
+      {
+        "lemma": "analysis",
+        "noteZh": "深入分析評析"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "critic",
+        "partOfSpeech": "noun",
+        "meaningZh": "評論家；批評者"
+      },
+      {
+        "lemma": "critical",
+        "partOfSpeech": "adjective",
+        "meaningZh": "批判的；關鍵的"
+      },
+      {
+        "lemma": "criticism",
+        "partOfSpeech": "noun",
+        "meaningZh": "批評；評論"
       }
     ],
     "tags": [
@@ -2331,18 +3056,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "review",
-        "noteZh": "評論作品或觀點的文章"
-      },
-      {
-        "lemma": "analysis",
-        "noteZh": "深入分析評析"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_crook",
@@ -2356,53 +3070,58 @@
       {
         "id": "s_crook_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "a dishonest or criminal person",
         "definitionZh": "騙子；壞蛋",
         "usageExplanationZh": "口語用語，帶負面意味，泛指從事不誠實或犯罪行為的人。",
-        "examples": [
-          {
-            "en": "The old man realized too late that the salesman was a crook.",
-            "zh": "這位老人太晚才發現那個推銷員是個騙子。"
-          }
+        "grammarPatterns": [
+          "a small-time crook",
+          "a bunch of crooks"
         ],
         "collocations": [
           {
             "text": "a dishonest crook",
             "meaningZh": "不誠實的騙子"
           }
+        ],
+        "examples": [
+          {
+            "en": "The old man realized too late that the salesman was a crook.",
+            "zh": "這位老人太晚才發現那個推銷員是個騙子。"
+          }
         ]
       },
       {
         "id": "s_crook_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "to bend something, especially a finger or arm",
         "definitionZh": "彎曲（手指、手臂等）",
         "usageExplanationZh": "較正式或文學用語，常見 crook one's finger（勾起手指），描述肢體彎曲的動作。",
-        "examples": [
-          {
-            "en": "She crooked her finger to beckon him closer.",
-            "zh": "她勾起手指示意他靠近一點。"
-          }
+        "grammarPatterns": [
+          "crook one's finger",
+          "crook one's arm"
         ],
         "collocations": [
           {
             "text": "crook a finger",
             "meaningZh": "彎曲手指"
           }
+        ],
+        "examples": [
+          {
+            "en": "She crooked her finger to beckon him closer.",
+            "zh": "她勾起手指示意他靠近一點。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "gre"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "swindler",
@@ -2413,7 +3132,18 @@
         "noteZh": "使彎曲"
       }
     ],
-    "antonyms": []
+    "antonyms": [],
+    "tags": [
+      "dictionary",
+      "gre"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_crouch",
@@ -2427,42 +3157,66 @@
       {
         "id": "s_crouch_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a position in which the knees are bent and the upper body is brought forward and down",
         "definitionZh": "蹲伏姿勢",
         "usageExplanationZh": "描述身體蹲低、彎曲的姿態，常見於運動或動物行為描寫。",
-        "examples": [
-          {
-            "en": "The sprinter took a low crouch before the starting gun fired.",
-            "zh": "短跑選手在發令槍響前擺出低蹲的起跑姿勢。"
-          }
+        "grammarPatterns": [
+          "in a crouch",
+          "drop into a crouch",
+          "a low crouch"
         ],
         "collocations": [
           {
             "text": "in a crouch",
             "meaningZh": "呈蹲伏姿勢"
           }
+        ],
+        "examples": [
+          {
+            "en": "The sprinter took a low crouch before the starting gun fired.",
+            "zh": "短跑選手在發令槍響前擺出低蹲的起跑姿勢。"
+          }
         ]
       },
       {
         "id": "s_crouch_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to bend one's knees and lower the body close to the ground",
         "definitionZh": "蹲下；蹲伏",
         "usageExplanationZh": "常見 crouch down，強調身體彎低靠近地面的動作，多見於躲藏或準備動作。",
-        "examples": [
-          {
-            "en": "He crouched behind the bushes to avoid being seen.",
-            "zh": "他蹲在灌木叢後面，以免被看見。"
-          }
+        "grammarPatterns": [
+          "crouch down",
+          "crouch behind + noun",
+          "crouch beside sb"
         ],
         "collocations": [
           {
             "text": "crouch down",
             "meaningZh": "蹲下"
           }
+        ],
+        "examples": [
+          {
+            "en": "He crouched behind the bushes to avoid being seen.",
+            "zh": "他蹲在灌木叢後面，以免被看見。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "squat",
+        "noteZh": "蹲下或蹲姿"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2475,14 +3229,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "squat",
-        "noteZh": "蹲下或蹲姿"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_crown",
@@ -2496,23 +3243,43 @@
       {
         "id": "s_crown_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "a circular ornamental headdress worn by a monarch, or the top part of something",
         "definitionZh": "王冠；（事物的）頂部",
         "usageExplanationZh": "一義指君主佩戴的頭飾（象徵王權），另一義可指牙齒、樹木等的頂部（a tooth crown，牙冠）。",
-        "examples": [
-          {
-            "en": "The queen wore an ornate crown decorated with jewels.",
-            "zh": "女王戴著一頂鑲滿寶石的華麗王冠。"
-          }
+        "grammarPatterns": [
+          "wear a crown",
+          "the crown of + noun",
+          "the crown jewels"
         ],
         "collocations": [
           {
             "text": "the crown of the head",
             "meaningZh": "頭頂"
           }
+        ],
+        "examples": [
+          {
+            "en": "The queen wore an ornate crown decorated with jewels.",
+            "zh": "女王戴著一頂鑲滿寶石的華麗王冠。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "diadem",
+        "noteZh": "象徵王權的冠冕"
+      },
+      {
+        "lemma": "top",
+        "noteZh": "物體頂端"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre",
@@ -2524,18 +3291,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "diadem",
-        "noteZh": "象徵王權的冠冕"
-      },
-      {
-        "lemma": "top",
-        "noteZh": "物體頂端"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_crucial",
@@ -2549,21 +3305,49 @@
       {
         "id": "s_crucial_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "extremely important or essential, especially for future success",
         "definitionZh": "至關重要的；關鍵性的",
         "usageExplanationZh": "常修飾 role、moment、decision 等，強調對結果有決定性影響，語氣比 important 更強烈。",
-        "examples": [
-          {
-            "en": "Early diagnosis is crucial for successful treatment.",
-            "zh": "及早診斷對於成功治療至關重要。"
-          }
+        "grammarPatterns": [
+          "crucial to + noun",
+          "crucial for + noun",
+          "a crucial + noun"
         ],
         "collocations": [
           {
             "text": "crucial to success",
             "meaningZh": "對成功至關重要"
           }
+        ],
+        "examples": [
+          {
+            "en": "Early diagnosis is crucial for successful treatment.",
+            "zh": "及早診斷對於成功治療至關重要。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "vital",
+        "noteZh": "至關重要的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "insignificant",
+        "noteZh": "無關緊要的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "crucially",
+        "partOfSpeech": "adverb",
+        "meaningZh": "至關重要地"
       }
     ],
     "tags": [
@@ -2578,19 +3362,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "vital",
-        "noteZh": "至關重要的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "insignificant",
-        "noteZh": "無關緊要的"
-      }
-    ]
+    }
   },
   {
     "id": "w_crude",
@@ -2604,35 +3376,32 @@
       {
         "id": "s_crude_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "in a natural or raw state (not yet processed), or lacking sophistication and refinement",
         "definitionZh": "未經加工的；粗糙的；粗俗的",
         "usageExplanationZh": "一義指原始未加工的物質（crude oil，原油），另一義指言行粗俗無禮（a crude joke，粗俗的笑話）。",
-        "examples": [
-          {
-            "en": "The country exports large quantities of crude oil each year.",
-            "zh": "這個國家每年出口大量的原油。"
-          }
+        "grammarPatterns": [
+          "crude oil",
+          "a crude + noun",
+          "crude but effective"
         ],
         "collocations": [
           {
             "text": "crude oil",
             "meaningZh": "原油"
           }
+        ],
+        "examples": [
+          {
+            "en": "The country exports large quantities of crude oil each year.",
+            "zh": "這個國家每年出口大量的原油。"
+          }
         ]
       }
     ],
-    "tags": [
-      "dictionary",
-      "toefl",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
     "synonyms": [
       {
         "lemma": "unrefined",
@@ -2648,125 +3417,17 @@
         "lemma": "refined",
         "noteZh": "精煉的或有教養的"
       }
-    ]
-  },
-  {
-    "id": "w_cruise",
-    "lemma": "cruise",
-    "slug": "cruise",
-    "cefr": "B2",
-    "pronunciation": {
-      "kk": "/kruz/"
-    },
-    "senses": [
+    ],
+    "wordFamily": [
       {
-        "id": "s_cruise_noun",
+        "lemma": "crudely",
+        "partOfSpeech": "adverb",
+        "meaningZh": "粗略地；粗魯地"
+      },
+      {
+        "lemma": "crudity",
         "partOfSpeech": "noun",
-        "definitionEn": "a voyage on a ship taken for pleasure, typically calling at several ports",
-        "definitionZh": "郵輪之旅；巡航",
-        "usageExplanationZh": "日常用語，常見 go on a cruise（搭郵輪旅行），強調以觀光休閒為目的的航行。",
-        "examples": [
-          {
-            "en": "They booked a Caribbean cruise for their honeymoon.",
-            "zh": "他們預訂了一趟加勒比海郵輪之旅作為蜜月旅行。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "go on a cruise",
-            "meaningZh": "搭郵輪旅行"
-          }
-        ]
-      },
-      {
-        "id": "s_cruise_verb",
-        "partOfSpeech": "verb",
-        "definitionEn": "to sail or travel at a steady, moderate speed, especially for pleasure",
-        "definitionZh": "巡航；以穩定速度行駛",
-        "usageExplanationZh": "常見 cruise along/at，也可指飛機或車輛以固定速度平穩行進（cruising altitude，巡航高度）。",
-        "examples": [
-          {
-            "en": "The ship cruised smoothly along the coastline.",
-            "zh": "這艘船沿著海岸線平穩地航行。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "cruise along the coast",
-            "meaningZh": "沿海岸巡航"
-          }
-        ]
-      }
-    ],
-    "tags": [
-      "dictionary",
-      "ielts"
-    ],
-    "contentRevision": "bilingual-v1",
-    "dictionarySource": {
-      "name": "ECDICT",
-      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
-      "license": "MIT",
-      "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "voyage",
-        "noteZh": "海上旅程"
-      },
-      {
-        "lemma": "sail",
-        "noteZh": "乘船航行"
-      }
-    ],
-    "antonyms": []
-  },
-  {
-    "id": "w_crush",
-    "lemma": "crush",
-    "slug": "crush",
-    "cefr": "B2",
-    "pronunciation": {
-      "kk": "/krʌʃ/"
-    },
-    "senses": [
-      {
-        "id": "s_crush_noun",
-        "partOfSpeech": "noun",
-        "definitionEn": "a strong but often short-lived infatuation with someone, or a densely packed crowd",
-        "definitionZh": "迷戀；暗戀（對象）；擁擠人群",
-        "usageExplanationZh": "口語用法，have a crush on someone（暗戀某人）十分常見，另一義指擁擠的人群（in the crush of the crowd）。",
-        "examples": [
-          {
-            "en": "He had a crush on his classmate throughout middle school.",
-            "zh": "他整個國中時期都暗戀著他的同班同學。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "have a crush on",
-            "meaningZh": "暗戀某人"
-          }
-        ]
-      },
-      {
-        "id": "s_crush_verb",
-        "partOfSpeech": "verb",
-        "definitionEn": "to press or squeeze something forcefully so as to break or destroy its structure",
-        "definitionZh": "壓碎；壓垮",
-        "usageExplanationZh": "常見 crush a can/grape，也可比喻指徹底擊敗或摧毀（crush the rebellion）。",
-        "examples": [
-          {
-            "en": "The machine crushed the empty cans for recycling.",
-            "zh": "這台機器把空罐壓扁以便回收。"
-          }
-        ],
-        "collocations": [
-          {
-            "text": "crush into powder",
-            "meaningZh": "壓成粉末"
-          }
-        ]
+        "meaningZh": "粗糙；粗俗"
       }
     ],
     "tags": [
@@ -2780,7 +3441,167 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
+    }
+  },
+  {
+    "id": "w_cruise",
+    "lemma": "cruise",
+    "slug": "cruise",
+    "cefr": "B2",
+    "pronunciation": {
+      "kk": "/kruz/"
     },
+    "senses": [
+      {
+        "id": "s_cruise_noun",
+        "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
+        "definitionEn": "a voyage on a ship taken for pleasure, typically calling at several ports",
+        "definitionZh": "郵輪之旅；巡航",
+        "usageExplanationZh": "日常用語，常見 go on a cruise（搭郵輪旅行），強調以觀光休閒為目的的航行。",
+        "grammarPatterns": [
+          "go on a cruise",
+          "a cruise around + noun",
+          "a cruise ship"
+        ],
+        "collocations": [
+          {
+            "text": "go on a cruise",
+            "meaningZh": "搭郵輪旅行"
+          }
+        ],
+        "examples": [
+          {
+            "en": "They booked a Caribbean cruise for their honeymoon.",
+            "zh": "他們預訂了一趟加勒比海郵輪之旅作為蜜月旅行。"
+          }
+        ]
+      },
+      {
+        "id": "s_cruise_verb",
+        "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
+        "definitionEn": "to sail or travel at a steady, moderate speed, especially for pleasure",
+        "definitionZh": "巡航；以穩定速度行駛",
+        "usageExplanationZh": "常見 cruise along/at，也可指飛機或車輛以固定速度平穩行進（cruising altitude，巡航高度）。",
+        "grammarPatterns": [
+          "cruise at + noun",
+          "cruise along + noun",
+          "cruise around + noun"
+        ],
+        "collocations": [
+          {
+            "text": "cruise along the coast",
+            "meaningZh": "沿海岸巡航"
+          }
+        ],
+        "examples": [
+          {
+            "en": "The ship cruised smoothly along the coastline.",
+            "zh": "這艘船沿著海岸線平穩地航行。"
+          }
+        ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "voyage",
+        "noteZh": "海上旅程"
+      },
+      {
+        "lemma": "sail",
+        "noteZh": "乘船航行"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "cruiser",
+        "partOfSpeech": "noun",
+        "meaningZh": "巡洋艦；遊艇"
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
+  },
+  {
+    "id": "w_crush",
+    "lemma": "crush",
+    "slug": "crush",
+    "cefr": "B2",
+    "pronunciation": {
+      "kk": "/krʌʃ/"
+    },
+    "senses": [
+      {
+        "id": "s_crush_noun",
+        "partOfSpeech": "noun",
+        "register": [
+          "informal",
+          "spoken"
+        ],
+        "definitionEn": "a strong but often short-lived infatuation with someone, or a densely packed crowd",
+        "definitionZh": "迷戀；暗戀（對象）；擁擠人群",
+        "usageExplanationZh": "口語用法，have a crush on someone（暗戀某人）十分常見，另一義指擁擠的人群（in the crush of the crowd）。",
+        "grammarPatterns": [
+          "have a crush on sb",
+          "sb's first crush",
+          "a crush of + noun"
+        ],
+        "collocations": [
+          {
+            "text": "have a crush on",
+            "meaningZh": "暗戀某人"
+          }
+        ],
+        "examples": [
+          {
+            "en": "He had a crush on his classmate throughout middle school.",
+            "zh": "他整個國中時期都暗戀著他的同班同學。"
+          }
+        ]
+      },
+      {
+        "id": "s_crush_verb",
+        "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
+        "definitionEn": "to press or squeeze something forcefully so as to break or destroy its structure",
+        "definitionZh": "壓碎；壓垮",
+        "usageExplanationZh": "常見 crush a can/grape，也可比喻指徹底擊敗或摧毀（crush the rebellion）。",
+        "grammarPatterns": [
+          "crush + noun",
+          "crush sth into + noun",
+          "be crushed by + noun"
+        ],
+        "collocations": [
+          {
+            "text": "crush into powder",
+            "meaningZh": "壓成粉末"
+          }
+        ],
+        "examples": [
+          {
+            "en": "The machine crushed the empty cans for recycling.",
+            "zh": "這台機器把空罐壓扁以便回收。"
+          }
+        ]
+      }
+    ],
     "synonyms": [
       {
         "lemma": "infatuation",
@@ -2791,7 +3612,19 @@
         "noteZh": "壓碎或擊碎"
       }
     ],
-    "antonyms": []
+    "antonyms": [],
+    "tags": [
+      "dictionary",
+      "toefl",
+      "ielts"
+    ],
+    "contentRevision": "bilingual-v1",
+    "dictionarySource": {
+      "name": "ECDICT",
+      "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "license": "MIT",
+      "cefrEstimated": true
+    }
   },
   {
     "id": "w_crust",
@@ -2805,40 +3638,76 @@
       {
         "id": "s_crust_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "the hard outer layer of bread, pastry, or the earth",
         "definitionZh": "（麵包、派等的）外皮；（地球的）地殼",
         "usageExplanationZh": "常見 pizza crust（披薩餅皮）、the earth's crust（地殼），指外層堅硬的部分。",
-        "examples": [
-          {
-            "en": "She trimmed the crust off the sandwich for her daughter.",
-            "zh": "她為女兒把三明治的外皮切掉了。"
-          }
+        "grammarPatterns": [
+          "the crust of + noun",
+          "a crisp crust",
+          "the earth's crust"
         ],
         "collocations": [
           {
             "text": "the Earth's crust",
             "meaningZh": "地殼"
           }
+        ],
+        "examples": [
+          {
+            "en": "She trimmed the crust off the sandwich for her daughter.",
+            "zh": "她為女兒把三明治的外皮切掉了。"
+          }
         ]
       },
       {
         "id": "s_crust_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "to form a hard outer layer",
         "definitionZh": "結成硬殼；覆上一層外皮",
         "usageExplanationZh": "較不常見的動詞用法，常見於描述表面逐漸變硬，如 mud crusted on his boots（泥巴在他的靴子上結成硬殼）。",
-        "examples": [
-          {
-            "en": "Snow had crusted over on the windowsill by morning.",
-            "zh": "到了早上，窗台上的積雪已經結成一層硬殼。"
-          }
+        "grammarPatterns": [
+          "crust over",
+          "be crusted with + noun"
         ],
         "collocations": [
           {
             "text": "crust over",
             "meaningZh": "表面結成硬殼"
           }
+        ],
+        "examples": [
+          {
+            "en": "Snow had crusted over on the windowsill by morning.",
+            "zh": "到了早上，窗台上的積雪已經結成一層硬殼。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "rind",
+        "noteZh": "食物外層的硬皮"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "crusty",
+        "partOfSpeech": "adjective",
+        "meaningZh": "有硬皮的；（人）暴躁的"
+      },
+      {
+        "lemma": "encrust",
+        "partOfSpeech": "verb",
+        "meaningZh": "覆上一層硬殼"
       }
     ],
     "tags": [
@@ -2853,13 +3722,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "rind",
-        "noteZh": "食物外層的硬皮"
-      }
-    ],
-    "antonyms": []
+    }
   }
 ]

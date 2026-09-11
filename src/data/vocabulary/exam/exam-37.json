@@ -11,42 +11,64 @@
       {
         "id": "s_hose_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a flexible tube used to convey water or other liquids",
         "definitionZh": "軟管；水管",
         "usageExplanationZh": "常見 a garden hose（花園澆水軟管）、a fire hose（消防水管）。",
-        "examples": [
-          {
-            "en": "He used a hose to wash the mud off his car.",
-            "zh": "他用軟管沖洗掉車上的泥巴。"
-          }
+        "grammarPatterns": [
+          "a garden hose",
+          "a hose for + V-ing"
         ],
         "collocations": [
           {
             "text": "a garden hose",
             "meaningZh": "花園澆水管"
           }
+        ],
+        "examples": [
+          {
+            "en": "He used a hose to wash the mud off his car.",
+            "zh": "他用軟管沖洗掉車上的泥巴。"
+          }
         ]
       },
       {
         "id": "s_hose_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to water, wash, or spray something using a hose",
         "definitionZh": "用軟管沖洗（水）",
         "usageExplanationZh": "常接 down，如 hose down the car，強調用水管沖洗清潔的動作。",
-        "examples": [
-          {
-            "en": "They hosed down the driveway after the party.",
-            "zh": "派對結束後，他們用水管沖洗了車道。"
-          }
+        "grammarPatterns": [
+          "hose sth down",
+          "hose + noun"
         ],
         "collocations": [
           {
             "text": "hose down the driveway",
             "meaningZh": "用水管沖洗車道"
           }
+        ],
+        "examples": [
+          {
+            "en": "They hosed down the driveway after the party.",
+            "zh": "派對結束後，他們用水管沖洗了車道。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "tube",
+        "noteZh": "軟管"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -57,14 +79,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "tube",
-        "noteZh": "軟管"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_hospitable",
@@ -78,21 +93,57 @@
       {
         "id": "s_hospitable_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "friendly and welcoming to guests or strangers",
         "definitionZh": "好客的；殷勤款待的",
         "usageExplanationZh": "常見 a hospitable host、a hospitable environment，強調待人親切熱情。",
-        "examples": [
-          {
-            "en": "The locals were extremely hospitable to visiting tourists.",
-            "zh": "當地人對來訪的遊客非常好客。"
-          }
+        "grammarPatterns": [
+          "be hospitable to + noun",
+          "a hospitable + noun"
         ],
         "collocations": [
           {
             "text": "a hospitable host",
             "meaningZh": "好客的主人"
           }
+        ],
+        "examples": [
+          {
+            "en": "The locals were extremely hospitable to visiting tourists.",
+            "zh": "當地人對來訪的遊客非常好客。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "welcoming",
+        "noteZh": "熱情歡迎的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "inhospitable",
+        "noteZh": "不友善的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "hospitality",
+        "partOfSpeech": "noun",
+        "meaningZh": "好客；殷勤款待"
+      },
+      {
+        "lemma": "hospitably",
+        "partOfSpeech": "adverb",
+        "meaningZh": "殷勤地"
+      },
+      {
+        "lemma": "inhospitable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不友善的；不宜居住的"
       }
     ],
     "tags": [
@@ -106,19 +157,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "welcoming",
-        "noteZh": "熱情歡迎的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "inhospitable",
-        "noteZh": "不友善的"
-      }
-    ]
+    }
   },
   {
     "id": "w_hospitality",
@@ -132,21 +171,49 @@
       {
         "id": "s_hospitality_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "the friendly and generous treatment of guests or strangers",
         "definitionZh": "好客；殷勤款待",
         "usageExplanationZh": "常見 thank someone for their hospitality（感謝某人的款待）；也指飯店餐飲產業，如 hospitality industry。",
-        "examples": [
-          {
-            "en": "We are grateful for the warm hospitality shown to us during our stay.",
-            "zh": "我們對這趟住宿期間受到的熱情款待深表感激。"
-          }
+        "grammarPatterns": [
+          "warm hospitality",
+          "show hospitality to + noun",
+          "the hospitality industry"
         ],
         "collocations": [
           {
             "text": "offer hospitality",
             "meaningZh": "殷勤款待"
           }
+        ],
+        "examples": [
+          {
+            "en": "We are grateful for the warm hospitality shown to us during our stay.",
+            "zh": "我們對這趟住宿期間受到的熱情款待深表感激。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "warm welcome",
+        "noteZh": "熱情接待"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "hospitable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "好客的"
+      },
+      {
+        "lemma": "inhospitable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不宜居住的；不友善的"
       }
     ],
     "tags": [
@@ -159,14 +226,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "warm welcome",
-        "noteZh": "熱情接待"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_hostage",
@@ -180,23 +240,38 @@
       {
         "id": "s_hostage_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a person seized or held as security for the fulfillment of a condition",
         "definitionZh": "人質",
         "usageExplanationZh": "常見 take someone hostage（挾持某人為人質）、hostage negotiation（人質談判）。",
-        "examples": [
-          {
-            "en": "The gunman took several employees hostage inside the bank.",
-            "zh": "那名持槍歹徒在銀行內挾持了數名員工作為人質。"
-          }
+        "grammarPatterns": [
+          "take sb hostage",
+          "be held hostage",
+          "a hostage"
         ],
         "collocations": [
           {
             "text": "take someone hostage",
             "meaningZh": "挾持某人為人質"
           }
+        ],
+        "examples": [
+          {
+            "en": "The gunman took several employees hostage inside the bank.",
+            "zh": "那名持槍歹徒在銀行內挾持了數名員工作為人質。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "captive",
+        "noteZh": "被俘或被拘禁的人"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "ielts"
@@ -207,14 +282,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "captive",
-        "noteZh": "被俘或被拘禁的人"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_hostile",
@@ -228,40 +296,74 @@
       {
         "id": "s_hostile_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "unfriendly or antagonistic",
         "definitionZh": "懷有敵意的；不友善的",
         "usageExplanationZh": "常見 a hostile reaction（充滿敵意的反應）、a hostile takeover（惡意併購，商業用語）。",
-        "examples": [
-          {
-            "en": "The audience gave the speaker a hostile reception.",
-            "zh": "聽眾對這位演講者的反應充滿敵意。"
-          }
+        "grammarPatterns": [
+          "be hostile to/toward + noun",
+          "a hostile + noun"
         ],
         "collocations": [
           {
             "text": "hostile to new ideas",
             "meaningZh": "排斥新觀念的"
           }
+        ],
+        "examples": [
+          {
+            "en": "The audience gave the speaker a hostile reception.",
+            "zh": "聽眾對這位演講者的反應充滿敵意。"
+          }
         ]
       },
       {
         "id": "s_hostile_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "formal"
+        ],
         "definitionEn": "an enemy combatant or hostile force, especially in military contexts",
         "definitionZh": "敵方（人員或勢力）",
         "usageExplanationZh": "多見於軍事語境，常用複數 hostiles，指敵方戰鬥人員。",
-        "examples": [
-          {
-            "en": "The patrol reported spotting hostiles near the border.",
-            "zh": "巡邏隊回報在邊界附近發現了敵方人員。"
-          }
+        "grammarPatterns": [
+          "engage hostiles",
+          "spot hostiles"
         ],
         "collocations": [
           {
             "text": "identify potential hostiles",
             "meaningZh": "辨識潛在敵方人員"
           }
+        ],
+        "examples": [
+          {
+            "en": "The patrol reported spotting hostiles near the border.",
+            "zh": "巡邏隊回報在邊界附近發現了敵方人員。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "antagonistic",
+        "noteZh": "敵對的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "friendly",
+        "noteZh": "友善的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "hostility",
+        "partOfSpeech": "noun",
+        "meaningZh": "敵意；敵對"
       }
     ],
     "tags": [
@@ -276,19 +378,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "antagonistic",
-        "noteZh": "敵對的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "friendly",
-        "noteZh": "友善的"
-      }
-    ]
+    }
   },
   {
     "id": "w_hostility",
@@ -302,21 +392,49 @@
       {
         "id": "s_hostility_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "unfriendliness or opposition, or a state of conflict",
         "definitionZh": "敵意；敵對狀態",
         "usageExplanationZh": "常見複數 hostilities，指戰爭或武裝衝突，如 the outbreak of hostilities（戰事爆發）。",
-        "examples": [
-          {
-            "en": "There was a clear sense of hostility between the two rival companies.",
-            "zh": "這兩家競爭公司之間明顯存在敵意。"
-          }
+        "grammarPatterns": [
+          "hostility toward/to + noun",
+          "open hostility",
+          "a sense of hostility"
         ],
         "collocations": [
           {
             "text": "open hostility",
             "meaningZh": "公開的敵意"
           }
+        ],
+        "examples": [
+          {
+            "en": "There was a clear sense of hostility between the two rival companies.",
+            "zh": "這兩家競爭公司之間明顯存在敵意。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "antagonism",
+        "noteZh": "敵意"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "friendliness",
+        "noteZh": "友善"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "hostile",
+        "partOfSpeech": "adjective",
+        "meaningZh": "懷有敵意的"
       }
     ],
     "tags": [
@@ -330,19 +448,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "antagonism",
-        "noteZh": "敵意"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "friendliness",
-        "noteZh": "友善"
-      }
-    ]
+    }
   },
   {
     "id": "w_household",
@@ -356,21 +462,39 @@
       {
         "id": "s_household_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "a home and its occupants regarded as a unit",
         "definitionZh": "家庭；戶",
         "usageExplanationZh": "常見 household income（家庭收入）、household chores（家事）；統計語境常用來計算單位。",
-        "examples": [
-          {
-            "en": "The average household in the city spends a large portion of income on rent.",
-            "zh": "這座城市裡的一般家庭把很大一部分收入花在房租上。"
-          }
+        "grammarPatterns": [
+          "the average household",
+          "household income",
+          "a household of + noun"
         ],
         "collocations": [
           {
             "text": "household income",
             "meaningZh": "家庭收入"
           }
+        ],
+        "examples": [
+          {
+            "en": "The average household in the city spends a large portion of income on rent.",
+            "zh": "這座城市裡的一般家庭把很大一部分收入花在房租上。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "householder",
+        "partOfSpeech": "noun",
+        "meaningZh": "戶主；一家之主"
       }
     ],
     "tags": [
@@ -383,9 +507,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_hover",
@@ -399,23 +521,34 @@
       {
         "id": "s_hover_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "to remain suspended in one place in the air, or to wait around uncertainly near a person or place",
         "definitionZh": "（在空中）盤旋；徘徊；逗留",
         "usageExplanationZh": "常見 hover over/near，如 the drone hovered above the field；也可比喻人在附近徘徊等待。",
-        "examples": [
-          {
-            "en": "The helicopter hovered above the accident scene.",
-            "zh": "直升機在事故現場上空盤旋。"
-          }
+        "grammarPatterns": [
+          "hover above/over + noun",
+          "hover around + noun",
+          "hover near sb"
         ],
         "collocations": [
           {
             "text": "hover over the city",
             "meaningZh": "在城市上空盤旋"
           }
+        ],
+        "examples": [
+          {
+            "en": "The helicopter hovered above the accident scene.",
+            "zh": "直升機在事故現場上空盤旋。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -428,9 +561,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_hull",
@@ -444,23 +575,32 @@
       {
         "id": "s_hull_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical"
+        ],
         "definitionEn": "the main body of a ship, boat, or aircraft, excluding masts, rigging, and engines",
         "definitionZh": "船體；（飛機的）機身",
         "usageExplanationZh": "常見 the hull of a ship（船體）；也可指水果種子的外殼（較少見用法）。",
-        "examples": [
-          {
-            "en": "Water was leaking through a crack in the ship's hull.",
-            "zh": "水正從船體的裂縫滲入。"
-          }
+        "grammarPatterns": [
+          "the hull of + noun",
+          "a crack in the hull"
         ],
         "collocations": [
           {
             "text": "a ship's hull",
             "meaningZh": "船體"
           }
+        ],
+        "examples": [
+          {
+            "en": "Water was leaking through a crack in the ship's hull.",
+            "zh": "水正從船體的裂縫滲入。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -471,9 +611,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_humane",
@@ -487,21 +625,58 @@
       {
         "id": "s_humane_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "having or showing compassion or benevolence, especially toward those suffering",
         "definitionZh": "人道的；仁慈的",
         "usageExplanationZh": "常見 a humane way to treat animals（對待動物的人道方式），強調對待生命體時富有同情心。",
-        "examples": [
-          {
-            "en": "The shelter promotes humane treatment of stray animals.",
-            "zh": "這間收容所提倡以人道方式對待流浪動物。"
-          }
+        "grammarPatterns": [
+          "humane treatment of + noun",
+          "a humane + noun"
         ],
         "collocations": [
           {
             "text": "humane treatment",
             "meaningZh": "人道對待"
           }
+        ],
+        "examples": [
+          {
+            "en": "The shelter promotes humane treatment of stray animals.",
+            "zh": "這間收容所提倡以人道方式對待流浪動物。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "compassionate",
+        "noteZh": "有同情心的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "inhumane",
+        "noteZh": "不人道的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "humanely",
+        "partOfSpeech": "adverb",
+        "meaningZh": "人道地"
+      },
+      {
+        "lemma": "humanity",
+        "partOfSpeech": "noun",
+        "meaningZh": "人道；仁慈"
+      },
+      {
+        "lemma": "inhumane",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不人道的"
       }
     ],
     "tags": [
@@ -515,19 +690,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "compassionate",
-        "noteZh": "有同情心的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "inhumane",
-        "noteZh": "不人道的"
-      }
-    ]
+    }
   },
   {
     "id": "w_humanitarian",
@@ -541,40 +704,75 @@
       {
         "id": "s_humanitarian_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "concerned with or seeking to promote human welfare",
         "definitionZh": "人道主義的；博愛的",
         "usageExplanationZh": "常見 humanitarian aid（人道救援）、humanitarian crisis（人道危機）。",
-        "examples": [
-          {
-            "en": "The organization provides humanitarian aid to refugees.",
-            "zh": "這個組織為難民提供人道救援。"
-          }
+        "grammarPatterns": [
+          "humanitarian aid/crisis",
+          "a humanitarian + noun"
         ],
         "collocations": [
           {
             "text": "humanitarian aid",
             "meaningZh": "人道援助"
           }
+        ],
+        "examples": [
+          {
+            "en": "The organization provides humanitarian aid to refugees.",
+            "zh": "這個組織為難民提供人道救援。"
+          }
         ]
       },
       {
         "id": "s_humanitarian_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a person who works to promote human welfare and reduce suffering",
         "definitionZh": "人道主義者",
         "usageExplanationZh": "常指從事救援或慈善工作的人，如 a well-known humanitarian。",
-        "examples": [
-          {
-            "en": "She is widely admired as a humanitarian for her relief work abroad.",
-            "zh": "她因在海外從事救援工作而廣受讚譽為人道主義者。"
-          }
+        "grammarPatterns": [
+          "be admired as a humanitarian",
+          "a lifelong humanitarian"
         ],
         "collocations": [
           {
             "text": "a committed humanitarian",
             "meaningZh": "致力於人道工作的慈善人士"
           }
+        ],
+        "examples": [
+          {
+            "en": "She is widely admired as a humanitarian for her relief work abroad.",
+            "zh": "她因在海外從事救援工作而廣受讚譽為人道主義者。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "compassionate",
+        "noteZh": "富有同情心的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "humanitarianism",
+        "partOfSpeech": "noun",
+        "meaningZh": "人道主義"
+      },
+      {
+        "lemma": "humanity",
+        "partOfSpeech": "noun",
+        "meaningZh": "人類；人道"
       }
     ],
     "tags": [
@@ -587,14 +785,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "compassionate",
-        "noteZh": "富有同情心的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_humanity",
@@ -608,21 +799,54 @@
       {
         "id": "s_humanity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "human beings collectively, or the quality of being humane",
         "definitionZh": "人類；人道；仁慈",
         "usageExplanationZh": "常見 the future of humanity（人類的未來）；也指人性中的仁慈，如 show humanity toward。",
-        "examples": [
-          {
-            "en": "Climate change poses a serious threat to humanity.",
-            "zh": "氣候變遷對人類構成嚴重威脅。"
-          }
+        "grammarPatterns": [
+          "a threat to humanity",
+          "crimes against humanity",
+          "the humanity of + noun"
         ],
         "collocations": [
           {
             "text": "crimes against humanity",
             "meaningZh": "危害人類罪"
           }
+        ],
+        "examples": [
+          {
+            "en": "Climate change poses a serious threat to humanity.",
+            "zh": "氣候變遷對人類構成嚴重威脅。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "humankind",
+        "noteZh": "人類"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "human",
+        "partOfSpeech": "noun",
+        "meaningZh": "人類"
+      },
+      {
+        "lemma": "humane",
+        "partOfSpeech": "adjective",
+        "meaningZh": "人道的；仁慈的"
+      },
+      {
+        "lemma": "humanize",
+        "partOfSpeech": "verb",
+        "meaningZh": "使人性化"
       }
     ],
     "tags": [
@@ -636,14 +860,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "humankind",
-        "noteZh": "人類"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_humble",
@@ -657,40 +874,85 @@
       {
         "id": "s_humble_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "having or showing a modest estimate of one's own importance",
         "definitionZh": "謙遜的；謙虛的",
         "usageExplanationZh": "常見 a humble attitude（謙遜的態度），與 arrogant（傲慢的）相對。",
-        "examples": [
-          {
-            "en": "Despite her success, she remained humble and down-to-earth.",
-            "zh": "儘管功成名就，她依然保持謙遜、腳踏實地。"
-          }
+        "grammarPatterns": [
+          "a humble + noun",
+          "remain humble",
+          "be humble about + noun"
         ],
         "collocations": [
           {
             "text": "a humble apology",
             "meaningZh": "謙恭的道歉"
           }
+        ],
+        "examples": [
+          {
+            "en": "Despite her success, she remained humble and down-to-earth.",
+            "zh": "儘管功成名就，她依然保持謙遜、腳踏實地。"
+          }
         ]
       },
       {
         "id": "s_humble_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to make someone feel less important or proud",
         "definitionZh": "使謙卑；使自覺渺小",
         "usageExplanationZh": "常用被動語態 be humbled by，如 be humbled by the experience（因這段經歷而感到謙卑）。",
-        "examples": [
-          {
-            "en": "The team was humbled by their unexpected defeat.",
-            "zh": "這支隊伍因意外落敗而感到謙卑受挫。"
-          }
+        "grammarPatterns": [
+          "humble sb",
+          "be humbled by + noun"
         ],
         "collocations": [
           {
             "text": "be humbled by someone's generosity",
             "meaningZh": "因某人的慷慨而自覺渺小"
           }
+        ],
+        "examples": [
+          {
+            "en": "The team was humbled by their unexpected defeat.",
+            "zh": "這支隊伍因意外落敗而感到謙卑受挫。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "modest",
+        "noteZh": "謙虛的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "arrogant",
+        "noteZh": "傲慢的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "humbly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "謙遜地"
+      },
+      {
+        "lemma": "humility",
+        "partOfSpeech": "noun",
+        "meaningZh": "謙遜；謙卑"
+      },
+      {
+        "lemma": "humbleness",
+        "partOfSpeech": "noun",
+        "meaningZh": "謙卑"
       }
     ],
     "tags": [
@@ -705,19 +967,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "modest",
-        "noteZh": "謙虛的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "arrogant",
-        "noteZh": "傲慢的"
-      }
-    ]
+    }
   },
   {
     "id": "w_humidity",
@@ -731,21 +981,54 @@
       {
         "id": "s_humidity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "the amount of water vapor present in the air",
         "definitionZh": "濕度",
         "usageExplanationZh": "氣象用語，常見 high humidity（高濕度），常與 temperature 一起討論天氣狀況。",
-        "examples": [
-          {
-            "en": "The humidity made the summer heat feel even more unbearable.",
-            "zh": "濕度讓夏天的酷熱感覺更加難以忍受。"
-          }
+        "grammarPatterns": [
+          "high humidity",
+          "humidity levels",
+          "the humidity of + noun"
         ],
         "collocations": [
           {
             "text": "relative humidity",
             "meaningZh": "相對濕度"
           }
+        ],
+        "examples": [
+          {
+            "en": "The humidity made the summer heat feel even more unbearable.",
+            "zh": "濕度讓夏天的酷熱感覺更加難以忍受。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "moisture",
+        "noteZh": "空氣中的水氣"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "humid",
+        "partOfSpeech": "adjective",
+        "meaningZh": "潮濕的"
+      },
+      {
+        "lemma": "humidify",
+        "partOfSpeech": "verb",
+        "meaningZh": "使濕潤"
+      },
+      {
+        "lemma": "humidifier",
+        "partOfSpeech": "noun",
+        "meaningZh": "加濕器"
       }
     ],
     "tags": [
@@ -760,14 +1043,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "moisture",
-        "noteZh": "空氣中的水氣"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_humiliate",
@@ -781,21 +1057,47 @@
       {
         "id": "s_humiliate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to cause someone to feel ashamed or foolish, damaging their pride",
         "definitionZh": "羞辱；使難堪",
         "usageExplanationZh": "常用被動語態 be humiliated，強調公開讓人蒙羞，語氣強烈。",
-        "examples": [
-          {
-            "en": "He was humiliated in front of his classmates when he forgot his lines.",
-            "zh": "他忘詞時在同學面前出了醜，感到很難堪。"
-          }
+        "grammarPatterns": [
+          "humiliate sb",
+          "be humiliated in front of + noun"
         ],
         "collocations": [
           {
             "text": "humiliate someone in public",
             "meaningZh": "當眾羞辱某人"
           }
+        ],
+        "examples": [
+          {
+            "en": "He was humiliated in front of his classmates when he forgot his lines.",
+            "zh": "他忘詞時在同學面前出了醜，感到很難堪。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "embarrass",
+        "noteZh": "使難堪"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "humiliation",
+        "partOfSpeech": "noun",
+        "meaningZh": "羞辱；難堪"
+      },
+      {
+        "lemma": "humility",
+        "partOfSpeech": "noun",
+        "meaningZh": "謙卑"
       }
     ],
     "tags": [
@@ -810,14 +1112,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "embarrass",
-        "noteZh": "使難堪"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_humility",
@@ -831,21 +1126,59 @@
       {
         "id": "s_humility_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "a modest or low view of one's own importance",
         "definitionZh": "謙遜；謙卑",
         "usageExplanationZh": "常見 with humility（懷著謙遜之心），為正面特質，常與 humble 搭配使用。",
-        "examples": [
-          {
-            "en": "She accepted the award with humility, thanking her entire team.",
-            "zh": "她謙遜地接受了這個獎項，並向整個團隊表達感謝。"
-          }
+        "grammarPatterns": [
+          "with humility",
+          "a sense of humility",
+          "show humility"
         ],
         "collocations": [
           {
             "text": "show humility",
             "meaningZh": "表現謙遜"
           }
+        ],
+        "examples": [
+          {
+            "en": "She accepted the award with humility, thanking her entire team.",
+            "zh": "她謙遜地接受了這個獎項，並向整個團隊表達感謝。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "modesty",
+        "noteZh": "謙遜"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "arrogance",
+        "noteZh": "傲慢"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "humble",
+        "partOfSpeech": "adjective",
+        "meaningZh": "謙遜的"
+      },
+      {
+        "lemma": "humbly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "謙遜地"
+      },
+      {
+        "lemma": "humiliate",
+        "partOfSpeech": "verb",
+        "meaningZh": "羞辱；使難堪"
       }
     ],
     "tags": [
@@ -859,19 +1192,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "modesty",
-        "noteZh": "謙遜"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "arrogance",
-        "noteZh": "傲慢"
-      }
-    ]
+    }
   },
   {
     "id": "w_humor",
@@ -885,21 +1206,52 @@
       {
         "id": "s_humor_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "the quality of being amusing, or a person's mood or temperament",
         "definitionZh": "幽默感；心情",
         "usageExplanationZh": "美式拼法，英式為 humour；常見 a sense of humor（幽默感）、in a good humor（心情愉快）。",
-        "examples": [
-          {
-            "en": "He has a great sense of humor that puts everyone at ease.",
-            "zh": "他的幽默感很好，能讓每個人都感到自在。"
-          }
+        "grammarPatterns": [
+          "a sense of humor",
+          "find humor in + noun"
         ],
         "collocations": [
           {
             "text": "a sense of humor",
             "meaningZh": "幽默感"
           }
+        ],
+        "examples": [
+          {
+            "en": "He has a great sense of humor that puts everyone at ease.",
+            "zh": "他的幽默感很好，能讓每個人都感到自在。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "wit",
+        "noteZh": "機智幽默"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "humorous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "幽默的"
+      },
+      {
+        "lemma": "humorist",
+        "partOfSpeech": "noun",
+        "meaningZh": "幽默作家"
+      },
+      {
+        "lemma": "humorless",
+        "partOfSpeech": "adjective",
+        "meaningZh": "缺乏幽默感的"
       }
     ],
     "tags": [
@@ -912,14 +1264,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "wit",
-        "noteZh": "機智幽默"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_hunch",
@@ -933,40 +1278,70 @@
       {
         "id": "s_hunch_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "a feeling or guess based on intuition rather than known facts",
         "definitionZh": "直覺；預感",
         "usageExplanationZh": "常見 have a hunch（有個直覺）、act on a hunch（憑直覺行動）。",
-        "examples": [
-          {
-            "en": "I had a hunch that something was wrong even before she told me.",
-            "zh": "在她告訴我之前，我就有種預感覺得不對勁。"
-          }
+        "grammarPatterns": [
+          "have a hunch that + clause",
+          "a hunch about + noun"
         ],
         "collocations": [
           {
             "text": "have a hunch",
             "meaningZh": "有種預感"
           }
+        ],
+        "examples": [
+          {
+            "en": "I had a hunch that something was wrong even before she told me.",
+            "zh": "在她告訴我之前，我就有種預感覺得不對勁。"
+          }
         ]
       },
       {
         "id": "s_hunch_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to bend one's body forward and down, rounding the back and shoulders",
         "definitionZh": "弓著（背）；蜷縮",
         "usageExplanationZh": "常見 hunch over a desk（弓身伏案），描述姿勢彎曲的動作。",
-        "examples": [
-          {
-            "en": "He hunched over his computer for hours without a break.",
-            "zh": "他弓著身子在電腦前坐了好幾個小時都沒休息。"
-          }
+        "grammarPatterns": [
+          "hunch over + noun",
+          "hunch one's shoulders",
+          "hunch forward"
         ],
         "collocations": [
           {
             "text": "hunch over a desk",
             "meaningZh": "弓著背伏在桌前"
           }
+        ],
+        "examples": [
+          {
+            "en": "He hunched over his computer for hours without a break.",
+            "zh": "他弓著身子在電腦前坐了好幾個小時都沒休息。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "intuition",
+        "noteZh": "直覺"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "hunchback",
+        "partOfSpeech": "noun",
+        "meaningZh": "駝背者"
       }
     ],
     "tags": [
@@ -979,14 +1354,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "intuition",
-        "noteZh": "直覺"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_hunger",
@@ -1000,40 +1368,74 @@
       {
         "id": "s_hunger_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a strong desire or need for food, or a strong desire for something",
         "definitionZh": "飢餓；渴望",
         "usageExplanationZh": "常見 hunger for knowledge（對知識的渴望），比喻用法非常普遍。",
-        "examples": [
-          {
-            "en": "The famine caused widespread hunger across the region.",
-            "zh": "這場饑荒導致該地區普遍陷入飢餓。"
-          }
+        "grammarPatterns": [
+          "hunger for + noun",
+          "suffer from hunger"
         ],
         "collocations": [
           {
             "text": "satisfy one's hunger",
             "meaningZh": "填飽肚子"
           }
+        ],
+        "examples": [
+          {
+            "en": "The famine caused widespread hunger across the region.",
+            "zh": "這場饑荒導致該地區普遍陷入飢餓。"
+          }
         ]
       },
       {
         "id": "s_hunger_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "to have a strong desire for something",
         "definitionZh": "渴望；渴求",
         "usageExplanationZh": "常接 for，如 hunger for success，比喻用法多於字面上的「飢餓」。",
-        "examples": [
-          {
-            "en": "She hungered for recognition after years of unnoticed effort.",
-            "zh": "多年不受重視的努力後，她渴望得到認可。"
-          }
+        "grammarPatterns": [
+          "hunger for + noun",
+          "hunger after + noun"
         ],
         "collocations": [
           {
             "text": "hunger for knowledge",
             "meaningZh": "渴求知識"
           }
+        ],
+        "examples": [
+          {
+            "en": "She hungered for recognition after years of unnoticed effort.",
+            "zh": "多年不受重視的努力後，她渴望得到認可。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "starvation",
+        "noteZh": "挨餓，程度較強"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "hungry",
+        "partOfSpeech": "adjective",
+        "meaningZh": "飢餓的"
+      },
+      {
+        "lemma": "hungrily",
+        "partOfSpeech": "adverb",
+        "meaningZh": "飢餓地"
       }
     ],
     "tags": [
@@ -1046,14 +1448,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "starvation",
-        "noteZh": "挨餓，程度較強"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_hurricane",
@@ -1067,23 +1462,38 @@
       {
         "id": "s_hurricane_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a violent tropical storm with very strong winds",
         "definitionZh": "颶風",
         "usageExplanationZh": "氣象用語，常見於大西洋地區的強烈風暴，與 typhoon（颱風，太平洋地區用詞）相對應。",
-        "examples": [
-          {
-            "en": "The coastal town was evacuated ahead of the approaching hurricane.",
-            "zh": "這個沿海小鎮在颶風來襲前進行了撤離。"
-          }
+        "grammarPatterns": [
+          "a hurricane hits + noun",
+          "in the path of a hurricane"
         ],
         "collocations": [
           {
             "text": "a hurricane warning",
             "meaningZh": "颶風警報"
           }
+        ],
+        "examples": [
+          {
+            "en": "The coastal town was evacuated ahead of the approaching hurricane.",
+            "zh": "這個沿海小鎮在颶風來襲前進行了撤離。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "tropical cyclone",
+        "noteZh": "熱帶氣旋"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1096,14 +1506,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "tropical cyclone",
-        "noteZh": "熱帶氣旋"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_hush",
@@ -1117,42 +1520,64 @@
       {
         "id": "s_hush_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "a silence, especially a sudden one following noise",
         "definitionZh": "寂靜；肅靜",
         "usageExplanationZh": "常見 a hush fell over the room（房間裡突然安靜下來），語氣文學。",
-        "examples": [
-          {
-            "en": "A hush fell over the crowd as the results were announced.",
-            "zh": "公布結果時，人群突然安靜了下來。"
-          }
+        "grammarPatterns": [
+          "a hush falls over + noun",
+          "a sudden hush"
         ],
         "collocations": [
           {
             "text": "a hush fell over the crowd",
             "meaningZh": "人群突然安靜下來"
           }
+        ],
+        "examples": [
+          {
+            "en": "A hush fell over the crowd as the results were announced.",
+            "zh": "公布結果時，人群突然安靜了下來。"
+          }
         ]
       },
       {
         "id": "s_hush_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "to make or become silent, or to suppress information",
         "definitionZh": "使安靜；壓下（消息，常與 up 連用）",
         "usageExplanationZh": "常見 hush up a scandal（掩蓋醜聞）；也可用於安撫嬰兒，如 hush the baby。",
-        "examples": [
-          {
-            "en": "The company tried to hush up the data breach.",
-            "zh": "這家公司試圖掩蓋資料外洩的消息。"
-          }
+        "grammarPatterns": [
+          "hush up + noun",
+          "hush sb up"
         ],
         "collocations": [
           {
             "text": "hush up a scandal",
             "meaningZh": "掩蓋醜聞"
           }
+        ],
+        "examples": [
+          {
+            "en": "The company tried to hush up the data breach.",
+            "zh": "這家公司試圖掩蓋資料外洩的消息。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "silence",
+        "noteZh": "寂靜；使安靜"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1163,14 +1588,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "silence",
-        "noteZh": "寂靜；使安靜"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_husk",
@@ -1184,42 +1602,64 @@
       {
         "id": "s_husk_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "the dry outer covering of certain fruits or seeds",
         "definitionZh": "（穀物或種子的）外殼",
         "usageExplanationZh": "常見 corn husk（玉米殼），農業或食物加工語境常用。",
-        "examples": [
-          {
-            "en": "She removed the husk before cooking the corn.",
-            "zh": "她在煮玉米之前先剝掉了外殼。"
-          }
+        "grammarPatterns": [
+          "the husk of + noun",
+          "remove the husk"
         ],
         "collocations": [
           {
             "text": "corn husks",
             "meaningZh": "玉米外皮"
           }
+        ],
+        "examples": [
+          {
+            "en": "She removed the husk before cooking the corn.",
+            "zh": "她在煮玉米之前先剝掉了外殼。"
+          }
         ]
       },
       {
         "id": "s_husk_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "to remove the husk from grain or seed",
         "definitionZh": "剝去（穀物或種子的）外殼",
         "usageExplanationZh": "及物動詞，常接作物名稱，如 husk corn。",
-        "examples": [
-          {
-            "en": "The farmers husked the corn by hand before selling it.",
-            "zh": "農民們在出售前用手工剝去玉米的外殼。"
-          }
+        "grammarPatterns": [
+          "husk + noun"
         ],
         "collocations": [
           {
             "text": "husk corn",
             "meaningZh": "剝玉米外皮"
           }
+        ],
+        "examples": [
+          {
+            "en": "The farmers husked the corn by hand before selling it.",
+            "zh": "農民們在出售前用手工剝去玉米的外殼。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "shell",
+        "noteZh": "種子的外殼"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1231,14 +1671,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "shell",
-        "noteZh": "種子的外殼"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_husky",
@@ -1252,42 +1685,64 @@
       {
         "id": "s_husky_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a powerful dog breed used for pulling sleds, typically with a thick coat",
         "definitionZh": "哈士奇犬；雪橇犬",
         "usageExplanationZh": "常見於描述極地雪橇犬種，如 a team of huskies pulling a sled。",
-        "examples": [
-          {
-            "en": "A team of huskies pulled the sled across the snow.",
-            "zh": "一群哈士奇犬拉著雪橇穿越雪地。"
-          }
+        "grammarPatterns": [
+          "a team of huskies",
+          "a husky pulls + noun"
         ],
         "collocations": [
           {
             "text": "a Siberian husky",
             "meaningZh": "西伯利亞哈士奇犬"
           }
+        ],
+        "examples": [
+          {
+            "en": "A team of huskies pulled the sled across the snow.",
+            "zh": "一群哈士奇犬拉著雪橇穿越雪地。"
+          }
         ]
       },
       {
         "id": "s_husky_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "(of a voice) low and rough sounding, or (informally) big and strong",
         "definitionZh": "（聲音）低沉沙啞的；（口語）魁梧健壯的",
         "usageExplanationZh": "常見 a husky voice（低沉沙啞的嗓音），與 hoarse 相似但略帶性感或深沉的意味。",
-        "examples": [
-          {
-            "en": "Her husky voice made the song sound even more emotional.",
-            "zh": "她低沉沙啞的嗓音讓這首歌聽起來更加動人。"
-          }
+        "grammarPatterns": [
+          "a husky voice",
+          "husky + noun"
         ],
         "collocations": [
           {
             "text": "a husky voice",
             "meaningZh": "低沉沙啞的嗓音"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her husky voice made the song sound even more emotional.",
+            "zh": "她低沉沙啞的嗓音讓這首歌聽起來更加動人。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "hoarse",
+        "noteZh": "沙啞的（形容詞義）"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1298,14 +1753,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "hoarse",
-        "noteZh": "沙啞的（形容詞義）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_hydrogen",
@@ -1319,21 +1767,38 @@
       {
         "id": "s_hydrogen_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a colorless, odorless gas that is the lightest and most abundant chemical element",
         "definitionZh": "氫；氫氣",
         "usageExplanationZh": "化學用語，常見 hydrogen fuel（氫燃料）、hydrogen bomb（氫彈）。",
-        "examples": [
-          {
-            "en": "Hydrogen is being explored as a clean fuel source for vehicles.",
-            "zh": "氫氣正被探索作為車輛的潔淨燃料來源。"
-          }
+        "grammarPatterns": [
+          "hydrogen + noun",
+          "produce hydrogen from + noun"
         ],
         "collocations": [
           {
             "text": "hydrogen fuel",
             "meaningZh": "氫燃料"
           }
+        ],
+        "examples": [
+          {
+            "en": "Hydrogen is being explored as a clean fuel source for vehicles.",
+            "zh": "氫氣正被探索作為車輛的潔淨燃料來源。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "hydrogenate",
+        "partOfSpeech": "verb",
+        "meaningZh": "使氫化"
       }
     ],
     "tags": [
@@ -1347,9 +1812,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_hygiene",
@@ -1363,21 +1826,48 @@
       {
         "id": "s_hygiene_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "conditions and practices that help maintain health and prevent disease, especially cleanliness",
         "definitionZh": "衛生；衛生習慣",
         "usageExplanationZh": "常見 personal hygiene（個人衛生）、food hygiene（食品衛生）。",
-        "examples": [
-          {
-            "en": "Good hygiene practices help prevent the spread of illness.",
-            "zh": "良好的衛生習慣有助於防止疾病傳播。"
-          }
+        "grammarPatterns": [
+          "personal hygiene",
+          "maintain good hygiene"
         ],
         "collocations": [
           {
             "text": "personal hygiene",
             "meaningZh": "個人衛生"
           }
+        ],
+        "examples": [
+          {
+            "en": "Good hygiene practices help prevent the spread of illness.",
+            "zh": "良好的衛生習慣有助於防止疾病傳播。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "cleanliness",
+        "noteZh": "清潔衛生"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "hygienic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "衛生的"
+      },
+      {
+        "lemma": "hygienist",
+        "partOfSpeech": "noun",
+        "meaningZh": "衛生學家；口腔衛生師"
       }
     ],
     "tags": [
@@ -1392,14 +1882,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cleanliness",
-        "noteZh": "清潔衛生"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_hypertension",
@@ -1413,21 +1896,48 @@
       {
         "id": "s_hypertension_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "abnormally high blood pressure",
         "definitionZh": "高血壓",
         "usageExplanationZh": "醫學用語，正式術語，日常口語常簡稱為 high blood pressure。",
-        "examples": [
-          {
-            "en": "The doctor prescribed medication to control his hypertension.",
-            "zh": "醫生開了藥物來控制他的高血壓。"
-          }
+        "grammarPatterns": [
+          "suffer from hypertension",
+          "treat hypertension"
         ],
         "collocations": [
           {
             "text": "treat hypertension",
             "meaningZh": "治療高血壓"
           }
+        ],
+        "examples": [
+          {
+            "en": "The doctor prescribed medication to control his hypertension.",
+            "zh": "醫生開了藥物來控制他的高血壓。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "high blood pressure",
+        "noteZh": "高血壓"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "hypotension",
+        "noteZh": "低血壓"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "hypertensive",
+        "partOfSpeech": "adjective",
+        "meaningZh": "高血壓的"
       }
     ],
     "tags": [
@@ -1440,19 +1950,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "high blood pressure",
-        "noteZh": "高血壓"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "hypotension",
-        "noteZh": "低血壓"
-      }
-    ]
+    }
   },
   {
     "id": "w_hypnotic",
@@ -1466,21 +1964,53 @@
       {
         "id": "s_hypnotic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "having a compelling, mesmerizing, or sleep-inducing effect",
         "definitionZh": "催眠的；令人著迷的",
         "usageExplanationZh": "常修飾聲音、節奏或畫面，如 a hypnotic rhythm（令人著迷的節奏），比喻用法多於字面意義。",
-        "examples": [
-          {
-            "en": "The gentle waves had a hypnotic effect on the tired travelers.",
-            "zh": "輕柔的海浪對疲憊的旅人有種催眠般的效果。"
-          }
+        "grammarPatterns": [
+          "a hypnotic + noun",
+          "have a hypnotic effect on + noun"
         ],
         "collocations": [
           {
             "text": "a hypnotic effect",
             "meaningZh": "催眠般的效果"
           }
+        ],
+        "examples": [
+          {
+            "en": "The gentle waves had a hypnotic effect on the tired travelers.",
+            "zh": "輕柔的海浪對疲憊的旅人有種催眠般的效果。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "mesmerizing",
+        "noteZh": "令人著迷的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "hypnosis",
+        "partOfSpeech": "noun",
+        "meaningZh": "催眠"
+      },
+      {
+        "lemma": "hypnotize",
+        "partOfSpeech": "verb",
+        "meaningZh": "對……催眠"
+      },
+      {
+        "lemma": "hypnotist",
+        "partOfSpeech": "noun",
+        "meaningZh": "催眠師"
       }
     ],
     "tags": [
@@ -1493,14 +2023,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "mesmerizing",
-        "noteZh": "令人著迷的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_hypocritical",
@@ -1514,21 +2037,52 @@
       {
         "id": "s_hypocritical_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "behaving in a way that contradicts one's stated beliefs or feelings",
         "definitionZh": "偽善的；言行不一的",
         "usageExplanationZh": "常見 it's hypocritical to say... 表示某人言行不一，語氣帶批評意味。",
-        "examples": [
-          {
-            "en": "It seems hypocritical for him to criticize laziness when he rarely works hard himself.",
-            "zh": "他自己很少努力工作，卻批評別人懶惰，這似乎有點偽善。"
-          }
+        "grammarPatterns": [
+          "it is hypocritical to + V",
+          "hypocritical of sb to + V"
         ],
         "collocations": [
           {
             "text": "hypocritical behavior",
             "meaningZh": "偽善的行為"
           }
+        ],
+        "examples": [
+          {
+            "en": "It seems hypocritical for him to criticize laziness when he rarely works hard himself.",
+            "zh": "他自己很少努力工作，卻批評別人懶惰，這似乎有點偽善。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "insincere",
+        "noteZh": "不真誠的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "sincere",
+        "noteZh": "真誠的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "hypocrisy",
+        "partOfSpeech": "noun",
+        "meaningZh": "偽善"
+      },
+      {
+        "lemma": "hypocrite",
+        "partOfSpeech": "noun",
+        "meaningZh": "偽君子"
       }
     ],
     "tags": [
@@ -1541,19 +2095,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "insincere",
-        "noteZh": "不真誠的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "sincere",
-        "noteZh": "真誠的"
-      }
-    ]
+    }
   },
   {
     "id": "w_hypothesis",
@@ -1567,21 +2109,49 @@
       {
         "id": "s_hypothesis_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "technical"
+        ],
         "definitionEn": "a proposed explanation made on the basis of limited evidence, to be tested further",
         "definitionZh": "假設；假說",
         "usageExplanationZh": "學術用語，常見 test a hypothesis（驗證假說），與 theory（已獲驗證的理論）不同。",
-        "examples": [
-          {
-            "en": "The scientist designed an experiment to test her hypothesis.",
-            "zh": "這位科學家設計了一項實驗來驗證她的假說。"
-          }
+        "grammarPatterns": [
+          "test a hypothesis",
+          "the hypothesis that + clause",
+          "support a hypothesis"
         ],
         "collocations": [
           {
             "text": "test a hypothesis",
             "meaningZh": "驗證假說"
           }
+        ],
+        "examples": [
+          {
+            "en": "The scientist designed an experiment to test her hypothesis.",
+            "zh": "這位科學家設計了一項實驗來驗證她的假說。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "theory",
+        "noteZh": "待驗證的解釋"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "hypothetical",
+        "partOfSpeech": "adjective",
+        "meaningZh": "假設的"
+      },
+      {
+        "lemma": "hypothesize",
+        "partOfSpeech": "verb",
+        "meaningZh": "提出假設"
       }
     ],
     "tags": [
@@ -1596,14 +2166,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "theory",
-        "noteZh": "待驗證的解釋"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_icon",
@@ -1617,21 +2180,49 @@
       {
         "id": "s_icon_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "a small graphic symbol on a computer screen, or a person or thing regarded as a representative symbol",
         "definitionZh": "（電腦）圖示；（象徵性的）代表人物或事物",
         "usageExplanationZh": "常見 click the icon（點擊圖示）；也指文化偶像，如 a fashion icon（時尚指標人物）。",
-        "examples": [
-          {
-            "en": "She is considered a cultural icon of her generation.",
-            "zh": "她被視為她那個世代的文化代表人物。"
-          }
+        "grammarPatterns": [
+          "click on the icon",
+          "an icon of + noun",
+          "a cultural icon"
         ],
         "collocations": [
           {
             "text": "a cultural icon",
             "meaningZh": "文化代表人物或事物"
           }
+        ],
+        "examples": [
+          {
+            "en": "She is considered a cultural icon of her generation.",
+            "zh": "她被視為她那個世代的文化代表人物。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "symbol",
+        "noteZh": "象徵"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "iconic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "標誌性的"
+      },
+      {
+        "lemma": "iconography",
+        "partOfSpeech": "noun",
+        "meaningZh": "圖像學"
       }
     ],
     "tags": [
@@ -1645,14 +2236,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "symbol",
-        "noteZh": "象徵"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_iconoclast",
@@ -1666,21 +2250,53 @@
       {
         "id": "s_iconoclast_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "a person who attacks or criticizes cherished beliefs or institutions",
         "definitionZh": "反傳統者；偶像破壞者",
         "usageExplanationZh": "語氣正式書面，常形容勇於挑戰傳統觀念或權威的人，可能帶正面或負面評價視語境而定。",
-        "examples": [
-          {
-            "en": "The artist was known as an iconoclast who rejected traditional techniques.",
-            "zh": "這位藝術家以拒絕傳統技法、勇於挑戰成規而聞名。"
-          }
+        "grammarPatterns": [
+          "be regarded as an iconoclast",
+          "an iconoclast who + clause"
         ],
         "collocations": [
           {
             "text": "a religious iconoclast",
             "meaningZh": "反對宗教偶像的人"
           }
+        ],
+        "examples": [
+          {
+            "en": "The artist was known as an iconoclast who rejected traditional techniques.",
+            "zh": "這位藝術家以拒絕傳統技法、勇於挑戰成規而聞名。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "nonconformist",
+        "noteZh": "不墨守成規的人"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "traditionalist",
+        "noteZh": "傳統主義者"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "iconoclastic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "反傳統的"
+      },
+      {
+        "lemma": "iconoclasm",
+        "partOfSpeech": "noun",
+        "meaningZh": "破除偶像；反傳統"
       }
     ],
     "tags": [
@@ -1693,19 +2309,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "nonconformist",
-        "noteZh": "不墨守成規的人"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "traditionalist",
-        "noteZh": "傳統主義者"
-      }
-    ]
+    }
   },
   {
     "id": "w_ideal",
@@ -1719,40 +2323,80 @@
       {
         "id": "s_ideal_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "most suitable or desirable in a particular situation; perfect",
         "definitionZh": "理想的；最適合的",
         "usageExplanationZh": "常見 the ideal candidate（最理想的人選）、an ideal solution，語氣正面。",
-        "examples": [
-          {
-            "en": "This location is ideal for a family vacation.",
-            "zh": "這個地點非常適合全家度假。"
-          }
+        "grammarPatterns": [
+          "be ideal for + noun",
+          "the ideal + noun"
         ],
         "collocations": [
           {
             "text": "ideal for beginners",
             "meaningZh": "最適合初學者的"
           }
+        ],
+        "examples": [
+          {
+            "en": "This location is ideal for a family vacation.",
+            "zh": "這個地點非常適合全家度假。"
+          }
         ]
       },
       {
         "id": "s_ideal_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a standard of perfection, or a principle or belief that one aspires to",
         "definitionZh": "理想；理念",
         "usageExplanationZh": "常見 pursue one's ideals（追求理想）；也指抽象的完美標準，如 the ideal of justice。",
-        "examples": [
-          {
-            "en": "She has always fought for the ideal of equal justice for all.",
-            "zh": "她一直為所有人平等享有正義的理想而奮鬥。"
-          }
+        "grammarPatterns": [
+          "the ideal of + noun",
+          "live up to an ideal",
+          "fall short of the ideal"
         ],
         "collocations": [
           {
             "text": "live up to one's ideals",
             "meaningZh": "實踐自己的理想"
           }
+        ],
+        "examples": [
+          {
+            "en": "She has always fought for the ideal of equal justice for all.",
+            "zh": "她一直為所有人平等享有正義的理想而奮鬥。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "perfect",
+        "noteZh": "完美的（形容詞義）"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "idealism",
+        "partOfSpeech": "noun",
+        "meaningZh": "理想主義"
+      },
+      {
+        "lemma": "idealize",
+        "partOfSpeech": "verb",
+        "meaningZh": "把……理想化"
+      },
+      {
+        "lemma": "ideally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "理想上"
       }
     ],
     "tags": [
@@ -1766,14 +2410,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "perfect",
-        "noteZh": "完美的（形容詞義）"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_identical",
@@ -1787,21 +2424,54 @@
       {
         "id": "s_identical_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "exactly alike or the same",
         "definitionZh": "完全相同的；一模一樣的",
         "usageExplanationZh": "常接 to，如 identical to the original；也用於 identical twins（同卵雙胞胎）。",
-        "examples": [
-          {
-            "en": "The two paintings looked almost identical.",
-            "zh": "這兩幅畫看起來幾乎一模一樣。"
-          }
+        "grammarPatterns": [
+          "be identical to + noun",
+          "identical with + noun",
+          "virtually identical"
         ],
         "collocations": [
           {
             "text": "identical twins",
             "meaningZh": "同卵雙胞胎"
           }
+        ],
+        "examples": [
+          {
+            "en": "The two paintings looked almost identical.",
+            "zh": "這兩幅畫看起來幾乎一模一樣。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "exactly the same",
+        "noteZh": "完全相同的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "different",
+        "noteZh": "不同的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "identically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "完全相同地"
+      },
+      {
+        "lemma": "identity",
+        "partOfSpeech": "noun",
+        "meaningZh": "身分；同一性"
       }
     ],
     "tags": [
@@ -1815,19 +2485,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "exactly the same",
-        "noteZh": "完全相同的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "different",
-        "noteZh": "不同的"
-      }
-    ]
+    }
   },
   {
     "id": "w_identification",
@@ -1841,21 +2499,49 @@
       {
         "id": "s_identification_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "the process of identifying someone or something, or a document proving one's identity",
         "definitionZh": "識別；身分證明（文件）",
         "usageExplanationZh": "常見 photo identification（附照片的身分證明），也指找出某物的身分或性質，如 species identification。",
-        "examples": [
-          {
-            "en": "You will need photo identification to enter the building.",
-            "zh": "進入這棟大樓需要出示附照片的身分證明。"
-          }
+        "grammarPatterns": [
+          "the identification of + noun",
+          "produce identification",
+          "photo identification"
         ],
         "collocations": [
           {
             "text": "proof of identification",
             "meaningZh": "身分證明"
           }
+        ],
+        "examples": [
+          {
+            "en": "You will need photo identification to enter the building.",
+            "zh": "進入這棟大樓需要出示附照片的身分證明。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "recognition",
+        "noteZh": "識別"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "identify",
+        "partOfSpeech": "verb",
+        "meaningZh": "辨識"
+      },
+      {
+        "lemma": "identifiable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可辨識的"
       }
     ],
     "tags": [
@@ -1869,14 +2555,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "recognition",
-        "noteZh": "識別"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_ideological",
@@ -1890,21 +2569,43 @@
       {
         "id": "s_ideological_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "relating to a system of ideas, especially political or economic theory",
         "definitionZh": "意識形態的；思想上的",
         "usageExplanationZh": "常見 ideological differences（意識形態上的分歧），多用於政治或社會學語境。",
-        "examples": [
-          {
-            "en": "The two parties have deep ideological differences on economic policy.",
-            "zh": "這兩個政黨在經濟政策上有著深刻的意識形態分歧。"
-          }
+        "grammarPatterns": [
+          "ideological + noun",
+          "ideological differences between A and B"
         ],
         "collocations": [
           {
             "text": "ideological differences",
             "meaningZh": "意識形態差異"
           }
+        ],
+        "examples": [
+          {
+            "en": "The two parties have deep ideological differences on economic policy.",
+            "zh": "這兩個政黨在經濟政策上有著深刻的意識形態分歧。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "ideology",
+        "partOfSpeech": "noun",
+        "meaningZh": "意識形態"
+      },
+      {
+        "lemma": "ideologically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "意識形態上"
       }
     ],
     "tags": [
@@ -1917,9 +2618,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_ideology",
@@ -1933,21 +2632,48 @@
       {
         "id": "s_ideology_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "a system of ideas and ideals, especially political or economic",
         "definitionZh": "意識形態；思想體系",
         "usageExplanationZh": "常見 political ideology（政治意識形態），語氣正式，常見於學術或政治討論。",
-        "examples": [
-          {
-            "en": "Communism is an economic and political ideology.",
-            "zh": "共產主義是一種經濟與政治意識形態。"
-          }
+        "grammarPatterns": [
+          "a political ideology",
+          "the ideology of + noun"
         ],
         "collocations": [
           {
             "text": "political ideology",
             "meaningZh": "政治意識形態"
           }
+        ],
+        "examples": [
+          {
+            "en": "Communism is an economic and political ideology.",
+            "zh": "共產主義是一種經濟與政治意識形態。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "belief system",
+        "noteZh": "信念體系"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "ideological",
+        "partOfSpeech": "adjective",
+        "meaningZh": "意識形態的"
+      },
+      {
+        "lemma": "ideologue",
+        "partOfSpeech": "noun",
+        "meaningZh": "思想理論家"
       }
     ],
     "tags": [
@@ -1962,14 +2688,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "belief system",
-        "noteZh": "信念體系"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_idiot",
@@ -1983,21 +2702,48 @@
       {
         "id": "s_idiot_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "a stupid or foolish person",
         "definitionZh": "白痴；笨蛋",
         "usageExplanationZh": "口語詞，常帶侮辱性，用於形容做出愚蠢行為的人，需留意使用場合。",
-        "examples": [
-          {
-            "en": "He felt like an idiot after forgetting his own phone number.",
-            "zh": "他忘了自己的電話號碼，感覺自己像個笨蛋。"
-          }
+        "grammarPatterns": [
+          "feel like an idiot",
+          "call sb an idiot"
         ],
         "collocations": [
           {
             "text": "make an idiot of oneself",
             "meaningZh": "讓自己出洋相"
           }
+        ],
+        "examples": [
+          {
+            "en": "He felt like an idiot after forgetting his own phone number.",
+            "zh": "他忘了自己的電話號碼，感覺自己像個笨蛋。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "fool",
+        "noteZh": "笨蛋；帶有侮辱意味"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "idiotic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "愚蠢的"
+      },
+      {
+        "lemma": "idiocy",
+        "partOfSpeech": "noun",
+        "meaningZh": "愚蠢"
       }
     ],
     "tags": [
@@ -2011,14 +2757,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "fool",
-        "noteZh": "笨蛋；帶有侮辱意味"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_ignominious",
@@ -2032,21 +2771,53 @@
       {
         "id": "s_ignominious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "deserving or causing public disgrace or shame",
         "definitionZh": "丟臉的；恥辱的",
         "usageExplanationZh": "常見 an ignominious defeat（可恥的落敗），語氣正式書面，比 embarrassing 更強烈。",
-        "examples": [
-          {
-            "en": "The team suffered an ignominious defeat in the final match.",
-            "zh": "這支隊伍在決賽中遭遇了可恥的落敗。"
-          }
+        "grammarPatterns": [
+          "an ignominious + noun",
+          "suffer an ignominious defeat"
         ],
         "collocations": [
           {
             "text": "an ignominious defeat",
             "meaningZh": "恥辱的敗北"
           }
+        ],
+        "examples": [
+          {
+            "en": "The team suffered an ignominious defeat in the final match.",
+            "zh": "這支隊伍在決賽中遭遇了可恥的落敗。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "disgraceful",
+        "noteZh": "可恥的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "glorious",
+        "noteZh": "光榮的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "ignominy",
+        "partOfSpeech": "noun",
+        "meaningZh": "恥辱"
+      },
+      {
+        "lemma": "ignominiously",
+        "partOfSpeech": "adverb",
+        "meaningZh": "恥辱地"
       }
     ],
     "tags": [
@@ -2060,19 +2831,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "disgraceful",
-        "noteZh": "可恥的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "glorious",
-        "noteZh": "光榮的"
-      }
-    ]
+    }
   },
   {
     "id": "w_ignorance",
@@ -2086,21 +2845,53 @@
       {
         "id": "s_ignorance_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "lack of knowledge or information",
         "definitionZh": "無知；不知情",
         "usageExplanationZh": "常見 out of ignorance（出於無知）、ignorance of the law（不懂法律）；不帶惡意時是中性描述。",
-        "examples": [
-          {
-            "en": "Her mistake was due to ignorance rather than carelessness.",
-            "zh": "她的錯誤是出於無知，而非粗心大意。"
-          }
+        "grammarPatterns": [
+          "ignorance of + noun",
+          "out of ignorance",
+          "ignorance about + noun"
         ],
         "collocations": [
           {
             "text": "ignorance of the law",
             "meaningZh": "不懂法律"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her mistake was due to ignorance rather than carelessness.",
+            "zh": "她的錯誤是出於無知，而非粗心大意。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "unawareness",
+        "noteZh": "不知情"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "knowledge",
+        "noteZh": "知識；知情"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "ignorant",
+        "partOfSpeech": "adjective",
+        "meaningZh": "無知的"
+      },
+      {
+        "lemma": "ignore",
+        "partOfSpeech": "verb",
+        "meaningZh": "忽視"
       }
     ],
     "tags": [
@@ -2114,19 +2905,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "unawareness",
-        "noteZh": "不知情"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "knowledge",
-        "noteZh": "知識；知情"
-      }
-    ]
+    }
   },
   {
     "id": "w_illegal",
@@ -2140,21 +2919,57 @@
       {
         "id": "s_illegal_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "not authorized by law; contrary to or forbidden by law",
         "definitionZh": "非法的；違法的",
         "usageExplanationZh": "常見 illegal activity（非法活動）；與 illicit 相似但 illegal 更強調觸犯明文法律。",
-        "examples": [
-          {
-            "en": "Parking here without a permit is illegal.",
-            "zh": "沒有許可證在這裡停車是違法的。"
-          }
+        "grammarPatterns": [
+          "it is illegal to + V",
+          "illegal + noun"
         ],
         "collocations": [
           {
             "text": "illegal activities",
             "meaningZh": "非法活動"
           }
+        ],
+        "examples": [
+          {
+            "en": "Parking here without a permit is illegal.",
+            "zh": "沒有許可證在這裡停車是違法的。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "unlawful",
+        "noteZh": "違法的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "legal",
+        "noteZh": "合法的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "illegally",
+        "partOfSpeech": "adverb",
+        "meaningZh": "非法地"
+      },
+      {
+        "lemma": "illegality",
+        "partOfSpeech": "noun",
+        "meaningZh": "違法"
+      },
+      {
+        "lemma": "legal",
+        "partOfSpeech": "adjective",
+        "meaningZh": "合法的"
       }
     ],
     "tags": [
@@ -2168,19 +2983,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "unlawful",
-        "noteZh": "違法的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "legal",
-        "noteZh": "合法的"
-      }
-    ]
+    }
   },
   {
     "id": "w_illegitimate",
@@ -2194,21 +2997,53 @@
       {
         "id": "s_illegitimate_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "technical"
+        ],
         "definitionEn": "not authorized by law or established rules; (of a child) born to parents not married to each other",
         "definitionZh": "不合法的；不正當的；（子女）非婚生的",
         "usageExplanationZh": "常見 illegitimate power（不正當的權力）；歷史語境中指非婚生子女，現代較少使用此義以避免污名化。",
-        "examples": [
-          {
-            "en": "The coup was widely condemned as an illegitimate seizure of power.",
-            "zh": "這場政變被普遍譴責為不正當的奪權行為。"
-          }
+        "grammarPatterns": [
+          "an illegitimate + noun",
+          "be condemned as illegitimate"
         ],
         "collocations": [
           {
             "text": "an illegitimate claim",
             "meaningZh": "不正當的要求"
           }
+        ],
+        "examples": [
+          {
+            "en": "The coup was widely condemned as an illegitimate seizure of power.",
+            "zh": "這場政變被普遍譴責為不正當的奪權行為。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "unlawful",
+        "noteZh": "不合法的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "legitimate",
+        "noteZh": "合法正當的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "illegitimacy",
+        "partOfSpeech": "noun",
+        "meaningZh": "不合法"
+      },
+      {
+        "lemma": "legitimate",
+        "partOfSpeech": "adjective",
+        "meaningZh": "合法的"
       }
     ],
     "tags": [
@@ -2222,19 +3057,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "unlawful",
-        "noteZh": "不合法的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "legitimate",
-        "noteZh": "合法正當的"
-      }
-    ]
+    }
   },
   {
     "id": "w_illicit",
@@ -2248,21 +3071,47 @@
       {
         "id": "s_illicit_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "forbidden by law, rules, or custom",
         "definitionZh": "違禁的；不正當的",
         "usageExplanationZh": "常見 illicit drugs（違禁藥物）、an illicit affair（不正當的關係），語氣正式。",
-        "examples": [
-          {
-            "en": "The police seized a large quantity of illicit drugs.",
-            "zh": "警方查獲了大量違禁藥物。"
-          }
+        "grammarPatterns": [
+          "illicit + noun",
+          "the illicit trade in + noun"
         ],
         "collocations": [
           {
             "text": "illicit trade",
             "meaningZh": "非法交易"
           }
+        ],
+        "examples": [
+          {
+            "en": "The police seized a large quantity of illicit drugs.",
+            "zh": "警方查獲了大量違禁藥物。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "prohibited",
+        "noteZh": "被禁止的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "licit",
+        "noteZh": "合法的，較正式"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "illicitly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "非法地"
       }
     ],
     "tags": [
@@ -2276,19 +3125,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "prohibited",
-        "noteZh": "被禁止的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "licit",
-        "noteZh": "合法的，較正式"
-      }
-    ]
+    }
   },
   {
     "id": "w_illiterate",
@@ -2302,40 +3139,78 @@
       {
         "id": "s_illiterate_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "unable to read or write",
         "definitionZh": "不識字的；文盲的",
         "usageExplanationZh": "常見 functionally illiterate（功能性文盲）；比喻用法如 computer illiterate（電腦文盲）。",
-        "examples": [
-          {
-            "en": "Many children in the region remain illiterate due to lack of schooling.",
-            "zh": "該地區許多孩子因缺乏教育機會而仍是文盲。"
-          }
+        "grammarPatterns": [
+          "remain illiterate",
+          "functionally illiterate"
         ],
         "collocations": [
           {
             "text": "functionally illiterate",
             "meaningZh": "讀寫能力不足以應付日常需要的"
           }
+        ],
+        "examples": [
+          {
+            "en": "Many children in the region remain illiterate due to lack of schooling.",
+            "zh": "該地區許多孩子因缺乏教育機會而仍是文盲。"
+          }
         ]
       },
       {
         "id": "s_illiterate_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "a person who is unable to read or write",
         "definitionZh": "文盲（者）",
         "usageExplanationZh": "名詞用法較少見，多見於統計或社會學語境，如 the number of illiterates。",
-        "examples": [
-          {
-            "en": "The census aimed to identify the number of illiterates in rural areas.",
-            "zh": "這次人口普查旨在確認農村地區文盲的人數。"
-          }
+        "grammarPatterns": [
+          "the number of illiterates in + noun"
         ],
         "collocations": [
           {
             "text": "an adult illiterate",
             "meaningZh": "成年文盲，此名詞稱呼可能帶貶意"
           }
+        ],
+        "examples": [
+          {
+            "en": "The census aimed to identify the number of illiterates in rural areas.",
+            "zh": "這次人口普查旨在確認農村地區文盲的人數。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "unable to read or write",
+        "noteZh": "不會讀寫的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "literate",
+        "noteZh": "識字的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "illiteracy",
+        "partOfSpeech": "noun",
+        "meaningZh": "文盲；不識字"
+      },
+      {
+        "lemma": "literate",
+        "partOfSpeech": "adjective",
+        "meaningZh": "識字的"
       }
     ],
     "tags": [
@@ -2350,19 +3225,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "unable to read or write",
-        "noteZh": "不會讀寫的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "literate",
-        "noteZh": "識字的"
-      }
-    ]
+    }
   },
   {
     "id": "w_illuminate",
@@ -2376,21 +3239,48 @@
       {
         "id": "s_illuminate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to light up something, or to make something clear or easier to understand",
         "definitionZh": "照亮；闡明（使清楚易懂）",
         "usageExplanationZh": "常見 illuminate a room（照亮房間）；比喻用法如 illuminate the truth（闡明真相）。",
-        "examples": [
-          {
-            "en": "The new evidence helped illuminate the cause of the accident.",
-            "zh": "這項新證據有助於闡明事故的原因。"
-          }
+        "grammarPatterns": [
+          "illuminate + noun",
+          "illuminate how/why + clause"
         ],
         "collocations": [
           {
             "text": "illuminate the room",
             "meaningZh": "照亮房間"
           }
+        ],
+        "examples": [
+          {
+            "en": "The new evidence helped illuminate the cause of the accident.",
+            "zh": "這項新證據有助於闡明事故的原因。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "light up",
+        "noteZh": "照亮"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "darken",
+        "noteZh": "使變暗"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "illumination",
+        "partOfSpeech": "noun",
+        "meaningZh": "照明；闡明"
       }
     ],
     "tags": [
@@ -2405,19 +3295,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "light up",
-        "noteZh": "照亮"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "darken",
-        "noteZh": "使變暗"
-      }
-    ]
+    }
   },
   {
     "id": "w_illusion",
@@ -2431,21 +3309,47 @@
       {
         "id": "s_illusion_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a false belief or impression, or something that appears to be real but is not",
         "definitionZh": "錯覺；幻覺；假象",
         "usageExplanationZh": "常見 under the illusion that...（誤以為……），也指視覺上的錯覺，如 an optical illusion。",
-        "examples": [
-          {
-            "en": "He was under the illusion that he could finish the project alone.",
-            "zh": "他誤以為自己能獨力完成這個專案。"
-          }
+        "grammarPatterns": [
+          "be under the illusion that + clause",
+          "create an illusion of + noun"
         ],
         "collocations": [
           {
             "text": "an optical illusion",
             "meaningZh": "視錯覺"
           }
+        ],
+        "examples": [
+          {
+            "en": "He was under the illusion that he could finish the project alone.",
+            "zh": "他誤以為自己能獨力完成這個專案。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "false impression",
+        "noteZh": "錯誤的印象"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "illusory",
+        "partOfSpeech": "adjective",
+        "meaningZh": "虛幻的"
+      },
+      {
+        "lemma": "illusionist",
+        "partOfSpeech": "noun",
+        "meaningZh": "魔術師"
       }
     ],
     "tags": [
@@ -2460,14 +3364,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "false impression",
-        "noteZh": "錯誤的印象"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_illusory",
@@ -2481,21 +3378,48 @@
       {
         "id": "s_illusory_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "based on illusion; not real",
         "definitionZh": "虛幻的；幻覺般的",
         "usageExplanationZh": "常見 illusory hope（虛幻的希望），語氣書面正式，強調表面看似真實實則不然。",
-        "examples": [
-          {
-            "en": "The sense of security she felt was entirely illusory.",
-            "zh": "她所感受到的安全感其實完全是虛幻的。"
-          }
+        "grammarPatterns": [
+          "prove illusory",
+          "an illusory + noun"
         ],
         "collocations": [
           {
             "text": "an illusory sense of security",
             "meaningZh": "虛幻的安全感"
           }
+        ],
+        "examples": [
+          {
+            "en": "The sense of security she felt was entirely illusory.",
+            "zh": "她所感受到的安全感其實完全是虛幻的。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "unreal",
+        "noteZh": "虛幻的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "real",
+        "noteZh": "真實的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "illusion",
+        "partOfSpeech": "noun",
+        "meaningZh": "錯覺"
       }
     ],
     "tags": [
@@ -2508,19 +3432,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "unreal",
-        "noteZh": "虛幻的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "real",
-        "noteZh": "真實的"
-      }
-    ]
+    }
   },
   {
     "id": "w_illustrate",
@@ -2534,21 +3446,54 @@
       {
         "id": "s_illustrate_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "academic",
+          "neutral"
+        ],
         "definitionEn": "to explain or make something clear by using examples, pictures, or diagrams",
         "definitionZh": "說明；舉例闡明；為……繪製插圖",
         "usageExplanationZh": "常接 with examples，如 illustrate a point；也可指為書籍繪製插圖。",
-        "examples": [
-          {
-            "en": "The teacher used a diagram to illustrate how the process works.",
-            "zh": "老師用一張圖表來說明這個過程如何運作。"
-          }
+        "grammarPatterns": [
+          "illustrate + noun",
+          "illustrate how + clause",
+          "illustrate sth with + noun"
         ],
         "collocations": [
           {
             "text": "illustrate a point",
             "meaningZh": "說明一個論點"
           }
+        ],
+        "examples": [
+          {
+            "en": "The teacher used a diagram to illustrate how the process works.",
+            "zh": "老師用一張圖表來說明這個過程如何運作。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "demonstrate",
+        "noteZh": "舉例說明"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "illustration",
+        "partOfSpeech": "noun",
+        "meaningZh": "插圖；例證"
+      },
+      {
+        "lemma": "illustrator",
+        "partOfSpeech": "noun",
+        "meaningZh": "插畫家"
+      },
+      {
+        "lemma": "illustrative",
+        "partOfSpeech": "adjective",
+        "meaningZh": "說明性的"
       }
     ],
     "tags": [
@@ -2563,14 +3508,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "demonstrate",
-        "noteZh": "舉例說明"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_illustration",
@@ -2584,21 +3522,48 @@
       {
         "id": "s_illustration_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "a picture used to explain or decorate a text, or an example used to clarify a point",
         "definitionZh": "插圖；例證",
         "usageExplanationZh": "常見於書籍脈絡，如 a book full of illustrations；也可指用來說明論點的實例。",
-        "examples": [
-          {
-            "en": "The article includes several illustrations to help explain the concept.",
-            "zh": "這篇文章附有幾張插圖以幫助說明概念。"
-          }
+        "grammarPatterns": [
+          "an illustration of + noun",
+          "by way of illustration"
         ],
         "collocations": [
           {
             "text": "a clear illustration of the problem",
             "meaningZh": "清楚呈現問題的例子"
           }
+        ],
+        "examples": [
+          {
+            "en": "The article includes several illustrations to help explain the concept.",
+            "zh": "這篇文章附有幾張插圖以幫助說明概念。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "example",
+        "noteZh": "例證"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "illustrate",
+        "partOfSpeech": "verb",
+        "meaningZh": "說明"
+      },
+      {
+        "lemma": "illustrative",
+        "partOfSpeech": "adjective",
+        "meaningZh": "說明性的"
       }
     ],
     "tags": [
@@ -2611,14 +3576,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "example",
-        "noteZh": "例證"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_illustrious",
@@ -2632,21 +3590,41 @@
       {
         "id": "s_illustrious_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "well known, respected, and admired for past achievements",
         "definitionZh": "卓越著名的；輝煌的",
         "usageExplanationZh": "常修飾人物或生涯，如 an illustrious career（輝煌的職涯），語氣正式且帶敬意。",
-        "examples": [
-          {
-            "en": "She had an illustrious career as a diplomat.",
-            "zh": "她擁有輝煌的外交官生涯。"
-          }
+        "grammarPatterns": [
+          "an illustrious + noun",
+          "an illustrious career in + noun"
         ],
         "collocations": [
           {
             "text": "an illustrious career",
             "meaningZh": "輝煌的職涯"
           }
+        ],
+        "examples": [
+          {
+            "en": "She had an illustrious career as a diplomat.",
+            "zh": "她擁有輝煌的外交官生涯。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "distinguished",
+        "noteZh": "傑出著名的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "obscure",
+        "noteZh": "默默無聞的"
       }
     ],
     "tags": [
@@ -2660,19 +3638,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "distinguished",
-        "noteZh": "傑出著名的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "obscure",
-        "noteZh": "默默無聞的"
-      }
-    ]
+    }
   },
   {
     "id": "w_imagery",
@@ -2686,21 +3652,43 @@
       {
         "id": "s_imagery_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "academic"
+        ],
         "definitionEn": "visually descriptive or figurative language, especially in literature",
         "definitionZh": "（文學中的）意象；形象化語言",
         "usageExplanationZh": "常見於詩詞或文學分析，如 vivid imagery（生動的意象）。",
-        "examples": [
-          {
-            "en": "The poem is rich in imagery describing the changing seasons.",
-            "zh": "這首詩充滿了描繪季節變換的豐富意象。"
-          }
+        "grammarPatterns": [
+          "the imagery of + noun",
+          "be rich in imagery"
         ],
         "collocations": [
           {
             "text": "vivid imagery",
             "meaningZh": "鮮明的意象"
           }
+        ],
+        "examples": [
+          {
+            "en": "The poem is rich in imagery describing the changing seasons.",
+            "zh": "這首詩充滿了描繪季節變換的豐富意象。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "image",
+        "partOfSpeech": "noun",
+        "meaningZh": "影像；意象"
+      },
+      {
+        "lemma": "imagine",
+        "partOfSpeech": "verb",
+        "meaningZh": "想像"
       }
     ],
     "tags": [
@@ -2713,8 +3701,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   }
 ]

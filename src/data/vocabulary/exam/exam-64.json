@@ -11,23 +11,38 @@
       {
         "id": "s_rumble_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "a continuous deep, low sound, such as that made by thunder or a heavy vehicle",
         "definitionZh": "隆隆聲",
         "usageExplanationZh": "常見 the rumble of thunder/traffic，形容持續、低沉的巨大聲響。",
-        "examples": [
-          {
-            "en": "They heard the distant rumble of thunder before the storm hit.",
-            "zh": "暴風雨來臨前，他們聽見遠處傳來隆隆的雷聲。"
-          }
+        "grammarPatterns": [
+          "the rumble of + noun",
+          "a distant rumble"
         ],
         "collocations": [
           {
             "text": "a rumble of thunder",
             "meaningZh": "隆隆雷聲"
           }
+        ],
+        "examples": [
+          {
+            "en": "They heard the distant rumble of thunder before the storm hit.",
+            "zh": "暴風雨來臨前，他們聽見遠處傳來隆隆的雷聲。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "rumbling",
+        "noteZh": "指低沉而持續的聲響"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -39,14 +54,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "rumbling",
-        "noteZh": "指低沉而持續的聲響"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_rumor",
@@ -60,23 +68,39 @@
       {
         "id": "s_rumor_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "information or a story that spreads among people, though not confirmed to be true",
         "definitionZh": "謠言；傳聞",
         "usageExplanationZh": "常見 rumor has it that...，強調未經證實但廣為流傳的消息。",
-        "examples": [
-          {
-            "en": "There's a rumor that the company will lay off half its staff.",
-            "zh": "有傳聞說這家公司將裁掉一半的員工。"
-          }
+        "grammarPatterns": [
+          "a rumor that + clause",
+          "spread a rumor",
+          "rumor has it that + clause"
         ],
         "collocations": [
           {
             "text": "spread a rumor",
             "meaningZh": "散播謠言"
           }
+        ],
+        "examples": [
+          {
+            "en": "There's a rumor that the company will lay off half its staff.",
+            "zh": "有傳聞說這家公司將裁掉一半的員工。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "hearsay",
+        "noteZh": "未經證實的傳聞"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl"
@@ -87,14 +111,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "hearsay",
-        "noteZh": "未經證實的傳聞"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_rural",
@@ -108,21 +125,41 @@
       {
         "id": "s_rural_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral",
+          "academic"
+        ],
         "definitionEn": "relating to the countryside rather than towns or cities",
         "definitionZh": "鄉村的；農村的",
         "usageExplanationZh": "常修飾 area、community，與 urban（都市的）相對。",
-        "examples": [
-          {
-            "en": "Many young people leave rural areas to find work in the city.",
-            "zh": "許多年輕人離開鄉村地區到城市找工作。"
-          }
+        "grammarPatterns": [
+          "rural + noun",
+          "in rural + noun"
         ],
         "collocations": [
           {
             "text": "rural areas",
             "meaningZh": "鄉村地區"
           }
+        ],
+        "examples": [
+          {
+            "en": "Many young people leave rural areas to find work in the city.",
+            "zh": "許多年輕人離開鄉村地區到城市找工作。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "country",
+        "noteZh": "形容詞，指鄉村的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "urban",
+        "noteZh": "都市的"
       }
     ],
     "tags": [
@@ -137,19 +174,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "country",
-        "noteZh": "形容詞，指鄉村的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "urban",
-        "noteZh": "都市的"
-      }
-    ]
+    }
   },
   {
     "id": "w_rustle",
@@ -163,23 +188,33 @@
       {
         "id": "s_rustle_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "literary",
+          "neutral"
+        ],
         "definitionEn": "to make a soft, dry sound like that of leaves or paper moving",
         "definitionZh": "發出沙沙聲",
         "usageExplanationZh": "常見 leaves rustle in the wind，形容輕柔、乾燥的摩擦聲。",
-        "examples": [
-          {
-            "en": "The leaves rustled softly in the evening breeze.",
-            "zh": "樹葉在晚風中發出輕柔的沙沙聲。"
-          }
+        "grammarPatterns": [
+          "rustle in + noun",
+          "leaves rustle"
         ],
         "collocations": [
           {
             "text": "leaves rustle in the wind",
             "meaningZh": "樹葉在風中沙沙作響"
           }
+        ],
+        "examples": [
+          {
+            "en": "The leaves rustled softly in the evening breeze.",
+            "zh": "樹葉在晚風中發出輕柔的沙沙聲。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -190,9 +225,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sabotage",
@@ -206,21 +239,43 @@
       {
         "id": "s_sabotage_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "deliberate damage or disruption caused to prevent something from succeeding",
         "definitionZh": "蓄意破壞",
         "usageExplanationZh": "常見 an act of sabotage，強調刻意破壞設備、計畫或行動以阻礙其成功。",
-        "examples": [
-          {
-            "en": "Investigators suspected sabotage as the cause of the factory fire.",
-            "zh": "調查人員懷疑這場工廠火災是蓄意破壞所致。"
-          }
+        "grammarPatterns": [
+          "an act of sabotage",
+          "suspect sabotage",
+          "the sabotage of + noun"
         ],
         "collocations": [
           {
             "text": "an act of sabotage",
             "meaningZh": "蓄意破壞行為"
           }
+        ],
+        "examples": [
+          {
+            "en": "Investigators suspected sabotage as the cause of the factory fire.",
+            "zh": "調查人員懷疑這場工廠火災是蓄意破壞所致。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "subversion",
+        "noteZh": "指蓄意破壞或顛覆"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "saboteur",
+        "partOfSpeech": "noun",
+        "meaningZh": "破壞者；怠工者"
       }
     ],
     "tags": [
@@ -234,14 +289,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "subversion",
-        "noteZh": "指蓄意破壞或顛覆"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sack",
@@ -255,23 +303,37 @@
       {
         "id": "s_sack_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a large bag made of strong material, used for carrying or storing goods",
         "definitionZh": "麻布袋；大袋子",
         "usageExplanationZh": "常見 a sack of potatoes；口語片語 get the sack 指被解僱。",
-        "examples": [
-          {
-            "en": "They loaded several sacks of rice onto the truck.",
-            "zh": "他們把好幾袋米裝上卡車。"
-          }
+        "grammarPatterns": [
+          "a sack of + noun",
+          "fill a sack with + noun"
         ],
         "collocations": [
           {
             "text": "a sack of potatoes",
             "meaningZh": "一大袋馬鈴薯"
           }
+        ],
+        "examples": [
+          {
+            "en": "They loaded several sacks of rice onto the truck.",
+            "zh": "他們把好幾袋米裝上卡車。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "bag",
+        "noteZh": "袋子，較泛稱"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -284,14 +346,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "bag",
-        "noteZh": "袋子，較泛稱"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sacred",
@@ -305,21 +360,49 @@
       {
         "id": "s_sacred_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "regarded with great respect and reverence, especially for religious reasons",
         "definitionZh": "神聖的",
         "usageExplanationZh": "常修飾 place、text、tradition，也可比喻指極為重要、不可侵犯的事物，如 a sacred promise。",
-        "examples": [
-          {
-            "en": "The temple is considered a sacred site by local worshippers.",
-            "zh": "這座寺廟被當地信徒視為神聖之地。"
-          }
+        "grammarPatterns": [
+          "a sacred + noun",
+          "be sacred to + sb",
+          "hold sth sacred"
         ],
         "collocations": [
           {
             "text": "a sacred site",
             "meaningZh": "聖地"
           }
+        ],
+        "examples": [
+          {
+            "en": "The temple is considered a sacred site by local worshippers.",
+            "zh": "這座寺廟被當地信徒視為神聖之地。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "holy",
+        "noteZh": "神聖的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "profane",
+        "noteZh": "褻瀆的或非宗教的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "sacredness",
+        "partOfSpeech": "noun",
+        "meaningZh": "神聖（性）"
       }
     ],
     "tags": [
@@ -334,19 +417,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "holy",
-        "noteZh": "神聖的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "profane",
-        "noteZh": "褻瀆的或非宗教的"
-      }
-    ]
+    }
   },
   {
     "id": "w_sacrifice",
@@ -360,21 +431,38 @@
       {
         "id": "s_sacrifice_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "the act of giving up something valuable for the sake of something more important",
         "definitionZh": "犧牲",
         "usageExplanationZh": "常見 make a sacrifice for，強調為達成某目標而放棄珍貴之物。",
-        "examples": [
-          {
-            "en": "Her parents made many sacrifices to send her to college.",
-            "zh": "她的父母做出許多犧牲才供她念大學。"
-          }
+        "grammarPatterns": [
+          "make a sacrifice",
+          "a sacrifice for + noun",
+          "at the sacrifice of + noun"
         ],
         "collocations": [
           {
             "text": "make a sacrifice",
             "meaningZh": "作出犧牲"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her parents made many sacrifices to send her to college.",
+            "zh": "她的父母做出許多犧牲才供她念大學。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "sacrificial",
+        "partOfSpeech": "adjective",
+        "meaningZh": "犧牲的；獻祭的"
       }
     ],
     "tags": [
@@ -388,9 +476,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sadden",
@@ -404,21 +490,53 @@
       {
         "id": "s_sadden_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "to make someone feel unhappy or sorrowful",
         "definitionZh": "使悲傷；使難過",
         "usageExplanationZh": "正式用語，常用被動 be saddened by，強調因某事而感到難過。",
-        "examples": [
-          {
-            "en": "The news of his passing saddened the entire community.",
-            "zh": "他過世的消息讓整個社區都感到悲傷。"
-          }
+        "grammarPatterns": [
+          "be saddened by + noun",
+          "it saddens sb to + V"
         ],
         "collocations": [
           {
             "text": "deeply saddened by",
             "meaningZh": "因……深感悲痛"
           }
+        ],
+        "examples": [
+          {
+            "en": "The news of his passing saddened the entire community.",
+            "zh": "他過世的消息讓整個社區都感到悲傷。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "upset",
+        "noteZh": "使難過"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "cheer",
+        "noteZh": "使振奮"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "sad",
+        "partOfSpeech": "adjective",
+        "meaningZh": "悲傷的"
+      },
+      {
+        "lemma": "sadness",
+        "partOfSpeech": "noun",
+        "meaningZh": "悲傷；難過"
       }
     ],
     "tags": [
@@ -431,19 +549,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "upset",
-        "noteZh": "使難過"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "cheer",
-        "noteZh": "使振奮"
-      }
-    ]
+    }
   },
   {
     "id": "w_saddle",
@@ -457,23 +563,32 @@
       {
         "id": "s_saddle_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a seat placed on the back of a horse or bicycle for a rider",
         "definitionZh": "馬鞍；座墊",
         "usageExplanationZh": "常見 bicycle saddle、horse saddle，指供騎乘者坐的裝置。",
-        "examples": [
-          {
-            "en": "She adjusted the saddle before mounting the horse.",
-            "zh": "她在騎上馬之前先調整了馬鞍。"
-          }
+        "grammarPatterns": [
+          "in the saddle",
+          "adjust the saddle"
         ],
         "collocations": [
           {
             "text": "a bicycle saddle",
             "meaningZh": "自行車座墊"
           }
+        ],
+        "examples": [
+          {
+            "en": "She adjusted the saddle before mounting the horse.",
+            "zh": "她在騎上馬之前先調整了馬鞍。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -486,9 +601,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sadistic",
@@ -502,21 +615,53 @@
       {
         "id": "s_sadistic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "deriving pleasure from causing pain or suffering to others",
         "definitionZh": "虐待狂的；殘忍成性的",
         "usageExplanationZh": "帶強烈負面意涵，形容人以他人痛苦為樂，常修飾 pleasure、tendency。",
-        "examples": [
-          {
-            "en": "The villain in the movie had a sadistic streak.",
-            "zh": "這部電影裡的反派角色帶有虐待狂的傾向。"
-          }
+        "grammarPatterns": [
+          "a sadistic + noun",
+          "take a sadistic pleasure in + V-ing"
         ],
         "collocations": [
           {
             "text": "sadistic pleasure",
             "meaningZh": "以虐待他人為樂"
           }
+        ],
+        "examples": [
+          {
+            "en": "The villain in the movie had a sadistic streak.",
+            "zh": "這部電影裡的反派角色帶有虐待狂的傾向。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "cruel",
+        "noteZh": "殘忍的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "compassionate",
+        "noteZh": "有同情心的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "sadism",
+        "partOfSpeech": "noun",
+        "meaningZh": "虐待狂"
+      },
+      {
+        "lemma": "sadist",
+        "partOfSpeech": "noun",
+        "meaningZh": "虐待狂者"
       }
     ],
     "tags": [
@@ -529,19 +674,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "cruel",
-        "noteZh": "殘忍的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "compassionate",
-        "noteZh": "有同情心的"
-      }
-    ]
+    }
   },
   {
     "id": "w_safeguard",
@@ -555,21 +688,54 @@
       {
         "id": "s_safeguard_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "to protect something or someone from harm or damage",
         "definitionZh": "保護；捍衛",
         "usageExplanationZh": "常接 rights、interests、data，強調採取措施以防範風險。",
-        "examples": [
-          {
-            "en": "The new law aims to safeguard consumer rights.",
-            "zh": "這項新法旨在保護消費者的權益。"
-          }
+        "grammarPatterns": [
+          "safeguard + noun",
+          "safeguard sb against + noun",
+          "safeguard sth from + noun"
         ],
         "collocations": [
           {
             "text": "safeguard someone's rights",
             "meaningZh": "保障某人的權利"
           }
+        ],
+        "examples": [
+          {
+            "en": "The new law aims to safeguard consumer rights.",
+            "zh": "這項新法旨在保護消費者的權益。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "protect",
+        "noteZh": "保護"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "endanger",
+        "noteZh": "危及"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "safe",
+        "partOfSpeech": "adjective",
+        "meaningZh": "安全的"
+      },
+      {
+        "lemma": "safety",
+        "partOfSpeech": "noun",
+        "meaningZh": "安全；安全性"
       }
     ],
     "tags": [
@@ -583,19 +749,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "protect",
-        "noteZh": "保護"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "endanger",
-        "noteZh": "危及"
-      }
-    ]
+    }
   },
   {
     "id": "w_sage",
@@ -609,21 +763,48 @@
       {
         "id": "s_sage_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "a person who has great wisdom, especially one respected for their judgment and experience",
         "definitionZh": "聖人；智者",
         "usageExplanationZh": "常見於文學或哲學語境，指因智慧與經驗而受人敬重的長者或思想家。",
-        "examples": [
-          {
-            "en": "The village elder was regarded as a sage by the younger generation.",
-            "zh": "這位村中長者被年輕一輩視為智者。"
-          }
+        "grammarPatterns": [
+          "a wise sage",
+          "be regarded as a sage"
         ],
         "collocations": [
           {
             "text": "an ancient sage",
             "meaningZh": "古代聖賢"
           }
+        ],
+        "examples": [
+          {
+            "en": "The village elder was regarded as a sage by the younger generation.",
+            "zh": "這位村中長者被年輕一輩視為智者。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "wise person",
+        "noteZh": "指智者"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "sagacity",
+        "partOfSpeech": "noun",
+        "meaningZh": "睿智；聰慧"
+      },
+      {
+        "lemma": "sagacious",
+        "partOfSpeech": "adjective",
+        "meaningZh": "睿智的"
       }
     ],
     "tags": [
@@ -636,14 +817,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "wise person",
-        "noteZh": "指智者"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sake",
@@ -657,14 +831,16 @@
       {
         "id": "s_sake_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "the purpose or benefit of doing something, used to explain the reason for an action",
         "definitionZh": "緣故；為了……",
         "usageExplanationZh": "常見 for the sake of，表示做某事的理由或目的，如 for her sake（為了她好）。",
-        "examples": [
-          {
-            "en": "He gave up smoking for the sake of his health.",
-            "zh": "他為了健康而戒菸。"
-          }
+        "grammarPatterns": [
+          "for the sake of + noun",
+          "for sb's sake",
+          "for the sake of + V-ing"
         ],
         "collocations": [
           {
@@ -675,9 +851,17 @@
             "text": "for goodness' sake",
             "meaningZh": "看在老天的份上"
           }
+        ],
+        "examples": [
+          {
+            "en": "He gave up smoking for the sake of his health.",
+            "zh": "他為了健康而戒菸。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -689,9 +873,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_salmon",
@@ -705,23 +887,32 @@
       {
         "id": "s_salmon_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "a large fish with pink flesh that lives in the sea and swims upriver to breed",
         "definitionZh": "鮭魚",
         "usageExplanationZh": "常見於料理或釣魚語境，指這種洄游性魚類，也可指其肉色（淡粉橘色）。",
-        "examples": [
-          {
-            "en": "Grilled salmon is one of the restaurant's specialties.",
-            "zh": "烤鮭魚是這家餐廳的招牌菜之一。"
-          }
+        "grammarPatterns": [
+          "smoked salmon",
+          "catch salmon"
         ],
         "collocations": [
           {
             "text": "smoked salmon",
             "meaningZh": "煙燻鮭魚"
           }
+        ],
+        "examples": [
+          {
+            "en": "Grilled salmon is one of the restaurant's specialties.",
+            "zh": "烤鮭魚是這家餐廳的招牌菜之一。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -732,9 +923,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_salutary",
@@ -748,21 +937,41 @@
       {
         "id": "s_salutary_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "producing good or beneficial effects, especially after something unpleasant",
         "definitionZh": "有益的；有益健康的",
         "usageExplanationZh": "正式用語，常修飾 effect、lesson，強調雖然過程可能不愉快，但結果有益，如 a salutary lesson。",
-        "examples": [
-          {
-            "en": "The failure taught him a salutary lesson about overconfidence.",
-            "zh": "這次失敗給了他一個關於自負的有益教訓。"
-          }
+        "grammarPatterns": [
+          "a salutary lesson",
+          "have a salutary effect on + noun"
         ],
         "collocations": [
           {
             "text": "a salutary lesson",
             "meaningZh": "有益的教訓"
           }
+        ],
+        "examples": [
+          {
+            "en": "The failure taught him a salutary lesson about overconfidence.",
+            "zh": "這次失敗給了他一個關於自負的有益教訓。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "beneficial",
+        "noteZh": "有益的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "harmful",
+        "noteZh": "有害的"
       }
     ],
     "tags": [
@@ -776,19 +985,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "beneficial",
-        "noteZh": "有益的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "harmful",
-        "noteZh": "有害的"
-      }
-    ]
+    }
   },
   {
     "id": "w_salute",
@@ -802,21 +999,43 @@
       {
         "id": "s_salute_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "to greet someone with a formal gesture of respect, especially by raising the hand to the head",
         "definitionZh": "敬禮；致敬",
         "usageExplanationZh": "軍事語境常見（salute an officer），也可比喻用於表達敬意或讚賞（salute someone's courage）。",
-        "examples": [
-          {
-            "en": "The soldiers saluted as the general passed by.",
-            "zh": "將軍經過時，士兵們向他敬禮。"
-          }
+        "grammarPatterns": [
+          "salute + noun",
+          "stand and salute",
+          "salute sb as + noun"
         ],
         "collocations": [
           {
             "text": "salute the flag",
             "meaningZh": "向國旗敬禮"
           }
+        ],
+        "examples": [
+          {
+            "en": "The soldiers saluted as the general passed by.",
+            "zh": "將軍經過時，士兵們向他敬禮。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "honour",
+        "noteZh": "限致敬義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "salutation",
+        "partOfSpeech": "noun",
+        "meaningZh": "招呼語；問候"
       }
     ],
     "tags": [
@@ -830,14 +1049,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "honour",
-        "noteZh": "限致敬義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_salvage",
@@ -851,21 +1063,43 @@
       {
         "id": "s_salvage_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "formal"
+        ],
         "definitionEn": "the act of saving goods, a ship, or property from damage, loss, or destruction",
         "definitionZh": "搶救；打撈",
         "usageExplanationZh": "常見 salvage operation，指從沉船、火災等災難中搶救出可用的財物或設備。",
-        "examples": [
-          {
-            "en": "The salvage operation recovered most of the ship's cargo.",
-            "zh": "這次打撈行動成功搶救出這艘船大部分的貨物。"
-          }
+        "grammarPatterns": [
+          "a salvage operation",
+          "the salvage of + noun"
         ],
         "collocations": [
           {
             "text": "a salvage operation",
             "meaningZh": "打撈作業"
           }
+        ],
+        "examples": [
+          {
+            "en": "The salvage operation recovered most of the ship's cargo.",
+            "zh": "這次打撈行動成功搶救出這艘船大部分的貨物。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "recovery",
+        "noteZh": "指搶救或打撈"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "salvageable",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可搶救的；可回收的"
       }
     ],
     "tags": [
@@ -880,14 +1114,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "recovery",
-        "noteZh": "指搶救或打撈"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sample",
@@ -901,14 +1128,17 @@
       {
         "id": "s_sample_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "academic"
+        ],
         "definitionEn": "a small amount of something used to show or test what the whole is like",
         "definitionZh": "樣品；樣本",
         "usageExplanationZh": "常見 free sample、blood sample，指用來代表整體或供檢測用的小部分。",
-        "examples": [
-          {
-            "en": "The doctor took a blood sample for testing.",
-            "zh": "醫生抽取了一份血液樣本以供檢驗。"
-          }
+        "grammarPatterns": [
+          "a sample of + noun",
+          "take a sample",
+          "a random sample"
         ],
         "collocations": [
           {
@@ -919,7 +1149,27 @@
             "text": "a free sample",
             "meaningZh": "免費試用品"
           }
+        ],
+        "examples": [
+          {
+            "en": "The doctor took a blood sample for testing.",
+            "zh": "醫生抽取了一份血液樣本以供檢驗。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "specimen",
+        "noteZh": "指供檢驗的樣本"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "sampling",
+        "partOfSpeech": "noun",
+        "meaningZh": "取樣；抽樣"
       }
     ],
     "tags": [
@@ -933,14 +1183,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "specimen",
-        "noteZh": "指供檢驗的樣本"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sanction",
@@ -954,14 +1197,17 @@
       {
         "id": "s_sanction_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "an official penalty or restriction imposed to enforce compliance, or official approval or permission",
         "definitionZh": "制裁；核准",
         "usageExplanationZh": "兩義常依語境：國際政治指懲罰性措施（economic sanctions）；正式語境指官方許可。",
-        "examples": [
-          {
-            "en": "The United Nations imposed economic sanctions on the country.",
-            "zh": "聯合國對這個國家實施了經濟制裁。"
-          }
+        "grammarPatterns": [
+          "impose sanctions on + noun",
+          "economic sanctions against + noun",
+          "lift sanctions"
         ],
         "collocations": [
           {
@@ -972,9 +1218,26 @@
             "text": "official sanction",
             "meaningZh": "正式核准"
           }
+        ],
+        "examples": [
+          {
+            "en": "The United Nations imposed economic sanctions on the country.",
+            "zh": "聯合國對這個國家實施了經濟制裁。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "penalty",
+        "noteZh": "限制裁義"
+      },
+      {
+        "lemma": "authorization",
+        "noteZh": "限核准義"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -987,18 +1250,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "penalty",
-        "noteZh": "限制裁義"
-      },
-      {
-        "lemma": "authorization",
-        "noteZh": "限核准義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sanctuary",
@@ -1012,14 +1264,16 @@
       {
         "id": "s_sanctuary_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a place of safety or protection, especially for those fleeing danger, or a protected area for wildlife",
         "definitionZh": "庇護所；保護區",
         "usageExplanationZh": "常見 wildlife sanctuary（野生動物保護區）、seek sanctuary（尋求庇護）。",
-        "examples": [
-          {
-            "en": "The organization runs a sanctuary for abused and abandoned animals.",
-            "zh": "這個組織經營著一座收容受虐及棄養動物的庇護所。"
-          }
+        "grammarPatterns": [
+          "a sanctuary for + noun",
+          "seek sanctuary in + noun",
+          "a wildlife sanctuary"
         ],
         "collocations": [
           {
@@ -1030,7 +1284,32 @@
             "text": "seek sanctuary",
             "meaningZh": "尋求庇護"
           }
+        ],
+        "examples": [
+          {
+            "en": "The organization runs a sanctuary for abused and abandoned animals.",
+            "zh": "這個組織經營著一座收容受虐及棄養動物的庇護所。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "refuge",
+        "noteZh": "避難所"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "sanctity",
+        "partOfSpeech": "noun",
+        "meaningZh": "神聖（性）"
+      },
+      {
+        "lemma": "sanctify",
+        "partOfSpeech": "verb",
+        "meaningZh": "使神聖；祝聖"
       }
     ],
     "tags": [
@@ -1043,14 +1322,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "refuge",
-        "noteZh": "避難所"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sandy",
@@ -1064,21 +1336,37 @@
       {
         "id": "s_sandy_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "covered with or containing a lot of sand",
         "definitionZh": "多沙的；沙質的",
         "usageExplanationZh": "常修飾 beach、soil，形容表面或土質含有大量沙子。",
-        "examples": [
-          {
-            "en": "They spent the afternoon walking along the sandy beach.",
-            "zh": "他們花了一個下午沿著這片沙灘散步。"
-          }
+        "grammarPatterns": [
+          "a sandy beach",
+          "sandy + noun"
         ],
         "collocations": [
           {
             "text": "a sandy beach",
             "meaningZh": "沙灘"
           }
+        ],
+        "examples": [
+          {
+            "en": "They spent the afternoon walking along the sandy beach.",
+            "zh": "他們花了一個下午沿著這片沙灘散步。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "sand",
+        "partOfSpeech": "noun",
+        "meaningZh": "沙；沙子"
       }
     ],
     "tags": [
@@ -1091,9 +1379,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sane",
@@ -1107,21 +1393,57 @@
       {
         "id": "s_sane_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "having a healthy and reasonable mind; not mentally ill",
         "definitionZh": "神智正常的；理性的",
         "usageExplanationZh": "常見 stay sane（保持理智），也可指判斷合理，與 insane 相對。",
-        "examples": [
-          {
-            "en": "Staying sane during the chaotic move was a challenge.",
-            "zh": "在這場混亂的搬家過程中保持理智是一項挑戰。"
-          }
+        "grammarPatterns": [
+          "stay sane",
+          "a sane + noun"
         ],
         "collocations": [
           {
             "text": "a sane decision",
             "meaningZh": "理性的決定"
           }
+        ],
+        "examples": [
+          {
+            "en": "Staying sane during the chaotic move was a challenge.",
+            "zh": "在這場混亂的搬家過程中保持理智是一項挑戰。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "rational",
+        "noteZh": "限理性義"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "insane",
+        "noteZh": "神智失常的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "sanity",
+        "partOfSpeech": "noun",
+        "meaningZh": "神智清醒；理智"
+      },
+      {
+        "lemma": "insane",
+        "partOfSpeech": "adjective",
+        "meaningZh": "精神失常的；瘋狂的"
+      },
+      {
+        "lemma": "insanity",
+        "partOfSpeech": "noun",
+        "meaningZh": "精神錯亂"
       }
     ],
     "tags": [
@@ -1135,19 +1457,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "rational",
-        "noteZh": "限理性義"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "insane",
-        "noteZh": "神智失常的"
-      }
-    ]
+    }
   },
   {
     "id": "w_sanguine",
@@ -1161,21 +1471,41 @@
       {
         "id": "s_sanguine_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "confidently optimistic, especially about a difficult situation",
         "definitionZh": "樂觀的；充滿信心的",
         "usageExplanationZh": "正式用語，常見 sanguine about，形容人對前景抱持信心，即使情況不明朗。",
-        "examples": [
-          {
-            "en": "Despite the setbacks, the coach remained sanguine about the team's chances.",
-            "zh": "儘管遭遇挫折，教練仍對這支球隊的勝算保持樂觀。"
-          }
+        "grammarPatterns": [
+          "be sanguine about + noun",
+          "remain sanguine"
         ],
         "collocations": [
           {
             "text": "sanguine about the prospects",
             "meaningZh": "對前景樂觀"
           }
+        ],
+        "examples": [
+          {
+            "en": "Despite the setbacks, the coach remained sanguine about the team's chances.",
+            "zh": "儘管遭遇挫折，教練仍對這支球隊的勝算保持樂觀。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "optimistic",
+        "noteZh": "樂觀的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "pessimistic",
+        "noteZh": "悲觀的"
       }
     ],
     "tags": [
@@ -1188,19 +1518,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "optimistic",
-        "noteZh": "樂觀的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "pessimistic",
-        "noteZh": "悲觀的"
-      }
-    ]
+    }
   },
   {
     "id": "w_sarcastic",
@@ -1214,21 +1532,48 @@
       {
         "id": "s_sarcastic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "informal",
+          "spoken"
+        ],
         "definitionEn": "using remarks that clearly mean the opposite of what they say, in order to mock or criticize",
         "definitionZh": "諷刺的；挖苦的",
         "usageExplanationZh": "常修飾 comment、tone，強調言語帶有反話式的嘲弄意味。",
-        "examples": [
-          {
-            "en": "He made a sarcastic comment about her driving skills.",
-            "zh": "他對她的駕駛技術說了一句挖苦的話。"
-          }
+        "grammarPatterns": [
+          "a sarcastic + noun",
+          "be sarcastic about + noun"
         ],
         "collocations": [
           {
             "text": "a sarcastic remark",
             "meaningZh": "挖苦的話"
           }
+        ],
+        "examples": [
+          {
+            "en": "He made a sarcastic comment about her driving skills.",
+            "zh": "他對她的駕駛技術說了一句挖苦的話。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "mocking",
+        "noteZh": "帶有嘲弄意味的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "sarcasm",
+        "partOfSpeech": "noun",
+        "meaningZh": "諷刺；挖苦"
+      },
+      {
+        "lemma": "sarcastically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "諷刺地"
       }
     ],
     "tags": [
@@ -1242,14 +1587,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "mocking",
-        "noteZh": "帶有嘲弄意味的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_sardonic",
@@ -1263,21 +1601,43 @@
       {
         "id": "s_sardonic_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "literary",
+          "formal"
+        ],
         "definitionEn": "mocking or scornful in a bitter or dry way",
         "definitionZh": "嘲諷的；冷嘲的",
         "usageExplanationZh": "比 sarcastic 語氣更陰冷、輕蔑，常修飾 smile、humor，帶有輕蔑或冷酷的意味。",
-        "examples": [
-          {
-            "en": "He gave a sardonic smile when he heard the excuse.",
-            "zh": "聽到那個藉口時，他露出了冷嘲的微笑。"
-          }
+        "grammarPatterns": [
+          "a sardonic + noun",
+          "with sardonic amusement"
         ],
         "collocations": [
           {
             "text": "a sardonic smile",
             "meaningZh": "冷嘲的笑容"
           }
+        ],
+        "examples": [
+          {
+            "en": "He gave a sardonic smile when he heard the excuse.",
+            "zh": "聽到那個藉口時，他露出了冷嘲的微笑。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "scornful",
+        "noteZh": "帶有輕蔑嘲弄的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "sardonically",
+        "partOfSpeech": "adverb",
+        "meaningZh": "嘲諷地；冷嘲地"
       }
     ],
     "tags": [
@@ -1291,14 +1651,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "scornful",
-        "noteZh": "帶有輕蔑嘲弄的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_satellite",
@@ -1312,23 +1665,34 @@
       {
         "id": "s_satellite_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "technical",
+          "neutral"
+        ],
         "definitionEn": "a device sent into space to orbit the earth or another body, used for communication or observation",
         "definitionZh": "人造衛星",
         "usageExplanationZh": "常見 communication satellite、weather satellite，也可比喻指依附於某中心的附屬國或機構。",
-        "examples": [
-          {
-            "en": "The satellite transmits television signals around the globe.",
-            "zh": "這顆衛星向全球傳送電視訊號。"
-          }
+        "grammarPatterns": [
+          "launch a satellite",
+          "a satellite orbits + noun",
+          "via satellite"
         ],
         "collocations": [
           {
             "text": "a communications satellite",
             "meaningZh": "通訊衛星"
           }
+        ],
+        "examples": [
+          {
+            "en": "The satellite transmits television signals around the globe.",
+            "zh": "這顆衛星向全球傳送電視訊號。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1340,9 +1704,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_satisfaction",
@@ -1356,21 +1718,58 @@
       {
         "id": "s_satisfaction_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a feeling of pleasure or contentment because a need or desire has been fulfilled",
         "definitionZh": "滿足；滿意",
         "usageExplanationZh": "常見 job satisfaction、customer satisfaction，強調需求或期望獲得實現後的正面感受。",
-        "examples": [
-          {
-            "en": "She felt a deep sense of satisfaction after finishing the marathon。",
-            "zh": "完成馬拉松後，她感到深深的滿足。"
-          }
+        "grammarPatterns": [
+          "a sense of satisfaction",
+          "satisfaction with + noun",
+          "to sb's satisfaction"
         ],
         "collocations": [
           {
             "text": "customer satisfaction",
             "meaningZh": "顧客滿意度"
           }
+        ],
+        "examples": [
+          {
+            "en": "She felt a deep sense of satisfaction after finishing the marathon。",
+            "zh": "完成馬拉松後，她感到深深的滿足。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "contentment",
+        "noteZh": "滿足感"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "dissatisfaction",
+        "noteZh": "不滿"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "satisfy",
+        "partOfSpeech": "verb",
+        "meaningZh": "滿足；使滿意"
+      },
+      {
+        "lemma": "satisfactory",
+        "partOfSpeech": "adjective",
+        "meaningZh": "令人滿意的"
+      },
+      {
+        "lemma": "dissatisfaction",
+        "partOfSpeech": "noun",
+        "meaningZh": "不滿；不滿意"
       }
     ],
     "tags": [
@@ -1384,19 +1783,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "contentment",
-        "noteZh": "滿足感"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "dissatisfaction",
-        "noteZh": "不滿"
-      }
-    ]
+    }
   },
   {
     "id": "w_satisfactory",
@@ -1410,21 +1797,58 @@
       {
         "id": "s_satisfactory_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "business"
+        ],
         "definitionEn": "acceptable or good enough to meet a requirement or standard",
         "definitionZh": "令人滿意的；達到標準的",
         "usageExplanationZh": "常見 satisfactory result/performance，強調符合最低期望，但未必特別出色。",
-        "examples": [
-          {
-            "en": "His grades this semester were satisfactory but not outstanding.",
-            "zh": "他這學期的成績尚可，但並不出色。"
-          }
+        "grammarPatterns": [
+          "a satisfactory + noun",
+          "be satisfactory to + sb"
         ],
         "collocations": [
           {
             "text": "a satisfactory result",
             "meaningZh": "令人滿意的結果"
           }
+        ],
+        "examples": [
+          {
+            "en": "His grades this semester were satisfactory but not outstanding.",
+            "zh": "他這學期的成績尚可，但並不出色。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "acceptable",
+        "noteZh": "達到可接受標準的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "unsatisfactory",
+        "noteZh": "令人不滿意的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "satisfy",
+        "partOfSpeech": "verb",
+        "meaningZh": "使滿意"
+      },
+      {
+        "lemma": "satisfaction",
+        "partOfSpeech": "noun",
+        "meaningZh": "滿足；滿意"
+      },
+      {
+        "lemma": "unsatisfactory",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不令人滿意的"
       }
     ],
     "tags": [
@@ -1437,19 +1861,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "acceptable",
-        "noteZh": "達到可接受標準的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "unsatisfactory",
-        "noteZh": "令人不滿意的"
-      }
-    ]
+    }
   },
   {
     "id": "w_savvy",
@@ -1463,23 +1875,38 @@
       {
         "id": "s_savvy_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal",
+          "business"
+        ],
         "definitionEn": "practical knowledge and skill in a particular area",
         "definitionZh": "實務知識；訣竅",
         "usageExplanationZh": "常見 business savvy、tech savvy，強調對某領域有敏銳的判斷力與實用技能。",
-        "examples": [
-          {
-            "en": "Her marketing savvy helped the company grow rapidly.",
-            "zh": "她敏銳的行銷頭腦幫助公司迅速成長。"
-          }
+        "grammarPatterns": [
+          "business savvy",
+          "have the savvy to + V"
         ],
         "collocations": [
           {
             "text": "business savvy",
             "meaningZh": "商業實務能力"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her marketing savvy helped the company grow rapidly.",
+            "zh": "她敏銳的行銷頭腦幫助公司迅速成長。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "know-how",
+        "noteZh": "實務知識"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "gre"
@@ -1490,14 +1917,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "know-how",
-        "noteZh": "實務知識"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_scan",
@@ -1511,14 +1931,17 @@
       {
         "id": "s_scan_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral",
+          "technical"
+        ],
         "definitionEn": "to look at something quickly, or to use a device to examine or convert something electronically",
         "definitionZh": "瀏覽；掃描",
         "usageExplanationZh": "常見 scan a document/the room，指快速查看，或用機器將實體轉為數位資料。",
-        "examples": [
-          {
-            "en": "She scanned the newspaper for job listings.",
-            "zh": "她瀏覽報紙尋找徵才廣告。"
-          }
+        "grammarPatterns": [
+          "scan + noun",
+          "scan sth for + noun",
+          "scan through + noun"
         ],
         "collocations": [
           {
@@ -1529,7 +1952,27 @@
             "text": "scan the headlines",
             "meaningZh": "瀏覽新聞標題"
           }
+        ],
+        "examples": [
+          {
+            "en": "She scanned the newspaper for job listings.",
+            "zh": "她瀏覽報紙尋找徵才廣告。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "skim",
+        "noteZh": "限快速瀏覽義"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "scanner",
+        "partOfSpeech": "noun",
+        "meaningZh": "掃描器"
       }
     ],
     "tags": [
@@ -1544,14 +1987,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "skim",
-        "noteZh": "限快速瀏覽義"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_scandal",
@@ -1565,21 +2001,43 @@
       {
         "id": "s_scandal_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal"
+        ],
         "definitionEn": "a situation or event involving shameful or dishonest behavior that shocks public opinion",
         "definitionZh": "醜聞",
         "usageExplanationZh": "常見 political/financial scandal，強調公開後引發輿論譁然的不道德或違法行為。",
-        "examples": [
-          {
-            "en": "The corruption scandal forced the mayor to resign.",
-            "zh": "這起貪腐醜聞迫使市長辭職。"
-          }
+        "grammarPatterns": [
+          "a corruption scandal",
+          "be involved in a scandal",
+          "a scandal breaks"
         ],
         "collocations": [
           {
             "text": "a political scandal",
             "meaningZh": "政治醜聞"
           }
+        ],
+        "examples": [
+          {
+            "en": "The corruption scandal forced the mayor to resign.",
+            "zh": "這起貪腐醜聞迫使市長辭職。"
+          }
         ]
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "scandalous",
+        "partOfSpeech": "adjective",
+        "meaningZh": "醜聞的；駭人聽聞的"
+      },
+      {
+        "lemma": "scandalize",
+        "partOfSpeech": "verb",
+        "meaningZh": "使震驚；使反感"
       }
     ],
     "tags": [
@@ -1594,9 +2052,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_scant",
@@ -1610,21 +2066,47 @@
       {
         "id": "s_scant_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "formal",
+          "academic"
+        ],
         "definitionEn": "to provide an insufficient or inadequate amount of something",
         "definitionZh": "吝於給予；限制",
         "usageExplanationZh": "較少見的動詞用法，強調刻意減少或給予不足；更常見的形容詞用法（scant attention）指數量極少。",
-        "examples": [
-          {
-            "en": "The report scants the environmental risks involved.",
-            "zh": "這份報告對其中的環境風險輕描淡寫。"
-          }
+        "grammarPatterns": [
+          "scant + noun"
         ],
         "collocations": [
           {
             "text": "scant the details",
             "meaningZh": "對細節交代不足"
           }
+        ],
+        "examples": [
+          {
+            "en": "The report scants the environmental risks involved.",
+            "zh": "這份報告對其中的環境風險輕描淡寫。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "skimp on",
+        "noteZh": "吝於給予；少用"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "scanty",
+        "partOfSpeech": "adjective",
+        "meaningZh": "不足的；稀少的"
+      },
+      {
+        "lemma": "scantily",
+        "partOfSpeech": "adverb",
+        "meaningZh": "不足地；稀少地"
       }
     ],
     "tags": [
@@ -1638,14 +2120,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "skimp on",
-        "noteZh": "吝於給予；少用"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_scar",
@@ -1659,14 +2134,17 @@
       {
         "id": "s_scar_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "a mark left on the skin after a wound has healed, or a lasting effect of a painful experience",
         "definitionZh": "疤痕；創傷",
         "usageExplanationZh": "字面指皮膚傷疤；比喻指心理上難以抹滅的創傷，如 emotional scars。",
-        "examples": [
-          {
-            "en": "The surgery left a small scar on his arm.",
-            "zh": "這次手術在他手臂上留下了一道小疤痕。"
-          }
+        "grammarPatterns": [
+          "leave a scar on + noun",
+          "a scar from + noun",
+          "bear the scars of + noun"
         ],
         "collocations": [
           {
@@ -1677,9 +2155,17 @@
             "text": "emotional scars",
             "meaningZh": "情感創傷"
           }
+        ],
+        "examples": [
+          {
+            "en": "The surgery left a small scar on his arm.",
+            "zh": "這次手術在他手臂上留下了一道小疤痕。"
+          }
         ]
       }
     ],
+    "synonyms": [],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -1692,9 +2178,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [],
-    "antonyms": []
+    }
   },
   {
     "id": "w_scarcely",
@@ -1708,21 +2192,49 @@
       {
         "id": "s_scarcely_adverb",
         "partOfSpeech": "adverb",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "almost not at all; barely",
         "definitionZh": "幾乎不；僅僅",
         "usageExplanationZh": "常見 scarcely + had/could，強調程度極輕微，語氣比 hardly 稍正式。",
-        "examples": [
-          {
-            "en": "She had scarcely arrived when the meeting started.",
-            "zh": "她才剛到，會議就開始了。"
-          }
+        "grammarPatterns": [
+          "scarcely + verb",
+          "had scarcely + past participle + when + clause",
+          "scarcely any + noun"
         ],
         "collocations": [
           {
             "text": "scarcely any",
             "meaningZh": "幾乎沒有"
           }
+        ],
+        "examples": [
+          {
+            "en": "She had scarcely arrived when the meeting started.",
+            "zh": "她才剛到，會議就開始了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "barely",
+        "noteZh": "幾乎不"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "scarce",
+        "partOfSpeech": "adjective",
+        "meaningZh": "稀少的；缺乏的"
+      },
+      {
+        "lemma": "scarcity",
+        "partOfSpeech": "noun",
+        "meaningZh": "缺乏；短缺"
       }
     ],
     "tags": [
@@ -1736,14 +2248,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "barely",
-        "noteZh": "幾乎不"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_scarcity",
@@ -1757,21 +2262,53 @@
       {
         "id": "s_scarcity_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "a situation in which there is not enough of something needed",
         "definitionZh": "缺乏；短缺",
         "usageExplanationZh": "常見 water scarcity、food scarcity，指資源供不應求的狀態。",
-        "examples": [
-          {
-            "en": "The drought led to a scarcity of clean water.",
-            "zh": "乾旱導致了乾淨用水的短缺。"
-          }
+        "grammarPatterns": [
+          "a scarcity of + noun",
+          "lead to a scarcity of + noun"
         ],
         "collocations": [
           {
             "text": "water scarcity",
             "meaningZh": "水資源短缺"
           }
+        ],
+        "examples": [
+          {
+            "en": "The drought led to a scarcity of clean water.",
+            "zh": "乾旱導致了乾淨用水的短缺。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "shortage",
+        "noteZh": "短缺"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "abundance",
+        "noteZh": "充裕"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "scarce",
+        "partOfSpeech": "adjective",
+        "meaningZh": "稀少的；缺乏的"
+      },
+      {
+        "lemma": "scarcely",
+        "partOfSpeech": "adverb",
+        "meaningZh": "幾乎不"
       }
     ],
     "tags": [
@@ -1784,19 +2321,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "shortage",
-        "noteZh": "短缺"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "abundance",
-        "noteZh": "充裕"
-      }
-    ]
+    }
   },
   {
     "id": "w_scare",
@@ -1810,14 +2335,16 @@
       {
         "id": "s_scare_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a sudden feeling of fear, or an event that causes widespread alarm",
         "definitionZh": "驚嚇；恐慌",
         "usageExplanationZh": "常見 health scare、give someone a scare，指突發的恐懼感或引發大眾憂慮的事件。",
-        "examples": [
-          {
-            "en": "The health scare made everyone more cautious about hygiene.",
-            "zh": "這次健康恐慌讓大家對衛生更加謹慎。"
-          }
+        "grammarPatterns": [
+          "a health scare",
+          "give sb a scare",
+          "a scare over + noun"
         ],
         "collocations": [
           {
@@ -1828,7 +2355,27 @@
             "text": "a health scare",
             "meaningZh": "健康恐慌"
           }
+        ],
+        "examples": [
+          {
+            "en": "The health scare made everyone more cautious about hygiene.",
+            "zh": "這次健康恐慌讓大家對衛生更加謹慎。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "fright",
+        "noteZh": "驚嚇"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "scary",
+        "partOfSpeech": "adjective",
+        "meaningZh": "可怕的；嚇人的"
       }
     ],
     "tags": [
@@ -1842,14 +2389,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "fright",
-        "noteZh": "驚嚇"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_scathing",
@@ -1863,21 +2403,49 @@
       {
         "id": "s_scathing_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "extremely harsh and critical",
         "definitionZh": "嚴厲批評的；尖刻的",
         "usageExplanationZh": "常修飾 review、criticism，強調言辭猛烈、毫不留情的批評。",
-        "examples": [
-          {
-            "en": "The critic wrote a scathing review of the new restaurant.",
-            "zh": "這位評論家對這家新餐廳寫了一篇嚴厲的評論。"
-          }
+        "grammarPatterns": [
+          "a scathing + noun",
+          "be scathing about + noun",
+          "scathing criticism of + noun"
         ],
         "collocations": [
           {
             "text": "scathing criticism",
             "meaningZh": "尖刻的批評"
           }
+        ],
+        "examples": [
+          {
+            "en": "The critic wrote a scathing review of the new restaurant.",
+            "zh": "這位評論家對這家新餐廳寫了一篇嚴厲的評論。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "withering",
+        "noteZh": "尖刻嚴厲的"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "complimentary",
+        "noteZh": "讚美的"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "scathingly",
+        "partOfSpeech": "adverb",
+        "meaningZh": "尖刻地；嚴厲地"
       }
     ],
     "tags": [
@@ -1890,19 +2458,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "withering",
-        "noteZh": "尖刻嚴厲的"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "complimentary",
-        "noteZh": "讚美的"
-      }
-    ]
+    }
   },
   {
     "id": "w_scatter",
@@ -1916,21 +2472,48 @@
       {
         "id": "s_scatter_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to move or throw things in different directions so they spread out over an area",
         "definitionZh": "使散開；散布",
         "usageExplanationZh": "常見 scatter seeds/papers，也可指人群因驚嚇而四散逃開。",
-        "examples": [
-          {
-            "en": "The pigeons scattered when the dog ran towards them.",
-            "zh": "狗一衝過去，鴿子們就四散飛開了。"
-          }
+        "grammarPatterns": [
+          "scatter + noun",
+          "scatter sth over + noun",
+          "the crowd scatters"
         ],
         "collocations": [
           {
             "text": "scatter seeds",
             "meaningZh": "撒播種子"
           }
+        ],
+        "examples": [
+          {
+            "en": "The pigeons scattered when the dog ran towards them.",
+            "zh": "狗一衝過去，鴿子們就四散飛開了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "disperse",
+        "noteZh": "使分散"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "gather",
+        "noteZh": "聚集"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "scattering",
+        "partOfSpeech": "noun",
+        "meaningZh": "散布；零星分布"
       }
     ],
     "tags": [
@@ -1945,19 +2528,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "disperse",
-        "noteZh": "使分散"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "gather",
-        "noteZh": "聚集"
-      }
-    ]
+    }
   },
   {
     "id": "w_scenario",
@@ -1971,21 +2542,44 @@
       {
         "id": "s_scenario_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "business"
+        ],
         "definitionEn": "a possible sequence of events or situation that could happen in the future",
         "definitionZh": "情境；可能發生的狀況",
         "usageExplanationZh": "常見 worst-case scenario（最壞情況），指假設或推演出的一種可能局面。",
-        "examples": [
-          {
-            "en": "Analysts outlined several possible scenarios for the economy next year.",
-            "zh": "分析師勾勒出明年經濟可能出現的幾種情境。"
-          }
+        "grammarPatterns": [
+          "a possible scenario",
+          "a worst-case scenario",
+          "in this scenario"
         ],
         "collocations": [
           {
             "text": "a worst-case scenario",
             "meaningZh": "最壞的情況"
           }
+        ],
+        "examples": [
+          {
+            "en": "Analysts outlined several possible scenarios for the economy next year.",
+            "zh": "分析師勾勒出明年經濟可能出現的幾種情境。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "situation",
+        "noteZh": "可能出現的情況"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "scene",
+        "partOfSpeech": "noun",
+        "meaningZh": "場景；情景"
       }
     ],
     "tags": [
@@ -1998,14 +2592,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "situation",
-        "noteZh": "可能出現的情況"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_scenery",
@@ -2019,21 +2606,48 @@
       {
         "id": "s_scenery_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "the natural features of a landscape, especially when considered attractive",
         "definitionZh": "風景；景色",
         "usageExplanationZh": "常見 mountain scenery，也可指戲劇舞台的布景（stage scenery）。",
-        "examples": [
-          {
-            "en": "The train ride offered breathtaking mountain scenery.",
-            "zh": "這趟火車之旅沿途山景令人屏息。"
-          }
+        "grammarPatterns": [
+          "beautiful scenery",
+          "admire the scenery",
+          "a change of scenery"
         ],
         "collocations": [
           {
             "text": "spectacular scenery",
             "meaningZh": "壯麗的風景"
           }
+        ],
+        "examples": [
+          {
+            "en": "The train ride offered breathtaking mountain scenery.",
+            "zh": "這趟火車之旅沿途山景令人屏息。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "landscape",
+        "noteZh": "指自然風景"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "scenic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "風景優美的"
+      },
+      {
+        "lemma": "scene",
+        "partOfSpeech": "noun",
+        "meaningZh": "景色；場面"
       }
     ],
     "tags": [
@@ -2047,14 +2661,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "landscape",
-        "noteZh": "指自然風景"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_scent",
@@ -2068,23 +2675,39 @@
       {
         "id": "s_scent_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "literary"
+        ],
         "definitionEn": "a distinctive smell, especially a pleasant one",
         "definitionZh": "香味；氣味",
         "usageExplanationZh": "常見 the scent of flowers，也可指動物追蹤獵物所依循的氣味痕跡。",
-        "examples": [
-          {
-            "en": "The scent of fresh coffee filled the kitchen.",
-            "zh": "新鮮咖啡的香味瀰漫了整間廚房。"
-          }
+        "grammarPatterns": [
+          "the scent of + noun",
+          "pick up a scent",
+          "a faint scent"
         ],
         "collocations": [
           {
             "text": "the scent of roses",
             "meaningZh": "玫瑰花香"
           }
+        ],
+        "examples": [
+          {
+            "en": "The scent of fresh coffee filled the kitchen.",
+            "zh": "新鮮咖啡的香味瀰漫了整間廚房。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "aroma",
+        "noteZh": "尤指宜人的香味"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2096,14 +2719,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "aroma",
-        "noteZh": "尤指宜人的香味"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_schedule",
@@ -2117,14 +2733,17 @@
       {
         "id": "s_schedule_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "neutral",
+          "business"
+        ],
         "definitionEn": "a plan of times at which particular events or tasks are intended to happen",
         "definitionZh": "時間表；行程",
         "usageExplanationZh": "常見 tight schedule、on schedule，也可作動詞 schedule a meeting，指安排時間。",
-        "examples": [
-          {
-            "en": "Her schedule is packed with meetings this week.",
-            "zh": "她這週的行程排滿了會議。"
-          }
+        "grammarPatterns": [
+          "a busy schedule",
+          "ahead of schedule",
+          "on schedule"
         ],
         "collocations": [
           {
@@ -2135,7 +2754,27 @@
             "text": "ahead of schedule",
             "meaningZh": "比預定時間提早"
           }
+        ],
+        "examples": [
+          {
+            "en": "Her schedule is packed with meetings this week.",
+            "zh": "她這週的行程排滿了會議。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "timetable",
+        "noteZh": "時間表"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "scheduling",
+        "partOfSpeech": "noun",
+        "meaningZh": "排程；行程安排"
       }
     ],
     "tags": [
@@ -2149,14 +2788,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "timetable",
-        "noteZh": "時間表"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_scholar",
@@ -2170,21 +2802,54 @@
       {
         "id": "s_scholar_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "a person who has studied a subject in great depth, especially at an academic level",
         "definitionZh": "學者",
         "usageExplanationZh": "常見 a Fulbright scholar（傅爾布萊特學者），也可泛指博學之人。",
-        "examples": [
-          {
-            "en": "He is a respected scholar of ancient Greek philosophy.",
-            "zh": "他是一位備受尊敬的古希臘哲學學者。"
-          }
+        "grammarPatterns": [
+          "a scholar of + noun",
+          "a leading scholar",
+          "scholars argue that + clause"
         ],
         "collocations": [
           {
             "text": "a distinguished scholar",
             "meaningZh": "傑出的學者"
           }
+        ],
+        "examples": [
+          {
+            "en": "He is a respected scholar of ancient Greek philosophy.",
+            "zh": "他是一位備受尊敬的古希臘哲學學者。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "academic",
+        "noteZh": "指從事學術研究者"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "scholarly",
+        "partOfSpeech": "adjective",
+        "meaningZh": "學術性的；博學的"
+      },
+      {
+        "lemma": "scholarship",
+        "partOfSpeech": "noun",
+        "meaningZh": "獎學金；學術研究"
+      },
+      {
+        "lemma": "scholastic",
+        "partOfSpeech": "adjective",
+        "meaningZh": "學術的；學校的"
       }
     ],
     "tags": [
@@ -2197,14 +2862,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "academic",
-        "noteZh": "指從事學術研究者"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_scholarly",
@@ -2218,21 +2876,48 @@
       {
         "id": "s_scholarly_adjective",
         "partOfSpeech": "adjective",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "relating to serious academic study, or showing a lot of knowledge",
         "definitionZh": "學術性的；博學的",
         "usageExplanationZh": "常修飾 article、work，強調具有嚴謹學術水準或深厚學問，如 a scholarly journal。",
-        "examples": [
-          {
-            "en": "The professor published a scholarly article on medieval literature.",
-            "zh": "這位教授發表了一篇關於中世紀文學的學術論文。"
-          }
+        "grammarPatterns": [
+          "a scholarly + noun",
+          "a scholarly approach to + noun"
         ],
         "collocations": [
           {
             "text": "a scholarly journal",
             "meaningZh": "學術期刊"
           }
+        ],
+        "examples": [
+          {
+            "en": "The professor published a scholarly article on medieval literature.",
+            "zh": "這位教授發表了一篇關於中世紀文學的學術論文。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "academic",
+        "noteZh": "學術性的"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "scholar",
+        "partOfSpeech": "noun",
+        "meaningZh": "學者"
+      },
+      {
+        "lemma": "scholarship",
+        "partOfSpeech": "noun",
+        "meaningZh": "學術研究"
       }
     ],
     "tags": [
@@ -2245,14 +2930,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "academic",
-        "noteZh": "學術性的"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_scholarship",
@@ -2266,21 +2944,49 @@
       {
         "id": "s_scholarship_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "neutral"
+        ],
         "definitionEn": "an amount of money given to a student to help pay for their education, based on merit or need",
         "definitionZh": "獎學金",
         "usageExplanationZh": "常見 win/receive a scholarship，指依成績或需求提供的助學補助。",
-        "examples": [
-          {
-            "en": "She received a full scholarship to study engineering.",
-            "zh": "她獲得了全額獎學金攻讀工程學。"
-          }
+        "grammarPatterns": [
+          "win a scholarship",
+          "a scholarship to + noun",
+          "a full scholarship"
         ],
         "collocations": [
           {
             "text": "win a scholarship",
             "meaningZh": "獲得獎學金"
           }
+        ],
+        "examples": [
+          {
+            "en": "She received a full scholarship to study engineering.",
+            "zh": "她獲得了全額獎學金攻讀工程學。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "grant",
+        "noteZh": "指教育用途補助款"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "scholar",
+        "partOfSpeech": "noun",
+        "meaningZh": "學者"
+      },
+      {
+        "lemma": "scholarly",
+        "partOfSpeech": "adjective",
+        "meaningZh": "學術性的"
       }
     ],
     "tags": [
@@ -2294,14 +3000,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "grant",
-        "noteZh": "指教育用途補助款"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_scoop",
@@ -2315,23 +3014,37 @@
       {
         "id": "s_scoop_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "informal"
+        ],
         "definitionEn": "a piece of important or exciting news reported by one journalist or organization before others",
         "definitionZh": "獨家新聞",
         "usageExplanationZh": "新聞語境指搶先報導的重大消息；日常語境也可指用來舀取的工具（ice cream scoop）。",
-        "examples": [
-          {
-            "en": "The reporter got a major scoop on the political scandal.",
-            "zh": "這名記者搶先獨家報導了這起政治醜聞。"
-          }
+        "grammarPatterns": [
+          "get a scoop on + noun",
+          "an exclusive scoop"
         ],
         "collocations": [
           {
             "text": "a major scoop",
             "meaningZh": "重大獨家新聞"
           }
+        ],
+        "examples": [
+          {
+            "en": "The reporter got a major scoop on the political scandal.",
+            "zh": "這名記者搶先獨家報導了這起政治醜聞。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "exclusive",
+        "noteZh": "作名詞，指獨家報導"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2344,14 +3057,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "exclusive",
-        "noteZh": "作名詞，指獨家報導"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_scope",
@@ -2365,23 +3071,39 @@
       {
         "id": "s_scope_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "academic",
+          "formal"
+        ],
         "definitionEn": "the range of things that a subject, activity, or study deals with",
         "definitionZh": "範圍",
         "usageExplanationZh": "常見 within/beyond the scope of，指某事物涵蓋或涉及的界限。",
-        "examples": [
-          {
-            "en": "The scope of the investigation was later expanded to include other departments.",
-            "zh": "這項調查的範圍後來擴大到包含其他部門。"
-          }
+        "grammarPatterns": [
+          "the scope of + noun",
+          "beyond the scope of + noun",
+          "broaden the scope of + noun"
         ],
         "collocations": [
           {
             "text": "beyond the scope of",
             "meaningZh": "超出……的範圍"
           }
+        ],
+        "examples": [
+          {
+            "en": "The scope of the investigation was later expanded to include other departments.",
+            "zh": "這項調查的範圍後來擴大到包含其他部門。"
+          }
         ]
       }
     ],
+    "synonyms": [
+      {
+        "lemma": "range",
+        "noteZh": "涵蓋的範圍"
+      }
+    ],
+    "antonyms": [],
     "tags": [
       "dictionary",
       "toefl",
@@ -2393,14 +3115,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "range",
-        "noteZh": "涵蓋的範圍"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_scorch",
@@ -2414,21 +3129,42 @@
       {
         "id": "s_scorch_verb",
         "partOfSpeech": "verb",
+        "register": [
+          "neutral"
+        ],
         "definitionEn": "to burn the surface of something slightly, causing discoloration or damage",
         "definitionZh": "燒焦；烤焦",
         "usageExplanationZh": "常接 fabric、grass 等受詞，強調表面因高溫而輕微受損變色。",
-        "examples": [
-          {
-            "en": "The iron was too hot and scorched the shirt.",
-            "zh": "熨斗太燙，把襯衫燙焦了。"
-          }
+        "grammarPatterns": [
+          "scorch + noun",
+          "be scorched by + noun"
         ],
         "collocations": [
           {
             "text": "scorch the fabric",
             "meaningZh": "把布料燙焦"
           }
+        ],
+        "examples": [
+          {
+            "en": "The iron was too hot and scorched the shirt.",
+            "zh": "熨斗太燙，把襯衫燙焦了。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "singe",
+        "noteZh": "燒焦表面"
+      }
+    ],
+    "antonyms": [],
+    "wordFamily": [
+      {
+        "lemma": "scorching",
+        "partOfSpeech": "adjective",
+        "meaningZh": "灼熱的；酷熱的"
       }
     ],
     "tags": [
@@ -2443,14 +3179,7 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "singe",
-        "noteZh": "燒焦表面"
-      }
-    ],
-    "antonyms": []
+    }
   },
   {
     "id": "w_scorn",
@@ -2464,21 +3193,54 @@
       {
         "id": "s_scorn_noun",
         "partOfSpeech": "noun",
+        "register": [
+          "formal",
+          "literary"
+        ],
         "definitionEn": "a strong feeling that someone or something deserves no respect at all",
         "definitionZh": "輕蔑；鄙視",
         "usageExplanationZh": "常見 treat with scorn，強調對人或事物完全不屑一顧的態度，語氣強烈。",
-        "examples": [
-          {
-            "en": "She looked at the proposal with obvious scorn.",
-            "zh": "她帶著明顯的輕蔑神情看著這份提案。"
-          }
+        "grammarPatterns": [
+          "pour scorn on + noun",
+          "with scorn",
+          "scorn for + noun"
         ],
         "collocations": [
           {
             "text": "pour scorn on",
             "meaningZh": "大肆嘲弄……"
           }
+        ],
+        "examples": [
+          {
+            "en": "She looked at the proposal with obvious scorn.",
+            "zh": "她帶著明顯的輕蔑神情看著這份提案。"
+          }
         ]
+      }
+    ],
+    "synonyms": [
+      {
+        "lemma": "contempt",
+        "noteZh": "輕蔑"
+      }
+    ],
+    "antonyms": [
+      {
+        "lemma": "respect",
+        "noteZh": "尊重"
+      }
+    ],
+    "wordFamily": [
+      {
+        "lemma": "scornful",
+        "partOfSpeech": "adjective",
+        "meaningZh": "輕蔑的；鄙視的"
+      },
+      {
+        "lemma": "scornfully",
+        "partOfSpeech": "adverb",
+        "meaningZh": "輕蔑地"
       }
     ],
     "tags": [
@@ -2492,18 +3254,6 @@
       "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
       "license": "MIT",
       "cefrEstimated": true
-    },
-    "synonyms": [
-      {
-        "lemma": "contempt",
-        "noteZh": "輕蔑"
-      }
-    ],
-    "antonyms": [
-      {
-        "lemma": "respect",
-        "noteZh": "尊重"
-      }
-    ]
+    }
   }
 ]
