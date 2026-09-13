@@ -1,0 +1,362 @@
+[
+  {
+    "id": "q_gr3_inhibit_from_01",
+    "type": "grammar",
+    "cefr": "C1",
+    "wordIds": ["w_inhibit"],
+    "prompt": "Choose the option that correctly completes the sentence.",
+    "context": "Laboratory trials suggest that the compound inhibits the bacterium ____ the host cell wall, which halts the infection before symptoms appear.",
+    "options": [
+      { "id": "a", "text": "from penetrating" },
+      { "id": "b", "text": "to penetrate" },
+      { "id": "c", "text": "penetrating" },
+      { "id": "d", "text": "of penetrating" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "inhibit 屬於「阻止類」動詞，句型是 inhibit somebody/something from + V-ing，與 prevent、stop、discourage 同一族；受詞後面必須有介系詞 from，其後只能接動名詞。單純接名詞時則是 inhibit growth 這種及物用法。",
+    "distractorExplanations": {
+      "b": "inhibit 不屬於 allow／enable／cause 那種「受詞 + to 不定詞」的動詞，接不定詞不合語法，也會誤讓句子讀成「抑制細菌去做某事的能力」以外的結構。",
+      "c": "少了 from，句子變成 inhibit + 受詞 + 動名詞的雙補語結構，英文的阻止類動詞並不允許這種省略；prevent 在口語中可省略 from，inhibit 不行。",
+      "d": "of 不能引出被阻止的動作；of + V-ing 只出現在 accuse somebody of doing 這類指控類動詞後面。"
+    },
+    "difficulty": 4,
+    "tags": ["grammar", "science"],
+    "source": "curated"
+  },
+  {
+    "id": "q_gr3_implore_infinitive_01",
+    "type": "grammar",
+    "cefr": "C2",
+    "wordIds": ["w_implore"],
+    "prompt": "Choose the option that correctly completes the sentence.",
+    "context": "In her closing statement the defence counsel implored the jurors ____ the witness on the strength of his accent alone.",
+    "options": [
+      { "id": "a", "text": "not judging" },
+      { "id": "b", "text": "not to judge" },
+      { "id": "c", "text": "don't judge" },
+      { "id": "d", "text": "not judge" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "implore 與 urge、beg、persuade 同型：implore somebody to + 原形動詞，否定時把 not 放在 to 前面，成為 implore somebody not to do something。這個 not 的位置是考點，放錯位置會改變否定的範圍。",
+    "distractorExplanations": {
+      "a": "implore 的受詞補語不能是動名詞；動名詞形式只見於 avoid、consider 這類直接接 V-ing 的動詞，且它們不先接人物受詞。",
+      "c": "don't judge 是祈使句，屬於直接引語，若要放進句中必須加引號並改寫成 said, \"Don't judge...\"，不能直接嵌在 implored the jurors 後面。",
+      "d": "原形動詞（bare infinitive）作受詞補語只出現在 make、let、have 等使役動詞之後；implore 需要完整的 to 不定詞。"
+    },
+    "difficulty": 4,
+    "tags": ["grammar", "legal"],
+    "source": "curated"
+  },
+  {
+    "id": "q_gr3_incorporate_passive_01",
+    "type": "grammar",
+    "cefr": "B2",
+    "wordIds": ["w_incorporate"],
+    "prompt": "Choose the word form that correctly completes the sentence.",
+    "context": "Several of the safety recommendations issued after the 2019 audit have still not been ____ into the operating manual that crews rely on each shift.",
+    "options": [
+      { "id": "a", "text": "incorporate" },
+      { "id": "b", "text": "incorporating" },
+      { "id": "c", "text": "incorporated" },
+      { "id": "d", "text": "incorporation" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "have been + 過去分詞是現在完成式的被動語態。主詞 recommendations 是被納入的一方，所以用 incorporated；主動句型則是 incorporate A into B（把 A 納入 B），被動之後 into B 仍然保留在後面。",
+    "distractorExplanations": {
+      "a": "been 之後不能接原形動詞；原形只出現在助動詞 will、can 或 to 之後。",
+      "b": "been incorporating 是完成進行式的主動語態，等於說這些建議自己在納入別的東西，與 into the operating manual 所表達的方向相反。",
+      "d": "incorporation 是名詞，be 動詞後若接名詞須有冠詞，而且名詞不能再帶 into 片語構成這樣的句子。"
+    },
+    "difficulty": 3,
+    "tags": ["grammar", "technical"],
+    "source": "curated"
+  },
+  {
+    "id": "q_gr3_inquire_whether_01",
+    "type": "grammar",
+    "cefr": "C1",
+    "wordIds": ["w_inquire"],
+    "prompt": "Choose the option that correctly completes the sentence.",
+    "context": "Before releasing the second instalment, the compliance officer wrote to the vendor to inquire ____ with the state registry.",
+    "options": [
+      { "id": "a", "text": "if or not the disclosure had been filed" },
+      { "id": "b", "text": "that the disclosure had been filed" },
+      { "id": "c", "text": "whether had the disclosure been filed" },
+      { "id": "d", "text": "whether the disclosure had been filed" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "inquire 可接 whether 引導的間接問句（inquire whether + 子句）。間接問句一律使用「主詞 + 動詞」的直述語序，不做主詞與助動詞的倒裝，所以是 whether the disclosure had been filed。",
+    "distractorExplanations": {
+      "a": "「或否」的用法只有 whether or not 一種寫法；if 不能與 or not 直接相連，if 也不能緊接在 or not 之前。",
+      "b": "that 子句陳述的是已知事實，無法表達「詢問是否」的語意；inquire 詢問的是命題的真假，必須用 whether。",
+      "c": "把助動詞 had 提到主詞前面是直接問句的語序；間接問句必須還原成 the disclosure had been filed。"
+    },
+    "difficulty": 4,
+    "tags": ["grammar", "legal"],
+    "source": "curated"
+  },
+  {
+    "id": "q_gr3_insinuate_that_01",
+    "type": "grammar",
+    "cefr": "C2",
+    "wordIds": ["w_insinuate"],
+    "prompt": "Choose the option that correctly completes the sentence.",
+    "context": "Without ever naming the finance director, the internal memo insinuated ____ the shortfall had been concealed for at least two reporting periods.",
+    "options": [
+      { "id": "a", "text": "that" },
+      { "id": "b", "text": "about" },
+      { "id": "c", "text": "of" },
+      { "id": "d", "text": "as" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "insinuate 是及物動詞，句型為 insinuate that + 完整子句，用來表達「間接而帶負面意味的暗示」。整個 that 子句就是動詞的受詞，中間不需要也不能加入任何介系詞。",
+    "distractorExplanations": {
+      "b": "about 是介系詞，後面只能接名詞或動名詞，不能引導完整子句；insinuate 本身也不需要 about 才能帶出暗示的內容。",
+      "c": "of 同樣不能引導子句；of 只出現在 accuse somebody of、remind somebody of 這類「動詞 + 人 + of」的固定結構中。",
+      "d": "as 引導的是表方式或原因的副詞子句，無法充當 insinuated 的受詞，句子會失去受詞而不完整。"
+    },
+    "difficulty": 4,
+    "tags": ["grammar", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_gr3_intervene_purpose_01",
+    "type": "grammar",
+    "cefr": "B2",
+    "wordIds": ["w_intervene"],
+    "prompt": "Choose the option that correctly completes the sentence.",
+    "context": "The central bank intervened ____ the currency's slide before exporters found their long-term contracts unprofitable.",
+    "options": [
+      { "id": "a", "text": "in halting" },
+      { "id": "b", "text": "to halt" },
+      { "id": "c", "text": "for halting" },
+      { "id": "d", "text": "halting" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "intervene 有兩個常用句型：intervene in + 名詞（介入某件事）與 intervene to + 原形動詞（介入以便達成某目的）。此處說明的是央行出手的目的，所以用表目的的不定詞 to halt。",
+    "distractorExplanations": {
+      "a": "in 之後雖然可以接動名詞，但 intervene in 引出的是「所介入的事件」，例如 intervene in a dispute，不能用來表達行動的目的。",
+      "c": "for + 動名詞說明的是某項工具或事物的用途，例如 a tool for cutting metal，不用於說明某人採取行動的目的。",
+      "d": "不及物動詞 intervened 後面不能直接接動名詞；若寫成分詞構句，halting 會被讀成與主動詞同時發生的附帶動作，而非目的。"
+    },
+    "difficulty": 3,
+    "tags": ["grammar", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_gr3_justify_gerund_01",
+    "type": "grammar",
+    "cefr": "B2",
+    "wordIds": ["w_justify"],
+    "prompt": "Choose the option that correctly completes the sentence.",
+    "context": "Nothing in the quarterly figures justifies ____ a third of the research staff before the new product line has even reached the market.",
+    "options": [
+      { "id": "a", "text": "to cut" },
+      { "id": "b", "text": "cut" },
+      { "id": "c", "text": "cutting" },
+      { "id": "d", "text": "to cutting" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "justify 是典型的動名詞動詞：justify + V-ing（justify cutting、justify raising）。動名詞保留動詞性質，因此可以直接帶受詞 a third of the research staff，不必再加介系詞。",
+    "distractorExplanations": {
+      "a": "justify 不接不定詞，這是中文母語者最常見的錯誤；若要用不定詞，須改寫成 there is no justification for cutting 或 it is not justifiable to cut。",
+      "b": "cut 是原形動詞，及物動詞 justifies 的受詞不能是原形動詞。",
+      "d": "justify 之後不加介系詞 to；to + 動名詞只出現在 be accustomed to、look forward to 這類以 to 作介系詞的固定搭配中。"
+    },
+    "difficulty": 3,
+    "tags": ["grammar", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_gr3_keen_infinitive_01",
+    "type": "grammar",
+    "cefr": "B2",
+    "wordIds": ["w_keen"],
+    "prompt": "Choose the option that correctly completes the sentence.",
+    "context": "The board is keen ____ the pilot programme to two more cities, but it wants an independent audit of the cost figures first.",
+    "options": [
+      { "id": "a", "text": "to extend" },
+      { "id": "b", "text": "on extend" },
+      { "id": "c", "text": "extending" },
+      { "id": "d", "text": "for extending" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "keen 有兩種互補的句型：be keen to + 原形動詞（急於做某事）與 be keen on + 動名詞（熱衷於某事）。兩者不能混用；本句要表達董事會想採取的行動，用 be keen to extend 最為直接。",
+    "distractorExplanations": {
+      "b": "on 是介系詞，後面必須接動名詞 extending，不能接原形動詞 extend。",
+      "c": "形容詞 keen 不能直接連接動名詞，中間一定要有介系詞 on 才能成立。",
+      "d": "keen 不與 for + 動名詞搭配；for 只用於 be keen for somebody to do something 這個把邏輯主詞帶出來的結構。"
+    },
+    "difficulty": 3,
+    "tags": ["grammar", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_gr3_lapse_allow_01",
+    "type": "grammar",
+    "cefr": "C1",
+    "wordIds": ["w_lapse"],
+    "prompt": "Choose the option that correctly completes the sentence.",
+    "context": "Because the compliance team allowed the plant's export certification ____ , shipments to the European market had to be suspended for six weeks.",
+    "options": [
+      { "id": "a", "text": "lapse" },
+      { "id": "b", "text": "lapsing" },
+      { "id": "c", "text": "lapsed" },
+      { "id": "d", "text": "to lapse" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "allow 屬於「allow + 受詞 + to + 原形動詞」的句型，而 lapse 作動詞時指證照、保單、會員資格因未續辦而失效，兩者合起來的 allow something to lapse 正是這個語意的固定說法。",
+    "distractorExplanations": {
+      "a": "原形動詞作受詞補語只用於 let、make、have 等使役動詞；allow 一定要有 to。",
+      "b": "allow + V-ing 只在沒有受詞時成立，例如 the museum does not allow photographing；一旦出現受詞 the certification，就必須改用不定詞。",
+      "c": "過去分詞在此會構成 allow something done 的結構，表示「讓某物被處置」，但 lapse 是不及物動詞，沒有被動意義，無法這樣使用。"
+    },
+    "difficulty": 4,
+    "tags": ["grammar", "legal"],
+    "source": "curated"
+  },
+  {
+    "id": "q_gr3_mandatory_for_01",
+    "type": "grammar",
+    "cefr": "C1",
+    "wordIds": ["w_mandatory"],
+    "prompt": "Choose the option that correctly completes the sentence.",
+    "context": "Under the revised safety code it is mandatory ____ every contractor working above ten metres to carry a second anchor line at all times.",
+    "options": [
+      { "id": "a", "text": "of" },
+      { "id": "b", "text": "for" },
+      { "id": "c", "text": "that" },
+      { "id": "d", "text": "to" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "「it is + 形容詞 + for somebody + to + 原形動詞」是虛主詞句型，for 片語帶出不定詞的邏輯主詞。mandatory 描述的是規定本身，屬於這一類形容詞，所以用 for every contractor 指出義務落在誰身上。",
+    "distractorExplanations": {
+      "a": "of 只用於評論人品格的形容詞，如 it was kind of you to help；mandatory 評論的是規定而非某人的品格。",
+      "c": "that 引導的是完整子句，後面必須有動詞（it is mandatory that every contractor carry a second line），不能接 to carry 這個不定詞。",
+      "d": "it is mandatory to + V 本身是正確句型，但那個結構裡不能再插入 every contractor 這個名詞主語。"
+    },
+    "difficulty": 4,
+    "tags": ["grammar", "legal"],
+    "source": "curated"
+  },
+  {
+    "id": "q_gr3_indulge_in_01",
+    "type": "grammar",
+    "cefr": "C1",
+    "wordIds": ["w_indulge"],
+    "prompt": "Choose the option that correctly completes the sentence.",
+    "context": "Senior partners are expected to set an example for junior staff, not to indulge ____ the kind of expense-account extravagance the audit uncovered.",
+    "options": [
+      { "id": "a", "text": "on" },
+      { "id": "b", "text": "with" },
+      { "id": "c", "text": "in" },
+      { "id": "d", "text": "to" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "indulge 作不及物動詞時固定搭配 in：indulge in something（沉溺於、放縱地享受某事），後面可接名詞或動名詞。若要接人作受詞則是另一個及物用法 indulge a child（寵溺孩子），兩者不可混用。",
+    "distractorExplanations": {
+      "a": "on 用於 splurge on、spend money on 這類「花費在某物上」的動詞，indulge 不與 on 搭配。",
+      "b": "with 表示伴隨或工具，無法引出所沉溺的對象，句子會變成「和某種奢侈一起放縱」。",
+      "d": "to 出現在 give in to temptation、succumb to 這類「屈服於」的說法中；indulge 不接 to。"
+    },
+    "difficulty": 4,
+    "tags": ["grammar", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_gr3_mediate_between_01",
+    "type": "grammar",
+    "cefr": "C1",
+    "wordIds": ["w_mediate"],
+    "prompt": "Choose the option that correctly completes the sentence.",
+    "context": "A retired appellate judge was brought in to mediate ____ the two unions after eleven rounds of direct talks had ended without agreement.",
+    "options": [
+      { "id": "a", "text": "among" },
+      { "id": "b", "text": "with" },
+      { "id": "c", "text": "in" },
+      { "id": "d", "text": "between" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "mediate 引出爭議雙方時用 mediate between A and B；此處 the two unions 已把雙方包成一個複數名詞組，仍屬「兩造之間」，所以用 between。若要引出爭議本身則改成及物用法 mediate a dispute。",
+    "distractorExplanations": {
+      "a": "among 用於三方以上或界線不明的群體；句中明確寫出 the two unions，兩造之間必須用 between。",
+      "b": "with 表示「與某人共同進行」，用在 negotiate with the unions（與工會談判）；調解者是中立第三方，不站在任何一方，所以不能用 with。",
+      "c": "mediate in 後面接的是爭端本身，例如 mediate in the dispute，不能接爭端的當事人。"
+    },
+    "difficulty": 4,
+    "tags": ["grammar", "legal"],
+    "source": "curated"
+  },
+  {
+    "id": "q_gr3_neglect_infinitive_01",
+    "type": "grammar",
+    "cefr": "B2",
+    "wordIds": ["w_neglect"],
+    "prompt": "Choose the option that correctly completes the sentence.",
+    "context": "The contractor neglected ____ the local authority that asbestos had been found in the roof space, and the site was shut down the following week.",
+    "options": [
+      { "id": "a", "text": "informing" },
+      { "id": "b", "text": "to inform" },
+      { "id": "c", "text": "inform" },
+      { "id": "d", "text": "having informed" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "neglect 表示「該做卻沒做」時採 neglect to + 原形動詞的句型，與 fail to、omit to 同類；不定詞指向一個未實現的動作，正好對應「沒有通知」的語意。接名詞受詞時才是 neglect one's duties 這種及物用法。",
+    "distractorExplanations": {
+      "a": "neglect 不接動名詞作受詞；forget、remember 才有 V-ing 與 to + V 兩種形式並藉此區分語意。",
+      "c": "inform 是原形動詞，不能直接充當及物動詞 neglected 的受詞。",
+      "d": "having informed 是完成動名詞，表示先前已完成的動作，既不符合語法上的受詞要求，也與句意所說的「未通知」完全相反。"
+    },
+    "difficulty": 4,
+    "tags": ["grammar", "legal"],
+    "source": "curated"
+  },
+  {
+    "id": "q_gr3_nominate_for_01",
+    "type": "grammar",
+    "cefr": "B2",
+    "wordIds": ["w_nominate"],
+    "prompt": "Choose the option that correctly completes the sentence.",
+    "context": "Professor Weller was nominated ____ the national teaching prize by three separate departments, none of which had consulted the others.",
+    "options": [
+      { "id": "a", "text": "as" },
+      { "id": "b", "text": "to" },
+      { "id": "c", "text": "for" },
+      { "id": "d", "text": "with" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "提名去角逐某個獎項或職位時用 nominate somebody for something，被動語態則是 be nominated for。句末的 by three separate departments 是被動句的行為者，正好印證這是 nominate 的被動用法。",
+    "distractorExplanations": {
+      "a": "as 後面接的是身分或職稱，例如 nominated as chair of the committee；獎項不是身分，不能用 as。",
+      "b": "nominate to 用於「提名進入某個機構」，例如 nominated to the board；獎項不是可以進入的組織。",
+      "d": "with 表伴隨或工具，無法引出提名所指向的目標，句子會缺少提名的對象。"
+    },
+    "difficulty": 3,
+    "tags": ["grammar", "academic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_gr3_notify_of_01",
+    "type": "grammar",
+    "cefr": "C1",
+    "wordIds": ["w_notify"],
+    "prompt": "Choose the option that correctly completes the sentence.",
+    "context": "Clause 12 requires the insurer to notify ____ within five working days of the decision being taken.",
+    "options": [
+      { "id": "a", "text": "the policyholder of any change to the premium" },
+      { "id": "b", "text": "to the policyholder any change to the premium" },
+      { "id": "c", "text": "any change to the premium to the policyholder" },
+      { "id": "d", "text": "of any change to the premium the policyholder" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "notify 的直接受詞必須是「被通知的人」，通知的內容則由 of 帶出：notify somebody of something，也可以改用 notify somebody that + 子句。inform、advise、assure 都遵守同一個語序。",
+    "distractorExplanations": {
+      "b": "這是中文「通知給某人」的直譯。notify 不像 explain、announce 需要 to，人物直接當受詞，中間不加介系詞。",
+      "c": "把通知的內容當成直接受詞是常見錯誤；say、announce 可以這樣用，notify 與 inform 都不行。",
+      "d": "介系詞片語不能插在動詞與其受詞之間，且此語序把人與內容的位置完全顛倒。"
+    },
+    "difficulty": 4,
+    "tags": ["grammar", "legal"],
+    "source": "curated"
+  }
+]

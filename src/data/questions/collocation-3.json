@@ -1,0 +1,362 @@
+[
+  {
+    "id": "q_co3_exercise_caution_01",
+    "type": "collocation",
+    "cefr": "B2",
+    "wordIds": ["w_caution"],
+    "prompt": "Which verb takes \"caution\" as its object?",
+    "context": "Technicians are reminded to ____ extreme caution when the reactor is running at pressures above forty bar, since a single misread gauge can shut the whole line down for a week.",
+    "options": [
+      { "id": "a", "text": "exercise" },
+      { "id": "b", "text": "perform" },
+      { "id": "c", "text": "apply" },
+      { "id": "d", "text": "conduct" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "exercise caution 是安全守則與作業手冊裡的固定說法。exercise 在這個用法中不是「運動」，而是「行使、施展某種本來就具備的能力或品質」，所以它同樣搭配 exercise judgment、exercise restraint、exercise discretion、exercise one's right。caution 是人身上的一種謹慎態度，正好屬於這一類抽象品質；相對地，同義的名詞片語則說 proceed with caution。",
+    "distractorExplanations": {
+      "b": "perform 的受詞必須是一個可以被完成的具體動作或程序：perform a task、perform surgery、perform an inspection。caution 不是一道可執行的手續，而是執行手續時的態度。",
+      "c": "apply 是把某物或某規則施加到對象上：apply pressure、apply a rule、apply a coat of paint。它需要一個被施加的表面或案例，謹慎並非施加在誰身上的東西。",
+      "d": "conduct 帶的是有組織、有範圍的活動：conduct a survey、conduct an experiment、conduct an investigation。它強調主導整個過程，無法用來說「保持警覺」。"
+    },
+    "difficulty": 3,
+    "tags": ["collocation", "technical"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co3_avert_catastrophe_01",
+    "type": "collocation",
+    "cefr": "C1",
+    "wordIds": ["w_catastrophe"],
+    "prompt": "Which verb collocates with \"a catastrophe\" in the sense of stopping it before it happens?",
+    "context": "Engineers vented the tank manually at three in the morning and thereby ____ a catastrophe that would have contaminated the estuary for a generation.",
+    "options": [
+      { "id": "a", "text": "deflected" },
+      { "id": "b", "text": "averted" },
+      { "id": "c", "text": "repelled" },
+      { "id": "d", "text": "evaded" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "avert a catastrophe 是新聞與政策英文的標準搭配，avert 專指「在災禍發生之前設法讓它不發生」，同組還有 avert a crisis、avert a strike、avert disaster。它的重點在於預先介入，所以句中「凌晨三點手動洩壓」正是典型的 avert 情境；相對的另一組固定說法是 an environmental catastrophe（環境浩劫）。",
+    "distractorExplanations": {
+      "a": "deflect 是「把朝自己而來的東西撥開」：deflect criticism、deflect a question、deflect a blow。它預設有一個瞄準你的動作，而災難不是誰射過來的。",
+      "c": "repel 用於擊退實體的攻擊或使人反感：repel an invasion、repel insects、be repelled by the smell。它需要一個可以被推回去的入侵者。",
+      "d": "evade 是主體自己閃避掉本來會落到自己頭上的事：evade capture、evade tax、evade a question。它只讓自己脫身，並沒有讓災難不發生。"
+    },
+    "difficulty": 4,
+    "tags": ["collocation", "science"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co3_concede_defeat_01",
+    "type": "collocation",
+    "cefr": "B2",
+    "wordIds": ["w_concede"],
+    "prompt": "Which verb goes with \"defeat\" when a candidate publicly accepts the result?",
+    "context": "With ninety per cent of the ballots counted and a gap of eleven points, the governor telephoned her opponent and ____ defeat shortly before midnight.",
+    "options": [
+      { "id": "a", "text": "forfeited" },
+      { "id": "b", "text": "renounced" },
+      { "id": "c", "text": "conceded" },
+      { "id": "d", "text": "surrendered" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "concede defeat 是選舉與競賽英文的固定說法，指「公開承認自己輸了」，衍生出 a concession speech（敗選演說）。concede 的核心是「在對方的主張面前退讓一步」，所以它也說 concede a point（承認對方這一點有理）、concede a goal（失分）。這裡候選人並沒有放棄參選權，只是承認結果，因此只有 concede 成立。",
+    "distractorExplanations": {
+      "a": "forfeit 是「因違規或未履行而被迫喪失原有的權益」：forfeit a match、forfeit a deposit、forfeit the right to appeal。棄權判負才叫 forfeit，正常計票輸掉並不是。",
+      "b": "renounce 是正式宣告放棄自己持有的權利或身分：renounce a claim、renounce violence、renounce citizenship。敗選者放棄的不是資格，而是爭勝。",
+      "d": "surrender 的受詞是交出去的實物或己身：surrender a passport、surrender to the police。它含有向對方投降交付的意思，用在計票結果上過於軍事化。"
+    },
+    "difficulty": 3,
+    "tags": ["collocation", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co3_settle_dispute_01",
+    "type": "collocation",
+    "cefr": "B2",
+    "wordIds": ["w_dispute"],
+    "prompt": "Which verb takes \"the dispute\" as its object?",
+    "context": "The two shipping lines agreed to ____ the dispute out of court, on terms that neither side was permitted to disclose to the trade press.",
+    "options": [
+      { "id": "a", "text": "reconcile" },
+      { "id": "b", "text": "settle" },
+      { "id": "c", "text": "appease" },
+      { "id": "d", "text": "dissolve" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "settle a dispute 是法律與商務英文最常見的搭配，settle 指「以雙方接受的條件把爭議了結」，因此才有 settle out of court、a settlement agreement、an out-of-court settlement 這一整組說法。dispute 本身的固定組合還有 a labor dispute、a border dispute、be in dispute over something。",
+    "distractorExplanations": {
+      "a": "reconcile 的受詞是彼此對立的雙方或兜不攏的兩組資料：reconcile the two sides、reconcile the accounts、reconcile differences。它處理的是歧異本身，不是整樁法律爭議的了結。",
+      "c": "appease 是安撫一個生氣的人或勢力：appease critics、appease public anger。它的受詞是情緒或人，不是案件。",
+      "d": "dissolve 用於讓一個組織或法律關係不再存在：dissolve parliament、dissolve a partnership、dissolve a marriage。爭議不是被解散的實體。"
+    },
+    "difficulty": 3,
+    "tags": ["collocation", "legal"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co3_doctoral_dissertation_01",
+    "type": "collocation",
+    "cefr": "C1",
+    "wordIds": ["w_dissertation"],
+    "prompt": "Which word combines with \"dissertation\" to name a thesis written for a PhD?",
+    "context": "Her ____ dissertation, on grain prices in the eastern Mediterranean before 1350, took four years of archival work and was later published by a university press.",
+    "options": [
+      { "id": "a", "text": "doctrinal" },
+      { "id": "b", "text": "doctorate" },
+      { "id": "c", "text": "doctoral" },
+      { "id": "d", "text": "dogmatic" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "a doctoral dissertation 是學術英文的固定名稱：doctoral 是形容詞，專門修飾與博士學位有關的名詞，同組還有 doctoral candidate、doctoral supervisor、doctoral programme。dissertation 的其他固定用法是 write a dissertation on something 與 defend a dissertation，介系詞一律用 on 帶出題目。",
+    "distractorExplanations": {
+      "a": "doctrinal 來自 doctrine（教義、學說），意思是「教義上的」：a doctrinal dispute、doctrinal purity。它與博士學位毫無關係，只是拼寫相近。",
+      "b": "doctorate 是名詞「博士學位」，只能說 earn a doctorate、a doctorate in history；要修飾後面的名詞必須換成形容詞 doctoral，這是華語學習者最常見的詞類誤用。",
+      "d": "dogmatic 指「武斷、不容質疑的」：a dogmatic tone、dogmatic insistence。用在這裡會變成批評論文態度霸道，與句中「四年檔案工作」的語氣相牴觸。"
+    },
+    "difficulty": 3,
+    "tags": ["collocation", "academic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co3_discredit_witness_01",
+    "type": "collocation",
+    "cefr": "C1",
+    "wordIds": ["w_discredit"],
+    "prompt": "Which verb collocates with \"the witness\" when counsel attacks the reliability of her testimony?",
+    "context": "Rather than dispute the timeline, defence counsel spent the afternoon trying to ____ the witness, drawing the jury's attention to three earlier statements that could not all be true.",
+    "options": [
+      { "id": "a", "text": "defame" },
+      { "id": "b", "text": "slander" },
+      { "id": "c", "text": "denounce" },
+      { "id": "d", "text": "discredit" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "discredit a witness 是法庭英文的固定說法，指「讓陪審團不再相信這名證人所說的話」，重點在證詞的可信度而不是人格。discredit 同樣搭配 discredit a theory、a discredited method、be thoroughly discredited；名詞用法則是 bring discredit on someone。句中的手法（指出前後矛盾的三份陳述）正是典型的 discrediting。",
+    "distractorExplanations": {
+      "a": "defame 是法律術語，指「以不實陳述損害他人名譽」，本身即構成侵權：defame a public figure、a defamatory remark。在法庭上依法質疑證人不是誹謗。",
+      "b": "slander 專指口頭的誹謗（書面的是 libel），同樣以陳述不實為前提：sue for slander。它描述的是說話者違法，而非證詞不可信。",
+      "c": "denounce 是公開譴責某人或某事的錯誤：denounce violence、denounce the regime、denounce someone as a traitor。它訴諸道德批判，與動搖證詞可信度是兩回事。"
+    },
+    "difficulty": 4,
+    "tags": ["collocation", "legal"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co3_disperse_crowd_01",
+    "type": "collocation",
+    "cefr": "C1",
+    "wordIds": ["w_disperse"],
+    "prompt": "Which verb takes \"the crowd\" as its object here?",
+    "context": "Mounted officers moved in at dusk to ____ the crowd that had blocked the junction since midday, and within twenty minutes the intersection was clear.",
+    "options": [
+      { "id": "a", "text": "disperse" },
+      { "id": "b", "text": "dissipate" },
+      { "id": "c", "text": "dispel" },
+      { "id": "d", "text": "disband" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "disperse a crowd 是新聞與警政英文的標準搭配，disperse 的意思是「使原本聚在一處的人或物向四面散開」，所以它既可及物（police dispersed the protesters）也可不及物（the fumes disperse into the air）。四個選項都以 dis- 開頭，但只有 disperse 的受詞可以是一群佔據空間的人。",
+    "distractorExplanations": {
+      "b": "dissipate 指能量、情緒或霧氣自行逐漸消散：the tension dissipated、dissipate heat。它描述的是慢慢淡去，不是被外力驅離，而且極少用在人群上。",
+      "c": "dispel 的受詞一律是心裡的東西：dispel a myth、dispel doubts、dispel fears。騎警驅散的是實體的人，不是誤解。",
+      "d": "disband 是把一個有組織的團體正式解散：disband a unit、disband the committee、the band disbanded。街口聚集的群眾並非有編制的組織。"
+    },
+    "difficulty": 4,
+    "tags": ["collocation", "legal"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co3_distort_facts_01",
+    "type": "collocation",
+    "cefr": "C1",
+    "wordIds": ["w_distort"],
+    "prompt": "Which verb collocates with \"the facts\"?",
+    "context": "The broadcaster was censured for ____ the facts of the inquiry: nothing it reported was strictly false, but the sequence of events had been rearranged to suggest a cover-up.",
+    "options": [
+      { "id": "a", "text": "contorting" },
+      { "id": "b", "text": "distorting" },
+      { "id": "c", "text": "deforming" },
+      { "id": "d", "text": "disfiguring" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "distort the facts 是媒體與學術倫理英文的固定搭配，同組還有 distort the truth、distort the evidence、a distorted picture of something。distort 是四個「扭曲」動詞中唯一同時可用於實體與抽象的：實體如 distort an image、the signal was distorted，抽象則指「呈現得失真，讓人得出錯誤印象」，正好對應句中「沒有一句假話，卻重排了事件順序」。",
+    "distractorExplanations": {
+      "a": "contort 專指身體或表情被扭成不自然的形狀：a face contorted with pain、contort one's body。它不能用在事實或說法上。",
+      "c": "deform 是物理性的變形，通常帶有永久受損的意味：heat deformed the plastic、a deformed joint。抽象的事實沒有形體可供變形。",
+      "d": "disfigure 指毀損外觀、使之難看：a scar disfigured his cheek、billboards disfiguring the coastline。它評價的是美觀，與陳述是否失真無關。"
+    },
+    "difficulty": 3,
+    "tags": ["collocation", "academic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co3_reach_compromise_01",
+    "type": "collocation",
+    "cefr": "B2",
+    "wordIds": ["w_compromise"],
+    "prompt": "Which verb takes \"a compromise\" as a direct object?",
+    "context": "After eleven hours the two delegations finally ____ a compromise: the wage increase would be staged over three years instead of paid in a single instalment.",
+    "options": [
+      { "id": "a", "text": "reached" },
+      { "id": "b", "text": "attained" },
+      { "id": "c", "text": "arrived" },
+      { "id": "d", "text": "procured" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "reach a compromise 是談判英文的核心搭配，reach 在此取「經過一段過程終於到達某個結果」之意，因此同組還有 reach an agreement、reach a decision、reach a verdict、reach a conclusion。若要用 arrive，必須加介系詞寫成 arrive at a compromise；動詞形的 compromise 則另有 compromise on price 與 compromise safety 兩種用法。",
+    "distractorExplanations": {
+      "b": "attain 的受詞是憑努力達到的水準或目標：attain a goal、attain the required standard、attain adulthood。妥協是雙方各退一步的結果，不是達成的成就。",
+      "c": "arrive 是不及物動詞，接抽象結果時一定要用 arrive at：arrive at a compromise、arrive at a figure。少了 at 這一句在文法上就不成立。",
+      "d": "procure 是正式的「設法取得（物品或服務）」：procure supplies、procure funding。它預設有可交付的標的，談判達成的共識無從採購。"
+    },
+    "difficulty": 3,
+    "tags": ["collocation", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co3_file_complaint_01",
+    "type": "collocation",
+    "cefr": "B2",
+    "wordIds": ["w_complaint"],
+    "prompt": "Which verb goes with \"a formal complaint\"?",
+    "context": "Any passenger who is denied boarding may ____ a formal complaint with the aviation authority within twenty-eight days of the scheduled departure.",
+    "options": [
+      { "id": "a", "text": "issue" },
+      { "id": "b", "text": "deposit" },
+      { "id": "c", "text": "file" },
+      { "id": "d", "text": "declare" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "file a complaint 是行政與法律程序的固定說法，file 的本義是「把文件歸入卷宗」，因此凡是正式遞交給機關存查的文件都用它：file a claim、file a lawsuit、file a tax return、file an appeal。後面接受理單位時用介系詞 with（file a complaint with the authority）。名詞的另一組搭配是 a letter of complaint。",
+    "distractorExplanations": {
+      "a": "issue 是由有權者對外發出：issue a statement、issue a warning、issue a licence。方向正好相反，申訴是民眾往上遞交，不是主管機關發布。",
+      "b": "deposit 指存放金錢或實物：deposit a cheque、deposit luggage、pay a deposit。它強調暫置保管，不含啟動程序的意思。",
+      "d": "declare 是主動申報或宣告某事實：declare income、declare an interest、declare a state of emergency。申訴是提出請求，不是申報事實。"
+    },
+    "difficulty": 3,
+    "tags": ["collocation", "legal"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co3_suffer_casualties_01",
+    "type": "collocation",
+    "cefr": "B2",
+    "wordIds": ["w_casualty"],
+    "prompt": "Which verb collocates with \"heavy casualties\"?",
+    "context": "The relief column ____ heavy casualties in the first hour of the crossing, and the field hospital on the far bank was overwhelmed before noon.",
+    "options": [
+      { "id": "a", "text": "endured" },
+      { "id": "b", "text": "withstood" },
+      { "id": "c", "text": "tolerated" },
+      { "id": "d", "text": "suffered" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "suffer heavy casualties 是戰報與災難報導的固定搭配，suffer 專門用來說「蒙受損失」，因此同組還有 suffer losses、suffer damage、suffer a setback、suffer a defeat。casualty 的另一組常見組合是 civilian casualties（平民傷亡）；請注意這個字指的是傷亡的人，不是傷亡事件本身。",
+    "distractorExplanations": {
+      "a": "endure 強調長時間忍受痛苦而不屈：endure hardship、endure years of exile。傷亡是一瞬間造成的損失，不是被撐過去的處境。",
+      "b": "withstand 意為「頂住外力而未被擊垮」：withstand an assault、withstand scrutiny、withstand high temperatures。說 withstand casualties 等於說部隊頂住了傷亡本身，語意不通。",
+      "c": "tolerate 含有「允許、容忍」的意味：tolerate dissent、tolerate a certain level of noise。用在傷亡上會變成部隊願意接受士兵死傷，與句意不符。"
+    },
+    "difficulty": 3,
+    "tags": ["collocation", "academic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co3_correlate_with_01",
+    "type": "collocation",
+    "cefr": "C1",
+    "wordIds": ["w_correlate"],
+    "prompt": "Which verb is used with \"with\" to report a statistical relationship?",
+    "context": "Across the whole sample, reading scores at age eleven ____ closely with household income, though the coefficient fell to 0.21 once school quality was controlled for.",
+    "options": [
+      { "id": "a", "text": "correlated" },
+      { "id": "b", "text": "associated" },
+      { "id": "c", "text": "aligned" },
+      { "id": "d", "text": "coincided" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "correlate with something 是量化研究報告的標準說法，指兩個變項在統計上同向或反向變動，常見副詞是 strongly／closely／positively／negatively correlate with。句中出現係數 0.21，正是 correlate 專屬的語境。名詞用法則是 a correlate of success（與成功相關聯的因素）。",
+    "distractorExplanations": {
+      "b": "associate 在這個意思上不能主動使用，學術英文一律寫成被動的 be associated with：higher income is associated with better outcomes。主動的 associate X with Y 是「把兩者聯想在一起」，主詞必須是人。",
+      "c": "align with 指立場、政策或系統彼此一致：align with company policy、align with our values。它談的是刻意求取一致，不是統計上的共變。",
+      "d": "coincide with 通常指兩件事在時間上同時發生：the conference coincided with the election。用在兩個連續變項之間並不能表達相關強度。"
+    },
+    "difficulty": 4,
+    "tags": ["collocation", "science"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co3_confer_degree_01",
+    "type": "collocation",
+    "cefr": "B2",
+    "wordIds": ["w_confer"],
+    "prompt": "Which verb combines with \"an honorary degree\" and the preposition \"on\"?",
+    "context": "At the summer ceremony the university will ____ an honorary degree on the epidemiologist who led the vaccination programme in the eastern provinces.",
+    "options": [
+      { "id": "a", "text": "endow" },
+      { "id": "b", "text": "entrust" },
+      { "id": "c", "text": "allocate" },
+      { "id": "d", "text": "confer" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "confer a degree on someone 是典禮與公文英文的固定句型，confer 在正式用法中指「由有權者正式授予頭銜、學位或權利」，同組還有 confer a knighthood on someone、the rights conferred by the treaty。介系詞固定用 on（英式亦見 upon）。同一個字另有不及物的「商議」用法：confer with colleagues，兩義都很常考。",
+    "distractorExplanations": {
+      "a": "endow 是「捐贈基金以長期支持某事」：endow a chair、endow a scholarship；被動的 be endowed with 才指天生具備某種特質。它授出的是錢，不是學位。",
+      "b": "entrust 的固定句型是 entrust someone with something 或 entrust something to someone，意思是「託付責任」。榮譽學位是給出去的榮銜，不是託人保管的任務。",
+      "c": "allocate 指按比例分配有限資源：allocate funds、allocate resources、allocate seats。學位不是被切分下來的份額。"
+    },
+    "difficulty": 4,
+    "tags": ["collocation", "academic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co3_disprove_allegation_01",
+    "type": "collocation",
+    "cefr": "C2",
+    "wordIds": ["w_disprove"],
+    "prompt": "Which verb takes \"the allegation\" as its object when documentary evidence shows it to be false?",
+    "context": "The bank records produced on the third day ____ the allegation of undisclosed payments outright: on each of the four dates in question the account had been dormant.",
+    "options": [
+      { "id": "a", "text": "denied" },
+      { "id": "b", "text": "disproved" },
+      { "id": "c", "text": "objected" },
+      { "id": "d", "text": "protested" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "disprove an allegation 的主詞是證據，意思是「證明某項指控不成立」，同組還有 disprove a theory、disprove a hypothesis。這一題考的其實是主詞與動詞的搭配：人可以否認，但只有證據能證偽，而句中的主詞是 the bank records，因此只有 disprove 站得住腳。相關字 refute 亦可，但語氣偏向以論證駁倒，disprove 則明確指向事實層面的證偽。",
+    "distractorExplanations": {
+      "a": "deny 的主詞必須是人或機構：the minister denied the allegation。銀行紀錄不會開口否認，它只能作為證偽的材料。",
+      "c": "object 是不及物動詞，必須寫成 object to something：counsel objected to the question。它表達的是當場提出異議，且主詞同樣得是人。",
+      "d": "protest 表示公開表達不滿或極力聲明：protest against a ruling、protest one's innocence。它描述態度而非舉證，紀錄本身無從抗議。"
+    },
+    "difficulty": 4,
+    "tags": ["collocation", "legal"],
+    "source": "curated"
+  },
+  {
+    "id": "q_co3_captivate_audience_01",
+    "type": "collocation",
+    "cefr": "C2",
+    "wordIds": ["w_captivate"],
+    "prompt": "Which verb takes \"an audience\" as its object in the sense of holding it spellbound?",
+    "context": "The visiting palaeographer ____ an audience of first-year students who had come only for the attendance credit, and by the end of the hour not one of them had left the lecture hall.",
+    "options": [
+      { "id": "a", "text": "capitulated" },
+      { "id": "b", "text": "placated" },
+      { "id": "c", "text": "captivated" },
+      { "id": "d", "text": "cultivated" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "captivate an audience 是描述演說、表演與教學效果的固定搭配，captivate 指「完全抓住對方的注意力，使人入迷」，常見的被動形是 be captivated by someone's performance。句中「原本只為出席分數而來，一小時後無人離席」正是被迷住的具體證據；請注意 captivate 與同字根的 capture 不同，它強調的是心神被吸引，而非把人捉住。",
+    "distractorExplanations": {
+      "a": "capitulate 是不及物動詞，意為「投降、屈服」：capitulate to pressure、the garrison capitulated。它根本不能接受詞，更與吸引聽眾無關，只是字形相近。",
+      "b": "placate 是安撫已經生氣的人：placate angry customers、placate critics。台下學生並未動怒，這裡沒有需要平息的情緒。",
+      "d": "cultivate an audience 確有其說法，但意思是「長期經營、培養出一群固定的觀眾」，指向數月數年的累積；本句寫的是單場演講當下的效果，時間尺度對不上。"
+    },
+    "difficulty": 4,
+    "tags": ["collocation", "academic"],
+    "source": "curated"
+  }
+]

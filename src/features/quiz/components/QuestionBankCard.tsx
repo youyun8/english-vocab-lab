@@ -15,9 +15,10 @@ import { QuizOptionButton, type OptionState } from './QuizOptionButton';
 /**
  * One question as browsed in the bank.
  *
- * The options are always on screen — that is the part worth studying — but the
- * answer key stays hidden until the reader either picks an option or asks for
- * it, so scrolling the bank is practice rather than reading a solutions sheet.
+ * The options are always on screen — that is the part worth studying — but
+ * everything that would give the key away stays hidden until the reader either
+ * picks an option or asks for it: the answer itself, and the links to the words
+ * the item tests, which name the answer outright in a cloze or a 中譯英 item.
  * The state lives in this component, so it resets whenever the page re-keys the
  * list (a filter change or a page turn).
  */
@@ -54,16 +55,6 @@ export function QuestionBankCard({ question }: { question: QuizQuestion }) {
         <Badge tone="neutral">{question.cefr}</Badge>
         <Badge tone="muted">難度 {question.difficulty}</Badge>
         <Badge tone="muted">{questionSourceLabelZh[question.source]}</Badge>
-        {words.map((word) => (
-          <Link
-            key={word.id}
-            to={`/words/${word.slug}`}
-            lang="en"
-            className="text-xs text-accent-600 underline underline-offset-2"
-          >
-            {word.lemma}
-          </Link>
-        ))}
       </div>
 
       <p className="mt-2.5 text-sm font-medium text-ink-900">{question.prompt}</p>
@@ -96,6 +87,22 @@ export function QuestionBankCard({ question }: { question: QuizQuestion }) {
             正確答案：<strong className="text-ink-900">{answer?.text}</strong>
           </p>
           <p className="mt-1.5 text-sm leading-relaxed text-ink-700">{question.explanation}</p>
+
+          {words.length > 0 ? (
+            <p className="mt-2 flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-ink-500">
+              <span>本題字彙</span>
+              {words.map((word) => (
+                <Link
+                  key={word.id}
+                  to={`/words/${word.slug}`}
+                  lang="en"
+                  className="text-accent-600 underline underline-offset-2"
+                >
+                  {word.lemma}
+                </Link>
+              ))}
+            </p>
+          ) : null}
 
           {question.distractorExplanations ? (
             <ul className="mt-2 space-y-1">

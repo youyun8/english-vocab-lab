@@ -145,13 +145,10 @@ export function QuestionBankPage() {
   return (
     <div className="space-y-4">
       <header className="flex flex-wrap items-end justify-between gap-3">
-        <div>
+        <div className="min-w-0 flex-1">
           <h1 className="text-2xl font-semibold tracking-tight text-ink-900">題庫</h1>
-          <p className="mt-1 max-w-2xl text-sm text-ink-500">
-            共 {summary.total} 題，涵蓋 {summary.coveredWords} 個字彙（人工編寫 {summary.curated} 題、
-            依字彙庫自動生成 {summary.generated} 題）。選項一律顯示，答案預設隱藏：先自己選一個，
-            或按「顯示答案」再核對。自動生成題以字典釋義出題，選項已排除同義字與釋義重疊的字，
-            但仍可能出現語意相近的選項；用法與語感請以人工編寫題為準。
+          <p className="mt-1 text-sm text-ink-500">
+            共 {summary.total} 題，涵蓋 {summary.coveredWords} 個字彙。先自己選一個選項，或按「顯示答案」核對。
           </p>
         </div>
         <Button

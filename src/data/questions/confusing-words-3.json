@@ -1,0 +1,362 @@
+[
+  {
+    "id": "q_cw3_flout_01",
+    "type": "confusing_words",
+    "cefr": "C2",
+    "wordIds": ["w_flout"],
+    "prompt": "Which word best completes the sentence?",
+    "context": "Three consecutive inspections found the refinery burning off waste gas without a permit, and the tribunal treated the pattern as a decision to ____ the emissions rules rather than a lapse in record-keeping.",
+    "options": [
+      { "id": "a", "text": "flaunt" },
+      { "id": "b", "text": "forfeit" },
+      { "id": "c", "text": "flout" },
+      { "id": "d", "text": "refute" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "flout 的受詞是規範本身（flout the law / the rules / a convention），意思是「明知規定存在卻公開不遵守」。句中 three consecutive inspections 與 a decision…rather than a lapse 正是在區分「刻意公然違反」與「一時疏失」，只有 flout 承載得起這層刻意性。",
+    "distractorExplanations": {
+      "a": "flaunt 是「炫耀」，受詞是自己想展示的東西（flaunt one's wealth）。它與 flout 只差一個字母，卻不能接規則當受詞；說 flaunt the rules 是母語人士也常犯的錯誤搭配。",
+      "b": "forfeit 是「喪失、被沒收（權利或資格）」，受詞是自己原本擁有的東西，例如 forfeit the deposit；違反法規的行為本身不能用 forfeit 表達。",
+      "d": "refute 是「駁斥、提出證據反證」，用於主張或論點（refute a claim），屬於論辯行為，與實際上不遵守法規無關。"
+    },
+    "difficulty": 4,
+    "tags": ["confusing_words", "legal"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw3_fortuitous_01",
+    "type": "confusing_words",
+    "cefr": "C2",
+    "wordIds": ["w_fortuitous"],
+    "prompt": "Which word fits the distinction the sentence draws?",
+    "context": "The two teams had submitted competing grant applications and met only because a delayed flight put them in the same lounge; the collaboration that followed was entirely ____, not the outcome of any deliberate strategy.",
+    "options": [
+      { "id": "a", "text": "fortuitous" },
+      { "id": "b", "text": "fortunate" },
+      { "id": "c", "text": "auspicious" },
+      { "id": "d", "text": "propitious" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "fortuitous 的核心是「偶然」，而且帶有幸運的結果；它同時說明了「碰巧發生」與「結果不錯」兩件事。句尾的 not the outcome of any deliberate strategy 明確要求一個能與「刻意安排」對立的字，這正是 fortuitous 的語意重心。",
+    "distractorExplanations": {
+      "b": "fortunate 只說「幸運」，不涉及是否出於安排；精心策劃而成功的合作同樣可以是 fortunate，因此無法與 not…deliberate 形成對比。",
+      "c": "auspicious 是「有好兆頭的」，指某事預示未來順利（an auspicious start），著眼於前景而非事情如何發生。",
+      "d": "propitious 指「時機有利、條件適合」，形容環境或時機（a propitious moment），用來形容既成事實的相遇並不自然。"
+    },
+    "difficulty": 4,
+    "tags": ["confusing_words", "academic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw3_flagrant_01",
+    "type": "confusing_words",
+    "cefr": "C2",
+    "wordIds": ["w_flagrant"],
+    "prompt": "Which word best completes the sentence?",
+    "context": "The auditors noted that the director had signed his own expense claims in full view of the board minutes, calling it a ____ breach of the segregation-of-duties policy rather than an oversight.",
+    "options": [
+      { "id": "a", "text": "fragrant" },
+      { "id": "b", "text": "flippant" },
+      { "id": "c", "text": "furtive" },
+      { "id": "d", "text": "flagrant" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "flagrant 專門形容「明目張膽而且明顯錯誤」的違規行為，典型搭配就是 a flagrant breach / violation / disregard。in full view of the board minutes 說明行為毫不掩飾，rather than an oversight 排除無心之過，兩者合起來只指向 flagrant。",
+    "distractorExplanations": {
+      "a": "fragrant 是「芳香的」，形容氣味，與 flagrant 只差一個字母順序，卻完全屬於感官描述，放在 breach 前毫無意義。",
+      "b": "flippant 是「輕浮不正經的」，形容態度或言詞（a flippant remark），批評的是說話方式，不是違規行為的公然程度。",
+      "c": "furtive 是「鬼鬼祟祟、偷偷摸摸的」，語意與 in full view 直接矛盾：真正遮掩的行為才叫 furtive。"
+    },
+    "difficulty": 4,
+    "tags": ["confusing_words", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw3_enormity_01",
+    "type": "confusing_words",
+    "cefr": "C2",
+    "wordIds": ["w_enormity"],
+    "prompt": "Which word best completes the sentence?",
+    "context": "Only after the casualty figures were confirmed did the relief coordinators begin to grasp the ____ of what had happened along the coast, and the initial three-truck response was abandoned overnight.",
+    "options": [
+      { "id": "a", "text": "enormousness" },
+      { "id": "b", "text": "enormity" },
+      { "id": "c", "text": "eminence" },
+      { "id": "d", "text": "immensity" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "enormity 不是 enormous 的一般名詞形式，它專指「事態的嚴重性」，而且幾乎只用於災難、暴行或艱鉅任務，固定搭配就是 grasp the enormity of…。句中的傷亡數字與臨時放棄原方案，說明重點在後果之嚴重而非體積之大。",
+    "distractorExplanations": {
+      "a": "enormousness 才是 enormous 的中性名詞，指單純的體積或數量龐大；用來描述一場災難會抽掉道德與後果的重量，語感也笨重罕見。",
+      "c": "eminence 是「聲望卓著、地位崇高」，用於人物（a scholar of great eminence），與災情規模無關。",
+      "d": "immensity 同樣只描述空間或數量上的浩大（the immensity of the ocean），不含「嚴重、可怕」的評價，接不上 casualty figures 的語境。"
+    },
+    "difficulty": 5,
+    "tags": ["confusing_words", "academic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw3_ephemeral_01",
+    "type": "confusing_words",
+    "cefr": "C2",
+    "wordIds": ["w_ephemeral"],
+    "prompt": "Which word fits the contrast the sentence is drawing?",
+    "context": "The archivists argue that social media has made cultural memory ____: a post that shapes public opinion for a week leaves no retrievable trace a decade later, unlike the pamphlets they still hold.",
+    "options": [
+      { "id": "a", "text": "ethereal" },
+      { "id": "b", "text": "empirical" },
+      { "id": "c", "text": "ephemeral" },
+      { "id": "d", "text": "erratic" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "ephemeral 的意思是「只維持極短時間就消失」，與句中 for a week…no retrievable trace a decade later 以及仍然留存的 pamphlets 形成的時間對比完全吻合。它談的是「存續時間」，這正是這句話唯一在比較的維度。",
+    "distractorExplanations": {
+      "a": "ethereal 是「輕盈縹緲、超凡脫俗的」，形容質地或氛圍（an ethereal voice），描述的是給人的感受，而不是事物能存在多久。",
+      "b": "empirical 是「以觀察或實驗為依據的」，屬於研究方法的形容詞，與存續時間毫無關係。",
+      "d": "erratic 是「反覆無常、時好時壞的」，強調不穩定；貼文的問題是消失得快，不是表現忽高忽低。"
+    },
+    "difficulty": 4,
+    "tags": ["confusing_words", "academic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw3_erudite_01",
+    "type": "confusing_words",
+    "cefr": "C2",
+    "wordIds": ["w_erudite"],
+    "prompt": "Which word best describes the lecture as the sentence characterizes it?",
+    "context": "Her lecture on medieval canon law moved between four languages of source material and cited manuscripts most of the audience had never heard of; even those who lost the thread called it ____.",
+    "options": [
+      { "id": "a", "text": "erudite" },
+      { "id": "b", "text": "esoteric" },
+      { "id": "c", "text": "eloquent" },
+      { "id": "d", "text": "pedantic" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "erudite 稱讚的是「透過廣泛閱讀累積的深厚學識」，正對應四種語言的文獻與罕見手稿。句末 even those who lost the thread called it 表示這是一句由衷的讚美，而 erudite 是這四個選項中唯一正面評價講者學問的字。",
+    "distractorExplanations": {
+      "b": "esoteric 指「深奧、只有少數內行才懂」，評價的是題材的冷僻程度而非講者的學養；它也偏中性甚至帶抱怨，接在 even those who lost the thread 之後會失去讚美的意味。",
+      "c": "eloquent 稱讚的是「口才好、表達動人」，與引用多語文獻這項證據對不上；聽不懂內容的人反而最能判斷口才，句子的讓步語氣就不成立。",
+      "d": "pedantic 是負面詞，指「賣弄學問、拘泥細節」，與 called it 前面的善意讓步語氣互相衝突。"
+    },
+    "difficulty": 4,
+    "tags": ["confusing_words", "academic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw3_exhort_01",
+    "type": "confusing_words",
+    "cefr": "C2",
+    "wordIds": ["w_exhort"],
+    "prompt": "Which word best completes the sentence?",
+    "context": "With the ballot three days away, the union president used the closing minutes of the rally to ____ members to vote, warning that abstention would be read as consent to the offer on the table.",
+    "options": [
+      { "id": "a", "text": "extort" },
+      { "id": "b", "text": "exhort" },
+      { "id": "c", "text": "extol" },
+      { "id": "d", "text": "exert" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "exhort 是「力勸、敦促」，句型固定為 exhort somebody to do something，語氣比 urge 更強烈，最常見於演說或號召的場合。集會結尾催促會員投票，正是這個字的典型使用情境與句型。",
+    "distractorExplanations": {
+      "a": "extort 是「勒索、敲詐」，靠威脅取得金錢或讓步（extort money from someone），帶犯罪意味，也不接 to 不定詞。",
+      "c": "extol 是「極力讚揚」，受詞是被稱頌的人事物（extol the virtues of…），不能帶出「要求對方去做某事」的不定詞。",
+      "d": "exert 意為「施加、運用」，搭配 pressure、influence、effort 等抽象名詞，句型是 exert something on somebody，與此處的 ____ members to vote 不合。"
+    },
+    "difficulty": 5,
+    "tags": ["confusing_words", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw3_extant_01",
+    "type": "confusing_words",
+    "cefr": "C2",
+    "wordIds": ["w_extant"],
+    "prompt": "Which word best completes the sentence?",
+    "context": "Of the roughly four hundred copies printed in 1543, only nine are ____, and the library's own volume is the sole one with the printer's corrections still bound in.",
+    "options": [
+      { "id": "a", "text": "extinct" },
+      { "id": "b", "text": "latent" },
+      { "id": "c", "text": "extraneous" },
+      { "id": "d", "text": "extant" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "extant 是「歷經時間仍然留存的」，學術與圖書文獻中固定用於 extant manuscripts、the oldest extant copy。句子以 of the roughly four hundred…only nine 建立「當初多、如今少」的存佚對比，正是 extant 存在的理由。",
+    "distractorExplanations": {
+      "a": "extinct 是 extant 的反義詞，指「已滅絕、不復存在」；說 only nine are extinct 會把倖存與消失完全說反。",
+      "b": "latent 指「潛在而尚未顯現的」，形容能力、缺陷或病症（latent defects），與實體書本是否留存無關。",
+      "c": "extraneous 是「無關而多餘的」，指不屬於主題的外來成分，無法說明數量上的倖存。"
+    },
+    "difficulty": 4,
+    "tags": ["confusing_words", "academic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw3_extrapolate_01",
+    "type": "confusing_words",
+    "cefr": "C2",
+    "wordIds": ["w_extrapolate"],
+    "prompt": "Which word best completes the sentence?",
+    "context": "The panel warned against using eighteen months of post-launch data to ____ demand out to 2040, since every trend line beyond the observed range rests on assumptions the sample cannot test.",
+    "options": [
+      { "id": "a", "text": "interpolate" },
+      { "id": "b", "text": "extricate" },
+      { "id": "c", "text": "extrapolate" },
+      { "id": "d", "text": "expropriate" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "extrapolate 指「把已知資料往觀測範圍之外延伸推估」，常見句型 extrapolate something from data。句中 beyond the observed range 正是外推的定義所在，也是這段警告成立的理由。",
+    "distractorExplanations": {
+      "a": "interpolate 恰好相反，指在已有的兩個資料點「之間」補上估計值；它待在觀測範圍以內，因此不會引發句中所說的風險。",
+      "b": "extricate 是「使脫身、解救出來」（extricate oneself from a contract），屬於處境動詞，不能拿資料當推論工具。",
+      "d": "expropriate 是法律用語「徵收、剝奪財產」，受詞是土地或資產，與資料分析毫不相干。"
+    },
+    "difficulty": 4,
+    "tags": ["confusing_words", "technical"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw3_feign_01",
+    "type": "confusing_words",
+    "cefr": "C2",
+    "wordIds": ["w_feign"],
+    "prompt": "Which word best completes the sentence?",
+    "context": "Cross-examined about the memo he had initialled twice, the witness continued to ____ ignorance of the payment schedule, a posture the judge later described as untenable.",
+    "options": [
+      { "id": "a", "text": "feign" },
+      { "id": "b", "text": "feint" },
+      { "id": "c", "text": "deign" },
+      { "id": "d", "text": "profess" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "feign 是及物動詞「佯裝」，受詞是被假裝出來的情緒或狀態，feign ignorance / surprise / illness 都是固定搭配，且明確帶有欺騙意圖。證人簽過兩次名卻裝作不知情，正是這個字要描述的刻意假象。",
+    "distractorExplanations": {
+      "b": "feint 是名詞「佯攻、假動作」，多用於拳擊或戰術；即使當動詞也是不及物的閃避動作，不能接 ignorance 當受詞。",
+      "c": "deign 意為「屈尊、勉強俯就」，固定接不定詞（deign to reply），既不及物，也不含假裝的意思。",
+      "d": "profess 是「公開聲稱」，可以是真心的表白（profess admiration），本身不指向虛假，因此表達不出法官所指的偽裝。"
+    },
+    "difficulty": 4,
+    "tags": ["confusing_words", "legal"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw3_flounder_01",
+    "type": "confusing_words",
+    "cefr": "C2",
+    "wordIds": ["w_flounder"],
+    "prompt": "Which word fits the sentence as written?",
+    "context": "The startup did not collapse outright; it ____ for two more years, changing its pricing four times and never settling on a market before the remaining cash ran out.",
+    "options": [
+      { "id": "a", "text": "foundered" },
+      { "id": "b", "text": "floundered" },
+      { "id": "c", "text": "flourished" },
+      { "id": "d", "text": "forfeited" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "flounder 指「掙扎、手足無措」，是一段持續而混亂的過程；反覆改價、始終定不下市場，說的正是這種找不到方向的狀態。句首 did not collapse outright 已排除一次性的失敗，只留下描述過程的字。",
+    "distractorExplanations": {
+      "a": "founder 作動詞是「（船）沉沒」，比喻上指計畫徹底失敗、就此終結，是一個瞬間性的結果；它與 did not collapse outright 以及後面長達兩年的掙扎直接矛盾。",
+      "c": "flourish 是「蓬勃發展、興旺」，語意完全相反，與資金耗盡的結局無法並存。",
+      "d": "forfeit 是「喪失（權利、資格或已付款項）」，及物動詞，必須有受詞，放進這個不及物的位置句型就不成立。"
+    },
+    "difficulty": 5,
+    "tags": ["confusing_words", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw3_forgo_01",
+    "type": "confusing_words",
+    "cefr": "C2",
+    "wordIds": ["w_forgo"],
+    "prompt": "Which word best completes the sentence?",
+    "context": "Under the settlement the founders agreed to ____ two years of dividends in exchange for keeping their board seats, a trade the analysts read as a bet on the turnaround.",
+    "options": [
+      { "id": "a", "text": "forego" },
+      { "id": "b", "text": "forsake" },
+      { "id": "c", "text": "foreclose" },
+      { "id": "d", "text": "forgo" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "forgo 意為「主動放棄原本可以享有的好處」，語氣正式，典型搭配是 forgo dividends、forgo the opportunity。句中放棄股利以換取董事席位，正是這種有意識、有代價的取捨。",
+    "distractorExplanations": {
+      "a": "forego 在標準用法中意為「先於、在……之前」，主要活在 the foregoing paragraph、a foregone conclusion 這類形式裡；把它當 forgo 的拼法是常見錯誤，正式文件中會被視為誤用。",
+      "b": "forsake 是「拋棄、背棄」，受詞多為人、信仰或家園，帶有強烈的道德色彩，用於股利這類財務權益並不合適。",
+      "c": "foreclose 是「取消抵押品贖回權」或「排除（某種可能）」，動作方是債權人而非放棄者，主客關係與句意相反。"
+    },
+    "difficulty": 4,
+    "tags": ["confusing_words", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw3_emigrate_01",
+    "type": "confusing_words",
+    "cefr": "C1",
+    "wordIds": ["w_emigrate"],
+    "prompt": "Which word matches the point of view the sentence takes?",
+    "context": "The census bureau in Lisbon tracks how many nurses ____ from Portugal each year; the receiving countries publish their own, rather different, arrival figures.",
+    "options": [
+      { "id": "a", "text": "immigrate" },
+      { "id": "b", "text": "relocate" },
+      { "id": "c", "text": "emigrate" },
+      { "id": "d", "text": "commute" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "emigrate 採取「離開母國」的視角，固定搭配介系詞 from，因此 emigrate from Portugal 才與里斯本這一端的統計相符。句子刻意把它和 receiving countries 的到達數字並列，考的正是視角的方向。",
+    "distractorExplanations": {
+      "a": "immigrate 是相反視角，指「移入某國」，搭配 to（immigrate to Canada）；它屬於接收國那一端的統計，接 from Portugal 就講不通。",
+      "b": "relocate 指「（因工作等）遷移地點」，可以只是國內搬遷，也不含永久定居的意思，無法對應移民統計。",
+      "d": "commute 是「通勤」，指往返於住處與工作地之間，人並沒有離開原居地定居他國。"
+    },
+    "difficulty": 3,
+    "tags": ["confusing_words", "academic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw3_hone_01",
+    "type": "confusing_words",
+    "cefr": "C1",
+    "wordIds": ["w_hone"],
+    "prompt": "Which word best completes the sentence?",
+    "context": "The residency is not designed to teach surgeons new procedures but to let them ____ the handful of techniques they already perform, until the movements survive fatigue and interruption.",
+    "options": [
+      { "id": "a", "text": "hone" },
+      { "id": "b", "text": "home" },
+      { "id": "c", "text": "hoard" },
+      { "id": "d", "text": "harness" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "hone 本義是「磨刀」，引申為把「已經具備」的技能反覆打磨到更精準，hone one's skills 是最常見的搭配。句中 not…new procedures but…they already perform 把重點放在既有能力的精進，完全落在 hone 的語意上。",
+    "distractorExplanations": {
+      "b": "home 作動詞只用於 home in on（鎖定、朝目標逼近），必須帶 in on，不能像這裡一樣直接接受詞；hone 與 home in on 互換是常見的混用。",
+      "c": "hoard 是「囤積、私藏」，受詞是可累積的實物或資源，把技巧藏起來與句中反覆練習的語境相反。",
+      "d": "harness 是「駕馭、善加利用（既有的力量或資源）」，強調把能量導向用途，而不是把技術本身練得更精。"
+    },
+    "difficulty": 3,
+    "tags": ["confusing_words", "technical"],
+    "source": "curated"
+  },
+  {
+    "id": "q_cw3_endemic_01",
+    "type": "confusing_words",
+    "cefr": "C1",
+    "wordIds": ["w_endemic"],
+    "prompt": "Which word best completes the sentence?",
+    "context": "Dengue is no longer a seasonal emergency in the delta; forty years of continuous local transmission have made it ____ there, which changes what the health ministry should be budgeting for.",
+    "options": [
+      { "id": "a", "text": "epidemic" },
+      { "id": "b", "text": "endemic" },
+      { "id": "c", "text": "pandemic" },
+      { "id": "d", "text": "chronic" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "endemic 指某疾病在特定地區「長期持續存在」，是常態而非事件，因此搭配 be endemic to / in a place。句中 no longer a seasonal emergency 與 forty years of continuous local transmission 正好把偶發疫情與長駐狀態分開。",
+    "distractorExplanations": {
+      "a": "epidemic 指疾病在某段時間內大規模爆發，本質上是有起訖的事件；句子開頭已經否定了這種一波波的緊急狀況。",
+      "c": "pandemic 是跨國、跨洲的大流行，範圍遠大於一個三角洲地區，與 there 所限定的地域尺度不符。",
+      "d": "chronic 形容的是「個別病患身上長期不癒」的病症（a chronic illness），談的是病程，而不是疾病在一個地區的分布狀態。"
+    },
+    "difficulty": 3,
+    "tags": ["confusing_words", "science"],
+    "source": "curated"
+  }
+]

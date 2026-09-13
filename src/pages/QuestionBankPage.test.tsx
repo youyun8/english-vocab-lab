@@ -16,10 +16,15 @@ const CORPUS_TIMEOUT = 20_000;
 async function renderPage() {
   renderWithProviders(<QuestionBankPage />, { route: '/question-bank' });
   await screen.findByRole('heading', { level: 1, name: '題庫' }, { timeout: CORPUS_TIMEOUT });
-  // The bank is built from the whole corpus, so wait for the first card.
-  await waitFor(() => expect(screen.getAllByLabelText('答案選項').length).toBeGreaterThan(0), {
-    timeout: CORPUS_TIMEOUT,
-  });
+  // The bank is built from the whole corpus, and a page materializes in two
+  // async stages — the curated questions, then the entries the page's words
+  // need — so waiting for the first card can leave a partial list on screen.
+  // Wait for the full page instead, or the count assertions race the second
+  // stage and fail only under the load of the whole suite.
+  await waitFor(
+    () => expect(screen.getAllByLabelText('答案選項')).toHaveLength(QUESTIONS_PER_PAGE),
+    { timeout: CORPUS_TIMEOUT },
+  );
 }
 
 function firstCard(): HTMLElement {
@@ -105,14 +110,28 @@ describe('QuestionBankPage', () => {
     }
   });
 
-  it('searches for a single word', async () => {
+  it('searches for a single word and links it only once the answer is out', async () => {
     const user = userEvent.setup();
     await renderPage();
 
     await user.type(screen.getByLabelText('搜尋'), 'eliminate');
 
-    await waitFor(() =>
-      expect(screen.getAllByRole('link', { name: 'eliminate' }).length).toBeGreaterThan(0),
-    );
+    // The word the item tests names the answer outright in a cloze or a 中譯英
+    // item, so its link waits for the reveal along with the answer itself.
+    await waitFor(() => expect(screen.getAllByLabelText('答案選項').length).toBeGreaterThan(0));
+    expect(screen.queryByRole('link', { name: 'eliminate' })).not.toBeInTheDocument();
+
+    // The match may be any card on the page, so open them all. Each reveal
+    // re-renders the list, so the buttons are re-queried on every turn rather
+    // than captured up front.
+    for (
+      let next = screen.queryAllByRole('button', { name: '顯示答案' })[0];
+      next != null;
+      next = screen.queryAllByRole('button', { name: '顯示答案' })[0]
+    ) {
+      await user.click(next);
+    }
+
+    expect(screen.getAllByRole('link', { name: 'eliminate' }).length).toBeGreaterThan(0);
   });
 });

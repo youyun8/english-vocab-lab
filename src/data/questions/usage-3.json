@@ -1,0 +1,356 @@
+[
+  {
+    "id": "q_us3_obviate_01",
+    "type": "usage",
+    "cefr": "C2",
+    "wordIds": ["w_obviate"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "Because every node now reports its own calibration drift, the redesign ____ the need for a quarterly visit to each remote site.",
+    "options": [
+      { "id": "a", "text": "obviates" },
+      { "id": "b", "text": "forestalls" },
+      { "id": "c", "text": "prohibits" },
+      { "id": "d", "text": "relinquishes" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "obviate 的意思是「事先讓某件事變得不再必要」，最典型的搭配就是 obviate the need for + 名詞：需求本身被消滅，而不是需求被壓下或延後。句中「每個節點自己回報偏移」正是讓現場巡檢失去存在理由的條件，語氣也符合 obviate 的正式書面色彩。",
+    "distractorExplanations": {
+      "b": "forestall 是「搶先一步阻止某個即將發生的事件」，受詞通常是 a crisis、criticism 這類事件；the need 是一種狀態而非事件，forestall the need 並非慣用搭配。",
+      "c": "prohibit 是以規定或權威明令禁止，受詞得是行為或人，而且需要一個下令者；技術改版並不能「禁止」一項需求。",
+      "d": "relinquish 是放棄自己原本握有的東西（權利、控制權、職位），需求並不是握在手上的資產，語意不合。"
+    },
+    "difficulty": 5,
+    "tags": ["usage", "technical"],
+    "source": "curated"
+  },
+  {
+    "id": "q_us3_oblivious_01",
+    "type": "usage",
+    "cefr": "C1",
+    "wordIds": ["w_oblivious"],
+    "prompt": "Which sentence uses \"oblivious\" correctly?",
+    "options": [
+      { "id": "a", "text": "Management remained oblivious about the growing backlog until customers began cancelling." },
+      { "id": "b", "text": "Management remained oblivious to the growing backlog until customers began cancelling." },
+      { "id": "c", "text": "The backlog stayed oblivious for several weeks before anyone escalated it." },
+      { "id": "d", "text": "The clerk was oblivious to hand over the signed copy before the office closed." }
+    ],
+    "correctOptionId": "b",
+    "explanation": "oblivious 描述「人完全沒有察覺到周遭的某件事」，固定接介系詞 to（較正式的書面也可用 of），後面放的是那件沒被察覺的事。be oblivious to the backlog 正是「積壓已經在長大，管理層卻毫無所覺」。",
+    "distractorExplanations": {
+      "a": "介系詞錯了：oblivious 不搭 about。about 用於 concerned about、reticent about 這類「針對某話題」的形容詞，oblivious 講的是「意識不到」，要用 to 或 of。",
+      "c": "主語錯了：oblivious 形容的是「沒察覺的人」，不是「沒被察覺的事」。要說事情沒被注意到，應該用 went unnoticed。",
+      "d": "oblivious 後面不接不定詞。忘了做某件該做的事要用 forgot to hand over 或 neglected to hand over；oblivious 只講認知狀態，不講疏忽的動作。"
+    },
+    "difficulty": 4,
+    "tags": ["usage", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_us3_outset_01",
+    "type": "usage",
+    "cefr": "C1",
+    "wordIds": ["w_outset"],
+    "prompt": "Choose the phrase that best completes the sentence.",
+    "context": "The steering committee insisted ____ that every assumption in the model be documented, so that nothing would have to be reconstructed at the review.",
+    "options": [
+      { "id": "a", "text": "in the outset" },
+      { "id": "b", "text": "on the outset" },
+      { "id": "c", "text": "from the outset" },
+      { "id": "d", "text": "by the outset" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "outset 只活在兩個固定片語裡：at the outset（在起點那一刻）與 from the outset（從一開始就一直如此）。句中「堅持要求」是一項貫穿整個專案的立場，涵蓋一段期間，因此要用帶有起點加延續意味的 from the outset。",
+    "distractorExplanations": {
+      "a": "英文沒有 in the outset 這個說法；表示「在開頭階段」要說 at the outset。",
+      "b": "on the outset 同樣不存在。on 用於 on arrival、on completion 這類動作名詞，outset 不在其列。",
+      "d": "by + 時間點意思是「在那之前完成」，by the outset 等於「在開始之前就結束」，邏輯不通。"
+    },
+    "difficulty": 4,
+    "tags": ["usage", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_us3_permeate_01",
+    "type": "usage",
+    "cefr": "C1",
+    "wordIds": ["w_permeate"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "A habit of quiet cost-cutting had begun to ____ every level of the organisation, from procurement decisions down to how meeting rooms were booked.",
+    "options": [
+      { "id": "a", "text": "diffuse" },
+      { "id": "b", "text": "immerse" },
+      { "id": "c", "text": "encroach" },
+      { "id": "d", "text": "permeate" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "permeate 可以直接接受詞（permeate the organisation），描述氣味、風氣或觀念「無孔不入地擴散到整體的每個角落」，語氣正式，正好搭配句中從採購到訂會議室的層層滲透。",
+    "distractorExplanations": {
+      "a": "diffuse 作動詞時多為不及物（heat diffuses through the material）；及物用法限於 diffuse light、diffuse tension，不能說 diffuse every level。",
+      "b": "immerse 的句型是 immerse somebody / oneself in something，受詞是被浸入的人或物，介系詞不可省略。",
+      "c": "encroach 是不及物動詞，必須接 on 或 upon，而且帶有「侵占別人地盤」的意味，與風氣自然擴散不同。"
+    },
+    "difficulty": 4,
+    "tags": ["usage", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_us3_proliferate_01",
+    "type": "usage",
+    "cefr": "C2",
+    "wordIds": ["w_proliferate"],
+    "prompt": "Which sentence uses \"proliferate\" correctly?",
+    "options": [
+      { "id": "a", "text": "Unlicensed resale sites proliferated in the months after the ticketing rules were relaxed." },
+      { "id": "b", "text": "The agency proliferated the new guidance to every regional office." },
+      { "id": "c", "text": "The committee proliferated over the wording for another hour before voting." },
+      { "id": "d", "text": "The proliferate of counterfeit parts alarmed the safety board." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "proliferate 是不及物動詞，主語就是那個「快速變多」的東西本身：sites proliferated 表示轉售網站的數量在短時間內暴增，常帶有「多到失控」的負面意味，正合鬆綁法規之後的情境。",
+    "distractorExplanations": {
+      "b": "proliferate 不能當「散發、下發」用，也不接受詞加 to。要說把指引發到各分處，動詞是 distribute 或 circulate。",
+      "c": "這裡要表達的是「反覆討論」，該用 deliberated over the wording；proliferate 與 deliberate 只是形近，意思毫無關聯。",
+      "d": "詞性錯了：proliferate 是動詞，名詞形式為 proliferation，應說 the proliferation of counterfeit parts。"
+    },
+    "difficulty": 4,
+    "tags": ["usage", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_us3_prone_01",
+    "type": "usage",
+    "cefr": "C1",
+    "wordIds": ["w_prone"],
+    "prompt": "Which sentence uses \"prone\" correctly?",
+    "options": [
+      { "id": "a", "text": "Cracking is prone in this alloy whenever the part is cooled too quickly." },
+      { "id": "b", "text": "This alloy is prone to cracking whenever the part is cooled too quickly." },
+      { "id": "c", "text": "Our senior technician is prone to double-check the seal before signing off." },
+      { "id": "d", "text": "This alloy is prone of sudden cracking under rapid cooling conditions." }
+    ],
+    "correctOptionId": "b",
+    "explanation": "prone 的句型是 be prone to + 名詞或動名詞，主語是「容易出這種毛病的人或物」，後面接的是那個不樂見的結果。be prone to cracking 說的正是合金本身有開裂傾向，而不是開裂這件事有傾向。",
+    "distractorExplanations": {
+      "a": "主語擺錯了：prone 的主語必須是有此傾向的主體（合金），不能是那個傾向本身。要以 cracking 開頭，得說 Cracking is common in this alloy。",
+      "c": "prone 帶負面意味，後面接的必須是不樂見的傾向；「多檢查一次密封」是值得肯定的習慣，應改用 makes a point of double-checking。",
+      "d": "介系詞錯了：prone 固定搭 to，沒有 prone of 的用法。"
+    },
+    "difficulty": 4,
+    "tags": ["usage", "technical"],
+    "source": "curated"
+  },
+  {
+    "id": "q_us3_prospective_01",
+    "type": "usage",
+    "cefr": "B2",
+    "wordIds": ["w_prospective"],
+    "prompt": "Which sentence uses \"prospective\" correctly?",
+    "options": [
+      { "id": "a", "text": "From an investor's prospective, the merger looks purely defensive." },
+      { "id": "b", "text": "The report is highly prospective about the industry's chances of recovery." },
+      { "id": "c", "text": "The firm keeps a file on every prospective client its partners have pitched to." },
+      { "id": "d", "text": "Sales in the prospective quarter are expected to recover only slowly." }
+    ],
+    "correctOptionId": "c",
+    "explanation": "prospective 是放在名詞前的形容詞，指「尚未確定但可能成為某種身分的人」：prospective client 就是還沒簽約、但有機會成交的潛在客戶，語氣正式，常見於商務文件。",
+    "distractorExplanations": {
+      "a": "拼字混淆了：表示「觀點、角度」的名詞是 perspective，應寫 from an investor's perspective；prospective 沒有名詞用法。",
+      "b": "prospective 不作述語形容詞，也不表示「看好」。要說報告對前景樂觀，該用 optimistic about。",
+      "d": "prospective 不修飾時間單位。「下一季」要說 the coming quarter 或 the next quarter。"
+    },
+    "difficulty": 3,
+    "tags": ["usage", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_us3_provisional_01",
+    "type": "usage",
+    "cefr": "C1",
+    "wordIds": ["w_provisional"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "The two delegations initialled a ____ agreement in Geneva, but it will carry no legal force until each parliament has ratified the text.",
+    "options": [
+      { "id": "a", "text": "transient" },
+      { "id": "b", "text": "makeshift" },
+      { "id": "c", "text": "temporary" },
+      { "id": "d", "text": "provisional" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "provisional 指「已經談定、但尚未正式定案，還等著上級程序確認」的狀態，正對應句中「要等國會批准才生效」。provisional agreement、provisional government 都是這個意思，重點在效力未定，而不在時間長短。",
+    "distractorExplanations": {
+      "a": "transient 形容轉瞬即逝的現象（transient faults、transient population），不用來描述協議的法律地位。",
+      "b": "makeshift 指臨時湊合、品質將就的替代品，多用於實體安排；用它會變成批評這份協議草率，而非說明它尚待批准。",
+      "c": "temporary 說的是「有效期很短」，前提是它已經生效；句中的協議根本還沒生效，兩者的重點不同。"
+    },
+    "difficulty": 4,
+    "tags": ["usage", "legal"],
+    "source": "curated"
+  },
+  {
+    "id": "q_us3_prudent_01",
+    "type": "usage",
+    "cefr": "C1",
+    "wordIds": ["w_prudent"],
+    "prompt": "Which sentence uses \"prudent\" correctly?",
+    "options": [
+      { "id": "a", "text": "It would be prudent to hedge at least part of the exposure before the vote." },
+      { "id": "b", "text": "The treasurer prudented the reserves through two successive recessions." },
+      { "id": "c", "text": "She is a prudent of currency risk and rarely leaves a position unhedged." },
+      { "id": "d", "text": "The fund's prudent timidity cost it every chance of joining the recovery." }
+    ],
+    "correctOptionId": "a",
+    "explanation": "prudent 是形容詞，最常用的句型就是 it is prudent to + 原形動詞，用來評價一個基於長遠考量而做出的明智選擇。句中在表決前先避險，正是典型的審慎作為。",
+    "distractorExplanations": {
+      "b": "prudent 沒有動詞形式。要表達「穩健地守住準備金」，可說 managed the reserves prudently。",
+      "c": "prudent 不是名詞；抽象名詞是 prudence，而且形容人謹慎面對某風險應說 is prudent about currency risk。",
+      "d": "prudent 是褒義評價，與 timidity（過度膽怯）以及後半句的批評自相矛盾；要責備過度保守，應該用 excessive caution。"
+    },
+    "difficulty": 4,
+    "tags": ["usage", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_us3_quantitative_01",
+    "type": "usage",
+    "cefr": "C1",
+    "wordIds": ["w_quantitative"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "The panel accepted the study's ____ findings, which rested on 4,000 survey responses, but noted that its thirty interviews had been analysed far less systematically.",
+    "options": [
+      { "id": "a", "text": "qualitative" },
+      { "id": "b", "text": "quantitative" },
+      { "id": "c", "text": "quantifiable" },
+      { "id": "d", "text": "numeral" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "quantitative 指「以數字衡量、可統計」的那一類資料與分析，四千份問卷正屬此類；句子刻意把它和後半段訪談的處理拿來對比，就是學術寫作裡 quantitative 與 qualitative 的標準分工。",
+    "distractorExplanations": {
+      "a": "qualitative 指訪談、觀察這類非數值材料，正是句中後半被批評的部分，填在前半會前後矛盾。",
+      "c": "quantifiable 意思是「有辦法被量化的」，描述尚未量化但可量化的對象（quantifiable benefits）；問卷結果已經量化完成，不再用這個字。",
+      "d": "numeral 指的是數字符號本身（如 Roman numerals），不能用來形容研究方法或資料類型。"
+    },
+    "difficulty": 4,
+    "tags": ["usage", "academic"],
+    "source": "curated"
+  },
+  {
+    "id": "q_us3_quell_01",
+    "type": "usage",
+    "cefr": "C2",
+    "wordIds": ["w_quell"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "The chief executive's two-paragraph memo did little to ____ speculation that a second round of layoffs was already being planned.",
+    "options": [
+      { "id": "a", "text": "abate" },
+      { "id": "b", "text": "quench" },
+      { "id": "c", "text": "quell" },
+      { "id": "d", "text": "deter" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "quell 是及物動詞，受詞常是 fear、rumour、speculation、unrest 這類正在擴散的騷動，意思是「以行動把它壓下去」。語氣正式，用在公司內部謠言與市場臆測上是標準搭配。",
+    "distractorExplanations": {
+      "a": "abate 在現代英文中幾乎只作不及物（the storm abated），指自行減弱；說 abate speculation 不合語法。",
+      "b": "quench 的受詞限於 thirst 或 flames 等實體，抽象的臆測不能用它熄滅。",
+      "d": "deter 的句型是 deter somebody from doing something，受詞必須是被嚇阻的人，不能直接接 speculation。"
+    },
+    "difficulty": 4,
+    "tags": ["usage", "business"],
+    "source": "curated"
+  },
+  {
+    "id": "q_us3_relegate_01",
+    "type": "usage",
+    "cefr": "C1",
+    "wordIds": ["w_relegate"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "In the redesign the search box, once the first thing a visitor saw, was ____ to a small grey link at the foot of the page.",
+    "options": [
+      { "id": "a", "text": "delegated" },
+      { "id": "b", "text": "demoted" },
+      { "id": "c", "text": "deferred" },
+      { "id": "d", "text": "relegated" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "relegate 專指「把人或事物移到比原本更不重要的位置」，句型是 be relegated to + 名詞。搜尋框從最顯眼處被挪到頁尾小連結，正是地位被下放，語氣也帶有惋惜或批評的意味。",
+    "distractorExplanations": {
+      "a": "delegate 是把任務或職權「交辦」給某人，受詞是工作、對象是人；版面元素不會被交辦。",
+      "b": "demote 用於人的職位或正式等級（demoted to assistant manager），不用來描述介面元素在版面上的位置。",
+      "c": "defer 是把事情延後處理，講的是時間，不是重要性的高低。"
+    },
+    "difficulty": 4,
+    "tags": ["usage", "technical"],
+    "source": "curated"
+  },
+  {
+    "id": "q_us3_repudiate_01",
+    "type": "usage",
+    "cefr": "C1",
+    "wordIds": ["w_repudiate"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "Within hours the ministry ____ the leaked memo, insisting that it reflected no one's policy but its author's and had never been approved by anybody.",
+    "options": [
+      { "id": "a", "text": "repudiated" },
+      { "id": "b", "text": "rebuffed" },
+      { "id": "c", "text": "revoked" },
+      { "id": "d", "text": "renounced" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "repudiate 是「正式宣告不承認某事物的效力或歸屬」，受詞常是 claim、agreement、document。部會強調備忘錄從未經任何人核可，正是在否認它代表官方立場，這種公開切割就是 repudiate 的核心語意。",
+    "distractorExplanations": {
+      "b": "rebuff 是無禮或斷然地回絕別人主動提出的邀約、示好或提議，受詞必須是那個提議或提議的人，不能是一份外流文件。",
+      "c": "revoke 只能撤銷自己先前授予的東西（執照、許可、資格）；部會既然主張從未核可，就沒有東西可撤。",
+      "d": "renounce 是放棄自己原本擁有的權利、頭銜或主張；用它反而等於承認這份備忘錄本來屬於部會，與句意相反。"
+    },
+    "difficulty": 5,
+    "tags": ["usage", "legal"],
+    "source": "curated"
+  },
+  {
+    "id": "q_us3_rescind_01",
+    "type": "usage",
+    "cefr": "C2",
+    "wordIds": ["w_rescind"],
+    "prompt": "Which sentence uses \"rescind\" correctly?",
+    "options": [
+      { "id": "a", "text": "The candidate rescinded from the offer two days before her start date." },
+      { "id": "b", "text": "The board rescinded the remote-work policy just three weeks after adopting it." },
+      { "id": "c", "text": "Orders rescinded sharply in the final quarter of the financial year." },
+      { "id": "d", "text": "The judge rescinded that the earlier ruling had rested on a clerical error." }
+    ],
+    "correctOptionId": "b",
+    "explanation": "rescind 是及物動詞，受詞是自己先前正式做成的決定、規定或錄取通知，意思是「以同樣正式的程序把它取消、視同未曾存在」。董事會撤回自己三週前通過的政策，正是標準用法。",
+    "distractorExplanations": {
+      "a": "rescind 不接 from，也不用於「自己退出」。求職者拒絕已接受的錄取要說 withdrew from the offer 或 turned down the offer。",
+      "c": "rescind 不是不及物動詞，也沒有「下滑」的意思；訂單大幅下降應說 orders fell sharply 或 declined sharply。",
+      "d": "rescind 後面不接 that 子句。法官表示先前判決有誤，動詞要用 conceded 或 acknowledged。"
+    },
+    "difficulty": 4,
+    "tags": ["usage", "legal"],
+    "source": "curated"
+  },
+  {
+    "id": "q_us3_reticent_01",
+    "type": "usage",
+    "cefr": "C2",
+    "wordIds": ["w_reticent"],
+    "prompt": "Choose the word that best completes the sentence.",
+    "context": "The witness was noticeably ____ about her employer's accounting practices, answering in single sentences and volunteering nothing that counsel had not asked for.",
+    "options": [
+      { "id": "a", "text": "reluctant" },
+      { "id": "b", "text": "diffident" },
+      { "id": "c", "text": "reticent" },
+      { "id": "d", "text": "taciturn" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "reticent 專指「針對某個話題不肯多談、有所保留」，固定搭配 be reticent about + 名詞。它描述的是對特定主題的守口如瓶，語氣中性，不預設對方是害羞還是有意隱瞞，正符合證人只答不說的情狀。",
+    "distractorExplanations": {
+      "a": "reluctant 表示不情願去做某事，句型是 be reluctant to + 原形動詞，後面接的是動作而不是話題。",
+      "b": "diffident 指的是缺乏自信、畏縮，講的是人格特質，與「刻意不談某個題目」無關。",
+      "d": "taciturn 形容一個人天生話少，是長期的性格描述，不能限定在某個話題上，因此不搭 about + 名詞。"
+    },
+    "difficulty": 5,
+    "tags": ["usage", "legal"],
+    "source": "curated"
+  }
+]

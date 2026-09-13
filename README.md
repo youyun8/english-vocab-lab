@@ -72,12 +72,13 @@ login).
 
 - Eight quiz types: `meaning_en_to_zh`, `meaning_zh_to_en`, `definition_to_word`, `cloze`, `usage`,
   `collocation`, `grammar`, `confusing_words`.
-- 251 hand-written questions with explanations, each written to a real exam format — TOEFL vocabulary
+- 341 hand-written questions with explanations, each written to a real exam format — TOEFL vocabulary
   and usage items, GRE sentence completions and near-pair contrasts, IELTS academic collocation, and
   TOEIC Part 5 incomplete sentences — plus one generated sentence-completion item per word, so the
   bank covers essentially every word that ships without asking the same thing three ways.
-- A browsable question bank whose options are always visible and whose answers stay hidden until you
-  pick one or ask for the answer, so browsing it is practice rather than reading a solutions sheet.
+- A browsable question bank whose options are always visible and whose answers — and the links to
+  the words each item tests — stay hidden until you pick one or ask for the answer, so browsing it
+  is practice rather than reading a solutions sheet.
 - Quiz modes: random, weak words, mistake review, due review, bookmarked, difficult.
 - Answer feedback that explains why the right answer is right *and* why the important distractors are wrong.
 - Keyboard shortcuts (`1`–`4`, `Enter`, `Space`, `B`) that never fire while a form control has focus.
@@ -215,7 +216,7 @@ A quiz picks its words from the index *before* downloading anything, and picks t
 time: sampling words independently would scatter one quiz across most of the corpus's files.
 
 The question bank does the same for a different reason. The index records which recognition types
-each word supports, which is enough to know what the bank *contains* — 4,363 questions, their
+each word supports, which is enough to know what the bank *contains* — 4,453 questions, their
 order, and what every filter would leave — so the page builds question **references** and turns
 only the twenty in view into real questions. Two consequences worth knowing:
 
@@ -742,11 +743,13 @@ freely without corrupting the answer key.
 
 ### The browsable bank
 
-`src/services/question-bank.ts` assembles what `/question-bank` shows: 251 curated questions plus
+`src/services/question-bank.ts` assembles what `/question-bank` shows: 341 curated questions plus
 4,112 generated ones, ordered so a word's questions sit together, curated first.
 Generation there uses a **fixed seed** instead of `Math.random`, so a word's options are the same on
 every render, page turn and reload — a bank that reshuffled under the reader would be unstudyable.
-Answers are per-card state that resets whenever a filter changes or the page turns.
+Answers are per-card state that resets whenever a filter changes or the page turns. Everything that
+would give the key away waits for that reveal — the answer itself and the links to the words the
+item tests, which in a cloze or a 中譯英 item name the answer outright.
 
 ---
 
@@ -936,19 +939,19 @@ Example output:
       B2   1907
       C1   1429
       C2   784
-  curated questions  : 251
-      cloze              52
-      collocation        48
-      confusing_words    50
-      grammar            43
-      meaning_en_to_zh   10
-      meaning_zh_to_en   10
-      usage              38
+  curated questions  : 341
+      cloze              67
+      collocation        63
+      confusing_words    65
+      grammar            58
+      meaning_en_to_zh   18
+      meaning_zh_to_en   17
+      usage              53
 ```
 
 The counts above are the *curated* questions only — the questions kept in git. The bank the app
 shows also contains one generated recognition question per testable entry: 4,112 of them, for a
-bank of 4,363.
+bank of 4,453.
 
 ---
 
